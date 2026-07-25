@@ -50,6 +50,11 @@ DOSSIER_SCHEMA = _obj({
     "event_id": {"type": "string"},
     "title": {"type": "string"},
     "one_line_summary": {"type": "string"},
+    # Recorded with the story, not read from the environment at conversion time.
+    # A story is written in one register and voiced in it; if this lived in a
+    # shell variable the same dossier would convert differently depending on who
+    # ran it.
+    "language": {"type": "string", "enum": ["en", "hi-en"]},
     "fantasy": {"type": "string",
                 "description": "which promise this season sells, in four words"},
     # The two casting decisions the whole season rests on. Every test run
@@ -89,6 +94,13 @@ DOSSIER_SCHEMA = _obj({
         "name": {"type": "string"},
         "role": {"type": "string"},
         "want": {"type": "string"},
+        # Voice casting scores on gender and age before anything else, and it
+        # locks once — a character cast wrong keeps that voice for the whole
+        # series. Without these the resolver matched on persona prose alone and
+        # gave a 22-year-old woman a male voice, scored 1.0.
+        "gender": {"type": "string", "enum": ["female", "male", "neutral"]},
+        "age_range": {"type": "string", "enum": ["child", "teens", "20s", "30s",
+                                                 "40s", "50s", "60s+"]},
         "maps_to": {"type": "string"},
         "composite": {"type": "boolean"},
     })},

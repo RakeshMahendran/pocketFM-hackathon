@@ -254,9 +254,19 @@ Fill the dossier schema, plus `cast` and `season`.
  "name": "Nayan",
  "role": "what they do in the story",
  "want": "what they are chasing, in their own terms",
+ "gender": "female | male | neutral",
+ "age_range": "child | teens | 20s | 30s | 40s | 50s | 60s+",
  "maps_to": "the real role they stand in for, or 'invented'",
  "composite": true}
 </cast_shape>
+
+<voice_note>
+`gender` and `age_range` exist because this becomes audio. Voice casting scores
+on them before it looks at anything else, and it locks once — a character cast
+wrong keeps that voice for the whole series and into their spinoff. Left blank,
+the resolver matched on role text alone and gave a twenty-two-year-old woman a
+male voice, confidently.
+</voice_note>
 
 <season_shape>
 {"ep": 1,

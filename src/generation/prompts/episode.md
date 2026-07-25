@@ -49,6 +49,38 @@ the two or three lines under it, not the first page.
 </opening>
 </structure>
 
+<language mode="{{language_mode}}">
+Write in the mode named above. It is one of:
+
+- **`en`** — English throughout. Indian English: the rhythm and idiom of the
+  place, not translated Hindi.
+- **`hi-en`** — Hinglish. Hindi as the spoken base, English where English is
+  what would actually be said.
+
+<code_switching>
+In `hi-en`, do not translate and do not sprinkle. People switch for reasons, and
+the switch itself carries meaning:
+
+- **Officialdom is English.** Rules, forms, designations, anything read off a
+  document. "Rule fourteen, sub-clause three" stays English inside a Hindi line —
+  that is exactly how a counter clerk speaks.
+- **Feeling is the mother tongue.** Shame, pleading, rage, a mother to her son.
+  A character who switches to Hindi mid-argument has stopped performing.
+- **Switching UP into English is a power move**, and switching down is intimacy
+  or defeat. Use it deliberately — when someone who has been speaking Hindi
+  suddenly answers in English, the listener hears the door closing.
+- Numbers, dates and money in whichever language the speaker counts in. Keep one
+  character consistent.
+
+Mark each line's `language` as `hi`, `en`, or `hi-en` for what that line
+actually is. The synthesis provider handles English words inside a Hindi line
+without changing accent — but only if the line is tagged honestly.
+</code_switching>
+
+Everything else in this prompt applies unchanged. The register, the hooks and the
+structure do not soften because the language changed.
+</language>
+
 <form>
 SFX:        sound. Every scene opens on one.
 NARRATOR:   time jumps and consequence only.
