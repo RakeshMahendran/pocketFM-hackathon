@@ -23,6 +23,7 @@ from typing import Any, Dict, List, Optional, Sequence
 from src.util import (CORPUS_PATH, DOSSIERS_PATH, ensure_dirs, load_env, log,
                       offline, read_json, write_json)
 from src.discovery.cache import save_raw
+from src.scoring.validate import load_beats, validate_output
 
 PROMPTS = pathlib.Path(__file__).resolve().parent / "prompts"
 
@@ -377,6 +378,13 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         help="corpus item id, or a fragment of its title. Defaults to the "
              "scout's pick — the editor commissions, the scout only ranks.",
     )
+    parser.add_argument(
+        "--beats", default=None, metavar="PATH",
+        help="an existing beat sheet to re-grade against the dossier this run "
+             "produces. Used when a season is regenerated from a corrected "
+             "dossier; fatal problems block the write the way an unmapped name "
+             "does. Omit on a first expansion, when no beats exist yet.",
+    )
     args = parser.parse_args(argv)
 
     load_env()
@@ -405,6 +413,24 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         log("hard rule 4 cannot be enforced downstream — not writing this dossier",
             "error")
         return 1
+
+    if args.beats:
+        try:
+            beats = load_beats(pathlib.Path(args.beats))
+        except (RuntimeError, ValueError, json.JSONDecodeError) as exc:
+            log(str(exc), "error")
+            return 1
+        fatal, advisory = validate_output(dossier, beats)
+        for problem in advisory:
+            log(problem, "warn")
+        for problem in fatal:
+            log(problem, "error")
+        if fatal:
+            # A dossier the existing canon no longer traces back to is worse
+            # than no dossier: every stage downstream reads the two as a pair.
+            log(f"{args.beats} does not hold against this dossier — "
+                "not writing it", "error")
+            return 1
 
     write_json(DOSSIERS_PATH, [dossier])
     log(f"{dossier.get('title', '?')}: {len(dossier.get('season', []))} episodes")
