@@ -97,7 +97,7 @@ export function EpisodeScript({ body }: { body: string }) {
   if (!blocks.length) {
     return (
       <p className="text-sm text-muted">
-        This episode file is empty. Nothing was written to it.
+        This episode is empty — no script was ever written for it.
       </p>
     );
   }

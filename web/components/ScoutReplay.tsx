@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
 import type { NoveltyCheck, Replay, ReplayStep } from "@/lib/replay";
+import { CLEARANCE, HEADING, verdict } from "@/lib/words";
 
 /**
  * Plays the recorded hunt back.
@@ -72,22 +73,30 @@ function NoveltyMoment({
 }) {
   return (
     <div className="border-l-2 border-ochre pl-5 py-1">
-      <div className="label text-ochre">Novelty check</div>
+      <div className="label text-ochre">{HEADING.novelty}</div>
 
       <p className="mt-3 font-serif text-lg leading-snug prose-col">
-        That search was not hunting. It was the scout checking whether its own
-        strongest find had already been made.
+        That search was not looking for a story. It was checking whether the best
+        story it had found had already been made by somebody else.
       </p>
 
       <div className="mt-5 flex flex-wrap items-baseline gap-x-4 gap-y-1">
         <span className="font-serif text-xl">{check.title}</span>
         {check.total !== null && (
-          <span className="font-mono text-sm tabular-nums text-muted">
-            {check.total}/50
-            {isTopScore && " — the highest score in the run"}
+          <span className="text-sm text-muted">
+            <span className={verdict(check.total).className}>
+              {verdict(check.total).word}
+            </span>
+            <span className="font-mono tabular-nums">
+              {" "}
+              — {check.total} out of 50
+            </span>
+            {isTopScore && ", the best in the whole search"}
           </span>
         )}
-        <span className="label text-halt">Blocked</span>
+        <span className="label text-halt" title={CLEARANCE.blocked.plain}>
+          {CLEARANCE.blocked.short}
+        </span>
       </div>
 
       {check.priorAdaptations.length > 0 && (
@@ -113,8 +122,8 @@ function NoveltyMoment({
       )}
 
       <p className="mt-4 text-sm text-muted prose-col">
-        It scored at the top of the queue and still cannot be commissioned.
-        Clearance is binding, so the rule cost the scout its best candidate.
+        It rated higher than anything else in the queue and still cannot be made.
+        That rule is not a suggestion — it cost this search its own best story.
       </p>
 
       {href && (
@@ -122,7 +131,7 @@ function NoveltyMoment({
           href={href}
           className="mt-4 inline-block label hover:text-ochre transition-colors"
         >
-          Read the blocked brief →
+          Read why we cannot make it →
         </Link>
       )}
     </div>
@@ -150,7 +159,7 @@ function SearchRow({
     <li className="border-t border-rule py-6">
       <div className="flex items-baseline gap-4">
         <span className="label shrink-0 w-16 tabular-nums">
-          Query {String(step.ordinal).padStart(2, "0")}
+          Search {String(step.ordinal).padStart(2, "0")}
         </span>
         <p className="font-mono text-sm text-paper flex-1 min-w-0 break-words leading-relaxed">
           {step.query}
@@ -162,7 +171,7 @@ function SearchRow({
 
       {step.alsoIssued.length > 0 && (
         <div className="mt-4 pl-20">
-          <div className="label">Issued in the same call</div>
+          <div className="label">Searched for at the same time</div>
           <div className="mt-1.5 space-y-1">
             {step.alsoIssued.map((q, i) => (
               <p key={i} className="font-mono text-xs text-faint break-words">
@@ -179,7 +188,7 @@ function SearchRow({
             <summary className="label cursor-pointer hover:text-ochre transition-colors list-none">
               {group(step.urls.length)} pages opened
               {step.newUrls < step.urls.length &&
-                ` · ${group(step.newUrls)} not already seen`}
+                ` · ${group(step.newUrls)} it had not seen before`}
               <span className="group-open:hidden"> ▸</span>
               <span className="hidden group-open:inline"> ▾</span>
             </summary>
@@ -327,24 +336,24 @@ export function ScoutReplay({
     !started || done
       ? null
       : current?.kind === "reasoning"
-        ? "Reasoning — the response records these steps but stores no summary for them"
+        ? "Thinking — the recording notes that it stopped to think here, but does not keep what it thought"
         : current?.kind === "open"
-          ? "Opening a page directly"
+          ? "Opening a page to read it properly"
           : current?.kind === "result"
-            ? "Writing the structured result"
+            ? "Writing up what it found"
             : "Searching";
 
   return (
     <section className="mt-14 border-t border-rule-strong pt-8">
       <div className="flex items-end justify-between gap-8 flex-wrap">
         <div>
-          <h2 className="label">Playback</h2>
+          <h2 className="label">Watch the search</h2>
           <p className="mt-2 text-sm text-muted prose-col">
             {done
-              ? "The run is played out. Every query and URL above is read from the cached response."
+              ? "That is the whole search. Every line searched for and every page opened above is read straight from the recording — none of it was made up for this screen."
               : started
-                ? "Order and content are the recording's. Pacing is not — the response times the run end to end, not step by step, so playback spaces the steps evenly."
-                : `${replay.durationSeconds ? `${replay.durationSeconds} seconds` : "The run"} of real work, compressed to about ${PLAYBACK_MS / 1000} seconds of playback.`}
+                ? "What happens, and the order it happens in, is exactly what the recording holds. The timing is not: the recording only knows when the whole search started and finished, not how long each step took, so the steps are spaced evenly here."
+                : `${replay.durationSeconds ? `${replay.durationSeconds} seconds of real searching` : "The real search"}, squeezed into about ${PLAYBACK_MS / 1000} seconds to watch.`}
           </p>
         </div>
 
@@ -363,10 +372,10 @@ export function ScoutReplay({
             className="border border-ochre/50 text-ochre px-5 py-2.5 text-sm rounded-sm hover:bg-ochre/10 transition-colors disabled:opacity-40 disabled:hover:bg-transparent"
           >
             {phase === "idle"
-              ? "Replay the hunt"
+              ? "Play the search"
               : phase === "playing"
-                ? "Replaying…"
-                : "Replay again"}
+                ? "Playing…"
+                : "Play it again"}
           </button>
         </div>
       </div>
@@ -385,12 +394,12 @@ export function ScoutReplay({
               of={group(totalPages)}
             />
             <Stat
-              label="Reasoning steps"
+              label="Thinking steps"
               value={group(reasoningDone)}
               of={group(replay.reasoningSteps)}
             />
             <Stat
-              label="Candidates"
+              label="Stories found"
               value={done && replay.candidates !== null ? group(replay.candidates) : "—"}
             />
           </div>
@@ -406,7 +415,7 @@ export function ScoutReplay({
               />
             </span>
             <span className="label tabular-nums shrink-0">
-              Playback {Math.round(elapsed / 1000)}s / {PLAYBACK_MS / 1000}s
+              {Math.round(elapsed / 1000)}s of {PLAYBACK_MS / 1000}s watched
             </span>
           </div>
 
@@ -423,7 +432,7 @@ export function ScoutReplay({
                 return (
                   <li key={i} className="border-t border-rule py-6">
                     <div className="flex items-baseline gap-4">
-                      <span className="label shrink-0 w-16">Open</span>
+                      <span className="label shrink-0 w-16">Read</span>
                       <a
                         href={s.url}
                         target="_blank"
@@ -434,8 +443,8 @@ export function ScoutReplay({
                       </a>
                     </div>
                     <p className="mt-3 pl-20 text-sm text-faint prose-col">
-                      A result the scout went back to read in full. Nothing it
-                      could not open is allowed to become a citation.
+                      A page it went back to read in full. If it could not open
+                      a page, that page is not allowed to be used as a source.
                     </p>
                   </li>
                 );
@@ -466,44 +475,56 @@ export function ScoutReplay({
 
       {done && (
         <div className="mt-10 border-t border-rule-strong pt-8">
-          <h2 className="label">What the run produced</h2>
+          <h2 className="label">What the search came back with</h2>
 
           {replay.candidates === null ? (
             <p className="mt-4 text-sm text-caution prose-col">
-              The recording's search history replayed, but its structured result
-              would not parse, so the candidate tally cannot be shown. The
-              sourcing queue reads <span className="font-mono">corpus.json</span>,
-              which was written from this run.
+              The searching played back fine, but the write-up at the end of the
+              recording is damaged, so we cannot show how many stories it found.
+              The story list still shows the stories this search produced.
             </p>
           ) : (
             <>
               <p className="mt-4 font-serif text-2xl leading-snug prose-col">
-                {group(replay.candidates)} candidates, graded and cleared.
+                {group(replay.candidates)} stories found, rated, and checked
+                against what we are allowed to make.
               </p>
               <div className="mt-5 flex flex-wrap gap-x-8 gap-y-2">
-                <span className="text-sm text-clear">
-                  {replay.clearance.greenlight} greenlight
+                <span
+                  className="text-sm text-clear"
+                  title={CLEARANCE.greenlight.plain}
+                >
+                  {replay.clearance.greenlight} safe to make
                 </span>
-                <span className="text-sm text-caution">
-                  {replay.clearance.fictionalize_first} fictionalize first
+                <span
+                  className="text-sm text-caution"
+                  title={CLEARANCE.fictionalize_first.plain}
+                >
+                  {replay.clearance.fictionalize_first} need the names changed
                 </span>
-                <span className="text-sm text-halt">
-                  {replay.clearance.blocked} blocked
+                <span
+                  className="text-sm text-halt"
+                  title={CLEARANCE.blocked.plain}
+                >
+                  {replay.clearance.blocked} we cannot make
                 </span>
               </div>
               {replay.novelty.length > 0 && (
                 <div className="mt-7">
                   <div className="label">
-                    Refused because the event was already dramatised
+                    Turned down because somebody has already made it
                   </div>
                   <ul className="mt-2.5 space-y-1.5">
                     {replay.novelty.map((n, i) => (
                       <li key={i} className="text-sm text-muted prose-col">
                         <span className="text-paper">{n.title}</span>
                         {n.total !== null && (
-                          <span className="font-mono text-xs text-faint tabular-nums">
+                          <span className="text-xs text-faint">
                             {" "}
-                            {n.total}/50
+                            {verdict(n.total).word},{" "}
+                            <span className="font-mono tabular-nums">
+                              {n.total} out of 50
+                            </span>
                           </span>
                         )}
                         {" — "}
@@ -516,11 +537,12 @@ export function ScoutReplay({
 
               {replay.winner && (
                 <p className="mt-6 text-sm text-muted prose-col">
-                  The scout staked the run on{" "}
+                  Out of everything it found, its own pick was{" "}
                   <span className="text-paper font-serif text-base">
                     {replay.winner}
                   </span>
-                  . That is advisory — the editor commissions.
+                  . That is a recommendation, nothing more — you decide what
+                  gets made.
                 </p>
               )}
             </>
@@ -528,19 +550,35 @@ export function ScoutReplay({
 
           <div className="mt-8 flex flex-wrap gap-x-8 gap-y-2 label">
             <span>{group(replay.searches.length)} searches</span>
-            <span>{group(replay.distinctUrls)} distinct pages opened</span>
-            <span>{group(replay.reasoningSteps)} reasoning steps</span>
-            {replay.usage && <span>{group(replay.usage.total)} tokens</span>}
+            <span>{group(replay.distinctUrls)} different pages opened</span>
+            <span>{group(replay.reasoningSteps)} thinking steps</span>
             {replay.durationSeconds !== null && (
-              <span>{replay.durationSeconds}s wall clock</span>
+              <span>{replay.durationSeconds} seconds start to finish</span>
             )}
           </div>
+
+          {/*
+            Not deleted, just not first: the usage figures are how the run gets
+            costed, and somebody does need them. They are simply not what an
+            editor reads a search summary for.
+          */}
+          {replay.usage && (
+            <details className="mt-4">
+              <summary className="label cursor-pointer hover:text-ochre transition-colors">
+                For whoever runs it
+              </summary>
+              <p className="mt-2 font-mono text-xs text-faint tabular-nums">
+                {group(replay.usage.total)} tokens · {group(replay.usage.input)}{" "}
+                in · {group(replay.usage.output)} out
+              </p>
+            </details>
+          )}
 
           <Link
             href="/sourcing"
             className="mt-10 inline-block border border-rule-strong px-5 py-2.5 text-sm rounded-sm hover:border-ochre hover:text-ochre transition-colors"
           >
-            Open the sourcing queue →
+            Open the story list →
           </Link>
         </div>
       )}

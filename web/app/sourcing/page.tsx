@@ -4,7 +4,13 @@ import { ClearanceBadge } from "@/components/ClearanceBadge";
 import { Notice } from "@/components/Notice";
 import { loadCorpus } from "@/lib/data";
 import { requireEditor } from "@/lib/session";
-import { BAR_EXPLAINED, category, stateOf, verdict } from "@/lib/words";
+import {
+  BAR_EXPLAINED,
+  FOR_THE_OPERATOR,
+  category,
+  stateOf,
+  verdict,
+} from "@/lib/words";
 import type { Candidate } from "@/lib/types";
 
 // Reads the filesystem on every request, so a fresh search shows up without a
@@ -20,7 +26,7 @@ function Row({ candidate }: { candidate: Candidate }) {
     category(candidate.category),
     candidate.year,
     candidate.where,
-    candidate.sources.length ? candidate.domain : "source not recorded",
+    candidate.sources.length ? candidate.domain : "no source recorded",
   ].filter(Boolean);
 
   return (
@@ -91,7 +97,7 @@ export default async function SourcingQueue() {
             Stories worth making
           </h1>
           <p className="label mt-2">
-            {assembled ? "From earlier searches" : "Found by the research agent"}
+            {assembled ? "From earlier searches" : "From the latest search"}
             {builtAt && ` · searched ${builtAt.slice(0, 10)}`}
           </p>
         </div>
@@ -137,17 +143,16 @@ export default async function SourcingQueue() {
         <div className="mt-16 border border-rule rounded-sm p-10">
           <h2 className="font-serif text-xl">No stories yet</h2>
           <p className="mt-3 text-sm text-muted prose-col leading-relaxed">
-            The research agent hasn&rsquo;t searched yet. When it does, it reads
-            court records and news for real events that could carry a series,
-            scores them, and checks whether we&rsquo;re allowed to make each one.
-            What it finds is saved, so this list stays put until someone runs it
-            again.
+            Nobody has run a search yet. When one runs, it reads court records
+            and news for real events that could carry a series, rates them, and
+            checks whether we&rsquo;re allowed to make each one. What it finds
+            is saved, so this list stays put until someone searches again.
           </p>
           {/* The command is real and someone needs it — but it is addressed to
               whoever runs the machine, not to the person reading this page. */}
           <details className="mt-6">
             <summary className="label cursor-pointer hover:text-ochre">
-              For whoever set this up
+              {FOR_THE_OPERATOR}
             </summary>
             <code className="mt-3 block font-mono text-sm text-ochre">
               python tasks.py corpus

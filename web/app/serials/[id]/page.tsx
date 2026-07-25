@@ -7,8 +7,89 @@ import { SeasonSpine } from "@/components/SeasonSpine";
 import { loadSerial, type Confidence, type PromiseLedger, type Serial } from "@/lib/serials";
 import { requireEditor } from "@/lib/session";
 import { SCORE_LABELS, type Scores } from "@/lib/types";
+import { HEADING, MEASURES, category, verdict } from "@/lib/words";
 
 export const dynamic = "force-dynamic";
+
+/**
+ * The loader names gaps and problems by the file or field they came from. An
+ * editor has seen neither, so both are said as the thing they would have been
+ * told. Both tables belong in `lib/words.ts`; they are written here because
+ * that file is owned elsewhere this session.
+ */
+const PART_WORDS: Record<string, string> = {
+  season: "the episode-by-episode plan",
+  cast: "the character list",
+  timeline: "what really happened",
+  clearance: "the legal check",
+  never_narrate_as_fact: "the claims we cannot state as fact",
+  fictionalization_map: "the name changes",
+  sources: "where it came from",
+  scores: "the rating",
+  engine: "why it will not run out of story",
+  category: "the genre",
+  sells: "the pitch line",
+};
+
+function partWords(keys: string[]): string {
+  return keys.map((k) => PART_WORDS[k] ?? k.replace(/_/g, " ")).join(", ");
+}
+
+const NOTE_REWRITES: [RegExp, string][] = [
+  [
+    /beats\.json will not parse — canon counts unavailable\./,
+    "the record of what happens in the story is damaged, so those counts are missing.",
+  ],
+  [
+    /promises\.json will not parse — the ledger is not shown\./,
+    "the record of setups and payoffs is damaged, so it is not shown.",
+  ],
+  [
+    /planned but not yet written — no episode files on disk\./,
+    "is planned, but no episodes have been written yet.",
+  ],
+  [
+    /the ledger declares (\d+) open and the rows count (\d+)\. The rows are shown\./,
+    "the setups-and-payoffs summary says $1 are still open while the rows themselves come to $2. The rows are what is shown.",
+  ],
+  [
+    /the season plans (\d+) episodes and (\d+) are written\./,
+    "the plan runs to $1 episodes and $2 have been written.",
+  ],
+];
+
+function plainNote(note: string): string {
+  let out = note;
+  for (const [pattern, replacement] of NOTE_REWRITES) {
+    out = out.replace(pattern, replacement);
+  }
+  return out;
+}
+
+/**
+ * The lead and the opposition are free-form blocks whose keys differ by story.
+ * Known ones are said as a question the line answers; anything else falls back
+ * to the raw key with its underscores opened out.
+ */
+const PERSON_WORDS: Record<string, string> = {
+  who: "who they are",
+  wants: "what they want",
+  wants_incompatibly: "what they want instead",
+  ashamed_of: "what they are ashamed of",
+  does_not_know_at_start: "what they do not know at the start",
+};
+
+function personLabel(key: string): string {
+  return PERSON_WORDS[key] ?? key.replace(/_/g, " ");
+}
+
+/** How solid a claim is, said without the record-keeping vocabulary. */
+const CONFIDENCE_WORDS: Record<Confidence, string> = {
+  verified: "confirmed",
+  reported: "reported at the time",
+  alleged: "only alleged",
+  disputed: "disputed",
+};
 
 function Section({
   title,
@@ -48,7 +129,9 @@ function ScoreBars({ scores }: { scores: Scores }) {
     <div className="space-y-2.5">
       {keys.map((k) => (
         <div key={k} className="flex items-center gap-3">
-          <span className="label w-40 shrink-0">{SCORE_LABELS[k]}</span>
+          <span className="label w-40 shrink-0" title={MEASURES[k]?.asks}>
+            {MEASURES[k]?.label ?? SCORE_LABELS[k]}
+          </span>
           <span className="h-1 flex-1 bg-raised rounded-full overflow-hidden">
             <span
               className="block h-full bg-ochre/70"
@@ -68,9 +151,10 @@ function Ledger({ ledger }: { ledger: PromiseLedger }) {
   if (ledger.absent) {
     return (
       <p className="text-sm text-muted leading-relaxed prose-col">
-        No <span className="font-mono">promises.json</span> for this season. The
-        ledger is what says whether a setup was ever paid off, so without it there
-        is no way to tell an open thread from an abandoned one.
+        Nobody tracked the setups and payoffs for this season. That record is
+        what says whether a question the show raised ever got answered, so
+        without it there is no way to tell a thread still running from one that
+        was simply dropped.
       </p>
     );
   }
@@ -78,7 +162,7 @@ function Ledger({ ledger }: { ledger: PromiseLedger }) {
   if (!ledger.promises.length) {
     return (
       <p className="text-sm text-muted leading-relaxed prose-col">
-        The ledger file exists but records no promises.
+        Setups and payoffs were tracked for this season, but none were recorded.
       </p>
     );
   }
@@ -94,16 +178,16 @@ function Ledger({ ledger }: { ledger: PromiseLedger }) {
           >
             {ledger.openCount}
           </div>
-          <div className="label mt-1.5">still open</div>
+          <div className="label mt-1.5">still unanswered</div>
         </div>
         <div>
           <div className="font-mono text-3xl leading-none tabular-nums">
             {ledger.paidCount}
           </div>
-          <div className="label mt-1.5">paid off</div>
+          <div className="label mt-1.5">answered</div>
         </div>
         {ledger.state && (
-          <div className="label max-w-xs">ledger {ledger.state}</div>
+          <div className="label max-w-xs">where it stands — {ledger.state}</div>
         )}
       </div>
 
@@ -117,10 +201,15 @@ function Ledger({ ledger }: { ledger: PromiseLedger }) {
         {ledger.promises.map((p) => (
           <li key={p.id} className="border-b border-rule py-4">
             <div className="flex items-baseline gap-3 flex-wrap">
-              <span className="font-mono text-[0.6875rem] text-faint">{p.id}</span>
+              <span
+                className="font-mono text-[0.6875rem] text-faint"
+                title="The reference this one is filed under."
+              >
+                {p.id}
+              </span>
               <span className="label">
-                raised ep {p.raisedEp ?? "?"}
-                {p.mustPayBy !== null && ` · due by ${p.mustPayBy}`}
+                set up in ep {p.raisedEp ?? "?"}
+                {p.mustPayBy !== null && ` · should be answered by ep ${p.mustPayBy}`}
               </span>
               <span
                 className={`label ${
@@ -132,30 +221,36 @@ function Ledger({ ledger }: { ledger: PromiseLedger }) {
                 }`}
               >
                 {p.state === "paid"
-                  ? `paid ep ${p.paidEp ?? "?"}`
+                  ? `answered in ep ${p.paidEp ?? "?"}`
                   : p.state === "open"
-                    ? "open"
-                    : "state not recorded"}
+                    ? "still unanswered"
+                    : "nobody recorded whether it was answered"}
               </span>
               {p.late && (
-                <span className="label text-caution" title="Paid later than the ledger's own deadline">
+                <span
+                  className="label text-caution"
+                  title="Answered later than the season planned to answer it."
+                >
                   late
                 </span>
               )}
             </div>
 
             <p className="font-serif text-[1.0625rem] leading-relaxed mt-2 prose-col">
-              {p.promise ?? p.waitingFor ?? "No statement of the promise recorded."}
+              {p.promise ??
+                p.waitingFor ??
+                "Nothing was written down about what this one promised."}
             </p>
 
             {p.promise && p.waitingFor && (
               <p className="text-sm text-muted leading-relaxed mt-2 prose-col">
-                Listener is waiting for: {p.waitingFor}
+                What the listener is waiting to find out: {p.waitingFor}
               </p>
             )}
 
             {p.howPaid && (
               <p className="text-sm text-muted leading-relaxed mt-2 prose-col border-l border-rule-strong pl-4">
+                <span className="label block mb-1">How the show answers it</span>
                 {p.howPaid}
               </p>
             )}
@@ -174,7 +269,8 @@ function Ledger({ ledger }: { ledger: PromiseLedger }) {
                 </p>
                 <p className="text-sm text-muted leading-relaxed mt-1.5">
                   <span className="label">
-                    ep {d.raisedEp ?? "?"} → {d.settledEp ?? "unsettled"}
+                    ep {d.raisedEp ?? "?"} →{" "}
+                    {d.settledEp ? `ep ${d.settledEp}` : "never settled"}
                   </span>{" "}
                   {d.how}
                 </p>
@@ -194,13 +290,17 @@ function Ledger({ ledger }: { ledger: PromiseLedger }) {
 }
 
 function Header({ s }: { s: Serial }) {
+  const rated = verdict(s.scores ? s.scores.total : null);
   return (
     <header className="mt-6 flex items-start justify-between gap-8 flex-wrap">
       <div className="min-w-0">
         <div className="flex items-center gap-3 flex-wrap">
           <ClearanceBadge clearance={s.clearance} size="lg" />
-          {s.category && <span className="label">{s.category}</span>}
-          <span className="font-mono text-[0.6875rem] text-faint">
+          {s.category && <span className="label">{category(s.category)}</span>}
+          <span
+            className="font-mono text-[0.6875rem] text-faint"
+            title="The reference this show is filed under."
+          >
             {s.eventId ?? s.id}
           </span>
         </div>
@@ -215,12 +315,14 @@ function Header({ s }: { s: Serial }) {
       </div>
 
       <div className="text-right shrink-0">
-        <div className="font-mono text-5xl leading-none tabular-nums">
-          {s.scores ? s.scores.total : "—"}
+        <div className={`font-serif text-4xl leading-none ${rated.className}`}>
+          {rated.word}
         </div>
-        <div className="label mt-2">out of 50</div>
+        <div className="label mt-2">
+          {s.scores ? `${s.scores.total} out of 50` : "never rated"}
+        </div>
         <div className="label mt-3">
-          {s.episodeCount} of {s.spineLength || s.episodeCount} written
+          {s.episodeCount} of {s.spineLength || s.episodeCount} episodes written
         </div>
       </div>
     </header>
@@ -236,7 +338,7 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
       <Link href="/serials" className="label hover:text-ochre transition-colors">
-        ← Slate
+        ← Shows we’re making
       </Link>
 
       <Header s={s} />
@@ -251,14 +353,14 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
         <div className="mt-8 space-y-3">
           {s.notes.map((n, i) => (
             <Notice key={i} tone="info">
-              {n}
+              {plainNote(n)}
             </Notice>
           ))}
           {s.missing.length > 0 && (
             <Notice tone="info">
-              Absent from this dossier:{" "}
-              <span className="font-mono">{s.missing.join(", ")}</span>. It was
-              written before the schema settled, so the fields were never produced.
+              Not recorded for this show: {partWords(s.missing)}. It was put
+              together before we settled on what every show should come with, so
+              these were never filled in.
             </Notice>
           )}
         </div>
@@ -266,9 +368,13 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
 
       <div className="mt-12">
         <div className="flex items-baseline justify-between gap-6 mb-4">
-          <h2 className="label">The season</h2>
-          <span className="label">
-            {s.beatCount} beats · {s.beatsWithHiddenFrom} carry hidden_from
+          <h2 className="label">The season, episode by episode</h2>
+          <span
+            className="label"
+            title="Everything the season treats as having really happened is recorded one by one, along with who was there — and who never finds out. That second part is what lets a side character carry their own show later without contradicting this one."
+          >
+            {s.beatCount} things happen · {s.beatsWithHiddenFrom} of them are kept
+            from someone
           </span>
         </div>
         <SeasonSpine id={s.id} spine={s.spine} episodes={s.episodes} />
@@ -277,24 +383,22 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
       <div className="mt-14 grid lg:grid-cols-[1fr_20rem] gap-x-14 gap-y-8 items-start">
         <div className="space-y-10 min-w-0">
           {s.engine && (
-            <Section title="Engine — why it keeps generating">
+            <Section title={HEADING.engine}>
               <p className="font-serif text-lg leading-relaxed prose-col">
                 {s.engine}
               </p>
             </Section>
           )}
 
-          <Section title="The sell">
+          <Section title={HEADING.sells}>
             {s.sells ? (
               <p className="font-serif text-lg leading-relaxed prose-col">
                 {s.sells}
               </p>
             ) : (
               <p className="text-sm text-caution leading-relaxed prose-col">
-                No pitch line in this dossier — it carries none of{" "}
-                <span className="font-mono">sells</span>,{" "}
-                <span className="font-mono">selling</span> or{" "}
-                <span className="font-mono">why_this_sells</span>.
+                Nobody wrote a pitch line for this one, so there is no single
+                sentence here saying what a listener is buying.
               </p>
             )}
             {s.whyThisWorks && (
@@ -308,17 +412,17 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
           </Section>
 
           <Section
-            title="Cast"
+            title={HEADING.cast}
             aside={
               s.castCount
-                ? `${s.castCount} with distinct wants`
-                : "none recorded"
+                ? `${s.castCount}, each wanting something different`
+                : "nobody recorded"
             }
           >
             {s.cast.length === 0 ? (
               <p className="text-sm text-muted">
-                No cast recorded. Every spinoff starts from this list, so a season
-                without one cannot be extended.
+                No characters recorded. Every spin-off show starts from this
+                list, so a season without one cannot be extended.
               </p>
             ) : (
               <ul className="divide-y divide-rule border-t border-rule">
@@ -326,10 +430,20 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
                   <li key={c.id} className="py-4">
                     <div className="flex items-baseline gap-3 flex-wrap">
                       <span className="font-serif text-lg">{c.name}</span>
-                      <span className="font-mono text-[0.6875rem] text-faint">
+                      <span
+                        className="font-mono text-[0.6875rem] text-faint"
+                        title="The reference this character is filed under."
+                      >
                         {c.id}
                       </span>
-                      {c.composite && <span className="label">composite</span>}
+                      {c.composite && (
+                        <span
+                          className="label"
+                          title="Invented by combining several real people, so no single real person is being portrayed."
+                        >
+                          several people in one
+                        </span>
+                      )}
                     </div>
                     {c.role && (
                       <p className="text-sm text-muted leading-relaxed mt-1">
@@ -342,7 +456,7 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
                       </p>
                     )}
                     {c.mapsTo && (
-                      <p className="label mt-2">maps to — {c.mapsTo}</p>
+                      <p className="label mt-2">stands in for — {c.mapsTo}</p>
                     )}
                   </li>
                 ))}
@@ -351,13 +465,14 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
           </Section>
 
           <Section
-            title="Timeline of the real event"
+            title="What really happened, in order"
             aside={`${s.timeline.length} ${s.timeline.length === 1 ? "entry" : "entries"}`}
           >
             {s.timeline.length === 0 ? (
               <p className="text-sm text-muted">
-                No timeline recorded. Every beat is supposed to cite one of these
-                or be marked invented.
+                Nothing recorded. Everything that happens in the scripts is
+                supposed to point back to one of these entries, or be marked as
+                invented for the show.
               </p>
             ) : (
               <ol className="border-t border-rule">
@@ -373,10 +488,20 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
                             ? CONFIDENCE_LOOK[t.confidence]
                             : "text-faint"
                         }`}
+                        title={
+                          t.confidence === "alleged" || t.confidence === "disputed"
+                            ? "Not settled fact. A character can accuse someone of this; the narrator can never say it is true."
+                            : undefined
+                        }
                       >
-                        {t.confidence ?? "confidence not stated"}
+                        {t.confidence
+                          ? CONFIDENCE_WORDS[t.confidence]
+                          : "nobody said how solid this is"}
                       </span>
-                      <span className="font-mono text-[0.6875rem] text-faint">
+                      <span
+                        className="font-mono text-[0.6875rem] text-faint"
+                        title="The reference this entry is filed under."
+                      >
                         {t.id}
                       </span>
                     </div>
@@ -400,19 +525,19 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
           </Section>
 
           <Section
-            title="Never narrate as fact"
-            aside={`${s.neverNarrateCount} held back`}
+            title="Claims the narrator can never state as fact"
+            aside={`${s.neverNarrateCount} of them`}
           >
             <p className="text-sm text-muted leading-relaxed prose-col mb-4">
-              Derived from the <span className="font-mono">alleged</span> and{" "}
-              <span className="font-mono">disputed</span> lines above. A character
-              may assert any of these; the narrator may not state one as true.
+              These come from the entries above that were only alleged or are
+              still disputed. A character can accuse someone of any of them; the
+              narrator can never say one is true.
             </p>
             {s.neverNarrate.length === 0 ? (
               <p className="text-sm text-caution leading-relaxed prose-col">
-                Nothing is held back. Either the record contains no contested
-                claim, or the constraint was never derived — worth checking against
-                the timeline before this season is written to.
+                Nothing is held back here. Either nothing about this story is
+                contested, or nobody drew the list up — worth checking against
+                what really happened before any more of this season is written.
               </p>
             ) : (
               <ul className="border-t border-halt/30">
@@ -429,11 +554,11 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
           </Section>
 
           <Section
-            title="Promise ledger"
+            title="Questions the show raises, and where it answers them"
             aside={
               s.ledger.absent
-                ? "no file"
-                : `${s.ledger.openCount} open of ${s.totalPromises}`
+                ? "not tracked"
+                : `${s.ledger.openCount} of ${s.totalPromises} still unanswered`
             }
           >
             <Ledger ledger={s.ledger} />
@@ -442,13 +567,13 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
 
         <aside className="space-y-8">
           {s.scores && (
-            <Section title="Adaptability">
+            <Section title={HEADING.score} aside={`${s.scores.total} of 50`}>
               <ScoreBars scores={s.scores} />
             </Section>
           )}
 
           {s.clearance && s.clearance.reasons.length > 0 && (
-            <Section title="Clearance reasoning">
+            <Section title={HEADING.clearanceReasons}>
               <ul className="space-y-2.5">
                 {s.clearance.reasons.map((r, i) => (
                   <li key={i} className="text-sm text-muted leading-relaxed">
@@ -460,11 +585,11 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
           )}
 
           {s.protagonist && (
-            <Section title="Protagonist">
+            <Section title="Who it follows">
               <dl className="space-y-2.5">
                 {Object.entries(s.protagonist).map(([k, v]) => (
                   <div key={k}>
-                    <dt className="label">{k.replace(/_/g, " ")}</dt>
+                    <dt className="label">{personLabel(k)}</dt>
                     <dd className="text-sm text-muted leading-relaxed mt-1">{v}</dd>
                   </div>
                 ))}
@@ -473,11 +598,11 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
           )}
 
           {s.antagonist && (
-            <Section title="Antagonist">
+            <Section title="Who is against them">
               <dl className="space-y-2.5">
                 {Object.entries(s.antagonist).map(([k, v]) => (
                   <div key={k}>
-                    <dt className="label">{k.replace(/_/g, " ")}</dt>
+                    <dt className="label">{personLabel(k)}</dt>
                     <dd className="text-sm text-muted leading-relaxed mt-1">{v}</dd>
                   </div>
                 ))}
@@ -486,13 +611,14 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
           )}
 
           <Section
-            title="Fictionalization map"
-            aside={s.fictionalizationMap.length ? undefined : "none"}
+            title="Real name → name in the show"
+            aside={s.fictionalizationMap.length ? undefined : "none set"}
           >
             {s.fictionalizationMap.length === 0 ? (
               <p className="text-sm text-halt leading-relaxed">
-                No map. Real names must be replaced before generation, so a season
-                without one cannot be shown to have been.
+                No name changes recorded. Real names have to be swapped out
+                before a word is written, so there is nothing here to prove that
+                was done.
               </p>
             ) : (
               <dl className="space-y-3">
@@ -508,9 +634,12 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
             )}
           </Section>
 
-          <Section title="Novelty">
+          <Section title={HEADING.novelty}>
             {s.priorAdaptations.length === 0 ? (
-              <p className="text-sm text-clear">No prior adaptation found.</p>
+              <p className="text-sm text-clear">
+                Nothing found. As far as we can tell, nobody has told this story
+                before.
+              </p>
             ) : (
               <ul className="space-y-2">
                 {s.priorAdaptations.map((p, i) => (
@@ -522,9 +651,11 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
             )}
           </Section>
 
-          <Section title="Sources">
+          <Section title={HEADING.sources}>
             {s.sources.length === 0 ? (
-              <p className="text-sm text-halt">None cited.</p>
+              <p className="text-sm text-halt">
+                Nothing cited. Nobody recorded where this story came from.
+              </p>
             ) : (
               <ul className="space-y-2">
                 {s.sources.map((src, i) => (

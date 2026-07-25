@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { FOR_THE_OPERATOR } from "@/lib/words";
+
 /**
  * One job the tool can do, described by what it does for you.
  *
@@ -63,7 +65,7 @@ export function AgentCard({
       {command && (
         <details className="px-6 pb-5">
           <summary className="label cursor-pointer hover:text-ochre list-none">
-            For whoever runs it
+            {FOR_THE_OPERATOR}
           </summary>
           <code className="mt-2 block font-mono text-xs text-faint break-all">
             {command}

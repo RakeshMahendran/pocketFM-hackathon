@@ -2,6 +2,8 @@
 
 import { useEffect } from "react";
 
+import { FOR_THE_OPERATOR } from "@/lib/words";
+
 /**
  * Last line of defence. The realistic cause here is malformed JSON under
  * `data/` — the loader tolerates missing files and missing fields, but not a
@@ -32,19 +34,19 @@ export default function ErrorPage({
       </h1>
       <p className="mt-4 text-sm text-muted prose-col leading-relaxed">
         Nothing you did caused this and nothing has been lost. Try again — if it
-        keeps happening, send whoever set this up the reference below.
+        keeps happening, open the note below and send it to whoever runs this.
       </p>
 
       <details className="mt-6">
         <summary className="label cursor-pointer hover:text-ochre">
-          For whoever set this up
+          {FOR_THE_OPERATOR}
         </summary>
         <p className="mt-2 text-sm text-faint prose-col leading-relaxed">
           Missing files and missing fields are handled; a file that will not
           parse is not. Check the JSON under{" "}
           <code className="font-mono">data/</code> — most likely{" "}
-          <code className="font-mono">corpus.json</code> or a story dossier
-          edited by hand.
+          <code className="font-mono">corpus.json</code> or a story file edited
+          by hand.
           {error.digest && (
             <>
               {" "}

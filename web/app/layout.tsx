@@ -7,13 +7,13 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "CanonForge",
   description:
-    "Commissioning console: real events worth adapting, scored and cleared.",
+    "Real events worth turning into a series, rated and legally checked.",
 };
 
 /**
  * Two top-level areas, because that is how a commissioning editor's week
  * actually splits — what we could make, and what we have made. Both hang off
- * the agent picker at /home, which is the screen an editor lands on.
+ * /home, the screen an editor lands on, which lists the jobs the tool can do.
  *
  * Signed out, the nav offers nothing. Not for security — the guard that matters
  * is in each page — but because links into an app you cannot read are noise on
@@ -39,13 +39,13 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
               <>
                 <nav className="flex items-center gap-7 text-sm">
                   <Link href="/home" className="hover:text-ochre transition-colors">
-                    Agents
+                    Home
                   </Link>
                   <Link href="/sourcing" className="hover:text-ochre transition-colors">
-                    Sourcing
+                    Stories
                   </Link>
                   <Link href="/serials" className="hover:text-ochre transition-colors">
-                    Slate
+                    Shows
                   </Link>
                 </nav>
 
@@ -68,7 +68,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
 
         <footer className="border-t border-rule">
           <div className="mx-auto max-w-6xl px-8 py-5 label">
-            Scores are advisory · Clearance is binding
+            Scores are a guide · The legal check is final
           </div>
         </footer>
       </body>

@@ -7,7 +7,17 @@ import { Notice } from "@/components/Notice";
 import { loadCandidate } from "@/lib/data";
 import { requireEditor } from "@/lib/session";
 import type { Scores } from "@/lib/types";
-import { BAR_EXPLAINED, HEADING, MEASURES, category, verdict } from "@/lib/words";
+import {
+  BAR_EXPLAINED,
+  HEADING,
+  IN_PRODUCTION,
+  MEASURES,
+  SCALE_EXPLAINED,
+  SPINOFF_POTENTIAL,
+  TOP_PICK,
+  category,
+  verdict,
+} from "@/lib/words";
 
 export const dynamic = "force-dynamic";
 
@@ -48,7 +58,9 @@ function ScoreBars({ scores }: { scores: Scores }) {
           </span>
         </div>
       ))}
-      <p className="text-xs text-faint pt-1">{BAR_EXPLAINED}</p>
+      <p className="text-xs text-faint pt-1">
+        {SCALE_EXPLAINED} {BAR_EXPLAINED}
+      </p>
     </div>
   );
 }
@@ -69,16 +81,16 @@ export default async function CandidateBrief(
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
       <Link href="/sourcing" className="label hover:text-ochre transition-colors">
-        ← Sourcing queue
+        ← Stories worth making
       </Link>
 
       <header className="mt-6 flex items-start justify-between gap-8 flex-wrap">
         <div className="min-w-0">
           <div className="flex items-center gap-3 flex-wrap">
             <ClearanceBadge clearance={c.clearance} size="lg" />
-            {c.winner && <span className="label text-ochre">Scout pick</span>}
+            {c.winner && <span className="label text-ochre">{TOP_PICK}</span>}
             {c.origin === "commissioned" && (
-              <span className="label text-clear">Commissioned</span>
+              <span className="label text-clear">{IN_PRODUCTION}</span>
             )}
           </div>
           <h1 className="font-serif text-4xl tracking-tight mt-4 leading-tight">
@@ -101,7 +113,9 @@ export default async function CandidateBrief(
             {c.scores ? `${c.scores.total}/50` : "not scored"}
           </div>
           {c.episode_estimate && (
-            <div className="label mt-3">could run ~{c.episode_estimate} episodes</div>
+            <div className="label mt-3">
+              could run about {c.episode_estimate} episodes
+            </div>
           )}
         </div>
       </header>
@@ -115,9 +129,9 @@ export default async function CandidateBrief(
       {c.missing.length > 0 && (
         <div className="mt-8">
           <Notice tone="info">
-            Some of the usual detail is missing on this one — it was found by an
-            earlier version of the research agent that didn&rsquo;t record
-            everything. You may want a second look before backing it.
+            Some of the usual detail is missing on this one — it came from an
+            earlier search that didn&rsquo;t record everything. Worth a second
+            look before you back it.
           </Notice>
         </div>
       )}
@@ -171,7 +185,7 @@ export default async function CandidateBrief(
                           m.spinoff_potential === "high" ? "text-ochre" : ""
                         }`}
                       >
-                        {m.spinoff_potential} spinoff
+                        {SPINOFF_POTENTIAL[m.spinoff_potential]}
                       </span>
                     )}
                   </li>
@@ -231,7 +245,8 @@ export default async function CandidateBrief(
             {c.sources.length === 0 ? (
               <p className="text-sm text-halt">
                 Nothing recorded. We can&rsquo;t show you where this story came
-                from, so treat it as unverified until someone checks it.
+                from, so treat it as unchecked until someone can point at a
+                real source.
               </p>
             ) : (
               <ul className="space-y-2">

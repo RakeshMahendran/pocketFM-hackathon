@@ -41,10 +41,10 @@ export default async function Home() {
           could run and says whether we&rsquo;re allowed to make it.
         </AgentCard>
 
-        <AgentCard name="Stories worth making" status="Last search" href="/sourcing">
-          Everything the search turned up, best first. Anything we can&rsquo;t
-          legally make sinks to the bottom and stays there — however good it is,
-          nobody can push it through.
+        <AgentCard name="Stories worth making" status="Ready" href="/sourcing">
+          Everything the last search turned up, best first. Anything we
+          can&rsquo;t legally make sinks to the bottom and stays there — however
+          good it is, nobody can push it through.
         </AgentCard>
 
         <AgentCard
@@ -53,8 +53,9 @@ export default async function Home() {
           href="/serials"
           command={"python tasks.py serial --event <id>"}
         >
-          Series already commissioned, with the episode-by-episode plan for each
-          one and a check on whether it kept the promises it was written to keep.
+          The series we have already said yes to, with the episode-by-episode
+          plan for each one and a check on whether it kept the promises it was
+          written to keep.
         </AgentCard>
 
         <AgentCard

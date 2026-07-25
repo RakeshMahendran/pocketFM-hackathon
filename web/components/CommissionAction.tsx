@@ -38,8 +38,8 @@ export function CommissionAction({
         <div className="label text-halt mb-2">We can&rsquo;t make this one</div>
         <p className="text-sm text-muted prose-col">
           {title} can&rsquo;t be made, and changing the names wouldn&rsquo;t fix
-          the reason. Nobody can override this — not you, not the research
-          agent. The system refuses it either way.
+          the reason. Nobody can overrule this — not you, not whoever ran the
+          search. It gets refused either way.
         </p>
         {reasons.length > 0 && (
           <ul className="mt-3 space-y-1.5">
@@ -90,8 +90,10 @@ export function CommissionAction({
               takes a few minutes.
             </p>
             <p className="text-sm text-muted prose-col leading-relaxed mt-2">
-              Nothing is automatic yet, so send the line below to whoever runs
-              the machine{editor ? `, and it will go down under your name` : ""}.
+              Nothing is automatic yet, so the line below is for whoever runs
+              the machine — send it to them and they&rsquo;ll start it off
+              {editor ? ` under your name` : ""}. It isn&rsquo;t something you
+              need to understand.
             </p>
           </div>
           <div className="p-4 flex items-center gap-3 flex-wrap bg-surface">

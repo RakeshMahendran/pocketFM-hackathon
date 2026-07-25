@@ -3,7 +3,8 @@ import Link from "next/link";
 /**
  * Reached when a candidate id is not in the corpus — most often a stale link
  * after the corpus was refrozen, since ids are a hash of the source URL and a
- * rerun of the hunt produces different ones.
+ * rerun of the hunt produces different ones. On screen that has to become one
+ * plain sentence: saved links go stale when a new search runs.
  */
 export default function NotFound() {
   return (
@@ -13,8 +14,9 @@ export default function NotFound() {
         That story isn&rsquo;t here
       </h1>
       <p className="mt-4 text-sm text-muted prose-col leading-relaxed">
-        Saved links stop working after a new search — every story gets a fresh
-        reference each time. It may well still be in the list under a new one.
+        A link you saved earlier stops working once a new search has run, because
+        every story gets a new link each time. The story itself is most likely
+        still in the list.
       </p>
       <Link
         href="/sourcing"

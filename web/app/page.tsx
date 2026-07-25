@@ -5,10 +5,12 @@ import { EDITORS, getEditor, signIn } from "@/lib/session";
 // Reads a cookie, so it can never be prerendered.
 export const dynamic = "force-dynamic";
 
+// Real apostrophes, not HTML entities: these are string values, and `&rsquo;`
+// would render literally.
 const LANDING_LABEL: Record<string, string> = {
-  "/scout": "the scout",
-  "/sourcing": "the queue",
-  "/serials": "the slate",
+  "/scout": "the story search",
+  "/sourcing": "the story list",
+  "/serials": "the shows we’re making",
 };
 
 export default async function SignIn() {
@@ -19,13 +21,16 @@ export default async function SignIn() {
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-24">
-      <h1 className="font-serif text-3xl tracking-tight">Who is commissioning?</h1>
+      <h1 className="font-serif text-3xl tracking-tight">
+        Who&rsquo;s using this?
+      </h1>
 
       <p className="mt-4 text-sm text-muted prose-col leading-relaxed">
-        Pick a name. There is no password because there are no accounts — this
-        console runs on one machine, for one demo. Your role decides where you
-        start and whose name goes on what you commission; nobody is kept out of
-        anything, and clearance binds all four of you equally.
+        Pick your name. There is no password and there are no accounts — this
+        runs on one laptop, for one demo. Your name is simply what gets recorded
+        against anything you decide to make, and it sets which screen you land
+        on first. Everyone can see everything. Nobody, whichever name you pick,
+        can make a story the legal check has ruled out.
       </p>
 
       <form action={signIn} className="mt-10 max-w-2xl border-y border-rule divide-y divide-rule">

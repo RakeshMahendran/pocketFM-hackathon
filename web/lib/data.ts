@@ -234,7 +234,7 @@ async function fromStories(): Promise<Corpus> {
       assembled: true,
       builtAt: null,
       warnings: [
-        "There is nothing here yet. The research agent has never been run.",
+        "There is nothing here yet, because nobody has run a search.",
       ],
     };
   }
@@ -242,7 +242,10 @@ async function fromStories(): Promise<Corpus> {
   for (const dir of dirs) {
     const dossier = asRecord(await readJson("stories", dir, "dossier.json"));
     if (!Object.keys(dossier).length) {
-      warnings.push(`${dir}: dossier.json missing or unreadable — skipped.`);
+      warnings.push(
+        `One saved story (${dir}) could not be read, so it is missing from ` +
+          "the list below. Whoever runs this will need to look at it.",
+      );
       continue;
     }
 
@@ -258,8 +261,8 @@ async function fromStories(): Promise<Corpus> {
   // not by an engineer reading a log. They say what is untrustworthy about the
   // screen and what it means for the decision — never which file is absent.
   warnings.unshift(
-    "These are older results, kept from earlier searches. The research agent " +
-      "has not run a fresh search, so nothing here is from this week.",
+    "These are older results, kept from earlier searches. Nobody has run a " +
+      "fresh search, so nothing here is new.",
   );
 
   return { candidates, assembled: true, builtAt: null, warnings };
@@ -294,8 +297,8 @@ export async function loadCorpus(): Promise<Corpus> {
   const statuses = new Set(ranked.map((c) => c.clearance?.status).filter(Boolean));
   if (ranked.length > 1 && statuses.size === 1) {
     warnings.push(
-      "Every story here needs the same legal treatment, so that column is not " +
-        "telling you anything useful yet.",
+      "Every story here needs the same legal treatment, so the legal label on " +
+        "each one is not telling you anything useful yet.",
     );
   }
 

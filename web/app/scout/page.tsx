@@ -10,9 +10,9 @@ import { requireEditor } from "@/lib/session";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "CanonForge — Story scout",
+  title: "CanonForge — How stories are found",
   description:
-    "The discovery agent: what it hunts for, and a playback of the run that filled the queue.",
+    "What the story search looks for, and a replay of the search that filled the queue.",
 };
 
 /**
@@ -49,6 +49,23 @@ function normalise(title: string): string {
   return title.toLowerCase().replace(/[^a-z0-9]+/g, "");
 }
 
+/**
+ * `loadReplay` explains a missing recording in the language of the file system,
+ * which is the right language for the person who has to fix it and the wrong
+ * one for the editor who just wants to know whether the screen is broken. Said
+ * twice: the plain sentence on screen, the original kept underneath for whoever
+ * runs the thing.
+ */
+function plainReason(reason: string): string {
+  if (/^No recording/i.test(reason))
+    return "No search has been recorded yet, so there is nothing to play back here.";
+  if (/could not be read/i.test(reason))
+    return "The saved recording is damaged — it looks as though it was cut off while being written, so it cannot be played back.";
+  if (/no response output/i.test(reason))
+    return "The saved recording opened, but there is nothing inside it to play back.";
+  return "The saved recording could not be read, so there is nothing to play back.";
+}
+
 function Vital({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-baseline justify-between gap-4 border-t border-rule py-2.5">
@@ -82,18 +99,18 @@ export default async function ScoutPage() {
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
       <Link href="/sourcing" className="label hover:text-ochre transition-colors">
-        ← Sourcing queue
+        ← Stories worth making
       </Link>
 
       <header className="mt-6">
-        <div className="label">Discovery</div>
+        <div className="label">How stories are found</div>
         <h1 className="font-serif text-4xl tracking-tight mt-3 leading-tight">
-          The story scout
+          The story search
         </h1>
         <p className="mt-7 font-serif text-xl leading-relaxed prose-col">
-          One agent, one hunt. It searches the open web for real events whose
-          mechanism could still be generating conflict at episode 150, grades
-          each out of fifty, and says which of them we are allowed to adapt.
+          One search, run once. It reads the open web for real events that could
+          still be finding trouble at episode 150, rates each one out of fifty,
+          and says which of them we are allowed to make.
         </p>
       </header>
 
@@ -103,24 +120,22 @@ export default async function ScoutPage() {
       */}
       <div className="mt-9 border border-rule-strong bg-surface rounded-sm px-6 py-5">
         <div className="flex flex-wrap items-baseline gap-x-6 gap-y-2">
-          <span className="label text-ochre shrink-0">Recording</span>
+          <span className="label text-ochre shrink-0">A recording</span>
           <p className="text-sm text-muted prose-col leading-relaxed">
             {replay.ok ? (
               <>
-                This is a playback of one real run
-                {replay.savedAt ? ` recorded on ${replay.savedAt}` : ""}, read
-                from{" "}
-                <span className="font-mono text-faint">
-                  data/cache/{replay.file}
-                </span>
-                . No model is called while you watch it. Discovery runs once,
-                offline, into a committed corpus — the same file the sourcing
-                queue is built from.
+                What follows is a recording of one real search
+                {replay.savedAt ? `, made on ${replay.savedAt}` : ""}. Nothing is
+                searching while you watch — it ran once, was saved, and every
+                line it searched for, every page it opened and every number on
+                this screen is read back from that saved copy. It is the same
+                saved copy the story list is built from.
               </>
             ) : (
               <>
-                This screen only ever plays back a recorded run — it never calls
-                a model. There is no recording on disk to play.
+                This screen only ever plays back a search that already happened.
+                Nothing is searching now, and there is no recording saved to
+                play.
               </>
             )}
           </p>
@@ -130,31 +145,31 @@ export default async function ScoutPage() {
       <div className="mt-12 grid lg:grid-cols-[1fr_18rem] gap-x-14 gap-y-10 items-start">
         <div className="space-y-10 min-w-0">
           <section>
-            <h2 className="label">What it is looking for</h2>
+            <h2 className="label">What it looks for</h2>
             <div className="mt-4 space-y-4 text-[0.9375rem] leading-relaxed prose-col text-muted">
               <p>
-                Mechanism, not magnitude. Searching for the biggest fraud returns
-                the six cases everyone has already adapted; searching for the
-                strange thing that was actually done — a substitution, a
-                fabricated institution, a person declared dead who came back —
-                returns the local case no editor has read.
+                How it was done, not how big it was. Ask for the biggest fraud
+                and you get the six cases everyone has already made; ask for the
+                strange thing somebody actually did — a swap, a whole invented
+                institution, a person declared dead who walked back in — and you
+                get the local story nobody in the room has read.
               </p>
               <p>
-                Every citation must be a page it opened during the search. A
-                candidate built on a remembered URL is discarded before it
-                reaches the corpus, because everything downstream treats a corpus
-                row as sourced.
+                Every source has to be a page it genuinely opened while
+                searching. A story propped up on a half-remembered link is thrown
+                out before it ever reaches your queue, because everything after
+                this point trusts that the sources are real.
               </p>
               <p>
-                And it searches against itself. Before backing a candidate it
-                looks for a film or series about that exact event, and blocks
-                what it finds — however well the thing scored.
+                And it argues with itself. Before backing a story it goes looking
+                for a film or series already made about that exact event, and
+                rules out whatever it finds — however well the story rated.
               </p>
             </div>
           </section>
 
           <section>
-            <h2 className="label">The eight categories — a candidate must fit one</h2>
+            <h2 className="label">The eight kinds of story — one of these, or it is out</h2>
             <ol className="mt-4 border-t border-rule">
               {CATEGORIES.map(([name, gloss], i) => (
                 <li
@@ -172,43 +187,65 @@ export default async function ScoutPage() {
               ))}
             </ol>
             <p className="mt-4 text-sm text-faint prose-col">
-              Anything fitting none of them is out, however remarkable.
+              A story that fits none of them is dropped, however remarkable it
+              is.
             </p>
           </section>
         </div>
 
         <aside>
-          <h2 className="label mb-1">The recorded run</h2>
+          <h2 className="label mb-1">About this recording</h2>
           {replay.ok ? (
             <div>
-              <Vital label="Model" value={replay.model ?? "—"} />
               <Vital
-                label="Wall clock"
+                label="Time it took"
                 value={
                   replay.durationSeconds !== null
-                    ? `${replay.durationSeconds}s`
+                    ? `${replay.durationSeconds} seconds`
                     : "—"
                 }
               />
-              <Vital label="Response items" value={group(replay.outputItems)} />
-              {replay.usage && (
-                <>
-                  <Vital label="Input tokens" value={group(replay.usage.input)} />
-                  <Vital
-                    label="Output tokens"
-                    value={group(replay.usage.output)}
-                  />
-                </>
-              )}
               <div className="border-t border-rule pt-3 mt-1">
                 <p className="text-xs text-faint leading-relaxed">
-                  Read from the cached response, not from a run happening now.
-                  The counts the playback fills in are read from the same file.
+                  All of this is read from the saved recording, not from
+                  anything running now. The counts that fill in as it plays come
+                  from the same file.
                 </p>
               </div>
+
+              {/*
+                Kept, not hidden: someone has to maintain this, and the file
+                name is what makes the claim above checkable. It is simply not
+                what an editor came here to read.
+              */}
+              <details className="mt-4 border-t border-rule pt-3">
+                <summary className="label cursor-pointer hover:text-ochre transition-colors">
+                  For whoever runs it
+                </summary>
+                <div className="mt-1">
+                  <Vital label="Saved file" value={`data/cache/${replay.file}`} />
+                  <Vital label="Model" value={replay.model ?? "—"} />
+                  <Vital
+                    label="Response items"
+                    value={group(replay.outputItems)}
+                  />
+                  {replay.usage && (
+                    <>
+                      <Vital
+                        label="Input tokens"
+                        value={group(replay.usage.input)}
+                      />
+                      <Vital
+                        label="Output tokens"
+                        value={group(replay.usage.output)}
+                      />
+                    </>
+                  )}
+                </div>
+              </details>
             </div>
           ) : (
-            <p className="text-sm text-faint">Nothing recorded.</p>
+            <p className="text-sm text-faint">No recording saved yet.</p>
           )}
         </aside>
       </div>
@@ -217,18 +254,26 @@ export default async function ScoutPage() {
         <ScoutReplay replay={replay} noveltyHref={noveltyHref} />
       ) : (
         <div className="mt-14 border-t border-rule-strong pt-8">
-          <h2 className="label mb-4">Playback</h2>
-          <Notice tone="warn">{replay.reason}</Notice>
+          <h2 className="label mb-4">Watch the search</h2>
+          <Notice tone="warn">{plainReason(replay.reason)}</Notice>
           <p className="mt-5 text-sm text-muted prose-col">
-            There is nothing to replay, and this screen will not stand in a
-            simulation for it. The sourcing queue still renders whatever the
-            corpus holds.
+            There is nothing to play back, and this screen will not act one out
+            instead. The story list still shows every story that has already
+            been found and saved.
           </p>
+          <details className="mt-5">
+            <summary className="label cursor-pointer hover:text-ochre transition-colors">
+              For whoever runs it
+            </summary>
+            <p className="mt-2 font-mono text-xs text-faint prose-col leading-relaxed break-words">
+              {replay.reason}
+            </p>
+          </details>
           <Link
             href="/sourcing"
             className="mt-8 inline-block border border-rule-strong px-5 py-2.5 text-sm rounded-sm hover:border-ochre hover:text-ochre transition-colors"
           >
-            Open the sourcing queue →
+            Open the story list →
           </Link>
         </div>
       )}

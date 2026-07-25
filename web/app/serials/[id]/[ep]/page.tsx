@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { EpisodeScript, listenMinutes } from "@/components/EpisodeScript";
+import { endingPhrase } from "@/components/SeasonSpine";
 import { loadEpisode, loadSerial } from "@/lib/serials";
 import { requireEditor } from "@/lib/session";
 
@@ -50,8 +51,9 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
           ← {serial.title}
         </Link>
         <div className="label">
-          Episode {n} of {serial.spineLength || serial.episodeCount} · ~
-          {listenMinutes(episode.words)} min · {episode.words.toLocaleString()} words
+          Episode {n} of {serial.spineLength || serial.episodeCount} · about{" "}
+          {listenMinutes(episode.words)} min to listen ·{" "}
+          {episode.words.toLocaleString()} words
         </div>
       </div>
 
@@ -61,12 +63,20 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
             {String(n).padStart(2, "0")}
           </span>
           {plan && (plan.hookType || plan.hookRaw) && (
-            <span className="label text-ochre">
-              ends on {plan.hookType ?? plan.hookRaw}
+            <span
+              className="label text-ochre"
+              title="The kind of cliffhanger this episode was planned to end on."
+            >
+              {endingPhrase(plan.hookType ?? plan.hookRaw)}
             </span>
           )}
           {plan && plan.status !== null && (
-            <span className="label">standing {plan.status}</span>
+            <span
+              className="label"
+              title="How the lead is doing by the end of this episode."
+            >
+              the lead is at {plan.status}
+            </span>
           )}
         </div>
 
@@ -82,8 +92,8 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
 
         {!plan && (
           <p className="mt-5 text-sm text-caution leading-relaxed">
-            This episode has no entry in the season plan, so there is nothing to
-            check the script against.
+            This episode is not in the season plan, so there is nothing to check
+            the script against.
           </p>
         )}
       </header>
@@ -96,7 +106,9 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
         // Repeated at the foot on purpose: having just read the last line, the
         // planned hook is the one thing an editor wants to compare it against.
         <div className="mt-12 border-t border-rule pt-6 max-w-3xl">
-          <h2 className="label text-ochre">The hook it was written to</h2>
+          <h2 className="label text-ochre">
+            The ending it was supposed to land on
+          </h2>
           <p className="text-[0.9375rem] text-muted leading-relaxed mt-2 prose-col">
             {plan.endsOn}
           </p>
