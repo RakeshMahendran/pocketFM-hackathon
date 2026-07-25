@@ -63,15 +63,21 @@ The validator is **one stage, run as a panel** — three checks in parallel plus
 
 ### Module map
 
-| Path | Owns |
+| Path | Holds |
 |---|---|
-| `src/discovery/` | Source fetchers, normalization, dedupe, pre-filter. Output: `data/corpus.json` |
-| `src/scoring/` | Adaptability rubric, clearance, novelty. Output: dossiers |
-| `src/canon/` | Beat store, character views, constraint compiler, write-back |
-| `src/generation/` | Prompt templates and LLM calls |
-| `src/validation/` | Leakage, crossing-point, hook-type checks |
-| `src/api/` | Thin HTTP layer for the web UI |
-| `web/` | Demo UI |
+| `src/discovery/` | The scout: eight category hunts, grounding, dedupe. Output: `data/corpus.json` |
+| `src/scoring/` | The expander: dossier, cast, season plan, and the graders. Output: dossiers |
+| `src/generation/` | The serial writer, its schemas, and the shared LLM harness |
+| `src/canon/` | Beat store, character views, Lakebase access |
+| `src/audio/` | Script to finished mp3: convert, direct, synthesise, sound, master |
+| `src/audio/voice/` | The vendored TTS pipeline. See its `NOTICE.md` |
+| `src/validation/` | Leakage, crossing-point, hook-type checks. **Empty — nothing built** |
+| `src/api/` | Thin HTTP layer, served with the UI from one process |
+| `web/` | The commissioning console |
+
+Loose modules that belong to no stage: `src/agent.py` (the tool loop),
+`src/canon_tools.py` (canon as questions an agent can ask), `src/flow.py` (the
+whole chain in one command), `src/commission.py`, `src/publish.py`, `src/util.py`.
 
 ---
 

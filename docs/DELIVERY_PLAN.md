@@ -200,22 +200,36 @@ Gate 3 is the one most teams skip. It is what converts *claiming* continuity int
 
 ## 7. Staffing
 
-### This team — 3 people
+### This team — 2 people, and no track boundaries left
 
-| Person | Owns | Directories |
+The P1/P2/P3 split below was written for four. It is recorded because the track
+names still appear across these docs, not because anyone works that way.
+
+What actually happened: two people committing, plus the voice pipeline written by
+Sandhiya Giri and handed over rather than committed here. Both of us have worked
+in every directory — the scout and the expander were rewritten by the person who
+did not start them, the writer's schemas were changed by the person who does not
+own generation. That has cost nothing so far, because the two of us talk.
+
+**So there is no per-directory ownership, and the "shared files are P1's" rule is
+retired.** It named a person who does not exist, and every file it protected has
+since been edited by both of us. Change what you need; say what you changed in
+`§0` if it moves someone else's stage.
+
+The one thing worth keeping from the old model: **a change to a stage boundary —
+what one stage hands the next — gets written down.** Those are the failures that
+cost hours, and every one of them this build has been an interface, not an
+implementation.
+
+### The original four-way split, kept for reference
+
+| Person | Track | Directories |
 |---|---|---|
-| **P1** | **Track A — canon spine + validator** | `src/canon/`, `src/validation/`, `tests/`, `schemas/samples/`, `src/util.py`, `tasks.py` |
-| **P2** | **Track B — generation** | `src/generation/` |
-| **P3** | **Tracks C + D — research + surface** | `src/discovery/`, `src/scoring/`, `src/api/`, `web/` |
+| **P1** | Canon spine + validator | `src/canon/`, `src/validation/`, `src/util.py`, `tasks.py` |
+| **P2** | Generation | `src/generation/` |
+| **P3** | Research + surface | `src/discovery/`, `src/scoring/`, `src/api/`, `web/` |
 
-Shared files (`src/util.py`, `tasks.py`, `Makefile`, `requirements.txt`,
-`.env.example`) are **P1's** to change — everyone else raises a request rather
-than editing them, so the scaffolding cannot drift under people.
-
-P2 is blocked on A6 (the constraint compiler) for the spinoff writer only.
-Everything else in Track B — the OpenAI harness, the Pydantic schemas, the serial
-writer — can start immediately. P3 is not blocked on anything; the hand-written
-fixture in `schemas/samples/` is enough to build every screen against.
+Neither `src/audio/` nor the loose modules existed when that was written.
 
 ### If the headcount changes
 
@@ -237,14 +251,18 @@ rest of the team stops and helps.
 
 ### Git
 
-**Trunk-based on `main`. No branches, no PRs.** The module map already partitions
-the codebase cleanly, so real conflicts are near-zero and branch ceremony buys
-nothing in a time-boxed build.
+**Trunk-based on `main`.** Two people who talk, so branch ceremony buys nothing —
+with one exception that earned itself: the Databricks deployment work ran in a
+worktree on `databricks-deployment` and merged back cleanly, because it touched
+infrastructure the demo depended on and wanted somewhere to be broken.
 
 - **Pull before you push.** That is the whole protocol.
-- **Shared files are P1's alone**: `CLAUDE.md`, `tasks.py`, `Makefile`,
-  `requirements.txt`, `.env.example`, `schemas/`, `.gitattributes`. Need a
-  dependency added? Ask P1. This is the only place three people genuinely collide.
+- **Anyone may change any file**, including `tasks.py`, `requirements.txt`,
+  `schemas/` and `CLAUDE.md`. The per-owner rule named a person who does not
+  exist and every file it protected has since been edited by both of us.
+- **A change to what one stage hands the next gets written down**, in `§0` or in
+  the commit message. Every expensive mistake in this build has been an
+  interface, not an implementation.
 - **Tag at every gate** — `gate-1`, `gate-2`, `gate-3`. Lighter than branches and
   gives you a known-good point to fall back to when something breaks late.
 - **`.env` is gitignored and stays that way.** Never commit the OpenAI key.
@@ -253,20 +271,20 @@ nothing in a time-boxed build.
 
 ### Recording decisions
 
-Conversation does not survive a handoff. Three people working in parallel will
-each learn something the other two need, and the default outcome is that they
-don't say it — then two components disagree at 2am and nobody knows why.
+Conversation does not survive a handoff. Working in parallel, each person learns
+something the other needs, and the default outcome is that they don't say it —
+then two stages disagree at 2am and nobody knows why.
 
 | What | Goes where |
 |---|---|
-| A decision that changes someone else's work | Append a row to the §0 table above, with the date and who decided |
-| A convention everyone must follow | `CLAUDE.md` — Claude Code auto-loads it for all three of us, so it's the highest-leverage place in the repo |
+| A decision that changes another stage | Append a row to the §0 table above, with the date and who decided |
+| A convention everyone must follow | `CLAUDE.md` — Claude Code auto-loads it for both of us, so it's the highest-leverage place in the repo |
 | Anything else | The commit message |
 
-Worked example of the failure this prevents: P2 discovers the serial writer
-needs an extra field on every beat, adds it locally, and says nothing. P1's store
-rejects it, P3's beat-sheet screen renders blank, and the two of them spend an
-hour bisecting a decision that took P2 thirty seconds to make.
+Worked example, and not a hypothetical one: the writer's schema changed from
+returning a `script` string to returning `lines`. Anything still reading
+`episode["script"]` gets nothing. That is thirty seconds to say and an hour to
+find.
 
 **Local AI memory does not travel.** Claude Code's memory lives per-machine, per
 user account. Anything the team needs is in the repo or it does not exist.
