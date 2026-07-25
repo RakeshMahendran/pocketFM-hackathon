@@ -343,12 +343,14 @@ export function ScoutReplay({
             ? "Writing up what it found"
             : "Searching";
 
+  // No heading of its own. The page above already says what this is and what
+  // pressing play will show — two headings back to back saying the same thing
+  // read as a mistake.
   return (
-    <section className="mt-14 border-t border-rule-strong pt-8">
+    <section className="mt-8">
       <div className="flex items-end justify-between gap-8 flex-wrap">
         <div>
-          <h2 className="label">Watch the search</h2>
-          <p className="mt-2 text-sm text-muted prose-col">
+          <p className="text-sm text-muted prose-col">
             {done
               ? "That is the whole search. Every line searched for and every page opened above is read straight from the recording — none of it was made up for this screen."
               : started
