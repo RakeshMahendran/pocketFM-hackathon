@@ -1,0 +1,22 @@
+# Databricks App manifest.
+#
+# DATABRICKS_APP_PORT is the one variable the runtime substitutes into
+# `command`, so it is used explicitly rather than relying on uvicorn picking
+# up UVICORN_PORT. Do not hardcode a port - the runtime assigns it.
+#
+# The PG* variables are injected by the attached Lakebase resource and are
+# deliberately absent here. There is no PGPASSWORD: auth is an OAuth token
+# the app mints at connect time via src/canon/db.py.
+command:
+  - uvicorn
+  - src.api.main:app
+  - --host
+  - 0.0.0.0
+  - --port
+  - $DATABRICKS_APP_PORT
+
+env:
+  - name: LAKEBASE_INSTANCE
+    value: canonforge
+  - name: PGDATABASE
+    value: databricks_postgres
