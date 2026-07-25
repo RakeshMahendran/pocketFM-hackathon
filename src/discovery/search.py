@@ -8,8 +8,9 @@ the hunt rather than a stage after it — a second pass re-ranking candidates th
 same model just scored would cost money to re-derive a decision already made.
 
 The scout prompt does the judging (see prompts/hunter.md). This module does the
-two things a prompt cannot be trusted with: it forces the output into a strict
-schema, and it discards any candidate citing a page the model never opened.
+three things a prompt cannot be trusted with: it forces the output into a strict
+schema, it recomputes the scores the schema cannot bound, and it discards any
+candidate citing a page the model never opened.
 """
 
 import os
@@ -32,6 +33,17 @@ MIN_TOTAL = 38
 # after episode twenty is a film with good marks.
 MIN_ENGINE_LONGEVITY = 7
 
+# The five rubric axes, in the order hunter.md states them. `total` is not one of
+# them: it is derived from these here rather than believed.
+SCORE_FIELDS = ("engine_longevity", "hook_density", "emotional_immediacy",
+                "conflict", "cast_depth")
+SCORE_MAX = 10
+
+# Asked for in the BRIEF, because a strict schema cannot express `minItems`. One
+# winner and two also-rans is not a sourcing queue — the editor has to be able to
+# reject most of a screen and still have a shortlist left.
+MIN_ALSO_CONSIDERED = 8
+
 # Truncation is detected downstream, but detection after a paid multi-minute
 # search is worse than a bounded call.
 MAX_OUTPUT_TOKENS = 32000
@@ -44,8 +56,14 @@ BRIEF = (
     "Hunt all eight categories. Search several times per category and vary your "
     "vocabulary between news language, court language and plain description "
     "before you settle on anything.\n\n"
-    "Then return one winner and the candidates you seriously considered. Every "
-    "candidate you return must score {min_total}+ in total."
+    "Then return one winner and AT LEAST {min_others} other candidates in "
+    "`also_considered`. Every candidate you return must score {min_total}+ in "
+    "total. If fewer than {min_others} clear that, go back to the categories you "
+    "covered least and hunt again rather than returning a short list — an editor "
+    "reads this as a queue and needs enough of it to reject most of it.\n\n"
+    "A candidate you had to refuse on legal or rights grounds still comes back, "
+    "with `clearance.status` `blocked` and the reason. Only the hard content "
+    "exclusions are dropped entirely."
 )
 
 _CAST = {
@@ -59,6 +77,9 @@ _CAST = {
     },
 }
 
+# Strict mode drops `minimum`/`maximum`, so the 0-10 band the rubric states is
+# unenforceable here and `total` is only ever whatever the model typed. Both are
+# fixed after parsing, in _normalise_scores.
 _SCORES = {
     "type": "object",
     "additionalProperties": False,
@@ -79,7 +100,7 @@ _CANDIDATE = {
     "additionalProperties": False,
     "required": ["title", "category", "one_line", "year", "where", "mechanism",
                  "engine", "episode_estimate", "cast", "scores", "clearance",
-                 "prior_adaptations", "sources", "why_this_sells"],
+                 "prior_adaptations", "sources", "why_this_sells", "why_not"],
     "properties": {
         "title": {"type": "string"},
         # An enum is the only place "one of the eight, exact name" can actually
@@ -105,6 +126,11 @@ _CANDIDATE = {
         "prior_adaptations": {"type": "array", "items": {"type": "string"}},
         "sources": {"type": "array", "items": {"type": "string"}},
         "why_this_sells": {"type": "string"},
+        # The queue screen's second-most-read line after the title: an also-ran
+        # without a stated reason for losing is a row an editor cannot act on.
+        # Strict mode requires every property, so the winner answers it too — as
+        # the strongest case against itself.
+        "why_not": {"type": "string"},
     },
 }
 
@@ -220,18 +246,59 @@ def _decorate(candidate: Dict[str, Any], is_winner: bool) -> Dict[str, Any]:
     return candidate
 
 
+def _normalise_scores(c: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Take the sub-scores as the only evidence and derive `total` from them.
+
+    `MIN_TOTAL` gates on `total`, and `total` arrives as a number the model typed
+    next to five other numbers it typed. Sub-scores summing to 30 under a claimed
+    45 clears a floor it should have failed, and no schema catches it: strict mode
+    has no `minimum`/`maximum` either, so a 47 on one axis is equally legal. Both
+    corrections are logged — a model that keeps mis-adding is a prompt problem,
+    and silently fixing it hides the signal.
+    """
+    scores = c.get("scores") or {}
+    title = c.get("title", "?")
+
+    for field in SCORE_FIELDS:
+        raw = scores.get(field, 0)
+        clamped = max(0, min(SCORE_MAX, raw))
+        if clamped != raw:
+            log(f"'{title}': {field} came back {raw}, outside 0-{SCORE_MAX} — "
+                f"clamped to {clamped}", "warn")
+        scores[field] = clamped
+
+    computed = sum(scores[f] for f in SCORE_FIELDS)
+    claimed = scores.get("total")
+    if claimed != computed:
+        log(f"'{title}': model reported total {claimed}, sub-scores sum to "
+            f"{computed} — using {computed}", "warn")
+    scores["total"] = computed
+
+    c["scores"] = scores
+    return c
+
+
 def _check_winner(c: Dict[str, Any]) -> None:
     """
-    The winner is the one candidate the thresholds were never applied to — it is
-    taken on the model's say-so and then expanded into a whole season. Re-check
-    the two rules hunter.md states, because the prompt cannot enforce its own.
+    Re-check the rules hunter.md states, because a prompt cannot enforce its own.
+
+    The floors are not equally hard, and the difference is deliberate. A weak
+    total is kept and shouted about: it is a taste judgement, the hunt is a
+    multi-minute paid call, and an editor staring at a mediocre winner learns more
+    than one staring at a failed command and an empty corpus. Engine longevity and
+    clearance do refuse — the first because hunter.md calls it disqualifying
+    whatever the total, the second because legal is binding where taste is
+    advisory.
     """
     scores = c.get("scores", {})
     total, engine = scores.get("total", 0), scores.get("engine_longevity", 0)
     title = c.get("title", "?")
 
     if total < MIN_TOTAL:
-        raise RuntimeError(f"winner '{title}' scores {total}, below the {MIN_TOTAL} floor")
+        log(f"winner '{title}' scores {total}, below the {MIN_TOTAL} floor — kept "
+            f"so an editor sees what the hunt actually found, but this is a thin "
+            f"hunt and the corpus should be rebuilt", "warn")
     if engine < MIN_ENGINE_LONGEVITY:
         raise RuntimeError(
             f"winner '{title}' scores {engine} on engine longevity, below the "
@@ -251,7 +318,7 @@ def hunt(client: Any = None) -> Dict[str, Any]:
         from openai import OpenAI
         client = OpenAI()
 
-    brief = BRIEF.format(min_total=MIN_TOTAL)
+    brief = BRIEF.format(min_total=MIN_TOTAL, min_others=MIN_ALSO_CONSIDERED)
     response = client.responses.create(
         model=_model(),
         input=[
@@ -296,16 +363,20 @@ def hunt(client: Any = None) -> Dict[str, Any]:
         raise RuntimeError(
             "the winner cited no page the scout actually opened — rerun the hunt"
         )
-    _check_winner(winner)
+    _check_winner(_normalise_scores(winner))
     _decorate(winner, is_winner=True)
 
     others = []
     for c in ground_candidates(parsed.get("also_considered", []), consulted):
-        total = c.get("scores", {}).get("total", 0)
+        total = _normalise_scores(c)["scores"]["total"]
         if total < MIN_TOTAL:
             log(f"below threshold ({total}): {c.get('title', '?')}", "debug")
             continue
         others.append(_decorate(c, is_winner=False))
+
+    if len(others) < MIN_ALSO_CONSIDERED:
+        log(f"only {len(others)} also-rans cleared the floor, the queue asks for "
+            f"{MIN_ALSO_CONSIDERED} — thin hunt", "warn")
 
     log(f"winner: {winner['title']} "
         f"({winner['scores']['total']}, {winner.get('category', '?')}) "

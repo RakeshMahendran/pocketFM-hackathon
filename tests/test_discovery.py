@@ -1,12 +1,17 @@
 """
-Two guarantees this stage makes, and the ways they actually break.
+Three guarantees this stage makes, and the ways they actually break.
 
 Grounding: a candidate citing a page the model never opened must not reach the
 corpus. The demo puts source links on screen and everything downstream treats a
 corpus item as sourced.
 
+Scores: every number the thresholds read is written by the model being judged.
+`total` is derived here instead, and the 0-10 band strict mode cannot express is
+enforced here too.
+
 Thresholds: the winner is the one candidate taken on the model's say-so and then
-expanded into a whole season, so the floors have to be re-checked in code.
+expanded into a whole season, so the floors have to be re-checked in code — and
+which of them refuse outright is a decision, not an accident.
 """
 
 import json
@@ -14,8 +19,10 @@ import json
 import pytest
 
 from src.discovery.search import (domain_of, ground_candidates, hunt,
-                                  normalise_url, MIN_TOTAL,
-                                  MIN_ENGINE_LONGEVITY)
+                                  load_prompt, normalise_url, BRIEF,
+                                  MIN_ALSO_CONSIDERED, MIN_TOTAL,
+                                  MIN_ENGINE_LONGEVITY, SCORE_FIELDS,
+                                  SCORE_MAX, _CANDIDATE)
 
 
 class FakeResponse:
@@ -42,9 +49,23 @@ class StubClient:
 
 
 def _candidate(title, sources, total=45, engine=9, clearance="fictionalize_first"):
-    return {"title": title, "sources": sources,
-            "scores": {"total": total, "engine_longevity": engine},
+    """
+    Sub-scores that genuinely add up to `total`. Setting the total alone would
+    test nothing these tests claim to: it is recomputed from the five axes.
+    """
+    base, extra = divmod(total - engine, 4)
+    rest = [base + (1 if i < extra else 0) for i in range(4)]
+    scores = dict(zip(SCORE_FIELDS[1:], rest), engine_longevity=engine, total=total)
+    return {"title": title, "sources": sources, "scores": scores,
             "clearance": {"status": clearance}}
+
+
+def _hunt_one(candidate, others=()):
+    """A hunt where every candidate's sources are treated as opened."""
+    urls = list(candidate["sources"]) + [u for o in others for u in o["sources"]]
+    return hunt(client=StubClient(FakeResponse(
+        consulted=urls,
+        body={"winner": candidate, "also_considered": list(others)})))
 
 
 def test_domain_is_reported_without_www():
@@ -141,3 +162,101 @@ def test_below_threshold_also_rans_are_dropped():
                                              total=MIN_TOTAL - 1)]})
 
     assert hunt(client=StubClient(response))["also_considered"] == []
+
+
+def test_a_weak_winner_is_kept_loudly_rather_than_emptying_the_corpus(capsys):
+    """
+    The floors are deliberately not equal. A total below the line is a taste
+    judgement on a multi-minute paid call, and an editor reading a mediocre winner
+    learns more than one reading a failed command against an empty corpus — so it
+    survives, but nobody gets to miss it.
+    """
+    result = _hunt_one(_candidate("thin winner", ["https://thehindu.com/a"],
+                                  total=MIN_TOTAL - 5))
+
+    assert result["winner"]["title"] == "thin winner"
+    assert f"below the {MIN_TOTAL} floor" in capsys.readouterr().err
+
+
+def test_the_total_is_recomputed_from_the_sub_scores(capsys):
+    """`total` is a number the model typed beside five others it typed."""
+    lying = _candidate("bad arithmetic", ["https://thehindu.com/a"], total=45)
+    lying["scores"]["total"] = 50
+
+    result = _hunt_one(lying)
+
+    assert result["winner"]["scores"]["total"] == 45
+    assert "sub-scores sum to 45" in capsys.readouterr().err
+
+
+def test_an_inflated_total_cannot_buy_a_place_on_the_queue():
+    """Sub-scores summing to 30 under a claimed 45 clear a floor they failed."""
+    inflated = _candidate("inflated", ["https://thehindu.com/b"], total=30, engine=8)
+    inflated["scores"]["total"] = MIN_TOTAL + 7
+
+    result = _hunt_one(_candidate("winner", ["https://thehindu.com/a"]), [inflated])
+
+    assert result["also_considered"] == []
+
+
+def test_out_of_range_sub_scores_are_clamped(capsys):
+    """Strict mode drops `minimum`/`maximum`, so a 47 on one axis is legal JSON."""
+    wild = _candidate("out of range", ["https://thehindu.com/a"])
+    wild["scores"]["cast_depth"] = 47
+    wild["scores"]["conflict"] = -3
+
+    scores = _hunt_one(wild)["winner"]["scores"]
+
+    assert (scores["cast_depth"], scores["conflict"]) == (SCORE_MAX, 0)
+    assert scores["total"] == sum(scores[f] for f in SCORE_FIELDS)
+    assert f"outside 0-{SCORE_MAX}" in capsys.readouterr().err
+
+
+def test_every_candidate_has_to_say_why_it_lost():
+    """
+    After the title, `why_not` is the most-read line on the queue screen. Strict
+    mode requires every property, so the winner answers it too — as the case
+    against itself.
+    """
+    assert "why_not" in _CANDIDATE["properties"]
+    assert set(_CANDIDATE["required"]) == set(_CANDIDATE["properties"])
+    assert "why_not" in load_prompt()
+
+
+def test_the_brief_asks_for_a_queue_not_a_shortlist():
+    """`minItems` is unavailable in strict mode, so the count lives in the brief."""
+    assert MIN_ALSO_CONSIDERED >= 8
+    brief = BRIEF.format(min_total=MIN_TOTAL, min_others=MIN_ALSO_CONSIDERED)
+    assert str(MIN_ALSO_CONSIDERED) in brief
+
+
+def test_a_short_queue_is_reported(capsys):
+    _hunt_one(_candidate("winner", ["https://thehindu.com/a"]))
+
+    assert "thin hunt" in capsys.readouterr().err
+
+
+def test_a_blocked_also_ran_reaches_the_corpus():
+    """
+    The demo turns on an editor visibly refusing something on legal grounds. A
+    blocked candidate the scout swallowed is indistinguishable from a hunt that
+    found nothing worth refusing.
+    """
+    refused = _candidate("refused", ["https://thehindu.com/b"], clearance="blocked")
+
+    result = _hunt_one(_candidate("winner", ["https://thehindu.com/a"]), [refused])
+
+    assert [(c["title"], c["clearance"]["status"])
+            for c in result["also_considered"]] == [("refused", "blocked")]
+
+
+def test_the_absolute_exclusions_never_come_back_even_as_blocked_rows():
+    """
+    Blocking is on-the-record refusal; the content exclusions are not refusals at
+    all. Minors and identifiable victims of sexual crime must not surface in any
+    form, including as a blocked row with reasons attached.
+    """
+    dropped, blocked = load_prompt().split("### Return as `blocked`", 1)
+
+    assert "identifiable victims of sexual crime" in dropped
+    assert "sexual crime" not in blocked

@@ -26,6 +26,10 @@ Anything that fits none of these is out, however remarkable.
 
 ## Score each 0-10. Total is the sum, out of 50. Return only 38+.
 
+The five sub-scores are the only evidence read: `total` is recomputed from them
+after you answer, and a sub-score outside 0-10 is clamped back into range. A
+generous total over thin sub-scores buys the candidate nothing.
+
 Engine longevity carries a hard floor rather than a multiplier: **any candidate
 scoring below 7 on ENGINE LONGEVITY is rejected whatever its total.** A high
 total built on a mechanism that stops after episode twenty is a film with good
@@ -70,17 +74,36 @@ share a skeleton. Judge the skeleton, not the period.
 If your one-line pitch sounds like a prestige documentary, rewrite it as a
 serial pitch or drop the candidate.
 
-## Reject immediately
+## Two kinds of no
 
-- Already adapted into a film or series — search to check, do not assume
+### Drop entirely — these never appear in your output in any form
+
+- Minors, or identifiable victims of sexual crime. Absolute: not a candidate, not
+  a blocked row, not a mention in someone else's reasons.
 - One shocking moment with no aftermath
 - Disasters and accidents — no antagonist, no engine
-- Minors, identifiable victims of sexual crime
+
+These are not stories we refused. They are not stories. Listing them teaches an
+editor nothing.
+
+### Return as `blocked` — refused, but on the record
+
+- Already dramatised as a film or series — search to check, do not assume
 - Political and communal events — the audience splits, the platform won't buy
+- A living private individual whose exposure a change of name would not cure
+
+Send these back as ordinary candidates with `clearance.status` set to `blocked`
+and the grounds in `clearance.reasons`. A refusal you swallowed looks identical
+to a hunt that found nothing, and the ground you refused on is the most useful
+thing you can hand an editor. Do not manufacture one to fill a slot — if nothing
+in this hunt had to be refused, return none.
+
+The winner is never `blocked`. If the strongest thing you found cannot be
+cleared, it goes into `also_considered` as blocked and something else wins.
 
 ### Prior adaptation is about the EVENT, not the theme
 
-Reject only if a film or series dramatised **this specific event**. A drama about
+Block only if a film or series dramatised **this specific event**. A drama about
 bonded labour in general does not block a particular bonded-labour case; a film
 about that exact case does.
 
@@ -102,7 +125,9 @@ best.
 
 - greenlight         — principals deceased 50+ years, or purely institutional
 - fictionalize_first — real but recent; names and places must change
-- blocked            — any rejection category above
+- blocked            — cannot be adapted at all: rights, politics, or exposure a
+                       name change would not cure. Returned with its reasons,
+                       never quietly dropped.
 
 Most good candidates land in `fictionalize_first`, and that is fine — recent
 cases involving living private individuals are exactly where the strange
@@ -116,11 +141,18 @@ story about a living private Indian citizen is higher than it would be in the US
 
 Hunt across all eight categories, then return **one winner** — the single event
 you would stake the series on — and the other candidates you seriously
-considered, so the choice is inspectable.
+considered, so the choice is inspectable. The brief states how many of those to
+return; it is a floor, not a target.
 
 Do not pick the highest-scoring candidate mechanically. Pick the one whose engine
 you believe will still be generating conflict at episode 150, and say why in
 `why_this_sells`.
+
+Every candidate also carries `why_not` — one sentence on what is wrong with it.
+For an also-ran that is why it lost: the engine that runs out, the cast of three,
+the clearance problem. For the winner it is the strongest argument against your
+own pick, stated honestly. An editor reads this line before anything but the
+title, and "it is weaker overall" is not an answer.
 
 Every URL in `sources` must be a page you actually opened during this search —
 never a guessed or remembered address.
@@ -146,5 +178,6 @@ Both `winner` and each entry in `also_considered` use this shape:
       "clearance": {"status":"...","reasons":["..."]},
       "prior_adaptations": ["..."],
       "sources": ["url","url"],
-      "why_this_sells": "one sentence naming the fear the listener recognises"
+      "why_this_sells": "one sentence naming the fear the listener recognises",
+      "why_not": "one sentence: why it lost, or for the winner, the best case against it"
     }
