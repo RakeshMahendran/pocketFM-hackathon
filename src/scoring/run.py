@@ -17,7 +17,8 @@ import os
 import sys
 import json
 import pathlib
-from typing import Any, Dict, List
+import argparse
+from typing import Any, Dict, List, Optional, Sequence
 
 from src.util import (CORPUS_PATH, DOSSIERS_PATH, ensure_dirs, load_env, log,
                       offline, read_json, write_json)
@@ -140,19 +141,64 @@ def load_prompt(n_episodes: int) -> str:
     return text.replace("{{n_episodes}}", str(n_episodes))
 
 
-def winner_from(path=CORPUS_PATH) -> Dict[str, Any]:
+def _refuse_if_blocked(item: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Clearance is the one verdict a human may not override. Taste is advisory;
+    legal is binding.
+    """
+    if item.get("clearance", {}).get("status") == "blocked":
+        raise RuntimeError(
+            f"'{item['title']}' is cleared `blocked` and must not be expanded"
+        )
+    return item
+
+
+def select(path=CORPUS_PATH, ref: str = None) -> Dict[str, Any]:
+    """
+    Pick the candidate to expand.
+
+    `ref` is a corpus item `id` or a case-insensitive fragment of its title.
+    Without one, the scout's own pick stands.
+
+    The scout ranks and the editor commissions — those are different decisions
+    and only the first belongs to the model. Expanding the winner unconditionally
+    left an editor who disliked it with nothing to do but rerun the hunt, which
+    costs a call, is non-deterministic, and discards candidates already scored
+    and grounded.
+    """
     if not path.exists():
         raise RuntimeError(f"no corpus at {path} — run `python tasks.py corpus` first")
+
     items = read_json(path).get("items", [])
-    for item in items:
-        if not item.get("winner"):
-            continue
-        if item.get("clearance", {}).get("status") == "blocked":
-            raise RuntimeError(
-                f"'{item['title']}' is cleared `blocked` and must not be expanded"
+    if not items:
+        raise RuntimeError("corpus is empty — the hunt did not complete")
+
+    if ref:
+        needle = ref.strip().lower()
+        matches = [i for i in items
+                   if i.get("id") == ref
+                   or needle in (i.get("title") or "").lower()]
+        if not matches:
+            available = "\n".join(
+                f"    {i.get('id', '?')}  {i.get('title', '?')}" for i in items
             )
-        return item
+            raise RuntimeError(f"no candidate matching {ref!r}. Corpus holds:\n{available}")
+        if len(matches) > 1:
+            titles = ", ".join(repr(m.get("title")) for m in matches)
+            raise RuntimeError(f"{ref!r} matches {len(matches)} candidates: {titles}")
+        chosen = matches[0]
+        if not chosen.get("winner"):
+            log(f"expanding '{chosen['title']}' over the scout's pick", "info")
+        return _refuse_if_blocked(chosen)
+
+    for item in items:
+        if item.get("winner"):
+            return _refuse_if_blocked(item)
     raise RuntimeError("corpus has no winner — the hunt did not complete")
+
+
+# Kept so existing callers and docs referring to the old name still work.
+winner_from = select
 
 
 def _model() -> str:
@@ -321,7 +367,18 @@ def unmapped_names(dossier: Dict[str, Any]) -> List[str]:
     return [p["name"] for p in dossier.get("people", []) if p.get("name") not in fmap]
 
 
-def main() -> int:
+def main(argv: Optional[Sequence[str]] = None) -> int:
+    parser = argparse.ArgumentParser(
+        prog="tasks.py score",
+        description="Expand one cleared candidate into a season.",
+    )
+    parser.add_argument(
+        "--event", default=None, metavar="ID_OR_TITLE",
+        help="corpus item id, or a fragment of its title. Defaults to the "
+             "scout's pick — the editor commissions, the scout only ranks.",
+    )
+    args = parser.parse_args(argv)
+
     load_env()
     if offline():
         log("OFFLINE is set — expansion is a live call", "error")
@@ -329,7 +386,7 @@ def main() -> int:
 
     try:
         n = episodes()
-        candidate = winner_from()
+        candidate = select(ref=args.event)
         ensure_dirs()
         log(f"expanding '{candidate['title']}' into {n} episodes")
         dossier = expand(candidate, n)

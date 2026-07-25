@@ -106,8 +106,9 @@ def cmd_corpus(args) -> int:
 
 
 def cmd_score(args) -> int:
-    """Score the frozen corpus into data/dossiers.json."""
-    return run_module("src.scoring.run")
+    """Expand one cleared candidate into a season. Defaults to the scout's pick."""
+    extra = ["--event", args.event] if args.event else []
+    return run_module("src.scoring.run", extra)
 
 
 def cmd_serial(args) -> int:
@@ -192,7 +193,11 @@ def build_parser() -> argparse.ArgumentParser:
     for name, fn in COMMANDS.items():
         doc = (fn.__doc__ or "").strip().splitlines()[0]
         p = sub.add_parser(name, help=doc)
-        if name == "serial":
+        if name == "score":
+            p.add_argument("--event", default=None, metavar="ID_OR_TITLE",
+                           help="corpus item id or title fragment to commission; "
+                                "omit to take the scout's pick")
+        elif name == "serial":
             p.add_argument("--event", required=True, help="dossier event_id")
         elif name in ("promote", "spinoff"):
             p.add_argument("--char", required=True, help="character id, e.g. jignesh")
