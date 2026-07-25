@@ -41,16 +41,29 @@ _SPEAKER_RE = re.compile(r"^([A-Z][A-Z0-9 .'\-]{0,30}):\s*(.+)$", re.M)
 # THE THREE VIEWS
 # ---------------------------------------------------------------------------
 
-def knows(story: Dict[str, Any], char_id: str) -> List[Dict[str, Any]]:
-    return [b for b in story["beats"] if char_id in b.get("witnessed_by", [])]
+def _beats(source: Any) -> List[Dict[str, Any]]:
+    """
+    Accept a loaded story or a bare beat list.
+
+    The Postgres path holds rows and never builds a story dict. Rather than let it
+    keep a second copy of these rules — which is the one thing this module exists
+    to prevent — the three core views take either.
+    """
+    if isinstance(source, dict) and "beats" in source:
+        return source["beats"]
+    return sorted(source, key=lambda b: (b["ep"], b["seq"]))
 
 
-def blind(story: Dict[str, Any], char_id: str) -> List[Dict[str, Any]]:
+def knows(story: Any, char_id: str) -> List[Dict[str, Any]]:
+    return [b for b in _beats(story) if char_id in b.get("witnessed_by", [])]
+
+
+def blind(story: Any, char_id: str) -> List[Dict[str, Any]]:
     """Every beat the character did not witness. Fail closed — see module docstring."""
-    return [b for b in story["beats"] if char_id not in b.get("witnessed_by", [])]
+    return [b for b in _beats(story) if char_id not in b.get("witnessed_by", [])]
 
 
-def explicitly_hidden(story: Dict[str, Any], char_id: str) -> List[Dict[str, Any]]:
+def explicitly_hidden(story: Any, char_id: str) -> List[Dict[str, Any]]:
     """
     The subset of `blind` that an author actively marked.
 
@@ -58,10 +71,10 @@ def explicitly_hidden(story: Dict[str, Any], char_id: str) -> List[Dict[str, Any
     are not random — they skew toward the beats whoever wrote the sheet had in mind
     — so it can sharpen a prohibition but must never shorten one.
     """
-    return [b for b in story["beats"] if char_id in b.get("hidden_from", [])]
+    return [b for b in _beats(story) if char_id in b.get("hidden_from", [])]
 
 
-def present_not_witnessed(story: Dict[str, Any], char_id: str) -> List[Dict[str, Any]]:
+def present_not_witnessed(story: Any, char_id: str) -> List[Dict[str, Any]]:
     """
     In the room, did not register.
 
@@ -69,11 +82,11 @@ def present_not_witnessed(story: Dict[str, Any], char_id: str) -> List[Dict[str,
     in it: a character standing next to the moment that undoes them, not taking it
     in. Empty for some characters — render nothing rather than an empty heading.
     """
-    return [b for b in story["beats"]
+    return [b for b in _beats(story)
             if char_id in b.get("present", []) and char_id not in b.get("witnessed_by", [])]
 
 
-def gaps(story: Dict[str, Any], char_id: str) -> List[Dict[str, Any]]:
+def gaps(story: Any, char_id: str) -> List[Dict[str, Any]]:
     """
     Runs of consecutive beats the character does not witness.
 
@@ -88,7 +101,7 @@ def gaps(story: Dict[str, Any], char_id: str) -> List[Dict[str, Any]]:
     """
     out: List[Dict[str, Any]] = []
     run: List[Dict[str, Any]] = []
-    beats = story["beats"]
+    beats = _beats(story)
 
     def flush(before: Optional[Dict[str, Any]]) -> None:
         if not run:
@@ -210,19 +223,28 @@ def voice_samples(story: Dict[str, Any], char_id: str, limit: int = 12) -> List[
     Raises on zero. An empty voice block is worse than a missing one: it teaches the
     model the character has no particular way of speaking.
     """
-    name = store.get_char(story, char_id).get("name", char_id)
-    token = store.speaker_token(name)
+    char = store.get_char(story, char_id)
+    name = char.get("name", char_id)
+    candidates = store.speaker_tokens(char)
+    scripts = {ep: store.episode_text(story, ep) for ep in store.episode_numbers(story)}
+    spoken = {speaker for text in scripts.values()
+              for speaker, _ in _SPEAKER_RE.findall(text)}
+
+    # First candidate the scripts actually use. Cast names and script labels agree
+    # in some stories and not others — "Agnes Murray" in the cast is `AGNES:` on
+    # the page — so the script decides, not the naming convention.
+    token = next((c for c in candidates if c in spoken), None)
     lines: List[str] = []
-    for ep in store.episode_numbers(story):
-        for speaker, body in _SPEAKER_RE.findall(store.episode_text(story, ep)):
-            if speaker == token:
-                lines.append(body.strip())
+    if token:
+        for text in scripts.values():
+            lines += [body.strip() for speaker, body in _SPEAKER_RE.findall(text)
+                      if speaker == token]
 
     if not lines:
         raise RuntimeError(
-            f"{char_id} ({name}) speaks no lines in {story['story_id']} — "
-            f"expected the script token {token}:. A character with no voice cannot "
-            "carry a serial; pick another, or fix the name-to-speaker mapping."
+            f"{char_id} ({name}) speaks no lines in {story['story_id']} — tried "
+            f"{', '.join(c + ':' for c in candidates)}. A character with no voice "
+            "cannot carry a serial; pick another, or fix the name-to-speaker mapping."
         )
 
     # Longest first: the short ones are "Yes." and carry no voice.
@@ -311,4 +333,34 @@ def forbidden_facts(story: Dict[str, Any], char_id: str) -> Dict[str, Any]:
         "allowed": allowed, "forbidden": forbidden,
         "allowed_ids": [a["beat_id"] for a in allowed],
         "forbidden_ids": [f["beat_id"] for f in forbidden],
+    }
+
+
+# ---------------------------------------------------------------------------
+# THE BEATS-LIST ENTRY POINT
+# ---------------------------------------------------------------------------
+
+def character_view_from_beats(beats: List[Dict[str, Any]],
+                              char_id: str) -> Dict[str, Any]:
+    """
+    The three views for callers holding a bare beat list rather than a story.
+
+    The Postgres path (`pgstore` + `seed` + the `/api/*` routes) reads rows out of
+    a database and never has a story dict. It gets this instead of its own copy of
+    the rules, because two implementations of `blind` is precisely the drift the
+    whole product claim cannot survive.
+
+    Keeps the shape that path already returns — `{start, end, length, beat_ids}`
+    spans — so nothing built on it breaks. The values change, and that is the
+    point: computed the other way, `kempanna` came back with 7 blind beats out of
+    46 instead of 43, and the 36 in neither list simply vanished from the
+    prohibition set.
+    """
+    return {
+        "char_id": char_id,
+        "knows": knows(beats, char_id),
+        "blind": blind(beats, char_id),
+        "gaps": [{"start": g["beat_ids"][0], "end": g["beat_ids"][-1],
+                  "length": g["span"], "beat_ids": g["beat_ids"]}
+                 for g in gaps(beats, char_id)],
     }

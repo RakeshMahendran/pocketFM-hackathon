@@ -1,0 +1,327 @@
+{
+  "episode_id": "evt_kadamballi_2022_ep01_hi-en",
+  "series_id": "evt_kadamballi_2022",
+  "title": "The Man Who Answers to a Dead Name — Episode 1",
+  "characters": [
+    {
+      "id": "basavaraj",
+      "persona": "verification clerk, district office; reads lists aloud for a living",
+      "gender": "male",
+      "age_range": "50s"
+    },
+    {
+      "id": "chaitra",
+      "persona": "protagonist; taluk topper waiting on document verification for a teaching post",
+      "gender": "female",
+      "age_range": "20s"
+    },
+    {
+      "id": "narrator",
+      "gender": "neutral",
+      "age_range": "40s",
+      "persona": "storyteller, withholding"
+    }
+  ],
+  "lines": [
+    {
+      "line_id": "l001",
+      "speaker": "basavaraj",
+      "text": "अगला। Counter four.",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.4,
+      "sfx_cue": "A ceiling fan turning. Ninety people breathing in a government corridor. A rubber stamp coming down, twice, on wood.",
+      "pace": "normal",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l002",
+      "speaker": "basavaraj",
+      "text": "Original और दो copies. मुझे photostat की photostat मत देना।",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.4,
+      "sfx_cue": "Paper sliding across a laminate counter.",
+      "pace": "normal",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l003",
+      "speaker": "chaitra",
+      "text": "Marks card. Degree. Caste और income... birth certificate, study certificate, सात साल का। छह documents. सब original हैं।",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.45,
+      "pace": "normal",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l004",
+      "speaker": "basavaraj",
+      "text": "Roll number.",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.35,
+      "pace": "clipped",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l005",
+      "speaker": "chaitra",
+      "text": "चार एक नौ दो। मैं— मैं taluk में first आई थी।",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.55,
+      "pace": "normal",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l006",
+      "speaker": "basavaraj",
+      "text": "इस line में हर कोई किसी न किसी चीज़ में first आया है।",
+      "language": "hi-en",
+      "emotion": "sarcasm",
+      "intensity": 0.5,
+      "pace": "normal",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l007",
+      "speaker": "chaitra",
+      "text": "सर, मेरा slot था— दस बजकर पंद्रह मिनट का था। अभी डेढ़ बज रहा है।",
+      "language": "hi-en",
+      "emotion": "urgency",
+      "intensity": 0.5,
+      "sfx_cue": "Pages turning. A pen tapping on a desk.",
+      "pace": "normal",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l008",
+      "speaker": "basavaraj",
+      "text": "और list, list है। Rule fourteen, sub-clause three. Verification seniority of receipt से होता है, appointment से नहीं।",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.45,
+      "pace": "normal",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l009",
+      "speaker": "chaitra",
+      "text": "लेकिन सर, मैं सुबह से खड़ी—",
+      "language": "hi-en",
+      "emotion": "urgency",
+      "intensity": 0.55,
+      "pace": "normal",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l010",
+      "speaker": "basavaraj",
+      "text": "तो बैठ जाइए।",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.4,
+      "pace": "clipped",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l011",
+      "speaker": "chaitra",
+      "text": "मैं खड़ी रहूँगी।",
+      "language": "hi-en",
+      "emotion": "tension",
+      "intensity": 0.5,
+      "pace": "clipped",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l012",
+      "speaker": "basavaraj",
+      "text": "Father's name.",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.4,
+      "sfx_cue": "More pages turning.",
+      "pace": "normal",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l013",
+      "speaker": "chaitra",
+      "text": "वहाँ लिखा है।",
+      "language": "hi-en",
+      "emotion": "tension",
+      "intensity": 0.45,
+      "pace": "clipped",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l014",
+      "speaker": "basavaraj",
+      "text": "बोलिए।",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "pace": "clipped",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l015",
+      "speaker": "chaitra",
+      "text": "लोकनाथ। मास्टर लोकनाथ, Government Higher Primary School, नेरलिगे। चौबीस साल department में, सर, तो अगर father के employment को लेकर कोई query है तो—",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.55,
+      "pace": "normal",
+      "bgm_cue": "neutral"
+    },
+    {
+      "line_id": "l016",
+      "speaker": "basavaraj",
+      "text": "Father को लेकर ही query है।",
+      "language": "hi-en",
+      "emotion": "tension",
+      "intensity": 0.6,
+      "pace": "normal",
+      "bgm_cue": "tension"
+    },
+    {
+      "line_id": "l017",
+      "speaker": "chaitra",
+      "text": "क्या... क्या query है।",
+      "language": "hi-en",
+      "emotion": "tension",
+      "intensity": 0.6,
+      "sfx_cue": "A drawer opening. A cloth-bound register dropping flat on the counter.",
+      "pace": "clipped",
+      "bgm_cue": "tension"
+    },
+    {
+      "line_id": "l018",
+      "speaker": "basavaraj",
+      "text": "एक मिनट। पुत्तराजु सर। Establishment matter.",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.4,
+      "pace": "normal",
+      "bgm_cue": "tension"
+    },
+    {
+      "line_id": "l019",
+      "speaker": "chaitra",
+      "text": "सर। क्या query है।",
+      "language": "hi-en",
+      "emotion": "urgency",
+      "intensity": 0.7,
+      "pace": "clipped",
+      "bgm_cue": "tension"
+    },
+    {
+      "line_id": "l020",
+      "speaker": "narrator",
+      "text": "उस corridor में नब्बे लोग थे। बाद में, हर एक को याद था कि वो कहाँ खड़ा था।",
+      "language": "hi-en",
+      "emotion": "reflective",
+      "intensity": 0.5,
+      "pace": "slow",
+      "bgm_cue": "tension"
+    },
+    {
+      "line_id": "l021",
+      "speaker": "basavaraj",
+      "text": "ये नाम flagged है। Deceased-record cross-check. Standing instruction है मैडम, ये मेरा personal decision नहीं है।",
+      "language": "hi-en",
+      "emotion": "tension",
+      "intensity": 0.55,
+      "sfx_cue": "Thick register pages turning slowly. A finger stopping on a line.",
+      "pace": "normal",
+      "bgm_cue": "tension"
+    },
+    {
+      "line_id": "l022",
+      "speaker": "chaitra",
+      "text": "मेरे पापा ने आज सुबह मुझे bus stand पर छोड़ा है।",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "pace": "normal",
+      "bgm_cue": "tension"
+    },
+    {
+      "line_id": "l023",
+      "speaker": "basavaraj",
+      "text": "तो आपके पापा ये नाम नहीं हैं।",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.55,
+      "pace": "normal",
+      "bgm_cue": "tension"
+    },
+    {
+      "line_id": "l024",
+      "speaker": "chaitra",
+      "text": "नहीं, आप— ठीक से पढ़िए।",
+      "language": "hi-en",
+      "emotion": "hurt_anger",
+      "intensity": 0.75,
+      "pace": "fast",
+      "bgm_cue": "tension"
+    },
+    {
+      "line_id": "l025",
+      "speaker": "basavaraj",
+      "text": "मैं ठीक से ही पढ़ रहा हूँ।",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.55,
+      "sfx_cue": "Nothing. Long.",
+      "pace": "slow",
+      "bgm_cue": "tension"
+    },
+    {
+      "line_id": "l026",
+      "speaker": "chaitra",
+      "text": "ज़ोर से पढ़िए।",
+      "language": "hi-en",
+      "emotion": "urgency",
+      "intensity": 0.8,
+      "sfx_cue": "The rubber stamp. Once.",
+      "pace": "clipped",
+      "bgm_cue": "tension"
+    },
+    {
+      "line_id": "l027",
+      "speaker": "basavaraj",
+      "text": "मैडम, बैठ जाइए—",
+      "language": "hi-en",
+      "emotion": "hesitation",
+      "intensity": 0.5,
+      "pace": "normal",
+      "bgm_cue": "tension"
+    },
+    {
+      "line_id": "l028",
+      "speaker": "chaitra",
+      "text": "नब्बे लोग वैसे भी सुन रहे हैं, सर। ज़ोर से पढ़िए।",
+      "language": "hi-en",
+      "emotion": "hurt_anger",
+      "intensity": 0.85,
+      "pace": "normal",
+      "bgm_cue": "sorrow",
+      "pause_after_ms": 900
+    },
+    {
+      "line_id": "l029",
+      "speaker": "basavaraj",
+      "text": "The man named as her father on this certificate died on the fourteenth of August, nineteen ninety-four.",
+      "language": "hi-en",
+      "emotion": "neutral",
+      "intensity": 0.6,
+      "sfx_cue": "A chair scraping. A corridor going quiet.",
+      "pace": "slow",
+      "bgm_cue": "sorrow"
+    }
+  ]
+}

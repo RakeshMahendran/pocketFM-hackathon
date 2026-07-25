@@ -59,20 +59,33 @@ function EpisodeProgress({
   total,
   fromEp,
   toEp,
+  reported,
 }: {
   written: number;
   total: number;
   fromEp: number;
   toEp: number;
+  /**
+   * True when the run itself said which episodes are in flight. When it is
+   * false the numbers came from counting finished batches on disk, which says
+   * what is done but not what is being written — so the heading must not claim
+   * a span it is guessing at.
+   */
+  reported: boolean;
 }) {
   const pct = total > 0 ? Math.round((written / total) * 100) : 0;
   const span = fromEp === toEp ? `episode ${fromEp}` : `episodes ${fromEp}–${toEp}`;
+  const next = written + 1;
 
   return (
     <div className="mt-8 max-w-2xl">
       <div className="flex items-baseline justify-between gap-4">
         <span className="font-serif text-lg">
-          Writing {span}
+          {reported
+            ? `Writing ${span}`
+            : written < total
+              ? `Now on episode ${next}`
+              : "Finishing up"}
         </span>
         <span className="font-mono text-sm tabular-nums text-muted">
           {written} of {total} done
@@ -170,6 +183,7 @@ export default async function CommissioningPage(
               total={job.progress.total}
               fromEp={job.progress.fromEp}
               toEp={job.progress.toEp}
+              reported={job.progress.batch > 0}
             />
           )}
 

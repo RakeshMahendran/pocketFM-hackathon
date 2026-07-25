@@ -136,6 +136,18 @@ def cmd_score(args) -> int:
     return run_module("src.scoring.run", extra)
 
 
+def cmd_publish(args) -> int:
+    """Put a written season in front of listeners, if its checks pass."""
+    extra = ["--story", args.story]
+    if args.by:
+        extra += ["--by", args.by]
+    if args.check:
+        extra += ["--check"]
+    if args.unpublish:
+        extra += ["--unpublish"]
+    return run_module("src.publish", extra)
+
+
 def cmd_commission(args) -> int:
     """Plan a season and write its scripts. What the console's button runs."""
     extra = ["--event", args.event]
@@ -229,6 +241,11 @@ def cmd_demo(args) -> int:
     return run_module("src.demo_seed", argv)
 
 
+def cmd_seed(args) -> int:
+    """Create the Lakebase schema and load the beat sheet into it."""
+    return run_module("src.canon.seed", ["--char", args.char])
+
+
 def cmd_test(args) -> int:
     """pytest."""
     return subprocess.run([venv_python(), "-m", "pytest", "-q"], cwd=str(ROOT)).returncode
@@ -239,6 +256,7 @@ COMMANDS = {
     "corpus": cmd_corpus,
     "score": cmd_score,
     "commission": cmd_commission,
+    "publish": cmd_publish,
     "serial": cmd_serial,
     "cast": cmd_cast,
     "promote": cmd_promote,
@@ -246,6 +264,7 @@ COMMANDS = {
     "validate": cmd_validate,
     "gate1": cmd_gate1,
     "leak": cmd_leak,
+    "seed": cmd_seed,
     "api": cmd_api,
     "demo": cmd_demo,
     "test": cmd_test,
@@ -267,6 +286,8 @@ def build_parser() -> argparse.ArgumentParser:
         # --story applies to everything downstream of a delivered serial. Added
         # before the chain below rather than folded into it, because gate1 needs
         # both --story and --char and an elif would cost it one of them.
+        # `publish`, `commission` and `serial` declare their own --story in the
+        # chain, so they are deliberately not in STORY_COMMANDS.
         if name in STORY_COMMANDS:
             p.add_argument("--story", default=DEFAULT_STORY,
                            help="story id under data/stories/")
@@ -274,7 +295,15 @@ def build_parser() -> argparse.ArgumentParser:
             p.add_argument("--anchor", default=None,
                            help="anchor beat_id; default is the top witnessed moment")
 
-        if name == "score":
+        if name == "publish":
+            p.add_argument("--story", required=True,
+                           help="directory under data/stories")
+            p.add_argument("--by", default=None, help="who is publishing it")
+            p.add_argument("--check", action="store_true",
+                           help="report the checks without publishing")
+            p.add_argument("--unpublish", action="store_true",
+                           help="return it to draft")
+        elif name == "score":
             p.add_argument("--event", default=None, metavar="ID_OR_TITLE",
                            help="corpus item id or title fragment to commission; "
                                 "omit to take the scout's pick")
@@ -301,6 +330,11 @@ def build_parser() -> argparse.ArgumentParser:
                            help="character id, e.g. ratnamma")
         elif name in ("gate1", "validate", "leak", "demo"):
             p.add_argument("--char", default=DEFAULT_CHAR, help="character id")
+        elif name == "seed":
+            # `seed` loads the hand-written IPL fixture into Postgres, and jignesh
+            # is the character in that fixture. He exists in no delivered story,
+            # which is why every other command defaults to ratnamma instead.
+            p.add_argument("--char", default="jignesh", help="character id")
         elif name == "api":
             p.add_argument("--port", type=int, default=8000)
 

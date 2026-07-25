@@ -66,6 +66,60 @@ function str(v: unknown): string | null {
   return typeof v === "string" && v.trim() ? v.trim() : null;
 }
 
+/** `serial_<story>_<start>_<end>_<hash>.json`, written once a batch returns. */
+const BATCH_FILE = /^serial_(.+)_(\d+)_(\d+)_[0-9a-f]+\.json$/;
+
+/**
+ * Work out progress from what is on disk.
+ *
+ * The runner reports after each batch, but a run started before that existed
+ * reports nothing, and a status file can also be caught mid-write. The cached
+ * responses are the same evidence by another route: one file appears per batch
+ * that came back, and the episode range is in its name.
+ *
+ * Derived rather than trusted, so it also corrects a status file that has gone
+ * stale because the process died between a batch and its write.
+ */
+async function progressFromDisk(
+  storyId: string,
+  dossierEventId: string | null,
+): Promise<{ written: number; total: number; fromEp: number; toEp: number } | null> {
+  let names: string[];
+  try {
+    names = await fs.readdir(path.join(DATA_DIR, "cache", "calls"));
+  } catch {
+    return null;
+  }
+
+  const spans = names
+    .map((n) => BATCH_FILE.exec(n))
+    .filter((m): m is RegExpExecArray => m !== null && m[1] === storyId)
+    .map((m) => ({ from: Number(m[2]), to: Number(m[3]) }))
+    .sort((a, b) => a.from - b.from);
+
+  if (!spans.length) return null;
+  const written = Math.max(...spans.map((s) => s.to));
+
+  // The plan knows the season length. Without it a count has no denominator,
+  // and "12 written" alone does not tell anyone how far along that is.
+  let total = written;
+  try {
+    const raw = JSON.parse(
+      await fs.readFile(path.join(DATA_DIR, "dossiers.json"), "utf-8"),
+    );
+    const list = Array.isArray(raw) ? raw : [];
+    const match =
+      list.find((d) => asRecord(d).event_id === dossierEventId) ?? list[list.length - 1];
+    const season = asRecord(match).season;
+    if (Array.isArray(season) && season.length) total = season.length;
+  } catch {
+    // No plan readable: report what is written without inventing a target.
+  }
+
+  const last = spans[spans.length - 1];
+  return { written, total, fromEp: last.from, toEp: last.to };
+}
+
 export async function readCommission(eventId: string): Promise<Commission | null> {
   let raw: string;
   try {
@@ -88,10 +142,13 @@ export async function readCommission(eventId: string): Promise<Commission | null
   const r = asRecord(parsed);
   const state = str(r.state);
 
+  const storyId = str(r.story_id) ?? eventId;
+  const dossierEventId = str(r.dossier_event_id);
+
   const p = asRecord(r.progress);
   const written = int(p.written);
   const total = int(p.total);
-  const progress =
+  let progress =
     written !== null && total !== null
       ? {
           written,
@@ -103,8 +160,15 @@ export async function readCommission(eventId: string): Promise<Commission | null
         }
       : null;
 
+  if (!progress) {
+    const derived = await progressFromDisk(storyId, dossierEventId);
+    if (derived) {
+      progress = { ...derived, batch: 0, batches: 0 };
+    }
+  }
+
   return {
-    totalEpisodes: int(r.total_episodes),
+    totalEpisodes: int(r.total_episodes) ?? progress?.total ?? null,
     progress,
     eventId,
     storyId: str(r.story_id),

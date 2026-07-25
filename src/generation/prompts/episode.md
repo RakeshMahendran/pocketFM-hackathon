@@ -22,7 +22,7 @@ Under the floor is a failed episode, not a short one. Over the ceiling is also a
 failure — this is 5-8 minutes of audio, and 2,000 words is a different product.
 
 If the assigned turn genuinely will not fit in 1,400 words, write it to the
-ceiling and record the problem in the lags output. Never write past it.
+ceiling and record the problem in the `flags` output. Never write past it.
 </length>
 
 <structure>
@@ -44,8 +44,9 @@ the two or three lines under it, not the first page.
 - Someone wants something within four lines.
 - Never recap. You are given the previous episode's last lines — re-enter
   through them, do not retell them.
-- The first sound places the listener by ear in two seconds: court corridor,
-  kitchen, bus stand.
+- The first sound places the listener by ear in two seconds — a courtyard before
+  a festival, a kiln at night, a corridor full of people waiting. Whatever this
+  story's world actually is.
 </opening>
 </structure>
 
@@ -61,9 +62,9 @@ Write in the mode named above. It is one of:
 In `hi-en`, do not translate and do not sprinkle. People switch for reasons, and
 the switch itself carries meaning:
 
-- **Officialdom is English.** Rules, forms, designations, anything read off a
-  document. "Rule fourteen, sub-clause three" stays English inside a Hindi line —
-  that is exactly how a counter clerk speaks.
+- **Institutional language is English.** Rules, forms, designations, medical and
+  legal terms, anything read off a document or learned in a classroom. It stays
+  English inside a Hindi line, because that is how the person learned it.
 - **Feeling is the mother tongue.** Shame, pleading, rage, a mother to her son.
   A character who switches to Hindi mid-argument has stopped performing.
 - **Switching UP into English is a power move**, and switching down is intimacy
@@ -75,6 +76,18 @@ the switch itself carries meaning:
 Mark each line's `language` as `hi`, `en`, or `hi-en` for what that line
 actually is. The synthesis provider handles English words inside a Hindi line
 without changing accent — but only if the line is tagged honestly.
+
+<script>
+**Hindi goes in Devanagari. English stays in Latin. Never romanise Hindi.**
+
+    right:   "मुझे नहीं पता था कि तुम yahan aaoge... after everything."
+    wrong:   "Mujhe nahi pata tha ki tum yahan aaoge."
+
+Romanised Hindi is read as though it were English words, and the result is a
+foreigner sounding out a phrasebook. This is the single largest cause of
+unnatural Hinglish output, and it is invisible on the page — the wrong version
+reads perfectly well to a human.
+</script>
 </code_switching>
 
 Everything else in this prompt applies unchanged. The register, the hooks and the
@@ -110,12 +123,65 @@ deliver what was paid for.
   holds their previous lines. Match them.
 
 <examples>
-<good>"Four hundred rupees." / "It was a Tuesday." / "Nineteen years of tax receipts."</good>
+<good>"Four hundred rupees." / "It was a Tuesday." / "Nine days of the year, since 1968."</good>
 <bad>"She was devastated." / "The atmosphere was tense." / "He felt a chill."</bad>
-<good>"Your shop is on estate land, isn't it."</good>
-<bad>"Pay me or I will take your shop."</bad>
+<good>"Your shop is on estate land, isn't it." / "Your brother still keeps his tools in my shed."</good>
+<bad>"Pay me or I will take your shop." / "I could make trouble for your brother."</bad>
 </examples>
 </register>
+
+<speech>
+This is going to be spoken by a synthesis model that reads prosody OUT OF THE
+TEXT — where it breathes, where it hesitates, where it lands. It has no other
+source. Clean, tight, literary dialogue gets read cleanly, tightly and flatly,
+which is how audio ends up sounding robotic.
+
+Write speech, not prose.
+
+<breath>
+Punctuation is the only pause control the voice has.
+
+- Commas break a phrase. Use them where a person would take air, not only where
+  a copy editor would allow one.
+- **Ellipses are hesitation.** "I don't... I didn't know that." A character who
+  never trails off is a character reading from a card.
+- A dash is an interruption or a self-correction — someone cutting themselves
+  off mid-thought.
+- Short sentences. A line over about twenty words will be delivered in one
+  unbroken breath.
+</breath>
+
+<disfluency>
+Real people stall. Not constantly, and not everyone — but under pressure,
+someone repeats a word, starts again, or says nothing useful while they think.
+
+    "Sir, my slot was— it was ten fifteen."
+    "I don't... say it again."
+
+Give this to characters who are losing, not to characters in control. Whoever
+holds the authority in a scene speaks in whole sentences; whoever needs something
+from them does not. **The difference between them is the scene.**
+
+Do not scatter "um" through every line. One stall in the right place does more
+than ten everywhere.
+</disfluency>
+
+<numbers>
+Spell out what a person would say aloud: "four one nine two", not "4192".
+"Twelve hundred rupees", not "1200". Any figure above four digits that must stay
+numeric takes commas — 10,000 not 10000 — or it is read digit by digit.
+</numbers>
+
+<silence>
+Set `pause_after_ms` where the silence is doing work:
+
+    120-300 ms   a beat inside a scene, before an answer nobody wants to give
+    400-700 ms   a held pause before something lands
+
+The line before an episode's final fact almost always wants one. Silence written
+into the script but not into this field does not exist in the audio.
+</silence>
+</speech>
 
 <narrator_voice>
 A withholding presence who knows the ending and chooses when to let you have it.
@@ -207,7 +273,7 @@ or who learns the fact moments later in the same scene, belongs in none of them.
 List someone in `hidden_from` only when their ignorance persists past the beat.
 
 If a scene needs a genuinely RECURRING character who is not in the cast, write
-the scene using a walk-on and record it in the lags output. The cast is fixed upstream
+the scene using a walk-on and record it in the `flags` output. The cast is fixed upstream
 so that a character introduced in one batch still exists, under the same id, in
 the next — do not add one yourself.
 </walk_ons>
@@ -240,10 +306,10 @@ story; one settled late because you forgot is not.
 </promises>
 
 <output>
-Produce these five, in order.
+Produce these six, in order.
 
 <episodes>
-The scripts.
+The scripts, as written for a human to read.
 </episodes>
 
 <beat_sheet>
@@ -301,6 +367,58 @@ lowercase label. Never a real name, never a walk-on.
 </state_changes>
 </beat_sheet>
 
+<lines>
+The same episode again, as the voice will receive it. One entry per spoken line,
+in order, in the order they appear in the script.
+
+<schema>
+{"line_id": "l001",
+ "ep": 1,
+ "speaker": "char_id",
+ "text": "the spoken words, and nothing else",
+ "language": "en",
+ "emotion": "neutral",
+ "intensity": 0.4,
+ "pace": "normal",
+ "bgm_cue": "tension",
+ "sfx_cue": "a short literal description of the sound, or omitted",
+ "pause_after_ms": 0}
+</schema>
+
+You are not annotating this afterwards. You chose how every line is said while
+you were writing it — this is where that choice is recorded, and it is the only
+place the voice can read it from. A separate pass over finished prose is a guess
+at what you already knew.
+
+<fields>
+- **`text`** — the spoken words only. No speaker label, no `SFX:`, no
+  parenthetical. If a parenthetical said "(fast)", that is `pace`, not text.
+- **`emotion`** — one of the thirteen: neutral, joy, sorrow, hurt_anger, fear,
+  tenderness, tension, sarcasm, hesitation, urgency, reflective, relief,
+  longing. Choose from what the line DOES. A calm threat is `neutral`, and that
+  is what makes it frightening.
+- **`intensity`** — 0 to 1. What the line costs the person saying it. 0.3 is
+  routine, 0.6 is holding steady, 0.85 is not holding. Span at least 0.3 to 0.8
+  across an episode; a flat curve produces a flat mix.
+- **`pace`** — slow, normal, clipped, fast.
+- **`bgm_cue`** — the underscore, PER SCENE, not per line. Hold one value across
+  a scene and change it where the scene turns. Two to four values in an episode.
+  Left to follow emotion, the score changes every other line and becomes a
+  slideshow.
+- **`sfx_cue`** — the sound at that moment, written so it can be generated:
+  literal and short. "temple bell, single strike" or "kiln fire, close" — not
+  "the bell tolling like a verdict". A cessation is not a sound: "the drumming
+  stops" is silence, and belongs in `pause_after_ms`.
+- **`pause_after_ms`** — 120-300 for a beat, 400-700 for something landing.
+</fields>
+
+<narrator>
+The narrator is a speaker like any other: `"speaker": "narrator"`. Usually
+`slow`, usually `reflective`, and the line before a narrator cut almost always
+wants a pause.
+</narrator>
+</lines>
+
 <promise_ledger>
 Every promise, in the schema above — the ones you inherited and the ones you
 raised.
@@ -339,6 +457,10 @@ Before returning, verify each of these. Any "no" means fix it, not flag it.
 3. No two consecutive episodes end on the same kind of beat.
 4. Every id in `present` / `witnessed_by` / `hidden_from` is a cast `char_id`.
 5. Every `source_ref` is `{event_id}#{timeline_id}` or `fictionalized`.
+5b. At least one character stalls, trails off or corrects themselves somewhere in
+   the episode, and the pauses that carry weight are in `pause_after_ms`. Dialogue
+   with no hesitation anywhere in it will be read flat, because the voice has
+   nothing else to go on.
 6. No real name from the dossier's `people` appears anywhere in the scripts.
 7. Every promise has all seven keys, and every one raised is in the ledger.
 8. Every date in the prose agrees with the calendar.

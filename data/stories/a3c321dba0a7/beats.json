@@ -1,0 +1,2489 @@
+{
+  "story_id": "a3c321dba0a7",
+  "event_id": "evt_ravenshore_1821",
+  "beats": [
+    {
+      "beat_id": "b001",
+      "ep": 1,
+      "seq": 1,
+      "world_time": "1822-09-16",
+      "location": "Bell's London investor salon",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "agnes",
+        "thomas"
+      ],
+      "what_happened": "Bell publicly blamed Ewan for a damaged Ravenshore bond and dismissed his explanation in front of investors.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "His professional competence was publicly discredited.",
+          "valence": -3
+        },
+        {
+          "entity": "bell",
+          "fact": "He established authority over Ewan before the investors.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b002",
+      "ep": 1,
+      "seq": 2,
+      "world_time": "1822-09-16",
+      "location": "Bell's London investor salon",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "miles"
+      ],
+      "hidden_from": [
+        "agnes",
+        "thomas",
+        "tawis"
+      ],
+      "what_happened": "Macrae received public applause after claiming Ravenshore's land and future revenue would support the bond issue.",
+      "state_changes": [
+        {
+          "entity": "macrae",
+          "fact": "His public credibility with Bell's investors increased.",
+          "valence": 3
+        },
+        {
+          "entity": "Ravenshore bond issue",
+          "fact": "Investor enthusiasm increased despite the defective certificate.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b003",
+      "ep": 1,
+      "seq": 3,
+      "world_time": "1822-09-16",
+      "location": "Bond records room beneath Bell's salon",
+      "present": [
+        "ewan",
+        "pippa"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "pippa"
+      ],
+      "hidden_from": [
+        "bell",
+        "macrae",
+        "miles",
+        "mara"
+      ],
+      "what_happened": "Ewan and Pippa found that serial R-4187 on Miles's bond had already been assigned to a different investor who paid in full.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "He obtained evidence that the bond problem was not merely a printing defect.",
+          "valence": 2
+        },
+        {
+          "entity": "Ravenshore bond issue",
+          "fact": "One certificate serial was confirmed as sold to two investors.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b004",
+      "ep": 2,
+      "seq": 1,
+      "world_time": "1822-09-17",
+      "location": "Bell's London counting room",
+      "present": [
+        "ewan",
+        "bell"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "bell"
+      ],
+      "hidden_from": [
+        "macrae",
+        "miles",
+        "mara"
+      ],
+      "what_happened": "Bell opened his private ledger, and Ewan found serial R-4187 entered twice in different ink on dates eleven days apart.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "He confirmed the duplicate serial in Bell's private records.",
+          "valence": 3
+        },
+        {
+          "entity": "bell",
+          "fact": "His private ledger connected his office to both payments.",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b005",
+      "ep": 2,
+      "seq": 2,
+      "world_time": "1822-09-17",
+      "location": "Bell's London counting room",
+      "present": [
+        "ewan",
+        "bell"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "bell"
+      ],
+      "hidden_from": [
+        "pippa",
+        "macrae",
+        "elspeth"
+      ],
+      "what_happened": "Bell refused to cancel the duplicate bond, invoked Ewan's family debts, and ordered him to recreate a water-damaged register.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "His mother's financial vulnerability was used to pressure him into compliance.",
+          "valence": -3
+        },
+        {
+          "entity": "bell",
+          "fact": "He refused to correct the duplicated bond entry.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b006",
+      "ep": 2,
+      "seq": 3,
+      "world_time": "1822-09-17",
+      "location": "Bell's London counting room",
+      "present": [
+        "ewan",
+        "bell"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "bell"
+      ],
+      "hidden_from": [
+        "pippa",
+        "macrae",
+        "mara"
+      ],
+      "what_happened": "Bell locked Ewan inside the counting room until he recreated all 312 entries in the missing bond register.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "He was confined and forced to reconstruct the bond register overnight.",
+          "valence": -4
+        },
+        {
+          "entity": "bond register",
+          "fact": "Its 312 entries were scheduled for reconstruction by Ewan.",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b007",
+      "ep": 2,
+      "seq": 4,
+      "world_time": "1822-09-17",
+      "location": "Route from the Ravenshore office to Alderwick Auction Rooms",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "ewan",
+        "pippa",
+        "miles"
+      ],
+      "what_happened": "Six sealed cases containing 800 Ravenshore certificates authenticated with forged Ewan initials were transported to the auction house.",
+      "state_changes": [
+        {
+          "entity": "Ravenshore bond issue",
+          "fact": "Eight hundred certificates bearing forged Ewan initials entered auction-house custody.",
+          "valence": -5
+        },
+        {
+          "entity": "ewan",
+          "fact": "His identity was attached to certificates he did not authenticate.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "The dispatch occurs away from the cast and establishes deliberate open canon before Pippa obtains the freight docket."
+    },
+    {
+      "beat_id": "b008",
+      "ep": 2,
+      "seq": 5,
+      "world_time": "1822-09-17",
+      "location": "Outside Bell's locked counting room",
+      "present": [
+        "ewan",
+        "pippa"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "pippa"
+      ],
+      "hidden_from": [
+        "miles",
+        "mara",
+        "elspeth"
+      ],
+      "what_happened": "Pippa passed Ewan a freight docket proving that a fresh shipment had reached the auction house with his forged initials on every certificate.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "He learned his forged initials appeared on 800 auction certificates.",
+          "valence": -5
+        },
+        {
+          "entity": "pippa",
+          "fact": "She shared evidence of the unauthorized shipment with Ewan.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b009",
+      "ep": 3,
+      "seq": 1,
+      "world_time": "1822-09-24",
+      "location": "Calderwick recruiting hall in Scotland",
+      "present": [
+        "ewan",
+        "mara",
+        "agnes",
+        "thomas"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "mara",
+        "agnes",
+        "thomas"
+      ],
+      "hidden_from": [
+        "bell",
+        "macrae",
+        "pippa"
+      ],
+      "what_happened": "Mara publicly presented Ewan as a Ravenshore government clerk and required him to answer prospective settlers' questions.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "His clerical role was used as public evidence of Ravenshore's legitimacy.",
+          "valence": -3
+        },
+        {
+          "entity": "mara",
+          "fact": "She gained an official-looking witness for the recruiting meeting.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b010",
+      "ep": 3,
+      "seq": 2,
+      "world_time": "1822-09-24",
+      "location": "Calderwick recruiting hall in Scotland",
+      "present": [
+        "ewan",
+        "mara",
+        "agnes",
+        "thomas"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "mara",
+        "agnes",
+        "thomas"
+      ],
+      "hidden_from": [
+        "bell",
+        "macrae"
+      ],
+      "what_happened": "Ewan admitted that he had never seen Ravenshore's wages, farms, capital, harbour, bank, or completed surveys, while Mara reframed his answers as support for settlement.",
+      "state_changes": [
+        {
+          "entity": "agnes",
+          "fact": "She learned Ewan had seen official papers but not the advertised country.",
+          "valence": -1
+        },
+        {
+          "entity": "thomas",
+          "fact": "He identified the lack of firsthand surveying evidence.",
+          "valence": 2
+        },
+        {
+          "entity": "ewan",
+          "fact": "His careful qualifications were publicly converted into apparent endorsement.",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b011",
+      "ep": 3,
+      "seq": 3,
+      "world_time": "1822-09-24",
+      "location": "Deposit table in Calderwick recruiting hall",
+      "present": [
+        "ewan",
+        "mara",
+        "agnes",
+        "thomas"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "mara",
+        "agnes",
+        "thomas"
+      ],
+      "hidden_from": [
+        "bell",
+        "macrae",
+        "elspeth"
+      ],
+      "what_happened": "Agnes paid seventeen pounds for thirty acres and three berths, and Ewan wrote her entry into the deposit ledger.",
+      "state_changes": [
+        {
+          "entity": "agnes",
+          "fact": "She committed seventeen pounds of her family's shop proceeds to Ravenshore land and passage.",
+          "valence": -3
+        },
+        {
+          "entity": "ewan",
+          "fact": "His handwriting became the recorded witness to Agnes's purchase.",
+          "valence": -4
+        },
+        {
+          "entity": "mara",
+          "fact": "She secured Agnes's family deposit.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b012",
+      "ep": 3,
+      "seq": 4,
+      "world_time": "1822-09-24",
+      "location": "Calderwick recruiting hall after the meeting",
+      "present": [
+        "ewan",
+        "mara"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "mara"
+      ],
+      "hidden_from": [
+        "agnes",
+        "thomas",
+        "bell",
+        "pippa"
+      ],
+      "what_happened": "Mara revealed that seventy settlers had paid deposits and their ship was scheduled to sail the next morning before Ewan could warn them.",
+      "state_changes": [
+        {
+          "entity": "settler expedition",
+          "fact": "Seventy paid settlers were committed to a departure on 1822-09-25.",
+          "valence": -5
+        },
+        {
+          "entity": "ewan",
+          "fact": "He lacked enough time to warn the paid settlers before departure.",
+          "valence": -4
+        },
+        {
+          "entity": "mara",
+          "fact": "She completed recruitment for the scheduled sailing.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b013",
+      "ep": 4,
+      "seq": 1,
+      "world_time": "1822-10-02",
+      "location": "Bell's London investor chamber",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "miles"
+      ],
+      "hidden_from": [
+        "mara",
+        "agnes",
+        "thomas",
+        "elspeth"
+      ],
+      "what_happened": "Macrae used Ewan's dependence on his wages to force him to identify the paper, handwriting, signatures, and seal on a constitution, sovereign seal, and bank charter before investors.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Ewan became the visible clerk associated with the documents that gave Ravenshore an official form.",
+          "valence": -4
+        },
+        {
+          "entity": "Ravenshore documents",
+          "fact": "The constitution, seal, and bank charter received public clerical authentication.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b014",
+      "ep": 4,
+      "seq": 2,
+      "world_time": "1822-10-02",
+      "location": "Alderwick Auction Rooms in London",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "miles"
+      ],
+      "hidden_from": [
+        "agnes",
+        "thomas",
+        "elspeth",
+        "tawis"
+      ],
+      "what_happened": "The first public Ravenshore bond sale sold all 800 certificates, including the shipment bearing Ewan's forged initials.",
+      "state_changes": [
+        {
+          "entity": "Ravenshore bond issue",
+          "fact": "All 800 certificates in the first public issue were subscribed.",
+          "valence": 4
+        },
+        {
+          "entity": "ewan",
+          "fact": "Investors publicly treated Ewan as the clerk responsible for checking the issue.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b015",
+      "ep": 4,
+      "seq": 3,
+      "world_time": "1822-10-02",
+      "location": "Alderwick Auction Rooms in London",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "miles"
+      ],
+      "hidden_from": [
+        "agnes",
+        "thomas",
+        "elspeth"
+      ],
+      "what_happened": "Bell and Macrae announced that the successful sale supplied the money needed to pay for and release the settler expedition.",
+      "state_changes": [
+        {
+          "entity": "settler expedition",
+          "fact": "The expedition obtained financing from the first public bond sale.",
+          "valence": 2
+        },
+        {
+          "entity": "macrae",
+          "fact": "Macrae gained access to proceeds capable of financing the expedition.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b016",
+      "ep": 4,
+      "seq": 4,
+      "world_time": "1822-10-02",
+      "location": "Transfer between Bell's subscription account and Macrae's controlled account",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "ewan",
+        "pippa",
+        "miles",
+        "mara",
+        "agnes",
+        "thomas"
+      ],
+      "what_happened": "The auction proceeds were moved from Bell's subscription account into an account controlled by Macrae before the certificates were delivered.",
+      "state_changes": [
+        {
+          "entity": "investor funds",
+          "fact": "The proceeds left the protected subscription account before bond delivery.",
+          "valence": -5
+        },
+        {
+          "entity": "macrae",
+          "fact": "An account controlled by Macrae received the investor proceeds.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "The transfer occurs outside the sight of any cast character and remains open canon until Pippa discovers its ledger entry."
+    },
+    {
+      "beat_id": "b017",
+      "ep": 4,
+      "seq": 5,
+      "world_time": "1822-10-02",
+      "location": "Bell's London ledger office",
+      "present": [
+        "ewan",
+        "pippa"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "pippa"
+      ],
+      "hidden_from": [
+        "miles",
+        "mara",
+        "agnes",
+        "thomas",
+        "elspeth"
+      ],
+      "what_happened": "Pippa found and showed Ewan the ledger entry proving that Bell moved the investor proceeds into Macrae's controlled account before bond delivery.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Ewan learned that the bond proceeds had been transferred to Macrae's control.",
+          "valence": -4
+        },
+        {
+          "entity": "pippa",
+          "fact": "Pippa obtained ledger evidence of the premature transfer.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b018",
+      "ep": 5,
+      "seq": 1,
+      "world_time": "1822-10-03",
+      "location": "London departure port",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "ewan",
+        "pippa",
+        "bell",
+        "miles",
+        "elspeth"
+      ],
+      "what_happened": "The first expedition carrying seventy settlers departed after the vessel was paid from the successful bond sale.",
+      "state_changes": [
+        {
+          "entity": "settler expedition",
+          "fact": "The first ship began its voyage to the Blackwater Coast.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "The departure is conveyed as a time consequence without a cast character witnessing the administrative release."
+    },
+    {
+      "beat_id": "b019",
+      "ep": 5,
+      "seq": 2,
+      "world_time": "1822-12-09",
+      "location": "Advertised site of the Ravenshore capital on the Blackwater Coast",
+      "present": [
+        "agnes",
+        "thomas"
+      ],
+      "witnessed_by": [
+        "agnes",
+        "thomas"
+      ],
+      "hidden_from": [
+        "ewan",
+        "macrae",
+        "bell",
+        "mara",
+        "pippa",
+        "miles"
+      ],
+      "what_happened": "The first ship reached the advertised coordinates, where Agnes and Thomas found mud and jungle but no harbour, capital, government house, bank, streets, or storehouses.",
+      "state_changes": [
+        {
+          "entity": "agnes",
+          "fact": "Agnes learned that the promised city and institutions were absent from the landing site.",
+          "valence": -5
+        },
+        {
+          "entity": "thomas",
+          "fact": "Thomas became a direct witness to the absence of the advertised capital.",
+          "valence": -5
+        },
+        {
+          "entity": "settler expedition",
+          "fact": "The settlers landed without the promised built settlement.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b020",
+      "ep": 5,
+      "seq": 3,
+      "world_time": "1822-12",
+      "location": "Bell's London Ravenshore office",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "mara"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "mara"
+      ],
+      "hidden_from": [
+        "agnes",
+        "thomas",
+        "elspeth"
+      ],
+      "what_happened": "Bell and Macrae ordered Ewan to continue preparing land and passage sales without a report from the settlement, while Mara continued presenting his objections as sales language.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Ewan was compelled to continue selling passage while unable to verify the settlement.",
+          "valence": -4
+        },
+        {
+          "entity": "Ravenshore sales",
+          "fact": "Land and passage sales continued without confirmation that the advertised city existed.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b021",
+      "ep": 5,
+      "seq": 4,
+      "world_time": "1823-01-31",
+      "location": "Bell's London ledger office",
+      "present": [
+        "ewan",
+        "pippa"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "pippa"
+      ],
+      "hidden_from": [
+        "macrae",
+        "bell",
+        "mara",
+        "miles",
+        "elspeth"
+      ],
+      "what_happened": "Ewan received Thomas's first letter reporting that the promised city was missing and that the settlers had found only jungle, mud, and unfamiliar coastal guides.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Ewan received direct written evidence that the advertised capital was absent.",
+          "valence": -5
+        },
+        {
+          "entity": "Thomas's first letter",
+          "fact": "The settlers' initial report reached the London office.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b022",
+      "ep": 6,
+      "seq": 1,
+      "world_time": "1823-02-01",
+      "location": "Bell's London ledger office",
+      "present": [
+        "ewan",
+        "pippa",
+        "bell"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "pippa",
+        "bell"
+      ],
+      "hidden_from": [
+        "macrae",
+        "mara",
+        "miles",
+        "elspeth"
+      ],
+      "what_happened": "Ewan and Pippa matched Thomas's cargo list to Bell's freight ledger and established that the expedition carried government papers, bank notes, and uniforms but no office-supplied food, medical chests, axes, or saws.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Ewan obtained documentary proof that the expedition had been sent without essential office-supplied provisions.",
+          "valence": 2
+        },
+        {
+          "entity": "bell",
+          "fact": "Bell learned that his freight ledger corroborated Thomas's cargo list.",
+          "valence": -4
+        },
+        {
+          "entity": "settler expedition",
+          "fact": "The absence of office-supplied food, tools, and medical stores became documented in London.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b023",
+      "ep": 6,
+      "seq": 2,
+      "world_time": "1823-02-01",
+      "location": "Bell's London investor chamber",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "miles"
+      ],
+      "hidden_from": [
+        "mara",
+        "agnes",
+        "thomas",
+        "elspeth"
+      ],
+      "what_happened": "Ewan publicly reconciled the auction receipts, expedition charges, commissions, printing costs, and transfer into Macrae's controlled account before Bell's investors.",
+      "state_changes": [
+        {
+          "entity": "investor funds",
+          "fact": "The disposition of all 84000 pounds in auction receipts was publicly reconciled.",
+          "valence": 3
+        },
+        {
+          "entity": "ewan",
+          "fact": "Ewan demonstrated his accounting competence before the investors who had mocked him.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b024",
+      "ep": 6,
+      "seq": 3,
+      "world_time": "1823-02-01",
+      "location": "Bell's London investor chamber",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "miles"
+      ],
+      "hidden_from": [
+        "mara",
+        "agnes",
+        "thomas",
+        "elspeth"
+      ],
+      "what_happened": "Bell publicly admitted that Ewan was the only clerk in the office capable of reconciling the books.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Bell publicly acknowledged Ewan's unique competence.",
+          "valence": 5
+        },
+        {
+          "entity": "bell",
+          "fact": "Bell was forced to reverse his public dismissal of Ewan.",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b025",
+      "ep": 6,
+      "seq": 4,
+      "world_time": "1823-02-01",
+      "location": "Bell's London investor chamber",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "miles"
+      ],
+      "hidden_from": [
+        "mara",
+        "agnes",
+        "thomas",
+        "elspeth"
+      ],
+      "what_happened": "Macrae ordered Ross to print the next Ravenshore bond issue with Ewan named as Treasurer of Ravenshore.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Ewan's name was placed beneath the title Treasurer of Ravenshore on the next bond issue.",
+          "valence": -5
+        },
+        {
+          "entity": "Ravenshore bond issue",
+          "fact": "The next issue acquired a named treasurer whose reputation could be used to support it.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b026",
+      "ep": 7,
+      "seq": 1,
+      "world_time": "1823-02-03",
+      "location": "Bell's London investor chamber",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "mara",
+        "pippa",
+        "agnes",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "mara",
+        "pippa",
+        "agnes",
+        "miles"
+      ],
+      "hidden_from": [
+        "thomas",
+        "elspeth",
+        "tawis",
+        "lucien"
+      ],
+      "what_happened": "Agnes publicly presented the names and reported losses of the first expedition and demanded relief for the stranded settlers.",
+      "state_changes": [
+        {
+          "entity": "agnes",
+          "fact": "Agnes has made the first expedition's losses known inside Bell's office.",
+          "valence": 2
+        },
+        {
+          "entity": "mara",
+          "fact": "Mara learns that the first expedition lacked the promised settlement and supplies.",
+          "valence": -3
+        },
+        {
+          "entity": "bell",
+          "fact": "Bell faces public demands to account for settler relief.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b027",
+      "ep": 7,
+      "seq": 2,
+      "world_time": "1823-02-03",
+      "location": "Bell's London counting room",
+      "present": [
+        "ewan",
+        "pippa"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "pippa"
+      ],
+      "hidden_from": [
+        "agnes",
+        "mara",
+        "miles",
+        "elspeth",
+        "thomas"
+      ],
+      "what_happened": "Ewan and Pippa established that the stated relief balance of 4,800 pounds was copied from a freight account and was never deposited as cash.",
+      "state_changes": [
+        {
+          "entity": "relief ledger",
+          "fact": "The relief ledger is established as containing a copied balance but no money.",
+          "valence": -5
+        },
+        {
+          "entity": "ewan",
+          "fact": "Ewan can prove that the advertised relief fund was unfunded.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b028",
+      "ep": 7,
+      "seq": 3,
+      "world_time": "1823-02-03",
+      "location": "Bell's London investor chamber",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "mara",
+        "pippa",
+        "agnes",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "mara",
+        "pippa",
+        "agnes",
+        "miles"
+      ],
+      "hidden_from": [
+        "thomas",
+        "elspeth",
+        "tawis",
+        "lucien"
+      ],
+      "what_happened": "Ewan publicly stated that no cash had been deposited into the relief fund, and a sealed notice revealed that a second settler ship was due to depart France the next morning.",
+      "state_changes": [
+        {
+          "entity": "agnes",
+          "fact": "Agnes learns that the relief fund cannot supply food, medicine, or return passage.",
+          "valence": -4
+        },
+        {
+          "entity": "ewan",
+          "fact": "Ewan learns that a second settler expedition is imminent.",
+          "valence": -4
+        },
+        {
+          "entity": "second expedition",
+          "fact": "Its scheduled departure becomes known to Bell's office.",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b029",
+      "ep": 8,
+      "seq": 1,
+      "world_time": "1823-02-04",
+      "location": "Vey's government registry office in London",
+      "present": [
+        "ewan",
+        "agnes",
+        "vey",
+        "bell",
+        "macrae"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "agnes",
+        "vey",
+        "bell",
+        "macrae"
+      ],
+      "hidden_from": [
+        "thomas",
+        "elspeth",
+        "tawis",
+        "lucien"
+      ],
+      "what_happened": "Vey ordered the first expedition's names and reported losses entered into a public complaint book and required Bell to sign that no further expedition would depart pending inquiry.",
+      "state_changes": [
+        {
+          "entity": "public complaint book",
+          "fact": "The first expedition's seventy names and reported losses are officially recorded.",
+          "valence": 4
+        },
+        {
+          "entity": "agnes",
+          "fact": "Agnes obtains an official record of the settlers' complaint.",
+          "valence": 4
+        },
+        {
+          "entity": "bell",
+          "fact": "Bell signs an undertaking against further settler departures.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b030",
+      "ep": 8,
+      "seq": 2,
+      "world_time": "1823-02-04",
+      "location": "Lucien's London subscription auction",
+      "present": [
+        "ewan",
+        "lucien",
+        "macrae",
+        "bell",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "lucien",
+        "macrae",
+        "bell",
+        "miles"
+      ],
+      "hidden_from": [
+        "agnes",
+        "thomas",
+        "elspeth",
+        "tawis"
+      ],
+      "what_happened": "Ewan interrupted Lucien's sale with Bell's undertaking and warned investors that the first expedition's losses had been officially recorded.",
+      "state_changes": [
+        {
+          "entity": "lucien",
+          "fact": "Lucien's French-facing sale is disrupted by Ewan's warning.",
+          "valence": -3
+        },
+        {
+          "entity": "ewan",
+          "fact": "Ewan publicly attempts to prevent financing and passage for the second expedition.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b031",
+      "ep": 8,
+      "seq": 3,
+      "world_time": "1823-02-04",
+      "location": "Lucien's London subscription auction",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "lucien",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "lucien",
+        "miles"
+      ],
+      "hidden_from": [
+        "agnes",
+        "thomas",
+        "elspeth",
+        "tawis"
+      ],
+      "what_happened": "Macrae and Bell publicly accused Ewan of withdrawing 4,800 pounds from the relief treasury using a ledger entry bearing his seal.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Ewan is publicly accused of stealing the entire stated relief balance.",
+          "valence": -5
+        },
+        {
+          "entity": "bell",
+          "fact": "Bell relies on the theft ledger to shift responsibility for the empty treasury to Ewan.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b032",
+      "ep": 8,
+      "seq": 4,
+      "world_time": "1823-02-04",
+      "location": "Lucien's London subscription auction",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "lucien",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "lucien",
+        "miles"
+      ],
+      "hidden_from": [
+        "agnes",
+        "thomas",
+        "elspeth",
+        "tawis"
+      ],
+      "what_happened": "Pippa and Ewan found that the theft ledger bore Ewan's forged seal and named Elspeth's house as collateral for the alleged missing funds.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Ewan learns that his forged authority has been used to place his mother's house at risk.",
+          "valence": -5
+        },
+        {
+          "entity": "elspeth",
+          "fact": "Elspeth's house is listed as collateral without her knowledge.",
+          "valence": -5
+        },
+        {
+          "entity": "pippa",
+          "fact": "Pippa identifies physical signs that the theft entry was recently manufactured.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b033",
+      "ep": 9,
+      "seq": 1,
+      "world_time": "1823-02-04",
+      "location": "Lucien's London subscription auction",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "lucien",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "lucien",
+        "miles"
+      ],
+      "hidden_from": [
+        "agnes",
+        "thomas",
+        "elspeth",
+        "tawis"
+      ],
+      "what_happened": "Ross confirmed that the theft entry used ink mixed three days earlier and paper from the newest bond issue, proving that it could not record an October withdrawal.",
+      "state_changes": [
+        {
+          "entity": "theft ledger",
+          "fact": "The alleged October withdrawal is proven to have been manufactured recently.",
+          "valence": 4
+        },
+        {
+          "entity": "ewan",
+          "fact": "The documentary basis of the theft accusation against Ewan collapses publicly.",
+          "valence": 5
+        },
+        {
+          "entity": "macrae",
+          "fact": "Macrae's planted evidence is exposed before investors.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b034",
+      "ep": 9,
+      "seq": 2,
+      "world_time": "1823-02-04",
+      "location": "Lucien's London subscription auction",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "lucien",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "lucien",
+        "miles"
+      ],
+      "hidden_from": [
+        "agnes",
+        "thomas",
+        "elspeth",
+        "tawis"
+      ],
+      "what_happened": "Bell publicly admitted that the Ravenshore treasury held no available cash and that the ledger entry accusing Ewan had been planted.",
+      "state_changes": [
+        {
+          "entity": "bell",
+          "fact": "Bell publicly admits that the treasury is empty and Ewan's alleged withdrawal was manufactured.",
+          "valence": -5
+        },
+        {
+          "entity": "ewan",
+          "fact": "Ewan is publicly cleared of the 4,800-pound theft accusation.",
+          "valence": 5
+        },
+        {
+          "entity": "Ravenshore treasury",
+          "fact": "The treasury is established as holding no available cash.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b035",
+      "ep": 9,
+      "seq": 3,
+      "world_time": "1823-02-04",
+      "location": "French departure port",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "ewan",
+        "bell",
+        "pippa",
+        "agnes",
+        "vey",
+        "miles"
+      ],
+      "what_happened": "The second ship departed France at 08:10 carrying additional settlers despite Bell's signed undertaking against further departures.",
+      "state_changes": [
+        {
+          "entity": "second expedition",
+          "fact": "The second settler ship has sailed from France.",
+          "valence": -5
+        },
+        {
+          "entity": "bell",
+          "fact": "Bell's signed undertaking fails to prevent the departure.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "The departure occurs away from the principal cast and remains open canon until the port confirmation reaches London."
+    },
+    {
+      "beat_id": "b036",
+      "ep": 9,
+      "seq": 4,
+      "world_time": "1823-02-04",
+      "location": "Lucien's London subscription auction",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "lucien",
+        "miles",
+        "agnes"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "ross",
+        "lucien",
+        "miles",
+        "agnes"
+      ],
+      "hidden_from": [
+        "thomas",
+        "elspeth",
+        "tawis",
+        "vey"
+      ],
+      "what_happened": "A port confirmation revealed that the second ship had already sailed from France carrying more settlers despite Bell's signed promise.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Ewan learns that his attempt to stop the second expedition failed.",
+          "valence": -5
+        },
+        {
+          "entity": "agnes",
+          "fact": "Agnes learns that additional settlers have been sent toward Ravenshore.",
+          "valence": -5
+        },
+        {
+          "entity": "bell",
+          "fact": "Bell is confronted with proof that a second expedition departed despite his undertaking.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b037",
+      "ep": 10,
+      "seq": 1,
+      "world_time": "1823-05-12",
+      "location": "Vey's government registry chamber in London",
+      "present": [
+        "ewan",
+        "thomas",
+        "agnes",
+        "vey",
+        "bell",
+        "macrae",
+        "pippa",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "thomas",
+        "agnes",
+        "vey",
+        "bell",
+        "macrae",
+        "pippa",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "mara",
+        "lucien"
+      ],
+      "what_happened": "Thomas returned with survivors, reported twenty-three deaths, and publicly identified Ewan as the only Ravenshore office worker who had asked what the country possessed.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Thomas publicly identified him as the office worker who questioned Ravenshore's material claims before departure",
+          "valence": 4
+        },
+        {
+          "entity": "survivors' petition",
+          "fact": "Thomas became its principal witness and Ewan became its office witness",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b038",
+      "ep": 10,
+      "seq": 2,
+      "world_time": "1823-05-12",
+      "location": "Vey's government registry chamber in London",
+      "present": [
+        "ewan",
+        "thomas",
+        "agnes",
+        "vey",
+        "bell",
+        "macrae",
+        "pippa",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "thomas",
+        "agnes",
+        "vey",
+        "bell",
+        "macrae",
+        "pippa",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "lucien"
+      ],
+      "what_happened": "Pippa established a recoverable balance of 2,140 pounds from the auction transfers, and Vey compelled Bell to fund a settlement for settler property and survivor relief.",
+      "state_changes": [
+        {
+          "entity": "investor proceeds",
+          "fact": "2,140 pounds became recoverable through Bell's settlement",
+          "valence": 4
+        },
+        {
+          "entity": "bell",
+          "fact": "Bell publicly agreed to fund the settlement",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b039",
+      "ep": 10,
+      "seq": 3,
+      "world_time": "1823-05-12",
+      "location": "Vey's government registry chamber in London",
+      "present": [
+        "ewan",
+        "thomas",
+        "agnes",
+        "vey",
+        "bell",
+        "pippa"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "thomas",
+        "agnes",
+        "vey",
+        "bell",
+        "pippa"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "mara",
+        "lucien"
+      ],
+      "what_happened": "The settlement funded by Bell restored the deed to Agnes's family shop free of the Ravenshore pledge.",
+      "state_changes": [
+        {
+          "entity": "agnes",
+          "fact": "Her family recovered its shop deed free of the Ravenshore pledge",
+          "valence": 5
+        },
+        {
+          "entity": "bell",
+          "fact": "His money funded the restoration of settler property",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b040",
+      "ep": 10,
+      "seq": 4,
+      "world_time": "1823-05-12",
+      "location": "Vey's government registry chamber in London",
+      "present": [
+        "ewan",
+        "thomas",
+        "tawis",
+        "vey",
+        "agnes",
+        "bell",
+        "macrae",
+        "pippa",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "thomas",
+        "tawis",
+        "vey",
+        "agnes",
+        "bell",
+        "macrae",
+        "pippa",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "mara",
+        "lucien"
+      ],
+      "what_happened": "Tawis arrived with a coastal record showing that no Ravenshore government had ever been recognized on the land claimed by Macrae.",
+      "state_changes": [
+        {
+          "entity": "Macrae's territorial claim",
+          "fact": "A coastal record directly contradicted recognition of the claimed government",
+          "valence": -5
+        },
+        {
+          "entity": "tawis",
+          "fact": "Tawis became a documentary witness against Macrae's territorial authority",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b041",
+      "ep": 11,
+      "seq": 1,
+      "world_time": "1835-04-21",
+      "location": "Side room at Vey's government registry in London",
+      "present": [
+        "ewan",
+        "macrae"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae"
+      ],
+      "hidden_from": [
+        "bell",
+        "pippa",
+        "thomas",
+        "tawis",
+        "agnes",
+        "vey",
+        "miles",
+        "elspeth"
+      ],
+      "what_happened": "Macrae offered Ewan a partnership, twelve thousand acres, a quarter share of the next land issue, and a changed surname in exchange for denouncing Thomas's account as sabotage.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Macrae offered him wealth, status, and a new identity in exchange for false testimony",
+          "valence": -3
+        },
+        {
+          "entity": "macrae",
+          "fact": "Macrae attempted to purchase Ewan's testimony against Thomas",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b042",
+      "ep": 11,
+      "seq": 2,
+      "world_time": "1835-04-21",
+      "location": "Vey's government registry chamber in London",
+      "present": [
+        "ewan",
+        "macrae",
+        "thomas",
+        "tawis",
+        "agnes",
+        "vey",
+        "bell",
+        "pippa",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "thomas",
+        "tawis",
+        "agnes",
+        "vey",
+        "bell",
+        "pippa",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "mara",
+        "lucien"
+      ],
+      "what_happened": "Ewan publicly disclosed Macrae's offer and refused to sign the statement accusing Thomas of sabotage.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "Ewan rejected Macrae's partnership and retained his own name",
+          "valence": 4
+        },
+        {
+          "entity": "macrae",
+          "fact": "His attempt to purchase Ewan's testimony became public",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b043",
+      "ep": 11,
+      "seq": 3,
+      "world_time": "1835-04-21",
+      "location": "Vey's government registry chamber in London",
+      "present": [
+        "ewan",
+        "macrae",
+        "thomas",
+        "tawis",
+        "agnes",
+        "vey",
+        "bell",
+        "pippa",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "thomas",
+        "tawis",
+        "agnes",
+        "vey",
+        "bell",
+        "pippa",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "mara",
+        "lucien"
+      ],
+      "what_happened": "A creditor served Ewan with a writ naming him as co-director of the Ravenshore treasury because his forged initials appeared on eight hundred recent certificates.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "He became formally exposed to creditor liability as an alleged co-director",
+          "valence": -5
+        },
+        {
+          "entity": "creditor's writ",
+          "fact": "The forged initials were used as the basis for naming Ewan a co-director",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b044",
+      "ep": 11,
+      "seq": 4,
+      "world_time": "1835-04-21",
+      "location": "Bell's lower bank vault in London",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "ewan",
+        "pippa",
+        "thomas",
+        "tawis",
+        "agnes",
+        "vey",
+        "miles",
+        "elspeth"
+      ],
+      "what_happened": "A sealed packet containing an April 1834 Ravenshore land grant remained inside Bell's lower bank vault.",
+      "state_changes": [
+        {
+          "entity": "sealed grant",
+          "fact": "The April 1834 land grant remained concealed in Bell's possession",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Deliberate open canon establishes the concealed document before Bell reveals it in episode 12."
+    },
+    {
+      "beat_id": "b045",
+      "ep": 12,
+      "seq": 1,
+      "world_time": "1835-04-22",
+      "location": "Bell's London counting room",
+      "present": [
+        "ewan",
+        "bell",
+        "pippa",
+        "thomas",
+        "tawis"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "bell",
+        "pippa",
+        "thomas",
+        "tawis"
+      ],
+      "hidden_from": [
+        "macrae",
+        "elspeth",
+        "mara",
+        "lucien",
+        "miles"
+      ],
+      "what_happened": "Ewan reconstructed the chain connecting Macrae's land claim, printed government papers, Bell's subscription account, the bond issue, and the settler expedition.",
+      "state_changes": [
+        {
+          "entity": "Ravenshore documentary chain",
+          "fact": "The land claim, papers, bank, bonds, and expedition were connected in one evidentiary sequence",
+          "valence": 5
+        },
+        {
+          "entity": "bell",
+          "fact": "Bell was confronted with his signature at the banking link in the chain",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b046",
+      "ep": 12,
+      "seq": 2,
+      "world_time": "1835-04-22",
+      "location": "Bell's London counting room",
+      "present": [
+        "ewan",
+        "bell",
+        "pippa",
+        "thomas",
+        "tawis"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "bell",
+        "pippa",
+        "thomas",
+        "tawis"
+      ],
+      "hidden_from": [
+        "macrae",
+        "elspeth",
+        "mara",
+        "lucien",
+        "miles"
+      ],
+      "what_happened": "Bell admitted that he did not verify Macrae's territory, did not consult a coastal authority, released investor money before delivery, and allowed Macrae to control the funds.",
+      "state_changes": [
+        {
+          "entity": "bell",
+          "fact": "Bell admitted the principal failures that allowed the Ravenshore issue to appear legitimate",
+          "valence": -5
+        },
+        {
+          "entity": "ewan",
+          "fact": "Ewan obtained Bell's admissions in front of four witnesses",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b047",
+      "ep": 12,
+      "seq": 3,
+      "world_time": "1835-04-22",
+      "location": "Bell's London counting room",
+      "present": [
+        "ewan",
+        "bell",
+        "pippa",
+        "thomas",
+        "tawis"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "bell",
+        "pippa",
+        "thomas",
+        "tawis"
+      ],
+      "hidden_from": [
+        "macrae",
+        "elspeth",
+        "mara",
+        "lucien",
+        "miles"
+      ],
+      "what_happened": "Bell chose to assist Ewan rather than protect Macrae and opened the bank safe containing Macrae's later land papers.",
+      "state_changes": [
+        {
+          "entity": "bell",
+          "fact": "Bell withdrew his protection from Macrae and surrendered concealed evidence",
+          "valence": 3
+        },
+        {
+          "entity": "macrae",
+          "fact": "Bell ceased protecting Macrae's land documents",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b048",
+      "ep": 12,
+      "seq": 4,
+      "world_time": "1835-04-22",
+      "location": "Bell's London counting room",
+      "present": [
+        "ewan",
+        "bell",
+        "pippa",
+        "thomas",
+        "tawis"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "bell",
+        "pippa",
+        "thomas",
+        "tawis"
+      ],
+      "hidden_from": [
+        "macrae",
+        "elspeth",
+        "mara",
+        "lucien",
+        "miles"
+      ],
+      "what_happened": "Bell handed Ewan a sealed sixty-acre Ravenshore grant issued in April 1834, showing that Macrae continued preparing land sales long after the first expedition was abandoned.",
+      "state_changes": [
+        {
+          "entity": "sealed grant",
+          "fact": "The sixty-acre grant issued in April 1834 entered Ewan's possession as evidence",
+          "valence": 5
+        },
+        {
+          "entity": "macrae",
+          "fact": "Macrae was connected to a Ravenshore land issue prepared after the survivors' complaints",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "The season plan describes April 1834 as thirteen years after abandonment, but the established first expedition reached the coast in December 1822."
+    },
+    {
+      "beat_id": "b049",
+      "ep": 13,
+      "seq": 1,
+      "world_time": "1835-04-23",
+      "location": "Vey's government registry hearing chamber in London",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "mara",
+        "lucien"
+      ],
+      "what_happened": "Ewan was permitted to question Bell publicly about the instruments used to sell Ravenshore bonds.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "gained authority to examine the Ravenshore instruments at the public hearing",
+          "valence": 3
+        },
+        {
+          "entity": "macrae",
+          "fact": "lost control over the scope of the public inquiry",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b050",
+      "ep": 13,
+      "seq": 2,
+      "world_time": "1835-04-23",
+      "location": "Vey's government registry hearing chamber in London",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "mara",
+        "lucien"
+      ],
+      "what_happened": "Bell publicly admitted that the bonds were accepted because British-made paper, seals, bank documents, uniforms, and proclamations imitated a government rather than because the territory was verified.",
+      "state_changes": [
+        {
+          "entity": "bell",
+          "fact": "publicly accepted responsibility for validating unverified Ravenshore instruments",
+          "valence": -4
+        },
+        {
+          "entity": "macrae",
+          "fact": "lost Bell's public support for the claimed government",
+          "valence": -4
+        },
+        {
+          "entity": "ewan",
+          "fact": "secured a public admission that the office papers manufactured the appearance of authority",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b051",
+      "ep": 13,
+      "seq": 3,
+      "world_time": "1835-04-23",
+      "location": "Vey's government registry hearing chamber in London",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "mara",
+        "lucien"
+      ],
+      "what_happened": "Bell publicly named Ewan as the person who exposed the false treasury and agreed to cancel the 126 remaining bonds in his local subscription book.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "received public acknowledgment from Bell for uncovering the false treasury",
+          "valence": 5
+        },
+        {
+          "entity": "local Ravenshore bonds",
+          "fact": "the 126 bonds in Bell's local subscription book were ordered cancelled",
+          "valence": 4
+        },
+        {
+          "entity": "bell",
+          "fact": "waived the bank's defence of the remaining local bonds",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b052",
+      "ep": 13,
+      "seq": 4,
+      "world_time": "1835-04-23",
+      "location": "Vey's government registry hearing chamber in London",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "mara",
+        "lucien"
+      ],
+      "what_happened": "Ross produced Macrae's retained final certificate, whose witness clause named Ewan as the person required to authenticate or invalidate the entire Ravenshore issue.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "became the controlling witness under Macrae's own final certificate",
+          "valence": 5
+        },
+        {
+          "entity": "Ravenshore issue",
+          "fact": "became vulnerable to invalidation through its printed witness clause",
+          "valence": -5
+        },
+        {
+          "entity": "macrae",
+          "fact": "was bound by a witness clause on the certificate he approved",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b053",
+      "ep": 14,
+      "seq": 1,
+      "world_time": "1835-04-24",
+      "location": "Vey's government registry hearing chamber in London",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "mara",
+        "lucien"
+      ],
+      "what_happened": "Ewan presented the duplicate bond register, the April 1834 grant, Thomas's survivor testimony, and Bell's subscription records as a single chain connecting the false land claim to the bond and settler sales.",
+      "state_changes": [
+        {
+          "entity": "ewan",
+          "fact": "established the documentary chain required to challenge all Ravenshore instruments",
+          "valence": 5
+        },
+        {
+          "entity": "April 1834 grant issue",
+          "fact": "was shown to comprise sixty printed certificates with seventeen cleared deposits",
+          "valence": -4
+        },
+        {
+          "entity": "macrae",
+          "fact": "was publicly connected to land sales made after the first expedition's losses were known",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b054",
+      "ep": 14,
+      "seq": 2,
+      "world_time": "1835-04-24",
+      "location": "Vey's government registry hearing chamber in London",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "mara",
+        "lucien"
+      ],
+      "what_happened": "Tawis established that no recognized Ravenshore government or land cession existed and reported that the second ship was refused entry, diverted to a licensed harbour, and had all its settlers repatriated.",
+      "state_changes": [
+        {
+          "entity": "Tawis's coastal record",
+          "fact": "was admitted as evidence against Macrae's claimed territorial authority",
+          "valence": 5
+        },
+        {
+          "entity": "macrae",
+          "fact": "lost the territorial basis asserted for the bonds and land grants",
+          "valence": -5
+        },
+        {
+          "entity": "second ship settlers",
+          "fact": "were recorded as repatriated without establishing a Ravenshore settlement",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b055",
+      "ep": 14,
+      "seq": 3,
+      "world_time": "1835-04-24",
+      "location": "Bell's settlement account and registry payment system in London",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [],
+      "what_happened": "All approved payment vouchers cleared, distributing the 2,140-pound recoverable balance to local investors and the survivor settlement without a commission deduction.",
+      "state_changes": [
+        {
+          "entity": "recovered funds",
+          "fact": "were distributed to local investors and the survivor settlement",
+          "valence": 5
+        },
+        {
+          "entity": "bell",
+          "fact": "received no commission from the recovered balance",
+          "valence": -2
+        },
+        {
+          "entity": "agnes",
+          "fact": "retained her restored shop deed free of the Ravenshore pledge",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "The administrative transfer occurred outside the hearing without a cast witness, preserving a consequential unwitnessed canon beat."
+    },
+    {
+      "beat_id": "b056",
+      "ep": 14,
+      "seq": 4,
+      "world_time": "1835-04-24",
+      "location": "Vey's government registry hearing chamber in London",
+      "present": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "witnessed_by": [
+        "ewan",
+        "macrae",
+        "bell",
+        "pippa",
+        "agnes",
+        "thomas",
+        "vey",
+        "tawis",
+        "ross",
+        "miles"
+      ],
+      "hidden_from": [
+        "elspeth",
+        "mara",
+        "lucien"
+      ],
+      "what_happened": "The registry discharged the false collateral against Elspeth's house, dismissed the creditor's claim against Ewan, voided every Ravenshore bond and land grant, and entered Ewan as official cancellation witness and keeper of the fraud archive.",
+      "state_changes": [
+        {
+          "entity": "elspeth",
+          "fact": "her house was released from the false Ravenshore collateral entry",
+          "valence": 5
+        },
+        {
+          "entity": "ewan",
+          "fact": "was cleared of theft and co-director liability and appointed keeper of the fraud archive",
+          "valence": 5
+        },
+        {
+          "entity": "Ravenshore instruments",
+          "fact": "every registered bond and land grant was recorded as void",
+          "valence": -5
+        },
+        {
+          "entity": "survivor testimony",
+          "fact": "was preserved in the permanent fraud archive",
+          "valence": 5
+        },
+        {
+          "entity": "agnes",
+          "fact": "her family shop remained free of the Ravenshore pledge",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    }
+  ]
+}

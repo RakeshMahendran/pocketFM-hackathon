@@ -13,6 +13,13 @@ from src.discovery import cache
 from src.generation import client
 
 
+def pytest_configure(config):
+    config.addinivalue_line(
+        "markers",
+        "lakebase: integration test needing a reachable Lakebase instance",
+    )
+
+
 @pytest.fixture(autouse=True)
 def cache_to_tmp(tmp_path, monkeypatch):
     monkeypatch.setattr(cache, "CACHE", tmp_path / "cache")

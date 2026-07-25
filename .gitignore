@@ -1,5 +1,7 @@
-.venv/
+﻿.venv/
 .worktrees/
+# databricks sync snapshot state - local to one machine, not shared config
+.databricks/
 __pycache__/
 *.pyc
 .env

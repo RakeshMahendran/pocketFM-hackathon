@@ -157,13 +157,25 @@ def get_char(story: Dict[str, Any], char_id: str) -> Dict[str, Any]:
     return char
 
 
-def speaker_token(name: str) -> str:
+def speaker_tokens(char: Dict[str, Any]) -> List[str]:
     """
-    The script's speaker label for a cast name.
+    Candidate script labels for one cast member, best guess first.
 
-    Scripts are `SPEAKER: line`, and 16 of story1's 17 cast names map by
-    uppercasing. The exception is a character who died before episode one and has
-    no lines at all. This rule lives in exactly one place so the voice extractor
-    and any future check cannot disagree about it.
+    Scripts are `SPEAKER: line`. In story1 the cast carries single names and
+    uppercasing is enough — 16 of 17 map exactly. A later story cast people as
+    "Agnes Murray" and "Osric Bell" while the scripts say `AGNES:` and `BELL:`,
+    so a single rule cannot cover both.
+
+    Returned as candidates rather than one answer because only the caller has the
+    script to check against. Kept here so the voice extractor and anything that
+    follows cannot disagree about what a speaker label is.
     """
-    return name.upper()
+    name = char.get("name", "") or ""
+    parts = name.split()
+    seen, out = set(), []
+    for token in (name, char.get("char_id", ""), *parts):
+        upper = token.upper().strip()
+        if upper and upper not in seen:
+            seen.add(upper)
+            out.append(upper)
+    return out

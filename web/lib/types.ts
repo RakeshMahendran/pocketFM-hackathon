@@ -64,6 +64,14 @@ export interface Candidate {
   why_not: string | null;
 
   origin: Origin;
+  /**
+   * The show this story became, if it has been made.
+   *
+   * A season is written into `data/stories/<corpus id>/`, so a story and the
+   * show it produced share an id. Without this the two screens look like two
+   * unrelated lists — which is exactly what they were until one was made.
+   */
+  madeAs: string | null;
   /** Fields absent from the source data. The UI says so rather than inventing them. */
   missing: string[];
 }

@@ -1,0 +1,9 @@
+{
+  "name": "canonforge",
+  "private": true,
+  "comment": "Root manifest so the Databricks Apps build step finds a build script. The real app is in web/; this only delegates to it.",
+  "scripts": {
+    "build": "npm --prefix web ci && npm --prefix web run build",
+    "start": "npm --prefix web run start"
+  }
+}

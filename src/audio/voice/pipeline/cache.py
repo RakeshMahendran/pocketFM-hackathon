@@ -14,11 +14,25 @@ from src.audio.voice.providers.base import SynthesisResult
 DEFAULT_CACHE_DIR = "data/cache"
 
 
-def line_hash(line: dict, provider_name: str) -> str:
+def line_hash(line: dict, provider_name: str, voice_id: str = "") -> str:
+    """
+    Key on every parameter that changes the audio, and nothing that does not.
+
+    `language` and `voice_id` were both absent, and both change the output:
+    the same sentence as `en` and as `hi-en` is a different reading, and a
+    character who is re-cast must not replay the previous voice's take. Without
+    them a cast change looked like a cache hit — silently, and for the whole
+    series, because casting locks.
+
+    `voice_id` is passed rather than read off the line: it is resolved from the
+    casting lockfile, not written in the script.
+    """
     key = "|".join([
         provider_name,
+        voice_id,
         line["speaker"],
         line["text"],
+        line.get("language", ""),
         line["emotion"],
         str(line.get("intensity", "")),
         line.get("pace", "normal"),

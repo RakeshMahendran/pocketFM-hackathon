@@ -1,12 +1,22 @@
 {
   "event_id": "a3c321dba0a7",
   "history": [],
-  "state": "running",
-  "step": "writing",
-  "label": "Writing the episodes",
+  "state": "done",
+  "step": "done",
+  "label": "Ready",
   "story_id": "a3c321dba0a7",
-  "started_at": "2026-07-25T19:46:18.522954+00:00",
+  "started_at": "2026-07-25T20:19:07.406288+00:00",
   "error": null,
-  "updated_at": "2026-07-25T19:47:11.548179+00:00",
-  "dossier_event_id": "evt_briarhaven_1821"
+  "updated_at": "2026-07-25T20:33:45.102499+00:00",
+  "dossier_event_id": "evt_ravenshore_1821",
+  "finished_at": "2026-07-25T20:33:45.101491+00:00",
+  "total_episodes": 14,
+  "progress": {
+    "total": 14,
+    "written": 14,
+    "batches": 5,
+    "batch": 5,
+    "from_ep": 13,
+    "to_ep": 14
+  }
 }

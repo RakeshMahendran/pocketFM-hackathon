@@ -1,0 +1,391 @@
+{
+  "stage": "serial_a3c321dba0a7_13_14",
+  "saved_at": "2026-07-25T20:01:59.475626+00:00",
+  "response": {
+    "id": "resp_0219b006211a89c2006a6515affd34819688cc725cf960f062",
+    "created_at": 1785009584.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_0219b006211a89c2006a6515b0c9b08196956569b6483d5f3d",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRY3nbTiELyvD0qBC9Hg_PNJf1eNYtddosFAbSvpxNtcOIo7QWDuWCacgYlaSxLoaeurbCt1Cavp98yp-q7Me1HFjdbXG3gMgBwGCpldcUrRiMVTTTZJahnYRO67tBZQY6pQJEttgV3_3wSgnYlEwefitOc3_v9De4pG8L1wUl-HlnLZhBrGic9cVyIJbq1IciYKt6QkrkZVGy0S1qS7OJudyAtv0Ygfliq-Rug0H2BNk_n6QwvmO9200LgB3muLxa--mjhi4jHkjY5trOUi7eNxrde15vRMAhAELkz2GqEUUbg1iS2Ij6Mg73LJWVRzr5_m2gP56SKXI-5xGH-LwvRusk0HWmZwkC71IEDy3GTKxelZo6fhrq2TgZYhkkol4SCIfiyiVWdCRm7FrOfsLgRHAmz68WP8OBGXKXB4s7esrya7o6G5Cmezn7BUJEL51fFq4BeUu1NJI8Su8u0gEwBqQDEqBwu47ROYLS0I2Wg4FiwbLgbe4CToJBe86KJ8McozurG3-AhLg5Re8CpnCKqBwqdKMmNQ5UMzwqXEDuOI-sRkixiodYRvf4hLbBPhRmzvK-UGMV9Zq0w8CZQi4K_Ooy7gDsxupjrmKHYLVJQQLq1SVSo9sxmORFB-Vrd9oU_Gdbi1CqJYUohobntyuSIpHYuHF4JoDRWxKtFB8_sDBhoM5Kyn70gRQzocBbPvBCrOC-svzbWtk7MpONLlQ6UsNKX0ExPJVRqpAKxI6MnxPLCCxLW1qXTem3osBdSgRZvLFSfL0CXH9x8CbOr90C4DcItHwXoVCQZ-wlHJXXWa-jhVTN75h_mY-DbjUvHIkbWw8PeGKDAN9SMBLiMtqzs2QSLWswjYK_VW0Gono-S_M9hBX4xB3bs0eWYke8pCwNv4tesk7zN-IG2yqk082Gq1qjJI8AXb7_vchpW19yw3hWakxE5OzBebFxtMCGJekUFAquDo4yo3oWj739PfXOoEX6W3PxPX8XTZQsIY2k5_YOUueDyIJF5ZCqPHls4BjaV2ehPwpXkEYoMjLyDY1iPa39HOFjJ1S39J5Y26yR3JGtIFzidu746am7k8WtcV1su9iPOUjXOUGaLQXMOiHNXsNqhLDfU3qW3tRudi0Z3pGVvSdZgn3txSSPsUZ__2PMsY6w_yP8bqeqhzs5CD_ir2r-dJlmGOEmB_2XEYQDvCMvnlmvwB0OteDE7rs2bFy_dRPdzlr0olL9d-T9v3Sr-cdPYF-_yCquxxcmc5JmhI3lAzemEP3hOeFVWU5ei9KFt69PWdISbFFMwQzS1iMPP1rP7JElv2BywlApib7bFF49xvlwyUqZr8lGrPAiEdYUnxJe0JRkpqIBDgne5VWDkFWNOhisu8SrkJ3Y8ss0lpMOGrev2HJ7hpvC015mhl_UhkMqqBk4jy825GcCuTGE77lYvRofO1v3o0AHeYfVj0TXIsf3jvlb_u6BWe-ncBt-p8IW0ZcDbQmtOxU5MCYoQ8bNTxkOTwXCtdOcfnbAWoNRAF-P7YwDd3X1FJsahi172ve_an2e6xfMUjNIt6pbcMIk_uhNabF1ZXRqZFvHtdw4yLuASivCr16ZDCTgWBJv4qFNENfNaEUrZbWOjXi__KhJy9WuMGJgG-NLU3qiw5pGHnIuB3MgnwV8r3hAI0CIKfQP1KR-H4GOlXdbhzLpbycuu9I6HUO-AywjuUy1LflBEOV7Cb2tera6f3xp0WU9p6D9RJ5HXBeHO5U0PgePailVr2w3gDl9QEeeC-Vu2tWa0NxycEz7CoU3gkm2eewc4JY7QLqIqQ0FWebab-ropboxdFpLDZxIYVT9hoCH8lpVcqvMGgAUlVSX5VXImSi9YOyD-bpqduCODGHS7dG193h4344_2rNL_L4SOoLGgd_K71Euey4cdEGkQbrK1DvYJD0qA_G8vQYYuLdnIGo8x0lcsz1-Erj1GC5LehixXpKS6UNPE0U6HbWCaXyZhV3bZYqLGa8B0-jb9f11FDhwTUHmKSBRRmH9r06raYUnj-mDejp18Lu6EBm7leWqcebJfYRYNrDsIReKCNUEjcoDCNo4MvvLM5LGW5hYzMMfcFphWezJgB3gC9ByhsjCUSKm7UMJ-5duWRZ2Ky9SwtttYT5rnrlMoZTuW463F5mf4l6tF-JdDDd0K6P27sdnHnfd0If99VrLRl3GRMtl1sQuXE_1nOkvoBEigxWP4PBYzGIa9m2MMzP7iFQUEjI58aPUxDcov6XLDlPH9plPKHiblg407sKkOy1PeHQ8OrcbsWYMWt5e7ZHQd1HTv_d3ktaw8wmBxr7Mg2_BFKBen4UvVRRNGWb2fprjxBAMG6-mjepVLEG4n1Pt1pNajhXzFeHPXcV75x83Zz6AaHIVEqtKcVnNAEzBJZnYdWvHTDN0mhL19B2UXZoG84kx1J3NRpJ3JtQlZ169ekTZx4Ipd47wjFcdGMY2gX9h0dRztN4NaMmwyut7P8gGYyn_9j3cLPg5cSuos2MY2_GXVnn2_VxnsY4OyEw2qUF3vcFFhNea6O7aMdwMnN_Uw9TgnbnDPIYb0g1dFJe3dul5bpmEVINL1OkeZdh0bUqCLxuGwkpmEzsO9kH0uppePCBydWotowJQS5x4dZZt_6xpsQcNyhLhBembE7uIbt22un0RipnuZIuarzk7qLKR2CIWlcTHovyj07kSnODv_PYKi5PmV4Ewe-CSn_uoYWCCvcJWF3iJhXzJBkeu_YCgnEjiA6Oo_yeO0umXUzAHGgm9y0ExJnv2kaDtyfhZkLFAd78dZ9xIgGnuSomcdUSLqb4HcVmuREmURFB77b4ek_ZSuG6cbaTviPJ0poeQOgQwCVqvKUx6zVVNd6vbsqNfUoqxM3Y3yGZDesTmCz9SVThHD2TNKTJtj3FUV3mVGt1s2S7uryCXl6xDJiwFsiw5JnRsS8Ifhvk4hVuu1ZucGta78LIcQR-7pI7UvA0PvUZb1LceTUK0umtO4esy4RCxfA0viNXCXo7NJ08qStDH-MJpdIqDZh7O502teKvVrq6q7PLhgiGHD2igwxs--Bo8YsRaz5CnnkF_G2rpo5SayNLLfry6k-Ln04I8jQOUh5t6ofnIBvoIz9a31wlzJx9gcqMKe4H2D_2CIEWXN5AXGQ0SaBXqRPrRZpm2NMu-pi8n_5uTgjGBP6zH1vKdsEE4_qUdFDMAkb0CI-kfsgA40_hffRpOsij1ndAzlHUJPH3oR_eaVivX1I34_S479cZ-IvBS4V4XEqIA9ZvbmO3KhJP1ZTCuv3ShR8jfXWIyGk01iHuydaIlf0v_iC999FaaTIA7d_LapTJHHSzMfG05nl7jkXqOL045xqbF17-QjTROe0OTT5ftunV-HLVb6VZBwd0ou1Xru6zV7MAQFejFCCElkKtRUUZGKd-47614yDr88ETUJRtBecuPpcHmZZel81nt0iq5JmHNEMsA9ZkHa1JPhWBmoqH0_3d2PptTfEZPDr3LeY1_beXJIxrkeECyB7t0BLiZ-JvYYsyQWZGIYS7CXwo_AUTEi7k09fT5Xf0_tsCkgh7ZtiST8dlVq0GChfoB6N-T_8PvcsHAz2IgeyvP4mgjPM1nsluS7wxLnOg3IYHj3jSH9Rm2KoGKfi1Bv_4E9jZzKFkrZXU_YcqIcQAMV33dRXPZlL_lQh21zm6EaT2HM2Px1kWwV14JZPSDKAqamT5ZCeyCLoDsjHMh69Ek3SHGDVzOMdq0m1MMI97uxaVQUenZze2eW9ZesQui_ftooswBpL1VuHQ3E4WM3i5ewO-Sq1hU6zYmVnd-qhzFHf6f6xyhdWtilly6vo8vB8sxFEVE0ME2Q4_KpGSWo-8dtmbJV_itZfOze3hJkcEU1mCj_MJkUdFFrQTarz8qWLvkX-NLpNUWM7Ya4HUDxk3r1H9OCJMY_y5Q2Glsk7CxtLHOh4DkL4sjJT3LptxhlflKP91dAPZ3yZKlJIFKMer22zk63sGfq43flaAU3m9STlSEPOpLnQlRtTZ5AIFACojq5uLsfJRMkw0kGAYEn8AJSjZ0y7NnseGDW5T5MFAwvbNlbzgUUkTD-dGQGngHf2iVM-4Jfk1n7ExID64ME7TVqUXAB30ArSK3m4G8jeIu0krUV64VKkl-MHLts7kku4gBMTrN6Mkjl7aAWOqGAJXyKlQ8BJiaYl7hce5C9CbU5QNYkqHkVIRXPdA8KBtE59-DrjkY6raNFSO6ngS2Xwp4oDdzmU6DymEPTJq95Kl2K7bWEu7yLNTzEXQAR50TjzjfkkoKdq7n7NcLVcBNHUIWH3xw6XO7eL7rhvNmdKhEPFrSUo7B2d60SpzYK148iR0iHDpv1VgjTiOVjX5s-gNpRCE1QIrvaRVXUiOFjQ1quWuJoQdlRjILs=",
+        "status": null
+      },
+      {
+        "id": "rs_0219b006211a89c2006a6515bc3a5c8196bb0b425bab42ffa1",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRY3eq5tzUflMFnbmwq42owpyHF5PHUOUACeFMcvFm-TP1C-2xq_NGmBQM2Hiu3ApXJYtRo-yidluEJOvSh9m-d86AOR0izvjOPrI6qFCGOdJuaanYLlNjnFiWbgfFNqWicAmBPljICReE4OyxnkTsp9cHROfiFbZxMRiOWgzLgtxj4Isjqw9LXoCTNv-VTd1vArh-DdjG02pqNjJ5OZA2aiLmBUKNJ7-aaGuWdVxwK_a9gyr3KoR2EFz0Bjcf70u_EO7OF9771DMWrZuOseUZ7YR7HgN77L2Iw8JYTAi_uje9vHs3UfVVY5ceq_TJN166iufGDyojqGso_hyRQD7ewoEzG4jdVUeBpjcfDAomVxS0BRvQITyTHWyrQoq4_ozTKepGDUsYlFSr-0jK2A6KwgOrpkC2Jd6rFq9B3mS-no6qHjWstN60b0fA0xzU2xE3qxYqoMtfYUayg8WUWmcN_kcE-MNWwpwIJd81Eug_xeQxcHZh19ScYKDjQeniCHWaW8SWwn3LdBWmbnwMjRBcxdqOI1mzkGOJ1WKKuE5hSvTDzEw8-OphMOr-hg2JVJWE5D-zQ8tu8HfsudbfPj2DqgkOaohQHQvlDaKnta1S8pM1n4dtYwS76HEdDy0D1MG1b-fRHJ5SmNK1WNOPFcTPDaGBl7GicauVMSPT4CPsf_fRXYYoPbnlt-0vt9qzKV5AIvQsix7RH0c3KkWPKu4fxl8Kfg7r7KCAmd81KE6dex_DdDxctgfVvi_anX_8MpSDMZQFwT0GJrNMA5R_ntZGA1GAHrAKQxPQCX_jDaMf7c350vUHpL6J_AT9HpvIwHJYYUHhT0U5hJ1eEnrNhnCwJzHaWzCII6UCbEIUBjLdyPpSVy0maGw57-J_SAldSE1R3S6UWHIcUCL2dUszEtUjV9ME4JBW-7pAB1WpWnHU0Oti39V_66ENqCuy7nVkkdCxa_RGtX75TBXlmqmuE0_RGItXNkXK8A1vSpPSLgAUiqmK-wwYlWHEHLig-9zyrf215FVkOpH47sjbaYNCGN5Ht7tWdo-ZJJ-WsPIGYl2-_1BemwNtcFer1e3qOZEnI-Chlt2DycnkVQhLGMPV-gurZp6bg3WldEBrdYo2Vr5-o0TJmBsX403m6eDk8brvSpAaeScQ1Y0Fq9VfunPKb_dgWYuY9jQEvKrbxkWl0RFtNYU793GYs65-IwHPRncnOrvQlgHCcTAmELuI3q3JVSn-0IqR3m5WWtqyhtcU8ts4FhTZ3E1WMmFqMXZ3cgsmLIuzq8C-Ht9wlm3ZcztNnRIGXkCXrokpp3RuYeIp1g6o4b9pJIHjANF_z6LNV8C2CdofOumExYWCmyrXNpF8EAT0Y8qVdrFQCdYueW4-3p9vcDZ_pW5Krx_RUoP4av6Xjfrijn4nRy6PxT8i3Ouk0hgIf52nIOuxQgPW3mW_oTJ_uOFmHD2l1r2bEzCoIkSJPgk2AfG3S3We_YJSVOVNpjfToVljZ9-oxKy7l3y-B2ozPiX6749fFb5ZWzLOgwEgg403QcuNn5DTdUWc7PBb0bduReXC32OA6qHZ665yt-KoyKfIDzlv2C5pcdRCjFNN5QWwaweWu2SqJdBe_8J27afHuWFegGtcxnz2KRfNx2j9hKqy-KtNZ7EO_Z47zw-EsC_7_I4X0G4bz2L9CYWnMvecTWlCFPGA5h7-l89pTDGqbRp16SQEy1-HZwqgoG2XzAKipEvLckvIi5SQNdR1RaLn1rcUNk0ZQbtCw2lICB_GSbzoNd5O5vqtQCi5TIGKw0G2lbtR5K_Qe5knYVN0QmGkTa1hfvEgsMzR_ucc_lvRlr3UztkH0FtFS8vsSzlf59BXGU_661w5pUeY_sISSRJbavtUYF52hLSgQ8iMeyI2x2fpEsbgSTAXJqC5VTNbhnfrhgTgypJw3m6BNvvkwRB9qqUDGg--kVU9Eccetlsb6yoM0cxcnU9mVQXk5dj-W2B5sOumrksHi2knk63JEsJS1RmqRaf4fD82Oyspivh6BAZ7xxmu8xVBaoXpBxn_-vizBHDTotUJ5yJRJ3C-5xyUW70-XO_mMIbD_ALMtkHs1srcOlV49htHnJB_neCsQibxE72JI_rmQ4H6P-jLz-Mak0OZ8PpaavSodYxLS4rIsQW1UC6t7TvpNSqxb-kTjS2a0XKhY6Vg2EbpytK-IUWUBuhQJ2BKF96x22fUmY63h4x7oRdjMugbBiuDf7qFiwXT5FFTGeqWV3mUgvobnMFxbG0XlGdUDhMF4qTdKCzX9I_0v2CcenMO89HeRLp1T8gD66WXiE61dGxZUFYb8oYpMWZYj1Sj8a_EabwOmh9qR52OLX4IN9Wtb5qCRvLuUnSolCakyLdKvuzx8dpAJ51eU9TAj498oEidN_4qLyFE-iEuvc300GkBrIZBxcy2Ull1c28OdxyS9BMPt22XT2QwKZ5gFKWt26fEEH7nJhBVQUliSK6z-lbluNh506V0zslAPj3bjhpvN6OICgvdnQrHkJQ0_wBJWsxovvue8ud7zuaMfnpzVngV1qfSYorbmS0T2gvnOwVuJYyKR2P4cQGbXmNx2qvv3G2nznr83mVk_IU8vZhWbuNG5zgkApoXWLLWIqrsFiFsu_PyGY4mXD6XGCiSn08Eu5w1g1drkHxTk04x-KaFV2CDm6UBvNiJyum76rYNyIEpXcZEFPYNcVXNCrCytvLOmNfi2qOn6nNtyxtes44azgxCRPZVvxRDXtUAK0hkb0PtJ_ua7AhRaHrYM9y8q7KC9ACaefh8lrkFyEIFx0vAqhU1chss9pdY5178lTRqACsup_oGdYb6qHaYDFb9jjRWGEdVDK4GkhTHsCDIW3s84llpZea5LM80wOetkg3hFbTa6YX4mZYgyW4_j8Pni2zwIKI2KK7lhnOoRdkJpB8JwndNlIA9Lr3uX7Kg3nPGKilrJvuu1yJsTl1guHCfAJFh9K8JTq-dIDu0jXAVxCER4MAqKS8CsqH_u8rnRkWqK2kir9brZxVO_tZLYja-93gfGiaAx8VHL2XeubiVIKW2glWICYyafZsZ6lOdC-wrhpRGEvlpoFjpN96MP8Wd-fdbqTQBC1Cw4wy8T6HmN_3bnOQy46COUv2HzHK0p3MsPXhTIJRsHrL1Nu2HPLtnnmgXorBDVsF3bQpe_19YplcBoj-_7e2_nKZpCrkrWnKnCsgpII8uc5WdsbymSfdKieCiG5LkTcvzFvgzMIczQjtUz7hw5xrc_fHC5PRC889qdV_csRCbhafQglBeSpRGfV9_LOewEfb2oVNWVAuFhxOR9ZX6NSV1gVaKvknlVK5yygKeJD6AwBYmS3aT9zicd95p2RKs1bUILgVJbRB92RSak6crESSKdF4txuPdxb3qnliFLZNjowtzUOzTvjR_jU74xsDYzSkT5wFcIsh9v-_sxIDUHLlUeRy1Nq9uJYYCXt3GokMDiEyphF_e0T-b4LilTc1zoYDshI86QQyEWhW8yb3kKSR7OTr4eqGSKwebwN5puJ2DwAZJVioXa_6g_bsRRv9CLPsq_mXIC3BalD46UnWAhujs0bKfOrIP5pHQ1J-8iA8DRxnrmgQFuKBnTtOu0iiSg3oAmBl_tDl1uei-0R1zWqXDwXNGhe2VZA9pCiWwOsTbPNtcVfVV3L8J-mRwzf4biIFERRopv9M3poCebKeMv5JjJ4miCt6Y0CIaSnNGxeKo6X29YLyH9eBoyHP3yCihk-g7KQo3Aqmzh8-3oYkBDw_J-ZIvbhCenPL_ziP-U09pNwq7Xy6wpILdnIWCy81kc1aUctSFh8XTMB06Fs1R2Tz0ewuk5YYjO_UuVBos95lDyK4Hoyq0z6ogakELgXHWRcg4Fr6M4mjpfZteWJmt3xoZV5hfuczQLo8JGIjT_gTkUaSoTipuycuOA0ubu6n_2YeKyArh5aZYykJrxR2zoqA23hoWmAqkColglooZPdguiqVNCWEbZZRdhiNFLHiCkF_-zq-e7IHrFWjs-BSO_gv2MfSVo-3SWUCDD8KdlEQeT2QlQdr5uQGgMSvP55FZ6V6hWeUpS1obImjKyaUrtbIqbkOapOQvwfUmyfw3C4yzHLV0gOEDppHAfliSffi3XIQfMdRFfvgsSfIXhy3VEx4r6FOTub5Y_b",
+        "status": null
+      },
+      {
+        "id": "rs_0219b006211a89c2006a6515c571908196b0e0e03bfff55d6c",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRY3Y78QQBknBevfSmEvAcqnfoh4foMinIlPmyro8eBWkg4vRgIECtuknrV9nrcAptBXbCqOt2ZtbNwMrd1s8Q7DEvKmPtEttItYHQSShkSyH5K77GdGoi7DmxzletpeoN0fdhbQUTHLe4FMHancZGZG2zrKAakmNxBcuPdma8nGH2rhmfviWqLqQbA2TxCwC4pOMChSOzM5fD9INp6_GuGbp2sMWs6lCOsW7Jc-GsdJat-TEHn9Mvwu5aGfnFNnZIStnrBYg9oFi5QgoNrac3YvsYuCnJLY12p1Vi4sLnnv1ivlGCCFeLm8Yuf3phGy9V4RpPqxqAdy0B_goluFYQxGkdUBL24ifM9k_ppLoqvqHYBNO7nkO65Ht8fpzAMt1T7VxAM8GSXSy4uWN6j-ydftv3rO89RvwNW96chAz7zPMMsgWYvsR8zRRnolIg4LIgNwsgD6m1o4UOQ-30m8ty0Xt6Z_VWRu5VUZWCEDWDQhGlqFnh8-MN_KR8BLc6MouSr1wb2uYGu6beWRNymIpyAwta1xBzU0dc8MdbW2F1rmbdKKTip_vEWtAE4CYikgXCZhl0GLRRq_6OsOTzLhMe922HlNb7yl8fuw3CiiePPCUh16FIUKvbmQj3Ps68nd85iyVryq0Bt8Waf2kGT9L04RQiHx2yjp2TBSs3O1j5GQAlF8etsFjOTQhW8H0ZgSQow1K9FRyBppIEM8FH5MyZFkBHR3A4JUNxd2XtwpN06R8V7P2ygVIuBtJQd5nN2zL_3MB2222UT2f4T2BLFgUhkVfG0LIrzI9rB0Ne-4IrB7sr5M5VVc30whpsjZzWVLS2DOtIVMH9nTuxEUkD55StGZ7nDM_Tgm-6dxahLn3SSqHcIUI7dCoagK1L6olZWy443S3XxWwVfX30tAQ0QxMPGqTCBFfTN9bU6SASwovZZURGF1yeCuziInft75IiXRJW7AP6smYopNsIt3ep-yaL8ufd_o2XfSuC8U0XorCq98y063-L3iegRbCm8l7-zaFqz7gkfrADLCrFuujpUn2mdUkc-1WbcVZYGhc82pFbM7etdopBbStjUERjd3aWBT5LZ4QYYOo3mvLOUehgQR18HEvXUFSb_QSwHI3VSBn3ZrkWOUrBMRE_7BJ-WRAsZ8OuejsZxvlvEGmm3F0MmpMHI-YfuJAZI5A-o0Lhzm8DLFZActQCdbbhdZYIWjQd4JdFEeAF-UDuZifg8ApNGqfbk_PziVt410SS9CL1jr-8ZDoKDPYD7IySyEU-yfwGgD0GycmAPWmzTdaD6Hh_iboHwInXT244RCiIC-TLxcwusab3HIpYMzSsV_fOSg_H_hohX2LbZnkKQ2ZGmJ9aZN9pKgPDjbbYA0jb-OoCrJN3tOpsIbJ7GLcMsFnYUz5Zy1L402lvM5SGD5u8WwMP-qEUyN-3G7KhlGQp6zYe_MTboTMXf8D7c0riAm_p7nWsx4LbJCZTfy7crKnc-Cga8nDaOVOTobJhxOGCRhLAH6dtQuYdfM1G_s-9VL8J4JpKoLvW1Ux2RgQU_vrO9EtyedhSMc3EkhaEso-tcXuKjiqjF2Sn-xYOG7ubCHKLxV5Est7Hq52OWT2fOC0DXpCnHtIxGVj_jcrUUAjzSqmw04A5LtRjs7v1TVI1p11QMaJUdEZ1unvoDo9FGhJ1sNKICJS_-V21YBomIGMZ1STyMi22GIzdczUGSGQMBKvKmoX3elSpI2FaL1NMIJl8lMFFa5iEc62rU-WyM3mk2izGkEPh3e171t8p0gOACPhPsWbpSNP73RuyToO4rfjXthmkNoFSI2KdkT4HPRGL2TaAQpcwxupT2rNXTqkBoLT3YKeKuee541Vsz6-zuY93mhvUf_R2pbXiPWcyzbYHHX_fm5cz1o2qtV-YplkuI-GB1Mt_amDzbVdRgqTeutd82J7s8SN8juo8sggbgWuNygZ7R2g_1ghPRefx-3C_D4qnh2V2OjbCZVLloy1VqhUEEypX_nLUy6cVuwuj5dwo26CspgetGTljTusJIuCVqDrqiHwiq-NkEVpw5bPVudeXbrEOf6q_yv3XM-R2V-ZYyvfcrav57YhiUerlYuMbadnSV4pjOmeb9RSvJemlBBh7SWo_q5yzKSPzY-K1rk1E1MNUQ556slV0sUxbtnXhSNBHZOwMLaHIt-0bre-SvxKPUq8H7Y6RE_mr6eww2-DpLtkOeHEpIm6IVSwRyiFMnB10FWbH7lXVePKI8R-PsFQJWURPlORr03eFCRqws8FeXMyMGBsYNmKsyy-E3PZxrvgm_tZgUUwYPWVA9jHWR-hj0i0czdST3jmrbf9sZfZPCtVmDWD0MxKolA7VwCGPa5jNTe0a0quL8zY-ZZyyTCyKxYcZ9efQb320YlKzKQTIIxLu9CzfIlCip1mF5M2heKDV38f8YvsS_MZ118Vi0BIjwYIE3pvaB2imBRrDHBrwmu8xVUivpw6cspsP3hI6lQdo6_0-qD07eueiUDoDXqDdjavOcMVztdJGq62o4VPOfhhkzEeSqhtRGzozPvlaxwG41NiPNXvnXYqYkMJWR6v1in71DzmSD_vEBCNDchsNk8mwiZfz-qYoiTHcp0RaQv9rtOhIi2J2qFgoarvD_PXNfqjmlv-kbnq7v8JzmSYNmeSawPdUBshoIow5lYvMQzZvlq5VW0h5uFsAGGB0CTO4U9aRPEzZFyP61sFDDNTK4_7Jy71-BKAcNOB4Zkxzs-I86WEgg96IuojS89Ntu0nZYIICPifNtYu9wTJLBSnosUSX_qPVDPnjw1tWEGwYiCsAOWw-J29-NVlBv2SLuwWqIAAcEJ3i1cdbbnpWxdoW5YzrNXxtAvbUzbJ-rknNi5oGk_483YIBFow4FOWKUfrSMYJfEZUjGPhkB6L-K33_o6hPEcNW8GgzxFO-pRNZOM39I75Wya0GsJnsCKOjjYUvjD-bNiUFfOh1xEpt5BR05eNoc4Kogyr7yy1d80sS_sREnkHZop5wf3iLqgIaJ2zBCTE9QpetYfT-uXb29OGQEmJAzghFM-iHg7b7grDhpvUVpxOL2PR90MMtkEbTOASRurBTh9Ujb1z-tQXZrFVTG4Fv6WknlkCK9jvXQE--UC0GdPNosarZmEjt-Y9ObMRxUZ5YfgAvak5xd3QnEguWoKJxTzvNrqz3DsZVLZOutpI324mV9lHNevIpxX6TaffD1yqP2VlDD1nJnc-eymxxFEymik_jEbDcEFja1DALkMwu5yze2v-2KXcFf3vuNGEYXW4jmVIPvwc2FKBMOtgHXRkKmH68jopOt-jbl8Y5ohlQUabnN9iFUYZJF_N1f6Q6SGAORCePnzjtyZfJiE7Yp_-N8miRyjeUkbzzfH3A1MzWMVaiyT86DzGg1mYshsgnOtPvFu3cCsZpoGpf-1pJPyP3ma3EKAANFhAXbev1oKGLop6BDhY0_24mpQZHP7JACv_5qJksc9lGLYln5nz9C8_V1qEWsLCcChVGDxu21FLUaoDxbEYlh6Ix2gAwuGFQYxneVTb1WT2k7QsyGkwNRPGnVBDTUlA_Sxh2dDf4KQBpB1Kdgdl9QlWl4LfBxA4jMZKB8AP2WySvbfT_-Sai9mB0WrE2jk3KiTs1sSjNo6lg9fLJhW0EIXvbuYFVQ6LS0TSXmUiBCXf6r7FHahN8Ze-MIHVSaMaTDlD1QdrQS-zMXgJhQbqO4_0zbeKrD1lW0fhP7kCERDFoQiiibRfC5Mlm5GfVP_-eQeDWKks2FaWJ36LzkQkTYrKX2lwqp5XZS6pCTTg1Lw9_0sqGPNJxJnjFKhKrQvrc4CfejeTNaLjPXBGDHVGfKIx3VIE0yrQ-3O22C_CgPNM05rc0aM0L7lQPxxEXUW_VfmSlSj_GBOXrVap9GEvbubtYQyxHEGEm-IM3umvr7g5t-BWnyRheUmefFf01mDLsUNtV-rOJ5yK7ob2VI9ep2phGoGO-uyDmKTajPz5FKilIqIk_o3h5c1n3eAK0YBjSnBOxKa3Pu5UeKM64nsm6YNEjhuQvSiIeEKt50l1dBNj3gEW8CyFepLn7DhO6jeZIaCga93CkaSBXDUZHw98cu1FKZXgE1mDsA88ATLfcg2kqstK1q0jSYKSrQHv5e-zL8n5HN3Cg185A6n54mddkKVawX9k6UNadcFvnjFYvUudr8RwNatXVzhH9bGMRqkia8a4vFdOQr9yUNZV1CDPiQ5X-opS1UpkvQs7h8A0s1jt6eu49u9glTk5i_WFuoX6XhyQLYm1y5gcDoHEe-TgabIuzqVQ0FL02W2gTV84tsqcjjDmPEGI6ctn3j1o8OdQAeLbzaoN2f6RKlY4v1Uo6y5N82O06mEz-S7Eak-FGnWwpMNVDjwK4C3RQ0yQj1VAo5FNa8DpkIT3hcxmc-n2yaYsRXFkdamMmlcw-2OrbM0sw==",
+        "status": null
+      },
+      {
+        "id": "rs_0219b006211a89c2006a6515d09a1481968a001bd6b87c62dd",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRY3cgS50KwnJaBe9X9hN9UqmIxG1qIefXknL1sCQh5CT_eD6MgJOe3LSnocDY4bun2fakw1REXKlnEv00VtnYEt-ytL7Edhi7fh0lSZ5AnTnp7y_wd04oU335qQdMxzbvEvBv7k1yMoZSZjwMJhfIf4xry8DNVmEX72dV4IPaOj3Llm9eWheKLsr8HHoNLcLzSjsA8zYZbrIb3BuabsHi3coBTLTjtEcM11uvl8OIxhfYndSRme-GGG8QcDL02BKqe3XY1BXNkvd_MczKioC5rLZINrmfFrmYPb3CO5bCD2HynFDOyzBLMTO6187tm8FKiqNmbwO3Ag_ccjUsgcU1jcoS-66G7sh5QdgUQR-aHY_s8sFwOBNjfBpiUJjBmXbyyfgdEaoKFyYplE5c2a4r6J1safXT4ya2lzFlKPwsi2gYuKI9FjSJCGeUPdbGeKcGbmTqbtrOo6j_mS48AW420LHitmh_y1Xv1uzsIWQAk8DS9oTy-FXsinWma9XENmOfHXMtoY4kc4U7DS17zxtJ9XwTbA-TF7Ee5rtBVfD_mbNHf7eo1yyUfBqHi0F_2MHhPOfzPlhCy3QGfrIHLCvRIhO3ogOWBxkrKMpfc9o7ElCHCfIMrMS1tPs2n3OccuO9XCGss4BcMykLIuNrW4PzF3PCd2dN_7uoBBoBlhfvsmDveXQyX316pSPlwiukKpBMnbTG0FbyD8Rrt0ZFTSgwH-LQQ5yXqik550NQuHdMzEZzfku1_mkmdvRof8QadsL3_BSPorWmOrQFes-b-8UeGYsdgLj__yXfDMXQ26RUkVFN_VRt8itmgkybB9UCg_YmI6BCiucdIt3jnd7NWmk7QJ8xqdreGX_aoNbVOncrwKL7gAiSivvzDtnyBvtGBI04cR45TtNy05tV3l7MyQtmtSsNRZYYlxqV1hoVsBhI1bP18_DzPDdwkafolvnmZZqnbdAOmdxQkcXntDHUAZCSn0ZKJILjyQOl7TNHn1z_taEip_MV2F695a9hkMBW_H1wQDMfQYt1oMJ-STjId0QWAFv_dpuhiKNgeWyN0x3TyNycmJ19oSNebY6i9tTctDO7dHYFyVZsaTsgp2JLplLZf_Vwkzb2J2sqvbIEWecK0ON5YkbUlnj7iKLOdyZkNold4FciUjSlBh1I4vhHH5KoOBPvGURQnC6Twtipyj_x1GCSZqIuZ-jmNUX4UkIuW54zzp_6akbBaCXq-8wj2eonOADosryNkWUmC2VVGxw5t-pDgeYmTbMLOVr-lWpX0tyUckHbFYYcmIHExnuezGL0ClM6xDGJTDkrOKwkfeFSqpzsTHcz6XBjRqm5be9TcKg48I-1Gj2HQnHBeUkTHnirIpO6EsHvTB225lnNaPpmi-eziYgT9-dUBQzQUYPbJtQsneyxqZtKhNl4PjahtxFpc8Lpi83TFtbFXMsUaqNgAjV6Ao_ZI14IvRZWWCW_85PhF_0wFU_29imH9yVpTf8J_AdQDfZBV9SueZNQfSuTZL6hTPpO835NkUkqqLr0VX0tiUKaiAwkkfr6sbaw8TqEauxod1uK7CFuH97DSfrlZq2_m06Pozcs06HO0htvJu8nit-1yXq-s2kC92x8DAj-rJ6cs6bB7AnbI2_RSj2lVgZK9ljiC_O_HhuK0irVb92IgnbLqubzVs45Nkez8-iomjnrBHsZp3j9un3GQ9gdBd9gh3vBTf3kASl2K0U7ZiJQj4dTQThXSFJyCXPLF2TbR-jbEEMvzC78ra9ahjSglCtNBXrSbp-WGqTmEPKDDR5zjhod5HSSWQYkC-eDWra4B1CskYwMp6lVZ16VE8i9lJ2Qth1ygQ6EwqoU4WFzQOnl2hy0FxWpOqFDIMq-auyHFDYxIbYi3lMzpQCQ_HWMJYoSmrY_hGMs_G82-kZVnSCF_P9XUQA8edmmp9yJxpQkckOkGXK20lbdg5VrA5EwkWH9YJJ0pkoZcTBPhYRB2WgZx-TQCtSiC-Xa16vP7x5Ivh_K9ITSqfXHZ7K413ETunED9osdvBoNZpl8IJXlgLIIfQ4FlVBwSC3h52r9AELjcg39Z9sDEGM954ubr47WB7NWgUxPUVkQkYBiwdcgSXuPRmzxHA2NDODxRFFnvLlA0_o_ccFFtuFlQ4arLWh2hfpr6Ordh_JFX7G4wl8rnW70zEwKcZdOv2BqrBSyritrc0FwG8veXWrZG_m7lJgFu-JThcwj8e0kQaBeY9HVJeSplB3G3y-8C_oyNuDVBOLH372f8Jau7k4gkgB2R6g3VCIXqJAV_3lPQR6FeW2fdzY7w1vpGHEsz4R62WbCnXGV4fjTMAYh4xRMZex53C40qgzcZvtH70zGH4fWoQTtke9yDbaa61xfVS1gre0elAEN7hoIdO6xgMDd07Zy44iXG1jkA_GX5-QKyLn1sBqNfnUtXPbUpmQEoUuNeTE2QmU0JUteNBDRQ_taOMz58UNl1oJHIWYf80SvjGjeL7kwSr2PYVjdgskNB1V50AGlchXC8aALJ8ukO448BNZQUCqEFQpYuFwjcuVOXpkMtRySe_K37GntH9DZ133Qak7kOseT0gistWKhzDQWy7Ia2DWBwHaVUrPpcKeiAmfup-_8mCYfh5G6Vwxk-XUb9Nn1W5JE3hLGORf6ZzkvVtSRrHME0-NauLD-dJZRfDWlFiclfI-du5H0UMFFkxI61FAzCvzBS1bZ6TzH-70_f6CGrC_pUmLCQlYYdPe9AvTBxDaAtNAJQoLQ0OjcRZqcI2NR_DBl-7wRxBDvFYPGiILNEaZ23yN1rQlKf79TxJ4SylryuUVMt0HpLjUoj3CA186LGIqWHTMGz893taHqo8MaGvgAS7S0nbCSKqUfU4yaYFPcch_ZKaqTLPFYAiw4ksTsHANww1A93w-PwxPTH4KAegWU9urNjFxQLNoyryOh5GxV8l_m2M9a7CwiLyn4eJmwGTrFwAS55Ewym0kmvTg9rZiINL1v4WZ033tWNg454yOjn7kRgbQeHD8xMgMwn6aK-DkVio9tgxgDOYRtbQmqLDKoRfTB6sU5F4ICoFWYY0zoMzAAoYJ10bHxbTlDnH3Wl8fi7_E6KBe9csR1wFAU3IUHwjgFH1Bb06QMO-42WcsaaiZSoH42Yf2hZ86W85IQFwXyzm2CnR8XmZeXjalNSTf6RGDKNA8NCSqyQl4BJNODwfry3B",
+        "status": null
+      },
+      {
+        "id": "msg_0219b006211a89c2006a6515d93ffc81968c7c6e39c4fac140",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"episodes\":[{\"ep\":13,\"title\":\"The Country Made of Paper\",\"script\":\"SFX: [en] A dispatch slapped onto a crowded hearing table. Benches scrape. Voices rise.\\n\\nHEARING CHAIR: [en] This document names Ewan Pell as the source of every loss before us.\\n\\nGREGOR: [en] Then begin with his liability.\\n\\nEWAN: [en] Begin with my evidence.\\n\\nHEARING CHAIR: [en] The government dispatch is not a finding of this hearing. Mr Pell, do you ask for immunity before you speak?\\n\\nEWAN: [en] No.\\n\\nSFX: [en] The room falls quiet.\\n\\nEWAN: [en] Enter the dispatch as the first exhibit. Let every creditor see what was placed over my name. Then enter the plate, the ledger and the boundary record beside it.\\n\\nROBERT: [en] Mr Pell, I advise you to reconsider.\\n\\nEWAN: [en] You advised me to surrender the evidence quietly.\\n\\nGREGOR: [en] A junior clerk carrying stolen papers is not a government witness. He is an unsuccessful thief.\\n\\nVOICE AMONG CREDITORS: [en] We paid eighty pounds a bond. Let the thief speak.\\n\\nANOTHER VOICE: [en] My brother sailed on those papers.\\n\\nHEARING CHAIR: [en] Mr Pell will be heard.\\n\\nSFX: [en] A wooden case opens. Metal touches the table.\\n\\nEWAN: [en] This is the duplicate printing plate taken from the Edinburgh workshop that produced Briarhaven documents.\\n\\nGREGOR: [en] It is one printer’s tool. Nothing more.\\n\\nEWAN: [en] Ada, please examine the lower edge.\\n\\nADA: [en] There are three faults. A split line beneath the crown, a missing point on the western star and a cut through the letter R.\\n\\nEWAN: [en] Constitution.\\n\\nSFX: [en] Paper laid down.\\n\\nADA: [en] All three faults.\\n\\nEWAN: [en] Bank charter.\\n\\nSFX: [en] Another sheet.\\n\\nADA: [en] All three.\\n\\nEWAN: [en] Military commission.\\n\\nSFX: [en] Paper slides across wood.\\n\\nADA: [en] All three.\\n\\nEWAN: [en] Royal seal impression.\\n\\nADA: [en] The same faults. The parliament, the bank, the army and the royal office were manufactured from one damaged plate in one Edinburgh print room.\\n\\nSFX: [en] The creditors erupt.\\n\\nHEARING CHAIR: [en] Order!\\n\\nGREGOR: [en] Shared workmanship proves efficiency. A young nation cannot afford four printers merely to please a clerk.\\n\\nEWAN: [en] A nation needs four institutions before it needs four printers.\\n\\nGREGOR: [en] And who appointed you to decide what constitutes a nation?\\n\\nINES: [en] The empty ground did.\\n\\nSFX: [en] A stone fragment is placed heavily on the table.\\n\\nINES: [en] I found this beyond the abandoned trading shelter at the place your map calls the capital. There was no harbour. No parliament. No barracks. This was the only boundary marker.\\n\\nHEARING CHAIR: [en] Its date?\\n\\nINES: [en] Eighteen thirty-one.\\n\\nGREGOR: [en] Local labourers often make errors in European dates.\\n\\nEWAN: [en] Then the local labourers also kept an Edinburgh account.\\n\\nSFX: [en] Ledger pages turn rapidly, then stop.\\n\\nEWAN: [en] Entry dated March eighteen thirty-one. “Two carved boundary stones, marked Briarhaven, carriage to the Sable Coast.” Paid from Gregor’s private account.\\n\\nGREGOR: [en] Preparatory exploration.\\n\\nEWAN: [en] You claimed you first received the territory three years later. The marker predates your supposed acquisition because you ordered it before you claimed to possess the land.\\n\\nINES: [en] It was not a border. It was a prop sent overseas to support a country being printed here.\\n\\nVOICE AMONG CREDITORS: [en] He planted the country like a signboard!\\n\\nHEARING CHAIR: [en] The entry and marker are admitted.\\n\\nGREGOR: [en] The authority behind the concession remains untouched.\\n\\nEWAN: [en] Then we come to the money that sold that authority.\\n\\nSFX: [en] A second ledger opens. Coins clink as someone nervously handles a purse.\\n\\nCYRUS: [en] I have already explained that commissions are ordinary banking practice.\\n\\nEWAN: [en] One commission from your bank. One from Gregor’s private account. What service did the second payment purchase?\\n\\nCYRUS: [en] Advice.\\n\\nEWAN: [en] Four thousand pounds for advice?\\n\\nCYRUS: [en] For arranging the subscription.\\n\\nEWAN: [en] Silas, read the consideration line.\\n\\nSILAS: [en] I would prefer the chair to read it.\\n\\nHEARING CHAIR: [en] You produced this ledger. You will read it.\\n\\nSILAS: [en] “Access to bank rooms, subscriber names, institutional seal and independent public validation.”\\n\\nSFX: [en] Angry voices fill the chamber.\\n\\nCYRUS: [en] The seal confirmed that documents had been submitted. It did not certify territory.\\n\\nEWAN: [en] At the loan presentation, you called the two-hundred-thousand-pound issue sound.\\n\\nCYRUS: [en] On the instruments before me.\\n\\nEWAN: [en] Instruments from one print room. You supplied the rooms, the subscriber list, the bank seal and the words “independently validated.” Gregor paid you privately for the appearance of independence.\\n\\nCYRUS: [en] That is your interpretation.\\n\\nSILAS: [en] It is also the payment description.\\n\\nVOICE AMONG CREDITORS: [en] Say it plainly, banker!\\n\\nHEARING CHAIR: [en] Cyrus, did your private commission purchase the validation spoken at the presentation?\\n\\nSFX: [en] Nothing. Long.\\n\\nCYRUS: [en] It purchased my participation, my premises and my public endorsement.\\n\\nHEARING CHAIR: [en] Let the record show that answer.\\n\\nGREGOR: [en] A banker’s arrangements do not void a sovereign grant.\\n\\nEWAN: [en] No. The grant voids itself.\\n\\nGREGOR: [en] Be careful, clerk. Your own seal appears on those grants.\\n\\nEWAN: [en] I engraved one seal. I certified papers I knew had no issuing register. I was ashamed, and I am saying it before the families who paid because they heard my voice. But my guilt does not create your government.\\n\\nHEARING CHAIR: [en] Do you have evidence concerning the claimed sovereignty itself?\\n\\nEWAN: [en] The original certificate submitted by Gregor this morning.\\n\\nGREGOR: [en] At last. The territorial grant bearing the proper seal and witness.\\n\\nSFX: [en] A large certificate unfolds.\\n\\nEWAN: [en] Call the registry clerk.\\n\\nREGISTRY CLERK: [en] I have the burial register requested by the hearing.\\n\\nGREGOR: [en] A burial register has no place in a creditors’ matter.\\n\\nEWAN: [en] It does when a dead man witnesses a country into existence.\\n\\nHEARING CHAIR: [en] Read the certificate date.\\n\\nREGISTRY CLERK: [en] April eighteen thirty-four.\\n\\nHEARING CHAIR: [en] Read the witness entry in the burial register.\\n\\nREGISTRY CLERK: [en] The named witness died in eighteen twenty-three.\\n\\nEWAN: [en] The final land certificate submitted as proof of Briarhaven sovereignty is dated April eighteen thirty-four and carries Gregor’s seal.\\n\\nREGISTRY CLERK: [en] But its witness signature belongs to a man who died in eighteen twenty-three.\"},{\"ep\":14,\"title\":\"Keeper of the Evidence\",\"script\":\"SFX: [en] The hearing doors burst open. Hundreds of claim papers crackle in raised hands.\\n\\nVOICE AMONG SETTLERS: [en] Read every name!\\n\\nANOTHER VOICE: [en] Read every pound!\\n\\nHEARING CHAIR: [en] Ewan Pell, the creditors demand the complete ledger.\\n\\nEWAN: [en] Then remove Gregor’s guard from Ada and I will read it complete.\\n\\nGREGOR: [en] She remains an officer of Briarhaven by her own public declaration.\\n\\nADA: [en] I withdraw that declaration.\\n\\nSFX: [en] A Green Cross medal tears from cloth and strikes the floor.\\n\\nNARRATOR: [en] Before the doors opened that morning, an official clerk had prepared a sealed draft. It suspended every authority derived from Briarhaven until the hearing determined whether Briarhaven existed. No banker, settler or self-styled ruler had yet seen it. Remember that.\\n\\nHEARING CHAIR: [en] Ada, were you held through a document concerning your father?\\n\\nADA: [en] Gregor held his signed confession to counterfeiting. If I refused the title, he promised to give it to the authorities without the printing orders attached.\\n\\nGREGOR: [en] I promised nothing. I merely explained what an honest prosecution might require.\\n\\nEWAN: [en] The orders are in the master ledger.\\n\\nADA: [en] Not all of them.\\n\\nSFX: [en] Cloth lining rips. A folded sheet is drawn from behind the medal.\\n\\nEWAN: [en] The missing front leaf.\\n\\nADA: [en] I removed it before your entry into the records room. I hid it inside the Green Cross because Gregor searched my pockets, not his own decoration.\\n\\nGREGOR: [en] Theft confessed in public. How useful.\\n\\nADA: [en] Very useful.\\n\\nSFX: [en] The leaf unfolds.\\n\\nADA: [en] It contains the first manufacturing order. Constitution, bank charter, military commissions, seals and numbered notes. All ordered by Gregor. My father signed only as printer receiving instructions.\\n\\nEWAN: [en] And the first payment column?\\n\\nADA: [en] Names were assigned before the workers were hired. Future clerks were entered as recipients so private withdrawals could later be blamed upon them.\\n\\nEWAN: [en] That is why the ledger records a payment to me two weeks before I began work.\\n\\nHEARING CHAIR: [en] Is the order signed?\\n\\nADA: [en] By Gregor, with Cyrus approving use of the bank’s rooms for delivery.\\n\\nCYRUS: [en] I approved delivery. I did not approve counterfeiting.\\n\\nADA: [en] You approved delivery of five hundred banknotes carrying the same serial number.\\n\\nSFX: [en] The crowd shouts. A gavel strikes repeatedly.\\n\\nHEARING CHAIR: [en] Officers, remove the guard from Ada. Her father’s confession and this order will be preserved together. No prosecution founded upon one may conceal the other.\\n\\nSFX: [en] A sword belt and keys are taken away. Ada exhales.\\n\\nADA: [en] Ewan, read the ledger.\\n\\nSFX: [en] A thick book is set upon the lectern.\\n\\nEWAN: [en] Land account. Edinburgh. Sixty acres sold to one family for forty pounds. The same sixty acres sold again in Glasgow for fifty-two.\\n\\nSETTLER: [en] That is my certificate!\\n\\nEWAN: [en] Your name is here. It will enter the loss register.\\n\\nEWAN: [en] Recruiting account. Elspeth, commissions on thirty-eight family deposits.\\n\\nELSPETH: [en] I took the payments.\\n\\nEWAN: [en] Did you see an overseas issuing register?\\n\\nELSPETH: [en] No. I told families the register was at the capital because Gregor told me to say it.\\n\\nEWAN: [en] Say what the capital was.\\n\\nELSPETH: [en] A room, a map and our promises.\\n\\nEWAN: [en] Appointments account. Jonas, civil administration commission.\\n\\nJONAS: [en] I paid for a title over offices that did not exist.\\n\\nEWAN: [en] You watched Gregor call me an incompetent clerk in Edinburgh.\\n\\nJONAS: [en] I did. Before the same witnesses, I say this plainly: you were the only clerk in that hall who asked for lawful authority. I was incompetent because I did not listen.\\n\\nSFX: [en] Settlers murmur agreement.\\n\\nEWAN: [en] Publication account. Thomas, guidebook payment.\\n\\nTHOMAS: [en] The roads, cathedral, mines and parliament were supplied to me in written descriptions. I never saw Briarhaven.\\n\\nINES: [en] I saw the place. Your cathedral was jungle. Your harbour was open coast. Your government was starving families asking where the officials had gone.\\n\\nTHOMAS: [en] Then enter my fee against their claims.\\n\\nEWAN: [en] Bond account. Seven hundred certificates subscribed or reserved before the promised loan papers existed. Fifty-six thousand pounds committed.\\n\\nSILAS: [en] Correct.\\n\\nEWAN: [en] Second commission account. Payments from the bank and Gregor’s private account to Cyrus.\\n\\nCYRUS: [en] Those entries remain disputed.\\n\\nHEARING CHAIR: [en] Your public admission yesterday does not.\\n\\nSFX: [en] The sealed draft is broken open.\\n\\nHEARING CHAIR: [en] The hearing finds that no parliament, bank, royal office or civil administration existed independently of the London and Edinburgh workshops that produced their papers. Gregor possesses no authority to issue land, offices or currency in Briarhaven.\\n\\nGREGOR: [en] This hearing cannot strip a sovereign title.\\n\\nHEARING CHAIR: [en] It cannot strip what never existed. Your claimed authority is rejected. Every seal, commission and certificate submitted by you is impounded.\\n\\nSFX: [en] Officers collect metal seals and document boxes.\\n\\nHEARING CHAIR: [en] Cyrus may not validate, market or present any further Briarhaven issue. His commissions are attached to the creditors’ claims pending recovery.\\n\\nVOICE AMONG CREDITORS: [en] Say the bond price!\\n\\nSILAS: [en] There is no price. There is no buyer.\\n\\nSFX: [en] A cheer rises, mixed with weeping.\\n\\nMARA: [en] Ewan.\\n\\nEWAN: [en] Mother, your debt was discharged from my Crownwater witness allowance. Sixteen pounds and eight shillings. No forged certificate paid it.\\n\\nMARA: [en] Then lift your head when you read.\\n\\nEWAN: [en] Survivor account. One hundred and seventy-three departed. One hundred and fifty-nine reached Crownwater Colony. Every surviving name will be entered. Every death reported to the hearing will be entered. Every land payment, bond subscription and recruiting fee will be entered as an actual loss, not as an interest in Briarhaven.\\n\\nEDWIN: [en] My examination record confirms the survivor list and the absence of any functioning government at the settlement site.\\n\\nROBERT: [en] The Colonial Office accepts the register as public evidence. The interception dispatch naming Ewan as solely liable is withdrawn from operation and preserved as an exhibit, not a judgment.\\n\\nEWAN: [en] Preserve my signature too. I certified the first grant.\\n\\nADA: [en] And preserve the plate that manufactured its authority.\\n\\nINES: [en] Preserve the marker sent across the ocean before the land was supposedly received.\\n\\nHEARING CHAIR: [en] All three will remain with the ledger.\\n\\nSFX: [en] Pages turn as names are read. One by one, settlers answer present.\\n\\nNARRATOR: [en] The reading continued until every person who had arrived with a title heard it reduced to a payment, a date and a claim. No promised acre was restored. But no loss was hidden behind a flag again.\\n\\nSFX: [en] A pen scratches across the final page. The room becomes still.\\n\\nREGISTER CLERK: [en] On the final page of the eighteen thirty-four register, Briarhaven is entered as a fictional state.\\n\\nHEARING CHAIR: [en] And Ewan Pell is appointed keeper of the surviving settlers’ evidence.\"}],\"beat_sheet\":[{\"beat_id\":\"b050\",\"ep\":13,\"seq\":1,\"world_time\":\"1834-07-22\",\"location\":\"public creditors’ hearing, London\",\"present\":[\"ewan\",\"gregor\",\"robert\"],\"witnessed_by\":[\"cyrus\",\"ada\",\"ines\",\"silas\"],\"hidden_from\":[\"mara\",\"edwin\",\"george\"],\"what_happened\":\"Ewan refused immunity, entered the government liability dispatch as an exhibit and obtained permission to present his evidence publicly.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"Ewan accepts public scrutiny of his own complicity in order to expose Briarhaven.\",\"valence\":3},{\"entity\":\"government dispatch\",\"fact\":\"The dispatch is treated as evidence rather than a finding of liability.\",\"valence\":2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b051\",\"ep\":13,\"seq\":2,\"world_time\":\"1834-07-22\",\"location\":\"public creditors’ hearing, London\",\"present\":[\"ewan\",\"ada\",\"gregor\"],\"witnessed_by\":[\"cyrus\",\"ines\",\"silas\",\"robert\"],\"hidden_from\":[\"mara\",\"edwin\",\"george\"],\"what_happened\":\"Ada matched identical damage on the duplicate plate to the Briarhaven constitution, bank charter, military commission and royal seal, proving that the institutions were manufactured in one Edinburgh print room.\",\"state_changes\":[{\"entity\":\"Briarhaven institutions\",\"fact\":\"Their supposedly independent documents are publicly established as products of one workshop.\",\"valence\":-5},{\"entity\":\"ada\",\"fact\":\"Ada publicly authenticates the duplicate plate.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b052\",\"ep\":13,\"seq\":3,\"world_time\":\"1834-07-22\",\"location\":\"public creditors’ hearing, London\",\"present\":[\"ewan\",\"ines\",\"gregor\",\"cyrus\",\"silas\"],\"witnessed_by\":[\"ada\",\"robert\"],\"hidden_from\":[\"mara\",\"edwin\",\"george\"],\"what_happened\":\"Ewan connected the 1831 boundary marker to a ledger payment for two markers ordered by Gregor, and Cyrus admitted that Gregor’s private commission purchased his premises, subscriber access and public endorsement.\",\"state_changes\":[{\"entity\":\"1831 boundary marker\",\"fact\":\"The marker is established as a prop ordered before Gregor's claimed acquisition of the territory.\",\"valence\":-4},{\"entity\":\"cyrus\",\"fact\":\"Cyrus publicly admits what his private commission purchased.\",\"valence\":-4},{\"entity\":\"gregor\",\"fact\":\"Gregor's chronology of territorial acquisition is publicly contradicted by his own ledger.\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b053\",\"ep\":13,\"seq\":4,\"world_time\":\"1834-07-22\",\"location\":\"public creditors’ hearing, London\",\"present\":[\"ewan\",\"gregor\"],\"witnessed_by\":[\"cyrus\",\"ada\",\"ines\",\"silas\",\"robert\"],\"hidden_from\":[\"mara\",\"edwin\",\"george\"],\"what_happened\":\"A burial register established that the witness named on Gregor’s April 1834 sovereignty certificate had died in 1823.\",\"state_changes\":[{\"entity\":\"sovereignty certificate\",\"fact\":\"The final certificate offered as proof of Briarhaven sovereignty carries the signature of a witness dead for eleven years.\",\"valence\":-5},{\"entity\":\"gregor\",\"fact\":\"Gregor's final documentary claim to sovereignty is publicly discredited.\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b054\",\"ep\":14,\"seq\":1,\"world_time\":\"1834-07-23\",\"location\":\"sealed clerks’ room adjoining the public creditors’ hearing, London\",\"present\":[],\"witnessed_by\":[],\"hidden_from\":[\"ewan\",\"gregor\",\"cyrus\",\"elspeth\",\"mara\",\"jonas\",\"ada\",\"silas\",\"ines\",\"thomas\",\"edwin\",\"robert\",\"george\"],\"what_happened\":\"An official clerk prepared and sealed a draft suspending every authority derived from Briarhaven pending the hearing’s final determination.\",\"state_changes\":[{\"entity\":\"authority suspension draft\",\"fact\":\"A formal mechanism for ending Briarhaven authority exists before any cast member knows of it.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"This remains deliberately unwitnessed open canon because the draft is prepared in private before being opened at the hearing.\"},{\"beat_id\":\"b055\",\"ep\":14,\"seq\":2,\"world_time\":\"1834-07-23\",\"location\":\"public creditors’ hearing, London\",\"present\":[\"ewan\",\"ada\",\"gregor\",\"cyrus\"],\"witnessed_by\":[\"elspeth\",\"mara\",\"jonas\",\"silas\",\"ines\",\"thomas\",\"edwin\",\"robert\"],\"hidden_from\":[\"george\"],\"what_happened\":\"Ada revealed that she removed the missing ledger leaf and hid it in the Green Cross; the leaf contained Gregor’s manufacturing order, Cyrus’s delivery approval and the scheme assigning withdrawals to prospective employees before they were hired.\",\"state_changes\":[{\"entity\":\"master ledger\",\"fact\":\"The missing front leaf is restored and the ledger becomes complete.\",\"valence\":5},{\"entity\":\"ewan\",\"fact\":\"The pre-employment payment under Ewan's name is explained as part of a blame-assignment scheme.\",\"valence\":3},{\"entity\":\"ada\",\"fact\":\"Ada publicly identifies herself as the person who removed and preserved the leaf.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b056\",\"ep\":14,\"seq\":3,\"world_time\":\"1834-07-23\",\"location\":\"public creditors’ hearing, London\",\"present\":[\"ada\",\"ewan\",\"gregor\"],\"witnessed_by\":[\"cyrus\",\"elspeth\",\"mara\",\"jonas\",\"silas\",\"ines\",\"thomas\",\"edwin\",\"robert\"],\"hidden_from\":[\"george\"],\"what_happened\":\"The hearing ordered Ada’s guard removed and required her father’s confession to be preserved with Gregor’s signed printing instructions, ending Gregor’s coercive control over her.\",\"state_changes\":[{\"entity\":\"ada\",\"fact\":\"Ada is freed from Gregor's custody and her father's confession can no longer be used without the exculpatory printing order.\",\"valence\":5},{\"entity\":\"gregor\",\"fact\":\"Gregor loses his leverage over Ada and her father.\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b057\",\"ep\":14,\"seq\":4,\"world_time\":\"1834-07-23\",\"location\":\"public creditors’ hearing, London\",\"present\":[\"ewan\",\"gregor\",\"cyrus\",\"elspeth\",\"mara\",\"jonas\",\"ada\",\"silas\",\"ines\",\"thomas\",\"edwin\",\"robert\"],\"witnessed_by\":[],\"hidden_from\":[\"george\"],\"what_happened\":\"Ewan read the complete ledger publicly, witnesses admitted their roles, the hearing rejected Gregor’s claimed authority, barred Cyrus from further Briarhaven issues and began a register of actual settler and creditor losses.\",\"state_changes\":[{\"entity\":\"gregor\",\"fact\":\"Gregor is publicly stripped of claimed authority to issue Briarhaven land, offices, seals or currency.\",\"valence\":-5},{\"entity\":\"cyrus\",\"fact\":\"Cyrus is barred from validating or marketing further Briarhaven issues and his commissions are attached to creditor claims.\",\"valence\":-5},{\"entity\":\"Briarhaven bonds\",\"fact\":\"The bond mechanism ends without a quoted buyer.\",\"valence\":-5},{\"entity\":\"settler loss register\",\"fact\":\"Settlers and creditors receive a formal record of their actual losses and claims.\",\"valence\":5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b058\",\"ep\":14,\"seq\":5,\"world_time\":\"1834-07-23\",\"location\":\"public creditors’ hearing, London\",\"present\":[\"ewan\"],\"witnessed_by\":[\"gregor\",\"cyrus\",\"elspeth\",\"mara\",\"jonas\",\"ada\",\"silas\",\"ines\",\"thomas\",\"edwin\",\"robert\"],\"hidden_from\":[\"george\"],\"what_happened\":\"The final page of the 1834 register entered Briarhaven as a fictional state and appointed Ewan keeper of the surviving settlers’ evidence.\",\"state_changes\":[{\"entity\":\"Briarhaven\",\"fact\":\"Briarhaven is formally entered in the register as a fictional state.\",\"valence\":-5},{\"entity\":\"ewan\",\"fact\":\"Ewan is appointed keeper of the surviving settlers' evidence.\",\"valence\":5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null}],\"promise_ledger\":[{\"id\":\"p07\",\"raised_ep\":6,\"listener_is_waiting_for\":\"Why does a Briarhaven boundary marker predate Gregor's claimed acquisition of the territory by three years?\",\"must_pay_by_ep\":13,\"paid_ep\":13,\"how_paid\":\"The master ledger showed that Gregor ordered two Briarhaven boundary markers in March 1831 as overseas props before his claimed acquisition.\",\"status\":\"paid\"},{\"id\":\"p12\",\"raised_ep\":10,\"listener_is_waiting_for\":\"Who removed the missing leaf from the front of the master ledger, and what did it contain?\",\"must_pay_by_ep\":14,\"paid_ep\":14,\"how_paid\":\"Ada revealed that she removed the leaf and hid it inside the Green Cross; it contained Gregor's first manufacturing order, Cyrus's delivery approval and the scheme assigning withdrawals to employees before they were hired.\",\"status\":\"paid\"},{\"id\":\"p13\",\"raised_ep\":10,\"listener_is_waiting_for\":\"Can Ewan free Ada while Gregor holds her father's signed counterfeiting confession?\",\"must_pay_by_ep\":14,\"paid_ep\":14,\"how_paid\":\"Ada produced Gregor's signed printing order, and the hearing required it to remain attached to her father's confession before removing Gregor's guard.\",\"status\":\"paid\"},{\"id\":\"p14\",\"raised_ep\":11,\"listener_is_waiting_for\":\"What did Cyrus provide in return for receiving commissions from both the bank and Gregor's private account?\",\"must_pay_by_ep\":13,\"paid_ep\":13,\"how_paid\":\"Cyrus publicly admitted that the private commission purchased his bank premises, subscriber access and public endorsement of the Briarhaven issue.\",\"status\":\"paid\"},{\"id\":\"p15\",\"raised_ep\":12,\"listener_is_waiting_for\":\"How can Ewan expose Briarhaven after the government dispatch makes him officially liable for the consequences?\",\"must_pay_by_ep\":14,\"paid_ep\":13,\"how_paid\":\"Ewan refused immunity, entered the dispatch as an exhibit rather than accepting it as a judgment and presented the plate, ledgers and boundary evidence in a public creditors' hearing.\",\"status\":\"paid\"}],\"calendar\":{\"season_start\":\"1834-04-07\",\"dates_fixed\":[{\"ep\":1,\"when\":\"1834-04-07\",\"what\":\"Ewan certifies the sixty-acre grant at the public Edinburgh presentation.\"},{\"ep\":2,\"when\":\"1834-04-08\",\"what\":\"Ewan compares the institutional papers, attempts to resign, and is shown Mara's debt ledger.\"},{\"ep\":3,\"when\":\"1834-04-12\",\"what\":\"The packed recruiting-hall sale takes place and Ewan finds the duplicate banknote serial number.\"},{\"ep\":4,\"when\":\"1834-04-12 to 1834-04-13\",\"what\":\"Ewan and Ada prove the papers came from one workshop; the following morning Ewan finds the shop emptied and Ada missing.\"},{\"ep\":5,\"when\":\"1834-04-14\",\"what\":\"Cyrus validates the £200,000 loan, Ewan prepares certificates, and the first settler ship departs Northhaven.\"},{\"ep\":6,\"when\":\"1834-04-15 to 1834-05-29\",\"what\":\"Ewan begins his journey under a false name, reaches the Sable Coast after six weeks, inspects the capital site and finds the 1831 boundary marker.\"},{\"ep\":7,\"when\":\"1834-05-30\",\"what\":\"A hurricane strands the settlers and the northern trading post rejects Ewan's sealed requisition.\"},{\"ep\":8,\"when\":\"1834-06-02\",\"what\":\"The 159 surviving settlers enter Crownwater Colony and Edwin records Ewan's public testimony.\"},{\"ep\":9,\"when\":\"1834-07-18\",\"what\":\"Six weeks after the Crownwater rescue, Gregor launches the second London bond issue and presents Ada as Acting Superintendent of State Printing.\"},{\"ep\":10,\"when\":\"1834-07-18 to 1834-07-19\",\"what\":\"Ewan learns why Ada is being coerced, enters the Briarhaven office after closing and recovers the master ledger shortly after midnight.\"},{\"ep\":11,\"when\":\"1834-07-19\",\"what\":\"Ewan confronts Silas before the London exchange crowd and Silas produces the second commission ledger.\"},{\"ep\":12,\"when\":\"1834-07-20\",\"what\":\"Robert offers Ewan protection, discloses the secret interception policy and shows him the dispatch naming him as the official source.\"},{\"ep\":13,\"when\":\"1834-07-22\",\"what\":\"Ewan presents the plate, ledgers and boundary evidence at the public creditors' hearing, and the final sovereignty certificate is discredited.\"},{\"ep\":14,\"when\":\"1834-07-23\",\"what\":\"Ada restores the missing ledger leaf, the complete ledger is read, Briarhaven authority is rejected and Ewan is appointed keeper of the settlers' evidence.\"}],\"periods_fixed\":[{\"between\":[1,2],\"elapsed\":\"one day\"},{\"between\":[2,3],\"elapsed\":\"four days\"},{\"between\":[3,4],\"elapsed\":\"the comparison begins the same night as the recruiting-hall sale; Ada is missing the following morning\"},{\"between\":[4,5],\"elapsed\":\"one day from the discovery of Ada's disappearance to the loan validation\"},{\"between\":[5,6],\"elapsed\":\"Ewan departs one day after the settler ship and reaches the Sable Coast forty-three days after the ship's departure\"},{\"between\":[6,7],\"elapsed\":\"one day from the discovery of the 1831 marker to the hurricane\"},{\"between\":[7,8],\"elapsed\":\"three days from the hurricane and rejected requisition to the survivors' admission at Crownwater Colony\"},{\"between\":[8,9],\"elapsed\":\"six weeks and four days from the Crownwater public examination to the second London bond presentation\"},{\"between\":[9,10],\"elapsed\":\"episode 10 begins during the episode 9 presentation and continues past midnight\"},{\"between\":[10,11],\"elapsed\":\"the exchange confrontation occurs later on the day Ewan recovers the ledger\"},{\"between\":[11,12],\"elapsed\":\"one day\"},{\"between\":[12,13],\"elapsed\":\"two days\"},{\"between\":[13,14],\"elapsed\":\"one day\"}],\"unresolved\":[]},\"flags\":[]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 0.98,
+    "background": false,
+    "max_output_tokens": 32000,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": "medium",
+      "generate_summary": null,
+      "summary": null,
+      "context": "all_turns",
+      "mode": "standard"
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "episode_batch",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "episodes",
+            "beat_sheet",
+            "promise_ledger",
+            "calendar",
+            "flags"
+          ],
+          "properties": {
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "ep",
+                  "title",
+                  "script"
+                ],
+                "properties": {
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "beat_sheet": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "beat_id",
+                  "ep",
+                  "seq",
+                  "world_time",
+                  "location",
+                  "present",
+                  "witnessed_by",
+                  "hidden_from",
+                  "what_happened",
+                  "state_changes",
+                  "source_ref",
+                  "tier",
+                  "note"
+                ],
+                "properties": {
+                  "beat_id": {
+                    "type": "string"
+                  },
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "seq": {
+                    "type": "integer"
+                  },
+                  "world_time": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "present": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "witnessed_by": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "hidden_from": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "what_happened": {
+                    "type": "string"
+                  },
+                  "state_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "entity",
+                        "fact",
+                        "valence"
+                      ],
+                      "properties": {
+                        "entity": {
+                          "type": "string"
+                        },
+                        "fact": {
+                          "type": "string"
+                        },
+                        "valence": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "source_ref": {
+                    "type": "string"
+                  },
+                  "tier": {
+                    "type": "string",
+                    "enum": [
+                      "core_canon"
+                    ]
+                  },
+                  "note": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "promise_ledger": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "raised_ep",
+                  "listener_is_waiting_for",
+                  "must_pay_by_ep",
+                  "paid_ep",
+                  "how_paid",
+                  "status"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "raised_ep": {
+                    "type": "integer"
+                  },
+                  "listener_is_waiting_for": {
+                    "type": "string"
+                  },
+                  "must_pay_by_ep": {
+                    "type": "integer"
+                  },
+                  "paid_ep": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "how_paid": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "open",
+                      "paid",
+                      "paid_late"
+                    ]
+                  }
+                }
+              }
+            },
+            "calendar": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "season_start",
+                "dates_fixed",
+                "periods_fixed",
+                "unresolved"
+              ],
+              "properties": {
+                "season_start": {
+                  "type": "string"
+                },
+                "dates_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "ep",
+                      "when",
+                      "what"
+                    ],
+                    "properties": {
+                      "ep": {
+                        "type": "integer"
+                      },
+                      "when": {
+                        "type": "string"
+                      },
+                      "what": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "periods_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "between",
+                      "elapsed"
+                    ],
+                    "properties": {
+                      "between": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        }
+                      },
+                      "elapsed": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "unresolved": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 14844,
+      "input_tokens_details": {
+        "cached_tokens": 4165,
+        "cache_write_tokens": 10676
+      },
+      "output_tokens": 8872,
+      "output_tokens_details": {
+        "reasoning_tokens": 1938
+      },
+      "total_tokens": 23716
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1785009718,
+    "frequency_penalty": 0.0,
+    "moderation": null,
+    "presence_penalty": 0.0,
+    "prompt_cache_retention": "24h",
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    }
+  }
+}

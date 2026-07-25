@@ -1,0 +1,391 @@
+{
+  "stage": "serial_a3c321dba0a7_10_12",
+  "saved_at": "2026-07-25T20:31:34.773062+00:00",
+  "response": {
+    "id": "resp_05a79cdafdce66f2006a651c7e00808194a81f7086bbe10eb5",
+    "created_at": 1785011326.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_05a79cdafdce66f2006a651c7f11b0819499a436a189696463",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZR0m2Gj3pH065uzYRGM-3XSka4z4MQm7eeG598CDhzB21c3Pg6-wwJELFCxzWKTvMZ-pU42TieArhnowDg_03bcSvGNajMGTGOVbuxO8elNdy-ro5HQtaQShLIGsUz2xd2YhPuFYUCKBadRYLc621FW9UmFVjYBG56VxtCE_XEZXdugIHv6XoVbIZ-0VUJmzHHTAZEDX2j8m6SoXuGov6KEjbDidpn0sXjyWQ3xTW37V6Hfs4byKJ9-c9RuXa6dyZszoHEkGorTjyUUSEwjy3DVh169wapB8a3di4BUOngConD-XgfrcgB_hxKzuUdj1-dFfjavIgaGNqQ9X74AmPmwwLRb4QjU6DiqJWtxaXmyDdFS7w4gBd6ibWd6RDUzScgPXdPJRMJw8IedJqbTn8URcL0wpRNdtVGpwziXL5Wh0B-rYX5PeatO8GuYlUl6mbIPLaeGufA6k2bDyAr1BoRGXxRaz3IEwV4Pob5FTDxSsKUPjz5snQ2rZw1mPqWJr9RdbAxc5qT9nWSQ-H5uJgBcxN0B11R-KsUZ8fOuwy169-JGqsRlJhi4iOukHng2TBdA0e1G3Ko8lWTbw4ABIDGz9PazrfbXGwKvCB_pKAt56iF2wPopE2Wk50wJS8HhGx-rxrqlWKMB-tbanPJldrfKvwUVLdUTNAQRFA-N_Pxd2lKT3WaMSHmVSW78YvVrVAh9WssZpRh-_L_e220GT8cTRV6edVE_iOtBjdBjetSglEPnPwwRXjLt3lMDml1N-WMMePiVV1Jwl7-chqO7U5ShfwLF1siRbWuPjCT84mw084Q0ANGCtXOLUzdNhwKWk26uc4sO2zbX5ENmsJDWL1Vyxs_DVZRBQxeh2trYnJEWdhxSFcrRCp8sGznSzFZNgwdHJz8khhhX5SmYYYD_S26SX4km1UAHQOHK-oAiHBoCP1U6cfxc7EnBh2aASCpAtOFZ7XA6fa9UBA7Q-vzHK7S4w_h_7jiyGauqx44Lcb8r4SJeyt-UmIvvsgjGEgqG3DztlIlfVx8jvFd6Ms6I1ggeok8hpT6q4lDTuuHEpNrq77wCrCiUR4gPIPi1SAytgSI1HXPiqOQMXvQuwWVig7B45DG_Bf0v7oVWtmGB6PWEP34j5IU17e2z6zRFh8eUU9cCIekkGl4lfh_gi5s2ktJuvPOs_UeE4VqIGj4370HRkIKH9Jbiq3hpHRibWzMCfG9PmlROAT0zzcOrcSx507IpA040WhRJ6iBZXdFAm6Ny0Ub1NKOCrcDYLnncJRR8SBefnMAUFifcu8FYNC4gRD6oU4xjvO91O_9pS4Lbdqjqywi6cku6B11c7JEr1PYWKlB1TXd7V9oFi2kIQyv_Xpqyl3xmUBmaELKSOhx4odcDbo0yWjpxETD6nrNZvY9_y0ZKCYyEJv_PXjOJeHOMlfLDn_J3LDhhv0DYm0eCJKcge09SJg5rLoEUW6mins_5rG25Z355c8gfUvKyl4h0XxR3pA_urGr1kunFwMlRxhDEzYOn9zqX1mam_CMUKHZP4Vaf6YxBAd804kZfy7cndCEaRoMKg2jY9tl2fVrS2-5Lx2JW9zI3Z1scxIxJ_nHFrwCuOA0TuD8DAY-6_JMnf3us3-IxbVtUGHKFAxwGmFTsBnG-VNb5i5UzJABf8jg4LfZ9zWHMITW9HY9JMajlJS2F0fnB0sV06TaUkKf1oRyCnvHo2KiDdxkCm7YYSeXbK90o9fk1cTMwqcugfkfA4bKi4RSS_QjhoYDPeLLmH1OFkUfIs1lV6XBiG_4zK9VyukCvjVPxl3NEyDYyG12EoZvrOMDRyXRPHj0mEHHg-JtJGYdfP61Y4aRbtUhbgT1AOBvoaA9HwWMClbpv0IlH-RRxXIqjhL02SvB0FTB2AjiHmie6Kjd8zWnuigxKUN2xisr9IbcmhadndmUv-Pp2ewhk87vUNPP-ZpUO0gsyrw6zuLSAFhq1LmftKNGm0rWBy4eq8JZfTGz5kjgPE9EH9NggMXptYd2HzH2UYmUa0rPOACMKIK5PnH8yFLBPvGAYey_weIGIiMve3Tj0I-ldfMIDI0FjPli_9OlfcRAhOaPooOlwerH9vBlmUJr1A5e5ziA5y06PjuqH0bydSdzfhnT4ESb3tZ1y_Nfo8FD-NheNMr-24CslWUHjBnsotrk-Ps33ScbBfbBxTkmylpZ3oUwRCpWO3Z0ciAqWxSf1fWC3BOQ1fuWks8q6LB9fqrkPys4KsGz67R5sCQRCu8f4NG3lGhM_0_FPk0GYHbLYRK1FpkqMWFAhx7Tn1Io7PY10sPBn-u7dzf4UCJcfe8xiU5jyEsFiqvFaLjMpWhdpZ9saPwinpLKLHm6_aVI_c5G7a7ImE6Mv95Qh7VyRQvk84GBAIpqYxynLaJdXPvHQELyoEnwhge6Gp9qmZvjBCHpd-mknlzpjpGQVp0fx_3Qj8v7THcERNccjJBH-NVP67AK_Zg10d2pzu60OquCU7AQCB3MJUI1RmncVIi3gOYwrbswx1xDVOLSc_-qkTTffB3IaNQfciwkHYgueJi8XoJG0Bkndqlbl4rv1IeLR4svh4ZEUXAZZ_KApcNVcJkI3XtG6NM-gN0_iYWXAyzqLMbmEQCsDm8MyGCSUN52SFXL3QFymyUfdiw1DWzfwkFopVwov2SG6G5FxHEhoVCTFUftLX1EgftFH8oyBBYzybpzcKo1Mk01B4D3aozN2THZ2JgIGJPOlwZYz8TSOq0PlLTvg9MtqmZBdXtjdoZAOcaQQAwRv71wkVBJplut-oGbCyUNKdj0Y-7dNM5AnVg9RJvQFaumw7wwfAquZ5rtWOAzb98V4-VfJXzb66cxRSWFQ-jLWoHd-m3d1uShPZ1rvt0JxxGOHphgomlU01T43jMjyl1s2wO67Kg6hMpkxRfDpBeI19MnIDePi86MGEbJ2Zj0cwUdhe38kcjlAS4-218zV5chYTaILErEOWm2Djqs2XFVBdDd2f59gy4rZUqqf5fMMZFLNQc1BVIQ0Dzszi2CADzacyY22RJ8hyp_17yIUzz3YDbgC1jbnwLCzpFH1_aXhbOSxFR-l0v0cUZn0h4zakH4nlIFijyGqBkd5yCX3LiAEhcbv8I45d9TUNx0l0-fr4F3qkmGE5iEQ-oQOusJm26LPqq8571Gh9TqPwM0_bIsanHIVjfA9eBml74Rq1umdJqsbBsD-NVicTKVlTbIDR_OlpD_Yoh-7GEGldS5jxjB1RUPEfTFMmx3E4YpA8r9ug6aOrTFpEs6-mAqy_ODo7UMnO4gS0VqY41WzOgwEu1wGqfXk1lCPV0wjmLuKTEMlBAcNNQCFC6YOtXIYM6OK2bKD_DqaWHefaLGx0A-iGh0B0nhsXSx4pi2y7tTiqnHM0NE3BG_0ISOomQPY6eLHDouM0N9bqEuggnqF7p-h-FJ-asE3wyQEqNanRwWrUROvNc9FJU0TOsHlnOv3Jvj8rpQleLLdU_B1GwZIyRPQX-AGOAXzDY7yFkGTXnVwyhi6AMLYslOYmj-gQU9R1yGiRiuGDtypYf_seZUNRMosWPHnD_-rKLen59mt2jvqhlLdMC9SMCK3AOxneYb7qCHi6fL-PpbVCg8uZM7BcD2FUEd4VGWBy9WO-27Qt2TiHPzIc_bJxJLws9vPEk6lja6alYeFzoe_0JoZ7OBPjS2w7B02pr2zEMlbwHK3yZnm3ocPyOv1TA7jE2JKeNat_0nNu-HaBD-V_V2KUGS8iEQqsbgLGfwz_d7xGz7FwGiNv62qnNgwnylGzmXISNLNnr_DJBG9DNz61ZoOrVQKJiff_PT_pw85z3E0RikmBysvCRDI8SG_DQqq41CVJo3dADEejmstEJ11wC42BDzPBVgJZs-nCRGqEZJ5mWL5zs7y-SdSG1dXEWO6Php7cd8HLyiOexn0eYYIXpDnmEoe_0F3jlvShpi2mi1Uvruw9GoNFplef1TySb5YMb-9CoT5-2zMKOEwIj8E3luTIi7Xi7m7LPJuRpsBeLd3YMbgAKxvbrbCNVKKrUmrluJum0B9Od5DvK5wO3k29pIhaiHVxr1JEEUYkVyIu4yQiuVCbbKmos0B16ZtQcghfLteGNycZGAbuvdIcVg==",
+        "status": null
+      },
+      {
+        "id": "rs_05a79cdafdce66f2006a651c885dfc8194a9f169bbdb15e46c",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZR0me7jheRqalLrehanS9qXdzVYrm2k5Y_-Z0Ta_BbpmA4cMOlflthRbpIYe5KiUvcAEGOlTurCJyr3FYsCpRCOO3IFHzdvYqMz1qea5-HPg4gAlRRu4knQy_UN9RNeB8cgV6bEc-oGKUgfOwvtjDf5oVxXZQhy0JrAaUnHESg98Fp5LB7BvReX2IK7V7uwxBuF8DyYf3TdYI2RGdaYaIFM_h1P7nJZ_OXH5pHbWnJJ31EKSm4JIhaKi5pWYaWHsT93_TUSB0ITnjPyXcUDAD0qo6AigmbIsh6Va97iunlELIvcnV57F-d95Caibp915Gz7pzs-lKBzf41pEwOPHJAQlJlcdW1DsYE2CM1cxPMYjv1AuEI7TYlPleyJ8PeIVCOU3aQxI_m0sG3EkPV-zTtiIMkizqT4_BhEo5PRRBD3XRWT6VvlQHf7n_3ZPNPIomXABb0lDC3StWffu3BEOhJgc2rkd3xOVkcRrsg43LPFG9jDf1r_dWT0CZHqa6bI4aYEYtpwd08LJFXsQdqJFVjFFincjlx9lpIDD9aFeYXVye4o4H6fR3GrK3UK9XWhabiUFBEwsxLz95xIvCphNK67pySaRurPqu2jOhlGZSKrU39j-oM_vjYGTlNnsCwACFu6CgD61q2JHfTI-c37-n4vVSdI-9C4KiNvycSPhjTaq8T6X2fcWb5A_LL-LdUr_KJ0K5xXDG1Buxlr9tuSxs41H_s6LjTAn-x_wmlJLf_guqX7-TTSCg0UAxe9RK3KRgnPMb6jBRC_iKws7A6E1yVVVmmEpMT3GTDB-vJzLgofsxJms-Ay6dMhG6L0NjtsoqOKb2Hzc8jfpfgCmc3ed0Dknxu5w4640t5ev7IOHHHLZBfZmJ1-D1TpjT99jFLp4YCuHUOWDMCUd403qbf_7YTfHxAWzn30DhKG3EYVV_zYLRDOOGKMGO-WEBiW_Ds444ZmxEfdYyv5Nf9R-DjasE7RPmkVqTJADmguFby7co2nh654p0IuIWFNwtQ9uYJZT_pf7daC0OjVTAIsnjoZh0BGiVzSeArfi6-3WWr10QPGyPZkjDDiHQnhy3qZLGXgWO8o5tKTLTGB3VK7UauPxtgllI8BKL6m7ne1QuHTrwcwJGheOq59aFxGL0pwTNOEwAWw7M-HmBxIbOY26ht9eY6h1SmdZFtlYIkKcpjp3jkVumvA3JRTkriytvBo8TLdW6i3PswtlWYYhl7NRMoowASo871vh66yCNvMcO-RaMllbN-OhRFnC2c4pV92RqeztYZo1zRepVnm0wLKx6LzADg-n6MhukjyuWmxY2cIyCfC--62kcoa1jK2KgUHaXU27xTGU80yRMTAKydZZPvAe9y07Uwt3bHj9ht6xuL0MJBfiFsnsVGVxV7-LeOuVesmzIx2BkO_uEYVs5icsvwcgRclsB_8qEExiPwXrj8uVmPg9oVQR_LaR3jKycRJcvJY3DLCszU93YEqGbDqEPvgY4jsBFjTVkU13m0MIaUpKJQ7gt6QAnPFQGR1V55pQEqfbu_OZdEqG8IDyYziHHkXs9C869m01gjosQ6vmKkSxvjeDYmAMYC6EqM5l5whqk_ne7m2b0VDOzuFZGo8POsx8LdsWpsS4GHaTAUAzsUYPL2lujYfkR9PT0v5rsQM94KBY8T1mm9yfeF2cOH2kK_xFVV7yPQ0J_AsHhDlv5W_7yeoDAhIKPHD1nsCiO86gFdbO4HuLv1J4rGZRLYlRRDWM49iXYbM0yf2HDUlPCfD3hyQXtuWBIyeKJ2v-q6Etz-mRr1xgiMR1CVFlbSB2XPpSlzSOjrLMNWcTRoqjaO0ej_cPdRi4MQTylaQK7m900PH6z-roLxH9vDGx_GHkarCh_p7pHm4niuOq2mIrOsWaLtuKkvakweJyk4Gp9xYfFBbGuVr-6glhlU5-gUu2TcoNBIuH_C3xlD_yzZ7rI3h2r4y8l1cxNyhbivYhdY2IvTsgf5KemSRpl7KPp6AshJdjLtstZOf9ZJoNDS4ZFj2iqAIID9d5GB_kXvRCBlf0OyVlan6CS_oj3uhyXrV4kKHXq3SKaux3edxs4aNMGblGp4TYlvw_So6d_ilGcRbE3raWO_PRc9mZB6Obr56BS8XARoGsCkh-gWs6qX6EyhVexgzx-XdOlMkzitNFrgWKZefHBPxYRoM_DhQhXQBL5niSewiDYvg12-07EdkUWmbWmK2zcuRJIg3kqqh65HbyVFXOBtcatz5KZxE8mPkgFRE9Z5jxLlpez1npnslrWS3cpxjFRxVehY86VryDk6AIZUexRyQCTC3FCOPcJ9qAd4z28mseyEUJ3wY4hkRvn2kJWli3w2ywACtxjjpOWKH7gHLJO54Zxgjzz6EwErpcnQ35-fGX0rdmLTkaQ2LyW7jl7N4qCd13ylCpvNlwg9DIoZfF_WcXNgRNJ96dCdHRg5wGx0pCbC892EpqLUCwYoSALvGhQylJfRVW3exH0t0c9ttuctXqDG3O2uA1XWCBOlmd819MsDXnRyOnDxNNVdua0Zp67p0UvD-HsjACRCs0_VipS3RQfwElB_lwrpPs7p6arUb7srHzlYDiVytQMEncHtvXAfoDVFIOZLufbV8iBOL43tqMy3RbLdjno7UKTkhmBpBvX7WH97JzRY4EOz-GXV0OhJXhesvpCqye5n5MNypEY1wJ9Hnfzl1lSL8IZlGX074XoFMTpMwUcnzX5-RNEH9Eckqp8yEa11OQ7UJOIrDD9omzhFu_U3CgdK9qplh-_sbkP92wiWnJtj9ATzpKAt1sltcm1YQ4T5RMLbrXEEY_1utPUoRIQhaSvVGT4VSPSh1vYRk8iMVEcTUIakzjLxXhv-N_ZGmIStUfiQa-xszQ-88TkV4tb0rwnOPUMJ63hTA4R9BgQ8txLn4RvEOlrgw4c8gcLS9Lbh71b_8OR0tB9HIiO44bNw2QQymjDAago4nm9HlE2_3LJcrPNoQT9WbPSEY6Oyl5rzaAh8ATp8zTGrYAESqAYBGOKfnyj_vwKb9-8F3uAQFTZNNrRxo-czpyF0ztIlRHBA0DmmBbhM0NgodnpO8_Q4lvV-uQ7We_Z827gspRp4PljlcVdYESNUhManoVmW9SxiMiZOO3aOlF24wAFhTOuH0Y_yRvUr1-95bNXeM2Yahh4QSZZblQJGf7ZzwFp8WMP_viDfQ_Zo3m6eqpbowAN967IKxs4bWrmTl5iLAuSH59sDafw59wXlm8VxF5197BDREodciKL3V1boHPNldr1xbDkXr-M51eBZPavQAtlfYtcWkf75osFQXajUKduakFKyP2Bi8km1I1URXfc6dqrVHqjs0jdGs14ko2yQmLHEoBBCsZk00VGakxQOFRRPWpxHc62I9Z_AOth2L_uwDUpLGGrTyDFZJMAw4xw8FOyiRuuhCUebIFHtKrI7Ff5f1PJsJ4Gvsrk0OxMwyaBSzlXFexjiNkz6TOa-GDs5JfA0Pj1zFD5hfn4Z0bVkGSD1GnH-bQFpPpQRutKuOGa8aX7ixdKQXFT2aEZ4PB9oVv7oDed-QU0kaYp31EPkjPOvr21tG_2S_Insx7DL6g2aOSgwz_zMvA5taR2IDorvvA8m-ki-TyM2W2rSqUvRErtn5LKfpa3VJQp_BAu9WFNfqYyVLhkF-xtwGR2pKIri_QJQqk_DW6163aVOeI3lBPl5-SDXE4pCsSP_CjPWLl89wmXfV-QUZjrb31gVLb-hmnVh6D0LnYZ2-y9x_CNUSlr2-Z8QsyLxgh6uAFMHSouXaBL_Ie1i3RLrKD18qR-TV7BKFxWA0jGG1S92oFJcg74SEEezHK4FDx2CulQQFq",
+        "status": null
+      },
+      {
+        "id": "rs_05a79cdafdce66f2006a651c9199bc81948ec83321c2873fe7",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZR0mJLfOkmCvwaoG2zC_SkE-aTXPtz9_8yUbIFVz5YYl_qc-e5dr28h9v_AuatpnMqhi1HlNYa59PdPz9ko1KJcRJdYiMQerE1lOgOtaVBV_5inOWUXgjRlCpF9RnTIIxWzMHzZD3scheOXKXD3ZDSasNuU_FKebVO1VdcppFr-mCHbYjkYWoszSGZXAiGr_gWq1Dn07d2YSrO6huwCVOdNcnmXz7fS0446G-K2r_sanrvfZtX14VyEZLk68p0oxtVnQK_jvtg3-9zyP7mQHz-b_tRcxX6LQYj2z7mw9DRU3dhD4aELETGXCLHt_Njp9tocTL2IKbE37hY5Ssr65UKKd7R6PqoszBzPWqeivNyFNYD9Be0j-Ho0qDNoZflILnlwODeX5qaZtIv8I_ox5XiMaMM79JzRjlRzNtyOOtgoCXhd9vWrVeSLNtWonU4wPhwVmFJv6Obu4rk2F2sP6maRV2uPgQu0sxVyWEbCMxljO0C2bfbn583ot3OST2F1sCcKMhtm1B9nAuYgwFEyl9sabRuKvC_dXt_0jHyaKwRhU1JbnEagdGuobvP3NXy6_XY4YwDt30gXC98rjNI--Ov4mVTZMZF3kVPvrLJwlFWM_zGv4BFXYAC2LYMJozY3UYO6_hNVWJZOYT00yWmsILBZg6_ejlT7V7wrRqPI4XODypodAA98TUP0xYwthcH57pX7U1OKNdFnKiM_t5GM4Ax0Dd4pgjIKcUv4j9RagJLm2UoXSmhWVzZXB_NQz83E8O6wVEkaUQTsf8HsdKH1s2SFuQEQu6feGVIISUTPn54VC73-tsNnzFgs0TBhl2b5wbcsmB_vYRq3XTLSx4Jny482GFoXh7DokKhge81h15mYFc5oiQO9ABExX2R83PyFUdSKt1-U3TApASPnoIJhB8EdAvrva9F2e8VgoKLgDveMrvLjIRu3VXGd4w7g56LVxkdJwvM-jpAWRp3Xywxiq-WqZMC7klMxRzRUN8_pRVTuyI0RMvgFEtBSgy9ssW2JNRaQkRxIWkFmO-VCdffhZ13clGsWzxN-5Umo_N3Q09I0hkXGAdI7W8qWM-eBtqMTFopu9MDBA8M0MfHTBFFRFVkfUCg1Sxmkf5aTEvDPXVMwKxB-evnp8Iccb_Q1gkE2U3ExmOnn-lTb3LICbgq-Jn67pwFkPdsNoigm22a8vPChgVtB8O7xh3X7L4teDi-xDoeV71PBCxH59JTBPBZ2o8lB0m7D-xXXZOJP5fHBV8LFxpGMijUyOCVwjMjn0qXi3m9WBVuQE0vH5t559qr-qLKKsrxO4qufe3xnKVANgyW-JL92_r05PXJB0I3BFO67uCdO_dkmXpwEoyZNYwtNtRfBL4tccQXOfgNaQYCeQs60EhGYElFBZqYQeKtxtCtYtb0qV95QOfvXb0LoJAshD8x0_dvlovJs4rjMzSPX8IrVlvFXYdzOeTpkeKHBN3zt7mEPiFP5Y-ERbIDA3pNE4EXlLhiZWjDrBLJeCT1xDsEb0lDjZnkKVe70RecZ8seMztKVA-JlUi6fz088o81NAI1D4mPSbCV2snzsR-4_tM6rCXlZjdU7YvdtS_m_GsLg5-PgVfnSAanaDDqulFjRmLKv6ROHXp24C-h1Q1-udgbcdf3lozgmbK3XehvhkL0N0GwtszE-_8hC6P-OXmdWWK1vLXQx907_XJrTYqCcGg9XJ5Y6noX6UDAyqCHT2o1kHMCOfkr68wbbic1ElbB3zz4cht1KovyqYNKT6_HZGGBDie8GOOIqpq5pMmIigaWDppziqECzI_Mc_nVtUCrroEXpTjWsfiTwPhGFmczjC8uZfB9S2ONHr-JkQvIixX392UmjbIMhQNdwIPRVZ7prKxI3QN8ErIKta4CDoLZxQAimhCgpS84yxK2qaTXwBLbbu29ouddNuZ6Of-1Yystd-RKKhPnRtM2HIUhnLkuS8CXViBNR8PmcDOaAo5Vdz-y_N0CSEpCDCVf5rQgLgNPYObI7lT2kJiJwskvcKhEvwvc0jTu1EZrTSsLe1iCw77jw-xr1Q1xM7CkHs_NruCb9JoEKa3u2zD67tFVEe5yA9Pueq9TLW1SeTt7GTORiFohgI-cUxCZ03cQpDyo88kpWYL1VB_zfMp1EhCFz3tSfoYh8EqYjZmt55Sm6jnFrUXRnQJCIXMFdUzRmQu5fHX-svf27TuOdc3FIefHr3PlHs9aLoefgvKexlS3M9XlQ8PxLofo7DR7kbH3Tsb-FBPpbn5VX-jC1ysvB5zYNPF9DfW8P4jveg7p2cZdlGI8DRH2pLuIavP4SOIYdkUQkbcwqyIsAJ7SycwumGOtcMJvih9MFINFT7uYJrN20drkOaCTsKH2k_K-QBwbjICrRSoBs8hwjJO4lFRR62KVr9VJ_KOMD_MH3Rdxm4c07MBPo78HPDdl5QmJQMWENhQJETJfkHMpfIZcMVRJkoVx0hHT8FEiLnGVnewn-zT62mWMxW11LekWKSoPhfqegVfN8EE-82IauMeoVZfYpzY0-MvtPK7W6kcSE689UiT-ouRIqr_VsQIROTdSuPbd4g7cqyNBleqcUh6xMyoYSy5X-4IIVDG9qRz4T-oaTZ-N_VFWxJEn9OxEg0_XM4Pc_xbiB7YPbvK06GYiCIJ8hYMRmczopEpNHuktBvOLUg6zJx_mGczov6vnoG3qzCKhk7n4Ez1rnJfehvI60wga6ifIiReRrEQFy8CyOxRbVtrx01jXHOlS8r4j_v232DoNwp1ffoqB4r-eJi7aP3U8Ai2-QdaNgppd_KLreQN2tiLUYXUiL0UZgRj34tT-r6AC3migXeYNnBIMbDma0ZNtxQgp7sJ0Msc3OVSxeJdFMUUEHHupm_1_AWH3Cq01RKiSFoxKcSBbSKhxX1BaqKVSs19VW0C7c79oLkuJOMMvxJbjx9RoZgR34-MA31mSRDdWQgSFKdXU2IM45DIb1JYNAs5a6VDvcBtBnLMi8DP8_rndi8oupK9fuCisxN8RFYSjBRwEpqh0HfsC4MtCITHR_TeHyIyRGURrZXAyY59448RuXaaIFzPeafG9i4_s5LaEZuBWYFzjfulS2TJ5AtPRK08gT-wFO_tRJj2MkyYpHZLbdGhGal6Q8i4j7CGk2PzIGIwFl7Mav37IkhC0qTrRKBSTdA2fZFCF1aSWWhzbq4rPkCK9VrPJkVwNKbt0ztlE_7PE5Urz-LFA6Ls37-t-XuyxMqd_J3reJuUsDn6SnMmfu5dkmmXiowQPw1XCpKCkitv7PXspgn_k9_cExe2AkuHk1cj1cDssy_VOBdwB9wcVeiPYKYkk57TeZGp21L75H9lwgJIHtQmLdDNp1gq85T1W-aoZriH4fYvg81IGstl3q5DfCIaAIiJosqeMogqjY8FAjgtLImw2JuZADO92JwRELCvYdEto_th6mEafsFN0vy9AtWFRx09XpGH5tQi9f4rbpE_v5u8_ssuueM5i8aZ3Ri359XBlZ6WZ_tEYUlOi2X_5hcyCncAR0hYiNZtOe3hJE5aM-F_74x9tM9kQU2GTxmqhv2DQt54de4veOqwWFZROm7YwJ9IEdrAeX88UmD_sLq7DPNmxbWVuxLQlUKY0AzQ1gPpohpc93-Tl9QNO6OrJ4pBZkjWYrgznLOnX0Oa5boxBkM2ivk9as-uaORv57OqOIpSuVizWYBJUxAGDm6D2SgbpCJ1vFLpZnZ2EK7qTKrBi1Dwy5z8OOICKAtD2rRG9S97FIR-D5N0wy6SwsJmdwRuak_6tMvJ_iRZbycS18URgmnygEw-ZXtq1uZDnGGxfuc5kBN8TGw1JGlG0NOg3vfMOsmXZfW9N55YFfFlpDO4p4OPGk5ELc8Ru1rr7eAOcq1Xegj-WKzm2YQC2XmjzcLU2iTjkuI7I6iDWsvx9JCV2V4qVueOU46skjxwMplNHH708moElSsWMYxJ-wrrQxDxJYS0K-zdpb2E-U2TkJhFwJv2f_iV5VqVlv5jOaTK0RRvnJg38VXWysLupBNJ48GTYx6I_BO9ceQsMk7Fxoz3yj34Lt8IA==",
+        "status": null
+      },
+      {
+        "id": "rs_05a79cdafdce66f2006a651c9f33fc8194b38e9b6b5474a325",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZR0mUZeMCwZ7YSjZYouR1OEp30AOvM3bZABAPCvRvhEqtfDznriZb0r2dzDl_IKMbrzMCuU6tnKqA4FAK0DBAXkMfbgRDoRtUcpR3PGZYra9LO42Z0PzBe9jI1tHH4EykglrmvstLtfjidOunGJ97lwcgVgpzcQDDZP3ahgPdlWV8WfvY40SX5796I9tHYJdrCbeLZO5YKWj0UcSdhoby9-POoJP5Pb3vYERbQmTkfPHfRWhFLhma7FlvvptrKf5c2GkUHJQPVfA8V9VJs355KEpHDapaaSqrJSucTxisvnmwAnPxAjEN7nh56G-5IU_-6NPBwf79eLmGSZuO3NE-HrH7WoaXZTOd_ZHaEPCFOavhAcUtFoT9qtvK-7CgS6GwZYgKVTF9UrCjoP5JuY-4MGS6zGTS3BhuUZKF5NvNeDZgZR2c7RoCxuVFWWL6Zanq56kuFotUVVe3hhDfbUImgcTbMWY7dxUJylNbgtHJeh7ubJKKjwQXO_1VWV5uVJucqZ3VJRM4Sh-5tm3TCyqV5YBAKqlUOW5J50ZLi4j0wT3SnIQpBtrKAU7V2M-UIQHPQYBhLdfafQeF8UDP2vHQ2G3chZQuMOTiWD_uSxrTh-sQ43B6a0ZTlo0hjYKMspiQY1jtlKrAljs6mj7X_XE8b6lDiP9H_t66czVez7XTzUCNuN9nlCsQs0AXrRnLxlIwbnjXt7QcVfm7-YEkI-u7E6UaxDVoglY32cQyftsNRJcME_h2QGXaJo6A5wrttikuT61izs2a43g1emoCdNCrykiKl5NFme3KTdz7YDO14jTSh2LmyRWganeZ8zghMTt-3tGrF7NBxMkmRnpsBWfgtHXST2SYq4snpi02_5cmyTBdSy_hZMup-wy_dmtevEoxTNSRWUj5qZSyH0yPH79w9SfKk5TYPUlwOYIsDN9lazPmHSrqT_cMElvHlLMDaiff1GjUvR757JU3ctosBZfmPYCwnC12kn7CK_2wN8EepY8gc4qzVrs2qpx4G9ccmSBrRDdvYpaKtNxlWi5cOfAP_bvggFQ8AdNXKfeZ-_4qhwdl9I8iRSXNL3euhyHSC9Q9kzgG9QBpJnp1JFPJNhsTEzsGMxuhx1qAlCt1RK_gTQmIvnA_5Rk-G2lFaGIwVzL0vB8",
+        "status": null
+      },
+      {
+        "id": "msg_05a79cdafdce66f2006a651ca0f798819496224711c897b4ef",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"episodes\":[{\"ep\":10,\"title\":\"The Man Who Came Back\",\"script\":\"SFX: Heavy doors crash open. Wet boots cross a marble floor. A wooden cane strikes once.\\n\\nTHOMAS: Which one of you is Ewan?\\n\\nEWAN: I am. Thomas—how many came back?\\n\\nTHOMAS: Not enough. Bring me Bell.\\n\\nSFX: A crowded registry chamber erupts in whispers.\\n\\nBELL: This is a petition hearing, not a dockside spectacle.\\n\\nTHOMAS: I crossed an ocean to make it a spectacle.\\n\\nVEY: State your name and your business for the record.\\n\\nTHOMAS: Thomas. Surveyor. Settler. Survivor of Ravenshore.\\n\\nSFX: Chairs scrape. Several people stand.\\n\\nAGNES: Thomas!\\n\\nTHOMAS: Agnes. You reached London.\\n\\nAGNES: With eleven others. Where are the rest?\\n\\nTHOMAS: Some are in coastal villages. Some took passage north. Twenty-three died before help reached us.\\n\\nSFX: The chamber falls silent.\\n\\nVEY: Those deaths will be entered beside the existing complaint.\\n\\nBELL: Sir, before such figures are repeated publicly, they should be verified.\\n\\nTHOMAS: I buried six myself. Shall I fetch them for verification?\\n\\nVOICE IN GALLERY: Answer him, Bell!\\n\\nANOTHER VOICE: Twenty-three people!\\n\\nVEY: Order. Thomas, tell this chamber what you found at the advertised capital.\\n\\nTHOMAS: No capital. No harbour. No government house. No bank. No streets. Mud, jungle and paper money that no one on the coast would accept.\\n\\nBELL: The settlement may have been established at another coordinate.\\n\\nTHOMAS: Then your maps sent us sixty miles from it.\\n\\nMACRAE: New countries suffer difficult beginnings. You were engaged as a surveyor, were you not? Difficult ground was your opportunity.\\n\\nTHOMAS: I was engaged to survey farms outside a city. There was no city.\\n\\nMACRAE: A city is built by men who do not surrender to discomfort.\\n\\nTHOMAS: Fever is not discomfort. An empty medicine chest is not discomfort. A child dying under a printed proclamation is not discomfort.\\n\\nSFX: Angry voices rise throughout the gallery.\\n\\nVEY: Thomas, did any person in Bell’s office warn you that the government’s possessions had not been verified?\\n\\nTHOMAS: One man asked questions.\\n\\nBELL: Many questions were asked. My office conducted extensive—\\n\\nTHOMAS: Not you.\\n\\nSFX: Thomas’s cane crosses the floor and stops before Ewan.\\n\\nTHOMAS: This clerk asked where the farms were surveyed. He asked what wages had been deposited. He asked whether there was a harbour, a hospital or one completed government building.\\n\\nEWAN: And then I wrote your deposit into the ledger.\\n\\nTHOMAS: Because they put you beside Mara and called you a government clerk.\\n\\nEWAN: I should have refused.\\n\\nTHOMAS: You were ashamed then. Be useful now.\\n\\nVEY: Useful in what capacity?\\n\\nTHOMAS: As the office witness for the survivors’ petition.\\n\\nBELL: Ewan is a copying clerk. He has no standing to represent investors, settlers or this institution.\\n\\nTHOMAS: He has more standing than the men who sold us a country they never saw.\\n\\nVOICE IN GALLERY: Let the clerk speak!\\n\\nMILES: Uncle, everyone can hear you trying to silence him.\\n\\nBELL: Miles, kindly remember whose name brought you into this room.\\n\\nMILES: I remember whose bond carried a duplicate number too.\\n\\nSFX: A wave of shocked murmurs.\\n\\nVEY: Ewan, step forward.\\n\\nEWAN: I prepared maps, ledgers, land grants and bonds. I found duplicated serials. I found the expedition was sent without office-supplied food, medical chests, axes or saws. I found the relief fund never contained the four thousand eight hundred pounds written in its ledger.\\n\\nTHOMAS: Put his name on our petition.\\n\\nAGNES: Put it above Bell’s.\\n\\nVEY: The order of names is not a matter for the gallery.\\n\\nAGNES: My family’s shop was taken in the order Bell preferred.\\n\\nVEY: That matter is before us as well.\\n\\nSFX: Papers are unfolded across a long desk.\\n\\nPIPPA: Sir, these are the auction transfers. The investor proceeds entered Bell’s subscription account, then moved into an account controlled by Macrae before the certificates were delivered.\\n\\nMACRAE: Those funds met sovereign expenses.\\n\\nPIPPA: Printing, commissions and passage charges consumed part. The remaining recoverable balance is two thousand one hundred and forty pounds.\\n\\nBELL: Recoverable from whom?\\n\\nPIPPA: From you. The receiving account was opened on your introduction and cleared through your bank.\\n\\nBELL: That is an accounting interpretation.\\n\\nEWAN: It is your signature.\\n\\nVEY: Let us avoid an extended inquiry into how a banker’s signature reached a sovereign account. Bell, you will fund a settlement in the amount identified by your clerk.\\n\\nBELL: My clerk appears unusually ambitious today.\\n\\nPIPPA: Two thousand one hundred and forty pounds, sir. I checked it three times.\\n\\nVEY: The settlement will first redeem property deeds pledged by settler families. The remainder will fund survivor relief.\\n\\nBELL: And if I decline?\\n\\nVEY: Your bank premises are on a licence reviewed annually, are they not?\\n\\nSFX: Nothing. Long.\\n\\nBELL: I shall not permit innocent families to suffer over a misunderstanding. Prepare the draft.\\n\\nVOICE IN GALLERY: He is paying!\\n\\nANOTHER VOICE: Say why!\\n\\nVEY: For the record, Bell has agreed to fund the settlement.\\n\\nSFX: A pen scratches. A metal cash box opens.\\n\\nNARRATOR: Before the chamber emptied, Bell’s money did what Ravenshore money never had. It purchased something real.\\n\\nSFX: A thick document slides across wood.\\n\\nVEY: Agnes, the settlement has redeemed the deed to your family’s shop. No Ravenshore creditor retains a claim over it.\\n\\nAGNES: Read the address.\\n\\nVEY: Must I?\\n\\nAGNES: They read it aloud when they took the deed. Read it aloud when you return it.\\n\\nVEY: The Calderwick shop and rooms above it are restored to Agnes and her family, free of the Ravenshore pledge.\\n\\nSFX: The gallery applauds.\\n\\nAGNES: Ewan, take it.\\n\\nEWAN: It belongs to you.\\n\\nAGNES: I want the man who wrote away my seventeen pounds to hand back what survived.\\n\\nSFX: Paper passes from Vey to Ewan, then to Agnes.\\n\\nEWAN: Your shop is yours again.\\n\\nAGNES: And Thomas’s names?\\n\\nVEY: The survivors’ petition will be accepted with Thomas as principal witness and Ewan as the office witness.\\n\\nTHOMAS: Say it plainly.\\n\\nVEY: Ewan is the only worker from the Ravenshore office who attempted to establish what the country actually possessed before the settlers departed.\\n\\nSFX: Applause grows louder.\\n\\nBELL: This performance will not alter the legal character of the bonds.\\n\\nPIPPA: It altered the room.\\n\\nSFX: The rear doors open. A staff strikes the floor twice.\\n\\nTHOMAS: Tawis. You made the crossing.\\n\\nTAWIS: I have arrived with the coastal record. It shows that no Ravenshore government has ever been recognized on the land Macrae claims.\"},{\"ep\":11,\"title\":\"A Better Name\",\"script\":\"SFX: A coastal record slams onto the registry table. Seals and cords rattle.\\n\\nTAWIS: Enter it beside the survivor petition.\\n\\nVEY: I require a translation, certification and diplomatic review.\\n\\nEWAN: I require ten minutes with it.\\n\\nMACRAE: You require rest, Ewan. Come with me.\\n\\nEWAN: No.\\n\\nMACRAE: That was not an order. It was a courtesy.\\n\\nSFX: The gallery presses closer. Constables knock their staffs against the floor.\\n\\nVEY: The record will remain under registry seal until examined.\\n\\nTHOMAS: We crossed an ocean to bring it here. Do not bury it under procedure.\\n\\nVEY: Procedure is what prevents every loud man with a seal from becoming a government.\\n\\nTAWIS: Your procedure did not prevent this one.\\n\\nVOICE IN GALLERY: Let Tawis read it!\\n\\nBELL: This chamber has heard enough accusations for one morning.\\n\\nAGNES: You heard my children’s names when you sold us land. You can hear Tawis now.\\n\\nMACRAE: Ewan, outside. Unless you prefer your future decided by a shouting gallery.\\n\\nEWAN: My future has been decided in private rooms before.\\n\\nMACRAE: Then let us improve the result.\\n\\nSFX: A side door opens. The gallery noise dulls as it closes.\\n\\nNARRATOR: Macrae chose a room with two chairs and placed Ewan in the better one. Remember that.\\n\\nSFX: A decanter stopper lifts. Liquid pours into one glass.\\n\\nMACRAE: You have made yourself important.\\n\\nEWAN: Thomas made the survivors audible.\\n\\nMACRAE: Thomas brought graves. You brought columns, signatures and dates. London understands your language.\\n\\nEWAN: London understood your uniforms.\\n\\nMACRAE: Yes. Because I understood London.\\n\\nSFX: A leather portfolio opens.\\n\\nMACRAE: A partnership agreement. One quarter of the next land issue. No salary. Profit.\\n\\nEWAN: There should be no next issue.\\n\\nMACRAE: There is always a next issue. Different acreage. Different subscribers. Better safeguards.\\n\\nEWAN: The land is not yours.\\n\\nMACRAE: Tawis possesses a coastal record. I possess grants, treaties, a constitution, a bank charter and years of public recognition.\\n\\nEWAN: You possess paper.\\n\\nMACRAE: So does every bank in this city.\\n\\nEWAN: What do you want me to sign?\\n\\nMACRAE: A statement that Thomas’s account is an act of commercial sabotage encouraged by rival interests.\\n\\nEWAN: He buried six settlers.\\n\\nMACRAE: Grief does not make a man accurate.\\n\\nEWAN: Neither does a uniform.\\n\\nSFX: Macrae sets down the glass without drinking.\\n\\nMACRAE: Your father left debts. Your mother’s house has already appeared in one unfortunate ledger. Respectability has not protected either of you.\\n\\nEWAN: That entry was forged.\\n\\nMACRAE: Certainly. Yet ink travels farther than correction.\\n\\nEWAN: Is that your threat?\\n\\nMACRAE: It is advice from a man offering you shelter.\\n\\nSFX: Another document slides across the table.\\n\\nMACRAE: A new name. Ewan Kerr disappears from the certificates. Ewan Carrick becomes partner and land commissioner. No provincial debt. No copying desk. No accusation attached to your mother’s door.\\n\\nEWAN: You would change one letter and call me clean.\\n\\nMACRAE: London has accepted countries built with less.\\n\\nEWAN: And my share?\\n\\nMACRAE: Twelve thousand acres reserved on the next issue. Your quarter of subscription profit should exceed three thousand pounds.\\n\\nEWAN: Enough to buy my mother’s house twice.\\n\\nMACRAE: Enough to make the men who mocked you request appointments.\\n\\nEWAN: In exchange for calling Thomas a liar.\\n\\nMACRAE: In exchange for recognizing that nations are made by those who continue.\\n\\nEWAN: Twenty-three settlers did not continue.\\n\\nMACRAE: Men die in old countries too.\\n\\nSFX: Ewan tears the unsigned statement once.\\n\\nMACRAE: Careful. That sheet carried my seal.\\n\\nEWAN: Then now it carries the truth about your authority.\\n\\nMACRAE: You think applause in a registry chamber has cleared you.\\n\\nEWAN: Bell admitted the theft ledger was planted.\\n\\nMACRAE: He admitted an entry was planted. He did not admit who authorized eight hundred certificates bearing your initials.\\n\\nEWAN: They were forged.\\n\\nMACRAE: Publicly, repeatedly and very neatly. A court may admire consistency.\\n\\nEWAN: Ross can identify the printing dates.\\n\\nMACRAE: Ross can identify ink. Bell can identify accounts. Pippa can identify transfers. Thomas can identify mud. Only you appear on every part of the chain.\\n\\nEWAN: Because you put me there.\\n\\nMACRAE: Because you wanted a name respectable people would trust.\\n\\nSFX: Nothing. Long.\\n\\nMACRAE: I am offering you one.\\n\\nEWAN: I will keep mine.\\n\\nMACRAE: As you wish. A man should be permitted to choose the name printed on his difficulties.\\n\\nSFX: The side door opens. Gallery noise rushes back.\\n\\nTHOMAS: Ewan. What did he offer?\\n\\nEWAN: Money, land and one changed letter.\\n\\nAGNES: For what?\\n\\nEWAN: My statement that Thomas sabotaged Ravenshore.\\n\\nVOICE IN GALLERY: He tried to buy the witness!\\n\\nANOTHER VOICE: Say the amount!\\n\\nEWAN: Twelve thousand acres and a quarter of the next land issue.\\n\\nSFX: Public outrage breaks across the chamber.\\n\\nMACRAE: An exploratory commercial proposal has been deliberately mischaracterized.\\n\\nTAWIS: You offered land while my record disputing your authority lies on that table.\\n\\nMACRAE: I offered an interest subject to lawful confirmation.\\n\\nBELL: There is no bank treasury available for another issue.\\n\\nMACRAE: Banks are replaceable.\\n\\nBELL: Some introductions are not.\\n\\nPIPPA: Nor are the ledgers. I retained copies.\\n\\nVEY: Enough. Ewan, did you sign Macrae’s statement?\\n\\nEWAN: No.\\n\\nVEY: Did you accept land or partnership?\\n\\nEWAN: No.\\n\\nTHOMAS: Put that in the petition too.\\n\\nVEY: It will be entered.\\n\\nSFX: Clerk’s pen scratches rapidly.\\n\\nMILES: Ewan, if you refused three thousand pounds, you are either honest or completely mad.\\n\\nPIPPA: Those are not opposites in this office.\\n\\nSFX: The main doors open. Measured official footsteps approach.\\n\\nPROCESS SERVER: Ewan Kerr?\\n\\nEWAN: Yes.\\n\\nPROCESS SERVER: I have a creditor’s writ for personal service.\\n\\nVEY: On what claim?\\n\\nPROCESS SERVER: Eight hundred recent Ravenshore certificates bear his initials beneath the title of treasurer.\\n\\nEWAN: Those initials were forged.\\n\\nPROCESS SERVER: The writ names Ewan Kerr as co-director of the Ravenshore treasury.\"},{\"ep\":12,\"title\":\"The Chain\",\"script\":\"SFX: A creditor’s writ crackles as Ewan spreads it over a counting table.\\n\\nEWAN: Lock the door, Pippa. Bell leaves only after we rebuild the whole chain.\\n\\nBELL: You are named as co-director and still giving orders in my bank.\\n\\nEWAN: Then save your bank.\\n\\nTHOMAS: Or save Macrae. Choose where we can hear you.\\n\\nSFX: The key turns in the lock.\\n\\nBELL: This confinement is improper.\\n\\nPIPPA: You once locked Ewan in a counting room over three hundred and twelve missing entries.\\n\\nBELL: That was an internal employment matter.\\n\\nTAWIS: This is an internal government matter. According to my record, there is no government.\\n\\nSFX: Bundled ledgers land heavily on the table.\\n\\nEWAN: Five links. Land claim. Printed authority. Bank subscription. Bond sale. Settler ship.\\n\\nBELL: A dramatic arrangement does not establish liability.\\n\\nEWAN: No. Signatures do.\\n\\nPIPPA: First ledger. Bell introduced Macrae’s controlled account to the subscription account.\\n\\nBELL: For the efficient transfer of legitimate sovereign funds.\\n\\nEWAN: Second ledger. Eight hundred bonds sold before delivery. My initials appear on each certificate, although I did not write them.\\n\\nBELL: That allegation requires expert evidence.\\n\\nPIPPA: Ross already dated the ink used to plant the theft entry. His press invoices also place the certificates in production before Ewan was named treasurer.\\n\\nBELL: Ross prints what clients supply.\\n\\nTHOMAS: Third link. Your sale financed our passage.\\n\\nBELL: Passage was arranged by expedition agents.\\n\\nTHOMAS: Your office announced the payment in front of investors.\\n\\nEWAN: Fourth link. The cargo ledger lists uniforms, proclamations, bank notes and government paper. No office-supplied food, medical chests, axes or saws.\\n\\nBELL: I am a banker, not a quartermaster.\\n\\nTHOMAS: You sold shares in a country. You might have checked whether its people could cut wood.\\n\\nTAWIS: Fifth link. The claimed territory was governed through coastal communities that did not recognize Macrae’s state, bank or land grants.\\n\\nBELL: Your record may describe a local disagreement.\\n\\nTAWIS: It records every recognized agreement affecting the claimed coast. Macrae’s government appears nowhere.\\n\\nEWAN: Yet Bell’s bank accepted his bonds as sovereign paper.\\n\\nBELL: Accepted for subscription, not guaranteed as sovereign obligations.\\n\\nPIPPA: Your salon invitations called them government securities.\\n\\nBELL: Promotional language.\\n\\nTHOMAS: Mara called mud a capital. Was that promotional too?\\n\\nSFX: Bell shuts one ledger. Ewan opens it again.\\n\\nEWAN: The writ says I directed the treasury because forged initials appear on the bonds. If initials create a director, your signature creates the bank behind every transfer.\\n\\nBELL: You would implicate yourself to reach me?\\n\\nEWAN: I am already named.\\n\\nBELL: And Macrae?\\n\\nEWAN: He receives the money, supplies the authority and orders the papers.\\n\\nTAWIS: He also sells land he cannot govern.\\n\\nBELL: Then your reconstruction needs the original grant.\\n\\nEWAN: Which grant?\\n\\nBELL: The document Macrae first used to persuade me that his claim had territorial standing.\\n\\nPIPPA: It is not in the subscription archive.\\n\\nBELL: No.\\n\\nEWAN: Where is it?\\n\\nBELL: Safe.\\n\\nTHOMAS: Twenty-three people were not.\\n\\nBELL: Spare me the rehearsed injury. If I surrender the grant, Macrae will say I accepted it knowingly and built a bank issue around it.\\n\\nEWAN: Did you?\\n\\nBELL: I accepted what men with government introductions, military honours and proper seals accepted.\\n\\nPIPPA: That is not an answer.\\n\\nBELL: It is the answer by which respectable finance operates.\\n\\nEWAN: Not anymore.\\n\\nSFX: Tawis unties the cord around the coastal record.\\n\\nTAWIS: Read the boundary description from Macrae’s prospectus.\\n\\nPIPPA: Northern river, western ridge, Blackwater Coast, sixty miles south to the cape.\\n\\nTAWIS: My record lists that same boundary under three coastal jurisdictions. None granted Macrae sovereign authority.\\n\\nTHOMAS: And the coordinates on his map placed us in uncleared ground.\\n\\nEWAN: The map made the land claim visible. The seals made it official. Bell’s subscriptions made it valuable. The bond money paid the ship. The ship carried settlers to a capital that did not exist.\\n\\nPIPPA: That is the chain.\\n\\nBELL: It is a theory.\\n\\nEWAN: Then break one link.\\n\\nSFX: Nothing. Long.\\n\\nBELL: The bank accepted the bonds because Macrae’s papers imitated the form expected of a government.\\n\\nTHOMAS: You knew they were imitation?\\n\\nBELL: I knew they were new.\\n\\nEWAN: Did you verify the territory?\\n\\nBELL: No.\\n\\nTAWIS: Did you ask any authority from the coast?\\n\\nBELL: No.\\n\\nPIPPA: Did you hold investor money until the certificates were delivered?\\n\\nBELL: No.\\n\\nEWAN: Did you allow Macrae to control it?\\n\\nBELL: Yes.\\n\\nSFX: Pippa’s pen stops.\\n\\nPIPPA: Say whom you choose now.\\n\\nBELL: I beg your pardon?\\n\\nPIPPA: Protect Macrae, and this writ pulls your bank into the treasury. Give us the grant, and the chain reaches him before it closes around you.\\n\\nBELL: You have become remarkably direct.\\n\\nPIPPA: I learned from columns. They do not flatter.\\n\\nTHOMAS: Choose.\\n\\nBELL: If I assist you, every investor will say I sold sovereign bonds without verifying a sovereign.\\n\\nEWAN: That is what happened.\\n\\nBELL: If I protect Macrae, creditors will seize the bank records and discover the same thing without my cooperation.\\n\\nTAWIS: That is also what will happen.\\n\\nSFX: Bell walks to a wall safe. Metal dials turn.\\n\\nNARRATOR: For years, Bell had protected his reputation with locked doors. This time, opening one cost him more.\\n\\nSFX: The safe opens. Documents shift inside.\\n\\nBELL: There are older papers than the one I showed investors.\\n\\nEWAN: How much older?\\n\\nBELL: Some came before your employment. Others came after the survivors’ petition.\\n\\nTHOMAS: After London knew?\\n\\nBELL: Macrae never regarded a complaint as a border.\\n\\nSFX: Bell removes a thick sealed packet.\\n\\nPIPPA: The wax is recent.\\n\\nBELL: I received it with instructions for another land issue.\\n\\nEWAN: When?\\n\\nBELL: Last year.\\n\\nTHOMAS: He was still selling Ravenshore?\\n\\nBELL: He was preparing to.\\n\\nTAWIS: Open it.\\n\\nBELL: Once opened, I cannot deny possession.\\n\\nEWAN: You signed the account. You introduced the bonds. You funded the ship. Possession is the smallest thing left to deny.\\n\\nSFX: Bell breaks the wax seal. Heavy parchment unfolds.\\n\\nPIPPA: There is Macrae’s seal.\\n\\nEWAN: Acreage?\\n\\nBELL: Sixty acres.\\n\\nTAWIS: Date of issue?\\n\\nBELL: April 1834.\\n\\nSFX: Bell places the sealed sixty-acre grant in Ewan’s hands.\\n\\nBELL: Macrae’s paper country was still being sold thirteen years after the first settlers were abandoned.\"}],\"beat_sheet\":[{\"beat_id\":\"b037\",\"ep\":10,\"seq\":1,\"world_time\":\"1823-05-12\",\"location\":\"Vey's government registry chamber in London\",\"present\":[\"ewan\",\"thomas\",\"agnes\",\"vey\",\"bell\",\"macrae\",\"pippa\",\"miles\"],\"witnessed_by\":[\"ewan\",\"thomas\",\"agnes\",\"vey\",\"bell\",\"macrae\",\"pippa\",\"miles\"],\"hidden_from\":[\"elspeth\",\"mara\",\"lucien\"],\"what_happened\":\"Thomas returned with survivors, reported twenty-three deaths, and publicly identified Ewan as the only Ravenshore office worker who had asked what the country possessed.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"Thomas publicly identified him as the office worker who questioned Ravenshore's material claims before departure\",\"valence\":4},{\"entity\":\"survivors' petition\",\"fact\":\"Thomas became its principal witness and Ewan became its office witness\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b038\",\"ep\":10,\"seq\":2,\"world_time\":\"1823-05-12\",\"location\":\"Vey's government registry chamber in London\",\"present\":[\"ewan\",\"thomas\",\"agnes\",\"vey\",\"bell\",\"macrae\",\"pippa\",\"miles\"],\"witnessed_by\":[\"ewan\",\"thomas\",\"agnes\",\"vey\",\"bell\",\"macrae\",\"pippa\",\"miles\"],\"hidden_from\":[\"elspeth\",\"lucien\"],\"what_happened\":\"Pippa established a recoverable balance of 2,140 pounds from the auction transfers, and Vey compelled Bell to fund a settlement for settler property and survivor relief.\",\"state_changes\":[{\"entity\":\"investor proceeds\",\"fact\":\"2,140 pounds became recoverable through Bell's settlement\",\"valence\":4},{\"entity\":\"bell\",\"fact\":\"Bell publicly agreed to fund the settlement\",\"valence\":-3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b039\",\"ep\":10,\"seq\":3,\"world_time\":\"1823-05-12\",\"location\":\"Vey's government registry chamber in London\",\"present\":[\"ewan\",\"thomas\",\"agnes\",\"vey\",\"bell\",\"pippa\"],\"witnessed_by\":[\"ewan\",\"thomas\",\"agnes\",\"vey\",\"bell\",\"pippa\"],\"hidden_from\":[\"elspeth\",\"mara\",\"lucien\"],\"what_happened\":\"The settlement funded by Bell restored the deed to Agnes's family shop free of the Ravenshore pledge.\",\"state_changes\":[{\"entity\":\"agnes\",\"fact\":\"Her family recovered its shop deed free of the Ravenshore pledge\",\"valence\":5},{\"entity\":\"bell\",\"fact\":\"His money funded the restoration of settler property\",\"valence\":-2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b040\",\"ep\":10,\"seq\":4,\"world_time\":\"1823-05-12\",\"location\":\"Vey's government registry chamber in London\",\"present\":[\"ewan\",\"thomas\",\"tawis\",\"vey\",\"agnes\",\"bell\",\"macrae\",\"pippa\",\"miles\"],\"witnessed_by\":[\"ewan\",\"thomas\",\"tawis\",\"vey\",\"agnes\",\"bell\",\"macrae\",\"pippa\",\"miles\"],\"hidden_from\":[\"elspeth\",\"mara\",\"lucien\"],\"what_happened\":\"Tawis arrived with a coastal record showing that no Ravenshore government had ever been recognized on the land claimed by Macrae.\",\"state_changes\":[{\"entity\":\"Macrae's territorial claim\",\"fact\":\"A coastal record directly contradicted recognition of the claimed government\",\"valence\":-5},{\"entity\":\"tawis\",\"fact\":\"Tawis became a documentary witness against Macrae's territorial authority\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b041\",\"ep\":11,\"seq\":1,\"world_time\":\"1835-04-21\",\"location\":\"Side room at Vey's government registry in London\",\"present\":[\"ewan\",\"macrae\"],\"witnessed_by\":[\"ewan\",\"macrae\"],\"hidden_from\":[\"bell\",\"pippa\",\"thomas\",\"tawis\",\"agnes\",\"vey\",\"miles\",\"elspeth\"],\"what_happened\":\"Macrae offered Ewan a partnership, twelve thousand acres, a quarter share of the next land issue, and a changed surname in exchange for denouncing Thomas's account as sabotage.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"Macrae offered him wealth, status, and a new identity in exchange for false testimony\",\"valence\":-3},{\"entity\":\"macrae\",\"fact\":\"Macrae attempted to purchase Ewan's testimony against Thomas\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b042\",\"ep\":11,\"seq\":2,\"world_time\":\"1835-04-21\",\"location\":\"Vey's government registry chamber in London\",\"present\":[\"ewan\",\"macrae\",\"thomas\",\"tawis\",\"agnes\",\"vey\",\"bell\",\"pippa\",\"miles\"],\"witnessed_by\":[\"ewan\",\"macrae\",\"thomas\",\"tawis\",\"agnes\",\"vey\",\"bell\",\"pippa\",\"miles\"],\"hidden_from\":[\"elspeth\",\"mara\",\"lucien\"],\"what_happened\":\"Ewan publicly disclosed Macrae's offer and refused to sign the statement accusing Thomas of sabotage.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"Ewan rejected Macrae's partnership and retained his own name\",\"valence\":4},{\"entity\":\"macrae\",\"fact\":\"His attempt to purchase Ewan's testimony became public\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b043\",\"ep\":11,\"seq\":3,\"world_time\":\"1835-04-21\",\"location\":\"Vey's government registry chamber in London\",\"present\":[\"ewan\",\"macrae\",\"thomas\",\"tawis\",\"agnes\",\"vey\",\"bell\",\"pippa\",\"miles\"],\"witnessed_by\":[\"ewan\",\"macrae\",\"thomas\",\"tawis\",\"agnes\",\"vey\",\"bell\",\"pippa\",\"miles\"],\"hidden_from\":[\"elspeth\",\"mara\",\"lucien\"],\"what_happened\":\"A creditor served Ewan with a writ naming him as co-director of the Ravenshore treasury because his forged initials appeared on eight hundred recent certificates.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"He became formally exposed to creditor liability as an alleged co-director\",\"valence\":-5},{\"entity\":\"creditor's writ\",\"fact\":\"The forged initials were used as the basis for naming Ewan a co-director\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b044\",\"ep\":11,\"seq\":4,\"world_time\":\"1835-04-21\",\"location\":\"Bell's lower bank vault in London\",\"present\":[],\"witnessed_by\":[],\"hidden_from\":[\"ewan\",\"pippa\",\"thomas\",\"tawis\",\"agnes\",\"vey\",\"miles\",\"elspeth\"],\"what_happened\":\"A sealed packet containing an April 1834 Ravenshore land grant remained inside Bell's lower bank vault.\",\"state_changes\":[{\"entity\":\"sealed grant\",\"fact\":\"The April 1834 land grant remained concealed in Bell's possession\",\"valence\":-3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"Deliberate open canon establishes the concealed document before Bell reveals it in episode 12.\"},{\"beat_id\":\"b045\",\"ep\":12,\"seq\":1,\"world_time\":\"1835-04-22\",\"location\":\"Bell's London counting room\",\"present\":[\"ewan\",\"bell\",\"pippa\",\"thomas\",\"tawis\"],\"witnessed_by\":[\"ewan\",\"bell\",\"pippa\",\"thomas\",\"tawis\"],\"hidden_from\":[\"macrae\",\"elspeth\",\"mara\",\"lucien\",\"miles\"],\"what_happened\":\"Ewan reconstructed the chain connecting Macrae's land claim, printed government papers, Bell's subscription account, the bond issue, and the settler expedition.\",\"state_changes\":[{\"entity\":\"Ravenshore documentary chain\",\"fact\":\"The land claim, papers, bank, bonds, and expedition were connected in one evidentiary sequence\",\"valence\":5},{\"entity\":\"bell\",\"fact\":\"Bell was confronted with his signature at the banking link in the chain\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b046\",\"ep\":12,\"seq\":2,\"world_time\":\"1835-04-22\",\"location\":\"Bell's London counting room\",\"present\":[\"ewan\",\"bell\",\"pippa\",\"thomas\",\"tawis\"],\"witnessed_by\":[\"ewan\",\"bell\",\"pippa\",\"thomas\",\"tawis\"],\"hidden_from\":[\"macrae\",\"elspeth\",\"mara\",\"lucien\",\"miles\"],\"what_happened\":\"Bell admitted that he did not verify Macrae's territory, did not consult a coastal authority, released investor money before delivery, and allowed Macrae to control the funds.\",\"state_changes\":[{\"entity\":\"bell\",\"fact\":\"Bell admitted the principal failures that allowed the Ravenshore issue to appear legitimate\",\"valence\":-5},{\"entity\":\"ewan\",\"fact\":\"Ewan obtained Bell's admissions in front of four witnesses\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b047\",\"ep\":12,\"seq\":3,\"world_time\":\"1835-04-22\",\"location\":\"Bell's London counting room\",\"present\":[\"ewan\",\"bell\",\"pippa\",\"thomas\",\"tawis\"],\"witnessed_by\":[\"ewan\",\"bell\",\"pippa\",\"thomas\",\"tawis\"],\"hidden_from\":[\"macrae\",\"elspeth\",\"mara\",\"lucien\",\"miles\"],\"what_happened\":\"Bell chose to assist Ewan rather than protect Macrae and opened the bank safe containing Macrae's later land papers.\",\"state_changes\":[{\"entity\":\"bell\",\"fact\":\"Bell withdrew his protection from Macrae and surrendered concealed evidence\",\"valence\":3},{\"entity\":\"macrae\",\"fact\":\"Bell ceased protecting Macrae's land documents\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b048\",\"ep\":12,\"seq\":4,\"world_time\":\"1835-04-22\",\"location\":\"Bell's London counting room\",\"present\":[\"ewan\",\"bell\",\"pippa\",\"thomas\",\"tawis\"],\"witnessed_by\":[\"ewan\",\"bell\",\"pippa\",\"thomas\",\"tawis\"],\"hidden_from\":[\"macrae\",\"elspeth\",\"mara\",\"lucien\",\"miles\"],\"what_happened\":\"Bell handed Ewan a sealed sixty-acre Ravenshore grant issued in April 1834, showing that Macrae continued preparing land sales long after the first expedition was abandoned.\",\"state_changes\":[{\"entity\":\"sealed grant\",\"fact\":\"The sixty-acre grant issued in April 1834 entered Ewan's possession as evidence\",\"valence\":5},{\"entity\":\"macrae\",\"fact\":\"Macrae was connected to a Ravenshore land issue prepared after the survivors' complaints\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"The season plan describes April 1834 as thirteen years after abandonment, but the established first expedition reached the coast in December 1822.\"}],\"promise_ledger\":[{\"id\":\"p004\",\"raised_ep\":4,\"listener_is_waiting_for\":\"whether the investor money transferred into Macrae's controlled account can be recovered\",\"must_pay_by_ep\":10,\"paid_ep\":10,\"how_paid\":\"Pippa identified 2,140 pounds as recoverable, and Vey compelled Bell to place that amount into the settler property and survivor settlement.\",\"status\":\"paid\"},{\"id\":\"p005\",\"raised_ep\":5,\"listener_is_waiting_for\":\"whether Thomas, Agnes, and the stranded settlers survive long enough to make London hear what happened\",\"must_pay_by_ep\":10,\"paid_ep\":10,\"how_paid\":\"Thomas returned to the London registry with survivors, testified publicly about Ravenshore, and became principal witness to the survivors' petition alongside Agnes.\",\"status\":\"paid\"},{\"id\":\"p006\",\"raised_ep\":6,\"listener_is_waiting_for\":\"whether naming Ewan Treasurer of Ravenshore will make him legally responsible for the forged bond issue\",\"must_pay_by_ep\":11,\"paid_ep\":11,\"how_paid\":\"A creditor's writ used the forged initials beneath Ewan's treasurer title to name him as co-director of the Ravenshore treasury.\",\"status\":\"paid\"},{\"id\":\"p009\",\"raised_ep\":8,\"listener_is_waiting_for\":\"whether the false collateral entry will cause Elspeth to lose her house\",\"must_pay_by_ep\":14,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p010\",\"raised_ep\":9,\"listener_is_waiting_for\":\"what happens to the settlers aboard the second ship that escaped Ewan's warning\",\"must_pay_by_ep\":14,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p011\",\"raised_ep\":10,\"listener_is_waiting_for\":\"whether Tawis's coastal record can invalidate Macrae's claim to govern and sell the land\",\"must_pay_by_ep\":14,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p012\",\"raised_ep\":11,\"listener_is_waiting_for\":\"whether Ewan can defeat the creditor's claim that his forged initials made him a co-director\",\"must_pay_by_ep\":14,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p013\",\"raised_ep\":12,\"listener_is_waiting_for\":\"how many later Ravenshore grants Macrae issued and whether the April 1834 grant can void the remaining land issue\",\"must_pay_by_ep\":14,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"}],\"calendar\":{\"season_start\":\"1822-09-16\",\"dates_fixed\":[{\"ep\":1,\"when\":\"1822-09-16\",\"what\":\"Bell's London investor salon and Ewan's discovery of the duplicate serial\"},{\"ep\":2,\"when\":\"1822-09-17\",\"what\":\"Bell confines Ewan overnight while the auction shipment is dispatched\"},{\"ep\":3,\"when\":\"1822-09-24\",\"what\":\"The Calderwick recruiting meeting takes final deposits\"},{\"ep\":3,\"when\":\"1822-09-25\",\"what\":\"The seventy settlers' ship is scheduled to sail\"},{\"ep\":4,\"when\":\"1822-10-02\",\"what\":\"The first public Ravenshore bond sale succeeds and the proceeds are transferred before delivery\"},{\"ep\":5,\"when\":\"1822-10-03\",\"what\":\"The first expedition carrying seventy settlers departs\"},{\"ep\":5,\"when\":\"1822-12-09\",\"what\":\"The first ship reaches the advertised site of the Ravenshore capital\"},{\"ep\":5,\"when\":\"1823-01-31\",\"what\":\"Thomas's first letter reaches Bell's London office\"},{\"ep\":6,\"when\":\"1823-02-01\",\"what\":\"Ewan reconciles the expedition and auction accounts before Bell's investors\"},{\"ep\":7,\"when\":\"1823-02-03\",\"what\":\"Agnes confronts Bell's office and Ewan discovers the empty relief fund and the second expedition notice\"},{\"ep\":8,\"when\":\"1823-02-04\",\"what\":\"The expedition complaint is publicly recorded and Ewan is accused of stealing the relief fund\"},{\"ep\":9,\"when\":\"1823-02-04\",\"what\":\"The theft ledger is disproved, Bell admits the treasury is empty, and the second ship's departure is confirmed\"},{\"ep\":9,\"when\":\"1823-02-04 08:10\",\"what\":\"The second settler ship departs France\"},{\"ep\":10,\"when\":\"1823-05-12\",\"what\":\"Thomas returns with survivors, Bell funds the settlement, Agnes recovers the shop deed, and Tawis arrives with the coastal record\"},{\"ep\":11,\"when\":\"1835-04-21\",\"what\":\"Macrae offers Ewan a partnership and Ewan is served with the creditor's writ\"},{\"ep\":12,\"when\":\"1835-04-22\",\"what\":\"Ewan reconstructs the Ravenshore chain and Bell surrenders the April 1834 grant\"},{\"ep\":12,\"when\":\"1834-04\",\"what\":\"The sealed sixty-acre Ravenshore grant was issued\"}],\"periods_fixed\":[{\"between\":[1,2],\"elapsed\":\"one night\"},{\"between\":[2,3],\"elapsed\":\"seven days\"},{\"between\":[3,4],\"elapsed\":\"eight days\"},{\"between\":[4,5],\"elapsed\":\"the expedition departs the next day; its landing occurs sixty-seven days after the bond sale\"},{\"between\":[5,6],\"elapsed\":\"one day between Thomas's letter reaching London and Ewan's public reconciliation\"},{\"between\":[6,7],\"elapsed\":\"two days\"},{\"between\":[7,8],\"elapsed\":\"the second expedition is scheduled to depart the next morning\"},{\"between\":[8,9],\"elapsed\":\"the ink examination and confirmation of the second ship's departure occur later the same day\"},{\"between\":[9,10],\"elapsed\":\"three months and eight days\"},{\"between\":[10,11],\"elapsed\":\"eleven years, eleven months, and nine days\"},{\"between\":[11,12],\"elapsed\":\"one day\"}],\"unresolved\":[\"The episode 12 ends_on calls April 1834 thirteen years after the first settlers were abandoned, but canon fixes the first expedition's arrival on 1822-12-09, making the interval less than twelve years.\"]},\"flags\":[\"The episode 12 assigned ends_on contains a date arithmetic contradiction: an April 1834 grant cannot be thirteen years after the canon first settlers reached Ravenshore in December 1822. The assigned button was retained verbatim in substance, and the contradiction is recorded in calendar.unresolved.\"]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 0.98,
+    "background": false,
+    "max_output_tokens": 32000,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": "medium",
+      "generate_summary": null,
+      "summary": null,
+      "context": "all_turns",
+      "mode": "standard"
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "episode_batch",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "episodes",
+            "beat_sheet",
+            "promise_ledger",
+            "calendar",
+            "flags"
+          ],
+          "properties": {
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "ep",
+                  "title",
+                  "script"
+                ],
+                "properties": {
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "beat_sheet": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "beat_id",
+                  "ep",
+                  "seq",
+                  "world_time",
+                  "location",
+                  "present",
+                  "witnessed_by",
+                  "hidden_from",
+                  "what_happened",
+                  "state_changes",
+                  "source_ref",
+                  "tier",
+                  "note"
+                ],
+                "properties": {
+                  "beat_id": {
+                    "type": "string"
+                  },
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "seq": {
+                    "type": "integer"
+                  },
+                  "world_time": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "present": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "witnessed_by": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "hidden_from": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "what_happened": {
+                    "type": "string"
+                  },
+                  "state_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "entity",
+                        "fact",
+                        "valence"
+                      ],
+                      "properties": {
+                        "entity": {
+                          "type": "string"
+                        },
+                        "fact": {
+                          "type": "string"
+                        },
+                        "valence": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "source_ref": {
+                    "type": "string"
+                  },
+                  "tier": {
+                    "type": "string",
+                    "enum": [
+                      "core_canon"
+                    ]
+                  },
+                  "note": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "promise_ledger": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "raised_ep",
+                  "listener_is_waiting_for",
+                  "must_pay_by_ep",
+                  "paid_ep",
+                  "how_paid",
+                  "status"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "raised_ep": {
+                    "type": "integer"
+                  },
+                  "listener_is_waiting_for": {
+                    "type": "string"
+                  },
+                  "must_pay_by_ep": {
+                    "type": "integer"
+                  },
+                  "paid_ep": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "how_paid": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "open",
+                      "paid",
+                      "paid_late"
+                    ]
+                  }
+                }
+              }
+            },
+            "calendar": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "season_start",
+                "dates_fixed",
+                "periods_fixed",
+                "unresolved"
+              ],
+              "properties": {
+                "season_start": {
+                  "type": "string"
+                },
+                "dates_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "ep",
+                      "when",
+                      "what"
+                    ],
+                    "properties": {
+                      "ep": {
+                        "type": "integer"
+                      },
+                      "when": {
+                        "type": "string"
+                      },
+                      "what": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "periods_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "between",
+                      "elapsed"
+                    ],
+                    "properties": {
+                      "between": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        }
+                      },
+                      "elapsed": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "unresolved": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 14268,
+      "input_tokens_details": {
+        "cached_tokens": 4165,
+        "cache_write_tokens": 10100
+      },
+      "output_tokens": 10551,
+      "output_tokens_details": {
+        "reasoning_tokens": 1591
+      },
+      "total_tokens": 24819
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1785011494,
+    "frequency_penalty": 0.0,
+    "moderation": null,
+    "presence_penalty": 0.0,
+    "prompt_cache_retention": "24h",
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    }
+  }
+}

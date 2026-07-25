@@ -19,6 +19,8 @@ def test_every_registered_command_can_be_parsed():
         argv = [name]
         if name in ("serial", "commission"):
             argv += ["--event", "e"]
+        if name == "publish":
+            argv += ["--story", "s"]
         if name in ("promote", "spinoff"):
             argv += ["--char", "c"]
         parsed = parser.parse_args(argv)

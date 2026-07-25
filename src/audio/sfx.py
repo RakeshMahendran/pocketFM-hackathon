@@ -57,6 +57,18 @@ SECONDS = 3
 TARGET_LUFS = -17.0
 TARGET_TP = -1.0
 
+# alimiter caps SAMPLE peak; loudnorm reports TRUE peak, which is reconstructed
+# between samples and overshoots after mp3 encoding. A ceiling set at the target
+# therefore misses it. Measured on this material:
+#
+#     ceiling    true peak
+#       none        +0.18
+#       -1.0        -0.44
+#       -2.0        -1.49
+#
+# About 0.5 dB of overshoot, so the ceiling sits that much below the target.
+TP_OVERSHOOT_DB = 0.5
+
 # Silence is written as an SFX line in our scripts — "SFX: Nothing. Long." —
 # and generating a sound for it would invert the writer's intent.
 SILENCE = re.compile(r"^\s*(nothing|silence)\b", re.IGNORECASE)
@@ -122,16 +134,23 @@ def _generate(cue: str, client: Any) -> pathlib.Path:
     return path
 
 
-def apply(story: str, ep: int, duck_db: float = DUCK_DB) -> pathlib.Path:
+def apply(story: str, ep: int, duck_db: float = DUCK_DB,
+          stem: str = None) -> pathlib.Path:
     from pydub import AudioSegment
     from elevenlabs.client import ElevenLabs
 
+    stem = stem or f"ep{ep:02d}"
     audio_dir = STORIES / story / "audio"
-    episode = read_json(audio_dir / f"ep{ep:02d}.json")
-    manifest = next(audio_dir.glob("*_manifest.json"))
+    episode = read_json(audio_dir / f"{stem}.json")
+
+    # The manifest and mp3 the pipeline just wrote for THIS cut. A language
+    # variant sits beside the original, so picking "the first mp3" would mix the
+    # Hinglish cues into the English take.
+    episode_id = episode["episode_id"]
+    manifest = audio_dir / f"{episode_id}_manifest.json"
     timings = {l["line_id"]: l for l in read_json(manifest)["lines"]}
 
-    source = next(p for p in audio_dir.glob("*.mp3") if "_sfx" not in p.name)
+    source = audio_dir / f"{episode_id}.mp3"
     track = AudioSegment.from_mp3(source)
 
     client = ElevenLabs(api_key=os.environ["ELEVENLABS_API_KEY"])
@@ -209,10 +228,19 @@ def _master(src: pathlib.Path, dest: pathlib.Path) -> None:
     except ValueError:
         raise RuntimeError("could not measure the mix before mastering")
 
+    # `linear=true` moves the whole mix by one static gain, which is what keeps
+    # the dynamics — but a static gain cannot enforce a ceiling, so `TP` here is
+    # a request rather than a guarantee. It held on a flat mix and failed the
+    # moment the mix had range in it: -0.41 dBTP, over the standard.
+    #
+    # alimiter is the actual ceiling. It only engages on peaks that would breach
+    # it, so the dynamics below survive untouched.
     second = (f"loudnorm=I={TARGET_LUFS}:TP={TARGET_TP}:LRA=7:linear=true"
               f":measured_I={m['input_i']}:measured_LRA={m['input_lra']}"
               f":measured_TP={m['input_tp']}:measured_thresh={m['input_thresh']}"
-              f":offset={m['target_offset']}")
+              f":offset={m['target_offset']}"
+              f",alimiter=limit={10 ** ((TARGET_TP - TP_OVERSHOOT_DB) / 20):.4f}"
+              f":level=disabled")
 
     result = subprocess.run(
         ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(src),

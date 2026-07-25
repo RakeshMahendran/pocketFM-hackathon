@@ -1,76 +1,61 @@
 [
   {
-    "event_id": "evt_briarhaven_1821",
-    "title": "The Country That Had to Exist on Paper",
-    "one_line_summary": "A young Scottish clerk is recruited to make a fictional Central American nation look real, then must expose the machinery that keeps investors, settlers, and officials believing after the first colonists find only jungle.",
+    "event_id": "evt_ravenshore_1821",
+    "title": "Poyais: The Country That Had to Exist on Paper",
+    "one_line_summary": "A disgraced junior clerk becomes the only person who can expose—and publicly dismantle—the paper country that ruined settlers, investors, and his own name.",
     "language": "en",
-    "fantasy": "Respect reclaimed from liars",
+    "fantasy": "Respect reclaimed publicly",
     "protagonist": {
       "char_id": "ewan",
-      "who": "Ewan Pell, a twenty-four-year-old Edinburgh copying clerk hired to prepare Poyaisian certificates, maps, and official correspondence.",
-      "wants": "A respectable government post and enough money to rescue his widowed mother from debt.",
-      "ashamed_of": "He once altered a landlord’s ledger to hide his family’s unpaid rent, and now fears everyone can see him as a fraud.",
-      "does_not_know_at_start": "Poyais is not a functioning country; every document he copies is part of a coordinated invention."
+      "who": "Ewan Kerr, a 24-year-old Edinburgh-born copying clerk recruited into the London office selling Poyais bonds and land grants.",
+      "wants": "To clear his father's debts, earn a respectable position, and become someone whose name is trusted in a counting house.",
+      "ashamed_of": "He falsified a former employer's seal to obtain the Poyais job after being dismissed for incompetence.",
+      "does_not_know_at_start": "The London Poyais office has no treasury, government, resident ambassador, or genuine sovereign backing; every document he handles is part of a self-supporting fiction."
     },
     "antagonist": {
-      "char_id": "gregor",
-      "who": "Gregor Vale, a decorated soldier who presents himself as the Cazique of Poyais and personally directs the London machinery of the deception.",
-      "wants_incompatibly": "He must keep Poyais publicly alive long enough to sell more bonds, land, appointments, and prestige; Ewan eventually needs the country’s fiction exposed before more people die."
+      "char_id": "macrae",
+      "who": "Gregor Macrae, a decorated soldier who presents himself as the Cazique of the invented country of Poyais.",
+      "wants_incompatibly": "To keep investors, settlers, bankers, and officials believing that Poyais exists long enough to sell more bonds, land, and status; Ewan wants the paper country exposed before more people pay for it."
     },
     "sources": [
       "https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29",
       "https://www.britishmuseum.org/collection/object/C_CIB-14659",
       "https://www.britishmuseum.org/collection/object/P_1868-0808-8817",
-      "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais",
-      "https://www.cambridge.org/core/journals/enterprise-and-society/article/what%E2%80%99s-in-a-fraud-the-many-worlds-of-gregor-macgregor-18171824/18C69E0C9D7E0878A96E17E2B0B9E12F/share/49e5171b4f9f4da86bf26cfc2575ae26b2b4d1a"
+      "https://www.trove.scot/image/2924586"
     ],
     "timeline": [
       {
         "id": "t1",
-        "date": "1820",
-        "what_happened": "Gregor MacGregor visited the Mosquito Coast and claimed to have obtained a territorial concession before returning to Britain to promote a new state called Poyais.",
+        "date": "1821",
+        "what_happened": "A proclamation presents MacGregor as Cazique of Poyais and promotes the proposed Central American state to prospective supporters.",
         "confidence": "reported",
-        "source": "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais"
+        "source": "https://www.trove.scot/image/2924586"
       },
       {
         "id": "t2",
-        "date": "1821",
-        "what_happened": "MacGregor appeared in London as the supposed sovereign of Poyais, promoting the territory through diplomatic language, printed descriptions, land sales, and appointed representatives.",
+        "date": "1822",
+        "what_happened": "Thomas Strangeways's promotional guide to the Mosquito Shore and Poyais is published for prospective settlers.",
         "confidence": "reported",
-        "source": "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais"
+        "source": "https://www.loc.gov/item/05009918/"
       },
       {
         "id": "t3",
-        "date": "1822-09-10",
-        "what_happened": "The Honduras Packet sailed from Leith carrying the first group of settlers, including people promised positions in the supposed Poyaisian administration.",
-        "confidence": "reported",
-        "source": "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais"
+        "date": "1823",
+        "what_happened": "A Poyais government bond is issued in London, bearing the fictional state's name and promising financial legitimacy.",
+        "confidence": "verified",
+        "source": "https://www.britishmuseum.org/collection/object/C_CIB-14659"
       },
       {
         "id": "t4",
-        "date": "1822-10",
-        "what_happened": "A London merchant-banking firm contracted a £200,000 loan for the supposed State of Poyais, divided into bearer bonds and marketed through financial intermediaries.",
-        "confidence": "verified",
-        "source": "https://www.cambridge.org/core/journals/enterprise-and-society/article/what%E2%80%99s-in-a-fraud-the-many-worlds-of-gregor-macgregor-18171824/18C69E0C9D7E0878A96E17E2B0B9E12F/share/49e5171b4f9f4da86bf26cfc2575ae26b2b4d1a"
+        "date": "1822-1823",
+        "what_happened": "Settlers travel toward the advertised colony and encounter conditions radically different from the descriptions, with no functioning Poyaisian settlement waiting for them.",
+        "confidence": "reported",
+        "source": "https://www.britishmuseum.org/collection/object/C_CIB-14659"
       },
       {
         "id": "t5",
-        "date": "1823",
-        "what_happened": "The first settlers reached the supposed colony and found an uninhabited, dangerous shore rather than the promised capital; later accounts describe widespread illness and a rescue operation from British Honduras.",
-        "confidence": "reported",
-        "source": "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais"
-      },
-      {
-        "id": "t6",
-        "date": "1824-11-09",
-        "what_happened": "Poyais securities were no longer treated as ordinary exchange-listed investments, and an arbitration concerning their allegedly fraudulent nature ruled them non-cognizable.",
-        "confidence": "verified",
-        "source": "https://www.cambridge.org/core/journals/enterprise-and-society/article/what%E2%80%99s-in-a-fraud-the-many-worlds-of-gregor-macgregor-18171824/18C69E0C9D7E0878A96E17E2B0B9E12F/share/49e5171b4f9f4da86bf26cfc2575ae26b2b4d1a"
-      },
-      {
-        "id": "t7",
-        "date": "1834-04",
-        "what_happened": "A surviving Poyais land grant for sixty acres was issued under MacGregor’s authority, showing that the paper state continued to be reproduced after the settlement disaster.",
+        "date": "April 1834",
+        "what_happened": "A 60-acre Poyais land grant is issued under MacGregor's authority, showing that the paper scheme continued after the failed settlement attempt.",
         "confidence": "verified",
         "source": "https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29"
       }
@@ -78,64 +63,8 @@
     "people": [
       {
         "name": "Gregor MacGregor",
-        "role": "Scottish soldier and promoter of the supposed state of Poyais",
-        "motive": "Money, status, and the preservation of his invented sovereignty",
-        "public_or_private": "public",
-        "living": false
-      },
-      {
-        "name": "Sir John Perring",
-        "role": "London merchant-banker associated with the Poyais loan",
-        "motive": "Commission, commercial opportunity, and confidence in the financial scheme",
-        "public_or_private": "public",
-        "living": false
-      },
-      {
-        "name": "John Lowe",
-        "role": "Broker and contractor involved in marketing the Poyais securities",
-        "motive": "Brokerage commissions and profit from the bond issue",
-        "public_or_private": "public",
-        "living": false
-      },
-      {
-        "name": "Thomas Strangeways",
-        "role": "Author of promotional material for prospective Poyais settlers",
-        "motive": "Payment, professional advancement, and belief in the colonial opportunity",
-        "public_or_private": "public",
-        "living": false
-      },
-      {
-        "name": "Lieutenant-Colonel Hall",
-        "role": "Promised administrator among the first Poyais settlers",
-        "motive": "A prestigious appointment and a new colonial career",
-        "public_or_private": "public",
-        "living": false
-      },
-      {
-        "name": "Edward Lowe",
-        "role": "Survivor who documented the settlers’ suffering",
-        "motive": "Survival and testimony after the colony failed",
-        "public_or_private": "public",
-        "living": false
-      },
-      {
-        "name": "General Edward Codd",
-        "role": "Governor who organized aid from British Honduras",
-        "motive": "Preventing further deaths and containing a colonial embarrassment",
-        "public_or_private": "public",
-        "living": false
-      },
-      {
-        "name": "George Frederic",
-        "role": "Miskitu ruler whose territorial authority was connected to claims surrounding Poyais",
-        "motive": "Maintaining Indigenous political leverage and control over land concessions",
-        "public_or_private": "public",
-        "living": false
-      },
-      {
-        "name": "Robert Wilmot-Horton",
-        "role": "Colonial Office official monitoring the Poyais project",
-        "motive": "British strategic expansion without formally recognizing an embarrassing private colony",
+        "role": "Scottish soldier and adventurer who claimed to rule Poyais as Cazique and whose name appears on Poyaisian instruments.",
+        "motive": "Money, status, and the preservation of his invented sovereignty.",
         "public_or_private": "public",
         "living": false
       }
@@ -143,132 +72,132 @@
     "cast": [
       {
         "char_id": "ewan",
-        "name": "Ewan Pell",
-        "role": "Junior clerk who prepares Poyaisian documents and becomes the first insider to understand the entire mechanism.",
-        "want": "A government career and financial security for his mother.",
+        "name": "Ewan Kerr",
+        "role": "Junior copying clerk who prepares bonds, maps, ledgers, and land grants in the London Poyais office.",
+        "want": "To repay his father's debts and earn a name that respectable people will trust.",
         "gender": "male",
         "age_range": "20s",
-        "maps_to": "composite of junior clerks and promised Poyaisian officials",
+        "maps_to": "the recruited clerk and junior intermediary inside the Poyais mechanism",
         "composite": true
       },
       {
-        "char_id": "gregor",
-        "name": "Gregor Vale",
-        "role": "Decorated soldier, self-styled Cazique, and architect of the paper country.",
-        "want": "To turn a fiction into money, obedience, and permanent public status.",
+        "char_id": "macrae",
+        "name": "Gregor Macrae",
+        "role": "Decorated soldier and self-styled Cazique whose authority must be made visible on paper.",
+        "want": "To turn belief into cash and preserve his public status as a sovereign adventurer.",
         "gender": "male",
         "age_range": "30s",
         "maps_to": "Gregor MacGregor",
         "composite": true
       },
       {
-        "char_id": "cyrus",
-        "name": "Cyrus Perring",
-        "role": "Elegant London banker who gives the Poyais loan the appearance of institutional respectability.",
-        "want": "His commission and a place at the centre of the next Latin American investment boom.",
+        "char_id": "bell",
+        "name": "Osric Bell",
+        "role": "Fashionable London banker who validates the Poyais bonds and introduces them to investors.",
+        "want": "To collect commissions and remain the banker who discovers the next great opportunity.",
         "gender": "male",
-        "age_range": "50s",
-        "maps_to": "Sir John Perring and the merchant-banking circle",
-        "composite": true
-      },
-      {
-        "char_id": "elspeth",
-        "name": "Elspeth Rennie",
-        "role": "Poyais recruiting agent in Scotland who sells land, appointments, and hope to emigrants.",
-        "want": "To become indispensable to the new colony and never return to poverty.",
-        "gender": "female",
-        "age_range": "30s",
-        "maps_to": "composite of recruiting agents and colonial promoters",
+        "age_range": "40s",
+        "maps_to": "the London banker who validates the bonds",
         "composite": true
       },
       {
         "char_id": "mara",
-        "name": "Mara Bell",
-        "role": "Ewan’s widowed mother, whose debt makes his complicity materially urgent.",
-        "want": "To keep the family room and shop from being seized.",
+        "name": "Mara Quill",
+        "role": "Poyaisian recruiting agent who tours Scotland and London selling land, work, and passage.",
+        "want": "To secure her own land claim and avoid admitting that she recruited families into danger.",
         "gender": "female",
-        "age_range": "50s",
-        "maps_to": "invented",
+        "age_range": "30s",
+        "maps_to": "the Poyaisian recruiting agent",
         "composite": true
       },
       {
-        "char_id": "jonas",
-        "name": "Jonas Hallam",
-        "role": "Former military officer promised command of Poyais’s civil administration.",
-        "want": "A title and authority greater than anything available to him at home.",
+        "char_id": "ross",
+        "name": "Finlay Ross",
+        "role": "Edinburgh printer responsible for maps, bank notes, proclamations, and ornate certificates.",
+        "want": "To keep his press paid and prove that craftsmanship can manufacture authority.",
         "gender": "male",
         "age_range": "40s",
-        "maps_to": "Lieutenant-Colonel Hall and other promised officials",
+        "maps_to": "the printer and document-production network",
         "composite": true
       },
       {
-        "char_id": "ada",
-        "name": "Ada Wren",
-        "role": "Printer’s daughter who notices that identical plates are being used for supposedly separate Poyaisian institutions.",
-        "want": "To own a printing business and escape her father’s control.",
+        "char_id": "pippa",
+        "name": "Pippa Shaw",
+        "role": "Bell's ledger clerk who tracks subscriptions, commissions, and duplicate bond numbers.",
+        "want": "To save enough money to open a stationery shop without depending on wealthy men.",
         "gender": "female",
         "age_range": "20s",
         "maps_to": "invented",
         "composite": true
       },
       {
-        "char_id": "silas",
-        "name": "Silas Lowe",
-        "role": "Broker who moves bonds, scrip, and excuses between the bank, agents, and investors.",
-        "want": "To collect his commission before the paper state collapses.",
-        "gender": "male",
-        "age_range": "30s",
-        "maps_to": "John Lowe and financial intermediaries",
-        "composite": true
-      },
-      {
-        "char_id": "ines",
-        "name": "Ines Calder",
-        "role": "Caribbean interpreter and coastal trader who knows the supposed capital is not a functioning settlement.",
-        "want": "To protect local communities from armed or desperate settlers arriving under false claims.",
+        "char_id": "agnes",
+        "name": "Agnes Murray",
+        "role": "Scottish settler who sells her family's shop to buy passage and land in Poyais.",
+        "want": "To give her children a future with land of their own.",
         "gender": "female",
         "age_range": "30s",
-        "maps_to": "composite of regional intermediaries and Indigenous authorities",
+        "maps_to": "the settlers on the first ships",
         "composite": true
       },
       {
         "char_id": "thomas",
-        "name": "Thomas Rusk",
-        "role": "Promotional writer whose guidebook gives Poyais its roads, parliament, mines, and social hierarchy.",
-        "want": "A paid authorship career and immunity from being blamed when the guide is disproved.",
+        "name": "Thomas Hale",
+        "role": "Surveyor and settler who reaches the supposed colony and becomes a witness to the absence of the promised capital.",
+        "want": "To get the stranded settlers to safety and make London hear what happened.",
         "gender": "male",
-        "age_range": "40s",
-        "maps_to": "Thomas Strangeways and promotional writers",
+        "age_range": "30s",
+        "maps_to": "the settlers on the first ships",
         "composite": true
       },
       {
-        "char_id": "edwin",
-        "name": "Edwin Codd",
-        "role": "British colonial administrator who receives the first starving survivors and later intercepts more ships.",
-        "want": "To save lives without making his government officially responsible for Poyais.",
+        "char_id": "vey",
+        "name": "Sir Alistair Vey",
+        "role": "British official who receives complaints and tries to prevent a financial and diplomatic scandal.",
+        "want": "To contain the embarrassment without publicly admitting that officials helped the scheme appear respectable.",
         "gender": "male",
         "age_range": "50s",
-        "maps_to": "General Edward Codd and British Honduras officials",
+        "maps_to": "British government officials",
         "composite": true
       },
       {
-        "char_id": "robert",
-        "name": "Robert Wilmot",
-        "role": "Colonial Office official balancing commercial ambition against diplomatic danger.",
-        "want": "To use Poyais as a British foothold without recognizing it as a state.",
-        "gender": "male",
+        "char_id": "tawis",
+        "name": "Tawis Kema",
+        "role": "Regional coastal authority who knows the claimed Poyais territory and refuses to recognize Macrae's paper government.",
+        "want": "To keep foreign settlers and armed agents from taking control of coastal land.",
+        "gender": "neutral",
         "age_range": "40s",
-        "maps_to": "Robert Wilmot-Horton",
+        "maps_to": "Indigenous and regional authorities near the supposed colony",
         "composite": true
       },
       {
-        "char_id": "george",
-        "name": "George Frederic",
-        "role": "Regional Indigenous ruler whose authority determines whether any land concession can survive.",
-        "want": "To retain control of territory while extracting advantage from foreign powers.",
+        "char_id": "lucien",
+        "name": "Lucien D'Arcy",
+        "role": "French intermediary who sells Poyais certificates to investors across the Channel.",
+        "want": "To turn the British scandal into his own French success before the market closes.",
         "gender": "male",
-        "age_range": "40s",
-        "maps_to": "George Frederic",
+        "age_range": "30s",
+        "maps_to": "the French promotion network",
+        "composite": true
+      },
+      {
+        "char_id": "elspeth",
+        "name": "Elspeth Kerr",
+        "role": "Ewan's widowed mother, who depends on the money he promised to send home.",
+        "want": "To keep the family house and prevent Ewan's father's debt from destroying them.",
+        "gender": "female",
+        "age_range": "50s",
+        "maps_to": "invented",
+        "composite": true
+      },
+      {
+        "char_id": "miles",
+        "name": "Miles Orrock",
+        "role": "Young investor and Bell's nephew who treats Poyais as a fashionable adventure.",
+        "want": "To become rich and important without having to work his way up.",
+        "gender": "male",
+        "age_range": "20s",
+        "maps_to": "invented",
         "composite": true
       }
     ],
@@ -281,146 +210,139 @@
       "total": 49
     },
     "clearance": {
-      "status": "fictionalize_first",
+      "status": "greenlight",
       "reasons": [
-        "The historical mechanism is public-domain history, but every real person, place, institution, and vulnerable group must be fictionalized before scripting.",
-        "The season uses composite characters rather than reproducing the identities of historical participants.",
-        "The fictional country and settlement must not be presented as a real modern place or institution."
+        "The season uses fictional names, a fictional place name, and composite characters.",
+        "The historical subject is in the public record and the named historical figure is deceased.",
+        "The drama focuses on a mechanism of deception rather than reproducing living private individuals."
       ]
     },
     "novelty": {
       "prior_adaptations": [],
       "score": 9
     },
-    "engine": "Every new believer forces Ewan to manufacture one more visible piece of Poyais—money, law, land, appointments, rescue orders, or diplomatic proof—while each new document creates a witness who can later destroy the lie.",
-    "why_this_works": "The protagonist is not the mastermind but the clerk standing beside the machinery. His public humiliation is concrete: he is exposed as the man whose certificates sent families toward a country he cannot prove exists. Each episode alternates between London’s polished performance and the coastal consequences, allowing the season to escalate without repeating the same jungle suffering. The fantasy is respect reclaimed: the dismissed copyist becomes the only person in the room who understands how the country was built and how to dismantle it.",
+    "engine": "Every new bond, settler, official, creditor, and survivor forces Ewan to add one more apparently authentic layer to Poyais while the people closest to the truth are pressured to protect the fiction.",
+    "why_this_works": "The season sells respect reclaimed: Ewan begins as the clerk publicly blamed for a lie he barely understands, then becomes the only person capable of reading the paper trail. Each episode converts a document into a wound—duplicate bond, false map, missing ship, forged seal, empty treasury—while the London machinery continues producing fresh proof that Poyais exists. The emotional payoff is not merely that the country is exposed; it is that the witnesses who laughed at Ewan must rely on him to name the fraud.",
     "fictionalization_map": {
-      "Gregor MacGregor": "Gregor Vale",
-      "Sir John Perring": "Cyrus Perring",
-      "John Lowe": "Silas Lowe",
-      "Thomas Strangeways": "Thomas Rusk",
-      "Lieutenant-Colonel Hall": "Jonas Hallam",
-      "Edward Lowe": "Ewan Pell",
-      "General Edward Codd": "Edwin Codd",
-      "George Frederic": "George Frederic",
-      "Robert Wilmot-Horton": "Robert Wilmot",
-      "Poyais": "Briarhaven",
-      "London": "London",
-      "Leith": "Northhaven",
-      "Mosquito Coast": "Sable Coast",
-      "British Honduras": "Crownwater Colony"
+      "Gregor MacGregor": "Gregor Macrae",
+      "Poyais": "Ravenshore",
+      "London": "London remains the historical city but is dramatized through fictional offices and institutions",
+      "Scotland": "Scotland remains the historical region but all private households and local settings are invented",
+      "Mosquito Coast": "The Blackwater Coast",
+      "British Museum": "The Royal Museum of Coin and Paper",
+      "University of Edinburgh Library": "The Northbridge Archive"
     },
     "season": [
       {
         "ep": 1,
-        "turn": "At a public Poyais presentation in Edinburgh, Ewan is ordered to certify a land grant while settlers, bankers, and journalists watch; when he hesitates, Gregor makes him read the document aloud and brands him an incompetent clerk.",
-        "hook_type": "RECOGNITION",
-        "ends_on": "The sixty-acre grant bears an official seal that Ewan personally engraved that morning, although no government office issued it.",
+        "turn": "At a London investor salon, Ewan is publicly blamed for a misprinted Poyais bond and dismissed as an incompetent provincial clerk while Macrae receives applause for the country's prosperity.",
+        "hook_type": "REVEAL",
+        "ends_on": "The bond Ewan was accused of misprinting carries a serial number already sold to a different investor.",
         "pays_off": null,
-        "status": 2
+        "status": 1
       },
       {
         "ep": 2,
-        "turn": "Ewan discovers that the Poyaisian constitution, bank charter, and military commission all use the same paper stock and ink, so he tries to leave the operation.",
+        "turn": "Ewan discovers that the same duplicate serial appears in Bell's private ledger, but Bell locks him inside the counting room until he recreates the missing bond register.",
         "hook_type": "THREAT",
-        "ends_on": "Gregor shows Ewan his mother’s unpaid debt ledger and says the next forged certificate will decide whether Mara keeps her home.",
+        "ends_on": "A fresh shipment of Poyais bonds has already been sent to the auction house with Ewan's forged initials on every certificate.",
         "pays_off": null,
         "status": 1
       },
       {
         "ep": 3,
-        "turn": "Elspeth brings Ewan to a packed recruiting hall where families exchange savings for Poyais land, and Ewan is forced to demonstrate banknotes he knows cannot be redeemed.",
-        "hook_type": "DISCOVERY",
-        "ends_on": "A farmer hands Ewan a banknote bearing a serial number already used on a note sold in Glasgow.",
+        "turn": "Mara makes Ewan stand beside her at a Scottish recruiting meeting, where he must answer questions about wages, farms, and the capital city he has never seen.",
+        "hook_type": "ARRIVAL",
+        "ends_on": "Seventy settlers have paid deposits and their ship is scheduled to sail before Ewan can warn them.",
         "pays_off": null,
         "status": 1
       },
       {
         "ep": 4,
-        "turn": "Ewan and Ada secretly compare the printing plates and prove that the supposed parliament, bank, and royal seal were produced from one workshop.",
+        "turn": "Macrae forces Ewan to authenticate a constitution, royal seal, and bank charter in front of Bell's investors, making Ewan the visible clerk who gives the imaginary state its official shape.",
         "hook_type": "BETRAYAL",
-        "ends_on": "Ada gives the duplicate plate to Ewan, but the next morning her father’s print shop has been emptied and Ada has vanished.",
-        "pays_off": "Ewan settles the first mystery: the major Poyaisian institutions are physically manufactured in one Edinburgh print room.",
+        "ends_on": "Pippa finds that Bell has moved the investors' money into an account controlled by Macrae before the bonds are even delivered.",
+        "pays_off": "The first public bond sale succeeds, and Macrae's office receives the money it needed to finance the settler expedition.",
         "status": 2
       },
       {
         "ep": 5,
-        "turn": "Cyrus Perring publicly validates a £200,000 Poyais loan, forcing Ewan to prepare the bond certificates while Silas warns that investors are already trading them above issue price.",
-        "hook_type": "DEADLINE",
-        "ends_on": "The first ship carrying settlers sails before Ewan can send proof that the promised capital has no harbour, buildings, or officials.",
+        "turn": "The first ship reaches the advertised coast, while Ewan is ordered to keep selling passage in London as if the capital and government are already functioning.",
+        "hook_type": "DISCOVERY",
+        "ends_on": "Thomas's first letter says the promised city is missing and the settlers have found only jungle, mud, and unfamiliar coastal guides.",
         "pays_off": null,
-        "status": 2
+        "status": 1
       },
       {
         "ep": 6,
-        "turn": "Ewan boards a coastal packet under a false name and reaches the supposed capital site, where Ines shows him the ruins and jungle that the promotional maps conceal.",
-        "hook_type": "ARRIVAL",
-        "ends_on": "Ines finds a Poyais boundary marker dated three years before Gregor claims he first received the territory.",
-        "pays_off": null,
-        "status": 4
+        "turn": "Ewan compares Thomas's cargo list with the London promises and proves that the expedition was sent without food, tools, or medical supplies; Bell publicly admits Ewan is the only clerk who can reconcile the books.",
+        "hook_type": "RECOGNITION",
+        "ends_on": "Macrae places Ewan's name beneath the title 'Treasurer of Ravenshore' on the next issue of bonds.",
+        "pays_off": "Ewan earns his first public acknowledgment from a man who previously called him useless.",
+        "status": 3
       },
       {
         "ep": 7,
-        "turn": "A hurricane strands the settlers, and Ewan chooses to use the official Poyais seal to requisition food from a nearby trading post rather than abandon the families.",
+        "turn": "Agnes confronts the London office with the names of families who have sold their homes, and Ewan is ordered to produce a government relief fund by noon.",
+        "hook_type": "DEADLINE",
+        "ends_on": "The relief ledger contains no money, but a sealed notice says a second ship of settlers is due to depart from France the next morning.",
+        "pays_off": null,
+        "status": 3
+      },
+      {
+        "ep": 8,
+        "turn": "Ewan tries to stop Lucien's French sale and is accused by Macrae of stealing from the Poyais treasury in front of the investors he once served.",
         "hook_type": "ACCUSATION",
-        "ends_on": "The requisition is rejected because the coastal authorities have never recognized Poyais as a country.",
+        "ends_on": "The theft ledger bears Ewan's forged seal and lists his mother's house as collateral for the missing funds.",
+        "pays_off": "The first expedition's names and losses are entered into a public complaint book, giving the stranded settlers an official record instead of silence.",
+        "status": 2
+      },
+      {
+        "ep": 9,
+        "turn": "Pippa and Ewan prove that the theft ledger was planted by matching its ink to Ross's newest certificates, forcing Bell to admit that the Poyais treasury is empty.",
+        "hook_type": "REVERSAL",
+        "ends_on": "A second ship has already sailed from France carrying more settlers, despite Bell's signed promise that no further expedition would leave.",
         "pays_off": null,
         "status": 4
       },
       {
-        "ep": 8,
-        "turn": "Ewan gets a survivor convoy to Crownwater Colony, where Edwin Codd publicly records his testimony and confirms that the settlement has no functioning government.",
-        "hook_type": "RECOGNITION",
-        "ends_on": "Edwin tells the assembled survivors that Ewan’s certificates are the only documents linking their names to land that does not exist.",
-        "pays_off": "The first survivors are rescued, and Ewan is publicly acknowledged as the clerk who can identify the forged Poyais papers.",
-        "status": 5
+        "ep": 10,
+        "turn": "Thomas returns to London with survivors and identifies Ewan as the only office worker who tried to ask what Poyais actually possessed, turning the former scapegoat into the public face of the survivors' petition.",
+        "hook_type": "ARRIVAL",
+        "ends_on": "Tawis arrives with a coastal record showing that no Poyaisian government has ever been recognized on the claimed land.",
+        "pays_off": "The survivors are publicly heard, and Agnes recovers the deeds to her family's shop through a settlement funded by Bell.",
+        "status": 6
       },
       {
-        "ep": 9,
-        "turn": "Back in London, Gregor counters the survivors’ testimony by unveiling a second Poyais bond issue and appointing Ewan’s missing colleague Ada as proof that the administration still functions.",
-        "hook_type": "REVERSAL",
-        "ends_on": "Ada appears on the balcony wearing the Green Cross and tells the crowd that Ewan is the traitor who abandoned Poyais.",
+        "ep": 11,
+        "turn": "Macrae offers Ewan a partnership, a share of the next land issue, and a new name in exchange for declaring Thomas's account an act of sabotage.",
+        "hook_type": "ULTIMATUM",
+        "ends_on": "A creditor serves Ewan with a writ naming him as co-director of the Poyais treasury because his forged initials appear on every recent bond.",
         "pays_off": null,
         "status": 6
       },
       {
-        "ep": 10,
-        "turn": "Ewan learns Ada is being held through her father’s debts and breaks into the Poyais office to recover the master ledger connecting every bond, land grant, and recruiting payment.",
-        "hook_type": "THREAT",
-        "ends_on": "The ledger contains a payment to Ewan dated two weeks before he was supposedly hired.",
-        "pays_off": null,
-        "status": 7
-      },
-      {
-        "ep": 11,
-        "turn": "Ewan confronts Silas before the exchange crowd and forces him to admit that the bonds were sold before the promised loan certificates existed.",
-        "hook_type": "ULTIMATUM",
-        "ends_on": "Silas produces a second ledger showing that Cyrus received commission money from both the bank and Gregor’s private account.",
-        "pays_off": "Silas’s public admission breaks the banker’s claim that the bond issue was independently validated.",
-        "status": 7
-      },
-      {
         "ep": 12,
-        "turn": "Robert Wilmot offers Ewan protection if he supplies the evidence quietly, but Ewan refuses when he learns the Colonial Office plans to intercept future settlers without warning investors.",
+        "turn": "Ewan brings Bell, Pippa, Thomas, and Tawis into the same room and reconstructs the chain from land grant to bond to ship, forcing Bell to choose between protecting Macrae and saving his own bank.",
         "hook_type": "BETRAYAL",
-        "ends_on": "The government dispatch ordering the interception names Ewan as the official source, making him liable for every death and every lost investment.",
+        "ends_on": "Bell hands Ewan a sealed 60-acre grant issued in April 1834, proving that Macrae's paper country is still being sold thirteen years after the first settlers were abandoned.",
         "pays_off": null,
-        "status": 8
+        "status": 7
       },
       {
         "ep": 13,
-        "turn": "At a public creditors’ hearing, Ewan uses the original printing plate, the master ledger, and Ines’s boundary evidence to show that Poyais was assembled in London rather than governed overseas.",
-        "hook_type": "ACCUSATION",
-        "ends_on": "The final land certificate submitted as proof of Poyaisian sovereignty is dated April 1834 and carries Gregor’s seal, but its witness signature belongs to a man who died in 1823.",
-        "pays_off": null,
+        "turn": "At a crowded public hearing, Bell admits that the bonds were accepted because the paper, seals, bank, uniforms, and proclamations were made to imitate a government, not because anyone had verified the territory.",
+        "hook_type": "RECOGNITION",
+        "ends_on": "Macrae's own final certificate identifies Ewan as the witness who can invalidate the entire Ravenshore issue.",
+        "pays_off": "Bell publicly names Ewan as the person who uncovered the false treasury and agrees to cancel the remaining bonds held by local investors.",
         "status": 8
       },
       {
         "ep": 14,
-        "turn": "Ewan reads the complete ledger before the settlers, creditors, printers, and officials who watched him fail in episode one; Cyrus and Gregor are publicly stripped of authority, Ada is freed, and the surviving families receive a formal register of their actual losses and claims.",
-        "hook_type": "RECOGNITION",
-        "ends_on": "On the final page of the 1834 register, Poyais is entered as a fictional state and Ewan Pell is appointed keeper of the surviving settlers’ evidence.",
-        "pays_off": "The paper country is formally exposed, the public reversal is witnessed by the original community, Ada’s coercion is settled, the bond mechanism is broken, and Ewan’s shame is converted into recognized authority.",
+        "turn": "Ewan presents the 1834 grant, the duplicate bond register, Thomas's survivor testimony, and Tawis's territorial record before the same class of witnesses who laughed at him in episode one.",
+        "hook_type": "REVERSAL",
+        "ends_on": "The public registry records every Ravenshore bond and land grant as void, and Ewan's name is entered as the official witness to their cancellation.",
+        "pays_off": "The paper country is broken, the remaining certificates are cancelled, Bell's investors receive the recovered funds, Agnes's family keeps its shop, the survivors' testimony is preserved, and Ewan is publicly cleared of theft and named keeper of the fraud archive.",
         "status": 9
       }
     ],
@@ -436,7 +358,7 @@
     },
     "commissioned": {
       "by": "unattributed",
-      "at": "2026-07-25T19:47:11+00:00",
+      "at": "2026-07-25T20:19:58+00:00",
       "over_scout_pick": false
     }
   }

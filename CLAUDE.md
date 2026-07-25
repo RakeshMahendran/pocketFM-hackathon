@@ -78,7 +78,8 @@ The validator is **one stage, run as a panel** — three checks in parallel plus
 ## Tech stack
 
 - **Python 3.11+**, FastAPI for the API layer
-- **SQLite** — one file at `data/canon.db`. No Postgres, no vector DB. A season is 40–60 beats; filtering is retrieval at this scale.
+- **Lakebase Postgres** — the Databricks-managed instance `canonforge`. No vector DB. A season is 40–60 beats, so the character views filter in Python over `all_beats()`; the `jsonb` GIN indexes exist for when that stops being true, not because it is slow now. Supersedes SQLite at `data/canon.db` — see DELIVERY_PLAN decision 11. Databricks Apps have an ephemeral filesystem, so a database file on app disk would not survive a restart.
+  - Auth is an OAuth token, not a password: `src/canon/db.py` mints one per hour and SSL is mandatory. Locally it reads your `databricks auth login` profile; on Apps the `PG*` vars are injected by the attached resource.
 - **OpenAI SDK** for generation. The hackathon is OpenAI-sponsored; this is a requirement, not a preference.
   - Routing lives in env vars, never hardcoded: `OPENAI_MODEL_WRITER` (`gpt-5.6-sol`) for serial/promotion/spinoff, `OPENAI_MODEL_SCORER` (`gpt-5.6-luna`) for bulk corpus scoring, `OPENAI_MODEL_VALIDATOR` (`gpt-5.6-sol`).
   - **Every LLM call uses structured outputs** — `response_format` with a strict JSON schema, parsed into a Pydantic model. No hand-parsing model text anywhere in this codebase.
@@ -97,7 +98,9 @@ so the two cannot drift.
 python tasks.py setup            # venv + deps
 python tasks.py corpus           # run discovery once, write data/corpus.json  (SLOW, run once)
 python tasks.py score            # score corpus -> data/dossiers.json
-python tasks.py serial --event id    # generate mainline episodes + beats into canon.db
+python tasks.py seed             # create the Lakebase schema, load the beat sheet
+python tasks.py buildweb         # next build -> web/out, staged to static/ for deploy
+python tasks.py serial --event id    # generate mainline episodes + beats into the canon store
 python tasks.py promote --char id    # promotion call for one character
 python tasks.py spinoff --char id    # generate spinoff episodes
 python tasks.py validate         # run the validator panel, print violations

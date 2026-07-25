@@ -197,15 +197,36 @@ export default async function CandidateBrief(
 
         <aside className="space-y-8">
           <div>
-            <h2 className="label mb-3">{HEADING.commission}</h2>
-            <CommissionAction
-              id={c.id}
-              title={c.title}
-              blocked={blocked}
-              reasons={c.clearance?.reasons ?? []}
-              editor={editor}
-              estimate={c.episode_estimate}
-            />
+            <h2 className="label mb-3">
+              {c.madeAs ? "This one is made" : HEADING.commission}
+            </h2>
+            {/*
+              Offering to make something that already exists is how a catalogue
+              ends up with the same show twice.
+            */}
+            {c.madeAs ? (
+              <div className="border border-clear/40 bg-clear/5 rounded-sm p-4">
+                <p className="text-sm text-muted prose-col leading-relaxed">
+                  A season has been written from this story. It is on the slate
+                  with the rest of the shows.
+                </p>
+                <Link
+                  href={`/serials/${encodeURIComponent(c.madeAs)}`}
+                  className="mt-4 inline-block border border-clear/50 text-clear px-4 py-2 text-sm rounded-sm hover:bg-clear/10 transition-colors"
+                >
+                  Read the season →
+                </Link>
+              </div>
+            ) : (
+              <CommissionAction
+                id={c.id}
+                title={c.title}
+                blocked={blocked}
+                reasons={c.clearance?.reasons ?? []}
+                editor={editor}
+                estimate={c.episode_estimate}
+              />
+            )}
           </div>
 
           {c.scores && (
