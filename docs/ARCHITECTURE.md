@@ -11,7 +11,7 @@ and a character's context becomes a database query rather than a reconstruction.
 
 | Stage | LLM? | In | Out |
 |---|---|---|---|
-| Discovery | no | source APIs | `data/corpus.json` |
+| Discovery | **yes** | eight story categories | `data/corpus.json` |
 | Scoring | yes | corpus item | dossier |
 | Serial writer | yes | dossier | episodes + beat sheet |
 | Canon store | no | beats | `canon.db` |

@@ -24,11 +24,12 @@ since it was written.
 
 | 10 | **Generation runs on Claude, not OpenAI.** Decided 2026-07-25 by P3, and it reverses decision 1 for the whole team. | No OpenAI key was available and the build could not wait. **P1 and P2 must know**: `.env.example`'s `OPENAI_MODEL_*` routing, the `client.responses.create` calls in `src/discovery/` and `src/scoring/`, and B1's harness in `src/generation/` all assume OpenAI. If the hackathon is scored on sponsor-platform use, this is a visible cost — raise it before the deck is written. |
 
-### Consequences of decision 9 — **P1 action needed**
+### Consequences of decision 9 — **docs now updated**
 
-- **Tier is gone.** `CLAUDE.md`'s vocabulary table defines `documented` / `anecdotal` / `historical` as fetcher-derived provenance. With search sourcing there is no fetcher to derive it from, and a domain allowlist graded good outlets as untrusted. Corpus items carry a plain `domain` instead, and clearance — which is what tier fed — now comes straight from the scout. `CLAUDE.md` is P1's file, so this is a request, not an edit.
-- **`CLAUDE.md` says only three stages call an LLM**, and `ARCHITECTURE.md`'s stage table marks Discovery `LLM? no`. Both are now wrong. Same request.
-- **`praw` and `requests` are dead weight** in `requirements.txt` once the fetchers go unused. `rapidfuzz` is still live — `dedupe()` survives. Left alone pending P1.
+- ~~**Tier is gone.**~~ Done. `CLAUDE.md`'s vocabulary table now defines **Domain** and **Grounded** in its place, and records why tier retired: it was derived from *which fetcher* returned an item, and there is no fetcher any more. Clearance no longer follows from provenance — the scout states it directly.
+- ~~**Three LLM stages.**~~ Done. `CLAUDE.md` says four and explains why discovery joined them; `ARCHITECTURE.md`'s stage table marks Discovery `LLM? yes`.
+- **`praw` is unused**; `requests` cannot be dropped while `fetchers.py` imports it at top level, and that module is kept for `dedupe()`. Noted in `CLAUDE.md`; `requirements.txt` left alone rather than risk breaking an import for two lines.
+- **P2:** the Responses API takes structured output as `text.format`, not `response_format`, and `client.responses.create()` is not `client.chat.completions.parse()`. One wrapper will not cover both call shapes.
 - **P2:** the Responses API takes structured output as `text.format`, not `response_format`, and `client.responses.create()` is not `client.chat.completions.parse()`. One wrapper will not cover both call shapes.
 - **`beat.schema.json:29` under-specifies `source_ref`.** It says "dossier timeline id, or the literal 'fictionalized'", but `ipl_beats.json` actually uses `<event_id>#<timeline_id>` — `evt_molipur_2022#t1`. Four independent generation runs produced four different wrong formats and none matched the fixture; I read the schema literally and got it wrong too. Please put the `#` form in the description. `episode.md` now states it explicitly, and the validator's traceability check (`PROMPTS.md:174`) should accept only these two shapes.
 

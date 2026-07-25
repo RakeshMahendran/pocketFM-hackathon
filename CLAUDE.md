@@ -29,7 +29,8 @@ Use these words exactly. They are the codebase's nouns.
 | Term | Meaning |
 |---|---|
 | **Dossier** | Research agent output for one real event. Timeline, people, sources, adaptability scores, clearance verdict, engine. |
-| **Tier** | Provenance of a source item: `documented` (court/news), `anecdotal` (forums — inspiration only, never a real event), `historical` (Wikipedia, principals long dead). Drives clearance. |
+| **Domain** | Where a corpus item came from — the bare host of its first grounded source. Replaced the old `documented` / `anecdotal` / `historical` **tier**, which was derived from *which fetcher* returned an item and has no meaning now that discovery is one search. Clearance no longer follows from provenance; the scout states it directly, with reasons. |
+| **Grounded** | A candidate whose cited URLs the model actually opened during the search. Ungrounded candidates are discarded before they reach the corpus — a fabricated citation is worse than a missing candidate, because everything downstream treats a corpus item as sourced. |
 | **Clearance** | Legal verdict on adapting an event: `greenlight`, `fictionalize_first`, `blocked`. Never skip this. |
 | **Engine** | The standing condition in a story that generates conflict every episode without new invention. Every serial must have one, stated explicitly. |
 | **Beat** | An atomic unit of canon. Objective fact + who was present + who witnessed + **who is excluded**. Beats are truth; prose is a rendering of beats. |
@@ -54,7 +55,9 @@ discovery → scoring → dossier → serial writer → CANON STORE
                                             write back (branch_canon)
 ```
 
-Only three stages call an LLM: **scoring**, **serial writer / promotion / spinoff writer**, and **validator**. Everything else is queries and string assembly. If you find yourself adding a fourth LLM stage, stop and ask whether a SQL filter does it.
+Four stages call an LLM: **discovery**, **scoring**, **serial writer / promotion / spinoff writer**, and **validator**. Everything else is queries and string assembly. Before adding a fifth, stop and ask whether a SQL filter does it.
+
+Discovery became an LLM stage deliberately — see DELIVERY_PLAN decision 9. The four source APIs could only match vocabulary given to them in advance, and the material worth adapting is the strange local case nobody has already named. A scout searching for *mechanism* finds what a keyword list cannot. The cost is that discovery now hallucinates in a way fetchers could not, which is why `ground_candidates()` discards any candidate citing a page the model never opened.
 
 The validator is **one stage, run as a panel** — three checks in parallel plus three adversarial refuters, each prompted to find a violation rather than confirm cleanliness. That is parallelism inside an existing stage, not a fourth stage. A checker that only ever shows green reads as decorative; see `docs/BUILD_PLAN.md` Phase 3.
 
@@ -80,7 +83,7 @@ The validator is **one stage, run as a panel** — three checks in parallel plus
   - Routing lives in env vars, never hardcoded: `OPENAI_MODEL_WRITER` (`gpt-5.6-sol`) for serial/promotion/spinoff, `OPENAI_MODEL_SCORER` (`gpt-5.6-luna`) for bulk corpus scoring, `OPENAI_MODEL_VALIDATOR` (`gpt-5.6-sol`).
   - **Every LLM call uses structured outputs** — `response_format` with a strict JSON schema, parsed into a Pydantic model. No hand-parsing model text anywhere in this codebase.
 - **Next.js** for `web/`, talking to the FastAPI layer over HTTP.
-- `requests`, `rapidfuzz` for discovery
+- `rapidfuzz` for discovery — `dedupe()` survives the move to search, since one hunt across eight categories surfaces the same event more than once. `src/discovery/fetchers.py` is now kept for `dedupe()` alone; `praw` is unused, and `requests` stays only because that module imports it at top level.
 
 ---
 
