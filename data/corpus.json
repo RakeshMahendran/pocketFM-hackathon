@@ -1,0 +1,917 @@
+{
+  "built_at": "2026-07-25T17:18:59.324548+00:00",
+  "winner": "Poyais: The Country That Had to Exist on Paper",
+  "count": 13,
+  "by_clearance": {
+    "greenlight": 7,
+    "fictionalize_first": 4,
+    "blocked": 2
+  },
+  "items": [
+    {
+      "title": "Poyais: The Country That Had to Exist on Paper",
+      "category": "THE LONG DECEPTION",
+      "one_line": "A decorated soldier invents an entire nation, sells its bonds and land, recruits settlers, and must keep the country alive in London after the first ships discover nothing but jungle.",
+      "year": "1821–1834",
+      "where": "London, Scotland, France, and the Caribbean coast of Central America",
+      "mechanism": "Gregor MacGregor claimed to be the Cazique of Poyais, manufactured government bonds, land grants, maps, promotional literature, constitutional details, and a colonial administration for a fictional country.",
+      "engine": "Every new investor, official, emigrant, and creditor forces MacGregor to add another layer to the imaginary state before the previous lie collapses.",
+      "episode_estimate": 300,
+      "cast": [
+        {
+          "name_or_role": "Gregor MacGregor",
+          "motive": "Money, status, and the need to make his invented sovereignty look real",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The London banker who validates the bonds",
+          "motive": "Commission and access to a fashionable investment opportunity",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The Poyaisian recruiting agent",
+          "motive": "Belief, self-interest, or fear of admitting complicity",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The settlers on the first ships",
+          "motive": "A promised new life and land ownership",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "British government officials",
+          "motive": "Avoiding diplomatic embarrassment and financial scandal",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Indigenous and regional authorities near the supposed colony",
+          "motive": "Control of territory and resistance to an invented foreign government",
+          "spinoff_potential": "high"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 10,
+        "hook_density": 9,
+        "emotional_immediacy": 9,
+        "conflict": 9,
+        "cast_depth": 10,
+        "total": 47
+      },
+      "clearance": {
+        "status": "greenlight",
+        "reasons": [
+          "MacGregor died in 1845, more than 50 years ago.",
+          "The story concerns historical public figures and institutions.",
+          "The fictional country can be dramatized without exposing living private individuals."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29",
+        "https://www.britishmuseum.org/collection/object/C_CIB-14659",
+        "https://www.britishmuseum.org/collection/object/P_1868-0808-8817"
+      ],
+      "why_this_sells": "The instantly recognisable fear is discovering that the country, job, property, and future you paid for exists only because strangers keep pretending it does.",
+      "why_not": "Its strongest settlement material can become grim and repetitive unless the serial keeps returning to the parallel London machinery sustaining the lie.",
+      "domain": "archives.collections.ed.ac.uk",
+      "winner": true,
+      "id": "a3c321dba0a7",
+      "url": "https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29",
+      "source": "websearch",
+      "text": "A decorated soldier invents an entire nation, sells its bonds and land, recruits settlers, and must keep the country alive in London after the first ships discover nothing but jungle. Gregor MacGregor claimed to be the Cazique of Poyais, manufactured government bonds, land grants, maps, promotional literature, constitutional details, and a colonial administration for a fictional country."
+    },
+    {
+      "title": "George Psalmanazar and the Country He Invented Inside Himself",
+      "category": "SECRET STATUS",
+      "one_line": "A penniless European drifter becomes England’s celebrated native informant from Formosa, inventing a language, religion, calendar, and childhood until scholars begin asking questions he cannot answer.",
+      "year": "1702–1764",
+      "where": "England, France, and the learned societies of early eighteenth-century Europe",
+      "mechanism": "A man with an unknown real name presents himself as a displaced Formosan, then publishes a full cultural system and performs it publicly for years.",
+      "engine": "Every lecture, patron, translation request, and theological challenge requires him to expand the invented identity while concealing the absence of any verifiable past.",
+      "episode_estimate": 250,
+      "cast": [
+        {
+          "name_or_role": "George Psalmanazar",
+          "motive": "Food, shelter, celebrity, and eventually the emotional need to remain inside his own invention",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The military-religious patron who sponsors him",
+          "motive": "Conversion, prestige, and proof of missionary success",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "English scholars",
+          "motive": "Access to supposedly firsthand knowledge of an unfamiliar world",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The publisher",
+          "motive": "A sensational book and commercial profit",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Oxford language enthusiasts",
+          "motive": "The chance to possess a language no one else can teach",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 10,
+        "hook_density": 10,
+        "emotional_immediacy": 9,
+        "conflict": 8,
+        "cast_depth": 9,
+        "total": 46
+      },
+      "clearance": {
+        "status": "greenlight",
+        "reasons": [
+          "Psalmanazar died in 1763, more than 50 years ago.",
+          "The principal characters are historical figures.",
+          "The story is not dependent on living victims or private individuals."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.camphorpress.com/books/historical-geographical-description-formosa/",
+        "https://wrap.warwick.ac.uk/id/eprint/53116/2/WRAP_THESIS_Hug_2006.pdf",
+        "https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/376/WINTERBOTTOMCompanyCulture2010.pdf?isAllowed=y&sequence=1"
+      ],
+      "why_this_sells": "Listeners understand the panic of having to invent more personal history every time someone asks one ordinary question about your past.",
+      "why_not": "The deception is intellectually rich but lacks a single physical antagonist, so the adaptation must turn rival scholars and patrons into active hunters.",
+      "domain": "camphorpress.com",
+      "winner": false,
+      "id": "8a71a093eb82",
+      "url": "https://www.camphorpress.com/books/historical-geographical-description-formosa/",
+      "source": "websearch",
+      "text": "A penniless European drifter becomes England’s celebrated native informant from Formosa, inventing a language, religion, calendar, and childhood until scholars begin asking questions he cannot answer. A man with an unknown real name presents himself as a displaced Formosan, then publishes a full cultural system and performs it publicly for years.",
+      "corroboration": []
+    },
+    {
+      "title": "Operation Greylord: The Courtroom Where Everyone Was Pretending",
+      "category": "THE LONG DECEPTION",
+      "one_line": "Honest judges and lawyers secretly pose as corrupt fixers inside a corrupt court system, while real judges, lawyers, clerks, police, and bagmen try to determine who is safe to trust.",
+      "year": "1977–1984",
+      "where": "Cook County, Chicago, Illinois",
+      "mechanism": "Undercover officials staged cases, wore recording devices, offered bribes, and acted like crooked courtroom insiders to expose a network of actual corruption.",
+      "engine": "Each fake deal opens another courtroom door, but every undercover participant must preserve the illusion long enough to identify the next corrupt official without being exposed.",
+      "episode_estimate": 220,
+      "cast": [
+        {
+          "name_or_role": "Judge Brocton Lockwood",
+          "motive": "Expose corruption without destroying the court system he serves",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Undercover prosecutor",
+          "motive": "Build admissible evidence while living as a corrupt operator",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The bagman",
+          "motive": "Money, leverage, and survival inside the bribery network",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Corrupt judges",
+          "motive": "Cash, influence, and protection from prosecution",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Court clerks and police officers",
+          "motive": "Career survival and deciding whether to cooperate",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The investigator’s spouse and family",
+          "motive": "Understanding why the investigator is absent, secretive, and at risk",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 9,
+        "hook_density": 9,
+        "emotional_immediacy": 8,
+        "conflict": 10,
+        "cast_depth": 10,
+        "total": 46
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The operation involved many real people, some of whom may have living relatives and surviving associates.",
+          "Change names and composite several officials, informants, and undercover officers.",
+          "Keep the institutional mechanism while avoiding unsupported allegations about individuals not convicted."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.fbi.gov/history/cases-and-criminals/operation-greylord",
+        "https://www.isba.org/sections/bench/newsletter/2018/06/whengreenbacksweretheruleoflaw",
+        "https://oig.justice.gov/sites/default/files/legacy/special/0509/final.pdf"
+      ],
+      "why_this_sells": "The immediate fear is that the judge, lawyer, clerk, and investigator all sound trustworthy because any one of them may be acting.",
+      "why_not": "It is institution-heavy and needs a carefully chosen central undercover protagonist to prevent the serial from becoming a procedural anthology.",
+      "domain": "fbi.gov",
+      "winner": false,
+      "id": "7f6f6257f609",
+      "url": "https://www.fbi.gov/history/cases-and-criminals/operation-greylord",
+      "source": "websearch",
+      "text": "Honest judges and lawyers secretly pose as corrupt fixers inside a corrupt court system, while real judges, lawyers, clerks, police, and bagmen try to determine who is safe to trust. Undercover officials staged cases, wore recording devices, offered bribes, and acted like crooked courtroom insiders to expose a network of actual corruption.",
+      "corroboration": []
+    },
+    {
+      "title": "Cassie Chadwick, Heiress to a Fortune That Did Not Exist",
+      "category": "SECRET STATUS",
+      "one_line": "A woman walks into a banker’s world as Andrew Carnegie’s secret daughter, drops one forged note, and watches an entire city compete to lend her money before the inheritance arrives.",
+      "year": "1897–1907",
+      "where": "Cleveland, Ohio, New York City, and banking circles across the United States",
+      "mechanism": "Elizabeth Bigley used aliases, social performance, forged promissory notes, a staged visit to Carnegie’s house, and a carefully leaked claim of illegitimacy to obtain enormous unsecured loans.",
+      "engine": "Her status only survives if each banker believes the next banker has already verified it, creating a chain of mutually reinforced secrecy and debt.",
+      "episode_estimate": 180,
+      "cast": [
+        {
+          "name_or_role": "Cassie Chadwick / Elizabeth Bigley",
+          "motive": "Money, social power, and control over men who underestimate her",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The lawyer who accompanies her to Carnegie’s home",
+          "motive": "Professional advancement and the thrill of privileged access",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The banker who lends her his personal fortune",
+          "motive": "Greed, vanity, and fear of losing access to the supposed heiress",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Andrew Carnegie’s household staff",
+          "motive": "Protecting the family and understanding the stranger at the door",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Her husband and household",
+          "motive": "Respectability, comfort, and uncertainty about the source of the money",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The creditor who finally sues",
+          "motive": "Recovering money and proving that the city was deceived",
+          "spinoff_potential": "high"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 9,
+        "hook_density": 9,
+        "emotional_immediacy": 10,
+        "conflict": 9,
+        "cast_depth": 9,
+        "total": 46
+      },
+      "clearance": {
+        "status": "greenlight",
+        "reasons": [
+          "Chadwick died in 1907, more than 50 years ago.",
+          "The major lenders and public figures are historical.",
+          "A fictionalized adaptation can preserve the mechanism without naming living private descendants."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.smithsonianmag.com/history/the-high-priestess-of-fraudulent-finance-45/",
+        "https://omeka.library.kent.edu/special-collections/items/show/8599",
+        "https://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/87595-true-crime-2021-catch-her-if-you-can.html"
+      ],
+      "why_this_sells": "The hook is a fantasy every listener recognises: being dismissed by the powerful until one secret connection makes them beg to give you money.",
+      "why_not": "The core con eventually narrows into a financial collapse, so later episodes need strong domestic and legal subplots.",
+      "domain": "smithsonianmag.com",
+      "winner": false,
+      "id": "f355b288cf0c",
+      "url": "https://www.smithsonianmag.com/history/the-high-priestess-of-fraudulent-finance-45/",
+      "source": "websearch",
+      "text": "A woman walks into a banker’s world as Andrew Carnegie’s secret daughter, drops one forged note, and watches an entire city compete to lend her money before the inheritance arrives. Elizabeth Bigley used aliases, social performance, forged promissory notes, a staged visit to Carnegie’s house, and a carefully leaked claim of illegitimacy to obtain enormous unsecured loans.",
+      "corroboration": []
+    },
+    {
+      "title": "Piltdown Man: The Fossil That Rewrote Human History",
+      "category": "THE LONG DECEPTION",
+      "one_line": "An amateur antiquarian plants altered bones in an English gravel pit, and a prestigious museum builds an entire human origin story around them before a small team begins testing what everyone wants to believe.",
+      "year": "1912–1953",
+      "where": "Piltdown, Sussex, London, and Oxford, England",
+      "mechanism": "Human and orangutan remains were chemically stained, filed, planted, and presented as a missing evolutionary link, with institutional authority converting the fake into accepted science.",
+      "engine": "Every lecture, museum display, academic paper, and career built on the fossil raises the cost of admitting that the discovery may have been manufactured.",
+      "episode_estimate": 160,
+      "cast": [
+        {
+          "name_or_role": "Charles Dawson",
+          "motive": "Recognition, scientific status, and the desire to become indispensable",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Arthur Smith Woodward",
+          "motive": "A career-defining discovery and institutional prestige",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Arthur Keith",
+          "motive": "A theory of human evolution that the fossil appears to confirm",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Kenneth Oakley",
+          "motive": "Testing the evidence despite the reputational consequences",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Joseph Weiner and Wilfrid Le Gros Clark",
+          "motive": "Scientific truth and the need to expose a celebrated error",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Museum administrators and journalists",
+          "motive": "Protecting public confidence in British science",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 9,
+        "emotional_immediacy": 8,
+        "conflict": 9,
+        "cast_depth": 10,
+        "total": 44
+      },
+      "clearance": {
+        "status": "greenlight",
+        "reasons": [
+          "The principal figures died decades ago.",
+          "The event concerns a public scientific controversy and museum records.",
+          "No living private individual needs to be exposed."
+        ]
+      },
+      "prior_adaptations": [
+        "PBS NOVA produced a documentary episode about the hoax in 2005; it is documentary coverage, not a serialized drama of the specific event."
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/our-science/services/library/collections/piltdown-man.html",
+        "https://www.nhm.ac.uk/discover/news/2016/august/piltdown-man-charles-dawson-likely-fraudster.html",
+        "https://www.pbs.org/wgbh/nova/hoax/"
+      ],
+      "why_this_sells": "The recognisable fear is that the experts protecting your reality may be protecting their careers instead.",
+      "why_not": "The investigative payoff arrives decades later, so the adaptation must make each new fossil, paper, and institutional defense feel like a fresh escalation.",
+      "domain": "nhm.ac.uk",
+      "winner": false,
+      "id": "22711f7ffbfd",
+      "url": "https://www.nhm.ac.uk/our-science/services/library/collections/piltdown-man.html",
+      "source": "websearch",
+      "text": "An amateur antiquarian plants altered bones in an English gravel pit, and a prestigious museum builds an entire human origin story around them before a small team begins testing what everyone wants to believe. Human and orangutan remains were chemically stained, filed, planted, and presented as a missing evolutionary link, with institutional authority converting the fake into accepted science.",
+      "corroboration": []
+    },
+    {
+      "title": "Nina Beckwith: The Heiress Who Returned from the Dead",
+      "category": "DENIED IDENTITY",
+      "one_line": "A young woman disappears for two decades, her family has her estate administered as though she died, and she returns to discover that the law has already distributed the life she never surrendered.",
+      "year": "1900–1924",
+      "where": "Adrian, Michigan, and the surrounding American Midwest",
+      "mechanism": "After Nina Wright vanished, relatives treated the statutory presumption of death as a completed inheritance process, distributing her estate before she reappeared and sued.",
+      "engine": "The heroine must prove she is alive while every document, heir, administrator, and family memory has been arranged around the opposite conclusion.",
+      "episode_estimate": 90,
+      "cast": [
+        {
+          "name_or_role": "Nina Wright Beckwith",
+          "motive": "Recovering her identity, property, and place in a family that replaced her",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The probate administrator",
+          "motive": "Defending the completed estate and avoiding personal liability",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The relatives who received the money",
+          "motive": "Keeping property acquired under a legal presumption",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Nina’s estranged family",
+          "motive": "Deciding whether the returned woman is truly Nina or a threat to their inheritance",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The judge",
+          "motive": "Reconciling statutory procedure with the fact that the supposed dead woman is alive",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 9,
+        "hook_density": 8,
+        "emotional_immediacy": 10,
+        "conflict": 9,
+        "cast_depth": 8,
+        "total": 44
+      },
+      "clearance": {
+        "status": "greenlight",
+        "reasons": [
+          "The case is from 1924 and concerns historical litigants.",
+          "The ruling is a public legal record.",
+          "No living private individual is necessary for adaptation."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://books.google.com/books/about/Beckwith_v_Bates_228_MICH_400_1924.html?id=N2OFKwiDEbcC"
+      ],
+      "why_this_sells": "The first-minute fear is returning home and finding that everyone who knew you has legally benefited from believing you were dead.",
+      "why_not": "The documented court record is compact, so a long version would need fictionalized domestic episodes around the disappearance and family aftermath.",
+      "domain": "books.google.com",
+      "winner": false,
+      "id": "240cec307327",
+      "url": "https://books.google.com/books/about/Beckwith_v_Bates_228_MICH_400_1924.html?id=N2OFKwiDEbcC",
+      "source": "websearch",
+      "text": "A young woman disappears for two decades, her family has her estate administered as though she died, and she returns to discover that the law has already distributed the life she never surrendered. After Nina Wright vanished, relatives treated the statutory presumption of death as a completed inheritance process, distributing her estate before she reappeared and sued.",
+      "corroboration": []
+    },
+    {
+      "title": "Broderick’s Forged Will",
+      "category": "FAMILY BETRAYAL",
+      "one_line": "After a powerful man dies, an executor manufactures a will, recruits witnesses, and persuades a probate court to bless a document that turns the dead man’s fortune into a private machine.",
+      "year": "1863–1874",
+      "where": "San Francisco and the United States Supreme Court",
+      "mechanism": "A forged will was supported with false witness testimony and handwriting claims, then admitted to probate while interested relatives received no meaningful notice.",
+      "engine": "Every procedural step makes the false will harder to challenge: witnesses must stay aligned, executors must spend the estate, and beneficiaries must prove fraud after the court has spoken.",
+      "episode_estimate": 75,
+      "cast": [
+        {
+          "name_or_role": "The executor",
+          "motive": "Control of the estate and personal enrichment",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The forged-will witnesses",
+          "motive": "Money, pressure, or loyalty to the executor",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The excluded relatives",
+          "motive": "Recovering inheritance and exposing the probate fraud",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The probate judge",
+          "motive": "Defending the court’s process and reputation",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Handwriting experts",
+          "motive": "Professional authority and the danger of being wrong",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 8,
+        "emotional_immediacy": 8,
+        "conflict": 9,
+        "cast_depth": 8,
+        "total": 41
+      },
+      "clearance": {
+        "status": "greenlight",
+        "reasons": [
+          "The Supreme Court litigation dates to the nineteenth century.",
+          "All principal actors are historical figures.",
+          "The case is a public legal record."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://caselaw.findlaw.com/court/us-supreme-court/88/503.html"
+      ],
+      "why_this_sells": "The listener instantly understands the betrayal of opening a dead relative’s will and finding that someone else has rewritten your bloodline.",
+      "why_not": "The surviving record gives a powerful legal skeleton but fewer intimate scenes than the strongest candidates.",
+      "domain": "caselaw.findlaw.com",
+      "winner": false,
+      "id": "620038461f63",
+      "url": "https://caselaw.findlaw.com/court/us-supreme-court/88/503.html",
+      "source": "websearch",
+      "text": "After a powerful man dies, an executor manufactures a will, recruits witnesses, and persuades a probate court to bless a document that turns the dead man’s fortune into a private machine. A forged will was supported with false witness testimony and handwriting claims, then admitted to probate while interested relatives received no meaningful notice.",
+      "corroboration": []
+    },
+    {
+      "title": "The Rosenheim Poltergeist: The Office That Accused Everyone",
+      "category": "SUPERNATURAL INTRUSION",
+      "one_line": "Phones ring by themselves, lights swing, bills vanish, and electrical instruments misbehave inside a law office until engineers, parapsychologists, skeptics, and staff members begin investigating one another.",
+      "year": "1967–1970",
+      "where": "Rosenheim, Bavaria, West Germany",
+      "mechanism": "A workplace experienced alleged unexplained disturbances, while competing investigators argued over psychic activity, fraud, mismeasurement, and deliberate tricks involving the office’s fixtures.",
+      "engine": "The office remains a sealed arena where each new disturbance produces a new suspect, a new investigator, and a new theory that can be true only if someone else is lying.",
+      "episode_estimate": 120,
+      "cast": [
+        {
+          "name_or_role": "The law-firm proprietor",
+          "motive": "Protecting his office, reputation, and authority over the investigation",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The young employee at the center of the claims",
+          "motive": "Escape from blame, attention, boredom, or an alleged psychic pressure",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Hans Bender",
+          "motive": "Proving parapsychology through a famous case",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Electrical engineers",
+          "motive": "Finding a physical explanation and protecting technical credibility",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The skeptical magician and journalists",
+          "motive": "Exposing fraud and humiliating investigators who overclaim",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The office staff",
+          "motive": "Keeping their jobs while deciding whether the phenomenon is real",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 9,
+        "emotional_immediacy": 9,
+        "conflict": 8,
+        "cast_depth": 9,
+        "total": 43
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "Several real witnesses and investigators may have living relatives or surviving associates.",
+          "Change names and use composite office employees and investigators.",
+          "Present supernatural claims as disputed allegations rather than established fact."
+        ]
+      },
+      "prior_adaptations": [
+        "The event has appeared in paranormal books and articles, but no specific feature drama or serialized adaptation of the Rosenheim office case was located in the reviewed sources."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rosenheim_poltergeist_claim",
+        "https://www.cia.gov/readingroom/docs/NSA-RDP96X00790R000100030008-7.pdf"
+      ],
+      "why_this_sells": "The fear is not a haunted castle but a normal workplace where every ringing phone can prove that a colleague is lying.",
+      "why_not": "The case is evidentially disputed, so the serial needs a deliberate believer-versus-skeptic structure rather than pretending the haunting is settled fact.",
+      "domain": "en.wikipedia.org",
+      "winner": false,
+      "id": "75aa8120a8b8",
+      "url": "https://en.wikipedia.org/wiki/Rosenheim_poltergeist_claim",
+      "source": "websearch",
+      "text": "Phones ring by themselves, lights swing, bills vanish, and electrical instruments misbehave inside a law office until engineers, parapsychologists, skeptics, and staff members begin investigating one another. A workplace experienced alleged unexplained disturbances, while competing investigators argued over psychic activity, fraud, mismeasurement, and deliberate tricks involving the office’s fixtures.",
+      "corroboration": []
+    },
+    {
+      "title": "The Baron de Richemont: The Prisoner Who Claimed the French Crown",
+      "category": "DENIED IDENTITY",
+      "one_line": "A man emerges from imprisonment claiming to be the royal child who supposedly died in a revolutionary prison, then must outlast rival claimants, hostile governments, skeptical witnesses, and his own shifting identity.",
+      "year": "1818–1859",
+      "where": "Milan, Paris, and provincial France",
+      "mechanism": "Henri Hébert, or possibly another alias, claimed to be Louis XVII, used royal symbols and supporters, survived prosecution, escaped imprisonment, and continued the claim after official rejection.",
+      "engine": "Every rival claimant, sympathetic aristocrat, hostile official, and public test forces the claimant to produce more proof while making retreat impossible.",
+      "episode_estimate": 140,
+      "cast": [
+        {
+          "name_or_role": "The Baron de Richemont",
+          "motive": "Power, money, conviction, or the need to make his assumed identity real",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Karl Wilhelm Naundorff, rival claimant",
+          "motive": "Winning the same throne and discrediting the rival",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Royalist supporters",
+          "motive": "Restoring a lost dynasty through a living symbol",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Republican and royal authorities",
+          "motive": "Preventing a claimant from destabilizing public order",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The nun and clerical supporters",
+          "motive": "Religious conviction and loyalty to the alleged survivor",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 9,
+        "hook_density": 9,
+        "emotional_immediacy": 8,
+        "conflict": 8,
+        "cast_depth": 10,
+        "total": 44
+      },
+      "clearance": {
+        "status": "greenlight",
+        "reasons": [
+          "Richemont died in 1853.",
+          "The dispute concerns historical royal claimants and public institutions.",
+          "The story can be adapted without exposing living private people."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Baron_de_Richemont",
+        "https://www.history.com/articles/louis-xvii-death-marie-antoinette-french-revolution",
+        "https://www.treccani.it/enciclopedia/henri-ethelbert-louis-hector-hebert-detto-barone-di-richemont/"
+      ],
+      "why_this_sells": "The instant hook is a stranger saying, “I am the dead prince,” and finding adults who desperately need him to be telling the truth.",
+      "why_not": "The royal politics can overwhelm the personal identity drama unless the adaptation stays close to the claimant’s daily tests and rivalries.",
+      "domain": "en.wikipedia.org",
+      "winner": false,
+      "id": "ac0dcdcfa6dd",
+      "url": "https://en.wikipedia.org/wiki/Baron_de_Richemont",
+      "source": "websearch",
+      "text": "A man emerges from imprisonment claiming to be the royal child who supposedly died in a revolutionary prison, then must outlast rival claimants, hostile governments, skeptical witnesses, and his own shifting identity. Henri Hébert, or possibly another alias, claimed to be Louis XVII, used royal symbols and supporters, survived prosecution, escaped imprisonment, and continued the claim after official rejection.",
+      "corroboration": []
+    },
+    {
+      "title": "François Picaud: The Shoemaker Who Came Back with a Fortune",
+      "category": "REVENGE",
+      "one_line": "A bridegroom is secretly denounced by jealous friends, vanishes into prison for seven years, returns under another name with a hidden fortune, and begins dismantling the lives of everyone who betrayed him.",
+      "year": "1807–1828",
+      "where": "Paris, southern France, and Napoleonic-era prisons",
+      "mechanism": "A false accusation destroys Picaud’s wedding and liberty; after imprisonment and a chance inheritance, he returns disguised as Joseph Lucher and investigates the conspiracy before targeting its participants.",
+      "engine": "Every revenge act reveals another conspirator, another disguise, and another moral cost as the avenger must choose between exposing the original lie and becoming a new criminal power.",
+      "episode_estimate": 110,
+      "cast": [
+        {
+          "name_or_role": "François Picaud / Joseph Lucher",
+          "motive": "Punishing the friends who stole his freedom, marriage, and identity",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The jealous café owner",
+          "motive": "Resentment and desire for Picaud’s fiancée",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The false witness",
+          "motive": "Profit, fear, and trying to survive the avenger’s investigation",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The former fiancée",
+          "motive": "Security, guilt, and discovering what happened to the man she lost",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The priest who reveals the hidden fortune",
+          "motive": "Repayment, confession, and control over a secret inheritance",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 9,
+        "emotional_immediacy": 10,
+        "conflict": 9,
+        "cast_depth": 8,
+        "total": 44
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The surviving account is partly mediated through later police memoir material and has disputed historicity.",
+          "Change names, locations, and identifying details while presenting it as a dramatized historical case.",
+          "Do not market it as a fully authenticated biography."
+        ]
+      },
+      "prior_adaptations": [
+        "Alexandre Dumas used the account as one source for The Count of Monte Cristo; the novel and its many adaptations are not direct dramatizations of the specific Picaud case."
+      ],
+      "sources": [
+        "https://www.retronews.fr/faits-divers/echo-de-presse/2018/12/20/francois-picaud-le-vrai-comte-de-monte-cristo"
+      ],
+      "why_this_sells": "The first emotional beat is universal: your friends destroy your life as a joke, then the man they buried returns rich enough to reach every one of them.",
+      "why_not": "Its best-known version may be literary reconstruction rather than secure history, making clearance and marketing language unusually important.",
+      "domain": "retronews.fr",
+      "winner": false,
+      "id": "86c7b852f678",
+      "url": "https://www.retronews.fr/faits-divers/echo-de-presse/2018/12/20/francois-picaud-le-vrai-comte-de-monte-cristo",
+      "source": "websearch",
+      "text": "A bridegroom is secretly denounced by jealous friends, vanishes into prison for seven years, returns under another name with a hidden fortune, and begins dismantling the lives of everyone who betrayed him. A false accusation destroys Picaud’s wedding and liberty; after imprisonment and a chance inheritance, he returns disguised as Joseph Lucher and investigates the conspiracy before targeting its participants.",
+      "corroboration": []
+    },
+    {
+      "title": "Ashimola v Samuel: The Probate Case Without a Deceased Person",
+      "category": "FAMILY BETRAYAL",
+      "one_line": "A family presents a death certificate, marriage record, and power of attorney to control an estate—until the supposedly dead woman appears in court alive and the entire inheritance story begins to unravel.",
+      "year": "2025",
+      "where": "England and Wales",
+      "mechanism": "The court found that the alleged deceased claimant was alive and that key death, marriage, and authority documents were fraudulent or likely fraudulent.",
+      "engine": "The living claimant must dismantle a paper family built around her death while every document creates a new question about who benefited, who signed, and who knew.",
+      "episode_estimate": 85,
+      "cast": [
+        {
+          "name_or_role": "The living claimant",
+          "motive": "Reclaiming identity, property, and control over her own legal existence",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The alleged spouse or beneficiary",
+          "motive": "Obtaining property and maintaining the false death narrative",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Relatives and estate beneficiaries",
+          "motive": "Protecting distributions already received",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Solicitors and document handlers",
+          "motive": "Separating professional negligence from deliberate fraud",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The judge",
+          "motive": "Untangling an unusually chaotic probate proceeding",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 9,
+        "emotional_immediacy": 9,
+        "conflict": 10,
+        "cast_depth": 8,
+        "total": 44
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The case is recent and involves living private individuals.",
+          "Names, locations, family relationships, and point of view must change.",
+          "The adaptation should be based on the public judgment, not additional allegations about the parties."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.nelsonslaw.co.uk/the-probate-case-without-a-deceased-person/"
+      ],
+      "why_this_sells": "The listener immediately understands the terror of discovering that official paperwork has declared you dead and given your family’s future to someone else.",
+      "why_not": "The real case is too recent and legally sensitive for a close adaptation, so the commercial version must become a clearly fictionalized inheritance thriller.",
+      "domain": "nelsonslaw.co.uk",
+      "winner": false,
+      "id": "d8073844a351",
+      "url": "https://www.nelsonslaw.co.uk/the-probate-case-without-a-deceased-person/",
+      "source": "websearch",
+      "text": "A family presents a death certificate, marriage record, and power of attorney to control an estate—until the supposedly dead woman appears in court alive and the entire inheritance story begins to unravel. The court found that the alleged deceased claimant was alive and that key death, marriage, and authority documents were fraudulent or likely fraudulent.",
+      "corroboration": []
+    },
+    {
+      "title": "The Tichborne Claimant",
+      "category": "DENIED IDENTITY",
+      "one_line": "A massive man from Australia claims to be the missing heir to an English estate, wins one grieving mother, divides an entire family, and turns his identity into the longest courtroom war of his age.",
+      "year": "1866–1898",
+      "where": "Australia and England",
+      "mechanism": "Arthur Orton presented himself as the lost Sir Roger Tichborne, secured Lady Tichborne’s support, attracted witnesses and money, lost the civil claim, then faced a perjury prosecution and continued campaigning after conviction.",
+      "engine": "Every supporter’s testimony creates a counter-test, every contradiction produces a new explanation, and the claimant’s public movement survives even after the courtroom rejects him.",
+      "episode_estimate": 180,
+      "cast": [
+        {
+          "name_or_role": "The Claimant / Arthur Orton",
+          "motive": "Inheritance, status, public belief, or genuine self-invention",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Lady Tichborne",
+          "motive": "Recovering the son she believes survived",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The Tichborne family",
+          "motive": "Protecting the estate and stopping an impostor",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Edward Kenealy",
+          "motive": "Fame, radical politics, and defending the claimant at any cost",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The former servants and witnesses",
+          "motive": "Memory, money, loyalty, and fear of public humiliation",
+          "spinoff_potential": "high"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 10,
+        "hook_density": 10,
+        "emotional_immediacy": 10,
+        "conflict": 10,
+        "cast_depth": 10,
+        "total": 50
+      },
+      "clearance": {
+        "status": "blocked",
+        "reasons": [
+          "The specific event was already dramatized in the 1998 British film The Tichborne Claimant.",
+          "The adaptation ban applies to this exact historical case, not merely to the general impostor theme."
+        ]
+      },
+      "prior_adaptations": [
+        "The Tichborne Claimant, 1998 British drama film, based on the Tichborne case."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tichborne_case",
+        "https://www.theguardian.com/film/movie/77593/tichborne.claimant"
+      ],
+      "why_this_sells": "The listener feels the primitive shock of a stranger standing before a mother and saying he is the child everyone else buried.",
+      "why_not": "It is arguably the strongest raw serial engine here, but the exact event has already been made into a dramatic film and must be blocked.",
+      "domain": "en.wikipedia.org",
+      "winner": false,
+      "id": "6c00d403ad08",
+      "url": "https://en.wikipedia.org/wiki/Tichborne_case",
+      "source": "websearch",
+      "text": "A massive man from Australia claims to be the missing heir to an English estate, wins one grieving mother, divides an entire family, and turns his identity into the longest courtroom war of his age. Arthur Orton presented himself as the lost Sir Roger Tichborne, secured Lady Tichborne’s support, attracted witnesses and money, lost the civil claim, then faced a perjury prosecution and continued campaigning after conviction.",
+      "corroboration": []
+    },
+    {
+      "title": "John Darwin: The Man Who Was Alive in the Next Room",
+      "category": "THE DOUBLE LIFE",
+      "one_line": "A man fakes his death in a canoe accident, hides near his wife for years, and forces an entire household to perform grief while the insurance money and a new life in Panama remain just out of reach.",
+      "year": "2002–2008",
+      "where": "Hartlepool, Panama, and England",
+      "mechanism": "John Darwin staged a disappearance, lived secretly nearby, coordinated with his wife, claimed amnesia when he returned, and used the false death to pursue insurance and property plans.",
+      "engine": "The marriage, neighbors, adult children, insurers, passports, and property transactions all require the couple to keep performing the same death without contradicting one another.",
+      "episode_estimate": 100,
+      "cast": [
+        {
+          "name_or_role": "John Darwin",
+          "motive": "Escaping debt and obtaining a second life",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Anne Darwin",
+          "motive": "Financial survival, coercion, and controlling the secret",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The adult sons",
+          "motive": "Grieving, suspicion, and deciding whether to expose their parents",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Insurers and investigators",
+          "motive": "Proving that the death was staged",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Panamanian property intermediaries",
+          "motive": "Business, immigration, and distancing themselves from a suspicious couple",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 10,
+        "emotional_immediacy": 9,
+        "conflict": 9,
+        "cast_depth": 8,
+        "total": 44
+      },
+      "clearance": {
+        "status": "blocked",
+        "reasons": [
+          "The exact case was dramatized by ITV as The Thief, His Wife and the Canoe in 2022.",
+          "A close retelling would duplicate an existing television drama about the same named event."
+        ]
+      },
+      "prior_adaptations": [
+        "The Thief, His Wife and the Canoe, ITV drama series, 2022."
+      ],
+      "sources": [
+        "https://www.itv.com/presscentre/presscentre/presscentre/media-releases/itv-commissions-extraordinary-story-thief-his-wife-and-canoe",
+        "https://www.itv.com/news/tyne-tees/2022-04-15/he-is-back-itv-drama-re-tells-the-story-of-the-back-from-the-dead-canoeist"
+      ],
+      "why_this_sells": "The instant fear is sharing a home with a supposedly dead spouse while every family conversation is an improvised performance.",
+      "why_not": "The mechanism is excellent but the exact real event has already received a close television dramatization.",
+      "domain": "itv.com",
+      "winner": false,
+      "id": "26e6a274df6f",
+      "url": "https://www.itv.com/presscentre/presscentre/presscentre/media-releases/itv-commissions-extraordinary-story-thief-his-wife-and-canoe",
+      "source": "websearch",
+      "text": "A man fakes his death in a canoe accident, hides near his wife for years, and forces an entire household to perform grief while the insurance money and a new life in Panama remain just out of reach. John Darwin staged a disappearance, lived secretly nearby, coordinated with his wife, claimed amnesia when he returned, and used the false death to pursue insurance and property plans.",
+      "corroboration": []
+    }
+  ]
+}

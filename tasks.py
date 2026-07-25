@@ -11,6 +11,7 @@ drift apart.
 """
 
 import os
+import re
 import sys
 import argparse
 import platform
@@ -66,8 +67,16 @@ def run_module(module: str, args: Optional[List[str]] = None) -> int:
             [venv_python(), "-c", f"import {module}"],
             cwd=str(ROOT), capture_output=True, text=True,
         )
-        if "ModuleNotFoundError" in probe.stderr:
+        match = re.search(r"No module named '([^']+)'", probe.stderr)
+        missing = match.group(1) if match else None
+        # An unbuilt stage and an uninstalled dependency both raise
+        # ModuleNotFoundError, and telling someone to go ask another track when
+        # they actually need `pip install` sends them a long way wrong.
+        if missing and (missing == module or module.startswith(missing + ".")):
             log(f"{module} does not exist yet — owned by {owner_of(module)}", "warn")
+        elif missing:
+            log(f"{module} needs '{missing}', which is not installed. "
+                f"Run `python tasks.py setup`", "error")
     return result.returncode
 
 

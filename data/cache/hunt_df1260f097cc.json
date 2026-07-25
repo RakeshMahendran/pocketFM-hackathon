@@ -1,0 +1,1556 @@
+{
+  "stage": "hunt",
+  "saved_at": "2026-07-25T17:18:59.317453+00:00",
+  "response": {
+    "id": "resp_0093b05ae5b6d0f3006a64ef7cc4708194aaf62ac4a8f7fa88",
+    "created_at": 1784999804.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-luna",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_0093b05ae5b6d0f3006a64ef7da04c81948a259f0055afd359",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZPACtaH7p9TRWpx38sq1uSDAYb67953onU_0gxArAVUpLB2JFONup6uIYKiZQhtN3hDIa5aB6cpWnD8Ps4CoioyogxVJ0zyeKmgMoQ-cxFzADg5e5ZLPNBEiK_EcUar4qX0QlYIRSPR9Gxcev11-0bGDz44h06s-1bLtqDVaEJIrrcWJhwjlwFAgFXgFEeuhEjkAIPvSotke32uL-o3RipIxB1mYO1HgBbn0LOGGMdWMtSwvyGciRLV6kd3T8xpusj2weGRJp4P9CJFEnzahu0XAgiTQyph0R2ycGr5QHM0xO1T-q-yuLW4dd_u1DgQNQSRGkiBTqxYH7MIpv_EpzqSV9AJ1lEJDMGAyZSabkf8iJJ2xGjKdM-eBBjE_ytTVlQDp8QNGSvwHkHQ_lhRba0ZKeNC5uO34nqv-eBQtVZGMPXqFIG2xVlp3vYfOozYHmMvZU35xGmOf4-TGDzThVHfk2ILn8CGhgwjvjmAso1m4Z4wBKYgHEe9VNXD3d2TmjytBdISaxiZlOVZ2qmEIwuu0vg_XFEnqYM3p5HlIP2bQcPEbGijp9YaK_C-2BJoZyYMdHSj6DImkuBXZgwihcLHhR2EzBE2XxxhBXC_PTicChs5Sb_lFZsuyiZLDLYaM4KF0ccWXa0R4vLRG7BpFB8uYvNu8NAA5ZEtubhfviCRVBaLcL8xRdI2easK5FttAdOhB59kLrozH1Kc0Rpv7tNPK793ELdMU-xNJUQEhaMJIUzFZqO3ZgSe6JtXQw4garTegcCu4SxA1RoZOOcQepEEypsJ-pTgaAspclG2t_PoV0LD9lK8k-0CueE7Hv7u7Usht-Ou21C0fTaQxZcPU-dTDpF9w3rZDdy5sYCZNw9YosI_sDfDKplZ6Gy2sMvQ-aiN1_Q9x7zhbD54zbWsEnCqCreuKtrTyJP1_XPIOdl-5UkfthZzpq4lDJvdV3R-6vF9-slkFqj17uqk29wg3OAGF4EeMqDNz4nv57CdxZdVfXSosBhjKAK6vUb5KDoXfwgYq1g08LosBACAhORDLvVbLAXq3RIj86VlgF6I5ItzdUEkS7gPrjZogTUkBWrCZptgQOcPdlXZ30ssAXG3KAxNlheo_kq8vYhhSEIy4DtXDXCl4K4k2yaXBivDCncElQg1eU0BIh6qcVbNdm6zxmBVt2jepn7k5GPxDA_mWbUDReGilPnQPUx0-dGBsfPziL2To_vfKEsv4YVfMpFfFCaO7gHsI-tSYIicn7JPgChVBjGaE0nOVqZ7lgZ9NOKbf31t2SdUiZ2nWAJs001oXZigQDVNzQf7kXL9-8nJvpJHf5nmdpEVJn6bx5-G6msfv6BvTSBiR__sr6aArz_Jn9FBi6syY5HbBBIwDhhceOkZNnVf1o0s4D0XqoKWt7oX9yVM8ep231-CAqNSqJ4hBBtlFyfEkswXUu3DG-Pt9DAwHAwzrO9daNNJEVJ3YgQRlHMU3bpMnY8OsmyaZyVoM-v2BcjnLbvaHnJJZjLHDvSTHY6szzDumTZdksfORgujyN6HdH2XUXTwWiBDoZRT0EGq7YkxvJXfk-ZThZd0lRJPTLuCnq2MmwS92WSYhhLHQQgUisw9g6cWJcQI3CGwO88dyW0RTnIjy_8G3vOcLWkRoAezqlf5T28W2X7PQhMggLW7OC-2beB9CxpkOqrnH4K1XzbvjyJG_I1MRInytfcJ9cGI=",
+        "status": null
+      },
+      {
+        "id": "ws_0093b05ae5b6d0f3006a64ef7ebb9481949b5ee4e9f9c85c8f",
+        "action": {
+          "type": "search",
+          "queries": [
+            "historical court case impostor returned from dead identity claimed inheritance adult",
+            "historical secret identity lived under false name for years adult case court",
+            "historical elaborate fake institution scam staged events adult court case",
+            "historical inheritance fraud impersonation family estate court case"
+          ],
+          "query": "historical court case impostor returned from dead identity claimed inheritance adult",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.justice.gov/usao-co/pr/man-who-lived-under-false-identity-thirty-four-years-sentenced-thirty-months-federal-1"
+            },
+            {
+              "type": "url",
+              "url": "https://www.govinfo.gov/content/pkg/USCOURTS-pamd-3_25-cv-00573/pdf/USCOURTS-pamd-3_25-cv-00573-0.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.supremecourt.gov/DocketPDF/23/23-6812/301226/20240223161758016_20240223-160706-95761905-00002640.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://appealmate.com/court-cases/2d22e202-c1bd-41d3-846a-16ec2edd10d8"
+            },
+            {
+              "type": "url",
+              "url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/operation-greylord-and-its-aftermath"
+            },
+            {
+              "type": "url",
+              "url": "https://supreme.justia.com/cases/federal/us/85/493/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.courts.wa.gov/opinions/pdf/862685.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Alexei_Tammet-Romanov"
+            },
+            {
+              "type": "url",
+              "url": "https://openjurist.org/72/f1d/382"
+            },
+            {
+              "type": "url",
+              "url": "https://www.justice.gov/eoir/vll/intdec/vol12/1701.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.studicata.com/summaries/supreme-court-of-michigan/beckwith-v-bates-1924-30xlz0/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Lori_Erica_Ruff"
+            },
+            {
+              "type": "url",
+              "url": "https://www.govinfo.gov/content/pkg/USCOURTS-txnd-3_21-cv-00860/pdf/USCOURTS-txnd-3_21-cv-00860-0.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://caselaw.findlaw.com/court/us-supreme-court/88/503.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.latimes.com/archives/la-xpm-1987-10-02-me-7651-story.html"
+            },
+            {
+              "type": "url",
+              "url": "https://app.midpage.ai/case/nelson-v-offield-ca1-2-9955653"
+            },
+            {
+              "type": "url",
+              "url": "https://www.history.com/articles/6-infamous-impostors"
+            },
+            {
+              "type": "url",
+              "url": "https://caselaw.findlaw.com/court/ct-superior-court/1703590.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nelsonslaw.co.uk/the-probate-case-without-a-deceased-person/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nycourts.gov/reporter/pdfs/2017/2017_32858.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Charles_Stopford"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Tichborne_case"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Arthur_Orton"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Baron_de_Richemont"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/legaladvice/comments/ktcn0c"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/inheritance/comments/1r438z4/sons_family_stole_his_inheritance_or/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/bestoflegaladvice/comments/1u2itlm/when_fraud_and_adverse_possession_collide/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/inheritance/comments/1u2fjb3/father_expects_blind_trust_in_property_settlement/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/legaladvice/comments/1dqrk9i"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/inheritance/comments/1lc2lwa"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2606.16052"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/FoundandExpose/comments/1puqoll/aita_for_pressing_charges_after_my_stepfather/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/EstatePlanning/comments/1seb15j/weird_circumstances_not_sure_how_to_proceed/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/legaladvice/comments/cawogs"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/EntitledPeople/comments/1i0skxz"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/inheritance/comments/1rsa4n9/stolen_inheritance/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/legaladvice/comments/tvg6bo"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2405.11789"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1811.00731"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1311.6842"
+            },
+            {
+              "type": "url",
+              "url": "https://apnews.com/article/06313eb1f9148895d7e10a22a6d5967a"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0093b05ae5b6d0f3006a64ef85420c8194b2bd620312bb5794",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZPACKfhh6RhaePRVIYRlTPaNc4QCrLHBtQztyHumiVU_157IxP9C8oZ0GuksZaxK2sLZrWHUvsu5BnZB3ltcX5PbDrujGCW3vNC_ujEflN5dEefThNV7EUsjmWiXOyMn6Psxharz4umtU4PPq4cDSKkajXkBZDV-UHB90owSLl4eat-qRcwkyow3vk0gOSzzZ0nagzZFGMfY49y40bUHkkjy629hgf-KINNnIqwuVoFETEZmWe-AeJcCgU-UPdbpNuc9BCO6q7R5AE3xvEaP4s0Qy2hxNifbu7H4xQ6E3bck4SeCCVL1Ix2qeHsJR1YdZ42Qdo6gPYAMWaw7RedTC9i3J7TLwftxk28Iy5zzTk3uCTAXCenBW6NTJgHQN11CPfzrJh_CPb3gUY1_SolaW5jkr_t04gz4_G3K5GbOPRKQKiLdPXL71kdz6wlCelvGTt3xkybzqtxkF5Lvc-frOCH3zGRhWD8I4EySh7UdWt91HwNkQx2Oq7FANR4_K_y5L188LHzdeuVI8Ubc6Tth-iBUZXQYgIjmlOFPqlpXHLEfuumA_SY9SMG-Db9Y_eSo8qp7EkZME0bC51yny_3Zh87vMqTfNR99AHdre50dgj9z-NHDTm9mM8elSlx2NjNnEbh2CSs_aIrxicVZONO1W2F0OBeNWhkj6jJeuFy5UQdLISdgtPDrCGaaGzjxUydButFT6Bf2JFXt-qeXRJyI73gvJzRA4W6dfq0d5MyApKS0k36qwAizobj_FHKBZ6NBM3gEqMwCI2gMKb0rBmtbMaOO6xF2ibO62tRzQd-UMfdhCzfywUWNjlWtdc6UILR1szgVZvPXs87ikiNtn7goBRrYW9V4iovHZX05ePfflOVNN21ccPxtFbu1fFHddUBPYYgsWePdHEa5EvMlpeLaoBIjaVqhGxBzsm0l-pw-xXk3jzMa6FgDRyOo4Co8j4SfVVltM-feW6UdnlA5icLJmipzaHq55aY-14E9cmNOsJe4EYemyt7c8Wbqq8lXCYIUSD6S5E5MMOhoXtawDLdXmdQXDJXu0_3CBdBUX9Jjks6c4j0KhmxotPZV9MKC9va3MqcWjn7xyEZQUyqpw4771qzkJVTzsdpOvA9Aoq6AENs4_JYQCkLX8y1ZOstX3DGPlztlBh_XE09ufjDU3Sq2v5DSq9ji_rFcftm0ufhQxOcJ433Z0ealpxFs-kC4ze9_4CRYHXkrU1qmgWcRqhCSK51FgPepRawz-8SjsPDMz6iBLLaKO8x1ZNmoqdZLHfKWig502k41013jpbSicZITJFOzhGZYvzBOmcE0pq2Dcqek4hyRZsvOT6uGUArOUtng5V9fvYLNOQt2-kXfCBRmKxD1goxRUj2B4reH3lTKKeMh6eh9BltVmtuaSbvFJstqD8ZXPAR7qBpo59TEFbTjmUdEUutweSjivZXYsbqdP98zNEfyY-tBniyv1JxB3bxsqG5mzRNirSKdmHPXaM2vP50RmF6Ft1mhlu11Hi7mjtLqZcK5uDtmgA1WcxGuE6x90DVQVU3LlIr8w8LBcvh_p0tBU4cafkcCpTj2g_iix_c_YUVwDcB_6_tVKNX0lxFp5V8AagWNKo24pXQxO7J6Rbu4S9LocZH8b-WO_GfQTP0N6l_FH4PcC8aVG38Kx7Jf0iZlJJbnxGFkajrm2f9w8j2-DrxnatFcLmfjMv4PLbZQH4PybU0D5tYp7dkdjIbNozgMcYuVBgiqEOvCAysWFkcw_tUdJupbo5erMu9VN4-hrW-kRgYVRCj5cKifpkuo1WmKVbFT8m3z454hY79IOOjNpynI8ANjymEb13d_s4kMgjP_QqNCKMDmZZQHZ82ozjZ05ZzoRYpJfYCOJiilbptieE0qee0tNDgZebUIw55tvLHCQ5ZzN-cMgUwImDQWTsU9db9OWR1pU_BXdh353IicUwWxM5HEIxYbBeUR1oDC2mPX1fmRq_2W52d1rmTQankhA80GiJX3aVpxGNNwrdfnKHdpSXvXydRhB7A5GxUZWCAzV0JJRp5OccI8u9rwzjFTKz_5Yg6WqVvpCeS14f8ihvBMXLBfTqABGCJjj5nOWu3hBHmCOC0jIxJzDlNYe3oCKToIif09wr7C9bqCeNKWAYeqjExrAFZcfHNuBQEph7olh9HlAWYVXpm4mIsR0DdSrpbWsTqvyFPal4O8ACAJcrgtFuvFkP6m4JEdnep-gkUqKnjm9IE5MQyKJPRsLECAvSsb0qjHUVNYluO57bo5GMaJXJvPpZcTI7HW2qX1_-MyW-UWtOtE2w-aYLq2Yfqx3smK0kM80Oo9GWsYUZ0f7kAXeQysnm0Sn7A1l4Bm-_dzTfYjcdIILRQ8jRFe9WDaS_xmkob1PJwbKZgYCofotCfHHhUyKZQeryxUnxG8gEcGG0LD_gRkHK-Z-hoyKt-VUqMZD2PoABvgjXuKNCIKtoUSJkdb8t8yElTntSwA0UxsgHtqPOLPDlCGAe8lG6JpvWp75m0cCHZX_qbiakLVU0q3K4tzmDspivGsGM7df-UfXheOOPJjkGxnEvgRyWMfwS4mgte6VPQRwIXKQsaLAu1qM7Lk2MTt1-PDt5bLvMMrpzMmz_QiVRIbCHJhKDytkwu5wAizXDHeeslT6yMsvY0vsb2s_P32s246WrlER4o2IIcdImb-Wt-Mwpnf9Gs1dcfkoTMWuS7bc4qo6YXZ-aPER5ut5nvHhMlwA2tNmCWZVZEvfp3fCYfa0rlDjPH0G9y22PuHq_qPQiRoV5s6XBwBUMs9P0_UOqKNJgQwD91G9JV-aYXu1OgyqZN94w5AHzOHKv2XbXKc9snllFCs3pV6oKQrTeOn1gIfloSpAOUoDuSfcJHrE1c0S6RWITmK5MIyTpOTpJFmqxOvp8FY5UEyefgFwyis5Yw-7VWNOlnIXxMiofHdjlfKSeGVj_2b9yWiryrmwwlr-3XuGzq-lGqs1gXvoUaSbsmVY6ZMXOLvKjlrG2SVNZPHNGwvtTc8oZUULcACfOv8rvc9verkTCHDfCmz_z3HQfRzaHWeumPGSE0igSh4a8uezMlxaVq3VuSmnHjIR8kWG-sEtWRBafR2r2FMBurS7oyom3CdLbO89a4dOzD68CT8OBWn0JuV_S80pu_LlaEdxX4Hr5hjxy04KO-s6tCc8xh6jz6UtV5_04zrQxIFo7rC_qiAty4w9pU5big-A1z7BobCXDPnKZ44Es5gNcD9unUPKuUfj19UKyWPFCBOmlbW-LCQJwzCWMkdd420f_V4M7TVWVmbWQiA1vFq46OyxOGa3saGS9iw6ZfSpLxh40_aa1mqf1x4btrW75UAGf_c-GradRIy6r_KHJ9RVTgEJD8t95kZrQQxg05xfpNJKJVdjxdB2l6v8Q_rUUBz0OMJ4yEwgicC-ZC7lDRuwOiC2Lbp90GNzi0QD7-6Eicmx1PZVve4geJ1drjzvJOSgd3MjD4SZRkBZ66Jm92ZqfvQgwx-H0aEJMukM5AgZCJhFmwtX3NdEe49RXWZRjZW_mrqz7GoY0ao94_xJW1GVah7KWwPchcE6SXoRkrxRcQSUEY0Tmxd-nj6AnOS3w0qmB6sZY2yH2pvTmE6znS-7DrM2O9-KM1VT4FRZdKu86W7pTMeosx7P5uQoE9tGMSDnObbAwWBC7jAaUXeutJ4oi491nQ2GlbktJPkJh-c8I5HijSvmlxr_zjQdbNj4_kLp0XHq3NFw9z_r4tupft1nc74qaigVDFEl0Zu4MioDOcK2MJH4y-WlfaBJG9yvcUJB7fzjbgj2cy9qjrTMIqNfQPT3nXLZTExu-FC1_yqfmcu1R9m-yLzZzNz39K8DNGJfxO1QTXmHEQrgE7M8_kmiYBtjF_lZVHN-5JSVnaac2cnENFIf2pLCByA",
+        "status": null
+      },
+      {
+        "id": "rs_0093b05ae5b6d0f3006a64ef872750819493087fd158f781cd",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZPACHveTCwYv8dFo2VTFtwXCmcwpNYzZCFmMsCARzrtgIsdGikZdssgsh6eK7u85P6AkJVoQ-_NK5Syu8n25DMimU4-bitQsmLKoZ8Seoe9OtRqH9KKGjLaYb8tAtDUwTafIzX2RlU4ebkfj6qr9O4rNGcSPay-aNp2PZ1Guqbn2uHfMWK-F9Si8xkiyoL-E_OmWPBNdAct1o99ZhUgd8xhODp7tCSnLxTFpk88lpkXV3RV5RoJl6DqzP9Piy-M-v7SXR5OvpnBHJl_L_VBFxRtubV4zZhvYH1Sb_YGQBYyNpnFlgsPAH6oUXAozkhkvMc7efT7t0K8KQCzXM_hc3hEY78FwJif4w0CANri1TEi85Mx3Ps5hRRYFTmt6rcXKacH_BSWPzsrKkJLX1Blpt8WcypxpJ7cTfuQSgpomsqH4lx57ch2EVtE7XeiEDd3W0a96ZpLQIiq_RSa36fokC94FffGEgPujH680mpO7j-HC94cHaRUvuHWuD0MALB6AaNtmlvxo8EbKkY5X90JhHYKFK56FNn6jzjGhni5i_Pa0_PqcsMARaqX_bijDGWbRZPF4kI5vUo0DoNwhW7jUVXYtM3feoMvTSg6uk_sFPteLDfuOB5ZFtFJ-rtKhGk0tdXBEbGRJxoA2w6Y6GUORfLsSFZgdJ8ePCHLNgQ2mk90GF1XuywX1Yfd1dLuOub8AjXWwBIXCLPPQmf6g2QWZH-hLyg7dq5GNYEKAFZb_CuannIelGaKscrrL0gXkM89binBtolDXs3FxFJ3BKdglaBjHH5TcgNLy4hf-Cc5NxU-d62pAGy4syVUmM3GPIV75rBI9aebxNWiMWOutmEryo6ypfevQE3u5Rk1cG487-J8kNJBvhkGNmxsh55V3CoNpzopEvpn_BuJkillr5ZK9FXxAVOSiZ2B07EBVlsSi3uCn9VYkXyaBHPH8F_5rIyR1W7VARXq3I_gGqJEGWx7wtUVjrcNwZU3EX3aHgY_t7LUAGKxItlPS1_1VbuEsrmnH5bUs",
+        "status": null
+      },
+      {
+        "id": "ws_0093b05ae5b6d0f3006a64ef8744748194abcfae48ccc68d0e",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:britannica.com impostor inheritance claimant historical case fake heiress",
+            "site:encyclopedia.com Poyais Gregor MacGregor fake country fraud",
+            "historical fake doctor impostor practiced medicine under false identity case adult",
+            "historical haunted house court investigation alleged haunting case"
+          ],
+          "query": "site:britannica.com impostor inheritance claimant historical case fake heiress",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.latimes.com/archives/la-xpm-1988-04-24-me-2787-story.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.latimes.com/archives/la-xpm-1986-12-26-mn-450-story.html"
+            },
+            {
+              "type": "url",
+              "url": "https://archive.seattletimes.com/archive/20010411/fakedoc11m/fake-doctor-says-getting-inside-hospitals-is-easy"
+            },
+            {
+              "type": "url",
+              "url": "https://www.cbsnews.com/news/double-life-the-imposter/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.washingtonpost.com/archive/lifestyle/1981/11/27/the-case-of-the-impostor-doctor/13fc7470-fbf2-488f-aa8d-0cc22643d7ab/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.njcourts.gov/sites/default/files/charges/unmdfni.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.theguardian.com/global/2017/aug/14/trust-me-im-a-fake-doctor-how-medical-imposters-thrive-in-the-real-world"
+            },
+            {
+              "type": "url",
+              "url": "https://time.com/archive/6771377/medicine-the-strange-case-of-j-h-phillips/"
+            },
+            {
+              "type": "url",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30574727/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.gutenberg.org/cache/epub/16538/pg16538-images.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.theguardian.com/world/2009/feb/27/usa"
+            },
+            {
+              "type": "url",
+              "url": "https://www.abc15.com/news/local-news/investigations/impostor-doctor-opened-psychiatric-clinic-treated-dozens-of-patients"
+            },
+            {
+              "type": "url",
+              "url": "https://law.justia.com/cases/california/court-of-appeal/2012/h036253.html"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Gert_Postel"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Ammons_haunting_case"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Doris_Bither_case"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Jean-Claude_Romand"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Gerald_Barnbaum"
+            },
+            {
+              "type": "url",
+              "url": "https://www.sgha.net/library/BJP-hauntings.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nasm.org.au/pdf/One%20Hundred%20Cases%20for%20Survival%20after%20Death%20Baird%201944.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/The_Octagon_House"
+            },
+            {
+              "type": "url",
+              "url": "https://repository.upenn.edu/server/api/core/bitstreams/13c8ea1a-99b7-4b3d-88a8-9c407b0f2873/content"
+            },
+            {
+              "type": "url",
+              "url": "https://www.aging.senate.gov/imo/media/doc/publications/1121995.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.mbc.ca.gov/Download/Publications/quackery.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2503.16437"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/TrueOffMyChest/comments/1julecv"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/todayilearned/comments/i7f23g"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/GhostHunting/comments/o68sxi"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2304.09948"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1905.09866"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2106.02395"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0093b05ae5b6d0f3006a64ef8d3ea481948f58e8feaf5595c5",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZPACRh0hLl_9I6N3kSKGv25-ilUWYuHkuWsGocVFLNZWK0IdEivU3aH6v49odeMwvgQEwD7eZjuPOi60F9kOl603-V04DVsMZNMT64CRJ2ZmvvNtKRz8xDOwwxVX-dGD5k6ULarWuD0AZRW4wKBe1lTaS7OUIeAywE9yvSEJ9koeQDdm1k9vSbcbuqOAypuoaNUN-S3WLOrcT5EROTKL_ykBe_91AM2K3zn9cmHkLYEOBNikPAhlCPQ_UPxCezMW391Z5fc2hbViCy5AGioUpH4hfd-ZZ63Ha8UZUVVV2Rk4UbYUKgwFGV5L_9uPobQU3bU7EXAllk2HAnZBIqYp17aQHFct6T-R2pYaCy_PIU-hRilpW9qKyt_OTUbT9h2_08-xkG3mfCeMgMfcVAFVH-pQmHf7BxCGCUvsZzePKWhtCwtNzXy0RFTZAzCgWQYyVUDWt3AlH5-2fdBu2WRGS4-moNXtGmtgKik2YNPDXpgZvvo-8Sl0Yaix7HGHEuMKmvPd19-s0PV0BcHA0fZq-T1FD04mPBTfBiAbYWRF1ub4YflLXe_jpU2JUytJUu2u9eRsV6LmkW-HvYfDLUQ80UrmucFMmGgmea1OTQ_x3JRG-svD4C2UK6nnpmKZKBo6rRnkBV6kPADQfw3AcePtYz_HZq7OfTTqsfrifK1_LSFKRhs7KU_a_QiFeCwx0dJC9ZUqTFkWTRobajxGIz4ZTAVtNfjq4acXjInbpj7m--6QhPNF2dSaiqyJSeDo0EYXcYrhUb05g3Pz6qMVviu1HHH7-i7tP_7Yb936ryH7UrXJPCl3Ucv77ZTpJkB9gp00SRfVWItzv4EtEBdO1SGFtjpwGu637Ub3lrGCWy0KTuoG3xtW14ZVhYxCpJfdZDQafIbCbnzFgcLhyxt2_3nNO3DKD2JJE4_Kfr6yi8CHgnwcWoEXmwnZiu5Wfe-pmJgPjpskx6LiveLbiMv6gJimRW9xoZCrraCrThRhdPu5SzoIYLbpSaAphIBavGspqeRl_W6ceoTuu-4410ZwQsZbo3pM3cyu9AM5C9BBNFfskXJUtVFnMhYLBJqQoA2zPp53tgP-fjamTBUzrelnU_xKJc_dPuB0vrOERk4KcJKN6j8gH4k9MU9e9JPe6lRFFeYWdkxnonhNtgIhtd2ZmcUCuKkPXXacKhqB5s6PGX8YdMRZRfj1MdfcO7o_Zi9-MUr_ns9AyvN5v-ZhtFJy27a3m1_DxzEzV2kpbl2ywEIVTnH5HFV7wgxaTZb3kIJ_CDWLegTp2XoU8E-F8C-uZWhYyA3IthU442SOdCRvhBs1rrmybGu55JZ2xH1_gxVyvgjcLBCPn08-LrZ_TLOcA1ohH6eFF7roSnwH3YubsaNFmp90R1oIXzWnFcmLZ-uYFGZmMywtseBfIANjnItryRCOQsq3IpeYj36bMxKLi7Vnzx3Kyr46tvro8Ux-PT8Vxa4moXc0a1aacb5xeaMwslX8iSmU7a_JDjpjdt2g8yaVUixI20x2u8CX1m9y1LkKJ_WLxaWCfjnny3G81WKhYld3c9taJeTPuJ3OaAdy2dA-TKEulkkav989GwJnVxF35_HBfBvUVVUATCMu0_yD2AIBFl8vnaBVi_oRGOIyh07Rih1glYYkmD_VuIC3WSaM3PlRdy6EXbHjcuxTb_A6JX4AGhFJraZZHx81JzG6WcvR9ifr9umrG3-eIVBBw_3fqpmcnyNZoEVgExeDL4KATllx4Sau6uO1IyUVLoVMIMEYoZMDywAVT9l0H2B0dzsSGwouk5D5Aa15-vT66iRRfoqie_agLffgx045id_9-A0nSQD-lT6gY-lVdlcPPA7V4-XTX1zGD_7J54YcdHhbaj8JL5ONxdf721k7jbuaJTnXBz9MryUoZKtv3Oty-paO2JhDHuPMBmrmq8eXhafXfGRuvgFE3EvpP7DptgCW_Rafy_jftfsPAE03DA8T7MeBxnxSW4YfgsTX6fPdfkbvwOxBTmdJy3P6M5lRfHPf2MTeHYL_vcuDeHqveM3s5Atie2aOd8EVbbh-_yjVU75On_t4hHsyRgjCfRtLyWWDJSZqWduOHxcNdy4xOCVjW4-eA2aQEKlBaHhaAdhwwfiuiobFNcjnBCcla2Sy2lTJaqYfBAhbdagD8l5IzUcY3YWT38KCwCRRrs-raulHTmS2m-3ErZTMXXo8VJSTdP3JEuNXG4Wj35beVZSxNaDW5vdo_PYs1QokgXCr6UvNlSxseyFTp-ynFj0r6NhWehCL6hi0jiJbGPdVZINOoOdNlz7q5vTQJYAE4p2nnaziJgzAJihOLQ8mJwzhWXMM1_6sKm2IUWFGwJOnrUdr7csYLK1dKgOzjTOU75wN_IkNeg3Lcgfj-DjptmqWJHxtWWwpMfLeZKALiq8OKi1Ft051RqI_gBh3TFhO9Ekd5jb5ih0vzKW-joXOAz1nUsA7uZAkpBbzvXVNl5Cr_vHyF9REqBVSFaAyfSMb1OjoD5vJd4xmgxHXgUMMM_sN-xCA4R4X-eTypWr6XLLS-5DXrM637U6sxquQ9y_XIG2nrdsBi4OyInjHKzOVlwezOqZzOB9gUi68PbSH8cF7wHM8W0erObV4ndGtiqUdHo74EXS-BoHmVWl4LawG-X7aM5Yuco-5GPRbT1j7-GJ_S6dxgo0foB0W9FKlIYWFWAVrGPU3u-Xqh2mynu8PNEGsBPYNFE6-ij0Ze-9WhiDyrWSlgC6dt5ePhTyIiJ_o8Owa6J1hHA8iBR01l6wQEEQn_zurQ8W7NkXHdjzKFmAhOrCOrcQZACPts-omG3h4HpbnNxm5n4D-u66qVZR1oj_mffdhoiqnW14M8gl9nhobcRG4IlyZMHAG4H_Z4a4z-aR1cgcUf5q2lA7WMfjLokDEN3kyj3FJyCDwlyVgBDtcSJaVXR1VYUUypuK-p0SJoJwDFeX9VH4bV91MoNFniCtIQ6n0QWfUgsMI2NjJjByNlJJjU7rC2p7se9SLLSbwBnLfEEEs1N7kCWx8V_dHvJn6PVQNKCD-RgWCfC9wYX22YKwiLgJjgLAEmjtCIm4h_H5CvVAYw7O-04NUou6L-841O9bV3wsXA_wrhaXUoM9T49hIKg7Z_lsQN36LqNywNhpCZAifdWIqnNFPG_jZGGQYvECdbaxmupBpimLvJzV68ksNuzdWdgnFSxK9gniPV0lFbRZH73U6yA7pyWT7nAd7XXNDWBou0Ly57jCPVWnhrtqyhu3nA9I4Zu8KsTNErfijHdYLKZOVqcmsgPl_Q2hd0w1fugeRK-Qkf43ceApG81SpaUIcmjCtuWb44YpPsM2uk9etuGx51jp7KnnTM9BuS4dkMs9dj0UIfzc6QKM40XidHPWEhdUOs2Wgcmc9a3tMD4jGuNssPVGIE1JAcTYUOndVpQBM0iv032t17RbPUea7onwritjYNoOpoQvxqKzzAwJ1z9rl35GBSAFjTJ2KiuHdMhUcnwI0Y8ipI1IkMS1rnpCb0i3Comp6KJedRd1Luy3_6_av3QNuQvncpLowGNsCkH42d1ryOUfeyU2R8s0DR778guQE4xqqMMUAIjvzX6bv2Q9VW9_GaqESRyy1W4yxh1IP2QygVms4BSBfoktV6u0pbTWDpZKr6TOdG2nDts-iCfviGcMN5Xei_ws2rWmnNr3jjzJQJm7OTD0lAaotGjfkZF_AFHMkMtkyDJ2_24lcX67HJMkoeQIskSMKaVhXbvHaScF3irIK0UGjfOpSstikLEaxz2Juw4BCLLmbDn9UqFtilztM-i3dS3SPpxlHCp6wF0EmtdUQns9TleHXwpG3s1oJnQbF0CrE",
+        "status": null
+      },
+      {
+        "id": "rs_0093b05ae5b6d0f3006a64ef8fcc64819481a326506e55fe23",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZPAChPCA_7kzSOAMmGu8BXeWzFkkoFFxHuPCxr5Lr0YxsHHw0D6bAxqOPdc42EbuOg4OPLQKyBsOwy78bTmDlb7ZcapAWpaXXXsXPumS-7Z-hNbveVvMD_kntYXKFXv-lhwd9mvY2L_A2M2BGVCjpb0dbL9FI13ZjVYRQ-7rXo1rPLX01_NYPde6jYz4YtM27hkArAQvt1VAVCZN7FVI2nbBWIbYy0vtK_chKfTHDfnWG5aJDYpeYauLk6e8iyliGgBS4A87-c8bsqvKmUDVktw2Or2f8h7MO68jndkYhlRQQnoQ15FnnAMbJO6gH4D7fPrTRIeCLEQDFkkrwb4yIw4j8iRLtCha6tutHL367OIfMUJCp2s-_q76Kzo-zQ8EOhe_bORsHLUGZp8kR2HzWiyfMurDJ9GTEPa1exf_NrZFHbEj6muDrM6FGlW6UvL1Rey7s5yBRtnOxAkj0BG-5FLNn-YXSM0JzBqTdl8BRQaBWOnfjH4fu5iYQ21g6vKfXCPpA4YOQ3k6uxO0nAPOJs1QsQdc5l0UEMxK2CQZLGzjtBlasqnH5Si2WqMBrrt3hNrx9B378KitIX0HLqfKqQgjMa2m1MkZjh07eJWSHW6ZIXqCTmKZ-aFT7fhHUSmnkAax0rtUsCl3a3-4h5gT1VpuYufnDzaKBqunmUeHUsloGv9m4PMoEe9U8TJNTVcXBq-ChkPFMkyEotze-nhPymhZXLk9GP4kvo71HnEQavhXQL4xazmzRaqDoEgedExZAPPCMzthZh51CC2yMciaZA7etzN2uL-9RzcSEoHFmGJ0DU0UXFMmissEtD7OasFGWKQoCmsIkjKvHeQEXJOfOqChY70Z7VNrhNI8tUre_p5GuHTRP-7RNT3P2-Mvf8-0bUceaA7F7pxBG6dASd5e8R7lmMj_verN8RQ4ZELNZ6WOJAaGWjb5y33dqtpERDTKtZNBSDM6gRDA8-7jvBOoAvr9RN2eO01Er6fGDDllHcI9u2ekCERxuDttYGYtsQLrUvCvgtZ1cDbF_x1xCfQ2AbnulhF70TBXkjhXbYL1paTYYD1iGMtLEzuvqnN80Du0DHy9XnWcpJdMO6qgiu7OAcWl4QDrmu-U8TDb6TD0LJ1PKUg5yxTrqIgC6ABYAeC7S4u0zrBbJPI8YqdHOgpNW6FuwWsyl9tMJnJ5tTmpa8hBdEjBlC81_pje8dFfiGhihRb1bdJgxtbJpj9VS_1MZZY35EdWet-IMvzmSSR1pkGaF6FiVCBVWjfL8qx7MOUtwqXgLOrMbmB9JYoW-X93vSoCDp56Fx2JwWO4-b3E0u7r4axhAvzElqT04KSGvCgCqjAplIgCopCteQukzXCP__YwsElGcFmp7jN0xkTUqKk00lRy1uVb4ujNSHZh0KpfPX6Qf_bI5HBPRbaOFit2zdIGU72_P0N7bEhUL7yCXfVq1AilH-iACEGJdoK-hqJJlxHEmsNgmJmEELGV247oOoCPt7LIaVDCg7ZZRlBpWsHW_a-JAWh1a4ikjfRK8TZxF5SlHvxPG067zLr_DlR-kS3MVRnOmrr-a0zgLWX0R5YN0sCBpEW9OVI8IJmrAekdFo24bF_l_ZQS2l6nidfePegd_WwCZpFuq7tPNYrN6rYjNKROId7GZaYZ8fwJheCCVjvtf4ILmSopaVCVX0F6OwuWT9fAqnuSqV7FS8sLYytxOZVdgcdtElXMSVapFHgz_UV5xJbl1K5BGf0ydlGvLul_zxLH-vrzQp7dDODVp6tg2t8dK9wvgVPPR7JHTsg-mkGMfdDkTqQge0LxCLBYmkZxqNCbrlo9eNMXzD5kJ8QjxcHlHwJw1PKSWoReiytQB27YUH1ouwy8sf7fhmdE-aAi930kg0lAuBhwd-BX57l2aqICHRenma1XGQCv-KlKjIphCTJFCMs_0csRrGpEEViF8uw2skPfT5d1tWVcN7jHzpxGDG7D5zDEubxNVGfZ7Is0J7Yvzm5OqJq5NIjxwq4OCDIOBuoirAm2b1jcijKG0axRBYjouqRMr-O19pN-mvPmvL5G1Q37MziXlk93lkF_TuS9KSBYisryev0HSaRDIbzcXRAlhXSCuy-o6fRG0D5ni2d63MbB5Ni_8zgzuaTlm2FbOIBCcFXKoLGbemJpl23NJQKJHuYjU7Cd79pmTkIP73kGYVNbmzqE_LUw-mnfzCBzSp8g9tsA6JoLJxmswYZ-k-PiE_f9S0bP0TiYfO_frbhRNBgkBq_KNslWI1Zw_yGI0CeuuAX7Kw5XKZwLgwjC6_HwzpEzNmX6ytJiu0rhOczM_TsYSnr6vEPfNqy5OELkSbtxIJ4T9d_K-GQ_BPtTccV7B9OXm0279ZOX4lHDITWnHSDPTZ1K1uilFwsfhnqGzk0FYR9y-uHxmlktOlbZgW26AUqf4tWMzIjf73tk1x4RXRJ7Mgwmh-7Vp3RbC2kJJaYTnCFyn27V42DLCYES-JP8Bg8CRcHeYHUnjS-hrxihD0mdRmbGQneM8G5-yvsABGYGYldIcxh9rD9-MPu6pnlz0f73PWkS9fiBGpflVNmCT375fi4PUPTPVNOp5_ipOjqGHmGL1YHJw8DzRMNhHq-pM6BqxJAFUkpokWFji8qsRrz-XDYlf2uziFVbyuzBp5zoSfoaA8XTLaTLzDLM1vItZbMI2Y3UTjyTZeUYWejE3AuQwRJbGbk-peqcEriwbk-rkemZsAPv3LiBefyBTGdf8U5HFAyxZ6I3EJd9EE1Y_0-KjkF4v37G_VyY2GBcg5PHN1RvdNlPJW9PCYWAc7nq-bY_n5OltiN1MQ8PWWJDkJDGW1o2eSTGYm_OCXQSilQ8lcoU-P5LUexzYmvjZSK5NbBMha3F58qsZ4bTSZ4F_M-FDRyPGYOKANB_25gLyTI7EqtlDGCzFs0cm9oZD04XgG6S4B9L6GAq2PP8baSzK6jTQHKxJhpmegegqK3splvTcgu1GzO42Yc9NW9rsijQsNcB4VnU1RMvz_e2cVWu1jFu9B9AYAphozk9JMZJ5J2ebssjxqYtatuwux11TeVEPBYQmWQ-4AjtOoAXdRYi6qSGZ-kUdr6zz5UhIt2ndkSNauB_FhB62RkxpLHadV0HEp7a4Sy5jW4zZqYotIXOAKkrVIdsfxPNg9nZ3voyCFG-Dn7j7wIygUtjFdZT5bi96-hpC97iFrYQBvQvcTYkhy3aka_fqRjxjW2TrKlwoagOCxd9N30E5DUtFNb3mdoU8YKbrQdX8R9mmslDcQiOj4Bi17Z83iLEdCG3etua-wjpPcbvGX7GXxGoDMf27peTM4Qt2mRHJck3Ky2pkS-UN-Q3f07ITkih7niQb7Fj9xrKgU_Or4Aqlneqxm0SeLwWaA6NzBrQMOO02xMoSujccUqfE31S6h3caLlm8yOexFnP5l5vv9e796_ozndTRBjSmzxzSZA_3R2tDrFQ6jmeAgfUOOgd6ikwAoAR_GCmJ0Y7cr1DPVxECuXeij3kcVxFSC4IBbT2GOZr61MQYUtDP22q-8YLQGaN2p9jl4PCfPjJCJktQQ9hQOqZcxHXO4thes4Kad6wCR1-EAyizwxQdL99b6vzQ601vSt7n_zCxq1lxaWvJYViLIxD3mGD1adD858ndLAGhI0-1ZarEZ3StL6uAXopsNg8Dn6qMTXe4eVa5iyBkbRhIlCyoIjMCDYAj7tK2OlHh4iBgYhwtSI4VKkH2FJIWoMjP--aAA==",
+        "status": null
+      },
+      {
+        "id": "ws_0093b05ae5b6d0f3006a64ef91cd9881949a1b4dc85f7e892f",
+        "action": {
+          "type": "search",
+          "queries": [
+            "Gregor MacGregor Poyais fake country historical source museum university",
+            "George Psalmanazar invented Formosan identity historical source university",
+            "Vrain-Lucas forged letters historical case source library",
+            "Piltdown Man hoax investigation source Natural History Museum"
+          ],
+          "query": "Gregor MacGregor Poyais fake country historical source museum university",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.nhm.ac.uk/our-science/services/library/collections/piltdown-man.html"
+            },
+            {
+              "type": "url",
+              "url": "https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nhm.ac.uk/discover/news/2016/august/piltdown-man-charles-dawson-likely-fraudster.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.pbs.org/wgbh/nova/hoax/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nhm.ac.uk/CalmView/Record.aspx?id=DF%2FPAL%2F116&src=CalmView.Catalog"
+            },
+            {
+              "type": "url",
+              "url": "https://www.britishmuseum.org/collection/term/BIOG154697"
+            },
+            {
+              "type": "url",
+              "url": "https://www.britishmuseum.org/collection/object/C_CIB-14659"
+            },
+            {
+              "type": "url",
+              "url": "https://www.camphorpress.com/books/historical-geographical-description-formosa/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.congress.gov/96/crecb/1979/03/07/GPO-CRECB-1979-pt4-1-2.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/376/WINTERBOTTOMCompanyCulture2010.pdf?isAllowed=y&sequence=1"
+            },
+            {
+              "type": "url",
+              "url": "https://wrap.warwick.ac.uk/id/eprint/53116/2/WRAP_THESIS_Hug_2006.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.etd.ceu.edu/2011/iphvem01.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/George_Psalmanazar"
+            },
+            {
+              "type": "url",
+              "url": "https://australian.museum/learn/science/human-evolution/piltdown-man-skull/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.pbs.org/wgbh/nova/transcripts/3202_hoax.html"
+            },
+            {
+              "type": "url",
+              "url": "https://research.usq.edu.au/download/847e02f3005d32628ac38ff3a8e93eba9831d99098872d03238b76083f44f464/5164855/Peng_2007_whole.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.britishmuseum.org/collection/object/P_1868-0808-8817"
+            },
+            {
+              "type": "url",
+              "url": "https://clok.uclan.ac.uk/34458/1/EJEA_019_01_002_s003_Alsford_proof-01.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Denis_Vrain-Lucas"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Gregor_MacGregor"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Piltdown_Man"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/HistoryMemes/comments/dlmjhl"
+            },
+            {
+              "type": "url",
+              "url": "https://de.wikipedia.org/wiki/George_Psalmanazar"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/PhantomIslands/comments/nlmnhk"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/vexillology/comments/c5txfy"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/HolyShitHistory/comments/1rcezbe/gregor_macgregor_sold_land_of_a_fake_city_on_the/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/peaceloveandhistory/comments/1p38boe/november_21_1953_the_natural_history_museum_of/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/translator/comments/x3mat3"
+            },
+            {
+              "type": "url",
+              "url": "https://fr.wikipedia.org/wiki/Caciquat_du_Poya%C3%AFs"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/imaginarymaps/comments/nkudpa"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/MapPorn/comments/uz6xot"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Imaginaryvessels/comments/uz77qz"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/conlangs/comments/296b67"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/vexillology/comments/pfffu3"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/HistoryMemes/comments/193perz"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1210.5321"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1407.5296"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2107.13998"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2307.07903"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0093b05ae5b6d0f3006a64ef9cbcb88194be96499e3d1a2235",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZPACWhp1yyBBBYX6efpkhZC6q3KZS0O7DHQnnD01VrggnFKFBSWTYWb3I25EnQZzvr98kCCRqcvNkOfqf45ZDsg_50BBP2TUjXmmp6Pe3ZhIAD7d20HuGWzDDCXXZWZaDLPfLHIGOQHxXb4oqF3kGk8HnkV4wX6IPZP4cJAYDCMXOl5snF5J8tXLSP6uResVxNJMDflPKBQ8SXCkzT9GkY7P6yuy_yvBAFJ3H8DvLXBgvVOVTtNKtuMSFQk5VQg1dfDBDYEnSVZ6PwXmKMgKB8qcolXMy9GSkqZT9_1GChr_hL9MlprY7Usb3TXDakUKIoEWxSyJyrerLLVJPMQRg_JezgS7KTYSKOZ2_OeCQ0HvWTf-INXboCT8Gn0NygclByYtTw27Cv2ZO6CV5pp3lEy_j5tUxlszrkkWzD98ld1UGRfy7EemK3ui2BpB4F8YR361dHSuJPJyl0aHFl55mVN6ZgGu5SvF8M-Yo2MuQ9uMIprTG_KBPrwZfp2z2qHOsfGwUewouGD5He-VeefUuVaBmQ4FLXXxt4BVqepVzzt5Ph98jQUS8paGpkZwd_iq_WCLrCCdq-z5aumCeaY0Kn2KDKu68A02KUQsxV92QoS3TGLolIXdi81HhjGpEtqQAu1vk8Xj5nIcDCHce6M7t6Iib2GvTyR7uDq4JmgIurp4I0tXBI2pcV84O8GN-Sc53uEe-wg9WgDoBX4x5y9Z_vA1fJOM0fAY25bEdehxC7br6XncMQ3-3KemS0IQVD9QyLTtifDP0cHO2QDm3lTXZE9NN9TzLB4Xgtnc1V1EXCf6-RCLAgQZ6F4KfzKGaTMO69MienNo34V5M7Ow-ZCaWtTyj6DY7YzuTUt69tb51q7_RLEPCKQZ8-wSoSRSiAyociVdnCorN8mBPlGZB_hWrIalgxYIr4auvwHnusG-Qp2EzBDt21piv9XbLAWHP54Nnb3hpLpfidKsod8YsSE01O3pk7TbBAv_IYgU51lQH32Q6pr7WXxZigi4WCr52p5_IE4tIG0CdAQr7UMrPvVZ2N8DRlC6YecmMgcvG2_AnIA0ebxCmccFt7ZoOsp6B_QL-VSiozZ_YFj6intd5pGB_Hbdf_MN2YU6AcqjjUm3SXsQ1tDvugj377JTq9Q7r_DPFIp3lQWbDrPrYd4xrG0g1F0-dlcztMC80xb4lwR7y8iuCAPNTedb2J-q6ZW69f8X2t32lPpX41W9P2JwC2DLUS-tTKSC0P967c4WmljazqmdyaE=",
+        "status": null
+      },
+      {
+        "id": "ws_0093b05ae5b6d0f3006a64ef9d90c08194abfd888a8a65a179",
+        "action": {
+          "type": "search",
+          "queries": [
+            "Cassie Chadwick fake Carnegie heiress court historical source",
+            "Nina Beckwith v Bates presumed dead inheritance case 1924",
+            "Operation Greylord undercover judges lawyers Chicago official history",
+            "Rosenheim poltergeist investigation adults workplace source"
+          ],
+          "query": "Cassie Chadwick fake Carnegie heiress court historical source",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.fbi.gov/history/cases-and-criminals/operation-greylord"
+            },
+            {
+              "type": "url",
+              "url": "https://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/87595-true-crime-2021-catch-her-if-you-can.html"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Cassie_Chadwick"
+            },
+            {
+              "type": "url",
+              "url": "https://omeka.library.kent.edu/special-collections/items/show/8599"
+            },
+            {
+              "type": "url",
+              "url": "https://webresources.oxfordcounty.ca/umbraco/documents/history/Chadwick_Art_Williams2.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.isba.org/sections/bench/newsletter/2018/06/whengreenbacksweretheruleoflaw"
+            },
+            {
+              "type": "url",
+              "url": "https://calculators.law/caselaw/decisions/2XO3KEVERgzG"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Operation_Greylord"
+            },
+            {
+              "type": "url",
+              "url": "https://theclio.com/entry/121833"
+            },
+            {
+              "type": "url",
+              "url": "https://www.superlawyers.com/articles/illinois/operation-greylord-fixing-the-system/"
+            },
+            {
+              "type": "url",
+              "url": "https://oig.justice.gov/sites/default/files/legacy/special/0509/final.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.ebsco.com/research-starters/history/cassie-l-chadwick"
+            },
+            {
+              "type": "url",
+              "url": "https://www.smithsonianmag.com/history/the-high-priestess-of-fraudulent-finance-45/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.strangehistory.org/index.php/archives/cassie-chadwick-1857-1907-the-carnegie-con-woman"
+            },
+            {
+              "type": "url",
+              "url": "https://books.google.com/books/about/Beckwith_v_Bates_228_MICH_400_1924.html?id=N2OFKwiDEbcC"
+            },
+            {
+              "type": "url",
+              "url": "https://podcasts.apple.com/gb/podcast/the-carnegie-heiress-fraud-a-gilded-age-scandal/id1642739746?i=1000738791202"
+            },
+            {
+              "type": "url",
+              "url": "https://webresources.oxfordcounty.ca/umbraco/documents/history/bio%20a-h_combined_OCR_sm.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://webresources.oxfordcounty.ca/umbraco/documents/history/carnegies%20daughter_recognized.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Rosenheim_poltergeist_claim"
+            },
+            {
+              "type": "url",
+              "url": "https://www.cia.gov/readingroom/docs/NSA-RDP96X00790R000100030008-7.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://de.wikipedia.org/wiki/Cassie_Chadwick"
+            },
+            {
+              "type": "url",
+              "url": "https://webresources.oxfordcounty.ca/umbraco/documents/history/outstanding_recognized.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Ghoststories/comments/1npnavn"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Operation_Silver_Shovel"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/todayilearned/comments/1ebvcsb"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/UrbanMyths/comments/jao37q"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/GildedAgeHBO/comments/18glloo"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/VillainyGroup/comments/1i5iyz6"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Ghosts/comments/1bcoao0"
+            },
+            {
+              "type": "url",
+              "url": "https://es.wikipedia.org/wiki/Poltergeist_de_Rosenheim"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Cleveland/comments/1l5evl0"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/GildedAgeHBO/comments/1aog2tx"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/ChicagoSuburbs/comments/v2ra2n"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/youtubepromotion/comments/1t569nx/of_the_four_poltergeist_cases_that_are_most/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/GildedAgeHBO/comments/18d7wo0"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/scambait/comments/19b24qs"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/0801.0382"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1907.00510"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2011.11153"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1603.01511"
+            },
+            {
+              "type": "url",
+              "url": "https://cadenaser.com/cmadrid/2025/09/11/el-enigma-electrico-del-poltergeist-de-rosenheim-un-misterio-que-aun-divide-a-cientificos-y-creyentes-ser-madrid-norte/"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0093b05ae5b6d0f3006a64efad4258819498f231ca95c22780",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZPAC5pKXmf-X8Z1L-kFg4SqQiz5M13rc0BGfeED2KlzSWsqVsk7MY83F5po9Y1AwURB5Ex-vhJ-4XXG1r53MSVTfC3BWj5HCa0c2ou6saWuRQPw9lvqlBbHIBGru7Jvkebjc5ITfwvCN__8x9pcK28AO9gTsUZtIyvhOoFcOhuLoGcXL5_SEx_T0VFSo9AjMdAxNjFuqWCZimOUerJs1RYgNly7YgqzdRHcuex0xZdSWAQDOONy-CIXd0J4ACy6va58xKPhIxlY-y5xBb0EYJLUrwdBy_RF1QCaop0HoQIF4SJPX-P7PRCb6KoJjhsMvrShBc_aZLztOXaWyOq3w5sxwQn5Th-b2KpVctKcCVHCYH73b9PLDtor3KsRJ0Ovs6l2H_N7AN3kd1wxIhZZvDQ3nAsa48usI-5S3Y-jXuQW957hqQABfBGJon1U_UnW1PMC7vjayLc_hToYWOySX5tG9QEeCOsNBAdxIg8-K8fLQx_qhILvZLkIdB4QS_4p0TwYQqVuwx06v_Vugm_5m_PdJF4iLjkXVYrS57idb98xypao-IJYL1UxoU2tRrO2kSdDGxzyyHRExuUwbGlsxL9QIDONtsx9h28vAN9coho5-557sMNrGlrdGaKMMlsDSHYQ2gAFxmeHzIP-s49UPP4VyuNeOMOhjxXoA60UXikriQsVc_Rdovmq9XkMcrKOEOib8E0lb-5XekNLwL3-Zx9v9ATmoK2a54U5Ho-Hibo78MkcCAZamjK4jkl1uBIb9UH5xhtrAehT58bNUXYFvyU8WX6k3EQdva8KubPA_vKRuMU1VXTHlqfwMY2fyKE6XpwERuqOHwlzx2jnbR_rsE0U6oDqRByu6I9ebUAShgAqgo5z9x26_r9ItH4j4lKtScH7U98t8W2mUKWfl6Qx4mPH9Hht-3cBf3x4KFYIZ3lAemHCupHoZkSQ8qQk11uu-F5jS5VXODt9NrM-yN7G0WJUacfCKPEUY5HWWK7koM2g7tJfJhQjaZKeYWPnDK0s55paJxqhIupO4BKHXaoytFso3Wr4pJug8CEZZa56TQk9UxsB54zNi7z2eqIpvkrOe9mcWcZL9yI8j96fnSCnhTOXynD7CwKRQjieVykjLkcX0vQTpoIa_dYUJeyJq6fs6Rs1Nl-7rM34jbvsQzN-K0ndtPxFRNA06I96rDVbzn7xNP2_-Q-M7cav-lHb2EryEQPkvj4wkfD14LOsqft-vTgYMJdaN-bFRqpWzRSEuWJlKuLX2cgGOurptwKApSupKH3OJFR78w6_Atq7VX4IvuA2OZ0tNsuq2B2inXBKYAQfK5eeS9pSS-wxN8j0YbnH62v6Khq0hg6npdByouz0RaiOHWMxA3QgenxvTot4UDH7RUFvqHiMS85I_KWuH4jdJllWCAeJSP1efEbB9bBrL-iKyfNlY3PI9b64tB2mPAhU0S_bZOW5rgOP9DdvQ2KdXA1VJjqAHyZO9wutimOkPg0Zs100Ai8pm2KwcjaauONQCvnMVxO3_usjzUyJBEHsMpeyQsqWJruLpR9QtVReSbHxtNamS56f1h-M4bhof88CSrPpxG9vQ0Vvi4NffVyQwKn_ox_Ercao26XJLGRqSwdidgSZdYwFtXIFY9cTZNkt2sySNXVBih1bR8JJe5fzk0K1hsyJYs1ZjLQcciMnDYX8Fm1rOaNtdDxIoEMQq_hZ0Ec5we3mUMLksJ-q3ldOr3QOafTBWbx0lRAjFVEBja6sOx0MLDk5bbVYP-LGgFegcbRFw4FP9qnRaUmZ_83baj56XMxqacpVzzFOYRc9fXcEa1vFHOA0X5txJjCUf3LtcFUYrS28raZcfpvPmH-fX3L4_s-3S64wSow28cN9-ddSWVxIf8J1JNE_o3K47tZ8MmvVqusGjQxccvdkBTTCaiOQ8QdckuFrx9YmL_vKoo0ppuCY6fDHQEMGK2o0X2zRNHpY8PVEb8vnkdLrYHx_gE3yRdXU0kMC6EPx0W4N65y3uHBwDuYI1nivYASAsrsDpPYLunyaMpX-k7-7pdw5M9kdRzIIONitoFXzriMHAhx8mdwlJl3Vbj2FmgErZzuxPERcTs6OtePpsCPzWunYWsjzp-1UpYAvRHzp1JA3jPbrYFaqWvjVqcjaAgIzzmaVNUqEBGjyhsYfas4IGOfyy4YsHGZy6xbYcCQEzWZL3YvRqBL5tWcxFi-OzpxjAjCcaS_j9FMBN_LPbGaLsVsw0N9elJvTwfNy9UkmPhepEw6TDWl1DIqTOIGCYZBAJFxLmW8e1dar-QgRGOtRkjYh4E3Z7gG3hToSoSVpFWLY-8w0vHwVqxPbG2jGaJopaIftu9x0YdYfzFDZXp7ijkk2JJiKUuUDGu7XMLcxuw9hpkIPXj8llaRlBJg2w2e3MfMxf52tnqqqqer2Rn8J1A0Vs03JWAVtiRlrmaohSow98IneFnOM1V9qbXjQnRKvG8rk4BN0xBdQ3WF9bihmE-ci7viXXRWbBxjXF2pasVejcDaecemY6wuBtr8541s5HG2E8dhbygCnncQJ1_XapqFdpZoXKUFVtkra_8tHoBnOxTOR6xTgew12qYATBmxPPc-YW8NkdNFn3JFQfrxIFd-B7SpwVxmuWH6sIWlCkQ-hW8Vg8gwbYNOyklHuejtvHG74FKL3elgLO-qR3CWhbzkqV7e5AlN17pBoY3Tdkh-3ZPOXABCOnILd2kEUD-odHQTLrHHx4mQ5d7w972PKV8AlaNjcxIQmzEjJY9Np6vnYj6dK68W7gJT18Y5hVo2qS0kLPzQ9sK0pUFkZvBBuxcNWMRWWN64pKvdzEWwTlyXUeIvUtyuc85lfJp_HW3dUK8ivxhFhDR_IrnVb28Nz1B3cYwRKgHs3aMtPcCAyrrQCp8oAZM_xeYbSkJ76A2I4fKaDEvpFC4wVlWAcXMUWUaJArwU2_Ux_Bpk1D5evFwJuHiru-GwjTTFe4V-lY3_PEuUlosUUWGdKP90XtM5ymsoJvFiqV9QpWZtJphIOeuLSO8ZxS5Ac5DtQzQF3sW9SbA6HauEg=",
+        "status": null
+      },
+      {
+        "id": "ws_0093b05ae5b6d0f3006a64efaf7ac08194a3677235a064399c",
+        "action": {
+          "type": "search",
+          "queries": [
+            "historical revenge plot real case false accusation returned years later court adult",
+            "real historical vendetta revenge deception inheritance court case 19th century",
+            "François Picaud revenge case source history",
+            "historical person spent years avenging betrayal under false identity"
+          ],
+          "query": "historical revenge plot real case false accusation returned years later court adult",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.retronews.fr/faits-divers/echo-de-presse/2018/12/20/francois-picaud-le-vrai-comte-de-monte-cristo"
+            },
+            {
+              "type": "url",
+              "url": "https://fr.wikipedia.org/wiki/Pierre_Picaud"
+            },
+            {
+              "type": "url",
+              "url": "https://legalclarity.org/the-brian-banks-case-false-accusation-prison-and-exoneration/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Pierre_Picaud"
+            },
+            {
+              "type": "url",
+              "url": "https://www.propublica.org/article/false-rape-accusations-an-unbelievable-story"
+            },
+            {
+              "type": "url",
+              "url": "https://ncip.org/darwin-crabtree/"
+            },
+            {
+              "type": "url",
+              "url": "https://opencasebook.org/documents/10018/"
+            },
+            {
+              "type": "url",
+              "url": "https://paperspast.natlib.govt.nz/newspapers/EP18930415.2.88"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/HistoryPodcast/comments/ehss1a"
+            },
+            {
+              "type": "url",
+              "url": "https://journals.sagepub.com/doi/10.1177/000312240006500504"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Beilis_Affair"
+            },
+            {
+              "type": "url",
+              "url": "https://legalclarity.org/denise-huskins-and-aaron-quinn-false-accusations-and-vindication/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Martin_Guerre"
+            },
+            {
+              "type": "url",
+              "url": "https://shs.cairn.info/article/E_RHMC_603_0031/pdf?lang=en"
+            },
+            {
+              "type": "url",
+              "url": "https://case-law.vlex.com/vid/rixey-s-adm-r-889150150"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/False_accusation_of_rape"
+            },
+            {
+              "type": "url",
+              "url": "https://centurion.org/cases/damaso-vega/"
+            },
+            {
+              "type": "url",
+              "url": "https://api.pageplace.de/preview/DT0400.9781400877300_A26070452/preview-9781400877300_A26070452.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/NuclearRevenge/comments/c6k76m"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Alice_Sebold"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/revenge/comments/ws4mx4"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/TheCountofMonteCristo/comments/1dkh7ix"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/TheGrittyPast/comments/ei3zzv"
+            },
+            {
+              "type": "url",
+              "url": "https://h-france.net/rude/wp-content/uploads/2017/08/TackettVol4.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://journals.openedition.org/chs/pdf/959"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/todayilearned/comments/jgpcg5/til_of_pierre_picaud_after_three_friends_frame/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/namethatbook/comments/ocjvq1"
+            },
+            {
+              "type": "url",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Murder_in_all_ages%3B_being_a_history_of_homicide_from_the_earliest_times%2C_with_the_most_celebrated_murder_cases_faithfully_reported_%28IA_murderinallagesb00pink%29.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://journals.openedition.org/chs/pdf/1707"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/InnocentManga/comments/1t4pg6p/so_the_first_month_of_charleshenrys_de_facto/"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1308.2181"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1708.01681"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2106.12223"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1811.00731"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/AskHistory/comments/r76psq"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/MedievalHistory/comments/1549zbm"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0093b05ae5b6d0f3006a64efbe701081949fe555e23e611ced",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZPACFErFdl108py978NVqlvg0b-8iPkVev797oVdQYXXkcchdLIoOhQG5zTV7kqj0g54eOzlELPHzsD0VMvEi6MXpVHjdZKRmJAagYMZ2tqGj8Q03jIvPDHnsk6vo0yzzGZyw5VpsOPwCIm2tPU2Bl6H-_ck4QjeDyMYBqQV7-NTN1rPbfCkTZF9uxXcSKYeDxWhrFhtjEY3Zr9EzKdlvT1hmz_zGR7a_5Ixl8ASVdqGnWZnsEHowCLwDxEXSfBHWVLV6XJtcn1ZU1SB6-B1J98PpGBRFGwPx7ABw5qx1ghhicigkeaoKUriNRqKwpBY_tRTSU7ZWhlAqOvbdjnSUu54i5FRQLHaAjdCssKzT8-5wyCgocoOsHjvpaYBzW-nae77tkPLdDiBAmnoAhH8m0Fduueuqto4OV1etsnPU0bApTV0OEib-zBzkdG48nAlscnl_-kOD_pK3dI_9T9_Bu_XsYUUGmcrfBos4aqqDTZR-fmFj3hVnD1zDTYfWCr2oyX1WkvtCzcOiJKztIBMWN_0wXRE5Y0xsRT3YaRnXYFFRFHFkDtubosgoabDPWyX15ugCnUD3Q4LUgxh2SXsPdqJl8NjnBg_NS7bljMZbuXxYps7fBiEceZKl4uW2GaHChOr0lb4ZDRisiL34hrZSY_ga_T8OfHMiJDADos660iPz_O6MGztebb0Px3-Q4mq4gN1z_3qkD9o7aEAeC2dA3N4Lk3GxXoVhDLLChhfiJCgKmkerEiZAiGNhXXXqgSOQdwTbF95T5y68Yj-iKkvLL45JXolEhV9908zKahUH-8ak4tV0mhcfHOS6kq-dkO3fDeIjm3_ifTA8vWBku9B0ZiyQQRN-RW2GobI3Uy47DhoF8hUK2f_2DmQsANTxCjcT2HlWmNxJgYJC3yurdNi8CfN8bHmn3fQ9ZRVjRzu5HKWkhJpM6mUt034aKX-Ov8Zn_olRQaZrkbA6eT5uCf4MThGiLbsFAidRwotAisaZLtKBCmqstItKyoyQaFqooEuIYoF7CMNhGou7iBmdNGVG7AWimu8D4-cbSVrWvs0SjFsAAxivndMlh8JNM-_gxmAo7paFqOR9PsMl6N_qH1Kw8Luq1KXxLC5d1yWFlHg-u_SFg3mo0Ccpa_94jLav9uuAWPmgofYNlU_-_IG6a7qC_AaN2taqAA4TGfu60gU0kNJUTi29cnZ7_ahRUrt-kAGmxhNukrK1xt6mxlupX5X9DDczcOtuu1hdivPtLcVb8LZcQ5nnviadlsmkl4ih3MQbKbKU8A2c1l2qBkBL0B7RBwTnJwjP5q-dmcKz0Rf_s1R3DzXYcu2xPWi1-BYErcFeNq25ZInFSJK-dMXhkWRBS8z6ME7veft6rX8kBLz6UrlVJ_phJNat6qHm3lcY1WPHjSpghSOwkeXfz_VRziQMtCYZiT2bjxK7HJJxaOZFgDyvgNS2eujiXn4dWjhRV-t2CWom3HBKOVm8i7zObxm70ZES0L17ysasSvBx8xRk-ETo_G1ueQHBrDj9I6JqmjTu3xWHC1fo7ms0p8qt8J5z2xyEZl3lM7yn1rr7-tGhf_6jmpdKQztA2Tjf8G8jaP-7-eHCaPFf5oUQ80yf68rY0IxMDp593c0grtALWSO8FBXqMWV1L_u5uFH0rsL4wuxmUPMUzoBK9ZrLv84s9hs9NzoovYJBRlD1eDUfoNmk34nddMq-ziHRepfioTni-QkxusIDYKjBek_qFnDmpCEPrY1Sxh1n1wwXjmHpuM5r00J1Wz1jwPQdHxFm3HnkHAaeawvqhw83VuV1uIdgwgFTT7j5vnNuXbH2NEIBg1CC5_nfBtGzUzE5iUrqhjtqCAtXieHBuiw5QDL8bwevQbJQteySxzUaK-pHN53ZNovu3H1Ht57pBI5_u7d9RVSGT996OTNlU8E1AuRT96-LUOgsj0WVky4K3mPMQpoFeMaGNEVju0zBoHIgqN114Oxv9O3jeIxRaDr331sFwleGNLB2zlBIiR0_LKJSqfG87FLvMedB5VkICNIez3TtirSMmYkOkzwIrTBeGkWjc373s5P8x-zAQ6uIvdrhXc_LATzkiN2gk8m9zVOcS9PTFQyzTSfdjt3n20cutfLqttJTGja0l8La3so74og2Iy0CiXMvcUQ4kX4OV2SZj_8WHLtyDZHyYyp",
+        "status": null
+      },
+      {
+        "id": "ws_0093b05ae5b6d0f3006a64efc084388194a9efd9d9e69d7686",
+        "action": {
+          "type": "open_page",
+          "url": "https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0093b05ae5b6d0f3006a64efc7147481949aae2dfaaee1f95f",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZPAC7yO7B82i1jSpbGuIfvkRfCpeIGnUsSOnsDLy_J6yFESWTvQOustmlMcdq4LxktaATxYpHeif_buwvox-GJpI7qXW58YXTWiihdCEHj1_iGOW2nAbeX-Pdg8vcLzHCnGyWdcV0gZyMdSsSgWCzHXNiCTR8vVQp1qPeZF2sqX0AHKGZsDrd_3Bc0w-E8dWCjroonbBTehcNfJM1_Idc_rDUzCxa7x8sH_d-Hh18T2w5uTKrNu1Jqe0hPEwqJ8l7lrcB3LfgQoDMVl3yTRsN3s1Q61C6k5wuYe7KBieKoBwmHVZb4XOXaR-9si2X1S-E8iYcYO789T2uZdVkJbTZiNKDlvQAniYRNG8G1aXBi2vHMrbUEl6UYLp20hYAugL9BUtp7XG9PtxTdslJrOQKZSnmv6cXkCHrHoLGkA7xcXKREfNevuvVlgykI6m0UepWNyNW-ocAnK4EgD22apwrsEZ58lsK6u6O1o1hlBzHWMBnEpLcNvxqsWT95BdJxTRv8H3YM6lCnOUAk1AGYoSDjSSBls5V4FOm3rIpMgxIWidBrxRHUg-fqWAKxpD_6jW5r8KYKZ4ezbt45fvwCEHPq7tHLa-DDFPBEdF1zFKOJTHb3sAcUyCCStefP3p3S17NlXgwn6IRawiV9Ja3LkzXSjcBTIUfHmdcmwfsVpiaTqYI1gyKeCXgDi20tH_5TPIxYK177vSw5e5UpbGlT4p4m3vy3VRoBlLVtew7rLqNEIJoFNUKIYdydGZPIbW0JVCniTe574W8zwN8cznian2MJXo1cDNmzemqv6nJpP-RCdodRErIIZkHrydLKEDSbCwhJoQwosLn4nmV9F_x2jJ1LC26afM25UocO_B4t6HbgRh2eLdPbsHwSC3f_Uqw7uZ9fk7hYh113WZWJYHBJ-EOw61SqWZ43AiShEPrcIvJ0xq9pkV1PQ2w_-5U4i_-sesrzhPf9lJWVQkbyxBeA0-Y6COZynImIUWZU_jO8sy5PchFqkjcO13MDJllcC4g_5afSwye73dZZO2rqPSbqpWHtd3cMdJ_B9FG6Ag5xl0cVjWjQWf21lCqJIDPMKBxP7izHI8gYMNlFdRh12XfYKR3id6xdbiQavrzmYjsvg9JWKRIuxz6hb9C9_-QkHwFcF7ntL6KNHN52J2JND2QUjpgihB4LcE8TFC5emZZlc1TYZTcT9LX4iOtAL2EihoZSsQQoWxz21Wm1puIZdH9Pld4Hl9dvTJ94Tk0CvGGfT-DtoCLcuulsj24MOG_FJafYy43IsNgS9PKQdmUNZySLG7FXlTd1I6M5q76AsMqTJaiFDBr5nq-ZrV6AQeVteKrCgX0BkWaDGNR7t0LR0X-2hzGm30LhFMBlHIlyNF7r5gQpSiIX0pYd3Ci2HtCz_ngA9UhhbPCRvbU3AkgrjmQkFHggDLnsKKsS9ULQ6orLCMRMXjzVMm_C2_xzn4IWoGEvpcEc1uSYOv70TcGyob_B7OSUf62ANVWrOB2a3EN6HgPFFAstGlSuy3pnbi8BWRHsVz_dabWK5wGRtsyKciy1xXKqVn2OmuuXMtsKyErbLIbFFag9nmxSC0IQHunMMGYTdvF4ebmXADftVox16y_LhxBkEd7hHkiGL7gB9XKbywcFcvOSiHVQP7l5Gb1QEohpmtPd6vJSu3u3qJMCXW11Z-EzOyKq2BT9ncUSN9oAlbBt5CBv2mxWX1JMWJDK_XwuF57ug2-N24GK71KYYD6SmPGY343WMSyaUQ8Zo9Xn59eN6ogSkM0bZhlnUTmFoH8loFZiFvpPgLMJngayqvFH-X-nHs0im3OHhHXQ7ORFPwzMeOT0rvXMBDhCbpyl4wpSQhGO8vm0XgSaEtpwAq50QQCfiV1MqsTx4oLGPcip-tDvjbzI6ueMtW8QXoQvGu0AhoolC3U9z16K754LpxnaPqh3p1jKPSSmgsCrTuGnw9xxOs4c4jPRfFQ13F82nm30WE_u9VkkNsnJazNvJCUFTi7nQ_dY2_8Sd3Ria2pSxrt5Yr9QtJT_z3UvEm_LOU1bn_2NUOMiOqBqFEc1VkXDRydPkoMAYck__S0yBU2x_7SaqF3zFoLnOLG7op9httrCv_Ta9QpYHK9Bmg1jovhOVntp6r8M_X6YGAsCDXm2KnWTvpU7lgsFedRUrMFGkgboj1NU0VUpxyFw6BppZU9QBQUDwjiteK3A2jf75lJvRLYV7t1_atRVEwxAlRg7pCoiYSvoXO92T4uPnnN9_5E1Qlec1bh5sX1rTOiq1aZrxCRttUp1Cede7XtyPSHGl2DCex4jkiVbj7NzXxu9DOkHpAk3qrjprH7yJSiTumaZFjtIbGfLxlJaSIH3eVLC-ul9oFnUw6upY7Kq_b7Ty0pQY1na1qq6jgRJvSMPYV_9rBZfJ-VfN3dPPk5Ct_SGMAZ9626EZvH0SXY22kaMdr8vNGTpARf6Y39kqigHVtT5rnROGoluw4n-b35GAUpAUWcIHTArGejVZ2D2dtvN6Wa7PI0JLkGVs6Hous3CnTLdpd9uv3uG5DUnk3FO6tD-kpKf5WnsEo5d3riC0Q8qTAt0ORk9o9XB3gaHIX1Lsst-bGuYfVJu8ZzkJlaE0tFCKd6gX5fDxI1JPeZKMTDvJIHD5yMdIs6goczIjsEWEtHlPxnczv-MC_tHp8ggbGzMuxuRSHG9sVcphXsALJN8WWSHoG3m1aSHmAPU1UvFny3X7cdAuHbWPsn5HXoGm_gkA6PdzaGUv-N-maTe0Vh8NEvxABG-YHfTrG3kKB92sXXyTwNR_ElqAhk4obS3TUxSfzwEfJfE5hGHWNScsLqo0sqzmrqxtjFw9SzZJnvRLXieoXOm7wgvyX86wshNnV_4XIIlmZraaBTojwQsa6GgB-K2piOTa2QP6_La2cAGU_Z8CMTjZskgFIVZMxA2PGDwBlXNOuAEtl",
+        "status": null
+      },
+      {
+        "id": "ws_0093b05ae5b6d0f3006a64efc997508194a860204a149e14bc",
+        "action": {
+          "type": "search",
+          "queries": [
+            "The Tichborne Claimant 1998 film based on case",
+            "The Thief His Wife and the Canoe based on John Darwin case ITV",
+            "Baron de Richemont film series Louis XVII claimant",
+            "George Psalmanazar film adaptation"
+          ],
+          "query": "The Tichborne Claimant 1998 film based on case",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.itv.com/presscentre/presscentre/presscentre/media-releases/itv-commissions-extraordinary-story-thief-his-wife-and-canoe"
+            },
+            {
+              "type": "url",
+              "url": "https://www.itv.com/news/tyne-tees/2022-04-15/he-is-back-itv-drama-re-tells-the-story-of-the-back-from-the-dead-canoeist"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/The_Thief%2C_His_Wife_and_the_Canoe"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Baron_de_Richemont"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/The_Tichborne_Claimant_%28film%29"
+            },
+            {
+              "type": "url",
+              "url": "https://www.itv.com/presscentre/sites/default/files/the_thief_his_wife_and_the_canoe_final_press_pack_.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.itv.com/presscentre/print/pdf/node/5429"
+            },
+            {
+              "type": "url",
+              "url": "https://filmsandfestivals.britishcouncil.org/projects/the-tichborne-claimant"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/List_of_1998_films_based_on_actual_events"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/John_Darwin_disappearance_case"
+            },
+            {
+              "type": "url",
+              "url": "https://www.imdb.com/title/tt0127933/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.rottentomatoes.com/m/tichborne_claimant"
+            },
+            {
+              "type": "url",
+              "url": "https://www.imdb.com/title/tt0127933/fullcredits/"
+            },
+            {
+              "type": "url",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Louis_XVII_and_other_papers_%28IA_louisxviiotherpa00trehrich%29.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.history.com/articles/louis-xvii-death-marie-antoinette-french-revolution"
+            },
+            {
+              "type": "url",
+              "url": "https://www.theguardian.com/film/movie/77593/tichborne.claimant"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/TrueCrimeDiscussion/comments/16hilhl"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Louis_XVII"
+            },
+            {
+              "type": "url",
+              "url": "https://filmthreat.com/uncategorized/the-tichborne-claimant/"
+            },
+            {
+              "type": "url",
+              "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/97/98/2020719798/2020719798.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.treccani.it/enciclopedia/henri-ethelbert-louis-hector-hebert-detto-barone-di-richemont/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/BritishTV/comments/u73de6"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hervedumont.ch/page.php?id=fr10&idc=373&idv=4"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/BritishTV/comments/u8741z"
+            },
+            {
+              "type": "url",
+              "url": "https://en-academic.com/dic.nsf/enwiki/162517/"
+            },
+            {
+              "type": "url",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Who_was_he%3F_Six_short_stories_about_some_of_the_mysterious_characters_and_well-kept_secrets_of_modern_times_%28IA_whowashesixshort00redd%29.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/A_Pelican%27s_tale%2C_fifty_years_of_London_and_elsewhere_%28IA_pelicanstalefift00boyd%29.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/AskReddit/comments/z8kff9"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/todayilearned/comments/1gjeti1/til_of_john_darwin_who_faked_his_death_in_2002_to/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/FindThisMovie/comments/1mrns16"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/FrenchMonarchs/comments/1s2mow5/do_you_know_why_calvino_in_the_baron_in_the_trees/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/interestingasfuck/comments/1mmbmhj/in_2002_john_darwin_faked_his_death_in_a_canoe/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/translator/comments/x3mat3"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/monarchism/comments/1bmhzfv"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/monarchism/comments/eo9qf3"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/monarchism/comments/talim2"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2311.04020"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1802.09944"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0093b05ae5b6d0f3006a64efdd6118819499d76e2dde977e0d",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZPACi4TJb74MXRcpz84haJ4T8ZbS-8kz5oFXq-c-b293U6qm_VkYxkeXP_cHaOANe0byEkYrooU1v7IQ4ZOfyB-J4ya0ePeroKIlcDNH-NJH_JUjLyPxqgnSu-W4Jl7OoRA4QWNkbNGz5ZeiLPkUrnAwikJaMhSH5Jy3EVrIFj5Jr0lFNtgy_6U0HTz9PojtQa6gR8c3vj-6yX2V_aS045mFT3n26RCaCBSfCV485IrJVHu4iMz85AoGcCpoyetDgi5rNcBylk5IsXS8EDYS5cWJ9NxUYZOjg0UvQn4GV26nnvhjNbnCCXZvAX1CO-eEKV3yJsYLslqAHEptdbAg0Izn6840NDB2nvAsmmj45niLzwVdzUOqHkpudEtvstTDHrSI9sJkbubp2RkXfM15P4AUlecTUZrHHOI03x1ZiKBfnkeHdncMTY_R9H8RCAhNYJVGjfEnAww7KCeeS7GCfC5FDGGKFFnhBMkARl7mlKvHC4du9sWB3MMTrPOPj23RtY8SDmDaYQPGXhbAqHpkMUHHJQ2UB4Swh9wkCktg3V-NYzFlFzOPNGOUsAG-x0-9XO3DasGXbE461tg44re1KIwdAutbfKAXem56OP1k2LjuNcjEc_dUCOWVsi9u7gLj0Qw-venqt384HtgFUW39e8bAqeFO3RMGcL1wEzBzJYFEOhnJGX4U89SuAv2Wnv-hEpJpoKHyyJnB1f8pxjeQ5rJN_VWHJzSC2HMMU3iNdOGmTWFj-DybspjMEFe-ZzF3KljiPdAz02pinLd-X3_rFebwKfoHqnYk-wFOMfiVy3ob8JH7reFFjXmH4MuhY66UcWNIe8TjUlh3v7jWjrMWaOUkSxvVMAaqHglf_YdektK2askCVZ7YVsv_4MXY9dbP29CHahyB1qUVPcashDcYBFgXHSWi-IDUL262WgjvW9KTMly8BqHHDf04HXF7etlo7A0naTkqkK6OZsmccw8KteAd-aMOWYLBO1jhqjtpXa5rCimC4YJgr-bxzkvuREKwaYOHjGyWbgA1syhxDVpLJtLDu4YYJ98VTode6zUpVmS6rQBkVJguEtMiuLBzr2QYDI677UhryQMCUXc9GWfnvCast40RzTQSDAxaIKmygqMoeZ9CTMv-4B5np_fxiMFXvE6GRAj7rrACg1EYIYNdYucjHReBqqxyfBlBtuLn28DHkj0gRlXJc3X-kCb5To6kUdL-F3hUkSoMaaPY6F7PhlDBKI9asfm72YzzyU1JWrj7RsKEVVuxTMXtsnIn4bIKPbKeX_L7oJh1Q6PqiHQsIn8sv5iOeD7U7AfLrY_m40iOT6GDnX1ZF-tIBs_j2Nd3kFcRtf27R3Su_-XDPky1Wo1XEmuv4tm6mTIzf7MajjHSRgGvBcu1qsmESFFZJEVm8_gmHDZxy8BZ9y2nalMTxAKF67B80KJTvDMYfb9FF33Hqw6xhsldQsjOInw4kpMJ15cz79Fd-uhlrauMVXdbef2gty87MuHur9AdXvh-mbH71ZMZQeO1ocTxgDa0jkNa55vKjg6gLn-77mY65E63MTMSGyLQKRwUGW4GeIz_wPSM_xbujc3svZbaYOyKeHk7ikKo7hEDgUxN7Vz4rdBrllXYrG2tFr2Q84Kj5V2tCYOM4h1v_-LMGKrTIz6b9PtRUJ7wB_QJKf1dmFUmXJ_c3ZrDjiefsea3i99bJUZn0vz_K4Xb6E3r5uDCxoQ1xKvnpYYpz085EGbymIst2jDyJlOWlRkZLmCQyadQqY-zfZk8QAp69aWttYTVzxnAc4r1EVyEGUeWCxZjZl81P2VAbRFgqp7IMNGz_w-caTmupcn2W3Vx9nwZxoANChjltzFtQFTTF0hVd8ndhuKbSIG_Z7lXvHaxfq7irV6CQhNu3QXRyMwI_z3_IBS_A_l35NJP_mKlyWi4AdLrPuq8AUiP5fuXe6gyxMxI1rJ_en06MeG7xVvHg43KoYStQHFqKcY7nfxV3zYBpiCOdTHYyUYRcO7l63AtKv8RnMtQO6i6RSOYV8QVpWM3YZfgkUVAI0I2MIty3HIKBSzlo0Gn-G5r4jX1w6MYrgRzXKgBBoZhT5i9D8-Aslaw_5spi8NYA0jjMB4CSzZpxoQZH2wvTagbxIIOpn2NZhKaUwKOLs6jaefqk3X0wXQjLZraGWiqqB3fiGnlZJtFI2OrcyaGRxVbGywtcjqhXYhNxvZRxgRE4hF7lQQU0CJXaagLNe1JtquFh8UMgvAJO7cpXcBAU-XZWdMeaxUE_KRX8hXDKUzSCGdmtCdaBEZXkiHexHkJMqZA9NbmlEnFlZEQOsOkQOnNJ8Si6Ort1Bb9lJJ80p9-7BxjdGUggPxS_8KCd8M631lXyRvfHTUU-0qoZxeh_RR780kEoQ-xxjIrUW-kxj1ljk9Qo4G7plu4RrlCixfdEBWkOd-QNRgwpwSQXgcYJ6MVphCk2yXAMNveDPaPLeH4xPp8iO0w_VXOXguGJ2duMi6YfzhN7mYPl77_3bYfP5i0cylDYOqFsIr7fMTk7iG2jzZlJjejhAT_Lu6ZyO79-2zzdmRHe3asYFzMjXL33SyFYewPOur5TRGMOEhVtuEfieMu72JKazy7KBEibRr44B_pnBkqkJ5hFnYMIFvqGH70IoAdO13ANWTp72X-wLuTCns5f71tIsC_z7Q6uVLL3zBwlugtCUTIGsAM6vX8YhNJtrBlimdwu4TpuKneek2_MYmMlMcOmv90mKZVpqA-IdsMFgkhaAhQYfRGzESGkSDLm7UBzxskdYR1a7RTrBeDIGfeflUCf_YwU1d5eEF3Du-Xf6MClApQhKmBxMwG9Uc5Rpo2Y3-KvFhcixqVgE531Qio-X8ldI_p8VerglmldShUDKOzzhyTemaG7xLDE2tOFGGU--5Fs2ePcPZs4NQBAJ9gt0HEvGEeMlom_arEGG7n-6ekvqAUX7Zj4YMrKvhMvU6aMHMxzXNlYrDYHQtrWb18JMqubED48au2YfpaKbkmGRw8IBeucWZ8iWItZS7LWsOVlynphXOAX4jsMV8BM1D1Su7AWCuw7D_i0FC8iFV4rfzrQGaAE3YwlU4kqoBDZpkBjb8lqyf294BVc61jI-ync1cUs1MThybfCJbsQFVS39mQI9PglAwg7vTHMsKQWuPMzFWBcKaubf6rlrOVF5OhcSEl8gtfzrGV_GJc4KzxYdhnTspK_bfRLLyvxhW-P1jv6A==",
+        "status": null
+      },
+      {
+        "id": "rs_0093b05ae5b6d0f3006a64efe58ca081948cb1ebe55e180384",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZPACZZtVBehFCWBV3JwQ0rz3eRd7R8MDLxRifuwGAScEWiC8swnMIt1FaYVlW3AV97f7Wtb0bCguTNr0OnJrt_W1-8Vco2jn9a4UbcYwijfy6yW_aPcOtdz5oj74InRuQDzIk6L9OSlzFkFG3meVw8UQLPHrTymp2T-85uCX42U3XaDINcX-PqSK2chn8G3nY2_Edmy8Y8wjTYy8wK3r9hH5LaYjeF-tiw9yO6hBxV7dxx6VfDUEPDecRJyKG5f21DglwPj-1QbQO3pQn8TgbQtyUeAfpdlqfBpwgnseoe4o92XEcKO5rlifH1Gq5n9lVC6kN_u0ujyanOXf7WXSs8EQXkUrz4R0IiYRQ-GexJg42c6Ztlw5TjyL38IUdoHK0eLQW45hLC1Ii8q_47Y5_X8QC1BNMXA04g-CY1AmxLgdzLmJ5GvL7vybABAmyBz9HT6E-q4JrZnBDKCqqzVceYIunYcQDIkcRuRCBsyWTMGqGx8UedgbU_ImIowpuvFFgTb-PIc88cLOBpGn2QhGwXVar4ddT-GP0g-Vx-imIF9LgY-K8c9MoXB00TE0niPPlp0Ej58nf44Poibyt7hKyXJo4tYhnbkINl8xKLF8TaCfRpn7L3ZA8JXOujps00QTKhiq9rxrlDs7z8enYDeWYcQ9LNDzVZIcmVcjDZBIGF9KsTO89cbyvMfwC4kU81rU-PrSeOzr0ySckOaGfMWVxundka16AavIPqCjzxs2l0JIddJN729YWkWlNS5HAD3rUFRtznJHQIpORJnNAy1PEPq5lhaVQ2JakgfK4oR0PD2WmrK9RuMSOLBGLwDvNrC_iCxG4bMWyDm5x3LZMh_I2QcV9OBrZXY3o_lUmI8q8pjcE3IQCIQ0N2b53wiBGfrrVtsJtMub8t5rAuXjoGwxrtAoqQASYEZ50B7qa-r5TnYlxw2TlDxUl-nt0I5MilJkHOTb2MTtkH4fSaz-udLBizYaowzhhrsIBVqBdjnxIXJFe3dSyr2b4cLMgEkkLAQgxOFYXa3jK5SUc4lQDT817L_khTXi-_8JLqx24dkacVKMI_LSBmyB5eHz27e91VLQNpQDDKKPuNB7BnH4K_tQYqP13RLdeI0xBmyNiDq5pJls7wWEI9esJt8YQR0ooqsVDtzURd2ThG345exnuEvpN6OkofyDXAuQAvFfTKvduzCDv2vzLuzrbp7UgZJw4M7JjqNghMDOjJBRaBx7LsXdjxaFIIBP0baZo4AmgJ0xDqO25pKAfpn3tJg2MNWEz05hcebzG7riEhJXJN4Hu8KULzZhepOF9eug5-G_Af5QAILkxRbRN_1KNhGmYhETx6CCQyBg",
+        "status": null
+      },
+      {
+        "id": "msg_0093b05ae5b6d0f3006a64efe681c4819482026d6ead911335",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"winner\":{\"title\":\"Poyais: The Country That Had to Exist on Paper\",\"category\":\"THE LONG DECEPTION\",\"one_line\":\"A decorated soldier invents an entire nation, sells its bonds and land, recruits settlers, and must keep the country alive in London after the first ships discover nothing but jungle.\",\"year\":\"1821–1834\",\"where\":\"London, Scotland, France, and the Caribbean coast of Central America\",\"mechanism\":\"Gregor MacGregor claimed to be the Cazique of Poyais, manufactured government bonds, land grants, maps, promotional literature, constitutional details, and a colonial administration for a fictional country.\",\"engine\":\"Every new investor, official, emigrant, and creditor forces MacGregor to add another layer to the imaginary state before the previous lie collapses.\",\"episode_estimate\":300,\"cast\":[{\"name_or_role\":\"Gregor MacGregor\",\"motive\":\"Money, status, and the need to make his invented sovereignty look real\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The London banker who validates the bonds\",\"motive\":\"Commission and access to a fashionable investment opportunity\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The Poyaisian recruiting agent\",\"motive\":\"Belief, self-interest, or fear of admitting complicity\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The settlers on the first ships\",\"motive\":\"A promised new life and land ownership\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"British government officials\",\"motive\":\"Avoiding diplomatic embarrassment and financial scandal\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Indigenous and regional authorities near the supposed colony\",\"motive\":\"Control of territory and resistance to an invented foreign government\",\"spinoff_potential\":\"high\"}],\"scores\":{\"engine_longevity\":10,\"hook_density\":9,\"emotional_immediacy\":9,\"conflict\":9,\"cast_depth\":10,\"total\":47},\"clearance\":{\"status\":\"greenlight\",\"reasons\":[\"MacGregor died in 1845, more than 50 years ago.\",\"The story concerns historical public figures and institutions.\",\"The fictional country can be dramatized without exposing living private individuals.\"]},\"prior_adaptations\":[],\"sources\":[\"https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29\",\"https://www.britishmuseum.org/collection/object/C_CIB-14659\",\"https://www.britishmuseum.org/collection/object/P_1868-0808-8817\"],\"why_this_sells\":\"The instantly recognisable fear is discovering that the country, job, property, and future you paid for exists only because strangers keep pretending it does.\",\"why_not\":\"Its strongest settlement material can become grim and repetitive unless the serial keeps returning to the parallel London machinery sustaining the lie.\"},\"also_considered\":[{\"title\":\"George Psalmanazar and the Country He Invented Inside Himself\",\"category\":\"SECRET STATUS\",\"one_line\":\"A penniless European drifter becomes England’s celebrated native informant from Formosa, inventing a language, religion, calendar, and childhood until scholars begin asking questions he cannot answer.\",\"year\":\"1702–1764\",\"where\":\"England, France, and the learned societies of early eighteenth-century Europe\",\"mechanism\":\"A man with an unknown real name presents himself as a displaced Formosan, then publishes a full cultural system and performs it publicly for years.\",\"engine\":\"Every lecture, patron, translation request, and theological challenge requires him to expand the invented identity while concealing the absence of any verifiable past.\",\"episode_estimate\":250,\"cast\":[{\"name_or_role\":\"George Psalmanazar\",\"motive\":\"Food, shelter, celebrity, and eventually the emotional need to remain inside his own invention\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The military-religious patron who sponsors him\",\"motive\":\"Conversion, prestige, and proof of missionary success\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"English scholars\",\"motive\":\"Access to supposedly firsthand knowledge of an unfamiliar world\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The publisher\",\"motive\":\"A sensational book and commercial profit\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Oxford language enthusiasts\",\"motive\":\"The chance to possess a language no one else can teach\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":10,\"hook_density\":10,\"emotional_immediacy\":9,\"conflict\":8,\"cast_depth\":9,\"total\":46},\"clearance\":{\"status\":\"greenlight\",\"reasons\":[\"Psalmanazar died in 1763, more than 50 years ago.\",\"The principal characters are historical figures.\",\"The story is not dependent on living victims or private individuals.\"]},\"prior_adaptations\":[],\"sources\":[\"https://www.camphorpress.com/books/historical-geographical-description-formosa/\",\"https://wrap.warwick.ac.uk/id/eprint/53116/2/WRAP_THESIS_Hug_2006.pdf\",\"https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/376/WINTERBOTTOMCompanyCulture2010.pdf?isAllowed=y&sequence=1\"],\"why_this_sells\":\"Listeners understand the panic of having to invent more personal history every time someone asks one ordinary question about your past.\",\"why_not\":\"The deception is intellectually rich but lacks a single physical antagonist, so the adaptation must turn rival scholars and patrons into active hunters.\"},{\"title\":\"Operation Greylord: The Courtroom Where Everyone Was Pretending\",\"category\":\"THE LONG DECEPTION\",\"one_line\":\"Honest judges and lawyers secretly pose as corrupt fixers inside a corrupt court system, while real judges, lawyers, clerks, police, and bagmen try to determine who is safe to trust.\",\"year\":\"1977–1984\",\"where\":\"Cook County, Chicago, Illinois\",\"mechanism\":\"Undercover officials staged cases, wore recording devices, offered bribes, and acted like crooked courtroom insiders to expose a network of actual corruption.\",\"engine\":\"Each fake deal opens another courtroom door, but every undercover participant must preserve the illusion long enough to identify the next corrupt official without being exposed.\",\"episode_estimate\":220,\"cast\":[{\"name_or_role\":\"Judge Brocton Lockwood\",\"motive\":\"Expose corruption without destroying the court system he serves\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Undercover prosecutor\",\"motive\":\"Build admissible evidence while living as a corrupt operator\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The bagman\",\"motive\":\"Money, leverage, and survival inside the bribery network\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Corrupt judges\",\"motive\":\"Cash, influence, and protection from prosecution\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Court clerks and police officers\",\"motive\":\"Career survival and deciding whether to cooperate\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The investigator’s spouse and family\",\"motive\":\"Understanding why the investigator is absent, secretive, and at risk\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":9,\"hook_density\":9,\"emotional_immediacy\":8,\"conflict\":10,\"cast_depth\":10,\"total\":46},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The operation involved many real people, some of whom may have living relatives and surviving associates.\",\"Change names and composite several officials, informants, and undercover officers.\",\"Keep the institutional mechanism while avoiding unsupported allegations about individuals not convicted.\"]},\"prior_adaptations\":[],\"sources\":[\"https://www.fbi.gov/history/cases-and-criminals/operation-greylord\",\"https://www.isba.org/sections/bench/newsletter/2018/06/whengreenbacksweretheruleoflaw\",\"https://oig.justice.gov/sites/default/files/legacy/special/0509/final.pdf\"],\"why_this_sells\":\"The immediate fear is that the judge, lawyer, clerk, and investigator all sound trustworthy because any one of them may be acting.\",\"why_not\":\"It is institution-heavy and needs a carefully chosen central undercover protagonist to prevent the serial from becoming a procedural anthology.\"},{\"title\":\"Cassie Chadwick, Heiress to a Fortune That Did Not Exist\",\"category\":\"SECRET STATUS\",\"one_line\":\"A woman walks into a banker’s world as Andrew Carnegie’s secret daughter, drops one forged note, and watches an entire city compete to lend her money before the inheritance arrives.\",\"year\":\"1897–1907\",\"where\":\"Cleveland, Ohio, New York City, and banking circles across the United States\",\"mechanism\":\"Elizabeth Bigley used aliases, social performance, forged promissory notes, a staged visit to Carnegie’s house, and a carefully leaked claim of illegitimacy to obtain enormous unsecured loans.\",\"engine\":\"Her status only survives if each banker believes the next banker has already verified it, creating a chain of mutually reinforced secrecy and debt.\",\"episode_estimate\":180,\"cast\":[{\"name_or_role\":\"Cassie Chadwick / Elizabeth Bigley\",\"motive\":\"Money, social power, and control over men who underestimate her\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The lawyer who accompanies her to Carnegie’s home\",\"motive\":\"Professional advancement and the thrill of privileged access\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The banker who lends her his personal fortune\",\"motive\":\"Greed, vanity, and fear of losing access to the supposed heiress\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Andrew Carnegie’s household staff\",\"motive\":\"Protecting the family and understanding the stranger at the door\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Her husband and household\",\"motive\":\"Respectability, comfort, and uncertainty about the source of the money\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The creditor who finally sues\",\"motive\":\"Recovering money and proving that the city was deceived\",\"spinoff_potential\":\"high\"}],\"scores\":{\"engine_longevity\":9,\"hook_density\":9,\"emotional_immediacy\":10,\"conflict\":9,\"cast_depth\":9,\"total\":46},\"clearance\":{\"status\":\"greenlight\",\"reasons\":[\"Chadwick died in 1907, more than 50 years ago.\",\"The major lenders and public figures are historical.\",\"A fictionalized adaptation can preserve the mechanism without naming living private descendants.\"]},\"prior_adaptations\":[],\"sources\":[\"https://www.smithsonianmag.com/history/the-high-priestess-of-fraudulent-finance-45/\",\"https://omeka.library.kent.edu/special-collections/items/show/8599\",\"https://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/87595-true-crime-2021-catch-her-if-you-can.html\"],\"why_this_sells\":\"The hook is a fantasy every listener recognises: being dismissed by the powerful until one secret connection makes them beg to give you money.\",\"why_not\":\"The core con eventually narrows into a financial collapse, so later episodes need strong domestic and legal subplots.\"},{\"title\":\"Piltdown Man: The Fossil That Rewrote Human History\",\"category\":\"THE LONG DECEPTION\",\"one_line\":\"An amateur antiquarian plants altered bones in an English gravel pit, and a prestigious museum builds an entire human origin story around them before a small team begins testing what everyone wants to believe.\",\"year\":\"1912–1953\",\"where\":\"Piltdown, Sussex, London, and Oxford, England\",\"mechanism\":\"Human and orangutan remains were chemically stained, filed, planted, and presented as a missing evolutionary link, with institutional authority converting the fake into accepted science.\",\"engine\":\"Every lecture, museum display, academic paper, and career built on the fossil raises the cost of admitting that the discovery may have been manufactured.\",\"episode_estimate\":160,\"cast\":[{\"name_or_role\":\"Charles Dawson\",\"motive\":\"Recognition, scientific status, and the desire to become indispensable\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Arthur Smith Woodward\",\"motive\":\"A career-defining discovery and institutional prestige\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Arthur Keith\",\"motive\":\"A theory of human evolution that the fossil appears to confirm\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Kenneth Oakley\",\"motive\":\"Testing the evidence despite the reputational consequences\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Joseph Weiner and Wilfrid Le Gros Clark\",\"motive\":\"Scientific truth and the need to expose a celebrated error\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Museum administrators and journalists\",\"motive\":\"Protecting public confidence in British science\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":9,\"emotional_immediacy\":8,\"conflict\":9,\"cast_depth\":10,\"total\":44},\"clearance\":{\"status\":\"greenlight\",\"reasons\":[\"The principal figures died decades ago.\",\"The event concerns a public scientific controversy and museum records.\",\"No living private individual needs to be exposed.\"]},\"prior_adaptations\":[\"PBS NOVA produced a documentary episode about the hoax in 2005; it is documentary coverage, not a serialized drama of the specific event.\"],\"sources\":[\"https://www.nhm.ac.uk/our-science/services/library/collections/piltdown-man.html\",\"https://www.nhm.ac.uk/discover/news/2016/august/piltdown-man-charles-dawson-likely-fraudster.html\",\"https://www.pbs.org/wgbh/nova/hoax/\"],\"why_this_sells\":\"The recognisable fear is that the experts protecting your reality may be protecting their careers instead.\",\"why_not\":\"The investigative payoff arrives decades later, so the adaptation must make each new fossil, paper, and institutional defense feel like a fresh escalation.\"},{\"title\":\"Nina Beckwith: The Heiress Who Returned from the Dead\",\"category\":\"DENIED IDENTITY\",\"one_line\":\"A young woman disappears for two decades, her family has her estate administered as though she died, and she returns to discover that the law has already distributed the life she never surrendered.\",\"year\":\"1900–1924\",\"where\":\"Adrian, Michigan, and the surrounding American Midwest\",\"mechanism\":\"After Nina Wright vanished, relatives treated the statutory presumption of death as a completed inheritance process, distributing her estate before she reappeared and sued.\",\"engine\":\"The heroine must prove she is alive while every document, heir, administrator, and family memory has been arranged around the opposite conclusion.\",\"episode_estimate\":90,\"cast\":[{\"name_or_role\":\"Nina Wright Beckwith\",\"motive\":\"Recovering her identity, property, and place in a family that replaced her\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The probate administrator\",\"motive\":\"Defending the completed estate and avoiding personal liability\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The relatives who received the money\",\"motive\":\"Keeping property acquired under a legal presumption\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Nina’s estranged family\",\"motive\":\"Deciding whether the returned woman is truly Nina or a threat to their inheritance\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The judge\",\"motive\":\"Reconciling statutory procedure with the fact that the supposed dead woman is alive\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":9,\"hook_density\":8,\"emotional_immediacy\":10,\"conflict\":9,\"cast_depth\":8,\"total\":44},\"clearance\":{\"status\":\"greenlight\",\"reasons\":[\"The case is from 1924 and concerns historical litigants.\",\"The ruling is a public legal record.\",\"No living private individual is necessary for adaptation.\"]},\"prior_adaptations\":[],\"sources\":[\"https://calculators.law/caselaw/decisions/2XO3KEVERgzG/beckwith-v-bates\",\"https://books.google.com/books/about/Beckwith_v_Bates_228_MICH_400_1924.html?id=N2OFKwiDEbcC\"],\"why_this_sells\":\"The first-minute fear is returning home and finding that everyone who knew you has legally benefited from believing you were dead.\",\"why_not\":\"The documented court record is compact, so a long version would need fictionalized domestic episodes around the disappearance and family aftermath.\"},{\"title\":\"Broderick’s Forged Will\",\"category\":\"FAMILY BETRAYAL\",\"one_line\":\"After a powerful man dies, an executor manufactures a will, recruits witnesses, and persuades a probate court to bless a document that turns the dead man’s fortune into a private machine.\",\"year\":\"1863–1874\",\"where\":\"San Francisco and the United States Supreme Court\",\"mechanism\":\"A forged will was supported with false witness testimony and handwriting claims, then admitted to probate while interested relatives received no meaningful notice.\",\"engine\":\"Every procedural step makes the false will harder to challenge: witnesses must stay aligned, executors must spend the estate, and beneficiaries must prove fraud after the court has spoken.\",\"episode_estimate\":75,\"cast\":[{\"name_or_role\":\"The executor\",\"motive\":\"Control of the estate and personal enrichment\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The forged-will witnesses\",\"motive\":\"Money, pressure, or loyalty to the executor\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The excluded relatives\",\"motive\":\"Recovering inheritance and exposing the probate fraud\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The probate judge\",\"motive\":\"Defending the court’s process and reputation\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Handwriting experts\",\"motive\":\"Professional authority and the danger of being wrong\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":8,\"emotional_immediacy\":8,\"conflict\":9,\"cast_depth\":8,\"total\":41},\"clearance\":{\"status\":\"greenlight\",\"reasons\":[\"The Supreme Court litigation dates to the nineteenth century.\",\"All principal actors are historical figures.\",\"The case is a public legal record.\"]},\"prior_adaptations\":[],\"sources\":[\"https://caselaw.findlaw.com/court/us-supreme-court/88/503.html\"],\"why_this_sells\":\"The listener instantly understands the betrayal of opening a dead relative’s will and finding that someone else has rewritten your bloodline.\",\"why_not\":\"The surviving record gives a powerful legal skeleton but fewer intimate scenes than the strongest candidates.\"},{\"title\":\"The Rosenheim Poltergeist: The Office That Accused Everyone\",\"category\":\"SUPERNATURAL INTRUSION\",\"one_line\":\"Phones ring by themselves, lights swing, bills vanish, and electrical instruments misbehave inside a law office until engineers, parapsychologists, skeptics, and staff members begin investigating one another.\",\"year\":\"1967–1970\",\"where\":\"Rosenheim, Bavaria, West Germany\",\"mechanism\":\"A workplace experienced alleged unexplained disturbances, while competing investigators argued over psychic activity, fraud, mismeasurement, and deliberate tricks involving the office’s fixtures.\",\"engine\":\"The office remains a sealed arena where each new disturbance produces a new suspect, a new investigator, and a new theory that can be true only if someone else is lying.\",\"episode_estimate\":120,\"cast\":[{\"name_or_role\":\"The law-firm proprietor\",\"motive\":\"Protecting his office, reputation, and authority over the investigation\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The young employee at the center of the claims\",\"motive\":\"Escape from blame, attention, boredom, or an alleged psychic pressure\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Hans Bender\",\"motive\":\"Proving parapsychology through a famous case\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Electrical engineers\",\"motive\":\"Finding a physical explanation and protecting technical credibility\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The skeptical magician and journalists\",\"motive\":\"Exposing fraud and humiliating investigators who overclaim\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The office staff\",\"motive\":\"Keeping their jobs while deciding whether the phenomenon is real\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":9,\"emotional_immediacy\":9,\"conflict\":8,\"cast_depth\":9,\"total\":43},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"Several real witnesses and investigators may have living relatives or surviving associates.\",\"Change names and use composite office employees and investigators.\",\"Present supernatural claims as disputed allegations rather than established fact.\"]},\"prior_adaptations\":[\"The event has appeared in paranormal books and articles, but no specific feature drama or serialized adaptation of the Rosenheim office case was located in the reviewed sources.\"],\"sources\":[\"https://en.wikipedia.org/wiki/Rosenheim_poltergeist_claim\",\"https://www.cia.gov/readingroom/docs/NSA-RDP96X00790R000100030008-7.pdf\"],\"why_this_sells\":\"The fear is not a haunted castle but a normal workplace where every ringing phone can prove that a colleague is lying.\",\"why_not\":\"The case is evidentially disputed, so the serial needs a deliberate believer-versus-skeptic structure rather than pretending the haunting is settled fact.\"},{\"title\":\"The Baron de Richemont: The Prisoner Who Claimed the French Crown\",\"category\":\"DENIED IDENTITY\",\"one_line\":\"A man emerges from imprisonment claiming to be the royal child who supposedly died in a revolutionary prison, then must outlast rival claimants, hostile governments, skeptical witnesses, and his own shifting identity.\",\"year\":\"1818–1859\",\"where\":\"Milan, Paris, and provincial France\",\"mechanism\":\"Henri Hébert, or possibly another alias, claimed to be Louis XVII, used royal symbols and supporters, survived prosecution, escaped imprisonment, and continued the claim after official rejection.\",\"engine\":\"Every rival claimant, sympathetic aristocrat, hostile official, and public test forces the claimant to produce more proof while making retreat impossible.\",\"episode_estimate\":140,\"cast\":[{\"name_or_role\":\"The Baron de Richemont\",\"motive\":\"Power, money, conviction, or the need to make his assumed identity real\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Karl Wilhelm Naundorff, rival claimant\",\"motive\":\"Winning the same throne and discrediting the rival\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Royalist supporters\",\"motive\":\"Restoring a lost dynasty through a living symbol\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Republican and royal authorities\",\"motive\":\"Preventing a claimant from destabilizing public order\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The nun and clerical supporters\",\"motive\":\"Religious conviction and loyalty to the alleged survivor\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":9,\"hook_density\":9,\"emotional_immediacy\":8,\"conflict\":8,\"cast_depth\":10,\"total\":44},\"clearance\":{\"status\":\"greenlight\",\"reasons\":[\"Richemont died in 1853.\",\"The dispute concerns historical royal claimants and public institutions.\",\"The story can be adapted without exposing living private people.\"]},\"prior_adaptations\":[],\"sources\":[\"https://en.wikipedia.org/wiki/Baron_de_Richemont\",\"https://www.history.com/articles/louis-xvii-death-marie-antoinette-french-revolution\",\"https://www.treccani.it/enciclopedia/henri-ethelbert-louis-hector-hebert-detto-barone-di-richemont/\"],\"why_this_sells\":\"The instant hook is a stranger saying, “I am the dead prince,” and finding adults who desperately need him to be telling the truth.\",\"why_not\":\"The royal politics can overwhelm the personal identity drama unless the adaptation stays close to the claimant’s daily tests and rivalries.\"},{\"title\":\"François Picaud: The Shoemaker Who Came Back with a Fortune\",\"category\":\"REVENGE\",\"one_line\":\"A bridegroom is secretly denounced by jealous friends, vanishes into prison for seven years, returns under another name with a hidden fortune, and begins dismantling the lives of everyone who betrayed him.\",\"year\":\"1807–1828\",\"where\":\"Paris, southern France, and Napoleonic-era prisons\",\"mechanism\":\"A false accusation destroys Picaud’s wedding and liberty; after imprisonment and a chance inheritance, he returns disguised as Joseph Lucher and investigates the conspiracy before targeting its participants.\",\"engine\":\"Every revenge act reveals another conspirator, another disguise, and another moral cost as the avenger must choose between exposing the original lie and becoming a new criminal power.\",\"episode_estimate\":110,\"cast\":[{\"name_or_role\":\"François Picaud / Joseph Lucher\",\"motive\":\"Punishing the friends who stole his freedom, marriage, and identity\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The jealous café owner\",\"motive\":\"Resentment and desire for Picaud’s fiancée\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The false witness\",\"motive\":\"Profit, fear, and trying to survive the avenger’s investigation\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The former fiancée\",\"motive\":\"Security, guilt, and discovering what happened to the man she lost\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The priest who reveals the hidden fortune\",\"motive\":\"Repayment, confession, and control over a secret inheritance\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":9,\"emotional_immediacy\":10,\"conflict\":9,\"cast_depth\":8,\"total\":44},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The surviving account is partly mediated through later police memoir material and has disputed historicity.\",\"Change names, locations, and identifying details while presenting it as a dramatized historical case.\",\"Do not market it as a fully authenticated biography.\"]},\"prior_adaptations\":[\"Alexandre Dumas used the account as one source for The Count of Monte Cristo; the novel and its many adaptations are not direct dramatizations of the specific Picaud case.\"],\"sources\":[\"https://www.retronews.fr/faits-divers/echo-de-presse/2018/12/20/francois-picaud-le-vrai-comte-de-monte-cristo\",\"https://gallica.bnf.fr/ark:/12148/bpt6k204110f\"],\"why_this_sells\":\"The first emotional beat is universal: your friends destroy your life as a joke, then the man they buried returns rich enough to reach every one of them.\",\"why_not\":\"Its best-known version may be literary reconstruction rather than secure history, making clearance and marketing language unusually important.\"},{\"title\":\"Ashimola v Samuel: The Probate Case Without a Deceased Person\",\"category\":\"FAMILY BETRAYAL\",\"one_line\":\"A family presents a death certificate, marriage record, and power of attorney to control an estate—until the supposedly dead woman appears in court alive and the entire inheritance story begins to unravel.\",\"year\":\"2025\",\"where\":\"England and Wales\",\"mechanism\":\"The court found that the alleged deceased claimant was alive and that key death, marriage, and authority documents were fraudulent or likely fraudulent.\",\"engine\":\"The living claimant must dismantle a paper family built around her death while every document creates a new question about who benefited, who signed, and who knew.\",\"episode_estimate\":85,\"cast\":[{\"name_or_role\":\"The living claimant\",\"motive\":\"Reclaiming identity, property, and control over her own legal existence\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The alleged spouse or beneficiary\",\"motive\":\"Obtaining property and maintaining the false death narrative\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Relatives and estate beneficiaries\",\"motive\":\"Protecting distributions already received\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Solicitors and document handlers\",\"motive\":\"Separating professional negligence from deliberate fraud\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The judge\",\"motive\":\"Untangling an unusually chaotic probate proceeding\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":9,\"emotional_immediacy\":9,\"conflict\":10,\"cast_depth\":8,\"total\":44},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The case is recent and involves living private individuals.\",\"Names, locations, family relationships, and point of view must change.\",\"The adaptation should be based on the public judgment, not additional allegations about the parties.\"]},\"prior_adaptations\":[],\"sources\":[\"https://www.nelsonslaw.co.uk/the-probate-case-without-a-deceased-person/\",\"https://www.bailii.org/ew/cases/EWHC/Ch/2025/502.html\"],\"why_this_sells\":\"The listener immediately understands the terror of discovering that official paperwork has declared you dead and given your family’s future to someone else.\",\"why_not\":\"The real case is too recent and legally sensitive for a close adaptation, so the commercial version must become a clearly fictionalized inheritance thriller.\"},{\"title\":\"The Tichborne Claimant\",\"category\":\"DENIED IDENTITY\",\"one_line\":\"A massive man from Australia claims to be the missing heir to an English estate, wins one grieving mother, divides an entire family, and turns his identity into the longest courtroom war of his age.\",\"year\":\"1866–1898\",\"where\":\"Australia and England\",\"mechanism\":\"Arthur Orton presented himself as the lost Sir Roger Tichborne, secured Lady Tichborne’s support, attracted witnesses and money, lost the civil claim, then faced a perjury prosecution and continued campaigning after conviction.\",\"engine\":\"Every supporter’s testimony creates a counter-test, every contradiction produces a new explanation, and the claimant’s public movement survives even after the courtroom rejects him.\",\"episode_estimate\":180,\"cast\":[{\"name_or_role\":\"The Claimant / Arthur Orton\",\"motive\":\"Inheritance, status, public belief, or genuine self-invention\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Lady Tichborne\",\"motive\":\"Recovering the son she believes survived\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The Tichborne family\",\"motive\":\"Protecting the estate and stopping an impostor\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Edward Kenealy\",\"motive\":\"Fame, radical politics, and defending the claimant at any cost\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The former servants and witnesses\",\"motive\":\"Memory, money, loyalty, and fear of public humiliation\",\"spinoff_potential\":\"high\"}],\"scores\":{\"engine_longevity\":10,\"hook_density\":10,\"emotional_immediacy\":10,\"conflict\":10,\"cast_depth\":10,\"total\":50},\"clearance\":{\"status\":\"blocked\",\"reasons\":[\"The specific event was already dramatized in the 1998 British film The Tichborne Claimant.\",\"The adaptation ban applies to this exact historical case, not merely to the general impostor theme.\"]},\"prior_adaptations\":[\"The Tichborne Claimant, 1998 British drama film, based on the Tichborne case.\"],\"sources\":[\"https://www.britishcouncil.org.uk/filmsandfestivals/projects/the-tichborne-claimant\",\"https://en.wikipedia.org/wiki/Tichborne_case\",\"https://www.theguardian.com/film/movie/77593/tichborne.claimant\"],\"why_this_sells\":\"The listener feels the primitive shock of a stranger standing before a mother and saying he is the child everyone else buried.\",\"why_not\":\"It is arguably the strongest raw serial engine here, but the exact event has already been made into a dramatic film and must be blocked.\"},{\"title\":\"John Darwin: The Man Who Was Alive in the Next Room\",\"category\":\"THE DOUBLE LIFE\",\"one_line\":\"A man fakes his death in a canoe accident, hides near his wife for years, and forces an entire household to perform grief while the insurance money and a new life in Panama remain just out of reach.\",\"year\":\"2002–2008\",\"where\":\"Hartlepool, Panama, and England\",\"mechanism\":\"John Darwin staged a disappearance, lived secretly nearby, coordinated with his wife, claimed amnesia when he returned, and used the false death to pursue insurance and property plans.\",\"engine\":\"The marriage, neighbors, adult children, insurers, passports, and property transactions all require the couple to keep performing the same death without contradicting one another.\",\"episode_estimate\":100,\"cast\":[{\"name_or_role\":\"John Darwin\",\"motive\":\"Escaping debt and obtaining a second life\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Anne Darwin\",\"motive\":\"Financial survival, coercion, and controlling the secret\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The adult sons\",\"motive\":\"Grieving, suspicion, and deciding whether to expose their parents\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Insurers and investigators\",\"motive\":\"Proving that the death was staged\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Panamanian property intermediaries\",\"motive\":\"Business, immigration, and distancing themselves from a suspicious couple\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":10,\"emotional_immediacy\":9,\"conflict\":9,\"cast_depth\":8,\"total\":44},\"clearance\":{\"status\":\"blocked\",\"reasons\":[\"The exact case was dramatized by ITV as The Thief, His Wife and the Canoe in 2022.\",\"A close retelling would duplicate an existing television drama about the same named event.\"]},\"prior_adaptations\":[\"The Thief, His Wife and the Canoe, ITV drama series, 2022.\"],\"sources\":[\"https://www.itv.com/presscentre/presscentre/presscentre/media-releases/itv-commissions-extraordinary-story-thief-his-wife-and-canoe\",\"https://www.itv.com/news/tyne-tees/2022-04-15/he-is-back-itv-drama-re-tells-the-story-of-the-back-from-the-dead-canoeist\"],\"why_this_sells\":\"The instant fear is sharing a home with a supposedly dead spouse while every family conversation is an improvised performance.\",\"why_not\":\"The mechanism is excellent but the exact real event has already received a close television dramatization.\"}]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [
+      {
+        "type": "web_search",
+        "filters": null,
+        "search_context_size": "high",
+        "user_location": {
+          "city": null,
+          "country": "US",
+          "region": null,
+          "timezone": null,
+          "type": "approximate"
+        },
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ]
+      }
+    ],
+    "top_p": 0.98,
+    "background": false,
+    "completed_at": 1784999937.0,
+    "conversation": null,
+    "max_output_tokens": 32000,
+    "max_tool_calls": null,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "hunt",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "winner",
+            "also_considered"
+          ],
+          "properties": {
+            "winner": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "title",
+                "category",
+                "one_line",
+                "year",
+                "where",
+                "mechanism",
+                "engine",
+                "episode_estimate",
+                "cast",
+                "scores",
+                "clearance",
+                "prior_adaptations",
+                "sources",
+                "why_this_sells",
+                "why_not"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "DENIED IDENTITY",
+                    "SECRET STATUS",
+                    "REVENGE",
+                    "THE LONG DECEPTION",
+                    "FAMILY BETRAYAL",
+                    "THE BARGAIN COMES DUE",
+                    "SUPERNATURAL INTRUSION",
+                    "THE DOUBLE LIFE"
+                  ]
+                },
+                "one_line": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "string"
+                },
+                "where": {
+                  "type": "string"
+                },
+                "mechanism": {
+                  "type": "string"
+                },
+                "engine": {
+                  "type": "string"
+                },
+                "episode_estimate": {
+                  "type": "integer"
+                },
+                "cast": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name_or_role",
+                      "motive",
+                      "spinoff_potential"
+                    ],
+                    "properties": {
+                      "name_or_role": {
+                        "type": "string"
+                      },
+                      "motive": {
+                        "type": "string"
+                      },
+                      "spinoff_potential": {
+                        "type": "string",
+                        "enum": [
+                          "high",
+                          "med",
+                          "low"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "scores": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "engine_longevity",
+                    "hook_density",
+                    "emotional_immediacy",
+                    "conflict",
+                    "cast_depth",
+                    "total"
+                  ],
+                  "properties": {
+                    "engine_longevity": {
+                      "type": "integer"
+                    },
+                    "hook_density": {
+                      "type": "integer"
+                    },
+                    "emotional_immediacy": {
+                      "type": "integer"
+                    },
+                    "conflict": {
+                      "type": "integer"
+                    },
+                    "cast_depth": {
+                      "type": "integer"
+                    },
+                    "total": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "clearance": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "reasons"
+                  ],
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "greenlight",
+                        "fictionalize_first",
+                        "blocked"
+                      ]
+                    },
+                    "reasons": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "prior_adaptations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "why_this_sells": {
+                  "type": "string"
+                },
+                "why_not": {
+                  "type": "string"
+                }
+              }
+            },
+            "also_considered": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "title",
+                  "category",
+                  "one_line",
+                  "year",
+                  "where",
+                  "mechanism",
+                  "engine",
+                  "episode_estimate",
+                  "cast",
+                  "scores",
+                  "clearance",
+                  "prior_adaptations",
+                  "sources",
+                  "why_this_sells",
+                  "why_not"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "DENIED IDENTITY",
+                      "SECRET STATUS",
+                      "REVENGE",
+                      "THE LONG DECEPTION",
+                      "FAMILY BETRAYAL",
+                      "THE BARGAIN COMES DUE",
+                      "SUPERNATURAL INTRUSION",
+                      "THE DOUBLE LIFE"
+                    ]
+                  },
+                  "one_line": {
+                    "type": "string"
+                  },
+                  "year": {
+                    "type": "string"
+                  },
+                  "where": {
+                    "type": "string"
+                  },
+                  "mechanism": {
+                    "type": "string"
+                  },
+                  "engine": {
+                    "type": "string"
+                  },
+                  "episode_estimate": {
+                    "type": "integer"
+                  },
+                  "cast": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "name_or_role",
+                        "motive",
+                        "spinoff_potential"
+                      ],
+                      "properties": {
+                        "name_or_role": {
+                          "type": "string"
+                        },
+                        "motive": {
+                          "type": "string"
+                        },
+                        "spinoff_potential": {
+                          "type": "string",
+                          "enum": [
+                            "high",
+                            "med",
+                            "low"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "scores": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "engine_longevity",
+                      "hook_density",
+                      "emotional_immediacy",
+                      "conflict",
+                      "cast_depth",
+                      "total"
+                    ],
+                    "properties": {
+                      "engine_longevity": {
+                        "type": "integer"
+                      },
+                      "hook_density": {
+                        "type": "integer"
+                      },
+                      "emotional_immediacy": {
+                        "type": "integer"
+                      },
+                      "conflict": {
+                        "type": "integer"
+                      },
+                      "cast_depth": {
+                        "type": "integer"
+                      },
+                      "total": {
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "clearance": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "status",
+                      "reasons"
+                    ],
+                    "properties": {
+                      "status": {
+                        "type": "string",
+                        "enum": [
+                          "greenlight",
+                          "fictionalize_first",
+                          "blocked"
+                        ]
+                      },
+                      "reasons": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "prior_adaptations": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "sources": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "why_this_sells": {
+                    "type": "string"
+                  },
+                  "why_not": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67347,
+      "input_tokens_details": {
+        "cache_write_tokens": 7309,
+        "cached_tokens": 0
+      },
+      "output_tokens": 11075,
+      "output_tokens_details": {
+        "reasoning_tokens": 3788
+      },
+      "total_tokens": 78422
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 6
+      }
+    }
+  }
+}
