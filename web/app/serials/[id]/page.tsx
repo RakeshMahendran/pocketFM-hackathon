@@ -563,6 +563,73 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
           >
             <Ledger ledger={s.ledger} />
           </Section>
+
+          {s.calendar && (
+            <Section
+              title="When things happen"
+              aside={s.calendar.seasonStart ?? undefined}
+            >
+              <p className="text-sm text-muted leading-relaxed prose-col">
+                The scripts are written a few episodes at a time, so this is how
+                episode twelve knows what month it is. Every date the story fixes
+                gets written down here and handed to whoever writes the next
+                batch.
+              </p>
+
+              {s.calendar.dates.length > 0 && (
+                <ul className="mt-5 border-t border-rule">
+                  {s.calendar.dates.map((d, i) => (
+                    <li key={i} className="border-b border-rule py-3 flex gap-4 items-baseline">
+                      <span className="label w-16 shrink-0">
+                        {d.ep !== null ? `ep ${d.ep}` : "—"}
+                      </span>
+                      <span className="font-serif w-44 shrink-0">{d.when ?? "—"}</span>
+                      <span className="text-sm text-muted flex-1 min-w-0">
+                        {d.what ?? ""}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+
+              {s.calendar.periods.length > 0 && (
+                <ul className="mt-4 space-y-1.5">
+                  {s.calendar.periods.map((p, i) => (
+                    <li key={i} className="text-sm text-muted">
+                      {p.between.length === 2
+                        ? `Between episodes ${p.between[0]} and ${p.between[1]}: `
+                        : "Elapsed: "}
+                      <span className="text-paper">{p.elapsed ?? "—"}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+
+              {/*
+                The most useful part. Where the real record contradicts itself,
+                the scripts are required to say nothing rather than pick a
+                winner — so this is the list of things deliberately left vague.
+              */}
+              {s.calendar.unresolved.length > 0 && (
+                <div className="mt-6 border-l-2 border-caution/60 pl-4">
+                  <div className="label text-caution">
+                    Left vague on purpose
+                  </div>
+                  <p className="mt-2 text-sm text-muted leading-relaxed prose-col">
+                    The real record disagrees with itself on these, so the
+                    scripts never state them outright.
+                  </p>
+                  <ul className="mt-3 space-y-1.5">
+                    {s.calendar.unresolved.map((u, i) => (
+                      <li key={i} className="text-sm text-faint">
+                        {u}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </Section>
+          )}
         </div>
 
         <aside className="space-y-8">

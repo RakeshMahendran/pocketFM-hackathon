@@ -117,6 +117,14 @@ export interface DeliberateDebt {
   how: string | null;
 }
 
+export interface SeasonCalendar {
+  seasonStart: string | null;
+  dates: { ep: number | null; when: string | null; what: string | null }[];
+  periods: { between: number[]; elapsed: string | null }[];
+  /** Dates the source material contradicts itself on. Left unstated in the scripts. */
+  unresolved: string[];
+}
+
 export interface PromiseLedger {
   promises: PromiseEntry[];
   /** Counted from the rows. Never the file's own number — see below. */
@@ -183,6 +191,8 @@ export interface Serial extends SerialSummary {
   episodes: EpisodeRef[];
   /** Beats carrying a non-empty `hidden_from`. The product claim, counted. */
   beatsWithHiddenFrom: number;
+  /** How the season keeps its dates straight across batches. Null before the writer ran. */
+  calendar: SeasonCalendar | null;
   notes: string[];
 }
 
@@ -364,6 +374,37 @@ function normalisePromise(raw: unknown, i: number): PromiseEntry {
   };
 }
 
+/**
+ * The season's own record of when things happened.
+ *
+ * The writer works in batches, so batch four only avoids contradicting batch
+ * one about what month it is because batch one wrote it down here and it was
+ * handed back. `unresolved` is the interesting part: dates the source material
+ * disagrees on, which the scripts are required to leave unstated rather than
+ * quietly pick a winner for.
+ */
+function normaliseCalendar(raw: ReadResult): SeasonCalendar | null {
+  if (!raw.ok) return null;
+  const r = asRecord(raw.value);
+  const dates = list(r.dates_fixed).map((e) => {
+    const d = asRecord(e);
+    return { ep: int(d.ep), when: str(d.when), what: str(d.what) };
+  });
+  const periods = list(r.periods_fixed).map((e) => {
+    const p = asRecord(e);
+    const between = list(p.between).map((n) => int(n)).filter((n): n is number => n !== null);
+    return { between, elapsed: str(p.elapsed) };
+  });
+  const unresolved = strList(r.unresolved);
+
+  // A file holding nothing is the same as no file, and should not render an
+  // empty section that implies the writer tracked dates and found none.
+  if (!str(r.season_start) && !dates.length && !periods.length && !unresolved.length) {
+    return null;
+  }
+  return { seasonStart: str(r.season_start), dates, periods, unresolved };
+}
+
 function normaliseLedger(raw: ReadResult): PromiseLedger {
   const empty: PromiseLedger = {
     promises: [],
@@ -518,6 +559,9 @@ async function loadOne(dir: string): Promise<{ serial: Serial | null; notes: str
   ).length;
 
   const ledger = normaliseLedger(ledgerRead);
+  // Written by the script writer from the second batch onward. Absent on the
+  // four seasons that predate it, so its absence is normal, not a fault.
+  const calendar = normaliseCalendar(await readJson("stories", dir, "calendar.json"));
   const episodes = await readEpisodes(dir);
   const spine = normaliseSpine(d.season);
   const cast = normaliseCast(d.cast);
@@ -587,6 +631,7 @@ async function loadOne(dir: string): Promise<{ serial: Serial | null; notes: str
     episodes,
     beatCount: beats.length,
     beatsWithHiddenFrom,
+    calendar,
     episodeCount: episodes.length,
     castCount: cast.length,
     spineLength: spine.length,
