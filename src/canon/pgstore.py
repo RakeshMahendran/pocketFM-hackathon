@@ -597,7 +597,14 @@ def get_spinoff(story_id: str, char_id: str, anchor_beat_id: str,
         "bible": r["bible"],
         "episode": {"title": r["title"], "logline": r["logline"],
                     "script": r["script"]},
-        "beats": branch_beats(story_id, char_id, anchor_beat_id, conn, schema=schema),
+        # Only the constrained arm has beats to find. Branch beats carry no
+        # `constrained` column - deliberately, since `load_spinoff` never writes
+        # the leak arm's - so asking for them here would match the clean arm's
+        # rows and hand them back under the leak episode. Canon is right either
+        # way; it is the reader that would lie, and it would lie in the one
+        # place the two arms are shown side by side.
+        "beats": (branch_beats(story_id, char_id, anchor_beat_id, conn, schema=schema)
+                  if constrained else []),
         "crossings": r["crossings"], "cites": r["cites"], "flags": r["flags"],
     }
 

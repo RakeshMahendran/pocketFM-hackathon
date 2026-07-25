@@ -174,7 +174,10 @@ def cmd_serial(args) -> int:
 
 def cmd_cast(args) -> int:
     """Print a story's cast with knows / blind counts and promotable flags."""
-    return run_module("src.canon.cast", ["--story", args.story])
+    argv = ["--story", args.story]
+    if args.json:
+        argv.append("--json")
+    return run_module("src.canon.cast", argv)
 
 
 def cmd_promote(args) -> int:
@@ -246,6 +249,23 @@ def cmd_seed(args) -> int:
     return run_module("src.canon.seed", ["--char", args.char])
 
 
+def cmd_ingest(args) -> int:
+    """Load data/spinoffs/ into Lakebase — bibles, episodes, beats, verdicts.
+
+    `seed` puts one mainline beat sheet in the store; this puts everything the
+    generation and validation stages wrote beside it, mainline first so nothing
+    references a beat that is not there. `--check` runs the preflight only.
+    """
+    argv = []
+    if args.story:
+        argv += ["--story", args.story]
+    if args.schema:
+        argv += ["--schema", args.schema]
+    if args.check:
+        argv += ["--check"]
+    return run_module("src.canon.ingest", argv)
+
+
 def cmd_test(args) -> int:
     """pytest."""
     return subprocess.run([venv_python(), "-m", "pytest", "-q"], cwd=str(ROOT)).returncode
@@ -265,6 +285,7 @@ COMMANDS = {
     "gate1": cmd_gate1,
     "leak": cmd_leak,
     "seed": cmd_seed,
+    "ingest": cmd_ingest,
     "api": cmd_api,
     "demo": cmd_demo,
     "test": cmd_test,
@@ -294,6 +315,13 @@ def build_parser() -> argparse.ArgumentParser:
         if name in ANCHOR_COMMANDS:
             p.add_argument("--anchor", default=None,
                            help="anchor beat_id; default is the top witnessed moment")
+
+        # The underlying module has always accepted --json; without this
+        # passthrough `tasks.py cast --json` exits 2 on an unknown flag, so the
+        # only way to get the roster as data was to bypass tasks.py entirely.
+        if name == "cast":
+            p.add_argument("--json", action="store_true",
+                           help="emit the roster as JSON instead of a table")
 
         if name == "publish":
             p.add_argument("--story", required=True,
@@ -335,6 +363,18 @@ def build_parser() -> argparse.ArgumentParser:
             # is the character in that fixture. He exists in no delivered story,
             # which is why every other command defaults to ratnamma instead.
             p.add_argument("--char", default="jignesh", help="character id")
+        elif name == "ingest":
+            # --story is a filter here, not a target: with none given it loads
+            # every story that has artifacts on disk. That is why `ingest` is not
+            # in STORY_COMMANDS, which would give it a default of story1.
+            p.add_argument("--story", default=None,
+                           help="load only this story's artifacts")
+            # No default here. src.canon.ingest owns it, and a literal copied to
+            # this side would go stale the day the schema is renamed.
+            p.add_argument("--schema", default=None,
+                           help="postgres schema to load into (default canonforge)")
+            p.add_argument("--check", action="store_true",
+                           help="run the preflight and stop, loading nothing")
         elif name == "api":
             p.add_argument("--port", type=int, default=8000)
 

@@ -110,6 +110,7 @@ python tasks.py serial --event id    # generate mainline episodes + beats into t
 python tasks.py promote --char id    # promotion call for one character
 python tasks.py spinoff --char id    # generate spinoff episodes
 python tasks.py validate         # run the validator panel, print violations
+python tasks.py ingest           # load data/spinoffs/ into Lakebase; --check for the preflight alone
 python tasks.py gate1            # print Jignesh's knows / blind / gaps
 python tasks.py leak             # generate an unconstrained spinoff, prove the validator catches it
 python tasks.py api              # FastAPI on :8000
