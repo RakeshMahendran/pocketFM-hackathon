@@ -1,32 +1,42 @@
-.PHONY: setup corpus score serial promote spinoff validate dev demo test
+# Thin delegate. All real logic lives in tasks.py so Windows and POSIX boxes
+# run the same code path. Add commands there, not here.
+
+.PHONY: setup corpus score serial promote spinoff validate gate1 leak api demo test
+
+PY ?= python
 
 setup:
-	python3 -m venv .venv && ./.venv/bin/pip install -q -r requirements.txt
-	@echo "done. cp .env.example .env and add your key"
+	$(PY) tasks.py setup
 
 corpus:
-	./.venv/bin/python -m src.discovery.run
+	$(PY) tasks.py corpus
 
 score:
-	./.venv/bin/python -m src.scoring.run
+	$(PY) tasks.py score
 
 serial:
-	./.venv/bin/python -m src.generation.serial --event $(EVENT)
+	$(PY) tasks.py serial --event $(EVENT)
 
 promote:
-	./.venv/bin/python -m src.generation.promote --char $(CHAR)
+	$(PY) tasks.py promote --char $(CHAR)
 
 spinoff:
-	./.venv/bin/python -m src.generation.spinoff --char $(CHAR)
+	$(PY) tasks.py spinoff --char $(CHAR)
 
 validate:
-	./.venv/bin/python -m src.validation.run
+	$(PY) tasks.py validate
 
-dev:
-	./.venv/bin/uvicorn src.api.main:app --reload --port 8000
+gate1:
+	$(PY) tasks.py gate1 --char $(or $(CHAR),jignesh)
+
+leak:
+	$(PY) tasks.py leak
+
+api:
+	$(PY) tasks.py api
 
 demo:
-	OFFLINE=1 ./.venv/bin/python -m src.demo_seed
+	$(PY) tasks.py demo
 
 test:
-	./.venv/bin/pytest -q
+	$(PY) tasks.py test

@@ -1,0 +1,18 @@
+# Normalise line endings. Without this, a Windows box and a Mac/Linux box see
+# every text file as modified the first time either of them pulls, and real
+# diffs get buried in whole-file churn.
+* text=auto eol=lf
+
+# Binary — never touch.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp3 binary
+*.mp4 binary
+*.db binary
+
+# Generated / cached LLM responses. Committed deliberately so the demo runs
+# offline on any machine, but excluded from diffs so they don't drown review.
+data/cache/** linguist-generated=true -diff
+data/corpus.json linguist-generated=true -diff

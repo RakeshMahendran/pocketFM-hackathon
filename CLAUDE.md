@@ -56,6 +56,8 @@ discovery → scoring → dossier → serial writer → CANON STORE
 
 Only three stages call an LLM: **scoring**, **serial writer / promotion / spinoff writer**, and **validator**. Everything else is queries and string assembly. If you find yourself adding a fourth LLM stage, stop and ask whether a SQL filter does it.
 
+The validator is **one stage, run as a panel** — three checks in parallel plus three adversarial refuters, each prompted to find a violation rather than confirm cleanliness. That is parallelism inside an existing stage, not a fourth stage. A checker that only ever shows green reads as decorative; see `docs/BUILD_PLAN.md` Phase 3.
+
 ### Module map
 
 | Path | Owns |
@@ -74,26 +76,36 @@ Only three stages call an LLM: **scoring**, **serial writer / promotion / spinof
 
 - **Python 3.11+**, FastAPI for the API layer
 - **SQLite** — one file at `data/canon.db`. No Postgres, no vector DB. A season is 40–60 beats; filtering is retrieval at this scale.
-- **Anthropic SDK** for generation. Model in `ANTHROPIC_MODEL` env var.
-- **Vanilla HTML + Tailwind CDN** for `web/`. No build step, no framework.
+- **OpenAI SDK** for generation. The hackathon is OpenAI-sponsored; this is a requirement, not a preference.
+  - Routing lives in env vars, never hardcoded: `OPENAI_MODEL_WRITER` (`gpt-5.6-sol`) for serial/promotion/spinoff, `OPENAI_MODEL_SCORER` (`gpt-5.6-luna`) for bulk corpus scoring, `OPENAI_MODEL_VALIDATOR` (`gpt-5.6-sol`).
+  - **Every LLM call uses structured outputs** — `response_format` with a strict JSON schema, parsed into a Pydantic model. No hand-parsing model text anywhere in this codebase.
+- **Next.js** for `web/`, talking to the FastAPI layer over HTTP.
 - `requests`, `rapidfuzz` for discovery
 
 ---
 
 ## Commands
 
+All commands run through `tasks.py`, which works on Windows and POSIX alike. The
+`Makefile` is a thin delegate for people who prefer `make` — one implementation,
+so the two cannot drift.
+
 ```bash
-make setup           # venv + deps
-make corpus          # run discovery once, write data/corpus.json  (SLOW, run once)
-make score           # score corpus -> data/dossiers.json
-make serial EVENT=id # generate mainline episodes + beats into canon.db
-make promote CHAR=id # promotion call for one character
-make spinoff CHAR=id # generate spinoff episodes
-make validate        # run all three checks, print violations
-make dev             # start API + serve web/ on :8000
-make demo            # seed the full golden path from cache
-make test            # pytest
+python tasks.py setup            # venv + deps
+python tasks.py corpus           # run discovery once, write data/corpus.json  (SLOW, run once)
+python tasks.py score            # score corpus -> data/dossiers.json
+python tasks.py serial --event id    # generate mainline episodes + beats into canon.db
+python tasks.py promote --char id    # promotion call for one character
+python tasks.py spinoff --char id    # generate spinoff episodes
+python tasks.py validate         # run the validator panel, print violations
+python tasks.py gate1            # print Jignesh's knows / blind / gaps
+python tasks.py leak             # generate an unconstrained spinoff, prove the validator catches it
+python tasks.py api              # FastAPI on :8000
+python tasks.py demo             # seed the full golden path from cache
+python tasks.py test             # pytest
 ```
+
+`web/` runs separately: `npm run dev` in that directory.
 
 ---
 
@@ -139,7 +151,8 @@ Note on (4): headline paraphrases score surprisingly low on fuzzy string ratio �
 - `docs/ARCHITECTURE.md` — full pipeline detail
 - `docs/DISCOVERY.md` — the four sources, real endpoints, auth notes, query design
 - `docs/PROMPTS.md` — the serial writer and spinoff writer prompts with rationale
-- `docs/BUILD_PLAN.md` — phases, gates, fallbacks, demo script
+- `docs/BUILD_PLAN.md` — scope lock, demo script, what is cut, hostile questions
+- `docs/DELIVERY_PLAN.md` — decisions taken, track breakdown, dependency order, gates, staffing
 - `schemas/` — JSON schemas + one hand-written sample of each
 
-Read `docs/BUILD_PLAN.md` before starting any task. It says what is deliberately out of scope, and the answer to "should I also build X" is almost always no.
+Read `docs/BUILD_PLAN.md` before starting any task. It says what is deliberately out of scope, and the answer to "should I also build X" is almost always no. Then read `docs/DELIVERY_PLAN.md` for what your track owns and what it depends on — where the two conflict, DELIVERY_PLAN records the later decision and wins.

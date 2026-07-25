@@ -1,0 +1,121 @@
+{
+  "event_id": "evt_molipur_2022",
+  "title": "The Molipur League",
+  "one_line_summary": "A disused farm in Gujarat was dressed as an IPL ground and streamed to overseas bettors for three weeks, with local labourers paid by the match to play franchises that did not exist.",
+
+  "timeline": [
+    {"id": "t1",
+     "date": "2022-06",
+     "what_happened": "A man returns to the district after working abroad and leases a fallow plot on the Molipur-Kadi road, paying in cash.",
+     "confidence": "reported",
+     "source": "gdelt:regional-press-roundup"},
+
+    {"id": "t2",
+     "date": "2022-06",
+     "what_happened": "Around twenty-one local labourers and unemployed youths are recruited at a few hundred rupees per match and issued franchise jerseys.",
+     "confidence": "reported",
+     "source": "gdelt:regional-press-roundup"},
+
+    {"id": "t3",
+     "date": "2022-06",
+     "what_happened": "An organiser based overseas communicates required match outcomes to the ground by phone before play.",
+     "confidence": "alleged",
+     "source": "police statement reported in press"},
+
+    {"id": "t4",
+     "date": "2022-06",
+     "what_happened": "Matches are played on the farm under halogen lamps, filmed with the frame kept tight, and livestreamed on a channel named for a genuine broadcast feed. Commentary is supplied to imitate a televised match.",
+     "confidence": "reported",
+     "source": "gdelt:regional-press-roundup"},
+
+    {"id": "t5",
+     "date": "2022-06",
+     "what_happened": "Bets are placed from overseas cities against outcomes that had been fixed in advance.",
+     "confidence": "alleged",
+     "source": "police statement reported in press"},
+
+    {"id": "t6",
+     "date": "2022-07",
+     "what_happened": "District police receive information about the operation.",
+     "confidence": "reported",
+     "source": "gdelt:regional-press-roundup"},
+
+    {"id": "t7",
+     "date": "2022-07",
+     "what_happened": "Police raid the ground during a live broadcast and the operation ends.",
+     "confidence": "verified",
+     "source": "court record: FIR registered, Mehsana district"}
+  ],
+
+  "people": [
+    {"name": "Organiser (primary accused)",
+     "role": "leased the ground, ran the stream, took instructions from overseas",
+     "motive": "money, and a return to a place he had left",
+     "public_or_private": "private",
+     "living": true},
+
+    {"name": "Umpire (co-accused)",
+     "role": "signalled the fixed outcomes on the field via a walkie-talkie",
+     "motive": "paid participant; knew more than the players, less than the organiser",
+     "public_or_private": "private",
+     "living": true},
+
+    {"name": "Recruited players (approx. 21)",
+     "role": "played the matches for a daily rate",
+     "motive": "wages",
+     "public_or_private": "private",
+     "living": true},
+
+    {"name": "Landowner",
+     "role": "leased the plot; extent of knowledge unclear",
+     "public_or_private": "private",
+     "living": true},
+
+    {"name": "Overseas bettors",
+     "role": "wagered on the streamed matches",
+     "public_or_private": "private",
+     "living": true}
+  ],
+
+  "adaptability": {
+    "conflict": 9,
+    "characters": 9,
+    "stakes": 8,
+    "serializability": 10,
+    "resonance": 9,
+    "total": 45
+  },
+
+  "clearance": {
+    "status": "fictionalize_first",
+    "reasons": [
+      "Every identifiable participant is a private individual, not a public figure. Naming any of them is not defensible.",
+      "Proceedings arising from the raid may be live. Dramatising a named person's guilt while a matter is before a court is the exposure that ends a show.",
+      "The overseas-betting and match-fixing instructions are tagged `alleged` — they are the prosecution's account, not established fact. They may be rendered as an accusation a character makes, never as narration.",
+      "The recruited players are the most sympathetic people in the record and the least able to object to how they are portrayed. Composite them.",
+      "Cleared to proceed once the fictionalization map is applied: renamed characters, relocated village, no reproduction of court-record specifics."
+    ]
+  },
+
+  "novelty": {
+    "prior_adaptations": [],
+    "score": 9
+  },
+
+  "engine": "The con must keep escalating to stay solvent. Every match played funds the next and widens the circle of people who have to not-ask, and the organiser can neither stop (the money is owed) nor slow down (the stream must look like a tournament). The condition is permanently switched on and needs no new invention per episode.",
+
+  "why_this_works": "The audience knows it is fake from minute one, so the tension is never 'will they be caught' — it is 'how long can this hold, and what does it cost the boy who does not know'. The asymmetry of knowledge is built into the real event: the players genuinely did not know what they were part of. That is a serial engine and a spinoff engine at the same time.",
+
+  "fictionalization_map": {
+    "Organiser (primary accused)": "rafiq",
+    "Umpire (co-accused)": "bhavlo",
+    "Landowner": "pankaj",
+    "Recruited player (composite, protagonist)": "jignesh",
+    "Recruited players (approx. 21)": "labourers",
+    "Overseas bettors": "bettor_tver",
+    "Molipur village": "village",
+    "Overseas organiser": "organiser_ru",
+    "District police": "police",
+    "Informed constable": "constable"
+  }
+}

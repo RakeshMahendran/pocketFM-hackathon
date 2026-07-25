@@ -1,0 +1,124 @@
+[
+  {
+    "char_id": "jignesh",
+    "name": "Jignesh",
+    "role": "recruited player; the best batsman in the village",
+    "promotable": true,
+    "real_anchor": {
+      "maps_to": "Recruited player (composite, protagonist)",
+      "composite": true,
+      "clearance": "fictionalize_first"
+    },
+    "stub": {
+      "facts": [
+        "Hired at 400 rupees a match and handed a Chennai Super Kings jersey.",
+        "Nineteen. Has never played on a marked pitch before this one.",
+        "Believes he has been picked for a tournament.",
+        "Does not own a bat; uses whatever is handed to him.",
+        "Walks back to the village alone after every match."
+      ],
+      "want": "to be handed the jersey again tomorrow",
+      "voice_samples": [
+        "It came off the middle. You saw it come off the middle.",
+        "No, I'm fine. I'm fine.",
+        "Is there a match tomorrow?"
+      ]
+    },
+    "bible": {
+      "want": "To be handed the jersey again tomorrow. Stated as an action, not a feeling: he shows up early, he does not ask questions, he plays.",
+      "wound": "He is the best cricketer in a village that has never produced one, which until now has meant nothing at all. Being finally seen is worth more to him than being told the truth, and he knows it.",
+      "voice": "Short sentences. Deflects with cricket technicalities when uncomfortable — talks about the middle of the bat when he is being asked about something else. Goes completely silent when frightened, which the others read as slowness.",
+      "engine": "He must not ask. The 400 rupees comes with one unspoken condition, and every single day he learns one more thing that makes not-asking harder. Permanently switched on, escalates by itself, and is not the mainline engine.",
+      "offscreen_ledger": [
+        {"window": "ep1 s1 - ep1 s3, before he is hired",
+         "what": "He is not there yet. He hears there is work on the Kadi road plot and turns up because his cousin did."},
+        {"window": "ep2 s1 - ep2 s4, the nights before the first match",
+         "what": "He tells his mother he has been picked for a tournament. She believes him, and he lets her."},
+        {"window": "ep2 s6 - ep3 s3, between matches",
+         "what": "He practises alone after everyone has gone home, because he wants to be good, not just present."},
+        {"window": "ep4 s4 - ep5 s4, the rain days and the night before the raid",
+         "what": "Four days of rain stop play. He keeps the jersey instead of returning it and sleeps in it. On the last night he finally asks Bhavlo one question and gets an answer that isn't one."}
+      ],
+      "reframe": "The mainline is a heist about whether the con holds. His serial is about a boy who is neither being conned nor conning anyone, being paid to lose deliberately at the only thing he has ever been good at."
+    }
+  },
+
+  {
+    "char_id": "rafiq",
+    "name": "Rafiq",
+    "role": "organiser; leased the ground and ran the stream",
+    "promotable": true,
+    "real_anchor": {
+      "maps_to": "Organiser (primary accused)",
+      "composite": false,
+      "clearance": "fictionalize_first"
+    },
+    "stub": {
+      "facts": [
+        "Returned to the district after eleven months away and told nobody where he had been.",
+        "Leased the fallow plot for cash and asked that no receipt be written.",
+        "Takes instructions by phone from someone he never names.",
+        "Registered the Telegram channel under the name of a real broadcast feed.",
+        "Carries the money back from Ahmedabad himself, in a cloth bag."
+      ],
+      "want": "to clear what he owes before anyone comes looking",
+      "voice_samples": [
+        "Nobody is asking you to do anything difficult.",
+        "Play. That's all. Just play.",
+        "It's a tournament. Say it's a tournament."
+      ]
+    }
+  },
+
+  {
+    "char_id": "bhavlo",
+    "name": "Bhavlo",
+    "role": "umpire; signals the fixed outcomes on the field",
+    "promotable": true,
+    "real_anchor": {
+      "maps_to": "Umpire (co-accused)",
+      "composite": false,
+      "clearance": "fictionalize_first"
+    },
+    "stub": {
+      "facts": [
+        "Hired to umpire and handed a walkie-talkie, told it was for ground coordination.",
+        "Knows the signal codes. Two clicks means the over is to be kept quiet.",
+        "Knows more than the players and less than Rafiq, and is the only person who knows both.",
+        "Has raised Jignesh's rate twice without being able to say why.",
+        "Does not look at Jignesh after signalling against him."
+      ],
+      "want": "to get through the fortnight without being asked a direct question",
+      "voice_samples": [
+        "Dot ball.",
+        "Don't look at me. Look at the bowler.",
+        "You're paid the same either way."
+      ]
+    }
+  },
+
+  {
+    "char_id": "pankaj",
+    "name": "Pankaj",
+    "role": "landowner; positions the cameras",
+    "promotable": false,
+    "real_anchor": {
+      "maps_to": "Landowner",
+      "composite": false,
+      "clearance": "fictionalize_first"
+    },
+    "stub": {
+      "facts": [
+        "Owns the fallow plot on the Kadi road.",
+        "Took six months' lease in cash without writing a receipt.",
+        "Frames the cameras so no shot contains the road, the horizon, or the empty ground beyond.",
+        "Has never asked what the footage is for."
+      ],
+      "want": "to be paid and to have not been told anything",
+      "voice_samples": [
+        "Keep it tight on the pitch. Nothing wide.",
+        "That's your business, not mine."
+      ]
+    }
+  }
+]
