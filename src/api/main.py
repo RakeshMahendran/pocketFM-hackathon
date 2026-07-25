@@ -1,43 +1,24 @@
 """
 The HTTP layer. Thin by contract - queries and serialization, no logic.
 
-One process serves both halves: /api/* here, everything else falls through
-to the Next.js static export. The static mount is registered last because
-it is a catch-all and would otherwise shadow the API.
+Listens on loopback only. Next owns the public port and proxies /api/* here
+through a rewrite, so this never serves the UI and never needs CORS.
 
 load_env() runs at import because uvicorn does not go through tasks.py, so
 nothing else would ever read .env in a deployed app.
 """
 
-import pathlib
-from typing import Any, Optional
+from typing import Any
 
 from fastapi import Depends, FastAPI, HTTPException
-from fastapi.responses import FileResponse
-from fastapi.staticfiles import StaticFiles
 
-from src.util import ROOT, IPL_BEATS, read_json, load_env, log, offline
+from src.util import IPL_BEATS, read_json, load_env, log, offline
 from src.canon.views import character_view as _character_view
 
 load_env()
 
 app = FastAPI(title="CanonForge", docs_url="/api/docs", openapi_url="/api/openapi.json")
 
-def _web_root() -> Optional[pathlib.Path]:
-    """
-    Where the built frontend lives.
-
-    `databricks sync` honours .gitignore, and web/.gitignore ignores out/,
-    so the deployed copy is staged at static/ instead. Locally the fresh
-    build in web/out wins so you are never serving a stale copy.
-    """
-    for candidate in (ROOT / "web" / "out", ROOT / "static"):
-        if candidate.is_dir():
-            return candidate
-    return None
-
-
-WEB_OUT = _web_root()
 
 
 def beat_source() -> list[dict[str, Any]]:
@@ -111,26 +92,3 @@ def api_not_found(rest: str):
 
 # --- static frontend, registered last -------------------------------------
 
-class ProxySafeStaticFiles(StaticFiles):
-    """
-    Serve a directory's index.html directly instead of redirecting to the
-    trailing-slash URL.
-
-    Databricks Apps sit behind a reverse proxy that rewrites Host, so
-    Starlette's redirect resolves to https://localhost:8000/... and the
-    browser leaves the workspace. --proxy-headers does not help: there is no
-    trustworthy Host to rebuild from. Not redirecting is the only fix that
-    survives the proxy.
-    """
-
-    async def get_response(self, path: str, scope):
-        response = await super().get_response(path, scope)
-        if response.status_code in (301, 307, 308):
-            return await super().get_response(f"{path.rstrip('/')}/index.html", scope)
-        return response
-
-
-if WEB_OUT:
-    app.mount("/", ProxySafeStaticFiles(directory=str(WEB_OUT), html=True), name="web")
-else:
-    log("no static build found; API-only. Run `npm run build` in web/.", "warn")

@@ -1,29 +1,20 @@
 # Databricks App manifest.
 #
-# DATABRICKS_APP_PORT is the one variable the runtime substitutes into
-# `command`, so it is used explicitly rather than relying on uvicorn picking
-# up UVICORN_PORT. Do not hardcode a port - the runtime assigns it.
+# The entrypoint starts both processes - see start.sh for why Next owns the
+# public port. DATABRICKS_APP_PORT is the one variable the runtime substitutes
+# into `command`, and it is read by the script rather than passed as a flag.
 #
 # The PG* variables are injected by the attached Lakebase resource and are
-# deliberately absent here. There is no PGPASSWORD: auth is an OAuth token
-# the app mints at connect time via src/canon/db.py.
+# deliberately absent here. There is no PGPASSWORD: auth is an OAuth token the
+# app mints at connect time via src/canon/db.py.
 command:
-  - uvicorn
-  - src.api.main:app
-  - --host
-  - 0.0.0.0
-  - --port
-  - $DATABRICKS_APP_PORT
-  # Apps sit behind a reverse proxy. Without these, uvicorn builds redirects
-  # from the internal host and a bare /candidates/<id> sends the browser to
-  # https://localhost:8000/. The proxy is not on 127.0.0.1, which is all
-  # --forwarded-allow-ips trusts by default.
-  - --proxy-headers
-  - --forwarded-allow-ips
-  - "*"
+  - bash
+  - start.sh
 
 env:
   - name: LAKEBASE_INSTANCE
     value: canonforge
   - name: PGDATABASE
     value: databricks_postgres
+  - name: CANONFORGE_API_PORT
+    value: "8001"

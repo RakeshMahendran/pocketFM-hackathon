@@ -15,7 +15,6 @@ import re
 import sys
 import argparse
 import platform
-import shutil
 import subprocess
 from typing import List, Optional
 
@@ -199,29 +198,6 @@ def cmd_seed(args) -> int:
     return run_module("src.canon.seed", ["--char", args.char])
 
 
-def cmd_buildweb(args) -> int:
-    """Build the Next.js static export and stage it where the API serves it.
-
-    `databricks sync` honours .gitignore and web/.gitignore ignores out/, so
-    the deployed copy lives at static/ instead.
-    """
-    npm = "npm.cmd" if os.name == "nt" else "npm"
-    web = ROOT / "web"
-    if not (web / "node_modules").is_dir():
-        rc = subprocess.run([npm, "install"], cwd=str(web)).returncode
-        if rc:
-            return rc
-    rc = subprocess.run([npm, "run", "build"], cwd=str(web)).returncode
-    if rc:
-        return rc
-    staged = ROOT / "static"
-    if staged.exists():
-        shutil.rmtree(staged)
-    shutil.copytree(web / "out", staged)
-    print(f"staged {staged}")
-    return 0
-
-
 def cmd_test(args) -> int:
     """pytest."""
     return subprocess.run([venv_python(), "-m", "pytest", "-q"], cwd=str(ROOT)).returncode
@@ -239,7 +215,6 @@ COMMANDS = {
     "gate1": cmd_gate1,
     "leak": cmd_leak,
     "seed": cmd_seed,
-    "buildweb": cmd_buildweb,
     "api": cmd_api,
     "demo": cmd_demo,
     "test": cmd_test,

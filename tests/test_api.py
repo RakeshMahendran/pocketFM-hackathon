@@ -10,7 +10,7 @@ import pytest
 from fastapi.testclient import TestClient
 
 from src.api.main import app, beat_source
-from src.util import IPL_BEATS, ROOT, read_json
+from src.util import IPL_BEATS, read_json
 
 
 @pytest.fixture
@@ -66,45 +66,13 @@ def test_unknown_api_route_returns_json_404_not_the_frontend(client):
     assert resp.headers["content-type"].startswith("application/json")
 
 
-def test_candidate_deep_links_serve_html(client):
+def test_non_api_paths_are_not_this_app(client):
     """
-    The homepage links to /candidates/<id>. A static export that only emits
-    <id>.html leaves that URL 404ing on refresh and deep link, which is
-    invisible in-app because prefetch serves the RSC payload instead.
+    Next owns the public port and only proxies /api/* here. Anything else
+    reaching this process means the rewrite is misrouting, and a 404 is the
+    honest answer rather than something that looks like a page.
     """
-    from src.api.main import WEB_OUT
-
-    if WEB_OUT is None:
-        pytest.skip("no static build; run npm run build in web/")
-
-    corpus = read_json(ROOT / "data" / "corpus.json")
-    items = corpus["items"] if isinstance(corpus, dict) else corpus
-    candidate_id = items[0]["id"]
-
-    resp = client.get(f"/candidates/{candidate_id}/", follow_redirects=True)
-    assert resp.status_code == 200
-    assert resp.headers["content-type"].startswith("text/html")
-
-
-def test_candidate_deep_link_without_trailing_slash_does_not_redirect(client):
-    """
-    Behind the Databricks proxy a redirect is unusable: the proxy rewrites
-    Host, so Starlette builds `https://localhost:8000/...` and the browser
-    follows it out of the workspace. The directory index must be served
-    directly instead.
-    """
-    from src.api.main import WEB_OUT
-
-    if WEB_OUT is None:
-        pytest.skip("no static build; run npm run build in web/")
-
-    corpus = read_json(ROOT / "data" / "corpus.json")
-    items = corpus["items"] if isinstance(corpus, dict) else corpus
-    candidate_id = items[0]["id"]
-
-    resp = client.get(f"/candidates/{candidate_id}", follow_redirects=False)
-    assert resp.status_code == 200, f"got {resp.status_code} -> {resp.headers.get('location')}"
-    assert resp.headers["content-type"].startswith("text/html")
+    assert client.get("/candidates/whatever").status_code == 404
 
 
 def test_health_reports_without_requiring_a_database(client):

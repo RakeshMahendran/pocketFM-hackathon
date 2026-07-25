@@ -1,17 +1,20 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  // Databricks Apps runs one process per app, and that process is FastAPI.
-  // Exporting to static HTML lets the API serve the UI from the same origin
-  // instead of running a second Next server nobody can route to.
-  output: "export",
+const API_PORT = process.env.CANONFORGE_API_PORT ?? "8001";
 
-  // Emit candidates/<id>/index.html rather than candidates/<id>.html.
-  // Without this the export also writes a candidates/<id>/ directory holding
-  // only RSC payloads; StaticFiles resolves the URL to that directory, finds
-  // no index.html, and serves 404. In-app clicks survive on prefetch, so the
-  // breakage only shows on refresh and deep links.
-  trailingSlash: true,
+const nextConfig: NextConfig = {
+  // Next serves the app; FastAPI runs beside it on a loopback port and is
+  // reached only through this rewrite, so there is one public origin and no
+  // CORS. A static export was tried first and cannot work: the sign-in flow
+  // sets a cookie from a server action, and an export has no server at all.
+  async rewrites() {
+    return [
+      {
+        source: "/api/:path*",
+        destination: `http://127.0.0.1:${API_PORT}/api/:path*`,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

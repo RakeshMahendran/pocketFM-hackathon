@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/14mrh2-p_w84d.js"],""]
-3:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mx-auto max-w-6xl px-8 py-24","children":[["$","div",null,{"className":"label","children":"404"}],["$","h1",null,{"className":"font-serif text-3xl tracking-tight mt-3","children":"No candidate by that name"}],["$","p",null,{"className":"mt-4 text-sm text-muted prose-col leading-relaxed","children":"It is not in the corpus. Candidate ids are derived from the source URL, so a link saved before the last freeze will not resolve against the current one — the event may still be there under a different id."}],["$","$L2",null,{"href":"/","className":"inline-block mt-8 border border-ochre/50 text-ochre px-4 py-2 text-sm rounded-sm hover:bg-ochre/10 transition-colors","children":"Back to the sourcing queue"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"YssVeNiurAezUJDIc_GiY"}
-5:null
