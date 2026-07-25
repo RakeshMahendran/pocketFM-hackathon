@@ -1,0 +1,18 @@
+{
+  "story_id": "_verify_ep1_3",
+  "event_id": "evt_bharwara_2026",
+  "batch": "ep1-3",
+  "open_count": 10,
+  "promises": [
+    {"id": "p01", "raised_ep": 1, "listener_is_waiting_for": "where 89,400 came from, and whether the number can ever be made to move the other way", "must_pay_by_ep": 14, "paid_ep": null, "how_paid": null, "status": "open"},
+    {"id": "p02", "raised_ep": 1, "listener_is_waiting_for": "what phulwa put her thumb on, and who read it to her", "must_pay_by_ep": 14, "paid_ep": null, "how_paid": null, "status": "open"},
+    {"id": "p03", "raised_ep": 1, "listener_is_waiting_for": "whether anything written in that book can be checked and corrected in front of people", "must_pay_by_ep": 6, "paid_ep": null, "how_paid": null, "status": "open"},
+    {"id": "p04", "raised_ep": 1, "listener_is_waiting_for": "whether birju ever gets the letter with his name typed on it", "must_pay_by_ep": 10, "paid_ep": null, "how_paid": null, "status": "open"},
+    {"id": "p05", "raised_ep": 1, "listener_is_waiting_for": "whether what happened at chandwa on the seventeenth can happen at teghra more", "must_pay_by_ep": 6, "paid_ep": null, "how_paid": null, "status": "open"},
+    {"id": "p06", "raised_ep": 1, "listener_is_waiting_for": "whether lakhan is ever paid once, in cash, in the open, where the hamlet can see it", "must_pay_by_ep": 14, "paid_ep": null, "how_paid": null, "status": "open"},
+    {"id": "p07", "raised_ep": 2, "listener_is_waiting_for": "who carried the exact figure across the fields to chameli's father", "must_pay_by_ep": 6, "paid_ep": null, "how_paid": null, "status": "open"},
+    {"id": "p08", "raised_ep": 2, "listener_is_waiting_for": "whether the marriage is put back on, in the same queue, by the same man", "must_pay_by_ep": 14, "paid_ep": null, "how_paid": null, "status": "open"},
+    {"id": "p09", "raised_ep": 3, "listener_is_waiting_for": "what is on page 411, and what book has four hundred and eleven pages before birju's begins", "must_pay_by_ep": 8, "paid_ep": null, "how_paid": null, "status": "open"},
+    {"id": "p10", "raised_ep": 3, "listener_is_waiting_for": "whether tirath ever gets his four months and stops being a man nobody is careful with", "must_pay_by_ep": 14, "paid_ep": null, "how_paid": null, "status": "open"}
+  ]
+}

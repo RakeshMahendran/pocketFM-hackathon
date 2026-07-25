@@ -24,9 +24,14 @@ episode. Your job is to find REAL events that can feed that machine.
 
 Anything that fits none of these is out, however remarkable.
 
-## Score each 0-10. Return only 38+.
+## Score each 0-10. Total is the sum, out of 50. Return only 38+.
 
-- ENGINE LONGEVITY (weight this highest): the event must contain a standing
+Engine longevity carries a hard floor rather than a multiplier: **any candidate
+scoring below 7 on ENGINE LONGEVITY is rejected whatever its total.** A high
+total built on a mechanism that stops after episode twenty is a film with good
+marks.
+
+- ENGINE LONGEVITY (the one that disqualifies): the event must contain a standing
   condition that generates conflict indefinitely. Test: could this produce
   episode 150 without inventing new trouble? "A live lie broadcast inside a
   frame that must never move" passes. "A man was arrested" fails.
@@ -73,6 +78,26 @@ serial pitch or drop the candidate.
 - Minors, identifiable victims of sexual crime
 - Political and communal events — the audience splits, the platform won't buy
 
+### Prior adaptation is about the EVENT, not the theme
+
+Reject only if a film or series dramatised **this specific event**. A drama about
+bonded labour in general does not block a particular bonded-labour case; a film
+about that exact case does.
+
+When it is close — same milieu, same decade, same kind of crime — keep the
+candidate and list the near-miss in `prior_adaptations` with a word on why it is
+not the same story. Judgement recorded beats judgement hidden.
+
+### Never cite a page you could not open
+
+If a search result looks strong but the page will not load, you do not have a
+source. Do not build a candidate on a snippet, and do not cite the URL.
+
+If that costs you your best candidate, put it in `also_considered` and say the
+source was unreachable. A hunt that reports "the strongest thing I found is
+unusable and here is why" is more useful than one that quietly returns second
+best.
+
 ## Clearance
 
 - greenlight         — principals deceased 50+ years, or purely institutional
@@ -111,6 +136,10 @@ Both `winner` and each entry in `also_considered` use this shape:
       "mechanism": "the strange thing that was actually done",
       "engine": "one sentence, permanently-on condition",
       "episode_estimate": 0,
+      // how long the MECHANISM could run before it needs new invention —
+      // a judgement about longevity, not an instruction to generate that many.
+      // 40 = one arc. 150 = a year of daily unlocks. 500+ = the mechanism
+      // outlives any single cast.
       "cast": [{"name_or_role":"...","motive":"...","spinoff_potential":"high|med|low"}],
       "scores": {"engine_longevity":0,"hook_density":0,"emotional_immediacy":0,
                  "conflict":0,"cast_depth":0,"total":0},

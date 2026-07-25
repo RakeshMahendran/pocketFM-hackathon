@@ -1,0 +1,27 @@
+{
+  "story_id": "_verify_ep1_3",
+  "event_id": "evt_bharwara_2026",
+  "batch": "ep1-3",
+  "season_start": "2026-03-24",
+  "season_start_note": "Episode 1 is pay-out day at teghra more, Chait, and it is a Tuesday.",
+  "dates_fixed_by_this_batch": [
+    {"date": "2026-03-04", "weekday": "Wednesday", "ep": 1, "what": "Holi. dhaniram tells birju there will be an appointment letter with his name typed on it. No date is given for the letter.", "spoken_as": "\"At Holi you said there would be a letter\"", "source_ref": "fictionalized"},
+    {"date": "2026-03-17", "weekday": "Tuesday", "ep": 1, "what": "The raid at chandwa: a magistrate and two buses take 137 people — 40 men, 46 women, 51 children — out of a kiln four hours from teghra more.", "spoken_as": "\"a raid at Chandwa on the seventeenth\" / \"the seventeenth was last Tuesday\"", "source_ref": "evt_bharwara_2026#t7"},
+    {"date": "2026-03-24", "weekday": "Tuesday", "ep": 1, "what": "Pay-out day. birju is handed the blank book, reads eleven houses aloud, and reads 89,400 against his own.", "spoken_as": "\"it is pay-out day\"", "source_ref": "fictionalized"},
+    {"date": "2026-03-26", "weekday": "Thursday", "ep": 2, "what": "The ration queue at the crossing. chameli's father calls the marriage off out loud and gives the figure as 89,400.", "spoken_as": "\"two days now, since the yard\"", "source_ref": "fictionalized"},
+    {"date": "2026-03-25", "weekday": "Wednesday", "ep": 2, "what": "The night before the queue: chameli's father tells chameli at home that the marriage will not happen, and gives the reason as a number.", "spoken_as": "\"last night, with the lamp out\"", "source_ref": "fictionalized"},
+    {"date": "2026-03-28", "weekday": "Saturday", "ep": 3, "what": "Night. tirath comes drunk to the kiln gate, is refused and sent home, and passes birju the torn page numbered 411.", "spoken_as": "night, two nights after the crossing", "source_ref": "fictionalized"},
+    {"date": "2026-03-29", "weekday": "Sunday", "ep": 3, "what": "Eight o'clock at the crossing — the meeting tirath proposes as he leaves. Not yet dramatised.", "spoken_as": "\"I will be at the crossing, sober, at eight o'clock\"", "source_ref": "fictionalized", "status": "promised, not yet played"}
+  ],
+  "periods_fixed_by_this_batch": [
+    {"label": "Bhado, Kuar, Katik, Aghan 2025", "gregorian_approx": "2025-08 to 2025-12", "ep": 3, "what": "The four months tirath says he was never paid. He was sacked in Aghan.", "source_ref": "fictionalized"},
+    {"label": "Phagun 2026", "gregorian_approx": "2026-02 to 2026-03", "ep": 1, "what": "The month devlal says a hen walked over the drying bricks, for which a 10,000 fine stands against a household. Asserted by devlal, not narrated.", "source_ref": "evt_bharwara_2026#t8"},
+    {"label": "twenty-two seasons before the present", "gregorian_approx": "2004", "ep": 1, "what": "sanichari's household takes 4,800 rupees for a burning and she is promised a release paper in the yard. Both are her spoken account.", "source_ref": "evt_bharwara_2026#t3"},
+    {"label": "Baisakh 2026", "gregorian_approx": "2026-04 to 2026-05", "ep": 2, "what": "The month by which sudama says he will buy his mother out of the book. Also the month the marriage was to have happened.", "source_ref": "fictionalized"},
+    {"label": "two years before the present", "gregorian_approx": "2024", "ep": 2, "what": "The marriage between birju and chameli is arranged at the crossing.", "source_ref": "fictionalized"}
+  ],
+  "deliberately_not_fixed": [
+    {"item": "The year of phulwa's thumbprint on the line above 89,400.", "rendered_as": "\"nine years before Birju learned to hold a pen\"", "why": "The dossier states birju is twenty-one and also that he read a paper to his mother in 2009 at the age of twelve, and the season plan requires the present to be roughly fifty-one years after 1974. Those three cannot all be true. This batch delivers the assigned ends_on without fixing a year, so a later batch can settle it without contradicting anything already emitted."},
+    {"item": "The year of birju's birth and the year he became literate.", "why": "Same contradiction. No age in years is stated in the prose of episodes 1-3."}
+  ]
+}
