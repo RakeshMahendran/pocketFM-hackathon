@@ -1,0 +1,399 @@
+{
+  "stage": "serial_a3c321dba0a7_01_03",
+  "saved_at": "2026-07-25T20:08:09.515384+00:00",
+  "response": {
+    "id": "resp_0d9696714dcbdc44006a6517070eac8195bc034c370ac88cb6",
+    "created_at": 1785009927.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_0d9696714dcbdc44006a651707a9708195a70a309efe7bace4",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRepk-N7QUogPxJeBSqqkcIh6QENn9QFRGof0nq7-mmsQLegWKeDIapWkL3NgoFivlcu2GdRNfdSgk7pYQcFFB4N2QDg0p6nBCMUNJMNY3GrpRvcwZCcK2pFIqwGE4l26u0aMsTbKbK1c4IXuIE3yoaOSOgifIBLMxqkF6I5_DLiXariRUsGZDSUe_Qer3Kf8WlHCrjt9oiUKRQhV4iCTFnjMUIs4r9mHD9adqprEjzo52PG4_tRDUHkQ8T8qyF8ZyXLFAsV5IJvVAxHXxcY6cgZD9r2sLQkJsKcEg3EnsuA46EAWi4gB3ZITKNoDQOmYGJkQO2onfbCsxMYZC-luGuXW2UqdrLsl2D1Ze9EWqTMr2iQJFnhZhnwQIgG4CKJQTqa1x4RREwCxbDsKAqffsQSwKGSz1DzJ8Tu1WSi0kV6YXvKj_kcuKwD4mPIW2qXdmNAVEgcSeYhXtJ5CvC5jT31o0iKfmf011aw5WIpTwx081mOCABuuGn3I8J5QqamjhYuIm3QTJa3o2TsgULdWBB4Uuw78pNtOawmtdUVik_34xqs_tfaujejDCC_5Dt_Xr8FFJDA6FrewZbInqgZv97G9A_ss7a6pM39bgOUSmdiNGnWwWizNoIyc-zlZxDx_sNMj5gszjoYvhXoXni0KUSeA5txWJAw5VBxie08IEm959DhFz0g0XZExWzHdacxMVoJN5neWL5cJL3vkzHjRa7Z-0AhbeGjXC07rp74W0t7wVgIPmV4MeiBIw1juMxwjZfIaz5Rg08MeBbVmjjxeo865nDnCvXGxZDWxscNzO14F-daDVK6wjVhxvFkuTj_3tUYZTIs4M_yVJipAtSHWLu5IeF0PYC_6slDTLTYvG0v-uCL7ds-MJYjrLNiaBSGmwuRLjt_yOGtPm84V-7XPBVr5U2fl5uLW6yif2f4RqMw6iORHkkjOn_qYyZcmH3-wiQfCeGgoPX9ywr2hVKcdV_CdWXTO36a0Diy7m43Nn8pzMyNMn5Dhe7mN7dJUkPd_UQEQLN-IRABF-euMwivQ2ovpOW9YgAvkEOVXiclbGlfzzQJeue6iEaawVsaAtJjecoou3x_ixHoCkud2NaEaEo6DoMxmaH5V5kYH1_m154JTEUERhKS-XOVrAYosPpVftP-TNawdX-rg0ZN8iN9z-J3x_GhYQ1TCOIDmgooUkCBu4u51WQUvoDYe9BuauLzR0DwzF8eWhDZND1XHXILz4hwS0rgQQTRitXKaBz2gAeaY7KroE0zX4mqXO0mf-My5onjEFFQrr8WLSjbkHN6b_Lx3DEej6Txgnh1ZPWz7wxvcRR1NubZsYJAJDSDU-MJ30vwUK-o6CShWHPzHICN7zrDTh9fbCTNoDpmsrH4ZYU_IzPMs0tD1YnlhMxYdpg-2KKfo-n_P5gBfGzfVxNXCA2AjpwlxQugkRFYsfMfGi6it5TijkYGVB0WvsVRcONiQdOaYuwidKINfWCUICkPV7og76ufQHU6xz6qi70Jx9TK__oKQzL4Lh_YX47lSMcwoUcNQ6pmNdU_7atvxZNeX19_WnnoMT8RT30eQOeTXjWBIxOGnZTXoCmRw6NKw-1uvzItErmPKxUmZ_r8uVO5ZgTNq-kcb6LZdcmSZDVBdz4Bd4TNcvUU5F6R7dhka9tSu9cuoMLT0MaTLY4i86H4vudMTDs5xP5a4QXKEG9vv_7qNZslkowVqmdCg4Pa3iJbZY5HH-SPDCjoasmj8OsceL0C25fEGpKrEb-hBA9oaFf9TmttyHFjyqTSSBKzbYjkRj7MeZ4NzJ1l7jMnXeAHGApS4W0QeFZznlukPhRUVWvxior0vbn7uR8Z6A2C2fWsxRpFoeFAeg12Dkbo_5gyxA2FN3Mov4p9FHE1tdLzHOedjghgSP0R3GnA4mAfGKA-nSWkQheoXzJPbNJpPlXpMe88td2pWEwsl7DdamzGbSO70cwV3G2cf1m1Soz7KwYb4FVpPhPdIaNYs_YOSBUcsQ3JhCoX23vqOw2-w3RZQAYxul07pqqdxcxePLe25pQbTHduNkjYX6VoaUPV1YaYVoL3Ktk1bAV_MljNPOmncLg4CccA9GXSC_Q0hZX0OQh6L_qY3Z3MtxSq6gxtwq-bm26weaq31voK6LLWyaG0Rv7B7oA24MyklupXpqLUOKlbgOFScqZWaQmn4I4dqkiD_t4a6uQ0jhVk5oIVa2-TRj4mULwZicz1xj8RWMdzwXB-F8SYvUTh4EoFNIjDJVebAcGWXZ6Qamdd9lYvTyEkPRf27CJXINsCOb3GRFMIY_yjLo3t0gK01nJPVII9ADw8sObu1ecv6Jv9_EQlRIyRzY_dw_9wkZbVF7hEmXoAn_Y8Ra_NWGSVUzfoN7_X287_dZB1XQNoUMoc0SXBRrZfMhnyAM5yuNcHR-iZUlLyBWU_pAroAlLdEpQpYFkImuFeKOU827AOGQc_X6Hyt9uju2wdCeZywTqgGAeWZIs354_IjGqzJeEDcnOhslz2ONVSDplysJ2S8IsVVuRPHfBLafajKOQv7CfLJ0GHThaXjFol-Ngz52NbYcQuiHa1cyOe-w40HVJ_romN0_J4xk4LQ_zD7ipQBtfyVX0YfDs0Ph7TRfwBlDrYXyST_bjMVJ7Pv03mvizFM7xU56ZAVsARUsrh_5QeLzbmmp81nVXmQDgzAzYhg3huwB735VVkg4ViuwlSdVOV-1eaeTdGsjTe10cV94fJwcRWo6ixNW1A85bhCSf3nCKD6ZXt8y7jwvsbY_UNrX77PcxaskHjsKMGF54QIVFao-8Dir2BVds32uY9T7UZsQbTneS02BgKM044Nidqg5jrQ9P46NHDLuuE8DzTfFiZxo88iwYTz5Xt0jrse_Ljcb9TyRoy2GIZaJWv6yGMMa9hcGevI1HouFclzt4Be31EY-fi4EI3BMHZlxHKJF5fXz1HB5PU5TEcSHqry7P1SgwUDm4SvE1WvXI684nA6aihYatuarkvkVkdlT5G0VM5bdyAtL3aOmbbzFZ4GgQKB_FER23cm4iSKUebT7NUN7PZ2w9H0jmCaYN8HYA-J66vtfNriMMEKJKCSSvYoxVKEQOlvCjRRSol2r5Py8_o4-7Iw1K8TKJHOk-J295pwuj7MI0qvGS6rJp7ANvpEE67NjSVglscmkSqJuDQzcJANxrrYPp3rTw4ZATZIYHnXwzM_tpyIqZv3slfroF0GSmAKQjq484rupGzpavmI5yH89tySESDIXV-ufyJ8x21pSWxx2-YfYLrOXQf0ZS4Bsc949rI1oaFfHEixU7ytODqIqJnVf80wjlsR8g51EDz_yTZ__NvcgOcyqsgAztBfU05O_xqRNXV7hJen8hULWKS89cLHe8Z_Z2jJiPFtxpZLedJXaK2VWFxWVic98Y7pMxiwaWF9uj1nhU0Jxl2N0NAcPSIkSjzom8WjwpLathQGlJZoCg0WfnccMfOBNnenlnvex7NIpK5WRhtBMlPocUJVMf-VhyNwycNYdz641ackzWwQoWE4RD3Empls4Bd4Y2giDmHgtJ51Egw8scZgjVjiYHbGbq0IZfAYThJV5Jidvtojo8xmdLz_9PDsdWLBSQ1y9kDJV5W2jxThNsNJpPa6EC3Je7XfwlLrcWUqTiu7gHeDUDOxhUyoehRJ2FisJCYCs0l1uo3gQsyBL0dJC2HybleHPYp5TiyFDxVGMn5CX8MozKn812fybQKb8ssn-ii5Uz9WNgbC0UpF9cSanuoeaMbCv7477q4RkrFUMbzE4Jy_NnanIAQN3ZOhTcLU-KtKn4pmxy3V5b7Vwuw_RTYnaX82eN12YubonB-HhE0EGpoTMNnF11R-K6XoQoPbqQ6B2j18E7pP8XjZOZYr0bVU_l8KBC5WM97U89uBuCeBI2PFobcKYF0L_WK4HXee3h7oQ==",
+        "status": null
+      },
+      {
+        "id": "rs_0d9696714dcbdc44006a65171199fc81959f4952258799d2d0",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRepshqhD38z-yArWI-FHd3CLbd3p-TlNN5NZ4AEosdwhLZ7sazDjLHjFSGsM7U2jxbeSLIVcrebEPLIKCdnANdFES8WFyfMGJltLaOdfQkbehvNw_PPBnAcVTuCcduhWSwkzhmJnsXYf93omLteTd0NO59KJhFPpClDGN8TCa5Xah488KjW1JUPbqN3_Wx1Ooq77wxgPyloTEzeEETIgdE0yAGfTh0C_zkIW1f63ur7Bbp4oOMqS_GtaFa67deXrHHd1QCnBf8OK3fDFHyqkXwFJqh-c5cWugrPf7pmY_d9OcVAL_oLG3GVlBJ8zRT-QPNdskRyYiCRjpVCHjRxr_BQx_FBT6rVAHOrmhotLzFuo7nv5GwXEMVxk_GxuDhE7De94x6_ZlcifJIeL9uR3UoaZnzonllEcdKHCFW8uj_ZMsc-CRAxeKxTMb9sPUAQF9bXS9mZgZmD5Qj7W4o41zTzgHGX2h2rpJRYbU_k2ffwDffBRNpRgCROKAvM2xuMBqqSI6c784A32n7yD1yWgFz8vFeUsJNAliJv8C5iXJUDi14w520fJVpDbsFa-uIdHtH8Ol9iqjoav02YD6QmQZwa4mK8fq40cyQwbPcug5LjHtjzIUVP99KpeKWQcy7SXL9mym93kRz5SqjU9kka5aY6SLI4DoeJtB0HbhMhIanxCb9q0f0BPCS2krelLVbAN1hmSw14DSIFvvngPmSLq9uC_MIL-Ip_GCFnmX-mDoFxiiGQ0iKFPbikEjYJhY0aFJ1Gfn7E3RkK_96YCOtmAqCPUkxkTWSR1Wf_uLvoNPyis_iqURqAFupSMPsnI8mXbWVku9o-4bH5qqGdYVeXWO_rT2xokSsRbsbBdNTC7rMN0DlK3e3hkcs8BswaQAALIPH_FeavHXTfFCHoBQGqZdKq-dmSLEQ-4fM2XtreiCqpKUvt7c6JG9IkZ6QeGqsmiaeIZdDsdrsJEZvLr9FA92_kh2JVsIXDqq7zYpv80bpoALYytchQpJmE1x1LBAUMlm6rk1Nkeh1dfZhIBDeah1iAEFSR7x44H3WH4Yf47YhGy1RDfwRc1omiKDAe6Yx7pnTLy2XZAZZAGK9Cc7gwB5fTyIaQwPgL4iJvJ0jHR_yj_E33EzcdwbiZGF48WyhdLBU_Kdb1VlVxCZyEayAXMLfFfU3ItZgZbHLj_05iIwkos3PRVH7ZiL48ETPgquRB2xUxBScfpNOChWCvUnRGStjyb5443s8L5XMDNLpBAxVViOeKUQ4c-mh6p8cpbrQcLHdZ8pZAn1DjjYuYezjItgbAqPIAslCxL7O75nnvS7utoK8x7U0ErYNcoIes-FXvHYyzJeEAVpbhuEFll10Q9SsulQP_6FLvPv5-YCbmz02sOo4433g8XTmHyo72Jv0aTs-EACSGzwpEwnxvGYsyFu99AYtgMqeGokDoZ6ewXt1U4sIykLJmL3p5_ULRc48VzMTFxuvqqeesbvfqiNSCSuXPhKvsNlzvfAk_rcqBs8aFthUSCci6jZ0-QAqmmeKo9xdVOs0VPiSDXBLq5_GJTu0TQkkrmtpjaO5TJbrVSGnLR1Oy98tvwgllnNyIxH7Lu5zEyx00I39dM8HkLGtXOxw1t8c2pA5phrvP8apYD9iIRWsxypp4E7jcvDmt4a8PcksVBlouDQcEC3DrTGNJRNcN2tgKVBUT7bEiDXjtajUaoCeOM0Di6RDWi1Y80Lvvelra0tNxzoIHhRY69fsPBXW8V26ytbupmwrRTY92QSD1UEvWjMQTkO4zmMhA268886tUd6uAKaum2IvDfFUrxJocVAjYQq-kRfobijnbSXk4M3-TEbxO5i5mBZ2ezeuuvif6fbYfRd2P2rGA9RZgrLGuceK0JU0p4-hhkoZOwN4ugqWNKwK9fMqeiBWkC4QoKM5LLYmJFh-skMnnYdOhxnAfCNVHsgFT6dQiODeMBCRLmqcnnEYFjiZgclzZ_PwmYKY6zF_NAuwwcVXicOlsciQkiykxgvUmmxEMAJLmQszo0WutOtW0OqCmnec4UboF9PKmlLHzew97HuQOlBr9rGezWRVDLHvmAE49J5dByiIBHvusLbvVJmyXiWolihqI3GcEVao_BJ1kTVJLMdKiL_zEPrmC1ThZ4x_BTLvKdG1807qoKpoFvPairotxwjtxSSP-kAqpALkhi8Cp-I3z4DDosUXRKyt8n_oL5c-U2hBu7fzcMiMFbVKF72x69PvqGM6H5jQSIHwejwWPrdpFsN1a19GqZxmFmcq6Fj8yaJcVA1awY66zebS7InL9meI4874oMeiVWiDNhYiFO2cyYlz40ZlFTeP4fMXP_UoRcVZ5SBDm6roQiL8TbggV8C58UdT4HbbatSrL96AwRI6SN0uYFs_rlfGX0ZsZnLrZ_dKfAYmFDDCTmo8RkgKqhOcr7q3jusVFz0oGFhoIlUEBkv84OVer4w9xCIAEifWOK1NmZ1-HQpdy_Pgtef8NaCc5Mc36nfp6hCPu-bmc5iDjyzNJbbzc6ZNN-R-29SprBGJYLB-_yNIfBMQNbmEJPaEZQDM6lr-s91faGZyVyVvDmXRvia1_kx5scdb1mJRBy3cmON_sna-dcya7AfYtinKd0mYGb3VjoVDu5jV8GurkrqK-5Um41N9jWBHCe_HOMhKElQWKnRlJwpOd34OFIWsSF-1sN0yCEB9_eYY1NyOOA-G8Gw6MTtN1WXE0G-7pfFUvQTWcXqlKmA_YykkyXOCY7JCZCvuEMM7E4hRC4qjPeMwPxZdtimpiuFJaNy-3onbV9ALJ24TGCPImwW_TRJ1zywLojEmAgIcU5_viONzQeh9ix5Go_Su40jTa-l266Xf4TK2g1-oysZoRq-eP4G_TrL1Kmn-2Q2df_EdOwwdksWFMfEEPB0pvzgySr2Snh-OQ25KXaXtWSd6gnQ-JBHMrgEUZFxXdgVZ-VtT6Q3xEi9FHzHw4-2UPoxR7LflF4wvY_H5XAD0KIiyyuhRU3CTUwolNyyXaINGqZ8aTcvkn_1MqOpdWmaaMqYu7aiy9edhkVfRjATyLC4CDUH9v-J9558wUk-t7FLnDloLcusEXn1h1stRR_-TFWvmYvykriiiv-T6UDSBaBclaBw_9KG3NBAKFBJvrI6CN_mgpL2sopzx5lAZyagMLT2C4G8QeCTiZB8tlEPcHFAAgcqfhIRLuVo0r8xvV--dimsqiRJE6pX7E5ObpzYgLF69XVAg01vCu8C0p7bhAyafx0-EVlNzkqHiB87AcZZGyzY4I05-bDOuAYpaFBHQwv6qc2cF-x7AGzOS5fh0EcsCA0oY0PeIL2L2YBk2cPLF__ZQJKoQAlRkZouJV1CCi-uK_dUzQvAYGOqyuwJldX5YTSaSAqRKT2p1sTASIH6GtL2wnfcX_vOWH_EPHqoLChJRAYjWpMfTdKQAfejlq7_gEI88mInkgos_sDhWnePJCKtOH3NRJvvSiJ71bEA87ewJrVQbYKsIEqbusEy_pfOP5-FmaBrkKe6u91U5I-MtDTdttHzoN_9q7woy6devAOLnFrajedRwHbxy98stcsAJDifmF1pRQRy8OXEynZzv4-VIVSRQUU93NToVmz1EZcG0P2JGCKAWV4SHjsWVz_nsnAcrt4z7NE0Py3xsVfodPqxUeo8C91t5UmJkODRSvDElP96JG5Tr3zsSBTVOfTV9qbrKNk9AWsrnTveLk1VpnQfDtTAhoQLx9GXNwRd4RzmH3WsoML_USpIMyo6L_xj9s97-lcL59sZJVBo6cWyIQy4zWEBcej-51eVOcIvUFHMg5M5Vj7KzaSBodBIrKKszsArrhZ8YSuGjSThNCgRmRmqTg3dK1xmOc3RDxEOpmL1_Xx79_95pe_LVRj27FFYTZKxw4l8t0CwEMBfwi1uIG8P_dC2BrfH5jpsIcypBVY3vZZ2RzFrN1DHtpDm3hyOlNc1Up4ZckN1ua4xb7LbPIFGw1QKYCs0vIw8mFsUG2ZPP0LqCZjN0qi0k9SmOF7vopVELObzxFv7zO",
+        "status": null
+      },
+      {
+        "id": "rs_0d9696714dcbdc44006a65171cdb18819588c2ca71fe49661c",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRepgIAe2N9uBK35uvInriQdIxJzpnOP0raELF6u_ZDmnNzCTzwlIiK9ipVRJjMXdD0isGpQ9z0dLzaTPvoyn_9Fa0XFMb2HeuaB1bEA6hmQ8SKFzlJhlsDOkw79I5EEgrIV28mS1M_GSQG8mviANdKZ2PNn1ATQKguFA54PRRZwj3TjuBrpf88jY9F54402tWruSmYG3VX0twFiU4KC3BX86qdJwLjVxXY-K0bsw32syMg2F2R-wnACZuKDCwd47YwZRf7Uw_LuhX3kfPT4xKR20W4aUlvF1K0PVrdRrcb7IkFgUcYsbQCsEy9rIaJc0nqXBTM1RLk4Pnk9KG8MzsVykMYu523k-erqw-9qYRhWIS0I7np0pag4HzLowZTuYYSbdBNDSA7ILD30NGvDPW7-y3WRLwWJsBnBaFqSXWS3SdUeyFzdX42wVX6gVLypYCXMjaZTPHQWqqV3X1fi5EIMWEDc_oWwfY24gj825oOjRC5UEqLAkLo5L7rVXskGWO_nuhlffKPDG7t6DKJVp8l9i2Bqz5qejYqTeryj4vKgO3HYYIBqjDDJtAOO_JjJ6-45uVqdgwTQ0C2KZyUmEsYS7SrQLenzystt4ET9PrD7ct08Ot0j5PBa_iSt1-Rv0RZ1ByTOBKFHpP2rsygFD__A27B8HsTCs_WHPs6qhKEjINNJnznJETGrtk14ssIloBFrSugbIMhLZPJNVs79WA20os6KlqY-H6hFHZkESp5CHZLuKIBpR11Z5iGeBb6dCff6SM6JSSuWcCMw659cf5y7bTxCauFPES2x7XvD9ChPWPr2yyHoTLjgBY4U9Hk2MCm7ipjluWLQkdYfuwfPCfB8rdLs4_dd6kQ79iX6svVBpOYXNnbbi3q7zC3ERXHafWgO-9FTVTspvFtoKx8zpzkqhrQUAGH-DyuwJTPxv-9DBkuA7Uv4bNANosXxSHRiF_0W5KTiZZHZKH5tW5eZmpgKrURcxItcY91gZAYmSu4fS3hc5_IHD2cHTUHYREkos3eQd55tI8NGNNnYQosg0Zd9pPYnqnzou1VyfNuOwngfyiDQQ5o7mTsEWXDP5BrLtKtWB13M9_M9dPUIcXrWS8wfDqVjhSZwxPraxiOM7-XCLZY9Og6aRdqH9_m4kIBe00J2h-ij4TbMtDlofoVehElXuPC-_WnpqOaoBrTwsMkXnW2cgoSUq9Nm29iiDVRLTRd0hResSkn8NFl8S9AXVtwvDatBfElmbxgUqOSOsyqL_XnhjAHzXxw90nWbu5zTuq2OP9z_Av0DPUdo2HLmL2dom6UdIbTRjSbzRF4iKzjFoBDGay9fbqH095zShRbOQHRA3X9I1OcNLB0sdBfHE0ObeuinYHWCatZF8SVWjDI6uqXmgw46i-sFzfRESkpmraW6Tzpvs4eQiNibkHAS_llYsfR2Ilg8UbkyqqK1xBd80t_b9aKb-PoksDICnCXc62F52wN2kaAJbtpx_mDstO-q7637D7dmw1PXMyYNm9hgOeuyjHTe90ZyeUfAPC76Hx5SdrnImRo0WXcjs7gLdnrSfoJWpfLPmLzDh9itngn-nFTnz3fownuy-cMXS6wZBynMGlOjvnv68GEqiW73yXJ3EgEVcXGfhVVhxRrKGyCIXuOSoAvtFpFfKXPmhzAhp97nyXGuH1PWUvCHLDw3OE8tuDFgShKhr8JSthZS4HIxsyevfSUmnM5Xv88pPTxg9IrhyEIght4GO-cm5e8Zf-jw-D3A_43AJMKraH3EYUOh8F4RqMVgO8H9zh8D4gG_N3eBBD8QaW_Ssq9SmsQa7BoG0wfiAcHU6wvOqPy0RxDHjcbhVlY4UVCVfUIbxgwhnISS6mAwSPsGNFwgpqxXxGBDz_ic1lv5fuF7fLLsM19JItJc6mG-TywkAWItv9f-dbSw58g-s6bEOrbM_NAojqfZdbah-xP_7jTtt22oekIOJ8HVWEqaF3NSUVAwxOyN4fTk3OwqLdWzdbHzODSUyrVGvK0qOrIGe-qsH4YuSYOGi5uqBqnLDLd88DIW-OR4TJ65jSALxFkD7qXyfFzmOTrgQI8f8sBvT0X4HPa1XVMcS4IysdC95lGCArpj5pDQ7YWUSjgBxy5g0f9c3Emm36a_SjFTtUGNYuDMrIa2dEi6b9YtBJ6hVJdLk40sipa-UAuoKoKrea6S0hCO_-ilOsZLCHqxRYO8v2adqSql2r76asKBTXXD7THA2CyAn7Fzn4PLYg1MnKjNdYx7lKor313Lvt2xuZevArT0kyjkM6AWWbJNFBNGB1N83qItXml-LUVVFgNEYBXjQGoid0bLEK_W0-3a_aJw-mPs20oqcwEq5NBD07qJOKi15nv7RC-VJkXTM3AQ4ROxDYAypTKLnaj85nZ1AJSIOmhf1rZzrk7MV-bbT3znysnYD-AYMdsl9WlYZtxDaea4hmm4t4yqNjto4jAivx6rXVNrf_khlQjoxhBKEnOvS1SNLnuOtIqMJyvIfcViWj27pGjMwz7w5k5GecqWbFPD1k2jSrmtz_eVYur6IY74B5mQ401ZA0y3kQwO8APUfWfCrZVHoRFnudbYNtOcvgZNSNqINK1DTw8Jbuz1rqS8ZXW8FeXtkxpk5uYKbXPP0bCdINBDeRXHjdXtQOzA4oBAtWvq6VBxEWs3u-Enf8Kd9MqNJDLrxpu0VNX_YY9bjqkfwMzIz7_sVTASoGxB6o1vwcF5MbzbdHChr5I9o5qAH3v1Jkaf2IPjmmtQaHoMUMU74PnVKntfy9G6GoM_dJ1kXMBzB2y-6pFDFlHmQOQYokPeUweiglb4ahymA-SBE-ohmw4MolMq-gri545l00uXabN6d2GBkts6ociV_t_UVetNM38ILuy55c4AsxFJZgCxy63nR3jrfjdHy_GocsqF8mQJLVzkDMWiU8Gnh2IQlqxbJSdIWx_BAetQSPn-ccf6eGfwBcNfR6Z_lqnZac2daWU3u6WyJyFrz2oyiKiATVx58VXu4gP2F7JXrkTLlrOIdVx5hp-vx6goH1gclwGukQW9RVLy3j35Qrpu__PyCjAdhYNkkxk0omBtX5l9BZEV7HBcMbb_zu5P00tvWzKmhnEoAmx4D-LTyc40BTm40PlhjHnv-krwX93X73rSl0lz4mcwDcOngFuH2hooMgNRDolVHOv-oDAwkEm5tzb_yUm1B3Dae-botOw3Obie5ZWj18KeNDzIJckG55ghM-_BLetzvWOSVpiIihke7lExRyYlbSB3215AgCiKFPcXkPnZbn3ZHvxugGXD2ke1riJUzkp4307rMxy8iVzPa0atlD9By0r_cro9HBu9UYH9zZ0FFzs9xzpoxjx4pgw8n6fA2bBUpmzMpMmY9Bvjs3Q3h_PA_QWrlGr3uqSv5LKP3r02Wcyuu0UceCiv6OM4anLpcnasojDNy5B3TKmLgqVuOg1e4BUShFFM5KhMT6PI2OtTYR5Xvxx9_p4poltGq11H8pMg6pCX01xCIRKuPOiz5PBCOPrUDuKoTGle8gtqmFf8ttS85QonHo_Nb2X1ry9mrJTiaJMiZgkEvW_GUujNhn5ctDGRgpz9vAjBD6lVPD_U84etvhfsEgafTAqD0vTOzDuM526inv_pqdtPRELsok8Aq5-isACEFB0UXJHSLX3TIN6szuW5ldyBvC4nZleryUwslsStWMCWO8xePm4TPVfWGfzc1_aLxk1naZA0RJogVt255GPfJuTR242qzMjsNquGY5203crUZj8Ow64BSp4ZSKKh5o4hAQJ_Nct9iNErnaBtRiaMVpWHj-r9HbT-JVKUA8-8Ps0hvSV-8XofBavCURBOPJIuekanxugjjsaZXpJHJzZn06IzzOqUTpsxuw2sspCdfyOxialyL92M1V__VzWhnvH8nhTgmso31Ey976ZN5qHlrmNUmqjJ3C1qw4M5KxWuYWGEg1eMdr2SS7TZ6r1w5OfDOLcKRv7iyKqdnreE0bpC2eAAOg3AyIA65IKItF95udbGNhgdR1i68dp0r3g0U5Wljy9Gumb4TS9otofDanG5YsER6h_Zv2sljIbLMm11R6mNo1twHD3lt4zwW1gudoV6AFiMD36KQYxHpcobyQoUNpQ2GQ==",
+        "status": null
+      },
+      {
+        "id": "rs_0d9696714dcbdc44006a6517260848819595493cf3aaf954de",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRep1ratS9jlxa2wNDcDIhCMRpdgYt--4Qay7CcCyfExlgJomvaK5tDxZV-_YXfLDCfHE562eM8g3f0Mdd48xoTsAlwJS9xZyPl6QlTk4cE_gMCkHWQHVim18RMf7Q4H0FYwzpJ6ZisBuSHs8lACHNr_K8jycuxsMDtLFgzYeAzTOTWjYbjDPrII82yUToa6joE46llc68F2p5gL8MkM7kvLdOCgZq239NUxv2PoW1JtUR7Sk9VywZI0bum5NzeP64ayiMkVLg5JcYoWuYOCuVHAgNDTOdGeFTdrGpnoeDCPfAlIdz2U_PSGihdDoHI0gO8F89s45c4jY8k2234i3qXU6yWYipKd7tETNkneTAR2BMvATgzEr_2CNMndR27WrcsBsGEnsAWE_OaxbUXzVeYxa7Iht8RNxEJl69-R4nWBwSfMUBGz5GNQQ678FHA58OjdXh50YVh6NnxyRFNFyRaHIFgJ8wEpIHU-vyKd28NimOSESUV6Vt6J1xbh-KeBmRJVV5BYRFGjQ7X8E7BBLki86Dbyoe_9TF7tYMejgXDv4cAszj1ZO2FFs4ZQp9NnVYS_7VyWHYVeXiH-di-rLP2qXqEwfZ7nOvvw0nWt6dPRIqOQ3eIIPR4cYwo61_WrdqsEKsZQBqcT26DXMsQkcb2ASH5y3JqfuRtGl_NbbXSNjmdBF8qM3aqwsBpC0E1C8jIlYuyoOwa7Q0emXDFKf-ND7ayvrN9aIFjC2ne6JOu23nk6bzvPcgIE41uSyReYlvNi293G7DThT-bKU4rJd9m_rCcLwbF2A8iSA7wWC98YpYV5AMPyyU_rAljEQSjlqe9rkwUctdwjs1DmRezCFe4d8RKlNl9jVPeFk8Jc9dl9RUPRqG_vCCKjhqgQqU8OdqrD2wKPXX72l4RsxvkcO2sytIQozjNUS-9_nKcLXkYDoV7ZeAZflpo7qbp2p-h9PVZj6F0lMgRKVw3p6H_CUVLmhmkBEN1JqL1cq7xSWUgC3zgddezmXjFEXzcxn25MYvFAIjM_P9CaWgxDt3GvuZf4ZcQrKccKAZf5jkVkUo4qyd2F72Yhe4nK_zmbLyRP3FVKSFBZBy1aisvJqEMZVoAfqtUX4hPLHpTALldLaviCf_IfIk9b2EQn8KLazO1k9_t6cpHWk4-h4szQK-K1pjtKAc_4mxZ553AQAENls2edo7uuFgf3bGi98XpnVmhGthGMzJbPtYlsWRfYQi2hQ2XgqqZ7tdKn_QG-6CVyPyeu4fW9H_ilqIRdbWzb7HFYr4Ht8FCJgJwnSVwlLUhtqb30WMsQTJgbdTTnIKGVyhKAb8I_pCuPXhaTFv3TF0cECwhkbdTsZYcZ_slYXH5wZrU-hVkIZkzyrGEBkQO6POls7Qb3biBgx_B1h3UqxDn_Uwi74An_ETyGP6Rl5_Kq4hTlSB8uW3dsXqkAfkiGUkVh-rFS6xAb0I_njNhi1AWlu9bWsUtQDAYrwPlaSVEMZB4-zlhH9EojM0Im2ueLhIMpHsLt3VWSnfguKm3kfOIzkTZ2Lz3FTsccUFNVCw_uKeQNFUfamjjLFv4vCckx5SYqdfVglC_iNSfs_6YTXvfC1vXPfdlmN9B-v2TdTUf34t6QIkoN8AclA4ZZjteYHM8_weysqKOV7zqoKaVAU03RP--nTBD1QHZekrQG1sn_yjww3Oj8YohIke5pavF-52udMZI-KRjTVjfgL6orIvU_ZJPXGzGZNlC880AS2UTtx7G2gN9Hvb7yUHHWONX_2dNED7Zj_byxPIqFMaew6TQhDZf-e0TCxscQ7AukDkFOX0HtqLDa01G29d7QGq2FWltbUeCFYDWYnMR2DuAQ6-bjKrBaD3jYyOVKSWT9-d35eVFxbNa6UzUkXBK0QaWBUQxBKJXja6piXlgtorxDmHKIdNeLf-ycoS2SBFueUB_X8K7J20F9FHfTXygfP9-gZjc5WiX6Fe8_cu3hMtDKC-qoyzjgX4mH-UCwdiK-c-vKSt-hFSd9enL14TAXVmCpu4OfXY_rfkTNki7g58gorQFESYaFlLiN2iMCa8aqMmy14ZEP-xeOMaZV8X1RKoBfsorf4VRs2QNAxI2QKzNmrcxiQMlFSUjBeUr-0S29ziU6DuszISDo9g3mFyBbzvr7qkxG3G2oUsUCPO4J3GnoW6s7J3M7PcNMu2B6Chn7IjFbgVhpypiL0BlAfeI7CJ97d2_sVLvLB5ht6Rweqec4iZtERvDo9V4dBXd6aA7iV1bJlqJ2TLSXiXTTadD5j_WhCyffxw2fxteVcHDd40UqN-a4jBELIZgsG4PrkyLf__qdgs5vNNVu9xo4THRgBovu7kBZZTQ1SaBcNulHAXolBftrIIucRzCix3wVKNcR55dQEfSwfsflLgi96520owCK2EKA_Brrq65bMkwg9xOHPCRrLqSZA_l2dzS5j6PZJ5VAUH4ugiPAeqh8YkLL4nQX5NL0WGwSc8ZzKPpyQN7iMbKw8zQvrFO_ESciEFOlYR3e2ckoCzm9tk2zksmS_bdp2aER6CYt9Z28STsr6Iw-itAwEWjHChA7lv23WCXLPlVNnaDm-7hhBqZXmYIdTtcQpYerkEh7q9TlgquqLagRKb5ayQuz55L4rKAYS1ZagFzcRCeKVNgx1koV4fudeQbhw9EwElAwi_9y4O11dvijUn24bYwvT3ck1V25YpWcB2xZVOL7LslVa3mUUeUKI1kJOAUu1C3xUPMARjcA2YoboGJJyZpVFDVOEhNFP5fLIN4ywPAxhZKB84yFLRWF5qJK5ps6l8Eef6xWSh9BaER2UNuaTbMc_Q9sWa6IkqmU8WmmTeLK-My66TCb-DzeSmIRXfcU6eCnCvCokJSKH7hLfOFjGqL2C1EMnPik3yprc9DVYPiOgPnAbts4LRxPnmllmoStF2qec3G5ToD2qExsWGcL7jhNduaJ7_2XUNKA3TfAYDxLxO3k7ib6MSfNwmiN47Ij_N_To6IvolH835UK5U6-H-xer5MZGW3j3BWE3aI3k9RrcB8xl82Uil9247Gob8aNq_bQKDvVyuErVEYF0WabbXpAvZnh8ywm0MmaGz4wwKNdxNimUuk-k06oAshVoms8HPMy5ZxvAbkVtRHlfYfnvoia0EbdxnnH6rTwttDIXLpuCHtwSQlZcb1C7K0RBMULnQ6P1l8Fi-IqOh-OiIM7eWIyZAtbT2htxWRwmSDlZ02-llksAqX0DitNN1XO4zVf9_9dmNMwvuAtQYeKpjekyKSnEFuV_rGoHd7-NMcg4fBPRw642RmrDD4-RYCpUOWpl25xpfShICMz7aIKCYnDDKyhm1PhF4ZGUQB1UuIQjzZLmp3yYuAWcTUzTxLtP2HWwrLfQjqQS5v5l-sGwsYDJl_zZ5zN0q7nd7KyASYXQC7rkQ_wwOXhJ7e3XtNwiZbOJ2Hqwmwy_ThnRYn736ndZa7eaIfgffby8R9p4aAGQfTNhbo4y1zkjXB43wNxB706S3ywNJHX9Fvuis0h4Nab4UVbVvydg1sUK6IV7WfZlDzvbhvow651cYD-supZjshc2NsiEcn1JccQr011vh8AOWxS3qatrJQTUZs6P3rjcdbGMNXfL_CgG7PX6YzCPguAzUy_eEPlw99oqUJ8CTzYpUsiSPsVEQPtoLOnaieqrH-p-5zJlD8catCrRi-fgXRqCBi1ioB4tb1HtOyCBF6XAWOmq4RQqCLzL57SHCFBez3si5ddsrmfMmV7F_Pi1NS-uPQTzf3BVdIkjz-yozBYGXdL8sBli79u1DZbI-lfRpogaC1RX0huXzvm9QPHjSyLr7NCVxLkHQAm1oiuLO-thyBo-ynGI-CmoNbGwlWX1Xer2-pbr8yBFUcETdkfD-sbRFOBp4LKhnUPkyI2Zq90gNG4U14IdaNhF96MnD25bvsTuAavw_bHWGllw5klFUBxOSdQUq_Csj-S3DH1IKH-AvToFFMIMIESvJt5t4u0qeiZinO5WsUDey9RrVXJowfqY-Dc2esdhJEWYyVtd6_IpnddC9BmXIxmQPhGCPUK4DEVA8G-goKGER-Ku9bKZ3pPefI=",
+        "status": null
+      },
+      {
+        "id": "rs_0d9696714dcbdc44006a65172fa68c81959de30b0f5fab4096",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRepEvpvSpZiFj_3xSPT5AbY5PfzYJqPjOweuhSwolHOjcxzsNdpDdhcBi415teTl-ENWq7ld4KLes_naycUJSVha3FpZjqK_2jlMGPZGgbtToBN0YfzoeGN9tXw5-SCu0Jhx3jzIBXWynMEGpQpU89swJ1nn9YkI7ZWc1nELNtBqLtucqTl9UrSg63TkRF6MROqkvXp5zL7mTlCgnTeXuSQLQcp6vHcTSmvGs0gJRPwYlOOEFmuoNnrcgDNCWx8kloGFTU4hfQmwS-sbHr5sFbtlDzQuR8Utjy-1JZHbCn4MtWhUT2Wy3BhkjqZFhR-Y6GZTLyG3WpPep2vTWCM67eb1xo9iVzJgBbiinCI5EB7b_JAasvVEyjcSDmlVmnJkq7RmI8_EX841oQMG1fMsiA7ScRs21RTqL4H-PjM04hsSkEd_op5gAt7lyxKJkUEMIzf2s2x_9q_akBt9wBk6VJhMuc5MieWDnk8fpMdZqFQq7j33OIkdsNWZTnId8e4dtFGj2M5c_PD4fHyiDBF5CimnurA95nLSnkCh61ZMRd3wI4MYdgFTkjXkPOtc4jB9M0tB8xagITeeuSHlynonmZbDEEug3UxGAfuGnouiHxAUw_tOQlNaq1la2Yst4sdwuc8aW6itEgb3NmvaFvPMalToyYDYcHOv4_zPekxPPYOD2-aB61nxLMetqmik7a93YgnxuEFeR-sLUNXjl0c44fFcs5hwDyjVAxPKrRXVqPyzfP5EtJWr96ofwA_39SRjrkxzcT1dRB9I6paFg3thT_FcVYWvEx6BEc-EJR8u3mNjBKLL4XiAKAqTjBGqXjdaVeJ2Y64MaXGAwBVZarrrgrf9m_r_M_Xh9BYsrqkFhjsNuRWU8-986AFOZMlOvxMnMjV5T7SZHxcHRYjaSsqiGlbPXMaa-nqj2AI32OgC8Pv6YCk5E3rRH1QMXA6BnTp86efaKmBalcO_0XpSsM-pUuUnK64peSxI9SFdlQe-v9UJnL-gtLHtu8KQRPRTkMLOzIJ_UlkKGVsYN11bt7KFDkJQTyj5jMVuXOqR-xf06pL1t_gSGN69oPj9LCG3nscef5sYZpYby1VUEU2GgNSmuZUQyu5yYe_yJyS3mvfhS6FD1nP9nv1JvAXKxfeDCQUgGJW-oGdREHPIPq8TPGa9O8jOyp-76JPmlc1Q9PbORPi4_hHXBKerOUFnZ1XiSpwkTL3adUHq72b17HOCmaokO3vCNBQtbjULjo7s0RPfTe_Iy5PnvTpPssfDHd3OxgvZu1JNksctFquQ7Roxd16XK7G7UnCYwicBt7Noiu3PeuigHcieoxQG7TWwTUuidDlVjB75oTHCK9p_n3HjpgGlmZb9teQsTmFyKhw4hdxFUbSTNzVKoScp8JHo3_HpQTcDWSDwqiYOAXpDNu4Ck81R4yp7XZmX8ehMyxKz1dZsPIueOBaSRf_FwvOemckcyGHA7B3RH7WGsr9AIg2rm-keQr4gwiqGWrWLI1nuZiywoDmyY92VxdmRDjryB1iE0Yz7R89KHVcq-yoYkLW_cLQ_krZCAN_FNqdllnUGk77Iv9U_BTpxsg1wEwaFhrs929dAxu5AlOkid_M_HsjIQgylJd8-XlW3TrEBaj2aZH4BdHOLIo-fzA2a9JKbc5SrleUF0qp98jKj3WbPO_NHLbfIq2bnVyMZzNbscw7o464gEauQClJOaZQlAwlaStoK4CeYargTFIseGy78gJjqp9LnA0hkc-9xqlEYNoobvW8I4kfdqIhmkHzZfPAN00NZX2SURZtUmjzUczfMUDn_8qSIqAC_LipburnFXOM0GMjoohwFLGtZn1fJp1SD5Z_utFpLOnrg9EwMb1o1YBXEwS_tT8DywMnWbgqkOJi209A_D09-U6Z9hPekaJA9lgTZyGhrE8mycKvdT_bVH2BIQCTcPCrLyBc3_kmOIJjsNIe9DTn4CkfV4T6fMVv3bh2PO0g9aZBNDtfP4P6QbJx4Qb087Kd1hyDxo-hHXQUEL3HrdLixj7BUZT7DTp372tvkNNPcTHaPfa8S2mqMSe82XqLveBKMBzSY8h_vQEfZ4Mth8fiB2gwWARej1z2Bx9-jzR8Txt0YfQXuins04jQbeP0BYqu0QA-w5r1fQWflifkICCJk-RasPpNNl8cRiilkJiUAde0UttGt2eLzYi-MB30Hkicvo6v2QyG0AvZihKxWYl_l5yu0qA_v3UxW4jUwaN_Wox-PG3kZukcBIniWQYKUwlZmx0Y1VXChmTNrD9klyOgYsF_IiDyXXEIRFArS_1V0zEUpbi3H8mgjqsRCW3l67jPg_enJsVkHlyz-4--9uNUiISxK63X1MIUTCHcqh7v5cTbubxwnDibNHEsW0g6FotbCHV7ihHSGzJIWPHj93lGsHQgC18xq4Yw56Fj0TAFwlYd4mEFdpCT87kFIYq2uEkBF8tlF0mB4RfGYF6ZsUyzMD_N7D0u4x7JUtLtGUvqOuy4So5SYdVsKLo-NzGQdKYNAXAZsP-VLI4NwNxgO9kVl4Mut2KA-35NfdHSeq-euyUvjpvKI8ug6-nJNXW6qw0kfaOBsYhFBuELiqyO5_RUHefWBHiU9HJ1J1ebd7IACmWv2U8FJ9NJcoendr-LzOytYq37GHpNuIRiFLocba1MEoMZ8nOV8R3eViyQ4tTUfm-51lfhaO-6XlECXXthuqy8-0PuyLTNYxTJd4ocWbyCU9ea66XmuS-11-fvMdRmDMdCN7FOjJUHfnojkHv7oikXRur9OjJXyy--R8rn0KrcgEKT6JWL6h7DfpUq1lW-1OG0T8mUitZyerq0m3XFR9VbKKoyOegtY7BVhnaa0qYhMpLMMw0XiZTzxzZ9utuD7SqPnaJ6RhWjlFYKL3OkHajX8f727T2y0pqM-TjCNqNDmNn06WG-MGAAtTU-7vvdJdUid3UZRVXZHETqfGxhvxWBzXV0k7Q-x2DhZ3aCnMP0ffNnynU4IfnRpcJhLeiL1YQ7dAlZAAtaQtrldbAW4ry0Pz6zrNTHFGmfhsp02RNecwKTN06UpV56fXRSk_i4h0kk-yJedbp5jf8QzZCHjjkYVUs1O2dw4IDz2euslJzS0-wzdxCR2ywXnD0HFTTNoE63yuD2MWbgmaYS4-5XY27ixWP1ezv8QHqhYIQadv_uEP96aEwCgc2AmefIAw-7648tt_c1pqBAUNhJENAnUffbJEARwc8lww_ZGXr8h-Q7ff0=",
+        "status": null
+      },
+      {
+        "id": "msg_0d9696714dcbdc44006a651736a1fc8195838c866a07d90b13",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"episodes\":[{\"ep\":1,\"title\":\"The Wrong Number\",\"script\":\"SFX: METAL SEAL STRIKES PAPER. INVESTORS MURMUR. PRINTING PRESS CLATTERS BEYOND A THIN WALL.\\n\\nEDWIN: [language=en] Change this number.\\n\\nIAIN: [language=en] I cannot.\\n\\nEDWIN: [language=en] I paid four hundred pounds for land, clerk. I will not hold certificate number three hundred and twelve when the gentleman beside me holds another three hundred and twelve.\\n\\nIAIN: [language=en] That is precisely why I cannot change it.\\n\\nSFX: PAPER SNATCHED FROM A DESK.\\n\\nCASSIAN: [language=en] Let us be practical. Mr Bell, prepare the surgeon a clean certificate with a private serial.\\n\\nIAIN: [language=en] A private serial will not appear in the register.\\n\\nCASSIAN: [language=en] Then improve the register.\\n\\nIAIN: [language=en] The register records copies issued from this office. The certificates are not independent grants.\\n\\nSFX: THE INVESTOR QUEUE GOES QUIET. THE PRESS SLOWS, THEN STOPS.\\n\\nELSPETH: [language=en] Mr Bell, families are waiting. Must you discuss office language before subscribers?\\n\\nIAIN: [language=en] They are buying the language.\\n\\nEDWIN: [language=en] Answer cleanly. Do I own four hundred pounds of land or a copy of a London paper?\\n\\nCASSIAN: [language=en] You own an estate recognised by the government of Poyais. Mr Bell is a junior copyist who has confused a printer’s serial with sovereign title.\\n\\nIAIN: [language=en] Then show me the sovereign register.\\n\\nTOMAS: [language=en] A printer prints what is supplied.\\n\\nIAIN: [language=en] You supplied this run, Tomas. Three hundred certificates. One plate. Repeated numbers.\\n\\nTOMAS: [language=en] I was supplied with approved instructions.\\n\\nCASSIAN: [language=en] There. Even the printer understands his station.\\n\\nVOICE IN QUEUE: [language=en] The clerk does not.\\n\\nSFX: SEVERAL INVESTORS LAUGH.\\n\\nCASSIAN: [language=en] Mr Bell failed in uniform and now fails at a desk. I apologise to every subscriber delayed by his incompetence.\\n\\nELSPETH: [language=en] There are recruiting agents from Edinburgh in this room.\\n\\nCASSIAN: [language=en] Then they may report that I dismissed an incompetent clerk before he damaged another honest investment.\\n\\nIAIN: [language=en] Dismissed?\\n\\nCASSIAN: [language=en] Publicly and without ambiguity.\\n\\nIAIN: [language=en] Good. I shall take my coat.\\n\\nSFX: CHAIR SCRAPES. QUICK FOOTSTEPS. A KEY TURNS IN THE OFFICE DOOR.\\n\\nIAIN: [language=en] Unlock it.\\n\\nCASSIAN: [language=en] Confidential government papers are kept in this room, are they not.\\n\\nIAIN: [language=en] Papers I copied under your orders.\\n\\nCASSIAN: [language=en] And if any disappear after your departure, your creditors will hear that a former soldier stole from a foreign government. Your sister may find that difficult at the family door.\\n\\nIAIN: [language=en] Leave Agnes out of it.\\n\\nCASSIAN: [language=en] Certainly. Remain here until every sheet is counted, and I shall have no reason to mention her.\\n\\nEDWIN: [language=en] You said he was dismissed.\\n\\nCASSIAN: [language=en] Dismissal and departure are different administrative stages.\\n\\nEDWIN: [language=en] I want my corrected certificate.\\n\\nCASSIAN: [language=en] And you shall have it tomorrow, Doctor. With a number worthy of your confidence.\\n\\nSFX: FOOTSTEPS AND LOW CONVERSATION RECEDE. THE OUTER DOOR CLOSES. PRINTING PRESS RESUMES.\\n\\nIAIN: [language=en] Three hundred and twelve.\\n\\nSFX: LEDGER PAGES TURN RAPIDLY.\\n\\nIAIN: [language=en] Three hundred and twelve. Three hundred and twelve. Six grants, one number.\\n\\nNARRATOR: [language=en] Iain had wanted respectability. Cassian gave him a locked room, a theft accusation waiting outside it, and six buyers who owned the same piece of land.\\n\\nSFX: A FAINT KNOCK AT THE STREET-FACING WINDOW.\\n\\nIAIN: [language=en] Who is there?\\n\\nMESSENGER: [language=en] Letter for the Poyais office. From the coast.\\n\\nIAIN: [language=en] The door is locked. Push it through the gap.\\n\\nSFX: WINDOW RATTLES. AN ENVELOPE SCRAPES ACROSS THE FLOOR. WATER DRIPS FROM IT.\\n\\nIAIN: [language=en] The paper is wet.\\n\\nMESSENGER: [language=en] Salt water. The packet vessel nearly lost the mail.\\n\\nSFX: MESSENGER’S FOOTSTEPS DEPART. IAIN BREAKS WAX. PAPER CRACKLES.\\n\\nNORA: [language=en] To whoever still sells passages to Poyais: stop them.\\n\\nNORA: [language=en] The first settlers found no capital.\\n\\nNORA: [language=en] There was no port authority.\\n\\nNORA: [language=en] There was no government at all.\"},{\"ep\":2,\"title\":\"The Reassuring Seal\",\"script\":\"SFX: MEETING GAVEL STRIKES. CHAIRS SHIFT IN A PACKED SUBSCRIPTION ROOM.\\n\\nIAIN: [language=en] This letter came from the coast. Read it before you take another pound.\\n\\nCASSIAN: [language=en] Mr Bell is no longer employed by the Poyais office.\\n\\nIAIN: [language=en] Then you cannot order me to sit down.\\n\\nEDWIN: [language=en] Let him read.\\n\\nMARA: [language=en] This meeting concerns the two-hundred-thousand-pound loan. Private correspondence is not evidence.\\n\\nIAIN: [language=en] Salt water marked the envelope. A packet master recorded its arrival. The writer travelled with the first settlers.\\n\\nELSPETH: [language=en] The first party included frightened people unused to the coast. Confusion is not proof.\\n\\nIAIN: [language=en] Nora Keel was the ship’s steward. She names the landing place, the stores unloaded and the settlers already ill.\\n\\nCASSIAN: [language=en] Let us be practical. Read the alarming portion, and then we can return to business.\\n\\nSFX: LETTER UNFOLDS.\\n\\nIAIN: [language=en] “We landed where the government chart marks the capital. There was forest, an abandoned shed and no official to receive us. No harbour office recorded the ship. No government supplied the promised houses, hospital or road.”\\n\\nVOICE IN ROOM: [language=en] No hospital?\\n\\nEDWIN: [language=en] I was promised the post of chief surgeon.\\n\\nELSPETH: [language=en] And you may still hold it. One steward’s letter cannot erase a nation.\\n\\nIAIN: [language=en] A nation should leave more than stationery in London.\\n\\nSFX: UNEASY MURMURS RISE.\\n\\nMARA: [language=en] Quiet. Mr Bell, what exactly do you demand?\\n\\nIAIN: [language=en] State what you verified before you placed your firm behind the loan.\\n\\nMARA: [language=en] I reviewed land revenues, customs projections and government guarantees.\\n\\nIAIN: [language=en] Independently?\\n\\nMARA: [language=en] They bore proper signatures and seals.\\n\\nIAIN: [language=en] Did you contact a treasury in Poyais?\\n\\nMARA: [language=en] No.\\n\\nIAIN: [language=en] A customs authority?\\n\\nMARA: [language=en] No.\\n\\nIAIN: [language=en] A port officer?\\n\\nMARA: [language=en] Correspondence was handled through the accredited London office.\\n\\nEDWIN: [language=en] That means Cassian.\\n\\nIAIN: [language=en] Say the whole figure, Mara. Two hundred thousand pounds depends upon what revenue?\\n\\nSFX: NOTHING. LONG.\\n\\nMARA: [language=en] The loan depends upon projected revenues of the Poyais state.\\n\\nIAIN: [language=en] A state you independently verified?\\n\\nMARA: [language=en] No. I have never independently verified that state.\\n\\nSFX: THE ROOM ERUPTS. CHAIRS SCRAPE. SEVERAL SUBSCRIBERS SHOUT FOR THEIR MONEY.\\n\\nCASSIAN: [language=en] Thank you, Mara. Precision is always useful.\\n\\nSFX: A LEATHER CASE OPENS. HEAVY PAPER SLIDES ONTO THE TABLE.\\n\\nCASSIAN: [language=en] This dispatch arrived through a separate channel this morning. It reports the settlers safe, the capital operational and the government receiving ships as planned.\\n\\nEDWIN: [language=en] Who signed it?\\n\\nCASSIAN: [language=en] The acting secretary at the capital.\\n\\nIAIN: [language=en] Which capital?\\n\\nCASSIAN: [language=en] The one your letter pretends does not exist.\\n\\nMARA: [language=en] Give it to me.\\n\\nSFX: PAPER PASSES HANDS. MARA RUNS A FINGER OVER EMBOSSED WAX.\\n\\nMARA: [language=en] Government heading. Ministerial countersignature. Official seal.\\n\\nELSPETH: [language=en] Then the settlers are safe.\\n\\nIAIN: [language=en] Read the date of departure.\\n\\nMARA: [language=en] It is partially blurred.\\n\\nIAIN: [language=en] Read the cargo references.\\n\\nMARA: [language=en] Stores, medicines and tools were received.\\n\\nIAIN: [language=en] My ledger lists those stores as still sitting in a London warehouse.\\n\\nCASSIAN: [language=en] Your ledger was the work of an incompetent clerk.\\n\\nIAIN: [language=en] Page forty-seven. Ask the warehouse agent.\\n\\nSFX: LEDGER DROPS ON TABLE. PAGES TURN.\\n\\nMARA: [language=en] Twelve crates of tools. Eight of medicines. Thirty sacks of seed.\\n\\nIAIN: [language=en] None loaded on the first vessel. Rowan Pike’s manifest confirms it.\\n\\nCASSIAN: [language=en] Mr Pike is a dock clerk seeking advancement.\\n\\nIAIN: [language=en] And my sums?\\n\\nMARA: [language=en] Your totals agree with the warehouse receipts.\\n\\nIAIN: [language=en] Say it so the subscribers hear.\\n\\nCASSIAN: [language=en] Mara, there is no need to indulge him.\\n\\nMARA: [language=en] There is every need. My firm’s name is in this room.\\n\\nSFX: MARA RISES. THE ROOM SETTLES.\\n\\nMARA: [language=en] Iain Bell’s bond ledger is accurate. The cargo figures, subscription totals and unpaid balances are correct.\\n\\nEDWIN: [language=en] And your validation?\\n\\nMARA: [language=en] My validation relied upon papers supplied by Cassian’s office. I did not independently verify their origin.\\n\\nVOICE IN ROOM: [language=en] The dismissed clerk kept the honest books.\\n\\nSECOND VOICE: [language=en] Read his ledger, not the Cazique’s dispatch.\\n\\nCASSIAN: [language=en] A clerk has checked addition. He has not disproved a government seal.\\n\\nIAIN: [language=en] Give me the dispatch.\\n\\nCASSIAN: [language=en] It is sovereign correspondence. You no longer have clearance.\\n\\nMARA: [language=en] He has earned the right to inspect the paper that contradicts his accounts.\\n\\nCASSIAN: [language=en] Rights are expensive things to invent in a subscription room.\\n\\nSFX: CASSIAN SNATCHES UP THE DISPATCH. MEETING GAVEL STRIKES REPEATEDLY.\\n\\nNARRATOR: [language=en] The meeting broke apart with no new subscriptions taken. For the first time, Mara had chosen Iain’s figures over Cassian’s assurance—and done it before every buyer in the room.\\n\\nSFX: OFFICE DOOR UNLOCKS. NIGHT STREET NOISE. IAIN AND AGNES ENTER.\\n\\nAGNES: [language=en] You were locked in here, publicly dismissed, and you still came back.\\n\\nIAIN: [language=en] I need the seal inventory.\\n\\nAGNES: [language=en] You need sleep.\\n\\nIAIN: [language=en] The dispatch seal had a nick above the crown. I have seen it before.\\n\\nSFX: DRAWER PULLS. WOOD STRIKES WOOD.\\n\\nIAIN: [language=en] The lock is split.\\n\\nAGNES: [language=en] Say what is missing.\\n\\nIAIN: [language=en] The brass government die.\\n\\nSFX: IAIN SETS THE DISPATCH IMPRESSION BESIDE THE EMPTY DIE CASE.\\n\\nNARRATOR: [language=en] The seal on Cassian’s reassuring dispatch was cast from the brass die stolen from Iain’s desk the night before.\"},{\"ep\":3,\"title\":\"The Authoritative Ledger\",\"script\":\"SFX: BRASS RUBBING SCRAPES ACROSS PAPER. A BOND-OFFICE CROWD POUNDS ON THE LOCKED DOORS.\\n\\nIAIN: [language=en] One nick above the crown. Hold the doors until we match every seal.\\n\\nCASSIAN: [language=en] You have no authority to hold anyone.\\n\\nAGNES: [language=en] Neither did you when you locked my brother in this office.\\n\\nCASSIAN: [language=en] A family grievance is not a government inquiry.\\n\\nIAIN: [language=en] Tomas, put the land grant beside the dispatch.\\n\\nTOMAS: [language=en] A printer prints what is supplied.\\n\\nIAIN: [language=en] Today he also says who supplied it.\\n\\nSFX: PAPERS LAID DOWN ONE BY ONE.\\n\\nNORA: [language=en] That dispatch says we were received at the capital. I stood on that coast. No official received us.\\n\\nEDWIN: [language=en] You are Nora Keel?\\n\\nNORA: [language=en] Ship’s steward. Twenty-seven settlers sick before we found shelter. Two dead before I secured passage out.\\n\\nELSPETH: [language=en] Two?\\n\\nNORA: [language=en] You recruited them. You may hear the number.\\n\\nSFX: CROWD MUTTERS ANGRILY.\\n\\nCASSIAN: [language=en] Illness proves climate, not fraud. New settlements suffer setbacks.\\n\\nNORA: [language=en] There was no settlement.\\n\\nIAIN: [language=en] Read the number on your land grant, Edwin.\\n\\nEDWIN: [language=en] Three hundred and twelve.\\n\\nIAIN: [language=en] Here is another grant numbered three hundred and twelve. Both carry this seal.\\n\\nAGNES: [language=en] Say the figure.\\n\\nIAIN: [language=en] Six grants with that number. Two thousand four hundred pounds collected against them.\\n\\nCASSIAN: [language=en] Replacement copies are routine.\\n\\nIAIN: [language=en] Then why were all six buyers charged as original grantees?\\n\\nSFX: OFFICE DOOR SHAKES UNDER ANOTHER BLOW.\\n\\nMARA: [language=en] Open the doors. Subscribers must witness this.\\n\\nCASSIAN: [language=en] You advised discretion yesterday.\\n\\nMARA: [language=en] Yesterday my commission was attached to a valid loan.\\n\\nIAIN: [language=en] And today?\\n\\nMARA: [language=en] Today validity is the question.\\n\\nSFX: BOLTS DRAW BACK. DOORS OPEN. INVESTORS SURGE IN.\\n\\nVOICE IN CROWD: [language=en] There is the clerk!\\n\\nSECOND VOICE: [language=en] Let him read the books!\\n\\nIAIN: [language=en] Rowan, the next ship’s authorization.\\n\\nROWAN: [language=en] I write what sailed, and I keep what is offered for sailing.\\n\\nSFX: STIFF DOCUMENT UNFOLDS.\\n\\nROWAN: [language=en] This authorizes the Prosperity to carry one hundred and fourteen passengers to Poyais. Departure is set for this afternoon.\\n\\nNORA: [language=en] One hundred and fourteen more people will land without shelter.\\n\\nROWAN: [language=en] Not if this paper is false.\\n\\nIAIN: [language=en] Place it beside the grant, the banknote and Cassian’s dispatch.\\n\\nSFX: FOUR SHEETS SLIDE INTO A ROW.\\n\\nIAIN: [language=en] Land office. National bank. Foreign ministry. Harbour authority. Four branches of government.\\n\\nMARA: [language=en] All bearing the same nick.\\n\\nIAIN: [language=en] All struck from one brass die kept in this London office.\\n\\nCASSIAN: [language=en] A young state uses a central seal until separate departments are established. Let us be practical.\\n\\nIAIN: [language=en] Then explain the paper.\\n\\nCASSIAN: [language=en] Government stationery.\\n\\nIAIN: [language=en] Tomas?\\n\\nTOMAS: [language=en] The sheets came from my shop.\\n\\nCASSIAN: [language=en] Naturally. Governments contract printers.\\n\\nIAIN: [language=en] The ministerial letterhead?\\n\\nTOMAS: [language=en] My type.\\n\\nIAIN: [language=en] The banknotes?\\n\\nTOMAS: [language=en] My plates.\\n\\nIAIN: [language=en] The coast map showing a capital and harbour?\\n\\nTOMAS: [language=en] My press.\\n\\nCASSIAN: [language=en] And whose approved instructions?\\n\\nTOMAS: [language=en] Yours.\\n\\nSFX: THE CROWD EXPLODES IN SHOUTS.\\n\\nCASSIAN: [language=en] Take care, Tomas. Your shop is solvent because respectable clients trust your silence.\\n\\nTOMAS: [language=en] It will not remain solvent when one hundred and fourteen passengers die carrying my paperwork.\\n\\nIAIN: [language=en] Was any original ministry document sent from Poyais?\\n\\nTOMAS: [language=en] No. I received wording from this office. Every so-called department was printed in London.\\n\\nEDWIN: [language=en] Four departments, one room.\\n\\nIAIN: [language=en] One room, one die, one chain of invented authority.\\n\\nCASSIAN: [language=en] Invented is Mr Bell’s accusation.\\n\\nNORA: [language=en] No. I brought an official warning from the coast.\\n\\nSFX: SEA-DAMAGED CASE OPENS.\\n\\nNORA: [language=en] Osric Dane inspected the landing. His letter orders harbour authorities to prevent further departures until food, shelter and lawful administration can be verified.\\n\\nROWAN: [language=en] His office can authorize a hold.\\n\\nIAIN: [language=en] Take it to the harbour. Take the false authorization with it.\\n\\nROWAN: [language=en] I will need a witness.\\n\\nEDWIN: [language=en] You have one.\\n\\nSFX: ROWAN AND EDWIN RUN OUT. CROWD PARTS FOR THEM.\\n\\nCASSIAN: [language=en] Anyone obstructing that vessel may answer for its entire commercial loss.\\n\\nNORA: [language=en] Better a commercial loss than another grave.\\n\\nIAIN: [language=en] Mara, what were you paid?\\n\\nMARA: [language=en] That is confidential.\\n\\nIAIN: [language=en] You validated the papers. Name the commission before the people who relied upon you.\\n\\nVOICE IN CROWD: [language=en] Name it!\\n\\nMARA: [language=en] Two and one-half percent of subscriptions placed through my firm.\\n\\nIAIN: [language=en] On two hundred thousand pounds?\\n\\nMARA: [language=en] Five thousand pounds, if the issue sold in full.\\n\\nSFX: ANGRY VOICES CLOSE AROUND MARA.\\n\\nMARA: [language=en] I have received eight hundred and seventy-five pounds. I validated Cassian’s papers without independent confirmation.\\n\\nIAIN: [language=en] Elspeth?\\n\\nELSPETH: [language=en] I brought families into this room because I believed there would be land.\\n\\nNORA: [language=en] Name the commission.\\n\\nELSPETH: [language=en] Three pounds for each adult passage and one pound for each child.\\n\\nVOICE IN CROWD: [language=en] You were paid for our children?\\n\\nELSPETH: [language=en] Yes.\\n\\nIAIN: [language=en] How many passengers on the next ship came through you?\\n\\nELSPETH: [language=en] Sixty-three adults. Twenty-one children.\\n\\nNORA: [language=en] Then help stop them.\\n\\nELSPETH: [language=en] I will give Rowan every recruiting list.\\n\\nSFX: A SIDE DOOR CLICKS SOFTLY.\\n\\nAGNES: [language=en] Iain. Cassian is moving.\\n\\nIAIN: [language=en] Leave the door and guard the documents.\\n\\nSFX: IAIN TAKES TWO STEPS, THEN STOPS. SIDE DOOR CLOSES. OUTSIDE, CARRIAGE WHEELS RACE AWAY.\\n\\nAGNES: [language=en] He has gone.\\n\\nIAIN: [language=en] The papers have not.\\n\\nNARRATOR: [language=en] Cassian escaped the office before anyone could place the theft or the forged dispatch in his hands. Iain let him go rather than abandon the only evidence that could stop the ship.\\n\\nSFX: CLOCK TICKS. CROWD BREATHES. DISTANT BELLS MARK THE PASSAGE OF AN HOUR.\\n\\nMARA: [language=en] Your ledger lists every subscriber?\\n\\nIAIN: [language=en] Every payment, certificate, passage and promised office.\\n\\nAGNES: [language=en] Including what you owe?\\n\\nIAIN: [language=en] Including that.\\n\\nSFX: RUNNING FOOTSTEPS APPROACH. ROWAN BURSTS THROUGH THE DOORS.\\n\\nROWAN: [language=en] Harbour control accepted Osric’s warning. The Prosperity has been taken off the departure board.\\n\\nSFX: CHEERS COLLIDE WITH SOBBING. A STAFF STRIKES THE FLOOR.\\n\\nMAGISTRATE’S CLERK: [language=en] By order of the examining magistrate, no bond, certificate or subscription record is to leave these premises.\\n\\nSFX: METAL CHAIN PASSES THROUGH THE BOND-OFFICE DOOR HANDLES. A LOCK SNAPS SHUT.\\n\\nMAGISTRATE’S CLERK: [language=en] The Poyais bond office is sealed.\\n\\nROWAN: [language=en] The next ship is cancelled. None of its one hundred and fourteen passengers will sail.\\n\\nMARA: [language=en] I will read Iain Bell’s ledger as the authoritative list of every buyer and every forged promise.\"}],\"beat_sheet\":[{\"beat_id\":\"b001\",\"ep\":1,\"seq\":1,\"world_time\":\"1822-10-07\",\"location\":\"Poyais office subscription counter, London\",\"present\":[\"iain\",\"cassian\",\"edwin\",\"elspeth\",\"tomas\"],\"witnessed_by\":[],\"hidden_from\":[\"agnes\",\"rowan\",\"nora\",\"osric\"],\"what_happened\":\"Iain refused Cassian's order to alter a duplicated certificate serial number for Edwin.\",\"state_changes\":[{\"entity\":\"iain\",\"fact\":\"refused to falsify the certificate register\",\"valence\":2},{\"entity\":\"edwin\",\"fact\":\"learned that multiple grants carried his certificate number\",\"valence\":-3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b002\",\"ep\":1,\"seq\":2,\"world_time\":\"1822-10-07\",\"location\":\"Poyais office subscription counter, London\",\"present\":[\"iain\",\"cassian\",\"edwin\",\"elspeth\",\"tomas\"],\"witnessed_by\":[],\"hidden_from\":[\"agnes\",\"rowan\",\"nora\",\"osric\"],\"what_happened\":\"Cassian publicly dismissed Iain as incompetent before investors, printers and recruiting agents.\",\"state_changes\":[{\"entity\":\"iain\",\"fact\":\"was publicly dismissed from his copyist position\",\"valence\":-4},{\"entity\":\"cassian\",\"fact\":\"publicly discredited Iain's competence\",\"valence\":1}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b003\",\"ep\":1,\"seq\":3,\"world_time\":\"1822-10-07\",\"location\":\"Locked records room of the Poyais office, London\",\"present\":[\"iain\",\"cassian\"],\"witnessed_by\":[\"edwin\"],\"hidden_from\":[\"agnes\",\"mara\",\"rowan\",\"nora\",\"osric\"],\"what_happened\":\"Cassian kept Iain inside by threatening to accuse him of stealing confidential government papers and to involve Agnes.\",\"state_changes\":[{\"entity\":\"iain\",\"fact\":\"was prevented from leaving the office under threat of a theft accusation\",\"valence\":-4},{\"entity\":\"cassian\",\"fact\":\"gained temporary control over Iain through the threat\",\"valence\":2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b004\",\"ep\":1,\"seq\":4,\"world_time\":\"1822-10-07\",\"location\":\"Locked records room of the Poyais office, London\",\"present\":[\"iain\"],\"witnessed_by\":[],\"hidden_from\":[\"cassian\",\"mara\",\"elspeth\",\"tomas\",\"agnes\",\"rowan\",\"edwin\",\"osric\"],\"what_happened\":\"Iain received Nora's salt-stained coastal letter reporting that the first settlers found no capital, port authority or government.\",\"state_changes\":[{\"entity\":\"iain\",\"fact\":\"obtained the first direct written account contradicting the Poyais claims\",\"valence\":3},{\"entity\":\"Poyais claims\",\"fact\":\"were directly contradicted by a settler's coastal report\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b005\",\"ep\":2,\"seq\":1,\"world_time\":\"1822-10-08\",\"location\":\"Bond subscription meeting room, London\",\"present\":[\"iain\",\"cassian\",\"mara\",\"elspeth\",\"edwin\"],\"witnessed_by\":[],\"hidden_from\":[\"agnes\",\"rowan\",\"nora\",\"osric\"],\"what_happened\":\"Iain presented Nora's coastal letter at the meeting and demanded that Mara identify what she had independently verified.\",\"state_changes\":[{\"entity\":\"iain\",\"fact\":\"placed the coastal warning before the bond subscribers\",\"valence\":3},{\"entity\":\"mara\",\"fact\":\"was publicly required to defend her validation\",\"valence\":-2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b006\",\"ep\":2,\"seq\":2,\"world_time\":\"1822-10-08\",\"location\":\"Bond subscription meeting room, London\",\"present\":[\"iain\",\"cassian\",\"mara\",\"elspeth\",\"edwin\"],\"witnessed_by\":[],\"hidden_from\":[\"agnes\",\"rowan\",\"nora\",\"osric\"],\"what_happened\":\"Mara admitted that the £200,000 loan depended on revenues from a state she had never independently verified.\",\"state_changes\":[{\"entity\":\"mara\",\"fact\":\"publicly admitted the limits of her verification\",\"valence\":-4},{\"entity\":\"Poyais loan\",\"fact\":\"lost Mara's claim of independent verification\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b007\",\"ep\":2,\"seq\":3,\"world_time\":\"1822-10-08\",\"location\":\"Bond subscription meeting room, London\",\"present\":[\"iain\",\"cassian\",\"mara\",\"elspeth\",\"edwin\"],\"witnessed_by\":[],\"hidden_from\":[\"agnes\",\"rowan\",\"nora\",\"osric\"],\"what_happened\":\"Cassian produced a sealed dispatch claiming the settlers were safe and the Poyais capital was operational, but Mara publicly confirmed that Iain's ledger was accurate and that her validation relied on Cassian's papers.\",\"state_changes\":[{\"entity\":\"cassian\",\"fact\":\"introduced a sealed dispatch contradicting Nora's account\",\"valence\":2},{\"entity\":\"iain\",\"fact\":\"was publicly acknowledged as the accurate keeper of the bond accounts\",\"valence\":5},{\"entity\":\"mara\",\"fact\":\"placed Iain's records above Cassian's unsupported assurances\",\"valence\":2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b008\",\"ep\":2,\"seq\":4,\"world_time\":\"1822-10-07\",\"location\":\"Iain's desk in the Poyais office, London\",\"present\":[],\"witnessed_by\":[],\"hidden_from\":[\"iain\",\"cassian\",\"mara\",\"elspeth\",\"tomas\",\"agnes\",\"rowan\",\"edwin\",\"nora\",\"osric\"],\"what_happened\":\"An unidentified person stole the brass government die from Iain's locked desk during the night before the subscription meeting.\",\"state_changes\":[{\"entity\":\"brass government die\",\"fact\":\"was removed from Iain's desk by an unidentified person\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"Deliberate open canon: no cast character witnessed the theft, and the thief's identity remains unestablished.\"},{\"beat_id\":\"b009\",\"ep\":3,\"seq\":1,\"world_time\":\"1822-10-08\",\"location\":\"Poyais bond office, London\",\"present\":[\"iain\",\"agnes\",\"tomas\",\"nora\",\"cassian\",\"mara\",\"elspeth\",\"edwin\"],\"witnessed_by\":[],\"hidden_from\":[\"osric\"],\"what_happened\":\"Iain's group matched the same damaged seal impression across land grants, banknotes, Cassian's dispatch and the next ship's authorization.\",\"state_changes\":[{\"entity\":\"Poyais documents\",\"fact\":\"were connected to one London brass die rather than independent government departments\",\"valence\":-5},{\"entity\":\"iain\",\"fact\":\"established the common physical source of the documents\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b010\",\"ep\":3,\"seq\":2,\"world_time\":\"1822-10-08\",\"location\":\"Poyais bond office, London\",\"present\":[\"iain\",\"agnes\",\"tomas\",\"nora\",\"cassian\",\"mara\",\"elspeth\",\"edwin\",\"rowan\"],\"witnessed_by\":[],\"hidden_from\":[\"osric\"],\"what_happened\":\"Tomas admitted that Cassian's office supplied the wording for the purported government departments, while Mara and Elspeth publicly disclosed their commissions.\",\"state_changes\":[{\"entity\":\"tomas\",\"fact\":\"publicly identified the London office as the source of the purported government documents\",\"valence\":3},{\"entity\":\"mara\",\"fact\":\"disclosed a potential £5,000 commission and £875 already received\",\"valence\":-4},{\"entity\":\"elspeth\",\"fact\":\"disclosed per-passenger recruiting commissions\",\"valence\":-4},{\"entity\":\"cassian\",\"fact\":\"lost the fabricated appearance of independent Poyais departments\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b011\",\"ep\":3,\"seq\":3,\"world_time\":\"1822-10-08\",\"location\":\"Poyais bond office and London harbour\",\"present\":[\"iain\",\"nora\",\"rowan\",\"edwin\"],\"witnessed_by\":[\"agnes\",\"mara\",\"elspeth\",\"tomas\",\"cassian\"],\"hidden_from\":[],\"what_happened\":\"Nora supplied Osric's coastal warning, and Rowan and Edwin carried it with the false ship authorization to the harbour, where the next departure was stopped.\",\"state_changes\":[{\"entity\":\"next Poyais vessel\",\"fact\":\"was removed from the departure board with 114 passengers prevented from sailing\",\"valence\":5},{\"entity\":\"nora\",\"fact\":\"secured action on the survivors' warning\",\"valence\":5},{\"entity\":\"osric\",\"fact\":\"his warning became the authority for the harbour hold\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b012\",\"ep\":3,\"seq\":4,\"world_time\":\"1822-10-08\",\"location\":\"Poyais bond office, London\",\"present\":[\"iain\",\"agnes\",\"mara\",\"elspeth\",\"tomas\",\"nora\",\"rowan\",\"edwin\"],\"witnessed_by\":[],\"hidden_from\":[\"cassian\"],\"what_happened\":\"After Cassian escaped, the bond office was sealed and Mara read Iain's ledger as the authoritative list of every buyer and forged promise.\",\"state_changes\":[{\"entity\":\"Poyais bond office\",\"fact\":\"was sealed and its bond sale stopped\",\"valence\":5},{\"entity\":\"iain\",\"fact\":\"became the publicly trusted authority on the fraud records\",\"valence\":5},{\"entity\":\"cassian\",\"fact\":\"escaped immediate accountability but lost control of the office and documents\",\"valence\":-4},{\"entity\":\"Iain's ledger\",\"fact\":\"became the authoritative buyer and promise record\",\"valence\":5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null}],\"promise_ledger\":[{\"id\":\"p001\",\"raised_ep\":1,\"listener_is_waiting_for\":\"whether Nora's report that Poyais has no functioning capital, port authority or government will be proved\",\"must_pay_by_ep\":3,\"paid_ep\":3,\"how_paid\":\"Nora testified in person, Tomas traced the purported departments to one London office, and the bond sale was stopped.\",\"status\":\"paid\"},{\"id\":\"p002\",\"raised_ep\":2,\"listener_is_waiting_for\":\"how the stolen brass die connects Cassian's dispatch to the wider Poyais paper system\",\"must_pay_by_ep\":3,\"paid_ep\":3,\"how_paid\":\"Iain matched the die's damaged impression across grants, banknotes, the dispatch and the ship authorization.\",\"status\":\"paid\"},{\"id\":\"p003\",\"raised_ep\":2,\"listener_is_waiting_for\":\"whether the warning will stop the next ship before another group sails\",\"must_pay_by_ep\":3,\"paid_ep\":3,\"how_paid\":\"Rowan and Edwin carried Osric's warning to harbour control, which cancelled the Prosperity's departure with 114 passengers aboard.\",\"status\":\"paid\"}],\"calendar\":{\"season_start\":\"1822-10-07\",\"dates_fixed\":[{\"ep\":1,\"when\":\"1822-10-07\",\"what\":\"Iain refuses to alter the certificate and receives Nora's coastal letter.\"},{\"ep\":2,\"when\":\"1822-10-08\",\"what\":\"The bond subscription meeting occurs the morning after the brass die is stolen.\"},{\"ep\":3,\"when\":\"1822-10-08\",\"what\":\"The document chain is exposed and the afternoon ship is cancelled.\"}],\"periods_fixed\":[{\"between\":[1,2],\"elapsed\":\"one night\"},{\"between\":[2,3],\"elapsed\":\"later the same day\"}],\"unresolved\":[]},\"flags\":[]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 0.98,
+    "background": false,
+    "max_output_tokens": 32000,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": "medium",
+      "generate_summary": null,
+      "summary": null,
+      "context": "all_turns",
+      "mode": "standard"
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "episode_batch",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "episodes",
+            "beat_sheet",
+            "promise_ledger",
+            "calendar",
+            "flags"
+          ],
+          "properties": {
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "ep",
+                  "title",
+                  "script"
+                ],
+                "properties": {
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "beat_sheet": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "beat_id",
+                  "ep",
+                  "seq",
+                  "world_time",
+                  "location",
+                  "present",
+                  "witnessed_by",
+                  "hidden_from",
+                  "what_happened",
+                  "state_changes",
+                  "source_ref",
+                  "tier",
+                  "note"
+                ],
+                "properties": {
+                  "beat_id": {
+                    "type": "string"
+                  },
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "seq": {
+                    "type": "integer"
+                  },
+                  "world_time": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "present": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "witnessed_by": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "hidden_from": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "what_happened": {
+                    "type": "string"
+                  },
+                  "state_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "entity",
+                        "fact",
+                        "valence"
+                      ],
+                      "properties": {
+                        "entity": {
+                          "type": "string"
+                        },
+                        "fact": {
+                          "type": "string"
+                        },
+                        "valence": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "source_ref": {
+                    "type": "string"
+                  },
+                  "tier": {
+                    "type": "string",
+                    "enum": [
+                      "core_canon"
+                    ]
+                  },
+                  "note": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "promise_ledger": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "raised_ep",
+                  "listener_is_waiting_for",
+                  "must_pay_by_ep",
+                  "paid_ep",
+                  "how_paid",
+                  "status"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "raised_ep": {
+                    "type": "integer"
+                  },
+                  "listener_is_waiting_for": {
+                    "type": "string"
+                  },
+                  "must_pay_by_ep": {
+                    "type": "integer"
+                  },
+                  "paid_ep": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "how_paid": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "open",
+                      "paid",
+                      "paid_late"
+                    ]
+                  }
+                }
+              }
+            },
+            "calendar": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "season_start",
+                "dates_fixed",
+                "periods_fixed",
+                "unresolved"
+              ],
+              "properties": {
+                "season_start": {
+                  "type": "string"
+                },
+                "dates_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "ep",
+                      "when",
+                      "what"
+                    ],
+                    "properties": {
+                      "ep": {
+                        "type": "integer"
+                      },
+                      "when": {
+                        "type": "string"
+                      },
+                      "what": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "periods_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "between",
+                      "elapsed"
+                    ],
+                    "properties": {
+                      "between": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        }
+                      },
+                      "elapsed": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "unresolved": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 5377,
+      "input_tokens_details": {
+        "cached_tokens": 4165,
+        "cache_write_tokens": 1209
+      },
+      "output_tokens": 10322,
+      "output_tokens_details": {
+        "reasoning_tokens": 2469
+      },
+      "total_tokens": 15699
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1785010087,
+    "frequency_penalty": 0.0,
+    "moderation": null,
+    "presence_penalty": 0.0,
+    "prompt_cache_retention": "24h",
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    }
+  }
+}

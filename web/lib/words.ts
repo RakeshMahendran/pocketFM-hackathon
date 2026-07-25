@@ -102,6 +102,9 @@ export const TOP_PICK = "Top pick";
 export const IN_PRODUCTION = "Already being made";
 
 export function stateOf(c: Candidate): { label: string; className: string } {
+  // Made beats every other state. Once a story has become a show, that is the
+  // only thing about it an editor needs to see at a glance.
+  if (c.madeAs) return { label: "Made", className: "text-clear" };
   if (c.origin === "commissioned")
     return { label: IN_PRODUCTION, className: "text-clear" };
   if (c.origin === "also-considered")

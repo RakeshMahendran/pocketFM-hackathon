@@ -180,6 +180,7 @@ function toCandidate(raw: unknown, origin: Origin, fallbackId?: string): Candida
     prior_adaptations: strList(r.prior_adaptations),
     sources,
     domain: str(r.domain) ?? domainOf(sources[0]),
+    madeAs: null,
     winner: r.winner === true || origin === "commissioned",
     why_this_sells: str(r.why_this_sells) ?? str(r.sells) ?? str(r.why_this_works),
     why_not: rejectionReason(r),
@@ -278,9 +279,36 @@ function rank(candidates: Candidate[]): Candidate[] {
   });
 }
 
+/**
+ * The shows that exist, by directory name.
+ *
+ * A commissioned season is written to `data/stories/<corpus id>/`, so the
+ * directory name is the story it came from. The four hand-made seasons predate
+ * the corpus and match nothing, which is correct — they came from events this
+ * search never found.
+ */
+async function madeStories(): Promise<Set<string>> {
+  try {
+    const entries = await fs.readdir(path.join(DATA_DIR, "stories"), {
+      withFileTypes: true,
+    });
+    return new Set(entries.filter((e) => e.isDirectory()).map((e) => e.name));
+  } catch {
+    return new Set();
+  }
+}
+
 export async function loadCorpus(): Promise<Corpus> {
   const real = await fromCorpus();
   const corpus = real ?? (await fromStories());
+
+  // Cross-referenced here rather than in `toCandidate`, which is synchronous
+  // and per-row: one directory read for the whole list instead of thirteen.
+  const made = await madeStories();
+  for (const c of corpus.candidates) {
+    if (made.has(c.id)) c.madeAs = c.id;
+  }
+
   const ranked = rank(corpus.candidates);
 
   const warnings = [...corpus.warnings];

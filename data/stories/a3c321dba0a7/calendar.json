@@ -1,0 +1,37 @@
+{
+  "season_start": "1822-10-07",
+  "dates_fixed": [
+    {
+      "ep": 1,
+      "when": "1822-10-07",
+      "what": "Iain refuses to alter the certificate and receives Nora's coastal letter."
+    },
+    {
+      "ep": 2,
+      "when": "1822-10-08",
+      "what": "The bond subscription meeting occurs the morning after the brass die is stolen."
+    },
+    {
+      "ep": 3,
+      "when": "1822-10-08",
+      "what": "The document chain is exposed and the afternoon ship is cancelled."
+    }
+  ],
+  "periods_fixed": [
+    {
+      "between": [
+        1,
+        2
+      ],
+      "elapsed": "one night"
+    },
+    {
+      "between": [
+        2,
+        3
+      ],
+      "elapsed": "later the same day"
+    }
+  ],
+  "unresolved": []
+}

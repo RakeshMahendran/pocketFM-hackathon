@@ -1,0 +1,399 @@
+{
+  "stage": "serial_a3c321dba0a7_01_03",
+  "saved_at": "2026-07-25T20:22:36.807572+00:00",
+  "response": {
+    "id": "resp_0ff3f6d530d2e36b006a651a6f1d9c81948895c2d9c31d0be8",
+    "created_at": 1785010799.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_0ff3f6d530d2e36b006a651a6fd94c8194b3e4a54719744744",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRsMVMO-8ntMA43mllecaM277gUbI1ftiKp9J37YckBY9U9ii9d4lzfJLbIlgtxwlNIuSDrxZxr5duIDT7SRjbXZmVKkHqlTGXJ8auCo3OFPZArnoIUVXHjc0ZK-YBMNHLbvXjFhydRU5-xthAAjTfULDaNGbPRFHst--jGUdX_cP-K5xLzlgAfFXTiWCY0p87RXwNsdFAKdIzAlMWRZ_9W_ShhIrA4TvVvNQkz8pYeZCyItLnEcv1c_szKPYio8WanGkzX8MN8PnK1wQXXwvc6FCKH1IpSTsPWBhLZS4XCYYkXiRWegcCBVjjgKYC17Q4bpwJQxGF08MeieErqG1FnxXEAjylhZKDRDP_NimY7PXImw1t5U4uFcX316gP6LwDheeMQhuZpnpLSPvvbzH3R5pDRAkMaGroMxav7tdcom1m9v2toYmu-MSIHMvoht1fJIYoZC0gzfxvBB2whCG4hSU9x3m7aB_gOYKRTuXBL-hmQHktUHCG-JSD404l8LoVx9HngNztkHUe5Nx00_bTbovpK-Xy7j6T2DeYznVqlh3eQALuoKoaO_sPDPMNz2P0_DAZmMLVKSrNHLN2Krtdxs0SlAI2tjT7NmvwcIUBj8-MsNGUaz9Z30FWiqwhUo7kSJWLbpml4vUP4p5HKKH3oZHlKo23pwm3gpv3tTqtrQ-Df7HeHqSjVD8y-ClYOWRQ5BBtPzxeImjCIZvsgDF6qAEn0pE_r0nunwpANRfDjBno3bLbkl3caYMUh9bb17cCaVT5sz869XDbiwKZn8Rdca1LvB6RCYhamt1GBaIj8sY-w0Ape8TIb8zibPd7Q0oKQ3KkfK7UWt4RQM76NJX18iRK3AOAkuL-xk_gOL1dtCM8j2K_2m2sGPpPkVCl7srZuEWxSmyeajiGnExdNo-KcVTrBKkSMgGMe4eR9KGWgGIfXJhAQ8878e8o_Ll6apwonDaXRrE1uIdUcrBWe_XgrV-Z5CM3K5XM_v1fqPk4hkkWGcOjsMZiaJRHf5zQtwJcT6O4suiOawJBO5fpKRZFVzI7-JnonBltPACPCBEu_42LeWPYnSC_u7tkESwV3t-RWzuy21Xaz149_oJC727Nh_Vu3QzCNZVJh5vrdHntkixa_afrn_ouguCLWTg46G_dPohSvnKvMeG1ReFuU1WxYHD12ocGA8OZI2eRg7OX31cpJkIkEO_MqK4-tBfTbCslh5mnhtloH5elteo-vSU13nQre3KPzduOWH4JZkn-uPzSErzAICJpah2XJwkCtUOTv44LZUihcTyKt7nsiv1PRA8eNU2B8vl7bvkmoj7VGu-dftbLvF2BPOXYCKijp1Ur9KiByUNX1NqGKXnIwkhMc-yH_iKAiw5XM1FPmPYd3FAaAcqUGKAEKfFtwQKah2RgpywIkJn5BMJw_yLGSbBDim1XTU7oTiAYL6RihuyJRQ-qWif-6P1UtzxNPU2RDWyibNpuVUt0VtPs5L2z7ALDp18ojTGQu32acgvihyEuUtN_CMNXIHgkdepVMbLnGGDSwfEXQ6pXfqKX0Hhjjkj17gLX71ZpOWUCQM2Xp0wfn9QcJFD1HabPMoNeX4ntrAHQwkDAPxxt6J8gRJ24M3gSlfn_hgU4a3Q4S-4GZ5xTd1GHPdDZhspBSPAo7fkVYEfP6FUksUCQ5ZcEs-ZE87HiyFSBrJ7_ZVvTM5YhNsGzzp0Bk-O2xDcAXyCuCDGZ68Cr55iEI9eYQFFZee4nbC80JmASMqWqqjJ4sFcvXPuI3r-LFIM5yJij9VLfh-3D75qncAmkRSpP5vIO62kjZxsjJWWOFH1-KsXHcFSkY5biYR2tDvhiR8_cg45Gth3WyXtiuqyDydEOvq1BZSirQhxC97RCPIfC4yB7WSLI69-CfP7JxwcIeBXDxe1iAiH2dM_h1cif1FT-RUYOafRW55l0qJj2Qxmb-w1m_nqR1-tRiZi-TzP5oCzkM8p6nGeBUsDzt-nGZWnbMiiPFLmnO0CI5Ydx8xGf4gPSCm_3gdyB9cT-33VymDL3ipR_xzpapg26EifMJq-UTXwxUL2e1U8BAXu6dQPBs__OkdNzi4q_TaYqug2ihMWTsviRy7cbqR7xfbpwBtui1CeuXdKwLBcpJNdxBipnszrfcLdc4s0m4J_sR8WWs6Eol-p18s6XiURw43fprmC8i_2dLXQcRxsbklwMnk01VLOxhrY3Ww-OMDJla2XKEU48ovuuzVBCVx5Fvsy2LmM1z8nOiGwn8MW8YBdF7xP75Io8Plst2bkd11_zWePNXybtdeaBjacM7xA1u33HTxg_bouOOxPVq3PbOmFNlmJ_2LT-60QOyNT324MWm9U5FDcZtnLJE_i_K6h3o-n1VezZmGImaqsE6gDDjB3mAQArHDAN-dTURq93DCdJoGilPp0poO9eMaDOJN4OQ7SGig7vWSjrlj7hRoSC4wpk6GskJP4KR-JGGTDG_DfRSDzP921qpgAVt_2sAxG1oofSlyQX6jizVbNwdCwdfqjZYio0O5PBTJ4K5GENeHvTTn_EZuSqzs63FQP0oB4W4NbzlB6SDffqZsH84sbGNvfA3kuxdPfopCaQJ4HLvl02IpEpx8J1C-ui6s0_WqfVSHRxSgKs8qA0VGwY-tplji54sx3TTrLRonkupF-SA7Ov47PFo5qN8FzDPi0rwxCxgEUURkNBU3w1Eb0QwVeGrFf4nR8c1AdHgiPJLwXiS3WDYgIDANvlGsWL6nbKK5BF_CZFSGAVnmxE8XXnXTICAVlDsaltQc8k7zubrU6NucVJuH8JH9GBwNG_RY_PkLlhhzj-A-ysK8ELDKZD1Iv_2VNBAVDTFjr_gFqpO23n6sg2U8h2SPBBbCwqNwDMA-bNi5xCCLRdY_Wv740g545GohBPMNWo1NwXDraFwbYXterfw--f-QLoAs_-Wq-H19g3iDyclkXfxBJ9rt-JjIiTZKwHpwwA5EDFP65jb8otIsqcmfYthcnKMQXTJJ7qvXqRV9Ee5kprQaqXQD3y29mS-byL5d7HbXTu5QBEzRCdeTc0g6-vawijbfmzGwp4v0T_OfC3o0xIY8cO031p4JL5LtqjcbK7rWSlK4rXnxbYg3JkHROdT7hNwWfCxjmm1yOKjJyGdj0SFmKm0UQj3SurgusG6iNwYZsJxTVvsJFPlc4r9lAQzJDPxewxTJgSKqVU1T37iH5QYsUyxXQfYF7cfIckUcAug36V3r4XSMyi4w3uOwHDuapjlWGMkMkQidLhaCiYEpIDUcJRzDU_aNvBcbKMjgh0KVW3JTutwDVpV2xM6H-upbds_-2fO43onKeb0kB6gVvBXITfLsb7VrXq1pzjiAzNOC1k4-iX5bUTyyrgkejlJ3lKzNxsezxYoLKUAqVVCUiq1Aw_AnRWd0HDagIRJqZPcfvpFd-nESk5OgxgxnDDo4GNjxz5GfPiqWK9R-IMJ7ZVpmk0D-8onasYE9dw96Xz0CGZ4UwdgDgzTkVuEPhnzsO6-ufrZB3kDmyOqqKNLudGH1sP6I4z6IlhaKDd4gDLV0bzO3e4SwySC-0KrvMhoOXItYhIiFKFsvMFe0gBdYDvwys5jl5-2q2HcSVQ4QZpBIumjrhQH1ruedpGOcIuV1ZLjKtAPVGymurFCmCvgq2Pghx_1sgc1IAn_FxRqoV1gPoL3KBoRk4g_XxHyR-8SyuNBt1RL5qYIfxqgxgHEYkgQ5mzNLBpQftg7dR9jNoypA5FniULRwxzczmwZxpp-N_K506jY2dhlwSLvVk1cUzW1UC7_h9oY_CxxI83v9EtJDKn6cza1Fq_gJ3awbYuNl9b_SXw_Mi-0SzgRAvxe9ZXkPNc1dgjIiQ2OtsXr3NvwLzgP417gi9DmDZLMkTFGQqe4ln5mCLVsxMY4RZWv_lHMRrbrk48a0zM87WQ==",
+        "status": null
+      },
+      {
+        "id": "rs_0ff3f6d530d2e36b006a651a7a3a10819495aa54063a8f69cd",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRsMjRu8WMy7Zoi5zMYRO25GQIyQxrhVDbCShnNXZs3bhqZDm3T6R-UlhOmaxaxbZUXlV_69SfxKAm2U-e9w_L0-Itf24a7G3GM-XVKrQQpNsCtL_BfHMkCl6XEtDuUvB1aCgjpneZ6DPMGwYvYYHeqFcCxqzfkdNQ1LlxGeqGjIhWSitiTkDL-lsPKbk-2GUSw_a9lJVFfs1NiDWOgPUPWL6vO5EjYHIdU6auxA2uMuZXI81wFcGb8qrec8LuRJxxFY7Li2VHN1172f-QfhYfmvJhd-OZy4GrapWJFbR-3qTBvhpG6hIOB81c_XOPwjZGezO6AEHyWxy1NKvib05UBAJib8bFS-b0jSFbS7XC6IBAotWt2zv-PO_oMS2qq3B9bR0KXN5AwtWdWNSK6Lmvsp7nyYYcdv8siPOuLmwzaBAT_POHd5nwLDjDxH-TU7Z8afwLWJu3qgTh-mV9Y2Wet5j4fn6xjsmzLUtSEjyY5SEJlwjcDJ_HxXgi_AeJYdztBdKV1MVsSkBfMgo_UCecg44LYFs2s6ALstkdXCHHGySzdl74kVYlO4gxfQwVlxLF4VH59yTZXifYKHEjRNmiMvsoBzwPAtwedydb0J-i3DoZwygO5JOShL6v4iNPLRyAbrpv2YM8O39CLxwujBJHsQ6x_0eSohEspADisxZ-UJrzkNPMVZsjcsR9hGRdW1elNvqWyxlbfPc8S5M6FmV9p8UzLqoMlzPn57Bw-SL2G_f93n8FkcLO1p6ysfCPemAbrpTk869l1DlvbLZeE1EgeK5Dy7pZ3vrg7g73W0g-rR78kCl41qR7SFCrEn0z3qcTnuT84RCriI6gzXCAAq_HZZHcuuoIXxFpQ3G4OtDgPpeGf7y2IcYDTNzH72Ekj4g06koaibfafYfxWRdtSikAQCScBbEdUtgPzMq33vEOWDI7HfODg3VHwsgeag_V8cWGSo3mjT4HKan6wWsgdGvJJk1kiE2zaNGDgQxi5OgeBidlaRb0B9l-7j-aXTVCinsyHzC0CNo1qHxndLU3xC4pmDSorpUErpTMglispg4X9O8z4dBW1RW0Rl0LDUX1PXcPzCpV1Mgci03cI4akP863Apdukpq9wgX-F3yNJaGG-hEJCHACg7HNP9AytpCskqYvgfemkC4Po3mKBql5VJOW19fRJegZCXWF4NFDtjtjDH2Hb1sFozwM8hgvxUyq6-jnYbVFm9rdm_vP_PzyUgS5Mc5LvwRpHc7SrqhoisbDd79mw9xYP-5hubFuu1eaRSXjg9kZvkRDgPlayz6c0K8c_Tzd4J_Vi3wMYQTbKAvUK_MCydz7CyXn2pRhEIDUheLLpVe-T24P93COjY58wmP-JgpjHPUpUwa_VStkyQgxK6mUcv-ryu1Rs38vzorXeORLrJNCpPGhNp9l--b6HNRB_kLMDxoeT_5MaO0o7nwscCfZ6F1pHjxi-HEkQbiMIHXtQ6mT5ugG4DgSnlGAwuDrozRaVWvKFbBPzfS01qkt4L7wPO2Bp80rYyOrDNwSNxY45HIKIJ-EQSbCmOJrTVkgRFnhAbI8IoFG7AaaqA1Fs_zpW54R-n1RPJG16wJjaaEFZ9RAobvEBqZCrDGwBBIsAWQleYlHYZkDD0fdWmh2TvRnnzXhubWSDLGe6AQ9CJqVmyI4iIwiqrnbdGUwjTc88chGjvWERR3ZaRKyrT2Tozetm3tq5c3nWhoenutJpxCa9SQGT-Al7x0sG5n1DL2kH_r6jCyvm9dIAhBQB9QYZv5KkmVDI5HAkjGb7olGq88J4SiKKN_2azVBuz6yD8ukEetmjBGfHli_etbP8xShRwtY39Ws-WAZVNIPWbjw3bw43mUAyjaH1DWgDgfak_APQgXQyF3_upEzaWxQ2VCW2AvVHtGakIB5slj6akOokGiMW0tzpb7KYrd1faaqubYv7O635f9ygWCpKReQ9pGbD29fg0rsi_DcgeWWa9_XcB6nfkza52qqrLN0cg7_K0zDqrtFao5XWtysGBm0zIgLN3LCCs_62UQSv0Ps_o7XmbpZYAUW10O1_y7Ix9M5WEz4eQPbeTOc4rWhQhtzklqskFApEN8sSFqtaKlIRl-r9apzXW-7GSfdHJRXNGyqeEddTDZlibXMVeZb_n3ZOKVdtnIRmTS1A_q1S3LOST_vg5mUxoIiZ-lQmTo2tR2QPxKXjizfOA4tf6QSDUZNEcKC7z9BbE0dhUK-oVHmw0SUaq6k2POodBREtrxR-afnCE5wEuqKpCGUVXgcedFDh8Ogq9DfaSKAXcMNJy2P8O8eAWmgh_CYehfkgadFtty1q854UxbG81wbBnj5F1EnbS8EHMm4xsJSe_6PpwiNVVCXY2DpTdkdh7JDTIeEOXfnHcrmmNtes-rNN1o9rCxvjI9hSaL2JiB8y3x6vK_tG17YqadfM51nlVZvzW9J9Dat11mEpVkeffYcxpmMkRXuxOnbORbHx7X1_3CCdgFbR5ruutcCkZ_nxzMzov6zKGXkFugvdRiQt3kd66HBOVWRefzrvHP4ZUHGx-XHj3w3A3uqZSNkDpc7Cetlq3_vbGUT0etaybP2SuRClcvU_xKaaghcxbvB3BHdN08BM8XFqpLOFmYZXaI04DOkxvE1fE-pbOCMxAl0E8Bca_7YbtX7sdYrTaKPtc5FV91CtwyySz2ha9RiJn4kFYcBStiEhveaiorj7GWxKF9jP8Sv9hw-2IkjycHnEqkj4bW1VblTVx2iEQGIE88FQoLdcrj5j6AxM-gnCdc0ELQEwpvP3QkJKoRWLAGZAIe86kqH7_HPx_uhxS1K4heyTSm-wmIJer755nRNpDo7ZcRMTe28dhQyGPJHDpzUkGdxC2pbfb23WI0pC6wCmbw7IlqvrEMW3x7t3Em-EsuCxBvV8BhH0KAfP9UaKwpwIWvdL747Wl6pRzZNXnbyO_d2iXQ8yt3giXEW4REDQqXEzyCRLATfjafa2j3FUGgiXjj7f-RC0N8FT4SkeI3B96V51L2mcmGxtANVNA8MMCiFw2q8XTYPe__bz_jUyfQWX9PlyiPoqFJ4XBOJu7Yavd_FU7TuDfl9_kiTbBL9OYCA_Pg4kQBFJLxohSQ5-utFRxlsyTizZUQlPDd7frsXCb7fURIyc5LlFi4BoBv65I5gb6fyZCRhQNr62j_INuAWna0VZ6bWrZWqcQ5u0HzSKnVuZ17mCzb53_ngMBHlJ5vNZFH7BAje8w_CIK3HzhKrj7FGaXTC3J3oBmLMf1HqfFCHG7C0wKl1R2fn64Zu70_FMJmp3Vy3UE9s1wKXcYcyAGAwEEUWd3tdEceultIGY84uiv2h8aafVtauCF1SPjZhsB5zU7_iym7vGlbn5LSyuJf3zLmRUO7bDxP1WWcOiGVLbhQ1vmrgJFEW7rU08cdM9YMph30a4uUcwK-xR5RxbIIYunSr4nWdTtRqJCfx24jB5kyZ34oJbGDFhhfB_OjoTOVHQi1r_9NjzuTWzMkXmig9nsryClFsGFFmFowd7DUhyo9Pltu5ZijHzOw5tzCsLH-W5Xxh6ldrs6FMktFaBglc7Fhio8QACs3sKZa3IEAcTq9AUG4VagaXUV9Q8R9NgrU1K-xKj3ZvebTRf2JkIEE3ww12ZkXbsbojq9DoUlGVeRrulL5lmwFev84R0PBGf3APzlnRM1JHLwb_4qnw4afkFEuRuh1wT2jWiXuvgT9aSYL_k1MiOPX5dTq_TRtWQPvgUEQPah8duiy1WzS_AVH0WuaIz0oehyVXSuvdh96-ONoyu-E1GLuz7S_YTQHhTR_j7_9ezMltT5WWxbebFUvj4kPro-aPs9yy9c1F3asaUc9nVdmSRVMXAhGINNAgcDVwOBYZb7lz2RxKUTEK1hhtcBcLiisdvPUD3PD6bDcB6kV3ZNmDVvgpj7qzO8RsBVzxcCyGqj0w9ut9N5eE72BlPWZvZJjL9FnakQRiPiLTaGSWwudPb7c92mWfIy_LYG6kOoUar23id0cDKhAVDGtBpZanAhknnrkW8ZRpU-AMBnzNS4y47fSAsJRXDk2p0VtI_7TWuzIF4FXFxTpxxKfLFFHKwkkjkyL7Dcg0vSN-09z2HcF4zQGayGay4nC8JBEuXdmlIZihdeFWsCMieR1f7tKClbYidSMkX8eSzv6zD8BSh9Zs38cHkm07vSNZqcNnP1_c-k_Oi1aj_S0sM=",
+        "status": null
+      },
+      {
+        "id": "rs_0ff3f6d530d2e36b006a651a85dcb08194b3a1cb5e0d2715ea",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRsMCCeEiU16MG77bW_u9pk3kwHTAerepIOXr-wTpqfokyYkLNDZ2m3GbqkKU2faPJPUbmF0RoP4Rei6wz5t-eC76Cfo2fQD4SYOIw4zJBw5IIO3wjqKxqv7jwsqYkKsZkdWKFTww0prkDQFGTSRy_fv4BvS_O4a4O9HAgUJ6SK-6AK_6bkuEJQb028Sg-OZ1nyVqcUCpRmmx2WhYGhqjxxBrs7ThvK96YBvKRzMJQkdRaou9Kjn_oJo32_AgRwIqPsxJV82911HU0hnpiEpoJQ5BXr67oUfyGMP93g_D5yi214PxrRlqRsBlMgkrrb1oqeuqoJS3FUoJf50oyW_ma7rZHRG2FzZxNFca-0hDq7NpkqF-aUeOQqMPRra7t6u4ZUUwJlz3miyPjr7LkL3_qJEejoXw5kqicGmPl9qVSHgbkMYMQK9Tj1hjnAcusTVPA6rZQhs2aq4fX1Ii7ynScJwxqs_LhhrKDlr116Vgl9CrezKP4UMLRDWZUw5Jlgd5-z9JQrcsWm2Zqa-IPG3mJZ8grJ5FEIduQdhu0AhEbxzgzwLwdfVDbBDb6wWm7wMJGPFioNrR2Y1RcjO3mlasneCo2Pv0AiLysrJMgg5Uhi1TXITT0uMNBGh3QOp6lVUp3OUyJ2rNyKF2mdBLO5mm-NQmh3Nz8iCtURiNAH0j_SdllWmwA47YiNB3QSbl2aPNCsYS-LndddcFRtUmW54rTnzCIONZR9kZefQxoswkqGSCbkI2fvJ9vSIYpKo8ELTWDWW-56j7CUgAlatwm0aW_dkjot-6v419Vw4kZeQYv4SBckFcSKO2sEZHl_FvJ3MY-joXtZQwJgcW0GU_LnlTcOjz64oogkmmJxFpF_YSWAtIt1MFjdKU8BrCVFseXjRX-9ku_ChYGKWDnJ36BGGfOkeAueC1PGv6ci7ln-0scg7T2-GZE7ks_zbreEVxA4EjuMr-pgmHCiQXqQb2tbgfKKIFeJcnVwDEydH5UxBImgIe6XRuuPerLp3YuLG53-nhAz9obA8dbr_Z4cyGiWUpgOfqdlzFrw4afLh-sfAyWnIdtjGPzCB9kMqB6mzqoaj6IKMEP8EFOij_G1eYWBVDZiz3WBa6-tBaHRrEo01NRZBDgLpbOhioYQ_IlTO0AvPzL181JNYSqn-Z1Wc8kiua-dnIEvqvGUXKfVWMFPnd857hquY0GkUU5m-xquwKRwwpl1w4M7GjATZccRWA8BCCJfoKnPY7A-xR9rkcmyMAJfkk4xH-jT737K4doUsE6k02uCUl_CoiBGdSZjo-ZYgBnI4s2x520z32nobg3V85tnDT-ZR3juVUFS15F3j9p4XKGlYbVLGdMfG-07lvNdJJjUrCAdxMK99smU_yXv91O8s3vmqjLJIpGWT49nQY3afGKIO6vvJWFzvoidt_fMXybSGbEsX0fxhftYEYAOwtDWZ28E_HW_GFFWR4Yd04XiWxC1IXeTVT1PvgSFTRlicLQ8elFIMiM44BY_hFsOR6KufgG1zJ4xWnrmjQoxCIxeKJs36JfFfOUl84yEx8Mu5lDWkbnyxXna_WviykXM7W2jOF_s2xQVvpUg0LdnFyrY7QN3R5N_fOwXUFMChc3-x_GFm8Qn1Jm2-SSruPGqXvBEjtYRk-4gcVpQDsFbuumE4infchglhfUh4KuQyPcrOdYR-Gys4yIqRPE_yEMi_ILKWAKsqrxzg31g8VqNcKzAvM3b44SA_EQR1zB-tXTH1PJyTE6pOOcES5ErsK7IkY0pkJu1MnDaGV34NuZyXbeURkECIudQd-0wLhwuVf-IY9cia5ijwbtBLwYqixWKNKoaztD2plMmrhM3tmFUbZ5j3EAbBr_IJgIsc6VVNl_jZZfvzgr4m7iXTfr80X3wCaKV4t1sfGvMQLbrb0lmjvqAPeVz3CA1v5arASUytZ0sl0CDPffRFbXBe53NLamh0yyZpUSeF-Y1z2UqkO_Ih94JNSlpL0BBMrYFVu-S9otR-Gl666o1zydyvCgPeUGLev1hrekU5OTgyR2rpp5sf7wyJZ79ONpyYjWJuO2yEz8SqHAEsl7uA4P6MLYm4LiEo4YIe0cL4eH2ulQ_uagt7HAxsUUmyqGjSLd048B7P-IgVB4v1ZBPGdFeedKla-clh0eWbdKWvKJsn9PFMS7ZQGlfNL7KWu26SFzBlL2x-yDAy9jdHCGYtmtNeyxvHk_nw-olNJ2_EhsIqj42mYixdBo8DrJck0CG4MF_xB8LZxFLgrKM1oq-dntYDn_Dr5QerxqLt-dnru0QU44KKlmRQA0GZNuTpFYcHNcW_BHTsOsgrprhO86pJrdBb02ityvvslSO7VJNkUdKs2ykSzBwR9w8h0l31RjDD49D95ISeQRDA2jNALmjDMvhJetrNQ4OjjxdeXwP6mJ2W_5JguifaYvmT1PiydkpMoOERSKJOuVlbMmmm1s7nk7ysrQelp5Zs6JBZRRlTpWvIL_TJWOE492YmP5AQsm2BPzWe4Yh_2qJ5wDiOd4hVBUW4_KZxO0qIy-BMuQfUjbQB7dNIEodSKURKkxzgVMKcEPoTMAtXj3rBSIdKVc2kLmEKlkO69dve3_AfG3dW1wedeIIAuoMLWTPJv_mClnKWEsTuFdtau_afcrRVuGHx3FAwi2lv18bSwThXyAHfqPN0Kg_wakmROJhTFTtqNeSFwQd-YV54ZYiSsIsWloSrxtoZTCiq1RvpTJ-I3CljHOX1qI8z9ZpBXw4DMFJRYc6C_XKBs-NV2PWKTBjrqnCxHgyYTK3ohiP4uXVZfohmJhMoSxBtbhP2j7gPLEad_rBo-uQGFAa0m4tIIgAtCAi5eOS3a0L3Vgs5pOgTYP4-WslQEpyjIo0GBixCT5RHEnM6AYmhztcvhRguMALUN7rIWrPv4a5-fAh9dWdkQnEkot3h3mNY7UVkGLkV5wCeilki_FrV6-yU7FEd-EKp47jaJzZCLgDymSVpqzYidv1h5FfE1IB2GbbWSB9RkhMJV5SCH-Sj50TOM04vDyNXuJwtdhQhZROVS4WgsMiHNUXeXdHE9RFmnJr4kYfym_e1rEnI7l0YKBoj8FWyaINpi62pdD4DpmfNfLOuvo4Dh2H1c_HnW3sT6g-PXJnDBwvDq_5UjPUNEZI6dryyw6OghbuYTxI9Tm9JaXIpmSTGmpBp6f9sIUpfSrJ9iSAodFhmO6-IDmTVQHNHcYT6_abPuUJa8xO6vncrsZlZof16xp0jiVcstDIPAuA_1tfvLG-XZXHSCMA6GGSKmFH_0reW8D2UvluJ5J_j8dt1y2oLpT8p2nOcPfimVXcI4cZCgrHPPzoyu6YoCleCPUu69DYZLG56mAvUU9b9sCOkCzfjRTVbWoe-F1W3Ui6BFnFUv3knHkWP0GjmbaU7xUp7rbTP4BJOQKMoXmSYie8kuZQcx7Ahc05nB_JvvaO7SFcqpY4n0tPYCBLxNrEKCCvMWf4vaLYGoHiJgj08cmoLneTewzsLxAoTRatiDdwGV__AAHQizOrj6d1YzCv8tfxzKi6n4Tll4Ujqvd7S7XoL75gixlV1XhPbxgbc6SJNc6sTF8mPoccfUfzqILS7CgS2swx7nNBTgldRZ4PNDU0dXZYxhOAGQ09VvcmdTkFIxWClgBGrJufrqIg4l31bNzL7wBGLA1UkcEF92UdpUhDhadugRwYQgDSAk6NZE-1SGY3VM7u1bknYW4TvwMHbz6pkCRy2mG1_VqKnsnaIEiF3omdvAuC3WLkj7B3CI6SKPs4W9urLK5C5b5h21nYLvwlx04sHckIf6m7P7660bR85XFOEWyI2_dA9iyXMk1qlEx95DRbUrEmj75c76q0lyP64mJt9p4PhykpbHMxvKHXyGhA4Y36R44dVSL-5QCgqrF6C2zAXEHUlUqPhcjmNr24VhpqS7GrGi-tqO6ATBWc_PJ2uVeIXfSmZCqD1u2KM1EyJBYFJZRSeyntStmBgkEvwoS0J4_7h2UMYYn5bIiSsF89D3B4SPZ-qoMMsx7v0Vf6SQp-brOOCOksK7dSOA-kx99DLIhq0cAeOvOGAtGjNMt-iFCqyAEl9vb_FoNfkrp-mjCn6ZseWqFXM5A2WEZdiN6KRLsww1LU9c2JX0qZbavAUpDZo-uEaJmVZwKp04HULd0tbHfS751P8XFtpHLuheUwhSvF6_9O5ZfxJ0kksXaltYeccoR90x5jOka4VEBG1DCacezGxOfvX9W8WeyxMIdXcv86X4KBsRIxL7gkO8wm0IlR5qX3yZxyXH8O0La2CsbskVfK1vGtCb39MMTvMYUvnz7lDQ3Cas3WrzHxmF5pyZgc=",
+        "status": null
+      },
+      {
+        "id": "rs_0ff3f6d530d2e36b006a651a91563c819491a4cb9c18bed4ea",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRsMqwYjHEQG436wnkKNLYJMwpjgbyg4_9tXULuzsnIUsE12pLJgok9vMnYUT2Kda3ExmsfVwBDWuypaCHL51im7xx85trDcln-6EIb-4aVDNK_6pV7TmHK6di-dyA3mUGYBRlgBjveFB8XNF8470bXpyrCPI17wcTp33C8coYPA_E702e_Ri8sJ6bHa972NSJCm1y8yNN_5zNWEYdg8WtuZsmXFbyKPmp_KUkwRNF5JiiE25MACemKQDyMqi4HAFDcUGJH63DJeylc9Uvru6Rcz53El0NxD64IMwnGkcIV6UjYpImp2yv4h7atnlwHlbupmByrx3ROCqqypahEqItA6hqTTzSbzjvK8ikMwjPeOa3HEI1Fbk69k0bCuZCe_lmduIzxrOQr_EWuP88ttoHsBZu-4ZgC4xQKzGNZOMkxwPku_RVUlG9Ic2rXwE9e3cutYnk9mSDuZX9E8YGzE67S1TmU1ISNWjSsaaHMaFzuBrF6NpGEdtWmQkkDfXrbVEUuNXiDdGJU-g7Qibym2gRK7wQm16jY6SNZUFZs1v_P71aYiRmmPGiLp7CjCqNK0-i8PZaNfWCr_0oY0Ns_B9pV9CuEhcOLGKIcowTJggJfDqfN0hCt6Cq5pY6BCpyVDuyhaVT3KfoFxP9Nz5bZiYlKL0qFXtZ02o5I0phXMVfCcqx917XQQsz2LuFwu7zS1LW_FZk_BEjM182xCorExsu2jmJELzwyuSyGutikUBbkpOOTBv0FMcSB40w7kK9JP0WlYbvfYZROYPKj4XWAfBYH-zHqWhIU3JEwYtWXnuY-9CRvKft0w6ShTs7s1Ik75UuNdRVusYO7OeW4kF9VdbhmoUb1QExarhDMSJ49BPtiyy5fLzVph-0yXLIl0d1Tj69oMj_5w_loCMNcGMstRSlXF0dYdROqVTNUcRlGCq7sZJTSY5lWo5a8SZXm2amGKbvhLDcOJM9q5U8PtkoIu3MhH37vNKXpVTgJ2EDByrt1ldtpuWt2oFYj1NNOpqMZZxYye_YVmOp2-1J7oPxO4yMAQL3y6wJoiXgye9O69QyS6B0BRrIIyZDVSvKOOiOKrkuj9RpVO5iZP0Ni_W83hblpvSkoI9GYL8oYEsW84FoGXIe04v4lErdKw8UyehkDc-Dg4A8wWHK1PUKc_FJud-WzDk5TGZdWaYjGIsMEWymA5fDUneNgwZNhCj3lCsroG5DAW1j9WSeYLCzL1vhwTWrkqiVBHtb6hFmzium9x0ewYs2aR5Q0pPFcNGyboaI5sgpcBuZNpIMhO4Zotk5lpGxf-2bk4gfItfUK27_hXGj84_lRLaRSG-6XwHkdniC9wkEb_Pawr1nIrxdv9T3KHvONfGeEcoLJ6sLafWj5tB7a6RqjBhqNrr9P6Eio5Cz1X6RpUKc6yEQuEdeLAqeamfbKp7wWdwJe6JJLWknIgSwK-cXeP8GoPQwBJGoAnlYs7GfmdaN0Tgoj0Yro8EyxOnkfeyqw37F0IaHGBYdy9TYU_5TM4CBi6QI7LxB7fzR-C93esn-xuzT2OZoKdXxBFAw-RzvbBThqqyAopkSas24Gm4_tXu6pHvC4MoAbQFe1tX-zB_FdbIsDqmJMdvw85incTKBAYHdNN1rFK5Q888704yxob2lqp4RzBDNC9qILoeL9LiHlHjjyp4tDHPkTkag-zKzqjfHpESHx_-lsIifwCWdapk8IpEna-nLhDAstFtDN4blY4mZVZ1HRDUtDeX5gHKOOMSCpsLzpVN_YyjGTt8Vh2g6Ry48oVpzMwx3RimiQYGHKt_4eYVPVQs04oSyIRRsE6o-St5Yiu9ssYORX5kLKVlQl3AcRIIIoOV2crXpqWaMRHu9GxP75tJfXuLtpOVqbncDNKE2E4qoErUuKaw2_IBRvTI24IoG5n5T93pXPkoo-JuNT5YMXKKE8fywTvMltV3mlhmaTOR9fYdN6_CH1L3rJ0B2iy30mSf2-hb0AvlznlFnfOHr-65dtWm-So_xujro-pBRQ2L7e6XheGa1ykZwVE0s4p4ZD0DbBTg5rYzJ9H4azRwsxkkny_M3WSUuFr5WP7wiw0Uk-y73D24QGPMGCjJ89mOhBnY983plr79TNrtDsZq1_SaVae3WcTMryieg4bBqiO6ZBnmH2iup05Q6H9GufLrIFHiT7elBdfxE4n43Wu9-TkoyqstWkFIoV6-IltiK5TdvsH95yssIqC5z7IQRslOZ3mVg1qdh4Xky5nNXVIBfIu5slaLLroiyuQ3OmeD8V9GDuHTY0QfpR4XkgtluxHBFm6tp4mEokJ-RGqf8PEKThS0SOlyuemSuQOw89lLPUFEIp9kl3NiwcYW_4Hlj6jbkdg3sCSTl0A7yDaow0wTRQCTO0dbgzD2AsJz4GRWG4xLYFRS5c1_tWD_P9AAcCdJ9tJRUfXvSky4naZJCBNdHH4t9AQLb-i8_KIfXdNvO1vxCOTcELCBvkh9Y5XuyjPotypUJaGEtNUtZqyOimX4VeMnwVOB8fQd6mt_j48fqHgwWjutnIFg7wx_TSSClFp6LQtWT4IbTs0R67ejwQ6c6AKR4lqc7T2_yB9ZoDa_PfoP-Xs_e42MzeIwSZ3vFYZcJF5cZNvFhJMM7MaynMsJFd_dsqztyi2Ab8Ib5d7tHZjVTQf6Y0nKskZkbPchIykdgKHQ8vHtubGjrkJVFXjx-mgbVFdECixq_X07ggsKxL78JIlBXZDiAuOBnp0OyCg4voZjdFPscoMFWy8YaGAfGca--NjcIkXh1lG5cnuRlXzQAX4Py6pF6T-zhPTfK7u_ktjeiYZBCPybTsKptR1e4Oys1Uq6Fj_TDb7feHHJU2ubwpXrMCUGF1K-YQmgvzYQTA6fdeoRhvOYcNEtCt1_1PAYcjPJpdQekxUIvv9fQbtCzlr65Xd8D3pV40VsS_tdSebeIK0-aoHA9qO-3casFv1gupOsb_iPxgoTVsJt8sZG_R2waBKVtHY87h4-8eSBc8FagojYXOOi0Bj7LKOho1_yi3R8C7hS30R1mT3KCSn-FIdgAbYKR8Ruo9mMCoHGtp01k5EIjx0icHZkr5-KO2Xcz6BU_owiISmXVyHLUN4NtabC0yp10BkZ32MdT5N9WSQYQK9QZV-grgqe3g1jcwOmfFg-Bhytz1vVsOm44EQwLA_obsNczW2ZHIWeoGf3VUlvAppiSCgB4pRU1XF2XIFvWwrKmtajhr0XZhJZQu2AaBXBa_L39pDbn2S2z-L0DKb9NOI7kekiXrD1n7jCxKg5sAeZfJcfYJB4bHYu26Jz9Bg783cG4DYWxRYLvttjDqAw7w8JKdPPAuiUILXj5j23RC9JucI-t3gDE0s_GMqDH0PlTv2rZEFcH8oZ_lFNBTWPdjVIl-j5B6Jc0uA3QubDZIbhWq7WiU3H6M-kJfRc5IEPne33lqfZzbMiWmqnUZVVnLbmYyTYwzzQhaZiLEUpdXes5PgH2_jV8ajmjJNd6sOXCm5DLAngJIfxOSWteEckjeLrNZ_JRiMYsptJBD4J0hlyeRPjpJfYYIvPAHgjIPQxX7KfMc9g194atGyXtNQNZrCsPZnfruJ2Z77XcQabSg35Xc_uKzRwHNnA4GpbMXhbP10X8lA-kQP-ixefYp-zm0JWTlhWdKcVOaCw_XIThb7BykpN9AxLLcvP0QKMfXCcPpuJxCjJsUC7CNnhBTVLHMvPj0RDoO84kAghH6DklmP44LhogmnzecsmLw-1tUrKQWciL1Kdm5Ia_Sif-69gx6HNq-b1gZYCOpvytFQ91eDuu14R-zbHiSC9QW3STBXv06rHcrDKSqV6J4xpUz5PqlpJA9n1EeIz695br2H-IDouLtTaWN7s5I1jM9Zylu7_XcNWLcJdZItvNuBOl3jc_epK-W_sWkiPEZP8eYwrc4y9ziIecf3mfP_Zgeu3VjrS7xrzeBY2EHsX8W5faS8q5Lo2WIZ",
+        "status": null
+      },
+      {
+        "id": "rs_0ff3f6d530d2e36b006a651a9b9838819483a2f41f3a0b2f91",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRsMSGMLQb9GZcAiefmxbeJbuPEOfvDSfbxUbbUT71KhDzeCX13gRa0G0V5I1K6rmX_PsPIQbF7Ff19dyb07vB0nNIT_QKeDE4gx1f1QyFM7rU0eTCgE--GIyxntoUYSEanscFhemkpG0H1FOp13VwaI733Qv3VLsLzlId_vdei34GQzHwd6YcuJdEKfYO0PWd0eh-1rcsS_dmGh3pY0w_-oBT2w-uTx1pFq79lLGQSOgjUYPWlSJhOFiDCCEtHrva3wDt6bq3JtJTfDmP_YLcgp3QRw5S1ZqIorIhL_H3FbhLVC3LL-PRkuH8Di_DtCHyX0OgXSrpelM4wopkyW2jE3ihnCtGG0cvW_ro3Mf3HtKoBYy3s1py0OaFUOz8qffBLyz2qS5mtYFVIYD5D_3asKvvV8naAIDdHr-HDxV_YDli8AlorXLD2bxYGGHMk3lLW9pOTIQRBAhAkIcIzUavElYw_VLRIstakrwQjafT5JXdeV8URg8U1BRJ-zUVSo6-xPlYJjNObDiDRGSXNI60pQDOh7Qrb5i2jXaUopVts0zNOWZS3vXcHgsO4XLhriamoz5mFBWRGo6fF_LjUis7gHa3bZTbdmsQrf_DZEUusr-bzCRzhYbS1XrMP8eOQE6pwqMX8_TUDJMNQbNkyycIk02kk1jVPu9F4wzcBEoU3IOOjkP1K5FhxAP4aEYWiPTitzjSYUq2tvm4R0RjUamuxat6shIcrTwEGGgAZKuMbHldulFynRC-1mDB2n1bd1c1SiKx0WP69dyNwNNPYZM5tf6Thw9qtju8dFb1WcLz3U3uiqf6D-kgpK7-as8nxLqjMWuf4p8VRTs_Sjd9E7bApvUblRcQJk8GLja5_wi7UvXfHgY13Rm6RVxbXaUw20NqcMFgAklZs0sOI2XD8Fvb96h8-dlmBW6MeSvlikTg1nNueeIENiN6I7nHS2ymBVwG1ESWE_q-8GsrxlP0_7AId-0rQ-i4cB0Zts5WwNCKcOrugtCbQBbsawZnxeacUWi_qyPe2hRjS9E6OWB8GJyETe-ldlqqKnR5vBrcOr-GAlwpvZ75o6B9Rnt672C-FGBsKKWjkQYyQerG3Aa_aBKfdwSN7mHHpWQBuwGOVYcjCNnJFxvReD-ZW5s9LO95-_C_vzmf0pPEhCy4AUE7YE73jtqZ2gf0kMKjGjuLxOCMYkw_Jv-pjcpQesypRLHMjmtHQKpuuJOAlcG6DHnQ5BCVLf5eUz3zpuaXCk0j-iT9h5y4u5qcsnBvuAafnUvNfkoCbeEbMwb6Lq0RcszI1ztU8sMvgmrpSwhPG0CuR-DlhzmktepW1iQwxBxzyJNrI_2uZPloy9KaxEB4yeQdGvpyIgsm-inVy-J1lC6IltT6vnxvwkmSpRY_VYHEg2c1TYKuYfFyYgKCodLvIv_7MGR6Ll7gIZRYsSx3QHgilKVXTWVRsqJsE33a303wgbdzDOyvz6kt1QHlWzcJcYfa0bMAd9n_1ct8e0ufPV_ajXBmRobT4mxANbym9pih3KCvbjldpx87H-zNuT3KkaX4xgSUJKYrVkg5U7e4FMN0_704RItWtXx1GQh78EQKs4JTCqP6eVrCAWJcy7NbGbZGqo1P22gapLpSb9DXfFGcAGCN529gy9_GU4hFQbqTslRBLxqC6CoSa_SigT2o9A0VIbV_G-18r3vnpVZdUhkAcl4riVty3ggMutPZktVvzp2GsI7UL4MeA-qC0-aROSMNSN7hEHqxAHcmrjzbeMsuthTw1pWyD9pJULw6CW3QxxcfTkRaLDoLeRgPA28IMiz4rXDshRIaIfCINq04Y-_6tNTQn-eJgdL7H3jj2wekqCBuXzLV8nYUyCkNMox4W6fHeIuiFx3nZoDHh5CzohtAbHeuQdm2SkAHTQ2rsaAE5X1hkomASPTHGz72BsE8xYsgPcFIId2MjZPw6UVD2qbigSp6OPvWRK-As5M5_JL5DJ7VyvBiXfmSea9PhmvoX7pMOfU-wtWsomUSxi2edGZt5fc97LGoXl2COCUZasJcPLc6t2RKvwsjMUGIfqUGZuAAnFO-YwYmRW3dIzXM3yMfAl2jv1CGfkd21BEEj7bjy4u4U88XtxXn2nqW8nLXOyAZXtjvBiIs-slMZIbJcn8KckCM15sWTJRIjx6Mb3laQ5G5k_-Otf2R0nPLMXV5WxMNUp-cYPVIS_SVtolP2ar0Mmik-EDRB7HoSGFP18pI6DZeLT8A7UgEtDvpMbHsumDcd16iBrsI_aP87nIJJpQKM5a7XzWTNn7aJR8UzVc525HSuZrnSkOE8js0mLoet_7fVsyU5EX4Le70LGIWyUePJb_nMSjX0FziJD22MLSBQgTW7l989lqlVtIfqpX6LqPvAIeTvjBCddmQ0aKI8J599NSRZd5c71Makov63_F8XIho4eEIOYhZpTobIPLYpdmlh2KFph6Q==",
+        "status": null
+      },
+      {
+        "id": "msg_0ff3f6d530d2e36b006a651aa0e30c8194a642543460de3fd1",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"episodes\":[{\"ep\":1,\"title\":\"The Number Twice Sold\",\"script\":\"SFX: Champagne glasses clink. A sheet of bond paper snaps open.\\n\\nMILES: This border is crooked. I want the certificate replaced before anyone sees it.\\n\\nEWAN: Give it to me, please. I can correct the impression.\\n\\nBELL: Correct it? You printed it.\\n\\nSFX: Conversations fall quiet, one by one.\\n\\nEWAN: I copied the register entry. The printing was done elsewhere.\\n\\nBELL: Let us be exact. My guests did not purchase excuses from elsewhere. They purchased a Ravenshore bond from this office.\\n\\nMILES: Two hundred pounds, Uncle. For two hundred pounds, the palm trees ought to stand straight.\\n\\nSFX: Scattered laughter.\\n\\nEWAN: The engraving is ornamental. The bond remains valid.\\n\\nBELL: You hear that, gentlemen? Our provincial clerk has declared it valid. Perhaps the Bank of England may now rest.\\n\\nINVESTOR: Does the clerk also govern Ravenshore?\\n\\nMILES: No. He governs the ink.\\n\\nSFX: Louder laughter.\\n\\nEWAN: If you please, the date, denomination and signature are correct.\\n\\nBELL: And yet the border has shifted, the lower seal is blurred, and the word treasury has lost a letter.\\n\\nEWAN: That plate did not leave my desk in that condition.\\n\\nBELL: Careful. A man may survive poor work. He rarely survives blaming his betters for it.\\n\\nSFX: A ceremonial sword taps against a chair. The room settles.\\n\\nMACRAE: Friends, Ravenshore is larger than one clerk's error.\\n\\nMILES: Thank heaven for that.\\n\\nMACRAE: Its forests stand untouched. Its rivers carry wealth to the sea. Every acre subscribed tonight brings roads, harbours and honest employment to a young nation.\\n\\nINVESTOR: And the interest?\\n\\nMACRAE: Six per cent, paid by a treasury whose future revenue rests on millions of fertile acres.\\n\\nSFX: Applause rises around the room.\\n\\nMACRAE: Mr Bell gave London the opportunity. You, gentlemen, give Ravenshore prosperity.\\n\\nBELL: And Macrae gives it a sovereign's honour.\\n\\nSFX: Glasses raised. Applause grows.\\n\\nNARRATOR: Ewan stood beside the refreshment table holding the crooked certificate. He was ashamed, and everyone in the salon knew it.\\n\\nMILES: Kerr, since you are idle, fetch me another bond.\\n\\nEWAN: I have been dismissed from the table.\\n\\nMILES: Then you have time.\\n\\nBELL: Take the spoiled sheet downstairs. You will not copy another certificate tonight.\\n\\nEWAN: Mr Bell, the impression was damaged after it left my desk.\\n\\nBELL: You are a junior clerk from a town my guests could not find on a map. Macrae has raised twenty-three thousand pounds in subscriptions. Which fact shall command the room?\\n\\nEWAN: The true one.\\n\\nSFX: A short, embarrassed silence. Someone coughs.\\n\\nBELL: Your wages are twelve shillings a week. Do not spend all twelve on principles.\\n\\nMACRAE: Bell, be kind. A nervous clerk can still become a useful clerk.\\n\\nEWAN: I am not nervous.\\n\\nMACRAE: Then learn the difference between being correct and being believed.\\n\\nSFX: Another burst of applause calls Macrae away.\\n\\nBELL: Downstairs, Kerr.\\n\\nSFX: Door closes. Applause muffles. Footsteps descend narrow wooden stairs.\\n\\nNARRATOR: Below the salon, belief was stored in drawers: bonds, receipts, maps and seals. Ewan knew every drawer because he had copied every label.\\n\\nSFX: Desk drawer slides open. Papers shuffle quickly.\\n\\nEWAN: Ravenshore national loan. Two hundred pounds. Issue three.\\n\\nSFX: Pencil scratches.\\n\\nEWAN: Plate mark seven. Lower seal blurred after pressing.\\n\\nSFX: Another drawer opens.\\n\\nPIPPA: You were told not to copy another certificate.\\n\\nEWAN: I am recording why this one is not mine.\\n\\nPIPPA: Bell will call that disobedience with unusually neat handwriting.\\n\\nEWAN: Look at the paper. The embossing is crushed over the wet ink. Someone stacked it before it dried.\\n\\nPIPPA: That clears the printer. It does not clear you.\\n\\nEWAN: The serial will.\\n\\nSFX: Bond lifted close to a gas flame.\\n\\nEWAN: R-four-one-eight-seven.\\n\\nPIPPA: That is not in tonight's subscription list.\\n\\nEWAN: Then Miles was given an older sheet.\\n\\nPIPPA: Or an unentered one.\\n\\nEWAN: Bring the paid receipts.\\n\\nPIPPA: Bell keeps those in his private drawer.\\n\\nEWAN: You have the counterfoils.\\n\\nSFX: Pippa unlocks a small cash box. Thick paper flicks past under her thumb.\\n\\nPIPPA: Four-one-eight-three. Four-one-eight-four. Four-one-eight-five.\\n\\nEWAN: Keep going.\\n\\nPIPPA: Four-one-eight-six.\\n\\nSFX: Paper stops.\\n\\nEWAN: Read the next one.\\n\\nPIPPA: Paid in full. Two hundred pounds. Assigned to a Bristol subscriber three weeks ago.\\n\\nEWAN: The serial?\\n\\nPIPPA: R-four-one-eight-seven.\\n\\nSFX: The salon applauds Macrae overhead.\\n\\nEWAN: The bond I was accused of misprinting carries a serial number already sold to a different investor.\"},{\"ep\":2,\"title\":\"Behind the Counting-Room Door\",\"script\":\"SFX: A ledger thumps onto a desk. A key turns in the outer office door.\\n\\nEWAN: R-four-one-eight-seven was sold twice. Open Bell's private ledger.\\n\\nPIPPA: Lower your voice.\\n\\nEWAN: I want the entry before he destroys it.\\n\\nPIPPA: And I want employment tomorrow morning.\\n\\nEWAN: A subscriber paid two hundred pounds for a number now printed on Miles's bond.\\n\\nPIPPA: I can count, Ewan.\\n\\nEWAN: Then help me prove it was not a copying error.\\n\\nPIPPA: Bell's drawer has two locks. I have one key.\\n\\nEWAN: Who has the other?\\n\\nSFX: A walking cane strikes the floor behind them.\\n\\nBELL: The man whose private drawer you are discussing.\\n\\nSFX: Nothing. Long.\\n\\nBELL: Miss Shaw, upstairs. Kerr, remain.\\n\\nPIPPA: Mr Bell, the counterfoil—\\n\\nBELL: Upstairs.\\n\\nSFX: Pippa's footsteps retreat. Door closes.\\n\\nBELL: Let us be exact. You were dismissed from the salon table. You entered the accounts room. You opened paid subscription records.\\n\\nEWAN: I found a duplicated serial.\\n\\nBELL: You found paperwork beyond your station.\\n\\nEWAN: The same bond number has taken four hundred pounds from two investors.\\n\\nBELL: Has either investor complained?\\n\\nEWAN: They do not know.\\n\\nBELL: Then at present the only injury is to your sleep.\\n\\nEWAN: Open your ledger.\\n\\nBELL: That was almost an order.\\n\\nEWAN: Open it, please.\\n\\nBELL: Better.\\n\\nSFX: Two keys enter two locks. A heavy drawer rolls out.\\n\\nBELL: You may inspect the page. You may not touch it.\\n\\nSFX: Ledger cover creaks.\\n\\nEWAN: Issue three. Subscriptions received.\\n\\nBELL: Read silently.\\n\\nEWAN: R-four-one-eight-seven. Two hundred pounds. Bristol account.\\n\\nSFX: Page turns.\\n\\nEWAN: R-four-one-eight-seven again. Two hundred pounds. Miles Orrock.\\n\\nBELL: A repetition.\\n\\nEWAN: In different ink, entered eleven days apart.\\n\\nBELL: Still a repetition.\\n\\nEWAN: Your private ledger confirms both payments.\\n\\nBELL: It confirms that two lines exist.\\n\\nEWAN: One certificate number cannot secure two debts.\\n\\nBELL: Ravenshore contains eight million acres. I think it can survive one overworked numeral.\\n\\nEWAN: It is fraud if it was deliberate.\\n\\nBELL: Such an ugly word from a man asking me for wages.\\n\\nEWAN: I am asking you to cancel Miles's bond and return the second payment.\\n\\nBELL: No.\\n\\nEWAN: Then I will tell him.\\n\\nBELL: Your mother's house is still burdened by your father's creditors, is it not.\\n\\nEWAN: Leave her out of this.\\n\\nBELL: I am trying to help. A dismissed clerk finds family obligations terribly expensive.\\n\\nEWAN: That is a threat.\\n\\nBELL: It is arithmetic.\\n\\nSFX: Bell closes the private ledger.\\n\\nBELL: We have a more immediate difficulty. Yesterday's bond register is unreadable.\\n\\nSFX: Wet, swollen pages slap onto the desk.\\n\\nEWAN: Water damage.\\n\\nBELL: A porter upset a pail. You will recreate every entry from the counterfoils before morning.\\n\\nEWAN: There are three hundred and twelve certificates.\\n\\nBELL: Then your handwriting will finally justify its salary.\\n\\nEWAN: I will not alter the duplicate.\\n\\nBELL: Copy what the records say.\\n\\nEWAN: The records say you accepted two payments against one number.\\n\\nBELL: And if the register is not complete by eight, the records will say you abandoned your post after damaging it.\\n\\nSFX: Bell walks to the door.\\n\\nEWAN: You cannot keep me here.\\n\\nBELL: The silver must be protected overnight. Surely you understand.\\n\\nSFX: Door closes. Key turns from the outside.\\n\\nEWAN: Bell!\\n\\nSFX: Ewan pounds the locked door.\\n\\nBELL: Through the door, Kerr. Three hundred and twelve entries. Do be accurate.\\n\\nSFX: Bell's footsteps fade.\\n\\nNARRATOR: Ewan wanted the truth entered once. Bell required the lie copied three hundred and twelve times.\\n\\nSFX: Clock ticks. Pen scratches rapidly. Pages turn.\\n\\nEWAN: R-four-one-seven-nine. One hundred pounds. R-four-one-eight-zero. Two hundred pounds.\\n\\nSFX: Pen scratches. Clock continues.\\n\\nEWAN: R-four-one-eight-seven. Bristol account. Two hundred pounds.\\n\\nSFX: Pen pauses.\\n\\nEWAN: R-four-one-eight-seven. Miles Orrock. Two hundred pounds.\\n\\nSFX: Ewan draws a hard line beneath both entries.\\n\\nEWAN: Duplicate serial retained exactly as found.\\n\\nSFX: A folded paper slides under the locked door.\\n\\nEWAN: Pippa?\\n\\nPIPPA: Quietly.\\n\\nEWAN: Bell has the key.\\n\\nPIPPA: I know. I also know what left the office while you were in the salon.\\n\\nEWAN: What is this docket?\\n\\nPIPPA: Freight received at half past six. Six sealed cases.\\n\\nEWAN: Destination: Alderwick Auction Rooms.\\n\\nPIPPA: Bell's first public sale begins tomorrow.\\n\\nEWAN: This says eight hundred certificates. The authentication column is signed E.K.\\n\\nPIPPA: Those are not your strokes.\\n\\nEWAN: I signed none of them.\\n\\nPIPPA: A fresh shipment of Ravenshore bonds has already been sent to the auction house.\\n\\nEWAN: And every certificate carries my forged initials.\"},{\"ep\":3,\"title\":\"The Clerk on the Platform\",\"script\":\"SFX: A meeting-hall door bangs open. Boots stamp on bare boards. A handbell rings over a crowded room.\\n\\nMARA: You are late, Ewan. Get on the platform.\\n\\nEWAN: I need five minutes alone with you.\\n\\nMARA: You need to stand beside me and answer questions.\\n\\nEWAN: About a country I have never seen?\\n\\nMARA: Names first, doubts later. Up you go.\\n\\nSFX: Mara pulls him up two wooden steps. The handbell rings again.\\n\\nNARRATOR: Seven days after Bell locked the counting room, Ewan was sent north with a case of maps and a warning to be useful.\\n\\nMARA: Families of Calderwick, thank you. Tonight we take final deposits for land and passage to Ravenshore.\\n\\nSFX: Chairs scrape. Excited murmurs fill the hall.\\n\\nMARA: You have heard promises from travellers and agents. Now you may question a government clerk from the London treasury itself.\\n\\nEWAN: I am a copying clerk.\\n\\nMARA: Mr Ewan Kerr prepares the official bonds, registers and land grants.\\n\\nVOICE IN HALL: Is he a treasury man or not?\\n\\nMARA: He works inside the Ravenshore office. Ask him anything.\\n\\nSFX: Several voices call at once.\\n\\nAGNES: Wages first.\\n\\nMARA: Mrs Murray has the floor.\\n\\nAGNES: My eldest is a wheelwright. The notice says skilled men earn four shillings a day. Is that guaranteed?\\n\\nEWAN: The printed schedule states four shillings.\\n\\nAGNES: I asked whether it is guaranteed.\\n\\nMARA: The land company requires roads, carts and mills. A wheelwright will not lack work.\\n\\nAGNES: Let the clerk answer.\\n\\nSFX: The room quiets.\\n\\nEWAN: I have seen no signed wage contract.\\n\\nVOICE IN HALL: Then what good are the notices?\\n\\nMARA: Names first, doubts later. Mr Kerr means wages depend upon trade, as wages do here.\\n\\nAGNES: Here, I know who pays them.\\n\\nEWAN: That is a fair question.\\n\\nMARA: And Ravenshore has a fair answer. New settlements pay the men who build them.\\n\\nTHOMAS: What has already been built?\\n\\nMARA: Your name?\\n\\nTHOMAS: Thomas Hale. Surveyor.\\n\\nMARA: Mr Hale, the capital has government offices, a bank, a cathedral square and planned streets running from the harbour.\\n\\nTHOMAS: Has the clerk seen those streets?\\n\\nEWAN: No.\\n\\nSFX: Murmurs sharpen.\\n\\nTHOMAS: The harbour?\\n\\nEWAN: No.\\n\\nTHOMAS: The bank?\\n\\nEWAN: I have seen its charter.\\n\\nTHOMAS: Paper.\\n\\nEWAN: Yes.\\n\\nVOICE IN HALL: He has never been there!\\n\\nANOTHER VOICE: They brought us a clerk who has never seen the place!\\n\\nSFX: A few people laugh. Someone knocks a cane against the floor.\\n\\nMARA: A London clerk does not inspect every acre governed by his office.\\n\\nTHOMAS: How many acres have been surveyed?\\n\\nEWAN: The land schedule lists one hundred and fifty thousand available for first settlement.\\n\\nTHOMAS: That was not my question.\\n\\nEWAN: I have not seen a completed survey.\\n\\nMARA: Which is why Ravenshore is recruiting surveyors. Mr Hale has just explained his own opportunity.\\n\\nSFX: Laughter breaks the tension.\\n\\nMARA: Farms begin at thirty acres. Skilled families may claim sixty. Deposits are five pounds, with passage charged separately by berth.\\n\\nAGNES: My family shop sold for eighty-six pounds. That is all we possess.\\n\\nMARA: In Scotland, eighty-six pounds purchases another year of rent and worry. In Ravenshore, it purchases land.\\n\\nAGNES: I have two children.\\n\\nMARA: Then purchase two futures.\\n\\nEWAN: Mrs Murray, do not pay tonight.\\n\\nSFX: The room reacts with a low gasp.\\n\\nMARA: Mr Kerr is concerned that you choose the correct acreage.\\n\\nEWAN: I am concerned she has sold her shop.\\n\\nAGNES: You heard her. Thirty acres begins at five pounds.\\n\\nEWAN: A deposit is not land.\\n\\nMARA: It secures land.\\n\\nEWAN: Only if the grant can be honoured.\\n\\nMARA: The grants carry Macrae's seal, Bell's bank certification and your office registration.\\n\\nAGNES: Is that true?\\n\\nEWAN: Those marks are on the documents.\\n\\nAGNES: And you enter them in the register?\\n\\nEWAN: I have entered land grants, yes.\\n\\nAGNES: Then my family's claim will be written where nobody can deny it.\\n\\nEWAN: A written claim is not the same as possession.\\n\\nMARA: He is a clerk. To him, nothing exists until it has three copies and a ribbon.\\n\\nSFX: The room laughs again, this time warmly.\\n\\nAGNES: I will pay five pounds for the land and twelve for three berths.\\n\\nSFX: Coins spill onto a table.\\n\\nEWAN: Wait.\\n\\nMARA: Deposit received from the Murray family. Seventeen pounds.\\n\\nSFX: Applause. More chairs scrape as people rise.\\n\\nVOICE IN HALL: Put me down for thirty acres.\\n\\nANOTHER VOICE: Two berths here.\\n\\nVOICE NEAR TABLE: I have ten pounds now and the rest at the dock.\\n\\nSFX: Coins, pens and overlapping voices build into a rush.\\n\\nEWAN: Mara, stop taking money.\\n\\nMARA: I have spent four months bringing these families to this table.\\n\\nEWAN: Bell's bonds carry duplicate numbers.\\n\\nMARA: Not here.\\n\\nEWAN: My initials were forged on the latest shipment.\\n\\nMARA: Not here.\\n\\nEWAN: They deserve to know what the London office is doing.\\n\\nMARA: And do you know what awaits them here? Rent, debt and sons working another man's field. Do not mistake uncertainty for cruelty.\\n\\nEWAN: You promised a capital city.\\n\\nMARA: Macrae promised it. Bell financed it. You put it into respectable handwriting.\\n\\nEWAN: I copied what I was given.\\n\\nMARA: So did I.\\n\\nSFX: A ledger page turns. Mara writes quickly.\\n\\nAGNES: Mr Kerr, come witness my entry.\\n\\nEWAN: I cannot.\\n\\nAGNES: You told us you keep the register.\\n\\nEWAN: I said I copied it.\\n\\nAGNES: Then copy my name correctly. Murray. Three berths. Thirty acres.\\n\\nSFX: Pen is pressed into Ewan's hand.\\n\\nMARA: Names first, doubts later.\\n\\nSFX: Ewan writes one line. The pen scratches loudly beneath the crowd.\\n\\nEWAN: Agnes Murray. Deposit, seventeen pounds.\\n\\nAGNES: Thank you, Mr Kerr. My children will know who witnessed it.\\n\\nNARRATOR: That gratitude cost Ewan more than the public laughter. Agnes trusted him because his handwriting looked like authority.\\n\\nSFX: Meeting hall empties. Coins are counted into stacks. Rain of loose papers settling.\\n\\nEWAN: Give me the address list.\\n\\nMARA: No.\\n\\nEWAN: I will visit every family tonight.\\n\\nMARA: You will return to London on the mail coach. Bell paid for your seat.\\n\\nEWAN: Then I will miss it.\\n\\nMARA: Your case is already loaded. The driver has orders not to wait.\\n\\nEWAN: How many names did you take?\\n\\nSFX: Mara closes the deposit ledger.\\n\\nMARA: Seventy settlers have paid deposits.\\n\\nEWAN: When are they meant to sail?\\n\\nMARA: Their ship is scheduled to sail tomorrow morning—before you can warn them.\"}],\"beat_sheet\":[{\"beat_id\":\"b001\",\"ep\":1,\"seq\":1,\"world_time\":\"1822-09-16\",\"location\":\"Bell's London investor salon\",\"present\":[\"ewan\",\"macrae\",\"bell\",\"miles\"],\"witnessed_by\":[\"ewan\",\"macrae\",\"bell\",\"miles\"],\"hidden_from\":[\"elspeth\",\"agnes\",\"thomas\"],\"what_happened\":\"Bell publicly blamed Ewan for a damaged Ravenshore bond and dismissed his explanation in front of investors.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"His professional competence was publicly discredited.\",\"valence\":-3},{\"entity\":\"bell\",\"fact\":\"He established authority over Ewan before the investors.\",\"valence\":2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b002\",\"ep\":1,\"seq\":2,\"world_time\":\"1822-09-16\",\"location\":\"Bell's London investor salon\",\"present\":[\"ewan\",\"macrae\",\"bell\",\"miles\"],\"witnessed_by\":[\"ewan\",\"macrae\",\"bell\",\"miles\"],\"hidden_from\":[\"agnes\",\"thomas\",\"tawis\"],\"what_happened\":\"Macrae received public applause after claiming Ravenshore's land and future revenue would support the bond issue.\",\"state_changes\":[{\"entity\":\"macrae\",\"fact\":\"His public credibility with Bell's investors increased.\",\"valence\":3},{\"entity\":\"Ravenshore bond issue\",\"fact\":\"Investor enthusiasm increased despite the defective certificate.\",\"valence\":2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b003\",\"ep\":1,\"seq\":3,\"world_time\":\"1822-09-16\",\"location\":\"Bond records room beneath Bell's salon\",\"present\":[\"ewan\",\"pippa\"],\"witnessed_by\":[\"ewan\",\"pippa\"],\"hidden_from\":[\"bell\",\"macrae\",\"miles\",\"mara\"],\"what_happened\":\"Ewan and Pippa found that serial R-4187 on Miles's bond had already been assigned to a different investor who paid in full.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"He obtained evidence that the bond problem was not merely a printing defect.\",\"valence\":2},{\"entity\":\"Ravenshore bond issue\",\"fact\":\"One certificate serial was confirmed as sold to two investors.\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b004\",\"ep\":2,\"seq\":1,\"world_time\":\"1822-09-17\",\"location\":\"Bell's London counting room\",\"present\":[\"ewan\",\"bell\"],\"witnessed_by\":[\"ewan\",\"bell\"],\"hidden_from\":[\"macrae\",\"miles\",\"mara\"],\"what_happened\":\"Bell opened his private ledger, and Ewan found serial R-4187 entered twice in different ink on dates eleven days apart.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"He confirmed the duplicate serial in Bell's private records.\",\"valence\":3},{\"entity\":\"bell\",\"fact\":\"His private ledger connected his office to both payments.\",\"valence\":-3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b005\",\"ep\":2,\"seq\":2,\"world_time\":\"1822-09-17\",\"location\":\"Bell's London counting room\",\"present\":[\"ewan\",\"bell\"],\"witnessed_by\":[\"ewan\",\"bell\"],\"hidden_from\":[\"pippa\",\"macrae\",\"elspeth\"],\"what_happened\":\"Bell refused to cancel the duplicate bond, invoked Ewan's family debts, and ordered him to recreate a water-damaged register.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"His mother's financial vulnerability was used to pressure him into compliance.\",\"valence\":-3},{\"entity\":\"bell\",\"fact\":\"He refused to correct the duplicated bond entry.\",\"valence\":-2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b006\",\"ep\":2,\"seq\":3,\"world_time\":\"1822-09-17\",\"location\":\"Bell's London counting room\",\"present\":[\"ewan\",\"bell\"],\"witnessed_by\":[\"ewan\",\"bell\"],\"hidden_from\":[\"pippa\",\"macrae\",\"mara\"],\"what_happened\":\"Bell locked Ewan inside the counting room until he recreated all 312 entries in the missing bond register.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"He was confined and forced to reconstruct the bond register overnight.\",\"valence\":-4},{\"entity\":\"bond register\",\"fact\":\"Its 312 entries were scheduled for reconstruction by Ewan.\",\"valence\":1}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b007\",\"ep\":2,\"seq\":4,\"world_time\":\"1822-09-17\",\"location\":\"Route from the Ravenshore office to Alderwick Auction Rooms\",\"present\":[],\"witnessed_by\":[],\"hidden_from\":[\"ewan\",\"pippa\",\"miles\"],\"what_happened\":\"Six sealed cases containing 800 Ravenshore certificates authenticated with forged Ewan initials were transported to the auction house.\",\"state_changes\":[{\"entity\":\"Ravenshore bond issue\",\"fact\":\"Eight hundred certificates bearing forged Ewan initials entered auction-house custody.\",\"valence\":-5},{\"entity\":\"ewan\",\"fact\":\"His identity was attached to certificates he did not authenticate.\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"The dispatch occurs away from the cast and establishes deliberate open canon before Pippa obtains the freight docket.\"},{\"beat_id\":\"b008\",\"ep\":2,\"seq\":5,\"world_time\":\"1822-09-17\",\"location\":\"Outside Bell's locked counting room\",\"present\":[\"ewan\",\"pippa\"],\"witnessed_by\":[\"ewan\",\"pippa\"],\"hidden_from\":[\"miles\",\"mara\",\"elspeth\"],\"what_happened\":\"Pippa passed Ewan a freight docket proving that a fresh shipment had reached the auction house with his forged initials on every certificate.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"He learned his forged initials appeared on 800 auction certificates.\",\"valence\":-5},{\"entity\":\"pippa\",\"fact\":\"She shared evidence of the unauthorized shipment with Ewan.\",\"valence\":2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b009\",\"ep\":3,\"seq\":1,\"world_time\":\"1822-09-24\",\"location\":\"Calderwick recruiting hall in Scotland\",\"present\":[\"ewan\",\"mara\",\"agnes\",\"thomas\"],\"witnessed_by\":[\"ewan\",\"mara\",\"agnes\",\"thomas\"],\"hidden_from\":[\"bell\",\"macrae\",\"pippa\"],\"what_happened\":\"Mara publicly presented Ewan as a Ravenshore government clerk and required him to answer prospective settlers' questions.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"His clerical role was used as public evidence of Ravenshore's legitimacy.\",\"valence\":-3},{\"entity\":\"mara\",\"fact\":\"She gained an official-looking witness for the recruiting meeting.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b010\",\"ep\":3,\"seq\":2,\"world_time\":\"1822-09-24\",\"location\":\"Calderwick recruiting hall in Scotland\",\"present\":[\"ewan\",\"mara\",\"agnes\",\"thomas\"],\"witnessed_by\":[\"ewan\",\"mara\",\"agnes\",\"thomas\"],\"hidden_from\":[\"bell\",\"macrae\"],\"what_happened\":\"Ewan admitted that he had never seen Ravenshore's wages, farms, capital, harbour, bank, or completed surveys, while Mara reframed his answers as support for settlement.\",\"state_changes\":[{\"entity\":\"agnes\",\"fact\":\"She learned Ewan had seen official papers but not the advertised country.\",\"valence\":-1},{\"entity\":\"thomas\",\"fact\":\"He identified the lack of firsthand surveying evidence.\",\"valence\":2},{\"entity\":\"ewan\",\"fact\":\"His careful qualifications were publicly converted into apparent endorsement.\",\"valence\":-3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b011\",\"ep\":3,\"seq\":3,\"world_time\":\"1822-09-24\",\"location\":\"Deposit table in Calderwick recruiting hall\",\"present\":[\"ewan\",\"mara\",\"agnes\",\"thomas\"],\"witnessed_by\":[\"ewan\",\"mara\",\"agnes\",\"thomas\"],\"hidden_from\":[\"bell\",\"macrae\",\"elspeth\"],\"what_happened\":\"Agnes paid seventeen pounds for thirty acres and three berths, and Ewan wrote her entry into the deposit ledger.\",\"state_changes\":[{\"entity\":\"agnes\",\"fact\":\"She committed seventeen pounds of her family's shop proceeds to Ravenshore land and passage.\",\"valence\":-3},{\"entity\":\"ewan\",\"fact\":\"His handwriting became the recorded witness to Agnes's purchase.\",\"valence\":-4},{\"entity\":\"mara\",\"fact\":\"She secured Agnes's family deposit.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b012\",\"ep\":3,\"seq\":4,\"world_time\":\"1822-09-24\",\"location\":\"Calderwick recruiting hall after the meeting\",\"present\":[\"ewan\",\"mara\"],\"witnessed_by\":[\"ewan\",\"mara\"],\"hidden_from\":[\"agnes\",\"thomas\",\"bell\",\"pippa\"],\"what_happened\":\"Mara revealed that seventy settlers had paid deposits and their ship was scheduled to sail the next morning before Ewan could warn them.\",\"state_changes\":[{\"entity\":\"settler expedition\",\"fact\":\"Seventy paid settlers were committed to a departure on 1822-09-25.\",\"valence\":-5},{\"entity\":\"ewan\",\"fact\":\"He lacked enough time to warn the paid settlers before departure.\",\"valence\":-4},{\"entity\":\"mara\",\"fact\":\"She completed recruitment for the scheduled sailing.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null}],\"promise_ledger\":[{\"id\":\"p001\",\"raised_ep\":1,\"listener_is_waiting_for\":\"whether the repeated bond serial was an accidental misprint or was also recorded inside Bell's accounts\",\"must_pay_by_ep\":2,\"paid_ep\":2,\"how_paid\":\"Ewan found serial R-4187 entered twice in Bell's private ledger in different ink on dates eleven days apart.\",\"status\":\"paid\"},{\"id\":\"p002\",\"raised_ep\":2,\"listener_is_waiting_for\":\"whether the auction shipment bearing Ewan's forged initials will be sold to investors\",\"must_pay_by_ep\":4,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p003\",\"raised_ep\":3,\"listener_is_waiting_for\":\"whether Ewan can warn the seventy settlers and what they will find after sailing\",\"must_pay_by_ep\":5,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"}],\"calendar\":{\"season_start\":\"1822-09-16\",\"dates_fixed\":[{\"ep\":1,\"when\":\"1822-09-16\",\"what\":\"Bell's London investor salon and Ewan's discovery of the duplicate serial\"},{\"ep\":2,\"when\":\"1822-09-17\",\"what\":\"Bell confines Ewan overnight while the auction shipment is dispatched\"},{\"ep\":3,\"when\":\"1822-09-24\",\"what\":\"The Calderwick recruiting meeting takes final deposits\"},{\"ep\":3,\"when\":\"1822-09-25\",\"what\":\"The seventy settlers' ship is scheduled to sail\"}],\"periods_fixed\":[{\"between\":[1,2],\"elapsed\":\"one night\"},{\"between\":[2,3],\"elapsed\":\"seven days\"}],\"unresolved\":[]},\"flags\":[]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 0.98,
+    "background": false,
+    "max_output_tokens": 32000,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": "medium",
+      "generate_summary": null,
+      "summary": null,
+      "context": "all_turns",
+      "mode": "standard"
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "episode_batch",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "episodes",
+            "beat_sheet",
+            "promise_ledger",
+            "calendar",
+            "flags"
+          ],
+          "properties": {
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "ep",
+                  "title",
+                  "script"
+                ],
+                "properties": {
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "beat_sheet": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "beat_id",
+                  "ep",
+                  "seq",
+                  "world_time",
+                  "location",
+                  "present",
+                  "witnessed_by",
+                  "hidden_from",
+                  "what_happened",
+                  "state_changes",
+                  "source_ref",
+                  "tier",
+                  "note"
+                ],
+                "properties": {
+                  "beat_id": {
+                    "type": "string"
+                  },
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "seq": {
+                    "type": "integer"
+                  },
+                  "world_time": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "present": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "witnessed_by": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "hidden_from": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "what_happened": {
+                    "type": "string"
+                  },
+                  "state_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "entity",
+                        "fact",
+                        "valence"
+                      ],
+                      "properties": {
+                        "entity": {
+                          "type": "string"
+                        },
+                        "fact": {
+                          "type": "string"
+                        },
+                        "valence": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "source_ref": {
+                    "type": "string"
+                  },
+                  "tier": {
+                    "type": "string",
+                    "enum": [
+                      "core_canon"
+                    ]
+                  },
+                  "note": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "promise_ledger": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "raised_ep",
+                  "listener_is_waiting_for",
+                  "must_pay_by_ep",
+                  "paid_ep",
+                  "how_paid",
+                  "status"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "raised_ep": {
+                    "type": "integer"
+                  },
+                  "listener_is_waiting_for": {
+                    "type": "string"
+                  },
+                  "must_pay_by_ep": {
+                    "type": "integer"
+                  },
+                  "paid_ep": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "how_paid": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "open",
+                      "paid",
+                      "paid_late"
+                    ]
+                  }
+                }
+              }
+            },
+            "calendar": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "season_start",
+                "dates_fixed",
+                "periods_fixed",
+                "unresolved"
+              ],
+              "properties": {
+                "season_start": {
+                  "type": "string"
+                },
+                "dates_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "ep",
+                      "when",
+                      "what"
+                    ],
+                    "properties": {
+                      "ep": {
+                        "type": "integer"
+                      },
+                      "when": {
+                        "type": "string"
+                      },
+                      "what": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "periods_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "between",
+                      "elapsed"
+                    ],
+                    "properties": {
+                      "between": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        }
+                      },
+                      "elapsed": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "unresolved": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 6483,
+      "input_tokens_details": {
+        "cached_tokens": 4165,
+        "cache_write_tokens": 2315
+      },
+      "output_tokens": 9291,
+      "output_tokens_details": {
+        "reasoning_tokens": 2352
+      },
+      "total_tokens": 15774
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1785010956,
+    "frequency_penalty": 0.0,
+    "moderation": null,
+    "presence_penalty": 0.0,
+    "prompt_cache_retention": "24h",
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    }
+  }
+}

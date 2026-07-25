@@ -1,0 +1,476 @@
+{
+  "story_id": "a3c321dba0a7",
+  "event_id": "evt_blackriver_1821",
+  "beats": [
+    {
+      "beat_id": "b001",
+      "ep": 1,
+      "seq": 1,
+      "world_time": "1822-10-07",
+      "location": "Poyais office subscription counter, London",
+      "present": [
+        "iain",
+        "cassian",
+        "edwin",
+        "elspeth",
+        "tomas"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "agnes",
+        "rowan",
+        "nora",
+        "osric"
+      ],
+      "what_happened": "Iain refused Cassian's order to alter a duplicated certificate serial number for Edwin.",
+      "state_changes": [
+        {
+          "entity": "iain",
+          "fact": "refused to falsify the certificate register",
+          "valence": 2
+        },
+        {
+          "entity": "edwin",
+          "fact": "learned that multiple grants carried his certificate number",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b002",
+      "ep": 1,
+      "seq": 2,
+      "world_time": "1822-10-07",
+      "location": "Poyais office subscription counter, London",
+      "present": [
+        "iain",
+        "cassian",
+        "edwin",
+        "elspeth",
+        "tomas"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "agnes",
+        "rowan",
+        "nora",
+        "osric"
+      ],
+      "what_happened": "Cassian publicly dismissed Iain as incompetent before investors, printers and recruiting agents.",
+      "state_changes": [
+        {
+          "entity": "iain",
+          "fact": "was publicly dismissed from his copyist position",
+          "valence": -4
+        },
+        {
+          "entity": "cassian",
+          "fact": "publicly discredited Iain's competence",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b003",
+      "ep": 1,
+      "seq": 3,
+      "world_time": "1822-10-07",
+      "location": "Locked records room of the Poyais office, London",
+      "present": [
+        "iain",
+        "cassian"
+      ],
+      "witnessed_by": [
+        "edwin"
+      ],
+      "hidden_from": [
+        "agnes",
+        "mara",
+        "rowan",
+        "nora",
+        "osric"
+      ],
+      "what_happened": "Cassian kept Iain inside by threatening to accuse him of stealing confidential government papers and to involve Agnes.",
+      "state_changes": [
+        {
+          "entity": "iain",
+          "fact": "was prevented from leaving the office under threat of a theft accusation",
+          "valence": -4
+        },
+        {
+          "entity": "cassian",
+          "fact": "gained temporary control over Iain through the threat",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b004",
+      "ep": 1,
+      "seq": 4,
+      "world_time": "1822-10-07",
+      "location": "Locked records room of the Poyais office, London",
+      "present": [
+        "iain"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "cassian",
+        "mara",
+        "elspeth",
+        "tomas",
+        "agnes",
+        "rowan",
+        "edwin",
+        "osric"
+      ],
+      "what_happened": "Iain received Nora's salt-stained coastal letter reporting that the first settlers found no capital, port authority or government.",
+      "state_changes": [
+        {
+          "entity": "iain",
+          "fact": "obtained the first direct written account contradicting the Poyais claims",
+          "valence": 3
+        },
+        {
+          "entity": "Poyais claims",
+          "fact": "were directly contradicted by a settler's coastal report",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b005",
+      "ep": 2,
+      "seq": 1,
+      "world_time": "1822-10-08",
+      "location": "Bond subscription meeting room, London",
+      "present": [
+        "iain",
+        "cassian",
+        "mara",
+        "elspeth",
+        "edwin"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "agnes",
+        "rowan",
+        "nora",
+        "osric"
+      ],
+      "what_happened": "Iain presented Nora's coastal letter at the meeting and demanded that Mara identify what she had independently verified.",
+      "state_changes": [
+        {
+          "entity": "iain",
+          "fact": "placed the coastal warning before the bond subscribers",
+          "valence": 3
+        },
+        {
+          "entity": "mara",
+          "fact": "was publicly required to defend her validation",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b006",
+      "ep": 2,
+      "seq": 2,
+      "world_time": "1822-10-08",
+      "location": "Bond subscription meeting room, London",
+      "present": [
+        "iain",
+        "cassian",
+        "mara",
+        "elspeth",
+        "edwin"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "agnes",
+        "rowan",
+        "nora",
+        "osric"
+      ],
+      "what_happened": "Mara admitted that the £200,000 loan depended on revenues from a state she had never independently verified.",
+      "state_changes": [
+        {
+          "entity": "mara",
+          "fact": "publicly admitted the limits of her verification",
+          "valence": -4
+        },
+        {
+          "entity": "Poyais loan",
+          "fact": "lost Mara's claim of independent verification",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b007",
+      "ep": 2,
+      "seq": 3,
+      "world_time": "1822-10-08",
+      "location": "Bond subscription meeting room, London",
+      "present": [
+        "iain",
+        "cassian",
+        "mara",
+        "elspeth",
+        "edwin"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "agnes",
+        "rowan",
+        "nora",
+        "osric"
+      ],
+      "what_happened": "Cassian produced a sealed dispatch claiming the settlers were safe and the Poyais capital was operational, but Mara publicly confirmed that Iain's ledger was accurate and that her validation relied on Cassian's papers.",
+      "state_changes": [
+        {
+          "entity": "cassian",
+          "fact": "introduced a sealed dispatch contradicting Nora's account",
+          "valence": 2
+        },
+        {
+          "entity": "iain",
+          "fact": "was publicly acknowledged as the accurate keeper of the bond accounts",
+          "valence": 5
+        },
+        {
+          "entity": "mara",
+          "fact": "placed Iain's records above Cassian's unsupported assurances",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b008",
+      "ep": 2,
+      "seq": 4,
+      "world_time": "1822-10-07",
+      "location": "Iain's desk in the Poyais office, London",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "iain",
+        "cassian",
+        "mara",
+        "elspeth",
+        "tomas",
+        "agnes",
+        "rowan",
+        "edwin",
+        "nora",
+        "osric"
+      ],
+      "what_happened": "An unidentified person stole the brass government die from Iain's locked desk during the night before the subscription meeting.",
+      "state_changes": [
+        {
+          "entity": "brass government die",
+          "fact": "was removed from Iain's desk by an unidentified person",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Deliberate open canon: no cast character witnessed the theft, and the thief's identity remains unestablished."
+    },
+    {
+      "beat_id": "b009",
+      "ep": 3,
+      "seq": 1,
+      "world_time": "1822-10-08",
+      "location": "Poyais bond office, London",
+      "present": [
+        "iain",
+        "agnes",
+        "tomas",
+        "nora",
+        "cassian",
+        "mara",
+        "elspeth",
+        "edwin"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "osric"
+      ],
+      "what_happened": "Iain's group matched the same damaged seal impression across land grants, banknotes, Cassian's dispatch and the next ship's authorization.",
+      "state_changes": [
+        {
+          "entity": "Poyais documents",
+          "fact": "were connected to one London brass die rather than independent government departments",
+          "valence": -5
+        },
+        {
+          "entity": "iain",
+          "fact": "established the common physical source of the documents",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b010",
+      "ep": 3,
+      "seq": 2,
+      "world_time": "1822-10-08",
+      "location": "Poyais bond office, London",
+      "present": [
+        "iain",
+        "agnes",
+        "tomas",
+        "nora",
+        "cassian",
+        "mara",
+        "elspeth",
+        "edwin",
+        "rowan"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "osric"
+      ],
+      "what_happened": "Tomas admitted that Cassian's office supplied the wording for the purported government departments, while Mara and Elspeth publicly disclosed their commissions.",
+      "state_changes": [
+        {
+          "entity": "tomas",
+          "fact": "publicly identified the London office as the source of the purported government documents",
+          "valence": 3
+        },
+        {
+          "entity": "mara",
+          "fact": "disclosed a potential £5,000 commission and £875 already received",
+          "valence": -4
+        },
+        {
+          "entity": "elspeth",
+          "fact": "disclosed per-passenger recruiting commissions",
+          "valence": -4
+        },
+        {
+          "entity": "cassian",
+          "fact": "lost the fabricated appearance of independent Poyais departments",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b011",
+      "ep": 3,
+      "seq": 3,
+      "world_time": "1822-10-08",
+      "location": "Poyais bond office and London harbour",
+      "present": [
+        "iain",
+        "nora",
+        "rowan",
+        "edwin"
+      ],
+      "witnessed_by": [
+        "agnes",
+        "mara",
+        "elspeth",
+        "tomas",
+        "cassian"
+      ],
+      "hidden_from": [],
+      "what_happened": "Nora supplied Osric's coastal warning, and Rowan and Edwin carried it with the false ship authorization to the harbour, where the next departure was stopped.",
+      "state_changes": [
+        {
+          "entity": "next Poyais vessel",
+          "fact": "was removed from the departure board with 114 passengers prevented from sailing",
+          "valence": 5
+        },
+        {
+          "entity": "nora",
+          "fact": "secured action on the survivors' warning",
+          "valence": 5
+        },
+        {
+          "entity": "osric",
+          "fact": "his warning became the authority for the harbour hold",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b012",
+      "ep": 3,
+      "seq": 4,
+      "world_time": "1822-10-08",
+      "location": "Poyais bond office, London",
+      "present": [
+        "iain",
+        "agnes",
+        "mara",
+        "elspeth",
+        "tomas",
+        "nora",
+        "rowan",
+        "edwin"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "cassian"
+      ],
+      "what_happened": "After Cassian escaped, the bond office was sealed and Mara read Iain's ledger as the authoritative list of every buyer and forged promise.",
+      "state_changes": [
+        {
+          "entity": "Poyais bond office",
+          "fact": "was sealed and its bond sale stopped",
+          "valence": 5
+        },
+        {
+          "entity": "iain",
+          "fact": "became the publicly trusted authority on the fraud records",
+          "valence": 5
+        },
+        {
+          "entity": "cassian",
+          "fact": "escaped immediate accountability but lost control of the office and documents",
+          "valence": -4
+        },
+        {
+          "entity": "Iain's ledger",
+          "fact": "became the authoritative buyer and promise record",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ClearanceBadge } from "@/components/ClearanceBadge";
 import { Notice } from "@/components/Notice";
 import { SeasonSpine } from "@/components/SeasonSpine";
+import { loadCandidate } from "@/lib/data";
 import { loadSerial, type Confidence, type PromiseLedger, type Serial } from "@/lib/serials";
 import { requireEditor } from "@/lib/session";
 import { SCORE_LABELS, type Scores } from "@/lib/types";
@@ -332,14 +333,31 @@ function Header({ s }: { s: Serial }) {
 export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
   await requireEditor();
   const { id } = await props.params;
-  const s = await loadSerial(decodeURIComponent(id));
+  const storyId = decodeURIComponent(id);
+  const s = await loadSerial(storyId);
   if (!s) notFound();
+
+  // A commissioned season is written to a directory named after the story it
+  // came from, so the id is the link back. The four hand-made seasons predate
+  // the search and match nothing — for those there is no story to point at,
+  // which is the honest answer rather than a broken link.
+  const origin = await loadCandidate(storyId);
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
-      <Link href="/serials" className="label hover:text-ochre transition-colors">
-        ← Shows we’re making
-      </Link>
+      <div className="flex items-baseline gap-6 flex-wrap">
+        <Link href="/serials" className="label hover:text-ochre transition-colors">
+          ← Shows we’re making
+        </Link>
+        {origin && (
+          <Link
+            href={`/candidates/${encodeURIComponent(storyId)}`}
+            className="label text-ochre hover:text-paper transition-colors"
+          >
+            from the story list →
+          </Link>
+        )}
+      </div>
 
       <Header s={s} />
 

@@ -1,0 +1,33 @@
+{
+  "story_id": "a3c321dba0a7",
+  "open_count": 0,
+  "promises": [
+    {
+      "id": "p001",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "whether Nora's report that Poyais has no functioning capital, port authority or government will be proved",
+      "must_pay_by_ep": 3,
+      "paid_ep": 3,
+      "how_paid": "Nora testified in person, Tomas traced the purported departments to one London office, and the bond sale was stopped.",
+      "status": "paid"
+    },
+    {
+      "id": "p002",
+      "raised_ep": 2,
+      "listener_is_waiting_for": "how the stolen brass die connects Cassian's dispatch to the wider Poyais paper system",
+      "must_pay_by_ep": 3,
+      "paid_ep": 3,
+      "how_paid": "Iain matched the die's damaged impression across grants, banknotes, the dispatch and the ship authorization.",
+      "status": "paid"
+    },
+    {
+      "id": "p003",
+      "raised_ep": 2,
+      "listener_is_waiting_for": "whether the warning will stop the next ship before another group sails",
+      "must_pay_by_ep": 3,
+      "paid_ep": 3,
+      "how_paid": "Rowan and Edwin carried Osric's warning to harbour control, which cancelled the Prosperity's departure with 114 passengers aboard.",
+      "status": "paid"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "event_id": "evt_blackriver_1821",
+  "title": "The Country That Had to Exist on Paper",
+  "one_line_summary": "A disgraced junior clerk discovers that a glamorous new nation is being kept alive by forged paper—and must expose its prince before more settlers sail into the jungle.",
+  "language": "en",
+  "fantasy": "Mocked clerk takes authority",
+  "protagonist": {
+    "char_id": "iain",
+    "who": "Iain Bell, a 24-year-old junior clerk hired to copy Poyais land grants and bond certificates in a London office.",
+    "wants": "To earn enough money and status to marry above his station and escape the shame of having failed his military examination.",
+    "ashamed_of": "His failed military career and the debt he concealed from his fiancée's family.",
+    "does_not_know_at_start": "That Poyais has no functioning capital, bank, government, or colonial administration—and that the certificates he is copying are the mechanism keeping the lie alive."
+  },
+  "antagonist": {
+    "char_id": "cassian",
+    "who": "Cassian Vair, a decorated adventurer who presents himself as the Cazique of Poyais.",
+    "wants_incompatibly": "To keep every witness performing belief in Poyais long enough to sell another bond issue, while Iain wants the paper trail exposed before another ship sails."
+  },
+  "sources": [
+    "https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29",
+    "https://www.britishmuseum.org/collection/object/C_CIB-14659",
+    "https://www.britishmuseum.org/collection/object/P_1868-0808-8817",
+    "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais"
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "date": "1820",
+      "what_happened": "A Scottish adventurer returned from the Caribbean coast claiming control of a territory he named Poyais and began presenting himself in London as its sovereign.",
+      "confidence": "reported",
+      "source": "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais"
+    },
+    {
+      "id": "t2",
+      "date": "1821-1822",
+      "what_happened": "Poyais was promoted through offices, pamphlets, maps, land sales, official titles, and a guidebook describing a prosperous capital and government.",
+      "confidence": "reported",
+      "source": "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais"
+    },
+    {
+      "id": "t3",
+      "date": "1822-09-10",
+      "what_happened": "The first recorded settler party sailed from Leith aboard the Honduras Packet, carrying prospective colonists and people promised official positions.",
+      "confidence": "reported",
+      "source": "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais"
+    },
+    {
+      "id": "t4",
+      "date": "1823",
+      "what_happened": "A Poyais government bond was issued in London for £200,000, supposedly secured by the resources of the fictional state.",
+      "confidence": "verified",
+      "source": "https://www.britishmuseum.org/collection/object/C_CIB-14659"
+    },
+    {
+      "id": "t5",
+      "date": "1822-1823",
+      "what_happened": "Settlers reached the Mosquito Coast and found an uninhabited, hostile shore rather than the promised capital; disease and the loss of ships caused extensive deaths, while later ships were intercepted or assisted by British authorities.",
+      "confidence": "reported",
+      "source": "https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais"
+    },
+    {
+      "id": "t6",
+      "date": "1827",
+      "what_happened": "A satirical British print depicted the supposed Cazique of Poyais as the target of public ridicule after the collapse of the scheme.",
+      "confidence": "verified",
+      "source": "https://www.britishmuseum.org/collection/object/P_1868-0808-8817"
+    }
+  ],
+  "people": [
+    {
+      "name": "Gregor MacGregor",
+      "role": "Scottish soldier, adventurer, and promoter of Poyais",
+      "motive": "Money, status, and the need to make an invented sovereignty appear legitimate",
+      "public_or_private": "public",
+      "living": false
+    }
+  ],
+  "cast": [
+    {
+      "char_id": "iain",
+      "name": "Iain Bell",
+      "role": "Junior copyist in the London Poyais office and the season's point-of-view character",
+      "want": "To become respectable, clear his debt, and prove he is more than a failed soldier",
+      "gender": "male",
+      "age_range": "20s",
+      "maps_to": "composite of junior clerks, settlers, and recruited functionaries",
+      "composite": true
+    },
+    {
+      "char_id": "cassian",
+      "name": "Cassian Vair",
+      "role": "Decorated adventurer styling himself the Cazique of Poyais",
+      "want": "To keep investors, officials, and settlers believing until the next bond issue is sold",
+      "gender": "male",
+      "age_range": "30s",
+      "maps_to": "Gregor MacGregor",
+      "composite": true
+    },
+    {
+      "char_id": "mara",
+      "name": "Mara Quill",
+      "role": "London bond broker who validates the Poyais certificates",
+      "want": "To collect her commission and become indispensable to the City financiers backing the loan",
+      "gender": "female",
+      "age_range": "40s",
+      "maps_to": "the London banker who validates the bonds",
+      "composite": true
+    },
+    {
+      "char_id": "elspeth",
+      "name": "Elspeth Rannoch",
+      "role": "Poyais recruiting agent in Edinburgh and London",
+      "want": "To protect the settlers she recruited and avoid admitting that her reputation was built on a lie",
+      "gender": "female",
+      "age_range": "30s",
+      "maps_to": "the Poyaisian recruiting network",
+      "composite": true
+    },
+    {
+      "char_id": "tomas",
+      "name": "Tomas Vale",
+      "role": "Printer responsible for maps, banknotes, seals, and government stationery",
+      "want": "To keep his print shop solvent and preserve the lucrative Poyais contract",
+      "gender": "male",
+      "age_range": "40s",
+      "maps_to": "invented",
+      "composite": true
+    },
+    {
+      "char_id": "agnes",
+      "name": "Agnes Bell",
+      "role": "Iain's older sister and keeper of his hidden debt ledger",
+      "want": "To stop Iain sacrificing the family name for a place in fashionable society",
+      "gender": "female",
+      "age_range": "30s",
+      "maps_to": "invented",
+      "composite": true
+    },
+    {
+      "char_id": "rowan",
+      "name": "Rowan Pike",
+      "role": "Dock clerk who records ships, cargo, and passenger manifests",
+      "want": "To secure a permanent position at the docks by never falsifying a manifest",
+      "gender": "neutral",
+      "age_range": "20s",
+      "maps_to": "invented",
+      "composite": true
+    },
+    {
+      "char_id": "edwin",
+      "name": "Edwin Saye",
+      "role": "Investor and former army surgeon who believes he has bought a future in Poyais",
+      "want": "To recover his savings and the medical post promised to him overseas",
+      "gender": "male",
+      "age_range": "50s",
+      "maps_to": "composite of Poyais investors and settlers",
+      "composite": true
+    },
+    {
+      "char_id": "nora",
+      "name": "Nora Keel",
+      "role": "Survivor and ship's steward who returns with the first direct account of the coast",
+      "want": "To get the remaining settlers rescued before the next vessel lands",
+      "gender": "female",
+      "age_range": "30s",
+      "maps_to": "composite of survivors on the first Poyais ships",
+      "composite": true
+    },
+    {
+      "char_id": "osric",
+      "name": "Osric Dane",
+      "role": "Colonial official who can authorize warnings and rescue action from the Caribbean",
+      "want": "To prevent a British humanitarian disaster without publicly humiliating London",
+      "gender": "male",
+      "age_range": "50s",
+      "maps_to": "composite of British colonial and government officials",
+      "composite": true
+    }
+  ],
+  "adaptability": {
+    "conflict": 10,
+    "characters": 9,
+    "stakes": 10,
+    "serializability": 10,
+    "resonance": 10,
+    "total": 49
+  },
+  "clearance": {
+    "status": "fictionalize_first",
+    "reasons": [
+      "The historical event is in the public domain, but every named historical person must be replaced with a fictional or composite character.",
+      "The settlement tragedy involves real historical deaths, so the drama should avoid assigning invented dialogue or blame to identifiable private descendants.",
+      "The fictional Poyais office, bond mechanism, and protagonist are safe to dramatize as a composite narrative."
+    ]
+  },
+  "novelty": {
+    "prior_adaptations": [],
+    "score": 9
+  },
+  "engine": "Every new buyer, official, survivor, and departing ship forces Cassian to manufacture another piece of Poyais on paper, while Iain discovers that each document is also evidence against him.",
+  "why_this_works": "The season sells the fear of discovering that a job, country, property, and future exist only because strangers keep performing belief. The personal climb is visible: Iain begins as the mocked copyist blamed for fraudulent paper, then becomes the only person in the room who can read the machinery of the fraud.",
+  "fictionalization_map": {
+    "Gregor MacGregor": "Cassian Vair",
+    "Poyais": "Poyais, retained as the fictional country name but relocated to the invented Black River coast of San Telmo"
+  },
+  "season": [
+    {
+      "ep": 1,
+      "turn": "Iain is ordered to alter a land certificate after a wealthy subscriber complains that its serial number exposes the office's certificates as copies rather than independent grants. He refuses, and Cassian publicly dismisses him as an incompetent clerk in front of the investor queue, the printers, and the recruiting agents. Iain is kept inside the office because Cassian threatens to accuse him of stealing confidential government papers.",
+      "hook_type": "REVEAL",
+      "ends_on": "A salt-stained letter from the coast reports that the first Poyais settlers found no capital, no port authority, and no government at all.",
+      "pays_off": null,
+      "status": 2
+    },
+    {
+      "ep": 2,
+      "turn": "Iain brings the coastal letter to a bond subscription meeting, where Mara is forced to admit aloud that the £200,000 loan depends on revenues from a state she has never independently verified. Cassian counters by producing a fresh dispatch, bearing an official seal, that declares the settlers safe and the capital operational; Mara publicly acknowledges that Iain's account books are accurate, giving him his first scalp.",
+      "hook_type": "BETRAYAL",
+      "ends_on": "The seal on Cassian's reassuring dispatch was cast from the brass die stolen from Iain's desk the night before.",
+      "pays_off": "Mara admits in front of the subscribers that Iain's bond ledger is correct and that her validation relied on Cassian's papers.",
+      "status": 5
+    },
+    {
+      "ep": 3,
+      "turn": "Iain, Agnes, Rowan, Nora, and Tomas reconstruct the paper trail in the crowded bond office: the same seal appears on land grants, banknotes, the dispatch, and the next ship's authorization. Iain forces Cassian to explain the duplicate seal before the subscribers, exposes the fabricated chain of government documents, and gets Mara and Elspeth to name the commissions they received. Osric's warning is sent to the harbour, stopping the next Poyais vessel before it sails.",
+      "hook_type": "RECOGNITION",
+      "ends_on": "In front of the people who mocked him, the bond office is sealed, the next ship is cancelled, and Iain's ledger is read aloud as the authoritative list of every buyer and every forged promise.",
+      "pays_off": "The mechanism is broken publicly: the bond sale stops, the next ship does not depart, the survivors' warning is recorded, the commissions are exposed, and Iain's standing rises to 8 because he becomes the community's trusted authority on the fraud while Cassian escapes accountability.",
+      "status": 8
+    }
+  ],
+  "never_narrate_as_fact": [],
+  "category": "THE LONG DECEPTION",
+  "hunt_scores": {
+    "engine_longevity": 10,
+    "hook_density": 9,
+    "emotional_immediacy": 9,
+    "conflict": 9,
+    "cast_depth": 10,
+    "total": 47
+  },
+  "commissioned": {
+    "by": "unattributed",
+    "at": "2026-07-25T20:05:26+00:00",
+    "over_scout_pick": false
+  }
+}
