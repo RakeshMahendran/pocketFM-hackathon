@@ -65,5 +65,79 @@
     "stance": "dupe",
     "genre": "Bureaucratic legal thriller",
     "pitch": "With one fading wedding photograph and twenty-eight years of refusals, an unregistered widow turns every government counter into a courtroom."
-  }
+  },
+  "season": [
+    {
+      "ep": 1,
+      "turn": "Ratnamma submits a family-pension claim at the education office, but the counter refuses to receive it without a legal-heir certificate naming her as Lokanath's widow.",
+      "ends_on": "The clerk reads aloud that no pension claim can be opened without a legal-heir certificate.",
+      "hook_type": "REVERSAL",
+      "sets_in": "OPEN SPACE — between the season opening and b013"
+    },
+    {
+      "ep": 2,
+      "turn": "Using the pension counter's refusal, Ratnamma applies for a legal-heir certificate and is told her unregistered marriage requires either a marriage record or attestation from Lokanath's family.",
+      "ends_on": "The revenue clerk tells her to bring a registered marriage entry or a signature from her husband's family.",
+      "hook_type": "ULTIMATUM",
+      "sets_in": "OPEN SPACE — between the season opening and b013"
+    },
+    {
+      "ep": 3,
+      "turn": "Ratnamma attempts to register the marriage retrospectively, but the registrar rules that a dead spouse cannot appear and directs her to seek a civil declaration instead.",
+      "ends_on": "The registrar says only a civil court can now declare Ratnamma to be Lokanath's wife.",
+      "hook_type": "REVEAL",
+      "sets_in": "OPEN SPACE — between the season opening and b013"
+    },
+    {
+      "ep": 4,
+      "turn": "To identify the relatives who must answer a civil declaration, Ratnamma secures Lokanath's death extract using the hospital date and accident details she has preserved for twenty-eight years.",
+      "ends_on": "The clerk reads Lokanath's permanent family address from the death extract.",
+      "hook_type": "DISCOVERY",
+      "sets_in": "OPEN SPACE — between the season opening and b013"
+    },
+    {
+      "ep": 5,
+      "turn": "Ratnamma goes to that house and publicly states that she married Lokanath eleven days before he died on 14 August 1994 after the Hosakere junction collision while travelling to file his joining report.",
+      "ends_on": "A neighbour calls out that the Nerlige schoolmaster is turning into the lane.",
+      "hook_type": "ARRIVAL",
+      "sets_in": "b013"
+    },
+    {
+      "ep": 6,
+      "turn": "Ratnamma challenges Mallesha in the lane to state what she is to him, but he refuses the family acknowledgment she needs and answers with a fourth-standard timetable.",
+      "ends_on": "Mallesha recites the fourth-standard timetable and walks toward the cowshed without naming their relationship.",
+      "hook_type": "BETRAYAL",
+      "sets_in": "b014"
+    },
+    {
+      "ep": 7,
+      "turn": "Ratnamma produces her only wedding photograph, allowing Chaitra to identify the groom and the garland-holder as brothers even though Mallesha will not attest it.",
+      "ends_on": "Ratnamma states that the groom in the photograph and the man holding his garland are brothers.",
+      "hook_type": "REVEAL",
+      "sets_in": "b015"
+    },
+    {
+      "ep": 8,
+      "turn": "Because the photograph cannot replace a family attestation, Ratnamma files a claim for forty-one lakh sixty thousand rupees so the department must answer and names Savithri as the private respondent needed to keep the case out of an administrative cupboard.",
+      "ends_on": "The filing clerk reads the case caption aloud: the department is first respondent and Savithri is second respondent.",
+      "hook_type": "ACCUSATION",
+      "sets_in": "OPEN SPACE — between b015 and b029"
+    },
+    {
+      "ep": 9,
+      "turn": "Before the petition is served, Ratnamma offers in the school yard to tear it up if Mallesha will say his own name once, but he again substitutes the fourth-standard timetable.",
+      "ends_on": "Mallesha answers Ratnamma's offer with the fourth-standard timetable and walks into his classroom.",
+      "hook_type": "REVERSAL",
+      "sets_in": "b029"
+    },
+    {
+      "ep": 10,
+      "turn": "Mallesha's refusal leaves Ratnamma no private route, so the claim naming the department and Savithri is served at the school gate during assembly and Ratnamma tells Chaitra she wants a paper rather than the money.",
+      "ends_on": "Ratnamma tells Chaitra that the hearing is on the twenty-second.",
+      "hook_type": "DEADLINE",
+      "sets_in": "b030"
+    }
+  ],
+  "title": "Eleven Days on Paper",
+  "logline": "Denied recognition because her eleven-day marriage was never registered, Ratnamma follows a circle of offices until the only way to put her name beside her dead husband's is to sue the department and drag his surviving family into public court."
 }

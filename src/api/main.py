@@ -191,6 +191,17 @@ def create_spinoff(
     return _response(story, char_id, episode, verdict, cached=False)
 
 
+def _season(story_id: str, char_id: str) -> Dict[str, Any]:
+    """The season outline, if this character has been promoted. Empty otherwise —
+    a spinoff can be written without one, it just has no shape around it."""
+    path = promote_mod.bible_path(story_id, char_id)
+    if not path.exists():
+        return {}
+    record = read_json(path)
+    return {"title": record.get("title", ""), "logline": record.get("logline", ""),
+            "episodes": record.get("season", [])}
+
+
 def _response(story: Dict[str, Any], char_id: str, episode: Dict[str, Any],
               verdict: Dict[str, Any], cached: bool) -> Dict[str, Any]:
     view = views.character_view(story, char_id)
@@ -201,6 +212,9 @@ def _response(story: Dict[str, Any], char_id: str, episode: Dict[str, Any],
         "cached": cached,
         "anchor": episode["anchor"],
         "moments": view["anchors"],
+        # Her whole season, structured from the canon with no model reading it.
+        # The one episode below is written; the rest is the shape it sits in.
+        "season": _season(story["story_id"], char_id),
         "episode": episode["episode"],
         "cites": episode["cites"],
         "crossings": episode["crossings"],

@@ -21,6 +21,12 @@ data/voice_work/
 data/cache/promote_*
 data/cache/spinoff_*
 data/cache/panel_*
+data/cache/season_*
 data/cache/calls/promote_*
 data/cache/calls/spinoff_*
 data/cache/calls/panel_*
+data/cache/calls/season_*
+# The season-writer spike, run against a synthesized spinoff dossier. Not a real
+# serial and not on any path — delete these whenever.
+data/cache/serial_*__*
+data/cache/calls/serial_*__*
