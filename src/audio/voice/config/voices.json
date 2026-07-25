@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Sumit",
+    "gender": "Male",
+    "description": "Balanced warmth with professionalism",
+    "featured": true
+  },
+  {
+    "name": "Ritu",
+    "gender": "Female",
+    "description": "Soft, approachable voice for customer interactions",
+    "featured": true
+  },
+  {
+    "name": "Shubh",
+    "gender": "Male",
+    "description": "Friendly default voice for IVR and support",
+    "featured": false
+  },
+  {
+    "name": "Amit",
+    "gender": "Male",
+    "description": "Formal voice for business communications",
+    "featured": false
+  },
+  {
+    "name": "Pooja",
+    "gender": "Female",
+    "description": "Encouraging voice for assistance flows",
+    "featured": false
+  },
+  {
+    "name": "Manan",
+    "gender": "Male",
+    "description": "Consistent voice for automated systems",
+    "featured": false
+  },
+  {
+    "name": "Simran",
+    "gender": "Female",
+    "description": "Warm voice for conversational interfaces",
+    "featured": false
+  },
+  {
+    "name": "Rahul",
+    "gender": "Male",
+    "description": "Composed voice that builds trust",
+    "featured": false
+  },
+  {
+    "name": "Kavya",
+    "gender": "Female",
+    "description": "Everyday conversational tone",
+    "featured": false
+  },
+  {
+    "name": "Ratan",
+    "gender": "Male",
+    "description": "Sharp articulation for clarity",
+    "featured": false
+  },
+  {
+    "name": "Priya",
+    "gender": "Female",
+    "description": "Upbeat voice with personality",
+    "featured": false
+  },
+  {
+    "name": "Ishita",
+    "gender": "Female",
+    "description": "Polished voice for enterprise use",
+    "featured": false
+  },
+  {
+    "name": "Shreya",
+    "gender": "Female",
+    "description": "Precise pronunciation and enunciation",
+    "featured": false
+  },
+  {
+    "name": "Shruti",
+    "gender": "Female",
+    "description": "Sweet and melodious voice",
+    "featured": false
+  }
+]

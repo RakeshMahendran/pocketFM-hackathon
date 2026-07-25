@@ -1,0 +1,23 @@
+{
+  "evt_kadamballi_2022:basavaraj": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shubh",
+      "score": 4.0
+    }
+  },
+  "evt_kadamballi_2022:chaitra": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Simran",
+      "score": 4.0
+    }
+  },
+  "evt_kadamballi_2022:narrator": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Sumit",
+      "score": 0.0
+    }
+  }
+}

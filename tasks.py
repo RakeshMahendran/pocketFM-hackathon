@@ -117,13 +117,36 @@ def cmd_corpus(args) -> int:
 
 def cmd_score(args) -> int:
     """Expand one cleared candidate into a season. Defaults to the scout's pick."""
-    extra = ["--event", args.event] if args.event else []
+    extra = []
+    if args.event:
+        extra += ["--event", args.event]
+    if args.by:
+        extra += ["--by", args.by]
     return run_module("src.scoring.run", extra)
 
 
+def cmd_commission(args) -> int:
+    """Plan a season and write its scripts. What the console's button runs."""
+    extra = ["--event", args.event]
+    if args.story:
+        extra += ["--story", args.story]
+    if args.language:
+        extra += ["--language", args.language]
+    if args.episodes:
+        extra += ["--episodes", str(args.episodes)]
+    return run_module("src.commission", extra)
+
+
 def cmd_serial(args) -> int:
-    """Generate mainline episodes + beats for one event, into canon.db."""
-    return run_module("src.generation.serial", ["--event", args.event])
+    """Write a season of scripts, with its beat sheet, into data/stories/."""
+    extra = ["--event", args.event]
+    if args.story:
+        extra += ["--story", args.story]
+    if args.language:
+        extra += ["--language", args.language]
+    if args.batch:
+        extra += ["--batch", str(args.batch)]
+    return run_module("src.generation.serial", extra)
 
 
 def cmd_promote(args) -> int:
@@ -208,6 +231,7 @@ COMMANDS = {
     "setup": cmd_setup,
     "corpus": cmd_corpus,
     "score": cmd_score,
+    "commission": cmd_commission,
     "serial": cmd_serial,
     "promote": cmd_promote,
     "spinoff": cmd_spinoff,
@@ -237,8 +261,24 @@ def build_parser() -> argparse.ArgumentParser:
             p.add_argument("--event", default=None, metavar="ID_OR_TITLE",
                            help="corpus item id or title fragment to commission; "
                                 "omit to take the scout's pick")
+            p.add_argument("--by", default=None, metavar="EDITOR",
+                           help="who commissioned it; stamped onto the dossier")
+        elif name == "commission":
+            p.add_argument("--event", required=True,
+                           help="corpus item id or title fragment")
+            p.add_argument("--story", default=None,
+                           help="directory under data/stories")
+            p.add_argument("--language", default=None, choices=["en", "hi-en"])
+            p.add_argument("--episodes", type=int, default=None,
+                           help="how many episodes to order (default 14)")
         elif name == "serial":
             p.add_argument("--event", required=True, help="dossier event_id")
+            p.add_argument("--story", default=None,
+                           help="directory under data/stories; defaults to the event id")
+            p.add_argument("--language", default=None, choices=["en", "hi-en"],
+                           help="en, or hi-en for Hinglish")
+            p.add_argument("--batch", type=int, default=None,
+                           help="episodes per model call (default 3)")
         elif name in ("promote", "spinoff"):
             p.add_argument("--char", required=True, help="character id, e.g. jignesh")
         elif name in ("gate1", "seed"):

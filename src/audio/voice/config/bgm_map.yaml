@@ -1,0 +1,49 @@
+# Background ambience is GENERATED, not sourced from asset files: each mood
+# is a text prompt to ElevenLabs' Sound Effects API (client.text_to_sound_effects
+# .convert(..., loop=True, model_id="eleven_text_to_sound_v2")), cached once
+# per mood in data/cache/bgm/ like a dialogue clip. This is a separate
+# ElevenLabs API surface from TTS, so it runs fine even though Sarvam is the
+# dialogue provider.
+model_id: "eleven_text_to_sound_v2"
+clip_duration_seconds: 22   # SFX API max is 30s; generate a loopable bed near that ceiling
+prompt_influence: 0.3
+
+# Mix philosophy: BGM plays CONTINUOUSLY under the whole episode, not just
+# as filler in the gaps between lines — it should read as one steady, mild
+# bed the audience feels throughout, with dialogue always clearly on top.
+# That means: (a) base levels are mild/low across the board, not just
+# during dialogue, and (b) ducking under dialogue is a gentle dip, not a
+# near-mute — the previous -14dB duck made BGM disappear during every line
+# and only swell in the gaps, which read as "filler" rather than a
+# continuous score. Keep gaps and dialogue close in level.
+moods:
+  neutral:     {prompt: "soft ambient pad, no melody, cinematic underscore, seamless loop", base_gain_db: -26}
+  joy:         {prompt: "warm gentle uplifting acoustic ambience, seamless loop", base_gain_db: -24}
+  sorrow:      {prompt: "somber slow piano pad, melancholic, seamless loop", base_gain_db: -28}
+  hurt_anger:  {prompt: "tense low pulsing drone, dramatic, seamless loop", base_gain_db: -23}
+  fear:        {prompt: "dark suspenseful tension drone, cinematic, seamless loop", base_gain_db: -23}
+  tenderness:  {prompt: "soft gentle piano ambience, intimate, seamless loop", base_gain_db: -28}
+  tension:     {prompt: "tense rising pulse, cinematic underscore, seamless loop", base_gain_db: -24}
+  sarcasm:     {prompt: "neutral subtle ambient underscore, seamless loop", base_gain_db: -26}
+  hesitation:  {prompt: "soft uncertain ambient pad, seamless loop", base_gain_db: -28}
+  urgency:     {prompt: "fast tense pulsing rhythm, dramatic underscore, seamless loop", base_gain_db: -21}
+  reflective:  {prompt: "slow ambient reflective pad, cinematic, seamless loop", base_gain_db: -28}
+  relief:      {prompt: "warm resolving ambient pad, seamless loop", base_gain_db: -26}
+  longing:     {prompt: "wistful soft string pad, emotional, seamless loop", base_gain_db: -27}
+
+default_mood: neutral
+
+# How pace/intensity nudge the base gain for a mood, per line — kept small
+# so shifts stay subtle rather than pumping the mix up and down.
+pace_energy_bias_db: {slow: -1, normal: 0, clipped: 0.5, fast: 1}
+intensity_gain_range_db: [-2, 1]   # lerp'd across intensity 0..1
+
+# Ducking: a gentle dip under the actual dialogue span, not a near-mute —
+# BGM should stay audibly present (in parallel with the voice) the whole
+# time, just tucked slightly under it for clarity.
+duck_db: -5
+duck_attack_ms: 250
+duck_release_ms: 500
+
+# Crossfade between adjacent cue blocks of different moods, and at loop seams.
+crossfade_ms: 800

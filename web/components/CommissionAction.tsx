@@ -1,39 +1,78 @@
 "use client";
 
 import { useState } from "react";
+import { useFormStatus } from "react-dom";
+
+import { startCommission } from "@/lib/commission";
+import { FOR_THE_OPERATOR } from "@/lib/words";
 
 /**
- * Commissioning is a real backend action and there is no API to call yet, so
- * this hands over the command rather than pretending to run it. A button that
- * silently does nothing would be worse than one that is honest about the seam.
+ * Makes the story.
  *
- * It also exercises the selection fix: before it, an editor could only expand
- * the scout's pick, and any row but the winner had no command at all.
+ * This used to reveal a terminal command and stop — there was no API layer and
+ * no key, so handing the line over was the honest thing to do. Both exist now,
+ * so the button does the work: it starts the season in a detached process and
+ * moves the reader to a page that watches it.
+ *
+ * The command stays, behind the operator disclosure. Somebody still maintains
+ * this and a season can still need starting by hand.
  */
+
+/**
+ * Ordering a season length is a commissioning decision, so it is offered in
+ * commissioning terms rather than as a number box. Each option costs real money
+ * and real minutes, which is why the short ones are first and named as what
+ * they are for.
+ */
+const ORDERS = [
+  { n: 3, label: "a taster, to see how it reads" },
+  { n: 6, label: "a short run" },
+  { n: 14, label: "a full season" },
+  { n: 24, label: "a long season" },
+];
+
+function Submit() {
+  // Writing takes minutes, but *starting* takes a moment. This covers the gap
+  // between the click and the redirect so nothing looks unresponsive.
+  const { pending } = useFormStatus();
+  return (
+    <button
+      type="submit"
+      disabled={pending}
+      className="border border-ochre/50 text-ochre px-4 py-2 text-sm rounded-sm hover:bg-ochre/10 transition-colors disabled:opacity-60"
+    >
+      {pending ? "Starting…" : "Make this one"}
+    </button>
+  );
+}
+
 export function CommissionAction({
   id,
   title,
   blocked,
   reasons,
+  editor,
+  estimate,
 }: {
   id: string;
   title: string;
   blocked: boolean;
   reasons: string[];
+  editor: { id: string; name: string; role: string } | null;
+  /** The scout's longevity figure. Context for the order, not the order. */
+  estimate?: number | null;
 }) {
-  const [shown, setShown] = useState(false);
   const [copied, setCopied] = useState<"idle" | "ok" | "fail">("idle");
-
-  const command = `python tasks.py score --event "${id}"`;
+  const command = `python tasks.py commission --event "${id}"`;
 
   if (blocked) {
     return (
       <div className="border border-halt/40 bg-halt/5 rounded-sm p-4">
-        <div className="label text-halt mb-2">Cannot be commissioned</div>
+        <div className="label text-halt mb-2">We can&rsquo;t make this one</div>
         <p className="text-sm text-muted prose-col">
-          Clearance is binding, not advisory. {title} is cleared{" "}
-          <span className="font-mono text-halt">blocked</span>, and the expander
-          refuses it whether a model or an editor chose it.
+          {title} can&rsquo;t be made, and changing the names wouldn&rsquo;t fix
+          the reason. Nobody can overrule this — not you, not whoever ran the
+          search. It gets refused either way.
         </p>
         {reasons.length > 0 && (
           <ul className="mt-3 space-y-1.5">
@@ -54,8 +93,8 @@ export function CommissionAction({
       await navigator.clipboard.writeText(command);
       setCopied("ok");
     } catch {
-      // Clipboard needs a secure context; over plain http on a demo machine it
-      // throws. The command is on screen either way.
+      // Clipboard needs a secure context; over plain http it throws. The
+      // command is on screen either way.
       setCopied("fail");
     }
     setTimeout(() => setCopied("idle"), 2000);
@@ -63,29 +102,66 @@ export function CommissionAction({
 
   return (
     <div>
-      {!shown ? (
-        <button
-          onClick={() => setShown(true)}
-          className="border border-ochre/50 text-ochre px-4 py-2 text-sm rounded-sm hover:bg-ochre/10 transition-colors"
-        >
-          Commission this
-        </button>
-      ) : (
-        <div className="border border-rule rounded-sm">
-          <div className="px-4 py-2 border-b border-rule label">
-            Run from the repo root
-          </div>
-          <div className="p-4 flex items-center gap-3 flex-wrap">
-            <code className="font-mono text-sm text-paper break-all">{command}</code>
-            <button
-              onClick={copy}
-              className="ml-auto label hover:text-ochre transition-colors shrink-0"
-            >
-              {copied === "ok" ? "Copied" : copied === "fail" ? "Copy failed" : "Copy"}
-            </button>
-          </div>
-        </div>
+      {editor && (
+        <p className="label mb-3">
+          as {editor.name} · {editor.role}
+        </p>
       )}
+
+      <form action={startCommission}>
+        <input type="hidden" name="eventId" value={id} />
+
+        <label className="block">
+          <span className="label">How many episodes to order</span>
+          <select
+            name="episodes"
+            defaultValue={14}
+            className="mt-2 w-full bg-surface border border-rule rounded-sm px-3 py-2 text-sm text-paper"
+          >
+            {ORDERS.map((o) => (
+              <option key={o.n} value={o.n}>
+                {o.n} — {o.label}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        {/*
+          The scout's figure answers how long this could run, not how much to
+          make now — across the corpus it ranges 75 to 300. Shown as context for
+          the order, never as the order itself.
+        */}
+        {estimate && (
+          <p className="mt-2 text-xs text-faint">
+            The search reckons this one could run about {estimate} episodes in
+            total.
+          </p>
+        )}
+
+        <div className="mt-4">
+          <Submit />
+        </div>
+      </form>
+
+      <p className="mt-3 text-sm text-muted prose-col leading-relaxed">
+        This works out the season, then writes the episodes. It takes a few
+        minutes and you can leave the page while it runs.
+      </p>
+
+      <details className="mt-5">
+        <summary className="label cursor-pointer hover:text-ochre transition-colors">
+          {FOR_THE_OPERATOR}
+        </summary>
+        <div className="mt-2 flex items-center gap-3 flex-wrap">
+          <code className="font-mono text-xs text-faint break-all">{command}</code>
+          <button
+            onClick={copy}
+            className="ml-auto label hover:text-ochre transition-colors shrink-0"
+          >
+            {copied === "ok" ? "Copied" : copied === "fail" ? "Copy failed" : "Copy"}
+          </button>
+        </div>
+      </details>
     </div>
   );
 }

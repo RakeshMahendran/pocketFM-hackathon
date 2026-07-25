@@ -1,0 +1,12 @@
+{
+  "event_id": "a3c321dba0a7",
+  "history": [],
+  "state": "running",
+  "step": "writing",
+  "label": "Writing the episodes",
+  "story_id": "a3c321dba0a7",
+  "started_at": "2026-07-25T19:46:18.522954+00:00",
+  "error": null,
+  "updated_at": "2026-07-25T19:47:11.548179+00:00",
+  "dossier_event_id": "evt_briarhaven_1821"
+}

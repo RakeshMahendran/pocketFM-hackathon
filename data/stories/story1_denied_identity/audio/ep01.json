@@ -1,0 +1,273 @@
+{
+  "episode_id": "evt_kadamballi_2022_ep01",
+  "series_id": "evt_kadamballi_2022",
+  "title": "The Man Who Answers to a Dead Name — Episode 1",
+  "characters": [
+    {
+      "id": "basavaraj",
+      "persona": "verification clerk, district office; reads lists aloud for a living",
+      "gender": "male",
+      "age_range": "50s"
+    },
+    {
+      "id": "chaitra",
+      "persona": "protagonist; taluk topper waiting on document verification for a teaching post",
+      "gender": "female",
+      "age_range": "20s"
+    },
+    {
+      "id": "narrator",
+      "gender": "neutral",
+      "age_range": "40s",
+      "persona": "storyteller, withholding"
+    }
+  ],
+  "lines": [
+    {
+      "line_id": "l001",
+      "speaker": "basavaraj",
+      "text": "Next. Counter four. Original and two copies, don't hand me photostats of photostats.",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.4,
+      "sfx_cue": "A ceiling fan turning too slow to matter. Ninety people breathing in a corridor. A rubber stamp coming down, twice, on wood.",
+      "pace": "normal"
+    },
+    {
+      "line_id": "l002",
+      "speaker": "chaitra",
+      "text": "Marks card, degree, caste and income, birth certificate, study certificate for seven years. Six documents. All originals.",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.45,
+      "sfx_cue": "Paper sliding across a laminate counter.",
+      "pace": "normal"
+    },
+    {
+      "line_id": "l003",
+      "speaker": "basavaraj",
+      "text": "Roll number.",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.35,
+      "pace": "clipped"
+    },
+    {
+      "line_id": "l004",
+      "speaker": "chaitra",
+      "text": "Four one nine two. I stood first in the taluk.",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.55,
+      "pace": "normal"
+    },
+    {
+      "line_id": "l005",
+      "speaker": "basavaraj",
+      "text": "Everybody in this line stood first in something.",
+      "language": "en",
+      "emotion": "sarcasm",
+      "intensity": 0.5,
+      "pace": "normal"
+    },
+    {
+      "line_id": "l006",
+      "speaker": "chaitra",
+      "text": "Sir, my verification slot was ten fifteen. It is now half past one.",
+      "language": "en",
+      "emotion": "urgency",
+      "intensity": 0.5,
+      "sfx_cue": "Pages turning. A pen tapping.",
+      "pace": "normal"
+    },
+    {
+      "line_id": "l007",
+      "speaker": "basavaraj",
+      "text": "And the list is the list. Rule fourteen, sub-clause three — verification is by seniority of receipt, not by appointment. Sit down.",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.45,
+      "pace": "normal"
+    },
+    {
+      "line_id": "l008",
+      "speaker": "chaitra",
+      "text": "I'll stand.",
+      "language": "en",
+      "emotion": "tension",
+      "intensity": 0.5,
+      "pace": "clipped"
+    },
+    {
+      "line_id": "l009",
+      "speaker": "basavaraj",
+      "text": "Father's name?",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.4,
+      "sfx_cue": "More pages. The tapping stops.",
+      "pace": "normal"
+    },
+    {
+      "line_id": "l010",
+      "speaker": "chaitra",
+      "text": "It is written there.",
+      "language": "en",
+      "emotion": "tension",
+      "intensity": 0.45,
+      "pace": "clipped"
+    },
+    {
+      "line_id": "l011",
+      "speaker": "basavaraj",
+      "text": "Say it.",
+      "language": "en",
+      "emotion": "tension",
+      "intensity": 0.5,
+      "pace": "clipped"
+    },
+    {
+      "line_id": "l012",
+      "speaker": "chaitra",
+      "text": "Lokanath. Master Lokanath. Government Higher Primary School, Nerlige. Twenty-four years in the department, sir, so if there is a query about the father's employment—",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.55,
+      "pace": "normal"
+    },
+    {
+      "line_id": "l013",
+      "speaker": "basavaraj",
+      "text": "There is a query about the father.",
+      "language": "en",
+      "emotion": "tension",
+      "intensity": 0.6,
+      "pace": "normal"
+    },
+    {
+      "line_id": "l014",
+      "speaker": "chaitra",
+      "text": "What query.",
+      "language": "en",
+      "emotion": "tension",
+      "intensity": 0.6,
+      "sfx_cue": "A drawer opening. A register — the big kind, cloth-bound — dropping flat on the counter.",
+      "pace": "clipped"
+    },
+    {
+      "line_id": "l015",
+      "speaker": "basavaraj",
+      "text": "Puttaraju sir, one minute. Establishment matter.",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.4,
+      "_direction": "not to her",
+      "pace": "normal"
+    },
+    {
+      "line_id": "l016",
+      "speaker": "chaitra",
+      "text": "Sir. What query.",
+      "language": "en",
+      "emotion": "urgency",
+      "intensity": 0.7,
+      "pace": "clipped"
+    },
+    {
+      "line_id": "l017",
+      "speaker": "narrator",
+      "text": "There were ninety people in that corridor. Afterwards, every one of them remembered where they were standing.",
+      "language": "en",
+      "emotion": "reflective",
+      "intensity": 0.5,
+      "pace": "slow"
+    },
+    {
+      "line_id": "l018",
+      "speaker": "basavaraj",
+      "text": "This name is flagged. Deceased-record cross-check, this is a standing instruction, madam, it is not my personal decision.",
+      "language": "en",
+      "emotion": "tension",
+      "intensity": 0.55,
+      "sfx_cue": "The register's pages, thick, turning slowly. A finger stopping on a line.",
+      "pace": "normal"
+    },
+    {
+      "line_id": "l019",
+      "speaker": "chaitra",
+      "text": "My father dropped me at the bus stand this morning.",
+      "language": "en",
+      "emotion": "tension",
+      "intensity": 0.65,
+      "pace": "normal"
+    },
+    {
+      "line_id": "l020",
+      "speaker": "basavaraj",
+      "text": "Then your father is not this name.",
+      "language": "en",
+      "emotion": "tension",
+      "intensity": 0.6,
+      "pace": "normal"
+    },
+    {
+      "line_id": "l021",
+      "speaker": "chaitra",
+      "text": "Read it properly.",
+      "language": "en",
+      "emotion": "hurt_anger",
+      "intensity": 0.75,
+      "_direction": "fast",
+      "pace": "fast"
+    },
+    {
+      "line_id": "l022",
+      "speaker": "basavaraj",
+      "text": "I am reading it properly.",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.55,
+      "sfx_cue": "Nothing. Long.",
+      "pace": "slow"
+    },
+    {
+      "line_id": "l023",
+      "speaker": "chaitra",
+      "text": "Read it out.",
+      "language": "en",
+      "emotion": "urgency",
+      "intensity": 0.8,
+      "sfx_cue": "The rubber stamp. Once. REJECTED, in violet, across her seven-year study certificate.",
+      "pace": "clipped"
+    },
+    {
+      "line_id": "l024",
+      "speaker": "basavaraj",
+      "text": "Madam, sit down—",
+      "language": "en",
+      "emotion": "hesitation",
+      "intensity": 0.5,
+      "pace": "normal"
+    },
+    {
+      "line_id": "l025",
+      "speaker": "chaitra",
+      "text": "Ninety people are already listening. Read it out.",
+      "language": "en",
+      "emotion": "hurt_anger",
+      "intensity": 0.85,
+      "pace": "normal",
+      "pause_after_ms": 900
+    },
+    {
+      "line_id": "l026",
+      "speaker": "basavaraj",
+      "text": "The man named as her father on this certificate died on the fourteenth of August, nineteen ninety-four.",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.6,
+      "sfx_cue": "A chair scraping. The corridor going quiet in one movement, the way a corridor does.",
+      "pace": "slow"
+    }
+  ]
+}
