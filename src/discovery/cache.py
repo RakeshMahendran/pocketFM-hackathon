@@ -17,13 +17,27 @@ from typing import Any
 from src.util import CACHE, log
 
 
+def _body(response: Any) -> Any:
+    """
+    The response as data. `str(response)` would store a memory address, which is
+    worse than not caching at all — it looks like a cache hit and contains
+    nothing.
+    """
+    if hasattr(response, "model_dump"):
+        return response.model_dump()
+    if isinstance(response, (dict, list, str)):
+        return response
+    return {k: getattr(response, k) for k in ("status", "output_text", "output")
+            if hasattr(response, k)}
+
+
 def save_raw(stage: str, key_material: str, response: Any) -> str:
     """Dump a response verbatim, before anything is parsed out of it."""
     digest = hashlib.sha1(key_material.encode("utf-8")).hexdigest()[:12]
     path = CACHE / f"{stage}_{digest}.json"
 
     try:
-        body = response.model_dump() if hasattr(response, "model_dump") else response
+        body = _body(response)
         path.parent.mkdir(parents=True, exist_ok=True)
         payload = {
             "stage": stage,
