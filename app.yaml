@@ -1,0 +1,20 @@
+# Databricks App manifest.
+#
+# The entrypoint starts both processes - see start.sh for why Next owns the
+# public port. DATABRICKS_APP_PORT is the one variable the runtime substitutes
+# into `command`, and it is read by the script rather than passed as a flag.
+#
+# The PG* variables are injected by the attached Lakebase resource and are
+# deliberately absent here. There is no PGPASSWORD: auth is an OAuth token the
+# app mints at connect time via src/canon/db.py.
+command:
+  - bash
+  - start.sh
+
+env:
+  - name: LAKEBASE_INSTANCE
+    value: canonforge
+  - name: PGDATABASE
+    value: databricks_postgres
+  - name: CANONFORGE_API_PORT
+    value: "8001"

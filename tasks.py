@@ -205,6 +205,11 @@ def cmd_demo(args) -> int:
     return run_module("src.demo_seed")
 
 
+def cmd_seed(args) -> int:
+    """Create the Lakebase schema and load the beat sheet into it."""
+    return run_module("src.canon.seed", ["--char", args.char])
+
+
 def cmd_test(args) -> int:
     """pytest."""
     return subprocess.run([venv_python(), "-m", "pytest", "-q"], cwd=str(ROOT)).returncode
@@ -222,6 +227,7 @@ COMMANDS = {
     "validate": cmd_validate,
     "gate1": cmd_gate1,
     "leak": cmd_leak,
+    "seed": cmd_seed,
     "api": cmd_api,
     "demo": cmd_demo,
     "test": cmd_test,
@@ -271,7 +277,7 @@ def build_parser() -> argparse.ArgumentParser:
                            help="episodes per model call (default 3)")
         elif name in ("promote", "spinoff"):
             p.add_argument("--char", required=True, help="character id, e.g. jignesh")
-        elif name == "gate1":
+        elif name in ("gate1", "seed"):
             p.add_argument("--char", default="jignesh", help="character id")
         elif name == "api":
             p.add_argument("--port", type=int, default=8000)
