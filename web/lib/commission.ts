@@ -184,9 +184,62 @@ export async function readCommission(eventId: string): Promise<Commission | null
 }
 
 /**
+ * Record a run that never got as far as Python.
+ *
+ * Written in the shape `write_status()` uses, because the page reading it does
+ * not know or care which side wrote it — `state: "failed"` with an `error` is
+ * already how a run that died halfway is shown. The prior file is kept under it
+ * so a stale `story_id` or `history` is not thrown away by the failure.
+ */
+async function recordStartFailure(eventId: string, reason: string): Promise<void> {
+  const file = path.join(DATA_DIR, "commissions", `${eventId}.json`);
+  const now = new Date().toISOString();
+  try {
+    let prior: Record<string, unknown> = {};
+    try {
+      prior = asRecord(JSON.parse(await fs.readFile(file, "utf-8")));
+    } catch {
+      // Nothing there, or half-written. Either way this is the whole record now.
+    }
+    await fs.mkdir(path.dirname(file), { recursive: true });
+    await fs.writeFile(
+      file,
+      JSON.stringify(
+        {
+          ...prior,
+          event_id: eventId,
+          state: "failed",
+          step: "starting",
+          label: "Could not start",
+          error: reason,
+          started_at: now,
+          updated_at: now,
+          progress: null,
+        },
+        null,
+        2,
+      ),
+      "utf-8",
+    );
+  } catch {
+    // A machine that cannot start Python may also be one that cannot write
+    // here. The screen falls back to "Not started", which is at least true.
+  }
+}
+
+/**
  * Fire and forget. `detached` plus `unref` means the season keeps being written
  * after the request that started it has returned — otherwise Next tearing down
  * the handler would take the run with it.
+ *
+ * Fire and forget still has to hear the one thing that comes back. `spawn`
+ * reports a `python` it cannot resolve as an asynchronous `'error'` event, and
+ * an `'error'` with no listener is rethrown by the emitter with nothing above
+ * it to catch it — the server goes down, seconds after someone pressed the
+ * button. So the outcome of the spawn itself is awaited: exactly one of
+ * `'spawn'` or `'error'` arrives, and waiting for it also means the progress
+ * page is redirected to *after* the failure has been written, rather than
+ * showing "not started" until it happens to catch up.
  */
 export async function startCommission(formData: FormData): Promise<void> {
   const eventId = String(formData.get("eventId") ?? "").trim();
@@ -207,6 +260,27 @@ export async function startCommission(formData: FormData): Promise<void> {
       { cwd: REPO, detached: true, stdio: "ignore", windowsHide: true },
     );
     child.unref();
+
+    let running = false;
+    await new Promise<void>((settled) => {
+      child.once("spawn", () => {
+        running = true;
+        settled();
+      });
+      child.once("error", async (err: NodeJS.ErrnoException) => {
+        // The listener stays armed after a successful spawn, since an 'error'
+        // can still arrive later — but by then Python owns the status file and
+        // overwriting it would report a live run as dead.
+        if (running) return;
+        await recordStartFailure(
+          eventId,
+          err.code === "ENOENT"
+            ? "The machine running this console could not start the writer — it has no Python on its path. Nothing was written. Whoever set this box up needs to look at it; pressing the button again will do the same thing."
+            : `The writer could not be started: ${err.message}. Nothing was written.`,
+        );
+        settled();
+      });
+    });
   }
 
   redirect(`/commissioning/${encodeURIComponent(eventId)}`);

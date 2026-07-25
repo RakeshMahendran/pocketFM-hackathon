@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
 import type { NoveltyCheck, Replay, ReplayStep } from "@/lib/replay";
-import { CLEARANCE, HEADING, verdict } from "@/lib/words";
+import { CLEARANCE, HEADING, STORY_LIST, verdict } from "@/lib/words";
 
 /**
  * Plays the recorded hunt back.
@@ -483,7 +483,7 @@ export function ScoutReplay({
             <p className="mt-4 text-sm text-caution prose-col">
               The searching played back fine, but the write-up at the end of the
               recording is damaged, so we cannot show how many stories it found.
-              The story list still shows the stories this search produced.
+              The stories this search produced are still in {STORY_LIST}.
             </p>
           ) : (
             <>
@@ -580,7 +580,7 @@ export function ScoutReplay({
             href="/sourcing"
             className="mt-10 inline-block border border-rule-strong px-5 py-2.5 text-sm rounded-sm hover:border-ochre hover:text-ochre transition-colors"
           >
-            Open the story list →
+            Open {STORY_LIST} →
           </Link>
         </div>
       )}

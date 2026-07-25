@@ -6,7 +6,10 @@ import { loadCorpus } from "@/lib/data";
 import { requireEditor } from "@/lib/session";
 import {
   BAR_EXPLAINED,
+  CASE_AGAINST,
   FOR_THE_OPERATOR,
+  SEARCH_RAN,
+  STORY_LIST_TITLE,
   category,
   stateOf,
   verdict,
@@ -71,9 +74,11 @@ function Row({ candidate }: { candidate: Candidate }) {
           </p>
         )}
 
+        {/* Every story carries one of these, the top pick included — it is the
+            best argument against making it, not a note on why it was dropped. */}
         {candidate.why_not && (
           <p className="mt-2.5 text-sm text-faint prose-col leading-relaxed border-l border-rule pl-3">
-            <span className="label mr-2">Why not</span>
+            <span className="label mr-2">{CASE_AGAINST}</span>
             {candidate.why_not}
           </p>
         )}
@@ -94,11 +99,17 @@ export default async function SourcingQueue() {
       <div className="flex items-baseline justify-between gap-6 flex-wrap">
         <div>
           <h1 className="font-serif text-3xl tracking-tight">
-            Stories worth making
+            {STORY_LIST_TITLE}
           </h1>
+          {/* The search that produced this list is the natural way back into
+              it, and this line was the only place naming it — as inert text.
+              /home held the app's single link to the replay. */}
           <p className="label mt-2">
-            {assembled ? "From earlier searches" : "From the latest search"}
-            {builtAt && ` · searched ${builtAt.slice(0, 10)}`}
+            <Link href="/scout" className="hover:text-ochre transition-colors">
+              {assembled ? SEARCH_RAN.earlier : SEARCH_RAN.latest}
+              {builtAt && ` · searched ${builtAt.slice(0, 10)}`}
+              {` · ${SEARCH_RAN.replay} →`}
+            </Link>
           </p>
         </div>
 

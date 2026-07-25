@@ -1,5 +1,6 @@
 import { AgentCard } from "@/components/AgentCard";
 import { requireEditor } from "@/lib/session";
+import { NEXT_CLICK, READY, SHOWS_TITLE, STORY_LIST_TITLE } from "@/lib/words";
 
 export const dynamic = "force-dynamic";
 
@@ -13,6 +14,13 @@ export const dynamic = "force-dynamic";
  *
  * Each card now names a job in the language of the work, and says plainly what
  * is not finished rather than dressing it as a stage.
+ *
+ * The two spin-off cards sat greyed out as "Not built yet" for a while after
+ * both halves shipped, which left the front page disowning half the product.
+ * They point at the slate rather than at a character, because a spin-off only
+ * exists inside a season — there is no route to a cast without picking a show
+ * first, and hard-coding one season's id into the front door would be a claim
+ * about the slate that stops being true the next time we commission anything.
  */
 export default async function Home() {
   const editor = await requireEditor();
@@ -25,13 +33,13 @@ export default async function Home() {
       <p className="mt-6 text-sm text-muted prose-col leading-relaxed">
         Two halves. Find real events worth turning into a series and check
         we&rsquo;re allowed to make them — then get more series out of the ones
-        we&rsquo;ve already made. The greyed-out cards aren&rsquo;t built yet.
+        we&rsquo;ve already made.
       </p>
 
       <div className="mt-10 grid md:grid-cols-2 gap-5">
         <AgentCard
           name="Find new stories"
-          status="Ready"
+          status={READY}
           href="/scout"
           command="python tasks.py corpus"
         >
@@ -41,15 +49,15 @@ export default async function Home() {
           could run and says whether we&rsquo;re allowed to make it.
         </AgentCard>
 
-        <AgentCard name="Stories worth making" status="Ready" href="/sourcing">
+        <AgentCard name={STORY_LIST_TITLE} status={READY} href="/sourcing">
           Everything the last search turned up, best first. Anything we
           can&rsquo;t legally make sinks to the bottom and stays there — however
           good it is, nobody can push it through.
         </AgentCard>
 
         <AgentCard
-          name="What we’re making"
-          status="Ready"
+          name={SHOWS_TITLE}
+          status={READY}
           href="/serials"
           command={"python tasks.py serial --event <id>"}
         >
@@ -60,23 +68,26 @@ export default async function Home() {
 
         <AgentCard
           name="Give a side character their own show"
-          status="Not built yet"
+          status={READY}
+          href="/serials"
           command={"python tasks.py spinoff --char <id>"}
         >
           Picks someone from the edge of a finished series and builds a season
           around them. They can only know what they actually saw happen, so
-          their show cannot contradict the one they came from.
+          their show cannot contradict the one they came from. {NEXT_CLICK}
         </AgentCard>
 
         <AgentCard
           name="Check nothing contradicts"
-          status="Not built yet"
+          status={READY}
+          href="/serials"
           command="python tasks.py validate"
         >
           Before anything goes out, six separate checks go looking for places
           the new season clashes with the original. They&rsquo;re built to find
           problems rather than to confirm there aren&rsquo;t any — a check that
-          always passes isn&rsquo;t telling you anything.
+          always passes isn&rsquo;t telling you anything. Every spin-off episode
+          carries its result. {NEXT_CLICK}
         </AgentCard>
       </div>
     </div>
