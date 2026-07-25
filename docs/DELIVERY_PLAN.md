@@ -30,6 +30,7 @@ since it was written.
 - **`CLAUDE.md` says only three stages call an LLM**, and `ARCHITECTURE.md`'s stage table marks Discovery `LLM? no`. Both are now wrong. Same request.
 - **`praw` and `requests` are dead weight** in `requirements.txt` once the fetchers go unused. `rapidfuzz` is still live — `dedupe()` survives. Left alone pending P1.
 - **P2:** the Responses API takes structured output as `text.format`, not `response_format`, and `client.responses.create()` is not `client.chat.completions.parse()`. One wrapper will not cover both call shapes.
+- **`beat.schema.json:29` under-specifies `source_ref`.** It says "dossier timeline id, or the literal 'fictionalized'", but `ipl_beats.json` actually uses `<event_id>#<timeline_id>` — `evt_molipur_2022#t1`. Four independent generation runs produced four different wrong formats and none matched the fixture; I read the schema literally and got it wrong too. Please put the `#` form in the description. `episode.md` now states it explicitly, and the validator's traceability check (`PROMPTS.md:174`) should accept only these two shapes.
 
 ### Resolved — Jignesh's blind count is 18, not 11
 

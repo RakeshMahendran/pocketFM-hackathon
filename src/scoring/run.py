@@ -44,6 +44,22 @@ DOSSIER_SCHEMA = _obj({
     "one_line_summary": {"type": "string"},
     "fantasy": {"type": "string",
                 "description": "which promise this season sells, in four words"},
+    # The two casting decisions the whole season rests on. Every test run
+    # produced these unprompted; strict mode rejects them unless declared.
+    "protagonist": _obj({
+        "char_id": {"type": "string"},
+        "who": {"type": "string"},
+        "wants": {"type": "string"},
+        "ashamed_of": {"type": "string"},
+        "does_not_know_at_start": {"type": "string"},
+    }),
+    "antagonist": _obj({
+        "char_id": {"type": "string"},
+        "who": {"type": "string"},
+        "wants_incompatibly": {"type": "string"},
+    }),
+    "sources": {"type": "array", "items": {"type": "string"},
+                "description": "every URL actually opened"},
     "timeline": {"type": "array", "items": _obj({
         "id": {"type": "string"},
         "date": {"type": "string"},

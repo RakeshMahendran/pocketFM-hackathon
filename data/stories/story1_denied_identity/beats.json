@@ -227,7 +227,7 @@
           "valence": -2
         }
       ],
-      "source_ref": "t1",
+      "source_ref": "evt_kadamballi_2022#t1",
       "tier": "core_canon"
     },
     {
@@ -464,7 +464,7 @@
           "valence": -4
         }
       ],
-      "source_ref": "t3",
+      "source_ref": "evt_kadamballi_2022#t3",
       "tier": "core_canon"
     },
     {
@@ -625,7 +625,7 @@
           "valence": -1
         }
       ],
-      "source_ref": "t2",
+      "source_ref": "evt_kadamballi_2022#t2",
       "tier": "core_canon"
     },
     {
@@ -728,7 +728,7 @@
           "valence": 2
         }
       ],
-      "source_ref": "t8",
+      "source_ref": "evt_kadamballi_2022#t8",
       "tier": "core_canon"
     },
     {
@@ -856,7 +856,7 @@
           "valence": -3
         }
       ],
-      "source_ref": "t5",
+      "source_ref": "evt_kadamballi_2022#t5",
       "tier": "core_canon"
     },
     {
@@ -1363,7 +1363,7 @@
           "valence": -2
         }
       ],
-      "source_ref": "t5",
+      "source_ref": "evt_kadamballi_2022#t5",
       "tier": "core_canon"
     },
     {
@@ -1580,7 +1580,7 @@
           "valence": -5
         }
       ],
-      "source_ref": "t5",
+      "source_ref": "evt_kadamballi_2022#t5",
       "tier": "core_canon"
     },
     {

@@ -69,17 +69,26 @@
   ],
 
   "people": [
-    {"name": "nayan",    "role": "contract stenographer, then the chamber's drafting hand", "motive": "a permanent post, a nameplate, and his engagement back", "public_or_private": "private", "living": true},
-    {"name": "harshad",  "role": "runs the chamber; has never held a law degree",           "motive": "someone else's signature on every order",              "public_or_private": "private", "living": true},
-    {"name": "bhikha",   "role": "chamber peon, ex-real-court, knows exactly what it is",   "motive": "a cut, and to be indispensable to whoever wins",       "public_or_private": "private", "living": true},
-    {"name": "dilip",    "role": "head clerk of the real district court",                    "motive": "protect his nephew's posting; later, a family plot",   "public_or_private": "private", "living": true},
-    {"name": "kiran",    "role": "the broken engagement",                                    "motive": "a marriage that does not shame her father",            "public_or_private": "private", "living": true},
-    {"name": "pravin",   "role": "kiran's father, ration shop licensee",                     "motive": "his licence, then his standing",                       "public_or_private": "private", "living": true},
-    {"name": "rekha",    "role": "widow whose husband's land the chamber awarded away",      "motive": "three acres and an apology in public",                 "public_or_private": "private", "living": true},
-    {"name": "mansukh",  "role": "land aggregator financing the chamber's output",           "motive": "clean title on plots bought before the case is heard", "public_or_private": "private", "living": true},
-    {"name": "jayaben",  "role": "nayan's mother",                                           "motive": "keep the last three acres; she has already signed",    "public_or_private": "private", "living": true},
-    {"name": "asif",     "role": "young advocate who first asks the right question",         "motive": "a reputation, and then a favour",                      "public_or_private": "private", "living": true},
-    {"name": "lalji",    "role": "farmer who won before the chamber and celebrated",         "motive": "keep what he was given",                               "public_or_private": "private", "living": true}
+    {"name": "The accused proprietor", "role": "ran the arbitration chamber; never held a law degree; jailed once before for practising without one", "motive": "not stated in the record", "public_or_private": "private", "living": true},
+    {"name": "The associates", "role": "posed as court personnel so the chamber presented as a working court", "motive": "not stated in the record", "public_or_private": "private", "living": true},
+    {"name": "The Principal Judge", "role": "the officer in whose name the appointing circular was forged", "motive": "not applicable — named only as the forged signatory", "public_or_private": "public", "living": true},
+    {"name": "The claimants", "role": "parties whose land disputes the chamber heard; more than 100 acres and at least 11 properties affected", "motive": "not stated in the record", "public_or_private": "private", "living": true}
+  ],
+
+  "_people_note": "The REAL record only. Four entries because the reporting describes four sets of people, and their names are deliberately not written here — this field exists for clearance and must never feed generation. The invented characters are in `cast`. Do not merge these two lists.",
+
+  "cast": [
+    {"char_id": "nayan",     "name": "Nayan",     "role": "contract stenographer, then the chamber's drafting hand", "want": "a permanent post, a nameplate, and his engagement back",   "maps_to": "invented",                  "composite": true},
+    {"char_id": "harshad",   "name": "Harshad",   "role": "runs the chamber; has never held a law degree",           "want": "someone else's signature on every order",                  "maps_to": "The accused proprietor",    "composite": true},
+    {"char_id": "bhikha",    "name": "Bhikha",    "role": "chamber peon, ex-real-court, knows exactly what it is",   "want": "a cut, and to be indispensable to whoever wins",           "maps_to": "The associates",            "composite": true},
+    {"char_id": "dilip",     "name": "Dilip",     "role": "head clerk of the real district court",                   "want": "protect his nephew's posting; later, a family plot",       "maps_to": "invented",                  "composite": true},
+    {"char_id": "kiran",     "name": "Kiran",     "role": "the broken engagement",                                   "want": "a marriage that does not shame her father",                "maps_to": "invented",                  "composite": true},
+    {"char_id": "pravin",    "name": "Pravin",    "role": "kiran's father, ration shop licensee",                    "want": "his licence, then his standing",                           "maps_to": "invented",                  "composite": true},
+    {"char_id": "rekha",     "name": "Rekha",     "role": "widow whose husband's land the chamber awarded away",     "want": "three acres and an apology in public",                     "maps_to": "The claimants",             "composite": true},
+    {"char_id": "mansukh",   "name": "Mansukh",   "role": "land aggregator financing the chamber's output",          "want": "clean title on plots bought before the case is heard",     "maps_to": "invented",                  "composite": true},
+    {"char_id": "jayaben",   "name": "Jayaben",   "role": "nayan's mother",                                          "want": "keep the last three acres; she has already signed",        "maps_to": "invented",                  "composite": true},
+    {"char_id": "asif",      "name": "Asif",      "role": "young advocate who first asks the right question",        "want": "a reputation, and then a favour",                          "maps_to": "invented",                  "composite": true},
+    {"char_id": "lalji",     "name": "Lalji",     "role": "farmer who won before the chamber and celebrated",        "want": "keep what he was given",                                   "maps_to": "The claimants",             "composite": true}
   ],
 
   "adaptability": {
