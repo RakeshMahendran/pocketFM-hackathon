@@ -6,6 +6,7 @@ import { ScoutReplay } from "@/components/ScoutReplay";
 import { loadCorpus } from "@/lib/data";
 import { loadReplay } from "@/lib/replay";
 import { requireEditor } from "@/lib/session";
+import { STORY_LIST } from "@/lib/words";
 
 export const dynamic = "force-dynamic";
 
@@ -205,8 +206,8 @@ export default async function ScoutPage() {
           <Notice tone="warn">{plainReason(replay.reason)}</Notice>
           <p className="mt-5 text-sm text-muted prose-col">
             There is nothing to play back, and this screen will not act one out
-            instead. The story list still shows every story that has already
-            been found and saved.
+            instead. Every story that has already been found and saved is still
+            in {STORY_LIST}.
           </p>
           <details className="mt-5">
             <summary className="label cursor-pointer hover:text-ochre transition-colors">
@@ -220,7 +221,7 @@ export default async function ScoutPage() {
             href="/sourcing"
             className="mt-8 inline-block border border-rule-strong px-5 py-2.5 text-sm rounded-sm hover:border-ochre hover:text-ochre transition-colors"
           >
-            Open the story list →
+            Open {STORY_LIST} →
           </Link>
         </div>
       )}

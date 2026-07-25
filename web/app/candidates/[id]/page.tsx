@@ -13,7 +13,9 @@ import {
   IN_PRODUCTION,
   MEASURES,
   SCALE_EXPLAINED,
+  SHOWS,
   SPINOFF_POTENTIAL,
+  STORY_LIST_TITLE,
   TOP_PICK,
   category,
   verdict,
@@ -81,7 +83,7 @@ export default async function CandidateBrief(
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
       <Link href="/sourcing" className="label hover:text-ochre transition-colors">
-        ← Stories worth making
+        ← {STORY_LIST_TITLE}
       </Link>
 
       <header className="mt-6 flex items-start justify-between gap-8 flex-wrap">
@@ -162,6 +164,9 @@ export default async function CandidateBrief(
             </Section>
           )}
 
+          {/* Present on every story, the top pick included — it sat under a
+              "why we didn't pick this one" heading on a page also badged
+              "Top pick" and "Already being made". */}
           {c.why_not && (
             <Section title={HEADING.whyNot}>
               <p className="text-[0.9375rem] leading-relaxed prose-col text-muted">
@@ -207,8 +212,8 @@ export default async function CandidateBrief(
             {c.madeAs ? (
               <div className="border border-clear/40 bg-clear/5 rounded-sm p-4">
                 <p className="text-sm text-muted prose-col leading-relaxed">
-                  A season has been written from this story. It is on the slate
-                  with the rest of the shows.
+                  A season has been written from this story. You will find it
+                  with the rest of {SHOWS}.
                 </p>
                 <Link
                   href={`/serials/${encodeURIComponent(c.madeAs)}`}

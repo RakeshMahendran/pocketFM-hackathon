@@ -1,16 +1,17 @@
 import { redirect } from "next/navigation";
 
 import { EDITORS, getEditor, signIn } from "@/lib/session";
+import { SHOWS, STORY_LIST } from "@/lib/words";
 
 // Reads a cookie, so it can never be prerendered.
 export const dynamic = "force-dynamic";
 
 // Real apostrophes, not HTML entities: these are string values, and `&rsquo;`
-// would render literally.
+// would render literally — which is why SHOWS is imported rather than retyped.
 const LANDING_LABEL: Record<string, string> = {
   "/scout": "the story search",
-  "/sourcing": "the story list",
-  "/serials": "the shows we’re making",
+  "/sourcing": STORY_LIST,
+  "/serials": SHOWS,
 };
 
 export default async function SignIn() {

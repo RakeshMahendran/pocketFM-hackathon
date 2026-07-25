@@ -164,6 +164,23 @@ def test_a_returned_beat_id_cannot_collide_with_a_mainline_beat():
     assert "b1" in sealed[0]["note"]
 
 
+def test_two_episodes_of_one_character_do_not_claim_the_same_beat_ids():
+    """
+    A character gets more than one episode. Numbering each from 001 off char_id
+    alone made Ratnamma's b014 and b033 episodes both produce x_ratnamma_001..004
+    — the same four ids for eight different beats — and whichever was stored
+    second took the first one's place without saying so. The delivered artifacts
+    in data/spinoffs still carry the collision, which is what found this.
+    """
+    s = _demo_story()
+    beats = [{"beat_id": "b1"}, {"beat_id": "b2"}]
+
+    first = spinoff_mod.seal_branch_beats(s, "ana", beats, "b3")
+    second = spinoff_mod.seal_branch_beats(s, "ana", beats, "b4")
+
+    assert not ({b["beat_id"] for b in first} & {b["beat_id"] for b in second})
+
+
 def test_a_branch_beat_is_hidden_from_every_mainline_character_not_placed_in_it():
     """Stops one character's serial leaking into another's."""
     s = _demo_story()

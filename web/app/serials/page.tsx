@@ -4,12 +4,12 @@ import { ClearanceBadge } from "@/components/ClearanceBadge";
 import { Notice } from "@/components/Notice";
 import { loadSlate, type SerialSummary } from "@/lib/serials";
 import { requireEditor } from "@/lib/session";
-import { category, verdict } from "@/lib/words";
+import { SHOWS_TITLE, STORY_LIST, category, verdict } from "@/lib/words";
 
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "CanonForge — The slate",
+  title: `CanonForge — ${SHOWS_TITLE}`,
   description: "Shows we have commissioned, and how much of each one is written.",
 };
 
@@ -215,13 +215,16 @@ export default async function SlatePage() {
     <div className="mx-auto max-w-6xl px-8 py-12">
       <div className="flex items-end justify-between gap-8 flex-wrap">
         <div>
+          {/* The nav sends you here saying "Shows we're making" and this
+              screen used to answer "The slate", which reads as a third
+              destination. Both come from the one constant now. */}
           <h1 className="font-serif text-4xl tracking-tight leading-tight">
-            The slate
+            {SHOWS_TITLE}
           </h1>
           <p className="mt-3 text-sm text-muted leading-relaxed prose-col">
             The shows we have commissioned. For each one: the plan the writer
             worked to, the scripts as they came back, and what the season leaves
-            unanswered. Everything here started as a story in the story list.
+            unanswered. Everything here started as a story in {STORY_LIST}.
           </p>
         </div>
 
@@ -245,10 +248,13 @@ export default async function SlatePage() {
 
       {serials.length === 0 ? (
         <div className="mt-12 prose-col">
+          {/* This pointed at "/", which is the sign-in picker — a signed-in
+              editor is bounced straight back to their landing screen, and for
+              one persona that is this page. */}
           <p className="font-serif text-xl text-muted leading-relaxed">
-            Nothing has been commissioned yet. Pick a story from the{" "}
-            <Link href="/" className="text-ochre hover:underline">
-              sourcing queue
+            Nothing has been commissioned yet. Pick a story from{" "}
+            <Link href="/sourcing" className="text-ochre hover:underline">
+              {STORY_LIST}
             </Link>{" "}
             and have a season written; it will show up here.
           </p>

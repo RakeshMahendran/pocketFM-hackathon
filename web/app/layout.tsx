@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { getEditor, signOut } from "@/lib/session";
+import { SHOWS_TITLE, STORY_LIST_TITLE } from "@/lib/words";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -37,15 +38,19 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
 
             {editor && (
               <>
-                <nav className="flex items-center gap-7 text-sm">
+                {/* The two destinations are named by the same constants their
+                    own headings use. Shortening them here to "Stories" and
+                    "Shows" is what left an editor clicking one word and
+                    arriving at a screen that used two others. */}
+                <nav className="flex items-center gap-7 text-sm whitespace-nowrap">
                   <Link href="/home" className="hover:text-ochre transition-colors">
                     Home
                   </Link>
                   <Link href="/sourcing" className="hover:text-ochre transition-colors">
-                    Stories
+                    {STORY_LIST_TITLE}
                   </Link>
                   <Link href="/serials" className="hover:text-ochre transition-colors">
-                    Shows
+                    {SHOWS_TITLE}
                   </Link>
                 </nav>
 

@@ -115,10 +115,15 @@ function normaliseCast(raw: unknown): CastMember[] {
 }
 
 /**
- * The rejection rationale has three names in committed data — `why_not`,
+ * The case against a candidate has three names in committed data — `why_not`,
  * `why_rejected`, `rejected_because` — because three separate runs each
  * invented one. The schema now names it `why_not`; this accepts all three so
  * the older stories still render.
+ *
+ * Despite the field names, this is NOT only a rejection reason. `hunter.md`
+ * defines it as "why it lost, or for the winner, the best case against it",
+ * and every candidate carries one — including the one that won. Labelling it
+ * as a rejection put "Why we didn't pick this one" on the story we did pick.
  */
 function rejectionReason(r: Record<string, unknown>): string | null {
   return (

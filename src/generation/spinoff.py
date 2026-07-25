@@ -136,7 +136,8 @@ def write_spinoff(story: Dict[str, Any], char_id: str,
         "bible": bible,
         "episode": {"title": result["title"], "logline": result["logline"],
                     "script": result["script"]},
-        "beats": seal_branch_beats(story, char_id, result.get("beats", [])),
+        "beats": seal_branch_beats(story, char_id, result.get("beats", []),
+                                   anchor_beat_id),
         "crossings": result.get("crossings", []),
         "cites": result.get("cites", []),
         "flags": result.get("flags", []),
@@ -144,7 +145,8 @@ def write_spinoff(story: Dict[str, Any], char_id: str,
 
 
 def seal_branch_beats(story: Dict[str, Any], char_id: str,
-                      beats: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+                      beats: List[Dict[str, Any]],
+                      anchor_beat_id: str = "") -> List[Dict[str, Any]]:
     """
     Stamp the four fields a prompt must not be trusted with.
 
@@ -154,14 +156,21 @@ def seal_branch_beats(story: Dict[str, Any], char_id: str,
     future merge. `hidden_from` defaults to the entire mainline cast so branches
     cannot leak into each other: nothing in Ratnamma's serial is knowable inside
     Savithri's unless someone deliberately puts them there.
+
+    The id carries the anchor because a character gets more than one episode.
+    numbering each from 001 off `char_id` alone meant Ratnamma's b014 and b033
+    episodes both produced `x_ratnamma_001..004` — four ids, four different beats,
+    and whichever loaded second silently took the first one's place. Namespacing by
+    anchor is what makes the id mean one beat.
     """
     mainline = [c["char_id"] for c in story["cast"]]
+    scope = f"{char_id}_{anchor_beat_id}" if anchor_beat_id else char_id
     sealed = []
     for i, beat in enumerate(beats, start=1):
         placed = set(beat.get("present", [])) | set(beat.get("witnessed_by", []))
         out = dict(beat)
         out["note"] = f"model suggested beat_id {beat.get('beat_id', '?')}"
-        out["beat_id"] = f"x_{char_id}_{i:03d}"
+        out["beat_id"] = f"x_{scope}_{i:03d}"
         out["tier"] = "branch_canon"
         out["pov"] = char_id
         out["hidden_from"] = sorted(set(beat.get("hidden_from", []))

@@ -1,7 +1,7 @@
 # Thin delegate. All real logic lives in tasks.py so Windows and POSIX boxes
 # run the same code path. Add commands there, not here.
 
-.PHONY: setup corpus score serial cast promote spinoff validate gate1 leak api demo test
+.PHONY: setup corpus score serial cast promote spinoff validate gate1 leak ingest api demo test
 
 PY ?= python
 
@@ -38,6 +38,11 @@ gate1:
 
 leak:
 	$(PY) tasks.py leak --story $(STORY) --char $(CHAR)
+
+# No --story: the filter defaults to every story that has artifacts on disk,
+# which is what you want after a run. `make ingest ARGS=--check` for the preflight.
+ingest:
+	$(PY) tasks.py ingest $(ARGS)
 
 api:
 	$(PY) tasks.py api

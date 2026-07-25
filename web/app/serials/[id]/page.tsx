@@ -9,8 +9,18 @@ import { loadCandidate } from "@/lib/data";
 import { readChecks, readPublishState } from "@/lib/publish";
 import { loadSerial, type Confidence, type PromiseLedger, type Serial } from "@/lib/serials";
 import { requireEditor } from "@/lib/session";
+import { loadRoster, type CastRow } from "@/lib/spinoffs";
 import { SCORE_LABELS, type Scores } from "@/lib/types";
-import { HEADING, MEASURES, category, verdict } from "@/lib/words";
+import {
+  CAST_LIST_TITLE,
+  HEADING,
+  MEASURES,
+  PROMOTION,
+  ROSTER_EXPLAINED,
+  category,
+  rosterStanding,
+  verdict,
+} from "@/lib/words";
 
 export const dynamic = "force-dynamic";
 
@@ -344,10 +354,17 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
   // the search and match nothing — for those there is no story to point at,
   // which is the honest answer rather than a broken link.
   const origin = await loadCandidate(storyId);
-  const [publishState, checks] = await Promise.all([
+  // The roster is what turns the cast list from a credits roll into a set of
+  // doors. It degrades to an empty list rather than throwing, so a season whose
+  // beats were never seeded still renders the cast exactly as it did before.
+  const [publishState, checks, roster] = await Promise.all([
     readPublishState(storyId),
     readChecks(storyId),
+    loadRoster(storyId),
   ]);
+  const standings = new Map<string, CastRow>(
+    roster.rows.map((r) => [r.charId, r]),
+  );
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
@@ -435,12 +452,29 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
             )}
           </Section>
 
+          {/*
+            The hinge of the whole console. An editor has just read the season;
+            every name below is a show that could be made out of what that
+            person was never told, and each one opens.
+          */}
           <Section
             title={HEADING.cast}
             aside={
-              s.castCount
-                ? `${s.castCount}, each wanting something different`
-                : "nobody recorded"
+              <span className="flex items-baseline gap-4 flex-wrap justify-end">
+                <span>
+                  {s.castCount
+                    ? `${s.castCount}, each wanting something different`
+                    : "nobody recorded"}
+                </span>
+                {s.cast.length > 0 && (
+                  <Link
+                    href={`/serials/${encodeURIComponent(storyId)}/cast`}
+                    className="text-ochre hover:text-paper transition-colors whitespace-nowrap"
+                  >
+                    {CAST_LIST_TITLE} →
+                  </Link>
+                )}
+              </span>
             }
           >
             {s.cast.length === 0 ? (
@@ -449,42 +483,78 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
                 list, so a season without one cannot be extended.
               </p>
             ) : (
-              <ul className="divide-y divide-rule border-t border-rule">
-                {s.cast.map((c) => (
-                  <li key={c.id} className="py-4">
-                    <div className="flex items-baseline gap-3 flex-wrap">
-                      <span className="font-serif text-lg">{c.name}</span>
-                      <span
-                        className="font-mono text-[0.6875rem] text-faint"
-                        title="The reference this character is filed under."
-                      >
-                        {c.id}
-                      </span>
-                      {c.composite && (
-                        <span
-                          className="label"
-                          title="Invented by combining several real people, so no single real person is being portrayed."
-                        >
-                          several people in one
-                        </span>
-                      )}
-                    </div>
-                    {c.role && (
-                      <p className="text-sm text-muted leading-relaxed mt-1">
-                        {c.role}
-                      </p>
-                    )}
-                    {c.want && (
-                      <p className="font-serif text-[0.9375rem] leading-relaxed mt-2 text-paper prose-col">
-                        Wants: {c.want}
-                      </p>
-                    )}
-                    {c.mapsTo && (
-                      <p className="label mt-2">stands in for — {c.mapsTo}</p>
-                    )}
-                  </li>
-                ))}
-              </ul>
+              <>
+                <p className="text-sm text-muted leading-relaxed prose-col mb-5">
+                  {ROSTER_EXPLAINED} Open any name to see what they saw, what
+                  went on behind their back, and any episode already written for
+                  them.
+                </p>
+                <ul className="divide-y divide-rule border-t border-rule">
+                  {s.cast.map((c) => {
+                    const row = standings.get(c.id) ?? null;
+                    const standing = row ? rosterStanding(row) : null;
+                    return (
+                      <li key={c.id} className="py-4">
+                        <div className="flex items-baseline gap-3 flex-wrap">
+                          <Link
+                            href={`/serials/${encodeURIComponent(storyId)}/cast/${encodeURIComponent(c.id)}`}
+                            className="font-serif text-lg hover:text-ochre transition-colors"
+                          >
+                            {c.name}
+                          </Link>
+                          {standing && (
+                            <span className={`label ${standing.className}`}>
+                              {standing.label}
+                            </span>
+                          )}
+                          {row && (row.witnessed > 0 || row.blind > 0) && (
+                            <span className="label" title={standing?.why}>
+                              in {row.witnessed} · missed {row.blind}
+                            </span>
+                          )}
+                          {c.composite && (
+                            <span
+                              className="label"
+                              title="Invented by combining several real people, so no single real person is being portrayed."
+                            >
+                              several people in one
+                            </span>
+                          )}
+                        </div>
+                        {c.role && (
+                          <p className="text-sm text-muted leading-relaxed mt-1">
+                            {c.role}
+                          </p>
+                        )}
+                        {c.want && (
+                          <p className="font-serif text-[0.9375rem] leading-relaxed mt-2 text-paper prose-col">
+                            Wants: {c.want}
+                          </p>
+                        )}
+                        {c.mapsTo && (
+                          <p className="label mt-2">stands in for — {c.mapsTo}</p>
+                        )}
+                        {row && (row.hasBible || row.anchors.length > 0) && (
+                          <p className="mt-2 flex items-baseline gap-3 flex-wrap">
+                            {row.hasBible && (
+                              <span className="label text-clear" title={PROMOTION.plain}>
+                                {PROMOTION.done}
+                              </span>
+                            )}
+                            {row.anchors.length > 0 && (
+                              <span className="label text-ochre">
+                                {row.anchors.length === 1
+                                  ? "1 episode written"
+                                  : `${row.anchors.length} episodes written`}
+                              </span>
+                            )}
+                          </p>
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </>
             )}
           </Section>
 
