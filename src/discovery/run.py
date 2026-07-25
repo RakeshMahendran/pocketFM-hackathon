@@ -3,11 +3,14 @@ Freeze the corpus. Run once, commit the result, never run it on the demo path.
 
     python tasks.py corpus
 
-Dedupe is the one pre-LLM stage that survives the move to search sourcing: the
-same event surfaces under several of the eight categories, and the scout has no
-memory across passes. The old prefilter does not survive — it existed to kill
-raw junk before paying for a model call, and by this point the model call has
-already happened and the junk is already gone.
+The scout picks the winner itself, so there is no selection stage after this —
+`corpus.json` records which candidate won and what it beat, and the ranked-list
+screen reads that directly.
+
+Dedupe still runs: one call sweeping eight categories will surface the same event
+under more than one of them. The old prefilter does not survive — it existed to
+kill raw junk before paying for a model call, and by this point the call has
+happened and the junk is already rejected.
 """
 
 import sys
@@ -17,7 +20,7 @@ from typing import Any, Dict, List
 
 from src.util import CORPUS_PATH, ensure_dirs, load_env, log, offline, write_json
 from src.discovery.fetchers import dedupe
-from src.discovery.search import hunt_all
+from src.discovery.search import hunt
 
 
 def _for_dedupe(candidates: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -48,22 +51,25 @@ def build_corpus(path=CORPUS_PATH) -> List[Dict[str, Any]]:
 
     ensure_dirs()
     log("discovery: hunting eight categories")
-    pool = dedupe(_for_dedupe(hunt_all()))
+    result = hunt()
+    winner = result["winner"]
+
+    # Dedupe the also-rans only. `dedupe()` keeps the longest-text member of each
+    # cluster, so running it over the winner too could quietly swap the chosen
+    # event for something it merged with.
+    pool = [_for_dedupe([winner])[0]] + dedupe(_for_dedupe(result["also_considered"]))
 
     write_json(path, {
         "built_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "winner": winner["title"],
         "count": len(pool),
         "by_clearance": {
             s: sum(1 for x in pool if x.get("clearance", {}).get("status") == s)
             for s in ("greenlight", "fictionalize_first", "blocked")
         },
-        "by_category": {
-            cat: sum(1 for x in pool if x.get("hunt_category") == cat)
-            for cat in sorted({x.get("hunt_category", "?") for x in pool})
-        },
         "items": pool,
     })
-    log(f"corpus frozen: {len(pool)} candidates")
+    log(f"corpus frozen: {winner['title']}, {len(pool) - 1} also considered")
     return pool
 
 

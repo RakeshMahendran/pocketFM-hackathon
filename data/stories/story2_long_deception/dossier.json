@@ -1,0 +1,173 @@
+{
+  "event_id": "evt_barhagarh_2022",
+  "title": "The Station on the First Floor",
+  "one_line_summary": "A girl who failed the police exam in front of two hundred people is handed a uniform, a register and a counter in a rented hotel room, and by the time she understands that the station she runs is not a station, half the district's complaints exist only in her handwriting.",
+  "fantasy": "they laughed at her",
+
+  "selling": "The underestimated one — she was dismissed; she was never what they thought.",
+
+  "engine": "Every complaint the first-floor station accepts becomes a case that exists nowhere else, so everyone it has helped and everyone it has frightened now needs it to stay real — and it can only keep opening files, because the day it stops, all of them lose at once.",
+
+  "why_this_works": "The listener knows it is not a police station by episode four; rupa does not know until episode nine. That gap is the show. After that the question stops being 'when will she find out' and becomes 'how many more people will she stamp', because every file she has written is somebody's only proof that anything ever happened to them — a missing son, a seized field, a mortgage. She cannot walk out of the room without taking those people down with her. And the climb is audible: the same sub-inspector who read her name off the reject list in front of two hundred candidates walks into her room in episode eleven, compliments her file work, and asks which batch she is from.",
+
+  "protagonist": {
+    "id": "rupa",
+    "who": "Twenty-four. Failed the state constable recruitment on the written list, in public, at the district ground. The neatest handwriting in her block and the only qualification anyone has ever praised her for.",
+    "wants": "A uniform, a posting order with her name spelled right, and her sister's marriage paid for.",
+    "ashamed_of": "That her father sold the only thing the family owned to buy her a job, and told the village it was a loan for a tractor.",
+    "does_not_know_at_start": "That the Barhagarh Sahayak Thana on the first floor of Hotel Mayur has no legal existence of any kind, that the men on the bench outside it are on a daily wage, and that her ninety thousand was paid eleven months before the recruitment notice was even published."
+  },
+
+  "antagonist": {
+    "id": "nagesh",
+    "who": "Runs the first floor. Fifty-one. Immaculate bush shirt, a plastic file under his arm, addressed as sahab by men who have never asked what he is sahab of. Has never held any government post.",
+    "wants_incompatibly": "rupa's face at the counter and rupa's handwriting in the register, so that on the day it falls, the hand on every page is hers and not his."
+  },
+
+  "timeline": [
+    {"id": "t1", "date": "2021-12 to 2022-08", "what_happened": "A gang operated a fake police station out of a hotel in a district town in Bihar for eight months, roughly five hundred metres from the residence of the actual local police chief.", "confidence": "reported", "source": "https://newsinfo.inquirer.net/1649642/indian-gang-ran-fake-police-station-for-eight-months"},
+    {"id": "t2", "date": "2021-12 to 2022-08", "what_happened": "Members wore uniforms with rank badges and carried guns; locals from the surrounding rural area were paid roughly five hundred rupees a day to pose as other officers working at the station.", "confidence": "reported", "source": "https://www.thenews.com.pk/print/983462-indian-gang-ran-fake-police-station-for-eight-months"},
+    {"id": "t3", "date": "2021-12 to 2022-08", "what_happened": "People coming to the station to file complaints and cases were charged money; others paid on promises of social housing benefits and of jobs in the police.", "confidence": "reported", "source": "https://newsinfo.inquirer.net/1649642/indian-gang-ran-fake-police-station-for-eight-months"},
+    {"id": "t4", "date": "2022-08", "what_happened": "The office operated out of a guest house near the real police station; the alleged organiser also ran a separate 'Escort Police Team' office in the state capital.", "confidence": "reported", "source": "https://theprint.in/india/bihar-police-bust-fake-police-station-in-banka-seven-arrested-so-far/1095381/"},
+    {"id": "t5", "date": "2022-08", "what_happened": "Two of the women posing as police said under interrogation that they had paid ninety thousand and fifty-five thousand rupees respectively to procure a job, and had believed they were recruited into the police service.", "confidence": "alleged", "source": "https://theprint.in/india/bihar-police-bust-fake-police-station-in-banka-seven-arrested-so-far/1095381/"},
+    {"id": "t6", "date": "2022-08", "what_happened": "The operation was discovered when a genuine police officer noticed two of the group carrying locally made workshop guns instead of service-issue weapons.", "confidence": "reported", "source": "https://www.thenews.com.pk/print/983462-indian-gang-ran-fake-police-station-for-eight-months"},
+    {"id": "t7", "date": "2022-08-17", "what_happened": "Seven people were arrested, including two women; the alleged extortion of hundreds of people over the eight months is the police account and is contested by the accused.", "confidence": "disputed", "source": "https://theprint.in/india/bihar-police-bust-fake-police-station-in-banka-seven-arrested-so-far/1095381/"}
+  ],
+
+  "_timeline_note": "Seven entries because three opened reports support seven facts between them. Everything in `season` is invented and appears only there. The interrogation claims about money paid for jobs are tagged alleged and are asserted by characters, never by the narrator.",
+
+  "people": [
+    {"name": "Bhola Yadav", "role": "named in reporting as alleged organiser of the fake station", "public_or_private": "private", "living": true},
+    {"name": "Alka Devi", "role": "named in reporting as co-accused", "public_or_private": "private", "living": true},
+    {"name": "Anita Murmu", "role": "named in reporting as having posed as station head; says she paid for a police job", "public_or_private": "private", "living": true},
+    {"name": "Julie Kumari Manjhi", "role": "named in reporting as co-accused; says she paid for a police job", "public_or_private": "private", "living": true},
+    {"name": "Aakash Manjhi", "role": "named in reporting as having worn officer badges", "public_or_private": "private", "living": true},
+    {"name": "Ramesh Kumar", "role": "named in reporting as co-accused", "public_or_private": "private", "living": true},
+    {"name": "Wakil Kumar", "role": "named in reporting as co-accused", "public_or_private": "private", "living": true}
+  ],
+
+  "_people_note": "This list exists for clearance only. Every one of these is a living private individual facing an untried allegation. None of them appears in the fiction, none of them maps one-to-one onto a character, and no real name is used in any episode.",
+
+  "cast": [
+    {"char_id": "rupa", "name": "Rupa", "role": "rejected recruit; becomes the hand that writes every file on the first floor", "want": "a posting order with her name spelled correctly, and her sister married before the mortgage falls due", "maps_to": "a woman reported to have posed as police believing she had been recruited", "composite": true},
+    {"char_id": "nagesh", "name": "Nagesh", "role": "runs the first floor; sells postings, complaints and protection", "want": "somebody else's handwriting on every page in the register", "maps_to": "alleged organiser", "composite": true},
+    {"char_id": "pushpa", "name": "Pushpa", "role": "runs the scheme window — housing lists, widow pension forms, receipts", "want": "her own window, in her own name, with nagesh out of it", "maps_to": "co-accused associate", "composite": true},
+    {"char_id": "kajri", "name": "Kajri", "role": "the other recruit, eleven months in, quicker than rupa and less honest", "want": "to be the one who is kept when they start dropping people", "maps_to": "second woman reported to have paid for a post", "composite": true},
+    {"char_id": "ratan", "name": "Ratan", "role": "wears deputy superintendent badges, says almost nothing, on a daily wage", "want": "the five hundred a day, and never to be asked a question in front of the bench", "maps_to": "man reported to have worn officer badges", "composite": true},
+    {"char_id": "bishnu", "name": "Bishnu", "role": "owner of Hotel Mayur; rents the first floor and knows exactly what it is", "want": "eleven thousand a month, on the fifth, and no police on his staircase", "maps_to": "invented", "composite": false},
+    {"char_id": "kishore", "name": "Kishore", "role": "sub-inspector of the real station, five hundred metres away", "want": "a clean charge sheet record and a transfer out of Barhagarh", "maps_to": "local police officer", "composite": true},
+    {"char_id": "tapan", "name": "Tapan", "role": "constable at the real station; over-polite, notices things late", "want": "to be liked by everyone in uniform", "maps_to": "invented", "composite": false},
+    {"char_id": "dularchand", "name": "Dularchand", "role": "land broker who uses the first floor to serve notices on farmers", "want": "four fields on the canal side, cleared without a court", "maps_to": "invented", "composite": false},
+    {"char_id": "sarita", "name": "Sarita", "role": "mother of a missing fourteen-year-old; the first complaint rupa ever writes", "want": "her son, and a case number that exists", "maps_to": "invented", "composite": true},
+    {"char_id": "hariya", "name": "Hariya", "role": "rupa's father, night watchman at the seed godown", "want": "for nobody in the village to learn what he signed", "maps_to": "invented", "composite": false},
+    {"char_id": "munni", "name": "Munni", "role": "rupa's younger sister, seventeen, asks the questions nobody wants", "want": "to sit the exam herself next year", "maps_to": "invented", "composite": false},
+    {"char_id": "lakhan", "name": "Lakhan", "role": "moneylender who holds the house paper and also makes the country pistols", "want": "the interest on the fifth, and the house if it is not there", "maps_to": "invented", "composite": false}
+  ],
+
+  "adaptability": {"conflict": 9, "characters": 9, "stakes": 9, "serializability": 9, "resonance": 9, "total": 45},
+
+  "hunt_scores": {"engine_longevity": 9, "hook_density": 8, "emotional_immediacy": 9, "conflict": 9, "cast_depth": 9, "total": 44},
+
+  "clearance": {
+    "status": "fictionalize_first",
+    "reasons": [
+      "The proceedings are recent and every person named in the reporting is a living private individual facing an untried allegation. None of them is the protagonist. rupa is invented and composite; the organiser is a composite; the real district and the real hotel are replaced.",
+      "The district, the town, the hotel, the station and every character name are changed. Nothing in the fictionalization map resolves to a real person or a real address.",
+      "Only seven timeline entries come from the record. The claims about money paid for jobs, and about the number of people extorted, are tagged alleged and disputed and are spoken by characters, never by the narrator.",
+      "India retains criminal defamation, so no episode states that any real organisation, officer or accused did anything. The real police force appears only as an unnamed neighbouring station."
+    ]
+  },
+
+  "novelty": {"prior_adaptations": [], "score": 9},
+
+  "fictionalization_map": {
+    "Banka district town, Bihar": "barhagarh, an unnamed district in south Bihar",
+    "Anurag Guest House": "hotel mayur",
+    "The fake police station": "barhagarh sahayak thana, first floor",
+    "Alleged organiser": "nagesh",
+    "Co-accused associate running benefit-scheme promises": "pushpa",
+    "Woman reported to have paid for a police post and believed herself recruited": "rupa (invented composite protagonist)",
+    "Second woman reported to have paid for a post": "kajri",
+    "Man reported to have worn officer badges": "ratan",
+    "Daily-wage men paid to appear as constables": "the bench",
+    "Officers of the real neighbouring station": "kishore, tapan",
+    "'Escort Police Team' office in the state capital": "the Patna room nagesh never lets anyone visit"
+  },
+
+  "never_narrate_as_fact": [
+    "That rupa's ninety thousand or kajri's fifty-five thousand were paid for a police post — each is a claim the character makes.",
+    "That hundreds of people were extorted over eight months — this is the accusation kishore reads, not narration.",
+    "That nagesh ever held or lost any government post."
+  ],
+
+  "season": [
+    {"ep": 1,  "turn": "The final constable list is read out at the district ground and rupa's name is not on it; kishore says so to her face while two hundred candidates and her father listen.", "hook_type": "ACCUSATION", "ends_on": "kishore reads out the date her name was struck from the roll. It is eleven months old — seven months before her father paid anyone anything.", "pays_off": null, "status": 1},
+    {"ep": 2,  "turn": "munni's engagement sweets come back from the boy's family, undelivered, because the police salary they were promised did not happen.", "hook_type": "REVEAL", "ends_on": "The ninety thousand did not come from the co-operative. hariya put the house paper in lakhan's tin box, and the first interest is due on the fifth.", "pays_off": null, "status": 1},
+    {"ep": 3,  "turn": "nagesh comes to the door with a joining letter, a khaki shirt and a name badge already stitched.", "hook_type": "ARRIVAL", "ends_on": "The posting address on the letter is Hotel Mayur, first floor — the building the Barhagarh bus stops in front of.", "pays_off": null, "status": 2},
+    {"ep": 4,  "turn": "First day at the counter. A bench of complainants, a register, a flag, and rupa writes the neatest FIR anyone on the first floor has seen.", "hook_type": "DISCOVERY", "ends_on": "The rubber stamp she has pressed onto fourteen pages spells the district with one letter wrong. Nobody on the bench has ever noticed.", "pays_off": null, "status": 2},
+    {"ep": 5,  "turn": "dularchand has her serve a land notice in her own uniform, in her own block, and she does it.", "hook_type": "THREAT", "ends_on": "Walking her back to the jeep, dularchand asks pleasantly whether her father's godown quarters are on canal-side land, and mentions that the next notice is already typed.", "pays_off": null, "status": 1},
+    {"ep": 6,  "turn": "rupa finds sarita's missing son herself, at a brick kiln two blocks away, using nothing but the bus timings and her own handwriting.", "hook_type": "RECOGNITION", "ends_on": "tapan salutes her at the ticket window and calls her madam ji, twice, in front of the queue. He is posted at the station five hundred metres away.", "pays_off": "sarita's son is found and returned; rupa's first salary of eighteen thousand pays lakhan's fifth-of-the-month interest, and the house paper stays in the box.", "status": 3},
+    {"ep": 7,  "turn": "nagesh sets her a target — forty files in ten days — and puts the confirmation of her posting on the other side of it.", "hook_type": "DEADLINE", "ends_on": "pushpa tells her the confirmation order comes at ninety days from joining. Counted out on the calendar, that is the fifth of the month the house paper falls due.", "pays_off": null, "status": 3},
+    {"ep": 8,  "turn": "kajri is caught taking money on her own account and, to save herself, hands nagesh the exact words rupa used about the stamp.", "hook_type": "BETRAYAL", "ends_on": "nagesh repeats rupa's sentence back to her word for word. She said it in the storeroom, to one person, with the door shut.", "pays_off": null, "status": 2},
+    {"ep": 9,  "turn": "rupa confronts nagesh with the stamp, the roll date and the storeroom; he does not deny any of it and offers her the register and a share.", "hook_type": "ULTIMATUM", "ends_on": "Eight months of pages, and not one carries a signature. He is holding the pen out for the first one.", "pays_off": null, "status": 4},
+    {"ep": 10, "turn": "rupa uses the first floor's own authority against dularchand and makes him withdraw the canal-side notices in the room, out loud, in front of the bench.", "hook_type": "REVERSAL", "ends_on": "dularchand pays, then asks who taught her to draft a notice like that. Nobody did. She copied the format out of the exam guide she failed with.", "pays_off": "the threat to hariya's godown quarters from ep5 is withdrawn in public, and the four canal-side farmers get their fields back.", "status": 5},
+    {"ep": 11, "turn": "kishore climbs the Hotel Mayur staircase on an unrelated errand, stands in the doorway of the first floor, and sees nothing wrong with it.", "hook_type": "ARRIVAL", "ends_on": "On his way out kishore tells the bench that this is what file work should look like, and asks rupa which batch she is from.", "pays_off": null, "status": 6},
+    {"ep": 12, "turn": "sarita comes back: her son has been picked up by the real police and the case number rupa gave her buys him nothing, and she says so standing up in the middle of the room.", "hook_type": "ACCUSATION", "ends_on": "The clerk at the district court told sarita there is no Barhagarh Sahayak Thana on any list, and every page of her file is in rupa's hand.", "pays_off": null, "status": 5},
+    {"ep": 13, "turn": "Clearing pushpa's tin box for the audit nagesh has invented, rupa finds the receipt book that goes back three years.", "hook_type": "DISCOVERY", "ends_on": "Her ninety thousand is on page four, against her father's thumbprint, dated eleven months before the recruitment notice was published.", "pays_off": null, "status": 6},
+    {"ep": 14, "turn": "rupa carries eight months of register down the staircase to the district ground on recruitment day and breaks the first floor open in front of the same two hundred people who watched her struck off.", "hook_type": "REVERSAL", "ends_on": "She writes case number one in the real station's register, and this time the stamp spells Barhagarh correctly.", "pays_off": "nagesh is taken in front of the ground; sarita's son's FIR is entered at the real station; lakhan's paper is redeemed from the seized cash and munni's exam form is filed; kajri and ratan are named; hariya says out loud, in front of the village, what he signed and when; kishore acknowledges rupa by name to the ground that watched her fail.", "status": 9}
+  ],
+
+  "sources": [
+    "https://newsinfo.inquirer.net/1649642/indian-gang-ran-fake-police-station-for-eight-months",
+    "https://theprint.in/india/bihar-police-bust-fake-police-station-in-banka-seven-arrested-so-far/1095381/",
+    "https://www.thenews.com.pk/print/983462-indian-gang-ran-fake-police-station-for-eight-months",
+    "https://www.pbs.org/newshour/world/scammer-posing-as-ambassador-ran-fake-embassy-near-new-delhi-indian-police-say",
+    "https://www.foxnews.com/world/bangladesh-bigamists-friends-to-decide-faith-as-wives-fight-over-corpse.amp"
+  ],
+
+  "_sources_note": "Every URL above was opened and returned content during this hunt. Several other pages surfaced in search and were attempted but returned HTTP 403 (malaymail, opindia, tribune.com.pk); they are deliberately not listed, because a page that would not open is not a source.",
+
+  "also_considered": [
+    {
+      "title": "The Branch That Appeared Overnight",
+      "category": "THE LONG DECEPTION",
+      "one_line": "Six people pay four lakh each for bank jobs, report for duty in pressed shirts, and serve real depositors across a counter in a branch that does not exist.",
+      "year": "2024",
+      "where": "a village in Sakti district, Chhattisgarh",
+      "mechanism": "A full retail bank branch — signage, furniture, offer letters, training sessions, working counters — stood up in a rented shop in ten days, staffed by recruits who had paid for the posts and believed they were employees.",
+      "engine": "Every deposit taken across the counter makes one more villager whose money only exists in the branch's own ledger.",
+      "scores": {"engine_longevity": 7, "hook_density": 8, "emotional_immediacy": 9, "conflict": 8, "cast_depth": 8, "total": 40},
+      "clearance": {"status": "fictionalize_first", "reasons": ["recent, living private individuals, untried allegations"]},
+      "prior_adaptations": [],
+      "why_not": "Ten days is a sprint, not a season. The staff never had time to build the standing obligations that keep a serial running past episode thirty; the Barhagarh mechanism ran eight months and accumulated exactly those obligations."
+    },
+    {
+      "title": "The Embassy on the Rented Plot",
+      "category": "THE LONG DECEPTION",
+      "one_line": "A man flies four flags over a rented house outside the capital, calls himself ambassador of two countries most people cannot find, and sells jobs abroad from the driveway.",
+      "year": "2025",
+      "where": "Ghaziabad, outskirts of New Delhi",
+      "mechanism": "Diplomatic plates on four cars, doctored photographs with world leaders, and fake seals of the foreign ministry and three dozen countries, run out of a residential building.",
+      "engine": "The costume outranks everyone who could question it, so nobody ever does.",
+      "scores": {"engine_longevity": 7, "hook_density": 7, "emotional_immediacy": 7, "conflict": 7, "cast_depth": 6, "total": 34},
+      "clearance": {"status": "fictionalize_first", "reasons": ["recent, living private individual, untried allegations"]},
+      "prior_adaptations": [],
+      "why_not": "Under 38. One man, one costume, a thin bench of people around him. Great for one episode, no cast to cut away to."
+    },
+    {
+      "title": "Two Names, One Body",
+      "category": "THE DOUBLE LIFE",
+      "one_line": "A college vice-principal keeps two names, two faiths and two wives for fifteen years, and the deception only breaks when both wives arrive to claim the same corpse.",
+      "year": "2010",
+      "where": "Dhaka, Bangladesh",
+      "mechanism": "One man maintained two full identities in the same city, and the court had to decide which funeral rite the body was owed.",
+      "engine": "Two households that each believe they are the only one, and a son in each who will eventually meet the other.",
+      "scores": {"engine_longevity": 6, "hook_density": 9, "emotional_immediacy": 10, "conflict": 8, "cast_depth": 7, "total": 40},
+      "clearance": {"status": "fictionalize_first", "reasons": ["religious identity is central and the platform will not buy communal material; would need the faith element replaced with caste-neutral family obligation, and the deceased is recent"]},
+      "prior_adaptations": [],
+      "why_not": "The engine turns on a religious dispute, which is exactly the audience-splitting material the brief rejects. Strip that out and the mechanism goes with it."
+    }
+  ],
+
+  "why_this_sells": "Anyone who has ever paid for a job recognises the fear in the first eight seconds: that the receipt in your father's pocket is worth nothing, and that you will be the one standing at the counter when everybody finds out."
+}

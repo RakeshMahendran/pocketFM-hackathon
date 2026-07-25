@@ -1,0 +1,138 @@
+{
+  "event_id": "evt_bharwara_2026",
+  "title": "The Book That Never Closes",
+  "one_line_summary": "The only boy in the hamlet who can read is hired to keep the brick kiln's account book, and the first entry he is made to read aloud to his neighbours is his own mother's.",
+  "fantasy": "the book reads back",
+  "category": "THE BARGAIN COMES DUE",
+
+  "engine": "The ledger has no credit column — every day worked is entered as a cost and no payment has ever been recorded against the original advance — so the number can only grow, it is inherited and partitioned like land, and the only man alive who can read the book to the people it is about is one of the people it is about.",
+
+  "why_this_works": "The listener understands the arithmetic in episode one; birju does not understand it until episode nine, and by then he is the one writing it. That gap is the show. After that the question stops being 'will he find out' and becomes 'how many households will he enter before he stops' — and because every line is a family that eats or does not eat, he cannot walk away without taking the hamlet with him. The climb is audible: the widow who watched him read his mother's number out in the yard in episode one asks him to check her dead son's number in episode six, and the man who made him read it signs a receipt for what he owes, in that same yard, in episode fourteen.",
+
+  "protagonist": {
+    "id": "birju",
+    "who": "Twenty-one. The first person in bharwara hamlet to finish class ten. Hired as the kiln's munshi because he writes a clean hand and costs less than a man from town.",
+    "wants": "An appointment letter with his name printed on it, a chair that is his, and to marry chameli before the next season.",
+    "ashamed_of": "That in 2009 he read a paper aloud to his mother and told her it was a receipt, and she put her thumb on it, and he was twelve and wrong.",
+    "does_not_know_at_start": "That the book he has been given begins at page one because there is an earlier volume in the almirah, that the figure he was told to carry forward is his own household's, and that the original advance was taken in 1974 by a man he never met."
+  },
+
+  "antagonist": {
+    "id": "dhaniram",
+    "who": "Sixty-three. Owns the kiln at teghra more and the ration shop at the crossing, and keeps both in the same book. Has never raised his voice at anyone in the hamlet and has never been contradicted either.",
+    "wants_incompatibly": "To partition his estate between his three sons before he dies — and the households in the book are the estate, so every name must have a written total against it and a literate hand to write it."
+  },
+
+  "timeline": [
+    {"id": "t1", "date": "circa 1980s", "what_happened": "A labourer took a loan of 5,000 rupees from a middleman who also ran a brick kiln and a ration shop; the loan was still unpaid decades later.", "confidence": "reported", "source": "https://themigrationstory.com/post/the-inheritance-of-debt-bihars-musahars-still-marry-give-birth-in-bondage/"},
+    {"id": "t2", "date": "2015", "what_happened": "The same debt stood at 42,000 rupees and was divided among the debtor's three sons at 14,000 rupees each — the debt inherited and partitioned like property.", "confidence": "reported", "source": "https://themigrationstory.com/post/the-inheritance-of-debt-bihars-musahars-still-marry-give-birth-in-bondage/"},
+    {"id": "t3", "date": "2023", "what_happened": "One son's share of that debt had grown to 89,000 rupees; a neighbouring family's initial debt of under 5,000 rupees had become 63,000 over two decades.", "confidence": "reported", "source": "https://themigrationstory.com/post/the-inheritance-of-debt-bihars-musahars-still-marry-give-birth-in-bondage/"},
+    {"id": "t4", "date": "2019", "what_happened": "Reporting from the kiln belt documented 500 rupees borrowed being entered in the accounts as 1,000, against a government-stipulated daily wage of 960 rupees of which workers actually received roughly half, at a production target of 1,000 bricks a day.", "confidence": "reported", "source": "https://www.aljazeera.com/features/2019/10/21/the-spiralling-debt-trapping-pakistans-brick-kiln-workers/"},
+    {"id": "t5", "date": "undated, systemic", "what_happened": "The advance is taken by one household head — for a marriage, an illness — but is worked off by the whole household, subject to regular deductions and further advances, and is transferred inter-generationally.", "confidence": "reported", "source": "https://www.opendemocracy.net/en/beyond-trafficking-and-slavery/brick-kiln-workers-and-debt-trap-in-pakistani-punjab/"},
+    {"id": "t6", "date": "undated, systemic", "what_happened": "Workers describe the arrangement in one sentence: once you ask for a loan, you become a debtor forever, and nobody cares.", "confidence": "reported", "source": "https://www.cadtm.org/Brick-kiln-workers-and-the-debt"},
+    {"id": "t7", "date": "2026-03-17", "what_happened": "137 bonded labourers — 40 men, 46 women, 51 children — were rescued from a kiln operation, and an FIR was registered against the operator and against his accountant.", "confidence": "reported", "source": "https://themigrationstory.com/post/the-inheritance-of-debt-bihars-musahars-still-marry-give-birth-in-bondage/"},
+    {"id": "t8", "date": "2026-04", "what_happened": "A month after the rescue, 62 of the rescued workers had still not been given the release certificates the law requires to be issued within 24 hours; fines of 1 lakh rupees for missing a season, 500 rupees a day for time off and 10,000 rupees for a hen walking across drying bricks were described by workers.", "confidence": "alleged", "source": "https://themigrationstory.com/post/the-inheritance-of-debt-bihars-musahars-still-marry-give-birth-in-bondage/"}
+  ],
+
+  "_timeline_note": "Eight entries because the opened record supports eight. Everything in `season` is invented and appears nowhere here; an invented episode does not become sourced by being written down twice.",
+
+  "people": [
+    {"name": "Asha Devi", "role": "brick kiln worker named in reporting; joined the bonded household as a bride in 2008", "public_or_private": "private", "living": true},
+    {"name": "Lita Manjhi", "role": "her husband; inherited a third share of his father's debt", "public_or_private": "private", "living": true},
+    {"name": "Lalo Manjhi", "role": "the man who took the original 5,000 rupee loan", "public_or_private": "private", "living": "unknown"},
+    {"name": "Nepali Manjhi", "role": "neighbouring bonded labourer whose sub-5,000 rupee debt became 63,000", "public_or_private": "private", "living": true},
+    {"name": "Ramashish Prasad Yadav", "role": "middleman, kiln owner and ration shop licensee named in the FIR", "public_or_private": "private", "living": true},
+    {"name": "Devender Yadav", "role": "accountant named in the FIR alongside the operator", "public_or_private": "private", "living": true},
+    {"name": "Yasmin", "role": "kiln worker quoted on 500 rupees being entered as 1,000", "public_or_private": "private", "living": true},
+    {"name": "Ghulam Fatima", "role": "founder of a bonded labour liberation organisation; a public figure by her own choice", "public_or_private": "public", "living": true}
+  ],
+
+  "_people_note": "Eight names because the reporting names eight adults. None of them is the protagonist, none of them appears in the fiction, and no character in `cast` is a portrait of any of them.",
+
+  "cast": [
+    {"char_id": "birju", "name": "Birju", "role": "twenty-one, first in the hamlet to finish class ten, hired as the kiln's munshi", "want": "an appointment letter with his name printed on it, and never again to read a paper to someone who cannot check him", "maps_to": "composite of a kiln accountant and a young literate worker", "composite": true},
+    {"char_id": "dhaniram", "name": "Dhaniram", "role": "owns the kiln at teghra more and the ration shop at the crossing", "want": "every household written down with a total against it, so his three sons can divide them cleanly when he dies", "maps_to": "kiln operator and ration shop licensee", "composite": true},
+    {"char_id": "phulwa", "name": "Phulwa", "role": "birju's mother; moulds and stacks; cannot read", "want": "her thumbprint taken off the paper she put it on in 2009", "maps_to": "bonded household member", "composite": true},
+    {"char_id": "lakhan", "name": "Lakhan", "role": "birju's elder brother; the fastest moulder at the kiln", "want": "to be paid once in cash, in the open, in front of the hamlet", "maps_to": "bonded household member", "composite": true},
+    {"char_id": "sanichari", "name": "Sanichari", "role": "widow, the oldest worker at teghra more, remembers the kiln before the shed was built", "want": "the release paper she was promised twenty-two years ago", "maps_to": "long-term bonded worker", "composite": true},
+    {"char_id": "devlal", "name": "Devlal", "role": "dhaniram's eldest son; runs the weighing, the counting and the fines", "want": "to prove to his father that he can run the kiln harder than the old man ever did", "maps_to": "invented", "composite": false},
+    {"char_id": "rajni", "name": "Rajni", "role": "clerk at the sohanpur block office; release certificates pass through her hands", "want": "her pending file count down to zero before her transfer comes through", "maps_to": "labour department official", "composite": true},
+    {"char_id": "maqsood", "name": "Maqsood", "role": "truck contractor; moves families between kilns for a commission per head", "want": "his commission, and never to be the man holding a family on the day of a raid", "maps_to": "labour contractor", "composite": true},
+    {"char_id": "chameli", "name": "Chameli", "role": "tenant farmer's daughter; birju's intended", "want": "a marriage that does not put her name in anybody's book", "maps_to": "invented", "composite": false},
+    {"char_id": "tirath", "name": "Tirath", "role": "the kiln's previous munshi; sacked, drinks, knows what is in the almirah", "want": "the four months' pay he was never given, and to be a man people are careful around again", "maps_to": "former kiln accountant", "composite": true},
+    {"char_id": "sudama", "name": "Sudama", "role": "young man from bharwara who ran to Punjab and came back with cash in a belt", "want": "to buy his mother out of the book and be called by his own name at the crossing", "maps_to": "invented", "composite": false},
+    {"char_id": "hemwati", "name": "Hemwati", "role": "survivor leader from the next block; walks complaints to the district office herself", "want": "thirty-one signatures on one complaint, and her own release certificate honoured", "maps_to": "survivor-activist", "composite": true}
+  ],
+
+  "adaptability": {"conflict": 9, "characters": 9, "stakes": 10, "serializability": 9, "resonance": 9, "total": 46},
+
+  "hunt_scores": {"engine_longevity": 10, "hook_density": 8, "emotional_immediacy": 9, "conflict": 9, "cast_depth": 9, "total": 45},
+
+  "clearance": {
+    "status": "fictionalize_first",
+    "reasons": [
+      "The anchor rescue is from March 2026 and involves living private individuals, including two men named in an FIR whose matter is untried. Neither is a character here; dhaniram is a composite creditor and the story is told from an invented munshi's point of view.",
+      "Every name, the hamlet, the block, the district and the kiln are invented. Nothing in the fictionalization map maps to a named real person, and no real name appears in any episode.",
+      "India retains criminal defamation alongside civil, and the accused in the source matter are living private citizens who have not been convicted. The FIR, the fines and the withheld certificates are rendered only as things characters assert, never as narration.",
+      "Children are present in the world of the kiln because they are present in the record, but no minor is a viewpoint character, is named in the cast, or is the subject of any beat.",
+      "Timeline entry t8 is tagged alleged. It is the workers' account and must never be narrated as fact."
+    ]
+  },
+
+  "novelty": {
+    "prior_adaptations": [
+      "Damul (1985) — Hindi feature on bonded labour in rural Bihar, adapted from the short story Kaalsootra. Different mechanism entirely: a landlord coercing a labourer into theft. Not an adaptation of this event and it predates it by forty-one years.",
+      "Bonded by Brick (documentary series) — journalism, not drama.",
+      "Bonded (short documentary about a survivor leader) — journalism, not drama."
+    ],
+    "score": 8,
+    "note": "The subject has documentary coverage. The mechanism — a ledger with no credit column, partitioned between the creditor's heirs, read aloud by a debtor's son — has no fiction adaptation found."
+  },
+
+  "fictionalization_map": {
+    "Bihar / the Gangetic kiln belt": "an unnamed district, the plain north of the river",
+    "the rescued hamlet": "bharwara",
+    "the kiln site": "teghra more",
+    "the block office": "sohanpur",
+    "kiln operator and ration shop licensee": "dhaniram",
+    "the operator's family running day-to-day work": "devlal",
+    "kiln accountant (composite, protagonist, invented)": "birju",
+    "former kiln accountant": "tirath",
+    "bonded household members": "phulwa, lakhan, sanichari",
+    "labour contractor moving families between kilns": "maqsood",
+    "labour department staff handling release certificates": "rajni",
+    "survivor-activist": "hemwati",
+    "the peshgi/khuraki advance": "the carry-forward",
+    "the account book": "the book"
+  },
+
+  "never_narrate_as_fact": [
+    "t8 — the withheld release certificates and the schedule of fines (1 lakh for a missed season, 500 a day, 10,000 for a hen). Characters assert these. The narrator does not."
+  ],
+
+  "season": [
+    {"ep": 1, "turn": "birju is handed the book on pay-out day and made to read the season's accounts aloud to the whole hamlet; the first house he calls is his own.", "hook_type": "REVEAL", "ends_on": "The figure he reads out for his own house is eighty-nine thousand four hundred. His mother's thumbprint is on the line above it, dated nine years before he could write.", "pays_off": null, "status": 1},
+    {"ep": 2, "turn": "chameli's father calls off the marriage in the ration queue, out loud, because birju's house is in the book.", "hook_type": "DISCOVERY", "ends_on": "chameli's father says the figure aloud in the queue and he has it right to the rupee. Nobody at the kiln has told him anything.", "pays_off": null, "status": 1},
+    {"ep": 3, "turn": "tirath, the sacked munshi, comes to the kiln gate drunk, is turned away, and leaves birju a torn page.", "hook_type": "ARRIVAL", "ends_on": "The torn page is numbered four hundred and eleven. The book birju was given begins at page one.", "pays_off": null, "status": 1},
+    {"ep": 4, "turn": "dhaniram makes birju write the season's fines, including four days of fine against his own brother.", "hook_type": "THREAT", "ends_on": "dhaniram asks, kindly, whether phulwa still keeps her card in the tin behind the stove. birju has never told him about the tin.", "pays_off": null, "status": 1},
+    {"ep": 5, "turn": "birju tries to arrange a way out through maqsood's truck and learns what a seat costs.", "hook_type": "BETRAYAL", "ends_on": "His own name is in the book now, entered as a debtor for the advance of his own salary, in his own handwriting. He wrote it on Tuesday without knowing what it was.", "pays_off": null, "status": 1},
+    {"ep": 6, "turn": "birju checks sanichari's arithmetic in front of rajni and dhaniram has to strike six thousand rupees off it in the open.", "hook_type": "RECOGNITION", "ends_on": "sanichari calls him munshi-ji in front of forty people, then asks him to check her son's number too. Her son died in 2011 and his number is still being carried forward.", "pays_off": "The claim raised in ep1 that the arithmetic can be checked at all — it is checked, publicly, and six thousand rupees comes off sanichari's line.", "status": 2},
+    {"ep": 7, "turn": "devlal doubles the fines to impress his father and takes it out of lakhan at the weighing while birju stands there.", "hook_type": "ACCUSATION", "ends_on": "lakhan holds the fine slip up over his head so the whole yard can see it. The handwriting on it is birju's.", "pays_off": null, "status": 2},
+    {"ep": 8, "turn": "the ration inspection comes; birju's books are so clean the inspector compliments them, and dhaniram has to say in front of his sons who wrote them.", "hook_type": "DISCOVERY", "ends_on": "That night birju opens the almirah with his own key. Volume one is in it. The first page is dated 1974 and the first name on it is his grandfather's.", "pays_off": null, "status": 3},
+    {"ep": 9, "turn": "birju copies volume one by lamp for three nights and finally does the arithmetic himself.", "hook_type": "REVEAL", "ends_on": "In fifty-one years not one rupee has ever been entered against the debt. The book has no credit column. There is nowhere in it that a payment could be written.", "pays_off": null, "status": 3},
+    {"ep": 10, "turn": "birju shows dhaniram that his three sons cannot divide an untotalled debt, and sells himself as the only man who can produce the total.", "hook_type": "REVERSAL", "ends_on": "The typed appointment letter names him munshi of both kilns. Under his name, in the same typing, is what he is now responsible for: eleven lakh forty thousand rupees, forty-one households.", "pays_off": "birju's want from ep1 — the printed appointment letter and the chair. He gets both, in front of devlal, in the office he was made to stand in.", "status": 5},
+    {"ep": 11, "turn": "hemwati walks over from the next block with a complaint and asks birju to sign as witness; he refuses.", "hook_type": "ARRIVAL", "ends_on": "hemwati leaves the complaint on his table anyway. Line nine is his mother's name, and it is not in his handwriting.", "pays_off": null, "status": 5},
+    {"ep": 12, "turn": "devlal, cut out of the book, sells four households to maqsood behind his father's back.", "hook_type": "BETRAYAL", "ends_on": "maqsood's transfer list has four households on it. Beside phulwa's name is a signature — birju's own, dated the day he was given the chair.", "pays_off": null, "status": 4},
+    {"ep": 13, "turn": "birju goes to sohanpur to stop the transfer and rajni shows him the only machinery that exists.", "hook_type": "DEADLINE", "ends_on": "The inspection is fixed for the eleventh. Whatever the book says on the eleventh becomes the government's number, and the law requires it to be produced by the man whose name is on the appointment letter.", "pays_off": null, "status": 6},
+    {"ep": 14, "turn": "on the eleventh, in the same yard, birju reads the accounts aloud again — this time the credit side, fifty-one years of bricks at the printed rate — and the total runs the other way.", "hook_type": "REVERSAL", "ends_on": "dhaniram signs the receipt for what he owes them, one lakh sixty-two thousand rupees, and birju reads it back to him out loud, twice, the way it should have been read to phulwa in 2009.", "pays_off": "Everything: phulwa's thumbprint cancelled, sanichari's certificate in her hand, lakhan paid in cash in the open, tirath's four months, hemwati's signatures, chameli's marriage, the 1974 advance closed, and the man who made birju read in ep1 made to hear it read back in front of the same hamlet.", "status": 9}
+  ],
+
+  "sources": [
+    "https://themigrationstory.com/post/the-inheritance-of-debt-bihars-musahars-still-marry-give-birth-in-bondage/",
+    "https://www.aljazeera.com/features/2019/10/21/the-spiralling-debt-trapping-pakistans-brick-kiln-workers/",
+    "https://www.opendemocracy.net/en/beyond-trafficking-and-slavery/brick-kiln-workers-and-debt-trap-in-pakistani-punjab/",
+    "https://www.cadtm.org/Brick-kiln-workers-and-the-debt"
+  ],
+
+  "_sources_note": "Four URLs because four pages actually returned content. pakistantoday.com.pk, propakistani.pk, malaymail.com and deccanherald.com were attempted and returned HTTP 403; msn.com returned an empty body. None of them are listed, and no fact in this dossier rests on them."
+}

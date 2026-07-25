@@ -89,8 +89,18 @@ story about a living private Indian citizen is higher than it would be in the US
 
 ## Output
 
-Return a `candidates` array. Every URL in `sources` must be a page you actually
-opened during this search — never a guessed or remembered address.
+Hunt across all eight categories, then return **one winner** — the single event
+you would stake the series on — and the other candidates you seriously
+considered, so the choice is inspectable.
+
+Do not pick the highest-scoring candidate mechanically. Pick the one whose engine
+you believe will still be generating conflict at episode 150, and say why in
+`why_this_sells`.
+
+Every URL in `sources` must be a page you actually opened during this search —
+never a guessed or remembered address.
+
+Both `winner` and each entry in `also_considered` use this shape:
 
     {
       "title": "...",

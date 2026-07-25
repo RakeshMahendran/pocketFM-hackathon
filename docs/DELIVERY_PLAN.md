@@ -22,6 +22,8 @@ since it was written.
 | 8 | **`tasks.py` replaces `make`.** | `make` is not installed on the Windows dev box. One implementation; the Makefile delegates. |
 | 9 | **Discovery is OpenAI web search, not the four source APIs.** One hunt per story category, scored by the scout prompt in `src/discovery/prompts/hunter.md`. Decided 2026-07-25 by P3. | No API tokens to chase, and the scout can hunt *mechanism* rather than keyword — the fetchers could only match vocabulary they were told in advance. Costs: discovery becomes a fourth LLM stage, and provenance now has to be derived rather than assumed. See the two consequences below. |
 
+| 10 | **Generation runs on Claude, not OpenAI.** Decided 2026-07-25 by P3, and it reverses decision 1 for the whole team. | No OpenAI key was available and the build could not wait. **P1 and P2 must know**: `.env.example`'s `OPENAI_MODEL_*` routing, the `client.responses.create` calls in `src/discovery/` and `src/scoring/`, and B1's harness in `src/generation/` all assume OpenAI. If the hackathon is scored on sponsor-platform use, this is a visible cost — raise it before the deck is written. |
+
 ### Consequences of decision 9 — **P1 action needed**
 
 - **Tier is gone.** `CLAUDE.md`'s vocabulary table defines `documented` / `anecdotal` / `historical` as fetcher-derived provenance. With search sourcing there is no fetcher to derive it from, and a domain allowlist graded good outlets as untrusted. Corpus items carry a plain `domain` instead, and clearance — which is what tier fed — now comes straight from the scout. `CLAUDE.md` is P1's file, so this is a request, not an edit.

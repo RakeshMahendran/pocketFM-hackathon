@@ -1,0 +1,141 @@
+{
+  "event_id": "evt_barkheri_1968",
+  "title": "Nine Days of the Year",
+  "one_line_summary": "A shrine sweeper who has rung the four o'clock bell since she was nine is thrown out of the sanctum for touching it on a paying day — and then learns that nine days of the year were her grandmother's, were sold for eleven hundred rupees, and that in law a turn of worship cannot be sold.",
+  "fantasy": "they left her out",
+
+  "category": "FAMILY BETRAYAL",
+  "secondary_category": "SUPERNATURAL INTRUSION",
+
+  "engine": "The god must be worshipped every day forever, and every single day of the circuit belongs to one named human who officiates and keeps everything given that day — so the calendar itself is heritable property, the family multiplies faster than the calendar does, and there is no year in which someone's turn is not being taken from them.",
+
+  "why_this_works": "It sells the underestimated one. The mechanism is a real legal object that most listeners have never had named for them: a hereditary turn of worship — pala in Bengal, osra in Rajasthan — which the Supreme Court has held is immovable property, and which the Supreme Court has separately held cannot be transferred by sale for money. Put those two holdings side by side and the entire show falls out of them: the paper that dispossessed kesar's family is the same paper that proves it never happened, and jorawar's power rests on a stack of documents that are strong socially and worthless legally. The listener understands the trap by episode four. kesar does not understand it until episode eight. That gap is the show. After that the question stops being 'was she cheated' and becomes 'how many of the other five houses were cheated the same way, and what happens to a village where every day of the year is suddenly in dispute.' The climb is audible because the shrine is audible: episode 1 she is dragged off the bell rope in front of the fair; episode 9 she rings it and nobody moves; episode 14 the same crowd hears her name read first on the board. And every reversal is public by construction, because a turn of worship is a thing you exercise in front of a courtyard full of people or you do not hold it at all.",
+
+  "protagonist": {
+    "id": "kesar",
+    "who": "Twenty-four. Sweeps the shrine of Baba Ghanteshwar at Barkheri, lights its ninety-one lamps, rings the four o'clock bell. Has done it unpaid since she was nine because her mother did it before her. Listed on the seva board as sevika, which is not a share of anything.",
+    "wants": "To be paid once. Then, after episode six, to hold a day — one day of the five hundred and forty — in her own name where it can be read out.",
+    "ashamed_of": "That her mother begs. That she has taken food from the shrine kitchen for fifteen years and has never once been asked to sit down to eat it.",
+    "does_not_know_at_start": "That her grandmother mohari held nine days of the Barkheri circuit; that in 1968 those nine days were passed to jorawar's father by a deed that says the word 'sold' and names eleven hundred rupees; and that a turn of worship cannot be sold for money and cannot pass unregistered — so the nine days never left her family, and every rupee taken on those nine days for fifty-seven years was taken from her."
+  },
+
+  "antagonist": {
+    "id": "jorawar",
+    "who": "Sixty-two. Holds two hundred and fourteen of the five hundred and forty days. Chairs the shrine committee. Addressed as manager sahib by men older than him. Has never raised his voice in the courtyard and has never had to.",
+    "wants_incompatibly": "The circuit re-cut and sealed at the next full moon with the whole calendar consolidated in one hand — his — before anyone thinks to ask which of his fifty-one transfers were ever registered."
+  },
+
+  "timeline": [
+    {"id": "t1", "date": "1820-1880", "what_happened": "The shebaiti right of a family shrine passed by written transfer between unrelated men twice in sixty years — from the founder's line to Srimanta Pandit in 1820, and to Shashi Bhusan Banerjee in 1880 — establishing that the office was being treated in practice as transferable property.", "confidence": "reported", "source": "https://indiankanoon.org/doc/1714390/"},
+    {"id": "t2", "date": "1907", "what_happened": "A widow, Pramila Debi, sold a half-share of the temple property and the shebaiti right to Upendra Nath Ganguli for Rs 1,200, pleading legal necessity arising from litigation expenses.", "confidence": "reported", "source": "https://indiankanoon.org/doc/1714390/"},
+    {"id": "t3", "date": "1961", "what_happened": "At the temple of Kalyanji Maharaj, Diggi, district Tonk, the hereditary office was held in rotating turns — called osra in Rajasthan, pala in West Bengal — of ten days each within an eighteen-month circuit; during her turn the holder officiated as pujari and received all offerings made at the temple. In that year Mst. Acharaj executed an unregistered deed purporting to pass her osra to another.", "confidence": "reported", "source": "https://indiankanoon.org/doc/333037/"},
+    {"id": "t4", "date": "1974-08-16", "what_happened": "The Supreme Court held that neither the temple nor the deities nor the shebaiti right can be transferred by sale for pecuniary consideration; the doctrine of legal necessity reaches the temporality only, never the office.", "confidence": "verified", "source": "https://indiankanoon.org/doc/1714390/"},
+    {"id": "t5", "date": "1978-05-05", "what_happened": "The Supreme Court held that a hereditary office of shebait enjoyed by turn is immovable property; the 1961 deed, being unregistered, was inadmissible in evidence and the claim founded on it was dismissed.", "confidence": "verified", "source": "https://indiankanoon.org/doc/333037/"},
+    {"id": "t6", "date": "2019-09-17", "what_happened": "The Supreme Court held that a shebait is duty bound to protect the property of the temple and cannot usurp it for his own gain; a shebait family occupying temple land was found to be unauthorised occupants rather than tenants, and the revenue entry was ordered to remain in the temple's name.", "confidence": "verified", "source": "https://www.theweekendleader.com/Headlines/37870/sc-shebait-cannot-usurp-temple-property-needs-to-protect-it.html"},
+    {"id": "t7", "date": "2015-2018", "what_happened": "Contests over who may officiate at a temple, and therefore over who receives what is given there, continue to be fought as hereditary-right litigation; a man who trained eighteen months as an archaka was arrested in September 2015 for demanding appointment, the certification being stayed by court.", "confidence": "reported", "source": "https://caravanmagazine.in/perspectives/sacred-rights"}
+  ],
+
+  "_timeline_note": "Seven entries because the record supports seven. The mechanism is sourced; Barkheri, the shrine of Baba Ghanteshwar, the five hundred and forty day circuit, the nine days, the 1968 deed and every person in the season are invented. Nothing in `season` is restated here.",
+
+  "people": [
+    {"name": "Mst. Acharaj", "role": "held a hereditary osra of ten days in an eighteen-month circuit at Diggi; executed the 1961 deed", "motive": "not stated in the record", "public_or_private": "private", "living": false},
+    {"name": "Ram Rattan", "role": "claimed the osra under the 1961 deed; appellant, recorded as deceased by the time of judgment", "motive": "to take the turn and the offerings that come with it", "public_or_private": "private", "living": false},
+    {"name": "Bajrang Lal", "role": "respondent, contested the deed as unstamped and unregistered", "motive": "to keep the turn in the family line", "public_or_private": "private", "living": false},
+    {"name": "Pramila Debi", "role": "widow of Shashi Bhusan Banerjee; sold a half-share of the shebaiti right in 1907 for Rs 1,200", "motive": "litigation expenses, pleaded as legal necessity", "public_or_private": "private", "living": false},
+    {"name": "Upendra Nath Ganguli", "role": "purchaser of the half-share in 1907", "motive": "the office and its temporalities", "public_or_private": "private", "living": false},
+    {"name": "Kali Kinkor Ganguly", "role": "legatee of the purchaser; appellant in 1974", "motive": "to enforce the 1907 purchase", "public_or_private": "private", "living": false}
+  ],
+
+  "_people_note": "Short, and it should be. The record for this mechanism is judgment text: it names litigants and nobody else. There is no reported modern Barkheri and no living private individual behind kesar, jorawar, mohari or the 1968 deed. Filling this list further would have meant inventing people into the clearance section, which is the one place invention is not allowed.",
+
+  "cast": [
+    {"char_id": "kesar", "name": "Kesar", "role": "sweeps the shrine, lights the lamps, rings the four o'clock bell; unpaid, unrostered, and after episode one, unnamed", "want": "one day of the five hundred and forty, in her own name, read out where the courtyard can hear it", "maps_to": "invented", "composite": true},
+    {"char_id": "jorawar", "name": "Jorawar", "role": "holds 214 days; chairs the shrine committee; called manager sahib", "want": "the circuit re-cut and sealed in one hand before anyone asks which of his transfers were registered", "maps_to": "composite of the dominant shebait branch in a turn-holding shrine", "composite": true},
+    {"char_id": "bhanwari", "name": "Bhanwari", "role": "kesar's mother; thirty-one years of unpaid seva at the same shrine", "want": "her daughter married out of Barkheri before anyone remembers whose granddaughter she is", "maps_to": "invented", "composite": true},
+    {"char_id": "mohari", "name": "Mohari", "role": "kesar's grandmother; held nine days of the circuit; dead nineteen years", "want": "spoken of only in the record — that her nine days were lent, not given", "maps_to": "composite of Mst. Acharaj and Pramila Debi, both turn-holding women whose transfers were later attacked", "composite": true},
+    {"char_id": "girdhari", "name": "Girdhari", "role": "keeper of the shrine's day-ledger; the only man in Barkheri who can read the old hand", "want": "to remain the only man who can read it", "maps_to": "temple record-keeper", "composite": true},
+    {"char_id": "tejmal", "name": "Tejmal", "role": "jorawar's younger brother; holds 61 days scattered across the monsoon when nobody comes", "want": "his sixty-one days made continuous and moved onto the fair, where the money is", "maps_to": "junior branch shebait", "composite": true},
+    {"char_id": "sitara", "name": "Sitara", "role": "turn-broker out of Jhilan town; buys days off small holders ahead of re-cuts and re-lets them", "want": "a written turn clean enough to put in a company's name", "maps_to": "invented", "composite": true},
+    {"char_id": "hukum", "name": "Hukum", "role": "sub-registrar at Jhilan", "want": "to reach his pension in nineteen months with nothing registered under his hand that anyone reopens", "maps_to": "registering officer", "composite": true},
+    {"char_id": "phoolchand", "name": "Phoolchand", "role": "the old pleader at Jhilan who drafted the 1968 deed and every deed jorawar's house holds", "want": "to die before anyone asks him to read out what he wrote in 1968", "maps_to": "invented", "composite": true},
+    {"char_id": "narmada", "name": "Narmada", "role": "mohari's younger sister-in-law; lives in Jhilan town; the written-out branch's memory", "want": "the nine days back, and an apology said out loud in the same courtyard", "maps_to": "invented", "composite": true},
+    {"char_id": "rukmani", "name": "Rukmani", "role": "jorawar's daughter-in-law; counts the donation box and writes the day-book", "want": "the box opened where she can see it", "maps_to": "invented", "composite": true},
+    {"char_id": "chhotu", "name": "Chhotu", "role": "thirteen; rings the second bell; jorawar's household servant", "want": "one whole day, ever, with his name against it", "maps_to": "invented", "composite": true},
+    {"char_id": "kanhaiya", "name": "Kanhaiya", "role": "young priest hired by the day, no share of the circuit at all", "want": "a share by marriage since blood will not give him one", "maps_to": "invented", "composite": true}
+  ],
+
+  "season": [
+    {"ep": 1, "turn": "On the fair morning kesar rings the four o'clock bell as she has for fifteen years, and jorawar has her pulled off the rope in front of the fair crowd for touching it on a paying day.", "hook_type": "ACCUSATION", "ends_on": "Her name is scraped off the seva board with the knife they use for coconuts, while the fair queue watches.", "pays_off": null, "status": 1},
+    {"ep": 2, "turn": "bhanwari goes to jorawar's gate to beg, and what she begs for is not her daughter's place.", "hook_type": "REVEAL", "ends_on": "bhanwari does not ask him to put kesar back on the board. She asks him not to open the 1968 page.", "pays_off": null, "status": 1},
+    {"ep": 3, "turn": "sitara arrives from Jhilan to buy days ahead of the re-cut and hires kesar for forty rupees a day to walk her round the shrine and read the roll aloud.", "hook_type": "ARRIVAL", "ends_on": "sitara's list has nine days on it with no holder's name written against them.", "pays_off": null, "status": 2},
+    {"ep": 4, "turn": "girdhari, who has been feeding kesar answers, carries her questions to jorawar to keep his post as ledger-keeper.", "hook_type": "BETRAYAL", "ends_on": "jorawar says the number nine to kesar before kesar has said it to him.", "pays_off": null, "status": 1},
+    {"ep": 5, "turn": "jorawar comes to bhanwari's door with a courtesy: the seva roll can be rewritten tonight if bhanwari signs a paper stating her mother-in-law never held a turn.", "hook_type": "THREAT", "ends_on": "The paper already carries bhanwari's thumbprint at the bottom, from something she signed nineteen years ago.", "pays_off": null, "status": 1},
+    {"ep": 6, "turn": "kesar makes girdhari read the 1968 page aloud in the shrine office in front of tejmal, rukmani and the committee, and he cannot get through it without saying the word and the figure.", "hook_type": "RECOGNITION", "ends_on": "girdhari says the name mohari out loud, then says to tejmal: nine days, and they were hers.", "pays_off": "Who struck her name off the board and why. The 1968 page is read out, the word 'sold' and the figure eleven hundred rupees are said in public, and kesar's grandmother is named for the first time in nineteen years.", "status": 3},
+    {"ep": 7, "turn": "jorawar announces the circuit will be re-cut and sealed at the next full moon and that any claim must arrive registered, in writing, before then.", "hook_type": "DEADLINE", "ends_on": "Twenty-two days. And the deed kesar needs was drawn by the same pleader who drew every deed jorawar holds.", "pays_off": null, "status": 2},
+    {"ep": 8, "turn": "kesar reaches phoolchand's almirah in Jhilan and gets the 1968 deed in her hands.", "hook_type": "DISCOVERY", "ends_on": "The deed says sold, for eleven hundred rupees, and it carries no registration stamp of any kind.", "pays_off": null, "status": 4},
+    {"ep": 9, "turn": "kesar takes the bell rope at four in the morning on one of the nine days and rings it, and tejmal stands beside her and does not stop her, because his own scattered sixty-one days rest on the same rule.", "hook_type": "REVERSAL", "ends_on": "tejmal calls it kesar's ninth in front of the committee, and rukmani writes it into the day-book that way.", "pays_off": null, "status": 5},
+    {"ep": 10, "turn": "bhanwari tells kesar what she put her thumb to nineteen years ago.", "hook_type": "REVEAL", "ends_on": "The paper bhanwari signed was not about the nine days. It was kesar's birth entry, and the father's column on it carries tejmal's name.", "pays_off": "Why bhanwari begged instead of fought, and what she has been protecting for nineteen years. The thumbprint from episode five is explained, out loud, by the woman who made it.", "status": 6},
+    {"ep": 11, "turn": "sitara, who has already paid for days that cannot lawfully be sold, turns on kesar and gives her six days to make the rule stick in the register or be named as the forger of the ledger entry.", "hook_type": "ULTIMATUM", "ends_on": "sitara has paid jorawar four lakh sixty thousand rupees in cash for eleven days, and holds no receipt for any of it.", "pays_off": null, "status": 5},
+    {"ep": 12, "turn": "at the sub-registrar's office hukum refuses to accept jorawar's re-cut papers, because a turn of worship is immovable property and not one of jorawar's fifty-one transfers was ever registered.", "hook_type": "RECOGNITION", "ends_on": "hukum reads the entry aloud — nine days, Barkheri circuit, in the name of kesar, granddaughter of mohari — and jorawar has to sign the register as witness to it.", "pays_off": null, "status": 7},
+    {"ep": 13, "turn": "tejmal takes jorawar's offer — sixty-one continuous days across the fair — and swears an affidavit that mohari surrendered the nine days verbally before 1968.", "hook_type": "BETRAYAL", "ends_on": "tejmal's affidavit puts him in mohari's room in April 1968, and the deed in kesar's hand is dated the January before it.", "pays_off": null, "status": 6},
+    {"ep": 14, "turn": "On the fair morning, one year to the day from episode one, in the same courtyard and in front of the same crowd, the circuit is re-cut on the evidence: tejmal's affidavit collapses on its own date, sitara produces what she paid, hukum's register stands, and jorawar's two hundred and fourteen days are reduced to the eleven he can prove.", "hook_type": "REVERSAL", "ends_on": "The board is rewritten in front of the fair. The first line reads: kesar, nine days, by right of mohari.", "pays_off": "Everything. The nine days return and are registered. jorawar says kesar's name and her turn out loud in front of the crowd that watched her dragged off the rope. bhanwari's thumbprint is cancelled in open committee and tejmal acknowledges the birth entry where the courtyard can hear it. sitara's four lakh sixty thousand is ordered returned out of jorawar's fair collections. girdhari reads the new roll. narmada gets her apology in the courtyard she asked for. chhotu is given the second bell day with his name against it. phoolchand's 1968 deed is produced, read and impounded.", "status": 9}
+  ],
+
+  "adaptability": {"conflict": 9, "characters": 10, "stakes": 9, "serializability": 10, "resonance": 9, "total": 47},
+
+  "scores": {"engine_longevity": 10, "hook_density": 9, "emotional_immediacy": 9, "conflict": 9, "cast_depth": 10, "total": 47},
+
+  "clearance": {
+    "status": "fictionalize_first",
+    "reasons": [
+      "The mechanism is drawn from reported judgments. The individuals named in those judgments are litigants from 1907 to 1978 and are dead; they appear in `people` for clearance only and none of them is a character.",
+      "Barkheri, Jhilan, the shrine of Baba Ghanteshwar, the five hundred and forty day circuit, the nine days, the 1968 deed and every person in `cast` are invented. No real shrine, village, family or turn-holder is depicted.",
+      "The living-person exposure in this material sits in ongoing hereditary-priesthood litigation, which is also where the communal and caste-political charge sits. The season is deliberately kept inside one family's calendar arithmetic: no community is set against another, no caste claim is adjudicated, and the antagonist and protagonist are of the same house.",
+      "Only the seven `timeline` entries come from the record. Everything tagged `reported` is rendered as something a character asserts, never as narration."
+    ]
+  },
+
+  "novelty": {"prior_adaptations": [], "score": 9},
+  "_novelty_note": "Searched for film, serial and web-series adaptations of turn-of-worship / pala / osra / shebaiti disputes and found none. The adapted neighbours in this space are hereditary-priesthood caste dramas and temple-treasure stories, neither of which uses the calendar-as-property mechanism.",
+
+  "fictionalization_map": {
+    "Diggi, district Tonk, Rajasthan": "barkheri, district jhilan",
+    "Kalyanji Maharaj temple": "the shrine of Baba Ghanteshwar",
+    "osra / pala — hereditary turn of worship": "kept, as 'the turn' and 'the circuit'; the mechanism is the one thing not renamed",
+    "ten-day turn in an eighteen-month circuit": "five hundred and forty days, cut into turns of unequal length",
+    "Mst. Acharaj, the woman who held a turn and transferred it": "mohari",
+    "Pramila Debi, widow who sold a half-share for Rs 1,200": "mohari (composite); the sale figure becomes eleven hundred rupees in 1968",
+    "Ram Rattan, claimant under the transferred turn": "jorawar's father, offscreen; jorawar inherits the claim",
+    "Bajrang Lal, respondent defending the family line": "kesar",
+    "Kali Kinkor Ganguly, legatee enforcing a purchase of the office": "sitara",
+    "Upendra Nath Ganguli, purchaser of the office": "sitara (composite)",
+    "the pleader and record-keeper class around such shrines": "phoolchand, girdhari",
+    "registering officer / sub-registrar": "hukum",
+    "shrine committee and junior branch holders": "tejmal, rukmani, kanhaiya, chhotu, narmada"
+  },
+
+  "never_narrate_as_fact": [
+    "That mohari ever agreed to give up the nine days — tejmal asserts it in episode 13; the narrator never states it.",
+    "That the 1968 money was actually paid to mohari rather than to someone else in the house — jorawar asserts it; girdhari doubts it.",
+    "That bhanwari knew what she was putting her thumb to in the birth entry — bhanwari says one thing about it in episode 10 and jorawar says another in episode 5.",
+    "That any of jorawar's other fifty-one transfers were fraudulent as opposed to merely unregistered — sitara asserts it, hukum only ever says 'not registered'."
+  ],
+
+  "sources": [
+    "https://indiankanoon.org/doc/333037/",
+    "https://indiankanoon.org/doc/1714390/",
+    "https://www.theweekendleader.com/Headlines/37870/sc-shebait-cannot-usurp-temple-property-needs-to-protect-it.html",
+    "https://caravanmagazine.in/perspectives/sacred-rights",
+    "https://www.orissapost.com/dead-man-fights-for-land-rights-in-odisha/",
+    "https://www.livelaw.in/know-the-law/the-indian-deity-how-law-treats-it-as-a-juristic-person-with-perpetual-minority-147266",
+    "https://www.latestlaws.com/latest-caselaw/1978/may/1978-latest-caselaw-109-sc/",
+    "http://spotlawapp.com/judgementText/pdf/910131937/9101319370111001.pdf"
+  ],
+  "_sources_note": "Every URL above was opened during this hunt. Four returned readable content and carry the timeline entries. livelaw was paywalled, latestlaws returned only the citation header, the spotlaw PDF returned binary, and the Rayagada report belongs to a rejected candidate — none of those four is cited for any fact.",
+
+  "also_considered": [
+    {"title": "The nephew who buried his uncle on paper", "category": "FAMILY BETRAYAL", "one_line": "An old man walks into the tehsil office to pay his land tax and is told he cannot, because he died last year and his nephew inherited.", "why_rejected": "Engine 6. The mechanism is a single forged mutation entry; once the entry is corrected the story is over, and the best-known version of it has already been filmed.", "source": "https://www.orissapost.com/dead-man-fights-for-land-rights-in-odisha/"},
+    {"title": "The offering box nobody may open", "category": "FAMILY BETRAYAL", "one_line": "Priest and committee each put a lock on the temple door and the god goes unfed for eleven days.", "why_rejected": "Good sound, no ladder. One standoff, no climb, and no protagonist with anywhere to climb from.", "source": "https://www.deccanherald.com/india/karnataka/temple-shut-priest-committee-lock-2105206"},
+    {"title": "Eighteen months in a coma", "category": "SUPERNATURAL INTRUSION", "one_line": "A family tells the neighbours he is only sleeping, and every morning the wife pours river water on him.", "why_rejected": "Blocked on register, not on engine. It requires depicting a mentally unwell woman and a real named dead man, and the strongest version of it makes an audience of her illness.", "source": "https://www.deccanherald.com/india/he-is-in-coma-family-keeps-man-s-body-in-house-for-18-months-1147683"}
+  ]
+}

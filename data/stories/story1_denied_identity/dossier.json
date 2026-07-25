@@ -1,0 +1,138 @@
+{
+  "event_id": "evt_kadamballi_2022",
+  "title": "The Man Who Answers to a Dead Name",
+  "one_line_summary": "A twenty-two-year-old's teaching appointment is rejected in open hall because the father named on her certificate died in 1994 — and the man who raised her has been answering to that dead man's name at roll call every morning for twenty-four years.",
+  "fantasy": "they said she's nobody",
+
+  "sells": "The underestimated one — she was dismissed; she was never what they thought.",
+
+  "engine": "A living man holds a dead man's post, so every single piece of paper the state issues to that family — a birth record, a caste certificate, a marriage entry, a pension, a land mutation — is a document that can only be obtained by asserting the lie again, which means the family can never stop paying the clerk who keeps the service register unaudited.",
+
+  "why_this_works": "The listener understands the mechanism by episode two; the daughter does not understand it until episode six, and the gap is the show. After six the question stops being 'who is her father' and becomes 'how many more times will she have to sign a dead man's name to survive' — because every fix requires one more forgery. The climb is audible: the same district clerk who read her rejection out to a queue of ninety people reads her appointment out to the same queue in episode fourteen. And the shame is exact and small — she spent her whole childhood thinking her father was a coward because he would never stand for a photograph.",
+
+  "protagonist": {
+    "id": "chaitra",
+    "who": "Twenty-two, first in her family to finish a degree, topped the taluk in the teacher recruitment written exam, waiting on document verification.",
+    "wants": "The appointment order with her own name on it, and the match with harsha to go through.",
+    "ashamed_of": "That her father never once stood for a school photograph, never accepted a felicitation shawl, never let his face be printed — and she has told her friends, for years, that he is simply a coward.",
+    "does_not_know_at_start": "That the man the whole taluk calls Master Lokanath died on 14 August 1994 before he could join duty, that her father is his younger brother wearing the appointment order, and that every state record which names her father names a dead man."
+  },
+
+  "antagonist": {
+    "id": "thammanna",
+    "who": "First division assistant, establishment section, block education office. Fifty-eight. Has never been transferred. Has processed the service register of Government Higher Primary School, Nerlige, since 1998 and has taken twelve hundred rupees a month, in cash, on the seventh, for twenty-four years.",
+    "wants_incompatibly": "The four acres at Nerlige and the post itself, vacated by resignation in the dead man's name so his son-in-law can be posted against it — which requires the lie to be maintained until the day he chooses to end it, and requires chaitra to never be appointed to anything."
+  },
+
+  "timeline": [
+    {"id": "t1", "date": "1994-95", "what_happened": "A man was selected for the post of government school teacher in Mysuru district.", "confidence": "reported", "source": "https://daijiworld.com/news/newsDisplay?newsID=940364"},
+    {"id": "t2", "date": "1994-95", "what_happened": "He died before reporting for duty.", "confidence": "reported", "source": "https://www.latestly.com/india/news/karnataka-man-impersonates-dead-brother-arrested-after-25-years-of-service-3508493.html"},
+    {"id": "t3", "date": "1998", "what_happened": "His younger brother submitted the deceased man's appointment order and other documents and reported for duty in his name at a government lower primary school in Periyapatna taluk.", "confidence": "reported", "source": "https://daijiworld.com/news/newsDisplay?newsID=940364"},
+    {"id": "t4", "date": "1998-2022", "what_happened": "He served as a teacher under the dead man's name for about twenty-four years, transferred across several schools in the district, latterly at a government higher primary school near Hunsur.", "confidence": "reported", "source": "https://www.latestly.com/india/news/karnataka-man-impersonates-dead-brother-arrested-after-25-years-of-service-3508493.html"},
+    {"id": "t5", "date": "2019", "what_happened": "A local journalist obtained a clue about the impersonation and complained to the deputy director of public instruction.", "confidence": "reported", "source": "https://daijiworld.com/news/newsDisplay?newsID=940364"},
+    {"id": "t6", "date": "2022-03", "what_happened": "The deputy commissioner directed the police to register a complaint; a case was filed at Periyapatna police station after the accused failed to produce official documents, and the Lokayukta was involved in the probe.", "confidence": "reported", "source": "https://daijiworld.com/news/newsDisplay?newsID=940364"},
+    {"id": "t7", "date": "2022-03-24", "what_happened": "The accused was arrested and remanded to judicial custody.", "confidence": "reported", "source": "https://www.latestly.com/india/news/karnataka-man-impersonates-dead-brother-arrested-after-25-years-of-service-3508493.html"},
+    {"id": "t8", "date": "2022", "what_happened": "Investigators say the discrepancy surfaced from the family tree record, and that the family initially withheld information.", "confidence": "alleged", "source": "https://www.latestly.com/india/news/karnataka-man-impersonates-dead-brother-arrested-after-25-years-of-service-3508493.html"}
+  ],
+
+  "_timeline_note": "Eight entries because two opened pages support eight facts. A third outlet's page returned HTTP 403 and was not opened, so nothing from it is cited here. The season's other events are invention and live in `season` only.",
+
+  "people": [
+    {"name": "The arrested teacher", "role": "younger brother who served under the deceased appointee's name", "motive": "not stated in the record", "public_or_private": "private", "living": true},
+    {"name": "The deceased appointee", "role": "elder brother, selected 1994-95, died before joining duty", "motive": "not stated in the record", "public_or_private": "private", "living": false},
+    {"name": "The complainant journalist", "role": "local reporter who took the matter to the deputy director of public instruction in 2019", "motive": "not stated in the record", "public_or_private": "public", "living": true},
+    {"name": "The block education officer", "role": "named in one report as the block education officer of the taluk", "motive": "not stated in the record", "public_or_private": "public", "living": true}
+  ],
+
+  "_people_note": "The reporting names four individuals and describes no one else. Their real names are deliberately omitted here; the list exists for clearance, and every one of them is fictionalized in `cast`.",
+
+  "cast": [
+    {"char_id": "chaitra", "name": "Chaitra", "role": "protagonist; taluk topper waiting on document verification for a teaching post", "want": "the appointment order with her own name on it, and to stop being introduced as somebody else's daughter", "maps_to": "invented", "composite": true},
+    {"char_id": "mallesha", "name": "Mallesha", "role": "her father; has taught for twenty-four years under his dead elder brother's name and is addressed by the whole taluk as Master Lokanath", "want": "to reach retirement without his children ever knowing, and to have taught well enough that it counts for something", "maps_to": "the younger brother who reported for duty in the deceased appointee's name", "composite": true},
+    {"char_id": "lokanath", "name": "Lokanath", "role": "the dead elder brother; selected 1994, died before joining; his name is the post", "want": "(deceased before the season opens) a house with a tiled roof for his mother", "maps_to": "the deceased appointee", "composite": true},
+    {"char_id": "thammanna", "name": "Thammanna", "role": "antagonist; first division assistant, establishment section, block education office", "want": "four acres at Nerlige and the post vacated by resignation for his son-in-law", "maps_to": "invented", "composite": true},
+    {"char_id": "savithri", "name": "Savithri", "role": "chaitra's mother; married mallesha in 1999 knowing exactly what she was marrying into", "want": "that nobody in the house ever says the wrong name out loud in front of a stranger", "maps_to": "invented", "composite": true},
+    {"char_id": "ratnamma", "name": "Ratnamma", "role": "lokanath's widow; married eleven days before he died, never registered, never pensioned", "want": "her husband's name written on any government record at all, and twenty-eight years of arrears", "maps_to": "invented", "composite": true},
+    {"char_id": "shankarappa", "name": "Shankarappa", "role": "headmaster, Government Higher Primary School, Nerlige; nineteen months from retirement", "want": "the sanctioned second building block, and a clean handover", "maps_to": "invented", "composite": true},
+    {"char_id": "basavaraj", "name": "Basavaraj", "role": "verification clerk, district office; reads lists aloud for a living", "want": "to be moved off the counter and into the record room before his knees give out", "maps_to": "invented", "composite": true},
+    {"char_id": "inchara", "name": "Inchara", "role": "twenty-four-year-old district stringer for a Kannada daily", "want": "one story with her byline above the fold, and a staff card", "maps_to": "the complainant journalist", "composite": true},
+    {"char_id": "puttaraju", "name": "Puttaraju", "role": "block education officer; nine months to transfer", "want": "no case, no audit, no file with his signature on it before he leaves", "maps_to": "the block education officer", "composite": true},
+    {"char_id": "girija", "name": "Girija", "role": "assistant teacher, Nerlige; has taught in the next room to mallesha for nineteen years", "want": "a posting in town before her daughter's tenth standard", "maps_to": "invented", "composite": true},
+    {"char_id": "nagaraj", "name": "Nagaraj", "role": "enquiry officer sent by the department in the final third", "want": "a report that survives being read in court", "maps_to": "invented", "composite": true},
+    {"char_id": "kempanna", "name": "Kempanna", "role": "village accountant, Nerlige; keeps the family tree register and the mutation entries", "want": "to retire without a single entry of his being reopened", "maps_to": "invented", "composite": true},
+    {"char_id": "harsha", "name": "Harsha", "role": "the arranged match; works at a cooperative bank in the taluk town", "want": "a marriage his mother will not have to explain to anybody", "maps_to": "invented", "composite": true},
+    {"char_id": "prakash", "name": "Prakash", "role": "chaitra's brother, seventeen, second PUC", "want": "to be told things instead of overhearing them", "maps_to": "invented", "composite": true},
+    {"char_id": "seetharama", "name": "Seetharama", "role": "purohita of the Nerlige temple; has kept the seva register in his own hand since 1979", "want": "the register to outlive him and be believed", "maps_to": "invented", "composite": true},
+    {"char_id": "revanna", "name": "Revanna", "role": "deputy director of public instruction for the district; presides over recruitment verification and over the enquiry", "want": "a district that does not appear in a newspaper, and if it must appear, to be the man quoted in the last paragraph", "maps_to": "the deputy director of public instruction to whom the 2019 complaint was made", "composite": true}
+  ],
+
+  "season": [
+    {"ep": 1, "turn": "chaitra's document verification is rejected at the counter and the reason is read out to the queue.", "hook_type": "ACCUSATION", "ends_on": "basavaraj reads it out loud enough for the whole queue: the man named as her father on her certificate died on the fourteenth of August, nineteen ninety-four.", "pays_off": null, "status": 1},
+    {"ep": 2, "turn": "savithri burns the certified copy in the kitchen fire rather than answer a single question about it.", "hook_type": "DISCOVERY", "ends_on": "In the trunk under the burnt paper chaitra finds a 1994 appointment order, and the photograph gummed to the corner of it is not her father's face.", "pays_off": null, "status": 1},
+    {"ep": 3, "turn": "thammanna comes to the house on the seventh, as he has on the seventh for twenty-four years, and this time chaitra is standing in the doorway when he does it.", "hook_type": "ARRIVAL", "ends_on": "He leaves the receipt book open on the step. Twelve hundred rupees a month, two hundred and eighty-eight entries, every one signed by her father in a hand she has never seen him use.", "pays_off": null, "status": 2},
+    {"ep": 4, "turn": "chaitra goes to the school at assembly time to ask her father the question in front of people, believing he cannot lie in front of children.", "hook_type": "RECOGNITION", "ends_on": "Four hundred children answer the roll call, and when shankarappa calls Lokanath, her father raises his hand.", "pays_off": null, "status": 2},
+    {"ep": 5, "turn": "ratnamma arrives at the house and claims twenty-eight years of a marriage nobody recorded.", "hook_type": "THREAT", "ends_on": "ratnamma has kept the marriage photograph since 1994, and standing behind the groom, holding the garland, is chaitra's father.", "pays_off": null, "status": 1},
+    {"ep": 6, "turn": "mallesha finally tells chaitra all of it, in the cowshed, in eleven sentences, and does not defend himself once.", "hook_type": "REVEAL", "ends_on": "Her birth certificate names lokanath as her father, which makes her, in every record the state keeps, the daughter of a man who died five years before she was born.", "pays_off": "The question opened in episode 1 — who is her father and why did the record kill him — is answered in full, out loud, by the man himself.", "status": 2},
+    {"ep": 7, "turn": "chaitra files for correction of her birth record and thammanna, who receives the file, names his price for the first time to her face.", "hook_type": "ULTIMATUM", "ends_on": "Four acres and a resignation signed in the dead man's name, by the fifth of next month, or the service register goes to audit — and he says it while writing her father's dead name in the inward register.", "pays_off": null, "status": 2},
+    {"ep": 8, "turn": "chaitra corners the deputy director at a school inauguration and gets her rejected file reopened.", "hook_type": "REVERSAL", "ends_on": "basavaraj reads the reopening order to the same queue and calls her madam — then tells her the file was requisitioned once already that morning, by thammanna.", "pays_off": null, "status": 4},
+    {"ep": 9, "turn": "mallesha writes his resignation in the dead name to buy his daughter clear, and shankarappa refuses to forward it.", "hook_type": "BETRAYAL", "ends_on": "shankarappa has already written to the department that morning — not about the resignation, but about who has been signing the register since 1998.", "pays_off": null, "status": 3},
+    {"ep": 10, "turn": "ratnamma files a claim for twenty-four years of a dead man's salary and names savithri as respondent.", "hook_type": "ACCUSATION", "ends_on": "The notice is for forty-one lakh sixty thousand rupees, it is addressed to savithri, and it is served at the school gate at assembly time.", "pays_off": null, "status": 3},
+    {"ep": 11, "turn": "chaitra proves ratnamma's marriage from the temple register and gets her the name she waited twenty-eight years for, and ratnamma withdraws the claim against savithri.", "hook_type": "DISCOVERY", "ends_on": "Four lines below the marriage, the same register records who paid for lokanath's funeral rites in 1994 — thammanna.", "pays_off": "ratnamma's claim, raised in episode 5 and filed in episode 10, is settled: her marriage is on a record, her arrears are routed to the department, and savithri is out of it.", "status": 5},
+    {"ep": 12, "turn": "at the departmental enquiry chaitra says her father's real name out loud in front of the entire staff and the taluk, ending twenty-four years in one sentence.", "hook_type": "RECOGNITION", "ends_on": "nagaraj writes the name into the record and asks mallesha to sign it, and the hand that has signed six thousand pages does not know how to make its own name.", "pays_off": null, "status": 6},
+    {"ep": 13, "turn": "thammanna turns the record inside out: he produces the registered sale deed for the four acres and a statement making himself the 2019 informant and mallesha the briber.", "hook_type": "ACCUSATION", "ends_on": "The recovery notice is for one crore eleven lakh, and the anonymous 2019 complaint that started all of it is signed, in the file copy, by thammanna.", "pays_off": null, "status": 4},
+    {"ep": 14, "turn": "at the re-verification sitting, in the same hall, chaitra proves the receipt counterfoils are in thammanna's own hand and the whole twenty-four-year arrangement collapses in public.", "hook_type": "REVERSAL", "ends_on": "basavaraj reads the last name on the appointment list loud enough for the whole hall — chaitra, daughter of mallesha — the first time in twenty-four years that any register in this district has carried her father's own name.", "pays_off": "Everything: chaitra's appointment, the four acres, ratnamma's arrears, harsha's match, shankarappa's building, inchara's byline, thammanna's arrest in front of the ninety people who watched episode 1, and mallesha called by his own name at a roll call.", "status": 9}
+  ],
+
+  "adaptability": {"conflict": 9, "characters": 9, "stakes": 9, "serializability": 9, "resonance": 10, "total": 46},
+
+  "hunt_scores": {"engine_longevity": 9, "hook_density": 8, "emotional_immediacy": 10, "conflict": 8, "cast_depth": 8, "total": 43},
+
+  "clearance": {
+    "status": "fictionalize_first",
+    "reasons": [
+      "The proceedings are recent (2022) and the principals are living private Indian citizens. India retains criminal defamation, so nothing identifying survives: the district, both taluks, all four schools, the newspaper and every name are changed, and no real name appears anywhere in the generated fiction.",
+      "The protagonist is invented outright. The record does not mention a daughter, a widow, a clerk taking money, or a land demand — that entire spine is invention occupying the silences in the reporting.",
+      "The point of view is moved off the accused. The real case is about a man who was arrested; this season is about a daughter who did not know, which is a different story wearing the same mechanism.",
+      "Timeline entry t8 is tagged alleged and is the investigators' account. It is never narrated as fact — thammanna and nagaraj assert it; the narrator does not.",
+      "The four real individuals in `people` are listed by role only. Their names are not recorded in this dossier and cannot leak downstream."
+    ]
+  },
+
+  "novelty": {"prior_adaptations": [], "score": 9},
+
+  "fictionalization_map": {
+    "Mysuru district, Karnataka": "unnamed southern district",
+    "Hunsur taluk": "kadamballi taluk",
+    "Periyapatna taluk": "hosakere taluk",
+    "Kattemalalavadi / Muddanahalli villages": "nerlige village",
+    "Hebbalu village, K R Nagar taluk": "the family's village, unnamed",
+    "The arrested teacher": "mallesha",
+    "The deceased appointee": "lokanath",
+    "The complainant journalist": "inchara",
+    "The block education officer": "puttaraju",
+    "Deputy director of public instruction": "the deputy director, unnamed on the page",
+    "Lokayukta enquiry": "departmental enquiry officer nagaraj",
+    "Invented — no counterpart in the record": "chaitra, thammanna, savithri, ratnamma, shankarappa, basavaraj, girija, kempanna, harsha, prakash"
+  },
+
+  "never_narrate_as_fact": [
+    "That the family deliberately withheld information from investigators (t8, alleged) — thammanna and nagaraj may assert it; the narrator may not.",
+    "Any figure for salary drawn, recovery, or acreage as a real-world fact — inside the fiction these are invented amounts spoken by characters."
+  ],
+
+  "sources": [
+    "https://daijiworld.com/news/newsDisplay?newsID=940364",
+    "https://www.latestly.com/india/news/karnataka-man-impersonates-dead-brother-arrested-after-25-years-of-service-3508493.html",
+    "https://www.thenationalnews.com/world/2022/04/08/conman-in-india-convicted-after-impersonating-wealthy-landlords-son-for-four-decades/",
+    "https://www.sixthtone.com/news/1006888"
+  ],
+
+  "_sources_note": "Four pages opened and read in full. The first two are the winner's record; the third and fourth belong to also_considered candidates (the forty-one-year impostor son in Bihar, and the stolen teaching identity in Henan). Two further pages — deccanherald.com and dnaindia.com — returned HTTP 403 and are therefore NOT listed, even though search snippets from them appeared.",
+
+  "also_considered": [
+    {"title": "The man who was declared dead in the revenue record and had to stand for election to prove otherwise", "category": "DENIED IDENTITY", "rejected_because": "Already adapted — Kaagaz (2021) and its sequel. Rejected on the hunter's first rejection rule, not on score."},
+    {"title": "The impostor who took a landlord's missing son's place for forty-one years and sold his land", "category": "DENIED IDENTITY", "score_est": 44, "rejected_because": "Superb engine, but the protagonist has to be the impostor or a daughter who is right for forty-one years and ignored — the second is a season of being disbelieved, which is procedure, not climb. Also the most internationally covered of the candidates, so novelty is lowest."},
+    {"title": "The teacher whose qualification was taken by another man who then taught in his name for eighteen years and drew the pension", "category": "DENIED IDENTITY", "score_est": 40, "rejected_because": "Same mechanism as the winner but inverted, and the victim's fight is a lawsuit, which does not generate an episode every six minutes."},
+    {"title": "The check-post attender who refused every promotion for thirty-four years so nobody would look at him, and owned ninety crore", "category": "SECRET STATUS", "score_est": 41, "rejected_because": "The best permanently-on condition in the whole hunt — he must stay dismissed — but the source page would not open, and I will not build a dossier on a snippet."}
+  ]
+}

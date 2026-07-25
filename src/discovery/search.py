@@ -2,6 +2,11 @@
 Discovery via OpenAI web search. Runs once, offline of the demo path, and the
 result is committed as data/corpus.json.
 
+One call. The scout sweeps all eight categories and returns the single event it
+would stake the series on, plus the candidates it rejected. Selection is part of
+the hunt rather than a stage after it — a second pass re-ranking candidates the
+same model just scored would cost money to re-derive a decision already made.
+
 The scout prompt does the judging (see prompts/hunter.md). This module does the
 two things a prompt cannot be trusted with: it forces the output into a strict
 schema, and it discards any candidate citing a page the model never opened.
@@ -17,41 +22,18 @@ from src.util import log
 
 PROMPTS = pathlib.Path(__file__).resolve().parent / "prompts"
 
-# Minimum total across the five sub-scores. The prompt states this too; it is
-# re-checked here because a scored-but-rejected candidate is diagnostic
-# information and a prompt cannot be relied on to enforce its own threshold.
+# Stated in the prompt as well. Re-checked here because a prompt cannot be relied
+# on to enforce its own threshold, and a scored-but-rejected candidate is
+# diagnostic information worth logging.
 MIN_TOTAL = 38
 
-# One hunt per category, so a barren category is visible instead of being
-# averaged away across a single undifferentiated sweep.
-SEARCH_LINES = [
-    ("DENIED IDENTITY",
-     "Real cases where a person was not recognised as who they are by people who "
-     "should have known them — returning after being declared dead, an impostor "
-     "accepted by a family, an identity dispute settled in court."),
-    ("SECRET STATUS",
-     "Real cases where someone held wealth, rank or knowledge that the people "
-     "around them had no idea about, and were dismissed or mistreated as a result."),
-    ("REVENGE",
-     "Real cases where a specific wrong was done and the wronged party returned "
-     "years later, by design, to collect."),
-    ("THE LONG DECEPTION",
-     "Real cases of a lie maintained daily by many people at growing cost — "
-     "fabricated institutions, staged events, fake offices, invented companies, "
-     "counterfeit tournaments."),
-    ("FAMILY BETRAYAL",
-     "Real cases of inheritance, a contested will, property taken from a sibling, "
-     "or a marriage arranged for money that turned."),
-    ("THE BARGAIN COMES DUE",
-     "Real cases where a debt, promise or desperate deal came back years later to "
-     "be paid, and the paying is the story."),
-    ("SUPERNATURAL INTRUSION",
-     "Real cases of a place, object or disappearance with an unexplained history — "
-     "cursed properties, folk belief colliding with a documented record."),
-    ("THE DOUBLE LIFE",
-     "Real cases of two families, two names or two identities held simultaneously "
-     "for years, and the day the two sides met."),
-]
+BRIEF = (
+    "Hunt all eight categories. Search several times per category and vary your "
+    "vocabulary between news language, court language and plain description "
+    "before you settle on anything.\n\n"
+    "Then return one winner and the candidates you seriously considered. Every "
+    "candidate you return must score {min_total}+ in total."
+)
 
 _CAST = {
     "type": "object",
@@ -114,8 +96,11 @@ _CANDIDATE = {
 HUNT_SCHEMA = {
     "type": "object",
     "additionalProperties": False,
-    "required": ["candidates"],
-    "properties": {"candidates": {"type": "array", "items": _CANDIDATE}},
+    "required": ["winner", "also_considered"],
+    "properties": {
+        "winner": _CANDIDATE,
+        "also_considered": {"type": "array", "items": _CANDIDATE},
+    },
 }
 
 
@@ -137,8 +122,9 @@ def ground_candidates(candidates: Iterable[Dict[str, Any]],
                       consulted: Set[str]) -> List[Dict[str, Any]]:
     """
     Keep only URLs the model actually opened, and drop any candidate left with
-    none. A fabricated citation is worse than a missing candidate: everything
-    downstream treats a corpus item as sourced fact.
+    none. A fabricated citation is worse than a missing candidate: the demo puts
+    source links on screen and everything downstream treats a corpus item as
+    sourced.
     """
     kept = []
     for c in candidates:
@@ -146,8 +132,7 @@ def ground_candidates(candidates: Iterable[Dict[str, Any]],
         if not grounded:
             log(f"dropped ungrounded candidate: {c.get('title', '?')}", "warn")
             continue
-        c = dict(c, sources=grounded)
-        kept.append(c)
+        kept.append(dict(c, sources=grounded))
     return kept
 
 
@@ -159,16 +144,15 @@ def _model() -> str:
 
 def _consulted_urls(response: Any) -> Set[str]:
     """
-    Every URL the search tool actually opened. `include` asks for the full
-    source list, which is a superset of the inline citations; annotations are
-    read as well so a response carrying only citations still grounds.
+    Every URL the search tool actually opened. `include` asks for the full source
+    list, which is a superset of the inline citations; annotations are read as
+    well so a response carrying only citations still grounds.
     """
     urls: Set[str] = set()
     for item in getattr(response, "output", []) or []:
         data = item.model_dump() if hasattr(item, "model_dump") else dict(item)
 
-        action = data.get("action") or {}
-        for src in action.get("sources") or []:
+        for src in (data.get("action") or {}).get("sources") or []:
             url = src.get("url") if isinstance(src, dict) else src
             if url:
                 urls.add(url)
@@ -182,15 +166,18 @@ def _consulted_urls(response: Any) -> Set[str]:
     return urls
 
 
-def _parsed_candidates(response: Any) -> List[Dict[str, Any]]:
-    text = getattr(response, "output_text", "") or ""
-    if not text.strip():
-        raise RuntimeError("scout returned no text output")
-    return json.loads(text).get("candidates", [])
+def _decorate(candidate: Dict[str, Any], is_winner: bool) -> Dict[str, Any]:
+    candidate["domain"] = domain_of(candidate["sources"][0])
+    candidate["winner"] = is_winner
+    return candidate
 
 
-def hunt(category: str, brief: str, client: Any = None) -> List[Dict[str, Any]]:
-    """One search pass for one category. Network call — freeze time only."""
+def hunt(client: Any = None) -> Dict[str, Any]:
+    """
+    One search pass over all eight categories. Network call — freeze time only.
+
+    Returns {"winner": candidate|None, "also_considered": [candidate]}.
+    """
     if client is None:
         from openai import OpenAI
         client = OpenAI()
@@ -199,10 +186,7 @@ def hunt(category: str, brief: str, client: Any = None) -> List[Dict[str, Any]]:
         model=_model(),
         input=[
             {"role": "system", "content": load_prompt()},
-            {"role": "user", "content":
-                f"Category to hunt: {category}\n\n{brief}\n\n"
-                f"Search several times with different vocabulary before answering. "
-                f"Return every candidate scoring {MIN_TOTAL}+ in total."},
+            {"role": "user", "content": BRIEF.format(min_total=MIN_TOTAL)},
         ],
         tools=[{"type": "web_search", "search_context_size": "high"}],
         include=["web_search_call.action.sources"],
@@ -212,33 +196,32 @@ def hunt(category: str, brief: str, client: Any = None) -> List[Dict[str, Any]]:
 
     if getattr(response, "status", None) == "incomplete":
         raise RuntimeError(
-            f"{category}: response truncated ({response.incomplete_details}). "
-            "Truncation looks like a prompt problem and will be misdiagnosed as one."
+            f"response truncated ({response.incomplete_details}). Truncation "
+            "looks like a prompt-quality problem and will be misdiagnosed as one."
         )
 
-    raw = _parsed_candidates(response)
-    grounded = ground_candidates(raw, _consulted_urls(response))
+    text = getattr(response, "output_text", "") or ""
+    if not text.strip():
+        raise RuntimeError("scout returned no text output")
+    parsed = json.loads(text)
+    consulted = _consulted_urls(response)
 
-    kept = []
-    for c in grounded:
+    winner = (ground_candidates([parsed["winner"]], consulted) or [None])[0]
+    if winner is None:
+        raise RuntimeError(
+            "the winner cited no page the scout actually opened — rerun the hunt"
+        )
+    _decorate(winner, is_winner=True)
+
+    others = []
+    for c in ground_candidates(parsed.get("also_considered", []), consulted):
         total = c.get("scores", {}).get("total", 0)
         if total < MIN_TOTAL:
             log(f"below threshold ({total}): {c.get('title', '?')}", "debug")
             continue
-        c["domain"] = domain_of(c["sources"][0])
-        c["hunt_category"] = category
-        kept.append(c)
+        others.append(_decorate(c, is_winner=False))
 
-    log(f"{category}: {len(raw)} returned, {len(kept)} kept")
-    return kept
-
-
-def hunt_all(client: Any = None) -> List[Dict[str, Any]]:
-    """All eight categories. A barren category is logged, never fatal."""
-    out: List[Dict[str, Any]] = []
-    for category, brief in SEARCH_LINES:
-        try:
-            out.extend(hunt(category, brief, client=client))
-        except Exception as exc:
-            log(f"{category} failed: {exc}", "error")
-    return out
+    log(f"winner: {winner['title']} "
+        f"({winner['scores']['total']}, {winner.get('category', '?')}) "
+        f"— {len(others)} also considered")
+    return {"winner": winner, "also_considered": others}
