@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+/**
+ * Dark editorial. These screens are read like a document, not scanned like a
+ * dashboard — an editor is making a commissioning decision, not monitoring a
+ * system. Serif for prose, mono for identifiers, sans only for chrome.
+ *
+ * System fonts throughout. A webfont is a network dependency and this has to
+ * render on conference wifi.
+ */
+
+@theme {
+  --font-serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", "Segoe UI Mono", Consolas, monospace;
+
+  --color-ink: #0b0b0c;
+  --color-surface: #121214;
+  --color-raised: #1a1a1d;
+  --color-rule: #26262b;
+  --color-rule-strong: #3a3a42;
+
+  --color-paper: #ece7dd;
+  --color-muted: #a29e96;
+  --color-faint: #6b6862;
+
+  --color-ochre: #c8913f;
+  --color-clear: #7fa66a;
+  --color-caution: #c8913f;
+  --color-halt: #b4553f;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/**
+ * Field labels. Anything that names a value rather than being one — these
+ * should recede so the prose carries the page.
+ */
+.label {
+  font-size: 0.6875rem;
+  line-height: 1rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-faint);
+}
+
+/* Roughly 66 characters. Past that the eye loses its place returning. */
+.prose-col {
+  max-width: 34rem;
+}
+
+::selection {
+  background-color: var(--color-ochre);
+  color: var(--color-ink);
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-ochre);
+  outline-offset: 2px;
+}
