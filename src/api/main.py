@@ -104,7 +104,26 @@ def api_not_found(rest: str):
 
 # --- static frontend, registered last -------------------------------------
 
+class ProxySafeStaticFiles(StaticFiles):
+    """
+    Serve a directory's index.html directly instead of redirecting to the
+    trailing-slash URL.
+
+    Databricks Apps sit behind a reverse proxy that rewrites Host, so
+    Starlette's redirect resolves to https://localhost:8000/... and the
+    browser leaves the workspace. --proxy-headers does not help: there is no
+    trustworthy Host to rebuild from. Not redirecting is the only fix that
+    survives the proxy.
+    """
+
+    async def get_response(self, path: str, scope):
+        response = await super().get_response(path, scope)
+        if response.status_code in (301, 307, 308):
+            return await super().get_response(f"{path.rstrip('/')}/index.html", scope)
+        return response
+
+
 if WEB_OUT:
-    app.mount("/", StaticFiles(directory=str(WEB_OUT), html=True), name="web")
+    app.mount("/", ProxySafeStaticFiles(directory=str(WEB_OUT), html=True), name="web")
 else:
     log("no static build found; API-only. Run `npm run build` in web/.", "warn")

@@ -14,6 +14,13 @@ command:
   - 0.0.0.0
   - --port
   - $DATABRICKS_APP_PORT
+  # Apps sit behind a reverse proxy. Without these, uvicorn builds redirects
+  # from the internal host and a bare /candidates/<id> sends the browser to
+  # https://localhost:8000/. The proxy is not on 127.0.0.1, which is all
+  # --forwarded-allow-ips trusts by default.
+  - --proxy-headers
+  - --forwarded-allow-ips
+  - "*"
 
 env:
   - name: LAKEBASE_INSTANCE
