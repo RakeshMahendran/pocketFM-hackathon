@@ -31,7 +31,8 @@
       "emotion": "neutral",
       "intensity": 0.4,
       "sfx_cue": "A ceiling fan turning too slow to matter. Ninety people breathing in a corridor. A rubber stamp coming down, twice, on wood.",
-      "pace": "normal"
+      "pace": "normal",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l002",
@@ -41,7 +42,8 @@
       "emotion": "neutral",
       "intensity": 0.45,
       "sfx_cue": "Paper sliding across a laminate counter.",
-      "pace": "normal"
+      "pace": "normal",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l003",
@@ -50,7 +52,8 @@
       "language": "en",
       "emotion": "neutral",
       "intensity": 0.35,
-      "pace": "clipped"
+      "pace": "clipped",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l004",
@@ -59,7 +62,8 @@
       "language": "en",
       "emotion": "neutral",
       "intensity": 0.55,
-      "pace": "normal"
+      "pace": "normal",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l005",
@@ -68,7 +72,8 @@
       "language": "en",
       "emotion": "sarcasm",
       "intensity": 0.5,
-      "pace": "normal"
+      "pace": "normal",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l006",
@@ -78,7 +83,8 @@
       "emotion": "urgency",
       "intensity": 0.5,
       "sfx_cue": "Pages turning. A pen tapping.",
-      "pace": "normal"
+      "pace": "normal",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l007",
@@ -87,7 +93,8 @@
       "language": "en",
       "emotion": "neutral",
       "intensity": 0.45,
-      "pace": "normal"
+      "pace": "normal",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l008",
@@ -96,7 +103,8 @@
       "language": "en",
       "emotion": "tension",
       "intensity": 0.5,
-      "pace": "clipped"
+      "pace": "clipped",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l009",
@@ -106,7 +114,8 @@
       "emotion": "neutral",
       "intensity": 0.4,
       "sfx_cue": "More pages. The tapping stops.",
-      "pace": "normal"
+      "pace": "normal",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l010",
@@ -115,16 +124,18 @@
       "language": "en",
       "emotion": "tension",
       "intensity": 0.45,
-      "pace": "clipped"
+      "pace": "clipped",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l011",
       "speaker": "basavaraj",
       "text": "Say it.",
       "language": "en",
-      "emotion": "tension",
+      "emotion": "neutral",
       "intensity": 0.5,
-      "pace": "clipped"
+      "pace": "clipped",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l012",
@@ -133,7 +144,8 @@
       "language": "en",
       "emotion": "neutral",
       "intensity": 0.55,
-      "pace": "normal"
+      "pace": "normal",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l013",
@@ -142,7 +154,8 @@
       "language": "en",
       "emotion": "tension",
       "intensity": 0.6,
-      "pace": "normal"
+      "pace": "normal",
+      "bgm_cue": "tension"
     },
     {
       "line_id": "l014",
@@ -152,7 +165,8 @@
       "emotion": "tension",
       "intensity": 0.6,
       "sfx_cue": "A drawer opening. A register — the big kind, cloth-bound — dropping flat on the counter.",
-      "pace": "clipped"
+      "pace": "clipped",
+      "bgm_cue": "tension"
     },
     {
       "line_id": "l015",
@@ -162,7 +176,8 @@
       "emotion": "neutral",
       "intensity": 0.4,
       "_direction": "not to her",
-      "pace": "normal"
+      "pace": "normal",
+      "bgm_cue": "tension"
     },
     {
       "line_id": "l016",
@@ -171,7 +186,8 @@
       "language": "en",
       "emotion": "urgency",
       "intensity": 0.7,
-      "pace": "clipped"
+      "pace": "clipped",
+      "bgm_cue": "tension"
     },
     {
       "line_id": "l017",
@@ -180,7 +196,8 @@
       "language": "en",
       "emotion": "reflective",
       "intensity": 0.5,
-      "pace": "slow"
+      "pace": "slow",
+      "bgm_cue": "tension"
     },
     {
       "line_id": "l018",
@@ -190,25 +207,28 @@
       "emotion": "tension",
       "intensity": 0.55,
       "sfx_cue": "The register's pages, thick, turning slowly. A finger stopping on a line.",
-      "pace": "normal"
+      "pace": "normal",
+      "bgm_cue": "tension"
     },
     {
       "line_id": "l019",
       "speaker": "chaitra",
       "text": "My father dropped me at the bus stand this morning.",
       "language": "en",
-      "emotion": "tension",
-      "intensity": 0.65,
-      "pace": "normal"
+      "emotion": "tenderness",
+      "intensity": 0.55,
+      "pace": "slow",
+      "bgm_cue": "tension"
     },
     {
       "line_id": "l020",
       "speaker": "basavaraj",
       "text": "Then your father is not this name.",
       "language": "en",
-      "emotion": "tension",
-      "intensity": 0.6,
-      "pace": "normal"
+      "emotion": "neutral",
+      "intensity": 0.55,
+      "pace": "normal",
+      "bgm_cue": "tension"
     },
     {
       "line_id": "l021",
@@ -218,7 +238,8 @@
       "emotion": "hurt_anger",
       "intensity": 0.75,
       "_direction": "fast",
-      "pace": "fast"
+      "pace": "fast",
+      "bgm_cue": "urgency"
     },
     {
       "line_id": "l022",
@@ -228,7 +249,8 @@
       "emotion": "neutral",
       "intensity": 0.55,
       "sfx_cue": "Nothing. Long.",
-      "pace": "slow"
+      "pace": "slow",
+      "bgm_cue": "urgency"
     },
     {
       "line_id": "l023",
@@ -238,7 +260,8 @@
       "emotion": "urgency",
       "intensity": 0.8,
       "sfx_cue": "The rubber stamp. Once. REJECTED, in violet, across her seven-year study certificate.",
-      "pace": "clipped"
+      "pace": "clipped",
+      "bgm_cue": "urgency"
     },
     {
       "line_id": "l024",
@@ -247,7 +270,8 @@
       "language": "en",
       "emotion": "hesitation",
       "intensity": 0.5,
-      "pace": "normal"
+      "pace": "normal",
+      "bgm_cue": "urgency"
     },
     {
       "line_id": "l025",
@@ -257,6 +281,7 @@
       "emotion": "hurt_anger",
       "intensity": 0.85,
       "pace": "normal",
+      "bgm_cue": "urgency",
       "pause_after_ms": 900
     },
     {
@@ -267,7 +292,8 @@
       "emotion": "neutral",
       "intensity": 0.6,
       "sfx_cue": "A chair scraping. The corridor going quiet in one movement, the way a corridor does.",
-      "pace": "slow"
+      "pace": "slow",
+      "bgm_cue": "sorrow"
     }
   ]
 }

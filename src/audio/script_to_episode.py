@@ -80,6 +80,64 @@ def parse_script(text: str) -> List[Dict[str, str]]:
     return out
 
 
+def _authored_lines(story_dir: pathlib.Path, ep: int) -> List[Dict[str, Any]]:
+    """
+    The writer's own `lines` for this episode, if the serial writer emitted them.
+
+    Written to `lines.json` at the story root, all episodes together, the way
+    `beats.json` is. Absent for anything written before the prompt asked for it.
+    """
+    path = story_dir / "lines.json"
+    if not path.exists():
+        return []
+    doc = read_json(path)
+    lines = doc.get("lines", doc) if isinstance(doc, dict) else doc
+    return [l for l in lines if int(l.get("ep", 0)) == ep]
+
+
+def _from_authored(dossier: Dict[str, Any], ep: int,
+                   authored: List[Dict[str, Any]], language: str) -> Dict[str, Any]:
+    """Pass the writer's direction through rather than re-deriving it."""
+    by_id = {c["char_id"]: c for c in dossier["cast"]}
+
+    speaking, characters = [], []
+    for line in authored:
+        cid = line["speaker"]
+        if cid in speaking:
+            continue
+        speaking.append(cid)
+        if cid == "narrator":
+            characters.append({"id": "narrator", "gender": "neutral",
+                               "age_range": "40s",
+                               "persona": "storyteller, withholding"})
+        elif cid in by_id:
+            characters.append({"id": cid, **_voice_hint(by_id[cid])})
+        else:
+            log(f"speaker '{cid}' is not in the cast — walk-on", "warn")
+            characters.append({"id": cid, "persona": "minor role, one scene"})
+
+    lines = []
+    for i, l in enumerate(authored, start=1):
+        line = {k: l[k] for k in ("speaker", "text", "emotion", "intensity", "pace")
+                if k in l}
+        line["line_id"] = l.get("line_id") or f"l{i:03d}"
+        line["language"] = l.get("language") or language
+        line.setdefault("emotion", "neutral")
+        line.setdefault("intensity", 0.5)
+        for optional in ("bgm_cue", "sfx_cue", "pause_after_ms"):
+            if l.get(optional):
+                line[optional] = l[optional]
+        lines.append(line)
+
+    return {
+        "episode_id": f"{dossier['event_id']}_ep{ep:02d}",
+        "series_id": dossier["event_id"],
+        "title": f"{dossier['title']} — Episode {ep}",
+        "characters": characters,
+        "lines": lines,
+    }
+
+
 def _voice_hint(cast: Dict[str, Any]) -> Dict[str, str]:
     """
     What the casting resolver scores on.
@@ -104,11 +162,29 @@ def build(story: str, ep: int, language: str = None,
           previous: Dict[str, Any] = None) -> Dict[str, Any]:
     story_dir = STORIES / story
     dossier = read_json(story_dir / "dossier.json")
-    script = (story_dir / "episodes" / f"ep{ep:02d}.md").read_text(encoding="utf-8")
+
+    # A language variant is a different script, not a translation of one — the
+    # code-switching decides which half of each line is Hindi, and that is
+    # writing, not conversion. `ep01.hi-en.md` beside `ep01.md` when it exists.
+    variant = story_dir / "episodes" / f"ep{ep:02d}.{language}.md" if language else None
+    source = variant if variant and variant.exists() else \
+        story_dir / "episodes" / f"ep{ep:02d}.md"
+    if variant and variant.exists():
+        log(f"using the {language} script")
+    script = source.read_text(encoding="utf-8")
 
     # The story's own language, not the shell's. An explicit --language overrides
     # it; nothing else does.
     language = language or dossier.get("language") or DEFAULT_LANGUAGE
+
+    # The writer emits `lines` alongside the script — the same episode with its
+    # direction, chosen while writing rather than inferred from the result. When
+    # it is there it wins: re-parsing the markdown would throw away the writer's
+    # own marks and hand a director a blank script.
+    authored = _authored_lines(story_dir, ep)
+    if authored:
+        log(f"using {len(authored)} lines the writer directed")
+        return _from_authored(dossier, ep, authored, language)
 
     # Emotion tagging is expensive human or model work. Rebuilding the file
     # because a line of prose changed must not silently discard it.
@@ -169,10 +245,13 @@ def build(story: str, ep: int, language: str = None,
 
         lines.append(line)
 
+    suffix = f"_{language}" if language and language != dossier.get("language", "en") else ""
     return {
-        "episode_id": f"{dossier['event_id']}_ep{ep:02d}",
+        "episode_id": f"{dossier['event_id']}_ep{ep:02d}{suffix}",
         # Namespaces casting. A spinoff MUST reuse the mainline series_id or the
-        # same character is cast twice and speaks in two different voices.
+        # same character is cast twice and speaks in two different voices — and
+        # a language variant reuses it deliberately, so the same listener hears
+        # the same chaitra in both.
         "series_id": dossier["event_id"],
         "title": f"{dossier['title']} — Episode {ep}",
         "characters": characters,

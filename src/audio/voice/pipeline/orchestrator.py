@@ -101,7 +101,18 @@ def run_episode(episode_path: str, provider_override: str = None, cache_dir: str
         provider_name = provider_override or line.get("provider") or default_provider_name
         provider = providers[provider_name]
 
-        cache_key = line_hash(line, provider_name)
+        # Resolve the voice BEFORE the cache lookup. The voice is part of what
+        # makes the audio, so it has to be part of the key — a re-cast character
+        # that keeps its old clips is a silent failure, and casting locks for the
+        # whole series.
+        try:
+            voice_id = provider.resolve_voice_id(line["speaker"], effective_casting)
+        except ProviderError as e:
+            logger.error(f"[FAILED] {line['line_id']}: {e}")
+            failures.append({"line_id": line["line_id"], "error": str(e)})
+            continue
+
+        cache_key = line_hash(line, provider_name, voice_id)
         cached = load_from_cache(cache_key, cache_dir=cache_dir)
         if cached:
             logger.info(f"[cache hit] {line['line_id']} ({line['speaker']})")
@@ -119,7 +130,6 @@ def run_episode(episode_path: str, provider_override: str = None, cache_dir: str
         )
 
         try:
-            voice_id = provider.resolve_voice_id(line["speaker"], effective_casting)
             logger.info(
                 f"[synthesizing] {line['line_id']} ({line['speaker']}, {line['emotion']}) via {provider_name}"
             )

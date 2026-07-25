@@ -138,9 +138,13 @@ class SarvamProvider(TTSProvider):
                 # raw bytes — decoding is required or the file is corrupt.
                 audio_bytes = base64.b64decode(response.audios[0])
 
+                # `language` belongs here for the same reason it belongs in the
+                # cache key: the same sentence read as `en` and as `hi-en` is a
+                # different take, and without it the two write to one filename
+                # and the second silently overwrites the first.
                 fname = hashlib.sha256(
-                    f"{voice_id}:{request.text}:{request.emotion}:"
-                    f"{request.intensity}:{request.pace}".encode("utf-8")
+                    f"{voice_id}:{request.text}:{request.language}:"
+                    f"{request.emotion}:{request.intensity}:{request.pace}".encode("utf-8")
                 ).hexdigest()[:16]
                 out_path = os.path.join(self.cache_dir, f"{self.name}_{request.character_id}_{fname}.mp3")
                 os.makedirs(self.cache_dir, exist_ok=True)

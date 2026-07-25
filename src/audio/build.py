@@ -46,7 +46,8 @@ def _requires(key: str) -> None:
 
 
 def build(story: str, ep: int, provider: Optional[str] = None,
-          bgm: bool = True, sfx: bool = True) -> pathlib.Path:
+          bgm: bool = True, sfx: bool = True, direct: bool = True,
+          language: Optional[str] = None) -> pathlib.Path:
     from src.util import read_json, write_json
     from src.audio.voice.pipeline.orchestrator import run_episode
     from src.audio.voice.pipeline.audio_post import build_episode
@@ -56,12 +57,34 @@ def build(story: str, ep: int, provider: Optional[str] = None,
     WORK.mkdir(parents=True, exist_ok=True)
     CACHE.mkdir(parents=True, exist_ok=True)
 
-    # 1. script -> episode.json, preserving any emotion tagging already done
-    out_json = audio_dir / f"ep{ep:02d}.json"
-    previous = read_json(out_json) if out_json.exists() else None
-    write_json(out_json, script_to_episode.build(story, ep, previous=previous))
+    # 1. script -> episode.json, preserving any emotion tagging already done.
+    #    A language variant is a separate script and a separate cut, side by side
+    #    with the original — same characters, same voices, different register.
+    dossier_language = read_json(STORIES / story / "dossier.json").get("language", "en")
+    variant = language and language != dossier_language
+    stem = f"ep{ep:02d}_{language}" if variant else f"ep{ep:02d}"
 
-    staged = WORK / f"{story}_ep{ep:02d}.json"
+    out_json = audio_dir / f"{stem}.json"
+    previous = read_json(out_json) if out_json.exists() else None
+    write_json(out_json, script_to_episode.build(story, ep, language=language,
+                                                 previous=previous))
+
+    # 1b. the director reviews the writer's marks with the finished episode in
+    #     hand — the one thing the writer could not have when it tagged line 3.
+    if direct:
+        from src.audio.director import apply as direct_episode
+        try:
+            direct_episode(story, ep)
+        except Exception as exc:
+            # The director is a review pass, not a dependency. No key, a refusal,
+            # a rate limit — the episode still has the writer's own marks and is
+            # perfectly playable. Losing the demo because an optional second
+            # opinion was unavailable would be the worse failure.
+            log(f"direction skipped ({type(exc).__name__}): "
+                f"{str(exc).splitlines()[0][:90]}", "warn")
+            log("using the writer's own marks", "warn")
+
+    staged = WORK / f"{story}_{stem}.json"
     shutil.copy(out_json, staged)
 
     if provider != "mock":
@@ -86,7 +109,7 @@ def build(story: str, ep: int, provider: Optional[str] = None,
     # 4 + 5. spot effects, dynamics, master
     if sfx:
         from src.audio.sfx import apply as apply_sfx
-        return apply_sfx(story, ep)
+        return apply_sfx(story, ep, stem=stem)
 
     return pathlib.Path(mp3)
 
@@ -99,6 +122,10 @@ def main() -> int:
                     help="sarvam | elevenlabs | mock (mock costs nothing)")
     ap.add_argument("--no-bgm", action="store_true")
     ap.add_argument("--no-sfx", action="store_true")
+    ap.add_argument("--language", default=None, choices=["en","hi-en","hi","ta","ta-en"],
+                    help="build a language variant of the same episode")
+    ap.add_argument("--no-direct", action="store_true",
+                    help="skip the director's review of the writer's marks")
     args = ap.parse_args()
 
     from src.util import load_env
@@ -106,7 +133,8 @@ def main() -> int:
 
     try:
         out = build(args.story, args.ep, args.provider,
-                    bgm=not args.no_bgm, sfx=not args.no_sfx)
+                    bgm=not args.no_bgm, sfx=not args.no_sfx,
+                    direct=not args.no_direct, language=args.language)
     except RuntimeError as exc:
         log(str(exc), "error")
         return 1

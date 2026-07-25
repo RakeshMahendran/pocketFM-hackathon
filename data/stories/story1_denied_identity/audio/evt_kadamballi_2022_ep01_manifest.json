@@ -15,7 +15,7 @@
       "language": "en",
       "pace": "normal",
       "start_ms": 0,
-      "end_ms": 6296,
+      "end_ms": 5878,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_26420ebacb4b5995.mp3",
       "bgm_cue": "neutral"
     },
@@ -28,8 +28,8 @@
       "intensity": 0.45,
       "language": "en",
       "pace": "normal",
-      "start_ms": 6496,
-      "end_ms": 13209,
+      "start_ms": 6078,
+      "end_ms": 14333,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_7b4ef4b5a8fd45d2.mp3",
       "bgm_cue": "neutral"
     },
@@ -42,8 +42,8 @@
       "intensity": 0.35,
       "language": "en",
       "pace": "clipped",
-      "start_ms": 13409,
-      "end_ms": 14140,
+      "start_ms": 14533,
+      "end_ms": 15552,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_692377dd84e2e7b0.mp3",
       "bgm_cue": "neutral"
     },
@@ -56,8 +56,8 @@
       "intensity": 0.55,
       "language": "en",
       "pace": "normal",
-      "start_ms": 14340,
-      "end_ms": 17135,
+      "start_ms": 15752,
+      "end_ms": 18808,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_e622faa06dd8f92e.mp3",
       "bgm_cue": "neutral"
     },
@@ -70,10 +70,10 @@
       "intensity": 0.5,
       "language": "en",
       "pace": "normal",
-      "start_ms": 17335,
-      "end_ms": 19712,
+      "start_ms": 19008,
+      "end_ms": 21385,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_148bd6b654cd1c23.mp3",
-      "bgm_cue": "sarcasm"
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l006",
@@ -84,10 +84,10 @@
       "intensity": 0.5,
       "language": "en",
       "pace": "normal",
-      "start_ms": 19912,
-      "end_ms": 24065,
+      "start_ms": 21585,
+      "end_ms": 25399,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_f6be7f7b9a1a4556.mp3",
-      "bgm_cue": "urgency"
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l007",
@@ -98,8 +98,8 @@
       "intensity": 0.45,
       "language": "en",
       "pace": "normal",
-      "start_ms": 24265,
-      "end_ms": 31423,
+      "start_ms": 25599,
+      "end_ms": 33436,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_4277d27ed379e248.mp3",
       "bgm_cue": "neutral"
     },
@@ -112,10 +112,10 @@
       "intensity": 0.5,
       "language": "en",
       "pace": "clipped",
-      "start_ms": 31623,
-      "end_ms": 32407,
+      "start_ms": 33636,
+      "end_ms": 34394,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_f4816b2a66b9f063.mp3",
-      "bgm_cue": "tension"
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l009",
@@ -126,8 +126,8 @@
       "intensity": 0.4,
       "language": "en",
       "pace": "normal",
-      "start_ms": 32607,
-      "end_ms": 33521,
+      "start_ms": 34594,
+      "end_ms": 35430,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_787bf0b01cdb3dec.mp3",
       "bgm_cue": "neutral"
     },
@@ -140,24 +140,24 @@
       "intensity": 0.45,
       "language": "en",
       "pace": "clipped",
-      "start_ms": 33721,
-      "end_ms": 34949,
+      "start_ms": 35630,
+      "end_ms": 36753,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_4b65e89752b07dd7.mp3",
-      "bgm_cue": "tension"
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l011",
       "speaker": "basavaraj",
       "provider": "sarvam",
       "voice_id": "shubh",
-      "emotion": "tension",
+      "emotion": "neutral",
       "intensity": 0.5,
       "language": "en",
       "pace": "clipped",
-      "start_ms": 35149,
-      "end_ms": 35776,
-      "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_91be3db66293838e.mp3",
-      "bgm_cue": "tension"
+      "start_ms": 36953,
+      "end_ms": 37502,
+      "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_bf7689dd9beb78b8.mp3",
+      "bgm_cue": "neutral"
     },
     {
       "line_id": "l012",
@@ -168,8 +168,8 @@
       "intensity": 0.55,
       "language": "en",
       "pace": "normal",
-      "start_ms": 35976,
-      "end_ms": 44492,
+      "start_ms": 37702,
+      "end_ms": 46479,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_b868de4a7cc8e911.mp3",
       "bgm_cue": "neutral"
     },
@@ -182,8 +182,8 @@
       "intensity": 0.6,
       "language": "en",
       "pace": "normal",
-      "start_ms": 44692,
-      "end_ms": 46207,
+      "start_ms": 46679,
+      "end_ms": 48194,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_2913f96755d75056.mp3",
       "bgm_cue": "tension"
     },
@@ -196,8 +196,8 @@
       "intensity": 0.6,
       "language": "en",
       "pace": "clipped",
-      "start_ms": 46407,
-      "end_ms": 47269,
+      "start_ms": 48394,
+      "end_ms": 49178,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_eae5146584ffbd7a.mp3",
       "bgm_cue": "tension"
     },
@@ -210,10 +210,10 @@
       "intensity": 0.4,
       "language": "en",
       "pace": "normal",
-      "start_ms": 47469,
-      "end_ms": 50787,
+      "start_ms": 49378,
+      "end_ms": 52591,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_879ed11ff589255d.mp3",
-      "bgm_cue": "neutral"
+      "bgm_cue": "tension"
     },
     {
       "line_id": "l016",
@@ -224,10 +224,10 @@
       "intensity": 0.7,
       "language": "en",
       "pace": "clipped",
-      "start_ms": 50987,
-      "end_ms": 52241,
+      "start_ms": 52791,
+      "end_ms": 54123,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_4704ee4cbc961100.mp3",
-      "bgm_cue": "urgency"
+      "bgm_cue": "tension"
     },
     {
       "line_id": "l017",
@@ -238,10 +238,10 @@
       "intensity": 0.5,
       "language": "en",
       "pace": "slow",
-      "start_ms": 52441,
-      "end_ms": 58136,
+      "start_ms": 54323,
+      "end_ms": 60462,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_narrator_f3db6adde34062fe.mp3",
-      "bgm_cue": "reflective"
+      "bgm_cue": "tension"
     },
     {
       "line_id": "l018",
@@ -252,8 +252,8 @@
       "intensity": 0.55,
       "language": "en",
       "pace": "normal",
-      "start_ms": 58336,
-      "end_ms": 64292,
+      "start_ms": 60662,
+      "end_ms": 67219,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_7bae844ae1515b3f.mp3",
       "bgm_cue": "tension"
     },
@@ -262,13 +262,13 @@
       "speaker": "chaitra",
       "provider": "sarvam",
       "voice_id": "simran",
-      "emotion": "tension",
-      "intensity": 0.65,
+      "emotion": "tenderness",
+      "intensity": 0.55,
       "language": "en",
-      "pace": "normal",
-      "start_ms": 64492,
-      "end_ms": 66948,
-      "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_687a7ad470bbd5a0.mp3",
+      "pace": "slow",
+      "start_ms": 67419,
+      "end_ms": 70345,
+      "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_6517f752a0e5643a.mp3",
       "bgm_cue": "tension"
     },
     {
@@ -276,13 +276,13 @@
       "speaker": "basavaraj",
       "provider": "sarvam",
       "voice_id": "shubh",
-      "emotion": "tension",
-      "intensity": 0.6,
+      "emotion": "neutral",
+      "intensity": 0.55,
       "language": "en",
       "pace": "normal",
-      "start_ms": 67148,
-      "end_ms": 70021,
-      "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_0118769d398eebb9.mp3",
+      "start_ms": 70545,
+      "end_ms": 72400,
+      "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_b685eb072ae39819.mp3",
       "bgm_cue": "tension"
     },
     {
@@ -294,10 +294,10 @@
       "intensity": 0.75,
       "language": "en",
       "pace": "fast",
-      "start_ms": 70221,
-      "end_ms": 71893,
+      "start_ms": 72600,
+      "end_ms": 73723,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_9593c422a3c6d4dc.mp3",
-      "bgm_cue": "hurt_anger"
+      "bgm_cue": "urgency"
     },
     {
       "line_id": "l022",
@@ -308,10 +308,10 @@
       "intensity": 0.55,
       "language": "en",
       "pace": "slow",
-      "start_ms": 72093,
-      "end_ms": 73948,
+      "start_ms": 73923,
+      "end_ms": 75229,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_4ac6a97a2ce79dfb.mp3",
-      "bgm_cue": "neutral"
+      "bgm_cue": "urgency"
     },
     {
       "line_id": "l023",
@@ -322,8 +322,8 @@
       "intensity": 0.8,
       "language": "en",
       "pace": "clipped",
-      "start_ms": 74148,
-      "end_ms": 75088,
+      "start_ms": 75429,
+      "end_ms": 76291,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_8fd207713e054848.mp3",
       "bgm_cue": "urgency"
     },
@@ -336,10 +336,10 @@
       "intensity": 0.5,
       "language": "en",
       "pace": "normal",
-      "start_ms": 75288,
-      "end_ms": 76464,
+      "start_ms": 76491,
+      "end_ms": 77588,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_e8eccfdda84399a0.mp3",
-      "bgm_cue": "hesitation"
+      "bgm_cue": "urgency"
     },
     {
       "line_id": "l025",
@@ -350,10 +350,10 @@
       "intensity": 0.85,
       "language": "en",
       "pace": "normal",
-      "start_ms": 76664,
-      "end_ms": 79381,
+      "start_ms": 77788,
+      "end_ms": 80661,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_b87f1463488297c9.mp3",
-      "bgm_cue": "hurt_anger"
+      "bgm_cue": "urgency"
     },
     {
       "line_id": "l026",
@@ -364,20 +364,17 @@
       "intensity": 0.6,
       "language": "en",
       "pace": "slow",
-      "start_ms": 80281,
-      "end_ms": 84722,
+      "start_ms": 81561,
+      "end_ms": 86812,
       "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_5123cc27b458a79b.mp3",
-      "bgm_cue": "neutral"
+      "bgm_cue": "sorrow"
     }
   ],
   "bgm": {
     "enabled": true,
     "moods_used": [
-      "hesitation",
-      "hurt_anger",
       "neutral",
-      "reflective",
-      "sarcasm",
+      "sorrow",
       "tension",
       "urgency"
     ]
