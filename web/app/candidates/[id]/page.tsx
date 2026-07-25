@@ -204,6 +204,7 @@ export default async function CandidateBrief(
               blocked={blocked}
               reasons={c.clearance?.reasons ?? []}
               editor={editor}
+              estimate={c.episode_estimate}
             />
           </div>
 

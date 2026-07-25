@@ -131,6 +131,8 @@ def cmd_commission(args) -> int:
         extra += ["--story", args.story]
     if args.language:
         extra += ["--language", args.language]
+    if args.episodes:
+        extra += ["--episodes", str(args.episodes)]
     return run_module("src.commission", extra)
 
 
@@ -236,6 +238,8 @@ def build_parser() -> argparse.ArgumentParser:
             p.add_argument("--story", default=None,
                            help="directory under data/stories")
             p.add_argument("--language", default=None, choices=["en", "hi-en"])
+            p.add_argument("--episodes", type=int, default=None,
+                           help="how many episodes to order (default 14)")
         elif name == "serial":
             p.add_argument("--event", required=True, help="dossier event_id")
             p.add_argument("--story", default=None,

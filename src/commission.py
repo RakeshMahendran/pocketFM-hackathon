@@ -60,7 +60,7 @@ def write_status(event_id: str, **fields: Any) -> Dict[str, Any]:
 
 
 def run(event_id: str, story_id: Optional[str] = None,
-        language: str = "en") -> int:
+        language: str = "en", episodes: Optional[int] = None) -> int:
     """
     Plan then write. Returns a process exit code.
 
@@ -84,7 +84,10 @@ def run(event_id: str, story_id: Optional[str] = None,
 
     try:
         log(f"commission {event_id}: working out the season")
-        if scoring.main(["--event", event_id]) != 0:
+        plan_argv = ["--event", event_id]
+        if episodes is not None:
+            plan_argv += ["--episodes", str(episodes)]
+        if scoring.main(plan_argv) != 0:
             raise RuntimeError(
                 "the season plan could not be written — see the log above for "
                 "which check refused it"
@@ -151,11 +154,13 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     parser.add_argument("--event", required=True, help="corpus item id or title fragment")
     parser.add_argument("--story", default=None, help="directory under data/stories")
     parser.add_argument("--language", default="en", choices=["en", "hi-en"])
+    parser.add_argument("--episodes", type=int, default=None, metavar="N",
+                        help="how many episodes to order (default 14)")
     args = parser.parse_args(argv)
 
     load_env()
     ensure_dirs()
-    return run(args.event, args.story, args.language)
+    return run(args.event, args.story, args.language, args.episodes)
 
 
 if __name__ == "__main__":

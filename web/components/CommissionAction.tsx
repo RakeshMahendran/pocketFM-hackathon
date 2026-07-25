@@ -18,6 +18,19 @@ import { FOR_THE_OPERATOR } from "@/lib/words";
  * this and a season can still need starting by hand.
  */
 
+/**
+ * Ordering a season length is a commissioning decision, so it is offered in
+ * commissioning terms rather than as a number box. Each option costs real money
+ * and real minutes, which is why the short ones are first and named as what
+ * they are for.
+ */
+const ORDERS = [
+  { n: 3, label: "a taster, to see how it reads" },
+  { n: 6, label: "a short run" },
+  { n: 14, label: "a full season" },
+  { n: 24, label: "a long season" },
+];
+
 function Submit() {
   // Writing takes minutes, but *starting* takes a moment. This covers the gap
   // between the click and the redirect so nothing looks unresponsive.
@@ -39,12 +52,15 @@ export function CommissionAction({
   blocked,
   reasons,
   editor,
+  estimate,
 }: {
   id: string;
   title: string;
   blocked: boolean;
   reasons: string[];
   editor: { id: string; name: string; role: string } | null;
+  /** The scout's longevity figure. Context for the order, not the order. */
+  estimate?: number | null;
 }) {
   const [copied, setCopied] = useState<"idle" | "ok" | "fail">("idle");
   const command = `python tasks.py commission --event "${id}"`;
@@ -94,7 +110,37 @@ export function CommissionAction({
 
       <form action={startCommission}>
         <input type="hidden" name="eventId" value={id} />
-        <Submit />
+
+        <label className="block">
+          <span className="label">How many episodes to order</span>
+          <select
+            name="episodes"
+            defaultValue={14}
+            className="mt-2 w-full bg-surface border border-rule rounded-sm px-3 py-2 text-sm text-paper"
+          >
+            {ORDERS.map((o) => (
+              <option key={o.n} value={o.n}>
+                {o.n} — {o.label}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        {/*
+          The scout's figure answers how long this could run, not how much to
+          make now — across the corpus it ranges 75 to 300. Shown as context for
+          the order, never as the order itself.
+        */}
+        {estimate && (
+          <p className="mt-2 text-xs text-faint">
+            The search reckons this one could run about {estimate} episodes in
+            total.
+          </p>
+        )}
+
+        <div className="mt-4">
+          <Submit />
+        </div>
       </form>
 
       <p className="mt-3 text-sm text-muted prose-col leading-relaxed">

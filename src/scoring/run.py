@@ -392,6 +392,12 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
              "scout's pick — the editor commissions, the scout only ranks.",
     )
     parser.add_argument(
+        "--episodes", type=int, default=None, metavar="N",
+        help="how many episodes to order. Deliberately not the scout's "
+             "`episode_estimate`, which answers how long this could run "
+             "(75-300 across the corpus) rather than how much to make now.",
+    )
+    parser.add_argument(
         "--by", default=None, metavar="EDITOR",
         help="who commissioned this. Stamped onto the dossier so a season "
              "carries the name of the person who chose it, not just the "
@@ -405,6 +411,15 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
              "does. Omit on a first expansion, when no beats exist yet.",
     )
     args = parser.parse_args(argv)
+
+    # An explicit order beats the environment default. Set before `episodes()`
+    # is read, so the length the editor asked for is the one that reaches both
+    # the prompt and the plan it writes.
+    if args.episodes is not None:
+        if args.episodes < 1:
+            log(f"--episodes {args.episodes} must be at least 1", "error")
+            return 1
+        os.environ["CANONFORGE_EPISODES"] = str(args.episodes)
 
     load_env()
     if offline():

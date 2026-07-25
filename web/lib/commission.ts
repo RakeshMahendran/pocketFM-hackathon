@@ -128,12 +128,18 @@ export async function startCommission(formData: FormData): Promise<void> {
   const eventId = String(formData.get("eventId") ?? "").trim();
   if (!eventId) redirect("/sourcing");
 
+  // How many episodes the editor ordered. Bounded here rather than trusted:
+  // this arrives from a form and ends up as an argument to a paid process.
+  const asked = Number(formData.get("episodes"));
+  const episodes =
+    Number.isFinite(asked) && asked >= 1 && asked <= 60 ? Math.round(asked) : 14;
+
   const existing = await readCommission(eventId);
   // Already under way: show it rather than starting a second one over the top.
   if (existing?.state !== "running") {
     const child = spawn(
       "python",
-      ["-m", "src.commission", "--event", eventId],
+      ["-m", "src.commission", "--event", eventId, "--episodes", String(episodes)],
       { cwd: REPO, detached: true, stdio: "ignore", windowsHide: true },
     );
     child.unref();
