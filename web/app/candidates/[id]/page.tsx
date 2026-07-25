@@ -4,10 +4,15 @@ import { notFound } from "next/navigation";
 import { ClearanceBadge } from "@/components/ClearanceBadge";
 import { CommissionAction } from "@/components/CommissionAction";
 import { Notice } from "@/components/Notice";
-import { loadCandidate } from "@/lib/data";
+import { loadCandidate, loadCorpus } from "@/lib/data";
 import { SCORE_LABELS, type Scores } from "@/lib/types";
 
-export const dynamic = "force-dynamic";
+// One HTML file per candidate, enumerated from the frozen corpus at build
+// time. Static export has no server to resolve an unknown id against.
+export async function generateStaticParams() {
+  const { candidates } = await loadCorpus();
+  return candidates.map((c) => ({ id: c.id }));
+}
 
 function Section({
   title,

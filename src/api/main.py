@@ -23,7 +23,21 @@ load_env()
 
 app = FastAPI(title="CanonForge", docs_url="/api/docs", openapi_url="/api/openapi.json")
 
-WEB_OUT = ROOT / "web" / "out"
+def _web_root() -> Optional[pathlib.Path]:
+    """
+    Where the built frontend lives.
+
+    `databricks sync` honours .gitignore, and web/.gitignore ignores out/,
+    so the deployed copy is staged at static/ instead. Locally the fresh
+    build in web/out wins so you are never serving a stale copy.
+    """
+    for candidate in (ROOT / "web" / "out", ROOT / "static"):
+        if candidate.is_dir():
+            return candidate
+    return None
+
+
+WEB_OUT = _web_root()
 
 
 def beat_source() -> list[dict[str, Any]]:
@@ -77,9 +91,20 @@ def character_view(char_id: str, beats: list[dict] = Depends(beat_source)) -> di
     return _character_view(beats, char_id)
 
 
+@app.api_route("/api/{rest:path}", methods=["GET", "POST", "PUT", "DELETE"])
+def api_not_found(rest: str):
+    """
+    Claim the whole /api namespace before the static catch-all does.
+
+    Without this, StaticFiles answers a mistyped endpoint with an HTML 404
+    and the frontend fails somewhere far from the cause.
+    """
+    raise HTTPException(status_code=404, detail=f"no such endpoint: /api/{rest}")
+
+
 # --- static frontend, registered last -------------------------------------
 
-if WEB_OUT.is_dir():
+if WEB_OUT:
     app.mount("/", StaticFiles(directory=str(WEB_OUT), html=True), name="web")
 else:
-    log(f"no static build at {WEB_OUT}; API-only. Run `npm run build` in web/.", "warn")
+    log("no static build found; API-only. Run `npm run build` in web/.", "warn")

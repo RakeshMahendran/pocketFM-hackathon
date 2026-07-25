@@ -24,6 +24,16 @@ since it was written.
 
 | 10 | **Generation runs on Claude, not OpenAI.** Decided 2026-07-25 by P3, and it reverses decision 1 for the whole team. | No OpenAI key was available and the build could not wait. **P1 and P2 must know**: `.env.example`'s `OPENAI_MODEL_*` routing, the `client.responses.create` calls in `src/discovery/` and `src/scoring/`, and B1's harness in `src/generation/` all assume OpenAI. If the hackathon is scored on sponsor-platform use, this is a visible cost — raise it before the deck is written. |
 
+| 11 | **The canon store is Lakebase Postgres, not SQLite, and the app deploys to Databricks Apps.** Decided 2026-07-26. Reverses the "No Postgres" line in `CLAUDE.md`, which has been updated. | Databricks Apps have an ephemeral filesystem — a `data/canon.db` on app disk does not survive a restart, so SQLite was not an option once hosting was the goal. Nothing was ported: `src/canon/` was still empty, so this cost no rewrite. `hidden_from` and friends live in `jsonb` with GIN indexes, though the character views filter in Python at this scale rather than in SQL. |
+
+### Consequences of decision 11
+
+- **The local demo and the hosted app now diverge.** Hard rule 5 ("never add live network calls to the demo path") still governs the local golden path. The hosted app necessarily opens a socket to Lakebase, so `src/api/main.py` falls back to `schemas/samples/ipl_beats.json` whenever the database is unreachable — the hosted demo degrades instead of dying.
+- **Lakebase has no password.** Auth is a Databricks OAuth token valid one hour, checked only at login. `src/canon/db.py` mints and caches it. SSL is mandatory because the token travels as a plaintext password.
+- **Databricks Apps cannot be made public.** Anonymous access and SSO bypass are unsupported, so no judge can open the URL without a workspace account. The hosted app is for the team; `BUILD_PLAN.md` §5's recorded backup video remains the artefact anyone else sees.
+- **A running app bills continuously** (0.5 DBU/hr, Medium) with no documented idle auto-stop. Stop it when not demoing.
+- **Store tests need a reachable Lakebase** and are marked `lakebase`; they skip when `OFFLINE=1` or the instance is down, so the offline suite still runs clean.
+
 ### Consequences of decision 9 — **docs now updated**
 
 - ~~**Tier is gone.**~~ Done. `CLAUDE.md`'s vocabulary table now defines **Domain** and **Grounded** in its place, and records why tier retired: it was derived from *which fetcher* returned an item, and there is no fetcher any more. Clearance no longer follows from provenance — the scout states it directly.

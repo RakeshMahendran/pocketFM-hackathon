@@ -5,9 +5,8 @@ import { Notice } from "@/components/Notice";
 import { loadCorpus } from "@/lib/data";
 import type { Candidate } from "@/lib/types";
 
-// Reads the filesystem on every request, so the screen reflects a corpus the
-// moment someone freezes one — no rebuild.
-export const dynamic = "force-dynamic";
+// The corpus is read at build time, not per request: a static export has no
+// server to re-read it. Re-freezing a corpus now needs a rebuild to show up.
 
 /** Where a row sits in the editor's pipeline. Derived from data, never invented. */
 function stateOf(c: Candidate): { label: string; className: string } {
