@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Character",
+  "type": "object",
+  "required": ["char_id","name","role","stub"],
+  "properties": {
+    "char_id": {"type": "string"},
+    "name":    {"type": "string"},
+    "role":    {"type": "string"},
+    "promotable": {"type": "boolean"},
+    "real_anchor": {
+      "type": "object",
+      "description": "link back to the dossier. spinoffs inherit clearance.",
+      "properties": {
+        "maps_to":   {"type": "string"},
+        "composite": {"type": "boolean"},
+        "clearance": {"enum": ["greenlight","fictionalize_first","blocked"]}
+      }},
+    "stub": {
+      "type": "object",
+      "description": "auto-generated with the serial. cheap.",
+      "required": ["facts","want","voice_samples"],
+      "properties": {
+        "facts":         {"type": "array", "items": {"type": "string"}},
+        "want":          {"type": "string"},
+        "voice_samples": {"type": "array", "items": {"type": "string"}}
+      }},
+    "bible": {
+      "type": "object",
+      "description": "populated by the promotion call. fires on click only.",
+      "properties": {
+        "want":             {"type": "string"},
+        "wound":            {"type": "string"},
+        "voice":            {"type": "string"},
+        "engine":           {"type": "string"},
+        "offscreen_ledger": {"type": "array", "items": {
+           "type": "object",
+           "properties": {
+             "window": {"type": "string"},
+             "what":   {"type": "string"}
+           }}},
+        "reframe":          {"type": "string"}
+      }}
+  }
+}

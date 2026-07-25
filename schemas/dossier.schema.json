@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dossier",
+  "type": "object",
+  "required": ["event_id","title","one_line_summary","timeline",
+               "people","adaptability","clearance","novelty","engine"],
+  "properties": {
+    "event_id":         {"type": "string"},
+    "title":            {"type": "string"},
+    "one_line_summary": {"type": "string"},
+    "timeline": {"type": "array", "items": {
+      "type": "object",
+      "required": ["id","date","what_happened","confidence","source"],
+      "properties": {
+        "id":            {"type": "string"},
+        "date":          {"type": "string"},
+        "what_happened": {"type": "string"},
+        "confidence":    {"enum": ["verified","reported","alleged","disputed"]},
+        "source":        {"type": "string"}
+      }}},
+    "people": {"type": "array", "items": {
+      "type": "object",
+      "required": ["name","role","public_or_private"],
+      "properties": {
+        "name":              {"type": "string"},
+        "role":              {"type": "string"},
+        "motive":            {"type": "string"},
+        "public_or_private": {"enum": ["public","private"]},
+        "living":            {"type": "boolean"}
+      }}},
+    "adaptability": {
+      "type": "object",
+      "required": ["conflict","characters","stakes","serializability","resonance","total"],
+      "properties": {
+        "conflict":        {"type": "integer"},
+        "characters":      {"type": "integer"},
+        "stakes":          {"type": "integer"},
+        "serializability": {"type": "integer"},
+        "resonance":       {"type": "integer"},
+        "total":           {"type": "integer"}
+      }},
+    "clearance": {
+      "type": "object",
+      "required": ["status","reasons"],
+      "properties": {
+        "status":  {"enum": ["greenlight","fictionalize_first","blocked"]},
+        "reasons": {"type": "array", "items": {"type": "string"}}
+      }},
+    "novelty": {
+      "type": "object",
+      "properties": {
+        "prior_adaptations": {"type": "array", "items": {"type": "string"}},
+        "score":             {"type": "integer"}
+      }},
+    "engine":        {"type": "string",
+                      "description": "the standing condition that generates conflict every episode"},
+    "why_this_works": {"type": "string"},
+    "fictionalization_map": {"type": "object", "additionalProperties": {"type": "string"}}
+  }
+}
