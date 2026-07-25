@@ -1,0 +1,89 @@
+{
+  "char_id": "savithri",
+  "name": "Savithri",
+  "role": "chaitra's mother; married mallesha in 1999 knowing exactly what she was marrying into",
+  "promotable": true,
+  "real_anchor": {
+    "maps_to": "invented",
+    "composite": true,
+    "clearance": "fictionalize_first"
+  },
+  "stub": {
+    "facts": [
+      "savithri burns the certified copy of the birth certificate in the kitchen fire rather than answer chaitra's three questions.",
+      "harsha's family return the engagement tray at the gate without entering the house, in view of the lane.",
+      "thammanna collects twelve hundred rupees from the rice tin as he has on the seventh of every month since 1998, and in the same visit raises the unmutated four acres at Nerlige.",
+      "ratnamma comes to the house and states that she was married eleven days to the appointee, who died on 14 August 1994 after a lorry collision at the Hosakere junction on his way to file the joining report.",
+      "ratnamma challenges mallesha in the lane to say what she is to him; he answers with a line about the fourth standard timetable and walks to the cowshed.",
+      "thammanna rides past the gate without stopping on the seventh for the first time in twenty-four years; the audit team sat on the fifth and he handed nothing over.",
+      "ratnamma withdraws the claim as against savithri, says so aloud in front of the lane, and is taken inside the house for the first time in twenty-eight years.",
+      "mallesha refuses his name three times; chaitra says it aloud from the back of the hall and girija repeats it in front of the staff; nagaraj records the name mallesha and takes the spelling.",
+      "nagaraj announces there will be a criminal reference and recovery of all pay drawn since November 1994, then asks mallesha to sign the statement in his own name; mallesha states he has not written his own name since 4 November 1994 and takes four minutes over four letters.",
+      "savithri states that in 2011, when prakash's chest fever needed eleven thousand rupees the house did not have, thammanna had her execute a general power of attorney she never read to the end.",
+      "In the same corridor and in front of the same ninety witnesses, chaitra produces three documents: the seva register entry placing thammanna as payer of the 1994 funeral, the 2011 registered power of attorney in which thammanna personally identified savithri as the wife of a man dead seventeen years, and the receipt book counterfoils whose body text is in the same hand as this month's inward register entry.",
+      "thammanna is arrested in the corridor on the registered-document offence, and his name is spelled aloud twice — once into the enquiry record and once on the arrest memo.",
+      "revanna settles the ledger aloud: sale deed and mutation referred for cancellation and the four acres restored; ratnamma's arrears recommended against thammanna and not the family; shankarappa censured permanently and the school's second building block sanctioned; puttaraju suspended; mallesha dismissed, criminally referred, and the recovery reduced by the three lakh forty-five thousand six hundred rupees proved extorted; savithri says her husband's name aloud to strangers for the first time.",
+      "harsha's family return the engagement tray and chaitra refuses the match aloud in front of the corridor, in the same public form in which it was withdrawn.",
+      "basavaraj reads serial nine of the district appointment list aloud to the corridor: assistant teacher, Nerlige — chaitra, daughter of mallesha."
+    ],
+    "want": "that nobody in the house ever says the wrong name out loud in front of a stranger",
+    "voice_samples": [
+      "Your brother was six. He had the fever that year, the one that went to his chest, and the doctor in the town wanted eleven thousand rupees and we had four. Thammanna came on the seventh as usual and he sat in that chair and he said, Savithramma, there is a paper that costs nothing to sign and it does nothing unless it is needed. (a pause) I asked him what it does if it is needed. He said, amma, it means that one day, if some officer asks for the husband's signature and the husband cannot give it, the wife's signature will do instead. And I thought — I thought that was mercy. I thought he was giving us a way that did not need that name on it.",
+      "(flat) I was nineteen when they married me into this house and thirty-one when I signed that paper and I have never in my life read a document to the end. I signed it, and the boy got the eleven thousand rupees, and the boy is seventeen and standing in that doorway right now, and I would sign it again. That is the honest answer and I am tired of giving the other kind.",
+      "(again, and it is steadier) I am Savithri and I have been married twenty-three years to a man called Mallesha and I have never said it in front of people and I am saying it now.",
+      "(and it comes out of her at last, worn to nothing) I have been saying eat first to you since you were four years old and it has never once worked. Sit down, Chaitra.",
+      "(from inside, and her voice is not steady, which is new) Give her water and send her.",
+      "(and it comes out, and something in it cracks) She has withdrawn it against me!",
+      "There is rice. There is the huli from yesterday, it is better today.",
+      "(flat) Then it is not the seventh any more. It is something else.",
+      "(calling, steady) Tell your mother the huli was good this year.",
+      "(from the doorway, formal) Sir. Sit. I'll bring coffee.",
+      "(from the doorway, quiet) Ratnakka. Come inside.",
+      "At the temple. Since morning. She has not eaten."
+    ]
+  },
+  "bible": {
+    "want": "To meet every stranger at the threshold, give the household its safe script, and end the visit before anyone says the wrong name.",
+    "wound": "Savithri knowingly avoids questions that would force the household's lie into the open, substituting food, money, and practical rescue for honest answers. It keeps the house functioning, but teaches her children not to confide in her and teaches opportunists that she can be made useful if they threaten to speak.",
+    "voice": "With guests or family, she speaks in short imperatives: sit, eat, drink, go. Her specific deflection is hospitality—when uncomfortable, she changes the subject to food, water, seating, illness, or whether a child has eaten. When forced to account for herself, her sentences become long chronological inventories of ages, sums, objects, and who stood where; she repeats a clause until it steadies her. When frightened, she first gives a household order or uses a formal kinship address, then turns flat; if neither works, her voice cracks rather than grows louder.",
+    "engine": "Savithri is the household's human buffer: relatives, neighbors, creditors, and strangers learn that she will trade a meal, an errand, cash, labor, or a favor for letting a dangerous question drop. Every successful deflection attracts another demand, adds another debt, and deprives her of information she has effectively paid not to hear. Because food, illness, credit, ceremonies, and visitors never stop, the bargain renews itself daily and becomes harder to control each time it works.",
+    "offscreen_ledger": [
+      {
+        "window": "between the season opening and b004",
+        "what": "She moves old envelopes from the front room to the kitchen loft; returns borrowed coffee cups to three households; and cooks a second pot of rice for visitors she expects but does not discuss."
+      },
+      {
+        "window": "between b005 and b008",
+        "what": "She gathers the flowers scattered outside the gate and scrubs away the red powder; then returns the borrowed serving vessels without explaining why they were barely used."
+      },
+      {
+        "window": "between b008 and b013",
+        "what": "She measures the rice left in the tin; accepts three paid lunch orders; cooks and packs the meals before sunrise; and uses the coins to buy the next sack on credit."
+      },
+      {
+        "window": "between b014 and b028",
+        "what": "She accepts a feast order; borrows two cauldrons; buys lentils on credit; sends prakash for firewood; grinds spices; cooks through the night; delivers the pots before dawn; collects half the promised payment; pays the grocer; carries the leftovers to an ill neighbor; redirects questions in the lane into an argument about the recipe; retrieves the borrowed vessels; and replaces a missing lid with one from her own kitchen."
+      },
+      {
+        "window": "between b028 and b033",
+        "what": "She pours away the coffee that has gone cold; wraps the untouched twelve hundred rupees in cloth; returns it to the rice tin; and pays the grocer from her cooking earnings rather than disturb the bundle."
+      },
+      {
+        "window": "between b033 and b036",
+        "what": "She washes the cup ratnamma used and places it with the family's cups; then lays a second plate beside the household plates before the next meal."
+      },
+      {
+        "window": "between b037 and b039",
+        "what": "She opens the metal box, removes the paper she signed in 2011, and carries it folded to the corridor without reading it to the end."
+      },
+      {
+        "window": "between b039 and b042",
+        "what": "She buys water for the waiting family; then opens the food bundle she brought and portions it among them."
+      }
+    ],
+    "reframe": "The mainline is about a false public identity collapsing under official scrutiny; Savithri's serial is about domestic care turned into a system of censorship, and a woman who keeps choosing to be useful so that she will not have to be fully informed.",
+    "stance": "accomplice",
+    "genre": "Domestic noir",
+    "pitch": "A wife who can silence almost any question with a meal keeps feeding the people who are learning exactly what her silence is worth."
+  }
+}

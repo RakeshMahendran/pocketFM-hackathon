@@ -7,6 +7,7 @@ was launched from.
 """
 
 import os
+import re
 import sys
 import json
 import pathlib
@@ -22,6 +23,12 @@ SAMPLES = SCHEMAS / "samples"
 DB_PATH = DATA / "canon.db"
 CORPUS_PATH = DATA / "corpus.json"
 DOSSIERS_PATH = DATA / "dossiers.json"
+
+# Delivered mainline serials — one directory per story, each holding dossier.json,
+# beats.json, promises.json and episodes/. Frozen input: the spinoff slice reads
+# these and never writes them.
+STORIES = DATA / "stories"
+SPINOFFS = DATA / "spinoffs"
 
 # The canonical hand-authored mainline beat sheet. Fallback canon: if the
 # serial writer produces mush, the demo still has a season to query.
@@ -74,5 +81,32 @@ def write_json(path, obj: Any) -> None:
 
 
 def ensure_dirs() -> None:
-    for d in (DATA, CACHE):
+    for d in (DATA, CACHE, SPINOFFS):
         d.mkdir(parents=True, exist_ok=True)
+
+
+_SLOT = re.compile(r"\{\{([a-z_][a-z0-9_]*)\}\}")
+
+
+def load_prompt(path, **slots: str) -> str:
+    """
+    Read a prompt and fill its `{{slot}}`s.
+
+    Never `str.format()`. The prompt files carry literal single braces the model
+    is meant to emit verbatim — `{event_id}#{timeline_id}` in episode.md's
+    source_ref rule, and every JSON example inside a `<schema>` block. `format()`
+    treats all of them as fields and either raises or silently substitutes.
+
+    An unfilled slot is refused rather than shipped: sending the literal string
+    "{{voice_samples}}" to a model reads as an instruction and produces confident
+    nonsense.
+    """
+    text = pathlib.Path(path).read_text(encoding="utf-8")
+    for key, value in slots.items():
+        text = text.replace("{{" + key + "}}", str(value))
+    left = sorted(set(_SLOT.findall(text)))
+    if left:
+        raise ValueError(
+            f"{pathlib.Path(path).name} still has unfilled slots: {', '.join(left)}"
+        )
+    return text

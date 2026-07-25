@@ -9,7 +9,8 @@ that works on invented beats and fails on the real season is worthless.
 import pytest
 
 from src.util import IPL_BEATS, read_json
-from src.canon.views import character_view, knows, blind, gaps
+from src.canon.views import character_view_from_beats as character_view
+from src.canon.views import knows, blind
 
 
 @pytest.fixture(scope="module")
@@ -71,7 +72,8 @@ def test_gaps_are_runs_of_consecutive_beats_the_character_is_absent_from(beats):
     Gaps are computed over (ep, seq) ordering, not world_time arithmetic -
     world_time is partial ISO 8601 and does not subtract reliably.
     """
-    windows = [(g["start"], g["end"]) for g in gaps(beats, "jignesh")]
+    windows = [(g["start"], g["end"])
+               for g in character_view(beats, "jignesh")["gaps"]]
     assert windows == [
         ("b001", "b003"),
         ("b005", "b008"),
@@ -85,15 +87,28 @@ def test_largest_gap_is_the_rain_days(beats):
     b017's note calls the rain days Jignesh's largest gap. The data must
     agree with the note, or the note is a lie the writers will believe.
     """
-    largest = max(gaps(beats, "jignesh"), key=lambda g: g["length"])
+    largest = max(character_view(beats, "jignesh")["gaps"],
+                  key=lambda g: g["length"])
     assert (largest["start"], largest["end"]) == ("b015", "b021")
     assert largest["length"] == 7
 
 
-def test_character_absent_from_canon_knows_nothing_and_is_blind_to_nothing(beats):
+def test_a_character_absent_from_canon_is_blind_to_all_of_it(beats):
+    """
+    Changed deliberately, and it is the merge's one behavioural change.
+
+    `blind` used to mean "listed in hidden_from", which made a stranger to the
+    season blind to nothing at all. It now means "did not witness it", so a
+    stranger is blind to everything.
+
+    The old reading passes on this fixture because its hidden_from lists happen to
+    be complete. On the delivered stories they are not: kempanna is listed in
+    neither array on 36 of 46 beats, so those 36 fell out of the prohibition set
+    entirely and the writer was free to use them.
+    """
     view = character_view(beats, "nobody_at_all")
     assert view["knows"] == []
-    assert view["blind"] == []
+    assert len(view["blind"]) == len(beats)
 
 
 def test_character_view_bundles_the_three_lists(beats):

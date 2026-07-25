@@ -7,9 +7,9 @@ Idempotent: re-running resets the demo without duplicating canon.
 import argparse
 import sys
 
-from src.canon import store
+from src.canon import pgstore as store
 from src.canon.db import connect
-from src.canon.views import character_view
+from src.canon.views import character_view_from_beats as character_view
 from src.util import IPL_BEATS, log, read_json
 
 

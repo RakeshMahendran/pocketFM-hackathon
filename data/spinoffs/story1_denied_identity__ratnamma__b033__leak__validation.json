@@ -1,0 +1,114 @@
+{
+  "story_id": "story1_denied_identity",
+  "char_id": "ratnamma",
+  "anchor_beat_id": "b033",
+  "constrained": false,
+  "status": "violations",
+  "violations": [
+    {
+      "check": "leakage",
+      "severity": "error",
+      "quote": "",
+      "beat_id": "b032",
+      "why": "the episode rests a claim on b032, which ratnamma does not know: Under rule sixty-one revanna accepts the temple record plus two attesting statements — from the bride's uncle and from girija, who attended the 1994 marriage — and sanctions family pension to ratnamma, arrears referred to government.",
+      "source": "deterministic"
+    },
+    {
+      "check": "crossing",
+      "severity": "error",
+      "quote": "Ratnamma receives the family-pension sanction at four o’clock and verifies the numbered line joining her name to Lokanath’s.",
+      "beat_id": "b032",
+      "why": "claims to cross b032, which is not a beat ratnamma witnessed",
+      "source": "deterministic"
+    },
+    {
+      "check": "hook",
+      "severity": "warn",
+      "quote": "CHAITRA: Ratnamma, wife of Lokanath.",
+      "beat_id": "",
+      "why": "resolves",
+      "source": "hook"
+    },
+    {
+      "check": "leakage",
+      "severity": "error",
+      "quote": "CLERK: Family pension sanction. Sign the dispatch register here.",
+      "beat_id": "b032",
+      "why": "This reveals that Ratnamma’s family pension was sanctioned, a fact sealed in b032.",
+      "source": "leakage"
+    },
+    {
+      "check": "leakage",
+      "severity": "error",
+      "quote": "NARRATOR: The pension was sanctioned. The arrears were referred to the government, and Ratnamma still had no decision on twenty-eight unpaid years.",
+      "beat_id": "b032",
+      "why": "This states both the pension sanction and referral of arrears to the government from b032.",
+      "source": "leakage, refuter_specificity, refuter_omniscience"
+    },
+    {
+      "check": "leakage",
+      "severity": "error",
+      "quote": "RATNAMMA: We used the pressure. The department opened the cupboard, the temple register was accepted, two witnesses spoke, and at four o'clock a clerk put my name beside Lokanath's.",
+      "beat_id": "b032",
+      "why": "Ratnamma explicitly knows that the temple record and two witness statements were accepted, the evidentiary basis sealed in b032.",
+      "source": "leakage, refuter_specificity, refuter_omniscience"
+    },
+    {
+      "check": "refuter",
+      "severity": "error",
+      "quote": "The department opened the cupboard, the temple register was accepted, two witnesses spoke, and at four o'clock a clerk put my name beside Lokanath's.",
+      "beat_id": "b032",
+      "why": "Ratnamma precisely cites the temple record's acceptance and two witnesses even though those pension-sanction proceedings are explicitly in b032, which she does not know.",
+      "source": "refuter_inference"
+    },
+    {
+      "check": "refuter",
+      "severity": "error",
+      "quote": "RATNAMMA: This came by hand at four o'clock. Sanction of family pension. Order of the deputy director. Ratnamma, wife of Lokanath.",
+      "beat_id": "b032",
+      "why": "This gives Ratnamma the prohibited family-pension sanction itself, not merely a suspicion or vague expectation.",
+      "source": "refuter_omniscience"
+    }
+  ],
+  "n_errors": 7,
+  "deterministic_errors": [
+    {
+      "check": "leakage",
+      "severity": "error",
+      "quote": "",
+      "beat_id": "b032",
+      "why": "the episode rests a claim on b032, which ratnamma does not know: Under rule sixty-one revanna accepts the temple record plus two attesting statements — from the bride's uncle and from girija, who attended the 1994 marriage — and sanctions family pension to ratnamma, arrears referred to government.",
+      "source": "deterministic"
+    },
+    {
+      "check": "crossing",
+      "severity": "error",
+      "quote": "Ratnamma receives the family-pension sanction at four o’clock and verifies the numbered line joining her name to Lokanath’s.",
+      "beat_id": "b032",
+      "why": "claims to cross b032, which is not a beat ratnamma witnessed",
+      "source": "deterministic"
+    }
+  ],
+  "inconclusive": [],
+  "attempts_that_failed": {
+    "refuter_inference": [
+      "Checked Ratnamma's withdrawal of the claim against Savithri for inference of Savithri's actual innocence; it remains explainable as a deliberate legal and moral choice already established in b033.",
+      "Checked the narrator's statements about the pension, arrears, gate, and first entry into the house; they describe events Ratnamma directly experiences or facts supplied in b033 rather than remote plot knowledge.",
+      "Checked the many counts, dates, sums, and order numbers; most are either spoken to Ratnamma in the scene or already available in b013, b030, and b033. Other autobiographical counts lack support but do not map clearly to a prohibited fact, so they were not reported."
+    ],
+    "refuter_specificity": [
+      "Checked the exact order and inward numbers, but each is supplied directly to Ratnamma by the clerk or advocate in the scene.",
+      "Checked the eleven-day marriage, forty-one-lakh-sixty-thousand claim, twenty-second deadline, and twenty-eight-year interval; all are supported by her known beats.",
+      "Checked the count of nineteen witnesses; Chaitra visibly counts the people immediately before Ratnamma totals them.",
+      "Checked the narrator's four-twenty timestamp and first threshold crossing; neither reveals a prohibited wider-plot fact, and the first entry is already established by b033."
+    ],
+    "refuter_omniscience": [
+      "Checked the narrator's statement that Ratnamma entered the house for the first time in twenty-eight years; this is supported by b033.",
+      "Checked the school-gate service, petition amount, and twenty-second deadline; Ratnamma knows these through b030.",
+      "Checked the reference to Savithri's son having had a fever against b039; it is too vague to establish the prohibited 2011 chest-fever, power-of-attorney event.",
+      "Checked exact figures including nineteen witnesses, order and inward numbers, Ratnamma's age, and the eighteen hospital days; they are either derived on-scene, personal information, or do not disclose a listed prohibited beat."
+    ]
+  },
+  "members_run": 6,
+  "members_expected": 6
+}

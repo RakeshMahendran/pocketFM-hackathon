@@ -1,0 +1,35 @@
+{
+  "story_id": "story1_denied_identity",
+  "char_id": "ratnamma",
+  "anchor_beat_id": "b014",
+  "constrained": false,
+  "status": "clean",
+  "violations": [],
+  "n_errors": 0,
+  "deterministic_errors": [],
+  "inconclusive": [],
+  "attempts_that_failed": {
+    "refuter_inference": [
+      "Checked Ratnamma’s precise dates, durations, sums, distances, document counts, witness counts, and visit history; they arise from her marriage, husband’s death, documents, travel, or direct observation rather than any prohibited beat.",
+      "Tested whether her demand that Mallesha identify their relationship requires forbidden knowledge; b015 establishes that she knows Mallesha is Lokanath’s younger brother.",
+      "Checked the clerk’s reference to “the man using Lokanath’s appointment”; Ratnamma hears this directly in the scene, so her subsequent behavior does not imply prior forbidden knowledge.",
+      "Checked the locked narrator for claims about unseen rooms, other characters’ motives, or the wider fraud; the narration states only Ratnamma’s departure, arrival, papers, and observable times.",
+      "Tested her exact witness count after the gate confrontation; the named and observable adults and children support it without requiring offstage knowledge."
+    ],
+    "refuter_omniscience": [
+      "Checked every precise number, date, sum, distance, and place name. The 1994 dates, Hosakere junction, eleven-day marriage, and photograph details concern Ratnamma’s own marriage and records; the journey distance, fare, time, papers, and witness counts are directly experienced or observed in the scene.",
+      "Tested whether Ratnamma goes to Mallesha with forbidden knowledge that he is using Lokanath’s appointment. The clerk explicitly directs her to “the man using Lokanath’s appointment,” while her confrontation asks only for acknowledgment of their family relation and does not demonstrate knowledge of the later impersonation evidence.",
+      "Checked the narrator for facts outside Ratnamma’s understanding. The narrated times, travel, papers in her bag, visible actions, and surrounding sounds remain within her immediate experience and assert no unseen motive or wider-plot fact.",
+      "Examined potentially omniscient character assertions such as “this house wants silence” and “the face he would not turn toward today”; these are accusatory interpretations grounded in twenty-eight years of rejection and his observable refusal, not unqualified narration of hidden facts."
+    ],
+    "refuter_specificity": [
+      "Checked every date, time, count, sum, distance, and place name. The 1994 wedding and death particulars derive from b013/b015; travel costs, witness counts, document counts, and counter times are immediately observable or Ratnamma’s own experiences.",
+      "Tested Ratnamma’s decision to seek Mallesha after the clerk mentions “the man using Lokanath’s appointment.” Her conduct still has an innocent basis in known facts: Mallesha is Lokanath’s brother and can attest to the marriage, so it does not require knowledge of the impersonation scheme.",
+      "Checked the photograph details—four banana stems, one hundred and eighty rupees, six pictures, and the folded sleeves—for prohibited sourcing. They are details of Ratnamma’s own wedding and photograph, not facts drawn from any prohibited beat.",
+      "Attacked the narrator’s two factual assertions about Ratnamma’s departure and arrival. Both remain within her observable journey and possessions and assert nothing about another character’s motive or events elsewhere.",
+      "Noted a possible counting inconsistency between the listed bystanders and “seven adults and two children,” but it is a continuity/arithmetic issue rather than forbidden-knowledge leakage."
+    ]
+  },
+  "members_run": 6,
+  "members_expected": 6
+}

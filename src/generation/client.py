@@ -101,9 +101,14 @@ def call_structured(
     questions and the same answers.
     """
     model = model_for(role)
-    tool_names = ",".join(sorted(t.name for t in tools)) if tools else ""
-    key = cache_key(stage=stage, model=model, system=system, user=user, schema=schema,
-                    tools=tool_names)
+    # `tools` joins the key only when there are tools. Passing tools="" on every
+    # ordinary call would change the hash of every entry already on disk, so the
+    # whole cache would miss silently and the offline demo would start calling out.
+    parts: Dict[str, Any] = dict(stage=stage, model=model, system=system,
+                                 user=user, schema=schema)
+    if tools:
+        parts["tools"] = ",".join(sorted(t.name for t in tools))
+    key = cache_key(**parts)
     path = CALLS / f"{stage}_{key}.json"
 
     hit = _cached(path)

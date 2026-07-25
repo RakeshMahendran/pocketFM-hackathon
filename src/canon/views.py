@@ -1,71 +1,366 @@
 """
-The three derived views of a character: knows, blind, gaps.
+What one character knows, does not know, and was never around for.
 
-Pure functions over a list of beat dicts. The store hands them rows; they
-do not talk to a database themselves, so the whole product claim is
-testable without one.
+Every function takes a loaded story dict rather than a story id, so all of this is
+testable against a hand-built fixture with no filesystem.
+
+Two rules here carry the whole product and are stated once, in code, on purpose:
+
+  knows  = the character is in `witnessed_by`
+  blind  = every other beat in the season
+
+`blind` is the *complement*, not the `hidden_from` list. `hidden_from` is
+non-exhaustive in the delivered data — story1's b001 accounts for 14 of 17 cast
+members and `kempanna` is unlisted on 36 of 46 beats — so defining blindness from it
+would hand a character permission to know things nobody ever decided they knew.
+
+Note that `docs/SPINOFF.md:13` and `.claude/commands/spine.md` both state the rule as
+`present + witnessed_by`. They are wrong and predate the delivered data. Being in the
+room is not knowing: b014 has `mallesha` present and not witnessing, which is exactly
+the distinction the spinoff sells.
 """
 
-from typing import Any
+import re
+from typing import Any, Dict, List, Optional
 
-Beat = dict[str, Any]
+from src.canon import store
+from src.util import log
 
+MIN_WITNESSED_FOR_PROMOTION = 3
 
-def _ordered(beats: list[Beat]) -> list[Beat]:
-    """Canon order is (ep, seq). world_time is partial ISO 8601 and does
-    not subtract reliably, so it is never used for ordering."""
-    return sorted(beats, key=lambda b: (b["ep"], b["seq"]))
+# A crossing point wants a scene a single POV can hold. story1's b044 is legal for
+# ratnamma — she witnesses it — but it is the episode-14 finale that resolves nine
+# threads in front of thirteen people. Anchors above this are skipped unless a
+# character has nothing else.
+MAX_PRESENT_FOR_ANCHOR = 5
 
-
-def _present_at(beat: Beat, char_id: str) -> bool:
-    return char_id in beat.get("present", []) or char_id in beat.get("witnessed_by", [])
-
-
-def knows(beats: list[Beat], char_id: str) -> list[Beat]:
-    """Beats the character was present at or witnessed."""
-    return [b for b in _ordered(beats) if _present_at(b, char_id)]
+_SPEAKER_RE = re.compile(r"^([A-Z][A-Z0-9 .'\-]{0,30}):\s*(.+)$", re.M)
 
 
-def blind(beats: list[Beat], char_id: str) -> list[Beat]:
-    """Beats the character is explicitly excluded from."""
-    return [b for b in _ordered(beats) if char_id in b.get("hidden_from", [])]
+# ---------------------------------------------------------------------------
+# THE THREE VIEWS
+# ---------------------------------------------------------------------------
 
-
-def gaps(beats: list[Beat], char_id: str) -> list[dict[str, Any]]:
+def _beats(source: Any) -> List[Dict[str, Any]]:
     """
-    Maximal runs of consecutive beats the character appears in nowhere.
+    Accept a loaded story or a bare beat list.
 
-    These are the windows a spinoff may invent into without touching canon,
-    which is why they are returned as spans rather than a count.
+    The Postgres path holds rows and never builds a story dict. Rather than let it
+    keep a second copy of these rules — which is the one thing this module exists
+    to prevent — the three core views take either.
     """
-    out: list[dict[str, Any]] = []
-    run: list[Beat] = []
-    for beat in _ordered(beats):
-        if _present_at(beat, char_id):
-            if run:
-                out.append(_span(run))
-                run = []
+    if isinstance(source, dict) and "beats" in source:
+        return source["beats"]
+    return sorted(source, key=lambda b: (b["ep"], b["seq"]))
+
+
+def knows(story: Any, char_id: str) -> List[Dict[str, Any]]:
+    return [b for b in _beats(story) if char_id in b.get("witnessed_by", [])]
+
+
+def blind(story: Any, char_id: str) -> List[Dict[str, Any]]:
+    """Every beat the character did not witness. Fail closed — see module docstring."""
+    return [b for b in _beats(story) if char_id not in b.get("witnessed_by", [])]
+
+
+def explicitly_hidden(story: Any, char_id: str) -> List[Dict[str, Any]]:
+    """
+    The subset of `blind` that an author actively marked.
+
+    Prompt emphasis only. Absence from this list is not permission: the omissions
+    are not random — they skew toward the beats whoever wrote the sheet had in mind
+    — so it can sharpen a prohibition but must never shorten one.
+    """
+    return [b for b in _beats(story) if char_id in b.get("hidden_from", [])]
+
+
+def present_not_witnessed(story: Any, char_id: str) -> List[Dict[str, Any]]:
+    """
+    In the room, did not register.
+
+    Deliberate in the delivered data (b006, b009, b014, b025) and the richest thing
+    in it: a character standing next to the moment that undoes them, not taking it
+    in. Empty for some characters — render nothing rather than an empty heading.
+    """
+    return [b for b in _beats(story)
+            if char_id in b.get("present", []) and char_id not in b.get("witnessed_by", [])]
+
+
+def gaps(story: Any, char_id: str) -> List[Dict[str, Any]]:
+    """
+    Runs of consecutive beats the character does not witness.
+
+    This is the writable space: canon says nothing about where they were, so nothing
+    they do there can contradict it.
+
+    Deliberately counted in beats, not time. CLAUDE.md calls gaps "time windows" and
+    that cannot be implemented — `world_time` is a different unparseable scheme in
+    each story ("M1-D04 13:30", "Y1 M8 D0, morning", "Chait, pay-out day",
+    "same, minutes later"). Any parser works on story1 and produces silent nonsense
+    on story3. The strings are carried through as labels and never compared.
+    """
+    out: List[Dict[str, Any]] = []
+    run: List[Dict[str, Any]] = []
+    beats = _beats(story)
+
+    def flush(before: Optional[Dict[str, Any]]) -> None:
+        if not run:
+            return
+        out.append({
+            "after_beat": run[0].get("_prev"),
+            "before_beat": before["beat_id"] if before else None,
+            "beat_ids": [b["beat_id"] for b in run],
+            "eps": sorted({b["ep"] for b in run}),
+            "from_world_time": run[0].get("world_time"),
+            "to_world_time": run[-1].get("world_time"),
+            "span": len(run),
+        })
+        run.clear()
+
+    prev_witnessed: Optional[str] = None
+    for beat in beats:
+        if char_id in beat.get("witnessed_by", []):
+            flush(beat)
+            prev_witnessed = beat["beat_id"]
         else:
+            if not run:
+                beat = dict(beat, _prev=prev_witnessed)
             run.append(beat)
-    if run:
-        out.append(_span(run))
+    flush(None)
     return out
 
 
-def _span(run: list[Beat]) -> dict[str, Any]:
+# ---------------------------------------------------------------------------
+# ANCHORS — the moment an episode is built on
+# ---------------------------------------------------------------------------
+
+def _entity_is(entity: str, char_id: str) -> bool:
+    """`state_changes.entity` is sometimes possessive: "ratnamma's marriage"."""
+    return entity == char_id or entity.startswith((f"{char_id}'s", f"{char_id}."))
+
+
+def anchors(story: Dict[str, Any], char_id: str, limit: int = 3) -> List[Dict[str, Any]]:
+    """
+    The beats where the most happens to this character, ranked.
+
+    Each carries `kind`, and nothing is filtered out:
+
+      witnessed — they are in `witnessed_by`. The episode *is* this moment and its
+                  objective facts are fixed.
+      offscreen — they are not. The episode is set adjacent to it and must not
+                  reveal it.
+
+    Both are offered because for the demo character both of her largest moments are
+    offscreen: b032 recognises her as the appointee's widow (+5) and b031 documents
+    her marriage for the first time (+4), and she is in the `hidden_from` list of
+    each. The one beat she is present for is her giving the claim up. That is the
+    story's architecture, not an edge case.
+
+    They are labelled rather than filtered because the *writer* can handle either
+    job well — it just cannot guess which one you meant. A brief that says "write
+    this moment" about a beat that is also on the prohibition list makes the model
+    choose, and it chooses differently on different runs.
+    """
+    found: List[Dict[str, Any]] = []
+    for beat in story["beats"]:
+        for change in beat.get("state_changes", []):
+            if not _entity_is(change.get("entity", ""), char_id):
+                continue
+            witnessed = char_id in beat.get("witnessed_by", [])
+            found.append({
+                "beat_id": beat["beat_id"], "ep": beat["ep"], "seq": beat["seq"],
+                "world_time": beat.get("world_time"), "location": beat.get("location"),
+                "what_happened": beat["what_happened"],
+                "fact": change.get("fact", ""), "valence": change.get("valence", 0),
+                "n_present": len(beat.get("present", [])),
+                "kind": "witnessed" if witnessed else "offscreen",
+            })
+
+    # Witnessed first within the same magnitude — the writable one leads. Then
+    # earliest, so ties are stable across runs.
+    found.sort(key=lambda a: (-abs(a["valence"]), a["kind"] != "witnessed",
+                              a["ep"], a["seq"]))
+
+    focused = [a for a in found if a["n_present"] <= MAX_PRESENT_FOR_ANCHOR]
+    if not focused and found:
+        log(f"{char_id}: every anchor is a crowd scene — offering them unfiltered", "warn")
+        focused = found
+    return focused[:limit]
+
+
+def crossing_points(story: Dict[str, Any], char_id: str,
+                    anchor: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """
+    Beats the spinoff shares with the mainline, for the episode built on `anchor`.
+
+    Only witnessed beats can cross: a beat the character is blind to cannot appear
+    in their episode at all. Bounded to the anchor's episode and the one before it,
+    because a crossing point the episode never reaches is noise in the prompt.
+    """
+    if anchor["kind"] != "witnessed":
+        return []
+    lo, hi = anchor["ep"] - 1, anchor["ep"]
+    return [
+        {"beat_id": b["beat_id"], "ep": b["ep"], "world_time": b.get("world_time"),
+         "location": b.get("location"), "what_happened": b["what_happened"]}
+        for b in knows(story, char_id) if lo <= b["ep"] <= hi
+    ]
+
+
+# ---------------------------------------------------------------------------
+# VOICE
+# ---------------------------------------------------------------------------
+
+def voice_samples(story: Dict[str, Any], char_id: str, limit: int = 12) -> List[str]:
+    """
+    The character's own lines, verbatim from the delivered scripts.
+
+    Free, and worth more than anything a model would invent for them — this is what
+    makes a spinoff sound like the same show. Every episode is scanned rather than
+    only the ones they hold a beat in, because walk-on lines are still their voice
+    and reading 14 small files costs two milliseconds.
+
+    Raises on zero. An empty voice block is worse than a missing one: it teaches the
+    model the character has no particular way of speaking.
+    """
+    char = store.get_char(story, char_id)
+    name = char.get("name", char_id)
+    candidates = store.speaker_tokens(char)
+    scripts = {ep: store.episode_text(story, ep) for ep in store.episode_numbers(story)}
+    spoken = {speaker for text in scripts.values()
+              for speaker, _ in _SPEAKER_RE.findall(text)}
+
+    # First candidate the scripts actually use. Cast names and script labels agree
+    # in some stories and not others — "Agnes Murray" in the cast is `AGNES:` on
+    # the page — so the script decides, not the naming convention.
+    token = next((c for c in candidates if c in spoken), None)
+    lines: List[str] = []
+    if token:
+        for text in scripts.values():
+            lines += [body.strip() for speaker, body in _SPEAKER_RE.findall(text)
+                      if speaker == token]
+
+    if not lines:
+        raise RuntimeError(
+            f"{char_id} ({name}) speaks no lines in {story['story_id']} — tried "
+            f"{', '.join(c + ':' for c in candidates)}. A character with no voice "
+            "cannot carry a serial; pick another, or fix the name-to-speaker mapping."
+        )
+
+    # Longest first: the short ones are "Yes." and carry no voice.
+    return sorted(lines, key=len, reverse=True)[:limit]
+
+
+# ---------------------------------------------------------------------------
+# THE ROSTER
+# ---------------------------------------------------------------------------
+
+def promotable(story: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """
+    The whole cast with their counts, each flagged promotable or not.
+
+    Returns everyone, not just the passers — the roster screen wants the mainline
+    lead visible and greyed out at 43 known of 46, because that contrast is the
+    idea. The rule is `serial_writer.md:129-131`: at least three witnessed beats,
+    and excluded from more than they appear in. No separate "not the protagonist"
+    clause; the lead fails this naturally and two rules would eventually disagree.
+    """
+    total = len(story["beats"])
+    rows = []
+    for char in story["cast"]:
+        cid = char["char_id"]
+        n = len(knows(story, cid))
+        rows.append({
+            "char_id": cid, "name": char.get("name", cid), "role": char.get("role", ""),
+            "want": char.get("want", ""),
+            "witnessed": n, "blind": total - n,
+            "promotable": n >= MIN_WITNESSED_FOR_PROMOTION and (total - n) > n,
+        })
+    rows.sort(key=lambda r: (not r["promotable"], -r["witnessed"]))
+    return rows
+
+
+def character_view(story: Dict[str, Any], char_id: str) -> Dict[str, Any]:
+    """Everything downstream needs about one character, in one dict."""
+    char = store.get_char(story, char_id)
     return {
-        "start": run[0]["beat_id"],
-        "end": run[-1]["beat_id"],
-        "length": len(run),
-        "beat_ids": [b["beat_id"] for b in run],
+        "story_id": story["story_id"], "char_id": char_id,
+        "name": char.get("name", char_id), "role": char.get("role", ""),
+        "want": char.get("want", ""), "maps_to": char.get("maps_to", ""),
+        "composite": char.get("composite", False),
+        "n_beats": len(story["beats"]),
+        "knows": knows(story, char_id),
+        "blind": blind(story, char_id),
+        "explicitly_hidden": explicitly_hidden(story, char_id),
+        "present_not_witnessed": present_not_witnessed(story, char_id),
+        "gaps": gaps(story, char_id),
+        "anchors": anchors(story, char_id),
+        "voice_samples": voice_samples(story, char_id),
     }
 
 
-def character_view(beats: list[Beat], char_id: str) -> dict[str, Any]:
-    """All three lists in one pass-through object."""
+# ---------------------------------------------------------------------------
+# THE CONSTRAINT SET
+# ---------------------------------------------------------------------------
+
+def forbidden_facts(story: Dict[str, Any], char_id: str) -> Dict[str, Any]:
+    """
+    The payload the writer is constrained by and the validator checks against.
+
+    Both sides live in one object on purpose. The leakage check needs the forbidden
+    list; the crossing check needs the allowed list with `what_happened` verbatim.
+    Computed separately they could be built for different characters and nothing
+    would notice.
+
+    `brief.py` and `validation/checks.py` both import this rather than deriving it,
+    so the fail-closed rule exists in exactly one place — `blind()`, above.
+    """
+    hidden_ids = {b["beat_id"] for b in explicitly_hidden(story, char_id)}
+    forbidden = [
+        {"beat_id": b["beat_id"], "ep": b["ep"], "world_time": b.get("world_time"),
+         "location": b.get("location"), "fact": b["what_happened"],
+         "emphasised": b["beat_id"] in hidden_ids}
+        for b in blind(story, char_id)
+    ]
+    allowed = [
+        {"beat_id": b["beat_id"], "ep": b["ep"], "world_time": b.get("world_time"),
+         "location": b.get("location"), "fact": b["what_happened"]}
+        for b in knows(story, char_id)
+    ]
+    return {
+        "story_id": story["story_id"], "char_id": char_id,
+        "n_beats": len(story["beats"]),
+        "allowed": allowed, "forbidden": forbidden,
+        "allowed_ids": [a["beat_id"] for a in allowed],
+        "forbidden_ids": [f["beat_id"] for f in forbidden],
+    }
+
+
+# ---------------------------------------------------------------------------
+# THE BEATS-LIST ENTRY POINT
+# ---------------------------------------------------------------------------
+
+def character_view_from_beats(beats: List[Dict[str, Any]],
+                              char_id: str) -> Dict[str, Any]:
+    """
+    The three views for callers holding a bare beat list rather than a story.
+
+    The Postgres path (`pgstore` + `seed` + the `/api/*` routes) reads rows out of
+    a database and never has a story dict. It gets this instead of its own copy of
+    the rules, because two implementations of `blind` is precisely the drift the
+    whole product claim cannot survive.
+
+    Keeps the shape that path already returns — `{start, end, length, beat_ids}`
+    spans — so nothing built on it breaks. The values change, and that is the
+    point: computed the other way, `kempanna` came back with 7 blind beats out of
+    46 instead of 43, and the 36 in neither list simply vanished from the
+    prohibition set.
+    """
     return {
         "char_id": char_id,
         "knows": knows(beats, char_id),
         "blind": blind(beats, char_id),
-        "gaps": gaps(beats, char_id),
+        "gaps": [{"start": g["beat_ids"][0], "end": g["beat_ids"][-1],
+                  "length": g["span"], "beat_ids": g["beat_ids"]}
+                 for g in gaps(beats, char_id)],
     }

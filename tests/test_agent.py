@@ -96,7 +96,13 @@ def test_canon_tools_answer_from_real_beats():
     blind = tools["character_blind"].fn(char_id="ratnamma")
 
     assert ratnamma["count"] == 11
-    assert blind["count"] == 34
+    # 35, not 34. `blind` is fail-closed — every beat she did not witness — rather
+    # than only those naming her in `hidden_from`. The two differ by b003, where she
+    # is absent from `present` and `witnessed_by` and `hidden_from` lists seven other
+    # characters and omits her. `hidden_from` is authored and non-exhaustive, so
+    # trusting it alone leaves that beat in neither knows nor blind, and therefore
+    # unconstrained. See docs/PLAN.md "Locked semantics" 1.
+    assert blind["count"] == 35
     assert all("beat_id" in b for b in ratnamma["beats"])
 
 

@@ -1,0 +1,36 @@
+{
+  "story_id": "story1_denied_identity",
+  "char_id": "savithri",
+  "anchor_beat_id": "b033",
+  "constrained": true,
+  "status": "clean",
+  "violations": [],
+  "n_errors": 0,
+  "deterministic_errors": [],
+  "inconclusive": [],
+  "attempts_that_failed": {
+    "refuter_omniscience": [
+      "Tested Savithri's offer of twelve hundred rupees and request to “tell me the amount” for leakage from the unseen claim petition in b030; her established monthly payment to Thammanna, Ratnamma's earlier public challenge, and her habitual use of food or money to end confrontations provide innocent explanations.",
+      "Checked every precise figure and date: the seventh, twelve hundred rupees, twenty-four years, and the audit on the fifth are available in b028; eleven rice measures are observed directly; Savithri's age at marriage is her own history; and twenty-eight years is stated directly by Ratnamma.",
+      "Checked the narrator's claims about Kamalamma pricing Savithri's silence and later speaking her release; both are supported by the witnessed exchange and Ratnamma's public withdrawal, rather than knowledge of events elsewhere.",
+      "Checked “She did not ask why the claim had been withdrawn” for a prohibited “did not yet know” construction; it reports Savithri's own omission and subjective fear that asking could alter the answer, without asserting the hidden reason for Ratnamma's withdrawal.",
+      "Checked Ratnamma's first entry into the house in twenty-eight years; the episode does not narrate that fact before Ratnamma herself states it."
+    ],
+    "refuter_specificity": [
+      "Checked every precise number and date: the seventh, twelve hundred rupees, twenty-four years, the audit on the fifth, and twenty-eight years are supplied by b028/b033 or spoken from the characters’ own histories; eleven rice measures and the lunch-price figures are immediate observations or transactions.",
+      "Tested Savithri’s refusal to ask why Ratnamma withdrew the claim for forbidden-knowledge leakage, but her behavior is rationally explained by fear that questioning may undo a publicly favorable answer; it does not require knowledge of the private petition or its purpose.",
+      "Checked references to Ratnamma’s lane question, Thammanna ceasing his monthly visit, and papers being carried; the first two are known from b014/b028, while the paper reference is vague and asserts no sealed event.",
+      "Attacked the narrator’s claims about Kamalamma pricing Savithri’s silence and the neighbors awaiting humiliation, but these are supported by dialogue and observable conduct rather than knowledge of another room, hidden motive, or wider plot fact.",
+      "Checked Ratnamma’s statement that this is her first entry in twenty-eight years; it is her own life history and also matches the event granted in b033, so it is not unearned precision for Savithri or the locked narrator."
+    ],
+    "refuter_inference": [
+      "Tested Savithri's relief and decision not to ask why the claim was withdrawn for leakage from b030; both are rational from Ratnamma's public withdrawal in b033 without knowing the petition's amount, deadline, or private purpose.",
+      "Checked the family plate and invitation inside for inferred knowledge of Ratnamma's status; Savithri already knows her own family relationships and heard Ratnamma's account in b013-b014.",
+      "Traced particulars: twelve hundred rupees, the seventh, twenty-four years, and the audit on the fifth come from b028; Savithri's age at marriage is her own history; eleven rice measures are directly observed; twenty-eight years is stated by Ratnamma.",
+      "Attacked the narration about the women 'waiting to learn the price of her silence'; the line is supportable as Savithri's close-perspective interpretation of Kamalamma's explicit demand and does not reveal an unseen event or inaccessible motive as wider-plot fact.",
+      "Checked 'Asking might have changed the answer' for behavior requiring forbidden knowledge; it expresses Savithri's fear of losing a publicly granted reprieve, not knowledge of why Ratnamma withdrew."
+    ]
+  },
+  "members_run": 6,
+  "members_expected": 6
+}

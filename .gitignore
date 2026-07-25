@@ -9,3 +9,18 @@ data/canon.db
 .DS_Store
 
 data/voice_work/
+
+# Spinoff LLM responses. The slice does not replay from these — `demo_seed` and
+# the API read the finished episodes in data/spinoffs/, which are committed,
+# readable, and survive a refactor that changes a cache key. Keeping these is a
+# local convenience so iterating does not re-pay for the same call; committing
+# them was 150 files of nothing anyone reads.
+#
+# Scoped to our own stages on purpose: hunt_* feeds the scout replay screen and
+# serial_* came with the season writer. Neither is ours to drop.
+data/cache/promote_*
+data/cache/spinoff_*
+data/cache/panel_*
+data/cache/calls/promote_*
+data/cache/calls/spinoff_*
+data/cache/calls/panel_*

@@ -1,0 +1,49 @@
+{
+  "story_id": "story1_denied_identity",
+  "char_id": "ratnamma",
+  "anchor_beat_id": "b033",
+  "constrained": true,
+  "status": "violations",
+  "violations": [
+    {
+      "check": "hook",
+      "severity": "warn",
+      "quote": "Withdrawal as against respondent number two received today at four-forty-eight. Inward number one-one-eight.",
+      "beat_id": "",
+      "why": "repeats the mainline DISCOVERY / resolves",
+      "source": "hook"
+    },
+    {
+      "check": "leakage",
+      "severity": "error",
+      "quote": "And this came by hand at four o’clock. Sanction of family pension. Order of the deputy director. Ratnamma, wife of Lokanath.",
+      "beat_id": "b032",
+      "why": "Ratnamma states and possesses the family-pension sanction, a decision sealed in b032 and not included in what she knows.",
+      "source": "leakage, refuter_inference, refuter_specificity, refuter_omniscience"
+    }
+  ],
+  "n_errors": 1,
+  "deterministic_errors": [],
+  "inconclusive": [],
+  "attempts_that_failed": {
+    "refuter_inference": [
+      "Checked the exact order number, times, copy count, and witness count for separately sealed sources; they are either visible to Ratnamma in the scene or ordinary firsthand details, though the order itself remains forbidden.",
+      "Checked the narrator’s statements about Ratnamma’s humiliation and first entry into the house; the former is locked to her immediate experience and the latter is expressly known in b033.",
+      "Checked her public withdrawal and insistence on witnesses for behavior rational only with other forbidden knowledge; both follow from her own petition, intentions, and the known b033 withdrawal."
+    ],
+    "refuter_specificity": [
+      "Checked the narrator’s statements about Ratnamma’s humiliation, shaking hands, and first entry into the house; these remain within her experience and b033.",
+      "Checked the fourteen-person count, four-twenty time, twenty-eight-year history, and document-copy destinations; these are observable or part of Ratnamma’s own life and choices.",
+      "Checked the four-forty-eight receipt time and inward number one-one-eight; the clerk reads them directly to Ratnamma in the scene, so their precision is sourced.",
+      "Checked Ratnamma’s public withdrawal and her claim that she filed strategically; these concern her own actions and are consistent with b030 and b033."
+    ],
+    "refuter_omniscience": [
+      "Checked the narrator’s statement that this was Ratnamma’s first entry into the house in twenty-eight years; this is her own history and is also established in b033.",
+      "Checked the precise count of fourteen people; Ratnamma says she counted them from the gate, providing an immediate perceptual source.",
+      "Checked the withdrawal filing details delivered at four-forty-eight; withdrawing the claim is established in b033, and the clerk reads the new receipt details aloud in her presence.",
+      "Checked Ratnamma’s knowledge of names, relationships, the wedding photograph, and the twenty-eight-year exclusion; these derive from her own life or permitted beats."
+    ]
+  },
+  "members_run": 6,
+  "members_expected": 6
+}
