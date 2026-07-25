@@ -124,6 +124,16 @@ def cmd_score(args) -> int:
     return run_module("src.scoring.run", extra)
 
 
+def cmd_commission(args) -> int:
+    """Plan a season and write its scripts. What the console's button runs."""
+    extra = ["--event", args.event]
+    if args.story:
+        extra += ["--story", args.story]
+    if args.language:
+        extra += ["--language", args.language]
+    return run_module("src.commission", extra)
+
+
 def cmd_serial(args) -> int:
     """Write a season of scripts, with its beat sheet, into data/stories/."""
     extra = ["--event", args.event]
@@ -190,6 +200,7 @@ COMMANDS = {
     "setup": cmd_setup,
     "corpus": cmd_corpus,
     "score": cmd_score,
+    "commission": cmd_commission,
     "serial": cmd_serial,
     "promote": cmd_promote,
     "spinoff": cmd_spinoff,
@@ -219,6 +230,12 @@ def build_parser() -> argparse.ArgumentParser:
                                 "omit to take the scout's pick")
             p.add_argument("--by", default=None, metavar="EDITOR",
                            help="who commissioned it; stamped onto the dossier")
+        elif name == "commission":
+            p.add_argument("--event", required=True,
+                           help="corpus item id or title fragment")
+            p.add_argument("--story", default=None,
+                           help="directory under data/stories")
+            p.add_argument("--language", default=None, choices=["en", "hi-en"])
         elif name == "serial":
             p.add_argument("--event", required=True, help="dossier event_id")
             p.add_argument("--story", default=None,
