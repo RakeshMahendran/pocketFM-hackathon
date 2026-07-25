@@ -19,5 +19,89 @@
       "voice_name": "Sumit",
       "score": 0.0
     }
+  },
+  "evt_dharampur_2025:COMPERE": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Sumit",
+      "score": 0.0
+    }
+  },
+  "evt_dharampur_2025:kaveri": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Simran",
+      "score": 3.0
+    }
+  },
+  "evt_dharampur_2025:tara": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Ritu",
+      "score": 4.0
+    }
+  },
+  "evt_dharampur_2025:omkar": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shubh",
+      "score": 4.0
+    }
+  },
+  "evt_dharampur_2025:munni": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shruti",
+      "score": 3.0
+    }
+  },
+  "evt_dharampur_2025:devraj": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Ratan",
+      "score": 3.0
+    }
+  },
+  "evt_dharampur_2025:harilal": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Rahul",
+      "score": 3.0
+    }
+  },
+  "evt_dharampur_2025:WOMAN IN CROWD": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shreya",
+      "score": 0.0
+    }
+  },
+  "evt_dharampur_2025:farida": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Priya",
+      "score": 3.0
+    }
+  },
+  "evt_dharampur_2025:meera": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Pooja",
+      "score": 3.0
+    }
+  },
+  "evt_dharampur_2025:narrator": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Manan",
+      "score": 0.0
+    }
+  },
+  "evt_dharampur_2025:CONSTABLE": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Kavya",
+      "score": 0.0
+    }
   }
 }

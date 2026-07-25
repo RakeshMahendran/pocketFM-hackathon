@@ -84,8 +84,11 @@ with no adjectives in it.
   "fictionalized". Invented material is allowed; unmarked invented material is not.
 - Anything the dossier tags "alleged" or "disputed" may NOT be dramatised as fact.
   Dramatise it as an accusation someone makes, or cut it.
-- Leave AT LEAST ONE consequential beat unwitnessed — empty `present`, empty
-  `witnessed_by`. This is deliberate open canon for downstream spinoffs.
+- Leave EXACTLY ONE consequential beat per batch unwitnessed — empty `present`,
+  empty `witnessed_by`, with a `note` saying why. Deliberate open canon for
+  downstream spinoffs. One, not the default shape: a beat with people in
+  `present` and nobody in `witnessed_by` makes all of them blind to their own
+  scene, and every character view computed from it comes back empty.
 
 ## THE BEAT SHEET
 
@@ -96,7 +99,9 @@ After the episodes, emit a JSON array. One object per consequential beat
   "beat_id", "ep", "seq", "world_time",
   "location",
   "present":      [char_ids],   // physically there
-  "witnessed_by": [char_ids],   // present, OR credibly told later
+  "witnessed_by": [char_ids],   // everyone in `present`, unless the beat itself
+                                // stopped them perceiving it; plus anyone
+                                // credibly told later. This is `knows`.
   "hidden_from":  [char_ids],   // named characters who do NOT know this
   "what_happened": "one objective sentence, no style",
   "state_changes": [{"entity", "fact", "valence": -5..+5}],

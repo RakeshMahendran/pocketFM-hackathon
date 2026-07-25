@@ -7,10 +7,10 @@ Untagged lines synthesise at `neutral 0.5`, which is not neutral — it is flat.
 The same number drives the read, the music bed and the line's own level in the
 mix, so an untagged episode goes slack in all three at once.
 
-Tagging belongs at authoring time, with the writer that chose the register. This
-stage exists because fourteen episodes were written before the writer emitted
-tags, and regenerating them to add two fields would rewrite the prose. For new
-work, prefer the `lines` block in `src/generation/prompts/episode.md`.
+A one-shot tagger, kept for seasons written before the director existed. New
+work goes through `src/audio/director.py`, which decides the same fields as an
+agent with the season and the finished episode to hand. `check()` below is
+shared by both.
 """
 
 import os

@@ -19,7 +19,7 @@ import json
 import hashlib
 import pathlib
 import argparse
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 from src.util import DATA, CACHE, log, read_json
 
@@ -45,10 +45,14 @@ SECONDS = 3
 TARGET_LUFS = -17.0
 TARGET_TP = -1.0
 
-# alimiter caps sample peak; loudnorm reports true peak, which is reconstructed
-# between samples and overshoots by about this much after mp3 encoding. The
-# ceiling sits below the target to compensate.
+# Where the limiter starts, not where it ends. `_master` measures the encoded
+# file and gives back whatever the overshoot actually was, so this only decides
+# how often a second pass is needed.
 TP_OVERSHOOT_DB = 0.5
+
+# Each pass is one encode plus one measure — a few seconds. Two corrections is
+# more than enough; a mix still hot after that has something else wrong with it.
+MASTER_ATTEMPTS = 3
 
 # Silence is written as an SFX line in our scripts — "SFX: Nothing. Long." —
 # and generating a sound for it would invert the writer's intent.
@@ -208,19 +212,53 @@ def _master(src: pathlib.Path, dest: pathlib.Path) -> None:
     # `linear=true` moves the mix by one static gain, keeping the dynamics — but
     # a static gain cannot enforce a ceiling, so alimiter provides it. It engages
     # only on peaks that would breach, leaving everything below untouched.
-    second = (f"loudnorm=I={TARGET_LUFS}:TP={TARGET_TP}:LRA=7:linear=true"
-              f":measured_I={m['input_i']}:measured_LRA={m['input_lra']}"
-              f":measured_TP={m['input_tp']}:measured_thresh={m['input_thresh']}"
-              f":offset={m['target_offset']}"
-              f",alimiter=limit={10 ** ((TARGET_TP - TP_OVERSHOOT_DB) / 20):.4f}"
-              f":level=disabled")
+    #
+    # alimiter caps the SAMPLE peak of the pre-encode signal. What the ceiling is
+    # specified against is the TRUE peak of the mp3, and lossy encoding
+    # reconstructs peaks above the samples it was given. The gap is not a
+    # constant: it was 0.56 dB on a sparse mix and 1.33 dB on a dense one, so a
+    # fitted number passes the file it was fitted to and fails the next.
+    # Measure the encode and give back exactly what it took.
+    headroom = TP_OVERSHOOT_DB
+    for attempt in range(1, MASTER_ATTEMPTS + 1):
+        second = (f"loudnorm=I={TARGET_LUFS}:TP={TARGET_TP}:LRA=7:linear=true"
+                  f":measured_I={m['input_i']}:measured_LRA={m['input_lra']}"
+                  f":measured_TP={m['input_tp']}:measured_thresh={m['input_thresh']}"
+                  f":offset={m['target_offset']}"
+                  f",alimiter=limit={10 ** ((TARGET_TP - headroom) / 20):.4f}"
+                  f":level=disabled")
 
-    result = subprocess.run(
-        ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(src),
-         "-af", second, "-b:a", "128k", str(dest)],
-        capture_output=True, text=True)
-    if result.returncode != 0:
-        raise RuntimeError(f"mastering failed: {result.stderr[:200]}")
+        result = subprocess.run(
+            ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(src),
+             "-af", second, "-b:a", "128k", str(dest)],
+            capture_output=True, text=True)
+        if result.returncode != 0:
+            raise RuntimeError(f"mastering failed: {result.stderr[:200]}")
+
+        peak = _true_peak(dest)
+        if peak is None or peak <= TARGET_TP:
+            return
+        headroom += peak - TARGET_TP
+        log(f"master: {peak:+.2f} dBTP is over the {TARGET_TP:+.1f} ceiling — "
+            f"retrying with {headroom:.2f} dB headroom", "warn")
+
+    log(f"master: still above {TARGET_TP:+.1f} dBTP after {MASTER_ATTEMPTS} "
+        f"passes — shipping hot", "error")
+
+
+def _true_peak(path: pathlib.Path) -> Optional[float]:
+    """Measured true peak of a finished file, or None if it cannot be read."""
+    import json as _json
+    import subprocess
+
+    out = subprocess.run(
+        ["ffmpeg", "-hide_banner", "-nostats", "-i", str(path),
+         "-af", "loudnorm=print_format=json", "-f", "null", "-"],
+        capture_output=True, text=True).stderr
+    try:
+        return float(_json.loads(out[out.rfind("{"):out.rfind("}") + 1])["input_tp"])
+    except (ValueError, KeyError):
+        return None
 
 
 def main() -> int:

@@ -3,10 +3,11 @@ A written episode to a finished mp3, in one command.
 
     python -m src.audio.build --story story1_denied_identity --ep 1
 
-Five stages, all in this repo:
+Six stages, all in this repo:
 
     ep01.md          the writer's script
       -> convert     speaker labels to char_ids, SFX lines to cues     script_to_episode
+      -> direct      emotion, intensity, pace, bed and pause per line  director
       -> cast        one voice per character, locked for the series    voice/scripts
       -> synthesise  dialogue over a mood bed                          voice/pipeline
       -> sfx         spot effects generated and laid at their marks    sfx
@@ -22,7 +23,7 @@ import sys
 import shutil
 import pathlib
 import argparse
-from typing import Optional
+from typing import Any, Dict, Optional
 
 from src.util import DATA, log
 from src.audio import script_to_episode
@@ -43,6 +44,20 @@ CACHE = DATA / "cache" / "voice"
 def _requires(key: str) -> None:
     if not os.environ.get(key):
         raise RuntimeError(f"{key} is not set — copy .env.example to .env and fill it in")
+
+
+def _warn_if_undirected(episode: Dict[str, Any]) -> None:
+    """
+    An undirected episode synthesises, mixes and masters to spec. It just sounds
+    dead, and nothing downstream can tell — `neutral 0.5` is a valid line. Said
+    at error level because the alternative is finding out at playback.
+    """
+    lines = episode.get("lines") or []
+    flat = sum(1 for l in lines if l.get("emotion", "neutral") == "neutral")
+    if lines and flat == len(lines):
+        log(f"UNDIRECTED: all {len(lines)} lines are neutral 0.5. Every read, "
+            f"every bed and every level in the mix will be flat. Fix the "
+            f"director and rebuild rather than shipping this cut.", "error")
 
 
 def build(story: str, ep: int, provider: Optional[str] = None,
@@ -69,20 +84,20 @@ def build(story: str, ep: int, provider: Optional[str] = None,
     write_json(out_json, script_to_episode.build(story, ep, language=language,
                                                  previous=previous))
 
-    # 1b. the director reviews the writer's marks with the finished episode in
-    #     hand — the one thing the writer could not have when it tagged line 3.
+    # 1b. the director decides the performance with the finished episode in hand —
+    #     the one thing the writer could not have when it wrote line 3.
     if direct:
         from src.audio.director import apply as direct_episode
         try:
             direct_episode(story, ep)
         except Exception as exc:
-            # The director is a review pass, not a dependency. No key, a refusal,
-            # a rate limit — the episode still has the writer's own marks and is
-            # perfectly playable. Losing the demo because an optional second
-            # opinion was unavailable would be the worse failure.
-            log(f"direction skipped ({type(exc).__name__}): "
+            # Not fatal: the demo path must survive a missing key or a rate
+            # limit. But it is not optional either, so the cost is stated rather
+            # than left in the log for someone to find after the playback.
+            log(f"direction failed ({type(exc).__name__}): "
                 f"{str(exc).splitlines()[0][:90]}", "warn")
-            log("using the writer's own marks", "warn")
+
+    _warn_if_undirected(read_json(out_json))
 
     staged = WORK / f"{story}_{stem}.json"
     shutil.copy(out_json, staged)

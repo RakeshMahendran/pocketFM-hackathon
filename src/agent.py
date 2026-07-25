@@ -68,8 +68,8 @@ def run(client: Any, model: str, system: str, user: str, tools: List[Tool],
                              "schema": output_schema, "strict": True}},
         )
 
-        calls = [item for item in (getattr(response, "output", []) or [])
-                 if _kind(item) == "function_call"]
+        produced = list(getattr(response, "output", []) or [])
+        calls = [item for item in produced if _kind(item) == "function_call"]
 
         if not calls:
             text = getattr(response, "output_text", "") or ""
@@ -81,8 +81,13 @@ def run(client: Any, model: str, system: str, user: str, tools: List[Tool],
                     + (" …" if len(asked) > 6 else ""))
             return json.loads(text)
 
-        # Everything it asked for, answered from local data, then handed back.
-        messages += [_as_dict(c) for c in calls]
+        # Every item the round produced goes back, not only the calls. A
+        # reasoning model emits a `reasoning` item alongside each `function_call`
+        # and rejects the call on the next turn if it arrives without its pair:
+        # "Item 'fc_…' of type 'function_call' was provided without its required
+        # 'reasoning' item". Filtering to calls alone fails on every tool-using
+        # stage the moment the model is a reasoning one.
+        messages += [_for_echo(item) for item in produced]
         for call in calls:
             data = _as_dict(call)
             name = data.get("name", "")
@@ -116,4 +121,18 @@ def _kind(item: Any) -> str:
 
 
 def _as_dict(item: Any) -> Dict[str, Any]:
-    return item.model_dump() if hasattr(item, "model_dump") else dict(item)
+    if hasattr(item, "model_dump"):
+        # Unset optionals come back as None and are rejected on input rather
+        # than ignored, so they never make the round trip.
+        return item.model_dump(exclude_none=True)
+    return dict(item)
+
+
+# Returned on every item, accepted on none. Echoing `status` back is a 400:
+# "Unknown parameter: 'input[2].status'".
+_READ_ONLY = ("status",)
+
+
+def _for_echo(item: Any) -> Dict[str, Any]:
+    """An output item in the shape the next request will accept."""
+    return {k: v for k, v in _as_dict(item).items() if k not in _READ_ONLY}

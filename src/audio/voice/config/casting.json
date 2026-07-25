@@ -7,5 +7,41 @@
   },
   "evt_kadamballi_2022:narrator": {
     "sarvam": "sumit"
+  },
+  "evt_dharampur_2025:COMPERE": {
+    "sarvam": "sumit"
+  },
+  "evt_dharampur_2025:kaveri": {
+    "sarvam": "simran"
+  },
+  "evt_dharampur_2025:tara": {
+    "sarvam": "ritu"
+  },
+  "evt_dharampur_2025:omkar": {
+    "sarvam": "shubh"
+  },
+  "evt_dharampur_2025:munni": {
+    "sarvam": "shruti"
+  },
+  "evt_dharampur_2025:devraj": {
+    "sarvam": "ratan"
+  },
+  "evt_dharampur_2025:harilal": {
+    "sarvam": "rahul"
+  },
+  "evt_dharampur_2025:WOMAN IN CROWD": {
+    "sarvam": "shreya"
+  },
+  "evt_dharampur_2025:farida": {
+    "sarvam": "priya"
+  },
+  "evt_dharampur_2025:meera": {
+    "sarvam": "pooja"
+  },
+  "evt_dharampur_2025:narrator": {
+    "sarvam": "manan"
+  },
+  "evt_dharampur_2025:CONSTABLE": {
+    "sarvam": "kavya"
   }
 }

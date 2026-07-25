@@ -3,20 +3,22 @@ Review the performance before it is recorded.
 
     python -m src.audio.director --story story1_denied_identity --ep 1
 
-The writer marks how each line should be said while it writes — it knows, because
-it chose. But it tags line 3 before it has written line 26, so it cannot
-calibrate an opening against an ending it has not reached.
+The writer returns `{speaker, text, sfx_cue}`. How a line is PERFORMED is not
+its call: it would be tagging line 3 before writing line 26, unable to calibrate
+an opening against an ending it has not reached. So emotion, intensity, pace,
+bed and pause are decided here, with the finished episode in hand.
 
-The director can. It reads the finished episode and the writer's marks together,
-and changes what the whole-episode view says is wrong. That is review, not a
-second guess: working from finished prose with no access to intent is the lossy
-direction, and this stage is given both.
+That makes this stage the only source of direction, not a second opinion. An
+episode that reaches synthesis without it is `neutral 0.5` on every line, which
+is not neutral — it is flat, and the same number drives the read, the bed and
+the line's own level in the mix.
 
-Every change comes back with a reason, so what the second pass was worth is
-inspectable rather than assumed.
+Seasons written before the writer's schema changed carry their own tags. Those
+are reviewed rather than authored, and every change comes back with a reason.
 """
 
 import os
+import re
 import sys
 import json
 import pathlib
@@ -38,10 +40,15 @@ DIRECTION_SCHEMA = {
         "lines": {"type": "array", "items": {
             "type": "object",
             "additionalProperties": False,
-            "required": ["line_id", "emotion", "intensity", "pace", "bgm_cue",
-                         "pause_after_ms", "changed_because"],
+            "required": ["line_id", "spoken", "emotion", "intensity", "pace",
+                         "bgm_cue", "pause_after_ms", "changed_because"],
             "properties": {
                 "line_id": {"type": "string"},
+                # The line as it should be performed. bulbul:v3 infers emotion
+                # from the text and has no parameter that carries it, so this is
+                # the only channel that reaches the read. Same words, always —
+                # `_rewords` rejects anything else.
+                "spoken": {"type": "string"},
                 "emotion": {"type": "string", "enum": EMOTIONS},
                 "intensity": {"type": "number"},
                 "pace": {"type": "string", "enum": PACES},
@@ -104,6 +111,52 @@ def review(episode: Dict[str, Any], story: str, ep: int,
     return {d["line_id"]: d for d in result["lines"]}
 
 
+# Fillers the director may insert. Sarvam's guidance names them as the thing
+# that makes a read conversational rather than recited, and they carry no
+# meaning a listener could contradict the script with.
+FILLERS = {"um", "uh", "hmm", "mm", "arre", "achha", "haan", "na", "matlab", "toh"}
+
+# Apostrophes are part of the word. Splitting `Don't` into `don` + `t` makes a
+# stammer two tokens long, and the repeated-word rule below then reads
+# "Don't… don't" as a rewrite.
+_WORD = re.compile(r"[^\W\d_]+(?:['’][^\W\d_]+)*", re.UNICODE)
+
+
+def _words(text: str) -> List[str]:
+    return [w for w in _WORD.findall(text.lower()) if w not in FILLERS]
+
+
+def _rewords(original: str, spoken: str) -> bool:
+    """
+    True when `spoken` says something other than `original`.
+
+    Punctuation, casing and inserted fillers are free — they are how prosody is
+    controlled on a model that has no emotion parameter. So is a stammer: "I did
+    not… I did not die near any canal" repeats a phrase the writer already wrote,
+    which is a performance, not a rewrite.
+
+    Everything else is refused. Dropping a clause, adding one, swapping a word or
+    reordering two are all changes to what the character says, and the script and
+    the canon beats would no longer agree with the audio.
+    """
+    from difflib import SequenceMatcher
+
+    a, b = _words(original), _words(spoken)
+    for op, i1, i2, j1, j2 in SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+        if op == "equal":
+            continue
+        if op != "insert":
+            # replace and delete both lose or alter the writer's words.
+            return True
+        # An insertion is allowed only when it repeats the words either side of
+        # it — that is a stammer. Anything else is new material.
+        added = b[j1:j2]
+        n = len(added)
+        if b[j1 - n:j1] != added and b[j2:j2 + n] != added:
+            return True
+    return False
+
+
 def apply(story: str, ep: int, force: bool = False) -> pathlib.Path:
     path = STORIES / story / "audio" / f"ep{ep:02d}.json"
     if not path.exists():
@@ -114,19 +167,26 @@ def apply(story: str, ep: int, force: bool = False) -> pathlib.Path:
         log("already directed — pass --force to review again", "warn")
         return path
 
-    untagged = sum(1 for l in episode["lines"] if l.get("emotion", "neutral") == "neutral")
-    if untagged == len(episode["lines"]):
-        log("nothing to review — the writer left every line neutral. Run "
-            "`python -m src.audio.tag` to direct it from scratch instead.", "warn")
-
     directed = review(episode, story, ep)
     missing = [l["line_id"] for l in episode["lines"] if l["line_id"] not in directed]
     if missing:
         raise RuntimeError(f"director skipped {len(missing)} lines: {missing[:5]}")
 
-    changes = []
+    changes, decided, reshaped, refused = [], 0, 0, []
     for line in episode["lines"]:
         d = directed[line["line_id"]]
+
+        spoken = (d.get("spoken") or "").strip()
+        if spoken and not _rewords(line["text"], spoken):
+            if spoken != line["text"]:
+                reshaped += 1
+            line["spoken"] = spoken
+        elif spoken:
+            # The words are the writer's. A director quietly rewriting them
+            # would drift the audio away from lines.json and from the beats,
+            # and nothing downstream compares the two.
+            refused.append(line["line_id"])
+
         was = (line.get("emotion"), line.get("intensity"), line.get("pace"))
         line["emotion"] = d["emotion"]
         line["intensity"] = round(min(1.0, max(0.0, float(d["intensity"]))), 2)
@@ -135,19 +195,28 @@ def apply(story: str, ep: int, force: bool = False) -> pathlib.Path:
         if d.get("pause_after_ms"):
             line["pause_after_ms"] = int(d["pause_after_ms"])
         now = (line["emotion"], line["intensity"], line["pace"])
-        if was != now and d.get("changed_because"):
-            changes.append(f"  {line['line_id']}  {was[0]} {was[1]} -> "
-                           f"{now[0]} {now[1]}  ({d['changed_because']})")
+        if was != now:
+            decided += 1
+            if d.get("changed_because"):
+                changes.append(f"  {line['line_id']}  {was[0]} {was[1]} -> "
+                               f"{now[0]} {now[1]}  ({d['changed_because']})")
 
     episode[DIRECTED] = True
     write_json(path, episode)
 
-    log(f"reviewed {len(episode['lines'])} lines, changed {len(changes)}")
+    # Two different numbers. Most lines arrive at the default `neutral 0.5`, and
+    # setting one is authoring, which carries no `changed_because` — counting
+    # only explained overrides reported 0 on an episode where 55 lines moved.
+    log(f"directed {decided} of {len(episode['lines'])} lines, "
+        f"{len(changes)} with a stated reason, {reshaped} re-punctuated")
+    if refused:
+        log(f"{len(refused)} rewordings refused — the words are the writer's: "
+            f"{', '.join(refused[:6])}", "warn")
     for c in changes[:12]:
         log(c)
-    if not changes:
-        log("the director left every line as written — a real answer, and the "
-            "cheapest one")
+    if not decided and not reshaped:
+        log("the director left every line as it arrived — on an undirected "
+            "episode that is not a choice, it is a no-op", "warn")
     for problem in check(episode):
         log(problem, "warn")
 

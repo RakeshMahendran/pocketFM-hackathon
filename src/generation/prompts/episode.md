@@ -381,13 +381,34 @@ answers "which parts of this actually happened". Unmarked invented material is a
 bug.
 </source_ref>
 
+<witnessed_by>
+A character in `present` goes in `witnessed_by` as well, unless the beat itself
+keeps them from perceiving it — they are asleep, turned away, out of earshot,
+across the room while it happens in a whisper. Being present and not witnessing
+is the exception, and the beat must contain the reason.
+
+<rule>
+A beat with a non-empty `present` and an empty `witnessed_by` is a defect unless
+`note` states what stopped every one of them from seeing it.
+</rule>
+
+<rationale>
+`knows` is the beats a character witnessed. Leave `witnessed_by` empty on a beat
+eight people are standing in and all eight know nothing about their own scene.
+The spinoff writer is then handed no facts and invents the character's life from
+nothing, and every line it writes about a beat they watched happen reads as a
+continuity violation. Nothing errors — an empty view is a valid shape — so this
+fails silently all the way to the screen.
+</rationale>
+</witnessed_by>
+
 <hidden_from>
 The most important field in the system. For every beat, ask which named
 characters are still ignorant of it, and list them.
 
 Leave at least one consequential beat unwitnessed — empty `present`, empty
 `witnessed_by` — as deliberate open canon. `note` is REQUIRED on those beats and
-says why.
+says why. ONE such beat per batch, not the default shape.
 </hidden_from>
 
 <state_changes>
@@ -434,6 +455,8 @@ Before returning, verify each of these. Any "no" means fix it, not flag it.
 2. Every episode's last unit is its assigned `ends_on`, with nothing after.
 3. No two consecutive episodes end on the same kind of beat.
 4. Every id in `present` / `witnessed_by` / `hidden_from` is a cast `char_id`.
+4b. Every beat with anyone in `present` has someone in `witnessed_by`, except the
+   one deliberately unwitnessed beat, whose `note` says why.
 5. Every `source_ref` is `{event_id}#{timeline_id}` or `fictionalized`.
 5b. At least one character stalls, trails off or corrects themselves somewhere in
    the episode, and the pauses that carry weight are in `pause_after_ms`. Dialogue

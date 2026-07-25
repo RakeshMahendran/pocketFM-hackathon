@@ -14,19 +14,38 @@ and a character's context becomes a database query rather than a reconstruction.
 | Discovery | **yes** | eight story categories | `data/corpus.json` |
 | Scoring | yes | corpus item | dossier |
 | Serial writer | yes | dossier | episodes + beat sheet |
-| Canon store | no | beats | `canon.db` |
+| Canon store | no | beats | Lakebase Postgres |
 | Character view | no | char_id | knows / blind / gaps |
 | Promotion | yes | stub + views | character bible |
 | Spinoff writer | yes | bible + constraints | episodes + branch beats |
 | Validator | yes | scripts + constraints | violations[] |
+| Audio | yes (director) | episode + season | mastered mp3 |
 
 ## Character context is three filters
 
 ```python
-knows = [b for b in beats if char in b.present + b.witnessed_by]
-blind = [b for b in beats if char in b.hidden_from]
+knows = [b for b in beats if char in b.witnessed_by]
+blind = [b for b in beats if char not in b.witnessed_by]   # the complement
 gaps  = time_windows_where(beats, char, count=0)
 ```
+
+Two things this is not, both of which were written down before the data existed:
+
+**`knows` is not `present + witnessed_by`.** Being in the room is not knowing.
+b014 has `mallesha` present and not witnessing, which is the point of having two
+fields — `present_not_witnessed()` in `src/canon/views.py` is that set, and it is
+where dramatic irony lives.
+
+**`blind` is not the `hidden_from` list.** It is the complement of `knows`, and
+therefore fail-closed. `hidden_from` is authored and non-exhaustive: ep1 b003
+names seven of sixteen cast. If `blind` meant only "named in `hidden_from`", the
+other nine would be in neither view and so **unconstrained** — the spinoff writer
+could say anything about them. See `tests/test_agent.py`, which asserts 35 rather
+than 34 for exactly this reason.
+
+The corollary is that an empty `witnessed_by` is fatal, not merely lossy: every
+character is then blind to every beat, the constraint set compiles to nothing,
+and nothing errors, because an empty view is a valid shape.
 
 `gaps` is where spinoffs are set. Canon says nothing in those windows, so nothing
 there can be contradicted — **absence is the writable space**.
@@ -56,6 +75,34 @@ A beat present in both mainline and spinoff. Objective facts must match exactly;
 meaning is free. Beat `b014` gets twenty seconds in the mainline and a whole
 episode in the Jignesh spinoff. Same fact, opposite meaning, zero contradiction —
 this is the demo.
+
+## Script to mp3
+
+One command — `python -m src.audio.build --story <id> --ep 1`. Six stages:
+
+| Stage | LLM? | Adds | Module |
+|---|---|---|---|
+| convert | no | line_id, language, voice hints from the cast | `script_to_episode` |
+| direct | **yes, agent** | emotion, intensity, pace, bgm_cue, pause_after_ms | `director` |
+| cast | no | one Sarvam voice per char_id, locked per series | `voice/scripts` |
+| synthesise | no | one clip per line, over a mood bed | `voice/pipeline` |
+| sfx | no | spot effects generated, level-matched, ducked | `sfx` |
+| master | no | dynamics restored, levelled, true peak capped | `sfx` + `dynamics` |
+
+The writer returns `{speaker, text, sfx_cue}` and stops. **How a line is performed
+is not the writer's call** — it would be tagging line 3 before line 71 exists.
+The director is an agent rather than a call because the question it answers,
+"is this episode the climb or the dip", requires the season, and cannot be
+written into a prompt in advance.
+
+That makes the director the only source of direction, not a review pass. An
+episode that reaches synthesis without it is `neutral 0.5` on every line, which
+is not neutral — it is flat, and the same number drives the read, the bed and the
+line's own level in the mix. It still masters to spec and sounds dead, so
+`build.py` logs it at error level rather than letting it pass.
+
+`src/audio/tag.py` does the same job as a one-shot call, kept for seasons written
+before the director existed.
 
 ## Scale answer (roadmap, not built)
 

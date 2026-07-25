@@ -118,7 +118,10 @@ def run_episode(episode_path: str, provider_override: str = None, cache_dir: str
             continue
 
         request = SynthesisRequest(
-            text=line["text"],
+            # `spoken` is the line re-punctuated by the director for delivery;
+            # `text` is the writer's canonical wording, which stays untouched so
+            # the script, the beats and the audio never disagree about the words.
+            text=line.get("spoken") or line["text"],
             character_id=line["speaker"],
             emotion=line["emotion"],
             intensity=line.get("intensity", 0.5),

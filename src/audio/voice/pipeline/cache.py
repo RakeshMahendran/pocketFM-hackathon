@@ -22,12 +22,16 @@ def line_hash(line: dict, provider_name: str, voice_id: str = "") -> str:
     and as `hi-en` is a different reading, and a re-cast character must not
     replay the previous voice. `voice_id` is passed in because it is resolved
     from the casting lockfile, not written in the script.
+
+    The text that goes in is `spoken` when the director set one — that is what
+    is sent to the provider, and keying on `text` instead would replay the
+    unshaped clip for every line it re-punctuated.
     """
     key = "|".join([
         provider_name,
         voice_id,
         line["speaker"],
-        line["text"],
+        line.get("spoken") or line["text"],
         line.get("language", ""),
         line["emotion"],
         str(line.get("intensity", "")),

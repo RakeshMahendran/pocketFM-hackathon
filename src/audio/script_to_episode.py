@@ -3,17 +3,23 @@ Turn a written episode into the TTS pipeline's `episode.json`.
 
     python -m src.audio.script_to_episode --story story1_denied_identity --ep 1
 
-The voice pipeline (SandhiyaGiri/PocketFmTtsPipeline) validates
-`schemas/episode_schema.json` before it spends a credit, so everything it needs
-has to be right here or the run fails free — which is the good case.
+A join, not a parser. The writer returns `lines.json` — who speaks, what they
+say, what is heard going in. The voice pipeline needs more than that before it
+will spend a credit: a voice per character, an id per line, a series to cast
+against. Half of it lives in `lines.json` and half in `dossier.json`, so
+something has to put them together, and this is it.
 
-What this module can do mechanically: split SFX from dialogue, resolve speaker
-labels to `char_id`s, carry the cast across, number the lines. What it cannot do
-is decide `emotion` and `intensity`; those are authorial, and inferring them from
-finished prose is the lossy direction. The writer should emit them — see the
-`lines` block in `src/generation/prompts/episode.md`. Until it does, this fills
-neutral defaults and says how many lines are untagged, so nobody mistakes a
-flat read for a tagged one.
+The voice pipeline (SandhiyaGiri/PocketFmTtsPipeline) validates
+`schemas/episode_schema.json` first, so anything wrong here fails free — the
+good case.
+
+`emotion`, `intensity` and `pace` are set to neutral defaults and left for
+`src/audio/director.py`, which decides them with the whole episode in view.
+Nothing here infers them: reading performance back out of finished prose is the
+lossy direction.
+
+The regexes below are the old path, kept for the four seasons written before the
+writer returned structure. Those still parse their markdown.
 """
 
 import re
@@ -104,14 +110,28 @@ def _authored_lines(story_dir: pathlib.Path, ep: int) -> List[Dict[str, Any]]:
     return [l for l in lines if int(l.get("ep", 0)) == ep]
 
 
+def _canonical(speaker: str, by_id: Dict[str, Any]) -> str:
+    """
+    The cast `char_id` this speaker names, or the label itself for a walk-on.
+
+    The writer is asked for lowercase char_ids and caps for walk-ons, and mostly
+    complies — but it wrote `MUNNI:` for a character cast as `munni`, and by a
+    case-sensitive test she is a walk-on. She would then be cast fresh as a
+    one-scene voice instead of the one locked to her for the series, and the
+    same character would sound like two people in one episode.
+    """
+    key = speaker.strip().lower().replace(" ", "_")
+    return key if key == "narrator" or key in by_id else speaker
+
+
 def _from_authored(dossier: Dict[str, Any], ep: int,
                    authored: List[Dict[str, Any]], language: str) -> Dict[str, Any]:
     """Pass the writer's direction through rather than re-deriving it."""
     by_id = {c["char_id"]: c for c in dossier["cast"]}
+    resolved = [_canonical(l["speaker"], by_id) for l in authored]
 
     speaking, characters = [], []
-    for line in authored:
-        cid = line["speaker"]
+    for cid in resolved:
         if cid in speaking:
             continue
         speaking.append(cid)
@@ -126,9 +146,10 @@ def _from_authored(dossier: Dict[str, Any], ep: int,
             characters.append({"id": cid, "persona": "minor role, one scene"})
 
     lines = []
-    for i, l in enumerate(authored, start=1):
+    for i, (l, cid) in enumerate(zip(authored, resolved), start=1):
         line = {k: l[k] for k in ("speaker", "text", "emotion", "intensity", "pace")
                 if k in l}
+        line["speaker"] = cid
         line["line_id"] = l.get("line_id") or f"l{i:03d}"
         line["language"] = l.get("language") or language
         line.setdefault("emotion", "neutral")
@@ -291,8 +312,9 @@ def main() -> int:
     if carried:
         log(f"carried {carried} existing emotion tags forward")
     if untagged:
-        log(f"{untagged} lines are untagged neutral — they will read flat. "
-            f"Emotion belongs to the writer, not to this converter.", "warn")
+        log(f"{untagged} lines are at the default neutral 0.5 — run "
+            f"`python -m src.audio.director --story {args.story} --ep {args.ep}` "
+            f"before synthesis, or they will read flat")
     return 0
 
 

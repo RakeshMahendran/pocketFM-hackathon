@@ -47,19 +47,21 @@ Use these words exactly. They are the codebase's nouns.
 
 ```
 discovery → scoring → dossier → serial writer → CANON STORE
-                                                     ↓
-                                            character view (query)
-                                                     ↓
-                                    promotion → spinoff writer → validator
-                                                     ↓
-                                            write back (branch_canon)
+                                      ↓              ↓
+                            convert → direct    character view (query)
+                                      ↓              ↓
+                            cast → synth → sfx   promotion → spinoff writer → validator
+                                      ↓              ↓
+                                    mp3      write back (branch_canon)
 ```
 
-Four stages call an LLM: **discovery**, **scoring**, **serial writer / promotion / spinoff writer**, and **validator**. Everything else is queries and string assembly. Before adding a fifth, stop and ask whether a SQL filter does it.
+Five stages call an LLM: **discovery**, **scoring**, **serial writer / promotion / spinoff writer**, **validator**, and the **director**. Everything else is queries and string assembly. Before adding a sixth, stop and ask whether a SQL filter does it.
+
+Two of them are agents rather than single calls, both via `src/agent.py`: the serial writer, which asks whether a character knows a thing before letting them act on it, and the director, which needs the episodes either side of this one to say whether it is the climb or the dip. The test is not "would a model be good at this" but **can the query be written in advance** — if it can, write it.
 
 Discovery became an LLM stage deliberately — see DELIVERY_PLAN decision 9. The four source APIs could only match vocabulary given to them in advance, and the material worth adapting is the strange local case nobody has already named. A scout searching for *mechanism* finds what a keyword list cannot. The cost is that discovery now hallucinates in a way fetchers could not, which is why `ground_candidates()` discards any candidate citing a page the model never opened.
 
-The validator is **one stage, run as a panel** — three checks in parallel plus three adversarial refuters, each prompted to find a violation rather than confirm cleanliness. That is parallelism inside an existing stage, not a fourth stage. A checker that only ever shows green reads as decorative; see `docs/BUILD_PLAN.md` Phase 3.
+The validator is **one stage, run as a panel** — three checks in parallel plus three adversarial refuters, each prompted to find a violation rather than confirm cleanliness. That is parallelism inside an existing stage, not another stage. A checker that only ever shows green reads as decorative; see `docs/BUILD_PLAN.md` Phase 3.
 
 ### Module map
 
@@ -67,11 +69,11 @@ The validator is **one stage, run as a panel** — three checks in parallel plus
 |---|---|
 | `src/discovery/` | The scout: eight category hunts, grounding, dedupe. Output: `data/corpus.json` |
 | `src/scoring/` | The expander: dossier, cast, season plan, and the graders. Output: dossiers |
-| `src/generation/` | The serial writer, its schemas, and the shared LLM harness |
+| `src/generation/` | The serial writer, promotion, the spinoff writer, their schemas, and the shared LLM harness |
 | `src/canon/` | Beat store, character views, Lakebase access |
-| `src/audio/` | Script to finished mp3: convert, direct, synthesise, sound, master |
+| `src/audio/` | Script to finished mp3: convert, direct, cast, synthesise, sfx, master. `director.py` is an agent and the only source of performance direction |
 | `src/audio/voice/` | The vendored TTS pipeline. See its `NOTICE.md` |
-| `src/validation/` | Leakage, crossing-point, hook-type checks. **Empty — nothing built** |
+| `src/validation/` | Leakage, crossing-point, hook-type checks, run as a panel |
 | `src/api/` | Thin HTTP layer, served with the UI from one process |
 | `web/` | The commissioning console |
 
@@ -141,6 +143,7 @@ python tasks.py test             # pytest
 3. **Never dramatise a dossier claim tagged `alleged` or `disputed` as fact.** Render it as an accusation a character makes, or cut it.
 4. **Never use real names from a dossier in generated fiction.** The fictionalization map is applied before generation, always.
 5. **Never add live network calls to the demo path.** Discovery runs once, offline, into a committed corpus file.
+6. **Never ship a beat with people in `present` and nobody in `witnessed_by`.** `knows` is derived from `witnessed_by` and `blind` is its complement, so an empty one makes every character blind to their own scene, compiles the constraint set to nothing, and lets the spinoff writer invent freely. It raises no error, because an empty view is a valid shape.
 
 ---
 
