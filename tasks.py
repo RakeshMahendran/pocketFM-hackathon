@@ -125,8 +125,15 @@ def cmd_score(args) -> int:
 
 
 def cmd_serial(args) -> int:
-    """Generate mainline episodes + beats for one event, into canon.db."""
-    return run_module("src.generation.serial", ["--event", args.event])
+    """Write a season of scripts, with its beat sheet, into data/stories/."""
+    extra = ["--event", args.event]
+    if args.story:
+        extra += ["--story", args.story]
+    if args.language:
+        extra += ["--language", args.language]
+    if args.batch:
+        extra += ["--batch", str(args.batch)]
+    return run_module("src.generation.serial", extra)
 
 
 def cmd_promote(args) -> int:
@@ -214,6 +221,12 @@ def build_parser() -> argparse.ArgumentParser:
                            help="who commissioned it; stamped onto the dossier")
         elif name == "serial":
             p.add_argument("--event", required=True, help="dossier event_id")
+            p.add_argument("--story", default=None,
+                           help="directory under data/stories; defaults to the event id")
+            p.add_argument("--language", default=None, choices=["en", "hi-en"],
+                           help="en, or hi-en for Hinglish")
+            p.add_argument("--batch", type=int, default=None,
+                           help="episodes per model call (default 3)")
         elif name in ("promote", "spinoff"):
             p.add_argument("--char", required=True, help="character id, e.g. jignesh")
         elif name == "gate1":
