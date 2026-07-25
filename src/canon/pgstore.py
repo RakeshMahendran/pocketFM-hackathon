@@ -60,13 +60,17 @@ _ARRAYS = ("present", "witnessed_by", "hidden_from", "state_changes")
 _BEAT_COLS = _STORAGE + _SCALARS + _ARRAYS
 _BEAT_KEYS = ("story_id", "beat_id")
 
+# `record` last: everything before it is a projection for querying, and it is the
+# one that is read back. Promotion has already gained `season`, `title` and
+# `logline` since these columns were written, and an enumerated round trip drops
+# whatever it has not been told about, silently and on the expensive call.
 _BIBLE_COLS = ("story_id", "char_id", "name", "role", "promotable",
                "maps_to", "composite", "clearance",
                "stub_want", "stub_facts", "voice_samples",
                "want", "wound", "voice", "engine", "reframe",
-               "stance", "genre", "pitch", "offscreen_ledger")
+               "stance", "genre", "pitch", "offscreen_ledger", "record")
 _BIBLE_KEYS = ("story_id", "char_id")
-_BIBLE_JSON = ("stub_facts", "voice_samples", "offscreen_ledger")
+_BIBLE_JSON = ("stub_facts", "voice_samples", "offscreen_ledger", "record")
 
 # An episode is identified by its run as well as its anchor: the leak proof
 # generates the same character on the same beat twice and the two must both land.
@@ -274,6 +278,11 @@ def _create_artifacts(cur: psycopg.Cursor, schema: str) -> None:
             genre            text,
             pitch            text,
             offscreen_ledger jsonb NOT NULL DEFAULT '[]'::jsonb,
+            -- The artifact as promotion returned it. The columns above are
+            -- projections of it, for querying; this is the copy that has to come
+            -- back byte for byte, because the promotion call is the expensive
+            -- one and fires once per click.
+            record           jsonb NOT NULL DEFAULT '{{}}'::jsonb,
             PRIMARY KEY (story_id, char_id)
         )
         """
@@ -472,6 +481,7 @@ def load_bible(record: Record, story_id: str, conn: psycopg.Connection,
         "stub_want": stub.get("want"), "stub_facts": stub.get("facts", []),
         "voice_samples": stub.get("voice_samples", []),
         "offscreen_ledger": bible.get("offscreen_ledger", []),
+        "record": record,
     }
     for field in ("want", "wound", "voice", "engine", "reframe",
                   "stance", "genre", "pitch"):
@@ -496,6 +506,11 @@ def get_bible(story_id: str, char_id: str, conn: psycopg.Connection,
     if not row:
         return None
     r = dict(zip(_BIBLE_COLS, row))
+    if r.get("record"):
+        return r["record"]
+
+    # Rows written before `record` existed. Rebuilt from the columns, which is
+    # everything that was stored at the time.
     return {
         "char_id": r["char_id"], "name": r["name"], "role": r["role"],
         "promotable": r["promotable"],
