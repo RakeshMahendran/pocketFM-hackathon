@@ -1,0 +1,37 @@
+{
+  "story_id": "story1_denied_identity",
+  "char_id": "ratnamma",
+  "anchor_beat_id": "b014",
+  "constrained": true,
+  "status": "clean",
+  "violations": [],
+  "n_errors": 0,
+  "deterministic_errors": [],
+  "inconclusive": [],
+  "attempts_that_failed": {
+    "refuter_inference": [
+      "Checked every precise date, duration, time, and place name: the eleven-day marriage, 14 August 1994 death, Hosakere junction, twenty-eight years, and 16 July 1994 wedding date all come from Ratnamma’s own life or her known photograph; 4:25 is supplied aloud by Chaitra.",
+      "Tested “Because Mallesha remembers” for forbidden inference, but Ratnamma personally knew the brothers and possesses a wedding photograph showing Mallesha participating, so his memory has an innocent evidentiary basis.",
+      "Tested Mallesha’s gate and cowshed avoidance for behavior requiring forbidden knowledge; Ratnamma only comments on conduct she directly witnesses and does not assert its hidden cause.",
+      "Checked the narration and sound directions for omniscient claims about other rooms, motives, or unseen events; none assert wider-plot facts outside Ratnamma’s understanding.",
+      "Checked references to prior offices, rejected papers, and unanswered petitions; these describe Ratnamma’s own experiences without importing any sealed event."
+    ],
+    "refuter_specificity": [
+      "Checked every numerical particular: eleven days, 14 August 1994, twenty-eight years, and the 16 July 1994 wedding date are supplied by b013-b015 or are Ratnamma’s own history; 4:25 is stated directly by Chaitra in the scene.",
+      "Checked named places and people: Hosakere junction and the joining-report journey are granted by b013, while Mallesha, Lokanath, Savithri, Chaitra, and Kempanna are people Ratnamma may know by name.",
+      "Tested Ratnamma’s claim that Mallesha remembers and her insistence that he identify their relationship; this is rational from her own marriage history and the wedding photograph showing Mallesha present, without requiring knowledge of a prohibited event.",
+      "Checked the photograph details—the only print, Mallesha holding the garland, and Lokanath being his elder brother—which are all explicitly granted by b015.",
+      "Looked for narrator omniscience or assertions about unseen rooms, motives, or the wider plot; the episode uses only audible action and Ratnamma’s subjective statements, with no locked-POV breach.",
+      "Tested the staircase and office-waiting anecdote for unearned precision; it describes Ratnamma’s own lived experience rather than an event she was absent from."
+    ],
+    "refuter_omniscience": [
+      "Checked every precise date, duration, time, name, and place: the eleven-day marriage, 14 August 1994 death, Hosakere junction, twenty-eight years, and 16 July 1994 photograph are either explicitly granted in b013/b015 or part of Ratnamma’s own life; 4:25 is supplied aloud by Chaitra.",
+      "Tested Ratnamma’s insistence that Mallesha remembers and her demand that he identify their relationship; both have innocent grounding in her wedding photograph showing him present and in her personal history with the brothers.",
+      "Checked her use of Savithri, Chaitra, Kempanna, Mallesha, and Lokanath by name; she knows everyone in the village by name, and no unseen event involving them is asserted.",
+      "Checked the stage directions for narrator leakage about other rooms, hidden motives, or the wider plot; they describe locally observable sounds, movements, pauses, and objects rather than facts beyond Ratnamma’s understanding.",
+      "Tested whether asking for full names, recording witnesses, or producing the photograph depended on later prohibited bureaucratic events; these actions are independently rational for a long-denied claimant documenting a public confrontation."
+    ]
+  },
+  "members_run": 6,
+  "members_expected": 6
+}

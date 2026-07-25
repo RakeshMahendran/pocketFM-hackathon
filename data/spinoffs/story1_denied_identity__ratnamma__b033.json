@@ -1,0 +1,716 @@
+{
+  "story_id": "story1_denied_identity",
+  "char_id": "ratnamma",
+  "anchor_beat_id": "b033",
+  "anchor": {
+    "beat_id": "b033",
+    "ep": 11,
+    "seq": 3,
+    "world_time": "M2-D16 16:20",
+    "location": "the family house, veranda",
+    "what_happened": "ratnamma withdraws the claim as against savithri, says so aloud in front of the lane, and is taken inside the house for the first time in twenty-eight years.",
+    "fact": "admitted into the house",
+    "valence": 4,
+    "n_present": 2,
+    "kind": "witnessed"
+  },
+  "constrained": true,
+  "generated_at": "2026-07-25T20:07:26.811675+00:00",
+  "model": "gpt-5.6-sol",
+  "forbidden": {
+    "story_id": "story1_denied_identity",
+    "char_id": "ratnamma",
+    "n_beats": 46,
+    "allowed": [
+      {
+        "beat_id": "b013",
+        "ep": 5,
+        "world_time": "M1-D09 16:00",
+        "location": "the family house, front step",
+        "fact": "ratnamma comes to the house and states that she was married eleven days to the appointee, who died on 14 August 1994 after a lorry collision at the Hosakere junction on his way to file the joining report."
+      },
+      {
+        "beat_id": "b014",
+        "ep": 5,
+        "world_time": "M1-D09 16:25",
+        "location": "the lane outside the family house",
+        "fact": "ratnamma challenges mallesha in the lane to say what she is to him; he answers with a line about the fourth standard timetable and walks to the cowshed."
+      },
+      {
+        "beat_id": "b015",
+        "ep": 5,
+        "world_time": "M1-D09 16:40",
+        "location": "the family house, front step",
+        "fact": "ratnamma produces the only print of the 16 July 1994 wedding photograph, in which mallesha stands behind the groom holding the garland; chaitra learns the two men were brothers."
+      },
+      {
+        "beat_id": "b029",
+        "ep": 10,
+        "world_time": "M2-D07 09:25",
+        "location": "Nerlige school, gate and assembly ground",
+        "fact": "ratnamma demands in the school yard that mallesha say his own name once and she will tear up the petition; he answers with the fourth standard timetable and walks to his classroom."
+      },
+      {
+        "beat_id": "b030",
+        "ep": 10,
+        "world_time": "M2-D07 09:40",
+        "location": "Nerlige school, gate",
+        "fact": "A claim petition for forty-one lakh sixty thousand rupees is served at the school gate at assembly time, naming the department as first respondent and savithri as second; ratnamma privately tells chaitra she wants a paper and not the money, and gives her until the hearing on the twenty-second."
+      },
+      {
+        "beat_id": "b033",
+        "ep": 11,
+        "world_time": "M2-D16 16:20",
+        "location": "the family house, veranda",
+        "fact": "ratnamma withdraws the claim as against savithri, says so aloud in front of the lane, and is taken inside the house for the first time in twenty-eight years."
+      },
+      {
+        "beat_id": "b042",
+        "ep": 14,
+        "world_time": "M3-D03 11:10",
+        "location": "district office corridor, counter four",
+        "fact": "In the same corridor and in front of the same ninety witnesses, chaitra produces three documents: the seva register entry placing thammanna as payer of the 1994 funeral, the 2011 registered power of attorney in which thammanna personally identified savithri as the wife of a man dead seventeen years, and the receipt book counterfoils whose body text is in the same hand as this month's inward register entry."
+      },
+      {
+        "beat_id": "b043",
+        "ep": 14,
+        "world_time": "M3-D03 11:35",
+        "location": "district office corridor",
+        "fact": "thammanna is arrested in the corridor on the registered-document offence, and his name is spelled aloud twice — once into the enquiry record and once on the arrest memo."
+      },
+      {
+        "beat_id": "b044",
+        "ep": 14,
+        "world_time": "M3-D03 11:50",
+        "location": "district office corridor",
+        "fact": "revanna settles the ledger aloud: sale deed and mutation referred for cancellation and the four acres restored; ratnamma's arrears recommended against thammanna and not the family; shankarappa censured permanently and the school's second building block sanctioned; puttaraju suspended; mallesha dismissed, criminally referred, and the recovery reduced by the three lakh forty-five thousand six hundred rupees proved extorted; savithri says her husband's name aloud to strangers for the first time."
+      },
+      {
+        "beat_id": "b045",
+        "ep": 14,
+        "world_time": "M3-D03 12:15",
+        "location": "district office corridor, counter four",
+        "fact": "harsha's family return the engagement tray and chaitra refuses the match aloud in front of the corridor, in the same public form in which it was withdrawn."
+      },
+      {
+        "beat_id": "b046",
+        "ep": 14,
+        "world_time": "M3-D03 12:25",
+        "location": "district office corridor, counter four",
+        "fact": "basavaraj reads serial nine of the district appointment list aloud to the corridor: assistant teacher, Nerlige — chaitra, daughter of mallesha."
+      }
+    ],
+    "forbidden": [
+      {
+        "beat_id": "b001",
+        "ep": 1,
+        "world_time": "M1-D04 13:30",
+        "location": "district office corridor, counter four",
+        "fact": "chaitra presents six original documents for teacher-recruitment verification and is told the file is flagged on a deceased-record cross-check.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b002",
+        "ep": 1,
+        "world_time": "M1-D04 13:41",
+        "location": "district office corridor, counter four",
+        "fact": "basavaraj stamps her study certificate REJECTED in violet ink.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b003",
+        "ep": 1,
+        "world_time": "M1-D04 13:44",
+        "location": "district office corridor, counter four",
+        "fact": "At chaitra's own demand basavaraj reads aloud to ninety waiting people that the man named as her father died on 14 August 1994.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b004",
+        "ep": 2,
+        "world_time": "M1-D04 17:20",
+        "location": "the family house, kitchen",
+        "fact": "savithri burns the certified copy of the birth certificate in the kitchen fire rather than answer chaitra's three questions.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b005",
+        "ep": 2,
+        "world_time": "M1-D04 17:50",
+        "location": "the family house, front gate",
+        "fact": "harsha's family return the engagement tray at the gate without entering the house, in view of the lane.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b006",
+        "ep": 2,
+        "world_time": "M1-D04 18:30",
+        "location": "the family house, inner room, trunk under the cot",
+        "fact": "chaitra finds the 1994 appointment order in the trunk and sees that the photograph gummed to its corner is not her father's face.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b007",
+        "ep": 3,
+        "world_time": "M1-D07 05:10",
+        "location": "the family house, yard",
+        "fact": "mallesha refuses to look at the photograph and leaves for school before six.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b008",
+        "ep": 3,
+        "world_time": "M1-D07 07:40",
+        "location": "the family house, veranda",
+        "fact": "thammanna collects twelve hundred rupees from the rice tin as he has on the seventh of every month since 1998, and in the same visit raises the unmutated four acres at Nerlige.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b009",
+        "ep": 3,
+        "world_time": "M1-D07 07:55",
+        "location": "the family house, front step",
+        "fact": "thammanna leaves the receipt book open on the step; chaitra counts 288 entries of twelve hundred rupees each, every one signed by her father in an unfamiliar hand, the earliest predating her birth.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b010",
+        "ep": 4,
+        "world_time": "M1-D09 09:05",
+        "location": "Nerlige school, front yard",
+        "fact": "Asked point-blank for mallesha's name after nineteen years in the next room, girija can only answer 'Master'.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b011",
+        "ep": 4,
+        "world_time": "M1-D09 09:20",
+        "location": "Nerlige school, assembly ground",
+        "fact": "A departmental staff census requires every teacher to answer to their name and give a thumb impression in front of the whole school; chaitra interrupts from the back and demands the name be read at full volume.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b012",
+        "ep": 4,
+        "world_time": "M1-D09 09:31",
+        "location": "Nerlige school, assembly ground",
+        "fact": "shankarappa reads out the name Lokanath and mallesha raises his hand and answers present, in front of four hundred children and his daughter.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b016",
+        "ep": 6,
+        "world_time": "M1-D10 21:15",
+        "location": "the family cowshed",
+        "fact": "mallesha states in eleven sentences that the house was mortgaged for thirty-eight thousand rupees for the marriage, that the appointee died before joining so nothing was payable, and that a block office clerk came in September 1994 and told him the date column of a joining report is written by a clerk.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b017",
+        "ep": 6,
+        "world_time": "M1-D10 21:35",
+        "location": "the family cowshed",
+        "fact": "chaitra names the shame she has carried since she was eight — that she told people her father was a coward for never standing for a photograph — and mallesha explains the avoidance in one sentence about newspapers reaching the block office.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b018",
+        "ep": 6,
+        "world_time": "M1-D10 21:50",
+        "location": "the family house, inner room",
+        "fact": "chaitra opens the cloth pouch and finds that column four of her own birth certificate, registered 14 January 2000, names lokanath as her father.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b019",
+        "ep": 7,
+        "world_time": "M1-D19 10:40",
+        "location": "block office corridor",
+        "fact": "inchara introduces herself and reveals she has held a photocopy of the Nerlige family tree register since 2019 and has done nothing with it while waiting for someone from that house to become angry in a government building.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b020",
+        "ep": 7,
+        "world_time": "M1-D19 11:05",
+        "location": "block office, establishment section",
+        "fact": "chaitra files form fifteen for correction of the father's name in the birth register and says the name mallesha aloud in a government office for the first time since 1994.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b021",
+        "ep": 7,
+        "world_time": "M1-D19 11:20",
+        "location": "block office, establishment section",
+        "fact": "thammanna states his price — the four acres mutated to his son-in-law and a resignation signed in the dead name by the fifth of next month — and enters the correction application in the inward register as received from 'daughter of Lokanath'.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b022",
+        "ep": 8,
+        "world_time": "M1-D24 10:45",
+        "location": "Hosakere school, inauguration shamiana",
+        "fact": "chaitra intercepts revanna between the chair and the car; he orders her file reopened and directs that the reason be read out at the counter, and states that an anonymous 2019 complaint from that taluk was returned to him marked no irregularity over puttaraju's signature.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b023",
+        "ep": 8,
+        "world_time": "M1-D25 11:15",
+        "location": "district office corridor, counter four",
+        "fact": "basavaraj reads the reopening order aloud to the same corridor of ninety people and addresses chaitra as madam.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b024",
+        "ep": 8,
+        "world_time": "M1-D25 11:30",
+        "location": "district office, movement register",
+        "fact": "The movement register shows mallesha's district service file was requisitioned at 09:20 that morning by thammanna, purpose recorded as pre-audit scrutiny.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b025",
+        "ep": 9,
+        "world_time": "M1-D28 08:50",
+        "location": "Nerlige school staff room",
+        "fact": "mallesha writes a voluntary retirement letter on false medical grounds and signs it in the dead name, intending to meet thammanna's terms and clear his daughter's file.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b026",
+        "ep": 9,
+        "world_time": "M1-D28 09:30",
+        "location": "Nerlige school, headmaster's room",
+        "fact": "shankarappa refuses to forward the resignation and states that he compared the joining photograph with the man in 2011, saw they were different men, locked the register and said nothing for eleven years.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b027",
+        "ep": 9,
+        "world_time": "M1-D28 07:41",
+        "location": "Hosakere post office",
+        "fact": "Before school that morning shankarappa posted, by registered acknowledgement due from a post office outside his own village, a statement to revanna naming which man has signed the Nerlige staff attendance register since 1998 and admitting his own eleven-year silence.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b028",
+        "ep": 10,
+        "world_time": "M2-D07 06:05",
+        "location": "the family house, gate",
+        "fact": "thammanna rides past the gate without stopping on the seventh for the first time in twenty-four years; the audit team sat on the fifth and he handed nothing over.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b031",
+        "ep": 11,
+        "world_time": "M2-D16 05:30",
+        "location": "Nerlige temple courtyard",
+        "fact": "seetharama produces volume four of his seva register; the entry of 16 July 1994 records the marriage, and records that the dakshine was paid by the groom's younger brother.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b032",
+        "ep": 11,
+        "world_time": "M2-D16 12:10",
+        "location": "district office, deputy director's room",
+        "fact": "Under rule sixty-one revanna accepts the temple record plus two attesting statements — from the bride's uncle and from girija, who attended the 1994 marriage — and sanctions family pension to ratnamma, arrears referred to government.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b034",
+        "ep": 11,
+        "world_time": "M2-D16 18:45",
+        "location": "Nerlige temple courtyard",
+        "fact": "Four lines below the marriage entry, the seva register records the funeral rites of 25 August 1994 — eighty fed, sixteen hundred and one rupees — with the payer's column filled in the name of thammanna, three weeks before he claims he was first deputed to the village.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b035",
+        "ep": 12,
+        "world_time": "M2-D18 10:30",
+        "location": "Nerlige school hall, departmental enquiry",
+        "fact": "puttaraju states he signed the 2019 nil report without reading it, one of sixty-one files signed that day; shankarappa admits article two orally in front of his own staff.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b036",
+        "ep": 12,
+        "world_time": "M2-D18 11:05",
+        "location": "Nerlige school hall, departmental enquiry",
+        "fact": "mallesha refuses his name three times; chaitra says it aloud from the back of the hall and girija repeats it in front of the staff; nagaraj records the name mallesha and takes the spelling.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b037",
+        "ep": 12,
+        "world_time": "M2-D18 11:40",
+        "location": "Nerlige school hall, departmental enquiry",
+        "fact": "nagaraj announces there will be a criminal reference and recovery of all pay drawn since November 1994, then asks mallesha to sign the statement in his own name; mallesha states he has not written his own name since 4 November 1994 and takes four minutes over four letters.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b038",
+        "ep": 13,
+        "world_time": "M2-D04 11:00",
+        "location": "sub-registrar's office, Hosakere",
+        "fact": "Sale deed number 1147 conveying the four acres by the canal is registered on the strength of the 2011 general power of attorney; no member of the family is present and none learns of it for fifteen days.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b039",
+        "ep": 13,
+        "world_time": "M2-D19 08:30",
+        "location": "the family house, kitchen",
+        "fact": "savithri states that in 2011, when prakash's chest fever needed eleven thousand rupees the house did not have, thammanna had her execute a general power of attorney she never read to the end.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b040",
+        "ep": 13,
+        "world_time": "M2-D19 11:50",
+        "location": "block office, establishment section",
+        "fact": "thammanna's recorded statement casts him as the 2019 informant and a reluctant recipient of a bribe paid by the family for twenty-four years; he produces the receipt book counterfoils and denies the temple entry as a priest's book.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b041",
+        "ep": 13,
+        "world_time": "M2-D19 12:30",
+        "location": "block office corridor, outside",
+        "fact": "inchara hands over the recovery notice for one crore eleven lakh forty thousand rupees and the office file copy of the 2019 complaint, whose covering slip is signed by thammanna.",
+        "emphasised": true
+      }
+    ],
+    "allowed_ids": [
+      "b013",
+      "b014",
+      "b015",
+      "b029",
+      "b030",
+      "b033",
+      "b042",
+      "b043",
+      "b044",
+      "b045",
+      "b046"
+    ],
+    "forbidden_ids": [
+      "b001",
+      "b002",
+      "b003",
+      "b004",
+      "b005",
+      "b006",
+      "b007",
+      "b008",
+      "b009",
+      "b010",
+      "b011",
+      "b012",
+      "b016",
+      "b017",
+      "b018",
+      "b019",
+      "b020",
+      "b021",
+      "b022",
+      "b023",
+      "b024",
+      "b025",
+      "b026",
+      "b027",
+      "b028",
+      "b031",
+      "b032",
+      "b034",
+      "b035",
+      "b036",
+      "b037",
+      "b038",
+      "b039",
+      "b040",
+      "b041"
+    ]
+  },
+  "crossing_candidates": [
+    {
+      "beat_id": "b029",
+      "ep": 10,
+      "world_time": "M2-D07 09:25",
+      "location": "Nerlige school, gate and assembly ground",
+      "what_happened": "ratnamma demands in the school yard that mallesha say his own name once and she will tear up the petition; he answers with the fourth standard timetable and walks to his classroom."
+    },
+    {
+      "beat_id": "b030",
+      "ep": 10,
+      "world_time": "M2-D07 09:40",
+      "location": "Nerlige school, gate",
+      "what_happened": "A claim petition for forty-one lakh sixty thousand rupees is served at the school gate at assembly time, naming the department as first respondent and savithri as second; ratnamma privately tells chaitra she wants a paper and not the money, and gives her until the hearing on the twenty-second."
+    },
+    {
+      "beat_id": "b033",
+      "ep": 11,
+      "world_time": "M2-D16 16:20",
+      "location": "the family house, veranda",
+      "what_happened": "ratnamma withdraws the claim as against savithri, says so aloud in front of the lane, and is taken inside the house for the first time in twenty-eight years."
+    }
+  ],
+  "bible": {
+    "want": "ratnamma files petitions, demands numbered receipts, and returns to every counter until lokanath and ratnamma appear on the same government record and the twenty-eight years of arrears are formally decided.",
+    "wound": "She refuses to be sent home with sympathy, private apologies, or promises that leave no paper behind. She knows that forcing every acknowledgment into public procedure can humiliate bystanders and turn families into respondents, but she chooses that damage because quiet mercy has erased her before.",
+    "voice": "She speaks in long, accumulating sentences built from dates, sums, counts, weather, and remembered physical details, then ends with a short, flat verdict. When discomfort approaches, she changes the subject to chronology or accounting: how many years, which day, what hour, which numbered paper. When frightened, she becomes formal and loud, demands that names be said in front of witnesses, and makes the listener repeat the statement so it cannot later be denied.",
+    "engine": "ratnamma's eleven-day marriage was never registered, so every office demands proof issued by another office before it will create the first usable record. She must build an official existence one receipt, witness, copy, and public admission at a time; every delay weakens old evidence, while every escalation risks alienating the very people whose cooperation the next counter will require. Even a victory only sends her to the next office for pension payment, arrears, identity documents, or inheritance recognition.",
+    "offscreen_ledger": [
+      {
+        "window": "between the season opening and b013",
+        "what": "ratnamma empties her cloth bags, inventories every death paper, rejected application, advocate's letter, and postal receipt she has kept since 1994, wraps the sole wedding photograph against rain, revisits government counters to demand written refusals, calculates the unpaid years from old salary tables, and prepares to confront the household again rather than accept another verbal dismissal."
+      },
+      {
+        "window": "between b015 and b029",
+        "what": "ratnamma takes the photograph back into safekeeping, hires an advocate to draft a claim against the department and savithri, checks the arithmetic behind forty-one lakh sixty thousand rupees line by line, borrows the filing and service costs, signs each page only after its contents are read aloud, and directs that service occur where officials and witnesses cannot pretend not to have seen it."
+      },
+      {
+        "window": "between b030 and b033",
+        "what": "ratnamma waits outside offices while her petition moves, receives the numbered pension sanction delivered at four o'clock, reads the line joining her name to lokanath's repeatedly, carries the order to her advocate, and instructs the advocate to withdraw the claim against savithri before returning to announce that withdrawal publicly."
+      },
+      {
+        "window": "between b033 and b042",
+        "what": "ratnamma makes several copies of the pension order, seals the original away from the wedding photograph, submits the banking and identity forms needed to begin payment, reopens her widow-card application with the new order attached, and files a separate written request for an arrears decision, refusing to leave until its inward number is entered on her copy."
+      }
+    ],
+    "reframe": "The mainline is about a household whose papers turn against it; ratnamma's serial is about an undocumented widow converting memory into admissible proof without letting the state's cruelty dictate whom she must destroy to be recognized.",
+    "stance": "dupe",
+    "genre": "bureaucratic legal thriller",
+    "pitch": "An unregistered widow armed with one photograph makes the state issue a receipt for every year it erased."
+  },
+  "episode": {
+    "title": "Same Line",
+    "logline": "With a numbered pension order finally joining her name to Lokanath’s, Ratnamma must publicly release the woman she used as legal leverage before she can cross the family threshold for the first time in twenty-eight years.",
+    "script": "SFX: A bus grinds away. Sandals on a dirt lane. A cloth bag buckle knocks against a metal document box.\n\nNARRATOR: At four-twenty, Ratnamma returned to the lane with one government order, three carbon copies, and a decision that had to be heard by witnesses.\n\nKEMPANNA: She has come again.\n\nLANE WOMAN: Savithri! The petition woman is at your gate.\n\nSFX: A wooden gate creaks. Neighbours’ footsteps gather on both sides of the lane.\n\nRATNAMMA: Do not call inside quietly. Call everyone who heard when the notice came, everyone who counted the pages, everyone who said respondent number two as though it were Savithri’s given name. If they heard the accusation, they will hear the withdrawal. Call them.\n\nKEMPANNA: You dragged a housewife into a case and now you arrive giving instructions at her own gate.\n\nRATNAMMA: Correct. I used her name to make an office answer me. I knew what I was doing when I did it, I knew she would have to stand before people and explain a petition she had not written, and I knew the lane would enjoy her fear. I was ashamed. I still filed it.\n\nLANE WOMAN: Listen to that. She admits it.\n\nRATNAMMA: Write down the time of my admission if you like. Four-twenty in the afternoon. But remain here for the next sentence.\n\nSFX: A door opens. Steel bangles. Bare feet stop on the veranda.\n\nSAVITHRI: Ratnamma.\n\nRATNAMMA: More loudly, Savithramma. This lane has had good hearing for twenty-eight years. It must not become deaf today.\n\nSFX: Paper unfolded twice. The lane quiets.\n\nRATNAMMA: (formally, loudly) I have this morning instructed my advocate to withdraw the claim petition as against respondent number two. Savithri, wife of the schoolmaster of Nerlige, has no part in this matter and never had. That is being said in front of the lane.\n\nSFX: Nothing. Long.\n\nRATNAMMA: Say it back, so nobody has to ask you later.\n\nSAVITHRI: Ratnamma has withdrawn the claim against me. She has said before this lane that I have no part in the matter and never had.\n\nRATNAMMA: Again. Your voice fell on the last five words.\n\nSAVITHRI: (louder) Ratnamma has withdrawn the claim against me. She says I have no part in this matter and never had.\n\nKEMPANNA: That removes a name from a petition. It does not make you family.\n\nRATNAMMA: I did not ask you to make me anything.\n\nSFX: The metal document box clicks open.\n\nRATNAMMA: I asked an office to write what it had refused to write. The office has answered.\n\nSFX: Paper crackles in unsteady hands.\n\nRATNAMMA: And this came by hand at four o’clock. Sanction of family pension. Order of the deputy director. Ratnamma, wife of Lokanath. Same line. Same line, Savithramma. Twenty-eight years, and the two names are on the same line, and it is a government paper with a number on it, and the number is nine four seven stroke twenty-two.\n\nLANE WOMAN: Let Chaitra read it. You are stumbling.\n\nSFX: A few neighbours laugh.\n\nNARRATOR: Ratnamma was humiliated. Her fingers shook, and the laughter made the printed letters smaller, but she did not lower the paper.\n\nRATNAMMA: Yes, I am stumbling. I read each word forty times between four o’clock and four-twenty, and I stumbled forty times, and every time the same two names remained on the same line. Chaitra may read it once. I will hold it.\n\nSFX: Quick footsteps descend from the veranda.\n\nCHAITRA: Give me the order.\n\nRATNAMMA: No. Stand beside me and read from my hand. The original does not leave my fingers.\n\nCHAITRA: Order number nine four seven stroke twenty-two. Sanction of family pension. Ratnamma, wife of Lokanath.\n\nRATNAMMA: Is there a gap where another person may insert a different wife?\n\nCHAITRA: No.\n\nRATNAMMA: Is my name below his, on another page, in pencil, or in a margin?\n\nCHAITRA: No. Ratnamma and Lokanath are on the same printed line.\n\nRATNAMMA: Tell the lane.\n\nCHAITRA: The government order recognizes Ratnamma as Lokanath’s wife.\n\nSFX: Murmurs spread through the neighbours.\n\nKEMPANNA: Let me see the seal.\n\nRATNAMMA: Read without touching.\n\nKEMPANNA: There is a seal. There is a number. I said this woman had brought only an old story to this gate. I was wrong. The government has written Ratnamma as Lokanath’s wife.\n\nRATNAMMA: Say your name after that statement.\n\nKEMPANNA: Kempanna. I said it, and I was wrong.\n\nRATNAMMA: Good. Now the sentence has a witness attached.\n\nSAVITHRI: If you already had this order, why did you return here?\n\nRATNAMMA: Because withdrawing your name in an advocate’s room would leave you to explain yourself in this lane for another twenty-eight years. I put your name into public procedure. I had to take it out in public procedure. That is the account.\n\nSAVITHRI: And after the account?\n\nRATNAMMA: After the account, I go. I have the paper.\n\nSFX: Ratnamma folds the order. The metal box shuts.\n\nSAVITHRI: No. Come inside.\n\nRATNAMMA: Do not say it softly.\n\nSAVITHRI: Come inside the house, Ratnamma.\n\nRATNAMMA: Say who is entering. Say whose wife she is. Say who is taking her through the door. There are fourteen people in this lane now, I counted from the gate, and tomorrow fourteen versions will begin unless you give them one sentence.\n\nSAVITHRI: Ratnamma, wife of Lokanath, is entering this house. I am taking her inside.\n\nSFX: Savithri takes Ratnamma’s metal box. Two sets of footsteps climb the veranda. A wooden threshold creaks beneath Ratnamma’s foot.\n\nNARRATOR: For the first time in twenty-eight years, Ratnamma was taken inside the house.\n\nSFX: A ceiling fan ticks unevenly. The neighbours remain murmuring at the open doorway. A steel tumbler is filled with water.\n\nSAVITHRI: Sit.\n\nRATNAMMA: First tell me where you are putting the box.\n\nSAVITHRI: On the table beside you.\n\nSFX: The metal box touches wood.\n\nRATNAMMA: Good. The original is inside the brown envelope. The first copy is for my advocate. The second is for the pension counter. The third has no destination yet, which means it stays with me.\n\nCHAITRA: Drink some water.\n\nRATNAMMA: Put it on the table. My hand is still shaking, and if I spill water on order number nine four seven stroke twenty-two after keeping a wedding photograph dry through twenty-eight monsoons, I will become a joke with excellent timing.\n\nSFX: The tumbler is set down. One neighbour laughs, then stops.\n\nSAVITHRI: Nobody is laughing now.\n\nRATNAMMA: They laughed outside.\n\nSAVITHRI: They were wrong outside.\n\nRATNAMMA: That must also be said loudly.\n\nSAVITHRI: (to the doorway) You laughed because Ratnamma could not read the order cleanly. Chaitra read it. The order says Ratnamma is Lokanath’s wife. The laughter was wrong.\n\nLANE WOMAN: We heard.\n\nRATNAMMA: Hearing is not acknowledgment.\n\nLANE WOMAN: I laughed. I was wrong.\n\nRATNAMMA: Name.\n\nLANE WOMAN: Girijamma. I laughed, and I was wrong.\n\nRATNAMMA: Good.\n\nSFX: Running footsteps approach from the lane. A bicycle bell rings twice. A man stops at the doorway, breathing hard.\n\nADVOCATE’S CLERK: Ratnamma! Your advocate sent this before the office closed.\n\nSFX: A paper is pulled from a file cover.\n\nRATNAMMA: Read the stamp. Date, time, and number.\n\nADVOCATE’S CLERK: Withdrawal as against respondent number two received today at four-forty-eight. Inward number one-one-eight."
+  },
+  "beats": [
+    {
+      "beat_id": "x_ratnamma_001",
+      "ep": 11,
+      "seq": 1,
+      "world_time": "M2-D16 16:20",
+      "location": "family house lane",
+      "present": [
+        "ratnamma",
+        "savithri",
+        "kempanna",
+        "lane_neighbours"
+      ],
+      "witnessed_by": [
+        "savithri",
+        "kempanna",
+        "lane_neighbours"
+      ],
+      "hidden_from": [
+        "basavaraj",
+        "chaitra",
+        "girija",
+        "harsha",
+        "inchara",
+        "lokanath",
+        "mallesha",
+        "nagaraj",
+        "prakash",
+        "puttaraju",
+        "revanna",
+        "seetharama",
+        "shankarappa",
+        "thammanna"
+      ],
+      "what_happened": "Ratnamma publicly states that she has instructed her advocate to withdraw the claim against Savithri and requires Savithri to repeat the statement before the lane.",
+      "state_changes": [
+        {
+          "entity": "savithri",
+          "fact": "The claim against her is publicly withdrawn.",
+          "valence": 4
+        },
+        {
+          "entity": "ratnamma",
+          "fact": "She accepts public responsibility for using Savithri as a respondent.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": "b033",
+      "note": "model suggested beat_id rat_ep_b033_01",
+      "tier": "branch_canon",
+      "pov": "ratnamma"
+    },
+    {
+      "beat_id": "x_ratnamma_002",
+      "ep": 11,
+      "seq": 2,
+      "world_time": "M2-D16 16:20",
+      "location": "family house gate",
+      "present": [
+        "ratnamma",
+        "savithri",
+        "chaitra",
+        "kempanna",
+        "lane_neighbours"
+      ],
+      "witnessed_by": [
+        "savithri",
+        "chaitra",
+        "kempanna",
+        "lane_neighbours"
+      ],
+      "hidden_from": [
+        "basavaraj",
+        "girija",
+        "harsha",
+        "inchara",
+        "lokanath",
+        "mallesha",
+        "nagaraj",
+        "prakash",
+        "puttaraju",
+        "revanna",
+        "seetharama",
+        "shankarappa",
+        "thammanna"
+      ],
+      "what_happened": "Ratnamma displays the numbered pension order, and Chaitra reads aloud that it names Ratnamma as Lokanath's wife.",
+      "state_changes": [
+        {
+          "entity": "ratnamma",
+          "fact": "Her claimed relationship to Lokanath is acknowledged aloud before the lane through a numbered government order.",
+          "valence": 5
+        },
+        {
+          "entity": "kempanna",
+          "fact": "He publicly retracts his dismissal of Ratnamma's claim.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id rat_ep_b033_02",
+      "tier": "branch_canon",
+      "pov": "ratnamma"
+    },
+    {
+      "beat_id": "x_ratnamma_003",
+      "ep": 11,
+      "seq": 3,
+      "world_time": "M2-D16 16:20",
+      "location": "family house veranda and interior",
+      "present": [
+        "ratnamma",
+        "savithri",
+        "chaitra",
+        "lane_neighbours"
+      ],
+      "witnessed_by": [
+        "savithri",
+        "chaitra",
+        "lane_neighbours"
+      ],
+      "hidden_from": [
+        "basavaraj",
+        "girija",
+        "harsha",
+        "inchara",
+        "kempanna",
+        "lokanath",
+        "mallesha",
+        "nagaraj",
+        "prakash",
+        "puttaraju",
+        "revanna",
+        "seetharama",
+        "shankarappa",
+        "thammanna"
+      ],
+      "what_happened": "Savithri publicly identifies Ratnamma as Lokanath's wife and takes her inside the house for the first time in twenty-eight years.",
+      "state_changes": [
+        {
+          "entity": "ratnamma",
+          "fact": "She is admitted into the family house.",
+          "valence": 4
+        },
+        {
+          "entity": "savithri",
+          "fact": "She publicly acknowledges Ratnamma before the lane.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id rat_ep_b033_03",
+      "tier": "branch_canon",
+      "pov": "ratnamma"
+    },
+    {
+      "beat_id": "x_ratnamma_004",
+      "ep": 11,
+      "seq": 4,
+      "world_time": "M2-D16 16:20",
+      "location": "inside the family house",
+      "present": [
+        "ratnamma",
+        "savithri",
+        "chaitra",
+        "advocate_clerk",
+        "lane_neighbours"
+      ],
+      "witnessed_by": [
+        "savithri",
+        "chaitra",
+        "advocate_clerk",
+        "lane_neighbours"
+      ],
+      "hidden_from": [
+        "basavaraj",
+        "girija",
+        "harsha",
+        "inchara",
+        "kempanna",
+        "lokanath",
+        "mallesha",
+        "nagaraj",
+        "prakash",
+        "puttaraju",
+        "revanna",
+        "seetharama",
+        "shankarappa",
+        "thammanna"
+      ],
+      "what_happened": "The advocate's clerk delivers the stamped inward number recording receipt of the withdrawal as against respondent number two.",
+      "state_changes": [
+        {
+          "entity": "ratnamma",
+          "fact": "Her public withdrawal is supported by a numbered receipt.",
+          "valence": 3
+        },
+        {
+          "entity": "savithri",
+          "fact": "The withdrawal concerning her has entered written procedure.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id rat_ep_b033_04",
+      "tier": "branch_canon",
+      "pov": "ratnamma"
+    }
+  ],
+  "crossings": [
+    {
+      "mainline_beat_id": "b033",
+      "rendered_as": "Ratnamma makes the withdrawal announcement before gathered neighbours, forces it to be repeated, presents the government order that joins her name to Lokanath's, and is publicly invited and taken across the threshold.",
+      "objective_facts_kept": "Ratnamma withdraws the claim as against Savithri, says so aloud in front of the lane, and is taken inside the house for the first time in twenty-eight years."
+    }
+  ],
+  "cites": [
+    "b033"
+  ],
+  "flags": []
+}

@@ -32,8 +32,20 @@ OWNERS = {
     "src.canon": "P1 (Track A)",
     "src.validation": "P1 (Track A)",
     "src.generation": "P2 (Track B)",
+    "src.demo_seed": "P2 (Track B)",
     "src.api": "P3 (Track D)",
 }
+
+# The demo's golden path. Literals rather than an import from src.canon.store,
+# because tasks.py has to keep working when a module does not exist yet — that is
+# what owner_of() is for. tests/test_tasks.py checks the two stay in step.
+DEFAULT_STORY = "story1_denied_identity"
+DEFAULT_CHAR = "ratnamma"
+
+# Commands that operate on one delivered serial, and the subset that targets a
+# single moment inside it.
+STORY_COMMANDS = ("cast", "gate1", "promote", "spinoff", "validate", "leak", "demo")
+ANCHOR_COMMANDS = ("spinoff", "validate", "leak", "demo")
 
 
 def venv_python() -> str:
@@ -148,24 +160,42 @@ def cmd_serial(args) -> int:
     return run_module("src.generation.serial", extra)
 
 
+def cmd_cast(args) -> int:
+    """Print a story's cast with knows / blind counts and promotable flags."""
+    return run_module("src.canon.cast", ["--story", args.story])
+
+
 def cmd_promote(args) -> int:
     """Promotion call for one character. Fires on click, never in bulk."""
-    return run_module("src.generation.promote", ["--char", args.char])
+    return run_module("src.generation.promote",
+                      ["--story", args.story, "--char", args.char])
 
 
 def cmd_spinoff(args) -> int:
-    """Generate spinoff episodes for one promoted character."""
-    return run_module("src.generation.spinoff", ["--char", args.char])
+    """Generate a spinoff episode for one character, on one of their moments."""
+    argv = ["--story", args.story, "--char", args.char]
+    if args.anchor:
+        argv += ["--anchor", args.anchor]
+    if args.unconstrained:
+        argv += ["--unconstrained"]
+    return run_module("src.generation.spinoff", argv)
 
 
 def cmd_validate(args) -> int:
     """Run the validator panel and print violations."""
-    return run_module("src.validation.run")
+    argv = ["--story", args.story, "--char", args.char]
+    if args.anchor:
+        argv += ["--anchor", args.anchor]
+    if args.file:
+        argv += ["--file", args.file]
+    if args.strict:
+        argv += ["--strict"]
+    return run_module("src.validation.run", argv)
 
 
 def cmd_gate1(args) -> int:
     """GATE 1 — print a character's knows / blind / gaps from the store."""
-    return run_module("src.canon.gate1", ["--char", args.char])
+    return run_module("src.canon.gate1", ["--story", args.story, "--char", args.char])
 
 
 def cmd_leak(args) -> int:
@@ -175,7 +205,10 @@ def cmd_leak(args) -> int:
     spinoff WITHOUT the constraint set, confirms the validator panel catches a
     real violation, then passes the fixed version. Both runs are saved.
     """
-    return run_module("src.validation.leak")
+    argv = ["--proof", "--story", args.story, "--char", args.char]
+    if args.anchor:
+        argv += ["--anchor", args.anchor]
+    return run_module("src.validation.run", argv)
 
 
 def cmd_api(args) -> int:
@@ -190,7 +223,10 @@ def cmd_api(args) -> int:
 def cmd_demo(args) -> int:
     """Seed the full golden path from cache. Forces OFFLINE=1."""
     os.environ["OFFLINE"] = "1"
-    return run_module("src.demo_seed")
+    argv = ["--story", args.story, "--char", args.char]
+    if args.anchor:
+        argv += ["--anchor", args.anchor]
+    return run_module("src.demo_seed", argv)
 
 
 def cmd_test(args) -> int:
@@ -204,6 +240,7 @@ COMMANDS = {
     "score": cmd_score,
     "commission": cmd_commission,
     "serial": cmd_serial,
+    "cast": cmd_cast,
     "promote": cmd_promote,
     "spinoff": cmd_spinoff,
     "validate": cmd_validate,
@@ -226,6 +263,17 @@ def build_parser() -> argparse.ArgumentParser:
     for name, fn in COMMANDS.items():
         doc = (fn.__doc__ or "").strip().splitlines()[0]
         p = sub.add_parser(name, help=doc)
+
+        # --story applies to everything downstream of a delivered serial. Added
+        # before the chain below rather than folded into it, because gate1 needs
+        # both --story and --char and an elif would cost it one of them.
+        if name in STORY_COMMANDS:
+            p.add_argument("--story", default=DEFAULT_STORY,
+                           help="story id under data/stories/")
+        if name in ANCHOR_COMMANDS:
+            p.add_argument("--anchor", default=None,
+                           help="anchor beat_id; default is the top witnessed moment")
+
         if name == "score":
             p.add_argument("--event", default=None, metavar="ID_OR_TITLE",
                            help="corpus item id or title fragment to commission; "
@@ -249,11 +297,21 @@ def build_parser() -> argparse.ArgumentParser:
             p.add_argument("--batch", type=int, default=None,
                            help="episodes per model call (default 3)")
         elif name in ("promote", "spinoff"):
-            p.add_argument("--char", required=True, help="character id, e.g. jignesh")
-        elif name == "gate1":
-            p.add_argument("--char", default="jignesh", help="character id")
+            p.add_argument("--char", required=True,
+                           help="character id, e.g. ratnamma")
+        elif name in ("gate1", "validate", "leak", "demo"):
+            p.add_argument("--char", default=DEFAULT_CHAR, help="character id")
         elif name == "api":
             p.add_argument("--port", type=int, default=8000)
+
+        if name == "spinoff":
+            p.add_argument("--unconstrained", action="store_true",
+                           help=argparse.SUPPRESS)
+        if name == "validate":
+            p.add_argument("--file", default=None,
+                           help="a spinoff json to validate")
+            p.add_argument("--strict", action="store_true",
+                           help="exit 1 when violations are found")
 
     return parser
 
