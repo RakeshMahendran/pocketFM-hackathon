@@ -116,7 +116,11 @@ def cmd_corpus(args) -> int:
 
 def cmd_score(args) -> int:
     """Expand one cleared candidate into a season. Defaults to the scout's pick."""
-    extra = ["--event", args.event] if args.event else []
+    extra = []
+    if args.event:
+        extra += ["--event", args.event]
+    if args.by:
+        extra += ["--by", args.by]
     return run_module("src.scoring.run", extra)
 
 
@@ -206,6 +210,8 @@ def build_parser() -> argparse.ArgumentParser:
             p.add_argument("--event", default=None, metavar="ID_OR_TITLE",
                            help="corpus item id or title fragment to commission; "
                                 "omit to take the scout's pick")
+            p.add_argument("--by", default=None, metavar="EDITOR",
+                           help="who commissioned it; stamped onto the dossier")
         elif name == "serial":
             p.add_argument("--event", required=True, help="dossier event_id")
         elif name in ("promote", "spinoff"):

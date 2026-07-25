@@ -7,10 +7,11 @@ The scout picks the winner itself, so there is no selection stage after this —
 `corpus.json` records which candidate won and what it beat, and the ranked-list
 screen reads that directly.
 
-Dedupe still runs: one call sweeping eight categories will surface the same event
-under more than one of them. The old prefilter does not survive — it existed to
-kill raw junk before paying for a model call, and by this point the call has
-happened and the junk is already rejected.
+Dedupe still runs, and matters more since discovery became one call per category:
+eight independent hunts over categories that overlap by design — a double life is
+also a long deception — will surface the same event more than once. The old
+prefilter does not survive: it existed to kill raw junk before paying for a model
+call, and by this point the call has happened and the junk is already rejected.
 """
 
 import sys
@@ -19,7 +20,10 @@ import datetime as dt
 from typing import Any, Dict, List
 
 from src.util import CORPUS_PATH, ensure_dirs, load_env, log, offline, write_json
-from src.discovery.fetchers import dedupe
+# _same_event is private, and reused rather than reimplemented on purpose:
+# CLAUDE.md records that headline paraphrases score ~63 on fuzzy ratio and that
+# the content-token overlap behind this function is the finding, not a detail.
+from src.discovery.fetchers import dedupe, _same_event
 from src.discovery.search import hunt
 
 
@@ -46,6 +50,28 @@ def _for_dedupe(candidates: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return out
 
 
+def drop_winner_duplicates(winner: Dict[str, Any],
+                           clustered: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Remove also-rans that are the winner again, found under a second category.
+
+    `dedupe()` deliberately never sees the winner — it keeps the longest-text
+    member of a cluster, so feeding the chosen event in could quietly swap it for
+    something it merged with. That exemption used to be free when one call
+    produced one winner. With eight calls it is not: the same event genuinely can
+    win DENIED IDENTITY and place second in THE DOUBLE LIFE, and the queue screen
+    would then show the winner twice.
+    """
+    kept = []
+    for item in clustered:
+        if _same_event(winner["title"], item["title"]):
+            log(f"dropped '{item['title']}': the winner again, under "
+                f"{item.get('category', '?')}")
+            continue
+        kept.append(item)
+    return kept
+
+
 def build_corpus(path=CORPUS_PATH) -> List[Dict[str, Any]]:
     if offline():
         raise RuntimeError(
@@ -54,7 +80,7 @@ def build_corpus(path=CORPUS_PATH) -> List[Dict[str, Any]]:
         )
 
     ensure_dirs()
-    log("discovery: hunting eight categories")
+    log("discovery: hunting eight categories, one call each")
     result = hunt()
     winner = result["winner"]
 
@@ -73,7 +99,7 @@ def build_corpus(path=CORPUS_PATH) -> List[Dict[str, Any]]:
             gone = next((o["title"] for o in others if o["url"] == merged["url"]), "?")
             log(f"merged into '{item['title']}': '{gone}'")
 
-    pool = [_for_dedupe([winner])[0]] + clustered
+    pool = [_for_dedupe([winner])[0]] + drop_winner_duplicates(winner, clustered)
 
     write_json(path, {
         "built_at": dt.datetime.now(dt.timezone.utc).isoformat(),

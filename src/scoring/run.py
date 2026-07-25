@@ -18,6 +18,7 @@ import sys
 import json
 import pathlib
 import argparse
+import datetime as dt
 from typing import Any, Dict, List, Optional, Sequence
 
 from src.util import (CORPUS_PATH, DOSSIERS_PATH, ensure_dirs, load_env, log,
@@ -391,6 +392,12 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
              "scout's pick — the editor commissions, the scout only ranks.",
     )
     parser.add_argument(
+        "--by", default=None, metavar="EDITOR",
+        help="who commissioned this. Stamped onto the dossier so a season "
+             "carries the name of the person who chose it, not just the "
+             "model that ranked it.",
+    )
+    parser.add_argument(
         "--beats", default=None, metavar="PATH",
         help="an existing beat sheet to re-grade against the dossier this run "
              "produces. Used when a season is regenerated from a corrected "
@@ -444,8 +451,19 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                 "not writing it", "error")
             return 1
 
+    # Provenance of the decision, not of the material. The scout's ranking is
+    # already on the candidate; this records who overrode or accepted it, which
+    # is the half nothing captured before.
+    dossier["commissioned"] = {
+        "by": args.by or "unattributed",
+        "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        "over_scout_pick": not candidate.get("winner", False),
+    }
+
     write_json(DOSSIERS_PATH, [dossier])
-    log(f"{dossier.get('title', '?')}: {len(dossier.get('season', []))} episodes")
+    who = dossier["commissioned"]["by"]
+    log(f"{dossier.get('title', '?')}: {len(dossier.get('season', []))} episodes, "
+        f"commissioned by {who}")
     return 0
 
 

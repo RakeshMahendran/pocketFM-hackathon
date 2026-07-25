@@ -1,0 +1,171 @@
+import Link from "next/link";
+
+import { ClearanceBadge } from "@/components/ClearanceBadge";
+import { Notice } from "@/components/Notice";
+import { loadCorpus } from "@/lib/data";
+import { requireEditor } from "@/lib/session";
+import {
+  BAR_EXPLAINED,
+  FOR_THE_OPERATOR,
+  category,
+  stateOf,
+  verdict,
+} from "@/lib/words";
+import type { Candidate } from "@/lib/types";
+
+// Reads the filesystem on every request, so a fresh search shows up without a
+// rebuild.
+export const dynamic = "force-dynamic";
+
+function Row({ candidate }: { candidate: Candidate }) {
+  const state = stateOf(candidate);
+  const call = verdict(candidate.scores?.total ?? null);
+  const blocked = candidate.clearance?.status === "blocked";
+
+  const meta = [
+    category(candidate.category),
+    candidate.year,
+    candidate.where,
+    candidate.sources.length ? candidate.domain : "no source recorded",
+  ].filter(Boolean);
+
+  return (
+    <Link
+      href={`/candidates/${encodeURIComponent(candidate.id)}`}
+      className={`group grid grid-cols-[5rem_1fr] gap-5 px-4 py-5 transition-colors hover:bg-surface ${
+        blocked ? "opacity-70" : ""
+      }`}
+    >
+      {/* The word carries the judgement; the number is there for anyone who
+          wants to argue with it. */}
+      <div className="text-right">
+        <div className={`text-sm ${call.className}`}>{call.word}</div>
+        <div className="label mt-1 font-mono">
+          {candidate.scores ? `${candidate.scores.total}/50` : "—"}
+        </div>
+      </div>
+
+      <div className="min-w-0">
+        <div className="flex items-baseline gap-3 flex-wrap">
+          <h2 className="font-serif text-lg leading-snug group-hover:text-ochre transition-colors">
+            {candidate.title}
+          </h2>
+          <ClearanceBadge clearance={candidate.clearance} />
+          <span className={`label ${state.className}`}>{state.label}</span>
+        </div>
+
+        {meta.length > 0 && (
+          <div className="label mt-2 flex flex-wrap">
+            {meta.map((m, i) => (
+              <span key={i}>
+                {i > 0 && <span className="mx-2 text-rule-strong">·</span>}
+                {m}
+              </span>
+            ))}
+          </div>
+        )}
+
+        {candidate.one_line && (
+          <p className="mt-2.5 text-sm text-muted prose-col leading-relaxed">
+            {candidate.one_line}
+          </p>
+        )}
+
+        {candidate.why_not && (
+          <p className="mt-2.5 text-sm text-faint prose-col leading-relaxed border-l border-rule pl-3">
+            <span className="label mr-2">Why not</span>
+            {candidate.why_not}
+          </p>
+        )}
+      </div>
+    </Link>
+  );
+}
+
+export default async function SourcingQueue() {
+  await requireEditor();
+  const { candidates, assembled, builtAt, warnings } = await loadCorpus();
+
+  const blocked = candidates.filter((c) => c.clearance?.status === "blocked").length;
+  const canMake = candidates.length - blocked;
+
+  return (
+    <div className="mx-auto max-w-6xl px-8 py-12">
+      <div className="flex items-baseline justify-between gap-6 flex-wrap">
+        <div>
+          <h1 className="font-serif text-3xl tracking-tight">
+            Stories worth making
+          </h1>
+          <p className="label mt-2">
+            {assembled ? "From earlier searches" : "From the latest search"}
+            {builtAt && ` · searched ${builtAt.slice(0, 10)}`}
+          </p>
+        </div>
+
+        {candidates.length > 0 && (
+          <div className="flex items-baseline gap-6 text-sm">
+            <span>
+              <span className="font-mono text-lg">{candidates.length}</span>{" "}
+              <span className="label">found</span>
+            </span>
+            <span>
+              <span className="font-mono text-lg text-clear">{canMake}</span>{" "}
+              <span className="label">we can make</span>
+            </span>
+            <span>
+              <span
+                className={`font-mono text-lg ${blocked ? "text-halt" : "text-faint"}`}
+              >
+                {blocked}
+              </span>{" "}
+              <span className="label">we can&rsquo;t</span>
+            </span>
+          </div>
+        )}
+      </div>
+
+      {candidates.length > 0 && (
+        <p className="mt-4 text-sm text-faint prose-col">
+          Sorted best first. {BAR_EXPLAINED} Anything we legally can&rsquo;t make
+          sits at the bottom.
+        </p>
+      )}
+
+      {warnings.length > 0 && (
+        <div className="mt-8 space-y-3">
+          {warnings.map((w, i) => (
+            <Notice key={i}>{w}</Notice>
+          ))}
+        </div>
+      )}
+
+      {candidates.length === 0 ? (
+        <div className="mt-16 border border-rule rounded-sm p-10">
+          <h2 className="font-serif text-xl">No stories yet</h2>
+          <p className="mt-3 text-sm text-muted prose-col leading-relaxed">
+            Nobody has run a search yet. When one runs, it reads court records
+            and news for real events that could carry a series, rates them, and
+            checks whether we&rsquo;re allowed to make each one. What it finds
+            is saved, so this list stays put until someone searches again.
+          </p>
+          {/* The command is real and someone needs it — but it is addressed to
+              whoever runs the machine, not to the person reading this page. */}
+          <details className="mt-6">
+            <summary className="label cursor-pointer hover:text-ochre">
+              {FOR_THE_OPERATOR}
+            </summary>
+            <code className="mt-3 block font-mono text-sm text-ochre">
+              python tasks.py corpus
+            </code>
+          </details>
+        </div>
+      ) : (
+        <div className="mt-8 divide-y divide-rule border-y border-rule">
+          {candidates.map((c) => (
+            <Row key={c.id} candidate={c} />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
