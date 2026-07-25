@@ -15,6 +15,7 @@ import re
 import sys
 import argparse
 import platform
+import shutil
 import subprocess
 from typing import List, Optional
 
@@ -170,6 +171,34 @@ def cmd_demo(args) -> int:
     return run_module("src.demo_seed")
 
 
+def cmd_seed(args) -> int:
+    """Create the Lakebase schema and load the beat sheet into it."""
+    return run_module("src.canon.seed", ["--char", args.char])
+
+
+def cmd_buildweb(args) -> int:
+    """Build the Next.js static export and stage it where the API serves it.
+
+    `databricks sync` honours .gitignore and web/.gitignore ignores out/, so
+    the deployed copy lives at static/ instead.
+    """
+    npm = "npm.cmd" if os.name == "nt" else "npm"
+    web = ROOT / "web"
+    if not (web / "node_modules").is_dir():
+        rc = subprocess.run([npm, "install"], cwd=str(web)).returncode
+        if rc:
+            return rc
+    rc = subprocess.run([npm, "run", "build"], cwd=str(web)).returncode
+    if rc:
+        return rc
+    staged = ROOT / "static"
+    if staged.exists():
+        shutil.rmtree(staged)
+    shutil.copytree(web / "out", staged)
+    print(f"staged {staged}")
+    return 0
+
+
 def cmd_test(args) -> int:
     """pytest."""
     return subprocess.run([venv_python(), "-m", "pytest", "-q"], cwd=str(ROOT)).returncode
@@ -185,6 +214,8 @@ COMMANDS = {
     "validate": cmd_validate,
     "gate1": cmd_gate1,
     "leak": cmd_leak,
+    "seed": cmd_seed,
+    "buildweb": cmd_buildweb,
     "api": cmd_api,
     "demo": cmd_demo,
     "test": cmd_test,
@@ -210,7 +241,7 @@ def build_parser() -> argparse.ArgumentParser:
             p.add_argument("--event", required=True, help="dossier event_id")
         elif name in ("promote", "spinoff"):
             p.add_argument("--char", required=True, help="character id, e.g. jignesh")
-        elif name == "gate1":
+        elif name in ("gate1", "seed"):
             p.add_argument("--char", default="jignesh", help="character id")
         elif name == "api":
             p.add_argument("--port", type=int, default=8000)

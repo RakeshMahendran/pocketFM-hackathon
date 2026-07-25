@@ -16,7 +16,7 @@ from fastapi import Depends, FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from src.util import ROOT, IPL_BEATS, read_json, load_env, log
+from src.util import ROOT, IPL_BEATS, read_json, load_env, log, offline
 from src.canon.views import character_view as _character_view
 
 load_env()
@@ -48,15 +48,22 @@ def beat_source() -> list[dict[str, Any]]:
     The fallback is deliberate: the demo must survive a dead database, and
     the sample sheet is the same canon the store was seeded from.
     """
+    if offline():
+        return read_json(IPL_BEATS)
     try:
         from src.canon.db import connect
         from src.canon import store
 
         with connect() as conn:
-            return store.all_beats(conn)
+            beats = store.all_beats(conn)
+        if beats:
+            return beats
+        # An empty table is not an empty season. Without this, a schema that
+        # was created but never seeded serves [] under a green health check.
+        log("lakebase reachable but holds no beats; serving disk canon", "warn")
     except Exception as exc:
         log(f"lakebase unavailable, serving beats from disk: {exc}", "warn")
-        return read_json(IPL_BEATS)
+    return read_json(IPL_BEATS)
 
 
 @app.get("/api/health")

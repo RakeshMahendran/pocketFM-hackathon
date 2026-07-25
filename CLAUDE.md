@@ -98,7 +98,9 @@ so the two cannot drift.
 python tasks.py setup            # venv + deps
 python tasks.py corpus           # run discovery once, write data/corpus.json  (SLOW, run once)
 python tasks.py score            # score corpus -> data/dossiers.json
-python tasks.py serial --event id    # generate mainline episodes + beats into canon.db
+python tasks.py seed             # create the Lakebase schema, load the beat sheet
+python tasks.py buildweb         # next build -> web/out, staged to static/ for deploy
+python tasks.py serial --event id    # generate mainline episodes + beats into the canon store
 python tasks.py promote --char id    # promotion call for one character
 python tasks.py spinoff --char id    # generate spinoff episodes
 python tasks.py validate         # run the validator panel, print violations

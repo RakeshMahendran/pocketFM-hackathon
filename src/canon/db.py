@@ -63,17 +63,36 @@ def _user() -> str:
     return _workspace().current_user.me().user_name
 
 
-def connect() -> psycopg.Connection:
-    """A new SSL connection authenticated with a fresh-enough token."""
+def _open(token: str) -> psycopg.Connection:
     return psycopg.connect(
         host=_host(),
         port=int(os.environ.get("PGPORT", "5432")),
         dbname=DATABASE,
         user=_user(),
-        password=credential(),
+        password=token,
         sslmode=os.environ.get("PGSSLMODE", "require"),
         application_name=os.environ.get("PGAPPNAME", "canonforge"),
+        # Bounded so a blackholed host fails in seconds rather than the OS
+        # TCP default of minutes. Generous because Lakebase Autoscaling
+        # suspends an idle instance to zero, and the resume that the first
+        # connection triggers has been measured at ~19s.
+        connect_timeout=int(os.environ.get("PGCONNECT_TIMEOUT", "45")),
     )
+
+
+def connect() -> psycopg.Connection:
+    """
+    A new SSL connection authenticated with a fresh-enough token.
+
+    Retries once with a newly minted token: an open connection survives its
+    token expiring, but a cached token that went stale fails the next login
+    with nothing but an auth error to show for it.
+    """
+    try:
+        return _open(credential())
+    except psycopg.OperationalError as exc:
+        log(f"connection rejected, re-minting token: {exc}", "warn")
+        return _open(credential(force=True))
 
 
 def healthcheck() -> bool:

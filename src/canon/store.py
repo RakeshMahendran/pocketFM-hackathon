@@ -7,7 +7,6 @@ membership (`present @> '["jignesh"]'`) is the query the character views are
 built from, even though the views themselves filter in Python at this scale.
 """
 
-import json
 from typing import Any, Optional
 
 import psycopg
@@ -77,8 +76,12 @@ def load_beats(
         f"VALUES ({placeholders}) "
         f"ON CONFLICT (beat_id) DO UPDATE SET {updates}"
     )
+    # tier is NOT NULL, and a column DEFAULT does not apply to an explicitly
+    # inserted NULL - only to an omitted column. A beat without tier would
+    # otherwise raise IntegrityError rather than land as core_canon.
     rows = [
-        [b.get(c) for c in _SCALARS] + [Jsonb(b.get(c, [])) for c in _ARRAYS]
+        [b.get(c, "core_canon") if c == "tier" else b.get(c) for c in _SCALARS]
+        + [Jsonb(b.get(c, [])) for c in _ARRAYS]
         for b in beats
     ]
     with conn.cursor() as cur:
