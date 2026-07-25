@@ -1,0 +1,582 @@
+{
+  "stage": "expand",
+  "saved_at": "2026-07-25T19:47:11.534668+00:00",
+  "response": {
+    "id": "resp_0bfabe7956bdeca3006a65128dc64c8190a967e402ba887aa0",
+    "created_at": 1785008782.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-luna",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_0bfabe7956bdeca3006a65128e71748190a0fe120b29c0b818",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRK_mAWxs_aXR4GFqCdvm3UldcDg2brjJJ3zbdXvDq6Uyncci1rWbePj9R5S98Z7RekCLP8ak7p5YSsMK9Z5oTbnrVV6XGO9mD8fn9e3IQkdQtOq2-SvnxD3XXMLYci6UpfVQGZWiz1wvFYRGZnn224YdByYUbbUOrGSrfOWHRygFWNeoCZcFM5smyJ5O5Tqa5yEa-LpqJrM06Yo1yLkuoT5RTzwTyVO9XXi2NabaTYkLyqQRnWY80s-OoH3f-ioOSRkwik13Tian1vWodN1FKBNNGTD0FsOsY3Dw_DaGYX1pE3NygXqNnapbiwlINTaHymh8bTvqyulTioAsJ6yIF2ArsD4wGHhAl2NJd0DgNYbRk6RI1iRQO939H8ntm0EcFm3JWJOmWUIpPY9IbsB-jlZ-MkmUkbWO7KC5HBJkg5xvmq62RN2N5ugpi7uENoWosXIaPTfIUCsTH_VBeXU4B1n0ewXxV_VwtZTjVHnLJrDRjv1_42PiTCaztP9TQJ_Dil4DPeyf4dd5oZwc0jyDWrnNG_wXq0QOgS1npH1cVOcsZPmXrrFfu2nJQUPd4RxoGzmQPafppvTIhnjEDmWgoFC8tJopmLPkQPgobcp-_fqKoGMcc1DYtrQo8J6z4C4FVuLBjKQh3k4YGJ9WQjGZAwa7WZK6fejFLBFZcs3MYMmzs3ZvcunpCKNpIYzkiPHYgkjbOTEwDWw5G33O32VS1DzB0jDswuyBH_nJS2ljZRFxbyvgLMswP-TACOMzfmoNlXOEP-G-zzugmc7C3eMHJXDPEKnndbuUab8HH6yYs1-kfvDhRSfpr8UIbuNhZSp8QDUYJm2LFXzu6O7Mrv9D_Rci4rbQZbkfeTum806ddPMuaq8hhxcmvxhCvavmd9zMDjKmxYbsrS5mi_HtmMh34lg800kHL_bmgVlZAB9Tayi6MfvrPrx-fWMUqz3N0i2UKMnTkjjeSBr_6-9-5OeO9xaVXLy_GZB05YZgJS7L_thPdNmjxLVV1xUGLVP-0IYW9PBpOnLGU0yekyFf6rurIZroR9OSAiQIENg_p9MXnO_V4NNltsC_b3eXDAj1ZZNCrddfP2vpEYDqsfzbYOM_xFhBOnRXLyPnj2RVRnWouurM5Xnb7xCsgFVcChL2c7SqmmgNc5gZu4H6cdEd8bRZIDiJxKnqfaBbLcpQ5Pl5xyrXkzjOddMBsdOsk8CgSW9nWHD9MlAnCUSfUEUlTpntVCrpXePvuZOoNSMM5GIS1_HEcd8lypPqRGrCaPqmKKfMizm5SvYm29G4qVc0OwiuFAleq22DIGj9tbd3MTWkHI-GkmtLCJucV_72IMEs1D9yRoNJwDsd9H68e5GVyhZ4Szsw1WZyQXw-qO0bA-cvWudCzRYhAEOB2QvHp_Hzm22oj2r",
+        "status": null
+      },
+      {
+        "id": "ws_0bfabe7956bdeca3006a65128f45d88190810b6c98831acdb7",
+        "action": {
+          "type": "open_page",
+          "url": "https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0bfabe7956bdeca3006a6512907e1c819099b12e77477a828c",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRK_iKMDbR2UIRAt5QIZaJSsoJ9vdfE_bTfnGkYtaDRvK-GDoVqg74u7VJ243p68N2NQaeQI8P1isF2RGPHvj6vK9_ZauwLy80geoBJaW5TBcJ30wkd09N6-kJ2D_nezdVNkYuETrfXvFg4f9oMNqCO3ShaQ_ag1KaC0dqu_3iFVC587yaCassBT_EIppljkMOsP4JGMZndTGUDBU22IjvSG9VPDmuqUZAoKtaAQYNrtlmGmvzw-G2XGIpH0URKFQw23e75ACLoBg5FX7adwk4sHPq6678bt7eaTjYPtsqB6GEkZ4mqWIR7OBs5UvKLRu2W2Fsxb3BcppRICbUGcAxt6MLtAse_eo3552PEv8eeC5wKDECOpdkdEk02ih92o8yrLjifp9eKu3tkB4XUGiaC9i5X5QF_dzjh48bDwzpUEurj3zVdeYyT4S7rQJLn7jbaLdPS1ytscw6sgcdYEc8wmSTVwR8OMDp3JqdDLxqXQ79u6uQMw5NiOHBUZIIPFgRs8znVlmoxQeKmTJLOvOrhwHBZduzpbr8kzW2419CXOBlYjBanmP5cOcV8VEPtxC21IvVWc8QtWJ2Aue7VL04NTboYgQ--Z-Phmmz0ahwKYVnyNyEZ1xFydFYHwxbigwzb9EBcnCDOS7MJwfpspJ_1WA8uyScAIYpiwgLRJNk1t9gy7fyj4DcGuKGdbrQt-eQrZk38JnQH7G9EjbNlHK7OA5rmRorVHzmjnryYwuvP6RXPx5zon3DlehuIvDwuROI1dzn3VVNtH5jJBMj9VPWr4H5ni8Rf23hVzQzK07gaFs7u1s-HLIfxYV4gQqtRe66UOXZ8Bh89inK4FfzhuQ8K4K36Z1SFa_jBITKqzErmgZ5XuaJG-5oIzGV92tf115pclMhJtCV9NSsTXlujLFAc-l3yfHsmCJHLFdeYy177TQ5ZZ6M_CfV1Qinse6ItWf_vj4YVfPRae_nvPr9pbXA1AggZNgU1lqfTc0a4XnAWW9w8=",
+        "status": null
+      },
+      {
+        "id": "ws_0bfabe7956bdeca3006a651290b4c48190b2a6b5aa6c0edf88",
+        "action": {
+          "query": "Poyais Gregor MacGregor bonds settlers 1821 1822 first ships jungle historical source",
+          "type": "search",
+          "queries": [
+            "Poyais Gregor MacGregor bonds settlers 1821 1822 first ships jungle historical source",
+            "British Museum Poyais bond Gregor MacGregor CIB-14659 1868-0808-8817"
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0bfabe7956bdeca3006a6512953e388190b5d74154e6e91a3f",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRK_yzunQv46bSGyvBHJSu4j0ndPX79jsdf4ur4pVIEkq-lwN23d8SCkw4aHXnb8rkc8ZWssmI-GBSMZayRLBt81P_qJzqY2CWam5YOhDkZEwEOri0o4RmHTg15bHLu33nXkBp0plgtuIWByDJCQPOkhLNjRQNutstV84x2qktsfoHb_D8YlQ-ONxMaBxfpDZfjGM8u1pZlBQPzzj_lGgikFm8ta_kkAeCqOX0Tq3NIypXddMnZb9bEjpDuOYuFYqovzrU2zs0UvSqFiz9OJ8EVXSvROvI-kVzqG9wHdqQ4S_OEQGSdJSl78sAQCQMqu3RvW_257FpfK3RJxvJGpRDvXAmcbryUduc3ZKG7rnnvwoA9PAe9RTxkSh3mxdaj-a93Oo0tW2WHsvEfX_am9tNZkVYqef72HoC9ew8c3YviDkj0FT3bc_sS0DbGYaCp6wSg4purTt6kdvqbxxy9CAmTM7egQuWy_D53tB8QdtigPV6sTQt6cs3r7CqpUkBSITMdyCB7-c_yUSu7cKEcaFp87tBa79Cjdq29ESk1TQFCzVESEkong4d5tKWtzh6Hhg6fnMVaMAU7m92q8wTGAhVc7PSPs2xtJq2p0Fsdie580xBL43w_rNeb_gUsNgqiimAkl3EaiTMachjC34rzYKeKa1nmLQA68iFdxLVBjYh4UPj5vf8qqC9xCmvSlH_LSSGJJe-dljOrLNiVBBTSi3ADWweGdHrSR1HeivlkwgsYOdyO-jvSGBdH_6c7F6wVuYqmSogx5OF_OZKvYpfgvRr-wxivXUefzlhhJf1khx6mDAQR16cDtY9GWAM5zJQUi0OBB3Pz1V2m57s8Vj-SilDH8U0c60g0ppZ130Uvz6DCvzrsyVWXysghTE4YLX4B_VQVcFwPvMlKCWfRCOdPzRX9cctRVAkPjMhXPiQuLIuC5ohDNuROJk1zcwfJBHJ7PTTmLCOiEkwcLIXLDnpevOmaOiqYQT-AvW8cnIg7TT4OQpSXLyO0ew-Jnq2FDvVkFo_Xc6ETaFPyVPsgNH2BRo1idt5mHhrS2_no5WWjnWf4DvVdy08kpRPNyG5o4pQK46rRa4K_FG9nxouiy9JoXMAtcsbua9dhCxPaiTIZs8ZiT_6UdASrtZ12ysrjica__do8cs09GCjazGT49bryt8G_DS1zxWYCGyA-XApj60COReKASssyjabBJ7FR8F0t4bNR4Qftc-HdrQ-cXpyfosH7iN4IYvn9scpNgwWxBn54Pb_T0aBBLChx30KEf123AyZNRROJcDa-j7ycX00M7WbQWHfSKbDGT7hiMintl3B8RAr4IUuLtZRyRqCyoCBTAMu31njGO3taODce2BGuVPq7cybBZ8Il2YwS-qFB_W72H2b8VOUUbfTjFHimXdJvMjCvHzBrS8RfIbN9nqd4SdA8qkIKleEPiBFk57ihMwuC4_TY-1zogVkmu4EcGAEZd5HsrNk3PQdRedE8RgLptOcUJsWcqZk6hXVEAN4tXrgNtO4sU2aGnDiLy5EK-MLTS531oMTgblTCqSCYF5W_WKg3uRnX0m13RmEH4_v2HnlD1uCf1cqYDVZEJQ1HB2nyyNRxhefIKbenncZtBp9PUoyicvWblBmlp_jZArsbISc1O11Ea3o9BNQZJC2LGq72WloVVJE_1goUvgIcyG5r2fa6uhiguOZP6Xw9KJu-ZdhPmSlq8uj_oYHBHfRzW4z7sX4bqlPQv4_cisK8KO6Gmts5BsQ7WzUDmJTHz-cc0SooFrTxCxrw_Ae9w03fMIFxtN_c-sFR8tIQ2emZBN_6uzHXcXOLLQFN0pfNB3EWdV3gM49FR9_SLpLZeK_4s90zz4b0DgIfFrsh0Tbg6p0Hg3A6jDooGWUKtunDzm8MUWW7MmACGyOXTdFCz5q3ngb0PQr-dddtOZEzcGEAzNAH1rTBxT1DucKyriHOv4xmWW_fw84YOXU-WCMOVCIQeCUz-e0Jio7oJPAJg32G85ivJ7LOcw_IUnL2wceAhQvSAO1844VA_-sJiApcOgZVh990q6efc_N-84MFJYrNYtKrR6tzjXsZv2IPYz3HGl8jD29YOZ3a8doa85UxOW9RIqRZKbU3Q-PxCAR4yfgGxVgz8Qu5XX55opUzGynLUYQ4fcEKy4BA4NTUnJ9dql_bHSxfMG8yqCWZDqa1uEPAjOV5gytsTb0vLmXpkFLfCQz_66RkI0bVrg1cLbeaOLxwHKad1fwuGZepGvFS7S0TCirDcfZL9nyAaNihNPOoGRDxaYCigdQT1mlHfLRBP-sQZ4hB4rdyUXS5b8fkX8KkHMK0gpqJV-ZfHP95Aq-OLLZfd5uxIlXc_XIwZ9TbE5I2rLnIK1L47rW_HgHmPi8Z5XMrgC132zs3q_IEqZNaR_Gk4ZWL9kfQwl_CuT7AIEeh6GwExdwK0AKdZIi3rQ1DNBCafQyIrIQAqWZdaUv58I4zC0tP4M9g8dMzK_n_MlYum3jc7AHePJi8Z3RNK3wEHfPciIE_nQH8wThAekYjn3xVATSJsg6EnyAcC53YT9HA0zVM7LxyPa9pe2ZurT1y0GdUt-8np_OPO4KaH-zQoV6O7rRtLt3iKX4CKCCTt3mzERFtIVM2Oz3bDSxHpmOhYBsZ2E_HkRw==",
+        "status": null
+      },
+      {
+        "id": "ws_0bfabe7956bdeca3006a651296f9188190955d5c2161ea6fde",
+        "action": {
+          "type": "open_page",
+          "url": "https://www.historytoday.com/node/54459"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0bfabe7956bdeca3006a6512996be88190bc1dc284650b3fc5",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRK_rNVATVanh1ftn_kTIDS1GvNKT9afn8GEg5qn8frttw_NOY4eFD0g3leby4AKmsvr2CuepgWY5BLfyXfWpVQwUd-LYbECwvIhQfCNnZwboni5V_FksSTmJBSFDActCIZ2kCSILRei3AHxKcTqbBG1khgXD0E6c_CscmPnzLgSJK8jKye50z6dvaWrhktw3xpkQTOJg8urvN-R9k_SMr0OMUBonOjYIFUNTW_Y0SorSvJP_c9MKmK9-Qg85MD567a2X36g_cRWS5auYixJcMDg83WDBFkbQArSO7TiQAtVaBDL2Z5k7gEDMPkMvhV3gQRIqkM3BTsQHE19uvEomTwohO1YFiRSuMp8YsPlr7agURBQXndOG6aBWQAwjp31spn6nueS19qe6GUeFtPE9kRU5sy2kdUFTAldNYjLtGPPwwi984js86OgYaqCQzQpjFlPjJ24WVGZC02OZxpLBzzcKJVbThijj6t-QAwjT9ba6TzyW6HnAay5K_7bl0O6Gb8u5i5lbq6wWmu0d3EdKn00PbZ9klxr57RkjZtumJL9EQPNGcw1vZV60IVaGtPJqT5Ic7lb9OR6mlLCmgySROBybBMmsZb7nxjucb0w6YifK8Hl7oesAH_aLHJJ07tdVEpfskFmhd-FR4DFyB7-7FcRsjzNgWDZtdTJWhzhsNMyp38NNh_GoK9G2DrWY5THgR8h7_V34oVQu9R1KqwZg2eWkxYz-TBsRHqUaik4ugDJYYuAPSEaM7sSo4Fnbh7-IE6m0evakCQSLrY3vXxVPdeGShj2Ujz4ySSpc5XTTLgjwwkINI8Xez-ASEvMHm3yfAEaTfQRJuD9OUKw9hIY1SGlPRFhICiBOo2H_P-1XDEIWh5DqDkP348SZh652KUoFm88ioMgoifo_pV-5bD8bbb0eD_rut6iZPWRzNI4dpmRxVh0Ho_6oKRYA6hagUJod9XQzQa0ulnyI7xunR_OiRnPEUGOjfFMJggcCmWFNPwbJrX8Gqsf7ojUUFQsYr3OCFWz33FEMUFwATdh5h863nXRKGZJV6tE6AnLcSn30M0Zp2Zv7qD4beTHC1wkp3wOaFmsC6k4-IavuxiOjCuhO3g05HEqDKrN4agi5x1NHwlRHUTd--Nt44bv3N5sp0nDlBqeLoaRKwT9mcH4TJkh-T7NUF7BGJEwxg5APxV_MqURi6EM-CgvHod75emti2sROdwvBKw51ov5vDrHBVNt554_RnRjMYphZQ3Bfw7HeVi_UDOZtTTOxGbq3PObWZcEjQBDAfw5ZiolvZ6K-qzu71_7bzlZkIT9RtagjrzmUpjd2Ag8ChNT19Qkc3iOFg0zXVSHzrpMNJw2JcVohbV9M1C4Xwa5f_5K21AFeawT2yRbDhl07eFCY1sd_8fa4CTNQlcCOJFdszj5j8MEPFOcuQmQYimxEPL4b4vRTqXKAep3sHS2xwd-noakxBC7qVa3rVxRL4FFXCwUfomKFAreHRmcREEvy9x23_zYLrzdJIoN5q8EwlyDAGXVSoVhOSKACVPMrqsYzXhpav-KTphQvBMpmai4nhgB-1Z2IHCkRlNjsainqUN6AIW3h3NI3OmSg4hgm0n1_4_xALcxbeshAH59mKxZlfgz9i0jCRDoVi1X6INHJzIqaQPFH0Yi_esfD3CgF6ARE1sP99NtgMkVSL3NRmKpGk9baO7nNvQ6sI2HvzYuwQbzjJrXCAO2bwyaoHGdstv5i88F8rX3Qm_DiNr3JEHO15IglhmpprhZyOQAfsTdtOVCKbSHnzIgWDcdef4N-LagR47hAbFaLzetSlOBcxC07s4E_YzNYgFDFLo555xodC30IpZkIL89GYTWQOUfleVNH6gbnwQlG2aSEVXPb39-rYEcjlqQ-lLjNoDpvUG-MIASnDSyWhwnsRw6Hiui3UjCI0rO4lorcS7REf4WcnHyX4OnP_Z_cQzcfr1S-W34-VP96Uc8DkB6rQDpF0zLp6AZEfmsXAXe_hc8SQp0tcT_-dvwBcBNoH7_IiJaKdoThndLjHPdTZpw6mrJ5RWQ1CMC940n0x5B5qscFQLZHptRDgbRX-7NC8jeNDRcjwwMdNnOS7XFcXILTefrQDpPRILX2ezpl1HfX5prZE6DsqBfqd9j8ah9dcs9Xhr8kP9UU38w9K0ZmOzs-MeaPFhluxtfmRkW8S5YnOHbPjx7-dBG17gPw1fvER-ZwMdF68q0MTGTZ779lW3_Ewzb3-rqnBzrVtmZ2kgwIlw8jLkW15oxsL8pOAjZGRcQnLFS4VFMWYSQ-2t3VQ2tTLdH8hTeH44HhH32eVEcRinr3djl4TUp_12JDd5wniG51W-9j7fEGAj01LQbZNoMozp_ySyMSYuqY5Blq8QLOkB7-v4atURpLdvU_aVBUOLZNwJGdKL8OrNlx0lUfnu63TD8EsOTQw-aEXmN652Qp0Jaa3feLMcpVS03F_IS06Mxds4vL9VoBJgpPvSFQaJTQ_Zo9mQQDTIWU5uya396H_q7KK0mlIk9zqW3IScgD4rwDiwe5UZMPD9fTFNfkPjDv8xauQwZ-_vyjFCD9Wi9t9nt3rl71_CKbWC19PRqSI3p506WCBTEah8EhETrDEL_bML_yWi8VaHklePCvpHZ-hXErTHLJNUFCGYiAG22Fl-d5B3UHK-Hq0l2vAkVyFLVmFZjXZ_knUqXmsBM2W1LhEsHrgEPfZgCaW9sBu9mztwPxJaO7Ja1eBJ5tJPAt3CdL4oPvq6jssWzf5k5LYr2PJjglT-aGLhZsmq7tCAUFPxt08y0_XvsHRnJEA_oBsDI2-I_znjaz8nDUooYSLISbpsDqw1zPILmwEuBNuuJzf3TU24j3fvqu3oWPR7RRgS4X0L1dehx9VHQuKosvRG3owB6NecI5pz6vlKPPyo4XNlHEr1YziHuvXJhQ36EG50IIJYhCDN--Za8hj9GV2ZnwERk89e75DQ4GDutqe9Rr_v_3SmZufNuAK2XkPTBXP1hiWcJ5saJBDckiTH8kwpuTunNit6yCDMy58ycwhUUl8KH4r9EXXdcA9vLvr412np4d65pSoMWORhholtV4eNEfsTO1O8uy9AOqXOXRPEEex7Jk4IF2foyUb7p3Q__uEdGNP9s5N440GYFWY944pE9e8A6LGTXZeLGpN4_T_O-uIXeAvZphrMuyJcB9duVCsswBuw01Pxjk8U7lOKD2OjQ7J7vMV_twhjL_k_lB5AeeoISqMXNWYxgb1sWwKD8l38HCA9Dxqfm92Twg2hKvd2aFFTZ5dLloeTqZ23lQYqSlFWLJEmWXL0lwArSum9o1UmRFydyXGoErMQvJjXdYc_9wQkANLnUIW2kpT0T4cW11AcxtrYUy5oifj-mlynSJcDbu2IcfYs0aT6XUzcy7j_EOsQxX1DDz8RKuvMldrFT2HJLTKr_tV-IqbMo5Tu1shoXsTyo6xzqconKFxLF9apr3I4c4DDsYNQgxVCBqQDIIgGyJNc-fQxGRWRn6W9UayUUcgWVmjjwK0lO58bzrO5bYJ4zYqJvwD3WJQ1Cg0QwTevWt2TjTw9SesIZTPuaEs39GOu1pkvDqs5aGR-PdBsuLbWkvWfF_uKYh5gGmSMRMK25rnD9Lljq8P9XbN4d9ehBL4p8eZFtB8lwZ6r_weCed36eyLuCyK8_pRhQQtLdQnSTamSnNQgOvLcnM5zYt4XwVSkPOlTfO_rw7Auy93pMciiltBzCMH0dNdtMdX-KSRZUaS6g4O4J8y7sO6KiaFH9Z2p3fLSSiq-KoH2JAbs_6_3YzAnK0vXJEC79OsVA7ShP9eX5vxTA__JKqtFFwZhjsV5cc3CWTethtn0LlSDHgcx4zUyT03Z9MxLt0m3V8QlwCC8XzuzT_wvSWRemVLuC8fgC4WlIlL4avNmE3do0FL7AiuyW1ggF6WGLI83tTTcY9Lghkx4I4iZRuNRbq8sCGawAfy5LHUQ-e0RjoOgVR7wlq7sOT2tHDA_2h28iHhNWSG4fx55Ux2EKRQxQbVNyYVakupA1aZou71PuLxAKJ7r139skYHdP_1rvuuulbz_wQILoR5iRhJy5oQjB2LS80HYC-pNYReDGIzpO-iaULnQflLU89DFdBZZGfx19vRvvAgFZLzT4WZWuBgyAh1CwgoSDBQp7",
+        "status": null
+      },
+      {
+        "id": "rs_0bfabe7956bdeca3006a65129d6bb48190b5fa1028a562a9ba",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRK_PT_9I5FNJ3v9DFJbvYHDev1iznIk2jRssR3DcBhxe3wNGVPctijs56fVb7gOxQdw_VlAvPnYA1Cw2r0gQGvMg5xO7Wm6Iiabu3Hj4HDrXaaIghdf-7KqZb_jvo6BzJYmBsuAj2rEo6wiwFMjZmbWXZoEedV86-RjB4U53FAXe2qozUMUz45xJxpqjk8rRAFKHldgCMClAkOVcwDR4NYEDP5XtZ5piUGbQA9N3pvxkScwSNiclW6WExR_bX5B2-oK1wpvvSnF5cGf_vRlH1aqZS7-smBuHKzj0OpekLC1NOeBwIqRvDcd_NDjqrJzs8m53tXVtDF_tZzAsiZUk8RROKPvwtKofgwOkDG0VbHP6PW_LrRolRr7rHXUNgqm3iH8fdaaIjJHnN4b0bB9jXeAzPvZxifVgevq8nBPDuMvhYkj78UItm_PAC2jXxZwKxGys16-EAei5ZpBGMDlwiUU_m-FtTF56lKropzJtdimTMePcLvoLxKDowBOESW6-dwCoMTUUsrNIh6ZrDDl1OcWUQ9eOyJHF-JTDV0t6D61_HuY6OwxCVZi_PpTW6BLV8LSmkAAuEHXyM0678qoDMbqtmOnwIOCInfpp-3PZeZ1PpP-Oc8Ejb7KA_NOrq-21k40MjT01b2L3GpjBX13cdnxjb4ZrgJwhDy1hrwwGOYnPw-I1svMnXKISUKvCko2cz7RZkOQvqgEASeoSLoHIwCBUsgMrShjbKa6uWeObY2VS8RQfet0931gCqFLLCT4g48C8DQ_Ep7wLvfQApUlsSZIlfpYq8YfgngwupMfemwjLpslw3jDWMlAPpW_HoT4ZqRZ5V91rGl3QzI4p8DvRQjx86tfg0xrKpC_gArrFNwlYJ4tNoZ4fK5wojUWesI0-gGBMyPbnHZZ73vc0BKS3qUkpVl-EEApZhGTULF4xrdyEIBc4WoLXoORGZPNSQXxP6liHnTv68j7KgYv8XqYdWIZySHFAGfKSsmzoB2X56wKydmPyMuKLh-0o1CEqkuRhBZQfF_ezCwuU1-Ak9rHjXDWcoP7cXtZV5ZYp3ndjLeIUsGz8-rpYsgDmFOcTeQeiEqGftDcv5ZTbcPqBxw-DWFoGO48X-JbtOFGp-gqsLbAppQA4Ztb2BmgXMuesJ3FOANoAeWdFuQYyu5FDfPXAlzFZ22NavB-njVgWWZTWa-3Ex1fdNi2WPJVzTm93zKebAO7DGabmUPJf_Wcq4OuDKsmzQo5dBezV5kQFc35yaz9R8C6i9ekuQAfrZf3K-H6phX-PJoGID1EDqwLlCUlXSbsocy-9ZtBa9jJpqMyGykJxhPgPxsaMJVL2ErFC_ZOXpI4Ly47Qk777UpxmdHWCSr9eHxANnsl-lCTcVUBkYv0tIJriZhMLw0IaJRG0YSHP2vhmlHENboDIEtXpDa4U5IwisoGQUDfrtSMR7H-ju-fY-I0RXwSF3ME1UVzfvmnsOJMnRlxdkVXJK6ciX_WQ2NaOM5l2PFqiZUQJ5JW9hxwQwOwWtW1o7z8TzQKGs5ImTErQSuM7NxJkqVFxpDJ2Hjg9gh6Y7MaSSaEmJ14WAaYQMfyLxIxVY54YR3FBAnqRtxHgsZv-eGMdlGqlWwcpuyAymenY4FR02_Ur0-X79cT7SDWP8rK0KMKSIFjfqpeXlyklgUAxkvxglbB5Q7HYny1mqPD9-qPmR5pnDguFWCfmih2m4MSU4XrSglMzfu_5c3tFLsLEB6xDAFjuad1kGf6NS3ukDmZnUcTU1QyNKAllMWPOhiXQkRmr67EkEmQSWFRAv6khNblq4Oqif01OhHa1jbhluyu-bHrJO0tcmRGF3q3e1gFZXcR242c4YfWkyHvPT06Sq-grjDYI1ffD0MA8LnYYg7UswtndUPLeC_67FrQEA93ryoKKvqDhljaPBADUBxzTuDw1MxBrCq3JSYCdaAGtieI4xy9obfM6ZetuktYZ_HY3SI7LZStD-HH9IB5P0CyyEcFw48G9lU5i_Zy6smBTRhil0txwlKWXJ3JgWiWs4F7Puel1vqour2RhIXCtGEQW607qsS7kzGqWzAwtSvdXpB7ogfAnF1EbCDJsSnlDOOLfoY2ojUOa81R5LXT0ccqXAaVo_yqC4sXOzIjnzQmgZr0_w6o48-jlqdbXRoEmGkq6sDhRzBDgVMJCbJWrApLIk7FGwGk1AbmtLuvoblJd_CupfURgWO_eqa0ovIrU7wjGaMCKMriTmDQUmgiTMAAwmf4kBIawfhtY1MbTawTiv5-N49Q26HQK-D1At-U-IUue5p2cxFkg-8sRZK2V0YCFUfmKubMY7krdk1BcW5wkml5lx35_MA4t6q1ZqimpOUSGseMzwl9KFxgpW1Axu3kEXIVFBtK28zNUPXRfCmVf3sDq5Ll7nmmcRWjKjbo9unsmcKxHl3NeV1pASk87gdJQLyxYpgLLVH4E2yPU0aeV05wXPg2xuXRofBt_DFYlm3v3s6MUNovebqOQxHLaXaedVFkO6tBWwMKxmmmq6KACXTD3TjC_jmd3VioPf_8v5PdhA035Dfo8s7TwZ66EpVRcbNufZbwXZ3fufy68iBDWmh1ZKkxZaJTV2CUnCEJ961oY3i2SUZXWhd1z80I8fEYwoMz4nE7pr137qmsf53CFW3c1WbXYGV91wzl32-VNd_He98sEokW0L0STdhFbMba1tGMJjmdnLFT_mFmuuAUe5ogYhHo2MqgLPBdg0yVfv8EF_jQgDmuOfGD5aWHd72Kxpk4wYf4DpzMIMDYWinH6DHAjkwXB-DiX05RMClwjLce-B_h8CtEulVYSZhEtxpSy92A2kefnrwsW4HrfB7I4wldRYnHsMc2aikfGrm3gBkFQ8phRxzvfm08-WTSAiUJ0epQ23UDcbssODc93cCm-rqNUfSzyFaQVP_qHn8Rx-icZF-RLLZkVUmnckkC_xu7xJp49NEeYYEpXkSEgSdUM5jf00c4QUJVMxLXFYlv0LpBLorIc6XgJU4lZMiZPZi9_lQWDf4A9y6FUhrDZUzOStUyNxetU1hCosyToczjE9jVgzQudJhAVq7lhsRa-_ziBiqWjaP6lFJWrq-yMctwjW8CfkExNP-SvUCGDCY2yALBnMkWJH_fWSlPeJJbcKXb_xqKdwIxzrlTatHVNEmjbWPCOyiCdmNMOlcrkpswOaxl0V0V8gQ51Ju1cJqFvp6CRSsEHrBOwKl3RQxBNCxr8YegtbhEreeJVTHkD71YdV3P7R98WquHQvt48AqVPnSwO27KbFfnXkuGhlkxglM5mzAAkZDtQIFlrVA9FKo9MoZ8r-FqCYSYCPnBoBgGKjtnXgo1IOKp0Bg7KKWReTVpK34DzzvUvMor6u1Qs8mjh9p03lFcz0rV5Sk-84Ym05SfhrDk6hphKRdM7o8D3dGzaY1RjjVwsrlv18m6o_a138MzY482EeET9i9msCRGHjXBab5iHFdGKLMxlKy5ahP6mx1v54IlPxlkVuH-PaiD8jnMMqJ4qVvocJuRBWCvpdi_ofMryvwjh2YEqVanDesYXVQlXzciq4bRd05Skdac2akkwsNLRKvHt-kTpAx5wLGufKg4gUulTmIBvbszpudfRP6waOVwzuPa-qLFsp6pYa25t9NDAQEcUYhYIOKw_vrS6ejYEIT25p8cwa3D0ShxMEVvr2B6JGjkAHkORCZjdLcorqmtt2ElpyGzi8xUZ9aD0dIeU6o8fQ0USl67fs0f83OxNWVsvyJR5p2oFuwOVkSssoo3bT33MxmC8vkyJU38pM1pLdZ1rhaof6ciwllXwoFrna3iU0z7WhPi8Vl3ClCDR7Cn7jiHqFAZbJ9Bsz70Wehlx-n2jDQaeXg8Wg==",
+        "status": null
+      },
+      {
+        "id": "rs_0bfabe7956bdeca3006a6512a1ded481909c6c31b03f828138",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRK_FS6EfH4iW4MhaJSqKSSqy420h6UYkZ38nRNUH7fmGErSLC5r4H9hbxqjmGodDaQTX8SLpkWY4bQeom83rNg3v8E6NFHEy96kbd2X4hLWX_clXK8b92NGIUaKAQZvGxeT83QaVzkVlS0h93iijSdp_d5eF1r_CV0I55oqaH036wGON5pxzGzde5-k8Phd5mHyX5aoieA_oa7T0CvhZSrdJHJKCcSPP72pRxktW6FxQzwZbSHil_fwudGJ9N4MZfMYdWXg5koNpAMV7NNfbwby_63KHMxLT1E2nO14lOAyvP1LlLXxZ3B9bIJJS4hz0QMDFXyQQm5ijXsZVFo5AdjIPBjYUjuzZr8F5gX5ye30unjw6xLPViOm9DktyAJ0e8DXGXwr_4NFGe7oE5GxLSXTI6tkre8rx7bTqlPDE-lwN5rex0ZxDkp_hxiufjwKJwKuAAJ7RMTa4-bBygNSahsNjcAT01PPruF8AJBE_EZ1xwksMtVGpWwJ19tCl5SgflOmT5SRyju3XQlYPMviMsZZhGPNyXIRktM-pChNLEhUMn2_92idEug-OENUy-YdT7x4VINvfvBtdcFUz-PqHQJlqP2uoVNt46FpYCwjm0mooicj-TkVgOUfRkEp8gAdRgw6GluyrPsipUmwBcz1eeee_UKFTx2M-31-IMRFcG_NLb1_SBD5djslnerZ_6Igp-eSr7OICxxr0wIlfXfDhRk4WsuuWGVa0fbmJe_eeQkpbntaNdN0SVRl13z1ndlZi6v_QTBnD6wGd4IWWDFdPKo_wYQBwIKGG94tQN-GbJAYL7pDxJJZHQpICcRll2xtc1pYdjNvhP-wmVANmORtcI_bbI70fQqRNubhuBMI3HnUqaM1vnlQ7-cTy1ixpDa4nyJ-Ie7xCBjTuYZer9yjrPro2-yAKcBl77DTm-j-tJtACuS6JsH1do3DdFHpgKu78J2eML-uuJT5upEwvUWHYWKdRSJgokdW61Dyro_3S_pn5QjJLhDL73KZusY-EyPyksrNwBDS7BYCQX6Tf3O3OhTK4MVlyvJVkxVCZaUXWcGfHBnc4YPei2sOwqcoilw4Y5B5Q7qJV-n5EXzpQJJ5N4-BXZjO0qAQIrKFdPuiSSIUhaA7JM0d7Y7TGMjV0Guy2N84zA7vOBefVC5tsy0m7PcmqQK30P3Ilz8ev_TdI9POoOc36ND2Tg-pr_BMaDQJ8dLk8r0PRGCqPPyJpxn_RtOLodOG7OHeudNVuzAXUQh-T8tnXPBW6KivoqSYQHAm63WnYeDGJHET58PLqMcAXYuf7CLSFbcO7I18L0BUe5M2KBiH0tStPcBA9PRZ4nqQ5iPsykKKU3WbXyixeKLrGwFAUwXZBljCYShteqvDSd4DguUW3IiFc8fRVYEAFIPqX-9tFXUbWGSC0T2n_E8_BaFayjvdlPxsfKdB-H9V_M-vU9gVayQZR0afxIbyhxdhx7ut7VRxXClRuIBrMeAVKhZ32g==",
+        "status": null
+      },
+      {
+        "id": "msg_0bfabe7956bdeca3006a6512a2e86c8190812432cab09ace07",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"event_id\":\"evt_briarhaven_1821\",\"title\":\"The Country That Had to Exist on Paper\",\"one_line_summary\":\"A young Scottish clerk is recruited to make a fictional Central American nation look real, then must expose the machinery that keeps investors, settlers, and officials believing after the first colonists find only jungle.\",\"language\":\"en\",\"fantasy\":\"Respect reclaimed from liars\",\"protagonist\":{\"char_id\":\"ewan\",\"who\":\"Ewan Pell, a twenty-four-year-old Edinburgh copying clerk hired to prepare Poyaisian certificates, maps, and official correspondence.\",\"wants\":\"A respectable government post and enough money to rescue his widowed mother from debt.\",\"ashamed_of\":\"He once altered a landlord’s ledger to hide his family’s unpaid rent, and now fears everyone can see him as a fraud.\",\"does_not_know_at_start\":\"Poyais is not a functioning country; every document he copies is part of a coordinated invention.\"},\"antagonist\":{\"char_id\":\"gregor\",\"who\":\"Gregor Vale, a decorated soldier who presents himself as the Cazique of Poyais and personally directs the London machinery of the deception.\",\"wants_incompatibly\":\"He must keep Poyais publicly alive long enough to sell more bonds, land, appointments, and prestige; Ewan eventually needs the country’s fiction exposed before more people die.\"},\"sources\":[\"https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29\",\"https://www.britishmuseum.org/collection/object/C_CIB-14659\",\"https://www.britishmuseum.org/collection/object/P_1868-0808-8817\",\"https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais\",\"https://www.cambridge.org/core/journals/enterprise-and-society/article/what%E2%80%99s-in-a-fraud-the-many-worlds-of-gregor-macgregor-18171824/18C69E0C9D7E0878A96E17E2B0B9E12F/share/49e5171b4f9f4da86bf26cfc2575ae26b2b4d1a\"],\"timeline\":[{\"id\":\"t1\",\"date\":\"1820\",\"what_happened\":\"Gregor MacGregor visited the Mosquito Coast and claimed to have obtained a territorial concession before returning to Britain to promote a new state called Poyais.\",\"confidence\":\"reported\",\"source\":\"https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais\"},{\"id\":\"t2\",\"date\":\"1821\",\"what_happened\":\"MacGregor appeared in London as the supposed sovereign of Poyais, promoting the territory through diplomatic language, printed descriptions, land sales, and appointed representatives.\",\"confidence\":\"reported\",\"source\":\"https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais\"},{\"id\":\"t3\",\"date\":\"1822-09-10\",\"what_happened\":\"The Honduras Packet sailed from Leith carrying the first group of settlers, including people promised positions in the supposed Poyaisian administration.\",\"confidence\":\"reported\",\"source\":\"https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais\"},{\"id\":\"t4\",\"date\":\"1822-10\",\"what_happened\":\"A London merchant-banking firm contracted a £200,000 loan for the supposed State of Poyais, divided into bearer bonds and marketed through financial intermediaries.\",\"confidence\":\"verified\",\"source\":\"https://www.cambridge.org/core/journals/enterprise-and-society/article/what%E2%80%99s-in-a-fraud-the-many-worlds-of-gregor-macgregor-18171824/18C69E0C9D7E0878A96E17E2B0B9E12F/share/49e5171b4f9f4da86bf26cfc2575ae26b2b4d1a\"},{\"id\":\"t5\",\"date\":\"1823\",\"what_happened\":\"The first settlers reached the supposed colony and found an uninhabited, dangerous shore rather than the promised capital; later accounts describe widespread illness and a rescue operation from British Honduras.\",\"confidence\":\"reported\",\"source\":\"https://www.historytoday.com/miscellanies/gregor-macgregor-prince-poyais\"},{\"id\":\"t6\",\"date\":\"1824-11-09\",\"what_happened\":\"Poyais securities were no longer treated as ordinary exchange-listed investments, and an arbitration concerning their allegedly fraudulent nature ruled them non-cognizable.\",\"confidence\":\"verified\",\"source\":\"https://www.cambridge.org/core/journals/enterprise-and-society/article/what%E2%80%99s-in-a-fraud-the-many-worlds-of-gregor-macgregor-18171824/18C69E0C9D7E0878A96E17E2B0B9E12F/share/49e5171b4f9f4da86bf26cfc2575ae26b2b4d1a\"},{\"id\":\"t7\",\"date\":\"1834-04\",\"what_happened\":\"A surviving Poyais land grant for sixty acres was issued under MacGregor’s authority, showing that the paper state continued to be reproduced after the settlement disaster.\",\"confidence\":\"verified\",\"source\":\"https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29\"}],\"people\":[{\"name\":\"Gregor MacGregor\",\"role\":\"Scottish soldier and promoter of the supposed state of Poyais\",\"motive\":\"Money, status, and the preservation of his invented sovereignty\",\"public_or_private\":\"public\",\"living\":false},{\"name\":\"Sir John Perring\",\"role\":\"London merchant-banker associated with the Poyais loan\",\"motive\":\"Commission, commercial opportunity, and confidence in the financial scheme\",\"public_or_private\":\"public\",\"living\":false},{\"name\":\"John Lowe\",\"role\":\"Broker and contractor involved in marketing the Poyais securities\",\"motive\":\"Brokerage commissions and profit from the bond issue\",\"public_or_private\":\"public\",\"living\":false},{\"name\":\"Thomas Strangeways\",\"role\":\"Author of promotional material for prospective Poyais settlers\",\"motive\":\"Payment, professional advancement, and belief in the colonial opportunity\",\"public_or_private\":\"public\",\"living\":false},{\"name\":\"Lieutenant-Colonel Hall\",\"role\":\"Promised administrator among the first Poyais settlers\",\"motive\":\"A prestigious appointment and a new colonial career\",\"public_or_private\":\"public\",\"living\":false},{\"name\":\"Edward Lowe\",\"role\":\"Survivor who documented the settlers’ suffering\",\"motive\":\"Survival and testimony after the colony failed\",\"public_or_private\":\"public\",\"living\":false},{\"name\":\"General Edward Codd\",\"role\":\"Governor who organized aid from British Honduras\",\"motive\":\"Preventing further deaths and containing a colonial embarrassment\",\"public_or_private\":\"public\",\"living\":false},{\"name\":\"George Frederic\",\"role\":\"Miskitu ruler whose territorial authority was connected to claims surrounding Poyais\",\"motive\":\"Maintaining Indigenous political leverage and control over land concessions\",\"public_or_private\":\"public\",\"living\":false},{\"name\":\"Robert Wilmot-Horton\",\"role\":\"Colonial Office official monitoring the Poyais project\",\"motive\":\"British strategic expansion without formally recognizing an embarrassing private colony\",\"public_or_private\":\"public\",\"living\":false}],\"cast\":[{\"char_id\":\"ewan\",\"name\":\"Ewan Pell\",\"role\":\"Junior clerk who prepares Poyaisian documents and becomes the first insider to understand the entire mechanism.\",\"want\":\"A government career and financial security for his mother.\",\"gender\":\"male\",\"age_range\":\"20s\",\"maps_to\":\"composite of junior clerks and promised Poyaisian officials\",\"composite\":true},{\"char_id\":\"gregor\",\"name\":\"Gregor Vale\",\"role\":\"Decorated soldier, self-styled Cazique, and architect of the paper country.\",\"want\":\"To turn a fiction into money, obedience, and permanent public status.\",\"gender\":\"male\",\"age_range\":\"30s\",\"maps_to\":\"Gregor MacGregor\",\"composite\":true},{\"char_id\":\"cyrus\",\"name\":\"Cyrus Perring\",\"role\":\"Elegant London banker who gives the Poyais loan the appearance of institutional respectability.\",\"want\":\"His commission and a place at the centre of the next Latin American investment boom.\",\"gender\":\"male\",\"age_range\":\"50s\",\"maps_to\":\"Sir John Perring and the merchant-banking circle\",\"composite\":true},{\"char_id\":\"elspeth\",\"name\":\"Elspeth Rennie\",\"role\":\"Poyais recruiting agent in Scotland who sells land, appointments, and hope to emigrants.\",\"want\":\"To become indispensable to the new colony and never return to poverty.\",\"gender\":\"female\",\"age_range\":\"30s\",\"maps_to\":\"composite of recruiting agents and colonial promoters\",\"composite\":true},{\"char_id\":\"mara\",\"name\":\"Mara Bell\",\"role\":\"Ewan’s widowed mother, whose debt makes his complicity materially urgent.\",\"want\":\"To keep the family room and shop from being seized.\",\"gender\":\"female\",\"age_range\":\"50s\",\"maps_to\":\"invented\",\"composite\":true},{\"char_id\":\"jonas\",\"name\":\"Jonas Hallam\",\"role\":\"Former military officer promised command of Poyais’s civil administration.\",\"want\":\"A title and authority greater than anything available to him at home.\",\"gender\":\"male\",\"age_range\":\"40s\",\"maps_to\":\"Lieutenant-Colonel Hall and other promised officials\",\"composite\":true},{\"char_id\":\"ada\",\"name\":\"Ada Wren\",\"role\":\"Printer’s daughter who notices that identical plates are being used for supposedly separate Poyaisian institutions.\",\"want\":\"To own a printing business and escape her father’s control.\",\"gender\":\"female\",\"age_range\":\"20s\",\"maps_to\":\"invented\",\"composite\":true},{\"char_id\":\"silas\",\"name\":\"Silas Lowe\",\"role\":\"Broker who moves bonds, scrip, and excuses between the bank, agents, and investors.\",\"want\":\"To collect his commission before the paper state collapses.\",\"gender\":\"male\",\"age_range\":\"30s\",\"maps_to\":\"John Lowe and financial intermediaries\",\"composite\":true},{\"char_id\":\"ines\",\"name\":\"Ines Calder\",\"role\":\"Caribbean interpreter and coastal trader who knows the supposed capital is not a functioning settlement.\",\"want\":\"To protect local communities from armed or desperate settlers arriving under false claims.\",\"gender\":\"female\",\"age_range\":\"30s\",\"maps_to\":\"composite of regional intermediaries and Indigenous authorities\",\"composite\":true},{\"char_id\":\"thomas\",\"name\":\"Thomas Rusk\",\"role\":\"Promotional writer whose guidebook gives Poyais its roads, parliament, mines, and social hierarchy.\",\"want\":\"A paid authorship career and immunity from being blamed when the guide is disproved.\",\"gender\":\"male\",\"age_range\":\"40s\",\"maps_to\":\"Thomas Strangeways and promotional writers\",\"composite\":true},{\"char_id\":\"edwin\",\"name\":\"Edwin Codd\",\"role\":\"British colonial administrator who receives the first starving survivors and later intercepts more ships.\",\"want\":\"To save lives without making his government officially responsible for Poyais.\",\"gender\":\"male\",\"age_range\":\"50s\",\"maps_to\":\"General Edward Codd and British Honduras officials\",\"composite\":true},{\"char_id\":\"robert\",\"name\":\"Robert Wilmot\",\"role\":\"Colonial Office official balancing commercial ambition against diplomatic danger.\",\"want\":\"To use Poyais as a British foothold without recognizing it as a state.\",\"gender\":\"male\",\"age_range\":\"40s\",\"maps_to\":\"Robert Wilmot-Horton\",\"composite\":true},{\"char_id\":\"george\",\"name\":\"George Frederic\",\"role\":\"Regional Indigenous ruler whose authority determines whether any land concession can survive.\",\"want\":\"To retain control of territory while extracting advantage from foreign powers.\",\"gender\":\"male\",\"age_range\":\"40s\",\"maps_to\":\"George Frederic\",\"composite\":true}],\"adaptability\":{\"conflict\":10,\"characters\":9,\"stakes\":10,\"serializability\":10,\"resonance\":10,\"total\":49},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The historical mechanism is public-domain history, but every real person, place, institution, and vulnerable group must be fictionalized before scripting.\",\"The season uses composite characters rather than reproducing the identities of historical participants.\",\"The fictional country and settlement must not be presented as a real modern place or institution.\"]},\"novelty\":{\"prior_adaptations\":[],\"score\":9},\"engine\":\"Every new believer forces Ewan to manufacture one more visible piece of Poyais—money, law, land, appointments, rescue orders, or diplomatic proof—while each new document creates a witness who can later destroy the lie.\",\"why_this_works\":\"The protagonist is not the mastermind but the clerk standing beside the machinery. His public humiliation is concrete: he is exposed as the man whose certificates sent families toward a country he cannot prove exists. Each episode alternates between London’s polished performance and the coastal consequences, allowing the season to escalate without repeating the same jungle suffering. The fantasy is respect reclaimed: the dismissed copyist becomes the only person in the room who understands how the country was built and how to dismantle it.\",\"fictionalization_map\":[{\"real\":\"Gregor MacGregor\",\"fictional\":\"Gregor Vale\"},{\"real\":\"Sir John Perring\",\"fictional\":\"Cyrus Perring\"},{\"real\":\"John Lowe\",\"fictional\":\"Silas Lowe\"},{\"real\":\"Thomas Strangeways\",\"fictional\":\"Thomas Rusk\"},{\"real\":\"Lieutenant-Colonel Hall\",\"fictional\":\"Jonas Hallam\"},{\"real\":\"Edward Lowe\",\"fictional\":\"Ewan Pell\"},{\"real\":\"General Edward Codd\",\"fictional\":\"Edwin Codd\"},{\"real\":\"George Frederic\",\"fictional\":\"George Frederic\"},{\"real\":\"Robert Wilmot-Horton\",\"fictional\":\"Robert Wilmot\"},{\"real\":\"Poyais\",\"fictional\":\"Briarhaven\"},{\"real\":\"London\",\"fictional\":\"London\"},{\"real\":\"Leith\",\"fictional\":\"Northhaven\"},{\"real\":\"Mosquito Coast\",\"fictional\":\"Sable Coast\"},{\"real\":\"British Honduras\",\"fictional\":\"Crownwater Colony\"}],\"season\":[{\"ep\":1,\"turn\":\"At a public Poyais presentation in Edinburgh, Ewan is ordered to certify a land grant while settlers, bankers, and journalists watch; when he hesitates, Gregor makes him read the document aloud and brands him an incompetent clerk.\",\"hook_type\":\"RECOGNITION\",\"ends_on\":\"The sixty-acre grant bears an official seal that Ewan personally engraved that morning, although no government office issued it.\",\"pays_off\":null,\"status\":2},{\"ep\":2,\"turn\":\"Ewan discovers that the Poyaisian constitution, bank charter, and military commission all use the same paper stock and ink, so he tries to leave the operation.\",\"hook_type\":\"THREAT\",\"ends_on\":\"Gregor shows Ewan his mother’s unpaid debt ledger and says the next forged certificate will decide whether Mara keeps her home.\",\"pays_off\":null,\"status\":1},{\"ep\":3,\"turn\":\"Elspeth brings Ewan to a packed recruiting hall where families exchange savings for Poyais land, and Ewan is forced to demonstrate banknotes he knows cannot be redeemed.\",\"hook_type\":\"DISCOVERY\",\"ends_on\":\"A farmer hands Ewan a banknote bearing a serial number already used on a note sold in Glasgow.\",\"pays_off\":null,\"status\":1},{\"ep\":4,\"turn\":\"Ewan and Ada secretly compare the printing plates and prove that the supposed parliament, bank, and royal seal were produced from one workshop.\",\"hook_type\":\"BETRAYAL\",\"ends_on\":\"Ada gives the duplicate plate to Ewan, but the next morning her father’s print shop has been emptied and Ada has vanished.\",\"pays_off\":\"Ewan settles the first mystery: the major Poyaisian institutions are physically manufactured in one Edinburgh print room.\",\"status\":2},{\"ep\":5,\"turn\":\"Cyrus Perring publicly validates a £200,000 Poyais loan, forcing Ewan to prepare the bond certificates while Silas warns that investors are already trading them above issue price.\",\"hook_type\":\"DEADLINE\",\"ends_on\":\"The first ship carrying settlers sails before Ewan can send proof that the promised capital has no harbour, buildings, or officials.\",\"pays_off\":null,\"status\":2},{\"ep\":6,\"turn\":\"Ewan boards a coastal packet under a false name and reaches the supposed capital site, where Ines shows him the ruins and jungle that the promotional maps conceal.\",\"hook_type\":\"ARRIVAL\",\"ends_on\":\"Ines finds a Poyais boundary marker dated three years before Gregor claims he first received the territory.\",\"pays_off\":null,\"status\":4},{\"ep\":7,\"turn\":\"A hurricane strands the settlers, and Ewan chooses to use the official Poyais seal to requisition food from a nearby trading post rather than abandon the families.\",\"hook_type\":\"ACCUSATION\",\"ends_on\":\"The requisition is rejected because the coastal authorities have never recognized Poyais as a country.\",\"pays_off\":null,\"status\":4},{\"ep\":8,\"turn\":\"Ewan gets a survivor convoy to Crownwater Colony, where Edwin Codd publicly records his testimony and confirms that the settlement has no functioning government.\",\"hook_type\":\"RECOGNITION\",\"ends_on\":\"Edwin tells the assembled survivors that Ewan’s certificates are the only documents linking their names to land that does not exist.\",\"pays_off\":\"The first survivors are rescued, and Ewan is publicly acknowledged as the clerk who can identify the forged Poyais papers.\",\"status\":5},{\"ep\":9,\"turn\":\"Back in London, Gregor counters the survivors’ testimony by unveiling a second Poyais bond issue and appointing Ewan’s missing colleague Ada as proof that the administration still functions.\",\"hook_type\":\"REVERSAL\",\"ends_on\":\"Ada appears on the balcony wearing the Green Cross and tells the crowd that Ewan is the traitor who abandoned Poyais.\",\"pays_off\":null,\"status\":6},{\"ep\":10,\"turn\":\"Ewan learns Ada is being held through her father’s debts and breaks into the Poyais office to recover the master ledger connecting every bond, land grant, and recruiting payment.\",\"hook_type\":\"THREAT\",\"ends_on\":\"The ledger contains a payment to Ewan dated two weeks before he was supposedly hired.\",\"pays_off\":null,\"status\":7},{\"ep\":11,\"turn\":\"Ewan confronts Silas before the exchange crowd and forces him to admit that the bonds were sold before the promised loan certificates existed.\",\"hook_type\":\"ULTIMATUM\",\"ends_on\":\"Silas produces a second ledger showing that Cyrus received commission money from both the bank and Gregor’s private account.\",\"pays_off\":\"Silas’s public admission breaks the banker’s claim that the bond issue was independently validated.\",\"status\":7},{\"ep\":12,\"turn\":\"Robert Wilmot offers Ewan protection if he supplies the evidence quietly, but Ewan refuses when he learns the Colonial Office plans to intercept future settlers without warning investors.\",\"hook_type\":\"BETRAYAL\",\"ends_on\":\"The government dispatch ordering the interception names Ewan as the official source, making him liable for every death and every lost investment.\",\"pays_off\":null,\"status\":8},{\"ep\":13,\"turn\":\"At a public creditors’ hearing, Ewan uses the original printing plate, the master ledger, and Ines’s boundary evidence to show that Poyais was assembled in London rather than governed overseas.\",\"hook_type\":\"ACCUSATION\",\"ends_on\":\"The final land certificate submitted as proof of Poyaisian sovereignty is dated April 1834 and carries Gregor’s seal, but its witness signature belongs to a man who died in 1823.\",\"pays_off\":null,\"status\":8},{\"ep\":14,\"turn\":\"Ewan reads the complete ledger before the settlers, creditors, printers, and officials who watched him fail in episode one; Cyrus and Gregor are publicly stripped of authority, Ada is freed, and the surviving families receive a formal register of their actual losses and claims.\",\"hook_type\":\"RECOGNITION\",\"ends_on\":\"On the final page of the 1834 register, Poyais is entered as a fictional state and Ewan Pell is appointed keeper of the surviving settlers’ evidence.\",\"pays_off\":\"The paper country is formally exposed, the public reversal is witnessed by the original community, Ada’s coercion is settled, the bond mechanism is broken, and Ewan’s shame is converted into recognized authority.\",\"status\":9}]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [
+      {
+        "name": null,
+        "parameters": null,
+        "strict": null,
+        "type": "web_search",
+        "description": null,
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ],
+        "search_context_size": "high",
+        "user_location": {
+          "type": "approximate",
+          "city": null,
+          "country": "US",
+          "region": null,
+          "timezone": null
+        }
+      }
+    ],
+    "top_p": 0.98,
+    "background": false,
+    "max_output_tokens": 32000,
+    "max_tool_calls": 4,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": "medium",
+      "generate_summary": null,
+      "summary": null,
+      "context": "all_turns",
+      "mode": "standard"
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "dossier",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "event_id",
+            "title",
+            "one_line_summary",
+            "language",
+            "fantasy",
+            "protagonist",
+            "antagonist",
+            "sources",
+            "timeline",
+            "people",
+            "cast",
+            "adaptability",
+            "clearance",
+            "novelty",
+            "engine",
+            "why_this_works",
+            "fictionalization_map",
+            "season"
+          ],
+          "properties": {
+            "event_id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "one_line_summary": {
+              "type": "string"
+            },
+            "language": {
+              "type": "string",
+              "enum": [
+                "en",
+                "hi-en"
+              ]
+            },
+            "fantasy": {
+              "type": "string",
+              "description": "which promise this season sells, in four words"
+            },
+            "protagonist": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "char_id",
+                "who",
+                "wants",
+                "ashamed_of",
+                "does_not_know_at_start"
+              ],
+              "properties": {
+                "char_id": {
+                  "type": "string"
+                },
+                "who": {
+                  "type": "string"
+                },
+                "wants": {
+                  "type": "string"
+                },
+                "ashamed_of": {
+                  "type": "string"
+                },
+                "does_not_know_at_start": {
+                  "type": "string"
+                }
+              }
+            },
+            "antagonist": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "char_id",
+                "who",
+                "wants_incompatibly"
+              ],
+              "properties": {
+                "char_id": {
+                  "type": "string"
+                },
+                "who": {
+                  "type": "string"
+                },
+                "wants_incompatibly": {
+                  "type": "string"
+                }
+              }
+            },
+            "sources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "every URL actually opened"
+            },
+            "timeline": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "date",
+                  "what_happened",
+                  "confidence",
+                  "source"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "date": {
+                    "type": "string"
+                  },
+                  "what_happened": {
+                    "type": "string"
+                  },
+                  "confidence": {
+                    "type": "string",
+                    "enum": [
+                      "verified",
+                      "reported",
+                      "alleged",
+                      "disputed"
+                    ]
+                  },
+                  "source": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "people": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "name",
+                  "role",
+                  "motive",
+                  "public_or_private",
+                  "living"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "role": {
+                    "type": "string"
+                  },
+                  "motive": {
+                    "type": "string"
+                  },
+                  "public_or_private": {
+                    "type": "string",
+                    "enum": [
+                      "public",
+                      "private"
+                    ]
+                  },
+                  "living": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            },
+            "cast": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "char_id",
+                  "name",
+                  "role",
+                  "want",
+                  "gender",
+                  "age_range",
+                  "maps_to",
+                  "composite"
+                ],
+                "properties": {
+                  "char_id": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "role": {
+                    "type": "string"
+                  },
+                  "want": {
+                    "type": "string"
+                  },
+                  "gender": {
+                    "type": "string",
+                    "enum": [
+                      "female",
+                      "male",
+                      "neutral"
+                    ]
+                  },
+                  "age_range": {
+                    "type": "string",
+                    "enum": [
+                      "child",
+                      "teens",
+                      "20s",
+                      "30s",
+                      "40s",
+                      "50s",
+                      "60s+"
+                    ]
+                  },
+                  "maps_to": {
+                    "type": "string"
+                  },
+                  "composite": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            },
+            "adaptability": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "conflict",
+                "characters",
+                "stakes",
+                "serializability",
+                "resonance",
+                "total"
+              ],
+              "properties": {
+                "conflict": {
+                  "type": "integer"
+                },
+                "characters": {
+                  "type": "integer"
+                },
+                "stakes": {
+                  "type": "integer"
+                },
+                "serializability": {
+                  "type": "integer"
+                },
+                "resonance": {
+                  "type": "integer"
+                },
+                "total": {
+                  "type": "integer"
+                }
+              }
+            },
+            "clearance": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "reasons"
+              ],
+              "properties": {
+                "status": {
+                  "type": "string",
+                  "enum": [
+                    "greenlight",
+                    "fictionalize_first",
+                    "blocked"
+                  ]
+                },
+                "reasons": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "novelty": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "prior_adaptations",
+                "score"
+              ],
+              "properties": {
+                "prior_adaptations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "score": {
+                  "type": "integer"
+                }
+              }
+            },
+            "engine": {
+              "type": "string"
+            },
+            "why_this_works": {
+              "type": "string"
+            },
+            "fictionalization_map": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "real",
+                  "fictional"
+                ],
+                "properties": {
+                  "real": {
+                    "type": "string"
+                  },
+                  "fictional": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "season": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "ep",
+                  "turn",
+                  "hook_type",
+                  "ends_on",
+                  "pays_off",
+                  "status"
+                ],
+                "properties": {
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "turn": {
+                    "type": "string"
+                  },
+                  "hook_type": {
+                    "type": "string",
+                    "enum": [
+                      "REVEAL",
+                      "THREAT",
+                      "ARRIVAL",
+                      "BETRAYAL",
+                      "RECOGNITION",
+                      "DEADLINE",
+                      "REVERSAL",
+                      "ULTIMATUM",
+                      "ACCUSATION",
+                      "DISCOVERY"
+                    ]
+                  },
+                  "ends_on": {
+                    "type": "string"
+                  },
+                  "pays_off": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 27357,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 8979
+      },
+      "output_tokens": 6120,
+      "output_tokens_details": {
+        "reasoning_tokens": 1726
+      },
+      "total_tokens": 33477
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1785008830,
+    "frequency_penalty": 0.0,
+    "moderation": null,
+    "presence_penalty": 0.0,
+    "prompt_cache_retention": "24h",
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 1
+      }
+    }
+  }
+}

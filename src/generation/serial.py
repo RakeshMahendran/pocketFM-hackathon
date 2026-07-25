@@ -212,6 +212,7 @@ def write_season(
     language: str = DEFAULT_LANGUAGE,
     batch_size: int = BATCH_SIZE,
     client: Any = None,
+    on_progress: Any = None,
 ) -> Dict[str, Any]:
     """
     Walk the plan in batches, carrying state forward. Returns the season.
@@ -235,9 +236,21 @@ def write_season(
 
     system = system_prompt(language)
     eps = [e.get("ep") for e in plan if isinstance(e.get("ep"), int)]
+    spans = batches(eps, batch_size)
 
-    for start, end in batches(eps, batch_size):
+    def report(**fields: Any) -> None:
+        """
+        Progress is reported per batch because that is the only granularity that
+        exists — a batch is one call, and nothing comes back until it returns.
+        Claiming per-episode progress inside one would be inventing it.
+        """
+        if on_progress:
+            on_progress(dict(total=len(eps), written=len(scripts),
+                             batches=len(spans), **fields))
+
+    for index, (start, end) in enumerate(spans, start=1):
         log(f"{story_id}: writing episodes {start}-{end}")
+        report(batch=index, from_ep=start, to_ep=end)
         user = build_user_prompt(dossier, start, end, beats, promises, calendar, scripts)
 
         result = call_structured(
@@ -270,6 +283,9 @@ def write_season(
             flags.append(f"ep{start}-{end}: {f}")
         for p in length_problems(written):
             flags.append(f"length — {p}")
+
+        # After the merge, so `written` counts episodes actually in hand.
+        report(batch=index, from_ep=start, to_ep=end)
 
     return {
         "story_id": story_id,
@@ -324,6 +340,55 @@ def load_dossier(event_id: str) -> Dict[str, Any]:
     raise RuntimeError(f"no dossier for {event_id!r}. Available: {known}")
 
 
+def produce(
+    event_id: str,
+    story_id: Optional[str] = None,
+    language: str = DEFAULT_LANGUAGE,
+    batch_size: int = BATCH_SIZE,
+    on_progress: Any = None,
+    client: Any = None,
+) -> Dict[str, Any]:
+    """
+    Write, grade, and only then save. Raises rather than returning a code.
+
+    Separate from `main()` so a caller that wants progress — the console does —
+    can pass a callback without reimplementing the grading and the refusal to
+    persist a broken season.
+    """
+    dossier = load_dossier(event_id)
+    season = write_season(
+        dossier,
+        story_id=story_id or event_id,
+        language=language,
+        batch_size=batch_size,
+        on_progress=on_progress,
+        client=client,
+    )
+
+    # Graded before it is written. A season with fatal problems on disk is worse
+    # than no season: `character_view()` cannot tell a corrupt beat sheet from a
+    # sound one, and neither can the screen built on top of it.
+    fatal, advisory = validate_output(dossier, season["beats"])
+    for note in advisory:
+        log(f"advisory {note}", "warn")
+    for note in season["flags"]:
+        log(f"flag {note}", "warn")
+
+    if fatal:
+        for note in fatal:
+            log(f"FATAL {note}", "error")
+        raise RuntimeError(
+            f"the season was written but failed {len(fatal)} check"
+            f"{'' if len(fatal) == 1 else 's'} and was not saved: {fatal[0]}"
+        )
+
+    story_dir = persist(season, dossier)
+    words = sum(episode_word_count(s) for s in season["scripts"].values())
+    log(f"{season['story_id']}: {len(season['scripts'])} episodes, "
+        f"{len(season['beats'])} beats, {words:,} words -> {story_dir}")
+    return {"season": season, "story_dir": story_dir, "advisory": advisory}
+
+
 def main(argv: Optional[Sequence[str]] = None) -> int:
     parser = argparse.ArgumentParser(
         prog="tasks.py serial",
@@ -341,37 +406,10 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     ensure_dirs()
 
     try:
-        dossier = load_dossier(args.event)
-        season = write_season(
-            dossier,
-            story_id=args.story or args.event,
-            language=args.language,
-            batch_size=args.batch,
-        )
+        produce(args.event, args.story, args.language, args.batch)
     except (RuntimeError, ValueError, KeyError, json.JSONDecodeError) as exc:
         log(str(exc), "error")
         return 1
-
-    # Graded before it is written. A season with fatal problems on disk is worse
-    # than no season: `character_view()` cannot tell a corrupt beat sheet from a
-    # sound one, and neither can the screen built on top of it.
-    fatal, advisory = validate_output(dossier, season["beats"])
-    for note in advisory:
-        log(f"advisory {note}", "warn")
-    for note in season["flags"]:
-        log(f"flag {note}", "warn")
-
-    if fatal:
-        for note in fatal:
-            log(f"FATAL {note}", "error")
-        log("not writing this season — fix the prompt or rerun the failing batch",
-            "error")
-        return 1
-
-    story_dir = persist(season, dossier)
-    words = sum(episode_word_count(s) for s in season["scripts"].values())
-    log(f"{season['story_id']}: {len(season['scripts'])} episodes, "
-        f"{len(season['beats'])} beats, {words:,} words -> {story_dir}")
     return 0
 
 

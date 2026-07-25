@@ -102,17 +102,27 @@ def run(event_id: str, story_id: Optional[str] = None,
         dossier_event = written[-1].get("event_id")
         if not dossier_event:
             raise RuntimeError("the season plan has no event id to write against")
-        write_status(event_id, dossier_event_id=dossier_event)
+        planned = len(written[-1].get("season") or [])
+        write_status(
+            event_id,
+            dossier_event_id=dossier_event,
+            step="writing",
+            label=dict(STEPS)["writing"],
+            # Known as soon as the plan exists, so the screen can say "of 14"
+            # from the moment writing starts rather than counting up blind.
+            total_episodes=planned,
+            progress=None,
+        )
 
-        write_status(event_id, step="writing", label=dict(STEPS)["writing"])
-        log(f"commission {event_id}: writing the episodes")
-        argv = ["--event", dossier_event, "--story", story,
-                "--language", language]
-        if generation.main(argv) != 0:
-            raise RuntimeError(
-                "the scripts could not be written — the season was graded and "
-                "refused, so nothing was saved"
-            )
+        log(f"commission {event_id}: writing {planned} episodes")
+
+        def on_progress(info: Dict[str, Any]) -> None:
+            write_status(event_id, progress=info)
+
+        generation.produce(
+            dossier_event, story_id=story, language=language,
+            on_progress=on_progress,
+        )
 
     except Exception as exc:  # noqa: BLE001 - the message is the product here
         # The reader is an editor watching a progress screen, so the message has

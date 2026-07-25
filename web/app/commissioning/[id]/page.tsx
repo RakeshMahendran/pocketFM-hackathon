@@ -19,9 +19,11 @@ const STEPS = [
 function Step({
   label,
   state,
+  detail,
 }: {
   label: string;
   state: "done" | "current" | "waiting";
+  detail?: string | null;
 }) {
   const mark = state === "done" ? "✓" : state === "current" ? "▸" : "·";
   return (
@@ -44,10 +46,51 @@ function Step({
       >
         {label}
       </span>
-      {state === "current" && (
-        <span className="label ml-auto text-ochre">under way</span>
-      )}
+      <span className="label ml-auto text-right">
+        {detail ?? (state === "current" ? "under way" : "")}
+      </span>
     </li>
+  );
+}
+
+/** Episodes written, not batches — that is what a person is counting. */
+function EpisodeProgress({
+  written,
+  total,
+  fromEp,
+  toEp,
+}: {
+  written: number;
+  total: number;
+  fromEp: number;
+  toEp: number;
+}) {
+  const pct = total > 0 ? Math.round((written / total) * 100) : 0;
+  const span = fromEp === toEp ? `episode ${fromEp}` : `episodes ${fromEp}–${toEp}`;
+
+  return (
+    <div className="mt-8 max-w-2xl">
+      <div className="flex items-baseline justify-between gap-4">
+        <span className="font-serif text-lg">
+          Writing {span}
+        </span>
+        <span className="font-mono text-sm tabular-nums text-muted">
+          {written} of {total} done
+        </span>
+      </div>
+
+      <div className="mt-3 h-1 bg-raised rounded-full overflow-hidden">
+        <div
+          className="h-full bg-ochre transition-[width] duration-500"
+          style={{ width: `${pct}%` }}
+        />
+      </div>
+
+      <p className="mt-3 text-sm text-faint">
+        They come back a few at a time, so the count moves in steps rather than
+        one by one.
+      </p>
+    </div>
   );
 }
 
@@ -102,20 +145,39 @@ export default async function CommissioningPage(
           </p>
 
           <ol className="mt-10 border-t border-rule max-w-2xl">
-            {STEPS.map((s, i) => (
-              <Step
-                key={s.key}
-                label={s.label}
-                state={
-                  done || (stepIndex > -1 && i < stepIndex)
-                    ? "done"
-                    : i === stepIndex && !failed
-                      ? "current"
-                      : "waiting"
-                }
-              />
-            ))}
+            {STEPS.map((s, i) => {
+              const state =
+                done || (stepIndex > -1 && i < stepIndex)
+                  ? "done"
+                  : i === stepIndex && !failed
+                    ? "current"
+                    : "waiting";
+              // The count belongs on the row it describes, so the step and its
+              // progress are read as one thing.
+              const detail =
+                s.key === "writing" && job.totalEpisodes
+                  ? `${job.progress?.written ?? 0} of ${job.totalEpisodes} episodes`
+                  : null;
+              return (
+                <Step key={s.key} label={s.label} state={state} detail={detail} />
+              );
+            })}
           </ol>
+
+          {!done && !failed && job.progress && (
+            <EpisodeProgress
+              written={job.progress.written}
+              total={job.progress.total}
+              fromEp={job.progress.fromEp}
+              toEp={job.progress.toEp}
+            />
+          )}
+
+          {done && job.totalEpisodes && (
+            <p className="mt-8 font-serif text-lg">
+              {job.totalEpisodes} episodes written.
+            </p>
+          )}
 
           {failed && job.error && (
             <div className="mt-8 border-l-2 border-halt/60 pl-4 max-w-2xl">

@@ -35,6 +35,25 @@ export interface Commission {
   error: string | null;
   startedAt: string | null;
   updatedAt: string | null;
+  /** Known once the plan exists, so the screen can say "of 14" from the start. */
+  totalEpisodes: number | null;
+  /**
+   * Per batch, not per episode — a batch is one call and nothing comes back
+   * until it returns, so finer progress than this would be invented.
+   */
+  progress: {
+    written: number;
+    total: number;
+    batch: number;
+    batches: number;
+    fromEp: number;
+    toEp: number;
+  } | null;
+}
+
+function int(v: unknown): number | null {
+  const n = typeof v === "number" ? v : Number(v);
+  return Number.isFinite(n) ? n : null;
 }
 
 function asRecord(v: unknown): Record<string, unknown> {
@@ -68,7 +87,25 @@ export async function readCommission(eventId: string): Promise<Commission | null
 
   const r = asRecord(parsed);
   const state = str(r.state);
+
+  const p = asRecord(r.progress);
+  const written = int(p.written);
+  const total = int(p.total);
+  const progress =
+    written !== null && total !== null
+      ? {
+          written,
+          total,
+          batch: int(p.batch) ?? 0,
+          batches: int(p.batches) ?? 0,
+          fromEp: int(p.from_ep) ?? 0,
+          toEp: int(p.to_ep) ?? 0,
+        }
+      : null;
+
   return {
+    totalEpisodes: int(r.total_episodes),
+    progress,
     eventId,
     storyId: str(r.story_id),
     dossierEventId: str(r.dossier_event_id),

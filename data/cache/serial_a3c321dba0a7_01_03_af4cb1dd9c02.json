@@ -1,0 +1,407 @@
+{
+  "stage": "serial_a3c321dba0a7_01_03",
+  "saved_at": "2026-07-25T19:50:02.394064+00:00",
+  "response": {
+    "id": "resp_017f3b2a2946d808006a6512c082f481949aaeb10c1f4f3780",
+    "created_at": 1785008832.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_017f3b2a2946d808006a6512c121b48194900155d4b0704258",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRNqIr8zqZ_ZemwOv8vymbT1KCrpBhRvfWOvewrGj7lFpyJe-On0qfr7oYnO__fTfi4DGpz4BfbJDUpDSUO809YbL5L7w4gAIVKYUEVRO4YMM0c42zrwc92uI49CtVfeu30lkbyb_gIXUYsoNjLUKlIxBOBXoEESvtr9iKt0ngcI5hatFa3Qv6cU48qX1HwoOBcpnO2_yV_aPd3UphU4tmrt5eiHlsfIEPkhzn4f7StR7N2FGxb6GZ3rsR1LLqAkqSx7bTdNqjkoBMy61xRNKFfLBYpDGRV9r-wRUc-TPKAAmlU2zEDbyC2INUhVxjp-LudJmG71N4fPbV8XejmGgVpKo2lsVlPKMWFD8rL-1kkWZq7uiJnaN6llmjJzPX5CLO9FD-zoz4MZpn8-aobwRBG9FyszDkIyEfutrSq3BkKc5IWIgecMm5soFQjObm3fHQpi5zqZLM2KDFzJqbvH5bkuk-Zui8AXhbmIcJWWd0dhH4CfB1FMWrhgU3PeR43vwGgzuHH3bHLRncQ_7rsT0wuORGVhuzdQgEUIpwdwNn3cY7KWICcZSWYIHyx_HpdHQGKkIeTPQqvEZBchGpeHWIwkwn9hkUvWY0Ryo9xbBKlD3qg944Hhf6jIarwhOm88jZBA5qoIeVK3cWWFebcBvteAyrogKz1GsJMATi3hSqsuKpfu0jWrqumtBm-LaZ07xHv5ggvXz9icbOCNyWub06dVma--m8tS82qa3gkvvcCOvsKIusF4_WMu8z8BvgNmJVdsfpiSzEr5Ds3R2seqSAPQO_PKwL6JqdQhGqBHilJrusNJAKfia7Y7w3KsRBWqWFEaYJ3MfstmWRzpTucfXrL8rftbpNqc7x3SZ5X8E_Kwu6Bdkg-ZlJXZRjytrppg3MB6i4Gp43n9hqRtAqAWKccD6physAvVnF2CJhCc36UReKzaHj493KuR19uBfqIhW89ZclSsJdd0IAAXYcRRkP2eu78WarzF__22CEFlvQewqbjm8pLNdkINTd8wF-AV6SUO0vMJuWPlxaVJx2vX6GhejYTyLFGPAyy51_tjmZI56a0nt9G7TRGyejgNqpkbiSJTwQf2EC7arNDMR6uNkTiZOA4sg0v6fX88gERaQcbA36cnS3ZKSUwGrwbZreFO2wNF_BuZzo4sfOKF5Zi3I5LvNpao4dc3uKJQ1SkLAGrrOg0e0pypwyD8gy7aN8UDEMJv128jfoDeZzoSXCK0aiP-vpBBOupyW4PR6nycaZH1kXYqyTBRqAxhAHDetEwKjbJcC1wIdhoyo6eGsvwgEb6sThSua1UoFE_Zoyry0M2TQmSIRbHZiM3zJDQ6ZOep967p3oIh3fnSomq1tQET5XDYDYJ4lUw4cIzrM1v7erolMPDaSxYoD7VpUExfI3Vn-tDZTSyD0lGqk4-SvPgXQ-QVtsIaDPYK1zz7usH7yCXGChWRzwyDHmJJbKJOfKzwdIUGdMTzTER57tlGnKnm1ugKNNzJ5See2lahSxnDi6cbiMqNfriQK-R7oP9RGGuOPjNKsRCFGo74Ic4O6icS8DZ7b18lryEQ5nny5XlSwiO8x-MElu3XLX_t9PJRaARZIqBOgTVhm0_2IMtoKJ2xZX4CIX8flp9nDnFG-VRxJN8fguNcvtC7_I3HWk3nHA_F77-Jj1rNa3W-xaZOjTaXW3VxWAiEjT-jrM-ery-qvNZ26EYuFpAf7IoqYsCMx0BZTkJlZT0Ck6B5U7uO9yGpq6PyZtho9wLYn0jCt3fkhyT4uIly_eXQ_jxQpok50tdsSri9-DJaWqE8CnkwgjKv3q-FTy0aAdtGTak5MNrPKW7SkokaX38Bkz4eUneYPBFfdpQg9d2z3q9ru54VbWI9fsVQg2mpi8JqtawHJgwZeoC2v_tzkVQ4R83pTtOTi9Zv7cj-s4cyFZJs8veLCtoknfUIznK9nBFED9YGsnICas43uDhzwzDGWoj91N0qY3-1wQl_UytW1ZBS6mt0VCo9pOWyou5ZTIRpLBXI_MhUWgIzq1pPGa1VAdKBvSjVpUwvU1rvh3Id-1_mQa4bh7yPs8IvpQEgutg3VndksEA8mnRH3g80t3_ANefs06Up_2vVFSdAVVFnPNcUXbZPN20hBTqHIrqVZU_qewHPxkXV-vwWEb9b0UiWoPD7f7naAZkP_w1H_jzusQikDxrMvJbzao-dg9ofs728QL9MgqQmSQ6NdsRGrGOFgirAgOxEpp1NzLr7acZHi1OXGU5HUVNRiBSZASHvE3AGcJ-uXnQwolnQmmxOUSqaWOniNw7stehK3UFw3Pb3zLdnSPkmbvoCbPymNPAl8tbEfZ6bxMR5W-qQOHUJgm6NhcoNqkLyjNa7c7ZjH2L9jqb5gwxYZYM-GUmNtFjhFIrJqkWZUQrnjB9y0o3yOivCL_woZN2UD57_9DI9YhfhscegyW1mphJSU6LxjANvwlIKZnOspDq28s0wlpgz-extKhIh6MGRBnsGMV9a1zT-D1-LecIvMbjkjSo7-Xnq1-LlUBgOx4Do8fx6OtnmfpgeVen3WWi8v5j_deT8lSSnhzSpqtcrjvd9t3DbS8S0zE-9sY4RRi3MDw-2XkuZJzZ90gjOm8XBq9SJRqiCJELRrID1HRpW67lg-XGkggEUnDv1U76tnsPcM4BmbTIQAu8Yvl0zqvOTPu0QzUr-yQW_TKHeUsz3cJDX4BV-i-rjO6pdaipX4zfIQfMr9XPwdU8MM8Wa9qaF_4S7m8wqEumXiAY7RCY2VDTw_ELT8NqXj6L-tLvV2_U4J_ekevCQxXhOnurMCcYNpyQZsYjfJ4K5UNwLwKrUYyjenzFWoLhD09UQsKGSLiQ5386fakLGVjNDFc0XryYLuFa5IO7Zye5FddueKSES_MKVSPbpEym-JJyWNrDeIgnpkFp85kwZtNYGcQ8USyCWShxrVx71r11qYxzw0IK1nqzi2KdXbCx1PFM9CW99imN5AajkSPqyosdNzv-OclRyk54JYMzI0hJ2F_AYj-gLYyxF8lq4tNyTMUTox2ld1-aZTdnQA0DDl7eYdPBDhoAkFVNvLTHpoLc7iYtwvItNOYpEMJDVDJvXvABs5bmNNdXi5gE3cKQMjK7qNReP_yq80faxntoHFpSDdlln9NlroMD5KzEGjgFTdNVpxh-EmpVZM7JfQSRXsuq6p6addEsm_0bqCoaUNjLcPMxT6VLv_S5ktwPOwobmxwMuazIX0Qfkn6l_v3qcYn6FuJsRElBfX56wp3hW73-WdlFmN_9XqH9UjZc9s5y2QBPevNwAl2Rj0kP3BPXljdVvEHHMRnN3Vq_ALCZHttXejFjqxTQRi_1lHpfGMM64Iv-HTVei55YES9JsxWpYu6DHwC5NzM0k0dUDXar93UOiCq2IflE2BF4JRPW0SpAsmM9h0Q94tg-2SmABI62Ww07o47s8QoNgbYCu3PlI-Wbx9d8wQciVfTFoN5ckI2rdv2-yrTV1vydHbS2afF2XEbQBCIxrSp0bOaB5vSzirUg7LGWkdGYAAbpCw0uxs8JnhBI0PBEnPuxNVPf840lGGvVh9emA_ZtSr77ARdBkxUDxOoOp4lojg6gx832jPmxIS6IagWCDWo_djnPgkym-1ZTDPuo-mT36jvopSBjdW5vNk52U7jGRHfCaaoFZ20J1JeakwZxN3eHHFMQk0LVrwn5-dT3AMcRkAJRuoHqAG7SzxhHqsHiCAHLbYkUk1QVMAXj0hCOzTZmHPSOH9DhzXlysoiYhYJmb-ETjCPKj4guLp2gs7R4CmDWyjEeietktRHO56Sfk6270g8pxILgxY7xBDs5eDZ-1dMc2pDHpvzI9BsZ5_53EsU5GWo9dvG3C90idw3zr8Q1T3QPWhag8cim0OscHYp_cqjVOBz5yGk5pqreg24QtxAN8Go_so3-yXtuj-PuUeoyyafweUf8xVSyJPv3Zdl_oYgSNNKYMPYCG8krkTYc0yCdxuhVkyhzNNDlNF25YWlqQ0_g2dafLPRPWRWEn8ThE1WJtJmkY-mxGuj-pEZmCjo20JD5iFlQ6cpxf6MYmsgwWfv5DGSuWlMTupFpnlyFMC9k61lAnrWGrHVbBq1UlxiSMzgGRcUSb_QjK94S4hMBM2b9WLbFD2eTjrnxqeYaPnyubIpjL",
+        "status": null
+      },
+      {
+        "id": "rs_017f3b2a2946d808006a6512cc25e08194826a2e485dbba8ba",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRNqVD86ArVFWNnux4f6lBWjkFogyipPTP4DbpFR7Zo5tE4CKbdvtkwtZPFkIO2lwA0aQEitC6feSDgU-Afa678RWHsszo5bZ_omh5GwvytWJlZpy6VVWuKpG6YYSkUSLro9LiswVui4_97E52osB0sJ_grj6VtI0Alh-eRiLGHui1RbdsIpZlAKlGWYbKsE_6w3EvS0R3TzabjF3bHi9c3M0KFC84z8FMWGxRl_QU2X843R1v8khlKoFdY4_naK4uWEcIYuzaLnI-yI6QgEpvIs0WGtsGRyuFoOtqusazAwl7YoUf-lOI3klmbfzKWyG9SyyPPGdTzfkRo9yUTTYqqXT1C2Tw-SWogtrYrJgoLATjILLCnrctt4iDNjsiy-K8IMrPZDSbOQEQOIQE948-_tSa40NC0AfUwg_YPDhv-qfX6TAQTLfThp5jJGgPSgT05KJP93jhL1PE8EItCBO4mdyq_zyiGQIU53wCUH1NMtmg5vsOzeY_pfYj2e5YcbDanf6p2hBZRhdLppeAZKUakxtkwNXoK5OYbF0F6RVqAiH77oOGErIvvOono0s1UdPEhC1v5_2YvDuBB4lsAHMWvTdeKc8AYZlDFrxjpfP1uHzl2Gvco5mWHojhpdqxCnrJ9qS17cI6QBtNqltS_fTPHA993I1U3diwppJoKAOzKr_o6ewID6LHT7QObg-w0FVIZGK7nljfxs6cS980uiW-Zc9BXjIa_Coy1Qx-Bc5fELpCgNIJ8q20rMJ10qGtNLJEOm0-aCUKp0c1zzivUSzG1Im900rXbeaZi7SMB65VpmqINk14zZEOmOn5tLU1UgClQM3noN7UbTD3xHRR_xCmjxI8vPcPBoZKY1xP-S5XIts7UxXy4fr3DEC9pWcFRnUbhrN9rjQ-ZauS8NsvNJK_ind9fOouckSwJHbvsdd-DIe7Gs_OBGwavgbf5yeRl15ZlB06cwL16eWUkC_ErpB94yTze8ES0n7bXLInVRiSvWsPm4J8hxfFD3diUDrkV9Bd1iVnhJIBsBdTQaZyGFXet5bW4BA4_keMForn1L7aRlM59PBD33afz9N5zRuvIwj9bc2rKOHyG1ssgGDknjZdwzCIE5N4AJ3ZjsJckD142_M8ShQtf0i4lcetyyyDqEPi0jrUjqFylYp6pNAY3kqG11zHcoW4QBDGP3FqxQ5Pv-ipDeoIh9DAhodYxRB947XMN_7b_t_AR4DIuhrnINwbYmTFq0guCySVszc6JL0OXX6UvWb9BypICon3P-0rFvwn0CROBBI3wijNd9VU3N0SZGSTy-MuLw5378-jiKNJOvvAR2dhgg7Oe2zcJrgd1byr1MFhT30VqucJxirc_hzMZD7TYB5q5wiuAzWQ0obQ98MnM_SsjsBrAkBjp0zOl5WHwIe58zfxSXoIduyABu42UDHxUZ-IawTiZSDJEUcAWVf6mjVHBmiYSLFFr-pX2piSOnZbZIc3AjUVEG54Qf01-vA2PFEzwuBtxWd7I3JLBGeIwvwoxaUfFSQjkJ0dsP8VINj-81FwkiroJsFKGyuxUrBpj0fHT8g8YRuPN9GqKeA1-wU7h_OS_EQQtQx7_-DniXrhosYZ74z04H2a4wPITOfV0O7B19gblIVh0leaff8G34glywOwGmoDfB0sZCP5WuQ8x1Ks2UhT9FBXYcdv-NKF2rT08kEjIU7s9dD6c-_VtaK7fSlf8Z8ktjVjYC7O7yMSlIIM5vimK5QiZZHOaM8_9jt8wzaj3xYd4vd_VRNodYKnVIZFIAKOw6Etme2Rz0w5uOwU91nvsIggrRjNckISI8mrc3k3nhFauB7ckPyn-y10dyxpbweMdo1MtmVxN3DLIdiAvJAP4BsHVoYDwWcZeKJtac9NAdz6_8KwJ7cO42SiZ3DRr3T5Ny-8XSimhVcT6k3J-mZhqyK8nO8mNj5HbjES52KelVmjtOloTJ81iJkg33m5IGC9F_nLf6V90flBMII2grnpbcTJy-w4nax-ifRis_QCeSDKWrn0DngYxqirN6Q1h-fYTFiH0zDt2q3mM4UxkAphPiHEONwc_JJZn-Tf1QVt6u67rmJsIAlBleeuJvcDeYb9FTyBbAwglwZf5xqjUDVYqiRnhY2KNqCoo87BuRVheBg6scsAUTy5DVmcAJHGT1Atxe708Te1hN4OqnKJLtoQkI5nIK2DBHy1vcSAhBVgVUElgf380oXA1MFIpZ1HCLTFZ4ToZxnlHMKkJujWecD61HtLavp8Gf0DfotKoDEFHdflw80ES7bJK4oi2yrCT6il8SAL0zAR6hfOS47Jprh2QywWdkCVhOshWNpl1jpfsn_1iqQFNt928JArL13MFpusQF1-rBid6b0qnnJ_MWaF4GObtvddJyk6VcWmzzXEoqu0mxZ4A0HskPcbsFSs9P0X31ScB7Bibe2XNRBMAM8FoqQwO_kYe4Vv3CVWiuTfJaDUSOCoGTBIm_Qmn8Stx9XR4VqsweEkqR1VqXQQUUQCT6iopRk0j3INX-lxi4U641d3vOD0xhg3iczhLRK8YlgGkYojZJEaj2XPBde-s32rrst29Nk7AAbnkmtem2VDlphlZ6DaaylPvfOgxS5zayHlCWDl3pLrxUi96u0JKOMRCSG-K2yfFcLBUZ54Z8TzmfbkY6afTd4UGBbxXS_EW9NZ0v3QKNEsk2oZikyD56WTeBu5JIQ1Igl1-aRjgihIu5E0Sna_nlzQNDn0b0-6ol4i_Dbt37mjpB_Gw2Ncnrz7WTScp6wWcSj5vIXZCYjgirrriNe31_UR1sohjVgVl7jKwJinOmukURTNlDMm2pJAsy9tkKTtOh19yDlmgMjDiKSBwi-wflgq9gd-l3CnEt63p5dLzx1yitUFieGggBb0N4eW4h00Mf_q0KgqpiPZ7sYWzws73GYG9vu8AqKmn3IpGkA1zEVY9AAr6dQpISj8M2V97lHFUNXMepUCxaSCW4T3clE0mZYBbZGugDO4x0bweUeUfomta-8cigZFAdKxCDAe0__mog4pEwnhHdV-S5P2XH24NTAVG1dH42Yq9SQUlV4KvWUYSYtORdBQfYipywsaInNy-RxthM64KMHiOWljwl2AmDo3-WxLqyiS2WAYvKHeHLGW36gzA6LCf7Xh0O-SWk7k5jU8wi4ayBnO63HHVzAt1WzoBSAjdTO72p-XNLIqmNNMZzFs03Crvkr5jUmWkDYXFnUuwH6v4ehypEvzfZBXIrmeo9g9ont8NdtSsBEuaTF_cOCo9dAjy5YbP-EAktezU32kiiS5juFMiRPNRPOOYYcpesxWn-sXJtTPRB5nnPECyVfB-6gpf5-IInpZ4-2fzkpPm2__0fo883z2E-ehognflZtMXqSUowwfKPXdfgqnCHqeR9kTj4t9g1qjsZVHBqKSAZhH6hUnexZk83BRuqIL095c5ktnPYAui11AIaz73OAuK-e7lcMjZvyc5jGRtBNVhKpBC4cql48Btoy9nGykKcOUs9jHFyC4o9DKh1ozS6nyGy8TEtezUuxoDXLR0uzCGcwg8UeutdjqS3MkwjAHBQDMsDHDe1OyUvNrB_HeY0CSGM7lVSxAYK-3zNy5DSzgpR57dCM5YFNY2lUBQFz8GpopZya6dpZvUO20hXZF_RYt7ZKsBJAjfQZIiS8W1qQFO1FIUkOKAI7tV4pN0BrY7LC4hgovl7xkiHnlxM1z1hZVDvT0AyDgWnnXVPy7nvD824IzX55VUuyQ_cxtnkbiTpKg4apXEUmGv8lW-eRThuehX55GMWlf9iZfHFdcLHzVeYzkzwIsj-ZdgjcN_v165ulSSjFJFCFutKgMJTZX50g-faVRam5PQB99vU3UDSlRuBTLARxpfDtxfZOtQOUCwquHIk-6oo3yBfEzQL3nPzoIpDxxnTVgFoCiaHDovQ5b8gzgghSRK408Q8VhVbBzFdPLpzuAJHXwYURGjr8fzddbT7nLPlYIsvByZzaEqo3XPu6bzhF43dJiedKkblWHk=",
+        "status": null
+      },
+      {
+        "id": "rs_017f3b2a2946d808006a6512d68c988194a85dfaf84afe2c25",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRNqyClNgNBx4XgGBr3hoU0jjAf9uvVar86xHB1aXC9zEaR_mUlc2Lx2nTwv-yNBn9RMMgVqNZqJEOcUINXJQ-D7wW_JEymYJUazp4g4ng7L2ufjVODafUVkACAi-vEVLQV972krLtRBAfcjWb_Hm_fFVw_THj3YD_QIrIlnETDaN0T1iQ14lLM5c2_c2Ih3h6WLsnt7psj699wvXuXgR1xg-QhcSti0oNaWhpt8la7hNM7swBdsJMSGpl-0pSfEihNgFOVtaf7xD5YPKZn9z1iO_cV8TJ3dFspqee-G2UKbxbsCeQSfmo0DSH3LrmnHdvuZQZurTJrlUHS9uaQNXIpMewtq2sWyn0Ndj4DqKDa5Ek046D0pRpe5QV3Drj7HaC2dz2Flw-ARS7K7G_sWx57ODdO1dbTB_XSxRuL0qs85uaEA_YpjNQYTzuiVPhUQ-0xr83iN7kgRD-sLCzQ0liflBzuiVUSOUOfp93TrvIM8NTeH4_Shh4CAl3P2TqnBDl-tq_2qrxZLwNiK2iEoPH8n-DqJOaNy4JrwGIS7YJb84fstv1OI1vxuj7EsPeXwZxqliFQdwxKer1tuAMloHEAzXl-N4W9Rqk8ZYDkBAMlxfaFjFf04eTw_h1aYES7JXj73CVt4BYKaZHk_wKQRan8oDjtdZ6PyBcJmiepfR_ffeqBGNi8TG-NGXZHdhSo3egdO_zesER8nnoWkKV2fgVJ7nBAN8xY_AUn0QkwAoH7rWTy3wJNRYDpcBjgEM182iJ1dVcSaQdNkjfpT2KxNlFc0XURbCBrW6DXsW5BzJFSb6n7Vz262aVaqGkvU-rz3dA65d7-mFNiZgLBbTKRLjzMgpJ6X-p1dfbz5XMipwhaZR6R9PMAR7DyXQEbt0yfMbrMgO1BDdOjonG1j29MYF496kKEMa7OakrkJd5EniV_NjoUc6evsKiZ2F9ESyIUzmAlKPPsIrPXhA6eL-LFB0DBKOimxThSHs5ouHrENyNPLsX6iryt-BbH1zr3wD7dzGuNGPF48FzA6rcUAJm6lCZNdi0qOmRvSFhBuNbbyni8YVEcP147puEOE_EGiyaGDaJcFcfaJSJQtRmjxFNgBepYE5FLPUpaCE0fOlRtBdkDSW1ckiesHg2hBGHBaozVvV6Nv_TimeLNvwoK_SkJZaT3_LHBlV5Yt2tv9F47LH4mIF8c6NTDVv-IbNGxbQCI6Ce-h1tPXZ3jcb9cdBpmqI4FQyKNTgWHGo1To9sFFtGDKDs0YWMsEX11ZshwSczZB6zUf2ndocIzRpdVlPqfDtxyJpF6trpr94buWIa0tBFRg8dxSrJ977g9fke2DB2-faJiw4OmMid285l4IibJLKMxKqKT3I34mp43J_oC65rgHe4gaD8fhGKyBRS7qdmQxi9buzF4I6eqDyJk0dV-ZM3wTe9MxpTTkgp0BwpQvpS45IJTnRZ5efz5Q6rnV-G5asDmYtPJxpH4X5W1FdhYG-TKen3yetKK6n1iPaV3UiXVr945PhhsQ_9GaEKZ7F_jzveSb5zqmQFhjuW6ZCpXPAfje2gg8c9RvOta23uCRvussCLFpOsfdkjNQhRH02c7MW8XrlYahJqRe95v4CROuu2UdNZM4O7RLcSMt2u5VVtQ20YG1IHmC3BUvZyt_6M9oruR4I5BGmd-Sj9vqqSuIjmwm0ExFO7-78SEQNNsYks6Ffbz57SsYOVh7hhpja1auUP2kssrgVRDW7ZbtkiufeUlM0xpJ_u2CsGe6gTN_-2jU8FtOL-d4kvgiS3URnEqn6Fa0WsmEXvxZYDzNAc8nwwmJsswd3rk_TNxTRaNUfvqVFMc3ZPGUOFZL2IfUu3wNJVypvlxkQX565NV5u1RikZCUArm2q3JvXt_qcIixfl86PpfjFihezyUVzFHhW1jhBlnuut4ptXkcBZMYAIrSmEbq3QhzC1g2jNjRDeLnsnijluylRUdOy2rasoPMlXdemrMXTa4_LmM2ErVAXCEkRIREOLHFXN0Bd0_lxyKEZ5B_xdHJJ65iVlOdyqAS6Ipd97zNMNO6Sj3zw0A57CwFnvNvj6U1FoShgGnglahC5bSfgpt98Na3NIuZKpnaHq_eCQ8E6uF5gJ69VMXL1W3Y6NQ5qeK3FBCgfmuBAu1_92pxhf_QUdVKxz2Kjomut-Fltfh2Q03MT4aE8yv0ocpf_6TPNQzTKH49mC63jOqztF0qV-tKZ3gMSM51WTHuMILdaqLpTrw7l9PGqa1_66e8xWPGH4_qb4IbqrkwGHF7AFuSMS5V23dDFd9Fy2zeLjPUVa7xkxns7uFylt3xpmX_ohYF4NaZEyWyxrNiWUF7KVOd13PdCl_znM3y-CBPA-V6DI_4CmE2xGh54MsAn9oZ2Ci2zYOVKT302w_wiI0sSSjcVVI8_D6_R4uGZeAdq_deRhOR_4MueG2e1AS0vefGOEkyhX56QbUPfDK-tNOTtP7jyRRk2H1YjINWlMnPFUCjvqF6qUDxbXJsPGCoVgZV1CdnuoMVnZLeY45z_cXu50hJEfbTPqf-pEXNBrUUlrg_Zsyb-R00I0V751G_VH5Okql21BbkQ6QhVwsaYa4OvaSrc41vh0HhkJcvvrj4ZXBRslQVY_N1Mb8Dh48wq_E16a2xn78a1N0Yf96CChUcix-EajUL42RRpvgZ8KVto9DGKnlpLxHAjkU1QWD4YxbOYZioEbkBmZPSHPf0rqD2DpCESu3lwpWUn5Uyu9QF1XHuFIByWFtf7g6D3b-DChN-LWWRFimyB28-3Jm_UDgRnWkPxPyAFCoW0xD9Ylk_8ouYQa-8GR02mM7a60eQq0igTxNKxjSHsF2TB_QyhnVdZt0iOsiz-GVMSUU5-MU_raDkoJfNZboEurqU0ndLUSvuSFCrdgVbLDCk1il3TEDBLCABIZ-CVx5Jth2nNERZJbf6hw8FWyp2tTGI8xBvUs8VfPhCESoQeCp33DvFbJEFqSq6l7QRb8VuuF_vzKloEz1jpfM1rZz5cOS39kLsKPRSRwWyKIJaAFkQql7wjtbWByMuHQ07JfFRe62Vwsht7JRAGAYwxkgB6YopmUq2sFUaxW0N-tfsuLUSIrTO-it4TM1cTTtvJ-6Lh3R4c9XyVonXGoy6OZf8nxu27rNp2zKszBt8UUK0cOvgg6iyxW4NwwMt-yPDAcaEPEKQGuyaUmzl673obWic1_WOH6KUwpk_eRnDpUtBF8yuZ9OABK6drXRwjy4OL6i8AZX1yT9UVmEbl33C-spPsCe7322KUMrC4SHks9Pivmq0h9bx10SnMVzI52Lgbzl65PwO8GHRETAUQN6KitL5hd2Be6hxa3DNEzm62NdYIhAxVtPul5yIW4zfgTgWChTkO_-qjwikuc4iYLNOWlaqHtKbCv2o6gNV-1fykri71FmB0XW7S4DpYKtR4oRTfgJaw3dey2-KONQlc4jGD0CQGXZVHXEIBgqpXh2PSIh7ojIIZfkCA0X1hJKCERvZS_dSPJqL5356Mmva_UQnM_ivSV7AtxvMs0MAxQX-mF0k3rUyp2Jqxh9f73XOCAi2skem1K-esc87luoCenytQArwObxg94vZjpxzS0_qMkVShU3EqiBpGCgI6Zgjsev0P5l4E1F0q9NTZPth6uUFToQvtTuJNZwSR9SbjGYhLB6DaZT-CH48m3NzutcYa53wGWXFQUSINyoYXzHUnp6_VNgGrSoZlaoz9hvquEFkTFh6nTcEyqISULLSwhCyAuk=",
+        "status": null
+      },
+      {
+        "id": "rs_017f3b2a2946d808006a6512de58e881949a51a271f2f42e92",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRNqJyPRxIrHB5jjmdUj8veR0pbGDvHhxhL5hDdploVtVElCgZsOOQaFYYFGOkQ89aKML_dgyJORQhLZgo65JcQNuj6ub6UB1zMF9vtUKf_7f7B6Md0qkNdXQNfEmjfh6Ac4NbkxBR7lyQg4tL_Z2qqgKWblLx43KqnU-ycPT82j1PZQjux5ixpkbC74NdrwUIqH_qY8JSP2U7FYaw0ZER8_vEeVCuYxPPFHc3_fae5OzUKxXK3D_oOejx4h_23wk3_r6T3yYUAHBUUzZCo6DSHel3Nz3X8zaOSFmQQirbagO2aQ6o-Gk_DEM8Y3crNHNFBLd5kqrIa6J_TuWX1wjNyQZ6lzKeotw1waWr4dkkwX8PgGQ7PaG_kZTcsSsmKkVtsm_zn34_CH698VI30EJdzVPRpgNZH6-DYg_dUIr7dZvcvkcltAM3C4c-00ba1t06K63QO1tbiYNxGEJYvVTAgZ5HLBYThpYt5H5EBOPj9Q_XmlfmrFvvnU2jM0H9CM0HV0VtXqJ0BoRS9pPDeAWW3w8719Ue_UjIVsqcQHmXmNUoItu56HygRPARDAc_5xjeJV_AIYJTpElZTdcmHJyU9U4gKze1IY6pkIOIhAutWsdjBaTZEI1IorXhxQBm3yZQ_WjJeZHAr8243NgL3S12NCKcBy_tG2IYeHFnA37MZt-DmMINePlDHy0P7QOXF21EDhpNxJ2ZcYjYSjliH-zL_7H8pdjkPW4-_vxsyZK5xeCbQQQE4A3DVYNdUowwKh7EcexKLJ6YqTtQPXOX4gkOefqB3lpa0xs696bYW3CdbHpPwr29bs2r5mkiB4qRRyO6VPcJlo2_BmWzjZOV7QoqM1p4zbVzb7P5wbIXSzgVGSP2gzvcGQNeNp42-MjgD9aU8lqyQ6Kr_C7Q6i31UCtWhG-5ODkF_B87R4HeB3J04sqjQeJfQBzdK5x0ZH4GYWRUZsqzqU8Kwn3qFB3ktKsmPtyRn_mnlPjOqsIsMAVee52zDa8dfU6tRKgnEZ2ZIScarVJW0X4bcplmPUhTufiI88wmBBc3VPSvnoWcfyYFyAAF-55VuRmV-ccCCkJH0FIluLwzarO26Iv-HBobqnBoe7xLJNscy5NwUOr3Jls6plecOzcJDM0Wblr1THREEsCI13PQFdL1_ILMUYswMzkDNTrU1uUfQ90HleAf4DiE2F4R8SwPCBeK8bPgzMj6MgubrYI9z-t73sDTzIJmvw8EA_Aia_gbGO8fd28LEiC-TiiaOVn0wxIhfi-3NVQ94Hx8SbX9kPPnGQqybY90xL4_DndBacxieCKBd5RycEAKmXY2wuLJCbAJjK8N0PiTFYCBcqFnmK4wI9EQVXHNYYHLCD0pWC9RKz2mAgPwnqMpxXOCNAu1YaAXewyhZ5R_IFK18Cc1t1Z8Wa8cpTvSUHDDrU73OwJXWsKMfFeX9UE1Jp6hlSFS_UBpPu5kMJDiRmbsrkE76EuQX4PnVgfiXv6utfq4_C3T7PDQYhVX1jbi-_0jcRND-R5uXNDDChOubp89AeKH4hL29q8OBr-xGTpFb6ZwDJXb7M4KAS6Jg0bQ3gVXlOWCYTaD2wri7D4ojk_vkdcWS0_2AqE4BUoSEDQt9OlTKs3zjm4xmzVfgrh6v5sA42XXCwPyRXzRbAMM6vg87EAHiax9BnVT02vjZRCjsNqSp6WzE0I414vb4USENnPynYZNMEdNS7w9R42QygsGxoUtxa-s04fh3qbaHi6V4ILD4mVcZdabvDujm0XElQFYLMXK46lK9BFBVNGpo3RtfQPjLQs-Gx6H0SFj_QBYNqEBvrA2RP-5hbqRAXuEK4jATVf0_5rxykMOU2vmNoQJhMLpW_5qQoHCnkrnzUhAR7Qd6MNeiSj9OYtSaGzObvBt6SCRPFrw2yxPUw-K_MiJLWifIxA9y0RnaQqO4jARjonKnUWcIQkyzxYZDDtbC2YK82FMKAst8NSxrJvZKVVEZgu6PhP1Dw-IRBhvGhr2D29gDCEQKMnmFDh6-5zpgQXkPPfIcBqX4sVe-EUzNq4Fqx2ixze0z3HoMOHtEnfzhRkO9XioZMt-w5OJdnV4XjxnRSuxLgrf9Hnh0xwgUPHvhg5OH9oNYHKa6Wv5aclAGM23gkV6YxiChMcx3SI1wQ_c_y3s4fdVtQEY0FcSVBCvR1f_JR4-9VEBrG2i_w5-Pvpm4bESc9B3oS7Qc6f0YKeAwR3MbtohEV_TUDjaPLBNanO88LvsS-u-VY28HcieMieuoMb6O4rghcWSyqr8NdASmvS1fZ8EC9DgIE5ev_lItRgAZ7DZY0peQ7z6znox6-_eUQ9BK7rDLMg2hh-fWnxDcz1KRdwDU-J1SO-dOnMYE6r7xDvftBuzeZGcJ_f9x1kScuVW7PxuXpTl4ygU7x3iXGkUjGe4l2l45ZXepUYFGo_ac6OLbhjq0sZVf_VWuN6whCmLzmPgGLR0HaoJrozu_LA9VvNtjrnirpFq1LfODC8pC-MxvJXkTIxL_GNN2HLJBFtSMxtPq596a0BKeWeoicvskDFgBo2YmP8CPDv_V97JRetaOlPwG2T1ycNIOM2qa0xNN3HPvMN60J1HO2CkA1sI-JT9qKlnA8H95rbNnBZR76E_iCoM400T-UKcKOBJemZxwVDuZtC8UhZCjgJRlCtV2bn5n-APuHTjQex8jfykn_sJepUxCN_qErjt9RMbproKjaZGYvkkaFPZX_BfALSh99STQqpMl5iN-kNvlGfJDqpudI4nPt8dWFwDNzaqgHgt4QAAow2GYHkmLiUy__tWoj1tuJI3QPtdTsnxOGiQMm9gaLPD6x3wrkZI8g5t3zSpSLb3lVIuNyNfrA_ezMZgFgqs7qbxEqlvfY5XI-esylvPRj0n1IaJtjiCBC90o346PR6vs0un_5DgJFeKZnPxJnJLRA5TSDVB6XaqFpWCBpTFckJZM8YK52JSrI0ITx6jCGfdTKBjoq0Rt2Wjg9718l6vDQEeDra2tUF5hNIZ_cfS9nlKZCulPrBD5WGQg8082d7KU--w-N8PuxFXEEGBI0tbRYGC_yvXkHET4F5KXXtbcX4OoK9doQzfwAJtcT0a5eWRjqIhWPo1f_jxa__jcLuhy_CkxCK8ce6qTtUxHyiruEIrr8HEiR-HBO1Y--Ypr7qNGiTu4JDiZj83kr1238FfClmDCShDptUasSmOZSS1a5KMlGuSzJ5wdjBm5MketiuxDjGX7tL_lW9vPByMiBiMOfSouN_t2BcyD1MKgovYLuZUlAk2p3vHcPm22k2SSZloFpYyOf2ON633uca7O2Y4JCBbNGf4W-5XQSvIk2Fc7-q7VfqmQHkcQjEKICNaqfFI41GxeD9nXazqzigSfrHUgacjxrrunjV7GdqKHcHqzMQRsHIQFI71GfDM04lG6nFLaJJMq72IuhMhvgJJf32QXKWapjTu8PUhLsUetdS7FNC-X_qq5F1xFwYJ1Vigz8QH7Kr_qsYVckEPp-J_v09iwBu1L6-vMDTbVTCgEw9NsT0hRP4t89mAiEqDufRvNXYV_VNwhwJ_-lcvbsPtYBNsIqoGuGfLc3A7XHL8HvgcWo_U9gA-lp7y9vR8siy1E9q7qlyO9ppXqOuZCPAifCEKyW6NfivtzJ6aweW2vOXDaP3ptZCkptghK7gbMvDhs5ATIo4EYM4-jmYrvvCJuc7acPO-4pvm5gP-RHvE-sVCao3KwDFzTVjOMrysWY1-8RmCmiNh_4MUIwuh8z8hexpDUSjHmFhay8wdC8nF_7Gxg1MXbl77RWIdGZ3hpiISWXl35EjUVqnLt9HCQyBqgjbe4xu7VX9-dJl8MvsrPX4O3QdTO6wdUk44YTG4UpaxaeCAGwA4v0C39TkxZrsfiDvtEJyyhfMsCO9nPIaaPMamPrvCj8OSA7OTdN1LCrSs3aWC_D3GMIOlySnZbML3KpBHNCK-9ad8Xy9fs4Q0XlWxdyOZLaycIpLPXZlU2rpDO0IFdRgO0rRuAXw20=",
+        "status": null
+      },
+      {
+        "id": "rs_017f3b2a2946d808006a6512e911f481948100cdd8fb4de33b",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRNqVJdIJAxDAVawf_OF4AY5UzoZN45xbl9kqHKJ6zbBeZkgbGcZbSD63S-2pWShXxRh_YS80WJ7XMDDL2ijbr3ZUxSvYrGPoZyymakOo4NDT8yLI4ZibJ5XiBfQKU3ikSvcsma6OGekL5LBM6Fe0TNe7CCu7xy8G62LZU1r3Sb7dusktirnlVXMyNuAvhgdC64ARu2dVbWAHBSN8Eamx-_iLhUjeYaT62bYs3OgsbEPjHbZIXaC4b1AE8Pjx0v7uhWjlaI2p4PmC4kuXB-885mzEhxhNd4z4g8P4OCMjEuYIEa4WnlR7aLpmFEPFWAGMkSkKiGNFMpBI7gSByLG93oSWSzhMnPUAtt0PMuIMdUKwLOutIcOLDBzpLkxdC5qLdZX12fq3dwYb4b2IsVOLu9ngLVDsBEiAhwgYUZA_pX1jIiFcr7ey3PkViBUHPxn3Cr1aktOYd3-3PD3vR0OMOH1-_eNAxzn7KKgs1v4rlodiKqe0mMM5bdw46RSkypf4MFjIB6CdgSxl3EU2LJjv_ugWp7L1fG8eRdyPguMbezrJ0Cq6aMa2s2BTzPYUXNLlsYmFErK_JqyLo66fQVdxqdbuFjx1dUrTkAT8es79yGPQ_kH-j1hyKeEhG0MjA8ENLx-75hZ4lD6LjiKWAVSUfP3xIB3KPF5TjvBKeVXWbJ9IbLypx3BQVCRxH78W2yWS-ob_X83i_y-HZSooEWjkkkbvmkHqnUddl8H9eOiwRyNOPkCRZCYqr_Uf_h5VgEz4vNJNfAmmIAqVcoOJz_nvHkcHHQZLRfAcZW2jfBQWp3D0vCziOCPa88NMd8KvRMYI03I2t8u0xqUMkbfpSBl7xdZBGKiQTaX7aanD8fpZKVo4ogoI7AIMCDh_B2WaqleCDI-FNfDcIpA6VWY8JNxmViDUfxF2RX9RaMCnZeZo_7bRgjSSZM3OnbX64S8DDROKeThzUJzQqNx17kGFi3Z9aoUEyqGKQZrNu9j_yFc13AqmWZSCHnrMF51-iCb8JF_VAH3d77pBejk91J77vBLaYB5a0Foo6ahaRHzcB-0jphEpQXUhqp5ypaJ5oI9lmmuzUJ3mnTqHB7EfSsNfhkwcixBgyiLkqWE-NO6NX4qBqCdedICrE31ScGeqvGUJLPG3gDRoSBsK1Ro99i-AlXoNB9jQ8V6ZEQ_6mlkZTkx8NlMkTyFHasj4kqkHojSTh3qLl7drQYWJI9c6EHg0K7Lf_P9GghH7k0A9vrLidlYiWiVzc8k3446TH-TsYYVsY63keUOs1SJ4DqOM4U-jveAMfw73GCSdhcOxLQCPtunt8SNHDIXu5XCBori1vdw70e2GwYP-3WlnnT5-edXCgkF71yvPb6Q-OtOD4wGmmwreR0cK2lS-xCExbBYUmLm75bkMLpDIVbMG9pohyyyb43D4k-ujlBzJg1v8BKtWvotBHXaO09fVm3eujSrIQ_lXrdRyIY8hGy56zSKUDH70h9StUJrJysW6bB25gU_4h1z9mda3ej7XRNEOV_2bxid2c5WAm1KJun7aQTS_8OBEbPKTllL5WOgIQHWITw9resrt3LF9sg2imINo7z1pDUgkSstVNfuN0yoAr2-rla-48RPPfQRdwDbZhMZM963SA9zyIBM_zm4p_n31ydD-eA8EQ5nQhpCbP4tKif1j6DWFuQmU23X1cVU6YPU7PSYyD_oek6s36IkvNRzjGo-qkJLF530ZOeuvcc1fYlly7PUiU5m-Iga-1KEPUTejgaaBjQwNndvzFM6Aaq3WWzswlX1_SkKzF8N19OLW-hivwuDQ9wp2SUzVTPqR2AFsZyHjumbFvxeUmV9NViwPZz0dVviDBvROO8hvwynu4C3qZmVIJPLzFtHSSR8VltuAjevq1muqV3Z8oA225L16pakAFNabGlYn49oFvsW2r1NtTlkH7yIzTvCZ0OV6084fWHEyZSqa3IoP4iSam2UWePmQNc9M6NXX_Ax99NptG-i0pScF5SlWRrOryzEU1L6kGRW4c_7ZVRFerdhvZMkbVX6RVBFTKL9sYwF2Tb-C8PVW8NH99itHHuMzckIB2sJ2jinIkfa80fr-32AFSmd9AhDYmvkwYnrlTPyFcW07Ee_jKB9AZ8bUgpEsMSplLloGNQzC2BwiKik8kHA-u-UYenmZXLil0wgfK4Xkztq4MyPLztgD468x5wrs669Yr9jIgK04AJAaxAr43mFq5j4iG3m_OsWCLz-LDhQ_TzGImShwGTtdbk2ZfnNRAFjCw6Gdxr9uYfIhUSXUwI3cRhmC5i4Oq2FlB4gFaD9YQ7HPeNqYeDxMXvpk4EEm60Fxo3qE9PtwtfQUrCpC9lZaMAwaOGB9vYE-OpcGmLskDkrMJGsShIwIwFyVOgetbRUH-wmyUENw1Y0JfbuPcuZoeOJ1J0ozx_vWYTwHvKtUNkm1ij6pPnz5PoPVT7ZUOGnLx7e6RY3XxAEhtAX0RarOuqHSWi3All3IpdxFnlnOSz_qjj0kHdKCmePyf3h9pBoWDod_uavuO0UFFdiiuK1cGrJcb-lwFCYuZJlTalLsRW2vDJp-4leqrX_NjmeFQ7eY6pHUGSdfq7KX1W5WhFqw_s4LCZwQV9ObVBHx0lB2OtuieH3_t-HcfOL8aCpFmppkGNCHVvrKSvDuH77z0cvRhOiaT2vJ4IzbaIXswH9UfPFRsXGFUEtHdxfG2Mjm_ZmSuUaLIR_J3OzW45IxbsqiY7p6XHBG5x2GgrGrhH9BXW-YPwoFrvvC6gsN5VuzD4W4fs67jEGLAG-L6_ZCdromuLjkvUErl-sJApS1LGe8JJwr0siu3BOSrnGGPpm3A7r-xCbradyGnGAtuSZf2fAkTOpCbu_cUU6rqbk1IzXlyk_MncbC9jhvwWUp2H3lQR0UWkNCvwqqVSCXsZ3UzJTNfys8D2t-lF8TDbLm8vdKF_tW5EFbxh-0pArUdZaxBsrM_CWB5hLC7kl7N59iaK-xU6OFKNzrZxxVkO32ETDiSJESdNTQbNfSh1xINXYX0lBYYYa0_LclaODl0kd20SFWMhq5A4cymE_7QATtk9EtcdFjjLydUWj2tIdYMhsyz3pzPD8UQGUZ3pCoVjo6upUO8I1ag2IbXz6t0bmKuPdCEDNt1Q9T7rTxw2b9tQmil9qBbkMFs9ErCNFf6qdJR0mU16y5tJ0qB1DGb3wsEDCHUOM2qpjGQ6Bv2cfJ5xLLUPZc03uGOuu0WNVk66VMA4GybvPXClhyCA_JJA0QyeJ2WGPv5cOqULGBfs8csj_zehdsuusD49QWOSr4qiX6ZkyGvik5d6meIEQOZvRmnwX1zJZi4FarPXhkXcz-sJTkzi50kQpF1sVIenAC15X-KCTrZ3Qb6fOpBrUC1hRMIJr_hD1pwlZ5hcFB7QXYn-or1C5dfZVe8y833f5I7I8a53xHYxqiLZu40ITyf8oD8mhuBPCMHe6zqJof6nkiiwPvFbkwIn9sXZdCAZF8Sgfd-Y8pDtUmO7yGkCbtZtUdInWbO-FXOEWePGXbJl6U35NkfsNzY9APnLGXLmf_njodYhp9MSHow0AeTAPQ2K6mCebssysrHb73eLSHSoYCSrIK0BuQuHt03F-1XgDxNQ8cjK6QJ8jkOrZwmNOy1ktrjMg_i3VySzJSjCoRLnw78JzjbRpTGn7piwkB3KeKu09X0z9OZ9OYyMHr8KcoNsafyffQ1OTH8fIxHXPfk2cl2ukQMzItxGfmyJi9kM3u4ED420uIjzbMX4xZoyoeKOD6Beuf4P-_wNHNzQLfBSeweYcQsebdOp2QQFNB4yiuM0CTLfoEt2t_JWkZ9X-VQ2XvnLLLVskqPhYzQaOJv-Mi0ukKLLFc8Qp94FIvPR-eV2Pl0t_VhK5FTCnZgU9Rc2P0PlxtB7r64lFWEk1Ut10U8-8_xZJJu5Qjquu7ZD5ByTjEsN5A5dcu2bL2tUDWpBzZmurnZq9y65R-AWhtRl-GeRE6Q==",
+        "status": null
+      },
+      {
+        "id": "rs_017f3b2a2946d808006a6512f4f5648194aaac4d219fb81b40",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZRNqw5kEDPdtnw2CoX8z7Oq1WTMws3nUuSB4DsepiWIE1GnOUJrMhLN4lTvUpxtk0oiRKqqG_1WrN1usfLdcFE0EJslHzABFv0pQszvaDl-vtBHzAtasmVj42_-7y7i7hv3DAtWc9r6rWzXg9xREImUonN-hFKAqmX-WVhjO0hw-tVjv5gYUMEz9nNc0qpL6DE4bZ6P3iMlGYNUKinElmFTZ9ylMFD8xANfnaKQVZvYVjhbOJbI2AzcRZF0uIs3Jc8sDJbCxD6BNay515QVdJf_0v1U-SP64uu_a5Yw0WgJl2WS4EsctPsSLltvzLdcMpUpAuo6k4Weu3z565d7M3BzcHliT7t6oGZw_lm8yS26scrckez_vLZo-HcLm29YcFtE8gfZHTW60PALbvlp1sASHva432yN2mdQ7mV_YuU-WSxb3Il0EqY_Mk6-TDAjI52MTSHJ1Eb81qI35bZlkeQY-EnqHm-HxOfCdAuB_IU-7mJd0OMR-x8PqvfqhscJQf3T9ojOSs7PHPtZkRNzeT0h6rXmshYvm3JD_hfn5JpdYMNuS_GgMKrSDd9UvO9R4JQhExW7vyHb5imCvJgBgJgIZ9ul8XR55xDyrdisV4IRY4-cNT4rkcSlSwR73Ex5KtiPTPcdRlAubHjHMMwpEHHpypBDMICKUU0pJc57sG-rnu2Q9onPOx8ox97Tmw7hDyw6-4W6NSRUlsDHkuWgu-gSxc6BPMU9Y1loZspG_cLaDiRHztho3mM7QrqqWZ5ZO-C4_i_kFsJMMUeRa2x7yQBBn31oCdGuII6b8L3WSQlCKD7SsAgl17Eqy9tYyrlLnVmMFdmMRO9gUAnAU2I8PG79Vd-8Eej1AS6uBx7AB-mWBVYmkz7T1FZF2r83iH-fM6WKD1bZziAQs-1FVeNcHmYEwG6hnxv7_Oi04QKxjLaJj5NQNth8IjeBL8_ZmLPC3mFrVAJzB4TenDhxoVttlPzbV8htWzBg2wOsZ8EbFe-4D237-zmeDtGrSIopx-sSYpKBZj6crOKuwEgjuKakhP7DvyzcvGhXi-gDCRVRMw8zUseWWG6wh92LP9M9f9A1chvv_nGl_4NZDaKSAOaE5LBC4OF3T93YM5Ve4RKv0V3lPDZFHiqfnFgIIJVea2fSJvtkrRt0Fv6-TvpfZeP1xqyTWlBy3O0zvz9hMLDTbSyJ4u_mdYfCqgvG0h6aeK9t83U2n0L7dEi541nDAOYOtnO5JhsxNXxXK8F8HzCBiBT5V_A8hpiUpWYB-1c_p8Xfy3A0ooCkCCyEMsu8sxaf2RsZ9f_CEOFI1mtjW7PJm-jJXvmKw1hBrYc8cOQf2JuCcuEeaRwagUH3neYcEfZ6wM0-Tiq4rYIeH27CZRwD-mKuIMabWo8h0y8u0lERt-T4ha6dCv4UpIiPtwe68lo-QCYC16wba8X8QRmo-5gUZgF__QeX6UzV97W98uHn8vOHcbmacSyew3-rsOlGRC8Ao3M39vnGPsxwKiaL2kmT40u6cgyrMlW1wx1_xS2YzDnFZ-fWHPp0RAZTQxEBW62CmlcriqdiTQ9CZKxuWfGckN3py-HYdFKk1yFuU2ZRCgLaKKdwwCtn0CMz5WK0eQSffyd_xE-UMoW5DSplax2I2UCnUR9IfRxq8wQgWbwCoAP9c2O_tARtXJB0jloT7HnS81KpMtD--i2iMVz_KNEjPeBg0OVu43fItnY_tRx94QLInSUktZRHbhIYLATnB2YSGoliIX8oGQFhx6HqKWJIw1jD61V5xDgDdX_ZX5ORwd_sVH4AQwl3cWQ2jzbtxK9uWfofvONbuhbjURhchdntsxQfZjlTtYfxJLfm2tOW4-jRWkw3m5Tl5ihQAVauapl67NwyGo6oAOaEsKgKcBujVHDudZrWNqhPhS9oJuktBO1gv-xLxc4ccrIcWqlGQoRlpuuKvBra0-Vvon6soW_nY4OU_1kjpI1DWw37hON711Mc36C4GUwaAyZmXNmoTRJCxHvw9deoEj5sPHiCTq_Lnc6cR8wFYEVepZq0GNGYAhzfvuwXZJahyZ4H7Ti3f3UPaDV4W4LQIasxavI-U28lILPp5JCMv8tLbtBmqI3H9TzL1Qy7eYFovJXXAyFCX-kTInJYHC1htSXVAnv1w8HyZjw5PmwsD3FOaZwI-XY_t9PKj5mklRbtKbVQ52V_7heLco8A05c3oxx-ba2Dbvj1lgWS-3zoKFcIiT3-JUOBVE-ubOGEe4mZazy2CmP1zCW9Rw9tBmJHdjKMwbec4SxWYRvD4LQsj5wRIH2mZZgfuVrjoOx-l6CPBEiIx43rjozXAvxy1jiK66td0f0_gqY08cFr3f0Z1wiu6rKBxdljslmBVrl4Fm1l_GynySi3l8xLAiIpfPHsrzTcedn7m-sqxY2cTKAdZiUpuG4KqPdjoIHZwX-hIcv4Qy1zsDU_Nmzs2jD6q-xabpz6opISPgWQEMITUqdybJsyf6JF_v-QbAxCE7oWvEOB3liMNbYRHl88DAdTNkma50oLRhOVQ4XD3SGkiRslyGXI6BcdW7hIfOU_ifKnyGUockPUlnO2WJiea7yYpyLFxbrlcF93Rnk9PO0J57zoKS8OuXjiTHjXEC1rVXVtQezaFpmmxA4GIYWXwFiGfYdhOcnRV7E8d1L8_zLdgOqRn7nAai_aXWyGI_lubTlc8lrpAB_-qsRn5eEVEKnn92mWuGnYGzm-L3Wai9hUnfK10gY7Vn-YjM6y8rIGI8X1jrGgz9wrHUm5eTUb6X1Mv6z-_VorOFE7OjAc3qjB1PwTOGj_aHDFnspsjPdd7R22TMR1kIqhP26neQPxNil6ZvS9ngrzQmYFgyQOsodiAuWR2BbaQGxPpJm8QcuSEYh0rQHEfHgoNT4LwfutiFaoICi6hkIN3FbIZwpZN9gSznaW8adz6Bs6w28FQ_U7bURph6W5WVvLy1bynJuJd3r6V0sfQa8-3FNkEnLaUd0vhQR6GWhY8SZUxhM_jVHQYpmsQZW1fq1doxaus3pc7W_ZncEtSzFjwDyZgGgdJdetCY1o0BuTcXNZ_1B7MLPJKfHOI",
+        "status": null
+      },
+      {
+        "id": "msg_017f3b2a2946d808006a6512fa5b448194ac918edee42d69ea",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"episodes\":[{\"ep\":1,\"title\":\"The Clerk and the Seal\",\"script\":\"SFX: A heavy seal slams onto paper. Applause bursts through a crowded assembly room.\\n\\nGREGOR: Certify the grant, Mr Pell.\\n\\nEWAN: I need the issuing register first.\\n\\nGREGOR: You need a pen.\\n\\nSFX: Chairs scrape. Papers rustle. The crowd settles into expectant silence.\\n\\nELSPETH: Sixty acres beside the Royal Road. Fertile ground, river access, and full protection under the laws of Briarhaven.\\n\\nJONAS: My administrative survey confirms the district is ready for settlement.\\n\\nEWAN: You have not shown me that survey.\\n\\nJONAS: The clerk is not being asked to survey it.\\n\\nTHOMAS: The Royal Road is described on page thirty-two of the official guide.\\n\\nEWAN: A description is not a land register.\\n\\nGREGOR: Be exact, Mr Pell. These families have travelled to hear facts, not clerical anxieties.\\n\\nJOURNALIST: Is Mr Pell an officer of the Briarhaven government?\\n\\nGREGOR: He prepares its official documents.\\n\\nJOURNALIST: Then let him certify this one.\\n\\nSFX: A pen is placed sharply on the lectern.\\n\\nEWAN: The grant names a parcel, but there is no surveyed boundary attached. No registry number. No countersignature from a land office.\\n\\nMAN IN CROWD: We were told every acre was registered.\\n\\nELSPETH: Every acre is secured. Registration is a process, sir. Ownership is the promise.\\n\\nEWAN: Those are not the same thing.\\n\\nSFX: Uneasy murmurs spread across the room.\\n\\nGREGOR: Mr Pell is very young. Youth sometimes mistakes delay for integrity.\\n\\nEWAN: I cannot certify what I cannot verify.\\n\\nGREGOR: You can read, I hope.\\n\\nEWAN: Yes.\\n\\nGREGOR: Then read the grant aloud. Every word. Let the room judge whether Briarhaven requires a better clerk.\\n\\nSFX: The document unfolds. The hall becomes quiet.\\n\\nEWAN: “By the authority vested in the government of Briarhaven, sixty acres in the district of New Ayr are granted in perpetuity to the lawful bearer—”\\n\\nGREGOR: Louder.\\n\\nEWAN: “Together with rights of cultivation, inheritance, transfer, and access to all public roads, waterways, and markets.”\\n\\nWOMAN IN CROWD: That is what we were promised.\\n\\nEWAN: “Certified under the official seal and entered into the register of national lands.”\\n\\nMAN IN CROWD: There. Entered into the register.\\n\\nEWAN: The paper says it is entered. That does not produce the register.\\n\\nELSPETH: Mr Pell, that family has brought forty sovereigns. They are not paying to watch you argue with a sentence.\\n\\nEWAN: They are paying for sixty acres.\\n\\nGREGOR: Precisely. So sign.\\n\\nEWAN: Who issued the seal?\\n\\nSFX: The crowd murmurs again, louder this time.\\n\\nGREGOR: I asked him to read one page.\\n\\nJONAS: A competent military clerk would have finished three minutes ago.\\n\\nGREGOR: Mr Pell is not a military clerk. He is an incompetent civilian one.\\n\\nSFX: A few people laugh. One man claps once.\\n\\nJOURNALIST: Is that your official judgment of him?\\n\\nGREGOR: Put it in your paper exactly. The grant is sound. The clerk is not.\\n\\nEWAN: If it is sound, show me the office that issued it.\\n\\nGREGOR: You are standing before the Cazique of Briarhaven. Mind your proportions.\\n\\nELSPETH: The family is waiting, Mr Pell.\\n\\nWOMAN IN CROWD: We sold our shop for this land.\\n\\nMAN IN CROWD: Sign it and let the next applicant through.\\n\\nJONAS: Forty sovereigns are on the table.\\n\\nSFX: Coins shift inside a leather purse.\\n\\nGREGOR: Your government career begins with obedience. It ends with public embarrassment. Today, you may choose which one this room remembers.\\n\\nEWAN: This is not certification. It is theatre.\\n\\nGREGOR: Then do not forget your line.\\n\\nSFX: The pen scratches across the grant.\\n\\nELSPETH: Certified by Ewan Pell, clerk to the government of Briarhaven.\\n\\nSFX: Applause rises around Ewan. A handbell rings for the next applicant.\\n\\nJOURNALIST: Mr Pell, do you stand behind the seal?\\n\\nEWAN: I—\\n\\nGREGOR: He has signed. That is what standing behind a document means.\\n\\nNARRATOR: Ink from the seal remained beneath Ewan’s thumbnail. Remember that.\\n\\nSFX: The handbell rings again. Another grant is pushed across the lectern.\\n\\nNARRATOR: The sixty-acre grant bore an official seal that Ewan had personally engraved that morning.\\n\\nNARRATOR: No government office had issued it.\"},{\"ep\":2,\"title\":\"One Workshop\",\"script\":\"SFX: A door bolts shut. Papers are swept from a desk onto the floor.\\n\\nEWAN: No office issued that seal. I did. I want my name removed from every grant.\\n\\nGREGOR: Names are difficult to remove from signed documents.\\n\\nEWAN: Then destroy them.\\n\\nGREGOR: Forty sovereigns each? That would be wasteful.\\n\\nSFX: Ewan gathers papers from the floor, stacking them rapidly.\\n\\nEWAN: Constitution. Bank charter. Military commission. Three institutions, three supposed offices.\\n\\nGREGOR: Be exact.\\n\\nEWAN: I am trying to be.\\n\\nGREGOR: Try without scattering a government across my carpet.\\n\\nEWAN: This is not a government.\\n\\nSFX: Silence. A carriage rattles past outside.\\n\\nGREGOR: That sentence could injure your career.\\n\\nEWAN: What career? Yesterday you called me incompetent before settlers and journalists.\\n\\nGREGOR: Yesterday the room needed confidence. Today I need certificates.\\n\\nEWAN: Find another clerk.\\n\\nGREGOR: After you finish the bank charter.\\n\\nEWAN: I am leaving now.\\n\\nSFX: The bolt refuses to turn under Ewan’s hand.\\n\\nGREGOR: The door sticks. Old buildings resist sudden departures.\\n\\nEWAN: Open it.\\n\\nGREGOR: Complete your comparison first. You have been staring at those pages since dawn. I dislike unfinished work.\\n\\nSFX: Paper edges scrape together.\\n\\nEWAN: Hold these against the window.\\n\\nGREGOR: I employ you to answer questions, not assign exercises.\\n\\nEWAN: The watermark falls in the same place on all three sheets. A crown with one broken point.\\n\\nGREGOR: Paper merchants sell paper. A revelation for the Edinburgh press.\\n\\nEWAN: The constitution supposedly came from the Briarhaven parliament. The bank charter supposedly came from its treasury. Jonas’s commission supposedly came from its military office.\\n\\nGREGOR: And?\\n\\nEWAN: They were cut from the same stock.\\n\\nGREGOR: Merchants export paper.\\n\\nEWAN: The ink is the same too.\\n\\nGREGOR: Ink also travels.\\n\\nEWAN: Not like this.\\n\\nSFX: A penknife opens. Ewan scratches dried ink from the documents.\\n\\nEWAN: Iron-gall ink darkens as it cures. These were written within days of one another. Look at the brown edge around the strokes.\\n\\nGREGOR: I see three documents serving one country.\\n\\nEWAN: I see one desk pretending to be three offices.\\n\\nSFX: The bolt snaps open.\\n\\nGREGOR: Then you have completed your comparison.\\n\\nEWAN: And my employment.\\n\\nGREGOR: Have you?\\n\\nEWAN: I will return the keys. I will surrender the title. I will not engrave another seal.\\n\\nGREGOR: Titles are surrendered to governments, Mr Pell. You have just declared that mine does not exist. To whom will you surrender yours?\\n\\nEWAN: You cannot keep me here.\\n\\nGREGOR: Of course not. You are free to disappoint anyone you please.\\n\\nSFX: The door opens onto a busy print room. Presses hammer. Metal type rattles into trays.\\n\\nNARRATOR: Ewan crossed one corridor. He did not get out of the operation.\\n\\nSFX: A printing press crashes down, then rises.\\n\\nADA: Do not touch that sheet. The ink is wet.\\n\\nEWAN: Ada, where did this paper come from?\\n\\nADA: The top ream? North Mill. Why?\\n\\nEWAN: Crown watermark. One point broken.\\n\\nADA: Every sheet in that delivery has it. Four hundred sheets.\\n\\nEWAN: Who ordered them?\\n\\nADA: The account only says Briarhaven Office.\\n\\nEWAN: There is no Briarhaven office.\\n\\nADA: There is an invoice.\\n\\nSFX: A drawer opens. Ada lays down a book.\\n\\nADA: Constitution, one hundred copies. Bank charter, fifty. Military commissions, twenty-four. Land grants—\\n\\nEWAN: Stop.\\n\\nADA: You asked.\\n\\nEWAN: Were they all printed here?\\n\\nADA: The headings were. Names and dates were added upstairs.\\n\\nEWAN: The royal seal too?\\n\\nADA: I cut a border around a seal yesterday. I was told it was decorative.\\n\\nEWAN: Nothing on these pages is decorative.\\n\\nADA: Then why did you sign one?\\n\\nSFX: The press crashes again.\\n\\nEWAN: Because a room full of people wanted me to be less frightened than they were.\\n\\nADA: Were you?\\n\\nEWAN: No.\\n\\nADA: Good. Frightened men notice details.\\n\\nEWAN: Keep the invoice.\\n\\nADA: My father owns the invoice.\\n\\nEWAN: Then remember the numbers.\\n\\nADA: I remember every job that is charged to someone else.\\n\\nSFX: Footsteps approach through the print room.\\n\\nGREGOR: Mr Pell. Your mother sent a message. She expects you home before the landlord calls.\\n\\nEWAN: You do not speak to my mother.\\n\\nGREGOR: I have never needed to.\\n\\nEWAN: I resigned.\\n\\nGREGOR: No. You pronounced a sentence in a corridor. Resignation requires freedom from obligation.\\n\\nEWAN: I owe you nothing.\\n\\nGREGOR: Be exact.\\n\\nNARRATOR: That evening, Ewan reached Mara’s rooms before the landlord did.\\n\\nSFX: A shop shutter is pulled down. Crockery clinks in the room behind it.\\n\\nMARA: You are early. That generally means bad news or no work.\\n\\nEWAN: Both.\\n\\nMARA: We manage what is in front of us.\\n\\nEWAN: Pack the account books. We may need to leave Edinburgh.\\n\\nMARA: Leave for where?\\n\\nEWAN: Northhaven. London. Anywhere he cannot reach us.\\n\\nMARA: Mr Vale gave you a government post.\\n\\nEWAN: He gave me a pen and placed crimes beneath it.\\n\\nMARA: Ewan—\\n\\nEWAN: I will not sign another page for him.\\n\\nSFX: Three courteous knocks sound at the shop door.\\n\\nMARA: The landlord.\\n\\nEWAN: Go upstairs. I will speak to him.\\n\\nSFX: Mara’s steps climb. The door opens. Gregor enters and closes it softly.\\n\\nGREGOR: Your mother keeps a respectable shop.\\n\\nEWAN: Get out.\\n\\nGREGOR: Certainly. First, one account.\\n\\nSFX: A thick ledger lands on the counter and opens.\\n\\nGREGOR: This is Mara Bell’s unpaid debt ledger.\\n\\nGREGOR: The next forged certificate will decide whether Mara keeps her home.\"},{\"ep\":3,\"title\":\"The Redeemable Note\",\"script\":\"SFX: Hundreds of coins pour across counting tables. A handbell rings above a packed recruiting hall.\\n\\nFARMER: Mr Pell, show me how this note becomes money in Briarhaven.\\n\\nEWAN: Do not buy it yet.\\n\\nELSPETH: He means you should first enjoy the official demonstration.\\n\\nSFX: A crowd presses closer. Children call to one another. Clerks stamp receipts in rapid succession.\\n\\nCLERK: Twenty acres paid! Next family!\\n\\nWOMAN IN QUEUE: We were promised forty acres for thirty pounds.\\n\\nELSPETH: Thirty pounds secures the land. Passage and appointments are separate opportunities.\\n\\nWOMAN IN QUEUE: We have three children.\\n\\nELSPETH: Then you have three reasons not to remain poor.\\n\\nEWAN: Elspeth, stop the sales.\\n\\nELSPETH: There are two hundred applicants inside and another queue in the street.\\n\\nEWAN: The banknotes cannot be redeemed here.\\n\\nELSPETH: This is Edinburgh. Briarhaven notes are redeemed in Briarhaven.\\n\\nEWAN: Through which bank?\\n\\nELSPETH: The Bank of Briarhaven.\\n\\nEWAN: Name its London correspondent.\\n\\nELSPETH: The families did not come to hear a clerk recite banking arrangements.\\n\\nEWAN: They came to exchange sovereigns for printed paper.\\n\\nSFX: A receipt is stamped. Applause rises from one corner of the hall.\\n\\nJONAS: A hundred-acre estate has just been purchased by the future magistrate of New Ayr.\\n\\nMAN IN CROWD: Is that a paid appointment?\\n\\nJONAS: Authority is not bought, sir. It is recognized in men prepared to support the nation.\\n\\nTHOMAS: The guide lists salaries for magistrates, customs officers, surveyors, and harbourmasters.\\n\\nEWAN: Salaries paid in what currency?\\n\\nTHOMAS: The national currency.\\n\\nEWAN: These notes?\\n\\nTHOMAS: Naturally.\\n\\nEWAN: Which cannot be exchanged in Edinburgh, London, or Northhaven.\\n\\nELSPETH: Mr Pell is here to explain the notes, not insult them.\\n\\nFARMER: I sold six cattle. I want an answer before I hand over the money.\\n\\nEWAN: Keep your sovereigns.\\n\\nSFX: The hall quiets in widening circles.\\n\\nELSPETH: Ewan.\\n\\nEWAN: Keep them until a bank promises, in writing, to exchange Briarhaven notes for sterling.\\n\\nWOMAN IN QUEUE: The advertisement said they were equal to sterling.\\n\\nTHOMAS: Equal in declared value.\\n\\nEWAN: Declared by whom?\\n\\nELSPETH: By the government whose seal you certify.\\n\\nSFX: People mutter. A chair tips over in the queue.\\n\\nMAN IN CROWD: Is he the clerk from the newspaper?\\n\\nSECOND MAN: The incompetent one.\\n\\nWOMAN IN QUEUE: He signed the grants.\\n\\nELSPETH: Yes. Ewan Pell personally certifies Briarhaven’s official documents. That is why he will now demonstrate the currency.\\n\\nEWAN: I will not.\\n\\nELSPETH: The coach outside can take you home whenever we finish.\\n\\nEWAN: Is that courtesy from Gregor?\\n\\nELSPETH: He asked me to make certain you returned safely to Mara’s shop.\\n\\nSFX: Ewan’s breath catches. The crowd continues whispering.\\n\\nELSPETH: Begin with the one-pound note.\\n\\nEWAN: You know what these are.\\n\\nELSPETH: I know what they purchase. Land, passage, appointments, tools, and a beginning that Britain will not sell these people.\\n\\nEWAN: They purchase promises.\\n\\nELSPETH: Every banknote does.\\n\\nEWAN: A banknote also names someone capable of paying it.\\n\\nELSPETH: Then read the promise printed beneath the crest.\\n\\nSFX: A single banknote is lifted from a bundle.\\n\\nEWAN: “The Bank of Briarhaven promises to pay the bearer on demand the sum of one pound.”\\n\\nFARMER: Payable in coin?\\n\\nEWAN: It does not say.\\n\\nELSPETH: Banknotes rarely carry a lecture.\\n\\nEWAN: It gives no address for the bank. No cashier’s name. No reserve statement. No correspondent office.\\n\\nJONAS: The bank stands in Saint Joseph, beside the parliament square.\\n\\nEWAN: Have you entered it?\\n\\nJONAS: I have accepted command of the civil administration. Do not question me like a recruit.\\n\\nEWAN: Have you entered the bank?\\n\\nJONAS: The capital is under development.\\n\\nWOMAN IN QUEUE: Is the bank built or not?\\n\\nTHOMAS: The guide describes a dignified stone building with six public counters.\\n\\nEWAN: Who described it to you?\\n\\nTHOMAS: Government sources.\\n\\nEWAN: Which person?\\n\\nTHOMAS: A writer protects his sources.\\n\\nEWAN: A clerk protects the people asked to trust them.\\n\\nELSPETH: Yet your signature is on their grants.\\n\\nSFX: The crowd reacts with sharp agreement.\\n\\nSECOND MAN: Answer that, clerk.\\n\\nWOMAN IN QUEUE: He tells us not to trust the paper after taking our money.\\n\\nELSPETH: Forty sovereigns from one family. Thirty from another. Eleven years of savings from the widow at the second table. If Ewan Pell now says his own certification is worthless, he should say it plainly to every person in this hall.\\n\\nEWAN: My certification cannot create a bank.\\n\\nELSPETH: Louder.\\n\\nEWAN: My signature cannot create a bank!\\n\\nSFX: Silence falls across the hall.\\n\\nELSPETH: There. An honest limitation. Now demonstrate how the notes circulate.\\n\\nEWAN: Circulation is not redemption.\\n\\nELSPETH: A settler purchases tools from a merchant. The merchant purchases cargo. The cargo supplies the colony. The note moves, and value moves with it.\\n\\nEWAN: Until someone asks for sterling.\\n\\nELSPETH: Why would a loyal settler remove money from a growing country?\\n\\nFARMER: Because my wife and youngest boy may remain here for the first year.\\n\\nELSPETH: Then purchase only what you can afford.\\n\\nFARMER: I can afford the land or the passage. Not both.\\n\\nELSPETH: Forty acres will be worth more than six cattle by the first harvest.\\n\\nEWAN: You cannot know that.\\n\\nELSPETH: Neither can he if he remains a tenant.\\n\\nSFX: The farmer places coins on the table one at a time.\\n\\nFARMER: Twelve pounds. It took me four years.\\n\\nEWAN: Please take them back.\\n\\nFARMER: Can you promise there is no bank?\\n\\nEWAN: I can promise there is no bank here willing to redeem that note.\\n\\nFARMER: That was not my question.\\n\\nEWAN: No.\\n\\nELSPETH: Because Mr Pell has not seen Briarhaven. Jonas has accepted office there. Thomas has documented its institutions. I have contracts for two ships. Decide whose certainty you are buying.\\n\\nSFX: The final coin lands. A clerk stamps the farmer’s receipt.\\n\\nCLERK: Ten acres and twelve Briarhaven pounds.\\n\\nFARMER: I asked for twenty acres.\\n\\nELSPETH: The revised schedule includes survey and registration fees.\\n\\nFARMER: Nobody said that outside.\\n\\nELSPETH: You are inside now.\\n\\nSFX: Another handbell rings. The crowd surges towards the tables again.\\n\\nNARRATOR: For three hours, Ewan demonstrated notes he knew no Edinburgh bank would redeem. Seventy-three families paid before the doors closed.\\n\\nSFX: Bolts slide across the hall doors. Coins are counted into wooden boxes.\\n\\nELSPETH: Your demonstration increased sales by nineteen percent.\\n\\nEWAN: I told them not to buy.\\n\\nELSPETH: You argued about the notes for three hours. People trust a product important enough to provoke an argument.\\n\\nEWAN: Give the money back.\\n\\nELSPETH: It has already been entered.\\n\\nEWAN: In which bank?\\n\\nELSPETH: Be at the office tomorrow at eight.\\n\\nSFX: Elspeth’s steps recede. A broom moves over the floor.\\n\\nFARMER: Mr Pell. Wait.\\n\\nEWAN: You should be on the street before they lock the outer door.\\n\\nFARMER: My brother bought a note in Glasgow last month. He told me to compare the number before I sailed.\\n\\nEWAN: Each note should have a unique serial.\\n\\nFARMER: Then check mine.\\n\\nSFX: Paper is pressed into Ewan’s hand and unfolded.\\n\\nFARMER: Here, Mr Pell. Take the banknote.\\n\\nEWAN: Serial B-417.\\n\\nNARRATOR: It was the serial number already used on a banknote sold in Glasgow.\"}],\"beat_sheet\":[{\"beat_id\":\"b001\",\"ep\":1,\"seq\":1,\"world_time\":\"1834-04-07\",\"location\":\"public Briarhaven presentation hall, Edinburgh\",\"present\":[\"ewan\",\"gregor\"],\"witnessed_by\":[\"elspeth\",\"jonas\",\"thomas\"],\"hidden_from\":[\"mara\",\"ada\",\"silas\",\"ines\",\"edwin\",\"robert\",\"george\"],\"what_happened\":\"Gregor ordered Ewan to certify a sixty-acre Briarhaven land grant before settlers and journalists despite Ewan's demand for an issuing register.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"was publicly made responsible for certifying a Briarhaven land grant\",\"valence\":-3},{\"entity\":\"Briarhaven land grant\",\"fact\":\"received Ewan's signature before a public audience\",\"valence\":2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b002\",\"ep\":1,\"seq\":2,\"world_time\":\"1834-04-07\",\"location\":\"public Briarhaven presentation hall, Edinburgh\",\"present\":[\"ewan\",\"gregor\"],\"witnessed_by\":[\"elspeth\",\"jonas\",\"thomas\"],\"hidden_from\":[\"mara\",\"ada\",\"silas\",\"ines\",\"edwin\",\"robert\",\"george\"],\"what_happened\":\"Gregor forced Ewan to read the grant aloud and publicly called him an incompetent civilian clerk when he questioned its authority.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"was publicly branded incompetent by Gregor\",\"valence\":-4},{\"entity\":\"gregor\",\"fact\":\"preserved public confidence in the grant by shifting blame to Ewan\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b003\",\"ep\":1,\"seq\":3,\"world_time\":\"1834-04-07\",\"location\":\"public Briarhaven presentation hall, Edinburgh\",\"present\":[\"ewan\",\"gregor\"],\"witnessed_by\":[],\"hidden_from\":[\"elspeth\",\"mara\",\"jonas\",\"ada\",\"silas\",\"ines\",\"thomas\",\"edwin\",\"robert\",\"george\"],\"what_happened\":\"The grant carried an official seal engraved by Ewan that morning although no government office had issued it.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"knew his own engraving was being represented as a government-issued seal\",\"valence\":-5},{\"entity\":\"Briarhaven seal\",\"fact\":\"was exposed to the listener as privately manufactured\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b004\",\"ep\":1,\"seq\":4,\"world_time\":\"1834-04-07\",\"location\":\"unrecorded Briarhaven government registry\",\"present\":[],\"witnessed_by\":[],\"hidden_from\":[\"elspeth\",\"mara\",\"jonas\",\"ada\",\"silas\",\"ines\",\"thomas\",\"edwin\",\"robert\",\"george\"],\"what_happened\":\"No government registry contained an issuance record for the seal used on Ewan's grant.\",\"state_changes\":[{\"entity\":\"Briarhaven seal\",\"fact\":\"had no government issuance record\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"This documentary absence is deliberate open canon because no character witnessed an issuing office create or reject a registry entry.\"},{\"beat_id\":\"b005\",\"ep\":2,\"seq\":1,\"world_time\":\"1834-04-08\",\"location\":\"Briarhaven office and adjoining print room, Edinburgh\",\"present\":[\"ewan\",\"gregor\",\"ada\"],\"witnessed_by\":[],\"hidden_from\":[\"cyrus\",\"elspeth\",\"mara\",\"jonas\",\"silas\",\"ines\",\"thomas\",\"edwin\",\"robert\",\"george\"],\"what_happened\":\"Ewan compared the Briarhaven constitution, bank charter, and military commission and established that they used the same paper stock and recently cured ink.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"discovered that documents attributed to separate Briarhaven institutions were produced from one material supply\",\"valence\":2},{\"entity\":\"ada\",\"fact\":\"learned that the print jobs she handled were being represented as records from separate institutions\",\"valence\":-2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b006\",\"ep\":2,\"seq\":2,\"world_time\":\"1834-04-08\",\"location\":\"Briarhaven office and adjoining print room, Edinburgh\",\"present\":[\"ewan\",\"gregor\"],\"witnessed_by\":[],\"hidden_from\":[\"cyrus\",\"elspeth\",\"mara\",\"jonas\",\"silas\",\"ines\",\"thomas\",\"edwin\",\"robert\",\"george\"],\"what_happened\":\"Ewan declared that one desk was pretending to be three offices and attempted to resign, but Gregor refused to recognize the resignation.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"attempted to leave the Briarhaven operation\",\"valence\":1},{\"entity\":\"gregor\",\"fact\":\"learned that Ewan understood the shared origin of the institutional papers\",\"valence\":-2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b007\",\"ep\":2,\"seq\":3,\"world_time\":\"1834-04-08\",\"location\":\"Mara's shop and rooms, Edinburgh\",\"present\":[\"ewan\",\"gregor\"],\"witnessed_by\":[],\"hidden_from\":[\"cyrus\",\"elspeth\",\"mara\",\"jonas\",\"ada\",\"silas\",\"ines\",\"thomas\",\"edwin\",\"robert\",\"george\"],\"what_happened\":\"Gregor showed Ewan Mara's unpaid debt ledger and said Ewan's next forged certificate would decide whether she kept her home.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"was coerced to continue forging documents through Mara's housing debt\",\"valence\":-5},{\"entity\":\"mara\",\"fact\":\"her home became collateral in Gregor's control of Ewan\",\"valence\":-5},{\"entity\":\"gregor\",\"fact\":\"gained direct leverage over Ewan through Mara's debt\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b008\",\"ep\":3,\"seq\":1,\"world_time\":\"1834-04-12\",\"location\":\"Briarhaven recruiting hall, Edinburgh\",\"present\":[\"ewan\",\"elspeth\",\"jonas\",\"thomas\"],\"witnessed_by\":[],\"hidden_from\":[\"mara\",\"ada\",\"silas\",\"ines\",\"edwin\",\"robert\",\"george\"],\"what_happened\":\"Families exchanged savings for Briarhaven land, appointments, and currency in a packed recruiting hall.\",\"state_changes\":[{\"entity\":\"Briarhaven sales\",\"fact\":\"received payments from seventy-three families during the hall session\",\"valence\":4},{\"entity\":\"settler claims\",\"fact\":\"became financially tied to Briarhaven paper promises\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b009\",\"ep\":3,\"seq\":2,\"world_time\":\"1834-04-12\",\"location\":\"Briarhaven recruiting hall, Edinburgh\",\"present\":[\"ewan\",\"elspeth\"],\"witnessed_by\":[\"jonas\",\"thomas\"],\"hidden_from\":[\"gregor\",\"cyrus\",\"mara\",\"ada\",\"silas\",\"ines\",\"edwin\",\"robert\",\"george\"],\"what_happened\":\"Elspeth used Ewan's prior certification and a reference to Mara's shop to force him to demonstrate Briarhaven banknotes publicly.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"was compelled to lend his expertise to public banknote sales\",\"valence\":-4},{\"entity\":\"elspeth\",\"fact\":\"used Ewan's resistance to increase buyer confidence\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b010\",\"ep\":3,\"seq\":3,\"world_time\":\"1834-04-12\",\"location\":\"Briarhaven recruiting hall, Edinburgh\",\"present\":[\"ewan\",\"elspeth\",\"jonas\",\"thomas\"],\"witnessed_by\":[],\"hidden_from\":[\"gregor\",\"cyrus\",\"mara\",\"ada\",\"silas\",\"ines\",\"edwin\",\"robert\",\"george\"],\"what_happened\":\"Ewan publicly stated that no Edinburgh bank would redeem the Briarhaven notes and that his signature could not create a bank.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"publicly challenged the redeemability of Briarhaven currency\",\"valence\":2},{\"entity\":\"Briarhaven banknotes\",\"fact\":\"were publicly identified as lacking a local redemption mechanism\",\"valence\":-3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b011\",\"ep\":3,\"seq\":4,\"world_time\":\"1834-04-12\",\"location\":\"Briarhaven recruiting hall, Edinburgh\",\"present\":[\"ewan\"],\"witnessed_by\":[],\"hidden_from\":[\"gregor\",\"cyrus\",\"elspeth\",\"mara\",\"jonas\",\"ada\",\"silas\",\"ines\",\"thomas\",\"edwin\",\"robert\",\"george\"],\"what_happened\":\"A farmer handed Ewan a Briarhaven banknote whose serial number had already appeared on a note sold in Glasgow.\",\"state_changes\":[{\"entity\":\"ewan\",\"fact\":\"discovered direct evidence of duplicated Briarhaven banknote serial numbers\",\"valence\":3},{\"entity\":\"Briarhaven banknotes\",\"fact\":\"were shown to include duplicate serial numbers across cities\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null}],\"promise_ledger\":[{\"id\":\"p01\",\"raised_ep\":1,\"listener_is_waiting_for\":\"Who physically manufactures the seals and documents attributed to Briarhaven's separate government institutions?\",\"must_pay_by_ep\":4,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p02\",\"raised_ep\":2,\"listener_is_waiting_for\":\"Can Ewan protect Mara's home without continuing to forge certificates for Gregor?\",\"must_pay_by_ep\":8,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p03\",\"raised_ep\":3,\"listener_is_waiting_for\":\"Why are Briarhaven banknotes in Edinburgh and Glasgow carrying the same serial number?\",\"must_pay_by_ep\":5,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p04\",\"raised_ep\":3,\"listener_is_waiting_for\":\"What happens when settler families try to use or redeem the Briarhaven notes they purchased?\",\"must_pay_by_ep\":8,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"}],\"calendar\":{\"season_start\":\"1834-04-07\",\"dates_fixed\":[{\"ep\":1,\"when\":\"1834-04-07\",\"what\":\"Ewan certifies the sixty-acre grant at the public Edinburgh presentation.\"},{\"ep\":2,\"when\":\"1834-04-08\",\"what\":\"Ewan compares the institutional papers, attempts to resign, and is shown Mara's debt ledger.\"},{\"ep\":3,\"when\":\"1834-04-12\",\"what\":\"The packed recruiting-hall sale takes place and Ewan finds the duplicate banknote serial number.\"}],\"periods_fixed\":[{\"between\":[1,2],\"elapsed\":\"one day\"},{\"between\":[2,3],\"elapsed\":\"four days\"}],\"unresolved\":[]},\"flags\":[]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 0.98,
+    "background": false,
+    "max_output_tokens": 32000,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": "medium",
+      "generate_summary": null,
+      "summary": null,
+      "context": "all_turns",
+      "mode": "standard"
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "episode_batch",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "episodes",
+            "beat_sheet",
+            "promise_ledger",
+            "calendar",
+            "flags"
+          ],
+          "properties": {
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "ep",
+                  "title",
+                  "script"
+                ],
+                "properties": {
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "script": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "beat_sheet": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "beat_id",
+                  "ep",
+                  "seq",
+                  "world_time",
+                  "location",
+                  "present",
+                  "witnessed_by",
+                  "hidden_from",
+                  "what_happened",
+                  "state_changes",
+                  "source_ref",
+                  "tier",
+                  "note"
+                ],
+                "properties": {
+                  "beat_id": {
+                    "type": "string"
+                  },
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "seq": {
+                    "type": "integer"
+                  },
+                  "world_time": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "present": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "witnessed_by": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "hidden_from": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "what_happened": {
+                    "type": "string"
+                  },
+                  "state_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "entity",
+                        "fact",
+                        "valence"
+                      ],
+                      "properties": {
+                        "entity": {
+                          "type": "string"
+                        },
+                        "fact": {
+                          "type": "string"
+                        },
+                        "valence": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "source_ref": {
+                    "type": "string"
+                  },
+                  "tier": {
+                    "type": "string",
+                    "enum": [
+                      "core_canon"
+                    ]
+                  },
+                  "note": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "promise_ledger": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "raised_ep",
+                  "listener_is_waiting_for",
+                  "must_pay_by_ep",
+                  "paid_ep",
+                  "how_paid",
+                  "status"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "raised_ep": {
+                    "type": "integer"
+                  },
+                  "listener_is_waiting_for": {
+                    "type": "string"
+                  },
+                  "must_pay_by_ep": {
+                    "type": "integer"
+                  },
+                  "paid_ep": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "how_paid": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "open",
+                      "paid",
+                      "paid_late"
+                    ]
+                  }
+                }
+              }
+            },
+            "calendar": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "season_start",
+                "dates_fixed",
+                "periods_fixed",
+                "unresolved"
+              ],
+              "properties": {
+                "season_start": {
+                  "type": "string"
+                },
+                "dates_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "ep",
+                      "when",
+                      "what"
+                    ],
+                    "properties": {
+                      "ep": {
+                        "type": "integer"
+                      },
+                      "when": {
+                        "type": "string"
+                      },
+                      "what": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "periods_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "between",
+                      "elapsed"
+                    ],
+                    "properties": {
+                      "between": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        }
+                      },
+                      "elapsed": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "unresolved": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 6460,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 6457
+      },
+      "output_tokens": 10187,
+      "output_tokens_details": {
+        "reasoning_tokens": 2951
+      },
+      "total_tokens": 16647
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1785009001,
+    "frequency_penalty": 0.0,
+    "moderation": null,
+    "presence_penalty": 0.0,
+    "prompt_cache_retention": "24h",
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    }
+  }
+}
