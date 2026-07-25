@@ -4,45 +4,39 @@ import { ClearanceBadge } from "@/components/ClearanceBadge";
 import { Notice } from "@/components/Notice";
 import { loadCorpus } from "@/lib/data";
 import { requireEditor } from "@/lib/session";
+import { BAR_EXPLAINED, category, stateOf, verdict } from "@/lib/words";
 import type { Candidate } from "@/lib/types";
 
-// Reads the filesystem on every request, so the screen reflects a corpus the
-// moment someone freezes one — no rebuild.
+// Reads the filesystem on every request, so a fresh search shows up without a
+// rebuild.
 export const dynamic = "force-dynamic";
-
-/** Where a row sits in the editor's pipeline. Derived from data, never invented. */
-function stateOf(c: Candidate): { label: string; className: string } {
-  if (c.origin === "commissioned")
-    return { label: "Commissioned", className: "text-clear" };
-  if (c.origin === "also-considered")
-    return { label: "Passed over", className: "text-faint" };
-  return c.winner
-    ? { label: "Scout pick", className: "text-ochre" }
-    : { label: "Candidate", className: "text-muted" };
-}
 
 function Row({ candidate }: { candidate: Candidate }) {
   const state = stateOf(candidate);
+  const call = verdict(candidate.scores?.total ?? null);
   const blocked = candidate.clearance?.status === "blocked";
+
   const meta = [
-    candidate.category,
+    category(candidate.category),
     candidate.year,
     candidate.where,
-    candidate.sources.length ? candidate.domain : "unsourced",
+    candidate.sources.length ? candidate.domain : "source not recorded",
   ].filter(Boolean);
 
   return (
     <Link
       href={`/candidates/${encodeURIComponent(candidate.id)}`}
-      className={`group grid grid-cols-[3.5rem_1fr] gap-5 px-4 py-5 transition-colors hover:bg-surface ${
+      className={`group grid grid-cols-[5rem_1fr] gap-5 px-4 py-5 transition-colors hover:bg-surface ${
         blocked ? "opacity-70" : ""
       }`}
     >
+      {/* The word carries the judgement; the number is there for anyone who
+          wants to argue with it. */}
       <div className="text-right">
-        <div className="font-mono text-2xl leading-none tabular-nums">
-          {candidate.scores ? candidate.scores.total : "—"}
+        <div className={`text-sm ${call.className}`}>{call.word}</div>
+        <div className="label mt-1 font-mono">
+          {candidate.scores ? `${candidate.scores.total}/50` : "—"}
         </div>
-        <div className="label mt-1.5">/50</div>
       </div>
 
       <div className="min-w-0">
@@ -73,7 +67,7 @@ function Row({ candidate }: { candidate: Candidate }) {
 
         {candidate.why_not && (
           <p className="mt-2.5 text-sm text-faint prose-col leading-relaxed border-l border-rule pl-3">
-            <span className="label mr-2">Passed</span>
+            <span className="label mr-2">Why not</span>
             {candidate.why_not}
           </p>
         )}
@@ -87,16 +81,18 @@ export default async function SourcingQueue() {
   const { candidates, assembled, builtAt, warnings } = await loadCorpus();
 
   const blocked = candidates.filter((c) => c.clearance?.status === "blocked").length;
-  const clearable = candidates.length - blocked;
+  const canMake = candidates.length - blocked;
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
       <div className="flex items-baseline justify-between gap-6 flex-wrap">
         <div>
-          <h1 className="font-serif text-3xl tracking-tight">Sourcing queue</h1>
+          <h1 className="font-serif text-3xl tracking-tight">
+            Stories worth making
+          </h1>
           <p className="label mt-2">
-            {assembled ? "Assembled from committed stories" : "Scout output"}
-            {builtAt && ` · frozen ${builtAt.slice(0, 10)}`}
+            {assembled ? "From earlier searches" : "Found by the research agent"}
+            {builtAt && ` · searched ${builtAt.slice(0, 10)}`}
           </p>
         </div>
 
@@ -107,8 +103,8 @@ export default async function SourcingQueue() {
               <span className="label">found</span>
             </span>
             <span>
-              <span className="font-mono text-lg text-clear">{clearable}</span>{" "}
-              <span className="label">clearable</span>
+              <span className="font-mono text-lg text-clear">{canMake}</span>{" "}
+              <span className="label">we can make</span>
             </span>
             <span>
               <span
@@ -116,11 +112,18 @@ export default async function SourcingQueue() {
               >
                 {blocked}
               </span>{" "}
-              <span className="label">blocked</span>
+              <span className="label">we can&rsquo;t</span>
             </span>
           </div>
         )}
       </div>
+
+      {candidates.length > 0 && (
+        <p className="mt-4 text-sm text-faint prose-col">
+          Sorted best first. {BAR_EXPLAINED} Anything we legally can&rsquo;t make
+          sits at the bottom.
+        </p>
+      )}
 
       {warnings.length > 0 && (
         <div className="mt-8 space-y-3">
@@ -132,18 +135,27 @@ export default async function SourcingQueue() {
 
       {candidates.length === 0 ? (
         <div className="mt-16 border border-rule rounded-sm p-10">
-          <h2 className="font-serif text-xl">Nothing to triage</h2>
+          <h2 className="font-serif text-xl">No stories yet</h2>
           <p className="mt-3 text-sm text-muted prose-col leading-relaxed">
-            The scout has not run, so there is no queue. Discovery is a live
-            network call and never runs on the demo path — freeze a corpus once,
-            commit it, and this screen reads it from then on.
+            The research agent hasn&rsquo;t searched yet. When it does, it reads
+            court records and news for real events that could carry a series,
+            scores them, and checks whether we&rsquo;re allowed to make each one.
+            What it finds is saved, so this list stays put until someone runs it
+            again.
           </p>
-          <code className="mt-5 block font-mono text-sm text-ochre">
-            python tasks.py corpus
-          </code>
+          {/* The command is real and someone needs it — but it is addressed to
+              whoever runs the machine, not to the person reading this page. */}
+          <details className="mt-6">
+            <summary className="label cursor-pointer hover:text-ochre">
+              For whoever set this up
+            </summary>
+            <code className="mt-3 block font-mono text-sm text-ochre">
+              python tasks.py corpus
+            </code>
+          </details>
         </div>
       ) : (
-        <div className="mt-10 divide-y divide-rule border-y border-rule">
+        <div className="mt-8 divide-y divide-rule border-y border-rule">
           {candidates.map((c) => (
             <Row key={c.id} candidate={c} />
           ))}

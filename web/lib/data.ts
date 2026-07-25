@@ -234,7 +234,7 @@ async function fromStories(): Promise<Corpus> {
       assembled: true,
       builtAt: null,
       warnings: [
-        "No data/corpus.json and no data/stories/ — run `python tasks.py corpus` to build the queue.",
+        "There is nothing here yet. The research agent has never been run.",
       ],
     };
   }
@@ -252,14 +252,14 @@ async function fromStories(): Promise<Corpus> {
     also.forEach((entry, i) =>
       candidates.push(toCandidate(entry, "also-considered", `${dir}-alt-${i + 1}`)),
     );
-    if (!also.length) {
-      warnings.push(`${dir}: recorded no rejected candidates, so it contributes one row.`);
-    }
   }
 
+  // Warnings are read by an editor deciding where to spend a production slot,
+  // not by an engineer reading a log. They say what is untrustworthy about the
+  // screen and what it means for the decision — never which file is absent.
   warnings.unshift(
-    "Assembled from committed stories — data/corpus.json does not exist yet. " +
-      "Run `python tasks.py corpus` for real scout output.",
+    "These are older results, kept from earlier searches. The research agent " +
+      "has not run a fresh search, so nothing here is from this week.",
   );
 
   return { candidates, assembled: true, builtAt: null, warnings };
@@ -281,18 +281,21 @@ export async function loadCorpus(): Promise<Corpus> {
   const ranked = rank(corpus.candidates);
 
   const warnings = [...corpus.warnings];
+
   const unsourced = ranked.filter((c) => c.sources.length === 0).length;
   if (unsourced) {
     warnings.push(
-      `${unsourced} candidate${unsourced === 1 ? "" : "s"} cite no source. ` +
-        "The scout drops ungrounded candidates, so these predate that check.",
+      `${unsourced} of these ${unsourced === 1 ? "does" : "do"} not say where ` +
+        "the story came from. Newer searches keep only what they can link back " +
+        "to a real page, so check these yourself before backing one.",
     );
   }
+
   const statuses = new Set(ranked.map((c) => c.clearance?.status).filter(Boolean));
   if (ranked.length > 1 && statuses.size === 1) {
     warnings.push(
-      `Every candidate is \`${[...statuses][0]}\` — the clearance column cannot ` +
-        "be seen doing any work until the corpus holds a mix.",
+      "Every story here needs the same legal treatment, so that column is not " +
+        "telling you anything useful yet.",
     );
   }
 

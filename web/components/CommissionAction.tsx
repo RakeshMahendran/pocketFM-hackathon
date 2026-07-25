@@ -35,11 +35,11 @@ export function CommissionAction({
   if (blocked) {
     return (
       <div className="border border-halt/40 bg-halt/5 rounded-sm p-4">
-        <div className="label text-halt mb-2">Cannot be commissioned</div>
+        <div className="label text-halt mb-2">We can&rsquo;t make this one</div>
         <p className="text-sm text-muted prose-col">
-          Clearance is binding, not advisory. {title} is cleared{" "}
-          <span className="font-mono text-halt">blocked</span>, and the expander
-          refuses it whether a model or an editor chose it.
+          {title} can&rsquo;t be made, and changing the names wouldn&rsquo;t fix
+          the reason. Nobody can override this — not you, not the research
+          agent. The system refuses it either way.
         </p>
         {reasons.length > 0 && (
           <ul className="mt-3 space-y-1.5">
@@ -83,10 +83,18 @@ export function CommissionAction({
         </button>
       ) : (
         <div className="border border-rule rounded-sm">
-          <div className="px-4 py-2 border-b border-rule label">
-            Run from the repo root
+          <div className="px-4 py-3 border-b border-rule">
+            <p className="text-sm text-paper prose-col leading-relaxed">
+              Next, this gets turned into a full season — an episode-by-episode
+              plan with the twists laid out and the names already changed. It
+              takes a few minutes.
+            </p>
+            <p className="text-sm text-muted prose-col leading-relaxed mt-2">
+              Nothing is automatic yet, so send the line below to whoever runs
+              the machine{editor ? `, and it will go down under your name` : ""}.
+            </p>
           </div>
-          <div className="p-4 flex items-center gap-3 flex-wrap">
+          <div className="p-4 flex items-center gap-3 flex-wrap bg-surface">
             <code className="font-mono text-sm text-paper break-all">{command}</code>
             <button
               onClick={copy}

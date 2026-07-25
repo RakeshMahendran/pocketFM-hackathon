@@ -3,57 +3,79 @@ import { requireEditor } from "@/lib/session";
 
 export const dynamic = "force-dynamic";
 
+/**
+ * The front door after signing in.
+ *
+ * It used to be titled "Agents" and describe pipeline stages — adaptability
+ * rubrics, adversarial refuters, immutable constraint lines — with a terminal
+ * command printed on every card. That is a map of how the thing was built, and
+ * the person reading it is deciding where to spend a production slot.
+ *
+ * Each card now names a job in the language of the work, and says plainly what
+ * is not finished rather than dressing it as a stage.
+ */
 export default async function Home() {
   const editor = await requireEditor();
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
-      <h1 className="font-serif text-3xl tracking-tight">Agents</h1>
-      <p className="label mt-2">{editor.role} desk</p>
+      <h1 className="font-serif text-3xl tracking-tight">What you can do here</h1>
+      <p className="label mt-2">{editor.role}</p>
 
       <p className="mt-6 text-sm text-muted prose-col leading-relaxed">
-        Every stage of the pipeline is an agent you point at something and run.
-        Two are wired to a screen; the rest are on the path and shown here so the
-        shape of the tool is legible before it is finished.
+        Two halves. Find real events worth turning into a series and check
+        we&rsquo;re allowed to make them — then get more series out of the ones
+        we&rsquo;ve already made. The greyed-out cards aren&rsquo;t built yet.
       </p>
 
       <div className="mt-10 grid md:grid-cols-2 gap-5">
-        <AgentCard name="Story scout" status="Runnable" href="/scout" command="python tasks.py corpus">
-          Hunts real events by mechanism rather than keyword, opens what it cites
-          and discards anything it did not, then grades what survives against the
-          adaptability rubric and states a clearance verdict with reasons.
+        <AgentCard
+          name="Find new stories"
+          status="Ready"
+          href="/scout"
+          command="python tasks.py corpus"
+        >
+          Searches court records and news for real events strange enough to
+          carry a series. It only keeps a story if it can open the page it came
+          from, so nothing here is invented. Then it rates how long each one
+          could run and says whether we&rsquo;re allowed to make it.
         </AgentCard>
 
-        <AgentCard name="Sourcing queue" status="Last hunt" href="/sourcing">
-          The scout&rsquo;s output, ranked. Clearance is binding here, not
-          advisory: a blocked event sinks below everything clearable however well
-          it scored, and the expander refuses it.
+        <AgentCard name="Stories worth making" status="Last search" href="/sourcing">
+          Everything the search turned up, best first. Anything we can&rsquo;t
+          legally make sinks to the bottom and stays there — however good it is,
+          nobody can push it through.
         </AgentCard>
 
         <AgentCard
-          name="Slate"
-          status="Runnable"
+          name="What we’re making"
+          status="Ready"
           href="/serials"
           command={"python tasks.py serial --event <id>"}
         >
-          What has been commissioned, each season graded against the contract it
-          was generated to meet rather than against taste.
+          Series already commissioned, with the episode-by-episode plan for each
+          one and a check on whether it kept the promises it was written to keep.
         </AgentCard>
 
         <AgentCard
-          name="Spinoff writer"
-          status="Not built"
+          name="Give a side character their own show"
+          status="Not built yet"
           command={"python tasks.py spinoff --char <id>"}
         >
-          Promotes a side character to a full bible on click, compiles what they
-          witnessed into immutable constraint lines, and writes their season
-          unable to reach anything they are blind to.
+          Picks someone from the edge of a finished series and builds a season
+          around them. They can only know what they actually saw happen, so
+          their show cannot contradict the one they came from.
         </AgentCard>
 
-        <AgentCard name="Continuity validator" status="Not built" command="python tasks.py validate">
-          Three checks and three adversarial refuters, each prompted to find a
-          violation rather than confirm the spinoff is clean. A checker that only
-          ever shows green reads as decorative.
+        <AgentCard
+          name="Check nothing contradicts"
+          status="Not built yet"
+          command="python tasks.py validate"
+        >
+          Before anything goes out, six separate checks go looking for places
+          the new season clashes with the original. They&rsquo;re built to find
+          problems rather than to confirm there aren&rsquo;t any — a check that
+          always passes isn&rsquo;t telling you anything.
         </AgentCard>
       </div>
     </div>

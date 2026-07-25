@@ -26,22 +26,33 @@ export default function ErrorPage({
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-24">
-      <div className="label text-halt">Something failed</div>
+      <div className="label text-halt">Something went wrong</div>
       <h1 className="font-serif text-3xl tracking-tight mt-3">
-        The console could not read its data
+        This page couldn&rsquo;t load
       </h1>
       <p className="mt-4 text-sm text-muted prose-col leading-relaxed">
-        Missing files and missing fields are handled — a file that will not
-        parse is not. Check the JSON under <code className="font-mono">data/</code>,
-        most likely <code className="font-mono">corpus.json</code> or a story
-        dossier edited by hand.
+        Nothing you did caused this and nothing has been lost. Try again — if it
+        keeps happening, send whoever set this up the reference below.
       </p>
 
-      {error.digest && (
-        <p className="mt-4 label">
-          digest <span className="font-mono">{error.digest}</span>
+      <details className="mt-6">
+        <summary className="label cursor-pointer hover:text-ochre">
+          For whoever set this up
+        </summary>
+        <p className="mt-2 text-sm text-faint prose-col leading-relaxed">
+          Missing files and missing fields are handled; a file that will not
+          parse is not. Check the JSON under{" "}
+          <code className="font-mono">data/</code> — most likely{" "}
+          <code className="font-mono">corpus.json</code> or a story dossier
+          edited by hand.
+          {error.digest && (
+            <>
+              {" "}
+              Digest <span className="font-mono">{error.digest}</span>.
+            </>
+          )}
         </p>
-      )}
+      </details>
 
       <button
         onClick={unstable_retry}
