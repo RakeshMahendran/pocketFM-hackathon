@@ -5,6 +5,7 @@ import { ClearanceBadge } from "@/components/ClearanceBadge";
 import { CommissionAction } from "@/components/CommissionAction";
 import { Notice } from "@/components/Notice";
 import { loadCandidate } from "@/lib/data";
+import { requireEditor } from "@/lib/session";
 import { SCORE_LABELS, type Scores } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
@@ -49,6 +50,10 @@ function ScoreBars({ scores }: { scores: Scores }) {
 export default async function CandidateBrief(
   props: PageProps<"/candidates/[id]">,
 ) {
+  // Deep-linkable, so it needs the guard even though you normally arrive here
+  // from the queue.
+  await requireEditor();
+
   const { id } = await props.params;
   const c = await loadCandidate(decodeURIComponent(id));
   if (!c) notFound();
@@ -57,7 +62,7 @@ export default async function CandidateBrief(
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
-      <Link href="/" className="label hover:text-ochre transition-colors">
+      <Link href="/sourcing" className="label hover:text-ochre transition-colors">
         ← Sourcing queue
       </Link>
 

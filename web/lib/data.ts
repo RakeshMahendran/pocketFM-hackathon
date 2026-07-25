@@ -28,7 +28,7 @@ import type {
 // `..` escapes the web root, which makes the bundler trace the whole repo as a
 // dependency. The read is deliberate and server-only, so the trace is opted out
 // of rather than the path being contorted to satisfy it.
-const DATA_DIR =
+export const DATA_DIR =
   process.env.CANONFORGE_DATA ??
   path.join(/* turbopackIgnore: true */ process.cwd(), "..", "data");
 
