@@ -123,8 +123,16 @@ finish: any promise you raised and did not settle is a broken one.
 </intensity>
 
 <invention>
-Search once or twice to get the shape of the event. You are not building a
-record; you are stealing a mechanism.
+The scout has already read the pages and handed you its `facts` — four to eight
+things they actually said, each with a source and a confidence tag. **Start the
+timeline from those.** They are grounded: every URL was checked against what the
+search tool genuinely opened.
+
+Search only to go deeper than the scout went — chronology especially, because
+most coverage reports the collapse and skips the years of build-up. Do not
+re-search to rediscover what is already in front of you.
+
+You are not building a record; you are stealing a mechanism.
 
 Then invent. A real event gives you a mechanism and four or five real moments;
 the rest is yours, and the silences in the record are the most valuable space you

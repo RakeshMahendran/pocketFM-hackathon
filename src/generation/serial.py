@@ -28,7 +28,8 @@ from typing import Any, Dict, List, Optional, Sequence, Tuple
 from src.util import (DATA, DOSSIERS_PATH, ensure_dirs, load_env, log, read_json,
                       write_json)
 from src.generation.client import call_structured
-from src.generation.schemas import batch_schema, episode_word_count, length_problems
+from src.generation.schemas import (batch_schema, episode_word_count,
+                                   length_problems, render_script)
 from src.scoring.validate import validate_output
 
 PROMPTS = pathlib.Path(__file__).resolve().parent / "prompts"
@@ -234,6 +235,7 @@ def write_season(
     promises: List[Dict[str, Any]] = []
     calendar: Optional[Dict[str, Any]] = None
     scripts: Dict[int, str] = {}
+    lines: Dict[int, list] = {}
     titles: Dict[int, str] = {}
     flags: List[str] = []
 
@@ -272,7 +274,10 @@ def write_season(
                 "is written; rerun rather than accepting a season with a hole."
             )
         for e in written:
-            scripts[e["ep"]] = e.get("script", "")
+            # The writer returns lines; the readable script is rendered from
+            # them. Nothing downstream parses prose back into structure.
+            lines[e["ep"]] = e.get("lines") or []
+            scripts[e["ep"]] = render_script(e)
             titles[e["ep"]] = e.get("title", "")
 
         beats.extend(result.get("beat_sheet") or [])
@@ -296,6 +301,7 @@ def write_season(
         "title": dossier.get("title"),
         "scripts": scripts,
         "titles": titles,
+        "lines": lines,
         "beats": beats,
         "promises": promises,
         "calendar": calendar,
@@ -343,6 +349,11 @@ def persist(season: Dict[str, Any], dossier: Dict[str, Any]) -> pathlib.Path:
         "event_id": season["event_id"],
         "beats": season["beats"],
     })
+    # The lines as the writer structured them, keyed by episode. The audio stage
+    # reads these; the .md files beside them are for people. Nothing downstream
+    # parses prose back into structure any more.
+    write_json(story_dir / "lines.json",
+               {str(ep): rows for ep, rows in sorted(season.get("lines", {}).items())})
     write_json(story_dir / "promises.json", {
         "story_id": season["story_id"],
         "open_count": sum(1 for p in season["promises"] if p.get("status") == "open"),

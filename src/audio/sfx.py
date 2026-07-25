@@ -1,20 +1,14 @@
 """
-Lay spot sound effects into a finished episode.
+Lay spot sound effects into a finished episode, then master it.
 
     python -m src.audio.sfx --story story1_denied_identity --ep 1
 
-The voice pipeline produces dialogue over a mood bed and ignores `sfx_cue`
-entirely, so the stamp coming down on the word REJECTED is currently silent.
-This reads the cues back out of the episode, generates each one, and lays it at
-the line's own start time from the manifest.
+The voice pipeline gives dialogue over a mood bed and ignores `sfx_cue`. This is
+the third layer: discrete sounds at discrete moments, read from the cues and laid
+at each line's start time from the manifest.
 
-Two layers already exist — voices and ambience. This is the third: discrete
-sounds at discrete moments, which is most of the difference between an audiobook
-and an audio drama.
-
-Effects are GENERATED, not sourced. A library hands you a file ten thousand other
-shows already use, and no library contains "ninety people breathing in a
-corridor" — our cues are prose, which is exactly what a text-to-audio model
+Effects are generated, not sourced. No library contains "ninety people breathing
+in a corridor", and the cues are prose — which is what a text-to-audio model
 takes as input.
 """
 
@@ -37,15 +31,9 @@ SFX_CACHE = CACHE / "sfx"
 # reads as a mistake.
 LEAD_MS = 700
 
-# How far a spot effect sits below the dialogue it plays under, in dB.
-#
-# NOT a raw gain offset. Generated clips arrive at wildly different levels, so
-# applying a fixed -14 dB to all of them put three effects into the opening and
-# measurably *lowered* the level there — they were inaudible. Each effect is
-# normalised to the track's own average first, then offset by this.
-#
-# A stamp landing on the word REJECTED should be heard clearly. Under the voice,
-# not under the carpet.
+# How far a spot effect sits below the dialogue, in dB. Not a raw offset:
+# generated clips arrive at wildly different levels, so each is normalised to the
+# track's own average first and then ducked by this.
 DUCK_DB = -6.0
 
 SECONDS = 3
@@ -57,16 +45,9 @@ SECONDS = 3
 TARGET_LUFS = -17.0
 TARGET_TP = -1.0
 
-# alimiter caps SAMPLE peak; loudnorm reports TRUE peak, which is reconstructed
-# between samples and overshoots after mp3 encoding. A ceiling set at the target
-# therefore misses it. Measured on this material:
-#
-#     ceiling    true peak
-#       none        +0.18
-#       -1.0        -0.44
-#       -2.0        -1.49
-#
-# About 0.5 dB of overshoot, so the ceiling sits that much below the target.
+# alimiter caps sample peak; loudnorm reports true peak, which is reconstructed
+# between samples and overshoots by about this much after mp3 encoding. The
+# ceiling sits below the target to compensate.
 TP_OVERSHOOT_DB = 0.5
 
 # Silence is written as an SFX line in our scripts — "SFX: Nothing. Long." —
@@ -198,15 +179,11 @@ def apply(story: str, ep: int, duck_db: float = DUCK_DB,
 
 def _master(src: pathlib.Path, dest: pathlib.Path) -> None:
     """
-    Final loudness pass, two-pass and linear.
+    Final loudness pass: measure, then apply one static gain, then limit.
 
-    Overlaying effects onto a mix that already peaked near full scale pushed true
-    peak to +2.39 dBTP — clipping, audible as crackle on a phone. So a limiter is
-    needed. But single-pass `loudnorm` applies ADAPTIVE gain, which compressed the
-    dynamics restored a moment earlier and put loudness range straight back where
-    it started.
-
-    Measuring first and then applying `linear=true` moves the whole mix by one
+    Single-pass `loudnorm` applies adaptive gain, which compresses the dynamics
+    restored a moment earlier. Measuring first and applying `linear=true` moves
+    the whole mix by one
     static gain instead: level fixed, peak capped, dynamics untouched. This is
     also how the reference was almost certainly made.
 
@@ -228,13 +205,9 @@ def _master(src: pathlib.Path, dest: pathlib.Path) -> None:
     except ValueError:
         raise RuntimeError("could not measure the mix before mastering")
 
-    # `linear=true` moves the whole mix by one static gain, which is what keeps
-    # the dynamics — but a static gain cannot enforce a ceiling, so `TP` here is
-    # a request rather than a guarantee. It held on a flat mix and failed the
-    # moment the mix had range in it: -0.41 dBTP, over the standard.
-    #
-    # alimiter is the actual ceiling. It only engages on peaks that would breach
-    # it, so the dynamics below survive untouched.
+    # `linear=true` moves the mix by one static gain, keeping the dynamics — but
+    # a static gain cannot enforce a ceiling, so alimiter provides it. It engages
+    # only on peaks that would breach, leaving everything below untouched.
     second = (f"loudnorm=I={TARGET_LUFS}:TP={TARGET_TP}:LRA=7:linear=true"
               f":measured_I={m['input_i']}:measured_LRA={m['input_lra']}"
               f":measured_TP={m['input_tp']}:measured_thresh={m['input_thresh']}"

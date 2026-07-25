@@ -205,6 +205,25 @@ sits in, whose point of view carries it. If you catch yourself preferring a
 century-old European case because it is easier to clear, you have optimised for
 the wrong thing: it is easier to clear because everyone has already used it.
 
+## Keep what you read
+
+For your **winner only**, write down four to eight things the pages actually
+said, each with the URL you read it on and how firmly it was stated:
+
+- `verified` — a court found it, or a document establishes it
+- `reported` — the press stated it and nothing contradicts it
+- `alleged` — someone's claim, usually a prosecutor's or a complainant's
+- `disputed` — sources contradict each other
+
+Prefer the beginning over the ending. Most coverage reports the collapse — the
+arrest, the raid, the verdict — and skips the years of build-up, which is where
+the story actually lives.
+
+You have already read these pages. The next stage builds the story's spine out of
+sourced facts, and without this it searches again from scratch to recover what is
+in front of you now. Give `also_considered` entries an empty `facts` list —
+nobody should spend effort on a candidate that lost.
+
 ## Output
 
 The brief names the one category you are hunting on this call. Return **one
@@ -249,6 +268,9 @@ Both `winner` and each entry in `also_considered` use this shape:
       "clearance": {"status":"...","reasons":["..."]},
       "prior_adaptations": ["..."],
       "sources": ["url","url"],
+      "facts": [{"what_happened":"one thing the page actually says",
+                 "source":"the url you read it on",
+                 "confidence":"verified|reported|alleged|disputed"}],
       "why_this_sells": "one sentence naming the fear the listener recognises",
       "why_not": "one sentence: why it lost, or for the winner, the best case against it"
     }

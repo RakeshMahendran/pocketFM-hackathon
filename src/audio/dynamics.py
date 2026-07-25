@@ -1,21 +1,13 @@
 """
 Put the dynamics back into a finished mix.
 
-The voice pipeline normalises every dialogue clip to one loudness target. That is
-right for consistency — no clip jumps out — but it also erases the thing we spend
-the writer's attention encoding: a line tagged `hurt_anger 0.85` and a line
-tagged `neutral 0.35` come out the same size.
+The voice pipeline normalises every dialogue clip to one loudness target, which
+keeps levels consistent but flattens the intensity each line was directed with.
+This re-applies that curve afterwards: the manifest carries every line's start,
+end and intensity, so nothing was lost, only levelled.
 
-Measured against a professionally produced Indian audio drama:
-
-    reference   LRA 5.90
-    ours        LRA 2.60
-
-Loudness range is how much a mix moves. 2.6 is a read; 5.9 is a performance.
-
-Rather than change the pipeline, this re-applies the curve afterwards. The
-manifest already carries every line's start, end and intensity, so the
-information needed was never lost — only flattened.
+Loudness range is how much a mix moves. Around 2.5 is a read; 4-6 is a
+performance.
 """
 
 import sys
@@ -32,23 +24,11 @@ STORIES = DATA / "stories"
 # lines in a drama are doing something.
 PIVOT = 0.55
 
-# Half the peak-to-trough swing, in dB. Measured effect on episode 1:
+# Half the peak-to-trough swing, in dB. Roughly LRA 4.5 on a dialogue episode.
 #
-#     spread    LRA
-#       none    2.50
-#          4    2.70
-#          8    3.90
-#         12    5.30
-#         16    7.00
-#
-# The professional reference measures 5.90, which spread 12-14 would match. We
-# deliberately sit below it. That reference is a horror podcast — headphones,
-# quiet room, full attention. This audience is on cheap earphones, walking, in
-# traffic, often at 1.5x, and a line 6 dB down is a line they lose.
-#
-# Per-clip normalising to a single target is what flattened this to 2.50, and
-# that is lifeless. But the fix for a mobile format is a mix that breathes, not
-# one that matches a genre listened to under completely different conditions.
+# Deliberately below the ~6 a headphone-listened drama would use: this audience
+# is on cheap earphones in traffic, often at 1.5x, and a line 6 dB down is a line
+# they lose.
 SPREAD_DB = 10.0
 
 

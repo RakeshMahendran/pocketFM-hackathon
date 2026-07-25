@@ -101,10 +101,8 @@ def run_episode(episode_path: str, provider_override: str = None, cache_dir: str
         provider_name = provider_override or line.get("provider") or default_provider_name
         provider = providers[provider_name]
 
-        # Resolve the voice BEFORE the cache lookup. The voice is part of what
-        # makes the audio, so it has to be part of the key — a re-cast character
-        # that keeps its old clips is a silent failure, and casting locks for the
-        # whole series.
+        # Before the cache lookup: the voice is part of what makes the audio,
+        # so it has to be part of the key.
         try:
             voice_id = provider.resolve_voice_id(line["speaker"], effective_casting)
         except ProviderError as e:

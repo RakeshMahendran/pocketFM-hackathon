@@ -35,7 +35,22 @@ almost always enough.
 </what_you_can_ask>
 
 <what_you_control>
-Per line: `emotion`, `intensity`, `pace`, `bgm_cue`. Nothing else.
+Per line: `emotion`, `intensity`, `pace`, `bgm_cue`, `pause_after_ms`. Nothing
+else.
+
+<silence>
+`pause_after_ms` is the pause AFTER a line, and you are the only stage that can
+set it. The script writes silence — "SFX: Nothing. Long." — and nothing else in
+the pipeline turns that into time, so a pause you do not set does not exist.
+
+    0            the default gap; most lines
+    120-300      a beat before an answer nobody wants to give
+    400-700      a held pause before something lands
+
+Set it where the silence is doing work, and nowhere else. The line before an
+episode's final fact almost always wants one. A pause after every line is not
+weight, it is a slow read.
+</silence>
 
 Not the words. Not the order. Not the sound effects. If a line is badly written
 you may say so in `note`, but you direct what you are given.

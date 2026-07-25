@@ -82,15 +82,24 @@ def parse_script(text: str) -> List[Dict[str, str]]:
 
 def _authored_lines(story_dir: pathlib.Path, ep: int) -> List[Dict[str, Any]]:
     """
-    The writer's own `lines` for this episode, if the serial writer emitted them.
+    The writer's own lines for this episode.
 
-    Written to `lines.json` at the story root, all episodes together, the way
-    `beats.json` is. Absent for anything written before the prompt asked for it.
+    `serial.py` writes these to `lines.json` alongside `beats.json`, because the
+    writer now returns structure rather than a script string. Parsing prose back
+    apart was the old path, and a speaker label the regex did not recognise — a
+    hyphenated role, a markdown bold, a title-case name — vanished from the audio
+    with no warning.
+
+    Empty for the four stories written before the schema changed; those still
+    fall back to parsing their markdown.
     """
     path = story_dir / "lines.json"
     if not path.exists():
         return []
     doc = read_json(path)
+    per_ep = doc.get(str(ep)) or doc.get(ep) if isinstance(doc, dict) else None
+    if per_ep is not None:
+        return per_ep
     lines = doc.get("lines", doc) if isinstance(doc, dict) else doc
     return [l for l in lines if int(l.get("ep", 0)) == ep]
 

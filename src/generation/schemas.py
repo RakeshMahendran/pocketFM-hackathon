@@ -42,13 +42,26 @@ NULLABLE_STRING = {"type": ["string", "null"]}
 NULLABLE_INTEGER = {"type": ["integer", "null"]}
 
 
+# One spoken line. The writer says who speaks, what they say, and what is heard
+# under it — never how it is performed. That is the director's, and it is decided
+# with the whole episode in view.
+LINE = obj({
+    # A cast char_id, lowercase, or an unnamed walk-on role in caps.
+    "speaker": STRING,
+    # The spoken words only. No speaker label, no SFX, no parenthetical.
+    "text": STRING,
+    # The sound heard going into this line, short and literally generatable —
+    # "rubber stamp on wood, twice". Empty string when there is none.
+    "sfx_cue": STRING,
+})
+
+
 EPISODE = obj({
     "ep": INTEGER,
     "title": STRING,
-    # The whole file: SFX, NARRATOR and CHARACTER lines exactly as written.
-    # Word count is derived in Python — asking the model to count its own words
-    # produces a number, not a measurement.
-    "script": STRING,
+    # The readable .md is rendered from these. A script is a projection of its
+    # lines; the reverse is not reliably recoverable.
+    "lines": arr(LINE),
 })
 
 
@@ -124,12 +137,35 @@ def batch_schema() -> Dict[str, Any]:
     return BATCH
 
 
-def episode_word_count(script: str) -> int:
+def render_script(episode: Dict[str, Any]) -> str:
     """
-    Everything in the file, per `episode.md` — SFX lines and speaker tags
-    included. Counted here because a self-reported figure is a claim.
+    The readable script, rendered from the lines.
+
+    Humans read this and the console shows it, but nothing downstream parses it —
+    the audio stage takes `lines` directly. A projection, not a source.
     """
-    return len(script.split())
+    out = [f"# Episode {episode.get('ep', '?')} — \"{episode.get('title', '')}\"", ""]
+    for line in episode.get("lines", []):
+        if line.get("sfx_cue"):
+            out += [f"SFX: {line['sfx_cue']}", ""]
+        out += [f"{line['speaker'].upper()}: {line['text']}", ""]
+    return "\n".join(out).rstrip() + "\n"
+
+
+def episode_word_count(episode: Any) -> int:
+    """
+    Everything a listener hears plus what is written for them, per `episode.md`.
+    Counted here because a self-reported figure is a claim.
+
+    Takes an episode object; a bare string is still accepted so anything holding
+    an older script keeps working.
+    """
+    if isinstance(episode, str):
+        return len(episode.split())
+    # An episode written before the schema carried `lines` still has its script.
+    if not episode.get("lines") and episode.get("script"):
+        return len(episode["script"].split())
+    return len(render_script(episode).split())
 
 
 def word_floor(ep: int) -> int:
@@ -155,7 +191,7 @@ def length_problems(episodes: List[Dict[str, Any]]) -> List[str]:
     problems = []
     for e in episodes:
         ep = e.get("ep", 0)
-        words = episode_word_count(e.get("script", ""))
+        words = episode_word_count(e)
         floor = word_floor(ep)
         if words < floor:
             problems.append(f"ep{ep:02d} is {words} words, under its {floor} floor")

@@ -39,13 +39,15 @@ DIRECTION_SCHEMA = {
             "type": "object",
             "additionalProperties": False,
             "required": ["line_id", "emotion", "intensity", "pace", "bgm_cue",
-                         "changed_because"],
+                         "pause_after_ms", "changed_because"],
             "properties": {
                 "line_id": {"type": "string"},
                 "emotion": {"type": "string", "enum": EMOTIONS},
                 "intensity": {"type": "number"},
                 "pace": {"type": "string", "enum": PACES},
                 "bgm_cue": {"type": "string", "enum": EMOTIONS},
+                # Read by audio_post and set by no other stage.
+                "pause_after_ms": {"type": "integer"},
                 # Empty when the writer's mark was left alone. The record of what
                 # a second pass bought.
                 "changed_because": {"type": "string"},
@@ -130,6 +132,8 @@ def apply(story: str, ep: int, force: bool = False) -> pathlib.Path:
         line["intensity"] = round(min(1.0, max(0.0, float(d["intensity"]))), 2)
         line["pace"] = d["pace"]
         line["bgm_cue"] = d["bgm_cue"]
+        if d.get("pause_after_ms"):
+            line["pause_after_ms"] = int(d["pause_after_ms"])
         now = (line["emotion"], line["intensity"], line["pace"])
         if was != now and d.get("changed_because"):
             changes.append(f"  {line['line_id']}  {was[0]} {was[1]} -> "

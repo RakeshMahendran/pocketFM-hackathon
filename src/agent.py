@@ -1,22 +1,16 @@
 """
 A bounded tool-use loop.
 
-Two stages in this pipeline cannot be given what they need in advance, because
-what they need depends on what they decide to write:
+The test for an agent is not "would a model be good at this" but "can the query
+be written in advance". If it can, write it — two stages here cannot:
 
-- the serial writer, which must ask whether a character knows a thing before it
-  lets them act on it
-- the director, which must see how the episodes around this one move before it
-  can say whether this one is the climb or the dip
+- the serial writer, which asks whether a character knows a thing before letting
+  them act on it
+- the director, which needs the episodes around this one to say whether this one
+  is the climb or the dip
 
-Everything else is a single typed call, and should stay one. `CLAUDE.md` is right
-that a fifth LLM stage usually wants to be a SQL filter instead — the test for an
-agent is not "would a model be good at this" but "can the query be written in
-advance". If it can, write it.
-
-The loop is capped and every tool is a local function over data already on disk.
-No tool reaches the network, so an agent here cannot invent a source; the worst it
-can do is ask a question the data answers.
+Every tool is a local function over data already on disk. Nothing reaches the
+network, so the worst an agent here can do is ask a question the data answers.
 """
 
 import json
@@ -102,11 +96,9 @@ def run(client: Any, model: str, system: str, user: str, tools: List[Tool],
                 try:
                     result = tool.fn(**args)
                 except Exception as exc:
-                    # A tool that raises is information, not a crash — the model
-                    # can ask something else. A stage dying because it asked a
-                    # bad question would be worse than telling it the question
-                    # was bad. Looked up separately from the call, so a KeyError
-                    # from inside a tool is not reported as a missing tool.
+                    # A tool that raises is information, not a crash: the model
+                    # can ask something else. Caught separately from the lookup
+                    # so a KeyError inside a tool is not reported as a missing one.
                     result = {"error": f"{type(exc).__name__}: {exc}"}
             messages.append({
                 "type": "function_call_output",

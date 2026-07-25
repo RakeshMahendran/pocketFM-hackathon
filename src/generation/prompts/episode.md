@@ -306,10 +306,40 @@ story; one settled late because you forgot is not.
 </promises>
 
 <output>
-Produce these six, in order.
+Produce these five, in order.
 
 <episodes>
-The scripts, as written for a human to read.
+Each episode as `lines` — one entry per spoken line, in order.
+
+    {"speaker": "char_id, or an unnamed walk-on role in caps",
+     "text": "the spoken words and nothing else",
+     "sfx_cue": "the sound heard going into this line, or an empty string"}
+
+<why_structured>
+Not a script blob. You are the only stage that knows where one line ends and the
+next begins, and everything downstream needs that split: the voice, the casting,
+the timing, the mix. Handing over prose for something else to take apart again
+loses lines — a hyphenated role or an emphasised label simply disappears, and
+nothing reports it.
+
+The readable script is rendered from these. Write the lines and it exists.
+</why_structured>
+
+<fields>
+- **`text`** — spoken words only. No speaker label, no `SFX:`, no parenthetical.
+  A stage direction like "(fast)" is not text; drop it and let the direction
+  stage set pace.
+- **`speaker`** — a cast `char_id` for anyone in the cast. A one-scene walk-on
+  gets an unnamed role label in caps, and never appears in a beat's
+  `present` / `witnessed_by` / `hidden_from`.
+- **`sfx_cue`** — short and literally generatable: "temple bell, single strike".
+  Empty string when nothing is heard. A cessation is not a sound; silence is
+  timing, not a cue.
+</fields>
+
+How each line is PERFORMED — emotion, intensity, pace, the bed, the pauses — is
+not yours. That is decided afterwards, with the finished episode in view, which
+is a thing you do not have while writing line three.
 </episodes>
 
 <beat_sheet>
@@ -366,58 +396,6 @@ named non-person — an institution, a document, a figure — written as a short
 lowercase label. Never a real name, never a walk-on.
 </state_changes>
 </beat_sheet>
-
-<lines>
-The same episode again, as the voice will receive it. One entry per spoken line,
-in order, in the order they appear in the script.
-
-<schema>
-{"line_id": "l001",
- "ep": 1,
- "speaker": "char_id",
- "text": "the spoken words, and nothing else",
- "language": "en",
- "emotion": "neutral",
- "intensity": 0.4,
- "pace": "normal",
- "bgm_cue": "tension",
- "sfx_cue": "a short literal description of the sound, or omitted",
- "pause_after_ms": 0}
-</schema>
-
-You are not annotating this afterwards. You chose how every line is said while
-you were writing it — this is where that choice is recorded, and it is the only
-place the voice can read it from. A separate pass over finished prose is a guess
-at what you already knew.
-
-<fields>
-- **`text`** — the spoken words only. No speaker label, no `SFX:`, no
-  parenthetical. If a parenthetical said "(fast)", that is `pace`, not text.
-- **`emotion`** — one of the thirteen: neutral, joy, sorrow, hurt_anger, fear,
-  tenderness, tension, sarcasm, hesitation, urgency, reflective, relief,
-  longing. Choose from what the line DOES. A calm threat is `neutral`, and that
-  is what makes it frightening.
-- **`intensity`** — 0 to 1. What the line costs the person saying it. 0.3 is
-  routine, 0.6 is holding steady, 0.85 is not holding. Span at least 0.3 to 0.8
-  across an episode; a flat curve produces a flat mix.
-- **`pace`** — slow, normal, clipped, fast.
-- **`bgm_cue`** — the underscore, PER SCENE, not per line. Hold one value across
-  a scene and change it where the scene turns. Two to four values in an episode.
-  Left to follow emotion, the score changes every other line and becomes a
-  slideshow.
-- **`sfx_cue`** — the sound at that moment, written so it can be generated:
-  literal and short. "temple bell, single strike" or "kiln fire, close" — not
-  "the bell tolling like a verdict". A cessation is not a sound: "the drumming
-  stops" is silence, and belongs in `pause_after_ms`.
-- **`pause_after_ms`** — 120-300 for a beat, 400-700 for something landing.
-</fields>
-
-<narrator>
-The narrator is a speaker like any other: `"speaker": "narrator"`. Usually
-`slow`, usually `reflective`, and the line before a narrator cut almost always
-wants a pause.
-</narrator>
-</lines>
 
 <promise_ledger>
 Every promise, in the schema above — the ones you inherited and the ones you

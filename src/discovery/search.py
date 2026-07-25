@@ -149,7 +149,8 @@ _CANDIDATE = {
     "additionalProperties": False,
     "required": ["title", "category", "one_line", "year", "where", "mechanism",
                  "engine", "episode_estimate", "cast", "scores", "clearance",
-                 "prior_adaptations", "sources", "why_this_sells", "why_not"],
+                 "prior_adaptations", "sources", "facts", "why_this_sells",
+                 "why_not"],
     "properties": {
         "title": {"type": "string"},
         # An enum is the only place "one of the eight, exact name" can actually
@@ -175,6 +176,18 @@ _CANDIDATE = {
         },
         "prior_adaptations": {"type": "array", "items": {"type": "string"}},
         "sources": {"type": "array", "items": {"type": "string"}},
+        # What the pages said, so the expander builds its timeline from grounded
+        # facts rather than searching again to recover them. Winner only.
+        "facts": {"type": "array", "items": {
+            "type": "object",
+            "additionalProperties": False,
+            "required": ["what_happened", "source", "confidence"],
+            "properties": {
+                "what_happened": {"type": "string"},
+                "source": {"type": "string"},
+                "confidence": {"type": "string",
+                               "enum": ["verified", "reported", "alleged", "disputed"]},
+            }}},
         "why_this_sells": {"type": "string"},
         # The queue screen's second-most-read line after the title: an also-ran
         # without a stated reason for losing is a row an editor cannot act on.
