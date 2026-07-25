@@ -155,13 +155,20 @@ def test_an_empty_beat_sheet_is_fatal(dossier):
 # The evidence: the four seasons as committed.
 # ----------------------------------------------------------------------------
 
-# What each committed story violates today, measured. story1 is the only one a
-# downstream stage could safely read. When a story is fixed, this table is the
-# reminder to move it — a green run against stale expectations is worth nothing.
+# What each committed story violates today, measured. When a story is fixed,
+# this table is the reminder to move it — a green run against stale expectations
+# is worth nothing.
+#
+# story3 moved here after its 58 `invented` source_refs were replaced with the
+# literal `fictionalized` the contract names. That substitution under-claims:
+# a beat genuinely derived from a timeline entry loses the ability to say so,
+# but no beat gains provenance it does not have. story3 therefore has zero
+# sourced beats, which is honest and also why story1 — 39 fictionalized against
+# 7 sourced — remains the stronger season for the traceability claim.
 COMMITTED = {
     "story1_denied_identity": (),
     "story2_long_deception": ("source_ref", "participant"),
-    "story3_revenge": ("source_ref",),
+    "story3_revenge": (),
     "story4_family_betrayal": ("source_ref", "participant"),
 }
 
