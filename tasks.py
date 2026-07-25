@@ -179,8 +179,10 @@ def cmd_cast(args) -> int:
 
 def cmd_promote(args) -> int:
     """Promotion call for one character. Fires on click, never in bulk."""
-    return run_module("src.generation.promote",
-                      ["--story", args.story, "--char", args.char])
+    argv = ["--story", args.story, "--char", args.char]
+    if args.episodes:
+        argv += ["--episodes", str(args.episodes)]
+    return run_module("src.generation.promote", argv)
 
 
 def cmd_spinoff(args) -> int:
@@ -328,6 +330,9 @@ def build_parser() -> argparse.ArgumentParser:
         elif name in ("promote", "spinoff"):
             p.add_argument("--char", required=True,
                            help="character id, e.g. ratnamma")
+            if name == "promote":
+                p.add_argument("--episodes", type=int, default=None,
+                               help="how many episodes to plan (default 10)")
         elif name in ("gate1", "validate", "leak", "demo"):
             p.add_argument("--char", default=DEFAULT_CHAR, help="character id")
         elif name == "seed":
