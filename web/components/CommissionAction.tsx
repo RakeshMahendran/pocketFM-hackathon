@@ -15,16 +15,22 @@ export function CommissionAction({
   title,
   blocked,
   reasons,
+  editor,
 }: {
   id: string;
   title: string;
   blocked: boolean;
   reasons: string[];
+  editor: { id: string; name: string; role: string } | null;
 }) {
   const [shown, setShown] = useState(false);
   const [copied, setCopied] = useState<"idle" | "ok" | "fail">("idle");
 
-  const command = `python tasks.py score --event "${id}"`;
+  // `--by` stamps the dossier. Commissioning is a decision a person made, and
+  // until this existed a season recorded only the model that ranked it.
+  const command = editor
+    ? `python tasks.py score --event "${id}" --by ${editor.id}`
+    : `python tasks.py score --event "${id}"`;
 
   if (blocked) {
     return (
@@ -63,6 +69,11 @@ export function CommissionAction({
 
   return (
     <div>
+      {editor && (
+        <p className="label mb-3">
+          as {editor.name} · {editor.role}
+        </p>
+      )}
       {!shown ? (
         <button
           onClick={() => setShown(true)}

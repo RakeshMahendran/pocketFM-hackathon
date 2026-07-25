@@ -5,10 +5,17 @@ import { EDITORS, getEditor, signIn } from "@/lib/session";
 // Reads a cookie, so it can never be prerendered.
 export const dynamic = "force-dynamic";
 
+const LANDING_LABEL: Record<string, string> = {
+  "/scout": "the scout",
+  "/sourcing": "the queue",
+  "/serials": "the slate",
+};
+
 export default async function SignIn() {
   // Nobody should have to look at the picker twice; the console is not a place
   // you log into, it is a place you already are.
-  if (await getEditor()) redirect("/home");
+  const signedIn = await getEditor();
+  if (signedIn) redirect(signedIn.landing);
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-24">
@@ -16,8 +23,9 @@ export default async function SignIn() {
 
       <p className="mt-4 text-sm text-muted prose-col leading-relaxed">
         Pick a name. There is no password because there are no accounts — this
-        console runs on one machine, for one demo, and the name only decides
-        whose byline goes on a commission.
+        console runs on one machine, for one demo. Your role decides where you
+        start and whose name goes on what you commission; nobody is kept out of
+        anything, and clearance binds all four of you equally.
       </p>
 
       <form action={signIn} className="mt-10 max-w-2xl border-y border-rule divide-y divide-rule">
@@ -33,8 +41,10 @@ export default async function SignIn() {
               {e.name}
             </span>
             <span className="label">{e.role}</span>
-            <span className="label ml-auto shrink-0 opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">
-              Continue →
+            {/* Naming the destination is what stops four names reading as four
+                identical accounts. */}
+            <span className="label ml-auto shrink-0 transition-colors group-hover:text-ochre">
+              starts at {LANDING_LABEL[e.landing] ?? e.landing} →
             </span>
           </button>
         ))}

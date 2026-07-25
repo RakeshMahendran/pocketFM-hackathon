@@ -17,13 +17,26 @@ import { redirect } from "next/navigation";
  * looks like auth and isn't.
  */
 
-export type Editor = { id: string; name: string; role: string };
+export type Editor = { id: string; name: string; role: string; landing: string };
 
+/**
+ * Listed in the order work moves through the team, not alphabetically.
+ *
+ * `landing` is the only thing a role changes: everyone can reach everything and
+ * the nav is identical, but you start where your job starts. Four accounts that
+ * behaved identically would have been worse than one — four implies a
+ * difference, and implying a permission model that does not exist is the kind
+ * of thing a judge asks about.
+ *
+ * Clearance is deliberately not role-gated. `select()` in src/scoring/run.py
+ * refuses a blocked candidate whoever asks, so a UI that let Standards unlock
+ * one would be lying about the guarantee the product is sold on.
+ */
 export const EDITORS: Editor[] = [
-  { id: "priya", name: "Priya Raghavan", role: "Commissioning" },
-  { id: "arjun", name: "Arjun Menon", role: "Series editor" },
-  { id: "devika", name: "Devika Iyer", role: "Standards & clearance" },
-  { id: "farhan", name: "Farhan Qureshi", role: "Development" },
+  { id: "farhan", name: "Farhan Qureshi", role: "Development", landing: "/scout" },
+  { id: "priya", name: "Priya Raghavan", role: "Commissioning", landing: "/sourcing" },
+  { id: "devika", name: "Devika Iyer", role: "Standards & clearance", landing: "/sourcing" },
+  { id: "arjun", name: "Arjun Menon", role: "Series editor", landing: "/serials" },
 ];
 
 const COOKIE = "cf_editor";
@@ -51,7 +64,8 @@ export async function signIn(formData: FormData): Promise<void> {
   const id = String(formData.get("editor") ?? "");
   // Back to the picker rather than an error page: the only way to get here with
   // an unknown id is a hand-made POST, and there is nothing to explain to it.
-  if (!EDITORS.some((e) => e.id === id)) redirect("/");
+  const editor = EDITORS.find((e) => e.id === id);
+  if (!editor) redirect("/");
 
   (await cookies()).set(COOKIE, id, {
     httpOnly: true,
@@ -63,7 +77,7 @@ export async function signIn(formData: FormData): Promise<void> {
     // nothing at all, on stage, with no error to point at.
   });
 
-  redirect("/home");
+  redirect(editor.landing);
 }
 
 export async function signOut(): Promise<void> {

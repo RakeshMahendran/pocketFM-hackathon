@@ -51,8 +51,8 @@ export default async function CandidateBrief(
   props: PageProps<"/candidates/[id]">,
 ) {
   // Deep-linkable, so it needs the guard even though you normally arrive here
-  // from the queue.
-  await requireEditor();
+  // from the queue. The editor is also the byline on anything commissioned.
+  const editor = await requireEditor();
 
   const { id } = await props.params;
   const c = await loadCandidate(decodeURIComponent(id));
@@ -177,6 +177,7 @@ export default async function CandidateBrief(
               title={c.title}
               blocked={blocked}
               reasons={c.clearance?.reasons ?? []}
+              editor={editor}
             />
           </div>
 
