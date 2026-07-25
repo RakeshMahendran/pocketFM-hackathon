@@ -162,6 +162,11 @@ def apply(story: str, ep: int, duck_db: float = DUCK_DB) -> pathlib.Path:
             track = track.overlay(effect, position=min(at + i * 400, len(track) - 1))
             laid += 1
 
+    # Re-impose the dynamic curve the pipeline levelled away, before mastering —
+    # the limiter should see the mix as it is meant to sound.
+    from src.audio.dynamics import restore
+    track = restore(track, list(timings.values()))
+
     out = audio_dir / f"{source.stem}_sfx.mp3"
     raw = audio_dir / f".{source.stem}_premaster.mp3"
     track.export(raw, format="mp3", bitrate="128k")
@@ -174,21 +179,45 @@ def apply(story: str, ep: int, duck_db: float = DUCK_DB) -> pathlib.Path:
 
 def _master(src: pathlib.Path, dest: pathlib.Path) -> None:
     """
-    Final loudness pass.
+    Final loudness pass, two-pass and linear.
 
     Overlaying effects onto a mix that already peaked near full scale pushed true
-    peak to +2.39 dBTP — clipping, audible as crackle on a phone. Mixing without
-    a limiter after it is the mistake; this is the limiter.
+    peak to +2.39 dBTP — clipping, audible as crackle on a phone. So a limiter is
+    needed. But single-pass `loudnorm` applies ADAPTIVE gain, which compressed the
+    dynamics restored a moment earlier and put loudness range straight back where
+    it started.
 
-    Targets are taken from a professionally produced Indian audio drama measured
-    with the same tool: -17 LUFS integrated, -1.0 dBTP ceiling.
+    Measuring first and then applying `linear=true` moves the whole mix by one
+    static gain instead: level fixed, peak capped, dynamics untouched. This is
+    also how the reference was almost certainly made.
+
+    Targets are measured off a professionally produced Indian audio drama with
+    the same tool. -1.0 dBTP is the EBU R128 / Apple ceiling.
     """
+    import json as _json
     import subprocess
 
-    cmd = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(src),
-           "-af", f"loudnorm=I={TARGET_LUFS}:TP={TARGET_TP}:LRA=7",
-           "-b:a", "128k", str(dest)]
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    measure = subprocess.run(
+        ["ffmpeg", "-hide_banner", "-nostats", "-i", str(src),
+         "-af", f"loudnorm=I={TARGET_LUFS}:TP={TARGET_TP}:LRA=7:print_format=json",
+         "-f", "null", "-"],
+        capture_output=True, text=True)
+
+    blob = measure.stderr[measure.stderr.rfind("{"):measure.stderr.rfind("}") + 1]
+    try:
+        m = _json.loads(blob)
+    except ValueError:
+        raise RuntimeError("could not measure the mix before mastering")
+
+    second = (f"loudnorm=I={TARGET_LUFS}:TP={TARGET_TP}:LRA=7:linear=true"
+              f":measured_I={m['input_i']}:measured_LRA={m['input_lra']}"
+              f":measured_TP={m['input_tp']}:measured_thresh={m['input_thresh']}"
+              f":offset={m['target_offset']}")
+
+    result = subprocess.run(
+        ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(src),
+         "-af", second, "-b:a", "128k", str(dest)],
+        capture_output=True, text=True)
     if result.returncode != 0:
         raise RuntimeError(f"mastering failed: {result.stderr[:200]}")
 
