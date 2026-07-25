@@ -84,6 +84,7 @@ def call_structured(
     role: str = "WRITER",
     client: Any = None,
     max_output_tokens: int = MAX_OUTPUT_TOKENS,
+    tools: Any = None,
 ) -> Dict[str, Any]:
     """
     One structured call, cached on its inputs.
@@ -91,9 +92,18 @@ def call_structured(
     `client` is injectable so the writer can be tested without a key and without
     a socket — the tests pass a stub and never reach this module's import of the
     SDK.
+
+    `tools` turns it into a bounded tool loop instead: the model asks, the tools
+    answer from local data, and it keeps going until it stops asking. Use it only
+    where the query genuinely cannot be written in advance — a stage that could
+    be handed everything it needs should be handed it. Caching still holds,
+    because the tools read on-disk data and the same inputs produce the same
+    questions and the same answers.
     """
     model = model_for(role)
-    key = cache_key(stage=stage, model=model, system=system, user=user, schema=schema)
+    tool_names = ",".join(sorted(t.name for t in tools)) if tools else ""
+    key = cache_key(stage=stage, model=model, system=system, user=user, schema=schema,
+                    tools=tool_names)
     path = CALLS / f"{stage}_{key}.json"
 
     hit = _cached(path)
@@ -112,6 +122,19 @@ def call_structured(
         from openai import OpenAI
 
         client = OpenAI()
+
+    if tools:
+        from src.agent import run as run_agent
+
+        parsed = run_agent(client, model, system, user, tools, schema, schema_name)
+        try:
+            CALLS.mkdir(parents=True, exist_ok=True)
+            path.write_text(json.dumps(parsed, ensure_ascii=False, indent=2),
+                            encoding="utf-8")
+            log(f"{stage}: cached -> {path.name}")
+        except OSError as exc:
+            log(f"{stage}: could not cache ({exc})", "warn")
+        return parsed
 
     response = client.responses.create(
         model=model,

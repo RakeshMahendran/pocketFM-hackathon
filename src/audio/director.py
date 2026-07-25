@@ -74,31 +74,32 @@ def _episode_for_review(episode: Dict[str, Any]) -> str:
     return "\n".join(rows)
 
 
-def review(episode: Dict[str, Any], client: Any = None) -> Dict[str, Dict[str, Any]]:
+def review(episode: Dict[str, Any], story: str, ep: int,
+           client: Any = None) -> Dict[str, Dict[str, Any]]:
+    """
+    A tool loop, not a single call.
+
+    Whether this episode is the climb, the dip or the scalp depends on the ones
+    around it — and which neighbours matter depends on what the director finds
+    here. That is the test for a tool: the query cannot be written in advance.
+    Handing over a pre-flattened summary of the season would be guessing which
+    questions it was going to ask.
+    """
     if client is None:
         from openai import OpenAI
         client = OpenAI()
 
+    from src.agent import run as run_agent
+    from src.audio.season_tools import tools_for
+
     system = (PROMPTS / "director.md").read_text(encoding="utf-8")
-    user = (f"Episode: {episode.get('title', '?')}\n"
+    user = (f"Episode {ep} of {episode.get('title', '?')}\n"
             f"{len(episode['lines'])} lines. The writer's marks are in brackets.\n\n"
             f"{_episode_for_review(episode)}")
 
-    response = client.responses.create(
-        model=_model(),
-        input=[{"role": "system", "content": system},
-               {"role": "user", "content": user}],
-        text={"format": {"type": "json_schema", "name": "direction",
-                         "schema": DIRECTION_SCHEMA, "strict": True}},
-    )
-    save_raw("director", system + user, response)
-
-    text = getattr(response, "output_text", "") or ""
-    if not text.strip():
-        raise RuntimeError(
-            f"director returned nothing (status={getattr(response, 'status', '?')})")
-
-    return {d["line_id"]: d for d in json.loads(text)["lines"]}
+    result = run_agent(client, _model(), system, user, tools_for(story),
+                       DIRECTION_SCHEMA, schema_name="direction")
+    return {d["line_id"]: d for d in result["lines"]}
 
 
 def apply(story: str, ep: int, force: bool = False) -> pathlib.Path:
@@ -116,7 +117,7 @@ def apply(story: str, ep: int, force: bool = False) -> pathlib.Path:
         log("nothing to review — the writer left every line neutral. Run "
             "`python -m src.audio.tag` to direct it from scratch instead.", "warn")
 
-    directed = review(episode)
+    directed = review(episode, story, ep)
     missing = [l["line_id"] for l in episode["lines"] if l["line_id"] not in directed]
     if missing:
         raise RuntimeError(f"director skipped {len(missing)} lines: {missing[:5]}")
