@@ -1,20 +1,100 @@
 {
-  "season_start": "1822-10-07",
+  "season_start": "1822-09-16",
   "dates_fixed": [
     {
       "ep": 1,
-      "when": "1822-10-07",
-      "what": "Iain refuses to alter the certificate and receives Nora's coastal letter."
+      "when": "1822-09-16",
+      "what": "Bell's London investor salon and Ewan's discovery of the duplicate serial"
     },
     {
       "ep": 2,
-      "when": "1822-10-08",
-      "what": "The bond subscription meeting occurs the morning after the brass die is stolen."
+      "when": "1822-09-17",
+      "what": "Bell confines Ewan overnight while the auction shipment is dispatched"
     },
     {
       "ep": 3,
-      "when": "1822-10-08",
-      "what": "The document chain is exposed and the afternoon ship is cancelled."
+      "when": "1822-09-24",
+      "what": "The Calderwick recruiting meeting takes final deposits"
+    },
+    {
+      "ep": 3,
+      "when": "1822-09-25",
+      "what": "The seventy settlers' ship is scheduled to sail"
+    },
+    {
+      "ep": 4,
+      "when": "1822-10-02",
+      "what": "The first public Ravenshore bond sale succeeds and the proceeds are transferred before delivery"
+    },
+    {
+      "ep": 5,
+      "when": "1822-10-03",
+      "what": "The first expedition carrying seventy settlers departs"
+    },
+    {
+      "ep": 5,
+      "when": "1822-12-09",
+      "what": "The first ship reaches the advertised site of the Ravenshore capital"
+    },
+    {
+      "ep": 5,
+      "when": "1823-01-31",
+      "what": "Thomas's first letter reaches Bell's London office"
+    },
+    {
+      "ep": 6,
+      "when": "1823-02-01",
+      "what": "Ewan reconciles the expedition and auction accounts before Bell's investors"
+    },
+    {
+      "ep": 7,
+      "when": "1823-02-03",
+      "what": "Agnes confronts Bell's office and Ewan discovers the empty relief fund and the second expedition notice"
+    },
+    {
+      "ep": 8,
+      "when": "1823-02-04",
+      "what": "The expedition complaint is publicly recorded and Ewan is accused of stealing the relief fund"
+    },
+    {
+      "ep": 9,
+      "when": "1823-02-04",
+      "what": "The theft ledger is disproved, Bell admits the treasury is empty, and the second ship's departure is confirmed"
+    },
+    {
+      "ep": 9,
+      "when": "1823-02-04 08:10",
+      "what": "The second settler ship departs France"
+    },
+    {
+      "ep": 10,
+      "when": "1823-05-12",
+      "what": "Thomas returns with survivors, Bell funds the settlement, Agnes recovers the shop deed, and Tawis arrives with the coastal record"
+    },
+    {
+      "ep": 11,
+      "when": "1835-04-21",
+      "what": "Macrae offers Ewan a partnership and Ewan is served with the creditor's writ"
+    },
+    {
+      "ep": 12,
+      "when": "1835-04-22",
+      "what": "Ewan reconstructs the Ravenshore chain and Bell surrenders the April 1834 grant"
+    },
+    {
+      "ep": 12,
+      "when": "1834-04",
+      "what": "The sealed sixty-acre Ravenshore grant was issued"
+    },
+    {
+      "ep": 13,
+      "when": "1835-04-23",
+      "what": "Bell admits how the imitation government secured investor trust and Macrae's final certificate identifies Ewan as the controlling witness"
+    },
+    {
+      "ep": 14,
+      "when": "1835-04-24",
+      "what": "The final registry hearing voids the Ravenshore instruments and enters Ewan as official cancellation witness"
     }
   ],
   "periods_fixed": [
@@ -30,8 +110,87 @@
         2,
         3
       ],
-      "elapsed": "later the same day"
+      "elapsed": "seven days"
+    },
+    {
+      "between": [
+        3,
+        4
+      ],
+      "elapsed": "eight days"
+    },
+    {
+      "between": [
+        4,
+        5
+      ],
+      "elapsed": "the expedition departs the next day; its landing occurs sixty-seven days after the bond sale"
+    },
+    {
+      "between": [
+        5,
+        6
+      ],
+      "elapsed": "one day between Thomas's letter reaching London and Ewan's public reconciliation"
+    },
+    {
+      "between": [
+        6,
+        7
+      ],
+      "elapsed": "two days"
+    },
+    {
+      "between": [
+        7,
+        8
+      ],
+      "elapsed": "the second expedition is scheduled to depart the next morning"
+    },
+    {
+      "between": [
+        8,
+        9
+      ],
+      "elapsed": "the ink examination and confirmation of the second ship's departure occur later the same day"
+    },
+    {
+      "between": [
+        9,
+        10
+      ],
+      "elapsed": "three months and eight days"
+    },
+    {
+      "between": [
+        10,
+        11
+      ],
+      "elapsed": "eleven years, eleven months, and nine days"
+    },
+    {
+      "between": [
+        11,
+        12
+      ],
+      "elapsed": "one day"
+    },
+    {
+      "between": [
+        12,
+        13
+      ],
+      "elapsed": "one day"
+    },
+    {
+      "between": [
+        13,
+        14
+      ],
+      "elapsed": "one day"
     }
   ],
-  "unresolved": []
+  "unresolved": [
+    "The episode 12 ends_on calls April 1834 thirteen years after the first settlers were abandoned, but canon fixes the first expedition's arrival on 1822-12-09, making the interval less than twelve years."
+  ]
 }

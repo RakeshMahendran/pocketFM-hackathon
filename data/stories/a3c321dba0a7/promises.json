@@ -3,30 +3,48 @@
   "open_count": 0,
   "promises": [
     {
-      "id": "p001",
-      "raised_ep": 1,
-      "listener_is_waiting_for": "whether Nora's report that Poyais has no functioning capital, port authority or government will be proved",
-      "must_pay_by_ep": 3,
-      "paid_ep": 3,
-      "how_paid": "Nora testified in person, Tomas traced the purported departments to one London office, and the bond sale was stopped.",
+      "id": "p009",
+      "raised_ep": 8,
+      "listener_is_waiting_for": "whether the false collateral entry will cause Elspeth to lose her house",
+      "must_pay_by_ep": 14,
+      "paid_ep": 14,
+      "how_paid": "Vey ordered the registry to discharge the false collateral entry against Elspeth's house and Bell withdrew every related claim.",
       "status": "paid"
     },
     {
-      "id": "p002",
-      "raised_ep": 2,
-      "listener_is_waiting_for": "how the stolen brass die connects Cassian's dispatch to the wider Poyais paper system",
-      "must_pay_by_ep": 3,
-      "paid_ep": 3,
-      "how_paid": "Iain matched the die's damaged impression across grants, banknotes, the dispatch and the ship authorization.",
+      "id": "p010",
+      "raised_ep": 9,
+      "listener_is_waiting_for": "what happens to the settlers aboard the second ship that escaped Ewan's warning",
+      "must_pay_by_ep": 14,
+      "paid_ep": 14,
+      "how_paid": "Tawis's supplemental return established that the second ship was refused entry, diverted to a licensed harbour, and all its settlers were repatriated.",
       "status": "paid"
     },
     {
-      "id": "p003",
-      "raised_ep": 2,
-      "listener_is_waiting_for": "whether the warning will stop the next ship before another group sails",
-      "must_pay_by_ep": 3,
-      "paid_ep": 3,
-      "how_paid": "Rowan and Edwin carried Osric's warning to harbour control, which cancelled the Prosperity's departure with 114 passengers aboard.",
+      "id": "p011",
+      "raised_ep": 10,
+      "listener_is_waiting_for": "whether Tawis's coastal record can invalidate Macrae's claim to govern and sell the land",
+      "must_pay_by_ep": 14,
+      "paid_ep": 14,
+      "how_paid": "The registry admitted Tawis's record and found no recognized Ravenshore government, land cession, or authority supporting Macrae's sales.",
+      "status": "paid"
+    },
+    {
+      "id": "p012",
+      "raised_ep": 11,
+      "listener_is_waiting_for": "whether Ewan can defeat the creditor's claim that his forged initials made him a co-director",
+      "must_pay_by_ep": 14,
+      "paid_ep": 14,
+      "how_paid": "Pippa, Ross, and Bell established that Ewan's initials were copied without authorization, and Vey dismissed the creditor's co-director claim.",
+      "status": "paid"
+    },
+    {
+      "id": "p013",
+      "raised_ep": 12,
+      "listener_is_waiting_for": "how many later Ravenshore grants Macrae issued and whether the April 1834 grant can void the remaining land issue",
+      "must_pay_by_ep": 14,
+      "paid_ep": 14,
+      "how_paid": "Ross established that sixty certificates were printed for the final issue, Bell identified forty-three purchaser entries and seventeen cleared deposits, and Ewan used the issue's witness clause to invalidate it.",
       "status": "paid"
     }
   ]

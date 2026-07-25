@@ -13,12 +13,14 @@ import json
 import pytest
 
 from src.generation import client as gen_client
+from src.generation import serial
 from src.generation.schemas import length_problems, word_floor
 from src.generation.serial import (
     batches,
     build_user_prompt,
     character_ledger,
     last_lines,
+    persist,
     speaker_lines,
     write_season,
 )
@@ -244,6 +246,65 @@ def test_short_episodes_are_flagged_rather_than_silently_shipped():
 # ---------------------------------------------------------------------------
 # LENGTH RULES
 # ---------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------
+# PERSISTING
+# ---------------------------------------------------------------------------
+
+def season_of(n, story="story_test"):
+    return {
+        "story_id": story, "event_id": "evt_test_1999", "title": "T",
+        "scripts": {i: f"SFX: A door.\nASHA: line {i}." for i in range(1, n + 1)},
+        "titles": {i: f"Episode {i}" for i in range(1, n + 1)},
+        "beats": [], "promises": [], "calendar": None, "flags": [],
+    }
+
+
+def test_a_shorter_season_does_not_leave_the_longer_one_behind(tmp_path, monkeypatch):
+    """
+    Every screen lists the episodes directory rather than the season plan, so a
+    surplus file is shown as part of the season. A 14-episode story
+    re-commissioned as a 3-episode taster really did leave episodes 4-14 on
+    disk, starring a cast the new dossier had never heard of.
+    """
+    monkeypatch.setattr(serial, "STORIES", tmp_path)
+
+    persist(season_of(14), DOSSIER)
+    assert len(list((tmp_path / "story_test" / "episodes").glob("ep*.md"))) == 14
+
+    persist(season_of(3), DOSSIER)
+    left = sorted(p.name for p in (tmp_path / "story_test" / "episodes").glob("ep*.md"))
+    assert left == ["ep01.md", "ep02.md", "ep03.md"]
+
+
+def test_persist_leaves_files_it_does_not_own_alone(tmp_path, monkeypatch):
+    """`audio/` and a handoff note belong to other stages. Not persist's to delete."""
+    monkeypatch.setattr(serial, "STORIES", tmp_path)
+    persist(season_of(3), DOSSIER)
+
+    episodes = tmp_path / "story_test" / "episodes"
+    (episodes / "notes.md").write_text("keep me", encoding="utf-8")
+    (tmp_path / "story_test" / "HANDOFF.md").write_text("keep me too", encoding="utf-8")
+
+    persist(season_of(2), DOSSIER)
+    assert (episodes / "notes.md").exists()
+    assert (tmp_path / "story_test" / "HANDOFF.md").exists()
+
+
+def test_a_stale_calendar_is_removed_rather_than_left_dating_a_dead_season(
+    tmp_path, monkeypatch
+):
+    monkeypatch.setattr(serial, "STORIES", tmp_path)
+
+    dated = season_of(3)
+    dated["calendar"] = {"season_start": "1821", "dates_fixed": [],
+                         "periods_fixed": [], "unresolved": []}
+    persist(dated, DOSSIER)
+    assert (tmp_path / "story_test" / "calendar.json").exists()
+
+    persist(season_of(3), DOSSIER)
+    assert not (tmp_path / "story_test" / "calendar.json").exists()
+
 
 def test_word_floor_ramps_over_the_first_three_episodes():
     assert [word_floor(n) for n in (1, 2, 3, 4, 14)] == [250, 500, 750, 1000, 1000]

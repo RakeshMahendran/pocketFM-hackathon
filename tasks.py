@@ -124,6 +124,18 @@ def cmd_score(args) -> int:
     return run_module("src.scoring.run", extra)
 
 
+def cmd_publish(args) -> int:
+    """Put a written season in front of listeners, if its checks pass."""
+    extra = ["--story", args.story]
+    if args.by:
+        extra += ["--by", args.by]
+    if args.check:
+        extra += ["--check"]
+    if args.unpublish:
+        extra += ["--unpublish"]
+    return run_module("src.publish", extra)
+
+
 def cmd_commission(args) -> int:
     """Plan a season and write its scripts. What the console's button runs."""
     extra = ["--event", args.event]
@@ -203,6 +215,7 @@ COMMANDS = {
     "corpus": cmd_corpus,
     "score": cmd_score,
     "commission": cmd_commission,
+    "publish": cmd_publish,
     "serial": cmd_serial,
     "promote": cmd_promote,
     "spinoff": cmd_spinoff,
@@ -226,7 +239,15 @@ def build_parser() -> argparse.ArgumentParser:
     for name, fn in COMMANDS.items():
         doc = (fn.__doc__ or "").strip().splitlines()[0]
         p = sub.add_parser(name, help=doc)
-        if name == "score":
+        if name == "publish":
+            p.add_argument("--story", required=True,
+                           help="directory under data/stories")
+            p.add_argument("--by", default=None, help="who is publishing it")
+            p.add_argument("--check", action="store_true",
+                           help="report the checks without publishing")
+            p.add_argument("--unpublish", action="store_true",
+                           help="return it to draft")
+        elif name == "score":
             p.add_argument("--event", default=None, metavar="ID_OR_TITLE",
                            help="corpus item id or title fragment to commission; "
                                 "omit to take the scout's pick")

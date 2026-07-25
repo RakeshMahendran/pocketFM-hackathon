@@ -39,6 +39,9 @@ STORIES = DATA / "stories"
 # negotiated across many.
 BATCH_SIZE = 3
 
+# The episode filenames persist() owns, and so the only ones it may delete.
+EPISODE_FILE = re.compile(r"^ep\d+\.md$")
+
 # `hi-en` is Hinglish. The prompt treats the choice as load-bearing rather than
 # cosmetic, so it is stated once here and not guessed per batch.
 DEFAULT_LANGUAGE = "en"
@@ -301,16 +304,38 @@ def write_season(
 
 
 def persist(season: Dict[str, Any], dossier: Dict[str, Any]) -> pathlib.Path:
-    """Write the season where the Slate screen and the validator read from."""
-    story_dir = STORIES / season["story_id"]
-    (story_dir / "episodes").mkdir(parents=True, exist_ok=True)
+    """
+    Write the season where the Slate screen and the validator read from.
 
+    Writing is not enough: the directory has to be left holding *this* season and
+    nothing else. A story re-commissioned shorter keeps the earlier run's surplus
+    `epNN.md` files otherwise, and since every screen lists the directory rather
+    than the season plan, it shows fourteen episodes for a three-episode season —
+    the last eleven starring a cast the current dossier has never heard of. The
+    same argument applies to `calendar.json`: a stale one dates a story that no
+    longer exists.
+
+    Only the two names this function writes are ever removed, and only inside
+    `data/stories/<story_id>/`. Everything else under there belongs to another
+    stage — `audio/`, a handoff note — and is none of persist's business.
+    """
+    story_dir = STORIES / season["story_id"]
+    episodes_dir = story_dir / "episodes"
+    episodes_dir.mkdir(parents=True, exist_ok=True)
+
+    written = set()
     for ep, script in sorted(season["scripts"].items()):
         title = season["titles"].get(ep, "")
         header = f"# Episode {ep}" + (f" — {title}" if title else "") + "\n\n"
-        (story_dir / "episodes" / f"ep{ep:02d}.md").write_text(
-            header + script.rstrip() + "\n", encoding="utf-8"
-        )
+        path = episodes_dir / f"ep{ep:02d}.md"
+        path.write_text(header + script.rstrip() + "\n", encoding="utf-8")
+        written.add(path.name)
+
+    for stale in sorted(episodes_dir.iterdir()):
+        if stale.is_file() and EPISODE_FILE.match(stale.name) and stale.name not in written:
+            stale.unlink()
+            log(f"{season['story_id']}: removed stale {stale.name} "
+                f"— not in this {len(written)}-episode season", "warn")
 
     write_json(story_dir / "dossier.json", dossier)
     write_json(story_dir / "beats.json", {
@@ -323,8 +348,13 @@ def persist(season: Dict[str, Any], dossier: Dict[str, Any]) -> pathlib.Path:
         "open_count": sum(1 for p in season["promises"] if p.get("status") == "open"),
         "promises": season["promises"],
     })
+    calendar_path = story_dir / "calendar.json"
     if season["calendar"]:
-        write_json(story_dir / "calendar.json", season["calendar"])
+        write_json(calendar_path, season["calendar"])
+    elif calendar_path.exists():
+        calendar_path.unlink()
+        log(f"{season['story_id']}: removed stale calendar.json "
+            f"— this season fixed no dates", "warn")
     return story_dir
 
 

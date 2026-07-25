@@ -4,7 +4,9 @@ import { notFound } from "next/navigation";
 import { ClearanceBadge } from "@/components/ClearanceBadge";
 import { Notice } from "@/components/Notice";
 import { SeasonSpine } from "@/components/SeasonSpine";
+import { PublishPanel } from "@/components/PublishPanel";
 import { loadCandidate } from "@/lib/data";
+import { readChecks, readPublishState } from "@/lib/publish";
 import { loadSerial, type Confidence, type PromiseLedger, type Serial } from "@/lib/serials";
 import { requireEditor } from "@/lib/session";
 import { SCORE_LABELS, type Scores } from "@/lib/types";
@@ -342,6 +344,10 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
   // the search and match nothing — for those there is no story to point at,
   // which is the honest answer rather than a broken link.
   const origin = await loadCandidate(storyId);
+  const [publishState, checks] = await Promise.all([
+    readPublishState(storyId),
+    readChecks(storyId),
+  ]);
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
@@ -651,6 +657,14 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
         </div>
 
         <aside className="space-y-8">
+          {/* First in the sidebar: it is the decision this page exists to support. */}
+          <PublishPanel
+            storyId={storyId}
+            episodes={s.episodeCount}
+            state={publishState}
+            checks={checks}
+          />
+
           {s.scores && (
             <Section title={HEADING.score} aside={`${s.scores.total} of 50`}>
               <ScoreBars scores={s.scores} />
