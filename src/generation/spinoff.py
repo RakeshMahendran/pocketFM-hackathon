@@ -3,10 +3,20 @@ The spinoff writer — one episode of a side character's own serial.
 
     python tasks.py spinoff --story story1_denied_identity --char ratnamma --anchor b033
 
-This is the one live call in the demo. Everything it is allowed to know arrives in
-the brief; everything it is forbidden to know arrives in the same brief, spelled
-out. What comes back is sealed in Python before it is written anywhere, because a
-prompt is an instruction and canon needs a guarantee.
+This is the one live call in the demo. Everything the character knows arrives in
+the brief, and everything they are forbidden to know arrives in the same brief,
+spelled out.
+
+That list was not enough on its own. A writer working from it still has to judge
+whether the specific sentence it is about to write traces back to a sealed beat,
+and a real run put a pension sanction in ratnamma's mouth that b032 seals and she
+never witnessed — caught by the validator's leakage check and all three
+refuters. So the constrained arm is an agent: it can ask the canon whether this
+character knows this beat, at the line, before writing it.
+
+The control arm gets no tools and no list. What comes back from either is sealed
+in Python before it is written anywhere, because a prompt is an instruction and
+canon needs a guarantee.
 """
 
 import sys
@@ -16,6 +26,7 @@ import argparse
 import datetime as dt
 from typing import Any, Dict, List, Optional
 
+from src import canon_tools
 from src.canon import store, views
 from src.generation.client import call_structured, model_for
 from src.generation.schemas import obj
@@ -115,12 +126,23 @@ def write_spinoff(story: Dict[str, Any], char_id: str,
         log("control run: whole season, no prohibition list, no knowledge rules",
             "warn")
 
+    # The constrained arm can ask. A prohibition list says which beats are
+    # forbidden; it does not say whether the specific thing the writer is about
+    # to have the character say traces back to one. `does_character_know` answers
+    # that from the beats, on the line, before it is written.
+    #
+    # The control arm gets no tools, deliberately. Handing it a way to check
+    # would make it a second constrained run, and the leak it exists to produce
+    # is the proof that the constraint is doing the work.
+    tools = canon_tools.tools_for(story["story_id"]) if constrained else None
+
     result = call_structured(
         stage=("spinoff" if constrained else "spinoff_naive")
               + f"_{story['story_id']}_{char_id}_{anchor_beat_id}",
         system=system, user=user,
         schema=SPINOFF_SCHEMA, schema_name="spinoff",
         role="WRITER", client=client, max_output_tokens=MAX_OUTPUT_TOKENS,
+        tools=tools,
     )
 
     return {

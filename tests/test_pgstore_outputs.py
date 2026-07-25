@@ -37,6 +37,7 @@ pytest.importorskip("psycopg")
 from psycopg.types.json import Jsonb  # noqa: E402  (after the importorskip)
 
 from src.canon import pgstore  # noqa: E402
+from src.generation import spinoff  # noqa: E402
 
 SCHEMA = "canonforge_test"
 STORY = "story1_denied_identity"
@@ -333,7 +334,12 @@ def test_a_null_optional_field_comes_back_as_an_absent_key(conn):
            pgstore.branch_beats(STORY, "ratnamma", "b033", conn, schema=SCHEMA)}
 
     assert "crossing_of" not in got[uncrossed[0]["beat_id"]]
-    assert got[record["beats"][0]["beat_id"]]["crossing_of"] == "b033"
+
+    # Found, not indexed. Which beat crosses is the writer's choice and moved
+    # from the first to the third when the episode was regenerated.
+    crossed = [b for b in record["beats"] if b["crossing_of"] is not None]
+    assert crossed, "fixture no longer exercises the set case"
+    assert got[crossed[0]["beat_id"]]["crossing_of"] == crossed[0]["crossing_of"]
 
 
 def test_the_bible_comes_back_exactly_as_promotion_wrote_it(conn):
@@ -636,21 +642,38 @@ def test_two_characters_anchored_on_the_same_beat_do_not_clear_each_other(conn):
     assert len(pgstore.branch_beats(STORY, "savithri", "b033", conn, schema=SCHEMA)) == 4
 
 
-def test_two_episodes_of_one_character_really_do_reuse_the_same_beat_ids():
+def test_two_episodes_of_one_character_reuse_beat_ids_without_the_anchor():
     """
     Why the guard's second rule exists, stated as data rather than as a comment.
-    `seal_branch_beats` numbers beats `x_<char>_NNN` per episode, so Ratnamma's
-    b014 episode and her b033 episode both claim `x_ratnamma_001` — and the
-    branch-beat DELETE is scoped by anchor, so it cannot absorb the collision.
-    Whichever ran last would win in silence if the trigger were ever dropped.
-    """
-    a = [b["beat_id"] for b in _artifact("ratnamma__b014")["beats"]]
-    b = [b["beat_id"] for b in _artifact("ratnamma__b033")["beats"]]
 
-    assert set(a) & set(b), "the fixtures no longer collide; re-read the guard"
-    # And the delete cannot absorb it, because the two runs name different anchors.
-    assert _artifact("ratnamma__b014")["anchor_beat_id"] != \
-        _artifact("ratnamma__b033")["anchor_beat_id"]
+    `seal_branch_beats` namespaces by anchor now, so two episodes of one character
+    no longer collide — but the fallback path, and every artifact written before
+    that fix, still number from 001 off `char_id` alone. `ratnamma__b014.json` on
+    disk is one of them. The branch-beat DELETE is scoped by anchor, so it cannot
+    absorb the collision: whichever loaded second would silently take the first
+    one's place if the trigger were ever dropped.
+
+    Built from the id scheme rather than from two committed files, because the
+    version that compared artifacts passed only while both were stale, and went
+    green-to-red the moment one was regenerated.
+    """
+    story = {"cast": [{"char_id": "ratnamma"}, {"char_id": "savithri"}]}
+    beats = [{"what_happened": "a thing happened", "present": ["ratnamma"]}]
+
+    b014 = spinoff.seal_branch_beats(story, "ratnamma", beats, anchor_beat_id="")
+    b033 = spinoff.seal_branch_beats(story, "ratnamma", beats, anchor_beat_id="")
+
+    assert {b["beat_id"] for b in b014} & {b["beat_id"] for b in b033}
+
+    # And the fix, so the test says what changed as well as what it guards.
+    with_anchor = spinoff.seal_branch_beats(story, "ratnamma", beats,
+                                            anchor_beat_id="b033")
+    assert not {b["beat_id"] for b in b014} & {b["beat_id"] for b in with_anchor}
+
+    # The stale artifact is still on disk and still loadable, which is what keeps
+    # the guard load-bearing rather than historical.
+    assert any(b["beat_id"].startswith("x_ratnamma_0")
+               for b in _artifact("ratnamma__b014")["beats"])
 
 
 def test_the_unconstrained_arm_writes_no_branch_canon(conn):

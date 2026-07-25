@@ -50,9 +50,16 @@ def tools_for(story: str) -> List[Tool]:
         beat = next((b for b in _beats(story) if b["beat_id"] == beat_id), None)
         if not beat:
             return {"error": f"no beat {beat_id}"}
+        # `witnessed_by` alone, matching `views.knows`. Being in the room is not
+        # knowing — a character present and not witnessing is where dramatic
+        # irony lives, and answering True for them tells a writer it may use a
+        # fact the validator will then flag.
         return {
             "char_id": char_id, "beat_id": beat_id,
-            "knows": char_id in beat.get("present", []) + beat.get("witnessed_by", []),
+            "knows": char_id in beat.get("witnessed_by", []),
+            "present_but_did_not_witness": (
+                char_id in beat.get("present", [])
+                and char_id not in beat.get("witnessed_by", [])),
             "explicitly_blind": char_id in beat.get("hidden_from", []),
             "what_happened": beat["what_happened"],
         }

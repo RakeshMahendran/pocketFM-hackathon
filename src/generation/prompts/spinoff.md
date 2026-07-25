@@ -88,6 +88,30 @@ intuition, and it is the failure this whole system exists to prevent. A characte
 may suspect, misread, guess wrong, or invent an explanation that happens to be
 close. She may never be quietly right about something she was never told.
 </rationale>
+
+<ask_before_you_write_it>
+You can query the canon. Use it — the list tells you which beats are sealed, but
+not whether the sentence you are about to write traces back to one, and that is
+the judgement the check exists for.
+
+    does_character_know(char_id, beat_id)   the one that matters
+    who_was_there(beat_id)                  present / witnessed / hidden
+    character_knows(char_id)                everything she witnessed
+    character_blind(char_id)                everything she did not
+
+`knows` is `witnessed_by`. A character can be in the room and not know — an order
+signed at a desk she is standing beside, read out after she leaves. `present` is
+not permission.
+
+Ask whenever a line turns on a specific thing: an order, an amount, a date, a
+decision, a name she has no reason to have heard. The cost of asking is one call.
+The cost of not asking is a violation that reads as the system not working.
+
+A previous run had this character state a pension sanction as fact. It was sealed
+in a beat she never witnessed, it was on her prohibition list, and the writer
+wrote it anyway because the sentence felt like hers. One `does_character_know`
+would have stopped it.
+</ask_before_you_write_it>
 </prohibited_knowledge>
 
 <crossing_points>

@@ -15,7 +15,7 @@
     "kind": "witnessed"
   },
   "constrained": true,
-  "generated_at": "2026-07-25T20:07:26.811675+00:00",
+  "generated_at": "2026-07-25T23:23:01.651704+00:00",
   "model": "gpt-5.6-sol",
   "forbidden": {
     "story_id": "story1_denied_identity",
@@ -457,55 +457,56 @@
     }
   ],
   "bible": {
-    "want": "ratnamma files petitions, demands numbered receipts, and returns to every counter until lokanath and ratnamma appear on the same government record and the twenty-eight years of arrears are formally decided.",
-    "wound": "She refuses to be sent home with sympathy, private apologies, or promises that leave no paper behind. She knows that forcing every acknowledgment into public procedure can humiliate bystanders and turn families into respondents, but she chooses that damage because quiet mercy has erased her before.",
-    "voice": "She speaks in long, accumulating sentences built from dates, sums, counts, weather, and remembered physical details, then ends with a short, flat verdict. When discomfort approaches, she changes the subject to chronology or accounting: how many years, which day, what hour, which numbered paper. When frightened, she becomes formal and loud, demands that names be said in front of witnesses, and makes the listener repeat the statement so it cannot later be denied.",
-    "engine": "ratnamma's eleven-day marriage was never registered, so every office demands proof issued by another office before it will create the first usable record. She must build an official existence one receipt, witness, copy, and public admission at a time; every delay weakens old evidence, while every escalation risks alienating the very people whose cooperation the next counter will require. Even a victory only sends her to the next office for pension payment, arrears, identity documents, or inheritance recognition.",
+    "want": "To file, refile, and publicly press her claim until a numbered government record places ratnamma beside lokanath, while keeping the arrears demand alive as leverage.",
+    "wound": "She refuses to return as a private supplicant whose place can be denied at a gate, so she knowingly turns recognition into litigation and people into respondents. It protects her from being dismissed quietly, but costs her years, allies, and the risk of punishing people who did not erase her.",
+    "voice": "Her calm speech is short, flat, and formal; under pressure it expands into long accumulations of dates, sums, routes, and counted occasions. She repeats the exact number that proves she remembers. When emotion approaches, she changes the subject to chronology, paperwork, or who stood where. When frightened, her voice becomes small and she reduces everything to one concrete demand: one name, one line, one answer said back aloud.",
+    "engine": "Because ratnamma has no government record recognizing her marriage, every procedure sends her to another certifier, witness, or office. She cannot distinguish an ordinary missing record from a refusal serving someone else's interests, so she treats every silence as another procedural obstacle. To obtain signatures and guidance, she carries petitions for other unrecorded people in exchange; every favor creates another deadline, obligation, rival claim, or official to confront, turning her personal case into an expanding shadow network of people the state cannot easily see.",
     "offscreen_ledger": [
       {
         "window": "between the season opening and b013",
-        "what": "ratnamma empties her cloth bags, inventories every death paper, rejected application, advocate's letter, and postal receipt she has kept since 1994, wraps the sole wedding photograph against rain, revisits government counters to demand written refusals, calculates the unpaid years from old salary tables, and prepares to confront the household again rather than accept another verbal dismissal."
+        "what": "ratnamma sorts twenty-eight years of rejection slips and postal acknowledgments by date, queues at government counters, dictates fresh representations at a typing stall, trades help with other petitioners for stamp paper and witness leads, and pays an advocate to calculate an arrears claim large enough to force a hearing."
       },
       {
         "window": "between b015 and b029",
-        "what": "ratnamma takes the photograph back into safekeeping, hires an advocate to draft a claim against the department and savithri, checks the arithmetic behind forty-one lakh sixty thousand rupees line by line, borrows the filing and service costs, signs each page only after its contents are read aloud, and directs that service occur where officials and witnesses cannot pretend not to have seen it."
+        "what": "ratnamma has careful copies made from the wedding photograph, visits former guests seeking attesting statements, sends registered demands to several offices, helps two other widows prepare replies in return for introductions to clerks, and instructs her advocate to draft a claim against both the department and savithri so it cannot be left unanswered in a cupboard."
       },
       {
         "window": "between b030 and b033",
-        "what": "ratnamma waits outside offices while her petition moves, receives the numbered pension sanction delivered at four o'clock, reads the line joining her name to lokanath's repeatedly, carries the order to her advocate, and instructs the advocate to withdraw the claim against savithri before returning to announce that withdrawal publicly."
+        "what": "ratnamma collects proof that the petition was served, refuses an informal cash compromise, prepares a signed instruction allowing savithri to be removed from the claim, and drafts a declaration clearing her that can be read where the lane will hear it."
       },
       {
         "window": "between b033 and b042",
-        "what": "ratnamma makes several copies of the pension order, seals the original away from the wedding photograph, submits the banking and identity forms needed to begin payment, reopens her widow-card application with the new order attached, and files a separate written request for an arrears decision, refusing to leave until its inward number is entered on her copy."
+        "what": "ratnamma obtains a certified copy of the withdrawal, rebuilds her document bundles after repeated handling, records the names of everyone willing to attest to the wedding, rehearses her own evidence by date and number, and repays petition favors by accompanying other claimants to counters where they are afraid to speak alone."
       }
     ],
-    "reframe": "The mainline is about a household whose papers turn against it; ratnamma's serial is about an undocumented widow converting memory into admissible proof without letting the state's cruelty dictate whom she must destroy to be recognized.",
+    "reframe": "The mainline is about a family trapped inside a stolen public identity; ratnamma's serial is about an unrecorded widow building a parallel civic system of favors, testimony, and public shame to compel the state to admit that her eleven-day marriage existed.",
     "stance": "dupe",
-    "genre": "bureaucratic legal thriller",
-    "pitch": "An unregistered widow armed with one photograph makes the state issue a receipt for every year it erased."
+    "genre": "Bureaucratic legal thriller",
+    "pitch": "With one fading wedding photograph and twenty-eight years of refusals, an unregistered widow turns every government counter into a courtroom."
   },
   "episode": {
-    "title": "Same Line",
-    "logline": "With a numbered pension order finally joining her name to Lokanath’s, Ratnamma must publicly release the woman she used as legal leverage before she can cross the family threshold for the first time in twenty-eight years.",
-    "script": "SFX: A bus grinds away. Sandals on a dirt lane. A cloth bag buckle knocks against a metal document box.\n\nNARRATOR: At four-twenty, Ratnamma returned to the lane with one government order, three carbon copies, and a decision that had to be heard by witnesses.\n\nKEMPANNA: She has come again.\n\nLANE WOMAN: Savithri! The petition woman is at your gate.\n\nSFX: A wooden gate creaks. Neighbours’ footsteps gather on both sides of the lane.\n\nRATNAMMA: Do not call inside quietly. Call everyone who heard when the notice came, everyone who counted the pages, everyone who said respondent number two as though it were Savithri’s given name. If they heard the accusation, they will hear the withdrawal. Call them.\n\nKEMPANNA: You dragged a housewife into a case and now you arrive giving instructions at her own gate.\n\nRATNAMMA: Correct. I used her name to make an office answer me. I knew what I was doing when I did it, I knew she would have to stand before people and explain a petition she had not written, and I knew the lane would enjoy her fear. I was ashamed. I still filed it.\n\nLANE WOMAN: Listen to that. She admits it.\n\nRATNAMMA: Write down the time of my admission if you like. Four-twenty in the afternoon. But remain here for the next sentence.\n\nSFX: A door opens. Steel bangles. Bare feet stop on the veranda.\n\nSAVITHRI: Ratnamma.\n\nRATNAMMA: More loudly, Savithramma. This lane has had good hearing for twenty-eight years. It must not become deaf today.\n\nSFX: Paper unfolded twice. The lane quiets.\n\nRATNAMMA: (formally, loudly) I have this morning instructed my advocate to withdraw the claim petition as against respondent number two. Savithri, wife of the schoolmaster of Nerlige, has no part in this matter and never had. That is being said in front of the lane.\n\nSFX: Nothing. Long.\n\nRATNAMMA: Say it back, so nobody has to ask you later.\n\nSAVITHRI: Ratnamma has withdrawn the claim against me. She has said before this lane that I have no part in the matter and never had.\n\nRATNAMMA: Again. Your voice fell on the last five words.\n\nSAVITHRI: (louder) Ratnamma has withdrawn the claim against me. She says I have no part in this matter and never had.\n\nKEMPANNA: That removes a name from a petition. It does not make you family.\n\nRATNAMMA: I did not ask you to make me anything.\n\nSFX: The metal document box clicks open.\n\nRATNAMMA: I asked an office to write what it had refused to write. The office has answered.\n\nSFX: Paper crackles in unsteady hands.\n\nRATNAMMA: And this came by hand at four o’clock. Sanction of family pension. Order of the deputy director. Ratnamma, wife of Lokanath. Same line. Same line, Savithramma. Twenty-eight years, and the two names are on the same line, and it is a government paper with a number on it, and the number is nine four seven stroke twenty-two.\n\nLANE WOMAN: Let Chaitra read it. You are stumbling.\n\nSFX: A few neighbours laugh.\n\nNARRATOR: Ratnamma was humiliated. Her fingers shook, and the laughter made the printed letters smaller, but she did not lower the paper.\n\nRATNAMMA: Yes, I am stumbling. I read each word forty times between four o’clock and four-twenty, and I stumbled forty times, and every time the same two names remained on the same line. Chaitra may read it once. I will hold it.\n\nSFX: Quick footsteps descend from the veranda.\n\nCHAITRA: Give me the order.\n\nRATNAMMA: No. Stand beside me and read from my hand. The original does not leave my fingers.\n\nCHAITRA: Order number nine four seven stroke twenty-two. Sanction of family pension. Ratnamma, wife of Lokanath.\n\nRATNAMMA: Is there a gap where another person may insert a different wife?\n\nCHAITRA: No.\n\nRATNAMMA: Is my name below his, on another page, in pencil, or in a margin?\n\nCHAITRA: No. Ratnamma and Lokanath are on the same printed line.\n\nRATNAMMA: Tell the lane.\n\nCHAITRA: The government order recognizes Ratnamma as Lokanath’s wife.\n\nSFX: Murmurs spread through the neighbours.\n\nKEMPANNA: Let me see the seal.\n\nRATNAMMA: Read without touching.\n\nKEMPANNA: There is a seal. There is a number. I said this woman had brought only an old story to this gate. I was wrong. The government has written Ratnamma as Lokanath’s wife.\n\nRATNAMMA: Say your name after that statement.\n\nKEMPANNA: Kempanna. I said it, and I was wrong.\n\nRATNAMMA: Good. Now the sentence has a witness attached.\n\nSAVITHRI: If you already had this order, why did you return here?\n\nRATNAMMA: Because withdrawing your name in an advocate’s room would leave you to explain yourself in this lane for another twenty-eight years. I put your name into public procedure. I had to take it out in public procedure. That is the account.\n\nSAVITHRI: And after the account?\n\nRATNAMMA: After the account, I go. I have the paper.\n\nSFX: Ratnamma folds the order. The metal box shuts.\n\nSAVITHRI: No. Come inside.\n\nRATNAMMA: Do not say it softly.\n\nSAVITHRI: Come inside the house, Ratnamma.\n\nRATNAMMA: Say who is entering. Say whose wife she is. Say who is taking her through the door. There are fourteen people in this lane now, I counted from the gate, and tomorrow fourteen versions will begin unless you give them one sentence.\n\nSAVITHRI: Ratnamma, wife of Lokanath, is entering this house. I am taking her inside.\n\nSFX: Savithri takes Ratnamma’s metal box. Two sets of footsteps climb the veranda. A wooden threshold creaks beneath Ratnamma’s foot.\n\nNARRATOR: For the first time in twenty-eight years, Ratnamma was taken inside the house.\n\nSFX: A ceiling fan ticks unevenly. The neighbours remain murmuring at the open doorway. A steel tumbler is filled with water.\n\nSAVITHRI: Sit.\n\nRATNAMMA: First tell me where you are putting the box.\n\nSAVITHRI: On the table beside you.\n\nSFX: The metal box touches wood.\n\nRATNAMMA: Good. The original is inside the brown envelope. The first copy is for my advocate. The second is for the pension counter. The third has no destination yet, which means it stays with me.\n\nCHAITRA: Drink some water.\n\nRATNAMMA: Put it on the table. My hand is still shaking, and if I spill water on order number nine four seven stroke twenty-two after keeping a wedding photograph dry through twenty-eight monsoons, I will become a joke with excellent timing.\n\nSFX: The tumbler is set down. One neighbour laughs, then stops.\n\nSAVITHRI: Nobody is laughing now.\n\nRATNAMMA: They laughed outside.\n\nSAVITHRI: They were wrong outside.\n\nRATNAMMA: That must also be said loudly.\n\nSAVITHRI: (to the doorway) You laughed because Ratnamma could not read the order cleanly. Chaitra read it. The order says Ratnamma is Lokanath’s wife. The laughter was wrong.\n\nLANE WOMAN: We heard.\n\nRATNAMMA: Hearing is not acknowledgment.\n\nLANE WOMAN: I laughed. I was wrong.\n\nRATNAMMA: Name.\n\nLANE WOMAN: Girijamma. I laughed, and I was wrong.\n\nRATNAMMA: Good.\n\nSFX: Running footsteps approach from the lane. A bicycle bell rings twice. A man stops at the doorway, breathing hard.\n\nADVOCATE’S CLERK: Ratnamma! Your advocate sent this before the office closed.\n\nSFX: A paper is pulled from a file cover.\n\nRATNAMMA: Read the stamp. Date, time, and number.\n\nADVOCATE’S CLERK: Withdrawal as against respondent number two received today at four-forty-eight. Inward number one-one-eight."
+    "title": "Respondent Number Two",
+    "logline": "Before Ratnamma can cross the family threshold for the first time in twenty-eight years, she must publicly clear the woman she named in a forty-one-lakh claim—and endure the lane deciding that her retreat proves she lied.",
+    "script": "SFX: Typewriter keys striking hard; carbon paper crackling; a ceiling fan clicking once every turn.\n\nTYPIST: Petition number?\n\nRATNAMMA: Leave a blank for it.\n\nTYPIST: A court paper cannot have a blank.\n\nRATNAMMA: This is an instruction to my advocate. The petition number will be copied from his file. Type the sentence.\n\nTYPIST: Which sentence?\n\nRATNAMMA: I instruct my advocate to withdraw the claim as against respondent number two, Savithri, wife of the schoolmaster of Nerlige.\n\nSFX: The typewriter stops.\n\nTYPIST: You served forty-one lakh sixty thousand rupees at a school gate. Now you are withdrawing?\n\nWOMAN PETITIONER: Forty-one lakh?\n\nMAN PETITIONER: Then the case was false.\n\nSFX: Two people laugh under their breath.\n\nNARRATOR: Ratnamma was ashamed. The shame made her count.\n\nRATNAMMA: The department is respondent number one. Savithri is respondent number two. I am removing one respondent, not two. Forty-one lakh sixty thousand remains forty-one lakh sixty thousand. Type.\n\nTYPIST: If she had no part, why did you name her?\n\nRATNAMMA: Because for twenty-eight years a petition with only my name went from table to table and came back with no other name added. Because a family name makes an office answer. Because I wanted an answer before the hearing on the twenty-second.\n\nTYPIST: So you frightened an innocent woman.\n\nRATNAMMA: Yes.\n\nSFX: Nothing. Long.\n\nRATNAMMA: Type that she has no part in the matter and never had.\n\nTYPIST: That is not legal language.\n\nRATNAMMA: It is language the lane can understand. Make two copies.\n\nSFX: Typewriter keys resume, slower now.\n\nNARRATOR: One copy was for the advocate. Ratnamma folded the second into the same bag that had carried her wedding photograph for twenty-eight years.\n\nSFX: Advocate’s office door scraping; bundles of paper shifting; a stamp pad slapped shut.\n\nADVOCATE: Sign here. Full signature.\n\nRATNAMMA: Read the line first.\n\nADVOCATE: You dictated it.\n\nRATNAMMA: You added words after I left. Read every word.\n\nADVOCATE: “I, Ratnamma, claimant, instruct counsel to withdraw the claim petition as against respondent number two, without prejudice to the claim maintained against respondent number one.”\n\nRATNAMMA: Meaning the department remains.\n\nADVOCATE: Yes.\n\nRATNAMMA: Meaning the amount remains.\n\nADVOCATE: Yes.\n\nRATNAMMA: Meaning Savithri’s name comes out.\n\nADVOCATE: From your side of the claim, yes. Ratnamma, once you say this publicly, people will say you lied when you named her.\n\nRATNAMMA: They said I lied when I carried the photograph. They said I lied when I said I was married eleven days. They said I lied when I stood at that gate. Their mouths do not require stamp paper.\n\nADVOCATE: And if the family still refuses you?\n\nRATNAMMA: Then I will have removed a woman from my petition and gained nothing.\n\nADVOCATE: That frightens you.\n\nRATNAMMA: One name, one line, one answer said back aloud. Give me the pen.\n\nSFX: Fountain pen scratching across paper; a thumb pressing the sheet flat.\n\nADVOCATE: Take this acknowledgement.\n\nRATNAMMA: Call me after it is entered.\n\nADVOCATE: Where will you be?\n\nRATNAMMA: At their gate.\n\nSFX: Lane dogs barking; bicycle bell passing; sandals stopping on packed earth; neighbours murmuring behind a low wall.\n\nVOICE IN LANE: She has come again.\n\nSECOND VOICE: Ask her whether she brought another court paper.\n\nSFX: Ratnamma’s cloth bag opens; one sheet unfolds.\n\nSAVITHRI: What do you want now?\n\nRATNAMMA: The lane is listening?\n\nVOICE IN LANE: We are listening.\n\nRATNAMMA: Prakash is inside?\n\nPRAKASH: I can hear you.\n\nRATNAMMA: Good.\n\nSAVITHRI: Say it.\n\nRATNAMMA: (formally, loudly) I have this morning instructed my advocate to withdraw the claim petition as against respondent number two. Savithri, wife of the schoolmaster of Nerlige, has no part in this matter and never had. That is being said in front of the lane.\n\nSFX: A crow calls once. No one speaks.\n\nRATNAMMA: Say it back, so nobody has to ask you later.\n\nSAVITHRI: You have withdrawn the claim against me.\n\nRATNAMMA: Full sentence.\n\nSAVITHRI: Ratnamma has withdrawn the claim against me. She has said before the lane that I have no part in her matter.\n\nVOICE IN LANE: Then why was Savithri named at all?\n\nSECOND VOICE: Forty-one lakh on a woman, and now one sentence removes it?\n\nRATNAMMA: No. One signed instruction removes it. The sentence is for you, because none of you read signed instructions.\n\nVOICE IN LANE: You made her stand accused.\n\nRATNAMMA: Yes.\n\nSECOND VOICE: Say sorry, then.\n\nNARRATOR: Ratnamma had rehearsed dates, amounts and respondent numbers. She had not rehearsed that word. She was frightened, and her voice became small.\n\nRATNAMMA: Savithri, I used your name to make an office answer. I should not have made you carry my refusal. I am sorry. One answer now. Do I leave from the gate?\n\nSFX: Paper trembling faintly in Ratnamma’s hand.\n\nSAVITHRI: For twenty-eight years you stood outside this house.\n\nRATNAMMA: Twenty-eight years.\n\nSAVITHRI: Today you will come inside.\n\nVOICE IN LANE: Savithri!\n\nSAVITHRI: Everyone heard her clear me. Everyone will hear me now. Ratnamma is entering this house as Lokanath’s widow.\n\nSFX: Savithri takes Ratnamma by the wrist; two sets of footsteps cross a stone threshold.\n\nSFX: Indoor room tone; brass tumblers touching; the lane’s voices muffled beyond a closed door.\n\nNARRATOR: Ratnamma entered the house for the first time in twenty-eight years. Admission did not feel like victory. It felt like standing somewhere she had never prepared to stand.\n\nSAVITHRI: Sit.\n\nRATNAMMA: Which place?\n\nSAVITHRI: Here, beside me.\n\nSFX: A wooden bench creaks under two people.\n\nSAVITHRI: You could have withdrawn quietly through your advocate.\n\nRATNAMMA: I named you where people could hear. I had to remove you where the same people could hear.\n\nSAVITHRI: The lane will still talk.\n\nRATNAMMA: The lane talked when I stood outside. Let it change the location and continue.\n\nSAVITHRI: Will you tear up the whole petition now?\n\nRATNAMMA: No.\n\nSAVITHRI: Even after I brought you in?\n\nRATNAMMA: The claim against you was wrong. The claim against the department remains. Those are two sentences. Do not join them because we are sitting on one bench.\n\nSFX: A mobile phone vibrates against paper inside Ratnamma’s bag.\n\nRATNAMMA: Advocate?\n\nADVOCATE: Your signed withdrawal has been entered. Respondent number two is removed. Respondent number one—the department—still answers the claim for forty-one lakh sixty thousand rupees."
   },
   "beats": [
     {
-      "beat_id": "x_ratnamma_001",
-      "ep": 11,
+      "beat_id": "x_ratnamma_b033_001",
+      "ep": 1,
       "seq": 1,
-      "world_time": "M2-D16 16:20",
-      "location": "family house lane",
+      "world_time": "M2-D07 09:40",
+      "location": "Typing stall",
       "present": [
         "ratnamma",
-        "savithri",
-        "kempanna",
-        "lane_neighbours"
+        "typist",
+        "woman_petitioner",
+        "man_petitioner"
       ],
       "witnessed_by": [
-        "savithri",
-        "kempanna",
-        "lane_neighbours"
+        "ratnamma",
+        "typist",
+        "woman_petitioner",
+        "man_petitioner"
       ],
       "hidden_from": [
         "basavaraj",
@@ -513,107 +514,106 @@
         "girija",
         "harsha",
         "inchara",
+        "kempanna",
         "lokanath",
         "mallesha",
         "nagaraj",
         "prakash",
         "puttaraju",
         "revanna",
+        "savithri",
         "seetharama",
         "shankarappa",
         "thammanna"
       ],
-      "what_happened": "Ratnamma publicly states that she has instructed her advocate to withdraw the claim against Savithri and requires Savithri to repeat the statement before the lane.",
+      "what_happened": "Ratnamma dictates a written instruction removing Savithri from her claim and publicly admits that naming Savithri frightened an innocent woman.",
       "state_changes": [
         {
-          "entity": "savithri",
-          "fact": "The claim against her is publicly withdrawn.",
-          "valence": 4
+          "entity": "ratnamma",
+          "fact": "She commits to clearing Savithri publicly while maintaining the departmental claim.",
+          "valence": 1
         },
         {
           "entity": "ratnamma",
-          "fact": "She accepts public responsibility for using Savithri as a respondent.",
+          "fact": "Other petitioners publicly accuse her of making a false claim.",
           "valence": -2
         }
       ],
       "source_ref": "fictionalized",
-      "crossing_of": "b033",
-      "note": "model suggested beat_id rat_ep_b033_01",
+      "crossing_of": null,
+      "note": "model suggested beat_id r033a",
       "tier": "branch_canon",
       "pov": "ratnamma"
     },
     {
-      "beat_id": "x_ratnamma_002",
-      "ep": 11,
+      "beat_id": "x_ratnamma_b033_002",
+      "ep": 1,
       "seq": 2,
       "world_time": "M2-D16 16:20",
-      "location": "family house gate",
+      "location": "Advocate's office",
       "present": [
         "ratnamma",
-        "savithri",
-        "chaitra",
-        "kempanna",
-        "lane_neighbours"
+        "advocate"
       ],
       "witnessed_by": [
-        "savithri",
-        "chaitra",
-        "kempanna",
-        "lane_neighbours"
+        "ratnamma",
+        "advocate"
       ],
       "hidden_from": [
         "basavaraj",
+        "chaitra",
         "girija",
         "harsha",
         "inchara",
+        "kempanna",
         "lokanath",
         "mallesha",
         "nagaraj",
         "prakash",
         "puttaraju",
         "revanna",
+        "savithri",
         "seetharama",
         "shankarappa",
         "thammanna"
       ],
-      "what_happened": "Ratnamma displays the numbered pension order, and Chaitra reads aloud that it names Ratnamma as Lokanath's wife.",
+      "what_happened": "Ratnamma signs an instruction withdrawing the claim only against respondent number two and directs the advocate to notify her after entry.",
       "state_changes": [
         {
-          "entity": "ratnamma",
-          "fact": "Her claimed relationship to Lokanath is acknowledged aloud before the lane through a numbered government order.",
-          "valence": 5
+          "entity": "savithri",
+          "fact": "Ratnamma formally instructs that Savithri be removed from the claim.",
+          "valence": 3
         },
         {
-          "entity": "kempanna",
-          "fact": "He publicly retracts his dismissal of Ratnamma's claim.",
-          "valence": 2
+          "entity": "ratnamma",
+          "fact": "Her claim against the department remains active.",
+          "valence": 1
         }
       ],
       "source_ref": "fictionalized",
       "crossing_of": null,
-      "note": "model suggested beat_id rat_ep_b033_02",
+      "note": "model suggested beat_id r033b",
       "tier": "branch_canon",
       "pov": "ratnamma"
     },
     {
-      "beat_id": "x_ratnamma_003",
-      "ep": 11,
+      "beat_id": "x_ratnamma_b033_003",
+      "ep": 1,
       "seq": 3,
       "world_time": "M2-D16 16:20",
-      "location": "family house veranda and interior",
+      "location": "Family house, veranda",
       "present": [
         "ratnamma",
-        "savithri",
-        "chaitra",
-        "lane_neighbours"
+        "savithri"
       ],
       "witnessed_by": [
+        "ratnamma",
         "savithri",
-        "chaitra",
-        "lane_neighbours"
+        "prakash"
       ],
       "hidden_from": [
         "basavaraj",
+        "chaitra",
         "girija",
         "harsha",
         "inchara",
@@ -621,53 +621,48 @@
         "lokanath",
         "mallesha",
         "nagaraj",
-        "prakash",
         "puttaraju",
         "revanna",
         "seetharama",
         "shankarappa",
         "thammanna"
       ],
-      "what_happened": "Savithri publicly identifies Ratnamma as Lokanath's wife and takes her inside the house for the first time in twenty-eight years.",
+      "what_happened": "Ratnamma withdraws the claim as against Savithri, says so aloud in front of the lane, and Savithri takes her inside the house for the first time in twenty-eight years.",
       "state_changes": [
         {
-          "entity": "ratnamma",
-          "fact": "She is admitted into the family house.",
+          "entity": "savithri",
+          "fact": "She is publicly cleared by Ratnamma.",
           "valence": 4
         },
         {
-          "entity": "savithri",
-          "fact": "She publicly acknowledges Ratnamma before the lane.",
-          "valence": 3
+          "entity": "ratnamma",
+          "fact": "She is admitted into the family house for the first time in twenty-eight years.",
+          "valence": 4
         }
       ],
       "source_ref": "fictionalized",
-      "crossing_of": null,
-      "note": "model suggested beat_id rat_ep_b033_03",
+      "crossing_of": "b033",
+      "note": "model suggested beat_id r033c",
       "tier": "branch_canon",
       "pov": "ratnamma"
     },
     {
-      "beat_id": "x_ratnamma_004",
-      "ep": 11,
+      "beat_id": "x_ratnamma_b033_004",
+      "ep": 1,
       "seq": 4,
       "world_time": "M2-D16 16:20",
-      "location": "inside the family house",
+      "location": "Inside the family house",
       "present": [
         "ratnamma",
-        "savithri",
-        "chaitra",
-        "advocate_clerk",
-        "lane_neighbours"
+        "savithri"
       ],
       "witnessed_by": [
-        "savithri",
-        "chaitra",
-        "advocate_clerk",
-        "lane_neighbours"
+        "ratnamma",
+        "savithri"
       ],
       "hidden_from": [
         "basavaraj",
+        "chaitra",
         "girija",
         "harsha",
         "inchara",
@@ -682,22 +677,22 @@
         "shankarappa",
         "thammanna"
       ],
-      "what_happened": "The advocate's clerk delivers the stamped inward number recording receipt of the withdrawal as against respondent number two.",
+      "what_happened": "While seated beside Savithri, Ratnamma hears from her advocate that respondent number two has been removed while the departmental claim remains.",
       "state_changes": [
         {
           "entity": "ratnamma",
-          "fact": "Her public withdrawal is supported by a numbered receipt.",
-          "valence": 3
+          "fact": "She maintains the forty-one lakh sixty thousand rupee demand against the department after clearing Savithri.",
+          "valence": 2
         },
         {
-          "entity": "savithri",
-          "fact": "The withdrawal concerning her has entered written procedure.",
-          "valence": 4
+          "entity": "ratnamma",
+          "fact": "She and Savithri sit together inside the house.",
+          "valence": 3
         }
       ],
       "source_ref": "fictionalized",
       "crossing_of": null,
-      "note": "model suggested beat_id rat_ep_b033_04",
+      "note": "model suggested beat_id r033d",
       "tier": "branch_canon",
       "pov": "ratnamma"
     }
@@ -705,11 +700,15 @@
   "crossings": [
     {
       "mainline_beat_id": "b033",
-      "rendered_as": "Ratnamma makes the withdrawal announcement before gathered neighbours, forces it to be repeated, presents the government order that joins her name to Lokanath's, and is publicly invited and taken across the threshold.",
+      "rendered_as": "Ratnamma reads her formal withdrawal before the listening lane, requires Savithri to repeat it, apologizes publicly, and is then led across the threshold by Savithri.",
       "objective_facts_kept": "Ratnamma withdraws the claim as against Savithri, says so aloud in front of the lane, and is taken inside the house for the first time in twenty-eight years."
     }
   ],
   "cites": [
+    "b013",
+    "b014",
+    "b015",
+    "b030",
     "b033"
   ],
   "flags": []

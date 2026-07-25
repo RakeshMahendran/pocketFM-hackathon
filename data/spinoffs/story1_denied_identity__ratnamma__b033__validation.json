@@ -3,45 +3,41 @@
   "char_id": "ratnamma",
   "anchor_beat_id": "b033",
   "constrained": true,
-  "status": "violations",
+  "status": "clean",
   "violations": [
     {
       "check": "hook",
       "severity": "warn",
-      "quote": "Withdrawal as against respondent number two received today at four-forty-eight. Inward number one-one-eight.",
+      "quote": "Respondent number two is removed. Respondent number one—the department—still answers the claim for forty-one lakh sixty thousand rupees.",
       "beat_id": "",
-      "why": "repeats the mainline DISCOVERY / resolves",
+      "why": "resolves the withdrawal question and repeats the mainline DISCOVERY",
       "source": "hook"
-    },
-    {
-      "check": "leakage",
-      "severity": "error",
-      "quote": "And this came by hand at four o’clock. Sanction of family pension. Order of the deputy director. Ratnamma, wife of Lokanath.",
-      "beat_id": "b032",
-      "why": "Ratnamma states and possesses the family-pension sanction, a decision sealed in b032 and not included in what she knows.",
-      "source": "leakage, refuter_inference, refuter_specificity, refuter_omniscience"
     }
   ],
-  "n_errors": 1,
+  "n_errors": 0,
   "deterministic_errors": [],
   "inconclusive": [],
   "attempts_that_failed": {
     "refuter_inference": [
-      "Checked the exact order number, times, copy count, and witness count for separately sealed sources; they are either visible to Ratnamma in the scene or ordinary firsthand details, though the order itself remains forbidden.",
-      "Checked the narrator’s statements about Ratnamma’s humiliation and first entry into the house; the former is locked to her immediate experience and the latter is expressly known in b033.",
-      "Checked her public withdrawal and insistence on witnesses for behavior rational only with other forbidden knowledge; both follow from her own petition, intentions, and the known b033 withdrawal."
+      "Checked every precise particular: forty-one lakh sixty thousand rupees, respondent numbers one and two, the hearing on the twenty-second, eleven days, twenty-eight years, Nerlige, and the wedding photograph all derive from Ratnamma’s known case, stated history, or her own life.",
+      "Tested whether withdrawing the claim against Savithri requires forbidden knowledge of Savithri’s unseen conduct; it does not, because Ratnamma openly explains that naming Savithri was leverage against the department and that she wants recognition rather than money.",
+      "Tested Ratnamma’s visit to the gate, request for public repetition, apology, and demand to know whether she must leave for behavior rational only with knowledge of later events; each follows from her prior public accusation and long exclusion from the house.",
+      "Checked the narrator for omniscient assertions about other rooms, hidden motives, or future events; the narration remains confined to Ratnamma’s feelings, intentions, possessions, and immediate perceptions."
     ],
     "refuter_specificity": [
-      "Checked the narrator’s statements about Ratnamma’s humiliation, shaking hands, and first entry into the house; these remain within her experience and b033.",
-      "Checked the fourteen-person count, four-twenty time, twenty-eight-year history, and document-copy destinations; these are observable or part of Ratnamma’s own life and choices.",
-      "Checked the four-forty-eight receipt time and inward number one-one-eight; the clerk reads them directly to Ratnamma in the scene, so their precision is sourced.",
-      "Checked Ratnamma’s public withdrawal and her claim that she filed strategically; these concern her own actions and are consistent with b030 and b033."
+      "Checked every number and date: forty-one lakh sixty thousand rupees, respondent numbers one and two, the twenty-second, eleven days, and twenty-eight years are all established in b013, b030, b033, or Ratnamma’s own history.",
+      "Checked names and places, including Savithri, Prakash, Lokanath, Nerlige, the department, the school gate, and the family house; none conveys an event Ratnamma was absent from.",
+      "Tested Ratnamma’s decision to withdraw only against Savithri for dependence on forbidden knowledge; it follows from her admitted strategy in b030 that she wanted official recognition rather than money from the family.",
+      "Checked the narrator for omniscient assertions; the narration stays with Ratnamma’s shame, fear, intentions, possessions, and experience of entering the house, without asserting events or motives outside her understanding.",
+      "Checked the advocate’s confirmation that the withdrawal was entered; Ratnamma receives this information directly during the phone call, so it is not leaked knowledge."
     ],
     "refuter_omniscience": [
-      "Checked the narrator’s statement that this was Ratnamma’s first entry into the house in twenty-eight years; this is her own history and is also established in b033.",
-      "Checked the precise count of fourteen people; Ratnamma says she counted them from the gate, providing an immediate perceptual source.",
-      "Checked the withdrawal filing details delivered at four-forty-eight; withdrawing the claim is established in b033, and the clerk reads the new receipt details aloud in her presence.",
-      "Checked Ratnamma’s knowledge of names, relationships, the wedding photograph, and the twenty-eight-year exclusion; these derive from her own life or permitted beats."
+      "Checked every precise amount, date, duration, respondent number, and place name: forty-one lakh sixty thousand rupees, twenty-eight years, the twenty-second, respondent numbers one and two, and Nerlige are all established in Ratnamma’s known beats or belong to her own history and petition.",
+      "Tested Ratnamma’s decision to withdraw against Savithri for leakage from prohibited beats about Savithri’s 2011 power of attorney or later testimony; the decision has an innocent basis in Ratnamma’s admitted strategy of naming Savithri only to force an official response, already established in b030 and explained here.",
+      "Examined “Savithri… has no part in this matter and never had” for prohibited certainty; in context it refers to Ratnamma’s own claim and her own reason for naming Savithri, not knowledge of unseen events involving Savithri.",
+      "Checked the narrator’s assertions about Ratnamma’s shame, fear, preparation, and feeling upon entering the house; all are Ratnamma’s own immediate internal states under locked POV, not facts about other characters or unseen rooms.",
+      "Checked whether asking if Prakash was inside implied forbidden knowledge; Ratnamma asks rather than assumes, and his presence is confirmed by his reply.",
+      "Looked for “she did not yet know” constructions, remote-event narration, or claims about another character’s hidden motive; none appear."
     ]
   },
   "members_run": 6,
