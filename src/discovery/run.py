@@ -32,9 +32,13 @@ def _for_dedupe(candidates: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     out = []
     for c in candidates:
         url = c["sources"][0]
+        # Seed the id with the title as well as the URL. Keying on the URL alone
+        # collides whenever one outlet covers two related events, and `dedupe()`
+        # then discards the second without clustering it or saying so.
+        seed = f"{url}|{c.get('title', '')}"
         out.append(dict(
             c,
-            id=hashlib.sha1(url.encode()).hexdigest()[:12],
+            id=hashlib.sha1(seed.encode()).hexdigest()[:12],
             url=url,
             source="websearch",
             text=f"{c.get('one_line', '')} {c.get('mechanism', '')}".strip(),
@@ -57,7 +61,19 @@ def build_corpus(path=CORPUS_PATH) -> List[Dict[str, Any]]:
     # Dedupe the also-rans only. `dedupe()` keeps the longest-text member of each
     # cluster, so running it over the winner too could quietly swap the chosen
     # event for something it merged with.
-    pool = [_for_dedupe([winner])[0]] + dedupe(_for_dedupe(result["also_considered"]))
+    others = _for_dedupe(result["also_considered"])
+    clustered = dedupe(others)
+
+    # dedupe() was tuned on wire headlines; these are pitch titles the same model
+    # wrote in one voice, so they share vocabulary by construction and can merge
+    # falsely. A merge deletes a candidate's scores, clearance and sources, so
+    # say which ones went.
+    for item in clustered:
+        for merged in item.get("corroboration", []):
+            gone = next((o["title"] for o in others if o["url"] == merged["url"]), "?")
+            log(f"merged into '{item['title']}': '{gone}'")
+
+    pool = [_for_dedupe([winner])[0]] + clustered
 
     write_json(path, {
         "built_at": dt.datetime.now(dt.timezone.utc).isoformat(),

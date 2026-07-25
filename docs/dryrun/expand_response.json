@@ -1,15 +1,11 @@
 {
   "_dryrun_note": "Produced by Claude Opus following src/scoring/prompts/expand.md by hand, on the winner from the hand-run hunt. NOT pipeline output — no OpenAI call has ever been made in this repo, and the pipeline itself still targets OpenAI per DELIVERY_PLAN decision 1. Kept as a shape-and-quality reference for src/scoring/run.py.",
-
   "event_id": "evt_ratanpar_2019",
   "title": "The Court on the Second Floor",
   "one_line_summary": "A sacked court typist takes a job at a small arbitration chamber above a sari shop, and by the time he understands it is not a court, he is the one signing its orders.",
   "fantasy": "they threw him out",
-
   "engine": "Every order the chamber passes creates someone holding land they cannot keep if the chamber is ever found out — so it can never stop, and each month more of the town's property depends on it staying real.",
-
   "why_this_works": "The listener knows it is fake from episode four; the protagonist does not know until nine. That gap is the entire show. After that, the question stops being 'will he find out' and becomes 'how much is he willing to sign' — and because every order he passes is a real family's land, he cannot walk away without taking the town down with him. The climb is visible: the same clerk who marched him out of the real court comes to him with a petition in episode fourteen and calls him sir.",
-
   "protagonist": {
     "id": "nayan",
     "who": "Twenty-four, contract stenographer, fastest typist in the district court and the only one there without a permanent post.",
@@ -17,84 +13,411 @@
     "ashamed_of": "That his father lost three acres to a better-connected cousin and died still calling it a misunderstanding.",
     "does_not_know_at_start": "That the chamber above the sari shop has no judicial authority of any kind, and that its orders are being mutated into the real land record."
   },
-
   "antagonist": {
     "id": "harshad",
     "who": "Runs the chamber. Sixty, immaculate, addressed as sir by everyone including men who outrank him. Has never held a law degree.",
     "wants_incompatibly": "Nayan's signature on everything, so that the day it collapses the hand on the orders is not his."
   },
-
   "timeline": [
-    {"id": "t1", "date": "2007",    "what_happened": "The man who later ran the chamber was jailed for practising as a lawyer without a valid law degree.", "confidence": "reported", "source": "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362"},
-    {"id": "t2", "date": "2015",    "what_happened": "He set up an arbitration tribunal and began charging fees to resolve land disputes.", "confidence": "reported", "source": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498"},
-    {"id": "t3", "date": "2019",    "what_happened": "A circular was forged in the name of the Principal Judge appointing him arbitration counsellor for civil matters under Section 89 CPC.", "confidence": "reported", "source": "https://m.thewire.in/article/law/after-fake-teacher-now-a-fake-judge-exposed-in-gujarat"},
-    {"id": "t4", "date": "2019-2024", "what_happened": "Associates posed as court personnel — clerks, a peon, a cause list — so that the chamber presented as a working court.", "confidence": "reported", "source": "https://m.thewire.in/article/law/after-fake-teacher-now-a-fake-judge-exposed-in-gujarat"},
-    {"id": "t5", "date": "2019-2024", "what_happened": "Orders issued by the chamber were acted upon; more than 100 acres and at least 11 properties were affected, with 10 matters still unresolved.", "confidence": "alleged", "source": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498"},
-    {"id": "t6", "date": "2024-10", "what_happened": "Police exposed the chamber and arrested its proprietor.", "confidence": "alleged", "source": "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362"}
+    {
+      "id": "t1",
+      "date": "2007",
+      "what_happened": "The man who later ran the chamber was jailed for practising as a lawyer without a valid law degree.",
+      "confidence": "reported",
+      "source": "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362"
+    },
+    {
+      "id": "t2",
+      "date": "2015",
+      "what_happened": "He set up an arbitration tribunal and began charging fees to resolve land disputes.",
+      "confidence": "reported",
+      "source": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498"
+    },
+    {
+      "id": "t3",
+      "date": "2019",
+      "what_happened": "A circular was forged in the name of the Principal Judge appointing him arbitration counsellor for civil matters under Section 89 CPC.",
+      "confidence": "reported",
+      "source": "https://m.thewire.in/article/law/after-fake-teacher-now-a-fake-judge-exposed-in-gujarat"
+    },
+    {
+      "id": "t4",
+      "date": "2019-2024",
+      "what_happened": "Associates posed as court personnel — clerks, a peon, a cause list — so that the chamber presented as a working court.",
+      "confidence": "reported",
+      "source": "https://m.thewire.in/article/law/after-fake-teacher-now-a-fake-judge-exposed-in-gujarat"
+    },
+    {
+      "id": "t5",
+      "date": "2019-2024",
+      "what_happened": "Orders issued by the chamber were acted upon; more than 100 acres and at least 11 properties were affected, with 10 matters still unresolved.",
+      "confidence": "alleged",
+      "source": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498"
+    },
+    {
+      "id": "t6",
+      "date": "2024-10",
+      "what_happened": "Police exposed the chamber and arrested its proprietor.",
+      "confidence": "alleged",
+      "source": "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362"
+    }
   ],
-
   "_timeline_note": "Six entries because the record supports six. The other 22 episodes are invented and live in `season` only — writing them here as `disputed` would have dressed invention as research.",
-
   "season": [
-    {"ep": 1,  "turn": "dilip accuses nayan of selling a signature and has him marched the length of the corridor while the bar room watches.", "hook_type": "ACCUSATION", "ends_on": "By the time he reaches the gate, his name is already chalked on the dismissed-staff board.", "status": 1},
-    {"ep": 2,  "turn": "pravin returns the engagement sweets to nayan's mother at the door, without stepping inside.", "hook_type": "REVEAL", "ends_on": "kiran's photograph has already been shown to a clerk from the real court — dilip's nephew.", "status": 1},
-    {"ep": 3,  "turn": "harshad finds nayan at the tea stall and offers him work at the arbitration chamber above the sari shop.", "hook_type": "ARRIVAL", "ends_on": "The letterhead harshad hands him carries the district court emblem.", "status": 2},
-    {"ep": 4,  "turn": "First day. Bench, cause list, board, peon — everything in its place, and nayan types faster than anyone there.", "hook_type": "DISCOVERY", "ends_on": "The first order he types awards three acres in his father's village.", "status": 2},
-    {"ep": 5,  "turn": "dilip corners him outside the sub-registrar's office and tells him to stay away from land work.", "hook_type": "THREAT", "ends_on": "dilip says the file nayan was sacked over was never missing.", "status": 1},
-    {"ep": 6,  "turn": "lalji wins his plot before the chamber and thanks nayan in the vegetable market, loudly, twice.", "hook_type": "RECOGNITION", "ends_on": "The man lalji beat has been paying tax on that plot for nineteen years.", "status": 2},
-    {"ep": 7,  "turn": "harshad gives him four days to master the chamber's format or go.", "hook_type": "DEADLINE", "ends_on": "The salary is twice what the real court paid him.", "status": 2},
-    {"ep": 8,  "turn": "bhikha lets slip that harshad has never held a degree, then spends the afternoon denying he said it.", "hook_type": "BETRAYAL", "ends_on": "nayan finds harshad's old conviction — practising without a degree — in the chamber's own almirah.", "status": 1},
-    {"ep": 9,  "turn": "nayan confronts harshad. harshad does not deny anything; he offers him the drafting seat.", "hook_type": "ULTIMATUM", "ends_on": "The seat pays a percentage of every order passed.", "status": 3},
-
-    {"ep": 10, "turn": "nayan drafts an order alone, in his own words, and it holds.", "hook_type": "REVERSAL", "ends_on": "A sub-registrar mutates the land on the strength of it. The record now says it is true.", "status": 4},
-    {"ep": 11, "turn": "mansukh arrives to inspect the chamber's output the way a buyer inspects stock.", "hook_type": "ARRIVAL", "ends_on": "mansukh already has purchasers for four plots the chamber has not yet heard cases about.", "status": 4},
-    {"ep": 12, "turn": "rekha stands up in open session and accuses the chamber of taking her dead husband's land.", "hook_type": "ACCUSATION", "ends_on": "Her file carries nayan's initials on every page.", "status": 3},
-    {"ep": 13, "turn": "Clearing the almirah, nayan finds the circular appointing harshad, signed by the Principal Judge.", "hook_type": "DISCOVERY", "ends_on": "The circular is dated three days after nayan's own dismissal.", "status": 3},
-    {"ep": 14, "turn": "dilip comes to the second floor with his brother-in-law's petition and waits his turn.", "hook_type": "RECOGNITION", "ends_on": "He calls nayan sir, in front of two clerks from the real court.", "status": 5},
-    {"ep": 15, "turn": "asif, a young advocate, starts asking around about which bench issues these orders.", "hook_type": "THREAT", "ends_on": "asif has already written to the bar association.", "status": 5},
-    {"ep": 16, "turn": "nayan buries the complaint by passing an order in favour of asif's own client.", "hook_type": "REVERSAL", "ends_on": "asif withdraws the letter and asks whether the chamber will take a second matter.", "status": 6},
-    {"ep": 17, "turn": "pravin climbs the stairs to ask nayan to fix his ration licence.", "hook_type": "DEADLINE", "ends_on": "Before leaving, pravin offers the engagement back. Nobody asked him to.", "status": 7},
-    {"ep": 18, "turn": "bhikha is caught selling chamber orders on his own account.", "hook_type": "BETRAYAL", "ends_on": "One of bhikha's buyers is rekha's brother-in-law.", "status": 5},
-    {"ep": 19, "turn": "Reconciling the register, nayan counts the signatures on eleven months of orders.", "hook_type": "REVEAL", "ends_on": "Every one of them is his. Not one is harshad's.", "status": 6},
-
-    {"ep": 20, "turn": "nayan demands the chamber be put in his name.", "hook_type": "ULTIMATUM", "ends_on": "harshad agrees in one sentence, then asks where nayan's mother keeps her land papers.", "status": 7},
-    {"ep": 21, "turn": "A serving judicial officer comes to the building for an unrelated inauguration.", "hook_type": "ARRIVAL", "ends_on": "On his way past, he compliments the chamber's board.", "status": 8},
-    {"ep": 22, "turn": "nayan is invited to the taluka bar dinner, as an arbitrator, with a card.", "hook_type": "RECOGNITION", "ends_on": "He is seated above dilip.", "status": 8},
-    {"ep": 23, "turn": "rekha files a police complaint — and names nayan, not harshad.", "hook_type": "ACCUSATION", "ends_on": "The station writes it up as a civil dispute and sends her home.", "status": 7},
-    {"ep": 24, "turn": "nayan traces who has been buying the plots the chamber awards.", "hook_type": "DISCOVERY", "ends_on": "On his father's three acres, the seller's mark is his mother's thumbprint.", "status": 8},
-    {"ep": 25, "turn": "mansukh explains, pleasantly, what happens to the family if the orders stop.", "hook_type": "THREAT", "ends_on": "He names the date jayaben signed. It is four months before nayan joined.", "status": 8},
-    {"ep": 26, "turn": "nayan passes an order against mansukh using the chamber's own forged authority — and mansukh obeys it.", "hook_type": "REVERSAL", "ends_on": "mansukh pays, then asks who taught him to do that.", "status": 9},
-    {"ep": 27, "turn": "bhikha turns approver and walks the chamber's register across town to asif.", "hook_type": "BETRAYAL", "ends_on": "asif's petition lists forty-one orders. Every one is signed nayan.", "status": 8},
-    {"ep": 28, "turn": "A letter arrives from the Principal Judge's office calling for the chamber's file.", "hook_type": "ARRIVAL", "ends_on": "It is addressed to the presiding officer. harshad has not come in for two days.", "status": 9}
+    {
+      "ep": 1,
+      "turn": "dilip accuses nayan of selling a signature and has him marched the length of the corridor while the bar room watches.",
+      "hook_type": "ACCUSATION",
+      "ends_on": "By the time he reaches the gate, his name is already chalked on the dismissed-staff board.",
+      "status": 1,
+      "pays_off": null
+    },
+    {
+      "ep": 2,
+      "turn": "pravin returns the engagement sweets to nayan's mother at the door, without stepping inside.",
+      "hook_type": "REVEAL",
+      "ends_on": "kiran's photograph has already been shown to a clerk from the real court — dilip's nephew.",
+      "status": 1,
+      "pays_off": null
+    },
+    {
+      "ep": 3,
+      "turn": "harshad finds nayan at the tea stall and offers him work at the arbitration chamber above the sari shop.",
+      "hook_type": "ARRIVAL",
+      "ends_on": "The letterhead harshad hands him carries the district court emblem.",
+      "status": 2,
+      "pays_off": null
+    },
+    {
+      "ep": 4,
+      "turn": "First day. Bench, cause list, board, peon — everything in its place, and nayan types faster than anyone there.",
+      "hook_type": "DISCOVERY",
+      "ends_on": "The first order he types awards three acres in his father's village.",
+      "status": 2,
+      "pays_off": null
+    },
+    {
+      "ep": 5,
+      "turn": "dilip corners him outside the sub-registrar's office and tells him to stay away from land work.",
+      "hook_type": "THREAT",
+      "ends_on": "dilip says the file nayan was sacked over was never missing.",
+      "status": 1,
+      "pays_off": null
+    },
+    {
+      "ep": 6,
+      "turn": "lalji wins his plot before the chamber and thanks nayan in the vegetable market, loudly, twice.",
+      "hook_type": "RECOGNITION",
+      "ends_on": "The man lalji beat has been paying tax on that plot for nineteen years.",
+      "status": 2,
+      "pays_off": null
+    },
+    {
+      "ep": 7,
+      "turn": "harshad gives him four days to master the chamber's format or go.",
+      "hook_type": "DEADLINE",
+      "ends_on": "The salary is twice what the real court paid him.",
+      "status": 2,
+      "pays_off": null
+    },
+    {
+      "ep": 8,
+      "turn": "bhikha lets slip that harshad has never held a degree, then spends the afternoon denying he said it.",
+      "hook_type": "BETRAYAL",
+      "ends_on": "nayan finds harshad's old conviction — practising without a degree — in the chamber's own almirah.",
+      "status": 1,
+      "pays_off": null
+    },
+    {
+      "ep": 9,
+      "turn": "nayan confronts harshad. harshad does not deny anything; he offers him the drafting seat.",
+      "hook_type": "ULTIMATUM",
+      "ends_on": "The seat pays a percentage of every order passed.",
+      "status": 3,
+      "pays_off": null
+    },
+    {
+      "ep": 10,
+      "turn": "nayan drafts an order alone, in his own words, and it holds.",
+      "hook_type": "REVERSAL",
+      "ends_on": "A sub-registrar mutates the land on the strength of it. The record now says it is true.",
+      "status": 4,
+      "pays_off": null
+    },
+    {
+      "ep": 11,
+      "turn": "mansukh arrives to inspect the chamber's output the way a buyer inspects stock.",
+      "hook_type": "ARRIVAL",
+      "ends_on": "mansukh already has purchasers for four plots the chamber has not yet heard cases about.",
+      "status": 4,
+      "pays_off": "ratnamma's claim is settled and savithri is out of it"
+    },
+    {
+      "ep": 12,
+      "turn": "rekha stands up in open session and accuses the chamber of taking her dead husband's land.",
+      "hook_type": "ACCUSATION",
+      "ends_on": "Her file carries nayan's initials on every page.",
+      "status": 3,
+      "pays_off": null
+    },
+    {
+      "ep": 13,
+      "turn": "Clearing the almirah, nayan finds the circular appointing harshad, signed by the Principal Judge.",
+      "hook_type": "DISCOVERY",
+      "ends_on": "The circular is dated three days after nayan's own dismissal.",
+      "status": 3,
+      "pays_off": null
+    },
+    {
+      "ep": 14,
+      "turn": "dilip comes to the second floor with his brother-in-law's petition and waits his turn.",
+      "hook_type": "RECOGNITION",
+      "ends_on": "He calls nayan sir, in front of two clerks from the real court.",
+      "status": 5,
+      "pays_off": null
+    },
+    {
+      "ep": 15,
+      "turn": "asif, a young advocate, starts asking around about which bench issues these orders.",
+      "hook_type": "THREAT",
+      "ends_on": "asif has already written to the bar association.",
+      "status": 5,
+      "pays_off": null
+    },
+    {
+      "ep": 16,
+      "turn": "nayan buries the complaint by passing an order in favour of asif's own client.",
+      "hook_type": "REVERSAL",
+      "ends_on": "asif withdraws the letter and asks whether the chamber will take a second matter.",
+      "status": 6,
+      "pays_off": null
+    },
+    {
+      "ep": 17,
+      "turn": "pravin climbs the stairs to ask nayan to fix his ration licence.",
+      "hook_type": "DEADLINE",
+      "ends_on": "Before leaving, pravin offers the engagement back. Nobody asked him to.",
+      "status": 7,
+      "pays_off": null
+    },
+    {
+      "ep": 18,
+      "turn": "bhikha is caught selling chamber orders on his own account.",
+      "hook_type": "BETRAYAL",
+      "ends_on": "One of bhikha's buyers is rekha's brother-in-law.",
+      "status": 5,
+      "pays_off": null
+    },
+    {
+      "ep": 19,
+      "turn": "Reconciling the register, nayan counts the signatures on eleven months of orders.",
+      "hook_type": "REVEAL",
+      "ends_on": "Every one of them is his. Not one is harshad's.",
+      "status": 6,
+      "pays_off": null
+    },
+    {
+      "ep": 20,
+      "turn": "nayan demands the chamber be put in his name.",
+      "hook_type": "ULTIMATUM",
+      "ends_on": "harshad agrees in one sentence, then asks where nayan's mother keeps her land papers.",
+      "status": 7,
+      "pays_off": null
+    },
+    {
+      "ep": 21,
+      "turn": "A serving judicial officer comes to the building for an unrelated inauguration.",
+      "hook_type": "ARRIVAL",
+      "ends_on": "On his way past, he compliments the chamber's board.",
+      "status": 8,
+      "pays_off": null
+    },
+    {
+      "ep": 22,
+      "turn": "nayan is invited to the taluka bar dinner, as an arbitrator, with a card.",
+      "hook_type": "RECOGNITION",
+      "ends_on": "He is seated above dilip.",
+      "status": 8,
+      "pays_off": null
+    },
+    {
+      "ep": 23,
+      "turn": "rekha files a police complaint — and names nayan, not harshad.",
+      "hook_type": "ACCUSATION",
+      "ends_on": "The station writes it up as a civil dispute and sends her home.",
+      "status": 7,
+      "pays_off": null
+    },
+    {
+      "ep": 24,
+      "turn": "nayan traces who has been buying the plots the chamber awards.",
+      "hook_type": "DISCOVERY",
+      "ends_on": "On his father's three acres, the seller's mark is his mother's thumbprint.",
+      "status": 8,
+      "pays_off": null
+    },
+    {
+      "ep": 25,
+      "turn": "mansukh explains, pleasantly, what happens to the family if the orders stop.",
+      "hook_type": "THREAT",
+      "ends_on": "He names the date jayaben signed. It is four months before nayan joined.",
+      "status": 8,
+      "pays_off": null
+    },
+    {
+      "ep": 26,
+      "turn": "nayan passes an order against mansukh using the chamber's own forged authority — and mansukh obeys it.",
+      "hook_type": "REVERSAL",
+      "ends_on": "mansukh pays, then asks who taught him to do that.",
+      "status": 9,
+      "pays_off": null
+    },
+    {
+      "ep": 27,
+      "turn": "bhikha turns approver and walks the chamber's register across town to asif.",
+      "hook_type": "BETRAYAL",
+      "ends_on": "asif's petition lists forty-one orders. Every one is signed nayan.",
+      "status": 8,
+      "pays_off": null
+    },
+    {
+      "ep": 28,
+      "turn": "A letter arrives from the Principal Judge's office calling for the chamber's file.",
+      "hook_type": "ARRIVAL",
+      "ends_on": "It is addressed to the presiding officer. harshad has not come in for two days.",
+      "status": 9,
+      "pays_off": "everything outstanding"
+    }
   ],
-
   "people": [
-    {"name": "The accused proprietor", "role": "ran the arbitration chamber; never held a law degree; jailed once before for practising without one", "motive": "not stated in the record", "public_or_private": "private", "living": true},
-    {"name": "The associates", "role": "posed as court personnel so the chamber presented as a working court", "motive": "not stated in the record", "public_or_private": "private", "living": true},
-    {"name": "The Principal Judge", "role": "the officer in whose name the appointing circular was forged", "motive": "not applicable — named only as the forged signatory", "public_or_private": "public", "living": true},
-    {"name": "The claimants", "role": "parties whose land disputes the chamber heard; more than 100 acres and at least 11 properties affected", "motive": "not stated in the record", "public_or_private": "private", "living": true}
+    {
+      "name": "The accused proprietor",
+      "role": "ran the arbitration chamber; never held a law degree; jailed once before for practising without one",
+      "motive": "not stated in the record",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "The associates",
+      "role": "posed as court personnel so the chamber presented as a working court",
+      "motive": "not stated in the record",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "The Principal Judge",
+      "role": "the officer in whose name the appointing circular was forged",
+      "motive": "not applicable — named only as the forged signatory",
+      "public_or_private": "public",
+      "living": true
+    },
+    {
+      "name": "The claimants",
+      "role": "parties whose land disputes the chamber heard; more than 100 acres and at least 11 properties affected",
+      "motive": "not stated in the record",
+      "public_or_private": "private",
+      "living": true
+    }
   ],
-
   "_people_note": "The REAL record only. Four entries because the reporting describes four sets of people, and their names are deliberately not written here — this field exists for clearance and must never feed generation. The invented characters are in `cast`. Do not merge these two lists.",
-
   "cast": [
-    {"char_id": "nayan",     "name": "Nayan",     "role": "contract stenographer, then the chamber's drafting hand", "want": "a permanent post, a nameplate, and his engagement back",   "maps_to": "invented",                  "composite": true},
-    {"char_id": "harshad",   "name": "Harshad",   "role": "runs the chamber; has never held a law degree",           "want": "someone else's signature on every order",                  "maps_to": "The accused proprietor",    "composite": true},
-    {"char_id": "bhikha",    "name": "Bhikha",    "role": "chamber peon, ex-real-court, knows exactly what it is",   "want": "a cut, and to be indispensable to whoever wins",           "maps_to": "The associates",            "composite": true},
-    {"char_id": "dilip",     "name": "Dilip",     "role": "head clerk of the real district court",                   "want": "protect his nephew's posting; later, a family plot",       "maps_to": "invented",                  "composite": true},
-    {"char_id": "kiran",     "name": "Kiran",     "role": "the broken engagement",                                   "want": "a marriage that does not shame her father",                "maps_to": "invented",                  "composite": true},
-    {"char_id": "pravin",    "name": "Pravin",    "role": "kiran's father, ration shop licensee",                    "want": "his licence, then his standing",                           "maps_to": "invented",                  "composite": true},
-    {"char_id": "rekha",     "name": "Rekha",     "role": "widow whose husband's land the chamber awarded away",     "want": "three acres and an apology in public",                     "maps_to": "The claimants",             "composite": true},
-    {"char_id": "mansukh",   "name": "Mansukh",   "role": "land aggregator financing the chamber's output",          "want": "clean title on plots bought before the case is heard",     "maps_to": "invented",                  "composite": true},
-    {"char_id": "jayaben",   "name": "Jayaben",   "role": "nayan's mother",                                          "want": "keep the last three acres; she has already signed",        "maps_to": "invented",                  "composite": true},
-    {"char_id": "asif",      "name": "Asif",      "role": "young advocate who first asks the right question",        "want": "a reputation, and then a favour",                          "maps_to": "invented",                  "composite": true},
-    {"char_id": "lalji",     "name": "Lalji",     "role": "farmer who won before the chamber and celebrated",        "want": "keep what he was given",                                   "maps_to": "The claimants",             "composite": true}
+    {
+      "char_id": "nayan",
+      "name": "Nayan",
+      "role": "contract stenographer, then the chamber's drafting hand",
+      "want": "a permanent post, a nameplate, and his engagement back",
+      "maps_to": "invented",
+      "composite": true
+    },
+    {
+      "char_id": "harshad",
+      "name": "Harshad",
+      "role": "runs the chamber; has never held a law degree",
+      "want": "someone else's signature on every order",
+      "maps_to": "The accused proprietor",
+      "composite": true
+    },
+    {
+      "char_id": "bhikha",
+      "name": "Bhikha",
+      "role": "chamber peon, ex-real-court, knows exactly what it is",
+      "want": "a cut, and to be indispensable to whoever wins",
+      "maps_to": "The associates",
+      "composite": true
+    },
+    {
+      "char_id": "dilip",
+      "name": "Dilip",
+      "role": "head clerk of the real district court",
+      "want": "protect his nephew's posting; later, a family plot",
+      "maps_to": "invented",
+      "composite": true
+    },
+    {
+      "char_id": "kiran",
+      "name": "Kiran",
+      "role": "the broken engagement",
+      "want": "a marriage that does not shame her father",
+      "maps_to": "invented",
+      "composite": true
+    },
+    {
+      "char_id": "pravin",
+      "name": "Pravin",
+      "role": "kiran's father, ration shop licensee",
+      "want": "his licence, then his standing",
+      "maps_to": "invented",
+      "composite": true
+    },
+    {
+      "char_id": "rekha",
+      "name": "Rekha",
+      "role": "widow whose husband's land the chamber awarded away",
+      "want": "three acres and an apology in public",
+      "maps_to": "The claimants",
+      "composite": true
+    },
+    {
+      "char_id": "mansukh",
+      "name": "Mansukh",
+      "role": "land aggregator financing the chamber's output",
+      "want": "clean title on plots bought before the case is heard",
+      "maps_to": "invented",
+      "composite": true
+    },
+    {
+      "char_id": "jayaben",
+      "name": "Jayaben",
+      "role": "nayan's mother",
+      "want": "keep the last three acres; she has already signed",
+      "maps_to": "invented",
+      "composite": true
+    },
+    {
+      "char_id": "asif",
+      "name": "Asif",
+      "role": "young advocate who first asks the right question",
+      "want": "a reputation, and then a favour",
+      "maps_to": "invented",
+      "composite": true
+    },
+    {
+      "char_id": "lalji",
+      "name": "Lalji",
+      "role": "farmer who won before the chamber and celebrated",
+      "want": "keep what he was given",
+      "maps_to": "The claimants",
+      "composite": true
+    }
   ],
-
   "adaptability": {
-    "conflict": 9, "characters": 9, "stakes": 9, "serializability": 10, "resonance": 9, "total": 46
+    "conflict": 9,
+    "characters": 9,
+    "stakes": 9,
+    "serializability": 10,
+    "resonance": 9,
+    "total": 46
   },
-
   "clearance": {
     "status": "fictionalize_first",
     "reasons": [
@@ -104,9 +427,10 @@
       "The claim that orders were acted upon and land changed hands is the police account. Render it as an accusation a character makes, never as narration."
     ]
   },
-
-  "novelty": {"prior_adaptations": [], "score": 9},
-
+  "novelty": {
+    "prior_adaptations": [],
+    "score": 9
+  },
   "fictionalization_map": {
     "Gandhinagar": "ratanpar",
     "Gujarat": "north gujarat, unnamed district",

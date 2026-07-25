@@ -21,13 +21,19 @@ from typing import Any, Dict, List
 
 from src.util import (CORPUS_PATH, DOSSIERS_PATH, ensure_dirs, load_env, log,
                       offline, read_json, write_json)
+from src.discovery.cache import save_raw
 
 PROMPTS = pathlib.Path(__file__).resolve().parent / "prompts"
 
 # Season length for the POC. Deliberately not the scout's `episode_estimate` —
 # that number answers "could this run 150 episodes", which is a judgement about
 # longevity, not an instruction about how much to generate now.
-DEFAULT_EPISODES = 28
+DEFAULT_EPISODES = 14
+
+# expand.md says "search once or twice". An unbounded search phase on a call that
+# must also emit a full season is the likeliest source of truncation here.
+MAX_TOOL_CALLS = 4
+MAX_OUTPUT_TOKENS = 32000
 
 HOOK_TYPES = ["REVEAL", "THREAT", "ARRIVAL", "BETRAYAL", "RECOGNITION",
               "DEADLINE", "REVERSAL", "ULTIMATUM", "ACCUSATION", "DISCOVERY"]
@@ -64,7 +70,7 @@ DOSSIER_SCHEMA = _obj({
         "id": {"type": "string"},
         "date": {"type": "string"},
         "what_happened": {"type": "string"},
-        "confidence": {"enum": ["verified", "reported", "alleged", "disputed"]},
+        "confidence": {"type": "string", "enum": ["verified", "reported", "alleged", "disputed"]},
         "source": {"type": "string"},
     })},
     # The record. Real individuals only, for clearance.
@@ -72,7 +78,7 @@ DOSSIER_SCHEMA = _obj({
         "name": {"type": "string"},
         "role": {"type": "string"},
         "motive": {"type": "string"},
-        "public_or_private": {"enum": ["public", "private"]},
+        "public_or_private": {"type": "string", "enum": ["public", "private"]},
         "living": {"type": "boolean"},
     })},
     # The show. Invented characters, keyed by the id every downstream stage uses.
@@ -93,7 +99,7 @@ DOSSIER_SCHEMA = _obj({
         "total": {"type": "integer"},
     }),
     "clearance": _obj({
-        "status": {"enum": ["greenlight", "fictionalize_first", "blocked"]},
+        "status": {"type": "string", "enum": ["greenlight", "fictionalize_first", "blocked"]},
         "reasons": {"type": "array", "items": {"type": "string"}},
     }),
     "novelty": _obj({
@@ -110,7 +116,7 @@ DOSSIER_SCHEMA = _obj({
     "season": {"type": "array", "items": _obj({
         "ep": {"type": "integer"},
         "turn": {"type": "string"},
-        "hook_type": {"enum": HOOK_TYPES},
+        "hook_type": {"type": "string", "enum": HOOK_TYPES},
         "ends_on": {"type": "string"},
         "pays_off": {"type": ["string", "null"]},
         "status": {"type": "integer"},
@@ -119,7 +125,14 @@ DOSSIER_SCHEMA = _obj({
 
 
 def episodes() -> int:
-    return int(os.environ.get("CANONFORGE_EPISODES", DEFAULT_EPISODES))
+    raw = os.environ.get("CANONFORGE_EPISODES", DEFAULT_EPISODES)
+    try:
+        n = int(raw)
+    except (TypeError, ValueError):
+        raise RuntimeError(f"CANONFORGE_EPISODES={raw!r} is not a number")
+    if n < 1:
+        raise RuntimeError(f"CANONFORGE_EPISODES={n} must be at least 1")
+    return n
 
 
 def load_prompt(n_episodes: int) -> str:
@@ -166,9 +179,13 @@ def expand(candidate: Dict[str, Any], n_episodes: int,
             {"role": "user", "content": brief},
         ],
         tools=[{"type": "web_search", "search_context_size": "high"}],
+        max_output_tokens=MAX_OUTPUT_TOKENS,
+        max_tool_calls=MAX_TOOL_CALLS,
         text={"format": {"type": "json_schema", "name": "dossier",
                          "schema": DOSSIER_SCHEMA, "strict": True}},
     )
+
+    save_raw("expand", load_prompt(n_episodes) + brief, response)
 
     if getattr(response, "status", None) == "incomplete":
         raise RuntimeError(
@@ -176,18 +193,74 @@ def expand(candidate: Dict[str, Any], n_episodes: int,
             "here is truncation, not a weak event — do not tune the prompt for it."
         )
 
-    dossier = json.loads(getattr(response, "output_text", "") or "{}")
-    dossier["fictionalization_map"] = {
-        p["real"]: p["fictional"] for p in dossier.get("fictionalization_map", [])
-    }
+    refusal = _refusal(response)
+    if refusal:
+        raise RuntimeError(
+            f"the model refused: {refusal}. The source material is fraud and "
+            "organised crime, so this is a foreseeable outcome, not a bug."
+        )
+
+    text = getattr(response, "output_text", "") or ""
+    if not text.strip():
+        # Never default to {}. An empty dossier writes a well-formed file, exits
+        # 0, and every stage downstream believes the season exists.
+        raise RuntimeError(
+            f"expander returned no text output (status={getattr(response, 'status', '?')})"
+        )
+
+    dossier = json.loads(text)
+    dossier["fictionalization_map"] = _fold_map(dossier.get("fictionalization_map", []))
+
+    # Derived rather than asked for. Every test run invented this field and the
+    # strict schema forbids it, so the guard for hard rule 3 would vanish the
+    # moment the pipeline ran for real. It is a projection of the timeline.
+    dossier["never_narrate_as_fact"] = [
+        f"{t['id']}: {t['what_happened']} ({t['confidence']})"
+        for t in dossier.get("timeline", [])
+        if t.get("confidence") in ("alleged", "disputed")
+    ]
+
+    # The winner's category and hunt scores have no home in the dossier schema
+    # and would be dropped at the stage boundary.
+    for field in ("category", "hunt_category"):
+        if candidate.get(field):
+            dossier["category"] = candidate[field]
+            break
+    if candidate.get("scores"):
+        dossier["hunt_scores"] = candidate["scores"]
+
     return dossier
+
+
+def _refusal(response: Any) -> str:
+    for item in getattr(response, "output", []) or []:
+        data = item.model_dump() if hasattr(item, "model_dump") else dict(item)
+        for block in data.get("content") or []:
+            if isinstance(block, dict) and block.get("type") == "refusal":
+                return str(block.get("refusal", "no reason given"))
+    return ""
+
+
+def _fold_map(pairs: List[Dict[str, str]]) -> Dict[str, str]:
+    """Pairs to dict, loudly — a duplicate `real` key silently loses a person."""
+    out: Dict[str, str] = {}
+    for p in pairs:
+        real, fictional = p.get("real", ""), p.get("fictional", "")
+        if real in out and out[real] != fictional:
+            log(f"fictionalization_map: '{real}' mapped twice "
+                f"('{out[real]}' then '{fictional}') — one mapping is lost", "warn")
+        out[real] = fictional
+    return out
 
 
 def check(dossier: Dict[str, Any], n_episodes: int) -> List[str]:
     """
-    The three failures that are invisible in a JSON blob but fatal on stage: a
-    short season, a flat status curve, and back-to-back hooks. Warnings, not
-    errors — a thin season is still worth looking at before it is regenerated.
+    Failures that are invisible in a JSON blob but fatal downstream: a short or
+    flat season, back-to-back hooks, and — the one that matters legally — a real
+    name with no fictional counterpart.
+
+    Warnings, not errors, with one exception: `unmapped_names()` is a hard rule
+    and is raised by the caller.
     """
     season = dossier.get("season", [])
     problems = []
@@ -208,16 +281,44 @@ def check(dossier: Dict[str, Any], n_episodes: int) -> List[str]:
         problems.append(f"repeated hook type at episodes {repeats}")
 
     # Unbroken high tension exhausts a listener; roughly one episode in six
-    # should settle something before the next wound opens.
+    # should settle something before the next wound opens. Integer division here
+    # made the threshold 1 at fourteen episodes, which passed what it was written
+    # to fail.
     payoffs = sum(1 for e in season if e.get("pays_off"))
-    if season and payoffs < len(season) // 8:
-        problems.append(f"only {payoffs} episodes pay anything off — all wound, no reward")
+    if season and payoffs < round(len(season) / 6):
+        problems.append(
+            f"only {payoffs} episodes pay anything off, expected about "
+            f"{round(len(season) / 6)} — all wound, no reward"
+        )
+
+    eps = [e.get("ep") for e in season]
+    if season and sorted(eps) != list(range(1, len(season) + 1)):
+        # The episode writer indexes by `ep`; a duplicate or a gap silently
+        # writes the wrong episode or none at all.
+        problems.append(f"episode numbers are not 1..{len(season)} exactly: {eps}")
 
     ids = {c.get("char_id") for c in dossier.get("cast", [])}
     if not ids:
         problems.append("no cast — downstream stages have no character ids to use")
 
+    if season and not season[-1].get("pays_off"):
+        problems.append("the last episode settles nothing — the story does not resolve")
+
     return problems
+
+
+def unmapped_names(dossier: Dict[str, Any]) -> List[str]:
+    """
+    Real names with no fictional counterpart.
+
+    Hard rule 4 says real names never reach generated fiction, and the
+    fictionalization map is the only thing that enforces it. Three of four test
+    runs produced maps keyed by role description rather than by name, so the map
+    covered nobody and one of them leaked a real surname into a script. This is
+    the check that would have caught it.
+    """
+    fmap = dossier.get("fictionalization_map", {})
+    return [p["name"] for p in dossier.get("people", []) if p.get("name") not in fmap]
 
 
 def main() -> int:
@@ -226,19 +327,27 @@ def main() -> int:
         log("OFFLINE is set — expansion is a live call", "error")
         return 1
 
-    n = episodes()
     try:
+        n = episodes()
         candidate = winner_from()
-    except RuntimeError as exc:
+        ensure_dirs()
+        log(f"expanding '{candidate['title']}' into {n} episodes")
+        dossier = expand(candidate, n)
+    except (RuntimeError, ValueError, json.JSONDecodeError) as exc:
+        # The messages above are written to be read. A traceback buries them, and
+        # JSONDecodeError is not a RuntimeError.
         log(str(exc), "error")
         return 1
 
-    ensure_dirs()
-    log(f"expanding '{candidate['title']}' into {n} episodes")
-    dossier = expand(candidate, n)
-
     for problem in check(dossier, n):
         log(problem, "warn")
+
+    unmapped = unmapped_names(dossier)
+    if unmapped:
+        log(f"real names with no fictional counterpart: {unmapped}", "error")
+        log("hard rule 4 cannot be enforced downstream — not writing this dossier",
+            "error")
+        return 1
 
     write_json(DOSSIERS_PATH, [dossier])
     log(f"{dossier.get('title', '?')}: {len(dossier.get('season', []))} episodes")

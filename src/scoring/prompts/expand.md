@@ -192,6 +192,20 @@ so no real person is identifiable. If the protagonist should be a composite
 rather than a real individual, say so.
 
 Not optional. Real names never reach the generated fiction.
+
+<keys>
+**Every entry in `people` gets its own entry in `fictionalization_map`, keyed by
+that person's `name` string EXACTLY as you wrote it.** One entry per person,
+verbatim, character for character.
+
+This is the only mechanism enforcing the rule. A map keyed by role description —
+"the accused proprietor", "the claimants" — reads sensibly and covers nobody,
+because the thing that must be substituted is the name. When that happened, a
+real surname reached a finished script.
+
+Places, institutions and roles may be mapped as well, in addition to the names.
+Never instead of them.
+</keys>
 </fictionalization>
 
 <internal_consistency>
@@ -228,6 +242,8 @@ Verify each before you output. Any "no" — rebuild the season, do not ship it.
 6. Could any episode be skipped without the listener being confused?
 7. Is every character named anywhere in the season present in `cast`?
 8. Do all ages, years and elapsed periods agree with each other?
+9. Does every `people[].name` appear verbatim as a key in `fictionalization_map`?
+   Check them off one by one. A missing key is a real name with no cover.
 </final_check>
 
 <output>
