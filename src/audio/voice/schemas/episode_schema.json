@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Episode",
+  "type": "object",
+  "required": ["episode_id", "characters", "lines"],
+  "properties": {
+    "episode_id": {"type": "string"},
+    "series_id": {"type": "string"},
+    "title": {"type": "string"},
+    "bgm": {
+      "type": "object",
+      "properties": {
+        "enabled": {"type": "boolean"},
+        "default_mood": {"type": "string"}
+      }
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": {"type": "string"},
+          "gender": {"type": "string"},
+          "persona": {"type": "string"},
+          "accent": {"type": "string"}
+        }
+      }
+    },
+    "lines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["line_id", "speaker", "text", "emotion", "language"],
+        "properties": {
+          "line_id": {"type": "string"},
+          "speaker": {"type": "string"},
+          "text": {"type": "string"},
+          "language": {"type": "string", "enum": ["hi", "en", "hi-en", "ta", "ta-en"]},
+          "emotion": {
+            "type": "string",
+            "enum": [
+              "neutral", "joy", "sorrow", "hurt_anger", "fear",
+              "tenderness", "tension", "sarcasm", "hesitation",
+              "urgency", "reflective", "relief", "longing"
+            ]
+          },
+          "intensity": {"type": "number", "minimum": 0, "maximum": 1},
+          "pace": {"type": "string", "enum": ["slow", "normal", "clipped", "fast"]},
+          "sfx_cue": {"type": "string"},
+          "provider": {"type": "string"},
+          "bgm_cue": {"type": "string"},
+          "pause_after_ms": {"type": "integer", "minimum": 0}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+# Flip this single value to switch the entire pipeline to a different TTS provider.
+# Everything else (orchestrator, schema, audio post) stays unchanged.
+active_provider: sarvam
+
+sarvam:
+  model: "bulbul:v3"
+  pace: 1.0                      # fallback when a line has no pace and isn't in pace_map
+  # Empirically tested (silence-gap analysis on real synthesis output):
+  # pace=1.0 is bulbul:v3's coherence sweet spot. Pushing pace far from 1.0
+  # in EITHER direction — the original 0.8/1.4 range — measurably increases
+  # internal word-gaps and makes speech sound choppy/disjointed (0.8 -> ~17
+  # gaps, 1.0 -> ~7-9 gaps, 1.4 direction trending the same way as 1.1's
+  # ~16 gaps). Keep pace close to 1.0; convey "slow"/"fast" delivery mostly
+  # through text/emotion instead of pushing this parameter hard.
+  pace_map: {slow: 0.95, normal: 1.0, clipped: 1.05, fast: 1.1}
+  temperature_spread: 0.4        # how much `intensity` (0-1) shifts temperature around each emotion's base
+  dict_id: null                  # optional Sarvam custom pronunciation dictionary id
+
+elevenlabs:
+  model_id: eleven_v3
+  output_format: mp3_44100_128
+  max_chars_per_call: 3000
+  # This is the "system prompt" lever for ElevenLabs: eleven_v3 reads
+  # bracketed text as delivery instructions, merged with each line's
+  # emotion tag (see providers/elevenlabs_provider.py::_build_prompted_text).
+  # Edit this to steer overall delivery style for every line at once.
+  style_directive: "conversational, natural everyday pacing, casual spoken delivery, not formal or news-anchor"
+
+google:
+  voice_model: "chirp3-hd"
+
+# Global pipeline settings (provider-independent)
+pipeline:
+  inter_line_silence_ms: 450   # fallback gap when a line has no pause_after_ms — long enough for BGM ambience to actually register
+  sample_rate: 44100
+  cache_enabled: true
+  target_dbfs: -20.0              # loudness normalization target applied to every line clip before stitching
+  auto_cast_missing: false        # if true, orchestrator auto-resolves casting gaps before validation
+  bgm_enabled: false               # generated background ambience (config/bgm_map.yaml) — off until smoke-tested
+  retry:
+    max_attempts: 3
+    backoff_seconds: 2

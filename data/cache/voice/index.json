@@ -1,0 +1,600 @@
+{
+  "d31a9750616a57077a99": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_f62f6ddb3bd0b83d.mp3",
+    "duration_ms": 5600,
+    "provider": "mock",
+    "line_id": "l001",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "neutral",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "7f3795f2b54bf9d13e5d": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_chaitra_ca15affa9240961e.mp3",
+    "duration_ms": 8066,
+    "provider": "mock",
+    "line_id": "l002",
+    "voice_id": "chaitra",
+    "raw_meta": {
+      "emotion": "neutral",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "2582dd400cadd61222fe": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_be9d0fe84ea69b6a.mp3",
+    "duration_ms": 800,
+    "provider": "mock",
+    "line_id": "l003",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "neutral",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "5165b9e07f4f49603bf8": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_chaitra_5ef126299fc5f3f6.mp3",
+    "duration_ms": 3066,
+    "provider": "mock",
+    "line_id": "l004",
+    "voice_id": "chaitra",
+    "raw_meta": {
+      "emotion": "neutral",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "5e12fb5b743a5916e513": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_0b1e8397a4d21610.mp3",
+    "duration_ms": 3200,
+    "provider": "mock",
+    "line_id": "l005",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "sarcasm",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "40563244691d00154d46": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_chaitra_aea7cd629c36d61b.mp3",
+    "duration_ms": 4466,
+    "provider": "mock",
+    "line_id": "l006",
+    "voice_id": "chaitra",
+    "raw_meta": {
+      "emotion": "urgency",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "836361cbecf1d82b047f": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_4c8edfc141770729.mp3",
+    "duration_ms": 8666,
+    "provider": "mock",
+    "line_id": "l007",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "neutral",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "b508eb79131e026c4953": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_chaitra_dc1bf4da0141d8a6.mp3",
+    "duration_ms": 733,
+    "provider": "mock",
+    "line_id": "l008",
+    "voice_id": "chaitra",
+    "raw_meta": {
+      "emotion": "tension",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "a55231ad6026657b1fc3": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_c525be369bd23ea1.mp3",
+    "duration_ms": 933,
+    "provider": "mock",
+    "line_id": "l009",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "neutral",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "7317e3bce9a135bed488": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_chaitra_f4b0ce8f9b05500c.mp3",
+    "duration_ms": 1333,
+    "provider": "mock",
+    "line_id": "l010",
+    "voice_id": "chaitra",
+    "raw_meta": {
+      "emotion": "tension",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "65dbfa95919494a48f6c": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_2f0bc5df00106556.mp3",
+    "duration_ms": 600,
+    "provider": "mock",
+    "line_id": "l011",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "tension",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "69edb1cf7e92b8b7dfa7": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_chaitra_4d4f8e34668a7319.mp3",
+    "duration_ms": 11000,
+    "provider": "mock",
+    "line_id": "l012",
+    "voice_id": "chaitra",
+    "raw_meta": {
+      "emotion": "neutral",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "36357beb0a0397104d49": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_c6ba2c445e5fb2f9.mp3",
+    "duration_ms": 2266,
+    "provider": "mock",
+    "line_id": "l013",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "tension",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "d847228fc8d6027b80d1": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_chaitra_629e39faa77f9836.mp3",
+    "duration_ms": 733,
+    "provider": "mock",
+    "line_id": "l014",
+    "voice_id": "chaitra",
+    "raw_meta": {
+      "emotion": "tension",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "7bafa2197f0fcbb3332b": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_1a8068dc18e4ab10.mp3",
+    "duration_ms": 3200,
+    "provider": "mock",
+    "line_id": "l015",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "neutral",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "a94df208838e82b30927": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_chaitra_be98c33f6898b305.mp3",
+    "duration_ms": 1066,
+    "provider": "mock",
+    "line_id": "l016",
+    "voice_id": "chaitra",
+    "raw_meta": {
+      "emotion": "urgency",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "e69234f213713af17978": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_narrator_44dc5e2f116ea600.mp3",
+    "duration_ms": 7266,
+    "provider": "mock",
+    "line_id": "l017",
+    "voice_id": "narrator",
+    "raw_meta": {
+      "emotion": "reflective",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "607159d3b136ae4de167": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_9f4fd58d329fb503.mp3",
+    "duration_ms": 8066,
+    "provider": "mock",
+    "line_id": "l018",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "tension",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "3b4de21ebbe13a3840ce": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_chaitra_17323a54921dea5e.mp3",
+    "duration_ms": 3400,
+    "provider": "mock",
+    "line_id": "l019",
+    "voice_id": "chaitra",
+    "raw_meta": {
+      "emotion": "tension",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "2a59f93c7d8210b546d1": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_7173505ce763e784.mp3",
+    "duration_ms": 2266,
+    "provider": "mock",
+    "line_id": "l020",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "tension",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "1b204b08a4b5814f7cd2": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_chaitra_96c44941003a3ae5.mp3",
+    "duration_ms": 1133,
+    "provider": "mock",
+    "line_id": "l021",
+    "voice_id": "chaitra",
+    "raw_meta": {
+      "emotion": "hurt_anger",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "fbd548d5cb686f34ea2c": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_88b5381b9d7cc6da.mp3",
+    "duration_ms": 1666,
+    "provider": "mock",
+    "line_id": "l022",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "neutral",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "3c24c8b4d299996ea950": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_chaitra_550411d7e54804a2.mp3",
+    "duration_ms": 800,
+    "provider": "mock",
+    "line_id": "l023",
+    "voice_id": "chaitra",
+    "raw_meta": {
+      "emotion": "urgency",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "c37da266bb48b85b4614": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_369810f9d7d6edbb.mp3",
+    "duration_ms": 1066,
+    "provider": "mock",
+    "line_id": "l024",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "hesitation",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "ec6e2eb754216babbb36": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_chaitra_d22c90dac1f65656.mp3",
+    "duration_ms": 3266,
+    "provider": "mock",
+    "line_id": "l025",
+    "voice_id": "chaitra",
+    "raw_meta": {
+      "emotion": "hurt_anger",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "27fffb45a27a070cf01a": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\mock_basavaraj_ec1e728a0cea781a.mp3",
+    "duration_ms": 6866,
+    "provider": "mock",
+    "line_id": "l026",
+    "voice_id": "basavaraj",
+    "raw_meta": {
+      "emotion": "neutral",
+      "note": "MOCK AUDIO — not real speech"
+    }
+  },
+  "7ca92bd734da9e6ec423": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_26420ebacb4b5995.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l001",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.41000000000000003,
+      "pace": 1.0
+    }
+  },
+  "b4103c5cd8c6c37e4d56": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_7b4ef4b5a8fd45d2.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l002",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.43,
+      "pace": 1.0
+    }
+  },
+  "dbdc75b6f3580552b971": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_692377dd84e2e7b0.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l003",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.39,
+      "pace": 1.05
+    }
+  },
+  "268bbdf9346c8cd9d6aa": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_e622faa06dd8f92e.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l004",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.47000000000000003,
+      "pace": 1.0
+    }
+  },
+  "655b679785525f69c08c": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_148bd6b654cd1c23.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l005",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.7,
+      "pace": 1.0
+    }
+  },
+  "1056c91dc3db16953884": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_f6be7f7b9a1a4556.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l006",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.95,
+      "pace": 1.0
+    }
+  },
+  "ca7ad7df49080ea8cc6a": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_4277d27ed379e248.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l007",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.43,
+      "pace": 1.0
+    }
+  },
+  "8b7d146312a7f9b95ae5": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_f4816b2a66b9f063.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l008",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8,
+      "pace": 1.05
+    }
+  },
+  "c86a056186d9ae099a77": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_787bf0b01cdb3dec.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l009",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.41000000000000003,
+      "pace": 1.0
+    }
+  },
+  "9ce69d40fc4adece35c0": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_4b65e89752b07dd7.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l010",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.78,
+      "pace": 1.05
+    }
+  },
+  "8543dcefcc9ef43f0dd8": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_91be3db66293838e.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l011",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8,
+      "pace": 1.05
+    }
+  },
+  "0e18756dda712c7b1fe5": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_b868de4a7cc8e911.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l012",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.47000000000000003,
+      "pace": 1.0
+    }
+  },
+  "a52a3b733d35007ccdc3": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_2913f96755d75056.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l013",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8400000000000001,
+      "pace": 1.0
+    }
+  },
+  "dcaa30c1167fc0696995": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_eae5146584ffbd7a.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l014",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8400000000000001,
+      "pace": 1.05
+    }
+  },
+  "e6642d7b8a5be2cc322e": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_879ed11ff589255d.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l015",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.41000000000000003,
+      "pace": 1.0
+    }
+  },
+  "b02d67d236363be0fc75": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_4704ee4cbc961100.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l016",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 1.0,
+      "pace": 1.05
+    }
+  },
+  "7101ad0003ca0eec5114": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_narrator_f3db6adde34062fe.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l017",
+    "voice_id": "sumit",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.35,
+      "pace": 0.95
+    }
+  },
+  "ae34d69476eb0d2e98be": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_7bae844ae1515b3f.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l018",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8200000000000001,
+      "pace": 1.0
+    }
+  },
+  "9943fbf3cdd07e9a6941": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_687a7ad470bbd5a0.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l019",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8600000000000001,
+      "pace": 1.0
+    }
+  },
+  "eb400948c01d497dc9dc": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_0118769d398eebb9.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l020",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8400000000000001,
+      "pace": 1.0
+    }
+  },
+  "2140306e6b76adbf8c86": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_9593c422a3c6d4dc.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l021",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 1.0,
+      "pace": 1.1
+    }
+  },
+  "1c7c15cd66a58ceb1ba3": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_4ac6a97a2ce79dfb.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l022",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.47000000000000003,
+      "pace": 0.95
+    }
+  },
+  "41db63d815420a0de043": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_8fd207713e054848.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l023",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 1.0,
+      "pace": 1.05
+    }
+  },
+  "0bab26e54c0798c9bee3": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_e8eccfdda84399a0.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l024",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.5,
+      "pace": 1.0
+    }
+  },
+  "e565fedf6ea928a2b27b": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_chaitra_b87f1463488297c9.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l025",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 1.0,
+      "pace": 1.0
+    }
+  },
+  "576e370216d44850e1f2": {
+    "audio_path": "E:\\D drive\\Desktop\\PocketFM Hackathon\\data\\cache\\voice\\sarvam_basavaraj_5123cc27b458a79b.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l026",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.49,
+      "pace": 0.95
+    }
+  }
+}

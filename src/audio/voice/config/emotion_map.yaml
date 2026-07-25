@@ -1,0 +1,56 @@
+# Single source of truth translating the abstract emotion vocabulary
+# (used in episode.json) into each provider's own syntax.
+# Adding a new provider = adding one section here. Nothing else changes.
+
+elevenlabs:
+  neutral: ""
+  joy: "[happy, warm]"
+  sorrow: "[sad, quiet]"
+  hurt_anger: "[hurt, sharp tone]"
+  fear: "[fearful, trembling]"
+  tenderness: "[gentle, soft]"
+  tension: "[tense, guarded]"
+  sarcasm: "[sarcastic]"
+  hesitation: "[hesitant, pausing]"
+  urgency: "[urgent, fast]"
+  reflective: "[thoughtful, slow]"
+  relief: "[relieved, exhale]"
+  longing: "[wistful, soft]"
+
+mock:
+  # Mock provider ignores emotion content (it just generates a tone), but
+  # still needs every emotion key present so pre-flight validation passes.
+  neutral: {}
+  joy: {}
+  sorrow: {}
+  hurt_anger: {}
+  fear: {}
+  tenderness: {}
+  tension: {}
+  sarcasm: {}
+  hesitation: {}
+  urgency: {}
+  reflective: {}
+  relief: {}
+  longing: {}
+
+# Sarvam bulbul:v3 has no style/pitch/loudness params (those are v2-only).
+# Expressiveness is driven by `temperature` (0.01-2.0) instead. SarvamProvider
+# interpolates around this base value using each line's `intensity` (see
+# _temperature_value in providers/sarvam_provider.py), so this table is the
+# single source of truth for "how does each emotion sound" — deliberately
+# global across all characters (see plan's consistency design principle).
+sarvam:
+  neutral:     {temperature: 0.45}
+  joy:         {temperature: 0.75}
+  sorrow:      {temperature: 0.45}
+  hurt_anger:  {temperature: 0.90}
+  fear:        {temperature: 0.85}
+  tenderness:  {temperature: 0.40}
+  tension:     {temperature: 0.80}
+  sarcasm:     {temperature: 0.70}
+  hesitation:  {temperature: 0.50}
+  urgency:     {temperature: 0.95}
+  reflective:  {temperature: 0.35}
+  relief:      {temperature: 0.55}
+  longing:     {temperature: 0.45}

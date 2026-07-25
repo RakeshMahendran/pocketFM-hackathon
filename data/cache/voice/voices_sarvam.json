@@ -1,0 +1,128 @@
+[
+  {
+    "provider": "sarvam",
+    "voice_id": "sumit",
+    "name": "Sumit",
+    "gender": "Male",
+    "age": "",
+    "accent": "",
+    "description": "Balanced warmth with professionalism (featured)"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "ritu",
+    "name": "Ritu",
+    "gender": "Female",
+    "age": "",
+    "accent": "",
+    "description": "Soft, approachable voice for customer interactions (featured)"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "shubh",
+    "name": "Shubh",
+    "gender": "Male",
+    "age": "",
+    "accent": "",
+    "description": "Friendly default voice for IVR and support"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "amit",
+    "name": "Amit",
+    "gender": "Male",
+    "age": "",
+    "accent": "",
+    "description": "Formal voice for business communications"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "pooja",
+    "name": "Pooja",
+    "gender": "Female",
+    "age": "",
+    "accent": "",
+    "description": "Encouraging voice for assistance flows"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "manan",
+    "name": "Manan",
+    "gender": "Male",
+    "age": "",
+    "accent": "",
+    "description": "Consistent voice for automated systems"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "simran",
+    "name": "Simran",
+    "gender": "Female",
+    "age": "",
+    "accent": "",
+    "description": "Warm voice for conversational interfaces"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "rahul",
+    "name": "Rahul",
+    "gender": "Male",
+    "age": "",
+    "accent": "",
+    "description": "Composed voice that builds trust"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "kavya",
+    "name": "Kavya",
+    "gender": "Female",
+    "age": "",
+    "accent": "",
+    "description": "Everyday conversational tone"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "ratan",
+    "name": "Ratan",
+    "gender": "Male",
+    "age": "",
+    "accent": "",
+    "description": "Sharp articulation for clarity"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "priya",
+    "name": "Priya",
+    "gender": "Female",
+    "age": "",
+    "accent": "",
+    "description": "Upbeat voice with personality"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "ishita",
+    "name": "Ishita",
+    "gender": "Female",
+    "age": "",
+    "accent": "",
+    "description": "Polished voice for enterprise use"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "shreya",
+    "name": "Shreya",
+    "gender": "Female",
+    "age": "",
+    "accent": "",
+    "description": "Precise pronunciation and enunciation"
+  },
+  {
+    "provider": "sarvam",
+    "voice_id": "shruti",
+    "name": "Shruti",
+    "gender": "Female",
+    "age": "",
+    "accent": "",
+    "description": "Sweet and melodious voice"
+  }
+]
