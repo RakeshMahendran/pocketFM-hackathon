@@ -1,0 +1,1131 @@
+{
+  "stage": "hunt_revenge",
+  "saved_at": "2026-07-25T21:47:40.213087+00:00",
+  "response": {
+    "id": "resp_02454742d5bab7f8006a652ec495f4819a9891bed06ef98d7f",
+    "created_at": 1785016004.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-luna",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_02454742d5bab7f8006a652ec5ad78819abb06dea127865a7a",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS7_jpGswERMazJGK9-PbKg7WolScb3QoBKcGzuJT3_lpELhDY9MQYeB7-78iM0w0Eut0Ppm4ZaWQcr3Su4FvPKSGy3PGQkKyKuwmOUpLZibV-qCl0sx55cu_j_y5GrZ8OPQ2dCUTm8DM3VuHhP79KQ6bMSPHNgZZlX08nNMZOPQnVU4jDUNMF67xp1ZvesmDu6fr7GbkQi_K14-itUTyRs7L_8U-nnMITG7eTGrDgI3-cKgV3dJdPXpKb-K0SB74_sI2LQxpLRgF0mXvXm74r4J5DQoDM14aqZKMwrKMo4wn7FwTYQZ-pEvHzONW9Hnsi4m_ANZO2Qsj-VrDdVF7BL89UXX6Q7Fh34I1rdDEh_Sr23UI98tz9rH66xf1z_3bIjBzXAF9zEvhvG7HFclimT7DmOtjD6zPle7b8IjfY7gJ4W-Pt7tZwicMHqfk3E85ILkDq3B44x1RmztCBEtOjrxJoBFEm9RWssA4xVVnVwD_skfvVWoYRUTV48RzqnPf2ETPtcTSzFdA-0ecIhdRXJA5BC5--REfBMdSHltGL1heiNCKGv2QP6fEaiZQqw9XTaRg1CN5G2N-llhxJFK7_q_tqcVX78jClm8Mmfd282QVSdKY6AUxFEpRVWkTVU7wFzCJqOHR6UMclI0j42vpbSdzGq3aqopDU-ZTitxMvt4Ihv68fjOMMy4By_A4-yONoiFI31eksb8bkNRGM3Ny8h7xQn1i5kqmrPqdmf5HkwfClP7uD0Hc3irpuPbUUU6zPpH_XaGoTlPH38gGY088lgD9r9Gx7pC2ElS9iLG4mHjNrVcIclZpzUQwvPOwf2DmRfvShlEwjwlWyCjIGpqZ4edw_tmWUs95ZsUnWXiPbKGMkOSOkiR66pgv82bTnptP8kIfO1cMoIcln9DJBGXwoLIFs1CFK4u1i5kDkXxMNc0xII6O8NX2IboZNnUmjmgmZ9APzKZIy6JBx_38MkoXirS3_DmjgXAjxqmgyen33NEBujaVy2EjqY-D2QAUDfUGLACA1d1pwj2dH5LmmudIQm5RB3YMC95j-kgYV9t12apo0XpUifMOhj0j19jycHSEzBsEhaGiQQo6JhaspesW9Ki52-MtH3sYliNhZEBog9tczesIHIHKQrMA0j8jQeaF2m-fu2NLRmBaMJKtf4B3OofDn9bfb2-gcx_SE9Uydj6vgDPcwpAbBGzX5PaO6UzNHUrnOuKL2uQ7xSUI9JYMFjB3Ihes6JtEEvuI6XYO_Ab3JL-Qt1G7qiH1SR7rYOb1GFiu7uS3XHoIJ62anV3ZYBY7g==",
+        "status": null
+      },
+      {
+        "id": "ws_02454742d5bab7f8006a652ec652a0819ab74d267d1ae10fac",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India district court revenge fabricated kidnapping impersonation land dispute chargesheet regional news",
+            "site:indiankanoon.org revenge property dispute false murder case impersonation accused judgment India",
+            "India police revenge staged theft arson property dispute village newspaper",
+            "Bangladesh Nepal Sri Lanka revenge elaborate impersonation court case local news"
+          ],
+          "query": "India district court revenge fabricated kidnapping impersonation land dispute chargesheet regional news",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.bssnews.net/law-and-court/400564"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/49028/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/10172800/?formInput=citedby%3A+14496522"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/108076805/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/177548486/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/120045518/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/india-news/woman-who-allegedly-fabricated-gangrape-incident-in-ghaziabad-arrested-101666457691914.html"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/lucknow/lucknow-police-uncover-staged-robbery-revenge-plot-four-arrested/articleshow/114557927.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/87727483/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.ndtv.com/india-news/sleeping-odisha-couple-set-on-fire-family-suspects-revenge-over-sons-affair-11524744"
+            },
+            {
+              "type": "url",
+              "url": "https://english.nepalnews.com/s/explainers/fake-bhutanese-refugee-scam-how-the-fraud-worked-who-was-convicted-and-what-comes-next/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/30439306/"
+            },
+            {
+              "type": "url",
+              "url": "https://api.sci.gov.in/supremecourt/2024/443/443_2024_5_34_56024_Order_24-Sep-2024.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Vachathi_case"
+            },
+            {
+              "type": "url",
+              "url": "https://www.presscouncil.nic.in/Pdf/PCIREVIEWJANUARY2024.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/2015_Ballabhgarh_riot"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/List_of_cases_of_police_brutality_in_India"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1606440/?type=pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/765298/?type=pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://nhrc.nic.in/sites/default/files/2023-12-18.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1n44v43/legal_owners_of_the_plot_yet_being_threatened_by/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.allahabadhighcourt.in/ILR/ilr-2025/Sep2025.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Khairlanji_massacre"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Kathua_rape_and_murder_case"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/2010_Mirchpur_caste_violence"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndiaSpeaks/comments/1ira41c"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1403.2042"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1811.01806"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2311.13350"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1911.11062"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_02454742d5bab7f8006a652eca8148819a8c308ac8a643a094",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS7_THSaV-gmk-SYGeNQRSyyixm3HE0B1TkZM1Uw4049a_x-NDwPdRBBXd0oIZ6qiXaZlGwMKuQywugwp-uB7UqJ_vdeOzND97E-IauR7MLQ4n7ZhC1z0VoTR8Sf55jhlwAcczSuid_4qWCPfiuxhUDvmcyYJ67-lfYrhlzMHjl8sjZvXw6XBTL0vOI4xW1DhxQZZ56GlQrokjjebHeZQec5NOYKnB8ONwzWQMEkUce513_Uxs8CtuR-OwHYJUxm8pLm7iGLYUV9Ob9VGG-8cGluVMHT7ueIvX-kUsRPJ3kYGllRtcknUK3fQex7MT4_SsokbykH3Ir6G8plQ1fgcsC3odDE2lotU_t6HzeaOfRSP-t0d832LzvNCbLZ7UwCKAmedN4KFgb2zVxjTjUWTfBv8OrpPqGkwLqF8FtnpG1tp-kCMCyvMyTv30CUR6tIhPA66-kgtgliLHnbJ858rxJ5WI139VGKSDdIf0-KdWE7MNOOsF7UDbKqYB-WB-JaY1Cm9HcBtzXB-XZcxhwvnFWQsWwhNM71ClyYVtOKxwDekBZZWgRR8SFT8z0_e8jPB9wUJGh3PfV88Nnowle9hl7BbhUAPsi0hwMWEC0PuY4fDCg-M-hZZ57snaWy0ZDOaD8RZ0Hm_W4QJ1HKNE2dqFaB_FwzSQ0XN2a7MwEe_TU3U7gPQXVQ2snuCHjRmVGPq7IDIek7iKesEy__W1cTnxlyboLnnXB5dDV_EzYlyZ5zjl66rfWCTelUemriuRewdv5WFdNCcg0E1R3WRTuIcsYsToJ9lm0Wgy0BZntpUqxFenxYTpOoNSsl6sD5xNgHt9SoB4YvZEWf515ad0K-9ZMjeqbmF0SgifGC30hml2xxL-uOjwhcyfziseJHbcdyHqpKkblvHclkjKUZi1Xuf6pJAnqwmDYYGTktxMP0nGY8tqxKM44l2oHVFgU64numnjCK8-YlXhGgGlekE3H5LP_pP8j83XfGBQkmYh4XHnjZ3Hfu5OxtEDNKVNsEYMNReHhFGYcUrIWEQErA0fewShpHDNaERLbwfihpn8_6aCKCSOHRWiyXLaf_5X_c6lb475Z4Jst_CCreggygjUGI4dl_sJ0uvDuVjyHsins2L5DjDnnboNQ5XNHAKNyMsHRIyeBn2foypyI8TaGLg6mO5ctz6gt8DWn6XL6x2wjXnOovHKS7KH1_sdh84EHrNhgpU1bJ0UlvjNd8p9stUZlRkhkS5fGQ63g7VV9ZJxqcLksER2KzYn51encRPr9QRscDk-wuAUz6MXD2ppbrAgbJdUGX3uVG0DzGuVdMwfdTgKCIsPWhzM15ds-_jl2j5pKuBhoJ",
+        "status": null
+      },
+      {
+        "id": "ws_02454742d5bab7f8006a652ecb383c819a89b2683ddb3f35d4",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India \"revenge\" \"staged\" \"murder\" police accused village false case",
+            "India \"to take revenge\" impersonated fabricated case police chargesheet",
+            "site:thehindu.com India revenge staged crime false complaint land dispute",
+            "site:timesofindia.indiatimes.com revenge \"staged\" crime \"police\" village"
+          ],
+          "query": "India \"revenge\" \"staged\" \"murder\" police accused village false case",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/lucknow/lucknow-police-uncover-staged-robbery-revenge-plot-four-arrested/articleshow/114557927.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/india/dalit-youth-killed-in-rajasthan-after-row-over-ambedkar-poster-police-7351729/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/dehradun/2-held-for-fake-rape-claim-video-in-champawat/articleshow/130965194.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/cities/mumbai-news/sandeep-gadoli-encounter-case-mumbai-court-acquits-five-haryana-police-personnel-101774609164548.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.freepressjournal.in/amp/indore/wife-paramour-among-4-held-for-contract-killing-of-ujjain-criminal-in-fake-accident-plot"
+            },
+            {
+              "type": "url",
+              "url": "https://www.ndtv.com/india-news/man-kills-girlfriends-brother-injures-her-father-in-odisha-police-3566726"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/38071854/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/india-news/rajasthan-state-level-kabaddi-player-kidnapped-beaten-to-death-police-101781333538893.html"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/bangalore/bengaluru-police-to-take-action-against-persons-filing-fake-complaints-9844281/lite/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/noida/youths-fire-at-own-vehicle-to-create-panic-cops-look-for-8/articleshow/124186796.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://www.catjudgements.nic.in/bitstream/123456789/213407/1/O.A._576_1993_J.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://scroll.in/article/850189/scroll_in"
+            },
+            {
+              "type": "url",
+              "url": "https://orderlawstorage.blob.core.windows.net/judgements/supreme_court/2023/YWRtaW4vanVkZ2VtZW50X2ZpbGUvanVkZ2VtZW50X3BkZi8yMDIzL3ZvbHVtZSA2L1BhcnQgSS8yMDIzXzZfNDY5LTQ3OF8xNzAyNjI5Nzg2LnBkZg%3D%3D.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Khairlanji_massacre"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Right_Yaaa_Wrong"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/2022_Birbhum_violence"
+            },
+            {
+              "type": "url",
+              "url": "https://www.paras.org.in/wp-content/plugins/uploads/Indian%20Express.Villupuram%20-%20Paper%20Publication.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Kathua_rape_and_murder_case"
+            },
+            {
+              "type": "url",
+              "url": "https://pdf.lawlens.in/458ad7ae-d4d1-412a-9192-4894b973a587"
+            },
+            {
+              "type": "url",
+              "url": "https://www.courtkutchehry.com/judgements/896752/pdf/"
+            },
+            {
+              "type": "url",
+              "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/scgujaratijudgments/eng/CrA_757_of_2007.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Laxmanpur_Bathe_massacre"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/2002_Gujarat_violence"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/india/comments/e79b61"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/india/comments/cc6394"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/UnresolvedMysteries/comments/1turm11/the_noida_double_murder_how_botched/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/antifeminists/comments/y32ygl"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/18zbtz1"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/india/comments/15uh4aq"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1sw51tn/brother_getting_wrongly_accused_of_crimes_by/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1fye8h9"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/17xxl1z"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1ngmr4m/criminal_case_filed_by_my_brother_regarding/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Indianlaw/comments/1oddqt6/win_for_the_father/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1o3m1er"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_02454742d5bab7f8006a652ed31280819a8f46460d541ee4c4",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS7_R2oUhvqIhFFsxV16_vA-YElRqDTKAYZtef9IvxY6RXBcLp5JUfvJo4kgzzq_Q0CbsE4-eTPKFhwE-7fUe6YvBBeMfBiE-iHyXwoIlSqnNcWFkCf5RibKlLisjDJfRwJpIx0LnRxV_YqNfjCL6VFzAIHlAlJUc_wWUNSTzlkFfQL0AbV_GXz_YUWveg8ml9gVF-3mpr7o56DQ04Vmxg02ym3BlacoPz8kEdmHM8MxbKoQwJacnjmE8O7Q1xOMBGymyfp8PiMYCYGCeqyvPq-QQ-EmXypu46cSHnsmWz2UEhBJfvD0sHrZtKWQ0zCZayusCtU0k7DdD5PWgE07G429B2N-HJixjwdj1x8nojH_pPCCHxQ7QUe_5jTxV4-GxpKOJu30EvOJ7Mn5xrsNhgFnfrpE4qyvpFd-bTjS-eKd67JT0VFImt84YE5NMCJak7LyQRtqlOZGHwG6ag2-_ChDrSOAWUti6wmIr3Fs4WF-bptkUvStwAmi-5zupTPQaR5sGpkbQ_cchnUuwc5cx6Bq7982iYSWU53AhXPEDw2dxW55e8w7I-PbbI9SGUnCBkQ80BWT-C7fwWbDV0rUO7Wn6r1_UzbRx06MaWTlqND7eNcbQ15eyo8cuiJk3HeAFYmEzZVbb-Dmwlgj3jhfJIHOLkajubBwdAH5Z9c0U3wuRw7dFstm3LEkzEu-X8EZC1E94hn9d3uPajXhSfO-IgiRDeljH0fTHE-b4k4YMgIL-eb4XciZvvbmsInC3UtawFkEQlkiFFp_DW2rrSfL-FcRrFMdM0zFsZzUW1rcWs5EbdXlJhWrz9sGmZkAYcRkObY5IPjf0hlk1F4I_r0pWVaoij-PyMuVDMs1gJHqegtp0E3ZzIkSFB8fp-1lSODZqCczZpqyI2GCBy4otsELOJ_QWbsB26Ko1BynYf1wnnDxq8UyrHse2_-Rb7665eo5are3iTKjF8On0ErInStb84uHm3fBtP8QThIusZg0pynJAS6QPv8il4EDgnTmO7bD0awieNG2zIMcpdBrgDvsEoEQ8hifTBNproRh936Nl7NXEAVHR2gd8ytAfn1Q_uxBtQkGTOl01bMKHdsar7OTfqcSe66Aw9j3cKpm1Pi9mXvLX5dcQ3-QxZU65tGqztv0nYmb1Ie6u9j44yntsNTnFvbsgu04Y87EY4eBIk5tH_yg-lVaq7JJbeKD6jCT47spaDjKIWpv-Ipie38wwEV14-A_Ure5uEppiwD6w_5Aja4eWxdoirwVAfJ_gPwobzwcqOdU37EKwQsGGiD3XzMp4MBh0owsdejnGownLJMUhJhD-uQ3WeYy3i2wZE5FMO811C8XuV5uNQIOfQrdg5PxBHm8Y9cG8rK_-smLO3dbsLYUjGg-LANda6rA664XuZpiDwkFnpDAGdQNc4Y53hO1UGykXSiZP5-uSq3vJJntkkwM5euL9Hf5TY23CyNoK_TiqqseOf2bcxqUqpP-jgaaZ9Pqsu8Kc2Cfp4xzMNZlvO0D4QZW1qqkJiZnuyPvQ0OE_CUxdgcWHI7LSQ1nuYENGEXmEwq134AvggDYMytMvEyivkF5dBpZ1lLlGL8Go8uY1UbfknrfsjJdb8UXMdOF_UymfTnlub_LVc0t7wANlm8eeoBmNwdYzyVz_epcmcfnsCpX8nfd89EpR2qJpYqrNYmTX9MhLtoCgUtmgO_b7tqIIeQFE0oJHvqQmVJKL2gewCvEkTnW8Opwo2YapB2-b92WMWWAqNKK9L6wLxf6GqdqXuwSv5LpT8-4Jtx4Q5VpSrnkMPmpcSYjQmX4ew-4v1DOGg==",
+        "status": null
+      },
+      {
+        "id": "ws_02454742d5bab7f8006a652ed41808819a8308f1405048acd0",
+        "action": {
+          "type": "search",
+          "queries": [
+            "\"take revenge\" \"false case\" India police village newspaper accused",
+            "\"revenge\" \"fake murder\" India man staged own death",
+            "\"revenge\" \"impersonated\" India police case property",
+            "\"revenge\" \"fabricated\" FIR India district court"
+          ],
+          "query": "\"take revenge\" \"false case\" India police village newspaper accused",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://app.ecourts.gov.in/ecourt_mobile_encrypted_DC/display_pdf.php?appFlag=&bilingual_flag=0&cCode=xanPvB72cu3mDXaUiV95AA%3D%3D&caseno=RQRwWW1mz2RDDOOEs2cX5GQ7hRqYON7avnBjJnze6DI%3D&court_code=xanPvB72cu3mDXaUiV95AA%3D%3D&dist_cd=kddexuuPHioudwznYFCjjw%3D%3D&filename=wRqt9c4AUj95GXJG5JiJA4ABiR3n2StcXFF0p7yg1GOHi4DnUlcinhZNHxIR8PIW&state_cd=DzAgU%2B%2FCTzhU%2Fn%2BW0kQ7Dw%3D%3D"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/7685858/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/190664386/"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/delhi/man-held-for-circulating-morphed-photos-of-gods-rivalry-fueled-his-revenge-plot-say-delhi-police-9012590/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/cities/mumbai/story/mumbai-minor-girl-files-false-molestation-case-to-take-revenge-stepfather-acquitted-1914230-2022-02-17"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/punjab/abandoned-articles-case-faridkot-resident-planted-articles-to-take-revenge/story-O6pJHJrtVEa4m16G3dBugK.html"
+            },
+            {
+              "type": "url",
+              "url": "https://elegalix.allahabadhighcourt.in/elegalix/WebDownloadOriginalHCJudgmentDocument.do?translatedJudgmentID=1988"
+            },
+            {
+              "type": "url",
+              "url": "https://www.livelaw.in/pdf_upload/gopal-chand-608495.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://api.sci.gov.in/jonew/courtnic/rop/2015/30037/rop_934660.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://hpsja.nic.in/May23062017.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/delhi-news/man-files-fake-case-to-settle-a-score-held/story-caymIud2Uw4tgyUlgrV6vO.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.presscouncil.nic.in/WriteReadData/PDF/ARBTCS1422082019.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://gulfnews.com/world/asia/india/man-who-wanted-to-take-revenge-implicate-police-officers-in-a-false-case-arrested-1.1566667764183"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/165976970/"
+            },
+            {
+              "type": "url",
+              "url": "https://telanganatoday.com/hyderabad-woman-creates-fake-instagram-account-to-bully-victim-arrested"
+            },
+            {
+              "type": "url",
+              "url": "https://pioneeredge.in/champawat-gang-rape-police-say-it-is-a-false-case/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.inkl.com/news/not-a-movie-plot-man-scripts-own-murder-to-trap-rival"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/146489998/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/18zbtz1"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Odisha/comments/1io9sni"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/sundaysarthak/comments/1q1ahzr/can_any_lawyer_counter_her_facts_truth_needed/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1doa9ra"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndiaSpeaks/comments/16gvp45"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/AskIndianMen/comments/1uu4bby/did_you_notice_these/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/MovieSuggestions/comments/1i3xo6k"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/14m2yw7/my_friends_father_has_been_charged_with_rape_of_a/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Kalash_%E2%80%93_Ek_Vishwaas"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/GossipUnfiltered/comments/1jm0wiu"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndiaSpeaks/comments/129cpix"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_02454742d5bab7f8006a652eda46dc819a8b7010ecc382473b",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS7_K2SLIViSP6lZrLCyhFyIo_1kx6yRMbDlLjkxdgKkH2PtUgCKFxuZPdcXQXbYcWXhDvN2LSM_2LtN3lDPa_EZkW8BaJSeMhA-CxlSoOsECWG9SNDyb9ABAoQRKRy6AvyDnObX1ifJT_jgnsRMCWxpV47s8xQiy51sUxXA-CMGn7XiQuSzp22p_uteRNGtuv_TXTu5BEpqD-cVIUfExi28LkuAtGXVyEZAxfYh9fMQGFTzuao1Qmn35LAhVbQ7_Hk2qDLsqJDw6LIQZ6UcN--jqjMEtnktuRpFx0zsNKPxnAkkwDBlAwXorS0rbhAhub6_QYjZa8nh1PS4tXTGhn6osyUMI0wi4vbl425pyMG3KhGuy2zAMmp8tEStkQ_M-zcQNwkwuVsLu4mCa7ufJggQy6kVfvGG1PMKeDhM6u0fBDME1bP3gNBsqwRPmXKbxjZAgaJCpUfZqNAMK0CH062D1DtmPwkf44lensyKximR_abpGriI2ZnvEnbD2KVf23z7ygtzDsjJfD9bv6CSGY5slpRs4ZCC9Hmmbsssnru7C4HUh8BRX0Nc9a3Fhb52TyTkkNBt8hfR-dzGS8lSSgaqxjA4KX3dBvlKCIgyfDBYTUm40x_4XTkdX8fm5V15UHlYGZtVRe4j-8GYdU0vcvoYh41E2rUlMAvHQ_RjijPoafI1Xt1YjjAN2Z9GP60s4m6xfEqSGrIPj6QrFGKpioZR7mF8PgdocDk5KDkW939e02l-LhhULeQGyHISysBjeF1qVlN46snpeZi4FYSt54Mp6mYLpDthHgJ3Ia3g4U3u9_IVlE9jmvNF3j21UxcSYxKMK9gXX2TZbTPSpOTAfl9RgpG1LJYI9ryMawXSR2tB09lxOBKvJtQ9Bh6OEo9X1mxI_5S8WgdPrAEIIi7rlIwrfG4rJOPXhoZETUKiwNR0OcZtwvv6PlYo0PzfizwZLq6W4BK_aPZbm4q_H-i0MPCBdn24j9jVDdCgNIEGijGK2zFXHQ5wzqENccZei61KKlq7r-FiQK8lcBWOia24T_MJeiSRNEGzsQe8ufSb1ybRpA8E1PKeX3SMR83yVlCKVgUWIWOknBJSCWbFEWLNfR3btjYFaFKtUxjmfOdtns0egSCWrYReHfL8NjjPduOjxREa4QcYZeKGSHZzfR_TUjcrR2MU6D-d3y5PZ_rtgUUFkA1N_lc5Xw5apfL1feXrCfPCwpgV8UwKWkZjFhTYYmDDkgf5kMkIHbpQTgx77iFde9B4T-ah3_hODEcldS2bgoIfU0Uy_wSqfx-8KAycIqGKVHD6ub7poQgqo_qs_wEWLZ2hFVfAycmkdTN9LRdJWHKkqhANeFBx0Scrd5sL_WWbaFK47s4WzfLCflvZZ1XLBbJmKBKh5w1LInbd20O9qlUY1NLbyP7J1J5VE9GpUfaF4hD7lENqGyeBibPS7TGResemPnM4JCog2CCbz_tfYhQlfZfGt_P3ThYiOStX7OlntIVV8AkwoRw6hMCaK4xIHwc8rbwpElTKMRSCCsWzAFEw1hG3lVu9K-Bp2Gn_zAG9eujNIUPXNCUfW8waI_lrLWI=",
+        "status": null
+      },
+      {
+        "id": "ws_02454742d5bab7f8006a652edc4d54819a847b1c47c799e23b",
+        "action": {
+          "type": "open_page",
+          "url": "https://indianexpress.com/article/cities/delhi/man-held-for-circulating-morphed-photos-of-gods-rivalry-fueled-his-revenge-plot-say-delhi-police-9012590/"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_02454742d5bab7f8006a652ede8574819aab52785e6afe5e32",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS7_Ui2PacmkBA6xE98LoU1zWTeoBpyrJZnJI9F4u9a6rHFjh8LJoMD9rxj6ZfLKRoNO7VpzaE9XCdZyDJMp2vkQgC7b6DocFuo5W9-688VvzNJo_ar367s58Vt7HcQREzjuvIB--VqDqOEJ1neTI3rJNkuh_-iBYachbXJ0w-kwqu_YcgmqgJVCXwJrGkBIGV-Ndmh3XuNxedW4QTLZW7qwzv2h9IqxHVwPsrGebHvQDzuYKLV8LaC51f_nK7TRRX_5KUjRQKc-4nOo0wCyjE5Fz4vDn2ase6kjyi_5zvrH9RBtSYl9C6afmdUT0mUPy3JrLsnwBeZ-cWdCdedT14hmwqPLth0BVNI5j_r6iD3Hse-LETAkdA9nc6vyf1iU_Yax0HCUnpPo9zNimI5fqW7l3bNEE-ECLKc7rZy66KIYBvE259qS1k_QALJdpAIeG3KO0pjXzOTXA1U_HWSfhV2r8XsKWml1KJSc0VTc7lhRblo8-ducu0f3Bd-1P1jJ2Meh_OpbwUYGOM7JtFiaSi92C5fDD3WlhjI1ytBr93BXHfyhrrqG8AzpRh8QvCzV-8_GBLwriwKu-bZ3fqqhkx5ZRBZkhdmA7Y842yOWHcxXKBDvvGgbvz9NL567Zu4QNf4-As0AqxXj1abSQnmaFPjxidWYLnm_LbrIsYk-9Te5I3uftFIonEC5OSAWsfRzRz-s7kOhz_Qwc_oWgMZUHeUzoo3fquFTPYxuHwnLorDM6idvy5SbbGiIkp_dUpIKqP7YwO28Vn_PgPLuJHcf0PgXbJth_c-dGbOPnD-mopBXoNTB_KIhqazj7BtekOb2yGBfILGsaxQDW8OTBSJkCgP11iFIAls3-YHyN5F1VnDbPDeeSWh-SWkJERBI72THnXl5ZClfMSb9pZ3l1mikH2VCTokiCeKUedgja6yUzl_BFklj6bcW-Zcg0VHl1O1N7lyJaminiYSO963Cg2I9c-X-99zCzCuwWkVdHZ2ehcNQBAeR4xiuE8KZegEbgmYAQjvXAcCdhIsytlvwZnM-DGulEMbnrEx13S0KgFV8-a25q3MJ0Qd3dgo4EItgiVrVSL6SvahcicelGFN7Tj8F_IYHuyEkC6VILPDxSiSqzFJxCGWRy8kH3V0Jdk9dq2HkVhjnz1lIR9iCR3n4gIBiZs2FnZAQEv7EKYbkBiGjEA1oqhh53dqdATHHV1HebI5reZ7Zk-HXavR6oGv74K-S8KSyN3DseQpdbPlznXvCJor4i9ygLKVQeICZMRtHG4JD8weklGTQt5mIRW-qximkj2axQjDpO2oAzNlRdfGCzCtdrtbV9OPrOEzwaKNK6CCjQpfcoe1SQhhCAGAztRRnr-6cfl5l8w-DqHuy464g1utV1cnzSuRyS7nr6BbP6qFaeDlGbhrTndFa17Aay8a3oSRuMNEGFkMnPtERkY_SE2MyL7brVMOuxL_L4MULkI5q7bz-vmr1m-NX3kzJbtqc532EyPpB6t3nL2sjXrSO-1VJu2uoETbd6RCDRYVegtXNiTxpyz9Cav8D751K6ydQdiEIyT_81IFw2ZWgn7bsGYF4oK9hdMS9JXlMrkZjVPx1_gxRk-iHzInLmqd56gX7dQjdqWRuHezNNPIP3KhuPgGQIEspz3lf-lPTnlgrGJH26lEHi4_-dBmCRDJcvBZteVPuPAp_ZzjrjPb7gQMGal_JhSkPNIU-msotKVL40YgqZ1okuYEa2Hq0WTPUBJoZ3ivMdEcDuNsJI4ZZ8LRYBMaKaYAvOxcT55ASgzIVZNU-5Xzi3orDrr5riSPWW5SZ_1km3Mmd0SZeu8opkbfYU1YDFz3GOnVFo-r6OQyagwJ8FvlTG-8gtVqecDqy9zcFngGKAdNakoCfAVj3e9vBKsBaCE7baA4ThzsTOBiYhpJjYSei-eYoyj3xKfI09Fa4Uk5AmR5hIdlDudmL2f80-PsyL4gUL8Plzzjuh-TBvzyhtuFIAXav1Hx4sc3An4T-N68cr5erDQTbLa5NdHNu92KM5ZcxMXWHw7ihaabTHc3UxSvZ4al_PjL_E4iViHpeWD76VoyBArUxO1wmVkU0d5DrDj4lqLNa2c34HM2OS04B6ODLDkQJ3qM-LdBJDOSzy3puq0-KpwvceMvkWmySJjwO1sQsdde7u1odOinMyiHY5TJkxwzCfjFrhro_IowXXqOtCzGZS7WYSINVQMfRzRsYey589c95pVImHSPhjrnxw1quMey_bAtVx625REFP8zRwqyZLjdxiIffO3YSFLXlOErBd8kOBkdJDo3g1QtwyVMmVoduPDZuhNFs2eUgZxKw6sJKhMxz6Uu_s38PPa8i7axnuX49AGeIjiLC14_mw8-sgXrn2T-qZDSpBHudgAx2b825ctrBykLiFblDO0Ky12kOY2USXeTVMY-z8uaZYvbbI6JbC2uLkWWgPHCv7LrqGfS5qTZQnV1268AC_GagsiAgjqFj5gHPnKmynx5H3oFr7GKytkfz-RIpaUEI2LKTtdwH6XN4Ze4bTm7zJC-Nz1Q9Cr4IECQn5cqcrg7TZuZGhjP-pmifHOWW-2y0cPVs7ftFCdjEiUut--IPwEPB3VizCrC8aMgamsvrazUkjDV0shU6yo0mPyKCA8EWmUEG5TdsdkOdglawFxHJiPs-vGenFqMA_QzUEPGe8U3zfJOSdVrMDgrxq96UBNBDP25_klW8IMEQYZ7Ugya-tIUWWnWy_TV6JJ1C9xf2GjgxOCFoRWkAtkQmJbyBDa9aN7XZbO0g4xspI9P2jaQj_YRi0qYnk4Ing_fijwGdrAM1RFj9krN3nLJTzUqe93Dj7SneMHIDTRgCk3rNjehr06VB3ZCtMtVUNfpVj8hCfKj2ybJXgEUh-ph1TQtZwN-ViT4phgK9K0_-LUXcaTN-_rX1h0BfHis6P95hvyahNJm9WuFxieF0o8Ph1GoSBPXGvtCSib-zZIwTNDltKr9TNz1WlTksTWaTCrkvOTaqqtgeZ2YEtMiz-61eZ4kFsnAbpdItIEzYmVTA0dK97HcvPh4XyrlsRZBt19xGtly5PJ4LR_xlrD1oyi4TFzSv2FccKZdmfttVHxi7G2rqmdOHkiZPN-P06q7cB8pAH_y08x-GMeUnexY7LJdjWWeQQEJt2SDQ7T_dk2fqNcPYsH8MKkDSbTnQrCESeOJtRDIbFxldHW9x8TLe1_Kx-be4mqqzdHsUBwAUY7E4eLOkCo8SUzBAKIub-fTOZUYU42MmNc0vE_Wy8o_5SNQXGC_aeerD9llFoeIsbTjLpPrDAJnSD6-e_bq_q3q3hQWNQpJhYCE-_ghHqJDaQKe38EB5MN-9s5c1MZ_M_MmUeGOtwScvWSE0Oux3PNou5wm6WCjusytjfVAuvplv76MZxL2VBlUQAV1z-yFgUvYi-kY_j6JqDqMmPwzzrxOrJ5ewSMI75j9k70cpbR-H_d-_aPfRcmzKrqP1k-tSgZdHQS1nrMOP5z7OgrfhIVvxnRNUDQiwbSOeSwAeby9xPolGSXdACaaVJuReO8C6z6qTtWuZOP-ucZIb9jAJYne4Y0u6kcRqVcJG0lZYulYEQA0xATNRqH2IGxTTqAhcO6EEovV_m8Zp0n2pRgbO-5DE8y9pjQtjJJuRsP6XZy0aVIm1tsxXXp9P6bGjnb6462QMZiV5ryG94BbmwIiT1pAqn2ViZYXT1RRaPmd23H58ZAkSpTsBmJCTMBNBJQOQby50jpVOOinJa9x3pLNpEOImLReAmlmXtawxNnVC8DM0qnmbVRpyDs-zMcwPw2leGQRzbF8U_0ayPTgBbqlWLWIT2MO-3c9zPHJ9k6LgfOAtnDcc5UglNPM3TqIw5aGdPexodtw4b4lr--0Ss73D0JLGfbeRvx3nmsrAcKYEj1EuvL14SQNG5ZDeqxhr525Ypdkx1FHxkpq_KaanGxWI=",
+        "status": null
+      },
+      {
+        "id": "rs_02454742d5bab7f8006a652ee300dc819abe72199995c8764a",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS7_oL5FCmI-qc3iZfDsqZ5glWj0nq8JE0EDYQonjFL80qVbBYwOPIc3-FA1pO_2nDXvnKLBNU_parzp92E8v8K4vqpZFZwtcgwICiPDj1k_7FGA7bj8lSDbZIhHs3DotTz9L4HioQB-kudO5xAxj4x8Qg0EPWlC9whk2JIrBY9kpjgl_-BuVMrdECpnvGs16aaOcAqhl2qIJ_mu5DEeoGWeXF2Hyu8RtUG2gDBVfFAAgSdpP7447rHKCuiMWo3YXDHi8bS2EEuFLEhyKCMul7KQwKVeUdRpVAsr28ILhybn0Fgm2LC3yHdpkBADET1uw6Wp9v7McefBlXMSJZeXIu9Y8pkXCc6EpxI6DznwKJ1cETUoqLUKGZSl5JvPvUROoT0oWc59ov655vTZE5sTWiRlshQRvZDFrWfy-EbPawCCqu_QTmdzqcgoyAQTrpMi_xRTPtxoX7wrCKT8n_73JOAoydHC8GCZBeWx7X5rPwC7F8cokB1zEYhdZjNhTz_kY15Zpe2ncxkLQFO9TBrXJX-rD1lQxN2bcE6qNIrsevk6JC0nGS0BNSlrPA879QCIWoFBetQpH0wigHw4i0ZZYLqybJfGaeVQbqkztRCyDMjWvCLPlNDgC7VBWqyX1v4VeTdaMs0IBLhI0DzbgH8-sJ1ubNSP9jvZf6AUBPpgRC394GFKhOgwk2vAauQoYy6AJdskMIJFJAS-tEWR2Y-fMT27c9k9Sj1VhApejBSgPyKlQiP9ToESXzXRE1z0rxajfci2kgVzEcFuvuQU_Nt3RzQu_rXIq4gw0LaogzcN8yYRoaEkvqgBYUKOzTmEkQcArPhpOFMHNschSpC1N8eLmPiuYhHyO10MnskNBFhzAkEKIAjgqH0SkZGXj9RC3nx4700r9537Xvp8zApRpUs3TVaaD6oQ4UwpYgguS-oBXpbCYOgu92THAOR7r9h3i3AniJeO1NK16KhAOsyj-7l_D4w8NfiHvYC2w-fn_yE-OBD6Uk7pbNV1DYam9VJDT9xDa0sHeMUJSPvb4n7AJf8UjDK3MGHyylYan2K-SjuZhVloa5teiXESepuuZapfE2ppjWF-kkOXNV2O_RwSfLaVi1yIbt-3mcgtTY_pyfECaOBDQQ09PIYeTiyHvZ0aQyCsFNCF9TjmTUfMawr64uzncR9Th5Yn_z4xWYE2O-5kmzPUimfoRTeYqOU0XyJFdRb5H7z6P_CTQwkKD8yq5MTlIUGT_sa7bJ5od4OwC2J4tZ7w0FrBbaYixZ1liGF7ahoJ62aGDhYd_svC_s3qRhj4PxnweyTpxLU6vzWZlhSAk8xycgkW7dW4BPhGcQgKDBmcEsidP7YBnK2tjGNaK-mZGU1Na2lGx_rv57QxWqt8h9I6oBsSTHDHilGRoimEAC39LFgSrjlmBCkPgR9zn-ryPAV6JRFES-H1tj7K5fnbjylxJpmEpGoUZKWmaeX17Ar-G3PmDnEqCQrmlmmD3WKTj4GbnS3s6nAUkYbWdq3KHVWLZ3Gw57H4VolYfuwyjh_Vlv049nmGIsDP9_MDazF7pOJySOGauVT93f6j0Qr3MFX3vrNRSH8NEfR5GyaStc8YrHbJZzd_zhzZyV7vgWgEP1137xRy59XXK54gAcZ-KSA4VY-jhiHoFEupviH5iQf4SQNlaFNNWJsvqTVXwS9tzxZqrNbB8XoR8KGvzn3YEC5ZeTBd0ciDKHifEEKGwA159R5xMX6VEmilkMDE2ziYkbqqvV9MoW7RWjuIwCrwznj24UvHcD-BiyRi3USXxhSkr62XyXMssLyJMMs8ZsQHpx8g-TX-b6bVISqrDjLJXgerEkG_zoYeUosL7bJd4SEyneN-pva1k9PZ-ypDmU3R6t-rCCQHVgzZqj35M0i_oheaUIG3XGeUAoAV4A9A1Ia4CUnQUqFVob1EgYtKxMrIMT1u5ecSbRSmlr5urfMVzJXWI-oOt5PLJ_P-yc0ycPtHMDa0rgWkrDU1H6Gp42JCayT9Qv4XRDziyq7SZ4ejXHdDXAg=",
+        "status": null
+      },
+      {
+        "id": "ws_02454742d5bab7f8006a652ee49e58819a866640f5c162600d",
+        "action": {
+          "type": "search",
+          "queries": [
+            "Manpreet Singh Satwant Singh Faridkot planted fake identity card Karachi Cantt revenge",
+            "\"Manpreet Singh\" \"Satwant Singh\" Faridkot false case",
+            "\"fake identity card-cum-entry pass\" Karachi Cantt Faridkot"
+          ],
+          "query": "Manpreet Singh Satwant Singh Faridkot planted fake identity card Karachi Cantt revenge",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/punjab/abandoned-articles-case-faridkot-resident-planted-articles-to-take-revenge/story-O6pJHJrtVEa4m16G3dBugK.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.tribuneindia.com/news/archive/crime/two-dupe-youth-on-pretext-of-providing-job-in-punjab-police-294397/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/mail-today/story/spy-left-for-pak-with-kin-for-good-276075-2015-12-07"
+            },
+            {
+              "type": "url",
+              "url": "https://bfuhs.ggsmch.org/wp-content/uploads/2024/10/ResultWeb.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://bfuhs.ac.in/PBGOVTRecruitmentS_WardAttendants/Wpdf/DocumentVerification/Open%20Merit.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://schoolofeminence.pseb.ac.in/public/frontpanel/docs/ResultSOE_11th_030.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://bfuhs.ac.in/MohallaClinics22/WebSiteResult.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://download.ssapunjab.org/sub/instructions/2023/January/LetterregardingMathOlympiad30_01_2023.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.casemine.com/judgement/in/63ada4e8cb48997fa5a4b4fc"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/1997_Punjab_Legislative_Assembly_election"
+            },
+            {
+              "type": "url",
+              "url": "https://humenglish.com/life/cross-dressed-mans-attempt-to-cheat-for-girlfriend-in-exam-failed/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.desiblitz.com/content/punjabi-man-dresses-up-as-girlfriend-to-take-exam"
+            },
+            {
+              "type": "url",
+              "url": "https://highcourtchd.gov.in/?mod=district_notice"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/chandigarh/punjab-man-girlfriend-impersonation-exam-9110326/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/chandigarh/faridkot-youth-uses-fake-degree-for-uk-student-visa-deported/articleshow/127808420.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://en.dailypakistan.com.pk/15-Jan-2024/man-dresses-up-as-girlfriend-to-appear-in-exam"
+            },
+            {
+              "type": "url",
+              "url": "https://medcollegedarshan.com/wp-content/uploads/2025/06/1stFinalMeritWebsiteNEETUG2024_20.08.2024.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/amritsar/loot-and-scoot-brides-gang-busted-women-posing-to-be-nris-dangle-citizenship-con-men/articleshow/68542380.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://myneta.info/LokSabha2024/candidate.php?candidate_id=9241"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/2007_Punjab_Legislative_Assembly_election"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/punjab/comments/1eubbl9"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/punjabi/comments/17oxm8g"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2103.00484"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2211.00098"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/11th_Punjab_Assembly"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndianDefense/comments/1s0cx8o/unknown_gunmen_supremacy/"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1705.09929"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2103.04673"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_02454742d5bab7f8006a652eed8b58819ab299c0d4fa3a5e4f",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS7_WEHw4-w8YswME9VudwDJzpuPKl2W1lMZRZW0UUHYma85LcM_2qJER_8q1Px1FbDGMIboAzXorzlZCPTX2I-NSJIcDI6dakApxuYLAJTbq4kQxPlEXcFLyHQw_CN5PV0XcgFsKzGPFumRKZuHPahQSLRA_XpsMWiBF6qmENYndz1s0PKa9SABYiu25RlAXLMTCGgcn-4o1m1Jtn69qbluAmjNMCF46ZbZuiNGosDS0tWaoPlZoJCvcM5KIpBa1ARpP42tuJ2YS26brVMofTj4cS1c8I0lOazbI7ioN6XFBPgU4seBtNh1woHA57v_12dTDWAB9o7vsdhDhYbYZcnvM0ZLOiUTVWC81QiqBrtg4N97c2c_aNHbOKv4v-IyRAN1yeWhONU2thIADIHJe2DPd422fFZPNrhI_iHtVgesxg7uLTrrcSttbhLUX0mT2aTGNfX7TvlzBKr_BNtnxIdBOgTemfANVdHcZiv4AWREIfzEk1QPXcmL1FdiiN4pBkEFMzCIf0uG4UC6pVmUiuW1ZQSfr0qH3nmlvsL1gKqTSbDSzmMFQJ2KTYIsVr8FSonZXNXqsJqkOOtptMmcUs2D-3gu8a0IoBotV8Rp3eg21MyhXrlLqCNJVT_edSsmfSSiqxMi-FeVoXzfVRXgC-WqtAqr8SOX-IOPvmVcMqE2SHKP8N2A-qhcVsTJ2X3lFDm1rC-HmNy7onKOLcxoCpDG0Qs1gTf1oa9bW5eufpIONe7WI9SznKbVodyTFU5XiE6jvXKqAEEdFImrEaA_rbKr2fFUZMLYOotdv0B9Mk0MNIhTEwFu5LFylxEmvlP0RR2sdPyC-6lhh6wKrEVEqs3GhpxvQeNu0OT0dTHXqnXMr97muDBIBX1sgXQz-z40wZMu5GznOoFDE__5DdGAicACK8NSYHLaYprKBNEzy1IeOMgJ7f1gh3N0LeJBd_kI1VteyRrn_HDf4lybvZRXlwUMPiMfSEzjVfKk8WJxNmZSR-Bynl3i-M_lmagjlu2lv06IBHlfbx7s_3vkWfP2gosN5H7YXtzXb6cZDcdpEwrvFjA-BUw0isVq0_o_zXECq9TMSJtPOi8X6NmHrL67ulOzDLpFTsAolXh2h7J5dfZlthsrNOVQiuSHylu8NoLNU49b1CfCmzWBdhxXvilE-hqKc8FUDhR-4rtpeSRI8NLkZGGjnuCFe9vQRpOs5-QmJ4a8IW7tOvQwaokDHVWjMzOs2Wp_FdEXNzcOlfQui1GXt9u5TIprBL2RW6ff7LrIfCH04dmvY9xp2GBQ-SP0BUoap8w8aqHrzo0snqkku8IdWJgm3_hztQNExy_nMHZLymr_vV5UMYyInNi5MDuN0bFXyv6RmatTngqb56ZU61n9fhjtKAgVpHIYD9xfMHbG176UswdN9DNkt_iIridvLycpad4lXuGq3WiEh65RZyzuE2CGZgpFvcPlYDix9cPqa5gNhzthhSZFtlwEE-rd8i_MjyxYic7jO9-vApeC9jvOr4Qz63RuhrakmsezoPzc77e_P-i_dkJQXDBgAZ5RCMTcgmfJRYEPSkjjA438n0T-TifTvD2GfkmRWOkb61FvH36CXLtjru25dQ-nNv2PpZaAXghzIkZ8780aOBXEp2rYaGxHLsoWifLck0VCzKiSIQ7dNBW0u2fEL6_VdZZk2Gn_4mj2OrwNQ39XIThRN3eCveofIyviUiQoN-bfplV8ykmqDBm0kj7XmT3NqhNE2YlKcbBRzyhz9ZNXrVhpE0lqH_cTv3Wl-M9pq9EIj1fxYs2BrgwaWwX4gZBySl6bus29-iUQyt9aZXC_1G0pwzQpOmZpaexh_tyHMgqMdLJoaYIL0bLPjgOWixt90Kkkub0k7Hv9UBnEy5N7y2TacV80FInf5tvGm264s6Ij90mo-JHCZTQDesLIOk3whVtplrjsIe-C2xqU4U8IC4n9lVCLJgZNdlcJeS4B3_cFPglEi20OSzDcozxG7F1hd1UOQLGtiRX6YLA3lBxYd1Dc8y7bwDgcBWULMcTSGopo8S2z7na8XxU-o7uyAcMwzwHP-dKQrzdkM7ZJfppO6W9tU5mY6XByOScATV9Iv5EnXzKOqbIh_uuoGTM4UE76SvDnNcV6N6SCD7R-lfAzFCsNYTB6ptIrn1KZ8AJt4UgSmemLUHpcB-lasLDDQ7KAwcNeXu_IVxuZQoDGIO9HN-e0_ax5NfT5LjBZfqt1L4CivApQ8PIg2s5BI6f9ao9q7jmbknCZvW-YcnouTxj7n5y6yJNN_zAhZP0EfdnsQvPwKsklGg3F5H-gQNogQNn6HWUnDl0LAp4UbC7cUD_Voh0kRVWDhtBZThSnj6nPyZo6j1eQ7Msk7rypLSd3KeXxKnHNk4x9L6Gpd_eznBwKqSoQrQf6VDJ1idW2nB83ywFPd8MBHChmrGpFoIUh60fGX5MlqInQtD8sIvgT0moJZnNDUFnE2xAWYsaCKpk6fM4tGuZFdDQbGcgWMMrgs3Mq-NSs464Ix65srdjdDQFced0RYV9S8SjX5HFENF6m3AAkv-m1yjsEMaoXFn3xz4HMtmxULOl6HOnB3iY06Jh-GKqQR-4yMKsCGWlw4BSzL1vtQovEXCx0TwT0m5wzKH7ARW0WWBcvUD6ZJ8oQ2zdr1Sbze38Et8q9wr_UQ9_yaF0KBY92GQ-WQGlkO07nE_iZ36GCYCJb8W5EbsS8L688NiwiwdFh1xUMa1j2jjMQeltILGSv8x_i5eoGgF_W5c31wWxlzU-3CClKQzo7wJB8XmgGfMmGc3z0OkXANU1oHYKC1IAU7JIqSfhF0_IZi5gvSjIqCr3QRgiWcPPRovgq_88hD3poQwfVYnmelZt9J297hiiYIlmGsJHKF3nKlHqzcpFxVNO-QRbcDY-F0eIXf4xlMWa65G7i-pPQjrByDHjOEcq1UenP1qTrWLepnPbpo_DD56aZXQ74shcpulvg8f6g2V4g5YkldOitAMK7k9lQpdRVXhzum4VicgiHvO58YX3bXs-DbKiNZVsQ-sAJ6vht9FGLdRGAn_Cp8Ni-x4wzcs1U5YtovFMVzuBe0alQnGPHLhcj8QM7xBSCdMC8kTp6S-YuGRCfKzhjPyrKDTYWQnfDSWw-fGt1o3ZFfRdzluwh-DO5aESCl_dpTAiCcLxKgJmqsDQa1CggED4jr02Hm5M4ESNn1TCR5Tt_Dq43PZQYPCT89XuN4OR2PsgSpZ-wtU-r8YGreOOTTQRnFfAVAjXHT8VdUd3WRrGyfgosODC6HGjcG7yFDIu3b2FO6zYPEwRzSJwEoKtRZiOIWAfDXGE81PgTSoULDkMqQndHJEEEHOKl3V74dH8q9yfQz28mIdWrbJR_f-uetg_wOd06-NtBwDqnK_xZULdTNOS7LIdB7Zly-flA4_q3AxFiDYbWZ56ZDX5JM-KVN0s3VwcBySpBp4k4RxUfzAw2INakjTv8D6tAAJCa4vKRTacYLuYrLzucRV-aoSt7OpcquQj7KA6qmoWk_Yy60fBFQPxAl0vGARQiDfJEJySvEDLEsi_sHgYSJD5-Q0TafkhV1NJ7MgCL0_5gcnMjj7E6WzEExKZrtdRqvd5RwodUiDpdlRbaRXob6IXvx_fJXvYhItEpKNSN4fCva_ONtXrVtsRuNmhBqBladmzUHEiGPSVHq7RfnCeWsZW_jA4vBYvlv_lAXIfvbV78s5bFkcCzaLaQZqrNLjuh8XykH42VD68kyvHczCucYMTU4u0F1V9RDHG3zHh2f2kgBmTDmkd58F3ljnL5HXRcjqe1hiC2VWYGciLY3M3SThX4_K52gzYDlS1LVHlEAuMXtqQ5xauEd8C_mWRQQAU3Gg==",
+        "status": null
+      },
+      {
+        "id": "rs_02454742d5bab7f8006a652ef06a6c819a9f7986a491d22cf6",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS7_5_5Vzi_xuueUT_pdKrGuL2M_cqvvS1iMoTW6v7JhOUAvgGk46cEW7BUUKXMdO5ZxC4Ei5wlS-JRTrwgK3y1Tc6hOfA1A4zaLTv8ST7vmnVFy4TzWkLAj-aO_oXzNME3p0S7lxw7AugQ5Sx3tqB3udNfKpdCAQgEYfubG2FaSm9vtAqYWBG6HI7QhiSqAFnwixKFoLmW8TVRk7rmNzESsix9d7-QKxs_yBE2lDxYhJ1pFsEm_i74J094YxRY9AI7higKZgblbHp1u2JYB-hcdtIANEm_LpayUqrPoDv85aXAvIimP0a4UCdnHsKEmUj4NacXF_aUplTAxXcSsekrK9SBuxN09TmYphlylAzxarKpdX-vDJQ11oGyKj-OuowPXGOMRF4-k1A5qN5AVS-VecJwIvsRm5gvWhi8PIGjwFujnfh74S7ucwkXkFjyawfsZDp15nLTpLXiV1yasxpprnv7xVMPgqhhS91r9ZpSgK3LZQFSdtHp6G65drHu2EpE5p4PMzvHPsam2TcAhKxeM-0iw7RcrZfo_pKFSJqeyA9KAWzd3t13i5g7VYlPu4dbzpfp4S6T8Javv9VDkrvY9WgZGZDAC6iZ1HVR04GEJda01LI38M_rtJRHPf1A1XAdBONnFcPX4TOtKmyxvQSTb6Txtl4WFNymz5fvygOlLsCRf5dthA2sbp2SWwHf-ULQc5j2tjwAOZ7Tg1DfS5qZNpRjop7BnJNCBEuFVIfBrnOkmJ9YIYRNaCQoB6EdXcrm9DLEb0oZLWqBeDdmVT1bii5PLNWIGK6dioCDD56WE2MnXuBYiX3iQEpYZ7R9Uo9qniDhiJkKpH0DtRAtbjrVtcUk-_5QMGMUdhVQ7t1RwLnCvjLMVnML3tyea3bUI2xxGfCBk23QwiIX-_0XLRhmLFmjVNHYhP7GXczpHyfSG0Yvoaffi3bFSboW_7za9KGRSpcFF_qHUvAESPillgSkU8aiC0BOx2uU435cBauWT8LMjOlqcy4VfT2JVczy00Y0Rz69KZ77sRDsQu6SSi9WQ0-JnQ210kfdWHwVFh3ENzb6aL4fqcYHSHmfWQX5qgD9er3Nk7_rq9z_s-9Z3ICpdSnf6S4Cj-T5I6VN27fghqBFVmvCe3H1q0dbW0HcbFqAVNLe__S4VICvV3m80s4Btgjq4ogShmW6g03LFtG65nqs=",
+        "status": null
+      },
+      {
+        "id": "msg_02454742d5bab7f8006a652ef09390819aa5f24b90f230277d",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"winner\":{\"title\":\"The Man Who Died Twice\",\"category\":\"REVENGE\",\"one_line\":\"After his wife’s family gets him booked for harassment, a furious husband disappears, lets them build a murder case around his ‘death’, then watches from another city as the people he blames are dragged into court.\",\"year\":\"2016–2018\",\"where\":\"Maharajganj, Uttar Pradesh / Mira Road, Maharashtra, India\",\"mechanism\":\"Pannelal Yadav allegedly staged his own murder, disappeared under another identity, and allowed his family to accuse his wife and in-laws of killing him and destroying the evidence.\",\"engine\":\"The revenge stays alive as long as the ‘dead’ man maintains his false identity while his family, police, lawyers and in-laws fight over a murder that never happened.\",\"episode_estimate\":150,\"cast\":[{\"name_or_role\":\"Pannelal Yadav, the supposedly murdered husband\",\"motive\":\"To punish his wife and in-laws after a harassment case and settlement left him resentful.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The wife\",\"motive\":\"To survive the original marital dispute and avoid being blamed for a murder she says never happened.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The in-laws\",\"motive\":\"To defend themselves after being accused of killing and disposing of Pannelal.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Pannelal’s family\",\"motive\":\"To help sustain the death story and push police and court authorities to register a murder case.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Mumbai Crime Branch investigators\",\"motive\":\"To identify a man hiding under another identity and unravel the apparently impossible murder.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The local police and court system\",\"motive\":\"To determine whether the missing man was murdered or whether the entire case was manufactured.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":9,\"emotional_immediacy\":9,\"conflict\":9,\"cast_depth\":8,\"total\":43},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The reported incident involves living private individuals and allegations attributed to police reporting.\",\"Change names, villages, police jurisdictions and family details; make the protagonist and all relatives fictional composites.\",\"Tell the story primarily through the wife, investigator and supposedly dead man rather than asserting guilt as established fact.\"]},\"prior_adaptations\":[\"No specific film or series adaptation of this reported Uttar Pradesh/Maharashtra incident was found in the searches.\",\"Generic fake-death and revenge dramas are near-misses, not adaptations of this particular event.\"],\"sources\":[\"https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html\"],\"facts\":[{\"what_happened\":\"Hindustan Times reported that Pannelal Yadav was arrested after allegedly staging his own murder to implicate his wife and in-laws.\",\"source\":\"https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html\",\"confidence\":\"reported\"},{\"what_happened\":\"The report said Yadav and his family had previously faced a criminal case after his wife alleged harassment, and that the sides later settled the matter.\",\"source\":\"https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html\",\"confidence\":\"reported\"},{\"what_happened\":\"According to the report, Yadav disappeared after visiting his in-laws in Maharajganj, Uttar Pradesh, on October 15, 2016.\",\"source\":\"https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html\",\"confidence\":\"reported\"},{\"what_happened\":\"His family allegedly suspected that his wife and her relatives had murdered him and disposed of his body; when local police refused the complaint, the family approached court and a murder case was registered.\",\"source\":\"https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html\",\"confidence\":\"alleged\"},{\"what_happened\":\"Mumbai Crime Branch reportedly found Yadav hiding in Mira Road for about two years under a different identity and identified him as the man reported murdered in Uttar Pradesh.\",\"source\":\"https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html\",\"confidence\":\"reported\"},{\"what_happened\":\"A deputy commissioner of police was quoted as saying that the investigation also revealed family involvement.\",\"source\":\"https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html\",\"confidence\":\"alleged\"}],\"why_this_sells\":\"The instantly recognisable fear is being declared a murderer by your own family while the dead person is secretly alive and watching the case grow.\",\"why_not\":\"The real-world incident appears to have been exposed within roughly two years, so the 150-episode engine requires fictionalised complications inside the false-murder case rather than literal biography.\"},\"also_considered\":[{\"title\":\"The Fake Karachi Cantt Identity\",\"category\":\"REVENGE\",\"one_line\":\"A gaming rival who loses his licence creates a digital trail of obscene religious images, impersonates his competitor online, and then files the complaint that sends police after the man he wants destroyed.\",\"year\":\"2023\",\"where\":\"Delhi / Haridwar / Darbhanga, India\",\"mechanism\":\"Adarsh Saini allegedly used impersonated email accounts and his rival’s personal details to circulate offensive images, then posed as the complainant so the rival would be framed.\",\"engine\":\"Every new account, device, complaint and digital trace can either tighten the frame around the rival or expose the revenge architect behind it.\",\"episode_estimate\":130,\"cast\":[{\"name_or_role\":\"Adarsh Saini\",\"motive\":\"To retaliate after a competitor’s complaint allegedly caused him to lose his online gaming licence and income.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Rahul Kumar, the framed competitor\",\"motive\":\"To prove that the online offender and the person using his identity are not the same man.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Apurva Verma, the apparent complainant\",\"motive\":\"To trigger official action against the offensive content, unknowingly becoming part of the frame-up.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Delhi Police cyber investigators\",\"motive\":\"To track accounts, devices and payment trails while the apparent suspect keeps changing identity.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Gaming-platform customers and rivals\",\"motive\":\"To protect income, licences and market share in an online business where identity is easy to steal.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":9,\"emotional_immediacy\":8,\"conflict\":8,\"cast_depth\":8,\"total\":41},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The case concerns living private individuals and police allegations.\",\"Change names, platforms, religious imagery, locations and business details.\",\"Avoid reproducing the allegedly offensive material; use an invented non-religious digital trigger in the adaptation.\"]},\"prior_adaptations\":[\"No specific film or series adaptation of this Delhi cybercrime incident was found in the searches.\"],\"sources\":[\"https://indianexpress.com/article/cities/delhi/man-held-for-circulating-morphed-photos-of-gods-rivalry-fueled-his-revenge-plot-say-delhi-police-9012590/\"],\"facts\":[],\"why_this_sells\":\"It turns a familiar small-business rivalry into a phone-native revenge maze where the victim’s own name becomes the weapon.\",\"why_not\":\"The reported case was uncovered quickly and has fewer family relationships than the winner, so its long-run emotional engine depends more heavily on fictional cyber-investigation arcs.\"},{\"title\":\"The Terrorist Who Was Supposed to Be Satwant\",\"category\":\"REVENGE\",\"one_line\":\"Jealous of a man he believed was involved with his wife, a Faridkot resident plants fake explosive material and a counterfeit Karachi Cantonment identity card so the army will mistake his rival for an enemy agent.\",\"year\":\"2014\",\"where\":\"Faridkot, Punjab, India\",\"mechanism\":\"Manpreet Singh allegedly used his rival’s photograph, a fabricated Karachi Cantonment identity card, a counterfeit stamp and planted objects to create a false national-security case.\",\"engine\":\"The planted identity forces the rival to disprove one increasingly elaborate piece of evidence after another while police, army officials, family members and villagers choose sides.\",\"episode_estimate\":100,\"cast\":[{\"name_or_role\":\"Manpreet Singh\",\"motive\":\"To take revenge on Satwant Singh over a suspected relationship with his wife.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Satwant Singh, the framed man\",\"motive\":\"To survive a false accusation that makes him appear connected to hostile forces.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Manpreet’s wife\",\"motive\":\"To conceal or deny the relationship suspicion that triggered the plot.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Faridkot police and crime-investigation officers\",\"motive\":\"To determine whether abandoned objects represent a real security threat or a local frame-up.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Army officials\",\"motive\":\"To investigate a suspicious bag and apparent military identity document found near residential quarters.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":7,\"hook_density\":9,\"emotional_immediacy\":8,\"conflict\":9,\"cast_depth\":8,\"total\":41},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The report names living private individuals and attributes the allegations to police.\",\"Change all names, military references, documents and locations.\",\"The adaptation should fictionalise the security threat and avoid suggesting any real person had links to hostile organisations.\"]},\"prior_adaptations\":[\"No specific film or series adaptation of this Faridkot incident was found in the searches.\"],\"sources\":[\"https://www.hindustantimes.com/punjab/abandoned-articles-case-faridkot-resident-planted-articles-to-take-revenge/story-O6pJHJrtVEa4m16G3dBugK.html\"],\"facts\":[],\"why_this_sells\":\"The fear lands immediately: an ordinary man’s photograph is turned into evidence that he is an enemy agent.\",\"why_not\":\"The reported plot appears to have been exposed within six days, making it a powerful first arc but a weaker literal engine beyond the initial investigation.\"},{\"title\":\"The ₹3.2 Lakh Robbery That Never Happened\",\"category\":\"REVENGE\",\"one_line\":\"After two men insult him, a Lucknow resident recruits his brother and friends to stage a gunpoint robbery, plant a money-filled bag on CCTV and send the police after his enemies.\",\"year\":\"2024\",\"where\":\"Gomtinagar Vistar, Lucknow, Uttar Pradesh, India\",\"mechanism\":\"The complainant allegedly filled envelopes with paper to imitate cash, arranged for accomplices to steal the bag on camera and filed a false robbery complaint naming his rivals.\",\"engine\":\"The staged crime creates a contest between the CCTV story, the accused men’s alibis and the conspirators’ need to keep every witness repeating the same lie.\",\"episode_estimate\":80,\"cast\":[{\"name_or_role\":\"Gaurav Singh, also identified as Arnab Kumar Singh\",\"motive\":\"To settle scores after alleged abusive comments from Vishal Singh and Akash Mishra.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Sameer, his brother\",\"motive\":\"To help manufacture the robbery and protect the family from exposure.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Ajeet Singh Sengar and Akash Yadav\",\"motive\":\"To act as the staged robbers and create supporting CCTV evidence.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Vishal Singh and Akash Mishra\",\"motive\":\"To prove they were framed for a robbery they did not commit.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Gomtinagar Vistar police\",\"motive\":\"To reconcile the complainant’s story with CCTV and local intelligence.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":7,\"hook_density\":8,\"emotional_immediacy\":8,\"conflict\":8,\"cast_depth\":8,\"total\":39},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The incident is recent and involves living private individuals identified in press coverage.\",\"Change names, neighbourhoods, amount of money and the precise dispute.\",\"Treat the police account as an allegation unless court records establish the facts.\"]},\"prior_adaptations\":[\"No specific film or series adaptation of this Lucknow incident was found in the searches.\"],\"sources\":[\"https://timesofindia.indiatimes.com/city/lucknow/lucknow-police-uncover-staged-robbery-revenge-plot-four-arrested/articleshow/114557927.cms\"],\"facts\":[],\"why_this_sells\":\"Everyone understands the terror of a false robbery case when the police have CCTV that appears to prove the lie.\",\"why_not\":\"The plot is mechanically neat but short-lived: once the footage is checked and the confession arrives, the revenge machine largely stops.\"}]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [
+      {
+        "type": "web_search",
+        "filters": null,
+        "search_context_size": "high",
+        "user_location": {
+          "city": null,
+          "country": "IN",
+          "region": null,
+          "timezone": null,
+          "type": "approximate"
+        },
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ]
+      }
+    ],
+    "top_p": 0.98,
+    "background": false,
+    "completed_at": 1785016062.0,
+    "conversation": null,
+    "max_output_tokens": 32000,
+    "max_tool_calls": 12,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "hunt",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "winner",
+            "also_considered"
+          ],
+          "properties": {
+            "winner": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "title",
+                "category",
+                "one_line",
+                "year",
+                "where",
+                "mechanism",
+                "engine",
+                "episode_estimate",
+                "cast",
+                "scores",
+                "clearance",
+                "prior_adaptations",
+                "sources",
+                "facts",
+                "why_this_sells",
+                "why_not"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "REVENGE"
+                  ]
+                },
+                "one_line": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "string"
+                },
+                "where": {
+                  "type": "string"
+                },
+                "mechanism": {
+                  "type": "string"
+                },
+                "engine": {
+                  "type": "string"
+                },
+                "episode_estimate": {
+                  "type": "integer"
+                },
+                "cast": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name_or_role",
+                      "motive",
+                      "spinoff_potential"
+                    ],
+                    "properties": {
+                      "name_or_role": {
+                        "type": "string"
+                      },
+                      "motive": {
+                        "type": "string"
+                      },
+                      "spinoff_potential": {
+                        "type": "string",
+                        "enum": [
+                          "high",
+                          "med",
+                          "low"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "scores": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "engine_longevity",
+                    "hook_density",
+                    "emotional_immediacy",
+                    "conflict",
+                    "cast_depth",
+                    "total"
+                  ],
+                  "properties": {
+                    "engine_longevity": {
+                      "type": "integer"
+                    },
+                    "hook_density": {
+                      "type": "integer"
+                    },
+                    "emotional_immediacy": {
+                      "type": "integer"
+                    },
+                    "conflict": {
+                      "type": "integer"
+                    },
+                    "cast_depth": {
+                      "type": "integer"
+                    },
+                    "total": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "clearance": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "reasons"
+                  ],
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "greenlight",
+                        "fictionalize_first",
+                        "blocked"
+                      ]
+                    },
+                    "reasons": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "prior_adaptations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "what_happened",
+                      "source",
+                      "confidence"
+                    ],
+                    "properties": {
+                      "what_happened": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "verified",
+                          "reported",
+                          "alleged",
+                          "disputed"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "why_this_sells": {
+                  "type": "string"
+                },
+                "why_not": {
+                  "type": "string"
+                }
+              }
+            },
+            "also_considered": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "title",
+                  "category",
+                  "one_line",
+                  "year",
+                  "where",
+                  "mechanism",
+                  "engine",
+                  "episode_estimate",
+                  "cast",
+                  "scores",
+                  "clearance",
+                  "prior_adaptations",
+                  "sources",
+                  "facts",
+                  "why_this_sells",
+                  "why_not"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "REVENGE"
+                    ]
+                  },
+                  "one_line": {
+                    "type": "string"
+                  },
+                  "year": {
+                    "type": "string"
+                  },
+                  "where": {
+                    "type": "string"
+                  },
+                  "mechanism": {
+                    "type": "string"
+                  },
+                  "engine": {
+                    "type": "string"
+                  },
+                  "episode_estimate": {
+                    "type": "integer"
+                  },
+                  "cast": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "name_or_role",
+                        "motive",
+                        "spinoff_potential"
+                      ],
+                      "properties": {
+                        "name_or_role": {
+                          "type": "string"
+                        },
+                        "motive": {
+                          "type": "string"
+                        },
+                        "spinoff_potential": {
+                          "type": "string",
+                          "enum": [
+                            "high",
+                            "med",
+                            "low"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "scores": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "engine_longevity",
+                      "hook_density",
+                      "emotional_immediacy",
+                      "conflict",
+                      "cast_depth",
+                      "total"
+                    ],
+                    "properties": {
+                      "engine_longevity": {
+                        "type": "integer"
+                      },
+                      "hook_density": {
+                        "type": "integer"
+                      },
+                      "emotional_immediacy": {
+                        "type": "integer"
+                      },
+                      "conflict": {
+                        "type": "integer"
+                      },
+                      "cast_depth": {
+                        "type": "integer"
+                      },
+                      "total": {
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "clearance": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "status",
+                      "reasons"
+                    ],
+                    "properties": {
+                      "status": {
+                        "type": "string",
+                        "enum": [
+                          "greenlight",
+                          "fictionalize_first",
+                          "blocked"
+                        ]
+                      },
+                      "reasons": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "prior_adaptations": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "sources": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "what_happened",
+                        "source",
+                        "confidence"
+                      ],
+                      "properties": {
+                        "what_happened": {
+                          "type": "string"
+                        },
+                        "source": {
+                          "type": "string"
+                        },
+                        "confidence": {
+                          "type": "string",
+                          "enum": [
+                            "verified",
+                            "reported",
+                            "alleged",
+                            "disputed"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "why_this_sells": {
+                    "type": "string"
+                  },
+                  "why_not": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 52808,
+      "input_tokens_details": {
+        "cache_write_tokens": 8769,
+        "cached_tokens": 0
+      },
+      "output_tokens": 4994,
+      "output_tokens_details": {
+        "reasoning_tokens": 2021
+      },
+      "total_tokens": 57802
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 4
+      }
+    }
+  }
+}

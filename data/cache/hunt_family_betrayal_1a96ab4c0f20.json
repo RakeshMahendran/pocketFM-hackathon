@@ -1,0 +1,1097 @@
+{
+  "stage": "hunt_family_betrayal",
+  "saved_at": "2026-07-25T21:48:39.074376+00:00",
+  "response": {
+    "id": "resp_011b23b2085de6a0006a652ef6b6b88199a2b8ceee5e7d6ffb",
+    "created_at": 1785016054.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-luna",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_011b23b2085de6a0006a652ef74f348199a9b1f85c3d4c1866",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS85NS9CxpZPQgxVa3eH0KuIXIiKWBnYGodGQn2CVVrVqFXbqCRGM8q5yM2wBbAl3TMbj45rkmSrX3l1Xd62tgSlo-R57RdzE0A18mjG-RHUEAulg0iZlBVsnN9lsqK6Nx5fozTU6GLH-kei5xEHotI55qHUiiZ3ePxUgUTVvTYwIE0Gdufe79iR_KTtExccVYD1LhOZM2g5_ESLRTsJg3Ltth6hWCDWyZeNEcgdNiwW7rXKZ9NkBdZaNI6pJcEA4ymJo6dBnKYtEpRq37WE6Mqp5zMDBE4c07PMsPtSAUbnlfqbRCBHSxwZU0zwncINUGyadltjdHyZUXalbOPNg0oOmgUUPsihB6C7p8t1WsL8VChl59lglnr_iM7Xn_fYXJIO40qcqWzwS6GA78Z9ugHJEvX7n4ZrQmYYIYUKIQ0XYkcgmH7HRgdbFKpz4eVjaJtNbfJ2y2wWUaFfsZfBHM8XYsmiCgX6e7rBfeuJ9x5bQXULsZ17t701medTLxdmP5Je3I_zPLgs9IXB9RpHDygvZ4fV2Cm2KUWvRmF_fDCbKtN5J613FzCg3qmiXujxHH0yluZZWLFpcf5O4T17ColPsEJdmh1DVyU2m1crRzsmkJKB3MpW_h4zt6dWIREENiM2FG0v0z-dhUr0HGpPuiqlxZRXxYY6yTCqKVVCVU1Cdrz93xXRGfHnVuyRzTP_OmbZpFF04GLA7gjgDG7pfMTNw5u1fe_MUTuMIx2dhSNEC6NO2n8vMorJKboKh3OjORI6EGEBQWUgKwYo5GOnVAr9b31xjyUaABes0elVXir_aw5lCv-PdkhT4Ps8D7VcI36yEy9iO7dl7-0FB_M-TbgmBDm48EEMJLOB_REGlEiuanXd6vnzA3CevcThcoPRpzo7dMzyET7Q_tjd29oONv6ZCY5PdnsPC9qDYnly4d30QEhHhDVmyFZePtqfQM6KRlpIojUCrpLjdGJcHWGzPsW6Y8xsxwBJ63hItcu2grw6MrUcYv_PKSZnZ9Glm63HUtslukUK9P1EIaQ6z11AfTpNyUtdb0v3cjm6ISx-v_S2QZiVJevuxduMy6wHo-os10jhFDywIVHzafJeRuCOzuz_5KFTkf86xTEiYdreVLwyBSNzaIU3NA_XuK1Da08Gx2hanl4S4I-4s-Jmuu6NzqxQ1CovlKiYJvq25MXwN8Y4a9NR5ndpKtGVmwhs4_2DbIJlMFXgfi2jtHJtdp1rEjQyrK2b2HKaI30ohW6697bNX9t2oA3L6EMNYxivu1ITxoijsomDSiXZrNPPPaB7b88Q0cXhNg8W7q7jzTuAr-GRSaCXEYStQ_qJMG6Bn2YZPAYAPsfX5qy6biHq7mTdV-rSVsVY72M1iudBadVCWABU48BPVEsQn9bUn_sLpbd_iIakk8BqnxJtyDAwYHD7tHkJVzOtmPw6UsMvak-8Hl9PylM7jYDDaUr4uCwyEBh42xM8rg5Cl_QzOl5q27DRo7Y7ifpDb8tHO_okiOzIi1vmHUOPVHEcCtvbzMxBTmGeKbTRSZHmdj-QL51BGVn7krWe46XHYWHUrrZylMP4x4XDXtdwRcKZ1tYcgqVAGYah94yM0gap7jeGur8-M3JCF73883p_AAdw9FawZXzlOtnEq0mYQEql57vKYwxI1tzz5vpZSJp1gTcyagWW_EC-uleqphot2WZzq49MYRFCxcFaVO_CzAJJaS2PSleBw7whJP4EJjB-a7lP9zpIsKiwYLmPX0DRSrJQ-0lmKSBdQn5RrA8SIxnDHnBm-xQy8AvxFjPuk0HI2xYgu8DbpoExMCfJpOxIjtx6HS5JVZhMRePm4_rY89fJpzTE65xMWDTK4NeCbWwR6fnVgbhMN-h9MEfuwA4I6YXXPvBukmm7EuZqXcDJ2UB3hpiZFzf_J0NDp__S",
+        "status": null
+      },
+      {
+        "id": "ws_011b23b2085de6a0006a652ef8c0dc8199a563341bfbea7775",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India district court inheritance dispute forged will brother sister property mutation chargesheet regional news",
+            "India police FIR family forged land documents brother inheritance benami mutation court",
+            "Indian family secretly sold ancestral land forged power of attorney siblings court news",
+            "Nepal Bangladesh Sri Lanka family inheritance forged will property court local news"
+          ],
+          "query": "India district court inheritance dispute forged will brother sister property mutation chargesheet regional news",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/cities/lucknow-news/kaushambi-alive-man-shown-dead-fake-son-sells-land-worth-over-1-crore-101777299416183.html"
+            },
+            {
+              "type": "url",
+              "url": "https://m.economictimes.com/wealth/legal/will/forged-will-row-buyer-should-not-face-criminal-case-for-purchasing-land-on-the-basis-of-will-which-police-found-to-be-forged-rules-sc/amp_articleshow/132007442.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/chandigarh/selling-land-fake-power-of-attorney-documents-arrested-10458824/"
+            },
+            {
+              "type": "url",
+              "url": "https://bombayhighcourt.nic.in/generatenewauth.php?bhcpar=cGF0aD0uL3dyaXRlcmVhZGRhdGEvZGF0YS9qdWRnZW1lbnRzLzIwMjQvJmZuYW1lPTIzMDgwMDAxNDk5MjAxM184LnBkZiZzbWZsYWc9TiZyanVkZGF0ZT0mdXBsb2FkZHQ9MjAvMDcvMjAyNCZzcGFzc3BocmFzZT0yMDA3MjQxMjQ2MzgmbmNpdGF0aW9uPTIwMjQ6QkhDLUFTOjI4NTMwLURCJnNtY2l0YXRpb249JmRpZ2NlcnRmbGc9WSZpbnRlcmZhY2U9Tw%3D%3D"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/legal-news/bombay-high-court-forged-court-orders-police-probe-estate-dispute-10753441/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/94929034/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/128925716/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/chandigarh/7-booked-for-selling-sgpc-land-using-forged-power-of-attorney-in-mohali/articleshow/128081795.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/172465203/"
+            },
+            {
+              "type": "url",
+              "url": "https://lawfoyer.in/rattan-singh-ors-v-nirmal-gill-ors-2020-12-s-c-r-422/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/ahmedabad/gujarat-nri-man-wins-back-land-after-hc-finds-power-of-attorney-misused/articleshow/132468575.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/46442693/"
+            },
+            {
+              "type": "url",
+              "url": "https://economictimes.indiatimes.com/wealth/legal/will/father-gave-elder-son-poa-and-property-settlement-deeds-younger-brother-files-forgery-case-against-him-and-nephew-files-civil-case-sc-orders-criminal-trial/articleshow/128092798.cms?from=mdr"
+            },
+            {
+              "type": "url",
+              "url": "https://www.livelaw.in/pdf_upload/2026/06/08/4135620252026-03-25-678510.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://delhihighcourt.nic.in/app/showFileJudgment/NBK15012026CRLW22022024_165158.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://mphc.gov.in/upload/gwalior/MPHCGWL/2022/MCRC/41553/MCRC_41553_2022_FinalOrder_31-10-2025.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.livelaw.in/pdf_upload/4080420252025-09-12-620206.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://api.sci.gov.in/supremecourt/2020/2941/2941_2020_1_1501_37575_Judgement_23-Aug-2022.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1rdg0zk/need_advice_regarding_fraudulent_succession_entry/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/indianrealestate/comments/1hvzwu3"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1up6itf/elderly_witnesses_never_signed_the_fir_now_facing/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1qli8a9/ancestral_property_sold_with_false_family_tree/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1iuxt3w"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1up6g76/elderly_witnesses_never_signed_the_fir_now_facing/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1uqwmiu/need_legal_advice_regarding_land_and_family/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1kkqnxh"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1t2seqi/neighbour_illegally_demolished_part_of_home_with/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1up6klk/property_related_case_concerning_mom_and_aunt_as/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1r0fty9/tenent_issue_on_disputed_property/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1pjn1rq/brother_demanding_all_original_property_documents/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Vasant_Gajera"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/AJL-National_Herald_Panchkula_land_grab_case"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Robert_Vadra"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2605.19346"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Giri_Bandhu_Tea_Estate_Corruption"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Bhawal_case"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2106.10841"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2105.13562"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_011b23b2085de6a0006a652effd04881999749c55fcda4e940",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS85rbAXLH6Os5JKwTUlTkvUbdlptEJRyXv7z7zln8dqJwXojfgxz1CCdqK9y9H59PwqVDKDFHzcmtnTHhASZVHoXwrrZFq--abWkLAzrQKWH2u0MQMYbQDjwNlIycJByf_c-rE_lTdvIfengqLUAhjxfzPHHB13Y_wFjgPUuA-KdnMCdRL6IPSsmYhyMKb90Eot-OKWUvFv3Wk7KYfbRv0ay-NCJ_M4sJUQQMF9lT_ubIq5jy5uOELU_oZU1LSS9Kb3h6daDpk9vhYXUIRZu-E8xCNjhdv_hWAxdvHDnnQLTCvTVCb_Nd3J_HzlTP46zcDIi-o8qvc1Eh3pxGW0fukrHeQ2zk7-8oQyfZeFpIvmmSoqtCh-gRtu117Aa-HFPLVZsgwxUdQA2JQQ1Je-ATpruMNUUDSNYtku0-lCtCrdaQb2iNhxr7gfvvucXDjSB_S3zdCXj-OTrSNb3S2v5G266HkFAs_ogld25PbDGARvNxg3a4GLeo69WQPNFAJkA61o2OEBk85OoA7M58_PzgUshU5ZdKgOoYidzGlCvn9LLK4ERLgs9nO035JtTE-GhPKnM5L1QHLCTB8Muw3vYotDPj7oIo-Iwcnn_KaWVjdX9LjEwa1UgnuUF2eKj36J5dB35wCKIC_LgnI9xqJ6VN4rQ6Len8efvjjRegNQmjjjBEmU8mEYlx1dNQhyM3GbsjUjBHiEmAW9w4yce1JYWeqXSpDG4bt8Mf84B17eB7Lq2QIm0LQaN9tttxVypKaotS_4Jp3_1cHlUvLlOp70ebBtbxzji9WtkjzYYlwAQu9phjb5kIj3xoLm6-SbKbGpTWBfpNnLDh8dqnXMwVyFHO3X80hV8CIxPVfolfOkAXNxu3No3fuswSaPICs-fGEQmejPkthdRyuDHpHAcTsx3DRZOFUQQB5VgK5niS3kSyu7gdTW4KmUn-9LC2efXPShFocR0EMsu2mucvAVPgrI59QGIbTuuyY42n8HQWOBDJnA0T9ci1AaPXynqqOB8AZ-5LHzG826IFImoRAyd3HCoe2kxAKDUps1xQFOaHIe4f3rsSeqydq3oEWZxDF5z87fvUGAyy6FXficA5Vnei58eYwCp14yUakkA4LKRU91XbinsB_J4vVeoSVreQcTkLGdZn9eB9ne-wWp4oXKj50_FL6QRIG_f1uXP7c7Vkwn6HCPNS3rLvumlBYAF5f0Qu90PUfNSKYqurk_BfZPmd-rt5b1_cLB6ArWU9YxY0_emDeDf6dxMg-Tg0-9kPJ3Gr8yRXIhO9okbs2yl-DtNun9ZKrPIkXXTJ4g_Y8HxjBPSeJVNYc6uFzCEEiua_fk7K1evSor9HmAzNIfe0ORnXc_P1jQ-dc4-LQSNFPf5Xv7ZVPHrjR57K1FrNVQDARjXgJIkOPsMpnWgPObHZc7xP9LVN1d62gL_iNKWOAPi4fjPgoKnCqFXBfhEfxiqKdnSMyrn7dWALBJ_8r99J4X7ZMrvGipVyhWr0fl-vlEjDGwhGJCFk6ugDOch0krdZ25tEb4140uQRitJ3ktBAJ1GX7XtfpWzmGHpZAhHbe7rRAJT5vOuPS_zusoeA2xK0fecP0l7dwbEmMJZIXFgxoPwU9ZG5saVz3hSOBsNcqy_opB-SsuIfmttli5cDYJg-Oan0Rm54hPXUME-fi9rwKH0Ehl1ecw7jN58T7P4_XQhKh71T78Wlz1FWrP8Q8Z5ZiicNyy6UfsJKvkM2oZ51C0jUZjiu8Djq9a3US-jfcaOQxLdZXMSAPNycWuNDtGAK4SPS7n7arqK2fYFvRyvqoVLCHN77c3CI9yDY06p9x7wm_gy3012WepH50WkVvn-MtExBdAAYZvKKdw_ot7FY4yznaNYFJZTr7n3gZO-kr7__9RCyHbb9EZ_ACsmhZlD3637RI6DWFXhC-xU-wTThxcRbOsdI-heEfvcIBww5s5i-yfSd9L2mQTh6vf4PsYnbPWQzZdc7jzeHIOYBwnrxS6RR3l71onuPozfe90L7ZGgzRp-IUQEiN-2JkLnDCGK4Hmsep7Ey-vPq9zgGL8veA5cmNwrpPK69Zc_NO7zOMkMTvJHNrNowEqIxgYAbE4_lbEl0v4y0drz5p36TP9Py9hT9FoSo5d_CpCjLSAEZswsbLqru6p48A1sW6NNAS2tVyGdUZzzWR84ZWPwjYPCpZBhABySlD6sKhX8vm3-ZckrAazAntVrUf-ges6zhtCJeNPnl_fDO0eyAXJBoLu7H1OlMSLFQG-kNSJYZWjb_JnM6S4rngit06wA79CtMkZUMHec1-hdevwRW7Lohpkan-XfF3h1PGI0HH6LG6wwIKFzKNomuemlVPFqfg8-t8vF2iqb93I7MSACfNGY9K88GMvtIzvyZMhLsQYyPIjpOt9R9sg9A1s4RPmb0wMQRckppL0jAUEw-KeezNsU4g9360UOx5g7SrnuOiz8Vt09O1RwEOdOzJQNDsNS5GFXfIBw7p1DrXlmd65oCw2zG5t3eNvlV8a9Agwcls6b9fqc-kbTFLiA1xlHQxEL115TkoN1lI2SNqtmKDvby4Tto7zs7buZjy2husb21uCqgb-i6YtLgBVv0LrqQ1q3BFcl9iklqM6WTJwZ2FW57ZOLxP6GeHcQ4JNPF_XhZZFDW4ZdLkZZ1wX852F0Tv6Zjn1GKe6DOwjXe_wlFKQ4wTM8xWDXn99KSg7SATi2D4_m9mE1oz_C5tHrIOVftNcmMBAtmyIas7sVLPw9HXD0qfqKfWPxE7A-r8TB00YYq7EX12Lz13JfhzK8BcRkCN-ecFZD0s5HWDXFySLVg3p_hemIumK1QK24O_a9ydFqNfUTFLKz2kvbIKP5x1q9d235eDELW-reUaj5S5whf5KwT1NqFF6xUMDuFVHLf_XB2Gfu2MTB9HiBz1BRJpolJNm10UuSgMxvQ52R25StddcwXsYwETENaQ5_-HIr_OIhRF5UHZlVNIkEYAhzednXt0=",
+        "status": null
+      },
+      {
+        "id": "ws_011b23b2085de6a0006a652f018e948199b190f10027468629",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:indiankanoon.org family property forged will sister brother mutation \"family dispute\"",
+            "site:indiankanoon.org \"ancestral property\" \"forged family tree\"",
+            "site:thehindu.com brother sister forged will ancestral property police FIR India",
+            "site:indianexpress.com \"family estate dispute\" forged will wife brother property"
+          ],
+          "query": "site:indiankanoon.org family property forged will sister brother mutation \"family dispute\"",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/legal-news/bombay-high-court-forged-court-orders-police-probe-estate-dispute-10753441/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/137488233/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/193897684/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/89163597/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/18304047/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/2600957/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/165471556/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/142318598/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/140791325/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/23149202/?formInput=share+of+adopted+son+on+partition"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/42680483/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/55067779/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1152494/?type=pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/765298/?type=pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://roofandfloor.thehindu.com/raf/real-estate-blog//wp-content/uploads/sites/14/2019/04/HomeLoanebook.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://roofandfloor.thehindu.com/raf/real-estate-blog//wp-content/uploads/sites/14/2021/09/Homebuyer-Preference-Survey-1.pdf"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_011b23b2085de6a0006a652f053bb48199870caf014f217915",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS85jjtn8hAm81U4zQETC7jMuj9bpGMK2F_yI8ZOqwfzURcY1Rple7oz3kwluhjjow5jk_BMWH3PiERFGkwa5XxYWMWvcChjKys5AqEws7Cp4TDKw4W4_CZWrZbmMpDTSO2dWDw3rcM4NNG0l36jyhIIO35aUly914wkBk57VkLhusb2HqLw5ZunXUKnW3pD68gF9z9oARjolU1tiQ-r7SztnhA3oUQnLxuMnQuyOMVRTeE9rfa_qtKOn_R0JukX-OXH2o92tIjNnPs6qZ51qmyY7dndkS6qsDZdbOG0WjA_w4Y29IDbMXQTwDyQjVCB9R0XdurtToMtfv-7JRXfV2ZqEviLePPLSeFWEziNvsSPdPihBoHGXuD_e0fcH8iNcMyZwa0Z6XIqSnii4tcW6kpmKsHrSl79fGkbggQFhab5UdD59Lc1EpefMZyXddObQsJT45sXCIvRrFQdx4YWZoX3BY0wbeJKWQEgQaXtQd7723fJzEhV64dtRFr4IX85Gg78Zfk16pfMlA29LmLq88aOf-DvbZjzFMJ83Mm_bBf1SUxz-ic91M9ifBFB7hE7VY8-xb5g2BpsmOCxmYE8wtS8cYMY0em6e6Qi2_MudlY0aWnU0AU5PMOBySLvjugEpSN0PVNI6RobAb3d2HjD3H-aLL_VedXjt3-CYYo7jqW1f0gYIT4pZYXcf5CgNyYOdikwmvPM8UqFWc1Kidy0_-mrA5bJCMO1ktX1wLDFXcm3JuiCWZ0YPL95K-QbokHaBscuqspKAi5FRkYLk7-EZ4_7uT1OCeN4kkYuJ0CtZr9GVXm2Hk6C8NNo6DAgQ3DtfCNB46NZVS_5iqbTeWyKodUwxAQrKS0LeAs0JZVgZdk0mP3fNuTiVOjXOvyTR_zwMxbp3KKUs6ggSjKHphlWgto_cCtdsjXI0hJ6dJASN_neHYC0qr-E5iVhcF2Mqkb52CdXBdgUBPPkKtWFyNn-16juzcZyzf88Oep8DhaFKyi_tBtDUZOGPRlm7HRYgS3dwH2eVOyq1JPlJlzjajdZim6qYY-e32OmTt67K2w0TWMcOZnXnkndtZ6ZpFd8H3OXYlO7-Y1G5h0xcGQIxEhRmQdS7fAa1wFwKZgQWEHetLfkwcYvGxpH4L6krXPca6OqYwFwNbTAh3CeykbMiWLBzhNVHvHPbHMNRl9tBo48njp2sRLBRuM7-CC-zl6KoHBa2x7jKnfBGS9ljBg_QuUzEFJPmhxvY-RPHEbTEHRt0TtNbRKINqn2Sp6V_ih4yinDIja3oXEDzbmcYlV0LFbD9X4-vxr4s2ceF6iMu78wXQH7-riXd2V9unDD5RMjv6_17K90ra2e3lNm0hrtK4y2p0nvDSa9anfP003Aoa-OpXJLjnr7oz_IMwhq1m5IQeXGtDvU7m0jxnMrC0Y8Z49lu-etjr0mXqj1HdV4SLOhk7agbZPgmcV5BEnPMYm8ZCADCwipExely60c50dV8yvm-j536phMw4B3cIMiLj8NqWsU2XVjQ5sMlH_jEk-vOIshDbtL38UvENg0U4e2cfpRsV7uNszHq4j5K6IUtJu_C7i2J-0g58XOVw4g33mdiTJ9HC8ezYoXaCzMNiRLSmqOInVEdJf9dVv1H5pHEL44nbctgana3hIbQKdTgPWxgtWNJTyNuVLlTEFjeTupDfO6qYTGB9v8BAPlOzPOoNJhioLeApn-FKQNNyhsgTl8P_yL5M91sACxgw0j5OJ0tvADgII0YpAZsrfp8Q78orqMWgUjKLGap9DVL5Lyc2c5zBZVUrdFGFh0Y3KnI8Smkow552iRwTsB2qA6kneG7ZhlMmhh8uwYfwwQ53yKsfo-kDEpk-pAXDbX1PmJZ4o5NATRoXa4s-UAkbjCzFuFULx7zFtDoDF7j32ej2iEeEUpIxxRxvH3GhEjei14kzuHrHkJfwSo2uzQx3V8AHNLVSYU_6cJ4a-PfgtEQah5iZhe1zdKgXf3XHH8mJ4Ohvb1ia692Zgjex3YapI0PeUpWtY6fKB9TGQ3EORHEaxd6Y2B8tc-D3H5ZBWZI2r770Lr0XmgHOUWCiptNtIN_09p3KLhDHLuwovK6EpJ7b-SB7Efo_ZDx0DgokpldigKakFpift_m21KPgt781r-FdIrN2BytRygmkzzOGoamvIY6pNe8pv8O8Ev",
+        "status": null
+      },
+      {
+        "id": "ws_011b23b2085de6a0006a652f0671ac819987b253a889e45502",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India woman declared dead by family to grab inheritance land mutation court news",
+            "India son hid father's death forged succession certificate property sister police",
+            "India daughter excluded from inheritance fake will mutation FIR district court",
+            "India brother impersonated sister property sale deed family court police"
+          ],
+          "query": "India woman declared dead by family to grab inheritance land mutation court news",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/india/story/up-woman-declared-dead-for-land-shows-im-alive-paper-at-government-office-2743440-2025-06-20"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/102952897/?formInput=cheating+and+impersonation"
+            },
+            {
+              "type": "url",
+              "url": "https://www.livelaw.in/high-court/delhi-high-court/family-use-of-property-doesnt-give-sister-ownership-rights-over-brothers-property-without-challenging-sale-deed-delhi-high-court-533158"
+            },
+            {
+              "type": "url",
+              "url": "https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/legal-news/family-courts-marital-status-disputes-spouses-kerala-high-court-10752057/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/cities/lucknow-news/kaushambi-alive-man-shown-dead-fake-son-sells-land-worth-over-1-crore-101777299416183.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/india/story/newlywed-dies-greater-noida-family-alleges-murder-for-property-2909286-2026-05-09"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/94929034/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.livelaw.in/supreme-court/mere-exclusion-of-natural-heirs-wont-make-will-suspicious-supreme-court-upholds-will-in-sisters-favour-excluding-wife-kids-535237"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/legal-news/excluding-wife-kids-does-not-invalidate-will-says-supreme-court-10702509/"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/legal-news/patna-high-court-bihar-police-woman-declared-dead-alive-10709131/lite/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.business-standard.com/finance/personal-finance/living-in-a-family-home-may-not-override-sale-deed-delhi-high-court-126050801233_1.html"
+            },
+            {
+              "type": "url",
+              "url": "https://elegalix.allahabadhighcourt.in/elegalix/WebDownloadOriginalHCJudgmentDocument.do?translatedJudgmentID=10941"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1up6klk/property_related_case_concerning_mom_and_aunt_as/"
+            },
+            {
+              "type": "url",
+              "url": "https://api.sci.gov.in/supremecourt/2014/30725/30725_2014_32_1503_22157_Judgement_19-May-2020.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://highcourt.cg.gov.in/Afr/courtJudgementandAFR/2015/Jan/SA369of2002.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://delhihighcourt.nic.in/app/showFileJudgment/59627012026S20462015_195907.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.istm.gov.in/uploads/rti_menu_docs/1501486916CIC_AD_C_2010_000454_M_47603.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://delhihighcourt.nic.in/app/showFileJudgment/NAC08082025FAOOS2582017_173159.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1ngmr4m/criminal_case_filed_by_my_brother_regarding/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1mepvmu"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1uvjy43/father_passed_away_in_2013_relatives_took_all/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1iuxt3w"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1gaazup"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1lk6s3s"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1sf0pok/my_father_passed_away_his_sister_claims_my_mother/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1v14iyw/property_dispute_in_delhi_brother_transferred/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/13zarlm"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1silqc8/brother_forcing_me_to_transfer_my_property_to_his/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1kkqnxh"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Oorai_Therinjikitten"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Ruchika_Girhotra_case"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Uttar_Pradesh_Association_of_Dead_People"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/2014_Badaun_gang_rape_allegations"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Robert_Vadra"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Nisha_Sharma_dowry_case"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2510.10437"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2605.19346"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2106.10841"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2307.14651"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_011b23b2085de6a0006a652f10b15881999e6e796132590553",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS85uigUn5QP-ChHPhbxtI5W5lFuscqq6P9TtyBAYh4MiJojp9uk70GRcf9DU-zDb5gYAr5ZGrcJVPkwyGshwBbj3YbnEYqUT7ieJJNThidJlShn6dHCU-2dvPCQGhfXJuHsy9_9xu9qwUdPL4K1mUQilryBXqyWEnjDQGF_0e9gyyMa2bpsYeMwqTvV32Fto-O9aQCOSbKrOUQuc-Uo3Oz4UTZRC79RueHT5DqL3sybCVDFDGj3J3zzt8teN8mUtQeY1TPfhCmv94BgVHpR1EUXEQMzaSeT79se4aObwAH0OyF-eeHL8GP-YwmGa0Eu-RinPBVyHmRY8FVTC5Iw_kgzxsyrHbo114WaXm9mYxpxRgI6aoWHE5lY2pJvAB_I7SF9ny2NnoVGr9dr1A3nnphlKulBobyv9GL98n-_UARFnRN09wC1GIyQTHqbQsriMcoS4iMe3V3QkwzxhTgsfaA5tyn9ang58lV-SqJHksrv_tDmcRbJEK8eKiZbZWCji7TfIb8TRu_M10ekuOKuuk8ts8lo_zrHpPaYQ_HHVaFpiPB7_8a3VJA53RL6q0ZdA1Es1t3KBZvRgWEo28cMrdCG3lRUcjz9oo1SjEuQVbnbo2HoEoO83CPiWxMGJoxM39Kq0W4VO--ZfO3lWF79AZE6rqv0zXuJLrdopz5RqvpgRiJpRr-S9aAsIBKaAA7pulreQDhcBXq2kvmkCbE1_83uU9LqYC8-MW2GlL2je4wCTMAAKqLks91Ri0I0nIgJYLYjVidRl1RUTLpBj441tDM7JUtGHaSkT_yZvYpDnBkeQdgzaz8HDhKZjNTUypLKzq1C-hC8XpBpASxalkJP-YK9ePfyYnG42cs0h4FPEgyiYeIpXV8tyJrTGgUlssgHb18M4up1iHK9-u6jrnmL6ePvrzGLCJmSndmjRVqVmWd_waU_dYWRFjFFWTAxa4PX9TZ8q70b7qBvViYy1FWFijZ2jctBl6DxgVRZbEIMfnV3mSGeVm03nAdiiTqFJ2MYy5F4pkMHTpzf8MFWueoPfR7HQ5o4T5EqIQUzFWnKCNPYjdRKzuE0vgIqm72xL5whrD-FCvTy1k3Nuh-BvGKq6Ex9tdD22g4sHvZgNDDixc_pPgGMgsoNJQ-dTQ7uVoHUaQ8HzPZUf8amAu4nvnhmaXuXS5Du0Kl__Z-QRpDdZjIUmgJgrB6fB6TLoKMiReNAWRQx4wGyvJJTkC6yr__ejzxtXB7_rF8VXg4BqDHi0U9M_Qn5KuyxZ1OTSQWmV3GBLVmca58MS_go26NZuRf_txMoTPbemBZKKvEHD-QKgRe6g6Io-FZ9CSiGv4J53Pi4lgztHkv5mIDhUc8xEFXN482mNMjcUzq_9h9OzHd1UEQK-APyzSMurum7oimu8g_vsqU4DcqvdtuYHED3-JGyQ5TelvruKYmUUBYEz1tuAl2gaKVcdPJpd3FEW05BeoOEgg_CqxrSOnLveDtQJJzxzzgDgvSbn_U1FZZWlyo1gEhtquTb0d9N_pkkXFzex3isRySZsUvEJtqudZitnh0q4AcM8UGC2f2Wg5IStALWzpbjmwPzLbEeqtc1k5SwPStWZ1DBOJcUWCAjqZ67TiGWMMEfB7rZqgCNOFIUJXiUSvXAEmRy7vszS3Pq4Kk87FBZGqP1MA_gLYExUB9R8HNLkRJ4FtKTODGlus-OIeBnw1ucjg5cfs-jPce4ZDTcW70Kk-0vLsuXNUPhElnmdFOxsaSd25ibi5gcdTDkS_FhLbfil-TxIV0kNaXHsXyiCekcB6zs5h1IqY4WdBwDse7tgndcDzKNlzfy-Hc3Hu8xYiCl3pxQ4fdt8WHnRLbdKJ2yJYH5GytaT4QEEQitFthFCW27cu75lHa-9rAFXs9SHQeKqAOcv8fLa3vISiq-uAwkSLza9r27AiC3qZ8ItSkrI4P48cJBVIkyQZVqu8cEMrQrWGcXpkjoXcMVdfwoHNKe_b0w",
+        "status": null
+      },
+      {
+        "id": "ws_011b23b2085de6a0006a652f124e088199a7df41c7c841b60a",
+        "action": {
+          "type": "open_page",
+          "url": "https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_011b23b2085de6a0006a652f161150819982397a4f5204db37",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS85EO2R1Go8IdaBvMMCTFEUjcmx1ewZkpzscYKMSlNbKOGlufEEkWCs58UsILa2xy-df6Wgog3k39FB_EvZMul2KWIRYEsfcx0tL0cUtZqnrti3b1BGAq9YzCCADsHzQ6sZSb38an7cupyoa7Hj4vBl4rnCUMNudqRBb8oGm3r586l5ZfOZmJNdX0GScMrMbJUcPKM5KzjPNWSfP-oCu7FZPtpxuRdqop-ViP8RwOI5-8ChXRvn2MECVwy8Wxz12gIe41jWQlAYBblsd7pduX2NwXAJ8I0Q3IXFxMXV2Vsyqzc4aPj84t5VxtYkGy7ZKiUlk1tfIGwwXVWfJzyhvqQ8UlY6pjBj9k3KUooxsi4ofG3Dwkp_iPvZ_woVp0LbtaYoHUrffe0BhL2l8nue8SPIs1Y4WBOzm_zsZ0kcAPN77Zw42MHctdnNh5RDgxwYwDeNNi5XSE6IaFnR3IJHDJdFvlntz63YuRBDGj56Hnvebr_CUR21xFlHbbErldzP-Fwn1fOeIIvkXrd3WjS7MijWMuurKE0N3z-vbuTMybyyPemcyMiyx7mjdN46FnAMlyqBbjLZ63j5CvQ5L0eY1JRqek4mW9Ed6v62qet_lleXYUdhXGBADH_RJ67NiTlqf8JJRFSTJyzeo2wTrtPo7f3WndYI5ZTLuIrqOIxFqHlOBFWLMn32HMGYIy_nbWby0iDhOaEhpS-8rW6vo1TLoWkVpx78-pH28ZjW75H7LjqM1yXQMuvEes42Dp9bfhF0O_NDDqhCedd9A_XY4neiQfT7j8QbU-FxU8JD1Sc_vJr3dND-r_CMtdyi7WKnifQjrZ9EIjwoUOnKr73OL44sMjiW8IXR8u4FNdULfAbydp52Eox_WM2HyUdMBU_3kjNDW4kpw5PXsHWovCu0m8kovgg1zzA9S_1D7nOt_vIS3wR6NG3c1df3LYMRhnqFO1H8B6qNQO76fDlq8cse9RqUY9sio69D3Lq38b9MZvpHl4MevZvrCixhEUuo6bC9lhJGnpUARd46g2MpU5ezul9c3e705hJHaQUglRPPCCn-w3lH7wIB-2b9uhNJdIFVaGCUszcvvsHAJrhW7ZDny7DWK_mul9tbhHjJuOn6mgPGTDPrBTK5xxq4ukObhHt90IaYmpD1mRGKqBAjovcNxrcAnQ-bFQ==",
+        "status": null
+      },
+      {
+        "id": "ws_011b23b2085de6a0006a652f1687a08199bf89123403989d8d",
+        "action": {
+          "type": "search",
+          "queries": [
+            "\"Alphonse Raj\" forged death certificate heirship certificate property",
+            "\"Ponnusamy\" \"Alphonse Raj\" property heirship certificate",
+            "\"Thaneerkulam\" forged heirship certificate Alphonse Raj",
+            "\"Avadi\" \"forged death\" \"five siblings\" property"
+          ],
+          "query": "\"Alphonse Raj\" forged death certificate heirship certificate property",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.magzter.com/stories/newspaper/The-New-Indian-Express-Chennai/MAN-FORGES-HEIRSHIP-CERTIFICATE-TO-SELL-DECEASED-DADS-PROPERTY-HELD"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/92810291/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/175171073/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hcctrichy.ac.in/page.php?id=18"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/152905805/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.stationeryprinting.tn.gov.in/gazette/2012/8-VI-4.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.unitechgroup.com/pdfs/Details_of_Shareholders_liable_to_transfer_to_IEPF_Authority.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://cdn.b-u.ac.in/cet/eligible_applicant.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://banglarshiksha.gov.in/readwrite/List%20of%20affiliated%20schools_WB.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.iob.bank.in/documents/d/guest/iob_uncl-2024-06_1-a-"
+            },
+            {
+              "type": "url",
+              "url": "https://www.justdial.com/Chennai/Ponnusamy-Hotel-Opposite-Ethiraj-College-Egmore/044P7003925_BZDET/reviews"
+            },
+            {
+              "type": "url",
+              "url": "https://catholicconnect.in/news/archdiocese-of-calcutta-honours-first-batch-of-morning-star-seminary-during-golden-jubilee-celebration"
+            },
+            {
+              "type": "url",
+              "url": "https://pmu.edu/aqar/pdf/118%20-%20Iland%20Trust%20-%20PMIST-%20Tribal%20Visit.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.filertionline.in/rti/rti-in-tamil-nadu/rti-in-thiruvallur/rti-in-thiruvallur/rti-in-thaneerkulam"
+            },
+            {
+              "type": "url",
+              "url": "https://www.scribd.com/document/842034560/sneka-judgement"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/search/?formInput=alphonse+year%3A2017"
+            },
+            {
+              "type": "url",
+              "url": "https://people.bayt.com/alphonse-raj-oubagarassamy-88885483/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.casemine.com/judgement/in/65ed1f8029681506231fd639"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_011b23b2085de6a0006a652f1e863481998d842acb997201fc",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS85CGNMHr2NlO1KujeSBVAPUd7LcYv18AyIMKYtJbFIxGLYc0jTp5Vo9lLoUnzRTsWDEIqvLpHSjMiO1R3t7l0eOTeH3XvoHLkfe-_wCbVGytvV47UGAyNqXKlrtKWvrTUkxEr1xURWLj21Pv2cyUrfiD6lKWVhtZ0va6FBrZCfx26tdQ0EMMnbP-cAGcLfDJuLUObg3ZPG3FWa_9H9USqXECFJ-6-nF2ZPOCjTCUYI7XhhKuHWjVA0qz9G2lu5KvC1SORS3JhVMBvFrSkDJdScEnabStIHXOUidXxv50Db33N6itgZCFmZsHw9xVF6__81ypTDR6UNnctgXey496SWANhfviJXiOsJrS9BsQnp7whAFY-ZPs6uC8UvJo96-5XTAc1CdMQwlpHnHLA0KokU1QUgu7y7KCUk_yvt_NngSbews57JdhoUxpuO4QetkJ3lqjz26wOkSq1Ve0IoSOpxA9nqo2SKVygGLzZjPcw84lLa7cgwWrbWFzFqQkoT2KMMf_P_QxmYKNqCuQHQJP6rHJS9vO52bYUQnGFBrmKFov6LpDC-COzsKYrstsuKI8hsYYuVFK_u3YLwHGFF6e3I74KIzHIUdpIbRiUvRiBJRbjVu9tCnkWKitogI9ajJOneSHL8imIRC1cLRd2o8oaA3tvNCGTYnhJKKVB6XQnj7unHHQMeEIf7iLFV2rpRwuvRWIruJoK84av-ZqUv-OEwWnBAtqjrO0jT6S5QfO0iVnu8D8EqOD4HC3RSQsyORk6misUwquXZdaZ195twW9T-ckpXMlZECYrL2q244_mCPnH91FdYys-pDbnuIQqUJa2sXo86ASHMYUqrz4weUSShg8i06yKbNv1s0zzjn_B_pKQjWMrUc-vTmWwmEUEoD6K0d8vYOTmbz3Na82t2WgbZRCY5I51QfI4Qn2JHHrUYBo6PAvBfOH4RSziejmyyRk4OuQadWc3wUMamnLPT8eGrvRwAFtixdIFUZE86IR3Yxe0CT1Y_MTaYkIrYJP3g4Sz-XCMBjWdn6arAGzuA8INkJyJXEscD8B2sHCGPnTUWikpkRyhJmrVj_eysBMsqduiFaAoZ9lNqDYw9yGEc5SypNny4I4pPjTGvn2nNvcaYzHAuD1RcFNdNQTGsAU7-SFmKurGVW7V3qrF--MDvJ4I41_UxplXlJwklZD3_R_Vcfo-o2FxtdWlHM3MGulCBmKepWa_rNoJjswh9ZAfm6bwCj4EYsfbRrlvWMvIrNm-XAS9t6JMm67Wa-kOsRadJvTTkb3mk_2fRu8Hf64rucgdtl-uZON5M5rLZhwbrNqdKy-U=",
+        "status": null
+      },
+      {
+        "id": "ws_011b23b2085de6a0006a652f1f755c819988c421f0f1ad67ad",
+        "action": {
+          "type": "open_page",
+          "url": "https://www.magzter.com/stories/newspaper/The-New-Indian-Express-Chennai/MAN-FORGES-HEIRSHIP-CERTIFICATE-TO-SELL-DECEASED-DADS-PROPERTY-HELD"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_011b23b2085de6a0006a652f20c6a48199a7805f0657127729",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS85IrlRIQ7DH-UClql9kobpxjZTY48ZDHjFuB9UQfbAZX4jG8v8X8gucuyUczyOyHde8MpgHIWqzC0glzovELXv3AL8Q47amM0K1Tn9C_LnIQd9e_YcjEHPEuM5-XdbiFYud_vKPaZQPaSlGLqoXEBnaHXu8xBOHCWQ9Ay2adBzGMS8J8uZ9lX5bhxusXUz4EdSsWWNidpzUW2rDeBL14NL33ppY4MEgj6uM7BjHLnzKkgMK7a4Q_dPsBrPCqO8RK341X5W8zCHl8g-sKB6gDYsV2oV6ZCtlsPDgs_esFgAyxNStpB9rxN7PEzMa19USo-r5DQKkimpDX_g-8aFqI3nPLTBo0EewOma9nsdBLeq3ZJ5OiRKe2XNeljzKZHQzqc05AXZLkfWF-4Lf5M50D8sr8iyikWZQgoo4xBCU0Kn3mZdRtH0t3KYlbDZK54tx2jS-ZXzzytIa35KQyG3YVhq3iU3AtDH3IE2zOfDvp3dzEjnYVaPa1wFodXF90x462yEkoXGi5Kb_uERQrgoqI31WEwYJbCepnRCfwsLmB-593rBCUX0hzPju_m2-kfaN0mNVfRMBV-w8EYBRxiYfJO-tyQqzTV9La0w2EcQVEd4pAHwfK82fCJgp6igdU4RToJkSZPrnnrTvLfor2Hr_aHLBrvnVjbsgub9KD-DOQ7_vhbwWUmSDqFtK5O1iqixVrL5zZeswjPDpg6yq3B68ulH6r_puiTp8dHLKnnZ8pkEwlji34T6nPOdmkoXfIXJXFc8Zyt1wIsGKuxhHF7YlJ7gh0ykhRPEHd908-flbm35tCCD1YqqhKpHWamcnL4flGovkbqnGNl6Kxr81B-1B1-P1pN3UVOhMYltuiM2co6UPKjJ4zYfpGha4cg2X3WZZ5t7R_qmudSu5wwCjFEJviumymXIqN25mjRU4mMgy1z_TfidtFYCHc-xBgTM_AmTbxgmDRWEPYExWQo5KM852YqMLWFniZOfsyoK0LjLBlX9MVfjWB5mIwgpjEBvW6iDxVG5nD8KZNgSSKgZAyRSnKz9Y3TL42d_ii28Jh7hVJvQPNl77AOvShy3-VJWvlEJ15hpyow6sx5XUGrCxckA1QNf_RPsv6Rc6axxFvJgG6qn1UtpUSj0wJluho2TxQJWAhZXmpvCdKzqZ_pwPqsJ5wJUNVqc_Xf7de-enH5h7XsuIsXwhbwF8iy3S-k4vlYaO_riIdFAwA1kTWfROqckGsGYq_pYHG1mK6PNfVJKfANLiRCPcPDi7lFdCbuRkje7Ea3WQdFxYtKNlrRSloo4KMFRpMbKQAtJjNr6X5_h-uYt7KBDrWW7cGB93KJSidWcpwXVaXs2Iyt8fY2PBDAWZSO3dioGGPmFX-ju0Gk7OIkpL5-xlrfZ50P3EuR_9kTbCzSZAA61wm7GjjsSFxRXRkuxgZV4UFRiYBa9hXiJHtFn_bnHKLIMBgVEoXTB4ErEhLN6cZJJu4OJofJONGNkACtcn_xqb2NhnkFiMUY4xH21HmXouUW_APNKwYol5KiV8_78kupewu72287XjSuvT490fippsKqB1lpl4RNXeJg_a1qjZpyyUUzSUZIH0RgxMWOjS0OVuJpriW-LZ_69x56kBZ2UJRT3VaX9xNTSoRR5hBnndE6EnYXiBEuRxbvPT0w8PGEuu9Qrj1vhK7florhb7TXnMgTYBsoZd3oYup9bLmvyKb8lAKiw2MlBCpaVYAbSFgXjYoFlVlr8DZus-OlU7crGSurG6r36oQXJaNYlmMfOvQZjLhRgWqV0j-X4xH9AgyMQus8Jq14cRmh7sU9q0K1M2vZOjUlXNzsJhdwYZ_h9O_bAG51FJqwmrC8E_9ceu46AoN6wcnE8tjn952n0BXNx155gJqrEDJsPzPwWChym_ap5KXvpMqCz8u3duaE4Bwr8XYW3NT_QGzrVP2O3NIqMS9TwMJycAJT2GvVc8NlhtnbYiplI4nq_-h29apmms996RKdsXBDzspwDgc2K8tdR2Gw9bIBhPJhOAvlqTx1AawxEFofksUMjOGx69ITNHNZnZjBNNxiWqMMVY0MujZn0kJTjj-Ov2riB841TWigSg1NCMYOBkw0d0oaAR6vf-8OZ3kif7X5vePU-BwE_ytH2iFTgjuOH3jjJh98iYjLPmeR6M4rbvHeh7dQmgQyfFMK4ysmBIXvnmo8I6q4TSSHUqv5vChaZehmOKDXXXjBpZQ28Cv-CJNr9ubju9CYfdWzRUdpuQ13wt0hNszcRE7ZYttBLHP6oVLBNeKNmFGvwCXGhQdDEPRP9GsExfjxncpaoVjYCVFmfKZOVuOGgqZRGMPZV8yV86fr9YUe1I-GnvnIU4bx3121kPUvEgilqVAgZFVFoP64TvQbLxcOxXYoTQ1fvo5PwBthA8Uws7XxX0vEClLzq09WAHkTeYoBP1cScSfpC_PkqDnr14tquyMPfuHww75kjTuX9_TfzQNxSMtvtu5WC9qPr5IEq3lCgIaLG7DKfgXergXXBoFgoRVLdgKiQVjvzDeAQbop61oTFz2DDyO7ULnZKQSJ-10bwAOZRS3qh4S71FB7idIbtsuZuEI4lGP_qp-C5WTQO5mnIf5N8wq5HJG7vT6OOMXCW9KSVMsLeC0hh3-qDLtDL3eeXcR-Phn3mTdeUdfNAsRKEoT3Xp0XGrNIpsIi7PO-oWekph95Yv1JOL5vvdBp7NEWnFDQqqbnwsXZmWgwUqRhB0ILlGtoOy5USWZ1tbiT9akoSUQAe70RmahO7UAbbpmvcyNKXe27gyU8J6vTZW54SSN3vGYQuryAWdUgr-j-LCdi1v0QdY0PVP9y0fHd6TBDUEgLrgFLrtl6bnHfg98zcRc-V_RrhPFlbQQV0qC_fWWmbNmBjJFAA8IPk1nIsExF-2kqZ_qznp2_cMYJV4GLDg8V0vjlwM_eSXzHo4R2RY8v6smu_l_7BKvFpgrYvFEv4bNFzd8fyxD8_0eOYcRIXJegcEF1Tho_FFVZwX5czWcNIoPQI8SrTGfRFG32Fuls6LLzBbl87IMFBon7GQVv9-odyBBEaB8GmMIMe2BmR2301ftHw1f32_BH1y7C0Ue_ai_RwX9o-m7fEH7miPO0k_UanhLGrcT__3cpNBtJA575Iho6M4L0bIFhqVU8fCOzyRoAq8wN0QDPOGhBi3PflsrJmFr0eu_bAMTGNcHNgLwJz_6nvoTMx1tksOEfB1Cd8E0oYX-iACXSWqBzvR3ZRvN1JnsaWPi1kCqT5TqEaYpzvkJgYG_EHex1Ro0IBe-DieTuoWUn9n03H95UPr7lwnzoBOxlJjJwx8kq69wSg8mQ3wSN94RytnJ1nmDcJxgqRIoMgzBehkOCuF8VBokYpm7Zw1laTdXokPWIXpugRP7PQBIA51w58X4HyCkbd2s8Dq9RWiqQz91aV2BW-e_CMAY7WwArqYtEWh_6FlIuVPLKWHsNFCfN-YJq7sh9cgTNfc57OPws1C8-DzP1clPB_YOzqYMJYwV0asXA6jPXVFbDHSGmaUxlNouKUBIBwUUtIKUdEQQZwQFwdD4iVAVcaamwdXHqYBlvCELAhrXwcxAe8MRH_7f9njdflblVDCk7VxuKkzU8f2ol8oyqkdauA2W4FHIIlonX8TOkYzR-7vSrcEKV1I6VIFLbWQV2sJFJtsSbkKoKKG65JnUt3ipTbhUZcfnWIJPBqYHK26Msmz9Mbj5UdVxsqfR4G4LQgK6AFQlMwo-WPjc6jqk56tb4sDz5ABJPM7P_vY_VgoUReYPucmUcWCV1EMC7MsYbB5fkNTwf3dSMH1iBTScWBEsyqe5TEXlUAH3pE56nGIzi5HPg3khVGSP5TUsFZOjL8YJCFnP16fiRAT2IRZu3YJRQS-lnR4UWcRsDwD-vFCnhm",
+        "status": null
+      },
+      {
+        "id": "rs_011b23b2085de6a0006a652f24b0d881999746cb048d560b6c",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS85xocPmXz809Up88m_R1nCg3YABp5bMRrJEfhzrXhz0VgkE3r08hmKl_91SDqKTF6pQG_2ftlnyfZ2tN5z16oMJUTiMKCWZ4swSubY1fI0HgBXAK6sN793wnrh4ZRxKJnJxUrLiz9qVmL_kDTzw2A8JvH6fNCz772sy53dl8eRCOGa1hrRRPmRA4m9k9Okrn3pThVjJ3ncqqabOjBEeS8qfD7C9vi4aHsZcaQKcimwoTmTDWWrXVob9VvLfr7FJ3LRKYrAcGRNhXRvrHvXKx7NF9CPuPUXFPijwaA0ilJO34KBPhASleO0eRvqR1_lMzJWsRMBKtZ-pE65SxB3wRBQIU7Zl7z8cr6m8LrK0ZGYXaV8-hlRyQs0IQfvI9S_kxnHHAsiQ2MxRmGZsF5iYIo7E0oTqDoai_j1T49Sl_r8bR4yjLdVPDp5M5CCuQk3lFAm-D0m5bnCsuSj-V7eylxPUrWXOYHyT1XwH2vfPFySEySPq_rZDaCKOvSD14M_A5zHeN__ieJ0qNPBSy2LvdFF3c61NlZOSjb5K75zUhCk1YUFsepoTclhK4zw2veZR_HrFUCQqBSSDdc9T2dNcOx-NoJV7nUAs_SKlZz2A3ZeLO6gqJvtVg4gUfaUQwRlf2QyO1-0LHzummwTI4o-GuWKA_lCox6bI_gAGgUUAWbAvQGg6pTiKE2mY4VwFVzYmNyL7Iywtncasy7VErmp1NPu-dtQJrvB-UHxfEAlzj2QeqifkUxyBgOwc6ISdE8de24Bf7_oJXLkCBK1TeqrIz6Z0HikWx7QJq7lMxvcdGRL_KFBjnVfglFGY-fzgJMqslvZ7onXpmD4RY40UJSPctiEPM_8dSWI715vcI1UEaa0U5wXVNIsShp_7GZ_LN0kIPmSSrdfSaT61ZGzgIbMOy1eVNh4iyHNqpU7K_qI8Iupx1CMg8P58-naiW1CkwY84vQLK34DlLR2rgI_lRJYB5ahq8DhN2ya-19Ro1x5iJJJqDdJ3lgfFBsJwT4Pxc1p2E8DL--4-udWn-BZP80bnakO4KW6vZSwE-BltIbOTizDJxZoEHfeNbmpqLRLiRcBZqGQaQk6FWkvDqYF1nHCP4mQ5ZDMEb9vFAmiObimSNrGwdSAQCXKBICK5iIo4RtVHPiTes2yg90vqzn9tMrgR4nUa2pxNwxfmDKO_SDzPzh4mnLHEL6V4CPjLYMiCYSc-9YbciY-RlSitVXrRcbBWn8qnwL1uN5Bsziv7tau6Gq7jXEosDux7WTxC2E3SUckbVcosUByj9X06T-wWax566q7LDKtTGEbG9faPspO9MZ2w2Px0W4HmzJtn4OLSdep4x1z30AeZFBzaV4oZ3cJxPughZ4GMV3yN3cH39LVj1UT6gIGnPD7A3gHyCv1I-ytv9z0HLb3DyqozMAd207OsirE7nhNCvjjZbn1VSpy5IN4L82ZalPJFt-D177iyZUfawO11zYifk1PQVC9vYdnrzfzUZNhRhPHt8DseLRzvF3B-iNJTS03ziJU9wYZKGslmaQxfNjscxyMcZtHpeKEMr2r2lLtHpYTDl1D24tB_3vjhkL5fv8vu6rG3epIEMMwuwbSSQz0Q1zZ3ppZhfZJpwavB3fuGFAQ_Cflzs_H4Ae3nAPVUNETE01jldCQNUY3-jgiffanl5FGJpgGyGd7yIHod7g1G4nfM-cRTVFjBPbegrWF9vlCZF3tpVdVhkEflbtEqvEPd0SiZ1FEu1s-79v_7y9cTOJiu9pMYbVFpPWNDKlTEvhBtiSStz-iY4xWbQl-DwoATI40P4gwsQzmmDdyaYVDxaANVvpNTBgpSlSOCB_hK8h4X8Ts78m5a9z0G4ouWNJPc0Ufsd5Bejh64BDEL5iRUfpisSEwCqRzwfTbKG1SO9cMxwq5lGKeZCjRUT04oUmS2LuovanZ1gmkF_tpoCwkBEhzrXTxc6ZvXJiZN2lLak_KJFwziYNlDkWICgr5N2dw0ZycDxjC8NpW_wLHxDahLekejzG4VHv_D9bhyPfOYUSr9gowUGJwWyz6Z8ci_YfAwP1mrdcq6ElcPW0TNB-am6V0QktsjZhtUl3rlmE-mkRFYKLJuqjAxbsu7RuaSVV0zDVp2INBodzSXMqpygNYaybD5dbUK38Q3c2_pKuFg5RZUo6QgLUo-DUKrxkVbfA848-2vSLGki1hrpa37D-2Do6IrgHwLHdQka7hTM2ErRL2UnWOdADjNYBs-9h__MPXWB51J3xRgpuFm09A2vJdg8C_8Fw-AyZgOhVkVONTJ62EwCccQiGJ3sVbEafR_Q3FKfsSfv1HUx1pECFa1FmOdYaKXH0Om0uasseQtSN_xVYcNRchisT2qL5Q-FT7TJrGkIYVspA4IT0RSkEup88f-DVQPg4LPlyIFPv8NeAciAG45RVwoFiUHv7G4_HtZdCBCilViAKZGftTW7vd2sWwlLoYtD6DVOoBq4d9ThlBGrVq6LtR_AKmRpvOFRMHvxmI-A_spuGmP2QEqw2WeuKNVUC4GmwoP_sLG2F4NN73qiyaMfk06TRZxk7JDgSxYUkQqU4lSrF5Ks2hghC4vA_mT9C0phRRHxaZTsKqgsRCqBveavLnjCN3TYQzHOnMoyMtbSKb_uE_nDA5l1RovqRkZZq2B1unMz0w7rb3bFpCmw1tyYBCufbmhSD36vmESWEkAvMBDIjNGRxai-2uvXFfo7oMEu8emfWwNTyTInhKBuFEj6_7y6nvFp7Twb3NKgU24rEY0KAueRZ9cW7r5pAehX6nNFfuI5etxlDZM0AsQSqqciH2_Fwu3VpK7vtMamQj4kHfTfAa0cyK8MmzLfU7o_yVn2Lv1rJbZ646IICdt01b5LgDIj-s8iR5qzd4l-6EvyAMAUWitCraTjFBInooMtiaj5dTAj8RLE9PGk45VYdkAzz1xblBvSHe3HZKHIbhdwN5uFm-S9ExA3C2AVT7huToxJawxM3r-nbjnf8tMuih6PxrqXMBFCLHfWXQT-c-NWr0GB4A7PPG2z1SqXvb7wZk_AxN7SWlc7t15OZ4fqW0GopsCmi1dZ6Ml9IG_OZdbeAXSKRie54F4kwCtrHiyXXT5m2pp2crCwBQB15Nq_mnjKFALyXl_n3ZScNhk_Vy-S7x8SyvwBQqC7kdLtsozUnZ1AOgKeplgdWFsWSqksoDcu9JrAHFbvg0hYcO5KzzV0g3DtmQn2Fc16TPlaTyHsv6yIq4umVtJO6HM2oAmjAA0rCdk5ogCkKquglTcgjI4ebxGu_1yyos7IxnKM2shyxO-zVGiIDNV57SDqlKejsMxJc3_pO_ESwcwSuaMvcX8iSB9QXMEh1y4UOpx8oafqDO39GpdPQKKPnh5CE92Nxufz23vv6S7YkP_a-Ob8I_DLrLwquHNfYV7xg-QKQ4iiW2c7sRZu7SaNC4KSHvnUiD22V3D6-HrJ0Wf1XboMSexvjBtgTkg3Iydxv0Xnes3RJv6oH4IVjZUMa7tNWrkQXv_r9PUTUamr0Sv0nNi4S-20CybiRLCbpZD42ypYXXoTiNZPde6LR1w-sUDPHTcV0DjY1bpjDYmFIXIpFdovm14EudI4UCV9F7sR7KL9skMwqW_Tig7Mnl03BPvepr7XH77kf9jdRI1_HR3iAfxKA1aioOfVeaYDEi8cW1m3r-koC6dE6cCT5cgeljwWhVzkuuq9azzkTotW2pQLJe1L1USgENhxybm1hmhZBgdQL3HmS847UBVJzVC8rRgZ7FDtCroGoLsLy7ByADZTHLBbnrBCJYRVxdEY_gGkOgFt0TlJxWjVtlzNshAozS4_5E47_aHgdvnLLcFUmS-vqc5ckL5S-81yoixE_mhO-anHtaJRxX2MlPLYnbPP-MRT-cSUqBv2imn7t2SFyFuHLR",
+        "status": null
+      },
+      {
+        "id": "msg_011b23b2085de6a0006a652f2884f081999099f7f4f002cc1c",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"winner\":{\"title\":\"The Son Who Erased the Heirs\",\"category\":\"FAMILY BETRAYAL\",\"one_line\":\"After his railway-worker father dies, a son quietly changes the death date, manufactures a sole-heir certificate, and sells the family plot before his mother and five siblings even know they have been disinherited.\",\"year\":\"2026\",\"where\":\"Thaneerkulam village, Tiruvallur district, Tamil Nadu, India\",\"mechanism\":\"The accused allegedly used a forged death certificate showing his father died in 2019—years after the reported 1999 death—and a false legal-heir certificate naming himself as the only successor, allowing him to sell the plot without the other heirs' knowledge.\",\"engine\":\"The family must keep proving that the father died when everyone says he did, while every revenue record, sale document, official witness and family alliance becomes another battlefield over who legally exists as an heir.\",\"episode_estimate\":180,\"cast\":[{\"name_or_role\":\"The fifth son accused of the fraud\",\"motive\":\"He wants the entire plot and the money from its sale, and must keep the forged official story intact.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The widowed mother\",\"motive\":\"She must recover the property while confronting the son she trusted and protecting the family's records.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The five excluded siblings\",\"motive\":\"Each sibling has a different need for the inheritance and a different opinion about whether to expose their brother.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The deceased father\",\"motive\":\"His real death date, employment history and property purchase become the hidden timeline that can destroy the fraud.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Land Fraud Investigation Wing officers\",\"motive\":\"They must reconstruct how death and heirship records passed through official channels.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The purchaser of the plot\",\"motive\":\"The buyer wants a clean title and may turn against the family once the sale is challenged.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Revenue-office intermediaries and document witnesses\",\"motive\":\"They may have accepted money, been deceived, or need to protect themselves from prosecution.\",\"spinoff_potential\":\"high\"}],\"scores\":{\"engine_longevity\":9,\"hook_density\":9,\"emotional_immediacy\":9,\"conflict\":10,\"cast_depth\":9,\"total\":46},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The case is recent and the accused, mother, siblings, purchaser and officials may be living private individuals.\",\"Change all names, the village, the property value and the family composition; use a fictional district and composite officials.\",\"Tell the story through the excluded mother's and siblings' fight to restore the record, rather than presenting unproved allegations as established guilt.\",\"Retain the mechanism but fictionalise the exact documents, dates and investigative outcome unless independently verified in court records.\"]},\"prior_adaptations\":[],\"sources\":[\"https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held\"],\"facts\":[{\"what_happened\":\"The New Indian Express reported that Avadi City Police arrested a 41-year-old man accused of selling his deceased father's property using forged death and heirship certificates, excluding his mother and five siblings.\",\"source\":\"https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held\",\"confidence\":\"reported\"},{\"what_happened\":\"The report identified the accused as Alphonse Raj, the fifth son of P Susila and the late Ponnusamy.\",\"source\":\"https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held\",\"confidence\":\"reported\"},{\"what_happened\":\"Police said Ponnusamy had purchased a 2,100-square-foot vacant plot in Thaneerkulam village, Tiruvallur district, in 1988.\",\"source\":\"https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held\",\"confidence\":\"reported\"},{\"what_happened\":\"The article said Ponnusamy died in 1999, while the allegedly forged death certificate claimed that he died in April 2019, when the mother was still alive.\",\"source\":\"https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held\",\"confidence\":\"alleged\"},{\"what_happened\":\"Police said a false legal-heir certificate named the accused as the sole successor, after which he sold the property, valued at about Rs 34 lakh, without the family's knowledge.\",\"source\":\"https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held\",\"confidence\":\"alleged\"},{\"what_happened\":\"The Land Fraud Investigation Wing of the Avadi Central Crime Branch registered a case under Sections 420, 468, 467 and 465 of the IPC, according to the report.\",\"source\":\"https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held\",\"confidence\":\"reported\"},{\"what_happened\":\"The report said a special police team apprehended the accused and he was remanded in judicial custody.\",\"source\":\"https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held\",\"confidence\":\"reported\"}],\"why_this_sells\":\"The instantly recognisable fear is that a trusted son can make a family disappear from its own inheritance using one official-looking piece of paper.\",\"why_not\":\"The public record currently gives the arrest and mechanism but little documented aftermath, so the long legal and emotional middle would need careful fictional expansion.\"},\"also_considered\":[{\"title\":\"The Woman Who Was Declared Dead\",\"category\":\"FAMILY BETRAYAL\",\"one_line\":\"A daughter reaches the district office carrying a handwritten sign saying she is alive after her cousins allegedly use a false death entry to take the land her father left her.\",\"year\":\"2025\",\"where\":\"Ballia district, Uttar Pradesh, India\",\"mechanism\":\"The cousins allegedly manipulate revenue records to show the living heir as dead, then seek revised mutation of the property into their own names.\",\"engine\":\"Every attempt by the daughter to prove she is alive opens another contest over death certificates, mutation orders, tehsil officials, family witnesses and possession of the land.\",\"episode_estimate\":150,\"cast\":[{\"name_or_role\":\"The daughter declared dead\",\"motive\":\"She must prove her own existence before she can reclaim her inheritance.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The cousins\",\"motive\":\"They want property that had already passed to the daughter under her father's will.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"District Magistrate\",\"motive\":\"He must determine whether local revenue machinery helped erase a living citizen.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Tehsil and mutation officials\",\"motive\":\"They face pressure to defend or reverse the record they processed.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Village witnesses\",\"motive\":\"Their testimony can establish whether the woman was visibly alive and in possession of the property.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":9,\"hook_density\":9,\"emotional_immediacy\":10,\"conflict\":9,\"cast_depth\":7,\"total\":44},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The story concerns a recent living private individual and named relatives.\",\"Change the woman's identity, family relationship, district and property details.\",\"Treat the cousins' role and any forged certificate as allegations pending investigation, not proven facts.\"]},\"prior_adaptations\":[],\"sources\":[\"https://www.indiatoday.in/india/story/up-woman-declared-dead-for-land-shows-im-alive-paper-at-government-office-2743440-2025-06-20\"],\"facts\":[],\"why_this_sells\":\"The opening image is irresistible: an inheritance claimant has to hold up a sign saying, 'I am alive,' to a government office.\",\"why_not\":\"The report ends at the order for an investigation, and the identifiable cast is smaller than the Chennai heirship case.\"},{\"title\":\"The Power of Attorney Family\",\"category\":\"FAMILY BETRAYAL\",\"one_line\":\"A younger brother discovers that his elder brother allegedly used their elderly parents' power of attorney to move three property settlements toward his own wife and son, triggering a nine-year civil fight and a revived criminal case.\",\"year\":\"2026\",\"where\":\"Chennai, Tamil Nadu, India\",\"mechanism\":\"The elder brother allegedly exceeded a limited power of attorney, obtained settlement deeds from medically vulnerable parents, and used those deeds for his immediate family's proprietary benefit.\",\"engine\":\"The same documents produce parallel civil and criminal battles, while every hearing reopens questions about parental capacity, the meaning of the power of attorney, and whether the family can still live together.\",\"episode_estimate\":220,\"cast\":[{\"name_or_role\":\"The younger brother\",\"motive\":\"He wants the family property deal investigated as a betrayal rather than dismissed as a civil disagreement.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The elder brother\",\"motive\":\"He wants to preserve the settlement deeds and the property transferred toward his household.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The elderly father and mother\",\"motive\":\"Their capacity, intentions and signatures become the contested centre of the family war.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The elder brother's wife\",\"motive\":\"She allegedly benefits from the disputed settlement deeds and must defend her title.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The elder brother's son\",\"motive\":\"He is connected to the disputed transfer and a separate civil case over the property.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Civil and criminal courts\",\"motive\":\"Different legal systems must decide overlapping versions of the same family betrayal.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":8,\"emotional_immediacy\":8,\"conflict\":9,\"cast_depth\":8,\"total\":41},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The matter is recent, the family members may be living private individuals, and the allegations remain subject to trial.\",\"Change names, city, property documents and medical details; combine the court proceedings into fictional tribunals.\",\"Avoid presenting the elder brother's alleged misuse of authority as proven until a fictional trial establishes it.\"]},\"prior_adaptations\":[],\"sources\":[\"https://economictimes.indiatimes.com/wealth/legal/will/father-gave-elder-son-poa-and-property-settlement-deeds-younger-brother-files-forgery-case-against-him-and-nephew-files-civil-case-sc-orders-criminal-trial/articleshow/128092798.cms?from=mdr\"],\"facts\":[],\"why_this_sells\":\"Many listeners recognise the terror of signing family papers in old age and discovering that the person trusted to register them has rewritten the inheritance.\",\"why_not\":\"The core legal mechanism is powerful but document-heavy, so the serial would need a strong domestic-emotional wrapper to prevent the first arc becoming courtroom exposition.\"},{\"title\":\"The False Will in the In-Laws' House\",\"category\":\"FAMILY BETRAYAL\",\"one_line\":\"A widow fights her in-laws after a registered will and false affidavit allegedly turn her dead husband's property into their possession, forcing her to fight for both her marriage's memory and her legal share.\",\"year\":\"2021\",\"where\":\"Ferozepur district, Punjab, India\",\"mechanism\":\"The in-laws allegedly rely on a forged registered will and false affidavit to secure mutation and claim the deceased husband's property against his widow.\",\"engine\":\"The widow's criminal complaint and civil partition case move on separate tracks, creating a permanent contest between family testimony, registration records, mutation entries and competing versions of the dead man's wishes.\",\"episode_estimate\":120,\"cast\":[{\"name_or_role\":\"The widow complainant\",\"motive\":\"She wants the share she says was taken from her after her husband's death.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The parents-in-law\",\"motive\":\"They claim the registered will gives them a lawful share and accuse the widow of weaponising criminal law.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The deceased husband\",\"motive\":\"His alleged will becomes the only voice left in a fight between his wife and his birth family.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The civil-court lawyers\",\"motive\":\"They use the property dispute to pressure the opposing family outside the criminal case.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Mutation and registration officials\",\"motive\":\"Their records may validate or unravel the inheritance claim.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":7,\"hook_density\":8,\"emotional_immediacy\":8,\"conflict\":8,\"cast_depth\":8,\"total\":39},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The case involves living private family members and unresolved allegations.\",\"Change all names, locations and property specifics; make the family structure fictional and composite.\",\"Frame the will and affidavit as disputed documents unless a later court finding establishes their status.\"]},\"prior_adaptations\":[],\"sources\":[\"https://indiankanoon.org/doc/89163597/\"],\"facts\":[],\"why_this_sells\":\"The fear is immediate: after a spouse dies, the family that should shelter the widow becomes the machine trying to evict her from his life and property.\",\"why_not\":\"It is a strong but familiar forged-will pattern, without the bizarre identity-erasure mechanism that makes the top two candidates stand out.\"}]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [
+      {
+        "type": "web_search",
+        "filters": null,
+        "search_context_size": "high",
+        "user_location": {
+          "city": null,
+          "country": "IN",
+          "region": null,
+          "timezone": null,
+          "type": "approximate"
+        },
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ]
+      }
+    ],
+    "top_p": 0.98,
+    "background": false,
+    "completed_at": 1785016121.0,
+    "conversation": null,
+    "max_output_tokens": 32000,
+    "max_tool_calls": 12,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "hunt",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "winner",
+            "also_considered"
+          ],
+          "properties": {
+            "winner": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "title",
+                "category",
+                "one_line",
+                "year",
+                "where",
+                "mechanism",
+                "engine",
+                "episode_estimate",
+                "cast",
+                "scores",
+                "clearance",
+                "prior_adaptations",
+                "sources",
+                "facts",
+                "why_this_sells",
+                "why_not"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "FAMILY BETRAYAL"
+                  ]
+                },
+                "one_line": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "string"
+                },
+                "where": {
+                  "type": "string"
+                },
+                "mechanism": {
+                  "type": "string"
+                },
+                "engine": {
+                  "type": "string"
+                },
+                "episode_estimate": {
+                  "type": "integer"
+                },
+                "cast": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name_or_role",
+                      "motive",
+                      "spinoff_potential"
+                    ],
+                    "properties": {
+                      "name_or_role": {
+                        "type": "string"
+                      },
+                      "motive": {
+                        "type": "string"
+                      },
+                      "spinoff_potential": {
+                        "type": "string",
+                        "enum": [
+                          "high",
+                          "med",
+                          "low"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "scores": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "engine_longevity",
+                    "hook_density",
+                    "emotional_immediacy",
+                    "conflict",
+                    "cast_depth",
+                    "total"
+                  ],
+                  "properties": {
+                    "engine_longevity": {
+                      "type": "integer"
+                    },
+                    "hook_density": {
+                      "type": "integer"
+                    },
+                    "emotional_immediacy": {
+                      "type": "integer"
+                    },
+                    "conflict": {
+                      "type": "integer"
+                    },
+                    "cast_depth": {
+                      "type": "integer"
+                    },
+                    "total": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "clearance": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "reasons"
+                  ],
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "greenlight",
+                        "fictionalize_first",
+                        "blocked"
+                      ]
+                    },
+                    "reasons": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "prior_adaptations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "what_happened",
+                      "source",
+                      "confidence"
+                    ],
+                    "properties": {
+                      "what_happened": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "verified",
+                          "reported",
+                          "alleged",
+                          "disputed"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "why_this_sells": {
+                  "type": "string"
+                },
+                "why_not": {
+                  "type": "string"
+                }
+              }
+            },
+            "also_considered": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "title",
+                  "category",
+                  "one_line",
+                  "year",
+                  "where",
+                  "mechanism",
+                  "engine",
+                  "episode_estimate",
+                  "cast",
+                  "scores",
+                  "clearance",
+                  "prior_adaptations",
+                  "sources",
+                  "facts",
+                  "why_this_sells",
+                  "why_not"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "FAMILY BETRAYAL"
+                    ]
+                  },
+                  "one_line": {
+                    "type": "string"
+                  },
+                  "year": {
+                    "type": "string"
+                  },
+                  "where": {
+                    "type": "string"
+                  },
+                  "mechanism": {
+                    "type": "string"
+                  },
+                  "engine": {
+                    "type": "string"
+                  },
+                  "episode_estimate": {
+                    "type": "integer"
+                  },
+                  "cast": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "name_or_role",
+                        "motive",
+                        "spinoff_potential"
+                      ],
+                      "properties": {
+                        "name_or_role": {
+                          "type": "string"
+                        },
+                        "motive": {
+                          "type": "string"
+                        },
+                        "spinoff_potential": {
+                          "type": "string",
+                          "enum": [
+                            "high",
+                            "med",
+                            "low"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "scores": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "engine_longevity",
+                      "hook_density",
+                      "emotional_immediacy",
+                      "conflict",
+                      "cast_depth",
+                      "total"
+                    ],
+                    "properties": {
+                      "engine_longevity": {
+                        "type": "integer"
+                      },
+                      "hook_density": {
+                        "type": "integer"
+                      },
+                      "emotional_immediacy": {
+                        "type": "integer"
+                      },
+                      "conflict": {
+                        "type": "integer"
+                      },
+                      "cast_depth": {
+                        "type": "integer"
+                      },
+                      "total": {
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "clearance": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "status",
+                      "reasons"
+                    ],
+                    "properties": {
+                      "status": {
+                        "type": "string",
+                        "enum": [
+                          "greenlight",
+                          "fictionalize_first",
+                          "blocked"
+                        ]
+                      },
+                      "reasons": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "prior_adaptations": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "sources": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "what_happened",
+                        "source",
+                        "confidence"
+                      ],
+                      "properties": {
+                        "what_happened": {
+                          "type": "string"
+                        },
+                        "source": {
+                          "type": "string"
+                        },
+                        "confidence": {
+                          "type": "string",
+                          "enum": [
+                            "verified",
+                            "reported",
+                            "alleged",
+                            "disputed"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "why_this_sells": {
+                    "type": "string"
+                  },
+                  "why_not": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 51649,
+      "input_tokens_details": {
+        "cache_write_tokens": 8781,
+        "cached_tokens": 0
+      },
+      "output_tokens": 5388,
+      "output_tokens_details": {
+        "reasoning_tokens": 2408
+      },
+      "total_tokens": 57037
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 4
+      }
+    }
+  }
+}

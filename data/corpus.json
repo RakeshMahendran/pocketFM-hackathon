@@ -1,337 +1,1266 @@
 {
-  "built_at": "2026-07-25T17:18:59.324548+00:00",
-  "winner": "Poyais: The Country That Had to Exist on Paper",
-  "count": 13,
+  "built_at": "2026-07-25T21:48:47.461723+00:00",
+  "winner": "The Mandsaur Woman Who Was Already Cremated",
+  "count": 29,
   "by_clearance": {
-    "greenlight": 7,
-    "fictionalize_first": 4,
-    "blocked": 2
+    "greenlight": 0,
+    "fictionalize_first": 29,
+    "blocked": 0
   },
   "items": [
     {
-      "title": "Poyais: The Country That Had to Exist on Paper",
-      "category": "THE LONG DECEPTION",
-      "one_line": "A decorated soldier invents an entire nation, sells its bonds and land, recruits settlers, and must keep the country alive in London after the first ships discover nothing but jungle.",
-      "year": "1821–1834",
-      "where": "London, Scotland, France, and the Caribbean coast of Central America",
-      "mechanism": "Gregor MacGregor claimed to be the Cazique of Poyais, manufactured government bonds, land grants, maps, promotional literature, constitutional details, and a colonial administration for a fictional country.",
-      "engine": "Every new investor, official, emigrant, and creditor forces MacGregor to add another layer to the imaginary state before the previous lie collapses.",
-      "episode_estimate": 300,
+      "title": "The Mandsaur Woman Who Was Already Cremated",
+      "category": "DENIED IDENTITY",
+      "one_line": "After her family cremates a crushed body and four men sit in jail for her murder, a missing mother walks into the police station alive—then has to prove she is herself while nobody can say whose body was burned.",
+      "year": "2025",
+      "where": "Mandsaur and Jhabua districts, Madhya Pradesh, India",
+      "mechanism": "A missing woman’s family identified a badly damaged body using a tattoo and black thread, performed her last rites, and triggered a murder case; 18 months later she returned, claiming she had been taken away and sold to another man.",
+      "engine": "The woman is alive but officially entangled with a dead body, four jailed suspects, a disputed trafficking account, and an unidentified victim whose real identity must be uncovered.",
+      "episode_estimate": 180,
       "cast": [
         {
-          "name_or_role": "Gregor MacGregor",
-          "motive": "Money, status, and the need to make his invented sovereignty look real",
+          "name_or_role": "The returned woman",
+          "motive": "To establish that she is alive, recover her children, and control the story of where she spent 18 months.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The London banker who validates the bonds",
-          "motive": "Commission and access to a fashionable investment opportunity",
+          "name_or_role": "The father who identified the body",
+          "motive": "To defend an identification that destroyed another family and may have helped imprison four men.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The Poyaisian recruiting agent",
-          "motive": "Belief, self-interest, or fear of admitting complicity",
+          "name_or_role": "The four jailed accused",
+          "motive": "To escape a murder case built around a corpse that may not be the missing woman.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The settlers on the first ships",
-          "motive": "A promised new life and land ownership",
+          "name_or_role": "The two men named in the alleged sale",
+          "motive": "To deny, conceal, or profit from the woman’s account of being moved to Kota.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "British government officials",
-          "motive": "Avoiding diplomatic embarrassment and financial scandal",
+          "name_or_role": "The police officer reopening the case",
+          "motive": "To determine whether the returned woman is genuine and repair a failed investigation.",
           "spinoff_potential": "med"
         },
         {
-          "name_or_role": "Indigenous and regional authorities near the supposed colony",
-          "motive": "Control of territory and resistance to an invented foreign government",
-          "spinoff_potential": "high"
-        }
-      ],
-      "scores": {
-        "engine_longevity": 10,
-        "hook_density": 9,
-        "emotional_immediacy": 9,
-        "conflict": 9,
-        "cast_depth": 10,
-        "total": 47
-      },
-      "clearance": {
-        "status": "greenlight",
-        "reasons": [
-          "MacGregor died in 1845, more than 50 years ago.",
-          "The story concerns historical public figures and institutions.",
-          "The fictional country can be dramatized without exposing living private individuals."
-        ]
-      },
-      "prior_adaptations": [],
-      "sources": [
-        "https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29",
-        "https://www.britishmuseum.org/collection/object/C_CIB-14659",
-        "https://www.britishmuseum.org/collection/object/P_1868-0808-8817"
-      ],
-      "why_this_sells": "The instantly recognisable fear is discovering that the country, job, property, and future you paid for exists only because strangers keep pretending it does.",
-      "why_not": "Its strongest settlement material can become grim and repetitive unless the serial keeps returning to the parallel London machinery sustaining the lie.",
-      "domain": "archives.collections.ed.ac.uk",
-      "winner": true,
-      "id": "a3c321dba0a7",
-      "url": "https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29",
-      "source": "websearch",
-      "text": "A decorated soldier invents an entire nation, sells its bonds and land, recruits settlers, and must keep the country alive in London after the first ships discover nothing but jungle. Gregor MacGregor claimed to be the Cazique of Poyais, manufactured government bonds, land grants, maps, promotional literature, constitutional details, and a colonial administration for a fictional country."
-    },
-    {
-      "title": "George Psalmanazar and the Country He Invented Inside Himself",
-      "category": "SECRET STATUS",
-      "one_line": "A penniless European drifter becomes England’s celebrated native informant from Formosa, inventing a language, religion, calendar, and childhood until scholars begin asking questions he cannot answer.",
-      "year": "1702–1764",
-      "where": "England, France, and the learned societies of early eighteenth-century Europe",
-      "mechanism": "A man with an unknown real name presents himself as a displaced Formosan, then publishes a full cultural system and performs it publicly for years.",
-      "engine": "Every lecture, patron, translation request, and theological challenge requires him to expand the invented identity while concealing the absence of any verifiable past.",
-      "episode_estimate": 250,
-      "cast": [
-        {
-          "name_or_role": "George Psalmanazar",
-          "motive": "Food, shelter, celebrity, and eventually the emotional need to remain inside his own invention",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The military-religious patron who sponsors him",
-          "motive": "Conversion, prestige, and proof of missionary success",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "English scholars",
-          "motive": "Access to supposedly firsthand knowledge of an unfamiliar world",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The publisher",
-          "motive": "A sensational book and commercial profit",
-          "spinoff_potential": "med"
-        },
-        {
-          "name_or_role": "Oxford language enthusiasts",
-          "motive": "The chance to possess a language no one else can teach",
-          "spinoff_potential": "med"
-        }
-      ],
-      "scores": {
-        "engine_longevity": 10,
-        "hook_density": 10,
-        "emotional_immediacy": 9,
-        "conflict": 8,
-        "cast_depth": 9,
-        "total": 46
-      },
-      "clearance": {
-        "status": "greenlight",
-        "reasons": [
-          "Psalmanazar died in 1763, more than 50 years ago.",
-          "The principal characters are historical figures.",
-          "The story is not dependent on living victims or private individuals."
-        ]
-      },
-      "prior_adaptations": [],
-      "sources": [
-        "https://www.camphorpress.com/books/historical-geographical-description-formosa/",
-        "https://wrap.warwick.ac.uk/id/eprint/53116/2/WRAP_THESIS_Hug_2006.pdf",
-        "https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/376/WINTERBOTTOMCompanyCulture2010.pdf?isAllowed=y&sequence=1"
-      ],
-      "why_this_sells": "Listeners understand the panic of having to invent more personal history every time someone asks one ordinary question about your past.",
-      "why_not": "The deception is intellectually rich but lacks a single physical antagonist, so the adaptation must turn rival scholars and patrons into active hunters.",
-      "domain": "camphorpress.com",
-      "winner": false,
-      "id": "8a71a093eb82",
-      "url": "https://www.camphorpress.com/books/historical-geographical-description-formosa/",
-      "source": "websearch",
-      "text": "A penniless European drifter becomes England’s celebrated native informant from Formosa, inventing a language, religion, calendar, and childhood until scholars begin asking questions he cannot answer. A man with an unknown real name presents himself as a displaced Formosan, then publishes a full cultural system and performs it publicly for years.",
-      "corroboration": []
-    },
-    {
-      "title": "Operation Greylord: The Courtroom Where Everyone Was Pretending",
-      "category": "THE LONG DECEPTION",
-      "one_line": "Honest judges and lawyers secretly pose as corrupt fixers inside a corrupt court system, while real judges, lawyers, clerks, police, and bagmen try to determine who is safe to trust.",
-      "year": "1977–1984",
-      "where": "Cook County, Chicago, Illinois",
-      "mechanism": "Undercover officials staged cases, wore recording devices, offered bribes, and acted like crooked courtroom insiders to expose a network of actual corruption.",
-      "engine": "Each fake deal opens another courtroom door, but every undercover participant must preserve the illusion long enough to identify the next corrupt official without being exposed.",
-      "episode_estimate": 220,
-      "cast": [
-        {
-          "name_or_role": "Judge Brocton Lockwood",
-          "motive": "Expose corruption without destroying the court system he serves",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "Undercover prosecutor",
-          "motive": "Build admissible evidence while living as a corrupt operator",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The bagman",
-          "motive": "Money, leverage, and survival inside the bribery network",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "Corrupt judges",
-          "motive": "Cash, influence, and protection from prosecution",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "Court clerks and police officers",
-          "motive": "Career survival and deciding whether to cooperate",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The investigator’s spouse and family",
-          "motive": "Understanding why the investigator is absent, secretive, and at risk",
+          "name_or_role": "The children waiting for their mother",
+          "motive": "To accept a woman everyone had taught them was dead.",
           "spinoff_potential": "med"
         }
       ],
       "scores": {
         "engine_longevity": 9,
+        "hook_density": 10,
+        "emotional_immediacy": 10,
+        "conflict": 9,
+        "cast_depth": 9,
+        "total": 47
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The real participants are living private individuals and the case remains recent.",
+          "The alleged sale and confinement account must not be presented as established fact without court verification.",
+          "Change names, village and districts, the children’s details, and the precise identity of the alleged traffickers.",
+          "Tell the serial through fictionalised investigators, family members and the unidentified dead woman’s relatives rather than exposing the real family."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+        "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
+      ],
+      "facts": [
+        {
+          "what_happened": "NDTV reported that a 35-year-old woman returned to her village after being presumed murdered and cremated, while four men remained in jail in connection with the supposed murder.",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The woman’s father said the family identified the damaged body using a tattoo and a black thread around the leg, then performed the last rites.",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "Police said the woman claimed she had gone with a man named Shahrukh, who allegedly sold her to another man for Rs 5 lakh; she said she lived in Kota for 18 months before escaping.",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+          "confidence": "alleged"
+        },
+        {
+          "what_happened": "The four accused—Imran, Shahrukh, Sonu and Ejaz—were reported to be in jail pending trial and had petitioned the local court after the woman’s reappearance.",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The Jhabua superintendent of police said police would conduct medical examination and DNA testing and record witness statements before conclusively establishing that the returned woman was the same person believed to have been murdered.",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "India Today reported that the woman supplied Aadhaar and voter ID documents and that neighbours and family members confirmed her identity, while the police had registered the original murder case after the family identified the mutilated body.",
+          "source": "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22",
+          "confidence": "reported"
+        }
+      ],
+      "why_this_sells": "The instant fear is brutally recognisable: your family performs your funeral, strangers are punished for your death, and returning home does not prove who you are.",
+      "why_not": "The central trafficking account is still only an allegation, so the series needs heavy fictionalisation and must preserve uncertainty rather than claim a solved truth.",
+      "domain": "ndtv.com",
+      "winner": true,
+      "id": "1a8a1dc47393",
+      "url": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+      "source": "websearch",
+      "text": "After her family cremates a crushed body and four men sit in jail for her murder, a missing mother walks into the police station alive—then has to prove she is herself while nobody can say whose body was burned. A missing woman’s family identified a badly damaged body using a tattoo and black thread, performed her last rites, and triggered a murder case; 18 months later she returned, claiming she had been taken away and sold to another man."
+    },
+    {
+      "title": "The Beggar Who Collected Interest",
+      "category": "SECRET STATUS",
+      "one_line": "In Indore, a man everyone treated as helpless street poor kept the beggar persona alive while quietly owning homes, rental vehicles and a private lending book.",
+      "year": "2026",
+      "where": "Sarafa Bazaar, Indore, Madhya Pradesh, India",
+      "mechanism": "A disabled-looking street beggar travelled on a wheeled board, accepted small donations without openly demanding them, collected interest payments from borrowers and controlled income-producing assets that the public did not know he owned.",
+      "engine": "Every day he must preserve the image of helplessness in public while managing borrowers, tenants, vehicles, officials, family pressure and the risk that one visible luxury will expose the entire hidden life.",
+      "episode_estimate": 180,
+      "cast": [
+        {
+          "name_or_role": "The hidden-property beggar",
+          "motive": "He needs the street persona for cash flow, anonymity and psychological control over the people who pity him.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The borrowers in Sarafa market",
+          "motive": "They need quick money but become vulnerable when the supposedly powerless lender demands repayment.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The vehicle renters and drivers",
+          "motive": "They depend on his autos and car while knowing more about his real wealth than his donors do.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The government rescue team",
+          "motive": "They want a beggar-free city and must decide whether he is a victim, a fraud or an unexpectedly successful informal businessman.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The shelter-home operator",
+          "motive": "He wants to rehabilitate the man but discovers that removing him from the street may destroy his lending network.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The abandoned family and village contacts",
+          "motive": "They carry the buried history of illness, rejection and the question of who helped him build the hidden property base.",
+          "spinoff_potential": "high"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 9,
+        "hook_density": 10,
+        "emotional_immediacy": 10,
+        "conflict": 9,
+        "cast_depth": 9,
+        "total": 47
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The principal is a living private individual identified by name in recent reporting.",
+          "Change the name, town, market, illness, property count and vehicle details.",
+          "Use a fictional composite of the rescue officials, borrowers and family rather than reproducing identifiable real people.",
+          "Avoid stating that any individual committed fraud; frame the hidden-income mechanism as reported and fictionalize the legal and administrative consequences."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.aajtak.in/madhya-pradesh/story/indore-millionaire-beggar-mangilal-property-case-lending-money-on-interest-three-house-auto-one-car-lclg-strc-2442644-2026-01-19",
+        "https://ndtv.in/madhya-pradesh-chhattisgarh/despite-having-a-house-car-auto-and-doing-business-on-interest-why-did-that-beggar-become-a-millionaire-bhikhari-mangilal-reveals-the-truth-10800796"
+      ],
+      "facts": [
+        {
+          "what_happened": "AajTak reported that a man known in Indore's Sarafa area as a disabled beggar moved around on a wheeled board and received money from passers-by.",
+          "source": "https://www.aajtak.in/madhya-pradesh/story/indore-millionaire-beggar-mangilal-property-case-lending-money-on-interest-three-house-auto-one-car-lclg-strc-2442644-2026-01-19",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The report said officials discovered that he owned three permanent houses, three autorickshaws and a Maruti Dzire car.",
+          "source": "https://www.aajtak.in/madhya-pradesh/story/indore-millionaire-beggar-mangilal-property-case-lending-money-on-interest-three-house-auto-one-car-lclg-strc-2442644-2026-01-19",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "NDTV reported that one house had been provided through government assistance while two were said to have been purchased by him.",
+          "source": "https://ndtv.in/madhya-pradesh-chhattisgarh/despite-having-a-house-car-auto-and-doing-business-on-interest-why-did-that-beggar-become-a-millionaire-bhikhari-mangilal-reveals-the-truth-10800796",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "According to the man's account reported by NDTV, the three autos and the car operated as taxis and generated income while he continued appearing in the market as a beggar.",
+          "source": "https://ndtv.in/madhya-pradesh-chhattisgarh/despite-having-a-house-car-auto-and-doing-business-on-interest-why-did-that-beggar-become-a-millionaire-bhikhari-mangilal-reveals-the-truth-10800796",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "NDTV reported his claim that about four lakh rupees had been lent at interest and produced roughly two thousand rupees a day.",
+          "source": "https://ndtv.in/madhya-pradesh-chhattisgarh/despite-having-a-house-car-auto-and-doing-business-on-interest-why-did-that-beggar-become-a-millionaire-bhikhari-mangilal-reveals-the-truth-10800796",
+          "confidence": "alleged"
+        },
+        {
+          "what_happened": "The authorities sent him to a shelter, while he reportedly warned that being kept away from the market could cause his outstanding lending money to disappear.",
+          "source": "https://ndtv.in/madhya-pradesh-chhattisgarh/despite-having-a-house-car-auto-and-doing-business-on-interest-why-did-that-beggar-become-a-millionaire-bhikhari-mangilal-reveals-the-truth-10800796",
+          "confidence": "reported"
+        }
+      ],
+      "why_this_sells": "The instantly recognisable fear is that the person everyone pities has been studying them, earning from them and hiding a second life in plain sight.",
+      "why_not": "The raw event is recent and lightly documented, so the long-running borrower and family conflicts must be fictionalised rather than presented as established fact.",
+      "domain": "aajtak.in",
+      "winner": false,
+      "id": "06338ccb24b4",
+      "url": "https://www.aajtak.in/madhya-pradesh/story/indore-millionaire-beggar-mangilal-property-case-lending-money-on-interest-three-house-auto-one-car-lclg-strc-2442644-2026-01-19",
+      "source": "websearch",
+      "text": "In Indore, a man everyone treated as helpless street poor kept the beggar persona alive while quietly owning homes, rental vehicles and a private lending book. A disabled-looking street beggar travelled on a wheeled board, accepted small donations without openly demanding them, collected interest payments from borrowers and controlled income-producing assets that the public did not know he owned.",
+      "corroboration": []
+    },
+    {
+      "title": "The Man Who Died Twice",
+      "category": "REVENGE",
+      "one_line": "After his wife’s family gets him booked for harassment, a furious husband disappears, lets them build a murder case around his ‘death’, then watches from another city as the people he blames are dragged into court.",
+      "year": "2016–2018",
+      "where": "Maharajganj, Uttar Pradesh / Mira Road, Maharashtra, India",
+      "mechanism": "Pannelal Yadav allegedly staged his own murder, disappeared under another identity, and allowed his family to accuse his wife and in-laws of killing him and destroying the evidence.",
+      "engine": "The revenge stays alive as long as the ‘dead’ man maintains his false identity while his family, police, lawyers and in-laws fight over a murder that never happened.",
+      "episode_estimate": 150,
+      "cast": [
+        {
+          "name_or_role": "Pannelal Yadav, the supposedly murdered husband",
+          "motive": "To punish his wife and in-laws after a harassment case and settlement left him resentful.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The wife",
+          "motive": "To survive the original marital dispute and avoid being blamed for a murder she says never happened.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The in-laws",
+          "motive": "To defend themselves after being accused of killing and disposing of Pannelal.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Pannelal’s family",
+          "motive": "To help sustain the death story and push police and court authorities to register a murder case.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Mumbai Crime Branch investigators",
+          "motive": "To identify a man hiding under another identity and unravel the apparently impossible murder.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The local police and court system",
+          "motive": "To determine whether the missing man was murdered or whether the entire case was manufactured.",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
         "hook_density": 9,
-        "emotional_immediacy": 8,
+        "emotional_immediacy": 9,
+        "conflict": 9,
+        "cast_depth": 8,
+        "total": 43
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The reported incident involves living private individuals and allegations attributed to police reporting.",
+          "Change names, villages, police jurisdictions and family details; make the protagonist and all relatives fictional composites.",
+          "Tell the story primarily through the wife, investigator and supposedly dead man rather than asserting guilt as established fact."
+        ]
+      },
+      "prior_adaptations": [
+        "No specific film or series adaptation of this reported Uttar Pradesh/Maharashtra incident was found in the searches.",
+        "Generic fake-death and revenge dramas are near-misses, not adaptations of this particular event."
+      ],
+      "sources": [
+        "https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html"
+      ],
+      "facts": [
+        {
+          "what_happened": "Hindustan Times reported that Pannelal Yadav was arrested after allegedly staging his own murder to implicate his wife and in-laws.",
+          "source": "https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The report said Yadav and his family had previously faced a criminal case after his wife alleged harassment, and that the sides later settled the matter.",
+          "source": "https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "According to the report, Yadav disappeared after visiting his in-laws in Maharajganj, Uttar Pradesh, on October 15, 2016.",
+          "source": "https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "His family allegedly suspected that his wife and her relatives had murdered him and disposed of his body; when local police refused the complaint, the family approached court and a murder case was registered.",
+          "source": "https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html",
+          "confidence": "alleged"
+        },
+        {
+          "what_happened": "Mumbai Crime Branch reportedly found Yadav hiding in Mira Road for about two years under a different identity and identified him as the man reported murdered in Uttar Pradesh.",
+          "source": "https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "A deputy commissioner of police was quoted as saying that the investigation also revealed family involvement.",
+          "source": "https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html",
+          "confidence": "alleged"
+        }
+      ],
+      "why_this_sells": "The instantly recognisable fear is being declared a murderer by your own family while the dead person is secretly alive and watching the case grow.",
+      "why_not": "The real-world incident appears to have been exposed within roughly two years, so the 150-episode engine requires fictionalised complications inside the false-murder case rather than literal biography.",
+      "domain": "hindustantimes.com",
+      "winner": false,
+      "id": "34b4b6186d62",
+      "url": "https://www.hindustantimes.com/mumbai-news/up-man-held-in-mumbai-for-faking-own-murder-to-implicate-wife-in-laws/story-qtWrmcSV2VGGpEbVNQ38eI.html",
+      "source": "websearch",
+      "text": "After his wife’s family gets him booked for harassment, a furious husband disappears, lets them build a murder case around his ‘death’, then watches from another city as the people he blames are dragged into court. Pannelal Yadav allegedly staged his own murder, disappeared under another identity, and allowed his family to accuse his wife and in-laws of killing him and destroying the evidence.",
+      "corroboration": []
+    },
+    {
+      "title": "The Irrigation Office That Never Existed",
+      "category": "THE LONG DECEPTION",
+      "one_line": "In a tribal Gujarat town, a fake executive engineer builds a working government department—with staff, seals, sanctioned-looking files and insiders—until twelve “pending projects” force the real administration to ask where its own office is.",
+      "year": "2021–2023; exposed October 2023",
+      "where": "Bodeli, Chhota Udepur district, Gujarat, India",
+      "mechanism": "A rented office was presented as the government’s Irrigation Project Division. The principal operator allegedly posed as an executive engineer, while an accomplice supplied the office, documents and workflow; current and retired government employees allegedly prepared, typed, signed and routed proposals using forged seals and signatures.",
+      "engine": "Every new project, signature, inspection, payment and departmental query requires the fake office to recruit another insider, create another document and make the invented department look more real.",
+      "episode_estimate": 180,
+      "cast": [
+        {
+          "name_or_role": "Sandeep Rajput, alleged fake executive engineer",
+          "motive": "Money, authority and the thrill of making a nonexistent department obeyed like a real one.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Abu-Bakr Saiyyad, contractor and alleged office operator",
+          "motive": "Access to government-funded work and control of the physical machinery behind the deception.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Javid Ibrahim Maknojiya, junior clerk and FIR complainant later arrested",
+          "motive": "Possible participation followed by an attempt to redirect blame when the scheme surfaced.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Chandu Purshottam Kareliya, retired tribal-development officer",
+          "motive": "Allegedly lending former official credibility and signatures to keep the paperwork alive.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Ankit Suthar, document typist",
+          "motive": "Turning raw proposals into convincing government files without asking who legally owned the office.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Former and current departmental officials",
+          "motive": "Some seek legitimate project approvals, some allegedly protect the arrangement, and others fear being blamed for missing public money.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Villagers and contractors awaiting irrigation projects",
+          "motive": "They need roads, water and work, making them vulnerable to promises bearing an official seal.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Project Administrator Sunil Kumar and the SIT",
+          "motive": "Find out how a phantom office generated a pipeline of official-looking projects inside the real bureaucracy.",
+          "spinoff_potential": "high"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 9,
+        "hook_density": 9,
+        "emotional_immediacy": 9,
+        "conflict": 9,
+        "cast_depth": 9,
+        "total": 45
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The case is recent and the named principals and officials may be living.",
+          "Change names, town, district and departmental designation; fictionalize the exact project list and make the central viewpoint a composite clerk or contractor.",
+          "Retain the mechanism of a fake public office, but avoid asserting guilt beyond what a court establishes."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/",
+        "https://timesofindia.indiatimes.com/city/vadodara/fake-govt-office-case-police-bring-accused-to-city-seize-documents/articleshow/104811348.cms"
+      ],
+      "facts": [
+        {
+          "what_happened": "Police investigated a fake government office operating under the name “Irrigation Project Division” in Bodeli taluka, Chhota Udepur.",
+          "source": "https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "Police said Sandeep Rajput posed as an executive engineer and worked with contractor Abu-Bakr Saiyyad.",
+          "source": "https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/",
+          "confidence": "alleged"
+        },
+        {
+          "what_happened": "The investigation reportedly involved five arrests, including a junior clerk and a retired assistant tribal-development officer who were connected to the department named in the FIR.",
+          "source": "https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "Officials questioned why twelve pending projects had been sent for approval to the department; investigators said proposals were prepared by the junior clerk, typed at the contractor’s office and then signed by the retired officer.",
+          "source": "https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "Police raided an office in a shopping complex and found government-scheme details displayed on the walls, seizing documents and other materials.",
+          "source": "https://timesofindia.indiatimes.com/city/vadodara/fake-govt-office-case-police-bring-accused-to-city-seize-documents/articleshow/104811348.cms",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The accused were booked under provisions covering impersonating a public servant, cheating by personation, forgery, use of forged documents, counterfeit seals and criminal conspiracy.",
+          "source": "https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/",
+          "confidence": "verified"
+        },
+        {
+          "what_happened": "Investigators were also examining whether the alleged operator had used the same method in Dahod district.",
+          "source": "https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/",
+          "confidence": "reported"
+        }
+      ],
+      "why_this_sells": "The instantly recognisable fear is that an official stamp, office room and confident voice can make an invented authority more powerful than the real one.",
+      "why_not": "The public record currently describes an investigation rather than a final adjudication, so the drama must fictionalize aggressively and treat several roles as allegations.",
+      "domain": "indianexpress.com",
+      "winner": false,
+      "id": "102950e3eff1",
+      "url": "https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/",
+      "source": "websearch",
+      "text": "In a tribal Gujarat town, a fake executive engineer builds a working government department—with staff, seals, sanctioned-looking files and insiders—until twelve “pending projects” force the real administration to ask where its own office is. A rented office was presented as the government’s Irrigation Project Division. The principal operator allegedly posed as an executive engineer, while an accomplice supplied the office, documents and workflow; current and retired government employees allegedly prepared, typed, signed and routed proposals using forged seals and signatures.",
+      "corroboration": []
+    },
+    {
+      "title": "The Son Who Erased the Heirs",
+      "category": "FAMILY BETRAYAL",
+      "one_line": "After his railway-worker father dies, a son quietly changes the death date, manufactures a sole-heir certificate, and sells the family plot before his mother and five siblings even know they have been disinherited.",
+      "year": "2026",
+      "where": "Thaneerkulam village, Tiruvallur district, Tamil Nadu, India",
+      "mechanism": "The accused allegedly used a forged death certificate showing his father died in 2019—years after the reported 1999 death—and a false legal-heir certificate naming himself as the only successor, allowing him to sell the plot without the other heirs' knowledge.",
+      "engine": "The family must keep proving that the father died when everyone says he did, while every revenue record, sale document, official witness and family alliance becomes another battlefield over who legally exists as an heir.",
+      "episode_estimate": 180,
+      "cast": [
+        {
+          "name_or_role": "The fifth son accused of the fraud",
+          "motive": "He wants the entire plot and the money from its sale, and must keep the forged official story intact.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The widowed mother",
+          "motive": "She must recover the property while confronting the son she trusted and protecting the family's records.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The five excluded siblings",
+          "motive": "Each sibling has a different need for the inheritance and a different opinion about whether to expose their brother.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The deceased father",
+          "motive": "His real death date, employment history and property purchase become the hidden timeline that can destroy the fraud.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Land Fraud Investigation Wing officers",
+          "motive": "They must reconstruct how death and heirship records passed through official channels.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The purchaser of the plot",
+          "motive": "The buyer wants a clean title and may turn against the family once the sale is challenged.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Revenue-office intermediaries and document witnesses",
+          "motive": "They may have accepted money, been deceived, or need to protect themselves from prosecution.",
+          "spinoff_potential": "high"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 9,
+        "hook_density": 9,
+        "emotional_immediacy": 9,
         "conflict": 10,
-        "cast_depth": 10,
+        "cast_depth": 9,
         "total": 46
       },
       "clearance": {
         "status": "fictionalize_first",
         "reasons": [
-          "The operation involved many real people, some of whom may have living relatives and surviving associates.",
-          "Change names and composite several officials, informants, and undercover officers.",
-          "Keep the institutional mechanism while avoiding unsupported allegations about individuals not convicted."
+          "The case is recent and the accused, mother, siblings, purchaser and officials may be living private individuals.",
+          "Change all names, the village, the property value and the family composition; use a fictional district and composite officials.",
+          "Tell the story through the excluded mother's and siblings' fight to restore the record, rather than presenting unproved allegations as established guilt.",
+          "Retain the mechanism but fictionalise the exact documents, dates and investigative outcome unless independently verified in court records."
         ]
       },
       "prior_adaptations": [],
       "sources": [
-        "https://www.fbi.gov/history/cases-and-criminals/operation-greylord",
-        "https://www.isba.org/sections/bench/newsletter/2018/06/whengreenbacksweretheruleoflaw",
-        "https://oig.justice.gov/sites/default/files/legacy/special/0509/final.pdf"
+        "https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held"
       ],
-      "why_this_sells": "The immediate fear is that the judge, lawyer, clerk, and investigator all sound trustworthy because any one of them may be acting.",
-      "why_not": "It is institution-heavy and needs a carefully chosen central undercover protagonist to prevent the serial from becoming a procedural anthology.",
-      "domain": "fbi.gov",
+      "facts": [
+        {
+          "what_happened": "The New Indian Express reported that Avadi City Police arrested a 41-year-old man accused of selling his deceased father's property using forged death and heirship certificates, excluding his mother and five siblings.",
+          "source": "https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The report identified the accused as Alphonse Raj, the fifth son of P Susila and the late Ponnusamy.",
+          "source": "https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "Police said Ponnusamy had purchased a 2,100-square-foot vacant plot in Thaneerkulam village, Tiruvallur district, in 1988.",
+          "source": "https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The article said Ponnusamy died in 1999, while the allegedly forged death certificate claimed that he died in April 2019, when the mother was still alive.",
+          "source": "https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held",
+          "confidence": "alleged"
+        },
+        {
+          "what_happened": "Police said a false legal-heir certificate named the accused as the sole successor, after which he sold the property, valued at about Rs 34 lakh, without the family's knowledge.",
+          "source": "https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held",
+          "confidence": "alleged"
+        },
+        {
+          "what_happened": "The Land Fraud Investigation Wing of the Avadi Central Crime Branch registered a case under Sections 420, 468, 467 and 465 of the IPC, according to the report.",
+          "source": "https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The report said a special police team apprehended the accused and he was remanded in judicial custody.",
+          "source": "https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held",
+          "confidence": "reported"
+        }
+      ],
+      "why_this_sells": "The instantly recognisable fear is that a trusted son can make a family disappear from its own inheritance using one official-looking piece of paper.",
+      "why_not": "The public record currently gives the arrest and mechanism but little documented aftermath, so the long legal and emotional middle would need careful fictional expansion.",
+      "domain": "newindianexpress.com",
       "winner": false,
-      "id": "7f6f6257f609",
-      "url": "https://www.fbi.gov/history/cases-and-criminals/operation-greylord",
+      "id": "378444d0a19a",
+      "url": "https://www.newindianexpress.com/cities/chennai/2026/Feb/02/man-forges-heirship-certificate-to-sell-deceased-dads-property-held",
       "source": "websearch",
-      "text": "Honest judges and lawyers secretly pose as corrupt fixers inside a corrupt court system, while real judges, lawyers, clerks, police, and bagmen try to determine who is safe to trust. Undercover officials staged cases, wore recording devices, offered bribes, and acted like crooked courtroom insiders to expose a network of actual corruption.",
+      "text": "After his railway-worker father dies, a son quietly changes the death date, manufactures a sole-heir certificate, and sells the family plot before his mother and five siblings even know they have been disinherited. The accused allegedly used a forged death certificate showing his father died in 2019—years after the reported 1999 death—and a false legal-heir certificate naming himself as the only successor, allowing him to sell the plot without the other heirs' knowledge.",
       "corroboration": []
     },
     {
-      "title": "Cassie Chadwick, Heiress to a Fortune That Did Not Exist",
-      "category": "SECRET STATUS",
-      "one_line": "A woman walks into a banker’s world as Andrew Carnegie’s secret daughter, drops one forged note, and watches an entire city compete to lend her money before the inheritance arrives.",
-      "year": "1897–1907",
-      "where": "Cleveland, Ohio, New York City, and banking circles across the United States",
-      "mechanism": "Elizabeth Bigley used aliases, social performance, forged promissory notes, a staged visit to Carnegie’s house, and a carefully leaked claim of illegitimacy to obtain enormous unsecured loans.",
-      "engine": "Her status only survives if each banker believes the next banker has already verified it, creating a chain of mutually reinforced secrecy and debt.",
+      "title": "The Twenty Cheques for One House",
+      "category": "THE BARGAIN COMES DUE",
+      "one_line": "A desperate Delhi borrower gives a neighbourhood lender twenty blank cheques and his house papers for a loan, then discovers the bargain may have turned him from owner into tenant.",
+      "year": "2003-2025",
+      "where": "Dakshin Puri, New Delhi, India",
+      "mechanism": "A ₹1.5 lakh loan was allegedly secured with twenty blank cheques and the original possession slip of the borrower’s home; after repayment disputes, the lender asserted that the house had actually been sold and leased back to the borrower.",
+      "engine": "The debt never ends when the security itself becomes the battlefield: each cheque, instalment, notice, family witness and possession threat can reopen whether the borrower is a debtor, tenant or owner.",
       "episode_estimate": 180,
       "cast": [
         {
-          "name_or_role": "Cassie Chadwick / Elizabeth Bigley",
-          "motive": "Money, social power, and control over men who underestimate her",
+          "name_or_role": "Retired Air Force borrower",
+          "motive": "Needs urgent money but must keep his family inside the only home they have.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The lawyer who accompanies her to Carnegie’s home",
-          "motive": "Professional advancement and the thrill of privileged access",
+          "name_or_role": "Neighbourhood moneylender",
+          "motive": "Wants either repayment, control of the property or both, while preserving a respectable local-business identity.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The banker who lends her his personal fortune",
-          "motive": "Greed, vanity, and fear of losing access to the supposed heiress",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "Andrew Carnegie’s household staff",
-          "motive": "Protecting the family and understanding the stranger at the door",
+          "name_or_role": "Borrower’s brother",
+          "motive": "Tries to renegotiate instalments and becomes the family’s financial fixer and witness.",
           "spinoff_potential": "med"
         },
         {
-          "name_or_role": "Her husband and household",
-          "motive": "Respectability, comfort, and uncertainty about the source of the money",
+          "name_or_role": "Borrower’s wife",
+          "motive": "Protects the household from eviction while questioning what her husband signed.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The creditor who finally sues",
-          "motive": "Recovering money and proving that the city was deceived",
+          "name_or_role": "Adult legal-heir sons",
+          "motive": "Recover the possession papers and preserve the family home after the borrower’s death.",
           "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Sub-registrar and document witnesses",
+          "motive": "Their signatures and recollections decide whether the paperwork was a loan, sale or lease.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Police and court officials",
+          "motive": "Must decide whether the dispute is fraud, debt recovery, property possession or a private civil fight.",
+          "spinoff_potential": "med"
         }
       ],
       "scores": {
         "engine_longevity": 9,
         "hook_density": 9,
-        "emotional_immediacy": 10,
+        "emotional_immediacy": 9,
+        "conflict": 10,
+        "cast_depth": 9,
+        "total": 46
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The underlying case is recent and the named parties may be living or represented by living heirs.",
+          "Change names, locality, property number and exact loan figures.",
+          "Tell the story through fictional borrowers, adult heirs and composite officials rather than reproducing allegations about identifiable private citizens."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://indiankanoon.org/doc/186781144/"
+      ],
+      "facts": [
+        {
+          "what_happened": "The judgment records the borrower’s account that he sought a ₹1,50,000 loan in May 2003 and was asked to provide twenty blank cheques and the original possession slip of his property as security.",
+          "source": "https://indiankanoon.org/doc/186781144/",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The borrower’s account says repayment was arranged through monthly instalments of ₹6,000, later reduced to ₹4,500, with additional payments made by his brother.",
+          "source": "https://indiankanoon.org/doc/186781144/",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The borrower alleged that, after repayment disputes, the lender sent a notice claiming ownership of the house, declared the borrower a tenant and demanded rent and possession.",
+          "source": "https://indiankanoon.org/doc/186781144/",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The lender’s defence was that the property had been voluntarily sold for ₹3 lakh, followed by a lease allowing the borrower to remain in the premises as a tenant.",
+          "source": "https://indiankanoon.org/doc/186781144/",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The case involved competing claims over registered sale documents, a general power of attorney, a will, a lease deed, possession papers and multiple cheques.",
+          "source": "https://indiankanoon.org/doc/186781144/",
+          "confidence": "verified"
+        },
+        {
+          "what_happened": "The court found the lender’s claim of rent was doubtful, noting that the evidence did not make the alleged tenancy commercially convincing.",
+          "source": "https://indiankanoon.org/doc/186781144/",
+          "confidence": "verified"
+        },
+        {
+          "what_happened": "The judgment ultimately treated the transaction as securing a loan rather than a genuine sale, while requiring restoration of the money received before cancellation of the instruments.",
+          "source": "https://indiankanoon.org/doc/186781144/",
+          "confidence": "verified"
+        }
+      ],
+      "why_this_sells": "The instant fear is recognisable: one signature made during a money emergency can turn the family home, every cheque and every knock at the door into a new payment deadline.",
+      "why_not": "The court record contains sharply conflicting versions, so the adaptation must fictionalize aggressively and preserve uncertainty rather than present every allegation as fact.",
+      "domain": "indiankanoon.org",
+      "winner": false,
+      "id": "893fdda4019e",
+      "url": "https://indiankanoon.org/doc/186781144/",
+      "source": "websearch",
+      "text": "A desperate Delhi borrower gives a neighbourhood lender twenty blank cheques and his house papers for a loan, then discovers the bargain may have turned him from owner into tenant. A ₹1.5 lakh loan was allegedly secured with twenty blank cheques and the original possession slip of the borrower’s home; after repayment disputes, the lender asserted that the house had actually been sold and leased back to the borrower.",
+      "corroboration": []
+    },
+    {
+      "title": "The Motihari Haunted-House Tenant",
+      "category": "SUPERNATURAL INTRUSION",
+      "one_line": "A family desperate to escape the spirits said killed their sons lets a holy man move into one room—then he turns the exorcism into a decades-long battle over rent, possession and ownership.",
+      "year": "1978–2009 litigation",
+      "where": "Motihari, Bihar, India",
+      "mechanism": "A self-proclaimed spiritual healer occupies part of a supposedly haunted house to drive out evil spirits, then denies being a tenant and supports a rival purchaser’s claim to the property.",
+      "engine": "The house remains contested between the family, the healer and a purchaser, while every ritual, rent demand and legal filing can reveal whether the haunting was genuine, exploited or staged.",
+      "episode_estimate": 180,
+      "cast": [
+        {
+          "name_or_role": "Bibi Zafira Khatoon",
+          "motive": "Reclaim the family house and remove the occupant who entered under the pretext of spiritual protection.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Syed Mohammed Jalaluddin",
+          "motive": "Protect the home while trying to solve a family tragedy and later control its sale.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Mohammed Manzurool Haque, the spiritual healer",
+          "motive": "Maintain his claim that he was invited as a supernatural protector, not rented as a tenant.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Mohammed Hussain, alleged purchaser",
+          "motive": "Secure possession after an agreement to buy the house and use the healer’s claim to strengthen his case.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The two dead sons, as remembered by the household",
+          "motive": "Their deaths are the emotional source of the haunting claim and the mystery beneath the property dispute.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Trial and appellate judges",
+          "motive": "Separate tenancy, possession and sale claims from supernatural testimony.",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 10,
+        "hook_density": 9,
+        "emotional_immediacy": 9,
+        "conflict": 9,
+        "cast_depth": 8,
+        "total": 45
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The litigation names real parties and concerns a real private residence.",
+          "Change names, Motihari, the family history and the precise property details.",
+          "Tell the story primarily through a fictional tenant, a grieving household and a court clerk rather than presenting supernatural claims as verified fact."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://indiankanoon.org/doc/1262707/"
+      ],
+      "facts": [
+        {
+          "what_happened": "The Supreme Court record says the owners sought eviction of a man occupying part of their residential house and alleged that he had been allowed in because he claimed spiritual powers.",
+          "source": "https://indiankanoon.org/doc/1262707/",
+          "confidence": "verified"
+        },
+        {
+          "what_happened": "In his written statement, the occupant said the owners believed evil spirits had killed their two sons and had asked him to use spiritual power to drive them away; he said he entered one room in 1978.",
+          "source": "https://indiankanoon.org/doc/1262707/",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The occupant denied a landlord-tenant relationship and instead claimed that the family had benefited from his blessings and spiritual presence.",
+          "source": "https://indiankanoon.org/doc/1262707/",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The record says a separate purchaser claimed that an agreement for sale had been executed on January 9, 1982, and that possession had been delivered to him.",
+          "source": "https://indiankanoon.org/doc/1262707/",
+          "confidence": "verified"
+        },
+        {
+          "what_happened": "The title suit and eviction suit were clubbed because they concerned the same house, creating a three-way dispute over tenancy, sale and possession.",
+          "source": "https://indiankanoon.org/doc/1262707/",
+          "confidence": "verified"
+        },
+        {
+          "what_happened": "The Supreme Court stated that mere execution of an agreement for sale did not itself confer title or legal possession and allowed the eviction-related claim to proceed against the occupant.",
+          "source": "https://indiankanoon.org/doc/1262707/",
+          "confidence": "verified"
+        }
+      ],
+      "why_this_sells": "The instantly recognisable fear is that a family invites a spiritual protector into a haunted home and discovers it may never be able to make him leave.",
+      "why_not": "The supernatural evidence is entirely contested, so the adaptation must sustain ambiguity without inventing paranormal proof.",
+      "domain": "indiankanoon.org",
+      "winner": false,
+      "id": "a715d73e804f",
+      "url": "https://indiankanoon.org/doc/1262707/",
+      "source": "websearch",
+      "text": "A family desperate to escape the spirits said killed their sons lets a holy man move into one room—then he turns the exorcism into a decades-long battle over rent, possession and ownership. A self-proclaimed spiritual healer occupies part of a supposedly haunted house to drive out evil spirits, then denies being a tenant and supports a rival purchaser’s claim to the property.",
+      "corroboration": []
+    },
+    {
+      "title": "The Bride Who Was Abducted After Every Wedding",
+      "category": "THE DOUBLE LIFE",
+      "one_line": "A young woman becomes Kajal, Seema, Neha and Sweety across four states, marries desperate families, then vanishes in a staged kidnapping—only to create the next identity and wedding. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))",
+      "year": "2025",
+      "where": "Ambedkar Nagar and Jaunpur, Uttar Pradesh; operations spanning Gujarat, Haryana, Bihar and Uttar Pradesh, India",
+      "mechanism": "Gulshana allegedly used different names and fake identity documents, entered matrimonial negotiations through multiple channels, collected a settlement amount, staged a post-wedding abduction with gang members posing as relatives or attackers, and returned to matrimonial platforms under a new identity. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))",
+      "engine": "Every new match creates another household to infiltrate, another alias to protect, another fake relative to recruit, and another groom whose family can expose the previous life.",
+      "episode_estimate": 180,
+      "cast": [
+        {
+          "name_or_role": "The bride under rotating aliases",
+          "motive": "Money, survival and control of the gang’s repeatable marriage con",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The husband who takes a five-percent cut",
+          "motive": "Profit and loyalty to the operation while maintaining a respectable married life",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The staged-abduction crew",
+          "motive": "Cash, access to valuables and the thrill of performing the same disappearance in new towns",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The matchmaking intermediary",
+          "motive": "Commission for finding families desperate enough to overlook verification",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The latest groom and his family",
+          "motive": "A marriage bargain that turns into humiliation, financial loss and a hunt for the missing bride",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The police team that breaks the pattern",
+          "motive": "Recovering the latest victim’s property while discovering the syndicate’s older aliases",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 9,
+        "hook_density": 10,
+        "emotional_immediacy": 9,
         "conflict": 9,
         "cast_depth": 9,
         "total": 46
       },
       "clearance": {
-        "status": "greenlight",
+        "status": "fictionalize_first",
         "reasons": [
-          "Chadwick died in 1907, more than 50 years ago.",
-          "The major lenders and public figures are historical.",
-          "A fictionalized adaptation can preserve the mechanism without naming living private descendants."
+          "The principals are living and the reporting describes allegations and an arrest rather than final convictions.",
+          "Change names, towns, aliases, matrimonial platforms and physical details; use a composite groom and fictional gang.",
+          "Tell the story from the families and investigators’ point of view rather than exposing identifiable private individuals as established criminals."
         ]
       },
       "prior_adaptations": [],
       "sources": [
-        "https://www.smithsonianmag.com/history/the-high-priestess-of-fraudulent-finance-45/",
-        "https://omeka.library.kent.edu/special-collections/items/show/8599",
-        "https://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/87595-true-crime-2021-catch-her-if-you-can.html"
+        "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms",
+        "https://timesofindia.indiatimes.com/city/lucknow/married-by-morning-missing-by-noon-how-daku-dulhan-finally-ran-out-of-road/articleshow/121388511.cms"
       ],
-      "why_this_sells": "The hook is a fantasy every listener recognises: being dismissed by the powerful until one secret connection makes them beg to give you money.",
-      "why_not": "The core con eventually narrows into a financial collapse, so later episodes need strong domestic and legal subplots.",
-      "domain": "smithsonianmag.com",
+      "facts": [
+        {
+          "what_happened": "The Times of India reported that Ambedkar Nagar police arrested Gulshana and eight alleged gang members after a wedding-scam operation involving at least twelve families. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))",
+          "source": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The report said the woman used the names Kajal in Gujarat, Seema in Haryana, Neha in Bihar and Sweety in Uttar Pradesh. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))",
+          "source": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "Police said the gang negotiated money from families seeking matches, arranged the wedding, then staged an abduction in which male gang members escaped with jewellery and cash. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))",
+          "source": "https://timesofindia.indiatimes.com/city/lucknow/married-by-morning-missing-by-noon-how-daku-dulhan-finally-ran-out-of-road/articleshow/121388511.cms",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "Police recovered Rs 72,000, a motorcycle, a gold mangalsutra, eleven mobile phones and three fake Aadhaar cards, according to the report. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))",
+          "source": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The latest reported case involved a Rohtak resident whose family allegedly paid Rs 80,000; after the apparent bride disappeared, the police arrested one member and then traced the rest of the group. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))",
+          "source": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The reporting said the woman’s real-life husband allegedly knew about the operation and received a five-percent share of its proceeds. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))",
+          "source": "https://timesofindia.indiatimes.com/city/lucknow/married-by-morning-missing-by-noon-how-daku-dulhan-finally-ran-out-of-road/articleshow/121388511.cms",
+          "confidence": "alleged"
+        }
+      ],
+      "why_this_sells": "The instantly recognisable fear is that the person your family welcomed as a bride was performing a role, and the next morning every photograph, phone number and witness may belong to another life.",
+      "why_not": "The surviving reporting is police-led and concentrated on the arrest, so the serial would need substantial fictional reconstruction of the years of preparation and the emotional aftermath for each family.",
+      "domain": "timesofindia.indiatimes.com",
       "winner": false,
-      "id": "f355b288cf0c",
-      "url": "https://www.smithsonianmag.com/history/the-high-priestess-of-fraudulent-finance-45/",
+      "id": "7a5806843320",
+      "url": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms",
       "source": "websearch",
-      "text": "A woman walks into a banker’s world as Andrew Carnegie’s secret daughter, drops one forged note, and watches an entire city compete to lend her money before the inheritance arrives. Elizabeth Bigley used aliases, social performance, forged promissory notes, a staged visit to Carnegie’s house, and a carefully leaked claim of illegitimacy to obtain enormous unsecured loans.",
+      "text": "A young woman becomes Kajal, Seema, Neha and Sweety across four states, marries desperate families, then vanishes in a staged kidnapping—only to create the next identity and wedding. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms)) Gulshana allegedly used different names and fake identity documents, entered matrimonial negotiations through multiple channels, collected a settlement amount, staged a post-wedding abduction with gang members posing as relatives or attackers, and returned to matrimonial platforms under a new identity. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))",
       "corroboration": []
     },
     {
-      "title": "Piltdown Man: The Fossil That Rewrote Human History",
-      "category": "THE LONG DECEPTION",
-      "one_line": "An amateur antiquarian plants altered bones in an English gravel pit, and a prestigious museum builds an entire human origin story around them before a small team begins testing what everyone wants to believe.",
-      "year": "1912–1953",
-      "where": "Piltdown, Sussex, London, and Oxford, England",
-      "mechanism": "Human and orangutan remains were chemically stained, filed, planted, and presented as a missing evolutionary link, with institutional authority converting the fake into accepted science.",
-      "engine": "Every lecture, museum display, academic paper, and career built on the fossil raises the cost of admitting that the discovery may have been manufactured.",
+      "title": "The Woman in the Suitcase Who Was Not Dead",
+      "category": "DENIED IDENTITY",
+      "one_line": "A suitcase corpse is identified as a missing newlywed, her husband and in-laws are arrested, and then the supposedly murdered woman appears alive in another city.",
+      "year": "2020",
+      "where": "Ghaziabad, Bulandshahr and Aligarh, Uttar Pradesh, India",
+      "mechanism": "Police recovered a woman’s body from a suitcase; relatives identified it as Varisha, prompting dowry-death arrests, but Varisha later walked into a police station and said she was alive.",
+      "engine": "The returned woman must reclaim her name while the police hunt the unidentified corpse, the arrested in-laws fight the murder case, and the original domestic conflict keeps producing competing versions of her identity.",
+      "episode_estimate": 110,
+      "cast": [
+        {
+          "name_or_role": "Varisha, the returned woman",
+          "motive": "To survive family violence, explain her disappearance and stop being treated as a corpse.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The husband",
+          "motive": "To escape a murder accusation while accounting for the missing-wife complaint.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The mother and brother who identified the body",
+          "motive": "To defend a recognition that sent relatives to jail.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The arrested in-laws",
+          "motive": "To prove the corpse was not Varisha and preserve their family’s reputation.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The woman constable who receives Varisha",
+          "motive": "To decide whether the frightened stranger is a genuine survivor or another deception.",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 9,
+        "emotional_immediacy": 10,
+        "conflict": 9,
+        "cast_depth": 8,
+        "total": 44
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The event is recent enough that living private participants may be identifiable.",
+          "Change names, towns, family structure and the domestic-abuse allegations.",
+          "Avoid treating the original dowry-death accusation as proven; make the unidentified dead woman’s story a separate fictional investigation."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.thestatesman.com/india/ghaziabad-womans-body-stuffed-in-suitcase-misidentified-later-found-alive-1502913922.html",
+        "https://indianexpress.com/article/cities/delhi/ghaziabad-body-misidentified-dead-woman-is-alive-6538016/lite/"
+      ],
+      "facts": [],
+      "why_this_sells": "A dead bride in a suitcase and a living bride entering a police station gives the first-episode hook instantly, with marriage, police custody and family honour all colliding.",
+      "why_not": "The case’s main reversal arrives quickly and the long-term engine is thinner than the Mandsaur story because the reported woman’s post-return life is lightly documented.",
+      "domain": "thestatesman.com",
+      "winner": false,
+      "id": "b4698e9d7c84",
+      "url": "https://www.thestatesman.com/india/ghaziabad-womans-body-stuffed-in-suitcase-misidentified-later-found-alive-1502913922.html",
+      "source": "websearch",
+      "text": "A suitcase corpse is identified as a missing newlywed, her husband and in-laws are arrested, and then the supposedly murdered woman appears alive in another city. Police recovered a woman’s body from a suitcase; relatives identified it as Varisha, prompting dowry-death arrests, but Varisha later walked into a police station and said she was alive.",
+      "corroboration": [
+        {
+          "url": "https://www.indiatoday.in/india/story/up-woman-declared-dead-for-land-shows-im-alive-paper-at-government-office-2743440-2025-06-20",
+          "source": "websearch"
+        }
+      ]
+    },
+    {
+      "title": "The Daughter Whose Funeral Was for a Stranger",
+      "category": "DENIED IDENTITY",
+      "one_line": "A missing Noida woman is identified from a burned body and cremated, but a police officer keeps investigating until she finds the woman alive—and leaves a second family without a name for their dead.",
+      "year": "2018",
+      "where": "Noida and Etah, Uttar Pradesh, India",
+      "mechanism": "A family identified a completely burned body as Neetu without DNA confirmation; 27 days later police found Neetu alive and began searching for the real identity of the cremated woman.",
+      "engine": "The police must prove a living woman is not an impostor while reconstructing two broken families: one mourning the wrong person and one still waiting to learn who died.",
+      "episode_estimate": 95,
+      "cast": [
+        {
+          "name_or_role": "Neetu, the woman who returns",
+          "motive": "To return to her family while hiding or explaining the relationships that preceded her disappearance.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Neetu’s parents",
+          "motive": "To accept their daughter while confronting the fact that they cremated someone else.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The estranged husband",
+          "motive": "To avoid being blamed for Neetu’s disappearance and recover his standing.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Pooran, the man she had been living with",
+          "motive": "To explain the argument before Neetu vanished and avoid becoming the new suspect.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The investigating police officer",
+          "motive": "To keep the case alive after the body has already been cremated.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The unidentified woman’s family",
+          "motive": "To find their missing daughter through a corpse everyone else has already claimed.",
+          "spinoff_potential": "high"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 7,
+        "hook_density": 9,
+        "emotional_immediacy": 10,
+        "conflict": 8,
+        "cast_depth": 8,
+        "total": 42
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The event involves living private people and unresolved identity questions.",
+          "Change names, locations, relationships and the exact circumstances of the disappearance.",
+          "Do not imply that the estranged husband or live-in partner committed a crime; the report says police cleared the husband and was still investigating."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.indiatoday.in/india/story/noida-woman-comes-back-from-the-dead-after-being-cremated-by-family-1226699-2018-05-04"
+      ],
+      "facts": [],
+      "why_this_sells": "The emotional image is immediate and phone-friendly: parents carry out their daughter’s funeral, then she walks through the door 27 days later.",
+      "why_not": "The documented timeline is short and the available reporting ends just as the deeper question—who was the cremated woman—begins, so episode 150 requires substantial fictional expansion.",
+      "domain": "indiatoday.in",
+      "winner": false,
+      "id": "2a4d3806b2a8",
+      "url": "https://www.indiatoday.in/india/story/noida-woman-comes-back-from-the-dead-after-being-cremated-by-family-1226699-2018-05-04",
+      "source": "websearch",
+      "text": "A missing Noida woman is identified from a burned body and cremated, but a police officer keeps investigating until she finds the woman alive—and leaves a second family without a name for their dead. A family identified a completely burned body as Neetu without DNA confirmation; 27 days later police found Neetu alive and began searching for the real identity of the cremated woman.",
+      "corroboration": []
+    },
+    {
+      "title": "The Peon with Seven Properties",
+      "category": "SECRET STATUS",
+      "one_line": "A government peon whom colleagues could dismiss as a low-paid worker was found to possess multiple properties, cars, gold and cash far beyond his visible status.",
+      "year": "2017",
+      "where": "Gandhinagar, Gujarat, India",
+      "mechanism": "A low-ranking employee accumulated a concealed property portfolio through assets recorded across flats, an office, land plots and family-linked holdings while remaining publicly identified by a modest government job.",
+      "engine": "The secret status survives through benami ownership, family intermediaries, official access and recurring vigilance discoveries that can expose one property, account or witness at a time.",
+      "episode_estimate": 130,
+      "cast": [
+        {
+          "name_or_role": "The government peon",
+          "motive": "He wants the social invisibility of a low-paid post while controlling a wealth network that nobody expects him to possess.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "His wife linked to local politics",
+          "motive": "She connects the household's modest employment story to local influence and property protection.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Anti-Corruption Bureau investigators",
+          "motive": "They must turn secret complaints and unexplained assets into a provable chain of ownership.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Property brokers and document writers",
+          "motive": "They profit from moving assets between names and can betray the family when questioned.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Neighbours and government colleagues",
+          "motive": "They must reconcile the familiar peon they see daily with the owner of an expanding property portfolio.",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 8,
+        "emotional_immediacy": 9,
+        "conflict": 8,
+        "cast_depth": 8,
+        "total": 41
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The case concerns a living or recently living private individual identified in corruption reporting.",
+          "Change the employee's name, department, district, family connections, property locations and asset values.",
+          "Treat the reported wealth as an allegation unless established by a later judgment."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://timesofindia.indiatimes.com/city/ahmedabad/crorepati-peon-among-graft-champions/articleshow/56708818.cms"
+      ],
+      "facts": [],
+      "why_this_sells": "The hook is the everyday subordinate who may secretly own the buildings, plots and cars that his superiors assume are beyond his reach.",
+      "why_not": "The available report begins with the vigilance raid and gives limited detail about how the hidden wealth was built, making the pre-exposure engine more inferential than the winner's daily street performance.",
+      "domain": "timesofindia.indiatimes.com",
+      "winner": false,
+      "id": "e3993fb36d84",
+      "url": "https://timesofindia.indiatimes.com/city/ahmedabad/crorepati-peon-among-graft-champions/articleshow/56708818.cms",
+      "source": "websearch",
+      "text": "A government peon whom colleagues could dismiss as a low-paid worker was found to possess multiple properties, cars, gold and cash far beyond his visible status. A low-ranking employee accumulated a concealed property portfolio through assets recorded across flats, an office, land plots and family-linked holdings while remaining publicly identified by a modest government job.",
+      "corroboration": []
+    },
+    {
+      "title": "The Clerk's Second Company",
+      "category": "SECRET STATUS",
+      "one_line": "A municipal clerk allegedly operated a chit-fund business and hid a large property empire through relatives while retaining the respectability of public employment.",
+      "year": "2018-2020",
+      "where": "Bathinda and Ludhiana, Punjab, India",
+      "mechanism": "A municipal employee used a government position as cover while allegedly running Crown Chit Fund Company, placing property and construction expenditure in a father-in-law's name and disappearing when the network began to collapse.",
+      "engine": "The double system can keep generating episodes through depositors, municipal colleagues, benami property, family liability, absconding, salary disruption and the search for the missing operator.",
       "episode_estimate": 160,
       "cast": [
         {
-          "name_or_role": "Charles Dawson",
-          "motive": "Recognition, scientific status, and the desire to become indispensable",
+          "name_or_role": "The municipal clerk-accountant",
+          "motive": "He wants the legitimacy of government employment and the upside of an unregulated financial business.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Arthur Smith Woodward",
-          "motive": "A career-defining discovery and institutional prestige",
+          "name_or_role": "The wife and father-in-law",
+          "motive": "They become holders of property and possible shields, but may not know the full scale of the scheme.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Arthur Keith",
-          "motive": "A theory of human evolution that the fossil appears to confirm",
+          "name_or_role": "Chit-fund depositors",
+          "motive": "They need their savings returned and must decide whether to trust the state, the family or one another.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Kenneth Oakley",
-          "motive": "Testing the evidence despite the reputational consequences",
+          "name_or_role": "Municipal employees",
+          "motive": "Their salaries and benefits are disrupted when the accountant vanishes, turning a private financial case into a workplace revolt.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Joseph Weiner and Wilfrid Le Gros Clark",
-          "motive": "Scientific truth and the need to expose a celebrated error",
+          "name_or_role": "Vigilance Bureau officers",
+          "motive": "They must prove the connection between official misuse, property transfers and the alleged financial company.",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 9,
+        "hook_density": 9,
+        "emotional_immediacy": 9,
+        "conflict": 9,
+        "cast_depth": 9,
+        "total": 45
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The reporting identifies living private individuals and contains criminal allegations that may not have ended in conviction.",
+          "Change all names, municipalities, company branding, property locations, family relationships and financial figures.",
+          "Do not state that the accused committed fraud as fact; present the police and vigilance allegations as the source material."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.tribuneindia.com/news/archive/bathinda/disproportionate-assets-case-mcb-clerk-booked-593972/",
+        "https://www.hindustantimes.com/cities/accountant-booked-in-fraud-case-ludhiana-mc-fails-to-pay-january-salary-to-staff/story-CjwOM2ahcoX3qwP1QsCgPK.html"
+      ],
+      "facts": [],
+      "why_this_sells": "Listeners recognise the terror of discovering that the familiar clerk handling public money may also be the hidden owner of a private financial machine.",
+      "why_not": "The strongest reporting comes after the alleged business has already begun to fail, so the serial must reconstruct the years of daily deception and depositor recruitment.",
+      "domain": "tribuneindia.com",
+      "winner": false,
+      "id": "51feeacc2420",
+      "url": "https://www.tribuneindia.com/news/archive/bathinda/disproportionate-assets-case-mcb-clerk-booked-593972/",
+      "source": "websearch",
+      "text": "A municipal clerk allegedly operated a chit-fund business and hid a large property empire through relatives while retaining the respectability of public employment. A municipal employee used a government position as cover while allegedly running Crown Chit Fund Company, placing property and construction expenditure in a father-in-law's name and disappearing when the network began to collapse.",
+      "corroboration": []
+    },
+    {
+      "title": "The Bank Manager's Fifteen Accounts",
+      "category": "SECRET STATUS",
+      "one_line": "The head of a cooperative bank allegedly used the ordinary authority of a local manager to build a concealed network of bribes, properties, lockers and job promises.",
+      "year": "2002",
+      "where": "Amritsar, Punjab, India",
+      "mechanism": "A cooperative-bank managing director was accused of taking money for appointments and embezzlement while investigators traced plots, deposits, gold, lockers and accounts held through family members.",
+      "engine": "The hidden financial status remains active through every job applicant, bank employee, family account, property purchase and occult attempt to stop investigators from tracing the money.",
+      "episode_estimate": 150,
+      "cast": [
+        {
+          "name_or_role": "The cooperative-bank managing director",
+          "motive": "He wants to convert institutional authority into private wealth while preserving the image of a respectable local official.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Museum administrators and journalists",
-          "motive": "Protecting public confidence in British science",
+          "name_or_role": "His wife",
+          "motive": "She claims ignorance of accounts and documents while becoming entangled in the family's defensive strategy.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The mother holding property",
+          "motive": "Her name becomes a possible shield for assets and a pressure point for investigators.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Job applicants who paid money",
+          "motive": "They need employment and must choose between exposing the manager or protecting their own involvement.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The bank peon who filed an affidavit",
+          "motive": "He has direct knowledge of the alleged demand and risks retaliation from the institution.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Punjab Vigilance Bureau officers",
+          "motive": "They must separate superstition, family excuses and genuine evidence while following the money across accounts and properties.",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 10,
+        "emotional_immediacy": 9,
+        "conflict": 10,
+        "cast_depth": 10,
+        "total": 47
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The report names living or recently living private individuals and describes unproven corruption allegations.",
+          "Change the bank, city, names, property values, family structure and all identifying details.",
+          "The reported occult incident should be treated as colour from the source report, not independently verified fact."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://timesofindia.indiatimes.com/city/chandigarh/black-magic-no-help-for-chhinna/articleshow/7907645.cms"
+      ],
+      "facts": [],
+      "why_this_sells": "The listener understands the fear of needing a local bank job while the person controlling access to it secretly sells hope, influence and escape.",
+      "why_not": "The case has excellent cast depth but its 2002 reporting is compressed and allegation-heavy, leaving fewer verified details about the long build-up than the modern Indore find.",
+      "domain": "timesofindia.indiatimes.com",
+      "winner": false,
+      "id": "8b8794a03297",
+      "url": "https://timesofindia.indiatimes.com/city/chandigarh/black-magic-no-help-for-chhinna/articleshow/7907645.cms",
+      "source": "websearch",
+      "text": "The head of a cooperative bank allegedly used the ordinary authority of a local manager to build a concealed network of bribes, properties, lockers and job promises. A cooperative-bank managing director was accused of taking money for appointments and embezzlement while investigators traced plots, deposits, gold, lockers and accounts held through family members.",
+      "corroboration": []
+    },
+    {
+      "title": "The Fake Karachi Cantt Identity",
+      "category": "REVENGE",
+      "one_line": "A gaming rival who loses his licence creates a digital trail of obscene religious images, impersonates his competitor online, and then files the complaint that sends police after the man he wants destroyed.",
+      "year": "2023",
+      "where": "Delhi / Haridwar / Darbhanga, India",
+      "mechanism": "Adarsh Saini allegedly used impersonated email accounts and his rival’s personal details to circulate offensive images, then posed as the complainant so the rival would be framed.",
+      "engine": "Every new account, device, complaint and digital trace can either tighten the frame around the rival or expose the revenge architect behind it.",
+      "episode_estimate": 130,
+      "cast": [
+        {
+          "name_or_role": "Adarsh Saini",
+          "motive": "To retaliate after a competitor’s complaint allegedly caused him to lose his online gaming licence and income.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Rahul Kumar, the framed competitor",
+          "motive": "To prove that the online offender and the person using his identity are not the same man.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Apurva Verma, the apparent complainant",
+          "motive": "To trigger official action against the offensive content, unknowingly becoming part of the frame-up.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Delhi Police cyber investigators",
+          "motive": "To track accounts, devices and payment trails while the apparent suspect keeps changing identity.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Gaming-platform customers and rivals",
+          "motive": "To protect income, licences and market share in an online business where identity is easy to steal.",
           "spinoff_potential": "med"
         }
       ],
@@ -339,135 +1268,361 @@
         "engine_longevity": 8,
         "hook_density": 9,
         "emotional_immediacy": 8,
-        "conflict": 9,
-        "cast_depth": 10,
-        "total": 44
+        "conflict": 8,
+        "cast_depth": 8,
+        "total": 41
       },
       "clearance": {
-        "status": "greenlight",
+        "status": "fictionalize_first",
         "reasons": [
-          "The principal figures died decades ago.",
-          "The event concerns a public scientific controversy and museum records.",
-          "No living private individual needs to be exposed."
+          "The case concerns living private individuals and police allegations.",
+          "Change names, platforms, religious imagery, locations and business details.",
+          "Avoid reproducing the allegedly offensive material; use an invented non-religious digital trigger in the adaptation."
         ]
       },
       "prior_adaptations": [
-        "PBS NOVA produced a documentary episode about the hoax in 2005; it is documentary coverage, not a serialized drama of the specific event."
+        "No specific film or series adaptation of this Delhi cybercrime incident was found in the searches."
       ],
       "sources": [
-        "https://www.nhm.ac.uk/our-science/services/library/collections/piltdown-man.html",
-        "https://www.nhm.ac.uk/discover/news/2016/august/piltdown-man-charles-dawson-likely-fraudster.html",
-        "https://www.pbs.org/wgbh/nova/hoax/"
+        "https://indianexpress.com/article/cities/delhi/man-held-for-circulating-morphed-photos-of-gods-rivalry-fueled-his-revenge-plot-say-delhi-police-9012590/"
       ],
-      "why_this_sells": "The recognisable fear is that the experts protecting your reality may be protecting their careers instead.",
-      "why_not": "The investigative payoff arrives decades later, so the adaptation must make each new fossil, paper, and institutional defense feel like a fresh escalation.",
-      "domain": "nhm.ac.uk",
+      "facts": [],
+      "why_this_sells": "It turns a familiar small-business rivalry into a phone-native revenge maze where the victim’s own name becomes the weapon.",
+      "why_not": "The reported case was uncovered quickly and has fewer family relationships than the winner, so its long-run emotional engine depends more heavily on fictional cyber-investigation arcs.",
+      "domain": "indianexpress.com",
       "winner": false,
-      "id": "22711f7ffbfd",
-      "url": "https://www.nhm.ac.uk/our-science/services/library/collections/piltdown-man.html",
+      "id": "0c89f12a2498",
+      "url": "https://indianexpress.com/article/cities/delhi/man-held-for-circulating-morphed-photos-of-gods-rivalry-fueled-his-revenge-plot-say-delhi-police-9012590/",
       "source": "websearch",
-      "text": "An amateur antiquarian plants altered bones in an English gravel pit, and a prestigious museum builds an entire human origin story around them before a small team begins testing what everyone wants to believe. Human and orangutan remains were chemically stained, filed, planted, and presented as a missing evolutionary link, with institutional authority converting the fake into accepted science.",
+      "text": "A gaming rival who loses his licence creates a digital trail of obscene religious images, impersonates his competitor online, and then files the complaint that sends police after the man he wants destroyed. Adarsh Saini allegedly used impersonated email accounts and his rival’s personal details to circulate offensive images, then posed as the complainant so the rival would be framed.",
       "corroboration": []
     },
     {
-      "title": "Nina Beckwith: The Heiress Who Returned from the Dead",
-      "category": "DENIED IDENTITY",
-      "one_line": "A young woman disappears for two decades, her family has her estate administered as though she died, and she returns to discover that the law has already distributed the life she never surrendered.",
-      "year": "1900–1924",
-      "where": "Adrian, Michigan, and the surrounding American Midwest",
-      "mechanism": "After Nina Wright vanished, relatives treated the statutory presumption of death as a completed inheritance process, distributing her estate before she reappeared and sued.",
-      "engine": "The heroine must prove she is alive while every document, heir, administrator, and family memory has been arranged around the opposite conclusion.",
-      "episode_estimate": 90,
+      "title": "The Terrorist Who Was Supposed to Be Satwant",
+      "category": "REVENGE",
+      "one_line": "Jealous of a man he believed was involved with his wife, a Faridkot resident plants fake explosive material and a counterfeit Karachi Cantonment identity card so the army will mistake his rival for an enemy agent.",
+      "year": "2014",
+      "where": "Faridkot, Punjab, India",
+      "mechanism": "Manpreet Singh allegedly used his rival’s photograph, a fabricated Karachi Cantonment identity card, a counterfeit stamp and planted objects to create a false national-security case.",
+      "engine": "The planted identity forces the rival to disprove one increasingly elaborate piece of evidence after another while police, army officials, family members and villagers choose sides.",
+      "episode_estimate": 100,
       "cast": [
         {
-          "name_or_role": "Nina Wright Beckwith",
-          "motive": "Recovering her identity, property, and place in a family that replaced her",
+          "name_or_role": "Manpreet Singh",
+          "motive": "To take revenge on Satwant Singh over a suspected relationship with his wife.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The probate administrator",
-          "motive": "Defending the completed estate and avoiding personal liability",
+          "name_or_role": "Satwant Singh, the framed man",
+          "motive": "To survive a false accusation that makes him appear connected to hostile forces.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The relatives who received the money",
-          "motive": "Keeping property acquired under a legal presumption",
+          "name_or_role": "Manpreet’s wife",
+          "motive": "To conceal or deny the relationship suspicion that triggered the plot.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Nina’s estranged family",
-          "motive": "Deciding whether the returned woman is truly Nina or a threat to their inheritance",
-          "spinoff_potential": "high"
+          "name_or_role": "Faridkot police and crime-investigation officers",
+          "motive": "To determine whether abandoned objects represent a real security threat or a local frame-up.",
+          "spinoff_potential": "med"
         },
         {
-          "name_or_role": "The judge",
-          "motive": "Reconciling statutory procedure with the fact that the supposed dead woman is alive",
+          "name_or_role": "Army officials",
+          "motive": "To investigate a suspicious bag and apparent military identity document found near residential quarters.",
           "spinoff_potential": "med"
         }
       ],
       "scores": {
-        "engine_longevity": 9,
-        "hook_density": 8,
-        "emotional_immediacy": 10,
+        "engine_longevity": 7,
+        "hook_density": 9,
+        "emotional_immediacy": 8,
         "conflict": 9,
         "cast_depth": 8,
+        "total": 41
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The report names living private individuals and attributes the allegations to police.",
+          "Change all names, military references, documents and locations.",
+          "The adaptation should fictionalise the security threat and avoid suggesting any real person had links to hostile organisations."
+        ]
+      },
+      "prior_adaptations": [
+        "No specific film or series adaptation of this Faridkot incident was found in the searches."
+      ],
+      "sources": [
+        "https://www.hindustantimes.com/punjab/abandoned-articles-case-faridkot-resident-planted-articles-to-take-revenge/story-O6pJHJrtVEa4m16G3dBugK.html"
+      ],
+      "facts": [],
+      "why_this_sells": "The fear lands immediately: an ordinary man’s photograph is turned into evidence that he is an enemy agent.",
+      "why_not": "The reported plot appears to have been exposed within six days, making it a powerful first arc but a weaker literal engine beyond the initial investigation.",
+      "domain": "hindustantimes.com",
+      "winner": false,
+      "id": "39cf88781d7f",
+      "url": "https://www.hindustantimes.com/punjab/abandoned-articles-case-faridkot-resident-planted-articles-to-take-revenge/story-O6pJHJrtVEa4m16G3dBugK.html",
+      "source": "websearch",
+      "text": "Jealous of a man he believed was involved with his wife, a Faridkot resident plants fake explosive material and a counterfeit Karachi Cantonment identity card so the army will mistake his rival for an enemy agent. Manpreet Singh allegedly used his rival’s photograph, a fabricated Karachi Cantonment identity card, a counterfeit stamp and planted objects to create a false national-security case.",
+      "corroboration": []
+    },
+    {
+      "title": "The ₹3.2 Lakh Robbery That Never Happened",
+      "category": "REVENGE",
+      "one_line": "After two men insult him, a Lucknow resident recruits his brother and friends to stage a gunpoint robbery, plant a money-filled bag on CCTV and send the police after his enemies.",
+      "year": "2024",
+      "where": "Gomtinagar Vistar, Lucknow, Uttar Pradesh, India",
+      "mechanism": "The complainant allegedly filled envelopes with paper to imitate cash, arranged for accomplices to steal the bag on camera and filed a false robbery complaint naming his rivals.",
+      "engine": "The staged crime creates a contest between the CCTV story, the accused men’s alibis and the conspirators’ need to keep every witness repeating the same lie.",
+      "episode_estimate": 80,
+      "cast": [
+        {
+          "name_or_role": "Gaurav Singh, also identified as Arnab Kumar Singh",
+          "motive": "To settle scores after alleged abusive comments from Vishal Singh and Akash Mishra.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Sameer, his brother",
+          "motive": "To help manufacture the robbery and protect the family from exposure.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Ajeet Singh Sengar and Akash Yadav",
+          "motive": "To act as the staged robbers and create supporting CCTV evidence.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Vishal Singh and Akash Mishra",
+          "motive": "To prove they were framed for a robbery they did not commit.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Gomtinagar Vistar police",
+          "motive": "To reconcile the complainant’s story with CCTV and local intelligence.",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 7,
+        "hook_density": 8,
+        "emotional_immediacy": 8,
+        "conflict": 8,
+        "cast_depth": 8,
+        "total": 39
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The incident is recent and involves living private individuals identified in press coverage.",
+          "Change names, neighbourhoods, amount of money and the precise dispute.",
+          "Treat the police account as an allegation unless court records establish the facts."
+        ]
+      },
+      "prior_adaptations": [
+        "No specific film or series adaptation of this Lucknow incident was found in the searches."
+      ],
+      "sources": [
+        "https://timesofindia.indiatimes.com/city/lucknow/lucknow-police-uncover-staged-robbery-revenge-plot-four-arrested/articleshow/114557927.cms"
+      ],
+      "facts": [],
+      "why_this_sells": "Everyone understands the terror of a false robbery case when the police have CCTV that appears to prove the lie.",
+      "why_not": "The plot is mechanically neat but short-lived: once the footage is checked and the confession arrives, the revenge machine largely stops.",
+      "domain": "timesofindia.indiatimes.com",
+      "winner": false,
+      "id": "f898df1d7a8a",
+      "url": "https://timesofindia.indiatimes.com/city/lucknow/lucknow-police-uncover-staged-robbery-revenge-plot-four-arrested/articleshow/114557927.cms",
+      "source": "websearch",
+      "text": "After two men insult him, a Lucknow resident recruits his brother and friends to stage a gunpoint robbery, plant a money-filled bag on CCTV and send the police after his enemies. The complainant allegedly filled envelopes with paper to imitate cash, arranged for accomplices to steal the bag on camera and filed a false robbery complaint naming his rivals.",
+      "corroboration": []
+    },
+    {
+      "title": "The NGO Branch That Was Created After It Got the Grant",
+      "category": "THE LONG DECEPTION",
+      "one_line": "A Dholpur welfare organisation allegedly wins government recognition through a backdated registration, fabricated office-bearers and altered ministry files, then keeps surviving through annual reports, bank accounts and fresh grant paperwork.",
+      "year": "2001–2010; court proceedings continued into 2025",
+      "where": "Dholpur, Rajasthan, and Morena, Madhya Pradesh, India",
+      "mechanism": "A purported NGO and its supposed parent organisation were represented through registration papers, fake office-bearers, forged signatures, altered ministry files and bank accounts. The organisation received grants and submitted reports for years while officials disputed which NGO had actually applied.",
+      "engine": "Every grant instalment creates a new paper trail—board meetings, utilisation certificates, staff salaries, audits and bank withdrawals—that must be fabricated before the next official asks whether the organisation exists.",
+      "episode_estimate": 220,
+      "cast": [
+        {
+          "name_or_role": "The alleged NGO secretary",
+          "motive": "Control the grant pipeline and the organisation’s bank accounts.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The alleged chairman who signs as head of a nonexistent body",
+          "motive": "Status, access and a share of diverted funds.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The director-in-charge of the welfare project",
+          "motive": "Institutional power and protection of the family-run structure.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The ministry feasibility officer",
+          "motive": "Approve a proposal without properly verifying registration history.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The alleged impersonator of absent board members",
+          "motive": "Payment for signatures and identity substitution.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The ministry vigilance and CBI investigators",
+          "motive": "Discover who altered the file and which organisation received public money.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The nonexistent or fabricated board members",
+          "motive": "Their names become the silent ghosts holding the institution together.",
+          "spinoff_potential": "high"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 9,
+        "hook_density": 9,
+        "emotional_immediacy": 8,
+        "conflict": 9,
+        "cast_depth": 9,
         "total": 44
       },
       "clearance": {
-        "status": "greenlight",
+        "status": "fictionalize_first",
         "reasons": [
-          "The case is from 1924 and concerns historical litigants.",
-          "The ruling is a public legal record.",
-          "No living private individual is necessary for adaptation."
+          "The event is recent enough that several accused, officials and witnesses may be living.",
+          "Change the NGO names, districts, ministry and family relationships.",
+          "The judgment records both prosecution allegations and unresolved evidentiary disputes, so the serial should use a fictional investigation frame rather than present every allegation as fact."
         ]
       },
       "prior_adaptations": [],
       "sources": [
-        "https://books.google.com/books/about/Beckwith_v_Bates_228_MICH_400_1924.html?id=N2OFKwiDEbcC"
+        "https://indiankanoon.org/doc/171923443/"
       ],
-      "why_this_sells": "The first-minute fear is returning home and finding that everyone who knew you has legally benefited from believing you were dead.",
-      "why_not": "The documented court record is compact, so a long version would need fictionalized domestic episodes around the disappearance and family aftermath.",
-      "domain": "books.google.com",
+      "facts": [],
+      "why_this_sells": "It turns a familiar local fear—government money disappearing into paperwork—into a daily survival thriller where the institution must be invented again every month.",
+      "why_not": "The mechanism is document-heavy and bureaucratic; it needs a strong family or investigator viewpoint to prevent the early episodes from feeling like an audit.",
+      "domain": "indiankanoon.org",
       "winner": false,
-      "id": "240cec307327",
-      "url": "https://books.google.com/books/about/Beckwith_v_Bates_228_MICH_400_1924.html?id=N2OFKwiDEbcC",
+      "id": "f2d24b94cefc",
+      "url": "https://indiankanoon.org/doc/171923443/",
       "source": "websearch",
-      "text": "A young woman disappears for two decades, her family has her estate administered as though she died, and she returns to discover that the law has already distributed the life she never surrendered. After Nina Wright vanished, relatives treated the statutory presumption of death as a completed inheritance process, distributing her estate before she reappeared and sued.",
+      "text": "A Dholpur welfare organisation allegedly wins government recognition through a backdated registration, fabricated office-bearers and altered ministry files, then keeps surviving through annual reports, bank accounts and fresh grant paperwork. A purported NGO and its supposed parent organisation were represented through registration papers, fake office-bearers, forged signatures, altered ministry files and bank accounts. The organisation received grants and submitted reports for years while officials disputed which NGO had actually applied.",
       "corroboration": []
     },
     {
-      "title": "Broderick’s Forged Will",
-      "category": "FAMILY BETRAYAL",
-      "one_line": "After a powerful man dies, an executor manufactures a will, recruits witnesses, and persuades a probate court to bless a document that turns the dead man’s fortune into a private machine.",
-      "year": "1863–1874",
-      "where": "San Francisco and the United States Supreme Court",
-      "mechanism": "A forged will was supported with false witness testimony and handwriting claims, then admitted to probate while interested relatives received no meaningful notice.",
-      "engine": "Every procedural step makes the false will harder to challenge: witnesses must stay aligned, executors must spend the estate, and beneficiaries must prove fraud after the court has spoken.",
-      "episode_estimate": 75,
+      "title": "Reviving the Society That Had Already Been Wound Up",
+      "category": "THE LONG DECEPTION",
+      "one_line": "After a Delhi cooperative housing society is officially dead, builders and insiders allegedly resurrect it with forged affidavits, fake members and invented meetings to reach subsidised government land.",
+      "year": "1997–2005 investigation; alleged revival in 2000–2003",
+      "where": "Delhi, India",
+      "mechanism": "A society that had been wound up was allegedly revived through forged documents, fabricated general-body proceedings, fake member lists, forged affidavits and employees or relatives placed on its management committee.",
+      "engine": "The revived society must continually behave like a living democratic body—holding meetings, electing office-bearers, enrolling members, filing audits and answering the Registrar—while every new record risks exposing that its members and decisions are invented.",
+      "episode_estimate": 150,
       "cast": [
         {
-          "name_or_role": "The executor",
-          "motive": "Control of the estate and personal enrichment",
+          "name_or_role": "The former society secretary",
+          "motive": "Recover control of a dead society and convert it into access to land.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The forged-will witnesses",
-          "motive": "Money, pressure, or loyalty to the executor",
+          "name_or_role": "The builder-director",
+          "motive": "Acquire government land through a paper membership structure rather than genuine residents.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The excluded relatives",
-          "motive": "Recovering inheritance and exposing the probate fraud",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The probate judge",
-          "motive": "Defending the court’s process and reputation",
+          "name_or_role": "Employees and relatives inserted into the committee",
+          "motive": "Money, employment and protection from the people who placed them there.",
           "spinoff_potential": "med"
         },
         {
-          "name_or_role": "Handwriting experts",
-          "motive": "Professional authority and the danger of being wrong",
+          "name_or_role": "The Registrar of Cooperative Societies",
+          "motive": "Decide whether the revived society is genuine or a forged vehicle for land allotment.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The real former members",
+          "motive": "Prevent their names and signatures from being used to steal the society’s identity.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "CBI investigators and handwriting experts",
+          "motive": "Reconstruct a conspiracy from signatures, affidavits and contradictory membership lists.",
+          "spinoff_potential": "high"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 9,
+        "emotional_immediacy": 8,
+        "conflict": 9,
+        "cast_depth": 9,
+        "total": 43
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The case involves named individuals and public officials whose legal status and reputational interests require care.",
+          "Change the society, land authority, builder, locations and member identities.",
+          "Use the court’s findings at the charge-framing stage accurately; do not imply a final conviction where the opened order only records a prima facie prosecution case."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://indiankanoon.org/doc/108211149/",
+        "https://indiankanoon.org/docfragment/108211149/?formInput=Criminal+conspiration"
+      ],
+      "facts": [],
+      "why_this_sells": "The listener understands the terror of discovering that their signature, membership and home can be stolen by a committee that exists only on paper.",
+      "why_not": "Its central prize is institutional land rather than immediate cash, so the adaptation needs a romance, family or eviction storyline to create a faster emotional hook.",
+      "domain": "indiankanoon.org",
+      "winner": false,
+      "id": "e4248ac249ee",
+      "url": "https://indiankanoon.org/doc/108211149/",
+      "source": "websearch",
+      "text": "After a Delhi cooperative housing society is officially dead, builders and insiders allegedly resurrect it with forged affidavits, fake members and invented meetings to reach subsidised government land. A society that had been wound up was allegedly revived through forged documents, fabricated general-body proceedings, fake member lists, forged affidavits and employees or relatives placed on its management committee.",
+      "corroboration": []
+    },
+    {
+      "title": "The Power of Attorney Family",
+      "category": "FAMILY BETRAYAL",
+      "one_line": "A younger brother discovers that his elder brother allegedly used their elderly parents' power of attorney to move three property settlements toward his own wife and son, triggering a nine-year civil fight and a revived criminal case.",
+      "year": "2026",
+      "where": "Chennai, Tamil Nadu, India",
+      "mechanism": "The elder brother allegedly exceeded a limited power of attorney, obtained settlement deeds from medically vulnerable parents, and used those deeds for his immediate family's proprietary benefit.",
+      "engine": "The same documents produce parallel civil and criminal battles, while every hearing reopens questions about parental capacity, the meaning of the power of attorney, and whether the family can still live together.",
+      "episode_estimate": 220,
+      "cast": [
+        {
+          "name_or_role": "The younger brother",
+          "motive": "He wants the family property deal investigated as a betrayal rather than dismissed as a civil disagreement.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The elder brother",
+          "motive": "He wants to preserve the settlement deeds and the property transferred toward his household.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The elderly father and mother",
+          "motive": "Their capacity, intentions and signatures become the contested centre of the family war.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The elder brother's wife",
+          "motive": "She allegedly benefits from the disputed settlement deeds and must defend her title.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The elder brother's son",
+          "motive": "He is connected to the disputed transfer and a separate civil case over the property.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Civil and criminal courts",
+          "motive": "Different legal systems must decide overlapping versions of the same family betrayal.",
           "spinoff_potential": "med"
         }
       ],
@@ -480,277 +1635,140 @@
         "total": 41
       },
       "clearance": {
-        "status": "greenlight",
+        "status": "fictionalize_first",
         "reasons": [
-          "The Supreme Court litigation dates to the nineteenth century.",
-          "All principal actors are historical figures.",
-          "The case is a public legal record."
+          "The matter is recent, the family members may be living private individuals, and the allegations remain subject to trial.",
+          "Change names, city, property documents and medical details; combine the court proceedings into fictional tribunals.",
+          "Avoid presenting the elder brother's alleged misuse of authority as proven until a fictional trial establishes it."
         ]
       },
       "prior_adaptations": [],
       "sources": [
-        "https://caselaw.findlaw.com/court/us-supreme-court/88/503.html"
+        "https://economictimes.indiatimes.com/wealth/legal/will/father-gave-elder-son-poa-and-property-settlement-deeds-younger-brother-files-forgery-case-against-him-and-nephew-files-civil-case-sc-orders-criminal-trial/articleshow/128092798.cms?from=mdr"
       ],
-      "why_this_sells": "The listener instantly understands the betrayal of opening a dead relative’s will and finding that someone else has rewritten your bloodline.",
-      "why_not": "The surviving record gives a powerful legal skeleton but fewer intimate scenes than the strongest candidates.",
-      "domain": "caselaw.findlaw.com",
+      "facts": [],
+      "why_this_sells": "Many listeners recognise the terror of signing family papers in old age and discovering that the person trusted to register them has rewritten the inheritance.",
+      "why_not": "The core legal mechanism is powerful but document-heavy, so the serial would need a strong domestic-emotional wrapper to prevent the first arc becoming courtroom exposition.",
+      "domain": "economictimes.indiatimes.com",
       "winner": false,
-      "id": "620038461f63",
-      "url": "https://caselaw.findlaw.com/court/us-supreme-court/88/503.html",
+      "id": "3ab480927b63",
+      "url": "https://economictimes.indiatimes.com/wealth/legal/will/father-gave-elder-son-poa-and-property-settlement-deeds-younger-brother-files-forgery-case-against-him-and-nephew-files-civil-case-sc-orders-criminal-trial/articleshow/128092798.cms?from=mdr",
       "source": "websearch",
-      "text": "After a powerful man dies, an executor manufactures a will, recruits witnesses, and persuades a probate court to bless a document that turns the dead man’s fortune into a private machine. A forged will was supported with false witness testimony and handwriting claims, then admitted to probate while interested relatives received no meaningful notice.",
+      "text": "A younger brother discovers that his elder brother allegedly used their elderly parents' power of attorney to move three property settlements toward his own wife and son, triggering a nine-year civil fight and a revived criminal case. The elder brother allegedly exceeded a limited power of attorney, obtained settlement deeds from medically vulnerable parents, and used those deeds for his immediate family's proprietary benefit.",
       "corroboration": []
     },
     {
-      "title": "The Rosenheim Poltergeist: The Office That Accused Everyone",
-      "category": "SUPERNATURAL INTRUSION",
-      "one_line": "Phones ring by themselves, lights swing, bills vanish, and electrical instruments misbehave inside a law office until engineers, parapsychologists, skeptics, and staff members begin investigating one another.",
-      "year": "1967–1970",
-      "where": "Rosenheim, Bavaria, West Germany",
-      "mechanism": "A workplace experienced alleged unexplained disturbances, while competing investigators argued over psychic activity, fraud, mismeasurement, and deliberate tricks involving the office’s fixtures.",
-      "engine": "The office remains a sealed arena where each new disturbance produces a new suspect, a new investigator, and a new theory that can be true only if someone else is lying.",
+      "title": "The False Will in the In-Laws' House",
+      "category": "FAMILY BETRAYAL",
+      "one_line": "A widow fights her in-laws after a registered will and false affidavit allegedly turn her dead husband's property into their possession, forcing her to fight for both her marriage's memory and her legal share.",
+      "year": "2021",
+      "where": "Ferozepur district, Punjab, India",
+      "mechanism": "The in-laws allegedly rely on a forged registered will and false affidavit to secure mutation and claim the deceased husband's property against his widow.",
+      "engine": "The widow's criminal complaint and civil partition case move on separate tracks, creating a permanent contest between family testimony, registration records, mutation entries and competing versions of the dead man's wishes.",
       "episode_estimate": 120,
       "cast": [
         {
-          "name_or_role": "The law-firm proprietor",
-          "motive": "Protecting his office, reputation, and authority over the investigation",
+          "name_or_role": "The widow complainant",
+          "motive": "She wants the share she says was taken from her after her husband's death.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The young employee at the center of the claims",
-          "motive": "Escape from blame, attention, boredom, or an alleged psychic pressure",
+          "name_or_role": "The parents-in-law",
+          "motive": "They claim the registered will gives them a lawful share and accuse the widow of weaponising criminal law.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Hans Bender",
-          "motive": "Proving parapsychology through a famous case",
+          "name_or_role": "The deceased husband",
+          "motive": "His alleged will becomes the only voice left in a fight between his wife and his birth family.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Electrical engineers",
-          "motive": "Finding a physical explanation and protecting technical credibility",
-          "spinoff_potential": "high"
+          "name_or_role": "The civil-court lawyers",
+          "motive": "They use the property dispute to pressure the opposing family outside the criminal case.",
+          "spinoff_potential": "med"
         },
         {
-          "name_or_role": "The skeptical magician and journalists",
-          "motive": "Exposing fraud and humiliating investigators who overclaim",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The office staff",
-          "motive": "Keeping their jobs while deciding whether the phenomenon is real",
+          "name_or_role": "Mutation and registration officials",
+          "motive": "Their records may validate or unravel the inheritance claim.",
           "spinoff_potential": "med"
         }
       ],
       "scores": {
-        "engine_longevity": 8,
-        "hook_density": 9,
-        "emotional_immediacy": 9,
+        "engine_longevity": 7,
+        "hook_density": 8,
+        "emotional_immediacy": 8,
         "conflict": 8,
-        "cast_depth": 9,
-        "total": 43
+        "cast_depth": 8,
+        "total": 39
       },
       "clearance": {
         "status": "fictionalize_first",
         "reasons": [
-          "Several real witnesses and investigators may have living relatives or surviving associates.",
-          "Change names and use composite office employees and investigators.",
-          "Present supernatural claims as disputed allegations rather than established fact."
+          "The case involves living private family members and unresolved allegations.",
+          "Change all names, locations and property specifics; make the family structure fictional and composite.",
+          "Frame the will and affidavit as disputed documents unless a later court finding establishes their status."
         ]
       },
-      "prior_adaptations": [
-        "The event has appeared in paranormal books and articles, but no specific feature drama or serialized adaptation of the Rosenheim office case was located in the reviewed sources."
-      ],
+      "prior_adaptations": [],
       "sources": [
-        "https://en.wikipedia.org/wiki/Rosenheim_poltergeist_claim",
-        "https://www.cia.gov/readingroom/docs/NSA-RDP96X00790R000100030008-7.pdf"
+        "https://indiankanoon.org/doc/89163597/"
       ],
-      "why_this_sells": "The fear is not a haunted castle but a normal workplace where every ringing phone can prove that a colleague is lying.",
-      "why_not": "The case is evidentially disputed, so the serial needs a deliberate believer-versus-skeptic structure rather than pretending the haunting is settled fact.",
-      "domain": "en.wikipedia.org",
+      "facts": [],
+      "why_this_sells": "The fear is immediate: after a spouse dies, the family that should shelter the widow becomes the machine trying to evict her from his life and property.",
+      "why_not": "It is a strong but familiar forged-will pattern, without the bizarre identity-erasure mechanism that makes the top two candidates stand out.",
+      "domain": "indiankanoon.org",
       "winner": false,
-      "id": "75aa8120a8b8",
-      "url": "https://en.wikipedia.org/wiki/Rosenheim_poltergeist_claim",
+      "id": "e5b75ab97cc0",
+      "url": "https://indiankanoon.org/doc/89163597/",
       "source": "websearch",
-      "text": "Phones ring by themselves, lights swing, bills vanish, and electrical instruments misbehave inside a law office until engineers, parapsychologists, skeptics, and staff members begin investigating one another. A workplace experienced alleged unexplained disturbances, while competing investigators argued over psychic activity, fraud, mismeasurement, and deliberate tricks involving the office’s fixtures.",
+      "text": "A widow fights her in-laws after a registered will and false affidavit allegedly turn her dead husband's property into their possession, forcing her to fight for both her marriage's memory and her legal share. The in-laws allegedly rely on a forged registered will and false affidavit to secure mutation and claim the deceased husband's property against his widow.",
       "corroboration": []
     },
     {
-      "title": "The Baron de Richemont: The Prisoner Who Claimed the French Crown",
-      "category": "DENIED IDENTITY",
-      "one_line": "A man emerges from imprisonment claiming to be the royal child who supposedly died in a revolutionary prison, then must outlast rival claimants, hostile governments, skeptical witnesses, and his own shifting identity.",
-      "year": "1818–1859",
-      "where": "Milan, Paris, and provincial France",
-      "mechanism": "Henri Hébert, or possibly another alias, claimed to be Louis XVII, used royal symbols and supporters, survived prosecution, escaped imprisonment, and continued the claim after official rejection.",
-      "engine": "Every rival claimant, sympathetic aristocrat, hostile official, and public test forces the claimant to produce more proof while making retreat impossible.",
-      "episode_estimate": 140,
+      "title": "The Twenty-Thousand-Rupee Field",
+      "category": "THE BARGAIN COMES DUE",
+      "one_line": "A family signs away several parcels of land for a tiny emergency loan, then spends years trying to pay the money back before the lender’s mutation entry becomes permanent.",
+      "year": "1993-2020",
+      "where": "Raigarh, Chhattisgarh, India",
+      "mechanism": "A registered sale deed was allegedly used as security for a ₹20,000 loan, alongside a separate promise to return most of the land if the money was repaid by a deadline; the lender later pursued mutation as owner.",
+      "engine": "The bargain remains alive through repayment deadlines, revenue records, possession, legal heirs and the question of whether a stamped sale deed can conceal a loan.",
+      "episode_estimate": 150,
       "cast": [
         {
-          "name_or_role": "The Baron de Richemont",
-          "motive": "Power, money, conviction, or the need to make his assumed identity real",
+          "name_or_role": "Borrowing landowning family",
+          "motive": "Recover agricultural plots that were meant to be temporary security.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Karl Wilhelm Naundorff, rival claimant",
-          "motive": "Winning the same throne and discrediting the rival",
+          "name_or_role": "Lender and his heirs",
+          "motive": "Hold onto land legally transferred in their name despite the repayment promise.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Royalist supporters",
-          "motive": "Restoring a lost dynasty through a living symbol",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "Republican and royal authorities",
-          "motive": "Preventing a claimant from destabilizing public order",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The nun and clerical supporters",
-          "motive": "Religious conviction and loyalty to the alleged survivor",
+          "name_or_role": "Naib tahsildar",
+          "motive": "Process the mutation that can convert a private bargain into official ownership.",
           "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Sub-divisional officer",
+          "motive": "Undo or uphold the revenue entry after competing documents surface.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Trial and appellate judges",
+          "motive": "Decide whether the transaction was an outright sale or debt security.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Village witnesses",
+          "motive": "Protect local relationships while choosing which version of the bargain to support.",
+          "spinoff_potential": "high"
         }
       ],
       "scores": {
         "engine_longevity": 9,
         "hook_density": 9,
         "emotional_immediacy": 8,
-        "conflict": 8,
-        "cast_depth": 10,
-        "total": 44
-      },
-      "clearance": {
-        "status": "greenlight",
-        "reasons": [
-          "Richemont died in 1853.",
-          "The dispute concerns historical royal claimants and public institutions.",
-          "The story can be adapted without exposing living private people."
-        ]
-      },
-      "prior_adaptations": [],
-      "sources": [
-        "https://en.wikipedia.org/wiki/Baron_de_Richemont",
-        "https://www.history.com/articles/louis-xvii-death-marie-antoinette-french-revolution",
-        "https://www.treccani.it/enciclopedia/henri-ethelbert-louis-hector-hebert-detto-barone-di-richemont/"
-      ],
-      "why_this_sells": "The instant hook is a stranger saying, “I am the dead prince,” and finding adults who desperately need him to be telling the truth.",
-      "why_not": "The royal politics can overwhelm the personal identity drama unless the adaptation stays close to the claimant’s daily tests and rivalries.",
-      "domain": "en.wikipedia.org",
-      "winner": false,
-      "id": "ac0dcdcfa6dd",
-      "url": "https://en.wikipedia.org/wiki/Baron_de_Richemont",
-      "source": "websearch",
-      "text": "A man emerges from imprisonment claiming to be the royal child who supposedly died in a revolutionary prison, then must outlast rival claimants, hostile governments, skeptical witnesses, and his own shifting identity. Henri Hébert, or possibly another alias, claimed to be Louis XVII, used royal symbols and supporters, survived prosecution, escaped imprisonment, and continued the claim after official rejection.",
-      "corroboration": []
-    },
-    {
-      "title": "François Picaud: The Shoemaker Who Came Back with a Fortune",
-      "category": "REVENGE",
-      "one_line": "A bridegroom is secretly denounced by jealous friends, vanishes into prison for seven years, returns under another name with a hidden fortune, and begins dismantling the lives of everyone who betrayed him.",
-      "year": "1807–1828",
-      "where": "Paris, southern France, and Napoleonic-era prisons",
-      "mechanism": "A false accusation destroys Picaud’s wedding and liberty; after imprisonment and a chance inheritance, he returns disguised as Joseph Lucher and investigates the conspiracy before targeting its participants.",
-      "engine": "Every revenge act reveals another conspirator, another disguise, and another moral cost as the avenger must choose between exposing the original lie and becoming a new criminal power.",
-      "episode_estimate": 110,
-      "cast": [
-        {
-          "name_or_role": "François Picaud / Joseph Lucher",
-          "motive": "Punishing the friends who stole his freedom, marriage, and identity",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The jealous café owner",
-          "motive": "Resentment and desire for Picaud’s fiancée",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The false witness",
-          "motive": "Profit, fear, and trying to survive the avenger’s investigation",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The former fiancée",
-          "motive": "Security, guilt, and discovering what happened to the man she lost",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The priest who reveals the hidden fortune",
-          "motive": "Repayment, confession, and control over a secret inheritance",
-          "spinoff_potential": "med"
-        }
-      ],
-      "scores": {
-        "engine_longevity": 8,
-        "hook_density": 9,
-        "emotional_immediacy": 10,
-        "conflict": 9,
-        "cast_depth": 8,
-        "total": 44
-      },
-      "clearance": {
-        "status": "fictionalize_first",
-        "reasons": [
-          "The surviving account is partly mediated through later police memoir material and has disputed historicity.",
-          "Change names, locations, and identifying details while presenting it as a dramatized historical case.",
-          "Do not market it as a fully authenticated biography."
-        ]
-      },
-      "prior_adaptations": [
-        "Alexandre Dumas used the account as one source for The Count of Monte Cristo; the novel and its many adaptations are not direct dramatizations of the specific Picaud case."
-      ],
-      "sources": [
-        "https://www.retronews.fr/faits-divers/echo-de-presse/2018/12/20/francois-picaud-le-vrai-comte-de-monte-cristo"
-      ],
-      "why_this_sells": "The first emotional beat is universal: your friends destroy your life as a joke, then the man they buried returns rich enough to reach every one of them.",
-      "why_not": "Its best-known version may be literary reconstruction rather than secure history, making clearance and marketing language unusually important.",
-      "domain": "retronews.fr",
-      "winner": false,
-      "id": "86c7b852f678",
-      "url": "https://www.retronews.fr/faits-divers/echo-de-presse/2018/12/20/francois-picaud-le-vrai-comte-de-monte-cristo",
-      "source": "websearch",
-      "text": "A bridegroom is secretly denounced by jealous friends, vanishes into prison for seven years, returns under another name with a hidden fortune, and begins dismantling the lives of everyone who betrayed him. A false accusation destroys Picaud’s wedding and liberty; after imprisonment and a chance inheritance, he returns disguised as Joseph Lucher and investigates the conspiracy before targeting its participants.",
-      "corroboration": []
-    },
-    {
-      "title": "Ashimola v Samuel: The Probate Case Without a Deceased Person",
-      "category": "FAMILY BETRAYAL",
-      "one_line": "A family presents a death certificate, marriage record, and power of attorney to control an estate—until the supposedly dead woman appears in court alive and the entire inheritance story begins to unravel.",
-      "year": "2025",
-      "where": "England and Wales",
-      "mechanism": "The court found that the alleged deceased claimant was alive and that key death, marriage, and authority documents were fraudulent or likely fraudulent.",
-      "engine": "The living claimant must dismantle a paper family built around her death while every document creates a new question about who benefited, who signed, and who knew.",
-      "episode_estimate": 85,
-      "cast": [
-        {
-          "name_or_role": "The living claimant",
-          "motive": "Reclaiming identity, property, and control over her own legal existence",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The alleged spouse or beneficiary",
-          "motive": "Obtaining property and maintaining the false death narrative",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "Relatives and estate beneficiaries",
-          "motive": "Protecting distributions already received",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "Solicitors and document handlers",
-          "motive": "Separating professional negligence from deliberate fraud",
-          "spinoff_potential": "high"
-        },
-        {
-          "name_or_role": "The judge",
-          "motive": "Untangling an unusually chaotic probate proceeding",
-          "spinoff_potential": "med"
-        }
-      ],
-      "scores": {
-        "engine_longevity": 8,
-        "hook_density": 9,
-        "emotional_immediacy": 9,
         "conflict": 10,
         "cast_depth": 8,
         "total": 44
@@ -758,159 +1776,586 @@
       "clearance": {
         "status": "fictionalize_first",
         "reasons": [
-          "The case is recent and involves living private individuals.",
-          "Names, locations, family relationships, and point of view must change.",
-          "The adaptation should be based on the public judgment, not additional allegations about the parties."
+          "The court record identifies private parties and their successors.",
+          "Change names, village, survey numbers and loan amount.",
+          "Use the legal dispute as the skeleton but create composite family members and revenue officials."
         ]
       },
       "prior_adaptations": [],
       "sources": [
-        "https://www.nelsonslaw.co.uk/the-probate-case-without-a-deceased-person/"
+        "https://indiankanoon.org/doc/8679687/"
       ],
-      "why_this_sells": "The listener immediately understands the terror of discovering that official paperwork has declared you dead and given your family’s future to someone else.",
-      "why_not": "The real case is too recent and legally sensitive for a close adaptation, so the commercial version must become a clearly fictionalized inheritance thriller.",
-      "domain": "nelsonslaw.co.uk",
+      "facts": [],
+      "why_this_sells": "A listener understands the terror immediately: a small debt can swallow fields, records and the family’s future.",
+      "why_not": "The strongest reversal arrives through legal doctrine and may need a more emotionally active family wrapper to sustain daily cliffhangers.",
+      "domain": "indiankanoon.org",
       "winner": false,
-      "id": "d8073844a351",
-      "url": "https://www.nelsonslaw.co.uk/the-probate-case-without-a-deceased-person/",
+      "id": "d3efd47ed0e4",
+      "url": "https://indiankanoon.org/doc/8679687/",
       "source": "websearch",
-      "text": "A family presents a death certificate, marriage record, and power of attorney to control an estate—until the supposedly dead woman appears in court alive and the entire inheritance story begins to unravel. The court found that the alleged deceased claimant was alive and that key death, marriage, and authority documents were fraudulent or likely fraudulent.",
+      "text": "A family signs away several parcels of land for a tiny emergency loan, then spends years trying to pay the money back before the lender’s mutation entry becomes permanent. A registered sale deed was allegedly used as security for a ₹20,000 loan, alongside a separate promise to return most of the land if the money was repaid by a deadline; the lender later pursued mutation as owner.",
       "corroboration": []
     },
     {
-      "title": "The Tichborne Claimant",
-      "category": "DENIED IDENTITY",
-      "one_line": "A massive man from Australia claims to be the missing heir to an English estate, wins one grieving mother, divides an entire family, and turns his identity into the longest courtroom war of his age.",
-      "year": "1866–1898",
-      "where": "Australia and England",
-      "mechanism": "Arthur Orton presented himself as the lost Sir Roger Tichborne, secured Lady Tichborne’s support, attracted witnesses and money, lost the civil claim, then faced a perjury prosecution and continued campaigning after conviction.",
-      "engine": "Every supporter’s testimony creates a counter-test, every contradiction produces a new explanation, and the claimant’s public movement survives even after the courtroom rejects him.",
-      "episode_estimate": 180,
+      "title": "The Land Deal That Became a Thirty-Lakh Promise",
+      "category": "THE BARGAIN COMES DUE",
+      "one_line": "A Bangalore land intermediary takes ₹5 lakh to settle a disputed family property, disappears from the chain of promises and leaves behind cheques that inflate the debt fivefold.",
+      "year": "2013-2025",
+      "where": "Kodigehalli and K.R. Puram, Bengaluru, Karnataka, India",
+      "mechanism": "Money was advanced toward a disputed 1-acre-33-gunta property; after the promised settlement failed, the accused acknowledged repayment in police correspondence, eventually promising ₹10 lakh against the original ₹5 lakh while the complainant allegedly demanded ₹30 lakh.",
+      "engine": "The bargain mutates every time it is renegotiated: land settlement, advance, police complaint, written admission, replacement promise and dishonoured cheque create a new countdown.",
+      "episode_estimate": 125,
       "cast": [
         {
-          "name_or_role": "The Claimant / Arthur Orton",
-          "motive": "Inheritance, status, public belief, or genuine self-invention",
+          "name_or_role": "Cash-paying purchaser",
+          "motive": "Recover money committed to land that never became transferable.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Lady Tichborne",
-          "motive": "Recovering the son she believes survived",
+          "name_or_role": "Property-holder representative",
+          "motive": "Use access to a disputed family parcel to attract advances and delay repayment.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The Tichborne family",
-          "motive": "Protecting the estate and stopping an impostor",
+          "name_or_role": "Jayanth Enterprises intermediary",
+          "motive": "Control the money trail while claiming the transaction belongs to another party.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Edward Kenealy",
-          "motive": "Fame, radical politics, and defending the claimant at any cost",
+          "name_or_role": "Family co-owners of the land",
+          "motive": "Protect inherited property caught inside someone else’s promise.",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The former servants and witnesses",
-          "motive": "Memory, money, loyalty, and fear of public humiliation",
+          "name_or_role": "Police station officer",
+          "motive": "Record a settlement without deciding whether the underlying land bargain was legitimate.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Cheque-bounce court",
+          "motive": "Turn a failed private promise into a criminally enforceable payment dispute.",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 10,
+        "emotional_immediacy": 8,
+        "conflict": 10,
+        "cast_depth": 9,
+        "total": 45
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The judgment concerns recent private individuals and a liveable property dispute.",
+          "Change names, company name, land details and sums.",
+          "Make the protagonist a fictional buyer and use composite co-owners and intermediaries."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://indiankanoon.org/doc/29345377/"
+      ],
+      "facts": [],
+      "why_this_sells": "The recognisable fear is paying to unlock a dream property and then watching every promise to refund become larger, later and less believable.",
+      "why_not": "The story is driven more by financial escalation and documents than by a single intimate household, so the adaptation needs a strong family or romance wrapper.",
+      "domain": "indiankanoon.org",
+      "winner": false,
+      "id": "2d187ea18726",
+      "url": "https://indiankanoon.org/doc/29345377/",
+      "source": "websearch",
+      "text": "A Bangalore land intermediary takes ₹5 lakh to settle a disputed family property, disappears from the chain of promises and leaves behind cheques that inflate the debt fivefold. Money was advanced toward a disputed 1-acre-33-gunta property; after the promised settlement failed, the accused acknowledged repayment in police correspondence, eventually promising ₹10 lakh against the original ₹5 lakh while the complainant allegedly demanded ₹30 lakh.",
+      "corroboration": []
+    },
+    {
+      "title": "The House-and-Shop Security Agreement",
+      "category": "THE BARGAIN COMES DUE",
+      "one_line": "A small-town businessman borrows ₹1.5 lakh, agrees to repay it in thirty-six instalments and signs a sale agreement that the lender later treats as a ticket to the entire house and shop.",
+      "year": "1986-2007",
+      "where": "Bhavani, Erode district, Tamil Nadu, India",
+      "mechanism": "A borrower says a sale agreement for ₹2 lakh was actually security for a ₹1.5 lakh loan carrying roughly 36% annual interest, with property papers taken as additional security and repayment spread over thirty-six instalments.",
+      "engine": "Every instalment becomes a test of the original bargain: loan or sale, interest or purchase price, security or ownership, with appeals and newly produced documents reopening the deal years later.",
+      "episode_estimate": 140,
+      "cast": [
+        {
+          "name_or_role": "House-and-shop owner",
+          "motive": "Raise emergency capital without surrendering the premises that support the family.",
           "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Financier",
+          "motive": "Convert a high-interest loan and signed agreement into permanent control of valuable property.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Borrower’s family business partners",
+          "motive": "Keep the shop operating while the title dispute threatens the income source.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Trial-court witnesses",
+          "motive": "Prove whether the document was understood as a sale or merely security.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Appellate judges",
+          "motive": "Reopen the case when additional documents appear years later.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Document-producing financier witnesses",
+          "motive": "Establish a pattern of lending and the real purpose of the agreement.",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 9,
+        "emotional_immediacy": 8,
+        "conflict": 10,
+        "cast_depth": 8,
+        "total": 43
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The case is old but the identities and successors are not confirmed deceased for clearance purposes.",
+          "Change names, town, premises and financial terms.",
+          "Retain the loan-versus-sale mechanism and the multi-stage appellate reversal."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.the-laws.com/Encyclopedia/Browse/Case?caseId=217002775100&title=r-subbu-vs-b-s-kolandaisamy"
+      ],
+      "facts": [],
+      "why_this_sells": "The fear lands instantly for any shopkeeper: the paper signed to save the business may be the same paper that takes it away.",
+      "why_not": "Its long legal timeline is excellent for a serial engine but needs invented domestic scenes because the accessible record is heavier on procedural history than personal life.",
+      "domain": "the-laws.com",
+      "winner": false,
+      "id": "5b72eabec5d4",
+      "url": "https://www.the-laws.com/Encyclopedia/Browse/Case?caseId=217002775100&title=r-subbu-vs-b-s-kolandaisamy",
+      "source": "websearch",
+      "text": "A small-town businessman borrows ₹1.5 lakh, agrees to repay it in thirty-six instalments and signs a sale agreement that the lender later treats as a ticket to the entire house and shop. A borrower says a sale agreement for ₹2 lakh was actually security for a ₹1.5 lakh loan carrying roughly 36% annual interest, with property papers taken as additional security and repayment spread over thirty-six instalments.",
+      "corroboration": []
+    },
+    {
+      "title": "The Sheo Grid Ghost Shift",
+      "category": "SUPERNATURAL INTRUSION",
+      "one_line": "Night workers at a Rajasthan power station hear trucks, see stones thrown and report a dead worker’s ghost—while police suspect someone is clearing the station for theft.",
+      "year": "2015",
+      "where": "Sheo, Barmer district, Rajasthan, India",
+      "mechanism": "A supposedly haunted electricity sub-station becomes an overnight battleground where employees, tantriks and police interpret unexplained sounds and movement as either ghosts or a cover for equipment theft.",
+      "engine": "Every night shift creates a live locked-location mystery: protect the station, identify the intruder, test the haunting and decide whether the dead worker is warning them or hiding the crime.",
+      "episode_estimate": 120,
+      "cast": [
+        {
+          "name_or_role": "The frightened sub-station employees",
+          "motive": "Survive night duty and force authorities to take the haunting seriously.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The deceased former worker’s memory",
+          "motive": "The workers connect the supernatural activity to his death on duty.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "Local tantriks",
+          "motive": "Prove the presence is spiritual while avoiding responsibility for failing to remove it.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The station chief engineer",
+          "motive": "Keep the grid operating and prevent panic among staff.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The police station house officer",
+          "motive": "Find a practical explanation and stop a possible equipment theft.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The suspected thieves",
+          "motive": "Use fear and darkness to move government equipment—or remain falsely accused.",
+          "spinoff_potential": "high"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 9,
+        "emotional_immediacy": 10,
+        "conflict": 8,
+        "cast_depth": 8,
+        "total": 43
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The incident is recent enough that workers and officials may be identifiable.",
+          "Change the station, district, employee details and the reported death.",
+          "Use a fictional utility site and keep the ghost-versus-theft question unresolved."
+        ]
+      },
+      "prior_adaptations": [
+        "The general haunted-workplace premise is common, but no specific adaptation of the Sheo grid sub-station incident was identified in the sources opened."
+      ],
+      "sources": [
+        "https://www.hindustantimes.com/india/ghost-trouble-in-rajasthan-power-station-workers-approach-cops/story-m8YJ2bnX14X31nKs4zaNLP.html"
+      ],
+      "facts": [],
+      "why_this_sells": "Indian listeners understand the terror of being ordered to work alone at night in a remote government facility where even the police cannot explain what is happening.",
+      "why_not": "The raw incident may be a short theft scare rather than a true haunting, so the serial needs a fictional hidden network behind the nightly disturbances.",
+      "domain": "hindustantimes.com",
+      "winner": false,
+      "id": "4c14f19950c7",
+      "url": "https://www.hindustantimes.com/india/ghost-trouble-in-rajasthan-power-station-workers-approach-cops/story-m8YJ2bnX14X31nKs4zaNLP.html",
+      "source": "websearch",
+      "text": "Night workers at a Rajasthan power station hear trucks, see stones thrown and report a dead worker’s ghost—while police suspect someone is clearing the station for theft. A supposedly haunted electricity sub-station becomes an overnight battleground where employees, tantriks and police interpret unexplained sounds and movement as either ghosts or a cover for equipment theft.",
+      "corroboration": []
+    },
+    {
+      "title": "The Factory That Lost Its Money to Ghosts",
+      "category": "SUPERNATURAL INTRUSION",
+      "one_line": "A failing family factory is declared haunted by a tantrik, who performs rituals, promises money will materialise and warns that a daughter will die if the spirit is not removed.",
+      "year": "2003–2011 court proceedings",
+      "where": "Mumbai and Vasai, Maharashtra, India",
+      "mechanism": "A spiritual fraudster converts business losses into a supernatural diagnosis, repeatedly stages rituals inside the factory and uses the alleged ghost to extract money and obedience.",
+      "engine": "The factory’s debt, failed rituals and escalating supernatural threats keep the family returning to the healer, while each new ritual can expose another accomplice or deepen the possibility of a staged haunting.",
+      "episode_estimate": 150,
+      "cast": [
+        {
+          "name_or_role": "Abdul Rauf, the factory operator",
+          "motive": "Save a heavily indebted business and believe the supernatural explanation for its losses.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The brother-in-law and business partner",
+          "motive": "Recover the factory and money while deciding whether to expose the spiritualist.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The alleged tantrik",
+          "motive": "Use fear of ghosts and promises of magical wealth to extract repeated payments.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The tantrik’s uncle and ritual accomplices",
+          "motive": "Perform staged voices, bundles and money rituals while remaining hidden behind the spiritual authority.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The factory workers",
+          "motive": "Keep working despite the haunting claims and unexplained nighttime activity.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The bank and recovery agents",
+          "motive": "Recover the industrial loan as the owners chase occult solutions.",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 10,
+        "emotional_immediacy": 8,
+        "conflict": 8,
+        "cast_depth": 8,
+        "total": 42
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The court record concerns identifiable complainants and accused persons.",
+          "Change the factory, city, amounts, family relationships and spiritualist identity.",
+          "Frame the supernatural elements as allegations and staged claims, not established fact."
+        ]
+      },
+      "prior_adaptations": [
+        "The broad idea of a fraudster using exorcism to exploit a family is familiar, but the specific factory, staged money bundles and threatened daughter were not found as a named film or series adaptation."
+      ],
+      "sources": [
+        "https://indiankanoon.org/doc/977277/"
+      ],
+      "facts": [],
+      "why_this_sells": "The fear is brutally immediate: when a business collapses, someone tells the family the building is haunted—and charges them to save it.",
+      "why_not": "The case ultimately reads more clearly as occult fraud than supernatural intrusion, so its horror depends on atmosphere and the possibility that one unexplained event was real.",
+      "domain": "indiankanoon.org",
+      "winner": false,
+      "id": "edf225a65538",
+      "url": "https://indiankanoon.org/doc/977277/",
+      "source": "websearch",
+      "text": "A failing family factory is declared haunted by a tantrik, who performs rituals, promises money will materialise and warns that a daughter will die if the spirit is not removed. A spiritual fraudster converts business losses into a supernatural diagnosis, repeatedly stages rituals inside the factory and uses the alleged ghost to extract money and obedience.",
+      "corroboration": []
+    },
+    {
+      "title": "The Haunted House Instagram Trap",
+      "category": "SUPERNATURAL INTRUSION",
+      "one_line": "A young online tantrik sends a woman fake ghost images, convinces her that spirits occupy her home and turns a private fear into a nationwide ritual business.",
+      "year": "2023–2025",
+      "where": "Delhi and Jhunjhunu, Rajasthan, India",
+      "mechanism": "An occultist uses Instagram advertising, fabricated ghost images and remote rituals to make victims believe their homes are haunted, then demands payment for exorcism.",
+      "engine": "Every new follower can become a victim, every alleged spirit can require another paid ritual and every police tracing step can reveal a larger digital network.",
+      "episode_estimate": 100,
+      "cast": [
+        {
+          "name_or_role": "The Delhi complainant",
+          "motive": "Remove the supposed spirits and recover money after the healer stops responding.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The online tantrik",
+          "motive": "Scale fear through social media while hiding behind aliases and paid advertising.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The other reported victims",
+          "motive": "Solve family and personal problems through increasingly expensive rituals.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "Cybercrime investigators",
+          "motive": "Trace accounts, phone numbers, bank transactions and the operator’s real identity.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The ad and payment intermediaries",
+          "motive": "Profit from or conceal the digital pipeline that feeds victims to the healer.",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 9,
+        "emotional_immediacy": 10,
+        "conflict": 8,
+        "cast_depth": 7,
+        "total": 42
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The incident is recent and involves living private individuals.",
+          "Change all names, online handles, locations and victim details.",
+          "Build the serial around a fictional composite of multiple complaints rather than exposing one real complainant."
+        ]
+      },
+      "prior_adaptations": [
+        "Online occult scams are a familiar news pattern, but no specific dramatisation of this 2025 Delhi–Rajasthan case was identified in the sources opened."
+      ],
+      "sources": [
+        "https://www.ndtv.com/india-news/exorcising-ghosts-solving-problems-how-a-fake-tantrik-duped-woman-9445908"
+      ],
+      "facts": [],
+      "why_this_sells": "The listener’s own home and phone become the haunted location when a stranger can send a fake ghost image and make the fear feel real.",
+      "why_not": "Its real mechanism is sustained fraud rather than an unexplained supernatural presence, placing it close to THE LONG DECEPTION.",
+      "domain": "ndtv.com",
+      "winner": false,
+      "id": "48d38eeba168",
+      "url": "https://www.ndtv.com/india-news/exorcising-ghosts-solving-problems-how-a-fake-tantrik-duped-woman-9445908",
+      "source": "websearch",
+      "text": "A young online tantrik sends a woman fake ghost images, convinces her that spirits occupy her home and turns a private fear into a nationwide ritual business. An occultist uses Instagram advertising, fabricated ghost images and remote rituals to make victims believe their homes are haunted, then demands payment for exorcism.",
+      "corroboration": []
+    },
+    {
+      "title": "The Man With Two Wives, Two Names and Two Vehicle Registrations",
+      "category": "THE DOUBLE LIFE",
+      "one_line": "In Odisha, one travelling-business owner allegedly lived as Bitu Biswas in Jajpur and Soleman Shaik in Murshidabad, with a wife, identity documents and vehicle attached to each life. ([newindianexpress.com](https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html))",
+      "year": "2019",
+      "where": "Jajpur Road, Odisha and Murshidabad, West Bengal, India",
+      "mechanism": "Two parallel identities were allegedly maintained across state lines: separate Aadhaar and voter IDs, separate marriages, separate vehicles and separate local histories. ([newindianexpress.com](https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html))",
+      "engine": "Each family, document, business contact and government record can discover a contradiction that threatens to collapse the other household.",
+      "episode_estimate": 90,
+      "cast": [
+        {
+          "name_or_role": "The man using both identities",
+          "motive": "Maintaining two marriages, businesses and social worlds without letting either family meet",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The Jajpur wife",
+          "motive": "Protecting her marriage and discovering what the husband’s documents conceal",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The Murshidabad wife",
+          "motive": "Believing the second identity is the man’s only real life",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The travel-business clients",
+          "motive": "Following a businessman whose records and promises do not match",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The police investigator",
+          "motive": "Linking two names, two states and two sets of identity documents",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 8,
+        "hook_density": 8,
+        "emotional_immediacy": 9,
+        "conflict": 8,
+        "cast_depth": 8,
+        "total": 41
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The report concerns a living private individual and an FIR-stage investigation.",
+          "Change names, religion, districts, businesses, documents and the precise family structure.",
+          "Treat the identity allegations as allegations unless a court record establishes them."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html"
+      ],
+      "facts": [],
+      "why_this_sells": "It turns the everyday Indian document trail—Aadhaar, voter ID, vehicle papers and marriage records—into a ticking bomb between two ordinary households.",
+      "why_not": "The available report is only a short FIR-based account, so its engine is powerful but the emotional and investigative middle is largely undocumented.",
+      "domain": "newindianexpress.com",
+      "winner": false,
+      "id": "45455348aae8",
+      "url": "https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html",
+      "source": "websearch",
+      "text": "In Odisha, one travelling-business owner allegedly lived as Bitu Biswas in Jajpur and Soleman Shaik in Murshidabad, with a wife, identity documents and vehicle attached to each life. ([newindianexpress.com](https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html)) Two parallel identities were allegedly maintained across state lines: separate Aadhaar and voter IDs, separate marriages, separate vehicles and separate local histories. ([newindianexpress.com](https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html))",
+      "corroboration": []
+    },
+    {
+      "title": "The Railway Officer Who Had Seventy-Two Wives",
+      "category": "THE DOUBLE LIFE",
+      "one_line": "A Bihar man allegedly posed as a railway employee, married women across Bihar and West Bengal, lived in each house just long enough to earn trust, then disappeared after a fake transfer. ([newindianexpress.com](https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html))",
+      "year": "2014",
+      "where": "Bihar and West Bengal, India",
+      "mechanism": "Mohammad Sijam allegedly used more than a dozen aliases, changed religious presentation according to the bride’s family, wore a TTE uniform and treated each marriage as a temporary station posting. ([newindianexpress.com](https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html))",
+      "engine": "Every new village is a fresh recruitment market, and every marriage produces a new household, alias, transfer story and delayed discovery.",
+      "episode_estimate": 220,
+      "cast": [
+        {
+          "name_or_role": "The railway impostor",
+          "motive": "Cash, jewellery, status and the ability to reinvent himself at every station",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The first wife to suspect the pattern",
+          "motive": "Finding the missing husband and proving that the disappearance is not an ordinary transfer",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The newest bride",
+          "motive": "Believing she has married a government employee with a secure future",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The distant wives",
+          "motive": "Comparing clues and discovering they are all married to the same man",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The railway and police network",
+          "motive": "Tracing a fake employee across districts and aliases",
+          "spinoff_potential": "med"
         }
       ],
       "scores": {
         "engine_longevity": 10,
-        "hook_density": 10,
-        "emotional_immediacy": 10,
-        "conflict": 10,
-        "cast_depth": 10,
-        "total": 50
+        "hook_density": 9,
+        "emotional_immediacy": 9,
+        "conflict": 9,
+        "cast_depth": 8,
+        "total": 45
       },
       "clearance": {
-        "status": "blocked",
+        "status": "fictionalize_first",
         "reasons": [
-          "The specific event was already dramatized in the 1998 British film The Tichborne Claimant.",
-          "The adaptation ban applies to this exact historical case, not merely to the general impostor theme."
+          "The case is recent enough that private individuals and alleged victims may still be identifiable.",
+          "Change the accused’s name, railway zone, districts, religious presentation and all bride details.",
+          "Avoid presenting the reported number of marriages as a judicially verified count unless court records are located."
         ]
       },
-      "prior_adaptations": [
-        "The Tichborne Claimant, 1998 British drama film, based on the Tichborne case."
-      ],
+      "prior_adaptations": [],
       "sources": [
-        "https://en.wikipedia.org/wiki/Tichborne_case",
-        "https://www.theguardian.com/film/movie/77593/tichborne.claimant"
+        "https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html"
       ],
-      "why_this_sells": "The listener feels the primitive shock of a stranger standing before a mother and saying he is the child everyone else buried.",
-      "why_not": "It is arguably the strongest raw serial engine here, but the exact event has already been made into a dramatic film and must be blocked.",
-      "domain": "en.wikipedia.org",
+      "facts": [],
+      "why_this_sells": "The listener understands the promise immediately: a railway job means stability, and the horror is discovering that the government uniform was the disguise.",
+      "why_not": "The mechanism is exceptionally long-running, but the article gives little detail about the first marriages, the supporting network or how the wives’ lives changed after the arrest.",
+      "domain": "newindianexpress.com",
       "winner": false,
-      "id": "6c00d403ad08",
-      "url": "https://en.wikipedia.org/wiki/Tichborne_case",
+      "id": "623666ed8593",
+      "url": "https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html",
       "source": "websearch",
-      "text": "A massive man from Australia claims to be the missing heir to an English estate, wins one grieving mother, divides an entire family, and turns his identity into the longest courtroom war of his age. Arthur Orton presented himself as the lost Sir Roger Tichborne, secured Lady Tichborne’s support, attracted witnesses and money, lost the civil claim, then faced a perjury prosecution and continued campaigning after conviction.",
+      "text": "A Bihar man allegedly posed as a railway employee, married women across Bihar and West Bengal, lived in each house just long enough to earn trust, then disappeared after a fake transfer. ([newindianexpress.com](https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html)) Mohammad Sijam allegedly used more than a dozen aliases, changed religious presentation according to the bride’s family, wore a TTE uniform and treated each marriage as a temporary station posting. ([newindianexpress.com](https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html))",
       "corroboration": []
     },
     {
-      "title": "John Darwin: The Man Who Was Alive in the Next Room",
+      "title": "The Family That Became a Different Family in Every City",
       "category": "THE DOUBLE LIFE",
-      "one_line": "A man fakes his death in a canoe accident, hides near his wife for years, and forces an entire household to perform grief while the insurance money and a new life in Panama remain just out of reach.",
-      "year": "2002–2008",
-      "where": "Hartlepool, Panama, and England",
-      "mechanism": "John Darwin staged a disappearance, lived secretly nearby, coordinated with his wife, claimed amnesia when he returned, and used the false death to pursue insurance and property plans.",
-      "engine": "The marriage, neighbors, adult children, insurers, passports, and property transactions all require the couple to keep performing the same death without contradicting one another.",
-      "episode_estimate": 100,
+      "one_line": "A Delhi family allegedly rotated through fake relatives, Navy-officer identities, army-doctor credentials and multiple marriages while using forged demand drafts to move through jewellers, car dealerships and wealthy households. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/delhi/fantastic-4-used-fake-dds-to-buy-luxuries-duped-many/articleshow/64239884.cms))",
+      "year": "2018",
+      "where": "Delhi, Punjab, Chandigarh, Goa and Mumbai, India",
+      "mechanism": "The Kaul family allegedly performed different kinship arrangements and professional identities: relatives of a Navy officer, a retired army doctor, a fake couple and multiple marital histories, all supporting a travelling fraud operation. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/delhi/fantastic-4-used-fake-dds-to-buy-luxuries-duped-many/articleshow/64239884.cms))",
+      "engine": "The family’s survival depends on continuously changing who each member is to the next target while preserving a believable shared history.",
+      "episode_estimate": 140,
       "cast": [
         {
-          "name_or_role": "John Darwin",
-          "motive": "Escaping debt and obtaining a second life",
+          "name_or_role": "The son who marries targets",
+          "motive": "Access to money, jewellery and socially respectable victims",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Anne Darwin",
-          "motive": "Financial survival, coercion, and controlling the secret",
+          "name_or_role": "The father posing as a retired army doctor",
+          "motive": "Legitimacy, access to institutions and control of the family operation",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "The adult sons",
-          "motive": "Grieving, suspicion, and deciding whether to expose their parents",
+          "name_or_role": "The mother and sister posing as relatives",
+          "motive": "Creating emotional credibility and reducing suspicion at the point of sale",
           "spinoff_potential": "high"
         },
         {
-          "name_or_role": "Insurers and investigators",
-          "motive": "Proving that the death was staged",
-          "spinoff_potential": "high"
+          "name_or_role": "The dentist bride",
+          "motive": "Trusting a marriage proposal that is actually an extraction scheme",
+          "spinoff_potential": "med"
         },
         {
-          "name_or_role": "Panamanian property intermediaries",
-          "motive": "Business, immigration, and distancing themselves from a suspicious couple",
+          "name_or_role": "Jewellers and car dealers",
+          "motive": "Recovering goods purchased with forged instruments after the family disappears",
           "spinoff_potential": "med"
         }
       ],
       "scores": {
         "engine_longevity": 8,
-        "hook_density": 10,
-        "emotional_immediacy": 9,
+        "hook_density": 9,
+        "emotional_immediacy": 8,
         "conflict": 9,
-        "cast_depth": 8,
-        "total": 44
+        "cast_depth": 9,
+        "total": 43
       },
       "clearance": {
-        "status": "blocked",
+        "status": "fictionalize_first",
         "reasons": [
-          "The exact case was dramatized by ITV as The Thief, His Wife and the Canoe in 2022.",
-          "A close retelling would duplicate an existing television drama about the same named event."
+          "The case involves living or recently living private individuals and police allegations.",
+          "Change names, family composition, cities, professions, victims and the exact financial instruments.",
+          "Use the family’s shifting performances as fiction rather than asserting every reported offence as proven."
         ]
       },
-      "prior_adaptations": [
-        "The Thief, His Wife and the Canoe, ITV drama series, 2022."
-      ],
+      "prior_adaptations": [],
       "sources": [
-        "https://www.itv.com/presscentre/presscentre/presscentre/media-releases/itv-commissions-extraordinary-story-thief-his-wife-and-canoe",
-        "https://www.itv.com/news/tyne-tees/2022-04-15/he-is-back-itv-drama-re-tells-the-story-of-the-back-from-the-dead-canoeist"
+        "https://timesofindia.indiatimes.com/city/delhi/fantastic-4-used-fake-dds-to-buy-luxuries-duped-many/articleshow/64239884.cms"
       ],
-      "why_this_sells": "The instant fear is sharing a home with a supposedly dead spouse while every family conversation is an improvised performance.",
-      "why_not": "The mechanism is excellent but the exact real event has already received a close television dramatization.",
-      "domain": "itv.com",
+      "facts": [],
+      "why_this_sells": "The fear is domestic and recognisable: the people introduced as your relatives, in-laws or respectable professionals may all be actors in one travelling family business.",
+      "why_not": "Its many fraud methods compete for attention, so the adaptation must choose the family’s rotating identities as the spine instead of becoming a generic scam anthology.",
+      "domain": "timesofindia.indiatimes.com",
       "winner": false,
-      "id": "26e6a274df6f",
-      "url": "https://www.itv.com/presscentre/presscentre/presscentre/media-releases/itv-commissions-extraordinary-story-thief-his-wife-and-canoe",
+      "id": "1f907201a6a0",
+      "url": "https://timesofindia.indiatimes.com/city/delhi/fantastic-4-used-fake-dds-to-buy-luxuries-duped-many/articleshow/64239884.cms",
       "source": "websearch",
-      "text": "A man fakes his death in a canoe accident, hides near his wife for years, and forces an entire household to perform grief while the insurance money and a new life in Panama remain just out of reach. John Darwin staged a disappearance, lived secretly nearby, coordinated with his wife, claimed amnesia when he returned, and used the false death to pursue insurance and property plans.",
+      "text": "A Delhi family allegedly rotated through fake relatives, Navy-officer identities, army-doctor credentials and multiple marriages while using forged demand drafts to move through jewellers, car dealerships and wealthy households. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/delhi/fantastic-4-used-fake-dds-to-buy-luxuries-duped-many/articleshow/64239884.cms)) The Kaul family allegedly performed different kinship arrangements and professional identities: relatives of a Navy officer, a retired army doctor, a fake couple and multiple marital histories, all supporting a travelling fraud operation. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/delhi/fantastic-4-used-fake-dds-to-buy-luxuries-duped-many/articleshow/64239884.cms))",
       "corroboration": []
     }
   ]

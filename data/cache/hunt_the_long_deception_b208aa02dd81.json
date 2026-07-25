@@ -1,0 +1,1048 @@
+{
+  "stage": "hunt_the_long_deception",
+  "saved_at": "2026-07-25T21:47:36.716903+00:00",
+  "response": {
+    "id": "resp_0f82543f5e7f83b9006a652ec48754819a9364b9eb2b4eb0a3",
+    "created_at": 1785016004.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-luna",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_0f82543f5e7f83b9006a652ec5ada8819a85e7919e3e176a3c",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS77eYsnv8e7nx4b2dKwrOQJKTFX3-1p-x0h4f8l9hH9fDLyT3r02h6GieJdaBnNKp4vAIiLho40vT45c94acJCJOgXBnjIPNpO4u1ABVTlc2WrtGnWaC1QuUkp0CqRYWLDcRtfhq0nmELfAl4M9m2eR0U7tjKyspynhnUEJ_0Lt1lQiSn1NeBQb0rWXmh1rrvoJqRMA8NLBt7K7oGCJ2jv_xaRfSs6UX268qmCUCFtQvR2PwIXWp5sXNhgOO33Y1RLmM8GzOyD3Z8Aqx31sBELkRjuUABCH-eSCSjOkuovBKAxhSCIBVgoJJjNoyTIi5J76fjnUdORoXd4IpBxGL1SMiRBTn2ICDW7jscgHnzbepJpCz9BEGEPFFiNd9_LKbmuVeNpgR7gmUXmyklLM63vl5FOXsoLru2XVA5VdCCrPvwOV55Cg-BpA6vdTqF1q22tp7yK56hDajecSEOoj3qJmN6OrD4d8kXMr510INxl8FE7hhF8emPJlSZEmKbegmDNKHDEmuzZ8sfOtBkTZd5JVO0OOUSKuOG1U1rfIQvlTAI7oiLZT_tLM_cM4BbO2vd8NVr0aMONAKYGKYrozZEVnscB-uZK4vSCp6UHwph4UvRpCUPi7FBUc01KFhjKepyAZnUsojcFRvJ5Y9rm6W5bUoU1PdgXpeuABnMkfbH0dFxhoRhxd5qaoLCEpQzsJEAyAiO6ERjazNwjhZtoxA49VRfLcV04yo92xZMG30y3mKfrgagNjuaOkA7wof3ZRyYihl_zihqC28RYdFOSL-YA8DBCfGJ_HBW912gNnpFuuXQ0q_y_sGj3Lxccrz-viK00i1t_RrkY7urhaqP2PX8Obc1EqtG5qc6Sb56j-EiUbDjdTpnxW8nZMOe40rsBYm2kEmCUnjDWZ0PKPwAHTCs10VoKoQfSPnvHzxEyOan5AyxLj8UCqFopdcEhI3HKV6y6ctWoTUcrAIhmAY6ixYmjk2i0lcyT19oqRd1035BKcNaDFT7RBvjQxKyPIMLLWq895d8H7OCY4EAvjPpEh_jdVxzeMjEGilgnXOqLJ-Uh0cnV7GeZo5FnBTqJBlomJbqbBPtCoeQD2jhLJk-_iBazj3BfqEO-r5hADNMLqLvt5rqBcA0_Rfc68DUELg66SQ3KSefY5_2DEUul1MM3aI3fkWfiYXs-2ow6CwSuAo8P__Etg0mZMxpjgle-8aNYQFsJl1pWMFJ-gEZoJmYghfqfFKQIuNX81oSTK0hTY0xyTZ4zlaR6wl7MVXx8RKW9noGO9QZ9f3RmzBX8GibUiKqLffof2M_C5Dp4_L0_NQOqJY5ZjQRLwelk-Eojksru27ZAHjp6g7_cxRsibkAyToOVAhwgO0j4T1j4J6i2zZ4lHTySHJb_VZy_Q95Xva4-vpJYF",
+        "status": null
+      },
+      {
+        "id": "ws_0f82543f5e7f83b9006a652ec6682c819a8a9fa76b2e315116",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India regional news fake institution ran for years school hospital office impersonation chargesheet",
+            "site:indiankanoon.org impersonating government office forged documents years cheating case India",
+            "India police fake court fake government office operated for years FIR chargesheet",
+            "Bangladesh Nepal Sri Lanka fake institution impersonation years court case"
+          ],
+          "query": "India regional news fake institution ran for years school hospital office impersonation chargesheet",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/179505029/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/167071330/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/191739073/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/150661287/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1579506/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/79662119/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1977008/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/india-news/ed-files-charge-sheet-against-ex-rg-kar-principal-three-others-in-laundering-case-101770389001794.html"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/120834170/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/30969730/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/51186225/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/102523562/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.mha.gov.in/sites/default/files/2024-07/MLJKMA_11072024.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://presscouncil.nic.in/Pdf/PCIREVIEWOCTOBER2023.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://enforcementdirectorate.gov.in/sites/default/files/2025-05/Annual_Report_24-25.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1049516/?type=pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.enforcementdirectorate.gov.in/media/5y2bfhhj/annual_report_24-25.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2019-pdfs/rs-24072019/3530.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1811.01806"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1t54o7f/update_2_wedding_photographer_fraud_case_fir/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/unitedstatesofindia/comments/17j2j1t"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Digital_arrest_scam"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1olmkxh/need_advice_passport_police_verification_stuck/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1t5i2pg/old_cyber_fraud_complaint_resurfaced_after_15/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1sujfpg/legal_advice_needed_corrupt_tehsildar_caught/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1i11rzi/fir_notice_from_police_without_actual_fir/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Vyapam_scam"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/hyderabad/comments/1948xh3"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Rangnath_Mishra"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Ishrat_Jahan_encounter_killing"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/r07k56"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1qfnzft/husband_received_mail_from/"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2605.17115"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1up6itf/elderly_witnesses_never_signed_the_fir_now_facing/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/l7t397"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/1982_Gonda_Encounter"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0f82543f5e7f83b9006a652ecb2270819abf674050941e6b6d",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS77ZSFOg1KJUXS7AXn-Afn9TBsjKOlaHwxoMp6K-z_9Q752pCyPPlrKIJPfuODDoHaqeligS3rznMgETIn5v1n_iSw2b6VsIeslw1qp8ssUtLAd_4fjG1C-K6V8VN7peAzrCEAB60Tye3iA-VoWmccw2xN6MW9Xz9kfCP1H6UChbimbrjN6MzTMNkbZQxXJ7tsu9oPy50UC3ffbtn2jsxXd-rb78_N6uqukDrtiwbQIHkK0TSltzyc-tOhQAttbNLDlgAnEIHnJgzD9oLzYURGeiujCTLmXnG_PyK43LIu0oYaClot4e2BirXPSmxTWnSZyLhqemMaXDB4GI914zhANqyyqtTgRJDsHgNCY8LWqJQeq6iehliK_CB9ZgwpYErtaXFHYUu4e5PX0C4nI6lQIoTCRPnutfI4C3L6FjwsRfKahQYOQXHWQgO6skaW0Hm7QtnzhzFiTKebuobsrvc8PKr9zrkeF9kXW3nH_1MGpMpxCNXZ9oHDwyBhzKqWuFEP27QYQPX163PJsGzETucU7z5qC0q52qNWj5sRwVZZqJFIPi3Cp-TSoPqz6vsjfeouF2ec3ejOjaZ-NsWdeVSwFtFXjr51okswdxlBwqPtyTLGL3ihC5qKsU-1OxUIC2uYD-eSZupg-0auaiWskP1ucnosS-Bi2U_gEoCoFbpcbl2nZh1bPHJY3OHyshT605nPVjWB5o9O182aNQRGVsjcMyjvFR0q5jH9M6EQw7-dPkzR-iF-iQtGOFe1sqYka-y0fdQ1WusP0jREC1azSeGU6KnR6ZzFQWz8UXMZPgvaFvHmLjrVuC4H6stHwIXqX7k6guyz4H5XKkYTxnQpwcRXGnuWMPlyM8dLH8AwTBYoV03T_xeUD5jlGmadqs8fOcLpuNI9R89pj8ZY2I5vlip9kdp2g7XCaBHqYtgug1FgyQQUpnoi90Tc3FcT4YHlNgAzGz7RguxH0WR8Z28_liJ0Q_I3FOcNc6n7xlRRG3bs9NBgFTBcbQVJl2UVd4nHv86yn1lr-V4TmqdVQtPkvQ9DJ_ho0v2GQWUflXwmzYBgp9ciy5Loegdv8S_MVwG7rfysZXWBSpzWB1WYOFkA11S4LGtcEL9UT6YsupzKYl_cseNM=",
+        "status": null
+      },
+      {
+        "id": "ws_0f82543f5e7f83b9006a652ecb4210819abe547c1569f21a09",
+        "action": {
+          "type": "search",
+          "queries": [
+            "\"fake government office\" India police 2023 district",
+            "\"fake collector office\" India arrested years fraud",
+            "\"fake NGO\" operated for years India forged documents police",
+            "\"fake school\" \"years\" India police certificate fraud institution"
+          ],
+          "query": "\"fake government office\" India police 2023 district",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/vadodara/fake-govt-office-case-police-bring-accused-to-city-seize-documents/articleshow/104811348.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://newsable.asianetnews.com/india/delhi-police-arrests-man-for-11-lakh-pyramid-scheme-via-fake-ngo-articleshow-szn82g7"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/23545055/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/171923443/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/cities/delhi-news/gk2-digital-arrest-cheated-14cr-were-transferred-to-1-000-bank-accounts-police-say-101768848260004-amp.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/india-today-insight/story/kotas-coaching-reset-how-the-days-of-dummy-schooling-are-over-2813187-2025-11-04"
+            },
+            {
+              "type": "url",
+              "url": "https://deshgujarat.com/2023/11/28/fake-govt-offices-scam-dahod-police-arrests-former-ias/"
+            },
+            {
+              "type": "url",
+              "url": "https://gujarati.indianexpress.com/gujarat/gujarat-thug-fraud-fake-govt-office-chota-udepur-police-govt-grant-km/213523/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/indore/inter-state-fake-mark-sheet-racket-busted-2-held/articleshow/29290736.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/education-today/news/story/bihar-education-department-to-sack-3035-government-teachers-over-fake-degrees-1830-firs-filed-2943833-2026-07-09"
+            },
+            {
+              "type": "url",
+              "url": "https://wbat.gov.in/judgement/2021/OA%20241%20of%202022_120723.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/pune/murder-convict-faces-action-for-fake-school-leaving-certificate/articleshow/18001872.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://eparlib.sansad.in/bitstream/123456789/701138/1/52176.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/unitedstatesofindia/comments/17j2j1t"
+            },
+            {
+              "type": "url",
+              "url": "https://www.standardpost.in/media/2025-08/august_1_2025_sp_puducherry.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://cioins.co.in/LIC/deathclaim/DeathClaim-Book18.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/delhi/comments/1n6p4cv"
+            },
+            {
+              "type": "url",
+              "url": "https://dans.nls.ac.in/bitstreams/c88a400c-253c-4a19-9fa3-c278d921649d/download"
+            },
+            {
+              "type": "url",
+              "url": "https://brightpunjabexpress.com/wp-content/uploads/2020/07/24-July2020-E_Paper.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndianModerate/comments/18c57q7"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/india/comments/psf9bt/fakengos_and_an_example_of_how_to_spot_one/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/TwentiesIndia/comments/1u8xlt8/5500_ias_officers_in_the_country_it_took_just_one/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/mumbai/comments/10hn9k8"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/jaipur/comments/1kuvc74"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/delhi/comments/1di0x2r"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/librandu/comments/192j3zp"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/bjpmeme/comments/192j4zz"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndiaMemes/comments/1obgusz/not_an_ngo_anymore/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/RealTeensIndia/comments/1v1j1bq/knew_this_would_happen/"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0f82543f5e7f83b9006a652ed2eac8819a8774947adee45db4",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS77jds-j-K_bL88i0KBRI6LMAuhHAhVtWEN0yNkRJVJRs_Qt_0iJy2WbqwWC83s1RCzEXSbZP-L4T7oz1LFxPbVBQHn5gKcfRb1XLo0OB9NAiPUdqY2yc-TQACWspVG7nsJGyeGiyF_3tPDkAwreWmfshoKZX12EP9-tJ8S8DGCTBiylGQiPG_ilWrb6pmg7JbH_JcmZiChm5TlquwZzMSXN5BrQoNTjLliOag0aqtAoVJ-gZD9Bgc_dIrOMsvGbvX6kTZWjMgqncDGFl0-U2xFZecmpyXOURicBopXvgWtzz19KwdxgiDSDXJBmVAlpjpr0-ukXrY3rMSaUUhRpmhw7u-s10gBPv2UIIMS1TQluLwepA9iuWboDAvkER0OKE-n22cyEpHPljvxxcy5_EtefpXoJHJ2lwmGOH3lud_uqoeU_IM3pLANcaPBlbnV7B_eRs6TojaG1Jtp67Fj74k2FBE-crvN1OWVXOdzlgGv7PgqkxC4HEkNbfSw2Q--aybGeXkRDGEJuxEEUmb2jB6keJFRp0N2yW_C38zAiGp6_DiOZyNcEOjKHSKV4XhH-elWXRVDZ420sIva3TzSIMHbohzoFARYHGQTw2z-SINxEB973sawJwwkawq0vKmW5TEWSZckOgIMDbk_Klvo86y5S6xpSbvO3YYIviHiPZbHoCTwzIBIgvkJyHvzJ5N3wA7GHs8k5vmmm3D6bBq-sR2SlK_SrTbKU7-E_twPKM5uFTrHwIKDXr9qrxrRKFj1lZ1GTAfma_nZ9DG20WDZrl6M7PlQfL4tbS5d8Ffah3V8QqaHptXAEemoaDY-JC-NwFEoH1QmtkdF25PE2uguzq1eqNQcaNuSxIDkbpvdjVeRI5fa8B7Qf7-hYcAw6tCZ8aabKW9i6-QILY6l1OWbHNPIkQ0ntVe7UmD1gYbWFCMng1lXGnG2TTVxarc2l83sUj2m73msthoCib_wl_8kcpD3bNPXCqhU4Vyc5hiWVlTGNU7NpVeA2oYt5c4a_wh_zLL-gBV8XeiE1eUT2C-vEOiBlSGF6l9khfvbuPveJc2JUrI5hNkwSh5OPRPN_vK6a8Dt0gyut8hmS14WUskdqYyp9ktMi3X-dKyXJP9mKdxcuXSklaq16fDwVRHsggs3T8iTp5zo5hsETP-KWquaNYHRrlnC_fZZ1XoA2B7CRpOtDXS_mz_lFQTkAs8rEkhAXcf1kLjJ9B2TEmCVP6Tv07OyC2f-CZ_4w1yWRDqFSvmuMQmDwpUvF-cPejOzlfHAHFt25h8Xfg-Amia2yGPdx9-7fOdJDaBLusWroB1DxTezOCJFyHqhStL0By8eoSJ3F6sc",
+        "status": null
+      },
+      {
+        "id": "ws_0f82543f5e7f83b9006a652ed3bfac819abdc2f0a73c6dfcb1",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India fake court fake judge operated for years police FIR district court",
+            "India fake university fake college operated for years police chargesheet",
+            "India fake cooperative society office years forged documents court judgment",
+            "India fake charitable trust NGO forged registration years court judgment"
+          ],
+          "query": "India fake court fake judge operated for years police FIR district court",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://api.sci.gov.in/supremecourt/2017/34072/34072_2017_12_1501_16336_Judgement_27-Aug-2019.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://delhihighcourt.nic.in/app/showFileJudgment/PMS28012026CW105322021_173521.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/31127521/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/118800305/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/108211149/"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/delhi/in-al-falah-probe-report-police-cite-ex-students-misled-by-university-red-fort-car-blast-10603440/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/196693316/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/cities/delhi-news/alfalah-university-court-takes-note-of-police-charge-sheet-101776365243585-amp.html"
+            },
+            {
+              "type": "url",
+              "url": "https://delhihighcourt.nic.in/app/showFileJudgment/67923122025CRLMA386452025_192946.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://enforcementdirectorate.gov.in/sites/default/files/latestnews/Press%20Relese-PAO-Post%20Matric%20Scholarship%20Scam-8.4.2024.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/108211149/?formInput=Criminal+conspiration"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/50279026/"
+            },
+            {
+              "type": "url",
+              "url": "https://mphc.gov.in/upload/indore/MPHCIND/2010/MCRC/3714/MCRC_3714_2010_FinalOrder_15-Jun-2015.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://it.delhigovt.nic.in/writereaddata/Odr2024712186.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://future.indiankanoon.org/doc/4700096/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.courtkutchehry.com/judgements/1070650/pk-thirwani-vs-central-bureau-of-investigation/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.business-standard.com/article/pti-stories/coop-society-formed-with-forged-docs-court-takes-note-of-complaint-118082800418_1.html"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/55786358/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Monad_University"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Dnyaneshwar_Vidyapeeth"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Al-Falah_University"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1lhorfx"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Adarsh_Housing_Society_scandal"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1sujfpg/legal_advice_needed_corrupt_tehsildar_caught/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Lawyers_Collective"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1up6g76/elderly_witnesses_never_signed_the_fir_now_facing/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Adarsh_Credit_Cooperative_Society"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1up6klk/property_related_case_concerning_mom_and_aunt_as/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1jwtzok"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1up6itf/elderly_witnesses_never_signed_the_fir_now_facing/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/mumbai/comments/1rpqmha/agreement_signed_deposit_paid_police_verification/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/VasaiVirarNSP/comments/1se6lrw/fraud_degree_racket_in_nallasopara/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/12jnwxd/delayed_transfer_of_ownership_in_coop_society/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/r07k56"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1mga75k/need_legal_help_in_fraudulent_property_case_lost/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/india/comments/1tz4fqm/authorities_seize_over_100000_fake_degrees_in/"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2311.13350"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2307.12549"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2102.03186"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2105.13562"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0f82543f5e7f83b9006a652ede4560819a948d123c994cec83",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS77I0v11ksHugqUVFe8cAJRgjekVXboqVJuLsXzoQd06rD33yhSoxU8o5Axi2_fyVNqMXcDJmzvUJl16L6g0nJqlgw3_8zrRwQ7gWU8nbi1iNX1nFpWPhckyJKUZ3oo781kRgiex2_CUNRpU7pK7b2K2BTzVbQlm9pxYuy56cectO0sa5DR9Y8tXXDNzcYCHUYWLthUQuToaD3tU2VUtxaNn3VcQrOtBVOTYZXnd2CD-D_sLBXKtzW_2zO8ivXHUkkhPsVNO9BXKJSofcMwcagJTYwzscI8KM0OLgirsrMUY-vSuxviEmnb1Hmjk5KogmqYJEjRbFZlqoEreQu_jX9edFlEKAcPdzD2bEnC2RL2eIWANiiVstMrDKV8Mmx0DUL2u-QBUwMDWdUcLE1WYlnDMXGEZKIYSdRXuc66vGG2vbGmnY-mVfVCCiqFQmd_O5jrlu40jymQjxFO-1d-M8Bp3c1QImAOCGk7_4Xj9YzDP0MSC4Nwh2S9zusysUqPYmDDwolpTzBeoAgGZ_q5008tw3zjDXDpQ0EjStW0xzZqM7v3xlxuqvGNo2_tLj_hw1pF_gzI7105PoH152Q24WntNOJttCkUucOnXYcaDIJoPcbXCUSPN6K5R3-Z51AacCxvwkU2NhQ1Wkect4U75ZD45CcsFhRotsAXHlDfZBAl1zbTL1Ef-Fm-eKeK1XXHDkqyF6cA6L0it1vUGeCqQcvwtBLsIypalKPrGeE8P6wcSHaHyQ98QzNYuBfM0R3xwy5FVGlXFIE_NFbM67IsJT-5uTnFzdITuKX9gY9UjL63n3Xo_K8BmuLbQASKFqrYrXj3c0eVXi94mR0dsOuf4b-HBl3TSFk_iOK-hfbxqSZAi2sBszUS5Tp3u6H6Yss6fW4K2MLijF5ATFg4xcL5v7xJQh1YNOloc5MA0eE7GbRgd05PBt2tsak25JS5oJOQg_4sDKdbdEhU3nV480334ONEleyjl6415kR8mhLo1uZsE_PLkDzHhTWd5c4drIUWcs1i4q-9DWKgw-XvauwZUWM1_xxJfaU9YoZwdTAjs093tLmL9d3dTKu_Z5ew7IL77SZRcZCigc1-YNhBLywX8mImOhV0Xlx-dSH9yEQjs5Ly4xc-CWwdhf2regML6251CKGU3en-FyrEj7iNc21IMLW2P2HcRdQVshGUyt37isDmqJtq__-2uojkDK5tMcOJyd0eW1mHiKGD-RkCephGKKzOzk4bvXu2s5QVC5IlXrp7Dstizeczy-5z8DmfuoMxFFBMDBBIDW1tHDw65wvH2p8XLiLFOgPDpF9lLvs6ZuKW_aXHyT3Q9d0NmYKaXn_Diiw621IiEhjOane5ggmh3bt-Ssw5pc4ZqZkJc0cbNFD33q3YjFiXThRP20Ubh-_titqKCBKjDAxIaDFDOyr6ld19k0OeYg4UssmJoE_FCh2SnYwNrFj4tpdp0Wn_CnoIAzxFlR2Lqx0iswbzUARf9w5M0QclgqRRedcF2zAFxC1o5M94eldU09X_E75ppMBhEyjuGGRsVodqmrsMUYKJW9L8XhxFOccA3qimInS4NjBR7nInhyhFdIp8k4Mdv75i6ILVT2u6gSloVv4rR29VkH3qhad9R0FRcQpT079JzUCxDjU=",
+        "status": null
+      },
+      {
+        "id": "ws_0f82543f5e7f83b9006a652edf7c6c819a9c847cd5cdd8faca",
+        "action": {
+          "type": "open_page",
+          "url": "https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0f82543f5e7f83b9006a652ee316d4819a8d25fe55e1aad799",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS77fMzYQ7Hk0HD6apsyS9sHpOwx4iU9c20LZHKGL_unZxfpyr2btcpjt_6pHC-H9gjHN1BTOMj09pjIGmLNQZ7ngvY9UTP-iHd5pymcRtMZF6XHx4vr5moGmiXYUz1LgzdewcxjUzRzCrRNe_qpvVHLbwOGMkREtPtlRGpEq5oz5nJHg_5mdZbgT93QY1VIqNKcy2ZW-vyPFunkpuogCJegO9cq_3w7NQU9_vmvXGT3fxLUuf5pQHBN6G07qnYCosHp1e3INGkdRzJ_O8hrfXmcEY_nSm6lx5t8_vYFSOjhCzMdciq8aHo2cDOSK-28MHZyX8CCXHaeo7Yys871Xh62UEOGrFvVP3h3eillNg8b9Wl4o7fdQMpkZplgK6WEFb0AftnyknpCz3L7fp_5o5yf0GSV7BoGdtWJhgGxpTXsmhH2stTTqNzX9fRd_-x_WE0UZNvS0F28exzDwI_XkWw_Mq9B1Ma6dTCBAGfDM1-ZPHLYA7WA4t_StDzir_g_7kBhXTzoTm9tQykeXr8pooZHn3lNwIIsDnqg_czxMJRNbd7AhztASlQmw2b95w8xGd_Fm-hT4KJWyW9R6M6jLJxyyRRy7fW_4-SpYLl2z1fNiKtcVEBU4NcOYbFHhBxca6MDMG7sLcB4Fvg30BJiT1V7yJND9beydWzMpxrYb4fRD2vi8bg3xbGUhpFBPyaHpuLk6iECtn9sKt3Ip2S3o7y8PwugDJfpkzhi_E3zQEguUjGJgW_ZADuoNaWLdV3pPaEDYTfMRJwpZHtbhWs6tQoq0Ixoq9Gnn5jMwcso1VCgR7ttqCgOD12sF-BC38GLa0aoaD29mITmgiIB2lbXaJuBDhqLcPgj_RivIRlSqPBYqxuNFYMr5K38wcJntpqgeook4u46wsMV_SG2qIZ8HkCXdKPxAFnjPcynZ4nFPIyf98wLrsKXrJMi6ZQzJAUjPY4sIxt2LfC1O1-KXkyGiOmxJEtATRWuK7vJ4nHrRa8hEeVMod9GQSv38Bx_5ea_HwyT",
+        "status": null
+      },
+      {
+        "id": "ws_0f82543f5e7f83b9006a652ee35230819a8dccfa30ad4d1aad",
+        "action": {
+          "type": "open_page",
+          "url": "https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0f82543f5e7f83b9006a652ee5ae14819ab25a7f6bb83f8104",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS77eFKSalV5bcFPsl-q46S9Ipsmq_7D2NnqbcMEWUVXxuSZYTQ7Y1ORFnIRDG8X0eEV8LmQm9JXdRRvjzQBQM6KhYNPFcqAdSg1279xux3GAOBfQRQo2IYYSCH-nHEi9VuANO_9WbfqBAaC5rh8ze4dutvlXS_IJAuHxGXYdf2oWx_YVp0ZfchNh7RGKu_9ViRSnbqa2sXQfafXQ3WIXb17464Nm4VyvW5bAUPAEEIjDg1SXq5DVXmIjl8jFmKkJ88irDxthdK3132NRBoyfOcQGczJVBDs4eyEXR7UJnznu6MAjGXHKP2LCch3PS35Fa_roqwC4HK_L3vwqm4Ub2rda5vhkeLczO7GHqRiUen5VIdGLVMKzQEFDrgRfnLS1Xlsyd7ex6tDhll2QEYZ1VQ9LU20yloDEU8cUOFbDKIzKecttiqlJFIxMAzTGgU1u3CIAInrTUJyKYLxDu4z11xozCqUEU4UrCNjcg03bZe1JxXgIV0tFRaujS44f24UfSkU43368-o0ncjZiWppyop85CiaI4rbi3VMNSwd7muGTWxv1j_MhP6Mo6Pa3TS797etz9iZlvfhBD1ZwjURhyEF_LahN5p5MeN-FQjGFbk73tp6ojoNyWyp5Hv6pxehbvl44LDbN9FDUTHUHcR1ax537GNIAG8k7oqc-4vpeVtYSXizUyIFQ3zyKbij12QSAvH3yLadXsLPdk9-RFdIorqkWBI49sRR2ILZB8RjjHiezpS4CEiM0W4GWFR86o5Z2Wn64CiT4_qkAgPpdB79EWZGmqn-p4HCdWOAGS4JSFB0J4fyOfaW7XdeccrZLvuHAWDk-w_UXrmM4gZ9f6VDgepDJgjGPlq188K0AlnxSDfm3zUfYok0UGqLV-wGvQgnH6kfG6PdT_Aiwgactw6Gv0pGVZKq-1UrEkuJNOGvXo7VVhVNe1yNAS9CXcMtHfpGKMGffLC5DF6jpAT0nFA_x7FB6oVua68FKBSJ-R8Det85v-JZ8qO29toRM7WbrqTnrfvym97SZ_iZMOjuRqFgmsbFY6dZ1QeyG7sp9wc2fNv0bUBwh-J52gU4dEUJ5tQajLcPLzWu8JNYjkFT0blP-2c7lbX2ukJ1FE8d1OZaBKoRSxtO34xhdVbRpjjCtm94YwPc268D2TrJuBdJyVzmH2l-C5FUy96rbDxDjBSlJxB3z7SZ-Cr6q4Qus6MUhI77nOI2jSqflFjN3xl6cFF_01xj6UdY9PXHLUU69xG2Erl_m8gZM1uuucyEtVRyio1kQefaSHnWFEQycpcN9ypbaRM9YNt5xXQX1lP2ou9jVq-Ydv3hLLgJ3Y5UQy4LLz-dTvqqfjv2aJqMWxEsY_XjJjH1R93BUlQZJzdRQSXKbLDwgKsoZIbrZRxS4SBmDD7emcJqLE-wBkug61_Yen_yAg-aIQ2nI5iOt1Q0WDmPrqSYNeAUpL26c_wPQ6ExNQrtEdAVudaVUzzbLocvUrufspo2YzEZvL1gnPHazBeBGwnPr7Lj7Pe_-9pG9ocv0zzKDc5iz6w5fYFKrFmehOBqU3QiMfdRMcIF0h7iPAtJFMRqXMV1aFQhFF-Yppw5mUKbxodN6V9XYmkJE_KnfIaGxURZgnIQFe88EXtHrcN0aCiHtx1-4Pbh43gZJyjuUW6u3iN_t6FS_KrZr2hA7aJMgpshBOtbV3bWYk0Q7qLcSM0R0ZkPeFWSXxvOfeubvgk2YhQc4BYQ3aeRMRVPcZsn7Dy6n8qBtWKcWC4b_ftvEg1WRk014mge4F8DCmIKJevizEDcTXgGv6x3X-gFkGbrBBHCLu5hXZv9Ek4tn4CaLvfKPI7XF3STUlIEeEvPi1V9DBuxdGc9vOmILSSlpubnDsGuYq3JejabiTppBvW2iHiqSei_8xVZnv_ZoXBd1T8klhtD3mVhlqygzl9cLRr1b6Av1MeunUjPu49pxj4OTQMm_uvjm5JydGJhxR33kdcLv_dtoWFpucuNJexUv8JXP8PDz2LcXp7mfP_IqNqU1Q0xFZqT9fTQG2UBoj5sWSuGSnLplCaL4udE9dYlDAKJui3AbFXK0Bz2kKnbn9SOyJu5wqueMQq17mW8GtyFYNgiVqcrDt-NcWbJmTHdpFT_freNmOTwZG0MWWT8_cQ3ch1dCAw-AWGbDRAYX0hH1aKbBittSN892V5AMQiZ6QQS-65hi9ImPjDWt3H98X0B0CEyj2f8Cg-bQ6SA-5dlY88fn5Lfx6omqAfc9u5euZ_kjar9ygv7Mxl8ITFyYzEJcgKxJ5JHABqmW1twdArLfgaZDmn-_wJxAtSkCbqykl9pppWee8Oiw-TD1tCVlvt5wyDCWuTGCkbQLmGVl2FMml7lsPxjcHsCk_G7wJlQOqA7EPiPyE9YfotWCjzXRQ2wdLYiXBwSWJHnBhNIwlUDYmM00NK3YkiSWJhl1200LGStwn7XJk-u3q3TG5PXCGMbjuwbxfWPQKppe5aoRxhOVbJ1SUQfB0rrdFq_0Magns2zJYzCU7Ft67tOlBy2O8uVa1pPewdNxOQ-C976RTI3OIJcs31KnK7cyv7xGn-fG4hVGG1mGDBuHYGtffX1nn9kIYqyeuJ536Me88bsD-shsJuLnPhzDILikMAymVWmsIm9TKrHCBFCmPXtHwqHwUE2KjAw4ltJkdbTSym4HHb0En-oA6FYlXA92faL0dHCh7akfDY5zxtIisy2WtBVxDtZbdHEyHj_zTzAZUAA3cIa4sNnZ6nDTqJr72XDUj4XnDxe584eXb2SGE0iLS9u-JfiQXLQgBcb_w4NRkNNfivw2jvJ2fUoIKxJZ_wKyyFDk9_ATRHNxPIgE-OYbi-LEaCbtWimckaB2UYcMorSYNt3yOygWo6qeQjxvERnWPDiDWRksl3HKxiemoiTuQXWSYNsiWysbAgmNmotDiQaSHKEXKFNadswfrQGP40e5SNmv3CCBQ1U7a_aq_6zE_qzGE-pVK-cE6ulWOz_o7Vow_cciMuOU_oQF5cClmJfiZnRX5_q6Z7HWA0GRIvlqCAaxUpz1qx1Oq2yXwdmJ875kwC9FPC_dAI2yPVO7DnLvza1nsM4d2YLsy5e_Duo-SmZ3USneQQKyfJ-f86-RPZm3AvKUIUkVQGbsJMZ077Pyl-Dn8PaqJ8E0Y3ZQLTGq5aEW3pdRxqnIpZqkyXVqSDjF9x7O3dZ-V306TCZfRZ3FixecEI_g0VjxkNC4MHx3nRB41nieDM8yqls_WWR2dJ__Sh9MwD27-DFMhCH6KXYP48XbfUSP09yj8NMo9UN1PSDuV8k15fuI8dfqp3H7XoXpMPDDzwVhAkMb-LNHPoYhiNF87Li86HKo41XsYdMo-_O3DjNNsOdWwHykBnM7669d3lIeCZq6Rx5GxiCYm1RRptiGutAt6MGz-RxXU1OwXpJLDIy2x9FajsMXySdRxfY821rISn8pN8YPTqozO-wzxOU37Xs-UTDeNbvduGj0BLhofUGsJVsosS4qfYfdXRai75wNhqEQI01fcKURiDdusa_vUBjBSoJk1fRFDEFMEnrqWHSMvtYiaj1q3NhEINkv5rBj1WQCiVWG7yrVXqzYAI0bGhceBguleEzFwRQYMger54m5LwpIcAE-DkAs3KfzWAlCVWMzjnwvxsBy5cirDfDiiriz_nKbQCORfknjF2Yd80nE3y1YUmxUQc4CRPSPn3cibw-wEAphEEB1rR70pR2N5TIZbC1rs5pdxq9shToGW8Y4-sWjUEabZOUICLkqswwrb2LixxXKXxSZ-Njyce47b4hnogPzy8maBLRm1I9sxLdkMAtaMk3lKUM0T-nPuHbeCW0kaVv0eNEsWXzrJQmxPSA1x3etUistUjaZGK3kg7DdX6yKr3UxhQXASNsXmRzmLPWf8C1kkWngzoSWR7qJjzUxFzw-eQNg9eDpSrEPeRsk8rSoiiDCMTLCW-qtlTQpDzHqKv3IUc_MWm7e0Z3KOrSlWjgJXIhC879xL1O_0iVlqHf9mh3lrNb6_8sMJvsRmqSllArbxe8Hg2UotjqbEvUcfHW79jWPKzb_rXPJX8lPfZPemJkm_3Qbo8oba-dyX0OgUvP3DbSW6RQzXDRIQWa4z3m556QCbX0SirDgUXUlwSj1f2W_Kh_hUjiLhiEfT4otlCHKP8AS3Tmu9zzIiG8B6pofGQOzncz8G5hycVPI7D9tKYefz475YuRpmTXmXmF3quCxqSFfkyc1xfSl6dsNyJ0-lZfFG4jcrULLTGKOjO7d1pPuCmjHEKkMuZF1EbMwrHtGsUilmRkqJtYrpHO3-XcgfBLHMv2NwGE64VaDwx0oa7tjskdgXwsEVRIysFmWkwf1XKeh8w0WeIwIbpxCOJPLw==",
+        "status": null
+      },
+      {
+        "id": "rs_0f82543f5e7f83b9006a652eea165c819a89a43952adade49b",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS773jT3aQPxKTKS2AgZh7VFocEs1Zl4G4QLgfZYY-wLPgJjwmzv3j0f7dc4JgNIhO9gPE5XOzx82Mq_71xUvZe0KOcFw8DYXlLZpWyZ5spTra3uGZpWqMaikVR7thEf7R-lvYC7ZuXxJyREk5lxm1aaUOZuwLosPpJSN7C-4cCNLIpwJ771p3KrqsPENtcaD3cS19XSshjsIRRU4n8jYs7HI2RY61KtWO70RS72ZbNIME4Gotfkjq47XOgCfmF_g0KqglBXJQS7MofOwQOVGCxoS79j4gv0vu0eAqSxMXdcI7sUKP7lnGSFPlfelTl9-s9wBWyPJBVfBWiChDjJz75hzpFmPf0bmVnR-P2PO0lGV7627PiuVRsJ7JoiWqhypEuXlLk5llZVKOhAUp1ETUngp-91FHLGe18rnAbqVuNRb-lZXHnrfWLYIwjf3f_RKZLyxAAuurzO1wyDBv0yAw4Hi53xpDKIWbWpTtQEj5ye0dnAuOtVK8Fc03wxqOk9LCei83mxaMyfkHng1wUVVjfVy6_R8h7ZAXm3CI_DYGAmEhXk8aU97s5tA5qrRwkLoplK4Xez2KL7Bbbz8LwXW0NyiVo85ZLKCJQnlTNT437Crp5k9rvk75PHuD1oWvrn_xkNFfBSd_7n7lb-8p3ca3hwlViWI9eny3HH4A_AtmDvfjjJHN_nzCvrXYtFStN_tJbLu02kBI0QBgAJV0IXe7vPMQhiMXR7_JBDse2lEeg9hV8RCq9-SXuQUv9M25LVcha0zkOZbE1LnYNqnoCWxMO_ttuAzfh5p38XlXwjRnCwtXgDw_Aq7vVrbq6i8cD0vOOouiQIEEdukdgwGPrNXik7unQ_Nvi7SPC51hmf1Qvmp6TmEBNvrwUCsYhplWy3ISJXly2sEXUKAhimdE7eaVLgmerLyTf8Vpq3PgMOVBJyQ73rhSaJBPKLg6uzKKE5ihQL0KBeKrKpG8xXYom1v4YD7FsTnsElgVgbJzZ6cjryBtAL7dR111thMSHDgVi6R0ahHYpzVuagvZjPo4LdnB_UolQ75pNl-9S0EiSYvIwfVDpa6BZsOnnJmU9TmBmGvfi3M_yIuqegU27WSGTo9rVk6PB7tG0X2wgxDWJWp2Rfcf_Yvzy0wBtNZddJ2wln1OXQXFspU-7MCQEIUwLk7DpVqhFGLaDKrZJsZz4M9oIKR-D4gyoioDNmX8ZmUS2PZ4HeEM9rUU4Z17JyHbryr_lhjYm4Lqz4mLmqu4gMy1kg62SHxoWY6_O8GoyjpPAtcSIJ3aXu1OKR3FB-1J1R4X09F4waciu-xHu96cZsgHdYxVEijcFRn370GeunzK3dYOlfcvEK1NydS8eQ_rm6TqAaWPRAfmJBKeXHEDQWtyHfmt4=",
+        "status": null
+      },
+      {
+        "id": "msg_0f82543f5e7f83b9006a652eeada9c819ab3a63cc0bf62f0fa",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"winner\":{\"title\":\"The Irrigation Office That Never Existed\",\"category\":\"THE LONG DECEPTION\",\"one_line\":\"In a tribal Gujarat town, a fake executive engineer builds a working government department—with staff, seals, sanctioned-looking files and insiders—until twelve “pending projects” force the real administration to ask where its own office is.\",\"year\":\"2021–2023; exposed October 2023\",\"where\":\"Bodeli, Chhota Udepur district, Gujarat, India\",\"mechanism\":\"A rented office was presented as the government’s Irrigation Project Division. The principal operator allegedly posed as an executive engineer, while an accomplice supplied the office, documents and workflow; current and retired government employees allegedly prepared, typed, signed and routed proposals using forged seals and signatures.\",\"engine\":\"Every new project, signature, inspection, payment and departmental query requires the fake office to recruit another insider, create another document and make the invented department look more real.\",\"episode_estimate\":180,\"cast\":[{\"name_or_role\":\"Sandeep Rajput, alleged fake executive engineer\",\"motive\":\"Money, authority and the thrill of making a nonexistent department obeyed like a real one.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Abu-Bakr Saiyyad, contractor and alleged office operator\",\"motive\":\"Access to government-funded work and control of the physical machinery behind the deception.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Javid Ibrahim Maknojiya, junior clerk and FIR complainant later arrested\",\"motive\":\"Possible participation followed by an attempt to redirect blame when the scheme surfaced.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Chandu Purshottam Kareliya, retired tribal-development officer\",\"motive\":\"Allegedly lending former official credibility and signatures to keep the paperwork alive.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Ankit Suthar, document typist\",\"motive\":\"Turning raw proposals into convincing government files without asking who legally owned the office.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Former and current departmental officials\",\"motive\":\"Some seek legitimate project approvals, some allegedly protect the arrangement, and others fear being blamed for missing public money.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Villagers and contractors awaiting irrigation projects\",\"motive\":\"They need roads, water and work, making them vulnerable to promises bearing an official seal.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Project Administrator Sunil Kumar and the SIT\",\"motive\":\"Find out how a phantom office generated a pipeline of official-looking projects inside the real bureaucracy.\",\"spinoff_potential\":\"high\"}],\"scores\":{\"engine_longevity\":9,\"hook_density\":9,\"emotional_immediacy\":9,\"conflict\":9,\"cast_depth\":9,\"total\":45},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The case is recent and the named principals and officials may be living.\",\"Change names, town, district and departmental designation; fictionalize the exact project list and make the central viewpoint a composite clerk or contractor.\",\"Retain the mechanism of a fake public office, but avoid asserting guilt beyond what a court establishes.\"]},\"prior_adaptations\":[],\"sources\":[\"https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/\",\"https://timesofindia.indiatimes.com/city/vadodara/fake-govt-office-case-police-bring-accused-to-city-seize-documents/articleshow/104811348.cms\"],\"facts\":[{\"what_happened\":\"Police investigated a fake government office operating under the name “Irrigation Project Division” in Bodeli taluka, Chhota Udepur.\",\"source\":\"https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/\",\"confidence\":\"reported\"},{\"what_happened\":\"Police said Sandeep Rajput posed as an executive engineer and worked with contractor Abu-Bakr Saiyyad.\",\"source\":\"https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/\",\"confidence\":\"alleged\"},{\"what_happened\":\"The investigation reportedly involved five arrests, including a junior clerk and a retired assistant tribal-development officer who were connected to the department named in the FIR.\",\"source\":\"https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/\",\"confidence\":\"reported\"},{\"what_happened\":\"Officials questioned why twelve pending projects had been sent for approval to the department; investigators said proposals were prepared by the junior clerk, typed at the contractor’s office and then signed by the retired officer.\",\"source\":\"https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/\",\"confidence\":\"reported\"},{\"what_happened\":\"Police raided an office in a shopping complex and found government-scheme details displayed on the walls, seizing documents and other materials.\",\"source\":\"https://timesofindia.indiatimes.com/city/vadodara/fake-govt-office-case-police-bring-accused-to-city-seize-documents/articleshow/104811348.cms\",\"confidence\":\"reported\"},{\"what_happened\":\"The accused were booked under provisions covering impersonating a public servant, cheating by personation, forgery, use of forged documents, counterfeit seals and criminal conspiracy.\",\"source\":\"https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/\",\"confidence\":\"verified\"},{\"what_happened\":\"Investigators were also examining whether the alleged operator had used the same method in Dahod district.\",\"source\":\"https://indianexpress.com/article/cities/ahmedabad/fake-government-office-case-complainant-retired-govt-officer-arrested-9016715/\",\"confidence\":\"reported\"}],\"why_this_sells\":\"The instantly recognisable fear is that an official stamp, office room and confident voice can make an invented authority more powerful than the real one.\",\"why_not\":\"The public record currently describes an investigation rather than a final adjudication, so the drama must fictionalize aggressively and treat several roles as allegations.\"},\"also_considered\":[{\"title\":\"The NGO Branch That Was Created After It Got the Grant\",\"category\":\"THE LONG DECEPTION\",\"one_line\":\"A Dholpur welfare organisation allegedly wins government recognition through a backdated registration, fabricated office-bearers and altered ministry files, then keeps surviving through annual reports, bank accounts and fresh grant paperwork.\",\"year\":\"2001–2010; court proceedings continued into 2025\",\"where\":\"Dholpur, Rajasthan, and Morena, Madhya Pradesh, India\",\"mechanism\":\"A purported NGO and its supposed parent organisation were represented through registration papers, fake office-bearers, forged signatures, altered ministry files and bank accounts. The organisation received grants and submitted reports for years while officials disputed which NGO had actually applied.\",\"engine\":\"Every grant instalment creates a new paper trail—board meetings, utilisation certificates, staff salaries, audits and bank withdrawals—that must be fabricated before the next official asks whether the organisation exists.\",\"episode_estimate\":220,\"cast\":[{\"name_or_role\":\"The alleged NGO secretary\",\"motive\":\"Control the grant pipeline and the organisation’s bank accounts.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The alleged chairman who signs as head of a nonexistent body\",\"motive\":\"Status, access and a share of diverted funds.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The director-in-charge of the welfare project\",\"motive\":\"Institutional power and protection of the family-run structure.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The ministry feasibility officer\",\"motive\":\"Approve a proposal without properly verifying registration history.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The alleged impersonator of absent board members\",\"motive\":\"Payment for signatures and identity substitution.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The ministry vigilance and CBI investigators\",\"motive\":\"Discover who altered the file and which organisation received public money.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The nonexistent or fabricated board members\",\"motive\":\"Their names become the silent ghosts holding the institution together.\",\"spinoff_potential\":\"high\"}],\"scores\":{\"engine_longevity\":9,\"hook_density\":9,\"emotional_immediacy\":8,\"conflict\":9,\"cast_depth\":9,\"total\":44},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The event is recent enough that several accused, officials and witnesses may be living.\",\"Change the NGO names, districts, ministry and family relationships.\",\"The judgment records both prosecution allegations and unresolved evidentiary disputes, so the serial should use a fictional investigation frame rather than present every allegation as fact.\"]},\"prior_adaptations\":[],\"sources\":[\"https://indiankanoon.org/doc/171923443/\"],\"facts\":[],\"why_this_sells\":\"It turns a familiar local fear—government money disappearing into paperwork—into a daily survival thriller where the institution must be invented again every month.\",\"why_not\":\"The mechanism is document-heavy and bureaucratic; it needs a strong family or investigator viewpoint to prevent the early episodes from feeling like an audit.\"},{\"title\":\"Reviving the Society That Had Already Been Wound Up\",\"category\":\"THE LONG DECEPTION\",\"one_line\":\"After a Delhi cooperative housing society is officially dead, builders and insiders allegedly resurrect it with forged affidavits, fake members and invented meetings to reach subsidised government land.\",\"year\":\"1997–2005 investigation; alleged revival in 2000–2003\",\"where\":\"Delhi, India\",\"mechanism\":\"A society that had been wound up was allegedly revived through forged documents, fabricated general-body proceedings, fake member lists, forged affidavits and employees or relatives placed on its management committee.\",\"engine\":\"The revived society must continually behave like a living democratic body—holding meetings, electing office-bearers, enrolling members, filing audits and answering the Registrar—while every new record risks exposing that its members and decisions are invented.\",\"episode_estimate\":150,\"cast\":[{\"name_or_role\":\"The former society secretary\",\"motive\":\"Recover control of a dead society and convert it into access to land.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The builder-director\",\"motive\":\"Acquire government land through a paper membership structure rather than genuine residents.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Employees and relatives inserted into the committee\",\"motive\":\"Money, employment and protection from the people who placed them there.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The Registrar of Cooperative Societies\",\"motive\":\"Decide whether the revived society is genuine or a forged vehicle for land allotment.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The real former members\",\"motive\":\"Prevent their names and signatures from being used to steal the society’s identity.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"CBI investigators and handwriting experts\",\"motive\":\"Reconstruct a conspiracy from signatures, affidavits and contradictory membership lists.\",\"spinoff_potential\":\"high\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":9,\"emotional_immediacy\":8,\"conflict\":9,\"cast_depth\":9,\"total\":43},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The case involves named individuals and public officials whose legal status and reputational interests require care.\",\"Change the society, land authority, builder, locations and member identities.\",\"Use the court’s findings at the charge-framing stage accurately; do not imply a final conviction where the opened order only records a prima facie prosecution case.\"]},\"prior_adaptations\":[],\"sources\":[\"https://indiankanoon.org/doc/108211149/\",\"https://indiankanoon.org/docfragment/108211149/?formInput=Criminal+conspiration\"],\"facts\":[],\"why_this_sells\":\"The listener understands the terror of discovering that their signature, membership and home can be stolen by a committee that exists only on paper.\",\"why_not\":\"Its central prize is institutional land rather than immediate cash, so the adaptation needs a romance, family or eviction storyline to create a faster emotional hook.\"}]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [
+      {
+        "type": "web_search",
+        "filters": null,
+        "search_context_size": "high",
+        "user_location": {
+          "city": null,
+          "country": "IN",
+          "region": null,
+          "timezone": null,
+          "type": "approximate"
+        },
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ]
+      }
+    ],
+    "top_p": 0.98,
+    "background": false,
+    "completed_at": 1785016058.0,
+    "conversation": null,
+    "max_output_tokens": 32000,
+    "max_tool_calls": 12,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "hunt",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "winner",
+            "also_considered"
+          ],
+          "properties": {
+            "winner": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "title",
+                "category",
+                "one_line",
+                "year",
+                "where",
+                "mechanism",
+                "engine",
+                "episode_estimate",
+                "cast",
+                "scores",
+                "clearance",
+                "prior_adaptations",
+                "sources",
+                "facts",
+                "why_this_sells",
+                "why_not"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "THE LONG DECEPTION"
+                  ]
+                },
+                "one_line": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "string"
+                },
+                "where": {
+                  "type": "string"
+                },
+                "mechanism": {
+                  "type": "string"
+                },
+                "engine": {
+                  "type": "string"
+                },
+                "episode_estimate": {
+                  "type": "integer"
+                },
+                "cast": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name_or_role",
+                      "motive",
+                      "spinoff_potential"
+                    ],
+                    "properties": {
+                      "name_or_role": {
+                        "type": "string"
+                      },
+                      "motive": {
+                        "type": "string"
+                      },
+                      "spinoff_potential": {
+                        "type": "string",
+                        "enum": [
+                          "high",
+                          "med",
+                          "low"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "scores": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "engine_longevity",
+                    "hook_density",
+                    "emotional_immediacy",
+                    "conflict",
+                    "cast_depth",
+                    "total"
+                  ],
+                  "properties": {
+                    "engine_longevity": {
+                      "type": "integer"
+                    },
+                    "hook_density": {
+                      "type": "integer"
+                    },
+                    "emotional_immediacy": {
+                      "type": "integer"
+                    },
+                    "conflict": {
+                      "type": "integer"
+                    },
+                    "cast_depth": {
+                      "type": "integer"
+                    },
+                    "total": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "clearance": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "reasons"
+                  ],
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "greenlight",
+                        "fictionalize_first",
+                        "blocked"
+                      ]
+                    },
+                    "reasons": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "prior_adaptations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "what_happened",
+                      "source",
+                      "confidence"
+                    ],
+                    "properties": {
+                      "what_happened": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "verified",
+                          "reported",
+                          "alleged",
+                          "disputed"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "why_this_sells": {
+                  "type": "string"
+                },
+                "why_not": {
+                  "type": "string"
+                }
+              }
+            },
+            "also_considered": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "title",
+                  "category",
+                  "one_line",
+                  "year",
+                  "where",
+                  "mechanism",
+                  "engine",
+                  "episode_estimate",
+                  "cast",
+                  "scores",
+                  "clearance",
+                  "prior_adaptations",
+                  "sources",
+                  "facts",
+                  "why_this_sells",
+                  "why_not"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "THE LONG DECEPTION"
+                    ]
+                  },
+                  "one_line": {
+                    "type": "string"
+                  },
+                  "year": {
+                    "type": "string"
+                  },
+                  "where": {
+                    "type": "string"
+                  },
+                  "mechanism": {
+                    "type": "string"
+                  },
+                  "engine": {
+                    "type": "string"
+                  },
+                  "episode_estimate": {
+                    "type": "integer"
+                  },
+                  "cast": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "name_or_role",
+                        "motive",
+                        "spinoff_potential"
+                      ],
+                      "properties": {
+                        "name_or_role": {
+                          "type": "string"
+                        },
+                        "motive": {
+                          "type": "string"
+                        },
+                        "spinoff_potential": {
+                          "type": "string",
+                          "enum": [
+                            "high",
+                            "med",
+                            "low"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "scores": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "engine_longevity",
+                      "hook_density",
+                      "emotional_immediacy",
+                      "conflict",
+                      "cast_depth",
+                      "total"
+                    ],
+                    "properties": {
+                      "engine_longevity": {
+                        "type": "integer"
+                      },
+                      "hook_density": {
+                        "type": "integer"
+                      },
+                      "emotional_immediacy": {
+                        "type": "integer"
+                      },
+                      "conflict": {
+                        "type": "integer"
+                      },
+                      "cast_depth": {
+                        "type": "integer"
+                      },
+                      "total": {
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "clearance": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "status",
+                      "reasons"
+                    ],
+                    "properties": {
+                      "status": {
+                        "type": "string",
+                        "enum": [
+                          "greenlight",
+                          "fictionalize_first",
+                          "blocked"
+                        ]
+                      },
+                      "reasons": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "prior_adaptations": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "sources": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "what_happened",
+                        "source",
+                        "confidence"
+                      ],
+                      "properties": {
+                        "what_happened": {
+                          "type": "string"
+                        },
+                        "source": {
+                          "type": "string"
+                        },
+                        "confidence": {
+                          "type": "string",
+                          "enum": [
+                            "verified",
+                            "reported",
+                            "alleged",
+                            "disputed"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "why_this_sells": {
+                    "type": "string"
+                  },
+                  "why_not": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 51857,
+      "input_tokens_details": {
+        "cache_write_tokens": 8775,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3929,
+      "output_tokens_details": {
+        "reasoning_tokens": 1294
+      },
+      "total_tokens": 55786
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 3
+      }
+    }
+  }
+}

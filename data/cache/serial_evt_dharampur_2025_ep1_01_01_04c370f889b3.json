@@ -1,0 +1,421 @@
+{
+  "stage": "serial_evt_dharampur_2025_ep1_01_01",
+  "saved_at": "2026-07-25T22:03:05.070247+00:00",
+  "response": {
+    "id": "resp_08963508758e81c1006a65324aab34819888a67a61195e3624",
+    "created_at": 1785016906.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_08963508758e81c1006a65324cbfdc81988bfce36dd813d6eb",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZTKbSlkOEwwCHzmPov6ia7WKTahdoTY_3i8uKhlROS0C7AcMDzOqBzhJAr6xguQ6uoTUCXm2u6t_vC4kz_2PlYFFGZ0FfTUiCD2_236-RQPkiy_pQ7yb5TypMvMltA-uFFLvbDuBX0LLJyBE4useWeuVyDkDoVYZVMiEI3Sri_JWyECBAIy09WxcRfVUsHcn0xlJnB0U-XOsi3GJTxpwVcJtHEhYYT0sO9-ic_TG3PLCchoPazdc2YmTNEEm6VS3N74M9LGMw5BfJ48mZXMUcUyVb7YP4efw18N-O1L44oDT5wvv-77r4k_9jviL0CxbKNNZoasBMjG37QFEb5kxur8FQmVovb2s-t_v_Um3xo3qq8UGNQP9cugTu7f1dF9nLdBmcLrLtr2GQBDs01rDDt3bhxpUSBItu2iUbK4sdSOOyULGYGcWqgWKBIsiypinwD_LNrqrf1dH_6OhH3qpt2vtRvNjtZaBz3tzj2rMU7GJZIkxxD-HclTaK66_6AexUV3Bn4-1dtLnhKA0lJ6WQg_3oxG3zRn5zB2lmbJQEEO6axgxEHiaeMBJP-iywWe4PPxnFYJfhA0ikHmVdGc4UPyREDHO3zl_jeUNp5uSzMQ021jcU8LtIW6mRCxwNkzsYeQHIpijB_6NLF6xDUfNz0saP45sI_PdXTro2jP2BWTJCHloSguOcOvRpkUvqN_uajtJk0qWg49eBtgSQv2OFIztcsBkfmuYCI-Zh3GtELRikhfUkiRUx3KodwmDAtxmNrpZymY1KV_GT7LI-tcWOM4KohuKoMSxZgKEHFGkGR32ycLb5DNeRqOHSSiWNf-eQ4aIkIWJMiMtKZPix-LORiQyHMS1Ov-KiQO0c8v56DbHZamVkQmG3AY9n8l-18xvn3-a8ZPCm65108srb8F0UfxbcMo8bnOcOP6tmuruX4yDOUrOiFplyeIzun3u-zNqdHRqqQ2VUIMJNs9zz8uxUllX4S5DN6ZZsotcvcJWZOKKGl7L3P_RJJGRS8h5X7k5F8l1sUQBu5bQnFlwhG1npJqhTCUXi853u6I3zFbMFVa2BaU263TnGYkTbwMLBE6tjINXiFWYBuFcigQstjr_R7UrO70DJixkzJlXlBRxRhysHOD_hpAieyYx8Z_ChHk7aJtkdkgd0OdWJB3JHr-RrHH86HNGiFk66IN15EH-V6eP32a2zIYMQ_DsxOjuJdlA4evwW2O4MyicIFDMteQd7sUwwJXLhRzwEYzTHFXMEgrUGAu2OQtInT0U8jiVzibmGAbisBLgF4T61BEMtmYB4N3fyw7Ec964a3-HF_0gX3E7KpEq4rguUui2ByQbOeRmXUFpu4RdRKH46qvPO89qKRJk_719r-XajOwA9ycTEnZHtiGojgns-YqaefWqaNYQWyw5X3UJi2G1k7kkgWy_XEdTnHm4pL_J_4QJ1weE1pEbkETenkKsI2kNddTtNs4l00I3Mmxly6BBSgSTZpGWR5-L8KwIvoiNtsyNBxIGhOge3xFqUcJjUk6rrYiVj81k3lgre93cw4DAEyph0LX_T62UC6VIEh1aBhyB3zShvk0APuHju0RrIrIRq3dv2IgXxICa6rIF0YzBh5B3F5j90c0B7ZXm64hKerTSVKuYnSRVO64fZKOeJsXpXhVVf_E3xfcvHGtC80HYx--DMkw9UjT82tY3UU7dtjQxmw_Q_qr8YJwDohmL4vDj1ihaZ654uVLu4yeNcAimI7HlXCwpTE6NePEOxRaUAQJkmfu19EYUZ3byKOKRD-oCxx_q2RseFNPdol_DDtBX7J7-SThOrH3BOmJnMmQIt4KRmo3XGf4mVujk5t5-sq16fJ6qqbXompTnKtDR6rLdPJ_SaD11YhBQdPqFG9I-OaKHrs9XdfNbY_YVhYoNbRGlAmuV8-nnQhTM1Ts5cO4rMKj2peCPN4KkSPhgJFj7jzVi1e9QJfeVDRynFY7IR39th_VmqrQvLKLJ9sswxPerYzNw2xC20X4f9ZckTsNclRvE-xMWQJw9cVSSWbrSpxIr3PKDvPOtwXafbfawiq-hi5HKNorb_UUCeVvbKMdp9EPY6KbKw_GoWDh71Q-Asq3BmQpx0CSH0tJa6jG36HJKNk7UVNlXQ3A1BXzNS5YVV9bIFpRN-xDgbSojSqr_4xXQPIaYAni0Wg8jNssazbtT3guFYAup_UONuqqN8vpWdANzgl4v7zzxI5HhsvQI7Blh2NCuzcfJZz4kLMH-WJCmw_jBqwPzCmmv5DBsZI08D_2QzSU32_G0FDe871QxbWx1OadHyG4d3MePeiX8XHMeE_zFZSEiWRTFimGZKiXAtHiSC13yf-wH7a2ArdXduCDb6fDQzVGZEvGh72mK6SWlcHTBKk4OEGipgXJuJChtFjsPzQINHiUd_M1MhlVrdmIwR2nBne0Nol6QyHRaCnTrvQdIm4REi27LvwGPXZPyuSvfZ3SGCktg-emZNpIyo0Cz1kt7aWkmeZeW3SYlTxPJFTO7hj5-XTMMiW-_bvEprgLBl8T6wihKUIp9_huzAF0zldfldXSD9r1VH50ueKNnYap9fVMZ051OhP_R7_0d789SpSjdXwpHdBPnZtf2jgS_Bf63HzdKvP2k84oLAeYS6gi-Evwdn1SZafUAnN-EuMT0F-R9f06F1nUknJdCtc0PJ42gHxRxY428FT9upeOjhZTVa3cuFrJkpJ2JOslt9fRQWTNMlhZTamtIjTL2ULthOOALI6QBlpYZlke6ugB8P46UqQOavqR8En-LfFrOrVdbzVBuUneBFbTjV1x-MwifUkFqQzCLAO6zEKPbqbq-uKwljctNd6mALKSnxufpODw9agcaW1MiKl9DoUXh7HoEjjZlZpDObTeb82rrrXZTYF3Q_qt7pKJWi5HCqkMcceEQPB75J3SGdEqzny0q9YtqOX9zLEvHY9iUQH_Fbv7d_-tOleuzU4I7b4myly6opPBQa6pH1UPd3AYiC4vnqI2rJn8sGhndYkrTVPctmS2RCAA3LbTdI71jDChiFe7jTf9wSfm9zMCSIo0Jz_ReqN6kw0Yi7t6ePj4CkWVq6DCwCa67VIuLUF6ZmU1SHy6N6DY611ndt1Suv-wDDLLLxsyyzNhPJRoCZUPrMST24Z57Js0MRYJV8ZfWWTGWXj1CB6iU5m8mNhWApyRaZ7eYtziKbGsAU6LjbXWe95Aq8vDx4gv5Rqbp2UQFB_qXRo78yPVIqd3lht5pkJntS4s-kROPmrhNNE6U4fQ3f0Hw6CnngUnO-yY5jF_brbEfBqj2HWyQItTtqF5lug_Zkd4TUqh4ViT8Ef3xAJ16xVJv74ERBu5udFdY0KyXcsCBymFRPtaDenQCw9nxHARDuYHeT03KMxtMG5CXGsR22bin93T8G8lRYqBbJUkCrySQPCkB_5LOhXTMIfjqHX4hwaZ07PkadWq48x5_j6m68xMUTpQ_ha3T0B2jNu-n63Zw9B6arQKwYpK89ateiUcEsL_mSic-IbAoQXwuDdCZJfWe2E6WmVD29ckBkFd3yut4gMX2gJMo_KOHDjy3EdwUNHRhiIVFiSw6037Zc4u7RMgDOL-wZvR3yPrF90Tel1fIBfEMluGAWgnVEz87uYKokQ1FHLbb3d749di7ueSu5Ft73hcUmDKJz5d7VPjaeK3TE2yovZw3kMW6WxukWcHdcx1skBrcQPoE3nuK_70zEPuVWIt4yXLBweLmXA5aYSz1BJ4hbtSxAy7L40zYlOq4mf1ObA56_fEXA5sazZNl6KFa7Pv1idTZvKS3bjn7HtGW5yNxJQGkMHmaZ9dRWvn3UhNR-fbAi3kdJRRLVTclGSFiCTVMHi7tMSuHLgSOTK5AtetfNJPrQT_MG0Ko7rW1ILlQ6Ziilp66kF2lVlwYODsfFUUR1Gd0-wSZYNUfem63y4bVK1VVvPndKyOcmuYcHvSK_9v5G5dE6WhBYBThQgMZcbr4fSY1T7sdGU4KgREM8BT0UDLIgy2loGfqIg9Y7VX-2JrERDe-0BBLyzot53HWKjACdYaor47uTyFm1aJmToDQ7I5OfrSFJs6bFH1HG96UI9Wqc9y_D8uQpNMgMfOwaywPL6FIOWNHlWbuCc3b39KepAxxINsJs-KG-qnL3dEDVcfzOZOn2-Ky1Sm9veVkOd-itGLpYo3Xk49YtQ==",
+        "status": null
+      },
+      {
+        "id": "rs_08963508758e81c1006a65325450588198adfb47d383ad6a85",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZTKbfVDGTsRCoz8epg1dR_D9e8-B6cYS0PRFSkVjicXQYRTJ8G09lMDdLFHyCv4WhJyyF3GlqYUGQAT7E2uaiLZgtQvv2qCj-yIPnOeYlluTCTkBtZp4b6re83CHMQKVLWY4NKUxsT9ea7yZaDMHbjNIa4DtjbcP61EDs7n40Lr0Z1272P3yC1Y-2xS_0fg0Cz1uidO-bhhNYNYstealz5pF9U8xGaNAQQqtrqod0AzTIaKJcYozxoCW9yk49AnlQO-fzCXW38PlxYRuFo9icIqUQ_2HBUuTVmGzAKnvvwJaFJ5uT9It947tzRpqlvAQrO1VyJPsYDZtT04sfk9RXSncUpd51guObTC5T5n86Ih5A-p1D7f8apW3HFyYp9FMAQdNF4WmYkxfc2_YBGQc5xXkBC7kq2uKlnVTRJgGDb8U6xFVAqxqxCCpMajcCyOkdX-Zi88j-DtAIrBv-DMj93pwnGhsJwKQ_qzIEmeOx7Pv2NPbcRZctpOnQQqdohdw48mmzXoFhD_fZ0yUWAQkVjUQbRC2fgXOBlwfVdkPyh0G4oMQDPncBg6bur3hmgPkaWEQBhpDT1U-dVSEcU8EM1Abt5ub9eQ3Px0qGjJ5umeUoNg4-CTTyQE1eUAdGGJnOqhOitoSBHy0TFrwfK4wI_W8QJ9j1sDKl3J6alodpyVi_p6QOLZ2oCRxIRJWk48lxnqB72igdjIGlkLga8f0PeZXx6tpHIyALbQ9efQ0C0nyqLV5GTvIChih8miWF7bY2Cp23A4OV6-21BSHTLROQh7eOIXsO9l6ebx-5xFKwvlx0xavxp6lIE2wmBeytRh1alYCczARaecedvFTiHc64OgRoJ1C_PnJQE8UBE8VtsXl7fHr-J5SNBvgBrtKiu1hD7_h36i7PRP0pYbOLSStAwpzkkSD_GBilCF2dkEjO6DiyvloMQiOUOStaAhbs48cY6gzBgPUs2TKB-zCG3g2MStI51Z9BLBAZAKhO_1yAVtSahAhusIedwPW6nOvnPmNsmsTQzt-wnGOyQQSonFkd42os3TPBpHA4-7ZaBecKgbvSWpCwjkf4_jQPGsliVihkPUgb4hSzQzjmRCW_upTVGO3J06GBEUP0ASK6s1NcSHk-YWm5QakofH7Au1Y4aC3hrKtlgqHawg2dl8aMReMxa9AGYrvpfsb2fryCXsaLWV7TVrxt8SUn5DhZudgnjCP1UDoY7dfYapSBuwCvOqjMY7cWT35t6fVKeHGFaSTpYKK2GfpqjXxkzr3hdzgngTbWSNgaqZsvWilRBPck365kms1YnlNW4NnWSZ7oGuLxXNZ_7cii1EJdsYOlUpBModIH-kVAKsZjrtTs7U_2B_A2YRU6CcI-HRoYzpQ5GtO5m7BTlejha2wXmsAem4fpKRQNa5deWXjnboLTZypOvasDVdhqoaKsTFKV2peVk2wtZE4-Iu9_Ee2bHHwk8-rk-gfzK7MlKitT0_KNw0KfIaLvPPiGat7qG8vtzmNmMTqzPQm7TgdreQ9RLFkQEapNZjIdk3pfJr_XM6gHfiPZpxmKvWF6o3lc4KwuuHU0Llk_x5vbnO78rxznFLL12WXcrinMSSFx5UIZ-9nt060vC1WciqaijgCURrUbsHJ2Mdfqjdl71GkYVhs8O5HzPcgdhXaCmWb7KumpYHSIa_OnunwfkIq1nD4eEk1QsxkVN48SWOgNdJqpW4gfKR6uW6-oWnlN2xrcfdbR9nbfh-HLdlmGCk7llKpXP80k8cmMl3tCAOai49CLNhOq_gkhThwaErC89djyNzvRNLhys9T4sg_0PUk6sqMsjxQnRJMBMOzyKNVo99fuNoFFky461Y3dwXBN-3r6jCS__1YKdTGZ9lUXPrTaBUX6GXz4if19hfotPDM7IAg-i44aJXCWrRqYdRQryoGdXhe98sBYm8TAT-tfcwqTn_vWFRy3AQKngX3J27cRPpaRgC5YTYl-iRkkXpL4_lSGrXp5ipMovEi11Ox2uIdO-inIMYo36LqQRKzwxgZCpET_-v6RYwh2iDMgcUbMjYIEHJVg5lPOfqnrIvdTCekaMXBBIgURo6hO5EBeW3QCA-iV4BfGsYN8UvCbtFFt_guWBlzCNP6vJ0p2GCIKsNHpAGWPwpOdz7fgI_1tCwc7Na88OV2XG_2L3x1pBr3oD0XRGRR0b2MNT1uscYILPSunMRJfWbydxgeJowL2B8ArPuPV2E1NG3qv82eCg2vG7r7QenUsv323YQ9W41Pk-fjhXwAqLqXhAK4HWJtEpsLUp1QT2Xsk90-n-yNlBVgqfYzsO1hWk8aw09sJHtTbjgmJ93g3pv7d_N9VsOk3jnxFOPEKdw4xkX2K10cLn7W1ZT7vlbmlggW2mZDi9UnTfXgP2HhajtGoT3BW7F3odzwk-QqyfgNe9u3nNnDRwb2kUsVXqkQkYFqzDNPKWqUuSNZ2oW9rgJJAlPn1J5TQxO62HquJZGvPVnAYxHtdi_8BMUWT_Innlx2VzLLbhQd7DKTYYDbpSojEvKEDGYbPzMf68nWgK39H-HKs0hiFeF58x5EwNS0T9f82vJtZh_IRzbLMbz7gTDnw4L-sRE-dk1ILrupY5vlXEikCTD8lnaTfxdrqMPSvWjCWzU36luODifTWd7s4kByPhEZ5ryNiaN6NSoHkVQ_qXdXYfoIc3dagIhWXYMtx8WynF3PDOwthtXrSGv-1DgUXpOPmtOP_82p0a8T8DXowS2tp0GuhHZVbcStJpfG8dHp1BuMt9LubLZtWgjBKIXZle3p0gvLUL0QDAxpM0GrqHQKPYAA-1Oa8kznpxa2jLv2V8Tas8S7A1hDMmLkR0emGJNPL86PhCCKxiP-39xzsEm4P2ltOA200J1vISLbETOeBcomJgQXvVGUqRnfRmwfKzeJcV6RDDqu7xiNuINh5XMf35EgJ9C2G2M2Paqt4AUxKP_opEbWsCI-mnBx39zFUGlXNreQTvyDJEKMy3Qvr3NP5IlnCAMpnI4VCZ_PRdOy0nEQGAmm0fIDgP32RlUabw5TIVdjAygMmVqscstFA2WMU5aJy6lYwJzhjuM2DDF7rGd2zX2P3ziV2gHUVUuu0B2UiNS_sM3A815gdWQj06Yi-fVDA7c8HelBmxtkubTSmnflui0_-4VC1TcuWtnO6hfCH4F1CcvE5yrdU8TyW9Q14_z9AkjGUUfEiSTAR6NgO8NaTcU0kMsxbt8cEHVAZxs0W5gBR2_4cCtmGob4i3mcqObrSlMvykQAm2-UIt5xolMgP8U2GjoU7p6mVeZHVD_Aqz9JnWvYQlsktm6TuKu6U4GJbdF7HQu6lLwoCVsFkaXLBnwlr5w7Iy7wKAEVOPOfC3X_mPQ-2mb5o9AVcii2ZZq5E0JIKZl4VXDogY7pW5LY0Cg-V6Cvm4c9xkf3g1gB6AXQ9B19S3LG1ZwOy3KPq_76tZXscte6bPuj7uoyqK6K9rZhvR5-6ju-uMloEoAyrmDoqVBeSblgkgtoEGQ_cwAL9hCa62zVPoXzcCpXJrVcreWEkLLY30tLxRy83Wpce_UF13l89yJDR7fG764V7tfvGbuOiUpkGMkfqUg6d7LIezNNWX8qihCUEBQBRbmE1nC1Ed0T4ZMoW5xRJ-N1jP1cFQiW2mBac4FUWmI-M_uTQtji4UFCIGXZXHPCBydMXQ81OnzCchbGRgj3UNDeehwkQU47xRF0EsciCsAFebsw6Dg82LLZseihMxywDA4o-ED0QM5-kmQ0MEz0oLww2pUbEsQ7QhjvWiJrb3dQY2Sa8kXXXbJLof1VJ-prTZHISpw6kBobNbsY_9TO6gltz9KDF3eAmo-9Knv6Ty-UuG0EqHLSwRAgwaFz8-9mtZWv7t8bGUJeMqK-czY6tjN9hnqACeFNAJCj2v2U6OsAk0GwwMFA5uDI4YliXGFadCEkC_DEMstO4WDc4NCawO4ekhBY4b_wupQO6gNUcsBQS_I8xHGdk-gswc1PRz2edkQ0Ixo_2Ooc-aTLZ-G0l-jOVUogmXFTyD0Xh2SZZhMHZRia_FFpUR0y6w==",
+        "status": null
+      },
+      {
+        "id": "rs_08963508758e81c1006a65325ca8c88198875f488e7ec822f3",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZTKb5pCxXoICYY0Jb8nQdFeQKRrfXAfQUt4lTPmKuMBzAGbWBKM7d4NAUZ229i9DXNEoFGY0NchTGevGATkL6FilYlNbEx0ny-BUuxR16xWNDPE9r3VVkSeD3O_VBqZJyFqk9VOpdaeBhgFfJmjwz2mao1-QYnqE50170_yl-4froylX6k6oohQbBq4YzW1Tob_CJWJb7ytfDWavpDrOSwqDzBRE7od0CoiNFE2ShspZV-COQUOJQ1tI3Lq6_r8u5B_Uve8BEcB4TwMbiA0jAniWc2nF4RsJF4DwxvemLOkkhWMQNRrJRFU5QuQLcHzgGsfIal7Knr9xx2izQSxpKTJj09luL-5YipTT5iesGPGOsyp5QmZc1mOnkXSK4I2nassH5aYFfe_tGXHOLUnm1VaC-HYViYrzjfbpi7NabxMTw53QeDxLinnAJ6QVBRRvJLSgNfn-4Kq7FHaAyBuRncJ1OlmU9lBYofyhyxAoZgOUnYGQHt1kSJmUaC2sMBhdDpVkO8eTiE8sL9_ufGWHxyd_wVBFFQk0koSKwINYyvY0PjJrmp2VPYpQNOmzoAjaS7yxekSWmmEsp81wICf5aJyyTAJBz5i1SbF7Y61Dr0IA4yCaiGiBO6nDaeeWIPqQUHEMy4c-3QOUQh820hpR-bM3y4TDNfS3GqePL80S9AtlkEJ3BbQK1EhdY9__a6PhwkErprhFtcYZAAD6EUOKyYGmp8XziapvmYoMvRIS6GBmW-bdHgntdX0cO4UnCp9-XFaSKiOPlZun44_2ok3lL9xcQ5l-TZBKDBcozuKIjzaPthNvvBf8by6VzxM_hhEkCwRKx-uEnt73p2YJXx2wWQaiev6xSNxwnWDW4nRHvZ8JLNX02LlfnBZNFIROWK_chWM__SNPFNarc3XpckBicvonS0ure84ZStEmXX2CP82wTlvAvjhTmdVLTSzf6aebWyeCPNDHrWXbC-oPWmwFCr6DteqVagZwCz7FWzmyLWCLcM-Ty6fjla_25bavKjkNyYU76mcUqMt_b5G-iJ-kT5A-Q3Rf-M_YxBFNhHiKIRe262fHph9YPjDZv0-7AXf7IShNVYwBhSRjvyF0IneWJMLkFpbyrZ8wLwbW-l6ZNBZi5LF0h2_2lMMVfSuW6SNfx11QxSqxaLBiHtUwWugOsyp23z43F2_lGItVfJF0JBw-SfCVrOkZi33sw8Hu0AGLw_vOz9HHiP0XvoUKsMl3rQpQUV9DXJ4DZuW46quX0ePCODT-Aios9e2SLdGYrjicxTdBj_pDsysdl00HMihLTp9piNzm8WKtWFrdWKsEUYSDhkfOIB5r-Beky1cFnWWnjv_UjJsEkyRpd6IEA8SS5qTUxi-8TLGwZWUywPkbtUO5DeMTkD-9Z5QRjrjFwdalQKm3neDTQIeAo5KbzJ11kLfl_rstf2K0M28u9VYXtCdsYzgM75Jk_Wm3MUp4TkhYUoJBhakvwOkg_p0jjACN43US-KC2VzxQ0iWBoVjzB0bkDX1XTmSmpCpJxK1og23Nl9xdih50kHGD3fWBEIlMzWEtzH-fMydhVAvq6s_cWe2vRMzxQ8de205FOoZiLvJea44c0yqwojxFpojrG_BvsIOUxOXwA1LY4xi48LLHbWqaRNQhHoRmCm5zs1oMJMoTL2qFuOxqBzvefc85iqJOCFuRCeFJf5Bo7Pj3ZNpyx5ArI1AI53VnmgxZh2ENyZKP_3-v3DCeK2dj2jZU44CYcpeq9eVl6ImVXdPCC7mhH8pUId7Wb76T2aysWZnGVIPfMXJ5Uw7qULHhSXFQIKwulHiLYcJH9ex9s7pE8yvQlLb4mBkJd4i4In175KC6e0QtIk5RKi6Bpi5ueujS-OT0qEDzq4P964XZoqNDx7qI0P_TlHxPHQZppNBd3u54_kjc77YLB6yWNTJ8lrBzG1XrO_9VAIh8fqCv0GCRla20MqGSbdlnOg_df5PF8mevt6vRfKPBAGErF2UoOJbkPzKqY5Mdri1EnQdX8tRcUBpjplZlEi56DRMwcH1CrMdBtk8fxDrmfzD8RwJX5sczmmHMcVTwWkH_AnJNxsCBETQWvFsT-_1vsm2cvi8nksWYMAWYOIbAEbze1ZhTBzcI4QZZhbIC1yUpCBkweBS2Az47aYMxGz0tK4N5DjUBzzzDzBcDpAB7UtuvsBkEmpuM10W3VdVEYhZ3_5rc2z13kU6eXuZ8NpKTHdCf6BW3QGFkkJu7OJ4KncNeKSpcpFQApdBt2-fzy42Rt6PX2w357Ny4wsMCBDfZt0rpnvWyQV2okUpGQvFyuaNoHn1vlNusZ-oycgFPfzrPt9bCwG1AQ0OiwGfNUoiJmLAYWfx6jlW7xm3WAiHu7VYyq-oVQFh59vXIJ6oKzBWaIlBxHYxJ3BpTo4ci_yBib5O-PjA5RHGd5XHwe1b7ecNbirrEomLUdYqOvEGAzfqLhL7ikeZPFI61ZLC_PriZ45Yl4QfVvqTx8xSC5FPyoijrIbnQfryN5sqTAfUd3kss3cZgxGtERTsPzh2RfAbNkvWfaDFC5yeBCGhPe4prGMscoFfCP4ViOy3Y3af7doKCyHRAYa33qrwiMQpodX19TxvGQ54huHI2_IfbYGnCewtQBHFrZyHZNhdL4zWctti286FFN3gc_pAabWB83Le82MUr3sbg4H0dpqiaoerxvc2cFyY1x5Q1cebBAWWR5EhmmqI07WnTWThnX2p7ZfK9F7HDHcJzJfV5HL7cf7tQHXACgbmo9XENh4JCuGNwDu88sUrZZJkRWnQEv73rRnJF7L_0Ar7WUb9PUMMd0kRJEpZfIa_TFwPqooT_uyoJc_YToP65U-9TeVSPIn-aNp96LQAVwKWQSqvISu1NtRYCOKkIj1t5uwBUwSZGdxjtTqG4JVilGW_XIfX6ua_hj7PHCGRdbGmcPJ3ketbLixL_Yn1uGSYk_bucsqXyoHEnuUQ0fYoOa8WXjDUQrEmAsABzdLUP4e37P4kGt91QY5aVSOUfCV36bBbUCPNwlm_i5swpNAZP9_iXYfNd8GKhNABvtihmwjVt2fD-z2bxbRy1EM8AAdwSeV_ZAB5SSphCUHk2I51Zy0iiWTkgpT1obIpe3ckcveTrehjdjBtKQdVpsTF6vAl2xRj_E29J8IXmwIcG11k_v_F7SW94y3ycT0T7fmZ9LPxWj3jLd2wxAFro8_A8An9v8EsiBWKAkU0kLPuEmsteqvLGX_y6aI99rO2h8-emOMw6JumzPQb4-5YohkEjoNqQa6ufxsPdIa8Jew8PA24o7GX7pk9EcCublYyyZewC2FB5xOoV6xN0MAgvDJIhJXtC9nxUxK63KWSAj08OA3haa84an0-cSMDNsuYAOiAZ2of7SaMUakzbumUU4PkzbxiZDDPc49dZ2qMbpkz423FjIq_J8UXnOlzBwgEu5V53b0pJk0INxU2tfpCYwQI4dQXgBsEkzyLgNnUwor0An95GI4EAwjrs5U-xtxq4IDrYQ_s_pnJvgsG7X--GgLd06dMLfPYJJX5ivIs1NiUMvyS0RrDBD8tv_cBX-GkrkwBJjCWk4tsaRq3RC1-fhufEQMz_sU1J7OHRivn_jPS9mkXuQO7wg3MKndi9SFlp1T8uFCAyAHEqmyjSm41ZeAbAkTGuRSMkpNG-qv9dIx0oQkDo8K7Ym7iK1wxizsSR_OgNhM9snCRHTz0gm_kkYmvHU9k6Kh0CACSmDmxt3nmwAl8i4QDl4XNXA_Jz1jUACPMB6fizUac3wwOmYvXLFacINwZyeyLaA68udIkVUZj1IGvCZkWrzMNA19ApAr87vi16Idj30bCO_QRk482D_20vRMUd0do4SzFKCVKdsB3woHRj1Mw69kGR5UBxSw9-81bXyPXa25S2Wk4hN2zaTQX5420tdo71WOe4QGcDbUsTr7p3D6l6w88PB8sTcipyanVQ6i8CXfyTZh2t5OCTCCejadoNTdsvF5zksXY-y3UHPQl0RduaMvMrUuOh7Csk3GVRTEIfCw6UkEhgEDNVm68CB14NEtoNzZ9Og56GGljjobEUwdLOQVQ9u-L9EmQ=",
+        "status": null
+      },
+      {
+        "id": "rs_08963508758e81c1006a6532649e20819881770af3c1ad8c98",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZTKbkPlhce5NeJm0aOm0qeQ-4EPqVhsKJ46wMcOIGIA8CPuowUmm0zzhbvxXk7v4WJebImy49HGbN7xpuYgBY44h5wj1tA7gPa52vwsXF50WAvlNsHNqcg_BcAykdlJl4KlCElCz1yRb3xcKj46vCQxkmekhyXymdM4x1daZPn5CSpVjFzxLR76pKX_sjVk-1k7dbEAt0ECJ6JUxQUmka1bHvwlw3v9913JrfO37iITADaL6I7jsDk8J6sBtXT7Yzt2ziUCBAr9BhGvGw3Mu-nnTMM1tOSDo9nj-R3KoGNHUJjueWSmw-8J5CvPLDi3WGnpU4MRzRt7KuglZvGNoRN9wK6t-Vfrb_oe7ftAxAHvg0ZK9j9rPc_b-53snzGrLPQELHCwNDHwoMnTHm1bfTeOyTwzkfJJa85_in5uwcNSMuY8Ft8g8e01XurXZe5ESJaZFx-8y_uWimkSYFyJlSfhgYXwvAxYSNHFccRf-0-S1PhquCOmZP4oZLh_0Aeo-PZ5DLCTtudffM5T80aavNQuKZUbweb2jgKM7xL7faHDXih-2AnTFhWGzKXtS7cUVsvjFZ4psO1CV2uqTclUFw1iCknsvX5C-v-KKSuSRHCORPIoQYQ3CCSKl_JU9FBFBKSkLdV1WEK1gok6eT1A0Ynqph-nvS5D0Jbnogoc3qnFWTmuvEjndqWw6BETSn1tfuS3jFZKxfVMvSEI_3BOaGROirMXhqwfBZPyDxEip5AIc9NrhL2iWlGsCu6zt-W-UJCaus7mMzKw5kakIBUgyT9FB3xD-Zq_wPg3TwzkmZok2KOd6K7I3iHLNqLBvNvq2YQIJCANsK9ubRdj5BJM2JOd2xBTakH4lAxxwPfFoxPFqWLEHKnmthqsfc8sUOgDd1cJayPijo8Ut6Xt-XTVR_yvnmvkKWM7wwWol0GOxA7F6dEuxODiPz7mKbRfWGAMUstAsG0bG8573pl8T0n5ei3nE4p96mMO05CKAkw6oiWkKwhpKrBcB7ZPJzngbEnmy5uAU2eVLTZJ8St3hD192MoMeji7Lnvy4KcYmmc5nPH6yJgDFALCJmPwfsP6W7dTZMSvCYJOcvyiNXYKQZuIvFX0amh-z3wy6e3VSj0fT49AsQkwqxqqx7IhWBUWMqn8gJ6CZyKHSsaiS2tZd7_K0nD7etHiHMwd2FBVarMo5vIFQeX7hJ4zV1d4yyG1rgNmLeUX0lMSp8WUSNFS4OjeqdCj3xRMDKga1IWCXKty_Tqkx4b2lKW3uT1vc2nukQxzW_rTkrgFQOZaTZUBaX31pP88FRGOPtojXa6Oh4a9Ksr6wM5LBdmY6qnjjKl-S-kkj8YRfYlDISp2I_w3pDAF8RS3RYrjpQAf_l5VMjpadfz_R8atF_IgbAJBaFFLqpTiSioO65jOJLP9Jto56aK1FKtZ1VNoy6S4XBj5GUUFie4P_zwW28epkPOjEw5S3cek03LfmmF8rqYsmhXpsGPJJObBfNBDncZR1hoyCZwHttm_qqmgGFsASsXkFSzZoQVa-Bp_77tBnEmJpkghXa3rZAjfW0Q9oe4KbqcYhwU3S8YqWGQBrS6qIbF8dYArNRg1BQca-_v4Ov33EThHu6K5kqz-xzym8NBsFolBUiIDoYeSD56sT43cLxoDe5hZkYEuoZgi9LKfV2spQTdckWZOCC0KkjEamyNzl29XU5f4gkeoMNaVYgCMtnQt4LdmO5K1J7qSMhgHtlWMQbWFhmmWx8QNnVS4PkKpKrKJuvFx7v8RvZsgG1G1my5ouM_6hrzQAp0H8v2QxBmEQ7G2AkP-IV1xkOcalmZHT11OJprx2aV7H5q-Gr8nAZGFStLz6EyUNHyan2G1cox05pDR3IvOO1cpwN2kNK0qNDZO8IJ9z-fE0r1tPIew_WvbNrXYTbTeSFuSZ1QCj6FrODpHO3V24ktWKRsiapgpVCA3qVpE3GD9d_WPLbLl7X4mJRSPaH9_1xBLNAjvlsTcj8dwUDgqDXi3sUV1k7_y1GteGC1tY4zbJDfVOpB4diuKGVkFjurICOA7e6eZ0Jbrq_Lym4SFwYBYOQCaVd56uj_ges5MXCGjUAbKYsjJ5QcOdr1wRDYt2D19k7yLAxI8U5ubSP0F6nvYyx1IcrlY5wh4QzAhx7LBio8AJawxI9LerZ12_U4jedE8dX3pJyCIg7nyD2Js7-cwzachZlTUEA1GcEZmTAIG7Dl7-pjqWE-RYFux3SpP-nD5GWzXLpbtvP3m30XqYnNvNJ5URyNt6zp6Qg6aE4eriRlR6_ujlESvnly1oWdjGELMpCVLoqijI6vR9zhvvaJa3Gkf6OBI6v7E44JPq-WpeQnIy9trBnFyx8qDqLS-uGn870twjllKgoI4e4-EfDsBMKjutK2eqDsCV3u5lyigZIH9XnNjCJsh6UGjAi8eFSiSE0Oo44bHnKdR9lljnHpBaxUnBQERZdTJJhs7XTaD0JxWYsWiHzpNlPVLn_n7nDe1njxZHMAqo35l-1YO-lntea1RdivIL1NK7TB2FBPvCDb-TTdWdpRQWBPh7fe589j4tmf3ffgT7HlQuuP8foPy9YFKfhz3Bs8TgGNbET0spPf-BKJOjApuIG1HXPOsC6M4A_c4dtUQV9R8FVJ6ztNyAYi4XFiYA6xkDZT5EgNnu3ItkPO1LP-5ClJURJbWh9oUrSYXBNysS7R6yxwh4fGWt0HM-Bu5V6En3zBXdQV9DtLTR9dZGfS_Vjz-gmq5K6-Va3U-dYQuzIYBRS3Mi8jIKf7VFfpotFM88Bo0iJNff7ehIPCqN-Cw_oTUklSd7zP7fkDxbuz7bLQ5xpQH3BIf3fWG9vWLyGdDagrY6PqKu8xC_cEudC_zhQs0K4i94TkBRI0ZGXf0W7WgWIuHFt92tQbB8Y50k2QN8W_UlarvYoKa-ljgsycwM03N9GEN4bM0GTtUv20EWtzoXg7lEpldgs_4JCLzzDAqXO17NYTjyrQgwuqWIBjAK6Z9nkRVi-_W-d49F3_CtGyujHMxqjhBqPVNn9qYFMXUNpaxXA1GgaqaaXkXEtZiKWMwGOphpPnUM_gbgOt4T2po4MvsrW31nlUb_8sIBxWVwNwssFmA3DuL21IURF_yLCwfbVv-48Fbx12mOFL5CYuLuWpBJozcLVb8hoF111QAbeX1nqSt_G3BIKIFoistPW0k40P0tyu1KvL0RqN3Gl34x4KMT991PjpIQ1CqVlv52Pkewl8Iqy7TTvv7Sqg1Tj8uNZM1CTR4rmGC1f3NVzUlEqTmGpm8H4xOFRYfFsVE2KBS2g7UTnibQUCKI9mUrqITw-w5JVQeWOSJ4mYu-sV1nXkwFC6pBz14b7VUyr4daz1W3i53vIw7CAVHUaC7xCLHV1eN3G9hUEIUZYYKrR_jiuMQLqbZaJuB426DglBr7Em5UvovD7EqlnotWyF32BvPO8qwvxEK9BBqfFNtQNqG0lxXhurPG1aF5wa5QBflvsB5nYMYSu-D5oKIFmAgRrNDHT_Feoj_Q-YXNkthYcKpD00t83fgJ-vUTd828fkl8RrClVWLftncmxqlr1DF_5sSkTBuCQvbptIgPmv53WmprpwXBPJnYXymS2pEmIL7ch81UbEb3Ljbd_aw06XGsMKmMZCKW-cyUgy9tqyWHH3c-GxIDmzOauZycTQgfm8okrYQDKuphN-__MHA0L1JYm892d72j_ozWigqcPrM8Qomuusga86_hIgVC6iqZRZNIfCro90509jaP5Pc4AdxlBcU0gQqx0wsQLVg2ZFf-lJ3-_-P6Gimbw3SBYxGddtjugIKyIqdLHOD9Hx-i69EPvAq1RWmdArQrLq8kuwUzbdrsJd3e-iFXZl-mg8iuJbkuThkVkCASXTgr8IP7YZMmXpl15YiYJ5SqPZGBw4bUAhYN7gw1GqtVdlkh8KPkeM8GVpmpqd1ynC3EoSEqyR_vv1Re4ut0X1kJL1ua9PoHGvj3LGqhlUbw1l281YKSi2hNkIWAF-CS3I4=",
+        "status": null
+      },
+      {
+        "id": "rs_08963508758e81c1006a65326ed570819896c864d85706b9bb",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZTKbL7CFnu2le4_1DiyiBsNTetNukLCxihvnPsF8o7IUb-ke_p2nY8INmdFBm3QRzc4g87K6skFiEHrgk-kt2lmhtuI1VhMuyOdQXoqET9EO5z0kRbB_e-gjlxvJ-JXvzaEiYYojEcNx3vAKccjcfV_hdcO0gh9SEii1HMJUi6OqS3JfqTuOZs9aK585nXseJqaZ_Nz_Dqz5A0uuYtFqycjHRJGVGGvfV2LlnakpvFQu-cnqZFQ328KTPyfVGNrkR8H6ov0gAQlIliUwy2VQQPPIVTnsHbAUDB0VwKu6VqZuj-rBaRs4tPA_wUkuv4P_AYtcydib7VUMdW-VceCywVV6RzimwVfebymBgRggOyKdNJfdIdr94JlkTSOgwsxYgy5Pyk3xOrRhAQ56yCY9kETcWbarWd16nEg2djX-mCPg8ejpI-OTAgxYb7s0UI3DI2zIeKyrRxfFNrQohaES3LkykXhcrq1MHGtreLqyKh5EJp-smUnbWKuR2JZMYbnqmQd2cfOhAm84KR5yvqfNj7vnAiThfHzwlKoQuVKsyaTcdrgTdCML8x1oq7V_ASD8CTupaan89vN-CAVq1WASL6QUdGliT3akPW296ylHJlwvM2BEgRGlsokqaKSrbyHzHh6NuQjszJO_XPv0809U3PjdApejhEg5ZRcpMXRpM35JEfAX0ueVaaXzJaeChQ9rZiPlEVT5O9i75ysqel99q2h6AyY5sG4wnQejiurQ5ZHW80CF4P6Po9DHHTc5bTBlTEgt1PJVsQg5bzGkUmfWkCIffVUfy6zhHcTRhchjw0Tzgx0jJ89fKwWp5Q2y9zWZyJWgExqXKYbRPHaoR0lifJvP_YRb4TAj-IeIOyyHe9bfTa6W1oB3yftTHG33aBl-TPs1neqMd02-UVovqzTTPEfoAPIMo84vnG5xVaHJujziqW_-nP52A4F04JdBCBjEfuCJFBf1Y9ilEH_ELIa0wWSBNOuBqu7LX5B054K4ldnVGMgJSVTNF43V0wqHFyB-U0xtGeY7Txby9iVpD8TdCsNvmhFzMsRLG4xait3iMgocZ_TbFgoRyq4H8AgKq1w6KNQIdpd9U2S9yNN-clRJVbuEA4rXRUpv73OB-uYpggWq6aNrS6o0CnTpwFASSE_JUamBVJ9lw9WdqWbb7_dzBfgFXohaT5hSL6ZN3IjedvGYuzn199JI_PJzOKQQwOZkG376iptvIcX3W0IHuyh3-r-HdiXYyh0ioiG6n88CYjUG8sKw6NPkOMFA1DwjXAr17H1qi1V4RXaxhcSR37QYI1W2PbwG5XCqzE6jCsUT9M7PGiQ=",
+        "status": null
+      },
+      {
+        "id": "msg_08963508758e81c1006a65326fba648198a6477851b1e13fdf",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"episodes\":[{\"ep\":1,\"title\":\"The Dead Woman Walks In\",\"lines\":[{\"speaker\":\"COMPERE\",\"text\":\"For solving Kaveri's murder, Dharampur Police honours Inspector Devraj—\",\"sfx_cue\":\"police courtyard applause, microphone squeal\"},{\"speaker\":\"kaveri\",\"text\":\"Stop! I am Kaveri. Which murder did he solve?\",\"sfx_cue\":\"metal gate bangs open\"},{\"speaker\":\"tara\",\"text\":\"Maa?\",\"sfx_cue\":\"applause cuts off, plastic chair falls\"},{\"speaker\":\"kaveri\",\"text\":\"Tara. Yes. Come here, child. You and Munni, come to me.\",\"sfx_cue\":\"hurried footsteps on stone\"},{\"speaker\":\"omkar\",\"text\":\"Girls, stay where you are.\",\"sfx_cue\":\"wooden staff strikes stone once\"},{\"speaker\":\"munni\",\"text\":\"Didi... she knows my name.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Lots of people know our names.\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"Look at me, Tara. Look properly. That scar beside your ear, you got it falling from my cot.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Don't... don't say things like that.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Constable, close the gate. Nobody leaves the courtyard.\",\"sfx_cue\":\"police whistle, gate scrapes shut\"},{\"speaker\":\"kaveri\",\"text\":\"Devraj, tell them. You came to our house twice. You drank tea from the blue steel cup.\",\"sfx_cue\":\"crowd murmurs rising\"},{\"speaker\":\"devraj\",\"text\":\"Let us be precise. You know my name because it was announced on the microphone.\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"No. I know your face. I know my father. I know my daughters.\",\"sfx_cue\":\"\"},{\"speaker\":\"harilal\",\"text\":\"Do not call me that.\",\"sfx_cue\":\"walking stick taps forward\"},{\"speaker\":\"kaveri\",\"text\":\"Baba...\",\"sfx_cue\":\"\"},{\"speaker\":\"harilal\",\"text\":\"My daughter is dead.\",\"sfx_cue\":\"\"},{\"speaker\":\"WOMAN IN CROWD\",\"text\":\"Shameless woman. Today of all days, she came to claim a dead mother's children.\",\"sfx_cue\":\"crowd murmurs agreement\"},{\"speaker\":\"kaveri\",\"text\":\"I am not claiming them. I gave birth to them.\",\"sfx_cue\":\"\"},{\"speaker\":\"omkar\",\"text\":\"Inspector, remove this disturbance. The district officers are waiting to present your medal.\",\"sfx_cue\":\"medal case snaps shut\"},{\"speaker\":\"farida\",\"text\":\"No, let her speak. You gave medals before giving four innocent men a trial.\",\"sfx_cue\":\"bangles clink as someone pushes through chairs\"},{\"speaker\":\"devraj\",\"text\":\"Farida, this ceremony is not about your brother.\",\"sfx_cue\":\"\"},{\"speaker\":\"farida\",\"text\":\"You arrested Rafiq for killing Kaveri. Kaveri has just walked through your gate.\",\"sfx_cue\":\"crowd erupts\"},{\"speaker\":\"kaveri\",\"text\":\"Rafiq? The mechanic? What did you do to him?\",\"sfx_cue\":\"\"},{\"speaker\":\"farida\",\"text\":\"Eighteen months in jail. Rafiq, Mahesh, Bansi and Irfan. Your murder made Inspector Devraj famous.\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"My murder... no. No, I was gone, but I wasn't—\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Enough. A solved case does not collapse because a stranger memorised village gossip.\",\"sfx_cue\":\"police baton knocks railing\"},{\"speaker\":\"meera\",\"text\":\"Sir, identity verification should be recorded before—\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Meera, you are here to manage certificates, not investigations.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Yes, sir.\",\"sfx_cue\":\"papers gathered quickly\"},{\"speaker\":\"NARRATOR\",\"text\":\"Before the first clap that morning, one page had already been cut from the corpse register. Nobody in that courtyard saw who took it.\",\"sfx_cue\":\"loose paper flutters beneath wooden dais\"},{\"speaker\":\"kaveri\",\"text\":\"Take my fingerprints. Ask me anything. Tara was born just before dawn. Munni hates milk skin. Baba keeps mother's anklet inside the grain tin.\",\"sfx_cue\":\"\"},{\"speaker\":\"harilal\",\"text\":\"Quiet.\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"You know that is true.\",\"sfx_cue\":\"\"},{\"speaker\":\"harilal\",\"text\":\"A thief can learn where a family keeps its jewellery.\",\"sfx_cue\":\"\"},{\"speaker\":\"munni\",\"text\":\"Nana, she sounds like Maa.\",\"sfx_cue\":\"\"},{\"speaker\":\"omkar\",\"text\":\"Munni, your mother received proper final rites. Do not insult her memory by staring at this woman.\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"You brought my children to watch a man receive a prize for my death?\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"They said you screamed. They said those men killed you near the canal.\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"Tara, I did not die near any canal.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Then where were you?\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"I... I will tell you. Just come here first.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"No. Answer me first.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"She will answer inside, after we establish who she is. Children should not hear an impostor's inventions.\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"Do not call me an impostor in front of my daughters.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Then provide a valid identity document.\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"It was taken. My residency card, my electoral slip, everything. Check your old records.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Sir, the old electoral register may have her photograph.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"The register records a deceased voter. It cannot testify for a living stranger.\",\"sfx_cue\":\"\"},{\"speaker\":\"farida\",\"text\":\"But a burnt body testified well enough to jail four men?\",\"sfx_cue\":\"scattered claps from crowd\"},{\"speaker\":\"devraj\",\"text\":\"Farida, your courage is impressive. Your brother's workshop lease is still under police review, isn't it.\",\"sfx_cue\":\"\"},{\"speaker\":\"farida\",\"text\":\"You already took the workshop. You cannot frighten us with its empty walls.\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"Inspector, I came for my children. Move aside.\",\"sfx_cue\":\"bare feet step forward\"},{\"speaker\":\"devraj\",\"text\":\"You came into a police station, interrupted an official ceremony and attempted to approach two minors. You will wait where complainants wait.\",\"sfx_cue\":\"metal railing gate unlatches\"},{\"speaker\":\"kaveri\",\"text\":\"I am their mother.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"That is your complaint. Stand behind the railing while we examine it.\",\"sfx_cue\":\"\"},{\"speaker\":\"CONSTABLE\",\"text\":\"Inside, madam.\",\"sfx_cue\":\"metal railing gate rattles\"},{\"speaker\":\"kaveri\",\"text\":\"Don't touch me. Tara, Munni, I am here. I came back for you.\",\"sfx_cue\":\"cloth scuffle, railing gate slams\"},{\"speaker\":\"MUNNI\",\"text\":\"Maa!\",\"sfx_cue\":\"child runs two steps\"},{\"speaker\":\"omkar\",\"text\":\"Hold her, Tara.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Munni, stop. Please... just stop.\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"Baba, tell them about the burn on my left wrist. Tell them how I got it in your kitchen.\",\"sfx_cue\":\"\"},{\"speaker\":\"harilal\",\"text\":\"Many women have burns.\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"Tell them what you called me when I was small.\",\"sfx_cue\":\"\"},{\"speaker\":\"harilal\",\"text\":\"My child is not standing behind that railing.\",\"sfx_cue\":\"\"},{\"speaker\":\"kaveri\",\"text\":\"Then look into my face and say whose body you buried.\",\"sfx_cue\":\"\"},{\"speaker\":\"harilal\",\"text\":\"We did not bury anyone.\",\"sfx_cue\":\"walking stick stops\"},{\"speaker\":\"kaveri\",\"text\":\"What?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Harilal, there is no need to discuss evidence publicly.\",\"sfx_cue\":\"\"},{\"speaker\":\"harilal\",\"text\":\"There is every need. This woman wants the village to doubt my daughter's death.\",\"sfx_cue\":\"canvas satchel opens\"},{\"speaker\":\"kaveri\",\"text\":\"Baba, please. I am standing here.\",\"sfx_cue\":\"\"},{\"speaker\":\"harilal\",\"text\":\"This is Kaveri's death certificate. I identified the body. I personally lit my daughter's funeral pyre.\",\"sfx_cue\":\"official paper unfolds beside microphone\"}]}],\"beat_sheet\":[{\"beat_id\":\"b001\",\"ep\":1,\"seq\":1,\"world_time\":\"2024-08-15\",\"location\":\"Dharampur police station records area\",\"present\":[],\"witnessed_by\":[],\"hidden_from\":[\"kaveri\",\"devraj\",\"harilal\",\"tara\",\"munni\",\"rafiq\",\"mahesh\",\"bansi\",\"irfan\",\"farida\",\"jagat\",\"meera\",\"naina\",\"sudha\",\"leela\",\"omkar\"],\"what_happened\":\"An unknown person has cut one page from the corpse register before the ceremony.\",\"state_changes\":[{\"entity\":\"corpse register\",\"fact\":\"One page is missing before Kaveri's return becomes public.\",\"valence\":-3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"Deliberate open canon: no cast character witnessed the page's removal or knows who removed it.\"},{\"beat_id\":\"b002\",\"ep\":1,\"seq\":2,\"world_time\":\"2024-08-15\",\"location\":\"Dharampur police station courtyard\",\"present\":[\"devraj\",\"harilal\",\"tara\",\"munni\",\"farida\",\"meera\",\"omkar\"],\"witnessed_by\":[],\"hidden_from\":[\"rafiq\",\"mahesh\",\"bansi\",\"irfan\"],\"what_happened\":\"A public police ceremony honours Devraj for solving Kaveri's supposed murder and jailing four accused men.\",\"state_changes\":[{\"entity\":\"devraj\",\"fact\":\"His reputation and anticipated promotion are publicly tied to the solved murder case.\",\"valence\":3},{\"entity\":\"rafiq\",\"fact\":\"His imprisonment is publicly presented as part of a solved murder case.\",\"valence\":-3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b003\",\"ep\":1,\"seq\":3,\"world_time\":\"2024-08-15\",\"location\":\"Dharampur police station courtyard\",\"present\":[\"kaveri\",\"devraj\",\"harilal\",\"tara\",\"munni\",\"farida\",\"meera\",\"omkar\"],\"witnessed_by\":[],\"hidden_from\":[\"rafiq\",\"mahesh\",\"bansi\",\"irfan\",\"jagat\",\"naina\",\"sudha\"],\"what_happened\":\"Kaveri enters the ceremony alive, identifies her family and demands access to her daughters.\",\"state_changes\":[{\"entity\":\"kaveri\",\"fact\":\"Her survival becomes public in Dharampur police station.\",\"valence\":4},{\"entity\":\"tara\",\"fact\":\"She encounters a living woman who knows intimate details and claims to be her mother.\",\"valence\":-2},{\"entity\":\"munni\",\"fact\":\"She hears Kaveri identify herself as her mother.\",\"valence\":2},{\"entity\":\"devraj\",\"fact\":\"The central premise of his celebrated murder case is publicly challenged.\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b004\",\"ep\":1,\"seq\":4,\"world_time\":\"2024-08-15\",\"location\":\"Dharampur police station complainants' railing\",\"present\":[\"kaveri\",\"devraj\",\"harilal\",\"tara\",\"munni\",\"farida\",\"meera\",\"omkar\"],\"witnessed_by\":[],\"hidden_from\":[\"rafiq\",\"mahesh\",\"bansi\",\"irfan\",\"jagat\",\"naina\",\"sudha\"],\"what_happened\":\"Devraj publicly labels Kaveri an unverified impostor and has her confined behind the complainants' railing.\",\"state_changes\":[{\"entity\":\"kaveri\",\"fact\":\"Police classify her claim to her own identity as a complaint requiring verification.\",\"valence\":-4},{\"entity\":\"devraj\",\"fact\":\"He preserves official control of the ceremony by treating Kaveri as an impostor.\",\"valence\":2},{\"entity\":\"farida\",\"fact\":\"She publicly connects Kaveri's return to the imprisonment of the four accused men.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b005\",\"ep\":1,\"seq\":5,\"world_time\":\"2024-08-15\",\"location\":\"Dharampur police station complainants' railing\",\"present\":[\"kaveri\",\"devraj\",\"harilal\",\"tara\",\"munni\",\"farida\",\"meera\",\"omkar\"],\"witnessed_by\":[],\"hidden_from\":[\"rafiq\",\"mahesh\",\"bansi\",\"irfan\",\"jagat\",\"naina\",\"sudha\"],\"what_happened\":\"Harilal produces Kaveri's death certificate and states that he identified the body and personally lit the funeral pyre.\",\"state_changes\":[{\"entity\":\"harilal\",\"fact\":\"He publicly rejects the living Kaveri by relying on his identification of the cremated body.\",\"valence\":-4},{\"entity\":\"kaveri\",\"fact\":\"Her legal death and her father's cremation testimony become immediate barriers to reclaiming her identity.\",\"valence\":-5},{\"entity\":\"death certificate\",\"fact\":\"It is publicly presented as proof that Kaveri is dead.\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null}],\"promise_ledger\":[{\"id\":\"p001\",\"raised_ep\":1,\"listener_is_waiting_for\":\"Who removed the page from the corpse register, and what evidence did it contain?\",\"must_pay_by_ep\":7,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p002\",\"raised_ep\":1,\"listener_is_waiting_for\":\"Will Kaveri prove her identity despite her death certificate and regain access to her daughters?\",\"must_pay_by_ep\":7,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p003\",\"raised_ep\":1,\"listener_is_waiting_for\":\"Whose body did Harilal identify and cremate as Kaveri?\",\"must_pay_by_ep\":7,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p004\",\"raised_ep\":1,\"listener_is_waiting_for\":\"What will Kaveri's return do to the murder case against Rafiq, Mahesh, Bansi and Irfan?\",\"must_pay_by_ep\":7,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"}],\"calendar\":{\"season_start\":\"2024-08-15\",\"dates_fixed\":[{\"ep\":1,\"when\":\"2024-08-15\",\"what\":\"Kaveri interrupts the Independence Day police ceremony honouring Devraj.\"}],\"periods_fixed\":[],\"unresolved\":[]},\"flags\":[]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 0.98,
+    "background": false,
+    "completed_at": 1785016986.0,
+    "conversation": null,
+    "max_output_tokens": 32000,
+    "max_tool_calls": null,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "episode_batch",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "episodes",
+            "beat_sheet",
+            "promise_ledger",
+            "calendar",
+            "flags"
+          ],
+          "properties": {
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "ep",
+                  "title",
+                  "lines"
+                ],
+                "properties": {
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "lines": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "speaker",
+                        "text",
+                        "sfx_cue"
+                      ],
+                      "properties": {
+                        "speaker": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "sfx_cue": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "beat_sheet": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "beat_id",
+                  "ep",
+                  "seq",
+                  "world_time",
+                  "location",
+                  "present",
+                  "witnessed_by",
+                  "hidden_from",
+                  "what_happened",
+                  "state_changes",
+                  "source_ref",
+                  "tier",
+                  "note"
+                ],
+                "properties": {
+                  "beat_id": {
+                    "type": "string"
+                  },
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "seq": {
+                    "type": "integer"
+                  },
+                  "world_time": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "present": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "witnessed_by": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "hidden_from": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "what_happened": {
+                    "type": "string"
+                  },
+                  "state_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "entity",
+                        "fact",
+                        "valence"
+                      ],
+                      "properties": {
+                        "entity": {
+                          "type": "string"
+                        },
+                        "fact": {
+                          "type": "string"
+                        },
+                        "valence": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "source_ref": {
+                    "type": "string"
+                  },
+                  "tier": {
+                    "type": "string",
+                    "enum": [
+                      "core_canon"
+                    ]
+                  },
+                  "note": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "promise_ledger": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "raised_ep",
+                  "listener_is_waiting_for",
+                  "must_pay_by_ep",
+                  "paid_ep",
+                  "how_paid",
+                  "status"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "raised_ep": {
+                    "type": "integer"
+                  },
+                  "listener_is_waiting_for": {
+                    "type": "string"
+                  },
+                  "must_pay_by_ep": {
+                    "type": "integer"
+                  },
+                  "paid_ep": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "how_paid": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "open",
+                      "paid",
+                      "paid_late"
+                    ]
+                  }
+                }
+              }
+            },
+            "calendar": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "season_start",
+                "dates_fixed",
+                "periods_fixed",
+                "unresolved"
+              ],
+              "properties": {
+                "season_start": {
+                  "type": "string"
+                },
+                "dates_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "ep",
+                      "when",
+                      "what"
+                    ],
+                    "properties": {
+                      "ep": {
+                        "type": "integer"
+                      },
+                      "when": {
+                        "type": "string"
+                      },
+                      "what": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "periods_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "between",
+                      "elapsed"
+                    ],
+                    "properties": {
+                      "between": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        }
+                      },
+                      "elapsed": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "unresolved": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 6586,
+      "input_tokens_details": {
+        "cache_write_tokens": 6583,
+        "cached_tokens": 0
+      },
+      "output_tokens": 5607,
+      "output_tokens_details": {
+        "reasoning_tokens": 2137
+      },
+      "total_tokens": 12193
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    }
+  }
+}

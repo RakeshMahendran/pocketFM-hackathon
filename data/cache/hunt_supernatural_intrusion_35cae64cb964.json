@@ -1,0 +1,1104 @@
+{
+  "stage": "hunt_supernatural_intrusion",
+  "saved_at": "2026-07-25T21:48:37.141392+00:00",
+  "response": {
+    "id": "resp_09a2ff6c7bacbb63006a652eff5310819b947a1cc4cdcd99e1",
+    "created_at": 1785016063.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-luna",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_09a2ff6c7bacbb63006a652f0024f0819b993c5c5842459d84",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS83dxDoUFt63HUVAbzZfqsO8va8QLjZ2pEyMLzQwPSH2QWM9cgtVhE71Yr5rCN4TdvRWbU-4TlBpDxUAF44g8X1Nkei2yqA-KSsOQgIbIuHTn-_R0yDRicbywfqAaQS3PdaPb_fS0P896xJbfs7XZEuW-uWHS9TdGPhGUTHeaGYGNCUnwsk6scpqhieH1pV5aXx_e-uRTcUbytfUxFiBR0LqV_X_kbt0WwKJwukvyrYzKu6ywJ-4fJMOGlmgbgbpAatS12ldjstEzTZL_XiU9w91bDxaJgt2w9npIG8MSCRPC3Xd9ruVdIRE_4NvoM8fjN3QOk5P-IJuTC6KSkE_ZmQE6a0276DYe8laLDqHRfEJHxaqpanoOx3SIYq7rVMGbWJ3kYPn4EG3e7jrJEfnrIZ5dkajFTC5fznEFywQzX0s0mQ4psUrxoxZubu-z21MOfhRNGv1jP0s-8uv5_Itt33ZZbDewKPbBUdlPMksW4KaOstYdQ9bm-9cAO__HPWXTOFEOPZEfiRTOgcA8g7P86w9OP63-TR7xLtt4Vv9Ir3j_OrCYjc_sOUc9KGS2tD7RT0qHW-dzBbzZRbb0wvu8tnwfrjWeX8bs6T1FgNHqcN721Bxdjrs9lZ_xnF3G9lQ831CdIE-Mv27g_6neRsYicgzlLdY16MIjoTzfrO-yRjRay3C-PQWSuNf8UZ6h8GevapmAF0fhVAvwC8vCupvrdmJHz_iZ_BpfbgltPVczLbBikvTdlmRaSTXYvvYfL3_KbSs5zZTmy5oZ2e9ChN5VhVpu1LINTwQL2MPVm57Qo0GrzRE8tzJML2q8Qgzu8mZCOjPDeNjgjP7MOL7H6HTRfQ0UUw0KMANjid2o6FV3zdFnQd3oBn8B_ekiKCNq7eFUPykI00E0lX6CIlaAgecRO3SaOKvbwaIrf5rQ2JqqeTE6jLVA1f_nOflqgq_lAdf3xHqPouppGXbE4v6WZVikhyKXuybOhJKU9J3l0QvOM2LScxhki-8Jr-lsuA69OOYqWBCUpDl1wFdKuQjReL-LfNN4V-Llgh1KKwIvqT7FP7DGhnZ4qzo-8QT-7ATSc_IWpXHoDFjJgD_DO0zqNSkPjLHOIt5UMNCPR41VNc-NKuOZOhP-Y7Ep6VY3qfi1djs2c879T7B4q816O3nADgOmxXsza2rYhQUUkmWquvikK359Q589D03sxakZcRE7vhY0Q2",
+        "status": null
+      },
+      {
+        "id": "ws_09a2ff6c7bacbb63006a652f00ae64819bb0f890e4f5641758",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India village haunted house court order possession ghost temple trust dispute unexplained disappearance regional news",
+            "site:indiankanoon.org ghost haunted house property dispute possession spirit court",
+            "India police FIR exorcism haunted village unexplained deaths house newspaper",
+            "Bangladesh Nepal Sri Lanka haunted house land dispute spirit court news"
+          ],
+          "query": "India village haunted house court order possession ghost temple trust dispute unexplained disappearance regional news",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1262707/"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/india/entire-village-ganged-up-to-finish-a-family-police-arrest-three-of-23-named-in-fir-for-bihar-witchcraft-murders-10114704/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/india/story/chhattisgarh-kharve-village-deaths-liquor-black-magic-rumours-2929568-2026-06-19"
+            },
+            {
+              "type": "url",
+              "url": "https://www.newsfirst.lk/2026/02/02/balangoda-kassapa-thero-and-nine-others-further-remanded-in-trincomalee-land-dispute"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/143070752/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.dailymirror.lk/print/breaking-news/Court-orders-probe-into-attempted-sale-of-Nepal-Embassy-land/108-320624"
+            },
+            {
+              "type": "url",
+              "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2145220&lang=2&reg=3"
+            },
+            {
+              "type": "url",
+              "url": "https://www.thedailystar.net/news/bangladesh/news/bhasan-char-belongs-sandwip-not-hatiya-land-ministry-4083276"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/legal-news/supreme-court-sit-probe-maharishi-mahesh-yogi-society-land-scam-10686855/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1682387/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.news9live.com/crime/ritualistic-nightmare-aunt-kills-7-year-old-boy-on-exorcists-advice-2545743"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/legal-news/orissa-high-court-puri-emar-math-property-dispute-juristic-entity-10586102/"
+            },
+            {
+              "type": "url",
+              "url": "https://nhrc.nic.in/sites/default/files/2022-11-07f.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/nosleep/comments/ccsgi2"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/AskReddit/comments/15wu980"
+            },
+            {
+              "type": "url",
+              "url": "https://odishapostepaper.com/uploads/epaper/2021-12/61a6738ede2ea.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.mlsmc.ac.in/download/mlsm_magazine_2022-23.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/police/comments/17yo1ht"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/nosleep/comments/fxmll6"
+            },
+            {
+              "type": "url",
+              "url": "https://www.sxuk.edu.in/pdf/Oct_Nov_2022.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/delhi/comments/12w4my8"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/2019_Supreme_Court_verdict_on_Ayodhya_dispute"
+            },
+            {
+              "type": "url",
+              "url": "https://www.sishya.com/wp-content/uploads/2026/01/Newsish-2025-December-final_compressed.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Ghoststories/comments/1tvhng4/looking_for_true_indian_paranormal_experiences/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndiaSpeaks/comments/bt3drc"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Burari_deaths"
+            },
+            {
+              "type": "url",
+              "url": "https://epaper.absoluteindianews.com/wp-content/uploads/2021/12/Mumbai-06-Dec-21-Absolute-India.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/YouthInIndia/comments/1rrsc0u/share_any_paranormal_incident_you_heard_or/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/india/comments/ho86ie/what_are_some_good_local_horror_stories_in_your/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/horrorstories/comments/1h9206q"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Purnia_witchcraft_murders"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/lucknow/comments/1lnld94"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Ghoststories/comments/1m69f5i"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Kuldhara"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Dharmasthala_Temple"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Ghosts_in_Bengali_culture"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1403.2042"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2009.11744"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2506.09771"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1811.01806"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_09a2ff6c7bacbb63006a652f05f1cc819b88fda6ea5624a801",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS83HSGflpOjIJr4-zqoEvLI6whNAMQDtCwwxsQxYKZNgkrfe2tNizHTSuwM2j5Etu44VpJVfE18082x3spTgrypwcAJgZO8p1l0QJqudjHtwGoz-iKTmcjIQdacFrlJfZ4IBPEa36fvF6e3a2kbeRZRoAtv87UTJ0WFiibrYlpJjbDCgEsbFV4fCtmHarxeLQNpG4_yG6b_gxNRAZxqc-t7V2g_8X1XmQvQfusj6e8OllslWMSc8eKUT7PqCTZ7QwAAr47Xendfst-r8jRQreH5FE2zQOJ1HCC7t3DV0nHblklhpy-N6ftnfjNaJ0OJMDyYyv9DkxMb6PnjkTjsx53ZN4eADgUdMlTmg6nMn7aFeGoURikeeJ3RRQBP1dMSluqxPF_-SQY8uvXUAb2Yv9fJ1bxcg6N20CVtmlgTJbjlNTLsk11KoDo4w5MG_ZfEHZ7gudpYDMwKelcFO9Tqrr3ChG7_5t69w7w6Yp7cWIK13YY54risGZIWc34X_g5OxjXBdQrRdQ5lnKBtIVKhMwavkmhvVlHt-lSvgtiufq-7d8Q2N5Gat7DhtTAV23qbX8U3typea3h4c8T2rdlyNYi2aU6_dTC-0I4LPQ4fPScKfYJ-Wdy-P9RQf_RF4F1jM0p0sLwjHHHu7Ujc4vAw2CVLRox9vnMR2f018Gq3YyDQyq3AEJHL9J3gPmal47RvazpkL3Zf7tqEbllLUBGM-m6OJFw5Lc_rd8ZGPpi8gFGOJh3eMfShv6BtbDCGls8PcbPMZPFyNphnpMsgw7UVLoOj2ugzY252iSnexWJDz2VxIys1EM4mmRLYqeAJzmAkh-BUADpgruo0FFJytp2LFhyiug6Yj6Oz8iLP9IvcRAr9N63N12suxF1JC2G_tIp70FtQ0pActLM1TuhkIgt7CXqEn8xyU302gGq4PZj8PHMa6sQpNYt_Bm5HGWuIrpVNPGQNrSBVGnMIfYs9v_iQelTFr-7jwUxJv6JtFPx6YHWWNsB747KwEa0vl_ylBWpk1N5GqxVlEkns1mwR8FHM7it9MPVEKEyoowwqmYyJ_gspLuLCOo_8aAg-RbyEbzRKT8_cRvrpJGlICtpFNHg_TeUTFM0sl8zLIqE6lhcX2J-mUxXtYBlfh48vA0TBaiqxKFN4LDQtabUPxGASgbXpyvBGhBh1DsLQl6wouIkTcG7mgtGCY7M-1H5znZ76-2Dmdy5MVBb0jMDjwySbVlMQkag9l7E0CAhWeciaWmzeaXuOwQ0=",
+        "status": null
+      },
+      {
+        "id": "ws_09a2ff6c7bacbb63006a652f067b14819bbb21e8e787c9013b",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India haunted village abandoned house police investigation ghost regional newspaper \"haunted\" village",
+            "India court \"evil spirits\" house possession tenant spiritual power",
+            "India temple ghost possession police station exorcist court order newspaper",
+            "Pakistan Bangladesh Nepal \"haunted house\" police court land dispute"
+          ],
+          "query": "India haunted village abandoned house police investigation ghost regional newspaper \"haunted\" village",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1262707/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/86877396/?formInput=exorcism"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/india/hunted-by-maoists-village-turns-haunted/story-4V4dgegjCZVKCbaMJ6GkZL.html"
+            },
+            {
+              "type": "url",
+              "url": "https://legalperspectives.blogspot.com/2009/12/landlord-can-evict-anyone-having.html"
+            },
+            {
+              "type": "url",
+              "url": "https://ndtv.in/india/haunted-village-about-17-km-from-jaisalmer-kuldhara-village-story-9859431?pfrom=home-khabar_"
+            },
+            {
+              "type": "url",
+              "url": "https://www.newindianexpress.com/amp/story/states/odisha/2026/Mar/20/vloggers-haunted-house-shoot-leads-to-clash-in-odisha-two-hurt"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Bhaagamathie"
+            },
+            {
+              "type": "url",
+              "url": "https://theprint.in/india/once-haunted-by-house-of-horrors-nithari-moves-on-community-grows-land-rates-up-but-ghosts-linger/2789485/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.aajtak.in/madhya-pradesh/video/mp-haunted-village-chauka-near-chhatarpur-scientific-investigation-of-mystery-through-equipments-1644952-2023-02-26"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Inspection_Bungalow"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/noida/bungalow-no-5-block-d-noida-sec-21-haunted-house-of-pandher-no-one-wants-to-talk-about/story-JfMNej0HECyvD6Qkn8hQQL_amp.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.latestly.com/social-viral/fact-check/arai-village-ghost-rumours-nashik-police-debunk-viral-ai-generated-photos-and-videos-causing-panic-7312943.html"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/life-style/travel/destinations/5-things-that-attract-paranormal-enthusiasts-to-kuldhara-village-in-jaisalmer/articleshow/128216075.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://www.news9live.com/knowledge/kuldhara-village-in-rajasthan-which-is-cursed-abandoned-and-haunted-2464915"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Bhayaanak_Panja"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/D%27Mello_House"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/hyderabad/comments/1qf4ybk/kundanbagh_ghost_house_myth_vs_reality_my/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/List_of_reportedly_haunted_locations_in_India"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/RangiTaranga"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Paranormal/comments/1u8gz34/a_ritual_my_family_performed_when_i_was_a/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/vijayawada/comments/1up6hve/haunted_story_or_place/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/indiasocial/comments/lm10gf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/TwentiesIndia/comments/1uaqm08/has_anyone_experienced_anything_similar_or_had/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/kolkata/comments/1u9c8op/have_you_ever_experienced_any_paranormal_activity/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/ABCDesis/comments/lohgxv"
+            },
+            {
+              "type": "url",
+              "url": "https://www.worldculturalpsychiatry.org/wp-content/uploads/2019/08/07-Cultural-Consultation-V09N2.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.sishya.com/wp-content/uploads/2026/01/Newsish-2025-December-final_compressed.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/vijayawada/comments/1n403ef/haunted_house_in_vijayawada/"
+            },
+            {
+              "type": "url",
+              "url": "https://ir.nbu.ac.in/server/api/core/bitstreams/bb026266-4236-40d2-9b77-e4d0f937e118/content"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/hinduism/comments/1m0nr81"
+            },
+            {
+              "type": "url",
+              "url": "https://lightoftruth.in/wp-content/uploads/2024/09/e-paper_LofT_01-15-SePTemBeR-2024.pdf?80eb53="
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/latterdaysaints/comments/1g4gv49"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Rajasthan/comments/1r7vi8w/why_did_this_village_become_the_haunted/"
+            },
+            {
+              "type": "url",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Demoniacal_possession_in_India_%28IA_b22303583%29.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Indiandefencebrat/comments/1lhqlyu/do_share_your_horror_experiences_from_cantt_life/"
+            },
+            {
+              "type": "url",
+              "url": "https://mohua.gov.in/upload/whatsnew/65c45d2df0c83GeMBidding.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1403.2042"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2503.16437"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1612.04930"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2306.10338"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_09a2ff6c7bacbb63006a652f0fbd50819bac1f3a7c8c311e4c",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS83us3FIVggdSi4qaCDFvZwpb1le2M1BIXlXhZ4WRYdNs_H3jiyRJDvmiX8loc5Hbip3CUgh2nU4GGOHBAK6OZK_98aOA67UVXU9vlDsbp1gjj5jaQHIRA-2Jl_SH8E9XArCxQf-MiRwUfDOlkl2acLOYbFiyHXG-KikzjKYUA1xHIuNWG9OueYgWaB5eRCAL6485sUYRo0Px3d9yEksTK0vStofWN9WZ90bYvSo9oUCN1jvqEqojfzJ3n4vDu80SB_6NuXIHfW2Pgfs4AJncCfnj859x4SrmLq3ctxnxnPGQSa2fg5AO-VkPNW_AOXlrGzSyJfOoct-rFEx-vWNvEa4BkvGlopFV58I5yKijJKcz1-3YV7LqtwGUz0G3CnK-cr70QKnASi0ftn95lOOX-Fo8Nyiwgx97IEb4LQhhu71bqCq5LgqtXiGL5MYkZkUHwBPxaqo7BbAdOgRFzOZfYnQ1AO7Mp1yDdSoJquFYYzuejvzA3snUfLMhvpMkXGEPZHTcR0uxv0YhK1wwp0rsbcPF237aVqhLe0VMvUTLkkZLD7EFSOHiXP25DoqSLeq-jSkIoPu8W8uxSdBvue9HgctzzI73Bq6UlacRMVBY-qCY43WTl8MexHn66-l6jcC0hwnVQ6Mzf8u_t2bYFdMQ0VSRJigWjiuEVmJADaQwxTZF8vh6IC7OvBHE8Dqm3go54dsZqtq4YJnv2RtHPtaZP5dOTNpGo9n5HI8mn1eHYcQn8BM2n0rSXGzERALFVvak2W3UjsIc1evVIX7wnAvcm_d5H5fVDAPhA6icRQmKOH2w0zTiDyhcMqixYpULmfjjv45uPCZnn4DabMhPenqZZa3LJwy3vFn-4DWlfBlB8FdFkA7-L2JXhusdJ5hXl1xcVSP4yhEGt10blE0YhLlwbi6EylRov899yQTQYL78RHVBikjTC-qifVAPgI0dStjLySeRXgD4AKZ7DaGjf6WeEY2oa6BiqfCtXMkfNGU37DMjVPIiZGHwkibnhCK92HKCqAnRYVPed8OI1TLPMYhbFKFU0YAyLB_cPHcs-LwUm8hENhXA_68QTP28IiNQfbSJwzDmoZUvujJJOldszdDWh0UJM3WPHOevhiy2nHUMARkSbKn80fgF_wILap0pbfe4OeG4rUZgE6QBmZy7R9wy4zmI6RYr6vAAwwFtouQHmn6kdvnL8-1_jhyT6E3ww-sbqoSIri54WMyGJzO7eMD447ArIWb-UbmbACKKYVNAK2MHLe3qLw-69U1hwMObiRz92RaLZW4E9svG3r-xdODKhL46fCCaWAN9PjtJ1l6c4nGBd7OcbnV6jOEdC0dWyQPSlcrOzMK1hTrbBcZnNFEwmpP-GpPQ-4hUnoT2bI-4qt7d5kCM7Lef_ocFfcuOsEgvWQhBtGn629OO05WfXq8q3Q-dOJfkMIr0SXL3deHki59HEzeR8CQoBAwlpertZGfZxJ1e8w5Ydth_UsH9EWH-yown8D-OLRiKEX4HBWt3fvY4Ukn7ZP3RtAZyprdfItWAFBDet_Z9T_qZXIkKJyd8IZRnG3kFCUTqNX-fJI0L9THGQGA54aQ5D6RODDpKpR99ZOzoGcLvQTTn80RK7LH46T8kLj_HND8mReTt3dOgTP3wjeMrcYL0eWNQ_Hmw62GMaOK-HuZyKJ17Tc2xVpDQc1Ag5_YEMAmrfT0BrlOMUx27g=",
+        "status": null
+      },
+      {
+        "id": "ws_09a2ff6c7bacbb63006a652f10a51c819b86446b6dcf981335",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:indiankanoon.org \"haunted\" \"evil spirits\" house",
+            "site:indiankanoon.org \"ghost\" \"exorcism\" village property",
+            "site:indiankanoon.org \"possessed by a spirit\" house dispute India",
+            "site:indiankanoon.org \"jhar phoonk\" ghost family court"
+          ],
+          "query": "site:indiankanoon.org \"haunted\" \"evil spirits\" house",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/78426932/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1262707/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/86877396/?formInput=exorcism"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/184591386/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/search/?formInput=+evil+spirit+year%3A2022"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1990566/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/109072194/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/977277/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/search/?formInput=+evil+spirit+doctypes%3Akarnataka"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1328598/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/347672/?formInput=mtnl+"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/search/?formInput=mental+disorder++tag%3Adowry"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_09a2ff6c7bacbb63006a652f15a50c819b8a4dffa42c7889c9",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS83_iXwYbsBF7yaP973k87Z8x7eK0svLdW3BWfEqirZi3IsUkiQfy0o2Zuzi-bBy3vfq8GewnONfdEfDsbWzjYWXQuasmtXrrUrxLRZNZKCmyMmJsbTs8MSiK5fAdKc3nNuUNsBshfDaih_BnBbwUNwDKMpT_u9X_MquCTMnHldzCRIpp4GtO_MukdmesURzBJmAacmOB91ZQ5GfPmIJpzCMt3nl9HSpxYWHAteyOve6ilkHLUI9uZokr7ju2QxBW2o6kKZtUwEZAqVaOCTAJcL2aCj333lqeOXOwrQJ5Lj1_4VEJpT4tKTrmuH23fRfrl7V4E27QWdSBu8mMvuZ0yTXOud50zvRfE90VuoDjoXi_CEA_QrrHHxG9icXYG6isODqQ6tkt3DS76AHKOydbYDuTaXIdg4T7Be1PlHrxkXvdqrsSExmnA8a28nE7qO4Re__oCfwihOl1iZuq3nfkQ0Q47W06S46fJYyFvrQQ-WQ437huPAqQfrI6WcgUSSaZbo02sOBcT-ztb0lfIsDv8GEL72H0RsV5jvq_sHwZ-Yb63WIaCKaHfx3BkgUH1ZUNTiLY2h0IUFhexiBp6hSNXzR65CPGsmfEilz5khUndNOHxfTrO4w5o0yFqp8pVhdxMvZiyqzs0VoUo2bbXw9XWTp9joHqPPBzI7jE-WNdDp_gyyVjb6biJU6ofKpaP3zkd2yjpgAjkXODYyuJJieKzG_J00MEjTJ1YvpM812LDnO5l1ugtavGOkvPE_Yo7nuRdueLlwYRYEkBz8Wlt4N-FAYhHsobKMJz76KxMe1M4GieG_kyU2qw8IJ_5hqLzxr3vJeQgBxS0XTQ__FCqfA0bvoOYeLB_L2nGprvYIOWBMOvl6SjBw-UDxPW6rvbgsGxJbsq4GyhYKSI8Aq3N_E0M9Ln-lhCMbT4tzlQSNszK_kzPpCaA5uIAmfU7w6dCilmBBFNCfpi0KUKbB3SGA19JeRp0YQDHydmd8CnrploFVBr2ZcGnJnP1wvopsCFujHEgq14wOo7eBJFBRtSMp4dL4Ym2Q7N9UHOp6Mb3NcmrCYw7314OKFkGEK8Qd-lEl9EylrJ5zYhi_IXs7PC-r9V3TpKK5H-y2yPwvJqeO1_zmY_Rxr9LNaz-ylXKJfaznKS_sWn51T4Jo0ihCE8B_DfAeOFQxwglVgcoE7s9rOheoDHsojwkhp1eQAC1tdsFmkfB0TzMkVWpwNQJHFUG372fJD0RE2Mx-C9y9M1vve8DCR9LwwuauF3GSR3dMzvl_FH95ObhjmSgw0eGOP-3fo9ssSyiFy1InS2qdMxBdQhv2ICtFihEGsIXJbFXYBpXq4k_BqW8AZV7TNHpYFs9ZF7gjt6LDK4I5K-v5R6zH5YzQRISVTrjMjaoWa4yrLecIAEi1-3fZg8u31ZYAmmVvc41Bm_YzziBoZllsL-g3oZtHdG75ncCYEnrtal__9JgElmgtiLOE4B4g4cThLy5__Rl_9h05vBwH-eqnBqGg4UttAG4=",
+        "status": null
+      },
+      {
+        "id": "ws_09a2ff6c7bacbb63006a652f161c80819baa6fc11de5421552",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:indiankanoon.org \"factory premises\" \"haunted by devil and ghosts\"",
+            "site:indiankanoon.org \"land is haunted by evil spirits\" -child",
+            "site:indiankanoon.org \"haunted by evil spirits\" property dispute",
+            "India regional news \"haunted\" factory spiritual healer losses police"
+          ],
+          "query": "site:indiankanoon.org \"factory premises\" \"haunted by devil and ghosts\"",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/977277/?formInput=sawantwadi"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1262707/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1990566/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/cities/bengaluru-news/15-spirits-inside-you-bengaluru-woman-falls-for-astrologer-s-claim-loses-5-lakh-101747216361320.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.thehitavada.com/Encyc/2026/5/23/elderly-woman-duped-of-jewellery-cash-by-imposter.html"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/184591386/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/cities/bengaluru-news/15-spirits-inside-you-bengaluru-woman-falls-for-astrologer-s-claim-loses-5-lakh-101747216361320-amp.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/india/ghost-trouble-in-rajasthan-power-station-workers-approach-cops/story-m8YJ2bnX14X31nKs4zaNLP.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.ndtv.com/india-news/exorcising-ghosts-solving-problems-how-a-fake-tantrik-duped-woman-9445908"
+            },
+            {
+              "type": "url",
+              "url": "https://www.newindianexpress.com/states/delhi/2025/Oct/13/fake-tantrik-held-for-duping-people-through-social-media-spiritual-scams-in-delhi"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/delhi/faith-fear-social-media-influence-tantrik-breakup-solutions-black-magic-removal-10305642/lite/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.ndtv.com/india-news/mp-babys-eyes-damaged-as-tantrik-hangs-him-upside-down-over-fire-during-ritual-7929097"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/List_of_reportedly_haunted_locations_in_India"
+            },
+            {
+              "type": "url",
+              "url": "https://www.sishya.com/wp-content/uploads/2026/01/Newsish-2025-December-final_compressed.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://ijsi.in/wp-content/uploads/2025/02/18.02.008.20251001.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.dailypioneer.com/uploads/2025/epaper/october/delhi-english-edition-2025-10-14.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/indiasocial/comments/oa25e9"
+            },
+            {
+              "type": "url",
+              "url": "https://gsl.lbsnaa.gov.in/opac-tmpl/bootstrap/Books/103553.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Indiandefencebrat/comments/1lhqlyu/do_share_your_horror_experiences_from_cantt_life/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.infoexchange.live/uploads/2/2025-11/india_info_exchange_11125.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.mlsmc.ac.in/download/mlsm_magazine_2022-23.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/kolkata/comments/1u9c8op/have_you_ever_experienced_any_paranormal_activity/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/india/comments/x7f17d/what_is_your_paranormal_experience/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/DesiFolklore/comments/1r7yglh/have_you_ever_been_to_a_haunted_place_in_india/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/lucknow/comments/1lnld94"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/mumbai/comments/tbvs96/what_is_your_scariest_paranormal_experience_in/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/india/comments/176840x"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2211.05369"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_09a2ff6c7bacbb63006a652f1d72e0819b9db6b54b37b1fb5a",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS83RCNCRp-4oGM5aOHDkOKkB4k3rqp_O5gAP3oEoRilT2ldKybfVP9nZxbAuEo0h85WBBSZ7rcuBlWC3XRJXbVWW-bHyr04GERMfiJM65ekUAv3TOvXvslCMHC3PO0QcvzKGNoEHzjbEr3yq_GZN00B1bOncGwQC0qIiKLVJaHlnWNvOLTcnZETgogqXzZbxkCN1HAbNsKxg-BJ5ocCxZnkbfPDCXO3CqYOfhdc735-bwdravfJyTeovttgnnqBYuMxwihhu8SedTqAfy9mnXLHsRnkKBQf49pa_nOu4zywYi18s1xSHJ-vfhTb3Y3zWdsn_IMgCYAHeGiBE3ZH5K8M5ad55ATlhvBu_mCbt5tiDUPBtEzCUbGRQb8qOlfQKXBasqM57mHiwrmq4oL45Nnf0ypx83MAEY5VEjMxoNffN5v6GDT6Xd3wBjjZUxhtQoPSHyCmFXI9aAc0xGKyD8NxWhRBGadDE9wm_y1uXZzBhcSxG1YFBHAWC4tcLQMFC2Al4oBeLqsNNuG4JZF-VEepEfSFs_jRYuO0UcCyoTVyv4qENZ9b5MODvp1uiDLgeeFTTOBSen_IyzjQW-NlHF6a2OjFCnNeIlgkkDfejNIwb31DrD3PfpYQuDLyuqjquWOzrMm5cBLwNpyJkAubCdLS-w19nQNo7c_evzPTU11Kl2X4tq9TbgLcUO507oU-vjgnhyK2b2PxaRzKqXbPLsdMrAGgLmvCbOCpwb4D6NrABk3vT6TgwhMp3MS9mPFDT7wkd8mEIWLN1-HT43jeTHukkBuwp62eLpwH3AYNklhPGB9CtaezZ9-FODHa7z_BpX5Wrhs7rd5r5fv75pzZybW6xzXCt28e-V4gZZIkwNhOo6xx_9eDeGjwTR33Po6OT9AOWMP74p4KSZ3-dE4y_R3hixeJzXZaYds2YJ_C8BatQnhxHiKRIobmI5vqs4xgCYBjXMvMRPFWfUfq3MZKSsGACbjQ77igIHCy7PdyWOb0iJ2-9rzKvOADK8Kp0MblHngSulIKGhL9X6PxZSZLcLnv3AkbLtNoP8dfbh4-eG6GhNrANscGVxWXALtZ84XleaztmgTb4Gmv3mNgA4BdIAo8Cr9ofPWNx09AchjFaaoi6b5s-xmMmWy7fu6TkghK6tbv8FATniDKsiO4WmZd4irIlngH6gl7lkYB7JKH79WGdilTzaxCrUAwbiCFjrNfrMz151IuFOJR-9NcvNaC9eQ1GP09tLUToMamorFg7EWryQUQR_odnDzZxtNdGow4EqR1fik_dxgllx77Z4nZouJTWi3fVFBaOGhyUhq_PZDn8p_jw1FliZe4QGAMjzKaowaFtoFz7odrWD9TWgnI411PF9jFUvPaWx4tt_1A2tf0ACuRs3mAGePYhUZQukqfHnMSuahyBa9kTNc5tTHNtD6IEehjsXkeQYbTtCLmjFqVfPRjVKcQI_gvf1cwzYYMN9m-6skc-Ni1TF5WUK3q6MjtArJOxfEdS5AsUS7kQZFE7i-1z-VRJTyzU2BtEiXNCllfJw0EHASNDInk3W4_GW-m5g==",
+        "status": null
+      },
+      {
+        "id": "ws_09a2ff6c7bacbb63006a652f1e5c08819b98cffcd717249fd6",
+        "action": {
+          "type": "open_page",
+          "url": "https://indiankanoon.org/doc/1262707/"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_09a2ff6c7bacbb63006a652f22c768819bba32f0b4ac4ea6d4",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS83w6r8x_8ws9vpyRUgreXBkSZ7ps_v4s7QfMTPYT0A4BxjNVD36f0HHZ-jqsgFwamk_ymXwOG5HZDde_2Pk8_Wwrkc5-iwVPbdzDDLoPzzYf6ghKFSJp2N-Py--6kZNEDabexM2FdV-sbbS7RqOW2hErEaJZyprU3bJZDlqLxOdfiqPqEq0qX-ke83ZePyVgvfritc_VDUGsZ5TWYZH5A3jzX63sfyCJqFCov25M9NnL9pWe-BSY4bT-frruFHqvWAG6AM5ol-6nhQlcqYaNqejLKWopVRE8K-jJvIDErJkRCIol7wfeYwt2fVBGcWiUzG74XLBP4ELsIjGI25Tuk3_ZcYCnQQFpyReVC3ZUzKaaydY9lluts4ctHiGIx9QMRBCs-CXLiZuA2K86ou-qeT4yvU1u3SwKLMljjZMVZKya_aFPlKRgZu3cH5BnbYqtbzhtQZ5irnHlJkinsfYNcEkiYRNTS9mSjNP67dgi8X38IeOuj524bTrjlvqhGyJC6xmsNyTn0PaZ-wpEQe3bzwlnYupMECEwHlCp8U3e7JCfx8j6iisPY1eTCbp_ystaCP2SA2TksnSU7L_urRDIwR7fkkYYNXZcAnHWvqVzK_DvFMLYz52VZ_8V9e3EB0Xu__nBGwS_d39UuPk5czjE5CeEQY07dFa5rsHMssDYbGMo4pFdGnrAJtInmK-OZth8IESRxdvq_nlKvglLEZm0qDM-RxHW-v8wE51q0B8r83xPcIQ2ij74fZwlgCEoI1XTgnjD_CVsD54icLqsopu0VoqJnul2DVb3xZV0opWmQGV2NRJv0SXbkpmRI58kb897wNR5imP9Br7pnwGWWHfzyJZ4bjLlTeJUnsRDwbJM8jwiMV9CstSbHibESPvP_Zkm2DJi_X51o_Oml-RD-1BoJYbXtOc0AvlWM7klme0s08OOf9gAFyaChHX7uTUL2CTmXlC7PdEw1Lii7DaYVgI_Uy8mwiypPBBYVxtdg9V_UJbH7N4c7tsI_Xh1bAdSucpto8IaP68fEdESQTttGBpejmTfFvNnDpcFvtloYtzYrIiko1tCanljGKwZD8kGleuSREjidVLMV4lH7laL013yse1C-xUZDDUJAEM-lobKpfTCEDHLFmLjcOg2jt3Xwqus78FylyrV1mKsfJAwAbBhbX2UYjGHD2b3axYAilge-7kohySx4XQOs2mGpdL2fWibtDh4OtV4pSZiRprApdrCCsjrpL4hkCVnGkphsQcaKA2GAhrxeib9Po_l_mK_3udBGTqCCVuNN9QDyr4WEpPRJ0fpImX-Ovj6pBf-B89TPlOAArxfdekA2aNAg7AMiA92YXS9niL742baa_xporqIcQXFXgGxw5xTVa0MjRmp4593DW0a3gpJ_XnQ7z8O2uZgN7c6w9fUEkzz_zm7AsSbFp3Wa7nYru-pXLgr9kVYMqeX2NOH58RcHAFQcMAnFEtI6NrhRrQqfeC0dvJs12aTBbIntSqmGjI8s5ugzOo32Bry6NCBNNnIoWAdYjngQQfo6KBOH0r0F5AhRgXHYoH0T1zR1bwmXg2lSnvdqtQJw4d2b6pEm6XtGakYJeo0CU0QPkxYgycKsbEE3Wx_sX4meDNoRWbxv7fO_Jy2_cqlg121XszaN9x0j4X6FyZpGW0bsTelVsYI32id_cXqLrqnFIZtVjPKovYSEBIyNZfYh7E7J2wuKwWaCnMKSauUS5Qm-xKAcsE3a4Ln1663_nUcTmWB1lnpojFHLFPZ3QopjVtJUoBA-YSwV-of9LpzwvWg32jLFskBTk2v_U_FHh-Q7HgA2B63o2D-mBwOdC9NpgpzrG88-Yx44jLSrpITSuat3PCu_6OChGTGbdYcJkNqBTlK9QTRZ5e2ubG1kYmP9fxaTNRcKoea3cqEsuwNQ0SUsD8MV2m2WfX7I_2nRmQtH0B5nX1xvv3AMEtsEs-bCra3rW_aozgVltNDBtkPhva9hOakvzpfEGHdxr4oAUJiO9VvGGvRDc6tOogBF8eZcxfubHkbpgXdIsabVkgbHfC6Cb1LjWV1065O5mUsYSWAF42ncmZHAphxMl4Ooi9AsCFCHAzjAPHeUey3Xtu96ZLKoOENDj1-CICPm3jdOR13oKdhX-H26eW0h1vM74ArjsD4PzJLgIVG6ahZvNRo7V8mBHQv6jrJ6M_0B0K7ORVByyaSe73lvCahAfod6sxfLp1dld1StKsLi3pZCiUxSq7z4GNlF-n1XskVdyMD2M_TL7W7oyv7ZlpeJb-Yh2Ofbl4haQTGiPCAkQ-BLcnNHzaBFCzS9pFpqWhBoFbhr27ovGw0RAZsh7LO7DslTqBVua3YDRve3ZHsknMu1sWBxXVtlhKfmPuggqyQ2BZLl1kVCZ1x3YD1C1t1Uau0VGgplHrENfK2rHYPkWRzUyvej18bET4-da3DiiPEa-ScU_wbgyjA2YKjn69BvU1ywce57nn-kR1kT444kkHQY3ycQHMTOh3G-mf0K9mb_UzxVusjjvu52WCC64yU7mp2ebj4490h80H10N2AVJplPFHjJZjberAjoHnsF7Paixwu4Mw1v_-Qo0w7-BOxVRpzxzkwjLocW17KHRv6Jaga3CbSQIgd78IR6YVmpEsSOYMamLDI3oqa3ErIq2L_T0PUZF5sPtp02BvgJg_d-N7ataEJOtTcbQJoqVBhydUV4LKCdZ5vMQE0p-LoGSHj-cAslWlkpD5l_iuOEKcBxZnEwmdh-IaJ97OfaXTH7nQKPvpo0v8CjBQCjW9rsRVJx0nmQHOxSAQNadY2Lfr95KZK_js94jsB96THj-oTkepWJhUIb60YAgREQiM0NCzozxbDly5P2MPQ27XBewtAHj5Q5CfIp8-Dik_aXWu1QsupFiKti3wKtvQIKCzEWeiRvLPXo8-WgxsTHfTWl52M3SrhYSRrzHcYARvp_Ji-IisxABoCkF-jgDD85oDJCuxNwfV0mF5mTSlzzUP1fshOKFogbdVejzIm_QgcA-3NnsNsodLt1VkseEK7ZSR7Uqf8TWgKKCP8Bm3N6GruzXMGK81Yeq9KnO97HaQyiZWyeulihhb3QHYJatteNHX6Hdg6Zd4OpJL3KOUR6agGm7T-TgcR1glBjb-LYm92V7D1mYhwSneFVBzIJj1GyO4oAENl0e5PSqbPf6Ub5OKuxqNCbi32taKINe4ZdvB5TBuhocyecZrnorHWH_Va8CiXVG0BeV1fJZiPyB7KHRo8wZpFq2fvwsQ4aGFQelem_hJV80wuvfngs3LhQxtvyYgY0bXhqam6SHu1-XdDDkJCSxZrA40tsdwg4ZofZcpdPjH9c6cEe3KMMA--s08vPbKFog-XBM4JRxAwk1DdwqsxT5DjAjWtE43z2FBRaHKMuGtpiJHFR2YEfNFZdbelEK8JsqRvp01b5AbayyXySJIdw1--KRnzC65EdPZhUaKwgPTolN8PG_XlfNljytq8LSsx42rfSxQZAbcVyVDxBX0NlKS9apE3XP7T0FyNNVAMU85krrDEEqAgUYUTfuzr4qroWF05eWAQ1ImsqE27zlB9vwY-5HQPzksAcOneXN9mYCnDSpTN806AzgE6sLsgSCQxXePcx3WxsC1u0k4aSG953m3dDOyOu9U7lLtau_6oXme8JGrB_lKTb-qOBiytERZPVKFKe8rLZltDf-FeZ6YoRqpmjaCjK2PQhikr_6",
+        "status": null
+      },
+      {
+        "id": "msg_09a2ff6c7bacbb63006a652f26a3ec819b9ed6779dbec17363",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"winner\":{\"title\":\"The Motihari Haunted-House Tenant\",\"category\":\"SUPERNATURAL INTRUSION\",\"one_line\":\"A family desperate to escape the spirits said killed their sons lets a holy man move into one room—then he turns the exorcism into a decades-long battle over rent, possession and ownership.\",\"year\":\"1978–2009 litigation\",\"where\":\"Motihari, Bihar, India\",\"mechanism\":\"A self-proclaimed spiritual healer occupies part of a supposedly haunted house to drive out evil spirits, then denies being a tenant and supports a rival purchaser’s claim to the property.\",\"engine\":\"The house remains contested between the family, the healer and a purchaser, while every ritual, rent demand and legal filing can reveal whether the haunting was genuine, exploited or staged.\",\"episode_estimate\":180,\"cast\":[{\"name_or_role\":\"Bibi Zafira Khatoon\",\"motive\":\"Reclaim the family house and remove the occupant who entered under the pretext of spiritual protection.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Syed Mohammed Jalaluddin\",\"motive\":\"Protect the home while trying to solve a family tragedy and later control its sale.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Mohammed Manzurool Haque, the spiritual healer\",\"motive\":\"Maintain his claim that he was invited as a supernatural protector, not rented as a tenant.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Mohammed Hussain, alleged purchaser\",\"motive\":\"Secure possession after an agreement to buy the house and use the healer’s claim to strengthen his case.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The two dead sons, as remembered by the household\",\"motive\":\"Their deaths are the emotional source of the haunting claim and the mystery beneath the property dispute.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Trial and appellate judges\",\"motive\":\"Separate tenancy, possession and sale claims from supernatural testimony.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":10,\"hook_density\":9,\"emotional_immediacy\":9,\"conflict\":9,\"cast_depth\":8,\"total\":45},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The litigation names real parties and concerns a real private residence.\",\"Change names, Motihari, the family history and the precise property details.\",\"Tell the story primarily through a fictional tenant, a grieving household and a court clerk rather than presenting supernatural claims as verified fact.\"]},\"prior_adaptations\":[],\"sources\":[\"https://indiankanoon.org/doc/1262707/\"],\"facts\":[{\"what_happened\":\"The Supreme Court record says the owners sought eviction of a man occupying part of their residential house and alleged that he had been allowed in because he claimed spiritual powers.\",\"source\":\"https://indiankanoon.org/doc/1262707/\",\"confidence\":\"verified\"},{\"what_happened\":\"In his written statement, the occupant said the owners believed evil spirits had killed their two sons and had asked him to use spiritual power to drive them away; he said he entered one room in 1978.\",\"source\":\"https://indiankanoon.org/doc/1262707/\",\"confidence\":\"reported\"},{\"what_happened\":\"The occupant denied a landlord-tenant relationship and instead claimed that the family had benefited from his blessings and spiritual presence.\",\"source\":\"https://indiankanoon.org/doc/1262707/\",\"confidence\":\"reported\"},{\"what_happened\":\"The record says a separate purchaser claimed that an agreement for sale had been executed on January 9, 1982, and that possession had been delivered to him.\",\"source\":\"https://indiankanoon.org/doc/1262707/\",\"confidence\":\"verified\"},{\"what_happened\":\"The title suit and eviction suit were clubbed because they concerned the same house, creating a three-way dispute over tenancy, sale and possession.\",\"source\":\"https://indiankanoon.org/doc/1262707/\",\"confidence\":\"verified\"},{\"what_happened\":\"The Supreme Court stated that mere execution of an agreement for sale did not itself confer title or legal possession and allowed the eviction-related claim to proceed against the occupant.\",\"source\":\"https://indiankanoon.org/doc/1262707/\",\"confidence\":\"verified\"}],\"why_this_sells\":\"The instantly recognisable fear is that a family invites a spiritual protector into a haunted home and discovers it may never be able to make him leave.\",\"why_not\":\"The supernatural evidence is entirely contested, so the adaptation must sustain ambiguity without inventing paranormal proof.\"},\"also_considered\":[{\"title\":\"The Sheo Grid Ghost Shift\",\"category\":\"SUPERNATURAL INTRUSION\",\"one_line\":\"Night workers at a Rajasthan power station hear trucks, see stones thrown and report a dead worker’s ghost—while police suspect someone is clearing the station for theft.\",\"year\":\"2015\",\"where\":\"Sheo, Barmer district, Rajasthan, India\",\"mechanism\":\"A supposedly haunted electricity sub-station becomes an overnight battleground where employees, tantriks and police interpret unexplained sounds and movement as either ghosts or a cover for equipment theft.\",\"engine\":\"Every night shift creates a live locked-location mystery: protect the station, identify the intruder, test the haunting and decide whether the dead worker is warning them or hiding the crime.\",\"episode_estimate\":120,\"cast\":[{\"name_or_role\":\"The frightened sub-station employees\",\"motive\":\"Survive night duty and force authorities to take the haunting seriously.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The deceased former worker’s memory\",\"motive\":\"The workers connect the supernatural activity to his death on duty.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Local tantriks\",\"motive\":\"Prove the presence is spiritual while avoiding responsibility for failing to remove it.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The station chief engineer\",\"motive\":\"Keep the grid operating and prevent panic among staff.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The police station house officer\",\"motive\":\"Find a practical explanation and stop a possible equipment theft.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The suspected thieves\",\"motive\":\"Use fear and darkness to move government equipment—or remain falsely accused.\",\"spinoff_potential\":\"high\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":9,\"emotional_immediacy\":10,\"conflict\":8,\"cast_depth\":8,\"total\":43},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The incident is recent enough that workers and officials may be identifiable.\",\"Change the station, district, employee details and the reported death.\",\"Use a fictional utility site and keep the ghost-versus-theft question unresolved.\"]},\"prior_adaptations\":[\"The general haunted-workplace premise is common, but no specific adaptation of the Sheo grid sub-station incident was identified in the sources opened.\"],\"sources\":[\"https://www.hindustantimes.com/india/ghost-trouble-in-rajasthan-power-station-workers-approach-cops/story-m8YJ2bnX14X31nKs4zaNLP.html\"],\"facts\":[],\"why_this_sells\":\"Indian listeners understand the terror of being ordered to work alone at night in a remote government facility where even the police cannot explain what is happening.\",\"why_not\":\"The raw incident may be a short theft scare rather than a true haunting, so the serial needs a fictional hidden network behind the nightly disturbances.\"},{\"title\":\"The Factory That Lost Its Money to Ghosts\",\"category\":\"SUPERNATURAL INTRUSION\",\"one_line\":\"A failing family factory is declared haunted by a tantrik, who performs rituals, promises money will materialise and warns that a daughter will die if the spirit is not removed.\",\"year\":\"2003–2011 court proceedings\",\"where\":\"Mumbai and Vasai, Maharashtra, India\",\"mechanism\":\"A spiritual fraudster converts business losses into a supernatural diagnosis, repeatedly stages rituals inside the factory and uses the alleged ghost to extract money and obedience.\",\"engine\":\"The factory’s debt, failed rituals and escalating supernatural threats keep the family returning to the healer, while each new ritual can expose another accomplice or deepen the possibility of a staged haunting.\",\"episode_estimate\":150,\"cast\":[{\"name_or_role\":\"Abdul Rauf, the factory operator\",\"motive\":\"Save a heavily indebted business and believe the supernatural explanation for its losses.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The brother-in-law and business partner\",\"motive\":\"Recover the factory and money while deciding whether to expose the spiritualist.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The alleged tantrik\",\"motive\":\"Use fear of ghosts and promises of magical wealth to extract repeated payments.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The tantrik’s uncle and ritual accomplices\",\"motive\":\"Perform staged voices, bundles and money rituals while remaining hidden behind the spiritual authority.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The factory workers\",\"motive\":\"Keep working despite the haunting claims and unexplained nighttime activity.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The bank and recovery agents\",\"motive\":\"Recover the industrial loan as the owners chase occult solutions.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":10,\"emotional_immediacy\":8,\"conflict\":8,\"cast_depth\":8,\"total\":42},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The court record concerns identifiable complainants and accused persons.\",\"Change the factory, city, amounts, family relationships and spiritualist identity.\",\"Frame the supernatural elements as allegations and staged claims, not established fact.\"]},\"prior_adaptations\":[\"The broad idea of a fraudster using exorcism to exploit a family is familiar, but the specific factory, staged money bundles and threatened daughter were not found as a named film or series adaptation.\"],\"sources\":[\"https://indiankanoon.org/doc/977277/\"],\"facts\":[],\"why_this_sells\":\"The fear is brutally immediate: when a business collapses, someone tells the family the building is haunted—and charges them to save it.\",\"why_not\":\"The case ultimately reads more clearly as occult fraud than supernatural intrusion, so its horror depends on atmosphere and the possibility that one unexplained event was real.\"},{\"title\":\"The Haunted House Instagram Trap\",\"category\":\"SUPERNATURAL INTRUSION\",\"one_line\":\"A young online tantrik sends a woman fake ghost images, convinces her that spirits occupy her home and turns a private fear into a nationwide ritual business.\",\"year\":\"2023–2025\",\"where\":\"Delhi and Jhunjhunu, Rajasthan, India\",\"mechanism\":\"An occultist uses Instagram advertising, fabricated ghost images and remote rituals to make victims believe their homes are haunted, then demands payment for exorcism.\",\"engine\":\"Every new follower can become a victim, every alleged spirit can require another paid ritual and every police tracing step can reveal a larger digital network.\",\"episode_estimate\":100,\"cast\":[{\"name_or_role\":\"The Delhi complainant\",\"motive\":\"Remove the supposed spirits and recover money after the healer stops responding.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The online tantrik\",\"motive\":\"Scale fear through social media while hiding behind aliases and paid advertising.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The other reported victims\",\"motive\":\"Solve family and personal problems through increasingly expensive rituals.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Cybercrime investigators\",\"motive\":\"Trace accounts, phone numbers, bank transactions and the operator’s real identity.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The ad and payment intermediaries\",\"motive\":\"Profit from or conceal the digital pipeline that feeds victims to the healer.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":9,\"emotional_immediacy\":10,\"conflict\":8,\"cast_depth\":7,\"total\":42},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The incident is recent and involves living private individuals.\",\"Change all names, online handles, locations and victim details.\",\"Build the serial around a fictional composite of multiple complaints rather than exposing one real complainant.\"]},\"prior_adaptations\":[\"Online occult scams are a familiar news pattern, but no specific dramatisation of this 2025 Delhi–Rajasthan case was identified in the sources opened.\"],\"sources\":[\"https://www.ndtv.com/india-news/exorcising-ghosts-solving-problems-how-a-fake-tantrik-duped-woman-9445908\"],\"facts\":[],\"why_this_sells\":\"The listener’s own home and phone become the haunted location when a stranger can send a fake ghost image and make the fear feel real.\",\"why_not\":\"Its real mechanism is sustained fraud rather than an unexplained supernatural presence, placing it close to THE LONG DECEPTION.\"}]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [
+      {
+        "type": "web_search",
+        "filters": null,
+        "search_context_size": "high",
+        "user_location": {
+          "city": null,
+          "country": "IN",
+          "region": null,
+          "timezone": null,
+          "type": "approximate"
+        },
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ]
+      }
+    ],
+    "top_p": 0.98,
+    "background": false,
+    "completed_at": 1785016119.0,
+    "conversation": null,
+    "max_output_tokens": 32000,
+    "max_tool_calls": 12,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "hunt",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "winner",
+            "also_considered"
+          ],
+          "properties": {
+            "winner": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "title",
+                "category",
+                "one_line",
+                "year",
+                "where",
+                "mechanism",
+                "engine",
+                "episode_estimate",
+                "cast",
+                "scores",
+                "clearance",
+                "prior_adaptations",
+                "sources",
+                "facts",
+                "why_this_sells",
+                "why_not"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "SUPERNATURAL INTRUSION"
+                  ]
+                },
+                "one_line": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "string"
+                },
+                "where": {
+                  "type": "string"
+                },
+                "mechanism": {
+                  "type": "string"
+                },
+                "engine": {
+                  "type": "string"
+                },
+                "episode_estimate": {
+                  "type": "integer"
+                },
+                "cast": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name_or_role",
+                      "motive",
+                      "spinoff_potential"
+                    ],
+                    "properties": {
+                      "name_or_role": {
+                        "type": "string"
+                      },
+                      "motive": {
+                        "type": "string"
+                      },
+                      "spinoff_potential": {
+                        "type": "string",
+                        "enum": [
+                          "high",
+                          "med",
+                          "low"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "scores": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "engine_longevity",
+                    "hook_density",
+                    "emotional_immediacy",
+                    "conflict",
+                    "cast_depth",
+                    "total"
+                  ],
+                  "properties": {
+                    "engine_longevity": {
+                      "type": "integer"
+                    },
+                    "hook_density": {
+                      "type": "integer"
+                    },
+                    "emotional_immediacy": {
+                      "type": "integer"
+                    },
+                    "conflict": {
+                      "type": "integer"
+                    },
+                    "cast_depth": {
+                      "type": "integer"
+                    },
+                    "total": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "clearance": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "reasons"
+                  ],
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "greenlight",
+                        "fictionalize_first",
+                        "blocked"
+                      ]
+                    },
+                    "reasons": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "prior_adaptations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "what_happened",
+                      "source",
+                      "confidence"
+                    ],
+                    "properties": {
+                      "what_happened": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "verified",
+                          "reported",
+                          "alleged",
+                          "disputed"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "why_this_sells": {
+                  "type": "string"
+                },
+                "why_not": {
+                  "type": "string"
+                }
+              }
+            },
+            "also_considered": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "title",
+                  "category",
+                  "one_line",
+                  "year",
+                  "where",
+                  "mechanism",
+                  "engine",
+                  "episode_estimate",
+                  "cast",
+                  "scores",
+                  "clearance",
+                  "prior_adaptations",
+                  "sources",
+                  "facts",
+                  "why_this_sells",
+                  "why_not"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "SUPERNATURAL INTRUSION"
+                    ]
+                  },
+                  "one_line": {
+                    "type": "string"
+                  },
+                  "year": {
+                    "type": "string"
+                  },
+                  "where": {
+                    "type": "string"
+                  },
+                  "mechanism": {
+                    "type": "string"
+                  },
+                  "engine": {
+                    "type": "string"
+                  },
+                  "episode_estimate": {
+                    "type": "integer"
+                  },
+                  "cast": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "name_or_role",
+                        "motive",
+                        "spinoff_potential"
+                      ],
+                      "properties": {
+                        "name_or_role": {
+                          "type": "string"
+                        },
+                        "motive": {
+                          "type": "string"
+                        },
+                        "spinoff_potential": {
+                          "type": "string",
+                          "enum": [
+                            "high",
+                            "med",
+                            "low"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "scores": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "engine_longevity",
+                      "hook_density",
+                      "emotional_immediacy",
+                      "conflict",
+                      "cast_depth",
+                      "total"
+                    ],
+                    "properties": {
+                      "engine_longevity": {
+                        "type": "integer"
+                      },
+                      "hook_density": {
+                        "type": "integer"
+                      },
+                      "emotional_immediacy": {
+                        "type": "integer"
+                      },
+                      "conflict": {
+                        "type": "integer"
+                      },
+                      "cast_depth": {
+                        "type": "integer"
+                      },
+                      "total": {
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "clearance": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "status",
+                      "reasons"
+                    ],
+                    "properties": {
+                      "status": {
+                        "type": "string",
+                        "enum": [
+                          "greenlight",
+                          "fictionalize_first",
+                          "blocked"
+                        ]
+                      },
+                      "reasons": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "prior_adaptations": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "sources": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "what_happened",
+                        "source",
+                        "confidence"
+                      ],
+                      "properties": {
+                        "what_happened": {
+                          "type": "string"
+                        },
+                        "source": {
+                          "type": "string"
+                        },
+                        "confidence": {
+                          "type": "string",
+                          "enum": [
+                            "verified",
+                            "reported",
+                            "alleged",
+                            "disputed"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "why_this_sells": {
+                    "type": "string"
+                  },
+                  "why_not": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 50777,
+      "input_tokens_details": {
+        "cache_write_tokens": 8787,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3996,
+      "output_tokens_details": {
+        "reasoning_tokens": 1301
+      },
+      "total_tokens": 54773
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 4
+      }
+    }
+  }
+}

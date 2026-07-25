@@ -1,0 +1,1124 @@
+{
+  "stage": "hunt_denied_identity",
+  "saved_at": "2026-07-25T21:47:31.070783+00:00",
+  "response": {
+    "id": "resp_02f0d37159367242006a652ec47c78819baea7ba29afefca34",
+    "created_at": 1785016004.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-luna",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_02f0d37159367242006a652ec4feb4819ba775418ada5c45ec",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS71F-EZq6MUxn5CFjgn2is5q7akHUk6MPkQqgB4r0ZqC0Khz4DU4gWq8hSKYZRMfd7c1BAjhvA559COAWvYmdLXAXJSxNi4-phL1CKdds8mjNNDzCbPOoWjxIWjipe-AVcqSNVyvkb-Ev1by0hJmKeDPr5zX2vy3Nh74WmI15-Q9Sgj1SjnsoDlC8UXg_NvuLSNyR18wv07KRqc2JsirPg27hBgM8CW6z-bhlWPdR3ET1oYo9YCbn5Mcr8W1Tov7g6cTj3zvhxSS7R9XyMtOqEptObHomq-0-kO-Ja71YFMZ3CNyFJSks8VjXPd5GZRex-n4KFGMk6AzAnD0dP3ZZE4wfI4mTTqh4dn25acfFOX8BCqRG2gh4Z5Wucl0E0GqbSbH7enpfclOKA55-Odj49oOQQTT-iYdnq0ikuqhL_l9Kl93w-5ovZRFmGK0JRw39sUIFf0KVvkz7MiHs6qtj68Pcm2h4aMqVp3MYAfq81Gb2yUdYjECnL4u50R5PQVcu2-wQMSJ9uAsXpddCOsQ3oxC0DkmEXzTMsIsmNXM0j9mNx997pcRqPqEggvl_9H_CWx17ZntpufEC1lIzGOY94JWirzh0sUrDW44yEyB5FnjveAtsne4L3MxhGA0Mbnq8PaWRpLC6qMYeqJqZLEHZK2W8K6lPMTk9MWDiN3jRUDjyQWhyNY0PDbs5GAKG868UkmAjIYyxWQqpUtu8an-Bky2YLXYS0byRVLUdTxojfhhZerXLgCgNHRs55Yz_9COoZ-YddBNDNwcO5cs3aq0NwF-FB5yt3_eYke6tmN9I3gsZcPGRbPdNV0kH8cF3OgL5YzmTpAqnq5Bn3jSsBAhIT-xWlR5Qg_l00JabF3GkNbeRjI85RvEHhW8uWObX4PKFE3uuqQDdznDAI4HKqTM7QHyHHNF4OSjTokPOS3rgnmD31Llun3fruEeT-pt9kqLA8-rHZIE0SDowtXqcJMivqYQCillylAkJfl-F5wNJTg3GdeuwqUaZIfZ0fdhJncg63XcJFZQ6lWFXFNbiWT23W09-GFKvqlTl5R93HTnasCwM57tckFqFNJ0pbghW4sS5CFDbyQ8BvZPSZd9uXBmgoZGt9N_SAqBI7kbxPwyd1vyILy5EK1eq9_mHkV51NxyFwo07kj-9aFPCJZZBAezSk0_zD9wys0QRSxLSnAhx8TtsLFEt-c0WUY6tH0BV_-iHWnw3qNxQG_VvdVh1Q-x4UUj2UYpCIkwoL7vqHr020cgX-L9RxIPOt58RpQ6KxioRxAfkYfaoZWnvvW-fQRPDEzQ6XShwVZpBR6zkz-IgO7lSFGBzGSwDTfhw-3_0Tl6-yddcQS-7k6SiTaUPZHsfolnn8xhB21B2589XVlUHsej87FtpgqKY2KBDqZjlbJOlf-nSeVKOBl33sDWYlEfxKugzeFXWfwh1VtdLhatj8QcEXN_Wx8GC2INVAFKPUejRqFwvNw1xLLkKVrld6p1G7nC5fe0d5CBAwcbJKSV50jz1E55f6FQ01GIEGIYsywU6oEx-ZJUiwA83oDhagqOltrviNvQ0kubUXpXAUvXZEZw0cOZcStFOXcq0Hc-HII0zQT0Sym-ejrYZ0gRVKRZZrvb41CjiR-u7zPj5wIjVfHk1OL3uqOtG0ccv9aC2WDq3PNrMEG504DaehZPsmAISd3OSAyXJLT0lKlMVM80gbsZqIvx0iCZA9lQXAW2y1evHRiH1e_eu7PMX4dBYKj3JmRS6y59LAMHif82miPdwYUQwGf3ZHHa9_OOahyM9CwpCR9G7UfP_9P8j2Yu4Nh9yNAEqKSExWi2dkpqoRX16aNOUg=",
+        "status": null
+      },
+      {
+        "id": "ws_02f0d37159367242006a652ec66960819bba02c63a9d8b9e07",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India district court \"returned\" \"declared dead\" identity impostor case",
+            "site:indiankanoon.org identity dispute \"dead\" \"returned\" person court",
+            "India police arrested man impersonating missing husband identity court regional news",
+            "Bangladesh Nepal Sri Lanka court identity impostor returned after years news"
+          ],
+          "query": "India district court \"returned\" \"declared dead\" identity impostor case",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/145744508/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.ndtv.com/cities/fake-ias-officer-assaults-husband-demands-40-lakhs-to-build-hospital-11773227"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/rajkot/ai-made-cop-images-used-in-fake-dysp-fraud-man-arrested/articleshow/131296065.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/india/story/jharkhand-man-arrested-for-concealing-identity-to-marry-hindu-woman-2675952-2025-02-06"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/73030271/"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/india/raja-raghuvanshi-meghalaya-murder-victom-fake-cop-friend-10193144/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/183219192/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/143637024/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/178993828/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.ndtv.com/hyderabad-news/andhra-man-poses-as-cisf-officer-for-marriage-arrested-at-hyderabad-airport-11358912/amp/1"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/ahmedabad/gujarat-man-who-killed-wife-posed-as-friend-to-evade-cops-gets-7-years-in-jail-9560960/lite/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/jaipur/sikar-man-accused-of-wifes-murder-arrested-for-impersonating-ips-officer/articleshow/118810546.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://api.sci.gov.in/supremecourt/2023/4912/4912_2023_4_22_50743_Order_23-Feb-2024.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://epaper.indianchronicledaily.com/media/2025-12/ic-dec-12-2025.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.crau.org.in/asset/article/Digest_202510151714492495235.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.icicihfc.com/content/dam/new-icicihfc-assets/doc14/Prathana%20Mayank%20Shah%20NHMVA00001255655%20ENG.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://dailypioneer.com/uploads/2026/epaper/june/chandigarh-english-edition-2026-06-15.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Bhawal_case"
+            },
+            {
+              "type": "url",
+              "url": "https://chronicleclub.in/storage/uploads/1724830142-toi.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Chandra_Mohan_Sharma"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Sheena_Bora_murder_case"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Antilia_bomb_scare"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndiaSpeaks/comments/1jgz88z"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Yadha_Yadha_Hi"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Murder_of_Raja_Raghuvanshi"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1uy89iu/please_helpguide_on_what_should_be_done_as_police/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Indore/comments/1jgqxvh"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndianMaleAdvocates/comments/1gcdjib"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndiaSpeaks/comments/1jgqsub"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1gskins"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/unitedstatesofindia/comments/1jgqran"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/GossipUnfiltered/comments/1jgqs1i"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndianMaleAdvocates/comments/1jgqvzu"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/bangalore/comments/1g0c9gb"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/hyderabad/comments/16j9n1p"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/assam/comments/1l6x21m"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2605.17115"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1811.01806"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1403.2042"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1911.05405"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_02f0d37159367242006a652ecd020c819b96a78857d58c5941",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS71yDUOLoNf1a1mpMzWN5kY-u9kjrwwPC3sSOjXZM7Z8NVbfsNk6i-2zb9OoT1mvoea7aUAiYo9gs6pBthCQTew95vHUYM7OAjiNJzTUG5wR7FGdOeYV6s30MS7zIiFOqF5FTcEcxBkQsZT4I_vFzNh-ianAWRvolhn62QnnNmoJAS0apA-ZEnDwkWtDwjUU4yJiP8QAS9XvGT7rJM2Mv6g3AfgRgAqzrHzmAHSQezmMc-byuz5L8oDlhEb117Npu5plolvxI7sQ1LgqT9r8VRCAZAiO2fJOmtBrlN2l7SNcMf9H9QvCGZA-jlatDxLrnH2fudlGnQJp5xigW-eJA8bnlL71SDEJu3JunNn4BNji9ww4ubk9ut5C8UHeif1uTLGs9WFLKYYuD3OVavu-i5YP41mCnj5WL-DkVfMhYHj7BgYNYZQMAn_5Ra62aWoDFlgaaHmjT4dv4Q7N2jzghwtPvK5htzzhihH_00pSVaxI4av4-UBZJ8qGl0Cw2Yivj1p9ZVyhdTxTzf70roMJ-dj703bECDMjcwCCVBpoV-gQiGe1ITOdDHw_DMe8QC4WnG-SmQHk38NwZr-s-THliR8T3woU3s1MuYBlOU8M6po_wlaCkqTVXZtZX8wZzUHKgQ28wgwzj6kyMa38CD_GX2YFchzHWVU8zLVaye6JyHcbdGvG0EZyTkb3NjXIXjOocxZAijQ9tlZKHgK5yJHqzioE6X30NdW8qgJLbTOSUxyseUlG4OZfMrCfB9nSMh4f_Kv5smx0SWcRZLPz-P1ljmpLQPcIkMxziVaRxFlSHiu5ux12FKfqRlpWR_sHC7qr_rz2yEIbfcYByPfMbz7Eev5FSbS7tf2syv6uGVPK8VhJKGNAK0Y5tmrZI5qPYXZBRpW3B1b9ajR3DoHmGHQ70_xag3KI8-O98LemYszFlxu0vSFTWkiKWF-WqLasxEy-d1-UxJVu3oGgyLGU0pJ4TvYdac16PSew1vwcA9KdOM7fvQ=",
+        "status": null
+      },
+      {
+        "id": "ws_02f0d37159367242006a652ecd1b6c819ba390150c7494d99f",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India woman found alive after family identified unidentified body cremated police arrested murder case",
+            "\"returned home\" \"identified\" body \"murder\" India woman alive police",
+            "\"declared dead\" \"returned home\" India village identity court",
+            "site:thehindu.com OR site:indianexpress.com \"alive\" \"identified\" \"body\" \"murder\" woman returned home"
+          ],
+          "query": "India woman found alive after family identified unidentified body cremated police arrested murder case",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106/amp/1"
+            },
+            {
+              "type": "url",
+              "url": "https://www.ndtv.com/india-news/cops-declare-woman-dead-a-month-later-she-walks-into-police-station-11560037"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/mumbai/maharashtra-cm-fadnavis-murder-woman-10775870/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/india/madhya-pradesh/story/madhya-pradesh-woman-declared-dead-found-alive-after-father-brother-jailed-2918676-2026-05-28"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/india/story/noida-woman-comes-back-from-the-dead-after-being-cremated-by-family-1226699-2018-05-04"
+            },
+            {
+              "type": "url",
+              "url": "https://news.abplive.com/cities/killed-and-cremated-mp-woman-returns-from-dead-after-18-months-4-in-jail-for-crime-1759574"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/india/story/maharashtra-buldhana-murder-case-woman-presumed-dead-appears-alive-father-brother-released-2920049-2026-06-01"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/search/?formInput=can+a+missing+person+be+declared+dead&pagenum=8"
+            },
+            {
+              "type": "url",
+              "url": "https://northeastlivetv.com/topnews/assam-shocker-sonari-youth-declared-dead-cremated-returns-home-alive-after-24-hours/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/india/story/ghaziabad-woman-body-suitcase-found-alive-aligarh-1707418-2020-08-03"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/onexindia/comments/1jgqthh"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/delhi/16-years-after-headless-body-found-stuffed-in-box-man-arrested-for-murder-10354423/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Indore/comments/1jgqxvh"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/indianews/comments/1jgqufn"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/130963395/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/MadhyaPradesh/comments/1jgqvgg"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/unitedstatesofindia/comments/1jgqran"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndiaSpeaks/comments/1jgqsub"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/2008_Noida_double_murder_case"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndianMaleAdvocates/comments/1jgqvzu"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/BollywoodShaadis/comments/1jgqytm"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Murder_of_Aishwarya"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/WeAreAtulSubhash/comments/1jgqpb7"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/GossipUnfiltered/comments/1jgqs1i"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Sheena_Bora_murder_case"
+            },
+            {
+              "type": "url",
+              "url": "https://odishapostepaper.com/uploads/epaper/2023-11/6547f6ed3b6ec.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.standardpost.in/media/2026-05/may_3_2026_sp_mumbaii.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://nhrc.nic.in/sites/default/files/2024-12-09_compressed.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://odishapostepaper.com/uploads/epaper/2023-11/65493f150f254.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Hema_Upadhyay"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Aligarh_murder_case"
+            },
+            {
+              "type": "url",
+              "url": "https://api.sci.gov.in/jonew/judis/29314.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Thangjam_Manorama"
+            },
+            {
+              "type": "url",
+              "url": "https://time.com/5900402/hathras-rape-case-india-violence/"
+            },
+            {
+              "type": "url",
+              "url": "https://apnews.com/article/6bf6755c972ed19c1cefd2005d5e9f0b"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_02f0d37159367242006a652ed288d0819b80d568ee1ec33738",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS71wlE4qMEMC-RGcOAByXV3tEjYUxn8jvcJDvNi1oTieYfJXHQj4Bs0fVxtaJhtZnfhfXhxKbMvKbnI3SW2g_92c1SMN3HMFqOS2_Krwkh1jrjW7W-zx0FZNKzxaYcrFyzOEmnMboy55zpyvELlQtd43rQpz1Z1Ir3Evlc4IMoWyMnPRDHMoVKhToboCRGip4Ng2HoMMnn1lD94FPyjMimxumChcSXzI7l2SHDzBUdalPoEfE--tLC2ee40A1yye_81m69I9eGWqmvV9MbjESj8qzv0W6ZjE0C8WI0TKSKHOcdQ4sCUG9_sv-QfPJ-7XpiM9BzDCx2rKCzRUpM3a_OQLNtEGu1ICMNGXuEsMFFmpNY6boNSWRn9gPUMqB498ftQvlVg_kPsSukbsU06e9jJa0ewRQdab76zed2qXaaM_ApieYGusxPajxXu1KTn55k_52pt_mxWtb6WVqSPm0gUWZ7LNnD25jpDousaE0R6FWGFLGIpszEEXfz7v2sePgrlcwIrJRhiA4q_iIPWd0EVyLseytBrRTLCmd8zXweARCQG_c1xt16crnFz24NCaprvvtx8-voLwXaJ__jOlF0vRwaBQ3YyclUVuMemszgQp6czT1NBaHP4BjejCms5luYDsmksFTKxpEoVhsF2l2qvUR2lBNh7WMVidW_GiCfuYLb3jtUSCBBLApVarEy-LJFztmO5n3ouisqcp4EenWkaJTzZRSfVdFSPdJfHLt3YAN_4JXN-ert6BnvIauT5xZ8m1MuI98T9W1V_dfUG9B09ybve0OYw-Eli5zXQEGJy-7uxQzZoFjUh004uBHt-vliBmXecXKGI1eiclibXkj_-wHr79Q1UBZVQkQFVkNh9wcv45uYYOmJUrD7c0az0QlIoLa_galS0MLVVnEF9kxcKjiA7NXyJTfWKjIykCClZwbminKywz5GT3YzYExBT6QhminR4iyzRa0pJJcSV-TKIWBQ9AkRKU7yiKOPSj-ahj6XMGz3rfEO4lz33tYkVQX_CdCFjdtk5ZGcbhNuBUrfb04N7xYtNp48QqAGiPg8aUGdRahcAGN3RJ6yNs0kFqvQxCuyX2lHpmZCnvycbmI1clwA5PkI5RGgLn7kXEisJNjTt7iNk39p8SOlg63ctc2K4-t02ZItGWbN6EXfBN6nMu_X5pAGWSBAJmdrEKULANTvfZ9SPFHSpK4Xu2Kf7LtP8LFZAonFV4c2oVrHihdCvPSq925AgIiVi1zX2klYNSamqjB_rWB72ExbpeRpr2IBJ9kNUzID-xRS3VkmdFRkcyh2sfqucsAgktdNd8Q6_WSwWCMJDJ_iic2KVhKLLt139Ew8BMSYrjA1dmcdTpCLvRg==",
+        "status": null
+      },
+      {
+        "id": "ws_02f0d37159367242006a652ed31330819b94550b77a53b6889",
+        "action": {
+          "type": "search",
+          "queries": [
+            "\"wrongly identified\" unidentified body missing woman police FIR India court",
+            "\"mistaken identity\" corpse \"walked into\" police station India",
+            "site:indiankanoon.org \"identity of the dead body\" \"missing\" woman",
+            "site:police.gov.in OR site:mahapolice.gov.in unidentified body identity DNA missing woman"
+          ],
+          "query": "\"wrongly identified\" unidentified body missing woman police FIR India court",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://newsable.asianetnews.com/india/chhattisgarh-crime-man-killed-cremated-walks-into-police-station-alive-61-days-articleshow-vgwrwu7"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/vadodara/dead-man-returns-home-after-cremation-city-cops-perplexed/articleshow/92422449.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/124376515/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/raipur/presumed-dead-man-walks-into-his-own-funeral-in-korba/articleshow/123815994.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/50341888/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/cities/chandigarh-news/ludhiana-body-mix-up-case-four-hospital-directors-named-in-fir-101767551261406.html"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/delhi/ghaziabad-body-misidentified-dead-woman-is-alive-6538016/lite/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.ndtv.com/india-news/cops-declare-woman-dead-a-month-later-she-walks-into-police-station-11560037"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/lucknow/unclaimed-bodies-cops-to-conduct-dna-profiling/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/amp/coronavirus-outbreak/story/covid-positive-woman-who-was-presumed-dead-walks-into-home-healthy-in-andhra-pradesh-1810406-2021-06-03"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/91830954/"
+            },
+            {
+              "type": "url",
+              "url": "https://section1.in/wp-content/uploads/2023/06/Jafarudheen-vs.-State-of-Kerala1707_2015_6_1501_35181_Judgement_22-Apr-2022.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/74142803/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ca6-08-02548/pdf/USCOURTS-ca6-08-02548-0.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.jurist.org/news/wp-content/uploads/sites/4/2018/11/1984-Riots-Court-Judgment-.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://elegalix.allahabadhighcourt.in/elegalix/WebDownloadOriginalHCJudgmentDocument.do?translatedJudgmentID=23364"
+            },
+            {
+              "type": "url",
+              "url": "https://spotlawapp.com/judgementText/pdf/910012002/9100120020415002.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://hindi.livelaw.in/pdf_upload/2041000086320013-475934-475979.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/AskReddit/comments/m5vdk5"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/AskUK/comments/1izgh2p"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/AskReddit/comments/rxdlrn"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/india/comments/e79b61"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/UnresolvedMysteries/comments/1cqcpn8/whats_the_strangest_or_most_bizarre_unsolved/"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_02f0d37159367242006a652ed8ae80819b8cd3ae25821ca6d7",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS71lXqTv6Hd9LqqLRTiMjuWgxcuY5r42KSORRk5fs6lOLs_AxUnNtsoVQpoFe5LfwGTNnbn6p0jKkxrhLPwSylSmqZaMQWi9J3tyJ0y5WSXr-gx8sphB05Lrs3z4-apeka-iMPq-wm-okF0jvDj9giNwsbzELnPbGgJmKPprdwZIADrtUgAGnF-3o_g61ZX2Ni0aOPwcx0bm7lUhp6fuCM0W1jbh6U2U-Z2Mdc9yDZ4xhN6OPTuTjS8NLy9gCnxfMOpTGIXHZBjFG5ol__dNLxuKHVhcshpb81DfOR4y-e0zrVoLQb0Htktuxr9pjMnFAD9oevLmrPVeiASc74BuoKWVzrl9VNAPR-wi7JOYgLCoX-i7wdldVpVMMEoRR8bk3JBFclCf-b_Ix5gp1wyX-66PGbXgQReBNZK3aGw2V2tc-DX-krXC5oTpGrZP5Q9GmMkrhRb6DkB4IBBBbR2bCpPNc0Vecskgyr2Q9v1Y_7RWEEFZvMmsKPkprq7Owt52YQ0hNW4dNdytUquVZAvCpurgfelrGsbGyaOvfy2DQDa2nyLS_QlXAnFRNv1IAH8ve9M-W6KN03Z_zfeB1qqQenVkUOeggArOZ5T1k_l-FqA2E2o4u63cD62Rx-YGc4qta-sKWCm8YVbUjaLAqWryxagggXaTJwn3-9FN3SYlvQVoZ5HID7EdcufK83VQiPQx13Tf4H95HKD_CQoeTz0FxZn35cEfrO9u00JPLlmqYWl9nB0XLMOf75TXzDOY3kZkh50WEmrrfwAgVWCMLTZe4zWKvqZCfYJxZkcg354f2bHGHOvkC2I5IMNNbYNlKN8sml9tEipgjQo0VbEYxPgysXag4vXm4PpjUdgD_Z7i3aeLVaxn02nMza6OWPgdJBy4VIEQwXndTMZ8uPyR4zxNHinyg1l9NmUQUk2FoXGNaEMuCrcqRXhVp0CsB0u-dWYndWGUAB9sCp9jveOCTpZv7TIroaxNv-eCtiFayKvM1C3gPF1U16wL-fuyGYUwRrE2IgzwgE0WMQbetFljh7UsXk1TATv3Mt26WtOmgkBKUbga4Rlsvqkcr3Da0C2zmWXvPVuCUgxYgiWG8QcYRETPrpomd6QiiaPrFx3ifGD7Q9AJ7Z6w0YTY3pzxcK8cSZTw-CFwbevOFeZj80k4mMOslvk6gBhF9sjDj5CysIbWLD7pOKVaFw_7pJRf05-DlpEg-3j-wuYcX1FOKwJzBJJFE0yj3nZKhTzriSGpN1m0PtVwotCni09prJ3whx_kMqxGHT6TiWO19YC1ZIDOKu1dq8gdv16iEGbgdrGVsgYPuQaJ8GkmU2URJgCINQL57VGY95QoNGIi72U_s8MYB-uCP3-9Dl--MiXkJlAuaiSBw9M-DARVBbgtPBrSu6BQzc-YQBh8NScTJ6AsUUMDG1NUnQGv6zm_1XTgAOK8pWkPK2BAHJN6xdHk4-UgqZncBxU14V_IzLvMtkm9uAx5sUYDt_R2kiuKYXcHX8vzK9BBLXqw0lM4bJZHB_IUub3TgD_06tjLoOs17-DpsINEnlqEH-Zhw==",
+        "status": null
+      },
+      {
+        "id": "ws_02f0d37159367242006a652ed95518819b9d97a4a948f63ec7",
+        "action": {
+          "type": "search",
+          "queries": [
+            "\"Lalita Bai\" Mandsaur film series adaptation",
+            "\"Varisha\" Ghaziabad body suitcase film series",
+            "\"Neetu\" Noida dead body cremated alive film series",
+            "\"Sanjay\" Vadodara dead man returns cremation film series"
+          ],
+          "query": "\"Lalita Bai\" Mandsaur film series adaptation",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/vadodara/dead-man-returns-home-after-cremation-city-cops-perplexed/articleshow/92422449.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/india/story/noida-woman-comes-back-from-the-dead-after-being-cremated-by-family-1226699-2018-05-04"
+            },
+            {
+              "type": "url",
+              "url": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/vadodara/man-found-dead-in-narmada-canal-in-halol/articleshow/129737231.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
+            },
+            {
+              "type": "url",
+              "url": "https://www.imdb.com/title/tt1936191/fullcredits/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.inkl.com/news/murdered-woman-turns-up-at-u-p-police-station"
+            },
+            {
+              "type": "url",
+              "url": "https://in.bookmyshow.com/movies/vadodara/punha-ekda-sade-made-teen/ET00481769"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/delhi/how-police-reached-a-murder-accused-after-7-yrs-only-to-find-him-dead-in-hospital-8904632/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Talaash%3A_The_Answer_Lies_Within"
+            },
+            {
+              "type": "url",
+              "url": "https://www.thestatesman.com/india/ghaziabad-womans-body-stuffed-in-suitcase-misidentified-later-found-alive-1502913922.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.amarujala.com/uttar-pradesh/bulandshahr/varisha-murder-case-bulandshahr-news-gbd2031153175"
+            },
+            {
+              "type": "url",
+              "url": "https://www.imdb.com/title/tt27056097/"
+            },
+            {
+              "type": "url",
+              "url": "https://mphc.gov.in/upload/indore/MPHCIND/2021/SA/907/SA_907_2021_Judgement_16-Feb-2023.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Mandir_Wahi_Banayenge_%28film%29"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Manorama_Six_Feet_Under"
+            },
+            {
+              "type": "url",
+              "url": "https://iimc.gov.in/files/inline-documents/Communicator_Jan_Dec_2015.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.dailypioneer.com/uploads/2020/epaper/august/bhopal-english-edition-2020-08-05.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.dailypioneer.com/uploads/2020/epaper/august/chandigarh-english-edition-2020-08-05.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Sanjay_Gadhvi"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/The_Family_Man_%28Indian_TV_series%29"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Siddhi_Vinayak"
+            },
+            {
+              "type": "url",
+              "url": "https://www.millenniumpost.in/epaper/delhi/2018-03-16/epaper-delhi16march2018.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.cmsvatavaran.org/vatavaran2005/PROGRAM.PDF"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2208.06644"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2207.10613"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2212.01229"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_02f0d37159367242006a652ee05214819bb165507fda524853",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS71HIXOerpaxGdC8T02rChMK7w1bQfcxz91vPx_l6nG8bnFKrzTWzwVrZxh_ayOOF1vXbrzcAbn0BRWn-UC5Gbn8xTnhWsPMCPZWVYhpbH4yO8gNyDGdLfuRns1bKkh_Z-A4Yp89LFpYUPLwDd4ZvewuYCVWNKo9yY7bXV_TWNEeTRiSlG9o-8I3v_2s2syfJWodFQA-1pN04L09LiTrkl8sBLgzam4aBbYuCnpeOE61m3SCbvWXtjPgmNnOq-9IOW_WARijdYE_wngjnXSgrOxfgoStlZIxhnJbc6DIYC1nMtfsqklqghmvUY6sJMt53FTcJpMPvzeInTxaEoIGYOmbTo_hIu0uCxBtXEODojZqzxUfIfza35TOoaaBTuHCkTrr9cDvhOEVpYBkAp7vaXpKuBC3602RqKnzqhmZQi6G79v2a_EO1lefwUe0eIdcY5hHTe7eIp5bauu5aahOFmDGGBJPDdje2gQh444CPMtg7yRKnRtWBWKzeeZTiMHlWCMeMW3JQsbEEjuhwdUpyM3BBpposinzigHB1FLphLhy86Bn-8gUJqVyeEDNPNDSlamfjTRBeFrxOaq41LWM5rBVFS0luuSq6YvO3C4GGbm-YDhCCL2SzBI-TNwsNHptK6R7m2-ecmRmiUImMPjwuDUYTZ8jlz8-lQbcKXJ1VQ0Ymx4ylG-7oDfO0PYKMis5wWM_m_Hd87UUoT4FdsHwWCUNm0PbGQOHUa67mQ3_DRQXSGFtKKDrbCL-bDuPxrVfrzs2xJ9KmoIf-J1maG9XHrsg0mVRscDSPIkOINQldbI2wuy5d2rGDMJz__mw7InSR8yGgPV9uY1f4BsqFb718icYxrq96ujwthlzKSfoOnL5tatb_sOCyuVP2F_42CEdGCRG-jWg7KWVg3hfstKkJHem3hPNs8eObBTSM5CjBHgXuQrhLdaCKaGl6ZybjFcLMWxsctOvmsFJWZvliDxnz4eRmzp-QtgIdyjulcCJ35ZY0YluEh4KMpoKMn73ipbxotxWuM9oT7dhdhBGY9jVN5Q88vCggC9rgkH8TbyGA_xQj8TTm1ubkU9khtFV6JrviEL3a2-Q2a5UnYJsK8P-5DkhZNngRp2S7VTer98yT1t1qD5izM90xr_rEyZSrYxSlLHFhvL00tQ2bLXPKaRlLt1Z80shkem6rZn-e63WCoJgh-Da6R2GzygAhqbndWHnxL7kE8-b1o7gh6ebEVnRzhZpkFPSZM93z0UvP3t4ksmd8H48jOe-70X3o1FxJ3XL38jebswPbZ_4TD3DChg1ujrcJCYLmk-y-Zcb09HN4SSpB4xae0hnZrEiogHAid84GzEPIRMZXmuicEKnpcRq0JA6DF3qqzspz41l3CKRxat4Gneil6S41mzJ6lfl9ruhBI2PrWeqwH17GukKJCtHkkkPyB4lZyXDSHwLBj8s-D5Gyg=",
+        "status": null
+      },
+      {
+        "id": "ws_02f0d37159367242006a652ee0f6e0819b9d0677eed440146e",
+        "action": {
+          "type": "open_page",
+          "url": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_02f0d37159367242006a652ee2cc88819b971bff7f7e113c56",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS71bKtVTz9b15J1Z4F-prsRl28JyjAxha9LfdGG14phIUf1d4py0R8Ely---hsd65uQ3oI8c8Nc0VICy3mNDzUB4UEJyu-A43mcJKCYn7TaoawYRHR5YkN1kc6G_NdcAyhZNqAzm1WDdghfLygVmhfxmzNPPpk9KF1yXKOOaOz181RfXhK47kcZyEG1X1KouywSrqrwISDAT7Neepkvad6vjBr0P1dLXeZrcx6dZ9sK1VyV_4K4JsB-MUQ_B1Q5lNXJhlXOHlRSUhga21QX7K-AZTaEkPSq4qLpnDl7eNADckfpUw0BIx4eYWN56F-tiA6302K0c9B-bcLyNwEamxYaUrTQ-Mc1_EYOQmqlaojRtmAb-WdMoH9S8zSIgZJDIOVmTPIjqhex7k8YJXn86-O2VI5e11S6Wfo1dnaGkp_P4BJiQtudHBFJi9--pC7bYqwjk6azWNsYTDc5srIDx57YTVVJKaREvYiNre0tIrOCMk270gf_RtBkP0dyVgATzPUZuqD95Dr3QVHA3ZbCVyphAd0cwfP98454DnNw0WkcUfIgNRWLvaZI7R9vRldeI8TQcF6sVyplI9C01hO0FUU7_btMxcxlauYhenJcRdwZ0AAfcmL8Mw4Ge8qSvGrUmd3pv-LVWjK8TUvIHmv6uwmqJNUB0pmi-apqioPtzDZ0Uziw9exxHKc_wKjOP-SE_uEZ-fYuoIksgyVGM1yYlfMG7ts07e0Y5bqRTyoJHE5R_ETI9AzoY4IjMy1jxTjWOizIX3u398pZyNCdlJXRGTrpfRwmpj4sOHZB-KnO8grindEJ2jm-m4xZhRuehwgcaiEbsH4-Kj-tQGRRfAolkwhCOHVqdQFi5YJJGO4hsdFYUzzCdJq89CkMKTcX6YmbZWJvjsFt818YQKWXPjDKyAbTtsOUke-wZphjneqFv0zUnF1yWSS0NH4COhMTKfSKrXUMwaU3FbxYs6HMwh7TQ2jKtzFUL-XVQZSLvDJ3yQuwCcxZGyZZf2HH_1fjq5rRs2QdHt_6_QgVnaYVoMcaFU9_YNLjyjrhZH5goXKXIuulvx9fmhhUriFew7fvn0F99Yx4nVFE8YRaf3_06sEEG-CwO9mWhdPL5YrHA2w5vWqXAL6JvpATLZOQ81qp-ppMu2jKihT60ZbC0TDnd8tmDO1VxrP8qUpBzGrfKUs9tG7tGCQgzzMHJzrar7hNvFsEDJzP-rnflTtDGniZegIC-aMvAAoNrCbZ2tWs-LI9pWKbht6peJMl3SWbUAuL2Gq8ztZkzhmsds8yvFVjrc6PFRg7-AkmhmsVbD8kO85l25v3Z25cKEu9qoWvcGyVby-MPjO92wgDSpJLMnGMFSg2U8HHp5H67llyOCAGE4yRgHSNIQrMS9Woj70ICoVh4cDgAKVRvOGiO7s-lSo9v6LgTcF_yrXdK0LZX1t6_jbABvMa6b3_Nn5LH0vpLCch0klph96u6jSrypP_xD5gqSLceU8HvV3ezpvYgVqt2enpgscDgu6ElJLwy6Pnbx0SKDuSVTvVkHtS5grcHVnR_KRjt_-Q6g0r_K9HmtMVdMPI3ySIPxsy0LAIt6a1aOLRXOqd6zf2FWmGk7SzPDCtvRx_56fbCjp2HFuId-6MYKKq10chyfW0Ib8aDxPhbgr6Ge8x7Df14pDijVVoLYn--6ndoS82_uvMiG2x32IAZzedFXFaB4cjKZU6W1rdnPUZSHV58RG0kDVYTbY1Lu5MBlNPA21mC-FWdADU7pyp2vKmgcwumtFQfrkb0a5N4RI4x_f6taVcBLDJH50m5kQIV43BXHboTXZbiXl1Ehxfaj5or5tXYfoOeQvHkpofKs64pBsJrdOoPsMYAFl8roKVwxi0chFGNU-6zXRwAG7Y1shh4zxBHw8MB-t8IXNJIVqljYHv_N_TT2GXpfZCe8dsw9jcPJSm7Rz3haGu9DclbnoUF2lvQINVXxXKnU4UgekoeLbROm-eCgiM6turzbowsQitU7S_1YINQz6p5-COzAWsSUoQhE9T-qRIFJONJwk1_bDAzbtC373GS2XhLkvsNnqkuHCvhPT5WWED7L6dLSUsg6QpxTYPVkwTAtu7Z3XdfGX03gEYBKidABEsB8VQQ-IxNNGXcURnTdv2HorE3OrYdrwS7QBuURQ2OCh133yEAlQyC3G9zLjFR6bXDDO3qhDcvK6AwgR2YEzy-xombpOIOeP82fFsb6ZroASWQj_7L4ftqF--DzolWW0VmnvvKCipEQpunVGst6lunYm2J3RoZK7X-yq9qtYtLKNulCp0Meajb-GCRURBZX2Bf3Sgqix7BZ7CrZ_v5JE3v5wIgOFjJZhROgdkVE05XeHc8ah_b00DuQo-0TM9PaK0Y_nvPk9HNv8wKjVrFd5zBnT-qVGikVUOjJsnBWNbTCmR1kb0ZNzon94PPt5WfpXWcx2DmTr3uh-A71Htf4f2hn_AEwC8uZh4HDr7wlsDuD4_0jRQfjQuShWp7qoRHeuZkRysXfCeLCYZSSkJBUvRf7xcx1FO_BKUF9KvbnLj41lXoDPWhyhzWfmDav0CkRTk3rUxivtYwtCDCxz0gvRn0wLEpOhmTZMbfIm26YGHGfho6hHL_ZWzYD-B8HIPVCUG1mVbq3dPLaqMz5Rdb7V0lBr8gnJmiX80fBNa13uiX1-sJmWKKkgaoHOgCadRkEXSCBh-uvx1thSLdZeV02GqdsZWe2an9jZikJy4vtJLIQ0cvwOwvoBocyrB7LcHGdLI2e28FelHUfBSG5j4ETofrkiPiYqrGFWegtexmfWG3yeG-mJeZWiih4R_lTXY8p7OERxuR-HKnNXsF06fpDsc18rWx8lG2TbimsyS0WHRCS0t4zY3qv8KZISlLvn5HHRgFFWZJ6m2CKniuNgWJ679OF6mDHknGw81y0v6TF5J_WYzMRJMHtPuokDdUfjuhmyQnczOnqq2oNRKht6tSoGEsxBrdm_Dmc4qCzusyOyWaxmSYnL1XvHqoJuUuq4FbYsxH7Nop7xf1puzq0I_gdwbBiX-_wRAIHoO90gBu3LwHgsPoaF1VjzPrqtSLNzz0SVisqxms_gNMlh8Gv_I0KpGCfEKBa34hMnAR4n8P3yiclU1Ea1XVRGi5M2qw3bbCCpZQtaG-0kc4rC-NZQhx_do7pzbX48T_MM0q4Kzc7nKhE6y-nuYxXIJvutOwJOSt8zmu56Tl6440ankKMnxDrTUKvot1ZJnLlMLAtr7yuGMBFGPhqo4cpIhBQL5nmTag87y3Njcm0SJWMh57F20HQ7uhIKUb1Fc7wcPIDKkQwHQ-_y9vBE3RqM-OFSB5b6FbBl7iF1yoPzqhRC5JE4tIrosNs43gwOSKfQ3VUmltgKBFslfYPXObME2NicOO4rBT2MgND_-CgkvMyYoGhXPHZdwtu-hXESBp4ydAaMWROB-vvGaw9DJVCAgvTvOuHF67nfH4Nc9TWtNVcxD3jHxXl_9XEsvw9jT7l5aJm-tGE4YhjwSnLBYwC35_9GUPa_iUREnfs_1LvA2OXcRxOhRdc4WpGZYdSYZlbLT6rIXJUO7sm-r8VUYhmtsACN424c6xr9dR6mQPWyCrbysgTYrffwa6bLN4Rdm2IiVhJvGwkSQKVm31_-qxFekaOmSVtPBhlKIWLp92UlIAdCRHm8q3s4xlPsXYnJpi6Zxl5gs2QeUsGhak9HayXjQG69Nm5TboWXldpLqi0Ls-4ou8wJm0Hgk_TZBYAfB8raLlR6Y6g2uwGN0dT19v2-FsVYq_-XHT5Wbhj1f9fyyrVdDrAbJYMrZj3tETgzMI3R0afHjyxKgnnVzD36Sb62rvXowG7OASbVfGkPFJsLqssZ043-wZIUAUNhdd39z_y6ZAXgwmebDiuJnn00ivB7nJJ9O",
+        "status": null
+      },
+      {
+        "id": "msg_02f0d37159367242006a652ee6aab4819b9315c9b71e78b06d",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"winner\":{\"title\":\"The Mandsaur Woman Who Was Already Cremated\",\"category\":\"DENIED IDENTITY\",\"one_line\":\"After her family cremates a crushed body and four men sit in jail for her murder, a missing mother walks into the police station alive—then has to prove she is herself while nobody can say whose body was burned.\",\"year\":\"2025\",\"where\":\"Mandsaur and Jhabua districts, Madhya Pradesh, India\",\"mechanism\":\"A missing woman’s family identified a badly damaged body using a tattoo and black thread, performed her last rites, and triggered a murder case; 18 months later she returned, claiming she had been taken away and sold to another man.\",\"engine\":\"The woman is alive but officially entangled with a dead body, four jailed suspects, a disputed trafficking account, and an unidentified victim whose real identity must be uncovered.\",\"episode_estimate\":180,\"cast\":[{\"name_or_role\":\"The returned woman\",\"motive\":\"To establish that she is alive, recover her children, and control the story of where she spent 18 months.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The father who identified the body\",\"motive\":\"To defend an identification that destroyed another family and may have helped imprison four men.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The four jailed accused\",\"motive\":\"To escape a murder case built around a corpse that may not be the missing woman.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The two men named in the alleged sale\",\"motive\":\"To deny, conceal, or profit from the woman’s account of being moved to Kota.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The police officer reopening the case\",\"motive\":\"To determine whether the returned woman is genuine and repair a failed investigation.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The children waiting for their mother\",\"motive\":\"To accept a woman everyone had taught them was dead.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":9,\"hook_density\":10,\"emotional_immediacy\":10,\"conflict\":9,\"cast_depth\":9,\"total\":47},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The real participants are living private individuals and the case remains recent.\",\"The alleged sale and confinement account must not be presented as established fact without court verification.\",\"Change names, village and districts, the children’s details, and the precise identity of the alleged traffickers.\",\"Tell the serial through fictionalised investigators, family members and the unidentified dead woman’s relatives rather than exposing the real family.\"]},\"prior_adaptations\":[],\"sources\":[\"https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106\",\"https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22\"],\"facts\":[{\"what_happened\":\"NDTV reported that a 35-year-old woman returned to her village after being presumed murdered and cremated, while four men remained in jail in connection with the supposed murder.\",\"source\":\"https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106\",\"confidence\":\"reported\"},{\"what_happened\":\"The woman’s father said the family identified the damaged body using a tattoo and a black thread around the leg, then performed the last rites.\",\"source\":\"https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106\",\"confidence\":\"reported\"},{\"what_happened\":\"Police said the woman claimed she had gone with a man named Shahrukh, who allegedly sold her to another man for Rs 5 lakh; she said she lived in Kota for 18 months before escaping.\",\"source\":\"https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106\",\"confidence\":\"alleged\"},{\"what_happened\":\"The four accused—Imran, Shahrukh, Sonu and Ejaz—were reported to be in jail pending trial and had petitioned the local court after the woman’s reappearance.\",\"source\":\"https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106\",\"confidence\":\"reported\"},{\"what_happened\":\"The Jhabua superintendent of police said police would conduct medical examination and DNA testing and record witness statements before conclusively establishing that the returned woman was the same person believed to have been murdered.\",\"source\":\"https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106\",\"confidence\":\"reported\"},{\"what_happened\":\"India Today reported that the woman supplied Aadhaar and voter ID documents and that neighbours and family members confirmed her identity, while the police had registered the original murder case after the family identified the mutilated body.\",\"source\":\"https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22\",\"confidence\":\"reported\"}],\"why_this_sells\":\"The instant fear is brutally recognisable: your family performs your funeral, strangers are punished for your death, and returning home does not prove who you are.\",\"why_not\":\"The central trafficking account is still only an allegation, so the series needs heavy fictionalisation and must preserve uncertainty rather than claim a solved truth.\"},\"also_considered\":[{\"title\":\"The Woman in the Suitcase Who Was Not Dead\",\"category\":\"DENIED IDENTITY\",\"one_line\":\"A suitcase corpse is identified as a missing newlywed, her husband and in-laws are arrested, and then the supposedly murdered woman appears alive in another city.\",\"year\":\"2020\",\"where\":\"Ghaziabad, Bulandshahr and Aligarh, Uttar Pradesh, India\",\"mechanism\":\"Police recovered a woman’s body from a suitcase; relatives identified it as Varisha, prompting dowry-death arrests, but Varisha later walked into a police station and said she was alive.\",\"engine\":\"The returned woman must reclaim her name while the police hunt the unidentified corpse, the arrested in-laws fight the murder case, and the original domestic conflict keeps producing competing versions of her identity.\",\"episode_estimate\":110,\"cast\":[{\"name_or_role\":\"Varisha, the returned woman\",\"motive\":\"To survive family violence, explain her disappearance and stop being treated as a corpse.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The husband\",\"motive\":\"To escape a murder accusation while accounting for the missing-wife complaint.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The mother and brother who identified the body\",\"motive\":\"To defend a recognition that sent relatives to jail.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The arrested in-laws\",\"motive\":\"To prove the corpse was not Varisha and preserve their family’s reputation.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The woman constable who receives Varisha\",\"motive\":\"To decide whether the frightened stranger is a genuine survivor or another deception.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":9,\"emotional_immediacy\":10,\"conflict\":9,\"cast_depth\":8,\"total\":44},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The event is recent enough that living private participants may be identifiable.\",\"Change names, towns, family structure and the domestic-abuse allegations.\",\"Avoid treating the original dowry-death accusation as proven; make the unidentified dead woman’s story a separate fictional investigation.\"]},\"prior_adaptations\":[],\"sources\":[\"https://www.thestatesman.com/india/ghaziabad-womans-body-stuffed-in-suitcase-misidentified-later-found-alive-1502913922.html\",\"https://indianexpress.com/article/cities/delhi/ghaziabad-body-misidentified-dead-woman-is-alive-6538016/lite/\"],\"facts\":[],\"why_this_sells\":\"A dead bride in a suitcase and a living bride entering a police station gives the first-episode hook instantly, with marriage, police custody and family honour all colliding.\",\"why_not\":\"The case’s main reversal arrives quickly and the long-term engine is thinner than the Mandsaur story because the reported woman’s post-return life is lightly documented.\"},{\"title\":\"The Daughter Whose Funeral Was for a Stranger\",\"category\":\"DENIED IDENTITY\",\"one_line\":\"A missing Noida woman is identified from a burned body and cremated, but a police officer keeps investigating until she finds the woman alive—and leaves a second family without a name for their dead.\",\"year\":\"2018\",\"where\":\"Noida and Etah, Uttar Pradesh, India\",\"mechanism\":\"A family identified a completely burned body as Neetu without DNA confirmation; 27 days later police found Neetu alive and began searching for the real identity of the cremated woman.\",\"engine\":\"The police must prove a living woman is not an impostor while reconstructing two broken families: one mourning the wrong person and one still waiting to learn who died.\",\"episode_estimate\":95,\"cast\":[{\"name_or_role\":\"Neetu, the woman who returns\",\"motive\":\"To return to her family while hiding or explaining the relationships that preceded her disappearance.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Neetu’s parents\",\"motive\":\"To accept their daughter while confronting the fact that they cremated someone else.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The estranged husband\",\"motive\":\"To avoid being blamed for Neetu’s disappearance and recover his standing.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Pooran, the man she had been living with\",\"motive\":\"To explain the argument before Neetu vanished and avoid becoming the new suspect.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The investigating police officer\",\"motive\":\"To keep the case alive after the body has already been cremated.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The unidentified woman’s family\",\"motive\":\"To find their missing daughter through a corpse everyone else has already claimed.\",\"spinoff_potential\":\"high\"}],\"scores\":{\"engine_longevity\":7,\"hook_density\":9,\"emotional_immediacy\":10,\"conflict\":8,\"cast_depth\":8,\"total\":42},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The event involves living private people and unresolved identity questions.\",\"Change names, locations, relationships and the exact circumstances of the disappearance.\",\"Do not imply that the estranged husband or live-in partner committed a crime; the report says police cleared the husband and was still investigating.\"]},\"prior_adaptations\":[],\"sources\":[\"https://www.indiatoday.in/india/story/noida-woman-comes-back-from-the-dead-after-being-cremated-by-family-1226699-2018-05-04\"],\"facts\":[],\"why_this_sells\":\"The emotional image is immediate and phone-friendly: parents carry out their daughter’s funeral, then she walks through the door 27 days later.\",\"why_not\":\"The documented timeline is short and the available reporting ends just as the deeper question—who was the cremated woman—begins, so episode 150 requires substantial fictional expansion.\"}]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [
+      {
+        "type": "web_search",
+        "filters": null,
+        "search_context_size": "high",
+        "user_location": {
+          "city": null,
+          "country": "IN",
+          "region": null,
+          "timezone": null,
+          "type": "approximate"
+        },
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ]
+      }
+    ],
+    "top_p": 0.98,
+    "background": false,
+    "completed_at": 1785016053.0,
+    "conversation": null,
+    "max_output_tokens": 32000,
+    "max_tool_calls": 12,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "hunt",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "winner",
+            "also_considered"
+          ],
+          "properties": {
+            "winner": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "title",
+                "category",
+                "one_line",
+                "year",
+                "where",
+                "mechanism",
+                "engine",
+                "episode_estimate",
+                "cast",
+                "scores",
+                "clearance",
+                "prior_adaptations",
+                "sources",
+                "facts",
+                "why_this_sells",
+                "why_not"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "DENIED IDENTITY"
+                  ]
+                },
+                "one_line": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "string"
+                },
+                "where": {
+                  "type": "string"
+                },
+                "mechanism": {
+                  "type": "string"
+                },
+                "engine": {
+                  "type": "string"
+                },
+                "episode_estimate": {
+                  "type": "integer"
+                },
+                "cast": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name_or_role",
+                      "motive",
+                      "spinoff_potential"
+                    ],
+                    "properties": {
+                      "name_or_role": {
+                        "type": "string"
+                      },
+                      "motive": {
+                        "type": "string"
+                      },
+                      "spinoff_potential": {
+                        "type": "string",
+                        "enum": [
+                          "high",
+                          "med",
+                          "low"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "scores": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "engine_longevity",
+                    "hook_density",
+                    "emotional_immediacy",
+                    "conflict",
+                    "cast_depth",
+                    "total"
+                  ],
+                  "properties": {
+                    "engine_longevity": {
+                      "type": "integer"
+                    },
+                    "hook_density": {
+                      "type": "integer"
+                    },
+                    "emotional_immediacy": {
+                      "type": "integer"
+                    },
+                    "conflict": {
+                      "type": "integer"
+                    },
+                    "cast_depth": {
+                      "type": "integer"
+                    },
+                    "total": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "clearance": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "reasons"
+                  ],
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "greenlight",
+                        "fictionalize_first",
+                        "blocked"
+                      ]
+                    },
+                    "reasons": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "prior_adaptations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "what_happened",
+                      "source",
+                      "confidence"
+                    ],
+                    "properties": {
+                      "what_happened": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "verified",
+                          "reported",
+                          "alleged",
+                          "disputed"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "why_this_sells": {
+                  "type": "string"
+                },
+                "why_not": {
+                  "type": "string"
+                }
+              }
+            },
+            "also_considered": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "title",
+                  "category",
+                  "one_line",
+                  "year",
+                  "where",
+                  "mechanism",
+                  "engine",
+                  "episode_estimate",
+                  "cast",
+                  "scores",
+                  "clearance",
+                  "prior_adaptations",
+                  "sources",
+                  "facts",
+                  "why_this_sells",
+                  "why_not"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "DENIED IDENTITY"
+                    ]
+                  },
+                  "one_line": {
+                    "type": "string"
+                  },
+                  "year": {
+                    "type": "string"
+                  },
+                  "where": {
+                    "type": "string"
+                  },
+                  "mechanism": {
+                    "type": "string"
+                  },
+                  "engine": {
+                    "type": "string"
+                  },
+                  "episode_estimate": {
+                    "type": "integer"
+                  },
+                  "cast": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "name_or_role",
+                        "motive",
+                        "spinoff_potential"
+                      ],
+                      "properties": {
+                        "name_or_role": {
+                          "type": "string"
+                        },
+                        "motive": {
+                          "type": "string"
+                        },
+                        "spinoff_potential": {
+                          "type": "string",
+                          "enum": [
+                            "high",
+                            "med",
+                            "low"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "scores": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "engine_longevity",
+                      "hook_density",
+                      "emotional_immediacy",
+                      "conflict",
+                      "cast_depth",
+                      "total"
+                    ],
+                    "properties": {
+                      "engine_longevity": {
+                        "type": "integer"
+                      },
+                      "hook_density": {
+                        "type": "integer"
+                      },
+                      "emotional_immediacy": {
+                        "type": "integer"
+                      },
+                      "conflict": {
+                        "type": "integer"
+                      },
+                      "cast_depth": {
+                        "type": "integer"
+                      },
+                      "total": {
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "clearance": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "status",
+                      "reasons"
+                    ],
+                    "properties": {
+                      "status": {
+                        "type": "string",
+                        "enum": [
+                          "greenlight",
+                          "fictionalize_first",
+                          "blocked"
+                        ]
+                      },
+                      "reasons": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "prior_adaptations": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "sources": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "what_happened",
+                        "source",
+                        "confidence"
+                      ],
+                      "properties": {
+                        "what_happened": {
+                          "type": "string"
+                        },
+                        "source": {
+                          "type": "string"
+                        },
+                        "confidence": {
+                          "type": "string",
+                          "enum": [
+                            "verified",
+                            "reported",
+                            "alleged",
+                            "disputed"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "why_this_sells": {
+                    "type": "string"
+                  },
+                  "why_not": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 52114,
+      "input_tokens_details": {
+        "cache_write_tokens": 8775,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3857,
+      "output_tokens_details": {
+        "reasoning_tokens": 1345
+      },
+      "total_tokens": 55971
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 4
+      }
+    }
+  }
+}

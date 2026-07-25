@@ -1,0 +1,1284 @@
+{
+  "stage": "hunt_the_double_life",
+  "saved_at": "2026-07-25T21:48:47.435118+00:00",
+  "response": {
+    "id": "resp_0cb1792c8b67196d006a652effc034819a8a312e1dd4bb6779",
+    "created_at": 1785016063.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-luna",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_0cb1792c8b67196d006a652f004e38819a8493e49572690dc1",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS9CaFb53WdDufLNSKGcbOPGoQyW5gIEOWQfoa-9d1z6c_IKyqwmeVHQCvku3zuHeNhQI6b6BIEa7YwACjUvymofnKGwMSMrYWtHgBO1cfRNkfQLdFidrKZnQkrzKBNI3grilutwlNdpKp46diL9Y21NlNSx5hztTKJzIi-KWqanMG36wylZqBiy2k2GbCHdmH0_lV3CIbXn44IwfB4bWBjtcIuW8dEGGz4vhHyhZu3bGnd8eo6k8ApGTRmVKeY21JGiLl2nzrocDFdtLxA7bWwJXUsitOoLzMDJMsUtgBCzBAshO_bfUVJ_0IpwNfIfTvpD2P2VoZcokUHW0FxckB1WXHGtr5nr5_ATjGV1ii-K35SzClPzh5pFdm9GlzLFz16eMR1KRTi7zsOKfS3sugDBTc10hgx8D_S2kFmoej1jBot-JUC0FXJ-dABwQBJqkwRHsS7vtG-IsJsv_VeZpGfAgSMY19xioGlPZEywekxL1tnW_XtCu7effd-eeDVtIFDx8Du0kKmN17Zw9LjXhBq_JZMZtE9VX6Q_zkAW2AGhXmpgKwdiSz5uOwi7BncsqZM64mqJ60pkyL1uLXf8Bu9QvBVCKhGlcsHV_Jwh0w-4O3vgxMwwKI81kHELRxGNeEalFLGNePQhvFNG-_4fxNJF-a6jeSMderFnzzpwZLDwuQXz_fMZcXjWjokAkiXOS7v1FkmrMJO0ZcynVde4G1iGdIZ0qJQ--AFnJdq7TU1zl035Tqplcie7Wh_qqckMPr6KN-9uVeq989qRvkEiXtWvfeZ1KoPQwEPcJ4DyRx55VLIttc01fkVrzpw478Anzc9ZPdMwGOMje2C0kCo4M7pAUqCetgrk6WNiR75pJA3mKo9fqA2SlXYx4q--WTTcUzJEz18OWkJGqulhBzKd0ahTKcf7NNNwfmDaArB7DV_u4TjJwhSTPgl5f9_RCJLtt2jZiUMAucP7WrFuP0RP69GnrMyx3g7BNplm7IW7yDfrUQxTMzarCZy9sWhIDdI5lf5wdVWKaxooiMDJRCmhP_msQN2HSnGBNV0a0BcuuvoR04vCRkxgMlxBa-cWiRsIoDZT-rdpORVNwWX8DIUWvzgkLuFvRN7-9I2rO8LA71DQJihq2tDlTWe0k7Ov3pfS0CHX8ulMjIpO4FrocBpPCu5aABzXQvn6M8VsUVLZTj4CJTSzku5kReOP3YY-pxd5F1Y4Cec1Ic1ZWEGa5Ig8mb7YARwhuBKtr4v726r5jmcfRTafKo2oXZc6zMDn0jyKvI3sUWwCClPrRv-3zQZCB8Rwyw==",
+        "status": null
+      },
+      {
+        "id": "ws_0cb1792c8b67196d006a652f00eb78819abadbaff223e257d5",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India man married two women different towns police court report second family hidden years",
+            "site:indiankanoon.org bigamy two wives concealment identity family judgment India",
+            "India FIR man maintained two families two names village office reported",
+            "\"two families\" \"years\" man India police wife court"
+          ],
+          "query": "India man married two women different towns police court report second family hidden years",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/1342950/?formInput=section+495+ipc++doctypes%3A+judgments"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/45230483/"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/india/bjp-vs-sp-in-up-as-man-on-bail-for-molestation-kills-victims-father-7211680/lite/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1102806/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1645821/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/24662706/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/167450666/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Veerapandiyapuram"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/138143870/?formInput=++bigamy+++"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1206873/"
+            },
+            {
+              "type": "url",
+              "url": "https://api.sci.gov.in/supremecourt/2020/19221/19221_2020_2_1_41978_Order_14-Feb-2023.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/126348789/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/150529482/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/710906/"
+            },
+            {
+              "type": "url",
+              "url": "https://api.sci.gov.in/supremecourt/2019/1854/1854_2019_12_1501_16130_Judgement_20-Aug-2019.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://webapi.sci.gov.in/supremecourt/2022/15421/15421_2022_1_1502_52839_Judgement_03-May-2024.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1102806/?type=pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://nhrc.nic.in/sites/default/files/2024-1-08.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://cdnbbsr.s3waas.gov.in/s35d6646aad9bcc0be55b2c82f69750387/uploads/2021/11/2021112373-1.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1qvk303/can_a_wife_file_multiple_498a_in_different_police/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1lutz7v"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1759cif"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1s7zimg/father_has_2_different_names_one_in_agricultural/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1uv7aks/my_family_is_completely_shattered_today/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1shtofm/father_4548_secretly_remarried_a_widow_4042_from/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Seema_Gavit_and_Renuka_Shinde"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1orml0l/my_brother_got_married_in_april_2025_now_hes/"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Murder_of_T._Maniam"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/2009_Shopian_rape_and_murder_hoax"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Hashimpura_massacre"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1t2fjc7/fathers_share_of_land_at_multiple_places_in/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1em9ekk"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Rizwanur_Rahman"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1n66ab3"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2605.19346"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0cb1792c8b67196d006a652f057b68819a8b050e627daa709e",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS9CrvjEXopxWbmCdrqve511P2KHsG21TFL8PhCA9f71iN3q2IBQee_HkI5P-qiQAeXXf2mHKAFZyAQmunEd_gtP7Vj5srhmi-wwphD0Rv6tftIHrXsB7DoPicxb7LR_ab-eyoI1fuyNVqNbMzEdIgzW0SdNGx5dyDLxGwcWmsDXYuLlDsO-M2y1gLOPgYxRfOK1ugbjo9J6dyOrcdp7lxXlthSUm703QX4yWi9wkwu4-MTN_UOzSjRaO8LSWvg9KJ-PUIfgLlL1Q5_JHflxoTq6p-a3vWvchoOYGtZASlFw--j7-6jlqIyQOMKKC9S3lyX5yDUg3of6nbIfxBnG069Ado-o1G_WjM587w8Am7v9m11jisplcfN74tUC3qZN1AZE1yqQmOGE_3UTwhwO2lp08VOdjwZcN6kyxD1C13LnHCn5b7sq4sDPVddGc6MCKVGHR-1P3rZ6R5wFRmyP3ewIf4_6tE81l5bYkD264IJV_sXGfuOj7ofBFIOzW43rKNGLrA4PdJsHL779-RdoDeRp8E2zBGkk3BOFm6i70D7sqFtbDd_hPHX_OPIOBn_4Bc6eVk1F5UTJ0kXeB8esuDOBxZ_iuh4ne5gYlt37qtKxq2AUgoc_voavhPg1-RWZ85E-S0Ol5QiLBPnwbuPouXBllsCkUoS8o6wLQaQebFG8Ldu3DOWDluLlgQlI07JGp3wvHkCpBW2UOc8jtWBJnM6XByBP-5ZieAMYGC-idaOkNVsP1ezdbXrqh8EodZDmUvr4EI-jEhCRjxPM-EUYhSNeEYGbhoCnwzIECSc8DjL9zdK_nMTUNqJHvAaQgRBEMuG-qbqYGkCDIc7Dn20hf1_wEigYmA6rdMUGqBiaWe-FP1aM3QFNZpdnPw7MAepCEctt7rata0khUr1_ByVArrbD1TicR7cAJgDy6mnTmvaLB92jmLlpSNarQOsBaAPcRZPS9_p25Kq6BUk2cKT2xv4Bck0WoApvEfiql9BjVjlBklUpyJ8Y_737FQA7j1oPIA03vmjDDBaTZ1AKJLI_PptF_4gDQqnURQ-RfS65Z44GlvL07xCJd53GYr7PsLNgQ9d1Zih7Yt4254ppikEvU-pmL7sX4DfW0RIgor-TpqZkDGVXe4DOivoKibmRtlFzGJrp",
+        "status": null
+      },
+      {
+        "id": "ws_0cb1792c8b67196d006a652f05951c819a959a5f056d79d510",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:timesofindia.indiatimes.com India \"two wives\" \"different cities\" man police",
+            "site:thehindu.com India man \"two families\" wife police",
+            "site:indianexpress.com India \"two identities\" man police arrest wife",
+            "site:deccanherald.com man maintained two families India wife"
+          ],
+          "query": "site:timesofindia.indiatimes.com India \"two wives\" \"different cities\" man police",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/bangalore/telangana-man-murder-wife-crime-honey-trap-extortion-9675920/lite/"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/ahmedabad/man-who-duped-official-held-in-maharashtra-5254389/"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/delhi/woman-accuses-husband-of-harassment-in-dock-for-fraud/"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/news-archive/web/kidnapped-child-returns-to-parents-with-a-broken-heart/"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/bangalore/photo-new-bike-bengaluru-police-gang-linked-cybercrimes-india-9136134/lite/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/entertainment/marathi/movies/photofeatures/resham-tipnis-movies-you-should-watch/amp_etphotostory/64542985.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/entertainment/tamil/amaran-director-addresses-caste-controversy-parents-said-major-mukund-varadarajan-wanted-to-be-identified-as-an-indian-and-then-a-tamilian-9654347/lite/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.deccanherald.com/amp/story/india/uttar-pradesh/parents-support-to-wife-doesnt-relieve-husband-of-maintenance-duty-allahabad-high-court-4057042"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/chandigarh/proclaimed-offender-on-run-arrested-uttar-pradesh-8221603/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.deccanherald.com/india/maharashtra/maharashtra-man-claims-second-wife-eloped-with-his-minor-son-from-his-first-marriage-3973760"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/india/india-others/the-big-picture-his-name-was-khan/lite/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/web-series/reviews/international/so-much-love-to-give/ottmoviereview/77960089.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://images.deccanherald.com/deccanherald/2024-04/f2d82391-fa6f-40e6-979a-c953c425318b/file7uvuiw7lacoxlql0jdc.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://images.deccanherald.com/deccanherald/2024-04/3d2cc826-195d-498f-9c9d-f6d364138f30/file7uvulsg7xd01js0bs6fa.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://images.deccanherald.com/deccanherald/2024-11-09/g3jkeasa/file7xzd8fny7e114qm86gy3.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://images.deccanherald.com/deccanherald/2024-11-23/haf1zyoo/file7y6j57f4rp03p6iy1ki.pdf"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0cb1792c8b67196d006a652f08a3dc819abebf2dd00132b3e3",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS9CS127wav8iiJ3FcDcZu1fUnLsKK7ib8MZUILejyPSiu43VDOq2myQ0t7sOdj8P6KWJQiLtkChAH92IfFVOiI5iwIMu0Rx-mNyNuJTfMPm_fwoIHNOaJcOzdoZdLlRUk0-0PkepNUUesn_D-CWPhoslL5DfV4FOfKE5djCkK-cm6_z1pZdmbbEcolaxkhlT9VdVanGH5ZxqjmJZL9p7RTIqfUx3OO1syuBWaVMWKNqCT19nJSjiSIGkH9lcH1LTk7rdML9iDh13bta9jw6yjkAzyjEXkoNnoe_a545ErpjorKWE9XwgMd_qX7_-uWDRLnGWhY4jUaJEnwH_q7UuQHCI5zN0yyy4zfGQNA2FTZ0rssIseiA67qgQ43Ssn2vhsyKXotA9P5KAcC15dyuJrfQiqQGFNmfx_NgJMfjFXvdqsSJrFdLGR7R7m8UtBqyxJCgshSLVR8MXYMU-bwLGRQ8WawkTRH8h09CynwVsrqphQRKc2q9MEZ6ri9OAWKQQASD9LlgiHBTxuXBH0ULOOD5xl3ajmYy6pB7AnckOGlp3AN9r_2DK0qVwxr2SXP0Rao8IILkMKj3xg_Xm4jU25bVAIa-8Fj4jXEvyCpbO1tJoRUtYGVqHnDbJcQ42IPzx1FjemV5SXheZjD_jDkDmCijDHs4hnyzrLJPUeEZmE7SvOKGSV2hN-kadVAsHz1gXTJ2yhy_lPVO4LSrCVvfrh1r0DJHabDCp1fh9S434-HEqbwFR49vOzgpZ0S9Y-5l4SmKRfStvZQktRJO2uQFa7XVuxL7nAildf54ohE9opwHsNuMq8Jp3nprACG6KzdV1w9TN98_ccrF7qg9a88F87xBcRuA7cXCLumySIB_S-UOUgPyhIxG1ZyRvpn8xs9OeRkG-tuqRXVtU_sh9b1MfQQYyeUgaPZ7gb9AFxzwSEatA9DxaQT2pPl-NetIscv3Wmfo5m9dJHqrChnI-_-_XG5SiQabAksZqAR1MLfTfee6So9Ow7Rk9vw5ku27MfbWtb7rksaNh04J-ygJ1NoXJ38rrbnKSbDJ4QeLi_IgTZ32oCsE4RmbYiekHJNOuygJEd66tnA3Qr4yUyuR8BGFTr2FdmL1mB-gPX8kOkALUpJxnVl2OW4r4_DFifqoOe7cqEPPJL9YjGVK7rrHFcyX6PHMTOD6LC4k0fPpsLWNKAFCpv1i0ASR-XJtKZOxEN8ctY7VbvHE7Y3Rn4s8kjtv90gkhzY4WTLxlEUTYQghduRWsT3wJpeKw6NfP3Adn2-MGZ7NijAWSI9SoAmKemanVLwgr0hZS-3z4fZzyehUYjMscQM8zZt87AG75O5qflV6TC0xd1zfO-t2vU1H_eKzEFgmldPe3HEsF1ul2RlCrXD_cJMzV3cbe6hJDuJeLFBF4pUjssQE3Y462rOCS8W99b9AJR0wEFb1OyfVUdKyRbWeqkmvD_QP4cvuPUlSCTrhTi8n2HMBYIhYDleEa6-PfxPQTuvomP8tv47pue5g97jgCPIZGHrlkhavtZff396Tk3ZH-k0x8dv4gzTyFtXoizCXM2IPHHjrSU25RFsWvZwVvvor7h3BsG1FOzlAlA4jAxos",
+        "status": null
+      },
+      {
+        "id": "ws_0cb1792c8b67196d006a652f0979d0819a88426546c035c373",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India \"two names\" \"two families\" police man wife village",
+            "India \"secretly maintained\" \"two families\" court man",
+            "India railway employee two wives different cities police report",
+            "Bangladesh Nepal Sri Lanka man two families two identities police"
+          ],
+          "query": "India \"two names\" \"two families\" police man wife village",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/26738578/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.indiatoday.in/magazine/society-and-the-arts/story/20120312-gujarat-riots-muzaffar-finds-his-identity-home-757576-2012-03-02"
+            },
+            {
+              "type": "url",
+              "url": "https://factcheck.afp.com/doc.afp.com.A9FX7G3"
+            },
+            {
+              "type": "url",
+              "url": "https://www.thedailystar.net/news/bangladesh/news/no-one-has-multiple-nids-anymore-dg-3898271"
+            },
+            {
+              "type": "url",
+              "url": "https://drp.gov.lk/en/normal.php"
+            },
+            {
+              "type": "url",
+              "url": "https://www.irtsa.net/7thCPC/Chapter-8_Seventh_CPC_Report.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://scr.indianrailways.gov.in/uploads/files/1436522080793-RS-CONDUCTRULES.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://eparlib.sansad.in/bitstream/123456789/605397/1/107820.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.cabinetoffice.gov.lk/cab/index.php?Itemid=49&dID=13790&id=16&lang=en&option=com_content&view=article"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/cities/mumbai-news/on-promise-of-flat-duo-dupes-retired-cr-employee-of-47-lakh-101709581247856.html"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1877200/"
+            },
+            {
+              "type": "url",
+              "url": "https://scr.indianrailways.gov.in/uploads/files/1304403722472-serial_circulars2010.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html"
+            },
+            {
+              "type": "url",
+              "url": "https://colombo.mofa.gov.bd/pages/static-pages/6952669b35ce18e1c05aa518"
+            },
+            {
+              "type": "url",
+              "url": "https://rpf.indianrailways.gov.in/RPF/PDF/2-2021.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.staffnews.in/2023/11/appointment-on-compassionate-grounds-rbe-120-2023.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.newindianexpress.com/states/tamil-nadu/2020/Jan/13/no-the-railways-does-not-condone-bigamy-2088940.html"
+            },
+            {
+              "type": "url",
+              "url": "https://dpe.gov.in/sites/default/files/Glch02c15_0.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/indianrailways/comments/1stb0s1/observed_physical_harassment_of_a_female_railways/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/indianrailways/comments/1ohsshp/320_am_punemumbai_express_when_random_couples/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1oh33ym"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Thampalakamam_massacre"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Millennium_City_incident"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/india/comments/1lzepwa"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Killing_of_Ruplal_and_Pradip_Lal"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/indianrailways/comments/1svmyxg/two_men_boarded_the_train_were_on_upper_berth/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/scamindia/comments/1uqkdyr/discovered_a_new_scam_at_indian_railway_station/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/indianrailways/comments/1dx8kh1"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/indianrailways/comments/1c1aiyv"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/chennaicity/comments/1ln09mi"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Attack_on_Enayetpur_police_station"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/Indianlaw/comments/1uwcics/deputy_station_superintendent_allegedly_beaten_by/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/indianrailways/comments/1v1m8vm/unexpectedly_shared_a_train_coach_with_a_prisoner/"
+            },
+            {
+              "type": "url",
+              "url": "https://apnews.com/article/e6210e45ebcd2031148a13609bc3b641"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0cb1792c8b67196d006a652f1239ec819aaccd1bea4dc2651b",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS9CvO8xCJvIUDwMKVpM4lojt5YzlsuLeVrub5zK_h0TAbPH8DHUlQw90PfnmaMpjfZh32uruoOtZ41m2GaJcBWukRhLbDITR-ELI_DhryJQEbNWKDxQeJLj1DVVWzwvHd9fGwoQvk6zkXGF9xgZYx76zu7tX1-cgppWsT95L2Wdu9p5RHgIeJwJw8uTn5yyh2SjnWltrNQnZPOby8jDhxfu8q1q8SZboh811bZpYenGGvzZzDI8dTfIm8cUYy3bxeBq3mrPoUeRzulT0Dm89AfpdHewPn1d_qwSEhGx_CXQPZ4V1P4YB7Fn4caNdb1YCttJDSADTMS2zRKQPlV-1VbznMsDarQ96F90a9AGmsGQUrSXAfJvyqsMKProWP4OWEF4q83LjdO_EAIUdJzaLAmvL-rnK9Ra-0hDA1MEnloQKd_V7GLVlmptjg8H9aNZ2vEUiHnAZAXkmJQfAaOmZMjhwdepKB_UZXVMGRdFsyFzjd0Axjz7A65BPAAikqcOPq-DmAJiHFj1BY88MVDEN0hHCmzodzPluWPgRFQxI-M3kW4W4BOW2DTEnlvkur6ZvX_df1w5DYhGJaFTegupW2WgHtJzT-8IniESBykZVTa5VGERYfvyb8A2g3H4l_y8wg5qLUSkkyGCbTz8XRVR_lrhEJFRZaFFgkH6XQ3kTRKqY21YszZV1MSMXz20hir3UOp9EtbJ-PcXPW8jK2C0suuauA3tNjpcsNWDmgCi7R_7YXmyHeOOGVoUUwVBSLC6djPrJtEBzbeZzkOZXj68sxvS67g1DGbdQoi7M6u4nIfecERwoQ-edflYj5FPK3o4TefJiWnT0z28hLHtew-EVYp1D0VJWLahs67mgpP0nLkW-1Z2p_VL9k_r1Xc_z1aWe15Zvfys9LS9skQicdgHk0_hn4vtWOX2Q13h8LbWCV_zcAZLzqS59Af-0TzscpszMDbJg8IyNK3j-h61HZ9ssw1pCENRj3_haSctDMiLA0QGWxqESH3jXsQLHGAMboEwEB0Y_-8oUIRZcnvR0qwuvlyBGQlELAc0gS7Ue8KUDXcOl6gjjhaegsYrRRWEjva66pCMfYtSSMvjGV0kvzsdsKSL1cu03ubzH9dRsUy9b6WbAH5CTA4fCZmfPvtKIGozjJEViNfIVFoytpRdYB9qeadFIL8YmU0keYo_xur4vuPsGtz58JA9jQvl9GP-6KR6Aia0_E1EJb-jaJgzTqxqubw8YpDDNLOIcUq5N_crru1b_PtdZcbj5uCGo5JpnetJ6oGhpT60A3UUFXdu8jzZmCGqGuyhe19_p4MMh54naeF3GN0=",
+        "status": null
+      },
+      {
+        "id": "ws_0cb1792c8b67196d006a652f12fd90819aaab29aa18649ad59",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:indianexpress.com \"three marriages\" \"two identities\" woman India police",
+            "site:timesofindia.indiatimes.com woman \"different identities\" \"married\" India police",
+            "site:newindianexpress.com \"two identities\" married man police India",
+            "site:hindustantimes.com India \"two wives\" \"different cities\" police"
+          ],
+          "query": "site:indianexpress.com \"three marriages\" \"two identities\" woman India police",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.newindianexpress.com/cities/bhubaneswar/2022/Apr/19/bicycle-thief-with-two-identities-dies-in-custody-police-in-a-spot-2443761.html"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/pennu-case/amp_movie_review/126462978.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/bangalore/telangana-man-murder-wife-crime-honey-trap-extortion-9675920/lite/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/lucknow/passport-officer-in-religious-slur-row-shifted/articleshow/64689675.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movie-reviews/pennu-case/movie-review/126462978.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/etimes/trending/who-is-nikki-haley-the-untold-story-of-faith-family-and-fierce-ambition-behind-her-political-rise/articleshow/123423547.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/lucknow/inter-faith-couple-gets-passport-official-transferred/articleshow/64691542.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/delhi/fantastic-4-used-fake-dds-to-buy-luxuries-duped-many/articleshow/64239884.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/lucknow/married-by-morning-missing-by-noon-how-daku-dulhan-finally-ran-out-of-road/articleshow/121388511.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://www.newindianexpress.com/amp/story/states/andhra-pradesh/2025/Jul/04/major-terror-bid-foiled-in-rayachoti-ieds-seized"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/delhi/rajasthan-man-arrested-for-blackmailing-people-with-objectionable-video-threats/articleshow/118553698.cms"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0cb1792c8b67196d006a652f187930819aa8bc8fbe09f7e183",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS9C9wu0QEQpfJSZhbL_m1fm9d41Nc0RcD4MrEfhSQ0zUpgZ9u1GmTTlcSdqetGlKske2eDzYSZaHDuT4P3YI9y0Ety3kHELyeYRI7-0TOpDvRn77gMZL1KwKQDd36Ze_AGH9x5xISVOrRclsB-ElSAMhfabv71aXcV_hPTaCLb4UpOnfLWI5iAhVjRYChQOV3I2G_K93lzjxVmKOfM427M_wveO4Bad48jE7teqjuTuxktNlyJ8TPNITbSYmG0M18hbnhMYY9eeTaJ7alV3vsFKp4-Rnejtv_7NZUsO3FWhM2VQ7DY7TcbQGZhARs2m4Dt2IyyP7q46viOVUBJAeeMrdAGEPpNH_6z_8KVA4e5IWihVqawICgZ-U3AeOlAPddlsNbyd452K6LiUMoORjiLBn9VFkmga05SKWQurduYPIzgFMkh0zEtf4AoHEe5q9naSok2GvvYFe2Gs1M_ZEFfxC0pd_JruHB5eGXE-ceweU7J-ep1HcptJMxKTWP5lCRkOL36GrywYnsM4F75yD_y7NtMuAENqIBEMh25Fmv7-WWWbGf9qwv-e6RbPB9hBWZHr_zXZrNvnitOZLO6lhy8fqlFB0Nc0Nt3bSLju5M2cPo4aF_mkNpt6Jf1FrqQRHRXDOwmqR6xd9h18SFHWMT7QlXA-Gz9koNIgkG3lxkrACKyl-XypWqLe9Lc_6VMHFwykKPeQtMVlLackd_7izTmxsU2ZIXw83-Jn4DWeTh1ONiMm6PCP0sCHBAG7Pnbvp8L3tz2Mm25pvbsUrtUzlBbh67cmTMq1xmLZC-XHJlVqEHAQpBwoJ5v5RBq3XaWdOn73TQreVSGna-2A8V6hEylbAUXn1Maf0qTbEL19op9SAe3mQItyZmsJxQcNP_fi0RUMRl1LeSmBE9TumGQVqsDWohX4Aj8F1uZ8X4Yzp7tMaOFU_Zd577pFeHPL23ZhpEUuhx8IHuskrVelrH22avP9NrZx_jtRfwdjECS5ez48-rQnhpKI0CEWq4bYMTSApPRt-lQGYIU_otBpKlpqd0mFpvrIR_UabYvrKXU0KJ7s-hV4o2PT2T0szQxeqEP-o2CUlDBRlKdJHwtgHWF8OGcb6AfovqvO1l6Mi90Gcf_Kib-Ir0OLeNiQ5O03vYaaJCwyBMAexZU6LebP9cPUnUH-b0mY78tjJhZ7jLoFWwcMClsv1r9360HSfzts4ujeBj6AzXm8G4UaNk_inxpEG-GZnuwp0dcBb07WwlMtlNXzovMUZ4udHaoPgGBVASIP9QfcmRKcBWaxSocTqIuem4Ng9mDXD-xpNoiKjuypiws7Da___xpGP2mbXseNOwvAFwp9S9PSFT7MB9AO9FRfdgAgRaQwE2dKnSf9Qf9hWcF6ZcNGI7YHMd1r_7410weLhqNI-g2x73EFwieoxTbeFg2dfawIfncnvBPh_WpGUjqS30LqASimx9PdQ8fr1gsAwuOH26aSOdXLQagsUa1RmDpX43dLlsd4bhQtRAdsGObgUUBh7Y_559i_teydTsMNhgnWfxHHaaw0H-mAVUFjn_mIm1S3EmI6mFefbxr4lsZMU1KVKNFiuG6yjhWc8XPV14pol7lrnRtqcmXImU6v_AvrZCKyiei_Le5SQ7eHCGe344lr-Lo2gzmr7zSB0mJT4KJWU9pu8wgmgKDQE5wO6S1k1xJtJD-Yy-nhvNLRIJMpo34GodpYG1dQMI9Kd-FNyKlidzaRHERguKgkKktZFhTGokYv2G6T52QGmjPY7Rel-MZuEL84SlWUXXd3G6Uny0SmLiUsxsQFrUUMszElYBxVoCb2h-cXnodtiVmBe27s1odoC5TNxulLzyF2XNMxhS70fOfJZxjc1K74TBnlPVntnL1pvSyVrCczXlKiWbTJ6C7hwP9-sRMXrcjiW6MJhPibVcmBhex5sXvB0PRr9aBo9izuA1PVnLmtmFmrKunQkGT-uvjC1kKKgbAjv_GH2OeHpXlRH5eZuX7gNXjHICbQMxb_opDd4wABz2Ku2vq82LA-nDttYmukOGOQusH1bRkrpNLEIkV780DRBEqZjU1LWPjs-t9I5u3gdkoT5s9O5yGWhcda5zOfYr9NPO1yVrxMHxi78-w1HPLaX82v3Cfsp_8Iz4LRCZ32R_U2PXK-byqluQeGvbCHzqXNT-JYEvZ7BwxHQ-nXprboJ87zEqdSjG_vS2ERUeWYJCpxfvhFlvghRcSHn7t_RGZidoXpvopI8Fng_hbXEbIdv2dEevEylQ==",
+        "status": null
+      },
+      {
+        "id": "ws_0cb1792c8b67196d006a652f1a14ec819a8db35e4dc14257c3",
+        "action": {
+          "type": "search",
+          "queries": [
+            "Gulshana Daku Dulhan Ambedkar Nagar police 2025 FIR",
+            "Bitu Biswas Soleman Shaik Jajpur police FIR",
+            "72 marriages railway employee Hajipur 2014 police",
+            "Ankit Mehta Nandit Mehta Dang fake NGO police"
+          ],
+          "query": "Gulshana Daku Dulhan Ambedkar Nagar police 2025 FIR",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://undercoverist.org/tag/ambedkar-nagar-police/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.loksatta.com/desh-videsh/daku-dulhan-who-duped-12-grooms-took-jewelery-and-cash-escaped-after-that-up-cop-arrested-kvg-85-5063447/lite/"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/delhi/ngo-fronts-remote-access-inside-delhi-biggest-digital-arrest-scams-10668455/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.amarujala.com/uttar-pradesh/ambedkar-nagar/the-student-was-strangled-to-death-rape-not-confirmed-ambedkar-nagar-news-c-91-1-brp1007-142896-2025-09-28"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/173383820/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.devdiscourse.com/article/headlines/3947952-delhi-man-arrested-for-duping-running-pyramid-scheme-in-guise-of-ngo"
+            },
+            {
+              "type": "url",
+              "url": "https://www.aajtak.in/india/jharkhand/story/panchyat-in-hajipur-police-station-226857-2014-11-23"
+            },
+            {
+              "type": "url",
+              "url": "https://gempak.com/berita-terkini/gadis-21-tahun-kahwin-tipu-sebanyak-12-kali-98343"
+            },
+            {
+              "type": "url",
+              "url": "https://www.business-standard.com/article/pti-stories/hajipur-railway-station-vandalised-by-mob-114022400492_1.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.calcuttahighcourt.gov.in/downloads/old_cause_lists/AS/cla24042024.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://jangipurpolice.wb.gov.in/tenancy/assets/daily_arrest_reports/tenantjangipur.dailyarrestreports1723615552.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://uppolice.gov.in/site/writereaddata/UploadOrder/pdf/O_202505311905247496.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://eparlib.sansad.in/bitstream/123456789/2975252/1/lsd_eng_15_15_06-02-2014.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/janabmadamFAKEverse/comments/1v36lvz/this_sub_and_people/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/pune/comments/1sw2g7e/fake_police_caught_in_hinjewadi/"
+            },
+            {
+              "type": "url",
+              "url": "https://alipurduarpolice.wb.gov.in/tenancy/assets/daily_arrest_reports/tenantalipurduar.dailyarrestreports1728455973.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndiaSpeaks/comments/1kz1c8m/beyond_harshad_mehta_scams/"
+            },
+            {
+              "type": "url",
+              "url": "https://birbhumpolice.wb.gov.in/tenancy/assets/daily_arrest_reports/tenantbirbhum.dailyarrestreports1764908803.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/kolkata/comments/1sezwqa/i_mean_i_get_the_awareness_but_where_is_the/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/TMKOC/comments/1l4v6fm"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/TMKOC/comments/1fg58up"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Sanjiv_Bhatt"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/bihar/comments/1u4tydh/major_security_lapse_in_bihars_hajipur_woman/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/TMKOC/comments/1oqh2lj"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/TMKOC/comments/1lznkly/the_thing_which_mehta_has_done_but_cannot_be/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/TMKOC/comments/1l7w91e/when_only_mehta_family_turned_out_to_be_the_only/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndianDankMemes/comments/14syup1"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/TMKOC/comments/1uqzyjy/removed/"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2304.03575"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2509.02133"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2304.14576"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2007.12643"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0cb1792c8b67196d006a652f255adc819a8ec500387c76a8d2",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS9C9vwzkmQpgcw2qiTgxoPs4d-lNa7WcXFjeQzZl5ao75io_IKuCsRKJ8UMGpDWZxxM_NR_Vzof1ZretcEG7aRC2_aC-pTRKBcfgh_k7kcoKH38YHs0T38IuB7U8IfCft--8LRiy4cFta11WzXswvxlud5UD4YdzL8xyKUyBjUCs0imKSTPvqHLfOCqP1MwIKlAjZctbmtI702u2NqvEDjqTKc6w4ir_DA-O7ERMRBFH9TuXSA6gNrgA6l80qimLQi8GbiqlfNU12j5Dcxii7NMnv8jsjpb_qRb_cvyXEeMIkaKk_ycVXeFvYiIlhvbOImdhJw3e7w3zjZK-RXFiDGSspiMFW_OxkSQx29ehzNxntzOYg87FwPVxE2SAieE_Fri37Jin0vfdde_jevbrbZ7QkKkCZcQ0PjxUYVNEILSdj93uBnmVk3JhQXqORVn1qzO45HL3ZmlkJVHZqxyyanTCZ6a2ElAm5Y5dqrw0uvwdNU0EcVwI0XmEQ21t0YzUkTW6KeHuFNTmAjgIWNHfQ0TdgdF3RBey1LTiW1NKYMa78BGE8TdNudKSowD4jLCD7X3XmGowNP67Ki5sUL2kSrXK28KK2hyYl4RI7cquOb03JtehtbT5fdtO_TcFe0syEmQdJNquF4AWeGK2dTumIt4IZsEIlUhrN7Ka3CewaU6Nnx7AVtiCLJICDw2YeQxS3NoazwpySjOO311kdbanZYFLp1Cb7tP6lXq1ps1PrtqI6i38zsGjBcabYHGOGWjEWnXjBv0ejhBjwjZ3svOZhp4kWqGJA9QfcA8_yT79s31xVjtH3Y2abILL7UIqudqdmt-Uq7qShpf9GjTXiihNnh1pqCktqQSRcj_5lueaR2NO8uaK7f5bqw15_ScQ9kNURXlbv2_UhWuiUiou-Q7mSJsPsOD5wxnd7HdyP7PMXdhjjvkll9yb-rhtTWxeUk9hdbIteuvBmKwHRYiFrwtII_ydXycXUYkEn9uryEGGGQCjZNB4DVR3toB3BGafGJtWlkvYRYH0J3NeHBgLBUol3BhP_4WGe76IALT-NHT3J9szKkc8ykDQsOLf1YpCH0qq9E_MO_NyhDeo-o8wDJJs5bu1z_R63DokJoiK8AMOB_o_l9s-HSkhnzWGhlsuxBFqtgqQDwECr3qxypnC06tbgmtpgeLy9Xd8Cwf3o1ZxR8zrjok9IKEEsXaWG7DkygsepHK2rlKjJMz5BUymXb7fr-oR-_10RtMXGv6RwCEE2Q_3D-M1LosAFIC0nDsLAhm9EhQBVzIH33opoxCayvqZmrUQtDkXKWGNxzVh20UhCCPzER1lj-4ZnNbcGD0EppuEpn1xWP5oWAbRGAKs91YhU78-Yo1enUfeZmbL6Sx1lTiw6e9QU7UZbAdxkP1_j-bqpN_dhe12X7O1SWrdkdvbxob6xbewmtPr0MtkoCwknfRH4sEW_6vgbICSaSev4tTyTUbq_81LRLU76pWsaR7b-oj1OfRuLETjo0W6HqucdMntDqMWiqkhhbv5GrRY0n3CCkgi3aCSEcqDz6uahPamQ6a_Gi_faZvd4LWdGfnSwM64M4EV-jcc0rLRF9rCD77hpCBzff2-ABSs8Kt3ypiXtSJ1w4hVhlQPBTf2o8KIq98EWz9c5-6K_BU-HEZgc6nOfoU9F0t8U7U1vLLkKD2sp7tmHta1Y8XYC_wBNYSPwcy6PMvfz_gKH3Wffyj7iDCGeYtrbKUTSIcAgglQOkRVV7iqbQi6tGyfcGj124fx4j9l4JYFpYa7uQW7NCx-3CoKnlKMQ6eKtia5orTgZdNIsVNhX7AK5tHEkOI9lggSAjCHVLb4LH26ONI64OspIS6-KMBEJJkT8QkCcUjGSnFlYdkOeaebd6BZa85LbYUqQPI8IG_CVD7x8LGuRglib8YwAFRYuMUVb-nJsDnQvx4ry4PMtM0MYoCgo_HZXu6d8VgZbjhdjX2YdOyvlZJIcsWVyBKjZA0elSDfLcopAHFwKDVLJIii2UmBu3U38wD_C8LQAfBVi8emmkzi72eQqLLQycTXQZJ5Sauh-bV-AtN3Jq8-b9gfLqjVkVZG9Kw1xETQI35q2t7ZMjPRZEin2dOdbWS8qTt7Q_wbzkvK_1IBtRABeAHXICxaRGliNxB0oJUY2SmbU1wIFA55AS03_oKA11XpWJLvhS0oDBilmEXCF0MyT1oCfa007DwaFusZYBo5dfuqsN6ZgEWT0Qb2bTxr2cWBb7OpQC94tVhtqbewXOgH982MVdfGzO20i_ojt9xu_lRGYtHfP0i0QSLkOkjgmCZbP3V3Kt5gBzIjJDWWNRdaEEwI9jcjMvdy7vzEAnN7_lbELmXIcvn9nsSy5M5yE8XVNBIZunwK32mgHEa5i5ZWn1PstcVeyAs3JW8xZWGS1iFFmalDHzd0ZKlbpwVuPJoH_tDTKi66JnL1UXJ0Q_8NYwMrcLnP2b3ZhoB0mtewNkK-gu11E3qp4tncHdHMO7NqnVtBJF7HRrDTVXVQDozcK69eGkJ8_oXts806ziLz9JJNRsjTHx_y3P_3zdB6a0c96VDu-GUbEdYFeU_fR5w190qxOKsffuvia1nhuvo3dWJvaB7oCorcTx6f8DL6x8jTKo1h89QGIouywwV1Iym4qVF1LBIi5bK5GtZR-4-sJyNvsUmIHn80nOH4np2ccq39BDU3xKJ0n_6h0Y5ZYuiQep3HFBMkyzSom019vFaxamkdwv8WeCSJXvWxINSj4AgAqQi65VDBCsqCKPoGgZSiEpr8h3brggbWPbxzElOjONaTlKjIKtu4U1XCGd5Nh1JwRU1c6s0_oK3zp4c1wUhXnBN5RCU_l7skjsG2RiFvFCRxuibDVS1b5aUSfhYClmoCSaKOQpEXitmmMsuLC6yYpMabcRBd0Vk4SlBFU5_ZnT642v5paZUmlrGoah-2fpCfkRczzYngH9hSgtKw76VzC9iYzMsNiVOe5Qg9XxPPKWCBr_XLauj3LfbJt3IdQ6epq3_G4L9RhLZ8FadrJxRzuU1Xpv73BBlLNpY1Or3lzHftHyyPQ38MfdV3OqrzaMYp3PfqQdjvjC00VlsEcp8ONzH0IMvtG1ipO4T4HOVv_G5VbCjIOKj_93nco35chbMCbpKptUO5D2OIJTDS9pW0qmM553AbmcQ8zWu6_YhV1qTzjFMtA7qZHPvpReTraIF6mXLVvmm0UmQo7YumCcRnt1fbcmNQcjxeODo5H0yY-7rPN3qUGar9PTmmex14RNQUNsxpYpx3CFQi9kZ1YEb-PvbxPQkXzvK3VGSRe04wMtY1byULDlac5h6WdodpoRKZkSlRRVR0kE-RZIbB9hL1LvryY3ikcztG-n531mdA36Tuo8BOJrV0g6y3X_Fsw8UsM5qqre1YF0GkEM9V5KOifX_SQkjBDpNIjGQ66Na7D6frA2nv_GcZ9rzpxjUvvYkQ-8Y2-Hm2KP35wDGeE4Qhvl9nlNzSIYjYDJ6qCvdu_JzNUHT9mEfEmAfqkQswhSBlnGz0rCMnnBfQ-aZ5IWluwHqoUSpQuelMeuQH2IMVf1uL8LsZAJOyoLAMfVGoAGR3j7aTY8Ay8_e8OqLiEZfEtLY397SxSvZXV6oNM4S7j4MW5w9sE3X_1LoGl4uwXoXsEAjvSRcDewUx0lBaqAPXwueSnQeFgijKqgMzZoCdM0t6JwXMQkmA3QjWCnthsZBGMWsjUhfdB-HEBeU-90yO4XsQwUTDnSRFiljAJVFYwHIURdNbqMtChsnf-HXqq1y-gt0dlhrmoynxLZBHdY-0LCrx4QByelk7E6itAPGEF86-xsKGmqi5bEzqyhGmg4n6yalqiktHpVQZtbZq-6X4gsfMgHvVP6OpDTXB-xhVVmcBQIj0bhk8tYIaX_fX43ogAwhLk-xleOwe1lzJR5PFB9Qnv8dblFuMA4_ZkK8QLyYQnVBmvc7s35dpPlqoTWj5nvVMzApRVUkmOjDJUSDz4iLr4I7IiZCn867ETSx3AQ5x6nnuNGhp0xQWzCFgU-ytTTkfplWbmpqqfFyynVhHO-Vc4hIG6muNccXmT6LSBFFDSnDU0aHitPSA_gjnaU2NIQ9HANTk9Gvg-J6Xu8zQJT7IECkxpj9Ty2iEs0LmsJCK8-c0nA8uO8uFqicVSLRLBuEwWxZGfNQrH7bj5jBX1u7QUIjlkaVnACG7tjghHRZnNKJNGOs_itTicsrv0ZPiUFtkI-KpWCdd1vKkQOXN-OnSQdlNOkni29_ozfY_sgcEZg6srR_r_3Eu3gXY2vcw7h3GNE026MD2dkMdI7VEA==",
+        "status": null
+      },
+      {
+        "id": "rs_0cb1792c8b67196d006a652f27769c819abd779927d3adc4ff",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS9C-9PL1Unb4fYP7ywS3Z3hEUePPM_hWKF_wPrJojjKcBhSmgRXW_Wc4dvj1A8NDgOP3-cKIZLOQOaapSOJcCPPkthLc5ZuE4g2irJiVddfLtHwwgFar3D6C710n3gynv0oDiDeY3yrf8XDSU6vvnO7N1fb0ro_7wgnbUhYyJAadRTqJVCpDV_WTcPz4iuGXNO-tMha4FE3OyVCzb_e_ZhPiZbz-iftnh0R068Rp57lQmGb-KizpK0kaq53abHmBPqNAzJ_QWZN5M1wXjfYNmpdoASjKqXqMwPwfktsd3UvSNCZMmOerJmbkE1zI-wmVLwJIgEBVWLbE0oUpM2CB-engkTsoRtlZ791NLv94PRIsT9D9T9r7GElrBe2mRFnvJVAZCbis0hxNsIgij5wBKOHe0wnTH_haUsWJdzEbRyXwQpoI0EdKdVHscp3tRqZ3ki1UCgxvfwIPDj11c7IVo_IgqeE36Sz5dskDaDjVjwe4-9I9yM7h_hzHchMi3NJxleyRnKC6HqzdQluQUB5g1eGLHWYVP6Eu1JYT_CFL_L4riUZEE1D0DVi_tT5jnux0QszWMcxC_9sOpnYeXcp5RjL5UUaSSDbNRTR8UB6GiCiMKxLrPqX_uSpr4S3qm-n-pwmZjC1Zn3bEjUlpTnbt65vv-20sWLnz8XQgz0VWK8SMKEi3lfJD-BGZUFMo_zbAMjWRnCdBMAX8HI9gO6MuAxmXhTW7ELTyzeuDz6kGpECBxxgfm4Kje8YJGe2z65DKe92cMlVdAYWNgFEDuVSuhky2AzKBZsu5oV35c9BjPGslmYdK1IkASdoIjGo_DbckOhzRcHDOuMYMSfQd__CVqPNBcxDHsZ143_y53eg6nz1Y5AVF8C4H3qUjHfrMmr6Y5fvuwnRYBsE3Vl9FLmCc2IawSe4g58K3GRDeWOgr5oDSX3BHbFzWql4oFh9Nc08sdo9QjsVi1FWhA0IKEWZigWgNdMwFkbTlyh_dT8jkifhIEhjyV31x4XHv31Pl31BLvspoPLNWlkH42o6jqp0J_xk1y6ZRxRt6hzCgJgdOM_lluUk_57RjwapokLT75XzfQrPDEyOMfkXL5nYOn2XUnqDpqchJEjWWWalWWfFyola0JXxuyHT04Vd2bZ8Gn3aIfYih5qeRXHz2ghnsS1TSiYSplFDv1b2wPOstVsiqymq2XoH0juO6vqZPLoEgIB4sUmzI9MJ1bnp8t0L7E_kUScukW1Q1aBy9fcwpo2QtMcVoNoLrbDl-zSrOwAanxSyVHkxCYlIGX8iuB5cbBP9VPNmVAh7HgtW5Dx0ZbE9b8bm6Y0OIvtla5G-M6Wl8uMtb57J0rfdd-pqcsFOVPL6xl1JesyzCpAUauK8ZdMqP-35ci1bcrG4M4OOw1vB-uzp6eOYaPM6N0lq8T4-L4ic0Qe4dr8hmfnazV1FzpHUO7ByW5tXYao2fNQONSTI4xU01qjAKkV2Vt6X4AVs1EFWeZLZRaSLSNePuBWAMAqsHjmSV5zgl_wnmp-0UTcZP2gX5P-YO6gzID6UgvNZ-F4so6hKRViOeufxCwR7vS2LT3HVcZMsD0NoH6f7PQKeZcOMaVxK51YhLdPRayZeJNHKJtJW5yM5MuvaxdQl1uPgm8wzzdo=",
+        "status": null
+      },
+      {
+        "id": "ws_0cb1792c8b67196d006a652f27d4b0819ab5e29845263adc52",
+        "action": {
+          "type": "open_page",
+          "url": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0cb1792c8b67196d006a652f2b5820819aa040cb7d70e86883",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS9CdoZlff2UCmFzmVfdvu69jfMDMePC6M7pR4hIlbRD7te0b9Bmi5s1lIhyEIyGAgKezqLXuMEvxfMefD5-nDW3-zuByeko_IlMQjMmrb9voqZxmVnh8VLLrzCg5xd2ITNwPy7VEhrtlrhuyJN23OTWaeUde0irNYr_deIz4psjLydkDsxaJ5iOo5guiNTPrF3ocVvLEob38TRDdEc_3-FP2uzaAR13oaTTuewVgjG5zqG9jgOJwf9l2Z--1sPJgIYJCWXftctmHd7r3Hoqyht4BdTlVUeLYBKbLJb3FVXQP4iZCvCsHus-2UG1H0QlYln1S4tp0TTuIuLjNd1oaYOnNPRZym4E1L3ktG9_zm4V-zaRZ81bKxd2tlNqnSfTPHSdffM7fhV207pbI7ki0lKxXzoiRg7bSEzMRHuS9yG4IK-pCpuPN5krEIZ60zkgurEqIV_X2FhyiIPonMP-tkrnArlIc_xnFqJxNT5AkEpPYnmG64WsQye7OjPMTXp5iawEqURRQ74a9bjkOJ8WY3mAwhFVhD3k4KrSSUWnVjA6LrM-G73E4LFKjJXATELgSY6Y33yI5I1RtNYOS7MlVCBMEAFjZDzEisLtAc4VUAYIfWO8huBVVABvcg9PoH8cOaqAVm15s1k2JFZKtuuvBu0Dtg6r21WyULu-Ew6s3jfuryO63_RePfR7eBNFrU_oEXatmOsuev3nfDmypx-qr-YvRNhhaAA8xlz7RC7btemGLTIMRKIhFzEy97KHC12eNDrvp4hz5m80UuJZ6nhhT7sdqCJF0S26liZlz7tr_QBMrWVhQbPWhS1805IjOIxd4QELEKAFrgy_riooWAtqj8j-6uJuUaEyEa2lmKa5y5_MUek5r8QfyIiZo4hSuyvus13gMEJFOmmDifwu7ckBcung9UVGthnmIwTRR5Qdc16JM5yCPmjxX9yaCd4OWq_1tZfA6eucddsa-CQcyAxViZmbxzo--fRp-CGNRr7qLLTc8Lhbv-J7ph9y6kxX7T7MZWuvdbrJGCACJ0YlT3A3F72ceno1EO2NdTsNvVZl9aPd5slKp3iNNoPkjG2me1sc5ggLw3pqwt_I-fhjKszHf1xxpuYjWpNPUJ10a-qYOaGoLPBSTaiOM3yQXbLgMndiw5D2NmUcs2jZ8WvGmDJTPBseGouqK0dEy4rKFsi_7Rm3vicUFQ25J1fwssDGwexvK9BGSs9n3Mrs1Z9Equnvi-5pyXmNya8GVxxRJRKrzZ8awaScc5SIYRMEbB6SZ5eE3gFgjr7qptO9lXbhzthkFMhqlKCeIXIFPqoeLpwRF5NWPn7xUp3flaH-EyW54zL0HT58Ew8s8lh3B6oRTbjl6oLEB6ZcBY8JLiEmA6zWz1CGOF_ehBImrFjd0IjG_kGXi2XiKYmjGhdtnxE6pH076C7l8LGy0P5RauYglWgdLNB0QVpN9Y1iBIlU-NEU3zphLk7OYJQwGuYuiZD_ny1GGj0BBWzliRkV6_tHJBlhN4lTw-ufPTLI_a0zMn-Q3-d4neY_U9yigYeF0hfNqNzN_exZce64B0pRn_WWSvckQjsHCz7KguKs8wA8iH7e1m4U0FVT99Ue4Pot6l4MrFfAvSt0S39fHJHUahQrd3G5PhWOLbb4p5MZO5hPHfo98Fdj_Zs_V5o-KTlMatQAvBKy-eaf91zNwNoB2ULM7KJmVLbuyVV9qGbB9YyBcP814DfbdYNd-Fu-wWsPGVgMSDPxSSQ27wpWfRAQ-OaIcBb_cvJ6nvq7azvs5BZ9rmjO3eoYK92IScwe5Lp1KqsEERfHtNC6cNhE_PJqToRySqUTac_Xm0lPVuCv7aWkpagBkBHkJQYvXUEaLkyUOh3u_0_4M2IXFCi_ptMW0YnPgrfgrjB_0mX4P6z9VX0FNOjs0l818Yev2LxLR4MzJo0nZKHMy6mvqyIz_EKcICVYAWhDWvvHB856DEvj-CcA9IJIqvtnjrdhy1MK4HhNPf1TCm9yyAaD173p9HPNhQXcA9meGFF5kXoziHvDdzrQttXqneKpXQ1EMTjbUq4xKeQjmTgEitIZfT8orYtuDhkBRkvUt_xa1PnEqlMffb9wO0vUaipaSkvFeUT4u5KMOVw-qbMWKR2H0Bha6cNvicbt2TSEo5aiT3IJV9hIL9oj0OXIl2STIys6VkpcD0t0ZU7aV0u6lrX1M_C0lVyOl0m_N92TwMOr6XFge6jKTZgwqpNr2OeZgM3bW0D-8ZzKqyn0A8HCvoxcnmszxKHKfg248yKnzjq-Ffg1FYkbljZi72H5_JzHff3tCDAT11LKKzEBb_Q_9HMLukW7nAB9_4e2WCf9YJ8r7dTK6NeJYHzOMOv5zstl4iMfRPXKUnZwkr9IUfHLV4gibv-6Eypnc3QQEKRVgzAvTEDLuTsaWWg7aHxb7u_CLwhao6L7eXMivX48uUAlgAypnUZywPQfKmqJLe8kgQ--mAnSzcV51uq8ejwNzGAPKTeSp42fLJiHdPHazq15TlK0ySaemhpYZMp3621jd-rYMsNSIUkLMDwYyOJWH-AOWf8fyZTjLp-DVyiSsZz2dwcSFPdejG66Pt3qVXDGgkrDiF7WgNI4t6SLgdzCNcef6HhirWG2yFz9gB3OwvF4GrEJ-xyn19c4nC3Tb2xGQo4iE2Ww4uj--k-qOr_xSt5MOxBJeRD7WM_AkRSV1gNw8Qr84Lt2Erskk6LhkqzfKUCTIuVoXlpO8Za3bu8wOYVp7Ph_HssIBWmnNivKVuqn0wKxzXUpgyPsW_J-b5SxooZ2wd_16_Lj4c52gEp7NLr7D52s4BtveUjggA_UkB9pV-kXoAHUscR9FSYr6mi4Q90vm_jzAJvohrHZwRYUoD_wpV7WDDH1QGraWX5Aw2FCzf_9OKGB4GPEb8q4GsANBHcrPscPcFY85paDHs2PeBkxGUwseoh0AUID9xhOfT7pw8ewN9WWoPWwAsZnn-CQ6d91mQNb5eNJD4ZQg5mVsWVkr5as0OeXhRqgJfflzAgWe5On8XK5s8ZoWELy8SrzTH---fuT_RVeJM5fz_qKevx7qFG48habSoLBibLokhEKJWrXX6sPTyDJcXjCC5EN3Itz0YXFnDPv5aYwpJzthRTHzVf9EwPRCYaQHHvSdbhAXknnSrVEiZHUljrcKBQZynLlk1_jaA1G0ZuYoYgqkNS-xTkghmdAtucDWv25OHm4lT7hbFDHx7lEZmb5-kGECsMJ6V7D_e9AQasLoSrhI0fp4ED3oWyivSv34157ismtWz4af_Vma838Cb8UryKiWs-xBm5TNP4UtlT_xlHfssEKDJpxQgYJQe-11cjze1whmHYxDfW0BPkKMCUe1QgP5TGZJ_BT0Hxi3LxxrY3IOvceXLqVIAZHW8bC16UD1jW8rA-yc5PKTQzVom9fsoFFCNwmOO00WFMADe7Uy90_rNCFbyC7gzKKi7yegzVWkxxSRR2KVrzALTOqVcDHWpWgEpHo59F8lxzyDsz3xWdFKnKdAD1EJuZB13D8MO31tF_jYP1EwDCQdikC-fV3gpmhrpNtU0wZiWN0upt0slND_cWb-KuueeNvvNBhfEqFdhZuZX6HjGHnbn_Kok-jWfxyaRR_5ksHApUx7gLiDUfjfsAn-d-xzzEKm3dnDEXGO5TbY2dmEu33-GMrbodXeiQobATY-_c7CmmMVk608nMSXHWdbqcSRmNXqchog7o7AS0nsiCUzb1EKmK5KVcMUekJvudon0jx_mdusx9Dw-oIpY2pUQpe49wZI7SWy5ZOnRDHzkgF8ChI7mFdel8ebG-VjWv1Wql5zVtcomvPr1cAhZIRZevRlfdhXRTTl-98Ymz8WZ8jTWiSzv-E7MHf_0yhQVsMTvMPYzu9pajYtP_OJdBV1i6vs2520yDMBTUVScveCRTnbOAoAXy25l5k0mImcFabj2HLYIn-9O-BfjR91HM7lj2CmY6y_M07wqqrgZiFQVS4Or3soFBGEaa-3HpqKwX-oov3lmROxte0P9SvaQqIXQdT6Wr9N2ATHEsqGldBlkJ3Ew==",
+        "status": null
+      },
+      {
+        "id": "msg_0cb1792c8b67196d006a652f2fc36c819aa52a3debe3b13573",
+        "content": [
+          {
+            "annotations": [
+              {
+                "end_index": 470,
+                "start_index": 292,
+                "title": "UP Daku Dulhan Arrested: Woman Who Duped 12 Grooms in Wedding Scam | Lucknow News - The Times of India",
+                "type": "url_citation",
+                "url": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms"
+              },
+              {
+                "end_index": 1103,
+                "start_index": 925,
+                "title": "UP Daku Dulhan Arrested: Woman Who Duped 12 Grooms in Wedding Scam | Lucknow News - The Times of India",
+                "type": "url_citation",
+                "url": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms"
+              },
+              {
+                "end_index": 3622,
+                "start_index": 3444,
+                "title": "UP Daku Dulhan Arrested: Woman Who Duped 12 Grooms in Wedding Scam | Lucknow News - The Times of India",
+                "type": "url_citation",
+                "url": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms"
+              },
+              {
+                "end_index": 4122,
+                "start_index": 3944,
+                "title": "UP Daku Dulhan Arrested: Woman Who Duped 12 Grooms in Wedding Scam | Lucknow News - The Times of India",
+                "type": "url_citation",
+                "url": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms"
+              },
+              {
+                "end_index": 4678,
+                "start_index": 4500,
+                "title": "UP Daku Dulhan Arrested: Woman Who Duped 12 Grooms in Wedding Scam | Lucknow News - The Times of India",
+                "type": "url_citation",
+                "url": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms"
+              },
+              {
+                "end_index": 5200,
+                "start_index": 5022,
+                "title": "UP Daku Dulhan Arrested: Woman Who Duped 12 Grooms in Wedding Scam | Lucknow News - The Times of India",
+                "type": "url_citation",
+                "url": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms"
+              },
+              {
+                "end_index": 5779,
+                "start_index": 5601,
+                "title": "UP Daku Dulhan Arrested: Woman Who Duped 12 Grooms in Wedding Scam | Lucknow News - The Times of India",
+                "type": "url_citation",
+                "url": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms"
+              },
+              {
+                "end_index": 6294,
+                "start_index": 6116,
+                "title": "UP Daku Dulhan Arrested: Woman Who Duped 12 Grooms in Wedding Scam | Lucknow News - The Times of India",
+                "type": "url_citation",
+                "url": "https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms"
+              },
+              {
+                "end_index": 7395,
+                "start_index": 7235,
+                "title": "Man with two Aadhaar and two voter IDs found in Odisha's Jajpur",
+                "type": "url_citation",
+                "url": "https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html"
+              },
+              {
+                "end_index": 7820,
+                "start_index": 7660,
+                "title": "Man with two Aadhaar and two voter IDs found in Odisha's Jajpur",
+                "type": "url_citation",
+                "url": "https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html"
+              },
+              {
+                "end_index": 10120,
+                "start_index": 9993,
+                "title": "Married 72 Times, \\'TTE\\' Gets Jail Ticket",
+                "type": "url_citation",
+                "url": "https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html"
+              },
+              {
+                "end_index": 10513,
+                "start_index": 10386,
+                "title": "Married 72 Times, \\'TTE\\' Gets Jail Ticket",
+                "type": "url_citation",
+                "url": "https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html"
+              },
+              {
+                "end_index": 12965,
+                "start_index": 12808,
+                "title": "‘Fantastic 4’ used fake DDs to buy luxuries, duped many | Delhi News - Times of India",
+                "type": "url_citation",
+                "url": "https://timesofindia.indiatimes.com/city/delhi/fantastic-4-used-fake-dds-to-buy-luxuries-duped-many/articleshow/64239884.cms"
+              },
+              {
+                "end_index": 13449,
+                "start_index": 13292,
+                "title": "‘Fantastic 4’ used fake DDs to buy luxuries, duped many | Delhi News - Times of India",
+                "type": "url_citation",
+                "url": "https://timesofindia.indiatimes.com/city/delhi/fantastic-4-used-fake-dds-to-buy-luxuries-duped-many/articleshow/64239884.cms"
+              }
+            ],
+            "text": "{\"winner\":{\"title\":\"The Bride Who Was Abducted After Every Wedding\",\"category\":\"THE DOUBLE LIFE\",\"one_line\":\"A young woman becomes Kajal, Seema, Neha and Sweety across four states, marries desperate families, then vanishes in a staged kidnapping—only to create the next identity and wedding. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))\",\"year\":\"2025\",\"where\":\"Ambedkar Nagar and Jaunpur, Uttar Pradesh; operations spanning Gujarat, Haryana, Bihar and Uttar Pradesh, India\",\"mechanism\":\"Gulshana allegedly used different names and fake identity documents, entered matrimonial negotiations through multiple channels, collected a settlement amount, staged a post-wedding abduction with gang members posing as relatives or attackers, and returned to matrimonial platforms under a new identity. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))\",\"engine\":\"Every new match creates another household to infiltrate, another alias to protect, another fake relative to recruit, and another groom whose family can expose the previous life.\",\"episode_estimate\":180,\"cast\":[{\"name_or_role\":\"The bride under rotating aliases\",\"motive\":\"Money, survival and control of the gang’s repeatable marriage con\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The husband who takes a five-percent cut\",\"motive\":\"Profit and loyalty to the operation while maintaining a respectable married life\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The staged-abduction crew\",\"motive\":\"Cash, access to valuables and the thrill of performing the same disappearance in new towns\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The matchmaking intermediary\",\"motive\":\"Commission for finding families desperate enough to overlook verification\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The latest groom and his family\",\"motive\":\"A marriage bargain that turns into humiliation, financial loss and a hunt for the missing bride\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The police team that breaks the pattern\",\"motive\":\"Recovering the latest victim’s property while discovering the syndicate’s older aliases\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":9,\"hook_density\":10,\"emotional_immediacy\":9,\"conflict\":9,\"cast_depth\":9,\"total\":46},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The principals are living and the reporting describes allegations and an arrest rather than final convictions.\",\"Change names, towns, aliases, matrimonial platforms and physical details; use a composite groom and fictional gang.\",\"Tell the story from the families and investigators’ point of view rather than exposing identifiable private individuals as established criminals.\"]},\"prior_adaptations\":[],\"sources\":[\"https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms\",\"https://timesofindia.indiatimes.com/city/lucknow/married-by-morning-missing-by-noon-how-daku-dulhan-finally-ran-out-of-road/articleshow/121388511.cms\"],\"facts\":[{\"what_happened\":\"The Times of India reported that Ambedkar Nagar police arrested Gulshana and eight alleged gang members after a wedding-scam operation involving at least twelve families. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))\",\"source\":\"https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms\",\"confidence\":\"reported\"},{\"what_happened\":\"The report said the woman used the names Kajal in Gujarat, Seema in Haryana, Neha in Bihar and Sweety in Uttar Pradesh. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))\",\"source\":\"https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms\",\"confidence\":\"reported\"},{\"what_happened\":\"Police said the gang negotiated money from families seeking matches, arranged the wedding, then staged an abduction in which male gang members escaped with jewellery and cash. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))\",\"source\":\"https://timesofindia.indiatimes.com/city/lucknow/married-by-morning-missing-by-noon-how-daku-dulhan-finally-ran-out-of-road/articleshow/121388511.cms\",\"confidence\":\"reported\"},{\"what_happened\":\"Police recovered Rs 72,000, a motorcycle, a gold mangalsutra, eleven mobile phones and three fake Aadhaar cards, according to the report. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))\",\"source\":\"https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms\",\"confidence\":\"reported\"},{\"what_happened\":\"The latest reported case involved a Rohtak resident whose family allegedly paid Rs 80,000; after the apparent bride disappeared, the police arrested one member and then traced the rest of the group. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))\",\"source\":\"https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms\",\"confidence\":\"reported\"},{\"what_happened\":\"The reporting said the woman’s real-life husband allegedly knew about the operation and received a five-percent share of its proceeds. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/lucknow/unhappily-ever-after-daku-dulhanwho-duped-12-grooms-arrested-in-up/amp_articleshow/120803107.cms))\",\"source\":\"https://timesofindia.indiatimes.com/city/lucknow/married-by-morning-missing-by-noon-how-daku-dulhan-finally-ran-out-of-road/articleshow/121388511.cms\",\"confidence\":\"alleged\"}],\"why_this_sells\":\"The instantly recognisable fear is that the person your family welcomed as a bride was performing a role, and the next morning every photograph, phone number and witness may belong to another life.\",\"why_not\":\"The surviving reporting is police-led and concentrated on the arrest, so the serial would need substantial fictional reconstruction of the years of preparation and the emotional aftermath for each family.\"},\"also_considered\":[{\"title\":\"The Man With Two Wives, Two Names and Two Vehicle Registrations\",\"category\":\"THE DOUBLE LIFE\",\"one_line\":\"In Odisha, one travelling-business owner allegedly lived as Bitu Biswas in Jajpur and Soleman Shaik in Murshidabad, with a wife, identity documents and vehicle attached to each life. ([newindianexpress.com](https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html))\",\"year\":\"2019\",\"where\":\"Jajpur Road, Odisha and Murshidabad, West Bengal, India\",\"mechanism\":\"Two parallel identities were allegedly maintained across state lines: separate Aadhaar and voter IDs, separate marriages, separate vehicles and separate local histories. ([newindianexpress.com](https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html))\",\"engine\":\"Each family, document, business contact and government record can discover a contradiction that threatens to collapse the other household.\",\"episode_estimate\":90,\"cast\":[{\"name_or_role\":\"The man using both identities\",\"motive\":\"Maintaining two marriages, businesses and social worlds without letting either family meet\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The Jajpur wife\",\"motive\":\"Protecting her marriage and discovering what the husband’s documents conceal\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The Murshidabad wife\",\"motive\":\"Believing the second identity is the man’s only real life\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The travel-business clients\",\"motive\":\"Following a businessman whose records and promises do not match\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"The police investigator\",\"motive\":\"Linking two names, two states and two sets of identity documents\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":8,\"emotional_immediacy\":9,\"conflict\":8,\"cast_depth\":8,\"total\":41},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The report concerns a living private individual and an FIR-stage investigation.\",\"Change names, religion, districts, businesses, documents and the precise family structure.\",\"Treat the identity allegations as allegations unless a court record establishes them.\"]},\"prior_adaptations\":[],\"sources\":[\"https://www.newindianexpress.com/states/odisha/2019/Dec/22/man-with-two-aadhaar-and-two-voter-ids-found-in-odishas-jajpur-2079545.html\"],\"facts\":[],\"why_this_sells\":\"It turns the everyday Indian document trail—Aadhaar, voter ID, vehicle papers and marriage records—into a ticking bomb between two ordinary households.\",\"why_not\":\"The available report is only a short FIR-based account, so its engine is powerful but the emotional and investigative middle is largely undocumented.\"},{\"title\":\"The Railway Officer Who Had Seventy-Two Wives\",\"category\":\"THE DOUBLE LIFE\",\"one_line\":\"A Bihar man allegedly posed as a railway employee, married women across Bihar and West Bengal, lived in each house just long enough to earn trust, then disappeared after a fake transfer. ([newindianexpress.com](https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html))\",\"year\":\"2014\",\"where\":\"Bihar and West Bengal, India\",\"mechanism\":\"Mohammad Sijam allegedly used more than a dozen aliases, changed religious presentation according to the bride’s family, wore a TTE uniform and treated each marriage as a temporary station posting. ([newindianexpress.com](https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html))\",\"engine\":\"Every new village is a fresh recruitment market, and every marriage produces a new household, alias, transfer story and delayed discovery.\",\"episode_estimate\":220,\"cast\":[{\"name_or_role\":\"The railway impostor\",\"motive\":\"Cash, jewellery, status and the ability to reinvent himself at every station\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The first wife to suspect the pattern\",\"motive\":\"Finding the missing husband and proving that the disappearance is not an ordinary transfer\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The newest bride\",\"motive\":\"Believing she has married a government employee with a secure future\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The distant wives\",\"motive\":\"Comparing clues and discovering they are all married to the same man\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The railway and police network\",\"motive\":\"Tracing a fake employee across districts and aliases\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":10,\"hook_density\":9,\"emotional_immediacy\":9,\"conflict\":9,\"cast_depth\":8,\"total\":45},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The case is recent enough that private individuals and alleged victims may still be identifiable.\",\"Change the accused’s name, railway zone, districts, religious presentation and all bride details.\",\"Avoid presenting the reported number of marriages as a judicially verified count unless court records are located.\"]},\"prior_adaptations\":[],\"sources\":[\"https://www.newindianexpress.com/nation/2014/Jun/04/married-72-times-tte-gets-jail-ticket-621013.html\"],\"facts\":[],\"why_this_sells\":\"The listener understands the promise immediately: a railway job means stability, and the horror is discovering that the government uniform was the disguise.\",\"why_not\":\"The mechanism is exceptionally long-running, but the article gives little detail about the first marriages, the supporting network or how the wives’ lives changed after the arrest.\"},{\"title\":\"The Family That Became a Different Family in Every City\",\"category\":\"THE DOUBLE LIFE\",\"one_line\":\"A Delhi family allegedly rotated through fake relatives, Navy-officer identities, army-doctor credentials and multiple marriages while using forged demand drafts to move through jewellers, car dealerships and wealthy households. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/delhi/fantastic-4-used-fake-dds-to-buy-luxuries-duped-many/articleshow/64239884.cms))\",\"year\":\"2018\",\"where\":\"Delhi, Punjab, Chandigarh, Goa and Mumbai, India\",\"mechanism\":\"The Kaul family allegedly performed different kinship arrangements and professional identities: relatives of a Navy officer, a retired army doctor, a fake couple and multiple marital histories, all supporting a travelling fraud operation. ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/delhi/fantastic-4-used-fake-dds-to-buy-luxuries-duped-many/articleshow/64239884.cms))\",\"engine\":\"The family’s survival depends on continuously changing who each member is to the next target while preserving a believable shared history.\",\"episode_estimate\":140,\"cast\":[{\"name_or_role\":\"The son who marries targets\",\"motive\":\"Access to money, jewellery and socially respectable victims\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The father posing as a retired army doctor\",\"motive\":\"Legitimacy, access to institutions and control of the family operation\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The mother and sister posing as relatives\",\"motive\":\"Creating emotional credibility and reducing suspicion at the point of sale\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"The dentist bride\",\"motive\":\"Trusting a marriage proposal that is actually an extraction scheme\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Jewellers and car dealers\",\"motive\":\"Recovering goods purchased with forged instruments after the family disappears\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":9,\"emotional_immediacy\":8,\"conflict\":9,\"cast_depth\":9,\"total\":43},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The case involves living or recently living private individuals and police allegations.\",\"Change names, family composition, cities, professions, victims and the exact financial instruments.\",\"Use the family’s shifting performances as fiction rather than asserting every reported offence as proven.\"]},\"prior_adaptations\":[],\"sources\":[\"https://timesofindia.indiatimes.com/city/delhi/fantastic-4-used-fake-dds-to-buy-luxuries-duped-many/articleshow/64239884.cms\"],\"facts\":[],\"why_this_sells\":\"The fear is domestic and recognisable: the people introduced as your relatives, in-laws or respectable professionals may all be actors in one travelling family business.\",\"why_not\":\"Its many fraud methods compete for attention, so the adaptation must choose the family’s rotating identities as the spine instead of becoming a generic scam anthology.\"}]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [
+      {
+        "type": "web_search",
+        "filters": null,
+        "search_context_size": "high",
+        "user_location": {
+          "city": null,
+          "country": "IN",
+          "region": null,
+          "timezone": null,
+          "type": "approximate"
+        },
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ]
+      }
+    ],
+    "top_p": 0.98,
+    "background": false,
+    "completed_at": 1785016129.0,
+    "conversation": null,
+    "max_output_tokens": 32000,
+    "max_tool_calls": 12,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "hunt",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "winner",
+            "also_considered"
+          ],
+          "properties": {
+            "winner": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "title",
+                "category",
+                "one_line",
+                "year",
+                "where",
+                "mechanism",
+                "engine",
+                "episode_estimate",
+                "cast",
+                "scores",
+                "clearance",
+                "prior_adaptations",
+                "sources",
+                "facts",
+                "why_this_sells",
+                "why_not"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "THE DOUBLE LIFE"
+                  ]
+                },
+                "one_line": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "string"
+                },
+                "where": {
+                  "type": "string"
+                },
+                "mechanism": {
+                  "type": "string"
+                },
+                "engine": {
+                  "type": "string"
+                },
+                "episode_estimate": {
+                  "type": "integer"
+                },
+                "cast": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name_or_role",
+                      "motive",
+                      "spinoff_potential"
+                    ],
+                    "properties": {
+                      "name_or_role": {
+                        "type": "string"
+                      },
+                      "motive": {
+                        "type": "string"
+                      },
+                      "spinoff_potential": {
+                        "type": "string",
+                        "enum": [
+                          "high",
+                          "med",
+                          "low"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "scores": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "engine_longevity",
+                    "hook_density",
+                    "emotional_immediacy",
+                    "conflict",
+                    "cast_depth",
+                    "total"
+                  ],
+                  "properties": {
+                    "engine_longevity": {
+                      "type": "integer"
+                    },
+                    "hook_density": {
+                      "type": "integer"
+                    },
+                    "emotional_immediacy": {
+                      "type": "integer"
+                    },
+                    "conflict": {
+                      "type": "integer"
+                    },
+                    "cast_depth": {
+                      "type": "integer"
+                    },
+                    "total": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "clearance": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "reasons"
+                  ],
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "greenlight",
+                        "fictionalize_first",
+                        "blocked"
+                      ]
+                    },
+                    "reasons": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "prior_adaptations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "what_happened",
+                      "source",
+                      "confidence"
+                    ],
+                    "properties": {
+                      "what_happened": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "verified",
+                          "reported",
+                          "alleged",
+                          "disputed"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "why_this_sells": {
+                  "type": "string"
+                },
+                "why_not": {
+                  "type": "string"
+                }
+              }
+            },
+            "also_considered": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "title",
+                  "category",
+                  "one_line",
+                  "year",
+                  "where",
+                  "mechanism",
+                  "engine",
+                  "episode_estimate",
+                  "cast",
+                  "scores",
+                  "clearance",
+                  "prior_adaptations",
+                  "sources",
+                  "facts",
+                  "why_this_sells",
+                  "why_not"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "THE DOUBLE LIFE"
+                    ]
+                  },
+                  "one_line": {
+                    "type": "string"
+                  },
+                  "year": {
+                    "type": "string"
+                  },
+                  "where": {
+                    "type": "string"
+                  },
+                  "mechanism": {
+                    "type": "string"
+                  },
+                  "engine": {
+                    "type": "string"
+                  },
+                  "episode_estimate": {
+                    "type": "integer"
+                  },
+                  "cast": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "name_or_role",
+                        "motive",
+                        "spinoff_potential"
+                      ],
+                      "properties": {
+                        "name_or_role": {
+                          "type": "string"
+                        },
+                        "motive": {
+                          "type": "string"
+                        },
+                        "spinoff_potential": {
+                          "type": "string",
+                          "enum": [
+                            "high",
+                            "med",
+                            "low"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "scores": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "engine_longevity",
+                      "hook_density",
+                      "emotional_immediacy",
+                      "conflict",
+                      "cast_depth",
+                      "total"
+                    ],
+                    "properties": {
+                      "engine_longevity": {
+                        "type": "integer"
+                      },
+                      "hook_density": {
+                        "type": "integer"
+                      },
+                      "emotional_immediacy": {
+                        "type": "integer"
+                      },
+                      "conflict": {
+                        "type": "integer"
+                      },
+                      "cast_depth": {
+                        "type": "integer"
+                      },
+                      "total": {
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "clearance": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "status",
+                      "reasons"
+                    ],
+                    "properties": {
+                      "status": {
+                        "type": "string",
+                        "enum": [
+                          "greenlight",
+                          "fictionalize_first",
+                          "blocked"
+                        ]
+                      },
+                      "reasons": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "prior_adaptations": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "sources": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "what_happened",
+                        "source",
+                        "confidence"
+                      ],
+                      "properties": {
+                        "what_happened": {
+                          "type": "string"
+                        },
+                        "source": {
+                          "type": "string"
+                        },
+                        "confidence": {
+                          "type": "string",
+                          "enum": [
+                            "verified",
+                            "reported",
+                            "alleged",
+                            "disputed"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "why_this_sells": {
+                    "type": "string"
+                  },
+                  "why_not": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 60400,
+      "input_tokens_details": {
+        "cache_write_tokens": 8772,
+        "cached_tokens": 0
+      },
+      "output_tokens": 5319,
+      "output_tokens_details": {
+        "reasoning_tokens": 2176
+      },
+      "total_tokens": 65719
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 5
+      }
+    }
+  }
+}

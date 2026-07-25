@@ -1,364 +1,465 @@
 [
   {
-    "event_id": "evt_ravenshore_1821",
-    "title": "Poyais: The Country That Had to Exist on Paper",
-    "one_line_summary": "A disgraced junior clerk becomes the only person who can expose—and publicly dismantle—the paper country that ruined settlers, investors, and his own name.",
+    "event_id": "evt_dharampur_2025",
+    "title": "The Woman Dharampur Cremated",
+    "one_line_summary": "Eighteen months after her funeral, a missing mother returns alive and must reclaim her children, free men jailed for her murder, and uncover the identity of the woman cremated in her name.",
     "language": "en",
-    "fantasy": "Respect reclaimed publicly",
+    "fantasy": "The underestimated one returns",
     "protagonist": {
-      "char_id": "ewan",
-      "who": "Ewan Kerr, a 24-year-old Edinburgh-born copying clerk recruited into the London office selling Poyais bonds and land grants.",
-      "wants": "To clear his father's debts, earn a respectable position, and become someone whose name is trusted in a counting house.",
-      "ashamed_of": "He falsified a former employer's seal to obtain the Poyais job after being dismissed for incompetence.",
-      "does_not_know_at_start": "The London Poyais office has no treasury, government, resident ambassador, or genuine sovereign backing; every document he handles is part of a self-supporting fiction."
+      "char_id": "kaveri",
+      "who": "Kaveri, a 35-year-old mother who returns to Dharampur after eighteen months away and discovers that the village has already cremated her.",
+      "wants": "To be publicly recognised as herself, regain custody of Tara and Munni, and place the truth of her disappearance on the official record.",
+      "ashamed_of": "She originally left home voluntarily after a family quarrel, without telling her children, before the alleged confinement began.",
+      "does_not_know_at_start": "Her father identified another woman's mutilated body as hers, performed her funeral, and helped send four men to jail for her murder."
     },
     "antagonist": {
-      "char_id": "macrae",
-      "who": "Gregor Macrae, a decorated soldier who presents himself as the Cazique of the invented country of Poyais.",
-      "wants_incompatibly": "To keep investors, settlers, bankers, and officials believing that Poyais exists long enough to sell more bonds, land, and status; Ewan wants the paper country exposed before more people pay for it."
+      "char_id": "devraj",
+      "who": "Inspector Devraj, the decorated officer who built his reputation on solving Kaveri's supposed murder.",
+      "wants_incompatibly": "He needs Kaveri declared an impostor or conspirator so his murder case, promotion and public authority survive."
     },
     "sources": [
-      "https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29",
-      "https://www.britishmuseum.org/collection/object/C_CIB-14659",
-      "https://www.britishmuseum.org/collection/object/P_1868-0808-8817",
-      "https://www.trove.scot/image/2924586"
+      "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+      "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
     ],
     "timeline": [
       {
         "id": "t1",
-        "date": "1821",
-        "what_happened": "A proclamation presents MacGregor as Cazique of Poyais and promotes the proposed Central American state to prospective supporters.",
+        "date": "2023",
+        "what_happened": "A woman went missing, and police subsequently registered a murder case after her family identified a badly damaged body as hers.",
         "confidence": "reported",
-        "source": "https://www.trove.scot/image/2924586"
+        "source": "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
       },
       {
         "id": "t2",
-        "date": "1822",
-        "what_happened": "Thomas Strangeways's promotional guide to the Mosquito Shore and Poyais is published for prospective settlers.",
+        "date": "2023",
+        "what_happened": "The woman's father said the family relied on a tattoo and a black thread tied around the body's leg before performing the last rites.",
         "confidence": "reported",
-        "source": "https://www.loc.gov/item/05009918/"
+        "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
       },
       {
         "id": "t3",
-        "date": "1823",
-        "what_happened": "A Poyais government bond is issued in London, bearing the fictional state's name and promising financial legitimacy.",
-        "confidence": "verified",
-        "source": "https://www.britishmuseum.org/collection/object/C_CIB-14659"
+        "date": "2023-2025",
+        "what_happened": "Four accused men were held in jail pending trial in connection with the supposed murder.",
+        "confidence": "reported",
+        "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
       },
       {
         "id": "t4",
-        "date": "1822-1823",
-        "what_happened": "Settlers travel toward the advertised colony and encounter conditions radically different from the descriptions, with no functioning Poyaisian settlement waiting for them.",
+        "date": "2025-03",
+        "what_happened": "The 35-year-old woman returned alive after approximately eighteen months; relatives and neighbours recognised her, and she supplied Aadhaar and voter identification documents.",
         "confidence": "reported",
-        "source": "https://www.britishmuseum.org/collection/object/C_CIB-14659"
+        "source": "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
       },
       {
         "id": "t5",
-        "date": "April 1834",
-        "what_happened": "A 60-acre Poyais land grant is issued under MacGregor's authority, showing that the paper scheme continued after the failed settlement attempt.",
-        "confidence": "verified",
-        "source": "https://archives.collections.ed.ac.uk/subjects/23685?filter_fields%5B%5D=published_agents&filter_values%5B%5D=MacGregor%2C+Gregor%2C+1786-1845+%28Scottish+soldier+and+adventurer%29"
+        "date": "2025-03",
+        "what_happened": "The returned woman claimed that she had gone away with one man, was sold to another for Rs 5 lakh, and was kept in Kota until she escaped.",
+        "confidence": "alleged",
+        "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+      },
+      {
+        "id": "t6",
+        "date": "2025-03",
+        "what_happened": "Police said medical examination, DNA testing and witness statements would be required before conclusively establishing the returned woman's identity.",
+        "confidence": "reported",
+        "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
       }
     ],
     "people": [
       {
-        "name": "Gregor MacGregor",
-        "role": "Scottish soldier and adventurer who claimed to rule Poyais as Cazique and whose name appears on Poyaisian instruments.",
-        "motive": "Money, status, and the preservation of his invented sovereignty.",
+        "name": "Returned woman (35, name withheld in scout brief)",
+        "role": "Woman reported alive after being presumed murdered and cremated",
+        "motive": "To establish her identity and explain her eighteen-month absence",
+        "public_or_private": "private",
+        "living": true
+      },
+      {
+        "name": "Returned woman’s father (name withheld in scout brief)",
+        "role": "Father who identified the damaged body and participated in the last rites",
+        "motive": "To defend or account for the mistaken identification",
+        "public_or_private": "private",
+        "living": true
+      },
+      {
+        "name": "Imran",
+        "role": "One of four men reported jailed in the supposed murder case",
+        "motive": "To obtain release and defeat the murder allegation",
+        "public_or_private": "private",
+        "living": true
+      },
+      {
+        "name": "Shahrukh",
+        "role": "Jailed accused whom the woman also named in her account of being taken away and allegedly sold",
+        "motive": "To contest the murder case and the woman's separate allegations",
+        "public_or_private": "private",
+        "living": true
+      },
+      {
+        "name": "Sonu",
+        "role": "One of four men reported jailed in the supposed murder case",
+        "motive": "To obtain release and defeat the murder allegation",
+        "public_or_private": "private",
+        "living": true
+      },
+      {
+        "name": "Ejaz",
+        "role": "One of four men reported jailed in the supposed murder case",
+        "motive": "To obtain release and defeat the murder allegation",
+        "public_or_private": "private",
+        "living": true
+      },
+      {
+        "name": "Unidentified second man in alleged sale account",
+        "role": "Man to whom the woman claimed she was sold for Rs 5 lakh",
+        "motive": "Unknown; the reported allegation remains unproven",
+        "public_or_private": "private",
+        "living": true
+      },
+      {
+        "name": "Jhabua superintendent of police (name withheld in scout brief)",
+        "role": "Police official who announced identity-verification measures",
+        "motive": "To establish the returned woman's identity and reassess the investigation",
         "public_or_private": "public",
+        "living": true
+      },
+      {
+        "name": "Unidentified deceased woman",
+        "role": "Woman whose damaged body was identified and cremated under the missing woman's identity",
+        "motive": "To have her true name and fate recovered",
+        "public_or_private": "private",
         "living": false
       }
     ],
     "cast": [
       {
-        "char_id": "ewan",
-        "name": "Ewan Kerr",
-        "role": "Junior copying clerk who prepares bonds, maps, ledgers, and land grants in the London Poyais office.",
-        "want": "To repay his father's debts and earn a name that respectable people will trust.",
-        "gender": "male",
-        "age_range": "20s",
-        "maps_to": "the recruited clerk and junior intermediary inside the Poyais mechanism",
-        "composite": true
-      },
-      {
-        "char_id": "macrae",
-        "name": "Gregor Macrae",
-        "role": "Decorated soldier and self-styled Cazique whose authority must be made visible on paper.",
-        "want": "To turn belief into cash and preserve his public status as a sovereign adventurer.",
-        "gender": "male",
+        "char_id": "kaveri",
+        "name": "Kaveri",
+        "role": "Returned mother forced to prove she is not dead",
+        "want": "To reclaim her name, her children and control over the account of her disappearance",
+        "gender": "female",
         "age_range": "30s",
-        "maps_to": "Gregor MacGregor",
+        "maps_to": "Returned woman",
         "composite": true
       },
       {
-        "char_id": "bell",
-        "name": "Osric Bell",
-        "role": "Fashionable London banker who validates the Poyais bonds and introduces them to investors.",
-        "want": "To collect commissions and remain the banker who discovers the next great opportunity.",
+        "char_id": "devraj",
+        "name": "Devraj",
+        "role": "Inspector who built the false murder case and tries to preserve it",
+        "want": "To secure his promotion by keeping his celebrated murder solution intact",
         "gender": "male",
         "age_range": "40s",
-        "maps_to": "the London banker who validates the bonds",
+        "maps_to": "Composite of police roles surrounding the original and reopened investigations",
         "composite": true
       },
       {
-        "char_id": "mara",
-        "name": "Mara Quill",
-        "role": "Poyaisian recruiting agent who tours Scotland and London selling land, work, and passage.",
-        "want": "To secure her own land claim and avoid admitting that she recruited families into danger.",
+        "char_id": "harilal",
+        "name": "Harilal",
+        "role": "Kaveri's father, who identified and cremated the wrong body",
+        "want": "To avoid admitting that his certainty destroyed two families",
+        "gender": "male",
+        "age_range": "60s+",
+        "maps_to": "Returned woman's father",
+        "composite": true
+      },
+      {
+        "char_id": "tara",
+        "name": "Tara",
+        "role": "Kaveri's older daughter, taught for eighteen months that her mother was dead",
+        "want": "To learn whether her mother was taken away or chose to abandon her",
         "gender": "female",
-        "age_range": "30s",
-        "maps_to": "the Poyaisian recruiting agent",
+        "age_range": "teens",
+        "maps_to": "Composite child",
         "composite": true
       },
       {
-        "char_id": "ross",
-        "name": "Finlay Ross",
-        "role": "Edinburgh printer responsible for maps, bank notes, proclamations, and ornate certificates.",
-        "want": "To keep his press paid and prove that craftsmanship can manufacture authority.",
+        "char_id": "munni",
+        "name": "Munni",
+        "role": "Kaveri's younger daughter",
+        "want": "To have her mother home without being forced to choose between adults",
+        "gender": "female",
+        "age_range": "child",
+        "maps_to": "Composite child",
+        "composite": true
+      },
+      {
+        "char_id": "rafiq",
+        "name": "Rafiq",
+        "role": "Jailed mechanic accused of Kaveri's murder",
+        "want": "To leave prison and reopen the workshop his family lost",
+        "gender": "male",
+        "age_range": "30s",
+        "maps_to": "Imran",
+        "composite": true
+      },
+      {
+        "char_id": "mahesh",
+        "name": "Mahesh",
+        "role": "Jailed transport broker accused of murder and named in Kaveri's disputed account of being transferred for money",
+        "want": "To escape the murder charge without exposing what he actually did to Kaveri",
+        "gender": "male",
+        "age_range": "30s",
+        "maps_to": "Shahrukh",
+        "composite": true
+      },
+      {
+        "char_id": "bansi",
+        "name": "Bansi",
+        "role": "Jailed shopkeeper swept into the murder case",
+        "want": "To clear his name before creditors seize his family's shop",
         "gender": "male",
         "age_range": "40s",
-        "maps_to": "the printer and document-production network",
+        "maps_to": "Sonu",
         "composite": true
       },
       {
-        "char_id": "pippa",
-        "name": "Pippa Shaw",
-        "role": "Bell's ledger clerk who tracks subscriptions, commissions, and duplicate bond numbers.",
-        "want": "To save enough money to open a stationery shop without depending on wealthy men.",
+        "char_id": "irfan",
+        "name": "Irfan",
+        "role": "Young driver jailed in the supposed murder case",
+        "want": "To return home before his engagement is permanently broken",
+        "gender": "male",
+        "age_range": "20s",
+        "maps_to": "Ejaz",
+        "composite": true
+      },
+      {
+        "char_id": "farida",
+        "name": "Farida",
+        "role": "Rafiq's sister and public leader of the accused families",
+        "want": "To free her brother and force the village to admit what it did to his name",
+        "gender": "female",
+        "age_range": "30s",
+        "maps_to": "Invented representative of the accused families",
+        "composite": true
+      },
+      {
+        "char_id": "jagat",
+        "name": "Jagat",
+        "role": "Farm contractor whom Kaveri alleges kept her under a coerced marriage arrangement",
+        "want": "To turn documents signed under his control into proof that Kaveri stayed willingly",
+        "gender": "male",
+        "age_range": "40s",
+        "maps_to": "Unidentified second man in alleged sale account",
+        "composite": true
+      },
+      {
+        "char_id": "meera",
+        "name": "Meera",
+        "role": "Junior police records clerk who notices breaks in the corpse evidence chain",
+        "want": "To earn a legitimate promotion rather than remain Devraj's invisible subordinate",
         "gender": "female",
         "age_range": "20s",
-        "maps_to": "invented",
+        "maps_to": "Invented",
         "composite": true
       },
       {
-        "char_id": "agnes",
-        "name": "Agnes Murray",
-        "role": "Scottish settler who sells her family's shop to buy passage and land in Poyais.",
-        "want": "To give her children a future with land of their own.",
+        "char_id": "naina",
+        "name": "Naina",
+        "role": "Legal-aid advocate representing the jailed families and later Kaveri",
+        "want": "To break a police case built on reputation rather than proof",
         "gender": "female",
         "age_range": "30s",
-        "maps_to": "the settlers on the first ships",
+        "maps_to": "Invented",
         "composite": true
       },
       {
-        "char_id": "thomas",
-        "name": "Thomas Hale",
-        "role": "Surveyor and settler who reaches the supposed colony and becomes a witness to the absence of the promised capital.",
-        "want": "To get the stranded settlers to safety and make London hear what happened.",
-        "gender": "male",
+        "char_id": "sudha",
+        "name": "Sudha",
+        "role": "Market vendor searching for her missing younger sister",
+        "want": "To discover whether the nameless cremated woman was her sister Leela",
+        "gender": "female",
+        "age_range": "40s",
+        "maps_to": "Invented relative of the unidentified deceased woman",
+        "composite": true
+      },
+      {
+        "char_id": "leela",
+        "name": "Leela",
+        "role": "The unidentified woman cremated under Kaveri's name",
+        "want": "To send her earnings home and return to Sudha, as reconstructed through her surviving records",
+        "gender": "female",
         "age_range": "30s",
-        "maps_to": "the settlers on the first ships",
+        "maps_to": "Unidentified deceased woman",
         "composite": true
       },
       {
-        "char_id": "vey",
-        "name": "Sir Alistair Vey",
-        "role": "British official who receives complaints and tries to prevent a financial and diplomatic scandal.",
-        "want": "To contain the embarrassment without publicly admitting that officials helped the scheme appear respectable.",
+        "char_id": "omkar",
+        "name": "Omkar",
+        "role": "Village council head who witnessed Kaveri's funeral and initially bars her from her children",
+        "want": "To preserve his authority by preventing the village from appearing foolish or lawless",
         "gender": "male",
         "age_range": "50s",
-        "maps_to": "British government officials",
-        "composite": true
-      },
-      {
-        "char_id": "tawis",
-        "name": "Tawis Kema",
-        "role": "Regional coastal authority who knows the claimed Poyais territory and refuses to recognize Macrae's paper government.",
-        "want": "To keep foreign settlers and armed agents from taking control of coastal land.",
-        "gender": "neutral",
-        "age_range": "40s",
-        "maps_to": "Indigenous and regional authorities near the supposed colony",
-        "composite": true
-      },
-      {
-        "char_id": "lucien",
-        "name": "Lucien D'Arcy",
-        "role": "French intermediary who sells Poyais certificates to investors across the Channel.",
-        "want": "To turn the British scandal into his own French success before the market closes.",
-        "gender": "male",
-        "age_range": "30s",
-        "maps_to": "the French promotion network",
-        "composite": true
-      },
-      {
-        "char_id": "elspeth",
-        "name": "Elspeth Kerr",
-        "role": "Ewan's widowed mother, who depends on the money he promised to send home.",
-        "want": "To keep the family house and prevent Ewan's father's debt from destroying them.",
-        "gender": "female",
-        "age_range": "50s",
-        "maps_to": "invented",
-        "composite": true
-      },
-      {
-        "char_id": "miles",
-        "name": "Miles Orrock",
-        "role": "Young investor and Bell's nephew who treats Poyais as a fashionable adventure.",
-        "want": "To become rich and important without having to work his way up.",
-        "gender": "male",
-        "age_range": "20s",
-        "maps_to": "invented",
+        "maps_to": "Invented",
         "composite": true
       }
     ],
     "adaptability": {
-      "conflict": 10,
+      "conflict": 9,
       "characters": 9,
       "stakes": 10,
-      "serializability": 10,
+      "serializability": 9,
       "resonance": 10,
-      "total": 49
+      "total": 47
     },
     "clearance": {
-      "status": "greenlight",
+      "status": "fictionalize_first",
       "reasons": [
-        "The season uses fictional names, a fictional place name, and composite characters.",
-        "The historical subject is in the public record and the named historical figure is deceased.",
-        "The drama focuses on a mechanism of deception rather than reproducing living private individuals."
+        "All names, locations, family structures and identifying details must change because the real participants are living private individuals in a recent case.",
+        "Kaveri is a composite protagonist; no invented conduct should be attributed to the real returned woman.",
+        "The alleged sale and confinement become fictional claims tested through fictional evidence, not assertions about the named real individuals.",
+        "Devraj is a fully composite antagonist and must not be presented as depicting any identifiable officer.",
+        "Leela, Sudha, the children and all evidence-chain misconduct are invented to dramatise the unidentified-body mechanism.",
+        "The murder allegation and the alleged trafficking conduct are resolved separately so that being cleared of one does not imply innocence or guilt in the other."
       ]
     },
     "novelty": {
       "prior_adaptations": [],
-      "score": 9
+      "score": 10
     },
-    "engine": "Every new bond, settler, official, creditor, and survivor forces Ewan to add one more apparently authentic layer to Poyais while the people closest to the truth are pressured to protect the fiction.",
-    "why_this_works": "The season sells respect reclaimed: Ewan begins as the clerk publicly blamed for a lie he barely understands, then becomes the only person capable of reading the paper trail. Each episode converts a document into a wound—duplicate bond, false map, missing ship, forged seal, empty treasury—while the London machinery continues producing fresh proof that Poyais exists. The emotional payoff is not merely that the country is exposed; it is that the witnesses who laughed at Ewan must rely on him to name the fraud.",
+    "engine": "Every fact that proves Kaveri is alive threatens another person's freedom or reputation: her documents expose the false murder, the false murder conceals Leela's identity, and the account of Kaveri's absence separates four wrongful murder defendants from two men who may still have committed a different crime.",
+    "why_this_works": "The season sells a clean status reversal: Kaveri enters as an alleged impostor at her own funeral and ends as the recognised authority on both women's identities. Each proof she gains opens a more dangerous consequence. Public scalps arrive when Devraj acknowledges her DNA, Farida retracts her accusation, Harilal confesses his mistake, and the final court corrects the record before the same village that watched her humiliation. Status reaches 10 only after the murder case, child custody, confinement account and nameless corpse are all resolved in public.",
     "fictionalization_map": {
-      "Gregor MacGregor": "Gregor Macrae",
-      "Poyais": "Ravenshore",
-      "London": "London remains the historical city but is dramatized through fictional offices and institutions",
-      "Scotland": "Scotland remains the historical region but all private households and local settings are invented",
-      "Mosquito Coast": "The Blackwater Coast",
-      "British Museum": "The Royal Museum of Coin and Paper",
-      "University of Edinburgh Library": "The Northbridge Archive"
+      "Returned woman (35, name withheld in scout brief)": "Kaveri, a composite returned mother in Dharampur",
+      "Returned woman’s father (name withheld in scout brief)": "Harilal, Kaveri's fictional father",
+      "Imran": "Rafiq, fictional jailed mechanic",
+      "Shahrukh": "Mahesh, fictional transport broker",
+      "Sonu": "Bansi, fictional shopkeeper",
+      "Ejaz": "Irfan, fictional driver",
+      "Unidentified second man in alleged sale account": "Jagat, fictional farm contractor",
+      "Jhabua superintendent of police (name withheld in scout brief)": "Devraj, a composite fictional inspector",
+      "Unidentified deceased woman": "Leela, a wholly fictionalised unidentified victim",
+      "Mandsaur and Jhabua districts, Madhya Pradesh": "Dharampur and Bheelkheda districts in a fictional central Indian state",
+      "Kota": "Navgarh",
+      "Aadhaar and voter ID documents": "Fictional biometric residency card and electoral register entry"
     },
     "season": [
       {
         "ep": 1,
-        "turn": "At a London investor salon, Ewan is publicly blamed for a misprinted Poyais bond and dismissed as an incompetent provincial clerk while Macrae receives applause for the country's prosperity.",
+        "turn": "Kaveri walks into Dharampur police station during a public ceremony honouring Devraj for solving her murder, and he has her placed behind the complainants' railing as an impostor.",
         "hook_type": "REVEAL",
-        "ends_on": "The bond Ewan was accused of misprinting carries a serial number already sold to a different investor.",
+        "ends_on": "Harilal produces Kaveri's death certificate and says he personally lit her funeral pyre.",
         "pays_off": null,
         "status": 1
       },
       {
         "ep": 2,
-        "turn": "Ewan discovers that the same duplicate serial appears in Bell's private ledger, but Bell locks him inside the counting room until he recreates the missing bond register.",
+        "turn": "Devraj converts Harilal's public denial into a formal impersonation-and-forgery arrest against Kaveri.",
         "hook_type": "THREAT",
-        "ends_on": "A fresh shipment of Poyais bonds has already been sent to the auction house with Ewan's forged initials on every certificate.",
+        "ends_on": "Tara and Munni are ordered to remain with Harilal until Kaveri proves she is legally alive.",
         "pays_off": null,
-        "status": 1
+        "status": 0
       },
       {
         "ep": 3,
-        "turn": "Mara makes Ewan stand beside her at a Scottish recruiting meeting, where he must answer questions about wages, farms, and the capital city he has never seen.",
-        "hook_type": "ARRIVAL",
-        "ends_on": "Seventy settlers have paid deposits and their ship is scheduled to sail before Ewan can warn them.",
-        "pays_off": null,
+        "turn": "Kaveri's biometric residency record matches, forcing Devraj to release her from the lockup without recognising her as the children's mother.",
+        "hook_type": "DISCOVERY",
+        "ends_on": "Meera shows Kaveri the prison file containing four men awaiting trial for murdering her.",
+        "pays_off": "Kaveri proves that her identity documents are genuine, defeating the forgery allegation.",
         "status": 1
       },
       {
         "ep": 4,
-        "turn": "Macrae forces Ewan to authenticate a constitution, royal seal, and bank charter in front of Bell's investors, making Ewan the visible clerk who gives the imaginary state its official shape.",
-        "hook_type": "BETRAYAL",
-        "ends_on": "Pippa finds that Bell has moved the investors' money into an account controlled by Macrae before the bonds are even delivered.",
-        "pays_off": "The first public bond sale succeeds, and Macrae's office receives the money it needed to finance the settler expedition.",
-        "status": 2
+        "turn": "Farida assembles the accused families in the village square and publicly accuses Kaveri of disappearing deliberately while innocent households collapsed.",
+        "hook_type": "ACCUSATION",
+        "ends_on": "Farida plays a saved message in Kaveri's voice saying she left Dharampur by choice.",
+        "pays_off": null,
+        "status": 1
       },
       {
         "ep": 5,
-        "turn": "The first ship reaches the advertised coast, while Ewan is ordered to keep selling passage in London as if the capital and government are already functioning.",
-        "hook_type": "DISCOVERY",
-        "ends_on": "Thomas's first letter says the promised city is missing and the settlers have found only jungle, mud, and unfamiliar coastal guides.",
+        "turn": "Kaveri admits she initially left voluntarily but persuades the court to order DNA testing rather than treat the message as proof of an eighteen-month conspiracy.",
+        "hook_type": "DEADLINE",
+        "ends_on": "The court gives Kaveri forty-eight hours to establish maternity before Tara and Munni are transferred to a city shelter.",
         "pays_off": null,
         "status": 1
       },
       {
         "ep": 6,
-        "turn": "Ewan compares Thomas's cargo list with the London promises and proves that the expedition was sent without food, tools, or medical supplies; Bell publicly admits Ewan is the only clerk who can reconcile the books.",
-        "hook_type": "RECOGNITION",
-        "ends_on": "Macrae places Ewan's name beneath the title 'Treasurer of Ravenshore' on the next issue of bonds.",
-        "pays_off": "Ewan earns his first public acknowledgment from a man who previously called him useless.",
+        "turn": "The DNA result establishes Kaveri as Harilal's daughter and the children's mother, forcing Devraj to acknowledge her identity before the village.",
+        "hook_type": "REVERSAL",
+        "ends_on": "The prosecutor announces that the four men will remain jailed because Kaveri may have conspired to fake her own murder.",
+        "pays_off": "Kaveri is publicly and biologically recognised as herself and as the children's mother.",
         "status": 3
       },
       {
         "ep": 7,
-        "turn": "Agnes confronts the London office with the names of families who have sold their homes, and Ewan is ordered to produce a government relief fund by noon.",
-        "hook_type": "DEADLINE",
-        "ends_on": "The relief ledger contains no money, but a sealed notice says a second ship of settlers is due to depart from France the next morning.",
-        "pays_off": null,
-        "status": 3
-      },
-      {
-        "ep": 8,
-        "turn": "Ewan tries to stop Lucien's French sale and is accused by Macrae of stealing from the Poyais treasury in front of the investors he once served.",
-        "hook_type": "ACCUSATION",
-        "ends_on": "The theft ledger bears Ewan's forged seal and lists his mother's house as collateral for the missing funds.",
-        "pays_off": "The first expedition's names and losses are entered into a public complaint book, giving the stranded settlers an official record instead of silence.",
-        "status": 2
-      },
-      {
-        "ep": 9,
-        "turn": "Pippa and Ewan prove that the theft ledger was planted by matching its ink to Ross's newest certificates, forcing Bell to admit that the Poyais treasury is empty.",
-        "hook_type": "REVERSAL",
-        "ends_on": "A second ship has already sailed from France carrying more settlers, despite Bell's signed promise that no further expedition would leave.",
+        "turn": "Kaveri testifies that Mahesh took her from Dharampur and transferred control of her to Jagat for five lakh rupees, an allegation both men deny.",
+        "hook_type": "ARRIVAL",
+        "ends_on": "Jagat enters the hearing carrying a registered marriage certificate bearing Kaveri's signature.",
         "pays_off": null,
         "status": 4
       },
       {
+        "ep": 8,
+        "turn": "A document examiner authenticates Kaveri's signature, allowing Devraj to present her alleged confinement as a concealed second marriage.",
+        "hook_type": "BETRAYAL",
+        "ends_on": "Harilal gives Devraj another recording in which Kaveri tells her father she will never come home.",
+        "pays_off": null,
+        "status": 3
+      },
+      {
+        "ep": 9,
+        "turn": "Naina establishes that both recordings predate Kaveri's arrival at Jagat's farm, and Farida publicly retracts her claim that Kaveri invented the entire disappearance.",
+        "hook_type": "RECOGNITION",
+        "ends_on": "Sudha recognises the corpse's tattoo and black leg thread as details belonging to her missing sister Leela.",
+        "pays_off": "Farida acknowledges before the accused families that Kaveri's return may be the reason their relatives go free.",
+        "status": 5
+      },
+      {
         "ep": 10,
-        "turn": "Thomas returns to London with survivors and identifies Ewan as the only office worker who tried to ask what Poyais actually possessed, turning the former scapegoat into the public face of the survivors' petition.",
-        "hook_type": "ARRIVAL",
-        "ends_on": "Tawis arrives with a coastal record showing that no Poyaisian government has ever been recognized on the claimed land.",
-        "pays_off": "The survivors are publicly heard, and Agnes recovers the deeds to her family's shop through a settlement funded by Bell.",
-        "status": 6
+        "turn": "Sudha supplies Leela's medical and employment records, giving the cremated body a testable second identity for the first time.",
+        "hook_type": "DISCOVERY",
+        "ends_on": "The sealed bone sample listed in the corpse evidence register is missing from the police storeroom.",
+        "pays_off": null,
+        "status": 5
       },
       {
         "ep": 11,
-        "turn": "Macrae offers Ewan a partnership, a share of the next land issue, and a new name in exchange for declaring Thomas's account an act of sabotage.",
-        "hook_type": "ULTIMATUM",
-        "ends_on": "A creditor serves Ewan with a writ naming him as co-director of the Poyais treasury because his forged initials appear on every recent bond.",
-        "pays_off": null,
-        "status": 6
-      },
-      {
-        "ep": 12,
-        "turn": "Ewan brings Bell, Pippa, Thomas, and Tawis into the same room and reconstructs the chain from land grant to bond to ship, forcing Bell to choose between protecting Macrae and saving his own bank.",
-        "hook_type": "BETRAYAL",
-        "ends_on": "Bell hands Ewan a sealed 60-acre grant issued in April 1834, proving that Macrae's paper country is still being sold thirteen years after the first settlers were abandoned.",
+        "turn": "Meera traces the missing sample's removal order to Devraj, publicly placing the celebrated investigator inside the broken evidence chain.",
+        "hook_type": "THREAT",
+        "ends_on": "A photograph of Tara outside her school arrives from Jagat's registered phone with an order that Kaveri withdraw her confinement statement.",
         "pays_off": null,
         "status": 7
       },
       {
-        "ep": 13,
-        "turn": "At a crowded public hearing, Bell admits that the bonds were accepted because the paper, seals, bank, uniforms, and proclamations were made to imitate a government, not because anyone had verified the territory.",
-        "hook_type": "RECOGNITION",
-        "ends_on": "Macrae's own final certificate identifies Ewan as the witness who can invalidate the entire Ravenshore issue.",
-        "pays_off": "Bell publicly names Ewan as the person who uncovered the false treasury and agrees to cancel the remaining bonds held by local investors.",
+        "ep": 12,
+        "turn": "Harilal publicly retracts his identification, admits Devraj rushed him past inconsistencies in the corpse, and apologises to Kaveri and the jailed families.",
+        "hook_type": "ULTIMATUM",
+        "ends_on": "The court gives Devraj until sunrise to produce the corpse sample or face arrest for evidence tampering.",
+        "pays_off": "Harilal finally accepts Kaveri before the funeral witnesses and takes responsibility for the false identification.",
         "status": 8
       },
       {
-        "ep": 14,
-        "turn": "Ewan presents the 1834 grant, the duplicate bond register, Thomas's survivor testimony, and Tawis's territorial record before the same class of witnesses who laughed at him in episode one.",
-        "hook_type": "REVERSAL",
-        "ends_on": "The public registry records every Ravenshore bond and land grant as void, and Ewan's name is entered as the official witness to their cancellation.",
-        "pays_off": "The paper country is broken, the remaining certificates are cancelled, Bell's investors receive the recovered funds, Agnes's family keeps its shop, the survivors' testimony is preserved, and Ewan is publicly cleared of theft and named keeper of the fraud archive.",
+        "ep": 13,
+        "turn": "Meera locates the sample under a falsified case number, and its DNA identifies the cremated woman as Sudha's sister Leela.",
+        "hook_type": "REVEAL",
+        "ends_on": "The attached transfer form proves Devraj relabelled Leela's body as Kaveri's before Harilal was brought in to identify it.",
+        "pays_off": "The unidentified cremated woman receives her true identity, and Sudha learns what happened to her sister.",
         "status": 9
+      },
+      {
+        "ep": 14,
+        "turn": "At a public final hearing, the court separates the crimes: it voids Devraj's false murder case, clears Rafiq, Bansi and Irfan, clears Mahesh of murder but convicts him with Jagat on corroborated confinement and payment records, restores Kaveri's custody, and orders Devraj's arrest.",
+        "hook_type": "RECOGNITION",
+        "ends_on": "The corrected family register names Kaveri as Tara and Munni's living mother and Leela as the woman cremated eighteen months earlier.",
+        "pays_off": "Kaveri's identity, custody and account of confinement are recognised; the false murder defendants receive individual findings; Leela is named and returned to Sudha for proper rites; Harilal makes restitution; and Devraj's manufactured case is publicly broken before the witnesses to Kaveri's humiliation.",
+        "status": 10
       }
     ],
-    "never_narrate_as_fact": [],
-    "category": "THE LONG DECEPTION",
+    "never_narrate_as_fact": [
+      "t5: The returned woman claimed that she had gone away with one man, was sold to another for Rs 5 lakh, and was kept in Kota until she escaped. (alleged)"
+    ],
+    "category": "DENIED IDENTITY",
     "hunt_scores": {
-      "engine_longevity": 10,
-      "hook_density": 9,
-      "emotional_immediacy": 9,
+      "engine_longevity": 9,
+      "hook_density": 10,
+      "emotional_immediacy": 10,
       "conflict": 9,
-      "cast_depth": 10,
+      "cast_depth": 9,
       "total": 47
     },
     "commissioned": {
-      "by": "unattributed",
-      "at": "2026-07-25T20:19:58+00:00",
+      "by": "lathiesh",
+      "at": "2026-07-25T22:01:15+00:00",
       "over_scout_pick": false
     }
   }

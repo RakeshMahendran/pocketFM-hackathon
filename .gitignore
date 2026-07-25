@@ -30,3 +30,9 @@ data/cache/calls/season_*
 # serial and not on any path — delete these whenever.
 data/cache/serial_*__*
 data/cache/calls/serial_*__*
+
+# Clips from the mock provider — a generated tone, not a voice. They exist so the
+# chain can be exercised without spending Sarvam credits, and the offline demo
+# never plays one. The real clips beside them ARE committed: `data/cache/voice`
+# is what makes a demo with no network possible.
+data/cache/voice/mock_*

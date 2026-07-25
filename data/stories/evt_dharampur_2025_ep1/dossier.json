@@ -1,0 +1,360 @@
+{
+  "event_id": "evt_dharampur_2025",
+  "title": "The Woman Dharampur Cremated",
+  "one_line_summary": "Eighteen months after her funeral, a missing mother returns alive and must reclaim her children, free men jailed for her murder, and uncover the identity of the woman cremated in her name.",
+  "language": "en",
+  "fantasy": "The underestimated one returns",
+  "protagonist": {
+    "char_id": "kaveri",
+    "who": "Kaveri, a 35-year-old mother who returns to Dharampur after eighteen months away and discovers that the village has already cremated her.",
+    "wants": "To be publicly recognised as herself, regain custody of Tara and Munni, and place the truth of her disappearance on the official record.",
+    "ashamed_of": "She originally left home voluntarily after a family quarrel, without telling her children, before the alleged confinement began.",
+    "does_not_know_at_start": "Her father identified another woman's mutilated body as hers, performed her funeral, and helped send four men to jail for her murder."
+  },
+  "antagonist": {
+    "char_id": "devraj",
+    "who": "Inspector Devraj, the decorated officer who built his reputation on solving Kaveri's supposed murder.",
+    "wants_incompatibly": "He needs Kaveri declared an impostor or conspirator so his murder case, promotion and public authority survive."
+  },
+  "sources": [
+    "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+    "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "date": "2023",
+      "what_happened": "A woman went missing, and police subsequently registered a murder case after her family identified a badly damaged body as hers.",
+      "confidence": "reported",
+      "source": "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
+    },
+    {
+      "id": "t2",
+      "date": "2023",
+      "what_happened": "The woman's father said the family relied on a tattoo and a black thread tied around the body's leg before performing the last rites.",
+      "confidence": "reported",
+      "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+    },
+    {
+      "id": "t3",
+      "date": "2023-2025",
+      "what_happened": "Four accused men were held in jail pending trial in connection with the supposed murder.",
+      "confidence": "reported",
+      "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+    },
+    {
+      "id": "t4",
+      "date": "2025-03",
+      "what_happened": "The 35-year-old woman returned alive after approximately eighteen months; relatives and neighbours recognised her, and she supplied Aadhaar and voter identification documents.",
+      "confidence": "reported",
+      "source": "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
+    },
+    {
+      "id": "t5",
+      "date": "2025-03",
+      "what_happened": "The returned woman claimed that she had gone away with one man, was sold to another for Rs 5 lakh, and was kept in Kota until she escaped.",
+      "confidence": "alleged",
+      "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+    },
+    {
+      "id": "t6",
+      "date": "2025-03",
+      "what_happened": "Police said medical examination, DNA testing and witness statements would be required before conclusively establishing the returned woman's identity.",
+      "confidence": "reported",
+      "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+    }
+  ],
+  "people": [
+    {
+      "name": "Returned woman (35, name withheld in scout brief)",
+      "role": "Woman reported alive after being presumed murdered and cremated",
+      "motive": "To establish her identity and explain her eighteen-month absence",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Returned woman’s father (name withheld in scout brief)",
+      "role": "Father who identified the damaged body and participated in the last rites",
+      "motive": "To defend or account for the mistaken identification",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Imran",
+      "role": "One of four men reported jailed in the supposed murder case",
+      "motive": "To obtain release and defeat the murder allegation",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Shahrukh",
+      "role": "Jailed accused whom the woman also named in her account of being taken away and allegedly sold",
+      "motive": "To contest the murder case and the woman's separate allegations",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Sonu",
+      "role": "One of four men reported jailed in the supposed murder case",
+      "motive": "To obtain release and defeat the murder allegation",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Ejaz",
+      "role": "One of four men reported jailed in the supposed murder case",
+      "motive": "To obtain release and defeat the murder allegation",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Unidentified second man in alleged sale account",
+      "role": "Man to whom the woman claimed she was sold for Rs 5 lakh",
+      "motive": "Unknown; the reported allegation remains unproven",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Jhabua superintendent of police (name withheld in scout brief)",
+      "role": "Police official who announced identity-verification measures",
+      "motive": "To establish the returned woman's identity and reassess the investigation",
+      "public_or_private": "public",
+      "living": true
+    },
+    {
+      "name": "Unidentified deceased woman",
+      "role": "Woman whose damaged body was identified and cremated under the missing woman's identity",
+      "motive": "To have her true name and fate recovered",
+      "public_or_private": "private",
+      "living": false
+    }
+  ],
+  "cast": [
+    {
+      "char_id": "kaveri",
+      "name": "Kaveri",
+      "role": "Returned mother forced to prove she is not dead",
+      "want": "To reclaim her name, her children and control over the account of her disappearance",
+      "gender": "female",
+      "age_range": "30s",
+      "maps_to": "Returned woman",
+      "composite": true
+    },
+    {
+      "char_id": "devraj",
+      "name": "Devraj",
+      "role": "Inspector who built the false murder case and tries to preserve it",
+      "want": "To secure his promotion by keeping his celebrated murder solution intact",
+      "gender": "male",
+      "age_range": "40s",
+      "maps_to": "Composite of police roles surrounding the original and reopened investigations",
+      "composite": true
+    },
+    {
+      "char_id": "harilal",
+      "name": "Harilal",
+      "role": "Kaveri's father, who identified and cremated the wrong body",
+      "want": "To avoid admitting that his certainty destroyed two families",
+      "gender": "male",
+      "age_range": "60s+",
+      "maps_to": "Returned woman's father",
+      "composite": true
+    },
+    {
+      "char_id": "tara",
+      "name": "Tara",
+      "role": "Kaveri's older daughter, taught for eighteen months that her mother was dead",
+      "want": "To learn whether her mother was taken away or chose to abandon her",
+      "gender": "female",
+      "age_range": "teens",
+      "maps_to": "Composite child",
+      "composite": true
+    },
+    {
+      "char_id": "munni",
+      "name": "Munni",
+      "role": "Kaveri's younger daughter",
+      "want": "To have her mother home without being forced to choose between adults",
+      "gender": "female",
+      "age_range": "child",
+      "maps_to": "Composite child",
+      "composite": true
+    },
+    {
+      "char_id": "rafiq",
+      "name": "Rafiq",
+      "role": "Jailed mechanic accused of Kaveri's murder",
+      "want": "To leave prison and reopen the workshop his family lost",
+      "gender": "male",
+      "age_range": "30s",
+      "maps_to": "Imran",
+      "composite": true
+    },
+    {
+      "char_id": "mahesh",
+      "name": "Mahesh",
+      "role": "Jailed transport broker accused of murder and named in Kaveri's disputed account of being transferred for money",
+      "want": "To escape the murder charge without exposing what he actually did to Kaveri",
+      "gender": "male",
+      "age_range": "30s",
+      "maps_to": "Shahrukh",
+      "composite": true
+    },
+    {
+      "char_id": "bansi",
+      "name": "Bansi",
+      "role": "Jailed shopkeeper swept into the murder case",
+      "want": "To clear his name before creditors seize his family's shop",
+      "gender": "male",
+      "age_range": "40s",
+      "maps_to": "Sonu",
+      "composite": true
+    },
+    {
+      "char_id": "irfan",
+      "name": "Irfan",
+      "role": "Young driver jailed in the supposed murder case",
+      "want": "To return home before his engagement is permanently broken",
+      "gender": "male",
+      "age_range": "20s",
+      "maps_to": "Ejaz",
+      "composite": true
+    },
+    {
+      "char_id": "farida",
+      "name": "Farida",
+      "role": "Rafiq's sister and public leader of the accused families",
+      "want": "To free her brother and force the village to admit what it did to his name",
+      "gender": "female",
+      "age_range": "30s",
+      "maps_to": "Invented representative of the accused families",
+      "composite": true
+    },
+    {
+      "char_id": "jagat",
+      "name": "Jagat",
+      "role": "Farm contractor whom Kaveri alleges kept her under a coerced marriage arrangement",
+      "want": "To turn documents signed under his control into proof that Kaveri stayed willingly",
+      "gender": "male",
+      "age_range": "40s",
+      "maps_to": "Unidentified second man in alleged sale account",
+      "composite": true
+    },
+    {
+      "char_id": "meera",
+      "name": "Meera",
+      "role": "Junior police records clerk who notices breaks in the corpse evidence chain",
+      "want": "To earn a legitimate promotion rather than remain Devraj's invisible subordinate",
+      "gender": "female",
+      "age_range": "20s",
+      "maps_to": "Invented",
+      "composite": true
+    },
+    {
+      "char_id": "naina",
+      "name": "Naina",
+      "role": "Legal-aid advocate representing the jailed families and later Kaveri",
+      "want": "To break a police case built on reputation rather than proof",
+      "gender": "female",
+      "age_range": "30s",
+      "maps_to": "Invented",
+      "composite": true
+    },
+    {
+      "char_id": "sudha",
+      "name": "Sudha",
+      "role": "Market vendor searching for her missing younger sister",
+      "want": "To discover whether the nameless cremated woman was her sister Leela",
+      "gender": "female",
+      "age_range": "40s",
+      "maps_to": "Invented relative of the unidentified deceased woman",
+      "composite": true
+    },
+    {
+      "char_id": "leela",
+      "name": "Leela",
+      "role": "The unidentified woman cremated under Kaveri's name",
+      "want": "To send her earnings home and return to Sudha, as reconstructed through her surviving records",
+      "gender": "female",
+      "age_range": "30s",
+      "maps_to": "Unidentified deceased woman",
+      "composite": true
+    },
+    {
+      "char_id": "omkar",
+      "name": "Omkar",
+      "role": "Village council head who witnessed Kaveri's funeral and initially bars her from her children",
+      "want": "To preserve his authority by preventing the village from appearing foolish or lawless",
+      "gender": "male",
+      "age_range": "50s",
+      "maps_to": "Invented",
+      "composite": true
+    }
+  ],
+  "adaptability": {
+    "conflict": 9,
+    "characters": 9,
+    "stakes": 10,
+    "serializability": 9,
+    "resonance": 10,
+    "total": 47
+  },
+  "clearance": {
+    "status": "fictionalize_first",
+    "reasons": [
+      "All names, locations, family structures and identifying details must change because the real participants are living private individuals in a recent case.",
+      "Kaveri is a composite protagonist; no invented conduct should be attributed to the real returned woman.",
+      "The alleged sale and confinement become fictional claims tested through fictional evidence, not assertions about the named real individuals.",
+      "Devraj is a fully composite antagonist and must not be presented as depicting any identifiable officer.",
+      "Leela, Sudha, the children and all evidence-chain misconduct are invented to dramatise the unidentified-body mechanism.",
+      "The murder allegation and the alleged trafficking conduct are resolved separately so that being cleared of one does not imply innocence or guilt in the other."
+    ]
+  },
+  "novelty": {
+    "prior_adaptations": [],
+    "score": 10
+  },
+  "engine": "Every fact that proves Kaveri is alive threatens another person's freedom or reputation: her documents expose the false murder, the false murder conceals Leela's identity, and the account of Kaveri's absence separates four wrongful murder defendants from two men who may still have committed a different crime.",
+  "why_this_works": "The season sells a clean status reversal: Kaveri enters as an alleged impostor at her own funeral and ends as the recognised authority on both women's identities. Each proof she gains opens a more dangerous consequence. Public scalps arrive when Devraj acknowledges her DNA, Farida retracts her accusation, Harilal confesses his mistake, and the final court corrects the record before the same village that watched her humiliation. Status reaches 10 only after the murder case, child custody, confinement account and nameless corpse are all resolved in public.",
+  "fictionalization_map": {
+    "Returned woman (35, name withheld in scout brief)": "Kaveri, a composite returned mother in Dharampur",
+    "Returned woman’s father (name withheld in scout brief)": "Harilal, Kaveri's fictional father",
+    "Imran": "Rafiq, fictional jailed mechanic",
+    "Shahrukh": "Mahesh, fictional transport broker",
+    "Sonu": "Bansi, fictional shopkeeper",
+    "Ejaz": "Irfan, fictional driver",
+    "Unidentified second man in alleged sale account": "Jagat, fictional farm contractor",
+    "Jhabua superintendent of police (name withheld in scout brief)": "Devraj, a composite fictional inspector",
+    "Unidentified deceased woman": "Leela, a wholly fictionalised unidentified victim",
+    "Mandsaur and Jhabua districts, Madhya Pradesh": "Dharampur and Bheelkheda districts in a fictional central Indian state",
+    "Kota": "Navgarh",
+    "Aadhaar and voter ID documents": "Fictional biometric residency card and electoral register entry"
+  },
+  "season": [
+    {
+      "ep": 1,
+      "turn": "Kaveri walks into Dharampur police station during a public ceremony honouring Devraj for solving her murder, and he has her placed behind the complainants' railing as an impostor.",
+      "hook_type": "REVEAL",
+      "ends_on": "Harilal produces Kaveri's death certificate and says he personally lit her funeral pyre.",
+      "pays_off": null,
+      "status": 1
+    }
+  ],
+  "never_narrate_as_fact": [
+    "t5: The returned woman claimed that she had gone away with one man, was sold to another for Rs 5 lakh, and was kept in Kota until she escaped. (alleged)"
+  ],
+  "category": "DENIED IDENTITY",
+  "hunt_scores": {
+    "engine_longevity": 9,
+    "hook_density": 10,
+    "emotional_immediacy": 10,
+    "conflict": 9,
+    "cast_depth": 9,
+    "total": 47
+  },
+  "commissioned": {
+    "by": "lathiesh",
+    "at": "2026-07-25T22:01:15+00:00",
+    "over_scout_pick": false
+  }
+}

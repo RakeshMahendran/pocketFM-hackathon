@@ -1,0 +1,232 @@
+{
+  "story_id": "evt_dharampur_2025_ep1",
+  "event_id": "evt_dharampur_2025",
+  "beats": [
+    {
+      "beat_id": "b001",
+      "ep": 1,
+      "seq": 1,
+      "world_time": "2024-08-15",
+      "location": "Dharampur police station records area",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "kaveri",
+        "devraj",
+        "harilal",
+        "tara",
+        "munni",
+        "rafiq",
+        "mahesh",
+        "bansi",
+        "irfan",
+        "farida",
+        "jagat",
+        "meera",
+        "naina",
+        "sudha",
+        "leela",
+        "omkar"
+      ],
+      "what_happened": "An unknown person has cut one page from the corpse register before the ceremony.",
+      "state_changes": [
+        {
+          "entity": "corpse register",
+          "fact": "One page is missing before Kaveri's return becomes public.",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Deliberate open canon: no cast character witnessed the page's removal or knows who removed it."
+    },
+    {
+      "beat_id": "b002",
+      "ep": 1,
+      "seq": 2,
+      "world_time": "2024-08-15",
+      "location": "Dharampur police station courtyard",
+      "present": [
+        "devraj",
+        "harilal",
+        "tara",
+        "munni",
+        "farida",
+        "meera",
+        "omkar"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "rafiq",
+        "mahesh",
+        "bansi",
+        "irfan"
+      ],
+      "what_happened": "A public police ceremony honours Devraj for solving Kaveri's supposed murder and jailing four accused men.",
+      "state_changes": [
+        {
+          "entity": "devraj",
+          "fact": "His reputation and anticipated promotion are publicly tied to the solved murder case.",
+          "valence": 3
+        },
+        {
+          "entity": "rafiq",
+          "fact": "His imprisonment is publicly presented as part of a solved murder case.",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b003",
+      "ep": 1,
+      "seq": 3,
+      "world_time": "2024-08-15",
+      "location": "Dharampur police station courtyard",
+      "present": [
+        "kaveri",
+        "devraj",
+        "harilal",
+        "tara",
+        "munni",
+        "farida",
+        "meera",
+        "omkar"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "rafiq",
+        "mahesh",
+        "bansi",
+        "irfan",
+        "jagat",
+        "naina",
+        "sudha"
+      ],
+      "what_happened": "Kaveri enters the ceremony alive, identifies her family and demands access to her daughters.",
+      "state_changes": [
+        {
+          "entity": "kaveri",
+          "fact": "Her survival becomes public in Dharampur police station.",
+          "valence": 4
+        },
+        {
+          "entity": "tara",
+          "fact": "She encounters a living woman who knows intimate details and claims to be her mother.",
+          "valence": -2
+        },
+        {
+          "entity": "munni",
+          "fact": "She hears Kaveri identify herself as her mother.",
+          "valence": 2
+        },
+        {
+          "entity": "devraj",
+          "fact": "The central premise of his celebrated murder case is publicly challenged.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b004",
+      "ep": 1,
+      "seq": 4,
+      "world_time": "2024-08-15",
+      "location": "Dharampur police station complainants' railing",
+      "present": [
+        "kaveri",
+        "devraj",
+        "harilal",
+        "tara",
+        "munni",
+        "farida",
+        "meera",
+        "omkar"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "rafiq",
+        "mahesh",
+        "bansi",
+        "irfan",
+        "jagat",
+        "naina",
+        "sudha"
+      ],
+      "what_happened": "Devraj publicly labels Kaveri an unverified impostor and has her confined behind the complainants' railing.",
+      "state_changes": [
+        {
+          "entity": "kaveri",
+          "fact": "Police classify her claim to her own identity as a complaint requiring verification.",
+          "valence": -4
+        },
+        {
+          "entity": "devraj",
+          "fact": "He preserves official control of the ceremony by treating Kaveri as an impostor.",
+          "valence": 2
+        },
+        {
+          "entity": "farida",
+          "fact": "She publicly connects Kaveri's return to the imprisonment of the four accused men.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b005",
+      "ep": 1,
+      "seq": 5,
+      "world_time": "2024-08-15",
+      "location": "Dharampur police station complainants' railing",
+      "present": [
+        "kaveri",
+        "devraj",
+        "harilal",
+        "tara",
+        "munni",
+        "farida",
+        "meera",
+        "omkar"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "rafiq",
+        "mahesh",
+        "bansi",
+        "irfan",
+        "jagat",
+        "naina",
+        "sudha"
+      ],
+      "what_happened": "Harilal produces Kaveri's death certificate and states that he identified the body and personally lit the funeral pyre.",
+      "state_changes": [
+        {
+          "entity": "harilal",
+          "fact": "He publicly rejects the living Kaveri by relying on his identification of the cremated body.",
+          "valence": -4
+        },
+        {
+          "entity": "kaveri",
+          "fact": "Her legal death and her father's cremation testimony become immediate barriers to reclaiming her identity.",
+          "valence": -5
+        },
+        {
+          "entity": "death certificate",
+          "fact": "It is publicly presented as proof that Kaveri is dead.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "story_id": "evt_dharampur_2025_ep1",
+  "open_count": 4,
+  "promises": [
+    {
+      "id": "p001",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "Who removed the page from the corpse register, and what evidence did it contain?",
+      "must_pay_by_ep": 7,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p002",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "Will Kaveri prove her identity despite her death certificate and regain access to her daughters?",
+      "must_pay_by_ep": 7,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p003",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "Whose body did Harilal identify and cremate as Kaveri?",
+      "must_pay_by_ep": 7,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p004",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "What will Kaveri's return do to the murder case against Rafiq, Mahesh, Bansi and Irfan?",
+      "must_pay_by_ep": 7,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    }
+  ]
+}

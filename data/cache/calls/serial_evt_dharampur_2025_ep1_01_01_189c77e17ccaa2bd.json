@@ -1,0 +1,644 @@
+{
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "The Dead Woman Walks In",
+      "lines": [
+        {
+          "speaker": "COMPERE",
+          "text": "For solving Kaveri's murder, Dharampur Police honours Inspector Devraj—",
+          "sfx_cue": "police courtyard applause, microphone squeal"
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Stop! I am Kaveri. Which murder did he solve?",
+          "sfx_cue": "metal gate bangs open"
+        },
+        {
+          "speaker": "tara",
+          "text": "Maa?",
+          "sfx_cue": "applause cuts off, plastic chair falls"
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Tara. Yes. Come here, child. You and Munni, come to me.",
+          "sfx_cue": "hurried footsteps on stone"
+        },
+        {
+          "speaker": "omkar",
+          "text": "Girls, stay where you are.",
+          "sfx_cue": "wooden staff strikes stone once"
+        },
+        {
+          "speaker": "munni",
+          "text": "Didi... she knows my name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "Lots of people know our names.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Look at me, Tara. Look properly. That scar beside your ear, you got it falling from my cot.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "Don't... don't say things like that.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Constable, close the gate. Nobody leaves the courtyard.",
+          "sfx_cue": "police whistle, gate scrapes shut"
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Devraj, tell them. You came to our house twice. You drank tea from the blue steel cup.",
+          "sfx_cue": "crowd murmurs rising"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Let us be precise. You know my name because it was announced on the microphone.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "No. I know your face. I know my father. I know my daughters.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harilal",
+          "text": "Do not call me that.",
+          "sfx_cue": "walking stick taps forward"
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Baba...",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harilal",
+          "text": "My daughter is dead.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "WOMAN IN CROWD",
+          "text": "Shameless woman. Today of all days, she came to claim a dead mother's children.",
+          "sfx_cue": "crowd murmurs agreement"
+        },
+        {
+          "speaker": "kaveri",
+          "text": "I am not claiming them. I gave birth to them.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "omkar",
+          "text": "Inspector, remove this disturbance. The district officers are waiting to present your medal.",
+          "sfx_cue": "medal case snaps shut"
+        },
+        {
+          "speaker": "farida",
+          "text": "No, let her speak. You gave medals before giving four innocent men a trial.",
+          "sfx_cue": "bangles clink as someone pushes through chairs"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Farida, this ceremony is not about your brother.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "farida",
+          "text": "You arrested Rafiq for killing Kaveri. Kaveri has just walked through your gate.",
+          "sfx_cue": "crowd erupts"
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Rafiq? The mechanic? What did you do to him?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "farida",
+          "text": "Eighteen months in jail. Rafiq, Mahesh, Bansi and Irfan. Your murder made Inspector Devraj famous.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "My murder... no. No, I was gone, but I wasn't—",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Enough. A solved case does not collapse because a stranger memorised village gossip.",
+          "sfx_cue": "police baton knocks railing"
+        },
+        {
+          "speaker": "meera",
+          "text": "Sir, identity verification should be recorded before—",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Meera, you are here to manage certificates, not investigations.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Yes, sir.",
+          "sfx_cue": "papers gathered quickly"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "Before the first clap that morning, one page had already been cut from the corpse register. Nobody in that courtyard saw who took it.",
+          "sfx_cue": "loose paper flutters beneath wooden dais"
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Take my fingerprints. Ask me anything. Tara was born just before dawn. Munni hates milk skin. Baba keeps mother's anklet inside the grain tin.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harilal",
+          "text": "Quiet.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "You know that is true.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harilal",
+          "text": "A thief can learn where a family keeps its jewellery.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "munni",
+          "text": "Nana, she sounds like Maa.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "omkar",
+          "text": "Munni, your mother received proper final rites. Do not insult her memory by staring at this woman.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "You brought my children to watch a man receive a prize for my death?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "They said you screamed. They said those men killed you near the canal.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Tara, I did not die near any canal.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "Then where were you?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "I... I will tell you. Just come here first.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "No. Answer me first.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "She will answer inside, after we establish who she is. Children should not hear an impostor's inventions.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Do not call me an impostor in front of my daughters.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Then provide a valid identity document.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "It was taken. My residency card, my electoral slip, everything. Check your old records.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Sir, the old electoral register may have her photograph.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "The register records a deceased voter. It cannot testify for a living stranger.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "farida",
+          "text": "But a burnt body testified well enough to jail four men?",
+          "sfx_cue": "scattered claps from crowd"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Farida, your courage is impressive. Your brother's workshop lease is still under police review, isn't it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "farida",
+          "text": "You already took the workshop. You cannot frighten us with its empty walls.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Inspector, I came for my children. Move aside.",
+          "sfx_cue": "bare feet step forward"
+        },
+        {
+          "speaker": "devraj",
+          "text": "You came into a police station, interrupted an official ceremony and attempted to approach two minors. You will wait where complainants wait.",
+          "sfx_cue": "metal railing gate unlatches"
+        },
+        {
+          "speaker": "kaveri",
+          "text": "I am their mother.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "That is your complaint. Stand behind the railing while we examine it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "CONSTABLE",
+          "text": "Inside, madam.",
+          "sfx_cue": "metal railing gate rattles"
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Don't touch me. Tara, Munni, I am here. I came back for you.",
+          "sfx_cue": "cloth scuffle, railing gate slams"
+        },
+        {
+          "speaker": "MUNNI",
+          "text": "Maa!",
+          "sfx_cue": "child runs two steps"
+        },
+        {
+          "speaker": "omkar",
+          "text": "Hold her, Tara.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "Munni, stop. Please... just stop.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Baba, tell them about the burn on my left wrist. Tell them how I got it in your kitchen.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harilal",
+          "text": "Many women have burns.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Tell them what you called me when I was small.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harilal",
+          "text": "My child is not standing behind that railing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Then look into my face and say whose body you buried.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harilal",
+          "text": "We did not bury anyone.",
+          "sfx_cue": "walking stick stops"
+        },
+        {
+          "speaker": "kaveri",
+          "text": "What?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Harilal, there is no need to discuss evidence publicly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harilal",
+          "text": "There is every need. This woman wants the village to doubt my daughter's death.",
+          "sfx_cue": "canvas satchel opens"
+        },
+        {
+          "speaker": "kaveri",
+          "text": "Baba, please. I am standing here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harilal",
+          "text": "This is Kaveri's death certificate. I identified the body. I personally lit my daughter's funeral pyre.",
+          "sfx_cue": "official paper unfolds beside microphone"
+        }
+      ]
+    }
+  ],
+  "beat_sheet": [
+    {
+      "beat_id": "b001",
+      "ep": 1,
+      "seq": 1,
+      "world_time": "2024-08-15",
+      "location": "Dharampur police station records area",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "kaveri",
+        "devraj",
+        "harilal",
+        "tara",
+        "munni",
+        "rafiq",
+        "mahesh",
+        "bansi",
+        "irfan",
+        "farida",
+        "jagat",
+        "meera",
+        "naina",
+        "sudha",
+        "leela",
+        "omkar"
+      ],
+      "what_happened": "An unknown person has cut one page from the corpse register before the ceremony.",
+      "state_changes": [
+        {
+          "entity": "corpse register",
+          "fact": "One page is missing before Kaveri's return becomes public.",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Deliberate open canon: no cast character witnessed the page's removal or knows who removed it."
+    },
+    {
+      "beat_id": "b002",
+      "ep": 1,
+      "seq": 2,
+      "world_time": "2024-08-15",
+      "location": "Dharampur police station courtyard",
+      "present": [
+        "devraj",
+        "harilal",
+        "tara",
+        "munni",
+        "farida",
+        "meera",
+        "omkar"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "rafiq",
+        "mahesh",
+        "bansi",
+        "irfan"
+      ],
+      "what_happened": "A public police ceremony honours Devraj for solving Kaveri's supposed murder and jailing four accused men.",
+      "state_changes": [
+        {
+          "entity": "devraj",
+          "fact": "His reputation and anticipated promotion are publicly tied to the solved murder case.",
+          "valence": 3
+        },
+        {
+          "entity": "rafiq",
+          "fact": "His imprisonment is publicly presented as part of a solved murder case.",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b003",
+      "ep": 1,
+      "seq": 3,
+      "world_time": "2024-08-15",
+      "location": "Dharampur police station courtyard",
+      "present": [
+        "kaveri",
+        "devraj",
+        "harilal",
+        "tara",
+        "munni",
+        "farida",
+        "meera",
+        "omkar"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "rafiq",
+        "mahesh",
+        "bansi",
+        "irfan",
+        "jagat",
+        "naina",
+        "sudha"
+      ],
+      "what_happened": "Kaveri enters the ceremony alive, identifies her family and demands access to her daughters.",
+      "state_changes": [
+        {
+          "entity": "kaveri",
+          "fact": "Her survival becomes public in Dharampur police station.",
+          "valence": 4
+        },
+        {
+          "entity": "tara",
+          "fact": "She encounters a living woman who knows intimate details and claims to be her mother.",
+          "valence": -2
+        },
+        {
+          "entity": "munni",
+          "fact": "She hears Kaveri identify herself as her mother.",
+          "valence": 2
+        },
+        {
+          "entity": "devraj",
+          "fact": "The central premise of his celebrated murder case is publicly challenged.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b004",
+      "ep": 1,
+      "seq": 4,
+      "world_time": "2024-08-15",
+      "location": "Dharampur police station complainants' railing",
+      "present": [
+        "kaveri",
+        "devraj",
+        "harilal",
+        "tara",
+        "munni",
+        "farida",
+        "meera",
+        "omkar"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "rafiq",
+        "mahesh",
+        "bansi",
+        "irfan",
+        "jagat",
+        "naina",
+        "sudha"
+      ],
+      "what_happened": "Devraj publicly labels Kaveri an unverified impostor and has her confined behind the complainants' railing.",
+      "state_changes": [
+        {
+          "entity": "kaveri",
+          "fact": "Police classify her claim to her own identity as a complaint requiring verification.",
+          "valence": -4
+        },
+        {
+          "entity": "devraj",
+          "fact": "He preserves official control of the ceremony by treating Kaveri as an impostor.",
+          "valence": 2
+        },
+        {
+          "entity": "farida",
+          "fact": "She publicly connects Kaveri's return to the imprisonment of the four accused men.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b005",
+      "ep": 1,
+      "seq": 5,
+      "world_time": "2024-08-15",
+      "location": "Dharampur police station complainants' railing",
+      "present": [
+        "kaveri",
+        "devraj",
+        "harilal",
+        "tara",
+        "munni",
+        "farida",
+        "meera",
+        "omkar"
+      ],
+      "witnessed_by": [],
+      "hidden_from": [
+        "rafiq",
+        "mahesh",
+        "bansi",
+        "irfan",
+        "jagat",
+        "naina",
+        "sudha"
+      ],
+      "what_happened": "Harilal produces Kaveri's death certificate and states that he identified the body and personally lit the funeral pyre.",
+      "state_changes": [
+        {
+          "entity": "harilal",
+          "fact": "He publicly rejects the living Kaveri by relying on his identification of the cremated body.",
+          "valence": -4
+        },
+        {
+          "entity": "kaveri",
+          "fact": "Her legal death and her father's cremation testimony become immediate barriers to reclaiming her identity.",
+          "valence": -5
+        },
+        {
+          "entity": "death certificate",
+          "fact": "It is publicly presented as proof that Kaveri is dead.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    }
+  ],
+  "promise_ledger": [
+    {
+      "id": "p001",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "Who removed the page from the corpse register, and what evidence did it contain?",
+      "must_pay_by_ep": 7,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p002",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "Will Kaveri prove her identity despite her death certificate and regain access to her daughters?",
+      "must_pay_by_ep": 7,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p003",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "Whose body did Harilal identify and cremate as Kaveri?",
+      "must_pay_by_ep": 7,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p004",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "What will Kaveri's return do to the murder case against Rafiq, Mahesh, Bansi and Irfan?",
+      "must_pay_by_ep": 7,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    }
+  ],
+  "calendar": {
+    "season_start": "2024-08-15",
+    "dates_fixed": [
+      {
+        "ep": 1,
+        "when": "2024-08-15",
+        "what": "Kaveri interrupts the Independence Day police ceremony honouring Devraj."
+      }
+    ],
+    "periods_fixed": [],
+    "unresolved": []
+  },
+  "flags": []
+}

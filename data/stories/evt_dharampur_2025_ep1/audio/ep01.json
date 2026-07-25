@@ -1,0 +1,667 @@
+{
+  "episode_id": "evt_dharampur_2025_ep01",
+  "series_id": "evt_dharampur_2025",
+  "title": "The Woman Dharampur Cremated — Episode 1",
+  "characters": [
+    {
+      "id": "COMPERE",
+      "persona": "minor role, one scene"
+    },
+    {
+      "id": "kaveri",
+      "persona": "Returned mother forced to prove she is not dead",
+      "gender": "female",
+      "age_range": "30s"
+    },
+    {
+      "id": "tara",
+      "persona": "Kaveri's older daughter, taught for eighteen months that her mother was dead",
+      "gender": "female",
+      "age_range": "teens"
+    },
+    {
+      "id": "omkar",
+      "persona": "Village council head who witnessed Kaveri's funeral and initially bars her from ",
+      "gender": "male",
+      "age_range": "50s"
+    },
+    {
+      "id": "munni",
+      "persona": "Kaveri's younger daughter",
+      "gender": "female",
+      "age_range": "child"
+    },
+    {
+      "id": "devraj",
+      "persona": "Inspector who built the false murder case and tries to preserve it",
+      "gender": "male",
+      "age_range": "40s"
+    },
+    {
+      "id": "harilal",
+      "persona": "Kaveri's father, who identified and cremated the wrong body",
+      "gender": "male",
+      "age_range": "60s+"
+    },
+    {
+      "id": "WOMAN IN CROWD",
+      "persona": "minor role, one scene"
+    },
+    {
+      "id": "farida",
+      "persona": "Rafiq's sister and public leader of the accused families",
+      "gender": "female",
+      "age_range": "30s"
+    },
+    {
+      "id": "meera",
+      "persona": "Junior police records clerk who notices breaks in the corpse evidence chain",
+      "gender": "female",
+      "age_range": "20s"
+    },
+    {
+      "id": "narrator",
+      "gender": "neutral",
+      "age_range": "40s",
+      "persona": "storyteller, withholding"
+    },
+    {
+      "id": "CONSTABLE",
+      "persona": "minor role, one scene"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "COMPERE",
+      "text": "For solving Kaveri's murder, Dharampur Police honours Inspector Devraj—",
+      "line_id": "l001",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "police courtyard applause, microphone squeal"
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Stop! I am Kaveri. Which murder did he solve?",
+      "line_id": "l002",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "metal gate bangs open"
+    },
+    {
+      "speaker": "tara",
+      "text": "Maa?",
+      "line_id": "l003",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "applause cuts off, plastic chair falls"
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Tara. Yes. Come here, child. You and Munni, come to me.",
+      "line_id": "l004",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "hurried footsteps on stone"
+    },
+    {
+      "speaker": "omkar",
+      "text": "Girls, stay where you are.",
+      "line_id": "l005",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "wooden staff strikes stone once"
+    },
+    {
+      "speaker": "munni",
+      "text": "Didi... she knows my name.",
+      "line_id": "l006",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "tara",
+      "text": "Lots of people know our names.",
+      "line_id": "l007",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Look at me, Tara. Look properly. That scar beside your ear, you got it falling from my cot.",
+      "line_id": "l008",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "tara",
+      "text": "Don't... don't say things like that.",
+      "line_id": "l009",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "devraj",
+      "text": "Constable, close the gate. Nobody leaves the courtyard.",
+      "line_id": "l010",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "police whistle, gate scrapes shut"
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Devraj, tell them. You came to our house twice. You drank tea from the blue steel cup.",
+      "line_id": "l011",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "crowd murmurs rising"
+    },
+    {
+      "speaker": "devraj",
+      "text": "Let us be precise. You know my name because it was announced on the microphone.",
+      "line_id": "l012",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "No. I know your face. I know my father. I know my daughters.",
+      "line_id": "l013",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "harilal",
+      "text": "Do not call me that.",
+      "line_id": "l014",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "walking stick taps forward"
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Baba...",
+      "line_id": "l015",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "harilal",
+      "text": "My daughter is dead.",
+      "line_id": "l016",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "WOMAN IN CROWD",
+      "text": "Shameless woman. Today of all days, she came to claim a dead mother's children.",
+      "line_id": "l017",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "crowd murmurs agreement"
+    },
+    {
+      "speaker": "kaveri",
+      "text": "I am not claiming them. I gave birth to them.",
+      "line_id": "l018",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "omkar",
+      "text": "Inspector, remove this disturbance. The district officers are waiting to present your medal.",
+      "line_id": "l019",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "medal case snaps shut"
+    },
+    {
+      "speaker": "farida",
+      "text": "No, let her speak. You gave medals before giving four innocent men a trial.",
+      "line_id": "l020",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "bangles clink as someone pushes through chairs"
+    },
+    {
+      "speaker": "devraj",
+      "text": "Farida, this ceremony is not about your brother.",
+      "line_id": "l021",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "farida",
+      "text": "You arrested Rafiq for killing Kaveri. Kaveri has just walked through your gate.",
+      "line_id": "l022",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "crowd erupts"
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Rafiq? The mechanic? What did you do to him?",
+      "line_id": "l023",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "farida",
+      "text": "Eighteen months in jail. Rafiq, Mahesh, Bansi and Irfan. Your murder made Inspector Devraj famous.",
+      "line_id": "l024",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "My murder... no. No, I was gone, but I wasn't—",
+      "line_id": "l025",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "devraj",
+      "text": "Enough. A solved case does not collapse because a stranger memorised village gossip.",
+      "line_id": "l026",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "police baton knocks railing"
+    },
+    {
+      "speaker": "meera",
+      "text": "Sir, identity verification should be recorded before—",
+      "line_id": "l027",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "devraj",
+      "text": "Meera, you are here to manage certificates, not investigations.",
+      "line_id": "l028",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "meera",
+      "text": "Yes, sir.",
+      "line_id": "l029",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "papers gathered quickly"
+    },
+    {
+      "speaker": "narrator",
+      "text": "Before the first clap that morning, one page had already been cut from the corpse register. Nobody in that courtyard saw who took it.",
+      "line_id": "l030",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "loose paper flutters beneath wooden dais"
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Take my fingerprints. Ask me anything. Tara was born just before dawn. Munni hates milk skin. Baba keeps mother's anklet inside the grain tin.",
+      "line_id": "l031",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "harilal",
+      "text": "Quiet.",
+      "line_id": "l032",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "You know that is true.",
+      "line_id": "l033",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "harilal",
+      "text": "A thief can learn where a family keeps its jewellery.",
+      "line_id": "l034",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "munni",
+      "text": "Nana, she sounds like Maa.",
+      "line_id": "l035",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "omkar",
+      "text": "Munni, your mother received proper final rites. Do not insult her memory by staring at this woman.",
+      "line_id": "l036",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "You brought my children to watch a man receive a prize for my death?",
+      "line_id": "l037",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "tara",
+      "text": "They said you screamed. They said those men killed you near the canal.",
+      "line_id": "l038",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Tara, I did not die near any canal.",
+      "line_id": "l039",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "tara",
+      "text": "Then where were you?",
+      "line_id": "l040",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "I... I will tell you. Just come here first.",
+      "line_id": "l041",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "tara",
+      "text": "No. Answer me first.",
+      "line_id": "l042",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "devraj",
+      "text": "She will answer inside, after we establish who she is. Children should not hear an impostor's inventions.",
+      "line_id": "l043",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Do not call me an impostor in front of my daughters.",
+      "line_id": "l044",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "devraj",
+      "text": "Then provide a valid identity document.",
+      "line_id": "l045",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "It was taken. My residency card, my electoral slip, everything. Check your old records.",
+      "line_id": "l046",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "meera",
+      "text": "Sir, the old electoral register may have her photograph.",
+      "line_id": "l047",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "devraj",
+      "text": "The register records a deceased voter. It cannot testify for a living stranger.",
+      "line_id": "l048",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "farida",
+      "text": "But a burnt body testified well enough to jail four men?",
+      "line_id": "l049",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "scattered claps from crowd"
+    },
+    {
+      "speaker": "devraj",
+      "text": "Farida, your courage is impressive. Your brother's workshop lease is still under police review, isn't it.",
+      "line_id": "l050",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "farida",
+      "text": "You already took the workshop. You cannot frighten us with its empty walls.",
+      "line_id": "l051",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Inspector, I came for my children. Move aside.",
+      "line_id": "l052",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "bare feet step forward"
+    },
+    {
+      "speaker": "devraj",
+      "text": "You came into a police station, interrupted an official ceremony and attempted to approach two minors. You will wait where complainants wait.",
+      "line_id": "l053",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "metal railing gate unlatches"
+    },
+    {
+      "speaker": "kaveri",
+      "text": "I am their mother.",
+      "line_id": "l054",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "devraj",
+      "text": "That is your complaint. Stand behind the railing while we examine it.",
+      "line_id": "l055",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "CONSTABLE",
+      "text": "Inside, madam.",
+      "line_id": "l056",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "metal railing gate rattles"
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Don't touch me. Tara, Munni, I am here. I came back for you.",
+      "line_id": "l057",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "cloth scuffle, railing gate slams"
+    },
+    {
+      "speaker": "munni",
+      "text": "Maa!",
+      "line_id": "l058",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "child runs two steps"
+    },
+    {
+      "speaker": "omkar",
+      "text": "Hold her, Tara.",
+      "line_id": "l059",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "tara",
+      "text": "Munni, stop. Please... just stop.",
+      "line_id": "l060",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Baba, tell them about the burn on my left wrist. Tell them how I got it in your kitchen.",
+      "line_id": "l061",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "harilal",
+      "text": "Many women have burns.",
+      "line_id": "l062",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Tell them what you called me when I was small.",
+      "line_id": "l063",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "harilal",
+      "text": "My child is not standing behind that railing.",
+      "line_id": "l064",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Then look into my face and say whose body you buried.",
+      "line_id": "l065",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "harilal",
+      "text": "We did not bury anyone.",
+      "line_id": "l066",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "walking stick stops"
+    },
+    {
+      "speaker": "kaveri",
+      "text": "What?",
+      "line_id": "l067",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "devraj",
+      "text": "Harilal, there is no need to discuss evidence publicly.",
+      "line_id": "l068",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "harilal",
+      "text": "There is every need. This woman wants the village to doubt my daughter's death.",
+      "line_id": "l069",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "canvas satchel opens"
+    },
+    {
+      "speaker": "kaveri",
+      "text": "Baba, please. I am standing here.",
+      "line_id": "l070",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5
+    },
+    {
+      "speaker": "harilal",
+      "text": "This is Kaveri's death certificate. I identified the body. I personally lit my daughter's funeral pyre.",
+      "line_id": "l071",
+      "language": "en",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "sfx_cue": "official paper unfolds beside microphone"
+    }
+  ]
+}

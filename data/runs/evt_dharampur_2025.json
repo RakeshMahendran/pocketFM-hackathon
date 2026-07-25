@@ -1,0 +1,1604 @@
+{
+  "run": {
+    "event_id": "evt_dharampur_2025",
+    "title": "The Woman Dharampur Cremated",
+    "built_at": "2026-07-25T21:48:47.461723+00:00",
+    "models": {
+      "research": "gpt-5.6-luna",
+      "expander": "gpt-5.6-sol",
+      "script_writer": "gpt-5.6-sol"
+    }
+  },
+  "stage_1_research_agent": {
+    "output": "data/corpus.json",
+    "considered": 29,
+    "by_clearance": {
+      "greenlight": 0,
+      "fictionalize_first": 29,
+      "blocked": 0
+    },
+    "winner": {
+      "title": "The Mandsaur Woman Who Was Already Cremated",
+      "category": "DENIED IDENTITY",
+      "one_line": "After her family cremates a crushed body and four men sit in jail for her murder, a missing mother walks into the police station alive—then has to prove she is herself while nobody can say whose body was burned.",
+      "year": "2025",
+      "where": "Mandsaur and Jhabua districts, Madhya Pradesh, India",
+      "mechanism": "A missing woman’s family identified a badly damaged body using a tattoo and black thread, performed her last rites, and triggered a murder case; 18 months later she returned, claiming she had been taken away and sold to another man.",
+      "engine": "The woman is alive but officially entangled with a dead body, four jailed suspects, a disputed trafficking account, and an unidentified victim whose real identity must be uncovered.",
+      "episode_estimate": 180,
+      "cast": [
+        {
+          "name_or_role": "The returned woman",
+          "motive": "To establish that she is alive, recover her children, and control the story of where she spent 18 months.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The father who identified the body",
+          "motive": "To defend an identification that destroyed another family and may have helped imprison four men.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The four jailed accused",
+          "motive": "To escape a murder case built around a corpse that may not be the missing woman.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The two men named in the alleged sale",
+          "motive": "To deny, conceal, or profit from the woman’s account of being moved to Kota.",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "The police officer reopening the case",
+          "motive": "To determine whether the returned woman is genuine and repair a failed investigation.",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "The children waiting for their mother",
+          "motive": "To accept a woman everyone had taught them was dead.",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 9,
+        "hook_density": 10,
+        "emotional_immediacy": 10,
+        "conflict": 9,
+        "cast_depth": 9,
+        "total": 47
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "The real participants are living private individuals and the case remains recent.",
+          "The alleged sale and confinement account must not be presented as established fact without court verification.",
+          "Change names, village and districts, the children’s details, and the precise identity of the alleged traffickers.",
+          "Tell the serial through fictionalised investigators, family members and the unidentified dead woman’s relatives rather than exposing the real family."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+        "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
+      ],
+      "facts": [
+        {
+          "what_happened": "NDTV reported that a 35-year-old woman returned to her village after being presumed murdered and cremated, while four men remained in jail in connection with the supposed murder.",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The woman’s father said the family identified the damaged body using a tattoo and a black thread around the leg, then performed the last rites.",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "Police said the woman claimed she had gone with a man named Shahrukh, who allegedly sold her to another man for Rs 5 lakh; she said she lived in Kota for 18 months before escaping.",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+          "confidence": "alleged"
+        },
+        {
+          "what_happened": "The four accused—Imran, Shahrukh, Sonu and Ejaz—were reported to be in jail pending trial and had petitioned the local court after the woman’s reappearance.",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "The Jhabua superintendent of police said police would conduct medical examination and DNA testing and record witness statements before conclusively establishing that the returned woman was the same person believed to have been murdered.",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "India Today reported that the woman supplied Aadhaar and voter ID documents and that neighbours and family members confirmed her identity, while the police had registered the original murder case after the family identified the mutilated body.",
+          "source": "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22",
+          "confidence": "reported"
+        }
+      ],
+      "why_this_sells": "The instant fear is brutally recognisable: your family performs your funeral, strangers are punished for your death, and returning home does not prove who you are.",
+      "why_not": "The central trafficking account is still only an allegation, so the series needs heavy fictionalisation and must preserve uncertainty rather than claim a solved truth.",
+      "domain": "ndtv.com",
+      "winner": true,
+      "id": "1a8a1dc47393",
+      "url": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+      "source": "websearch",
+      "text": "After her family cremates a crushed body and four men sit in jail for her murder, a missing mother walks into the police station alive—then has to prove she is herself while nobody can say whose body was burned. A missing woman’s family identified a badly damaged body using a tattoo and black thread, performed her last rites, and triggered a murder case; 18 months later she returned, claiming she had been taken away and sold to another man."
+    },
+    "also_considered": [
+      {
+        "title": "The Beggar Who Collected Interest",
+        "category": "SECRET STATUS",
+        "total": 47,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The principal is a living private individual identified by name in recent reporting.",
+            "Change the name, town, market, illness, property count and vehicle details.",
+            "Use a fictional composite of the rescue officials, borrowers and family rather than reproducing identifiable real people.",
+            "Avoid stating that any individual committed fraud; frame the hidden-income mechanism as reported and fictionalize the legal and administrative consequences."
+          ]
+        }
+      },
+      {
+        "title": "The Man Who Died Twice",
+        "category": "REVENGE",
+        "total": 43,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The reported incident involves living private individuals and allegations attributed to police reporting.",
+            "Change names, villages, police jurisdictions and family details; make the protagonist and all relatives fictional composites.",
+            "Tell the story primarily through the wife, investigator and supposedly dead man rather than asserting guilt as established fact."
+          ]
+        }
+      },
+      {
+        "title": "The Irrigation Office That Never Existed",
+        "category": "THE LONG DECEPTION",
+        "total": 45,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The case is recent and the named principals and officials may be living.",
+            "Change names, town, district and departmental designation; fictionalize the exact project list and make the central viewpoint a composite clerk or contractor.",
+            "Retain the mechanism of a fake public office, but avoid asserting guilt beyond what a court establishes."
+          ]
+        }
+      },
+      {
+        "title": "The Son Who Erased the Heirs",
+        "category": "FAMILY BETRAYAL",
+        "total": 46,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The case is recent and the accused, mother, siblings, purchaser and officials may be living private individuals.",
+            "Change all names, the village, the property value and the family composition; use a fictional district and composite officials.",
+            "Tell the story through the excluded mother's and siblings' fight to restore the record, rather than presenting unproved allegations as established guilt.",
+            "Retain the mechanism but fictionalise the exact documents, dates and investigative outcome unless independently verified in court records."
+          ]
+        }
+      },
+      {
+        "title": "The Twenty Cheques for One House",
+        "category": "THE BARGAIN COMES DUE",
+        "total": 46,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The underlying case is recent and the named parties may be living or represented by living heirs.",
+            "Change names, locality, property number and exact loan figures.",
+            "Tell the story through fictional borrowers, adult heirs and composite officials rather than reproducing allegations about identifiable private citizens."
+          ]
+        }
+      },
+      {
+        "title": "The Motihari Haunted-House Tenant",
+        "category": "SUPERNATURAL INTRUSION",
+        "total": 45,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The litigation names real parties and concerns a real private residence.",
+            "Change names, Motihari, the family history and the precise property details.",
+            "Tell the story primarily through a fictional tenant, a grieving household and a court clerk rather than presenting supernatural claims as verified fact."
+          ]
+        }
+      },
+      {
+        "title": "The Bride Who Was Abducted After Every Wedding",
+        "category": "THE DOUBLE LIFE",
+        "total": 46,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The principals are living and the reporting describes allegations and an arrest rather than final convictions.",
+            "Change names, towns, aliases, matrimonial platforms and physical details; use a composite groom and fictional gang.",
+            "Tell the story from the families and investigators’ point of view rather than exposing identifiable private individuals as established criminals."
+          ]
+        }
+      },
+      {
+        "title": "The Woman in the Suitcase Who Was Not Dead",
+        "category": "DENIED IDENTITY",
+        "total": 44,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The event is recent enough that living private participants may be identifiable.",
+            "Change names, towns, family structure and the domestic-abuse allegations.",
+            "Avoid treating the original dowry-death accusation as proven; make the unidentified dead woman’s story a separate fictional investigation."
+          ]
+        }
+      },
+      {
+        "title": "The Daughter Whose Funeral Was for a Stranger",
+        "category": "DENIED IDENTITY",
+        "total": 42,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The event involves living private people and unresolved identity questions.",
+            "Change names, locations, relationships and the exact circumstances of the disappearance.",
+            "Do not imply that the estranged husband or live-in partner committed a crime; the report says police cleared the husband and was still investigating."
+          ]
+        }
+      },
+      {
+        "title": "The Peon with Seven Properties",
+        "category": "SECRET STATUS",
+        "total": 41,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The case concerns a living or recently living private individual identified in corruption reporting.",
+            "Change the employee's name, department, district, family connections, property locations and asset values.",
+            "Treat the reported wealth as an allegation unless established by a later judgment."
+          ]
+        }
+      },
+      {
+        "title": "The Clerk's Second Company",
+        "category": "SECRET STATUS",
+        "total": 45,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The reporting identifies living private individuals and contains criminal allegations that may not have ended in conviction.",
+            "Change all names, municipalities, company branding, property locations, family relationships and financial figures.",
+            "Do not state that the accused committed fraud as fact; present the police and vigilance allegations as the source material."
+          ]
+        }
+      },
+      {
+        "title": "The Bank Manager's Fifteen Accounts",
+        "category": "SECRET STATUS",
+        "total": 47,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The report names living or recently living private individuals and describes unproven corruption allegations.",
+            "Change the bank, city, names, property values, family structure and all identifying details.",
+            "The reported occult incident should be treated as colour from the source report, not independently verified fact."
+          ]
+        }
+      },
+      {
+        "title": "The Fake Karachi Cantt Identity",
+        "category": "REVENGE",
+        "total": 41,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The case concerns living private individuals and police allegations.",
+            "Change names, platforms, religious imagery, locations and business details.",
+            "Avoid reproducing the allegedly offensive material; use an invented non-religious digital trigger in the adaptation."
+          ]
+        }
+      },
+      {
+        "title": "The Terrorist Who Was Supposed to Be Satwant",
+        "category": "REVENGE",
+        "total": 41,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The report names living private individuals and attributes the allegations to police.",
+            "Change all names, military references, documents and locations.",
+            "The adaptation should fictionalise the security threat and avoid suggesting any real person had links to hostile organisations."
+          ]
+        }
+      },
+      {
+        "title": "The ₹3.2 Lakh Robbery That Never Happened",
+        "category": "REVENGE",
+        "total": 39,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The incident is recent and involves living private individuals identified in press coverage.",
+            "Change names, neighbourhoods, amount of money and the precise dispute.",
+            "Treat the police account as an allegation unless court records establish the facts."
+          ]
+        }
+      },
+      {
+        "title": "The NGO Branch That Was Created After It Got the Grant",
+        "category": "THE LONG DECEPTION",
+        "total": 44,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The event is recent enough that several accused, officials and witnesses may be living.",
+            "Change the NGO names, districts, ministry and family relationships.",
+            "The judgment records both prosecution allegations and unresolved evidentiary disputes, so the serial should use a fictional investigation frame rather than present every allegation as fact."
+          ]
+        }
+      },
+      {
+        "title": "Reviving the Society That Had Already Been Wound Up",
+        "category": "THE LONG DECEPTION",
+        "total": 43,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The case involves named individuals and public officials whose legal status and reputational interests require care.",
+            "Change the society, land authority, builder, locations and member identities.",
+            "Use the court’s findings at the charge-framing stage accurately; do not imply a final conviction where the opened order only records a prima facie prosecution case."
+          ]
+        }
+      },
+      {
+        "title": "The Power of Attorney Family",
+        "category": "FAMILY BETRAYAL",
+        "total": 41,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The matter is recent, the family members may be living private individuals, and the allegations remain subject to trial.",
+            "Change names, city, property documents and medical details; combine the court proceedings into fictional tribunals.",
+            "Avoid presenting the elder brother's alleged misuse of authority as proven until a fictional trial establishes it."
+          ]
+        }
+      },
+      {
+        "title": "The False Will in the In-Laws' House",
+        "category": "FAMILY BETRAYAL",
+        "total": 39,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The case involves living private family members and unresolved allegations.",
+            "Change all names, locations and property specifics; make the family structure fictional and composite.",
+            "Frame the will and affidavit as disputed documents unless a later court finding establishes their status."
+          ]
+        }
+      },
+      {
+        "title": "The Twenty-Thousand-Rupee Field",
+        "category": "THE BARGAIN COMES DUE",
+        "total": 44,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The court record identifies private parties and their successors.",
+            "Change names, village, survey numbers and loan amount.",
+            "Use the legal dispute as the skeleton but create composite family members and revenue officials."
+          ]
+        }
+      },
+      {
+        "title": "The Land Deal That Became a Thirty-Lakh Promise",
+        "category": "THE BARGAIN COMES DUE",
+        "total": 45,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The judgment concerns recent private individuals and a liveable property dispute.",
+            "Change names, company name, land details and sums.",
+            "Make the protagonist a fictional buyer and use composite co-owners and intermediaries."
+          ]
+        }
+      },
+      {
+        "title": "The House-and-Shop Security Agreement",
+        "category": "THE BARGAIN COMES DUE",
+        "total": 43,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The case is old but the identities and successors are not confirmed deceased for clearance purposes.",
+            "Change names, town, premises and financial terms.",
+            "Retain the loan-versus-sale mechanism and the multi-stage appellate reversal."
+          ]
+        }
+      },
+      {
+        "title": "The Sheo Grid Ghost Shift",
+        "category": "SUPERNATURAL INTRUSION",
+        "total": 43,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The incident is recent enough that workers and officials may be identifiable.",
+            "Change the station, district, employee details and the reported death.",
+            "Use a fictional utility site and keep the ghost-versus-theft question unresolved."
+          ]
+        }
+      },
+      {
+        "title": "The Factory That Lost Its Money to Ghosts",
+        "category": "SUPERNATURAL INTRUSION",
+        "total": 42,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The court record concerns identifiable complainants and accused persons.",
+            "Change the factory, city, amounts, family relationships and spiritualist identity.",
+            "Frame the supernatural elements as allegations and staged claims, not established fact."
+          ]
+        }
+      },
+      {
+        "title": "The Haunted House Instagram Trap",
+        "category": "SUPERNATURAL INTRUSION",
+        "total": 42,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The incident is recent and involves living private individuals.",
+            "Change all names, online handles, locations and victim details.",
+            "Build the serial around a fictional composite of multiple complaints rather than exposing one real complainant."
+          ]
+        }
+      },
+      {
+        "title": "The Man With Two Wives, Two Names and Two Vehicle Registrations",
+        "category": "THE DOUBLE LIFE",
+        "total": 41,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The report concerns a living private individual and an FIR-stage investigation.",
+            "Change names, religion, districts, businesses, documents and the precise family structure.",
+            "Treat the identity allegations as allegations unless a court record establishes them."
+          ]
+        }
+      },
+      {
+        "title": "The Railway Officer Who Had Seventy-Two Wives",
+        "category": "THE DOUBLE LIFE",
+        "total": 45,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The case is recent enough that private individuals and alleged victims may still be identifiable.",
+            "Change the accused’s name, railway zone, districts, religious presentation and all bride details.",
+            "Avoid presenting the reported number of marriages as a judicially verified count unless court records are located."
+          ]
+        }
+      },
+      {
+        "title": "The Family That Became a Different Family in Every City",
+        "category": "THE DOUBLE LIFE",
+        "total": 43,
+        "clearance": {
+          "status": "fictionalize_first",
+          "reasons": [
+            "The case involves living or recently living private individuals and police allegations.",
+            "Change names, family composition, cities, professions, victims and the exact financial instruments.",
+            "Use the family’s shifting performances as fiction rather than asserting every reported offence as proven."
+          ]
+        }
+      }
+    ]
+  },
+  "stage_2_expander_agent": {
+    "output": "data/dossiers.json",
+    "dossier": {
+      "event_id": "evt_dharampur_2025",
+      "title": "The Woman Dharampur Cremated",
+      "one_line_summary": "Eighteen months after her funeral, a missing mother returns alive and must reclaim her children, free men jailed for her murder, and uncover the identity of the woman cremated in her name.",
+      "language": "en",
+      "fantasy": "The underestimated one returns",
+      "protagonist": {
+        "char_id": "kaveri",
+        "who": "Kaveri, a 35-year-old mother who returns to Dharampur after eighteen months away and discovers that the village has already cremated her.",
+        "wants": "To be publicly recognised as herself, regain custody of Tara and Munni, and place the truth of her disappearance on the official record.",
+        "ashamed_of": "She originally left home voluntarily after a family quarrel, without telling her children, before the alleged confinement began.",
+        "does_not_know_at_start": "Her father identified another woman's mutilated body as hers, performed her funeral, and helped send four men to jail for her murder."
+      },
+      "antagonist": {
+        "char_id": "devraj",
+        "who": "Inspector Devraj, the decorated officer who built his reputation on solving Kaveri's supposed murder.",
+        "wants_incompatibly": "He needs Kaveri declared an impostor or conspirator so his murder case, promotion and public authority survive."
+      },
+      "sources": [
+        "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+        "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
+      ],
+      "timeline": [
+        {
+          "id": "t1",
+          "date": "2023",
+          "what_happened": "A woman went missing, and police subsequently registered a murder case after her family identified a badly damaged body as hers.",
+          "confidence": "reported",
+          "source": "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
+        },
+        {
+          "id": "t2",
+          "date": "2023",
+          "what_happened": "The woman's father said the family relied on a tattoo and a black thread tied around the body's leg before performing the last rites.",
+          "confidence": "reported",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+        },
+        {
+          "id": "t3",
+          "date": "2023-2025",
+          "what_happened": "Four accused men were held in jail pending trial in connection with the supposed murder.",
+          "confidence": "reported",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+        },
+        {
+          "id": "t4",
+          "date": "2025-03",
+          "what_happened": "The 35-year-old woman returned alive after approximately eighteen months; relatives and neighbours recognised her, and she supplied Aadhaar and voter identification documents.",
+          "confidence": "reported",
+          "source": "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
+        },
+        {
+          "id": "t5",
+          "date": "2025-03",
+          "what_happened": "The returned woman claimed that she had gone away with one man, was sold to another for Rs 5 lakh, and was kept in Kota until she escaped.",
+          "confidence": "alleged",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+        },
+        {
+          "id": "t6",
+          "date": "2025-03",
+          "what_happened": "Police said medical examination, DNA testing and witness statements would be required before conclusively establishing the returned woman's identity.",
+          "confidence": "reported",
+          "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+        }
+      ],
+      "people": [
+        {
+          "name": "Returned woman (35, name withheld in scout brief)",
+          "role": "Woman reported alive after being presumed murdered and cremated",
+          "motive": "To establish her identity and explain her eighteen-month absence",
+          "public_or_private": "private",
+          "living": true
+        },
+        {
+          "name": "Returned woman’s father (name withheld in scout brief)",
+          "role": "Father who identified the damaged body and participated in the last rites",
+          "motive": "To defend or account for the mistaken identification",
+          "public_or_private": "private",
+          "living": true
+        },
+        {
+          "name": "Imran",
+          "role": "One of four men reported jailed in the supposed murder case",
+          "motive": "To obtain release and defeat the murder allegation",
+          "public_or_private": "private",
+          "living": true
+        },
+        {
+          "name": "Shahrukh",
+          "role": "Jailed accused whom the woman also named in her account of being taken away and allegedly sold",
+          "motive": "To contest the murder case and the woman's separate allegations",
+          "public_or_private": "private",
+          "living": true
+        },
+        {
+          "name": "Sonu",
+          "role": "One of four men reported jailed in the supposed murder case",
+          "motive": "To obtain release and defeat the murder allegation",
+          "public_or_private": "private",
+          "living": true
+        },
+        {
+          "name": "Ejaz",
+          "role": "One of four men reported jailed in the supposed murder case",
+          "motive": "To obtain release and defeat the murder allegation",
+          "public_or_private": "private",
+          "living": true
+        },
+        {
+          "name": "Unidentified second man in alleged sale account",
+          "role": "Man to whom the woman claimed she was sold for Rs 5 lakh",
+          "motive": "Unknown; the reported allegation remains unproven",
+          "public_or_private": "private",
+          "living": true
+        },
+        {
+          "name": "Jhabua superintendent of police (name withheld in scout brief)",
+          "role": "Police official who announced identity-verification measures",
+          "motive": "To establish the returned woman's identity and reassess the investigation",
+          "public_or_private": "public",
+          "living": true
+        },
+        {
+          "name": "Unidentified deceased woman",
+          "role": "Woman whose damaged body was identified and cremated under the missing woman's identity",
+          "motive": "To have her true name and fate recovered",
+          "public_or_private": "private",
+          "living": false
+        }
+      ],
+      "cast": [
+        {
+          "char_id": "kaveri",
+          "name": "Kaveri",
+          "role": "Returned mother forced to prove she is not dead",
+          "want": "To reclaim her name, her children and control over the account of her disappearance",
+          "gender": "female",
+          "age_range": "30s",
+          "maps_to": "Returned woman",
+          "composite": true
+        },
+        {
+          "char_id": "devraj",
+          "name": "Devraj",
+          "role": "Inspector who built the false murder case and tries to preserve it",
+          "want": "To secure his promotion by keeping his celebrated murder solution intact",
+          "gender": "male",
+          "age_range": "40s",
+          "maps_to": "Composite of police roles surrounding the original and reopened investigations",
+          "composite": true
+        },
+        {
+          "char_id": "harilal",
+          "name": "Harilal",
+          "role": "Kaveri's father, who identified and cremated the wrong body",
+          "want": "To avoid admitting that his certainty destroyed two families",
+          "gender": "male",
+          "age_range": "60s+",
+          "maps_to": "Returned woman's father",
+          "composite": true
+        },
+        {
+          "char_id": "tara",
+          "name": "Tara",
+          "role": "Kaveri's older daughter, taught for eighteen months that her mother was dead",
+          "want": "To learn whether her mother was taken away or chose to abandon her",
+          "gender": "female",
+          "age_range": "teens",
+          "maps_to": "Composite child",
+          "composite": true
+        },
+        {
+          "char_id": "munni",
+          "name": "Munni",
+          "role": "Kaveri's younger daughter",
+          "want": "To have her mother home without being forced to choose between adults",
+          "gender": "female",
+          "age_range": "child",
+          "maps_to": "Composite child",
+          "composite": true
+        },
+        {
+          "char_id": "rafiq",
+          "name": "Rafiq",
+          "role": "Jailed mechanic accused of Kaveri's murder",
+          "want": "To leave prison and reopen the workshop his family lost",
+          "gender": "male",
+          "age_range": "30s",
+          "maps_to": "Imran",
+          "composite": true
+        },
+        {
+          "char_id": "mahesh",
+          "name": "Mahesh",
+          "role": "Jailed transport broker accused of murder and named in Kaveri's disputed account of being transferred for money",
+          "want": "To escape the murder charge without exposing what he actually did to Kaveri",
+          "gender": "male",
+          "age_range": "30s",
+          "maps_to": "Shahrukh",
+          "composite": true
+        },
+        {
+          "char_id": "bansi",
+          "name": "Bansi",
+          "role": "Jailed shopkeeper swept into the murder case",
+          "want": "To clear his name before creditors seize his family's shop",
+          "gender": "male",
+          "age_range": "40s",
+          "maps_to": "Sonu",
+          "composite": true
+        },
+        {
+          "char_id": "irfan",
+          "name": "Irfan",
+          "role": "Young driver jailed in the supposed murder case",
+          "want": "To return home before his engagement is permanently broken",
+          "gender": "male",
+          "age_range": "20s",
+          "maps_to": "Ejaz",
+          "composite": true
+        },
+        {
+          "char_id": "farida",
+          "name": "Farida",
+          "role": "Rafiq's sister and public leader of the accused families",
+          "want": "To free her brother and force the village to admit what it did to his name",
+          "gender": "female",
+          "age_range": "30s",
+          "maps_to": "Invented representative of the accused families",
+          "composite": true
+        },
+        {
+          "char_id": "jagat",
+          "name": "Jagat",
+          "role": "Farm contractor whom Kaveri alleges kept her under a coerced marriage arrangement",
+          "want": "To turn documents signed under his control into proof that Kaveri stayed willingly",
+          "gender": "male",
+          "age_range": "40s",
+          "maps_to": "Unidentified second man in alleged sale account",
+          "composite": true
+        },
+        {
+          "char_id": "meera",
+          "name": "Meera",
+          "role": "Junior police records clerk who notices breaks in the corpse evidence chain",
+          "want": "To earn a legitimate promotion rather than remain Devraj's invisible subordinate",
+          "gender": "female",
+          "age_range": "20s",
+          "maps_to": "Invented",
+          "composite": true
+        },
+        {
+          "char_id": "naina",
+          "name": "Naina",
+          "role": "Legal-aid advocate representing the jailed families and later Kaveri",
+          "want": "To break a police case built on reputation rather than proof",
+          "gender": "female",
+          "age_range": "30s",
+          "maps_to": "Invented",
+          "composite": true
+        },
+        {
+          "char_id": "sudha",
+          "name": "Sudha",
+          "role": "Market vendor searching for her missing younger sister",
+          "want": "To discover whether the nameless cremated woman was her sister Leela",
+          "gender": "female",
+          "age_range": "40s",
+          "maps_to": "Invented relative of the unidentified deceased woman",
+          "composite": true
+        },
+        {
+          "char_id": "leela",
+          "name": "Leela",
+          "role": "The unidentified woman cremated under Kaveri's name",
+          "want": "To send her earnings home and return to Sudha, as reconstructed through her surviving records",
+          "gender": "female",
+          "age_range": "30s",
+          "maps_to": "Unidentified deceased woman",
+          "composite": true
+        },
+        {
+          "char_id": "omkar",
+          "name": "Omkar",
+          "role": "Village council head who witnessed Kaveri's funeral and initially bars her from her children",
+          "want": "To preserve his authority by preventing the village from appearing foolish or lawless",
+          "gender": "male",
+          "age_range": "50s",
+          "maps_to": "Invented",
+          "composite": true
+        }
+      ],
+      "adaptability": {
+        "conflict": 9,
+        "characters": 9,
+        "stakes": 10,
+        "serializability": 9,
+        "resonance": 10,
+        "total": 47
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "All names, locations, family structures and identifying details must change because the real participants are living private individuals in a recent case.",
+          "Kaveri is a composite protagonist; no invented conduct should be attributed to the real returned woman.",
+          "The alleged sale and confinement become fictional claims tested through fictional evidence, not assertions about the named real individuals.",
+          "Devraj is a fully composite antagonist and must not be presented as depicting any identifiable officer.",
+          "Leela, Sudha, the children and all evidence-chain misconduct are invented to dramatise the unidentified-body mechanism.",
+          "The murder allegation and the alleged trafficking conduct are resolved separately so that being cleared of one does not imply innocence or guilt in the other."
+        ]
+      },
+      "novelty": {
+        "prior_adaptations": [],
+        "score": 10
+      },
+      "engine": "Every fact that proves Kaveri is alive threatens another person's freedom or reputation: her documents expose the false murder, the false murder conceals Leela's identity, and the account of Kaveri's absence separates four wrongful murder defendants from two men who may still have committed a different crime.",
+      "why_this_works": "The season sells a clean status reversal: Kaveri enters as an alleged impostor at her own funeral and ends as the recognised authority on both women's identities. Each proof she gains opens a more dangerous consequence. Public scalps arrive when Devraj acknowledges her DNA, Farida retracts her accusation, Harilal confesses his mistake, and the final court corrects the record before the same village that watched her humiliation. Status reaches 10 only after the murder case, child custody, confinement account and nameless corpse are all resolved in public.",
+      "fictionalization_map": {
+        "Returned woman (35, name withheld in scout brief)": "Kaveri, a composite returned mother in Dharampur",
+        "Returned woman’s father (name withheld in scout brief)": "Harilal, Kaveri's fictional father",
+        "Imran": "Rafiq, fictional jailed mechanic",
+        "Shahrukh": "Mahesh, fictional transport broker",
+        "Sonu": "Bansi, fictional shopkeeper",
+        "Ejaz": "Irfan, fictional driver",
+        "Unidentified second man in alleged sale account": "Jagat, fictional farm contractor",
+        "Jhabua superintendent of police (name withheld in scout brief)": "Devraj, a composite fictional inspector",
+        "Unidentified deceased woman": "Leela, a wholly fictionalised unidentified victim",
+        "Mandsaur and Jhabua districts, Madhya Pradesh": "Dharampur and Bheelkheda districts in a fictional central Indian state",
+        "Kota": "Navgarh",
+        "Aadhaar and voter ID documents": "Fictional biometric residency card and electoral register entry"
+      },
+      "season": [
+        {
+          "ep": 1,
+          "turn": "Kaveri walks into Dharampur police station during a public ceremony honouring Devraj for solving her murder, and he has her placed behind the complainants' railing as an impostor.",
+          "hook_type": "REVEAL",
+          "ends_on": "Harilal produces Kaveri's death certificate and says he personally lit her funeral pyre.",
+          "pays_off": null,
+          "status": 1
+        },
+        {
+          "ep": 2,
+          "turn": "Devraj converts Harilal's public denial into a formal impersonation-and-forgery arrest against Kaveri.",
+          "hook_type": "THREAT",
+          "ends_on": "Tara and Munni are ordered to remain with Harilal until Kaveri proves she is legally alive.",
+          "pays_off": null,
+          "status": 0
+        },
+        {
+          "ep": 3,
+          "turn": "Kaveri's biometric residency record matches, forcing Devraj to release her from the lockup without recognising her as the children's mother.",
+          "hook_type": "DISCOVERY",
+          "ends_on": "Meera shows Kaveri the prison file containing four men awaiting trial for murdering her.",
+          "pays_off": "Kaveri proves that her identity documents are genuine, defeating the forgery allegation.",
+          "status": 1
+        },
+        {
+          "ep": 4,
+          "turn": "Farida assembles the accused families in the village square and publicly accuses Kaveri of disappearing deliberately while innocent households collapsed.",
+          "hook_type": "ACCUSATION",
+          "ends_on": "Farida plays a saved message in Kaveri's voice saying she left Dharampur by choice.",
+          "pays_off": null,
+          "status": 1
+        },
+        {
+          "ep": 5,
+          "turn": "Kaveri admits she initially left voluntarily but persuades the court to order DNA testing rather than treat the message as proof of an eighteen-month conspiracy.",
+          "hook_type": "DEADLINE",
+          "ends_on": "The court gives Kaveri forty-eight hours to establish maternity before Tara and Munni are transferred to a city shelter.",
+          "pays_off": null,
+          "status": 1
+        },
+        {
+          "ep": 6,
+          "turn": "The DNA result establishes Kaveri as Harilal's daughter and the children's mother, forcing Devraj to acknowledge her identity before the village.",
+          "hook_type": "REVERSAL",
+          "ends_on": "The prosecutor announces that the four men will remain jailed because Kaveri may have conspired to fake her own murder.",
+          "pays_off": "Kaveri is publicly and biologically recognised as herself and as the children's mother.",
+          "status": 3
+        },
+        {
+          "ep": 7,
+          "turn": "Kaveri testifies that Mahesh took her from Dharampur and transferred control of her to Jagat for five lakh rupees, an allegation both men deny.",
+          "hook_type": "ARRIVAL",
+          "ends_on": "Jagat enters the hearing carrying a registered marriage certificate bearing Kaveri's signature.",
+          "pays_off": null,
+          "status": 4
+        },
+        {
+          "ep": 8,
+          "turn": "A document examiner authenticates Kaveri's signature, allowing Devraj to present her alleged confinement as a concealed second marriage.",
+          "hook_type": "BETRAYAL",
+          "ends_on": "Harilal gives Devraj another recording in which Kaveri tells her father she will never come home.",
+          "pays_off": null,
+          "status": 3
+        },
+        {
+          "ep": 9,
+          "turn": "Naina establishes that both recordings predate Kaveri's arrival at Jagat's farm, and Farida publicly retracts her claim that Kaveri invented the entire disappearance.",
+          "hook_type": "RECOGNITION",
+          "ends_on": "Sudha recognises the corpse's tattoo and black leg thread as details belonging to her missing sister Leela.",
+          "pays_off": "Farida acknowledges before the accused families that Kaveri's return may be the reason their relatives go free.",
+          "status": 5
+        },
+        {
+          "ep": 10,
+          "turn": "Sudha supplies Leela's medical and employment records, giving the cremated body a testable second identity for the first time.",
+          "hook_type": "DISCOVERY",
+          "ends_on": "The sealed bone sample listed in the corpse evidence register is missing from the police storeroom.",
+          "pays_off": null,
+          "status": 5
+        },
+        {
+          "ep": 11,
+          "turn": "Meera traces the missing sample's removal order to Devraj, publicly placing the celebrated investigator inside the broken evidence chain.",
+          "hook_type": "THREAT",
+          "ends_on": "A photograph of Tara outside her school arrives from Jagat's registered phone with an order that Kaveri withdraw her confinement statement.",
+          "pays_off": null,
+          "status": 7
+        },
+        {
+          "ep": 12,
+          "turn": "Harilal publicly retracts his identification, admits Devraj rushed him past inconsistencies in the corpse, and apologises to Kaveri and the jailed families.",
+          "hook_type": "ULTIMATUM",
+          "ends_on": "The court gives Devraj until sunrise to produce the corpse sample or face arrest for evidence tampering.",
+          "pays_off": "Harilal finally accepts Kaveri before the funeral witnesses and takes responsibility for the false identification.",
+          "status": 8
+        },
+        {
+          "ep": 13,
+          "turn": "Meera locates the sample under a falsified case number, and its DNA identifies the cremated woman as Sudha's sister Leela.",
+          "hook_type": "REVEAL",
+          "ends_on": "The attached transfer form proves Devraj relabelled Leela's body as Kaveri's before Harilal was brought in to identify it.",
+          "pays_off": "The unidentified cremated woman receives her true identity, and Sudha learns what happened to her sister.",
+          "status": 9
+        },
+        {
+          "ep": 14,
+          "turn": "At a public final hearing, the court separates the crimes: it voids Devraj's false murder case, clears Rafiq, Bansi and Irfan, clears Mahesh of murder but convicts him with Jagat on corroborated confinement and payment records, restores Kaveri's custody, and orders Devraj's arrest.",
+          "hook_type": "RECOGNITION",
+          "ends_on": "The corrected family register names Kaveri as Tara and Munni's living mother and Leela as the woman cremated eighteen months earlier.",
+          "pays_off": "Kaveri's identity, custody and account of confinement are recognised; the false murder defendants receive individual findings; Leela is named and returned to Sudha for proper rites; Harilal makes restitution; and Devraj's manufactured case is publicly broken before the witnesses to Kaveri's humiliation.",
+          "status": 10
+        }
+      ],
+      "never_narrate_as_fact": [
+        "t5: The returned woman claimed that she had gone away with one man, was sold to another for Rs 5 lakh, and was kept in Kota until she escaped. (alleged)"
+      ],
+      "category": "DENIED IDENTITY",
+      "hunt_scores": {
+        "engine_longevity": 9,
+        "hook_density": 10,
+        "emotional_immediacy": 10,
+        "conflict": 9,
+        "cast_depth": 9,
+        "total": 47
+      },
+      "commissioned": {
+        "by": "lathiesh",
+        "at": "2026-07-25T22:01:15+00:00",
+        "over_scout_pick": false
+      }
+    }
+  },
+  "stage_3_script_writer_agent": {
+    "output": "data/stories/evt_dharampur_2025_ep1/",
+    "episode": 1,
+    "title": "The Dead Woman Walks In",
+    "line_count": 71,
+    "word_count": 691,
+    "sfx_cue_count": 24,
+    "lines": [
+      {
+        "speaker": "COMPERE",
+        "text": "For solving Kaveri's murder, Dharampur Police honours Inspector Devraj—",
+        "sfx_cue": "police courtyard applause, microphone squeal"
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Stop! I am Kaveri. Which murder did he solve?",
+        "sfx_cue": "metal gate bangs open"
+      },
+      {
+        "speaker": "tara",
+        "text": "Maa?",
+        "sfx_cue": "applause cuts off, plastic chair falls"
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Tara. Yes. Come here, child. You and Munni, come to me.",
+        "sfx_cue": "hurried footsteps on stone"
+      },
+      {
+        "speaker": "omkar",
+        "text": "Girls, stay where you are.",
+        "sfx_cue": "wooden staff strikes stone once"
+      },
+      {
+        "speaker": "munni",
+        "text": "Didi... she knows my name.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "tara",
+        "text": "Lots of people know our names.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Look at me, Tara. Look properly. That scar beside your ear, you got it falling from my cot.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "tara",
+        "text": "Don't... don't say things like that.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "devraj",
+        "text": "Constable, close the gate. Nobody leaves the courtyard.",
+        "sfx_cue": "police whistle, gate scrapes shut"
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Devraj, tell them. You came to our house twice. You drank tea from the blue steel cup.",
+        "sfx_cue": "crowd murmurs rising"
+      },
+      {
+        "speaker": "devraj",
+        "text": "Let us be precise. You know my name because it was announced on the microphone.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "No. I know your face. I know my father. I know my daughters.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "harilal",
+        "text": "Do not call me that.",
+        "sfx_cue": "walking stick taps forward"
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Baba...",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "harilal",
+        "text": "My daughter is dead.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "WOMAN IN CROWD",
+        "text": "Shameless woman. Today of all days, she came to claim a dead mother's children.",
+        "sfx_cue": "crowd murmurs agreement"
+      },
+      {
+        "speaker": "kaveri",
+        "text": "I am not claiming them. I gave birth to them.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "omkar",
+        "text": "Inspector, remove this disturbance. The district officers are waiting to present your medal.",
+        "sfx_cue": "medal case snaps shut"
+      },
+      {
+        "speaker": "farida",
+        "text": "No, let her speak. You gave medals before giving four innocent men a trial.",
+        "sfx_cue": "bangles clink as someone pushes through chairs"
+      },
+      {
+        "speaker": "devraj",
+        "text": "Farida, this ceremony is not about your brother.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "farida",
+        "text": "You arrested Rafiq for killing Kaveri. Kaveri has just walked through your gate.",
+        "sfx_cue": "crowd erupts"
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Rafiq? The mechanic? What did you do to him?",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "farida",
+        "text": "Eighteen months in jail. Rafiq, Mahesh, Bansi and Irfan. Your murder made Inspector Devraj famous.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "My murder... no. No, I was gone, but I wasn't—",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "devraj",
+        "text": "Enough. A solved case does not collapse because a stranger memorised village gossip.",
+        "sfx_cue": "police baton knocks railing"
+      },
+      {
+        "speaker": "meera",
+        "text": "Sir, identity verification should be recorded before—",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "devraj",
+        "text": "Meera, you are here to manage certificates, not investigations.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "meera",
+        "text": "Yes, sir.",
+        "sfx_cue": "papers gathered quickly"
+      },
+      {
+        "speaker": "NARRATOR",
+        "text": "Before the first clap that morning, one page had already been cut from the corpse register. Nobody in that courtyard saw who took it.",
+        "sfx_cue": "loose paper flutters beneath wooden dais"
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Take my fingerprints. Ask me anything. Tara was born just before dawn. Munni hates milk skin. Baba keeps mother's anklet inside the grain tin.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "harilal",
+        "text": "Quiet.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "You know that is true.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "harilal",
+        "text": "A thief can learn where a family keeps its jewellery.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "munni",
+        "text": "Nana, she sounds like Maa.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "omkar",
+        "text": "Munni, your mother received proper final rites. Do not insult her memory by staring at this woman.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "You brought my children to watch a man receive a prize for my death?",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "tara",
+        "text": "They said you screamed. They said those men killed you near the canal.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Tara, I did not die near any canal.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "tara",
+        "text": "Then where were you?",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "I... I will tell you. Just come here first.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "tara",
+        "text": "No. Answer me first.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "devraj",
+        "text": "She will answer inside, after we establish who she is. Children should not hear an impostor's inventions.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Do not call me an impostor in front of my daughters.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "devraj",
+        "text": "Then provide a valid identity document.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "It was taken. My residency card, my electoral slip, everything. Check your old records.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "meera",
+        "text": "Sir, the old electoral register may have her photograph.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "devraj",
+        "text": "The register records a deceased voter. It cannot testify for a living stranger.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "farida",
+        "text": "But a burnt body testified well enough to jail four men?",
+        "sfx_cue": "scattered claps from crowd"
+      },
+      {
+        "speaker": "devraj",
+        "text": "Farida, your courage is impressive. Your brother's workshop lease is still under police review, isn't it.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "farida",
+        "text": "You already took the workshop. You cannot frighten us with its empty walls.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Inspector, I came for my children. Move aside.",
+        "sfx_cue": "bare feet step forward"
+      },
+      {
+        "speaker": "devraj",
+        "text": "You came into a police station, interrupted an official ceremony and attempted to approach two minors. You will wait where complainants wait.",
+        "sfx_cue": "metal railing gate unlatches"
+      },
+      {
+        "speaker": "kaveri",
+        "text": "I am their mother.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "devraj",
+        "text": "That is your complaint. Stand behind the railing while we examine it.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "CONSTABLE",
+        "text": "Inside, madam.",
+        "sfx_cue": "metal railing gate rattles"
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Don't touch me. Tara, Munni, I am here. I came back for you.",
+        "sfx_cue": "cloth scuffle, railing gate slams"
+      },
+      {
+        "speaker": "MUNNI",
+        "text": "Maa!",
+        "sfx_cue": "child runs two steps"
+      },
+      {
+        "speaker": "omkar",
+        "text": "Hold her, Tara.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "tara",
+        "text": "Munni, stop. Please... just stop.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Baba, tell them about the burn on my left wrist. Tell them how I got it in your kitchen.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "harilal",
+        "text": "Many women have burns.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Tell them what you called me when I was small.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "harilal",
+        "text": "My child is not standing behind that railing.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Then look into my face and say whose body you buried.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "harilal",
+        "text": "We did not bury anyone.",
+        "sfx_cue": "walking stick stops"
+      },
+      {
+        "speaker": "kaveri",
+        "text": "What?",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "devraj",
+        "text": "Harilal, there is no need to discuss evidence publicly.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "harilal",
+        "text": "There is every need. This woman wants the village to doubt my daughter's death.",
+        "sfx_cue": "canvas satchel opens"
+      },
+      {
+        "speaker": "kaveri",
+        "text": "Baba, please. I am standing here.",
+        "sfx_cue": ""
+      },
+      {
+        "speaker": "harilal",
+        "text": "This is Kaveri's death certificate. I identified the body. I personally lit my daughter's funeral pyre.",
+        "sfx_cue": "official paper unfolds beside microphone"
+      }
+    ],
+    "beats": [
+      {
+        "beat_id": "b001",
+        "ep": 1,
+        "seq": 1,
+        "world_time": "2024-08-15",
+        "location": "Dharampur police station records area",
+        "present": [],
+        "witnessed_by": [],
+        "hidden_from": [
+          "kaveri",
+          "devraj",
+          "harilal",
+          "tara",
+          "munni",
+          "rafiq",
+          "mahesh",
+          "bansi",
+          "irfan",
+          "farida",
+          "jagat",
+          "meera",
+          "naina",
+          "sudha",
+          "leela",
+          "omkar"
+        ],
+        "what_happened": "An unknown person has cut one page from the corpse register before the ceremony.",
+        "state_changes": [
+          {
+            "entity": "corpse register",
+            "fact": "One page is missing before Kaveri's return becomes public.",
+            "valence": -3
+          }
+        ],
+        "source_ref": "fictionalized",
+        "tier": "core_canon",
+        "note": "Deliberate open canon: no cast character witnessed the page's removal or knows who removed it."
+      },
+      {
+        "beat_id": "b002",
+        "ep": 1,
+        "seq": 2,
+        "world_time": "2024-08-15",
+        "location": "Dharampur police station courtyard",
+        "present": [
+          "devraj",
+          "harilal",
+          "tara",
+          "munni",
+          "farida",
+          "meera",
+          "omkar"
+        ],
+        "witnessed_by": [],
+        "hidden_from": [
+          "rafiq",
+          "mahesh",
+          "bansi",
+          "irfan"
+        ],
+        "what_happened": "A public police ceremony honours Devraj for solving Kaveri's supposed murder and jailing four accused men.",
+        "state_changes": [
+          {
+            "entity": "devraj",
+            "fact": "His reputation and anticipated promotion are publicly tied to the solved murder case.",
+            "valence": 3
+          },
+          {
+            "entity": "rafiq",
+            "fact": "His imprisonment is publicly presented as part of a solved murder case.",
+            "valence": -3
+          }
+        ],
+        "source_ref": "fictionalized",
+        "tier": "core_canon",
+        "note": null
+      },
+      {
+        "beat_id": "b003",
+        "ep": 1,
+        "seq": 3,
+        "world_time": "2024-08-15",
+        "location": "Dharampur police station courtyard",
+        "present": [
+          "kaveri",
+          "devraj",
+          "harilal",
+          "tara",
+          "munni",
+          "farida",
+          "meera",
+          "omkar"
+        ],
+        "witnessed_by": [],
+        "hidden_from": [
+          "rafiq",
+          "mahesh",
+          "bansi",
+          "irfan",
+          "jagat",
+          "naina",
+          "sudha"
+        ],
+        "what_happened": "Kaveri enters the ceremony alive, identifies her family and demands access to her daughters.",
+        "state_changes": [
+          {
+            "entity": "kaveri",
+            "fact": "Her survival becomes public in Dharampur police station.",
+            "valence": 4
+          },
+          {
+            "entity": "tara",
+            "fact": "She encounters a living woman who knows intimate details and claims to be her mother.",
+            "valence": -2
+          },
+          {
+            "entity": "munni",
+            "fact": "She hears Kaveri identify herself as her mother.",
+            "valence": 2
+          },
+          {
+            "entity": "devraj",
+            "fact": "The central premise of his celebrated murder case is publicly challenged.",
+            "valence": -5
+          }
+        ],
+        "source_ref": "fictionalized",
+        "tier": "core_canon",
+        "note": null
+      },
+      {
+        "beat_id": "b004",
+        "ep": 1,
+        "seq": 4,
+        "world_time": "2024-08-15",
+        "location": "Dharampur police station complainants' railing",
+        "present": [
+          "kaveri",
+          "devraj",
+          "harilal",
+          "tara",
+          "munni",
+          "farida",
+          "meera",
+          "omkar"
+        ],
+        "witnessed_by": [],
+        "hidden_from": [
+          "rafiq",
+          "mahesh",
+          "bansi",
+          "irfan",
+          "jagat",
+          "naina",
+          "sudha"
+        ],
+        "what_happened": "Devraj publicly labels Kaveri an unverified impostor and has her confined behind the complainants' railing.",
+        "state_changes": [
+          {
+            "entity": "kaveri",
+            "fact": "Police classify her claim to her own identity as a complaint requiring verification.",
+            "valence": -4
+          },
+          {
+            "entity": "devraj",
+            "fact": "He preserves official control of the ceremony by treating Kaveri as an impostor.",
+            "valence": 2
+          },
+          {
+            "entity": "farida",
+            "fact": "She publicly connects Kaveri's return to the imprisonment of the four accused men.",
+            "valence": 3
+          }
+        ],
+        "source_ref": "fictionalized",
+        "tier": "core_canon",
+        "note": null
+      },
+      {
+        "beat_id": "b005",
+        "ep": 1,
+        "seq": 5,
+        "world_time": "2024-08-15",
+        "location": "Dharampur police station complainants' railing",
+        "present": [
+          "kaveri",
+          "devraj",
+          "harilal",
+          "tara",
+          "munni",
+          "farida",
+          "meera",
+          "omkar"
+        ],
+        "witnessed_by": [],
+        "hidden_from": [
+          "rafiq",
+          "mahesh",
+          "bansi",
+          "irfan",
+          "jagat",
+          "naina",
+          "sudha"
+        ],
+        "what_happened": "Harilal produces Kaveri's death certificate and states that he identified the body and personally lit the funeral pyre.",
+        "state_changes": [
+          {
+            "entity": "harilal",
+            "fact": "He publicly rejects the living Kaveri by relying on his identification of the cremated body.",
+            "valence": -4
+          },
+          {
+            "entity": "kaveri",
+            "fact": "Her legal death and her father's cremation testimony become immediate barriers to reclaiming her identity.",
+            "valence": -5
+          },
+          {
+            "entity": "death certificate",
+            "fact": "It is publicly presented as proof that Kaveri is dead.",
+            "valence": -4
+          }
+        ],
+        "source_ref": "fictionalized",
+        "tier": "core_canon",
+        "note": null
+      }
+    ],
+    "promises": [
+      {
+        "id": "p001",
+        "raised_ep": 1,
+        "listener_is_waiting_for": "Who removed the page from the corpse register, and what evidence did it contain?",
+        "must_pay_by_ep": 7,
+        "paid_ep": null,
+        "how_paid": null,
+        "status": "open"
+      },
+      {
+        "id": "p002",
+        "raised_ep": 1,
+        "listener_is_waiting_for": "Will Kaveri prove her identity despite her death certificate and regain access to her daughters?",
+        "must_pay_by_ep": 7,
+        "paid_ep": null,
+        "how_paid": null,
+        "status": "open"
+      },
+      {
+        "id": "p003",
+        "raised_ep": 1,
+        "listener_is_waiting_for": "Whose body did Harilal identify and cremate as Kaveri?",
+        "must_pay_by_ep": 7,
+        "paid_ep": null,
+        "how_paid": null,
+        "status": "open"
+      },
+      {
+        "id": "p004",
+        "raised_ep": 1,
+        "listener_is_waiting_for": "What will Kaveri's return do to the murder case against Rafiq, Mahesh, Bansi and Irfan?",
+        "must_pay_by_ep": 7,
+        "paid_ep": null,
+        "how_paid": null,
+        "status": "open"
+      }
+    ],
+    "calendar": {
+      "season_start": "2024-08-15",
+      "dates_fixed": [
+        {
+          "ep": 1,
+          "when": "2024-08-15",
+          "what": "Kaveri interrupts the Independence Day police ceremony honouring Devraj."
+        }
+      ],
+      "periods_fixed": [],
+      "unresolved": []
+    },
+    "rendered_script": "# Episode 1 — The Dead Woman Walks In\n\n# Episode 1 — \"The Dead Woman Walks In\"\n\nSFX: police courtyard applause, microphone squeal\n\nCOMPERE: For solving Kaveri's murder, Dharampur Police honours Inspector Devraj—\n\nSFX: metal gate bangs open\n\nKAVERI: Stop! I am Kaveri. Which murder did he solve?\n\nSFX: applause cuts off, plastic chair falls\n\nTARA: Maa?\n\nSFX: hurried footsteps on stone\n\nKAVERI: Tara. Yes. Come here, child. You and Munni, come to me.\n\nSFX: wooden staff strikes stone once\n\nOMKAR: Girls, stay where you are.\n\nMUNNI: Didi... she knows my name.\n\nTARA: Lots of people know our names.\n\nKAVERI: Look at me, Tara. Look properly. That scar beside your ear, you got it falling from my cot.\n\nTARA: Don't... don't say things like that.\n\nSFX: police whistle, gate scrapes shut\n\nDEVRAJ: Constable, close the gate. Nobody leaves the courtyard.\n\nSFX: crowd murmurs rising\n\nKAVERI: Devraj, tell them. You came to our house twice. You drank tea from the blue steel cup.\n\nDEVRAJ: Let us be precise. You know my name because it was announced on the microphone.\n\nKAVERI: No. I know your face. I know my father. I know my daughters.\n\nSFX: walking stick taps forward\n\nHARILAL: Do not call me that.\n\nKAVERI: Baba...\n\nHARILAL: My daughter is dead.\n\nSFX: crowd murmurs agreement\n\nWOMAN IN CROWD: Shameless woman. Today of all days, she came to claim a dead mother's children.\n\nKAVERI: I am not claiming them. I gave birth to them.\n\nSFX: medal case snaps shut\n\nOMKAR: Inspector, remove this disturbance. The district officers are waiting to present your medal.\n\nSFX: bangles clink as someone pushes through chairs\n\nFARIDA: No, let her speak. You gave medals before giving four innocent men a trial.\n\nDEVRAJ: Farida, this ceremony is not about your brother.\n\nSFX: crowd erupts\n\nFARIDA: You arrested Rafiq for killing Kaveri. Kaveri has just walked through your gate.\n\nKAVERI: Rafiq? The mechanic? What did you do to him?\n\nFARIDA: Eighteen months in jail. Rafiq, Mahesh, Bansi and Irfan. Your murder made Inspector Devraj famous.\n\nKAVERI: My murder... no. No, I was gone, but I wasn't—\n\nSFX: police baton knocks railing\n\nDEVRAJ: Enough. A solved case does not collapse because a stranger memorised village gossip.\n\nMEERA: Sir, identity verification should be recorded before—\n\nDEVRAJ: Meera, you are here to manage certificates, not investigations.\n\nSFX: papers gathered quickly\n\nMEERA: Yes, sir.\n\nSFX: loose paper flutters beneath wooden dais\n\nNARRATOR: Before the first clap that morning, one page had already been cut from the corpse register. Nobody in that courtyard saw who took it.\n\nKAVERI: Take my fingerprints. Ask me anything. Tara was born just before dawn. Munni hates milk skin. Baba keeps mother's anklet inside the grain tin.\n\nHARILAL: Quiet.\n\nKAVERI: You know that is true.\n\nHARILAL: A thief can learn where a family keeps its jewellery.\n\nMUNNI: Nana, she sounds like Maa.\n\nOMKAR: Munni, your mother received proper final rites. Do not insult her memory by staring at this woman.\n\nKAVERI: You brought my children to watch a man receive a prize for my death?\n\nTARA: They said you screamed. They said those men killed you near the canal.\n\nKAVERI: Tara, I did not die near any canal.\n\nTARA: Then where were you?\n\nKAVERI: I... I will tell you. Just come here first.\n\nTARA: No. Answer me first.\n\nDEVRAJ: She will answer inside, after we establish who she is. Children should not hear an impostor's inventions.\n\nKAVERI: Do not call me an impostor in front of my daughters.\n\nDEVRAJ: Then provide a valid identity document.\n\nKAVERI: It was taken. My residency card, my electoral slip, everything. Check your old records.\n\nMEERA: Sir, the old electoral register may have her photograph.\n\nDEVRAJ: The register records a deceased voter. It cannot testify for a living stranger.\n\nSFX: scattered claps from crowd\n\nFARIDA: But a burnt body testified well enough to jail four men?\n\nDEVRAJ: Farida, your courage is impressive. Your brother's workshop lease is still under police review, isn't it.\n\nFARIDA: You already took the workshop. You cannot frighten us with its empty walls.\n\nSFX: bare feet step forward\n\nKAVERI: Inspector, I came for my children. Move aside.\n\nSFX: metal railing gate unlatches\n\nDEVRAJ: You came into a police station, interrupted an official ceremony and attempted to approach two minors. You will wait where complainants wait.\n\nKAVERI: I am their mother.\n\nDEVRAJ: That is your complaint. Stand behind the railing while we examine it.\n\nSFX: metal railing gate rattles\n\nCONSTABLE: Inside, madam.\n\nSFX: cloth scuffle, railing gate slams\n\nKAVERI: Don't touch me. Tara, Munni, I am here. I came back for you.\n\nSFX: child runs two steps\n\nMUNNI: Maa!\n\nOMKAR: Hold her, Tara.\n\nTARA: Munni, stop. Please... just stop.\n\nKAVERI: Baba, tell them about the burn on my left wrist. Tell them how I got it in your kitchen.\n\nHARILAL: Many women have burns.\n\nKAVERI: Tell them what you called me when I was small.\n\nHARILAL: My child is not standing behind that railing.\n\nKAVERI: Then look into my face and say whose body you buried.\n\nSFX: walking stick stops\n\nHARILAL: We did not bury anyone.\n\nKAVERI: What?\n\nDEVRAJ: Harilal, there is no need to discuss evidence publicly.\n\nSFX: canvas satchel opens\n\nHARILAL: There is every need. This woman wants the village to doubt my daughter's death.\n\nKAVERI: Baba, please. I am standing here.\n\nSFX: official paper unfolds beside microphone\n\nHARILAL: This is Kaveri's death certificate. I identified the body. I personally lit my daughter's funeral pyre.\n"
+  }
+}

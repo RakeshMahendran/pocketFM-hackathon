@@ -1,0 +1,1040 @@
+{
+  "stage": "hunt_the_bargain_comes_due",
+  "saved_at": "2026-07-25T21:48:36.315008+00:00",
+  "response": {
+    "id": "resp_0f42ce148d2b1db4006a652efc561c819aa2a802377e5feee2",
+    "created_at": 1785016060.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-luna",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_0f42ce148d2b1db4006a652efcf444819a8a36f057d95b23c2",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS82jvKHlfZXMtL8QGpYpEQPd4pfXbfg0nhbllcIgudNMVK9nn_rBwXqi12lAq2VK6T5qBBOXD_6F4Q4PFqDZ7_CCEpEiqKzz30_3u6PzgeDBW2AL2jxc5oo9xBrDbZBSGHxk56kvuL2YchUeo-layvGNLl7ruFJ4nWr1vfBrGvgj8IYZjJpsgXMdGTgckpL-z1rmJLvjPRhspPbShgWzpjTVBnt4ngoPM4IfJauDvot0wp2HZpx9XSBKjG0qquuH8f9iBdmY8Z9C4uTllH6yYe6ZAhg29R1nk-N2pPRdMn056iu3dfD-T3XpRUKCWiaoWYkQQIIXPJ-1G3pN0yY4EfqA1m_p77e3-DLRBiCi4Q1u9Qugr61mzTKcJNKOjlt2g5NnyS9ww-tkvoTpVrTJc10fyaCMUng1sferUz32wQv4BGN1Zh1y7JyfYDwgtFtoii1SNeBMdwfHcA-cONfFNhOAyWJwZjYVQvns7VFMUJZxepkfTaPHoZYw8Zbcn7eCRCB4FXTuvO2Hw7oFHN0kcDksz_JYU1Fk3dvKgkfN5_E6pKIfgn8lK-2Ik_RUy_4xF2cv__Z2WlYzNCL-67WAxCpYQa27_QV0RVEu1lvrt05KN15niu2mKPC03tr-f_hoJv54pVtLpToBlq-6mTz8IwU8FNGBcZq7e97FS13THIJaxVojsaxV82YTRxuVPKewssulgwWDhEU0B8qEmcAGdh2aGmuIMywrDpXRNOOcpzNgotwoHvzBKt9_qSgvfKCtSHfs6YgfR9aAIADciOvaJClBbzsJ_gZJlNnAGRr9ypEOAFsDKcBfuw7RWKL7RpC84_jBrzcJSr4U--K_4qcKXh25OsAc4XImzdc-0D0ae6zyFFOro4BxBow_vsCCtQjq2G0ffcd_231hp3ep-66GxuVReH22XUGDIkgABtII1IbXC5qPdzNG0ncAf6lU3xdYoCc00TzVVZcugMPMb1Kx9A22fGWHrtfY1DO8ZtCM6PGrgjSZ0JqaG_7M3mTmz5pMsUGnBWmqStLm25Nnp6T0ZH482GCdEhXzAq01hayCeLTIRmrkjQ94CIJUzUYe_OIEf4crYcouMpVajx4SDR4fkkVM2EYGaIfcdqlCr7OmIqe1L0WdT4gjU3xvrJx66lb1clKRf2Wt_RrWlLN_bm1u6a3Rt57HCTUMveSs3xrl6Cqsw4pzDBlpRXUyKcj0PgdFgPvdRrmzK3BAzmi13BtQDZCjPjmdBsFWJMfywHweyijmkvFNnuS6CTTfm0FmOuLLlIVR0tzk715BifcSMWbf3TnwO39TjyrgtePpIveYCn6ziaTzaJcZXwHxIrXf1e9pnpop_jZwI11moqkFrD-7WHb-f_1YrW4OkvDKM3F9ex_XFU4GVvhZWr5ntxeWHJS94bl3t6II1p1CMofjf2HVwX7rVBEXUQYeyabZPGIQWBWbT5kTpeXjCQ6mBfuyfLgz0XEkyET049e5QLPIyUGdLXdkyXtpRNhfFxytHwqoJGWxoLtt2egvfe1acSilAF9eOs-qHjF1ktWKm3IILH1tMyAGSXjY0PHoQikn0bLSIMvuQHDJpKElLf1bTDSQbTWPf3jI1mkWmDUroo6FDHFkINi7MZmMTXKMEog3KkAyJ7t-Nrz009GR0EBhUHOHVydmqvMsdoXZBdv4ReUIaLUh8UAa3W0xsKnAkqE19Lw9_z2OMXaWCd2SP0QVJrS4EtCQuYFji1eLXOngCstptSET2Y2e5tWge36Bb6VnnZYaWeaGxRbs4lVf6N_lBi6aikwn-3wpvTOebjoddObO1vBvxgIs-Zz6t25k8uiG0glP2CkjD-ZTWJkULe4xaNzsmG7Ni6YbHWzP2QRp32g7-zZ6-Y3dHAlL9i_bpOLoEqOXQFgu_NJ73Ectv60fpODWiFk0cOVeoUD-NH-gC83OAYmFFvEq-9OPHoKrfWHhCWNN3QxpDSjjpucWI6Kfk-AyNaTfYPRzjc6IzOkzmbVJj68Ll8P-JcdcXLoopRt4cICJImCJIa0Wz2L31JMS-bNTgQVay3aEmBjLxS7VvCCNZzN-nObctqin3T0z--CrifdfSZ2iJFlM4-BGUeVepIKq3PDgKviX3-UjU94JqcWQtEopSpJp7KVWgTHElJO3_m3hDCJUnyRLHeRVwDqwE9hcGr5qTBridJuPXgkW_Aqv-rQHDg8Z5-0JW_zvYMEQ8CXgE3BvKUG1dPBxjhyWDtaKkQ_H22s",
+        "status": null
+      },
+      {
+        "id": "ws_0f42ce148d2b1db4006a652efec5fc819a8764acb35dbde187",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India regional newspaper \"promised\" \"repay\" debt land court case family bargain",
+            "site:indiankanoon.org debt agreement promise property possession repayment fraud sessions court India",
+            "India police FIR desperate loan promise return money impersonation agreement village",
+            "Bangladesh Nepal Sri Lanka debt promise property court dispute bizarre agreement"
+          ],
+          "query": "India regional newspaper \"promised\" \"repay\" debt land court case family bargain",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/186781144/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1529644/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/93220395/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/7973873/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/57164011/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/62791879/"
+            },
+            {
+              "type": "url",
+              "url": "https://hyderabadpolice.gov.in/assets/news/2023/03Mar/24032023.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/921510/?formInput=cites%3A+183847953"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/526483/?type=pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1152494/?type=pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://eow.delhipolice.gov.in/PressRelease/13-10082023.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://enforcementdirectorate.gov.in/sites/default/files/2025-05/Annual_Report_24-25.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/150775658/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/145914141/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/152774385/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/123420096/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/34900965/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1raisr3/borrowed_7104_promised_to_pay_today_but_blocked/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/1139065/?type=pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1s4grkf/rental_scam_lost_most_of_my_savings_police_not/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1v1f0tp/being_threatened_to_return_money/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/t7po2i"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1up6g76/elderly_witnesses_never_signed_the_fir_now_facing/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/CreditCardsIndia/comments/1tpunyw/trapped_in_12_lakh_credit_card_debt_because_of_a/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/15im6pa"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1gj6l7f"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndiaLaw/comments/1udlkt2/bihar_mother_cheated_of_1520_lakhs_accused_sent/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1udz61d/title_friend_owes_340_lakhs_have_upi_whatsapp/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1ayr47q"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1ll8pfa"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Nagarwala_case"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Rose_Valley_financial_scandal"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/IVRCL_loan_fraud"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Haryana_Government_accounts_fraud"
+            },
+            {
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/Bangladesh%E2%80%93Sri_Lanka_relations"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2410.09594"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1403.2042"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1811.01806"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/2205.05661"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0f42ce148d2b1db4006a652f048010819a8d4146b38ffa5d36",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS82ok2mc_NWPuJ4vG7opQqVuvz7reVcZsS9bCrVMdyb4tgBiPRnf5TDq02l-08meWwAXtBKIA28K_SvdcLWMHJ50-OvF5ET9N4DA0DqsKbqs7NvMLLe7kuZY2icojiABfB7KOckKLvGbxh4pQFZiF_KOiTHlII248ydc5xlOILZizKsWqxy4awrEexmJXMGhOozr5KFh5K1ZqxAin5ezF-bdNCeJ6zlLlgbhXanT5g3TopH1nM4d5-m0XUHLn5pvOZS0JWdoCNlR9kkWAGAIONaBERcryZhg4xQFsUhQoR5zmPZx6DsANdz6zfu1PjxBiPctWnajWGPprczlXPDSMr0WDsIqdpf_D9AqRGrol_8pqJM41fbvt7Y9hzO973dkCcBv3nR9Sw-QzfYbGlk2oRLVOzficOd7_GZv68j_aUnfSMLK9MLTEIdkOYYSbzCFoGwwwoyi4kum59dLt-UIHVILnDM3nxZT0x29lFZgcCmOCQFYdYP1AZEsFSP2lFCpmg6-JC6qqZTyT2MDSWON5anFNdqYnJpgRKHksbYegSjhcxnXtA_9-I8h4BPrXNovqlGDtbjFS3SXz0Gp2mTbuguPz-xOvzD_MRiR8Lcfjypu5WTUlTFjJGimrDhRCMIfN4uk8VAIF_px5VrmjpTrmJ6Y_cYskfkSaR1pzEw39A9k_N-BuUvnaPSP4p6iG8-pPSrsWer9NjwzbYYToUB6meH2aS2xa8CMHQqnnLgVZW9OtP71Sf_TeRPFBiQGl---nXqSaoEGn86egqPTvybj1glW-osVFuo1lczddmtR9usz0mk28uPw9d4PNFMl1sA7mnJvAfsOSB_TxomLPMrWzUJ-Sr3kAKnSp7_Mi3E1gzGavP2mguqmG_YrWl1jPGmVb--ytfKm-1tXpsaQN1CY1u3zTilhtXUiVf0_t5kmk9IWnVqBifpeeF1SZeYxtRHsIzJ_oUi77E0FYsDwBj6iTLyvvR4fsoKlHkh25AlRswdArQ8yY6LY9x5dP3qXMgGDjqxz8J3tksLWb19Wvds8drOekBSX_lWrmEDCQQDzWvoC9phOEhdtEoq8LvY1FJ4ZMeb86NC0JJrr9H4YHPxfmgupaa-A9FDpsf6qeQmhQ6L0r_xwmQ_8-4vNuSQ6RWUz-iD6UOVpThdYVGt_ja0rM4v8v7j4_Yrz026DFf3TBUejNHFb9kaB-OzkEJivOZCvZCoKOB4lnWkMbbtnW2GjqZAfby3EkAhKYT7bRm94Ld4IuoE5ihX8uXvcyNUK5qSACKniXHfrBYD1_yf_yrYahD_0pR0yWEy97QDh376tOqOzabPP-RvwlXXp_nbrKZu4Z2Y--efx3ELle5i8ZRwdkuOYrCuHKvnDKjsZ5nrHrX9bb_y8jcPjT_CdUo8Vra2zYVFcFYZ9Jy8TSqURkgjmzoY9KPMR205fXryL6z6RJ22nAGTifW2QR1ytWbdCusCkD3bR7jXRZd2GxrI1Szlp-Ht0g==",
+        "status": null
+      },
+      {
+        "id": "ws_0f42ce148d2b1db4006a652f0535cc819abde9cfa59681acec",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India \"in return for\" loan promise police arrested debt property village news",
+            "India \"mortgaged\" \"repay the loan\" \"promised\" land court regional newspaper",
+            "site:thehindu.com OR site:indianexpress.com village debt agreement \"in return\" property police",
+            "site:tribuneindia.com OR site:timesofindia.indiatimes.com debt \"stamp paper\" promise property police village"
+          ],
+          "query": "India \"in return for\" loan promise police arrested debt property village news",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/8679687/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/trichy/man-held-for-marrying-minor-to-write-off-her-parents-debt/amp_articleshow/64901466.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://www.freepressjournal.in/amp/bhopal/constable-frv-driver-trapped-while-accepting-bribe-arrested-in-bhopal"
+            },
+            {
+              "type": "url",
+              "url": "https://www.hindustantimes.com/india-news/maharashtra-bank-official-demands-sexual-favours-in-return-for-crop-loan-held/story-IA2viCNEVHOBFhyr2X8rbL.html"
+            },
+            {
+              "type": "url",
+              "url": "https://www.mid-day.com/mumbai/mumbai-crime-news/article/kalyan-eight-arrested-for-posing-as-police-robbing-pune-land-dealer-of-rs-5-lakh-23619894?button=next"
+            },
+            {
+              "type": "url",
+              "url": "https://www.deccanherald.com/india/karnataka/bengaluru/cabbie-pledges-rented-cars-to-raise-loans-with-fake-documents-in-bengaluru-arrested-1230867.html"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/183542135/"
+            },
+            {
+              "type": "url",
+              "url": "https://indianexpress.com/article/cities/pune/threats-abuses-100-calls-from-loan-recovery-agents-a-day-in-the-life-of-pune-investment-scam-victims-8557081/"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/chennai/job-racketeer-arrested-for-rs-1-8-crore-swindle/articleshow/58214158.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/lucknow/3-held-over-christian-conversion-bid-through-financial-inducements-in-ups-sitapur/articleshow/131589575.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://timesofindia.indiatimes.com/city/nagpur/ryots-family-gets-back-land-usurped-by-ytl-moneylender/articleshow/59960892.cms"
+            },
+            {
+              "type": "url",
+              "url": "https://www.telegraphindia.com/west-bengal/nandi-fig-leaf-for-loan-defaulter/cid/611701"
+            },
+            {
+              "type": "url",
+              "url": "https://ibbi.gov.in/uploads/order/507a69c1c7e3649bb7915939cfa75d19.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://storage.firstindia.co.in/public/epapers/February2026/177066305018.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://dspace.gipe.ac.in/xmlui/bitstream/handle/10973/52200/GIPE-022372.pdf?sequence=1"
+            },
+            {
+              "type": "url",
+              "url": "https://sheriahub.com/cases/tz/caselaw/lukonge-gambunala-mhandagani-vs-azania-bank-limited-2-others-land-case-160-of-2021-2022-tzhclandd-12579-30-november-2022.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://financialnewsindia.com/watermark-pdf/17-09-2025/8129121758051113.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://storage.firstindia.co.in/public/epapers/June2026/178154857169.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://arxiv.org/abs/1007.0515"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0f42ce148d2b1db4006a652f0ad768819a9233c290f9ac7adb",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS83a7Uw_3GeNaxad66AR9SwqpiEos3LUq7Q_CVfMg2hElC8mTLIZQ8JDVjQVcd47kdkWtID8TH4XjHDliQPeglyXnqJZx-tgbTI08jEkrx6_bHjIGkxX_FAdy8CPNrAwIIIMp4xCXM6bBQ6QqP5o5uTQRcpEE0hpNh1zYdKIvVyoGfHczQmfEzPFsQlb8LPt4SDQRXwTKO07WRDcph0aeze4-MNCAv7zmwlqvoO0wQ2aYpraKxMnwbk0OoSYOAzbmr6RPTsK2-NiezjuWYKGGew5NT0jMYBfL6RCKHfeHbnMLEr7WvK6Oqk_mh8YTsGKlF0YKYU1OckGSHtWPBmCwag5FoXiLA74KNb6jZKnrXyzAnG7tFG8RsbU5lmKPwdh97pGtdjRwEBpx2z2DkRmX4SCa5_cyqxdt1ovEiRTcb4QLdyrM6TY7P-ROzR64AtnWKVeenZs6ZzVWXhlWKAd6PCbas1jITSQiAm-q9b2rVZGjpzbI0-0cnQPWKKnT2guZ8TUgzWfqqpXFRslemLkuF7JYT05JVS0CCobcS8rICBfMlG9UD6e2cMkuqWFp5jxm8PWFTseVyaGxzJsEFVMML8_5RVO-iShD0u8VYNdzRk-Hf6SJ8MgLdV42C4yJLw0g6WToXfXx7ihIjl2n5RcF6M_Y1YLmSTYZaQP6u76cjz2sboMgEiOqqzYjFJOmqbeoyVor3S1rl4yWgh-wts947t2PN5qWqOaS8WBfV7uT9XTAqo1FKV0MmlB6eSK31KXf0ciZhvSP0oeeJG8bdtZeG3nUwyXzuNHgnAVVKu2VstjfyimK6OKWl4j2LWLjMBeuwdDIfrYCDXFH8kWVKIAzdQnR1E0r5SQwRa62PI-SKPFJbtr8Pc8iegAy9DlcmSf0qiN02iryy9Fl49kmlBug5V2kgKgkrvFrZLPQ3f4MLmjN55zBHKDxY50H5yGrMfsnl7rdKqqy-fXw5pI7meMyiwmP73F0KCdqGJM-Fai2gp2oFXCbjaay_DeBaMBm7ttBW-YI2XjdOpUHFrTREp1wL0z0xPH3gf7rEHLGC308ZHzXRkuMAZHrUjslc1a8vEjRbvAFTIEdoaq68ouccRmHGJQZo2rVZCbcxQPPKFqX7SAItor8c7bBefWPX5Q448iAjIpcxDXtK8MAI1NiQWLomGvj5OLFgt8JIBrbU9kHGQ5lwAk1ReUK0H9B2ndFjl1-6GUJLSwyiAe9L47iJ6WLN3oH4LOgQNjvNzGubzJfdYF36pTbLpK5TJAJq70ZMuJuCBfKGvwvGNxO2qZsJBYD31kI6cyUa9FmRgqjL-PNzJcqjcOqFBWGflDszeD4FJlQCjx-5yBV3wkdkhZesDR_6Jq46LaE3ufxT0KIJLSD1YvamLlT2G5WDRJpT3btPrKc9ThZdPiYf9hml1Re0GPtWSIlR6PKxKr4EN3ZaC384_7K9m7tuAKGa4GJjOi9V5i1ea8rmarTMOFZxX3PM7JK3SZMsDy63nUqW14uLkLscBUxOhwp3ij-z690JW24jszWry26932RYwPISv1yc2VzKHj_rFCiPoob3ohUJF-s5gPcjGsYUmL9M2q9SQPzi8mQBv46M2S7xcjWqJ-ctiJ1G1kpSteBa78YW0RltS8Dw-vWMITsieCtuJBbx3qseyGtFdNA5Y-qdRqxxTzrYcRuai7axixJZsZswPgz9qdDC340YsTo0HINPJvRUwu2GgxuhBXw52FmHI6dkV_cHtilEFfcxPVQksNf0qGEejB9R5qqRe6xbrfJhwT0dVdgXZegROAsbdZPIy_My-GcCIfA19Sg==",
+        "status": null
+      },
+      {
+        "id": "ws_0f42ce148d2b1db4006a652f0ba848819a984aa398af339bde",
+        "action": {
+          "type": "search",
+          "queries": [
+            "India court \"if he repaid\" \"return the land\" moneylender village",
+            "India police \"write off the debt\" offer adult marriage loan",
+            "India \"loan\" \"promise to return\" \"stamp paper\" farmer widow moneylender",
+            "Nepal OR Bangladesh \"debt\" \"in return\" property police arrested loan promise"
+          ],
+          "query": "India court \"if he repaid\" \"return the land\" moneylender village",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/29345377/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/973096/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/153098270/"
+            },
+            {
+              "type": "url",
+              "url": "https://cga.nic.in/writereaddata/Manual_Rupee_Loans_Section.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://heiup.uni-heidelberg.de/catalog/view/1003/1711/101351"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1tpur1n/trapped_in_12_lakh_credit_card_debt_because_of_a/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndianCreditCards/comments/1tpuqex/trapped_in_12_lakh_credit_card_debt_because_of_a/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.kaanoon.com/258937/safety-measures-while-lending-money-to-a-friend"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/ahmedabad/comments/1tpy0z2/trapped_in_12_lakh_credit_card_debt_because_of_a/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/CreditCardsIndia/comments/1tpunyw/trapped_in_12_lakh_credit_card_debt_because_of_a/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/755098/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.guidancelegalhub.com/post/how-to-recover-money-from-a-friend-or-relative-legal-options-in-india"
+            },
+            {
+              "type": "url",
+              "url": "https://www.livemint.com/money/personal-finance/loan-settlement-rs-30-lakh-debt-lenders-banks-nbfcs-loan-recovery-agents-personal-loans-credit-card-bills/amp-11746075288144.html"
+            },
+            {
+              "type": "url",
+              "url": "https://nationaldebtline.org/get-information/guides/full-and-final-settlement-offers-s/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1fiuf5z"
+            },
+            {
+              "type": "url",
+              "url": "https://www.scribd.com/document/919308662/Textbook-Law-and-Taxation"
+            },
+            {
+              "type": "url",
+              "url": "https://www.lawyersnjurists.com/article/aloke-nath-dey-vs-government-of-bangladesh/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/search/?formInput=non+judicial+stamp+paper+tag%3Apower-high-court-for-quashing"
+            },
+            {
+              "type": "url",
+              "url": "https://elibrary.tucl.edu.np/JQ99OgQIizUxyjI9nB0on9OyLkqsGIf4/api/core/bitstreams/3f4dc79a-cf8a-4594-a7e8-429ff138a7ab/content"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/1gj6l7f"
+            },
+            {
+              "type": "url",
+              "url": "https://www.courtkutchehry.com/judgements/1172593/sudhir-jain-vs-sarla-mittal/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/personalfinanceindia/comments/1tt56u2/brotherinlaw_stopped_paying_10_lac_loan_taken_in/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/personalfinanceindia/comments/1sx5x5g/please_suggest_debt_ridden_completely_choked/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/personalfinanceindia/comments/1g9fl78"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/personalfinanceindia/comments/1tv4i06/trusted_my_college_friend_with_15_lakh_now_im/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/LegalAdviceIndia/comments/162i6hv"
+            },
+            {
+              "type": "url",
+              "url": "https://www.reddit.com/r/IndiaFinance/comments/1tfz3cv/m25_in_2cr_debt/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.courtkutchehry.com/judgements/435949/pdf/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1974-pt6/pdf/GPO-CRECB-1974-pt6-6-3.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://icsiiip.in/panel/assets/images/research_articles/16331662765006LEGAL%20IMPLICATIONS%20OF%20WRITING%20OFF%20LOANS%20volume9-issue5%285%29-2020.pdf"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0f42ce148d2b1db4006a652f127b30819abf4ef6dfabf82c22",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS839kbeU5rBZAQI7JC5iBOyHthCw6xrc2azALBkaLqdASmGg7jR3lx_1n9x8ipPkXDM3AITdnAFdFaXusMMhHgEURQUVsmi-5elMWTfjwMipAhy7d0YyqCXQBZHkun3ejnbztwyqrPsP5Y-jLaEK7SK2Xk-oAX60VNsOqJzX8OdwhAtZiIjFE-aDk3Id3ela1Y5ErmaTD0YuKM1RaYFXJUsCQgrRKaCdugvUrvMJsZllMe_Ijl2bkbYtrLh7k9y1nIE4bNiz9mgehc0MmcwdH9Scf-q96nlV-0jhcooRBWxIRaWiTz7z0j5yK0KHNcmxvvpc0UlpRjpbrLgLk5zmCRWw7Zu2sr8TwRwM9vA-aG4L2qG4MTOx4FkGqz3JGyMhz_-W3tzoDK_SVuRtmD_srppUIT9hkWON2I_NuqwWCoJ9g4ebMGCCHNTUNIOuTgTZsdT0LOy2XK7sA5aHeCgB0CIWoqD9m6Ie4cye1E7coKwweacsMKfWyz_t9F40D1NeJrPWWBFtoGH6tfVYLIuy3KX5GE8oCSAdzayg4LS9cP5V03QkritpSFuNcHB5ucTZV43vdlbFHWMzDF8C9S2liPl6AEkcLUSH6D6_AU6-BICRvXpIbkEpQb3d-_wEyB68I-kPscvcA74P9dYr-hTme1XyIjlmZl3Srp3UCm0AkEQyQfN487iK6qJNhgdvDu_u14Tg26AoCqCNMNObNb8-l_XGfoW4j6Ld3x0tkw3xhbfEWkkrzdToPY1GSg5Z-bAprq6EDqqpFozuab_RI1LQ5kp2zV5R2SbH8WOg3GpAvmsLc1_nl4F997gzDAEbLAMMQRWXC9bwB_1tk1syP6ZExPGZoA-6k-esdRGmPKDcg2Yhk4WJC9XntLVGWmXS9XnbXtFWwg6W4JW6cwisQmaHSFJTJUKaTku35AZaq-Ei-fFvSuUpG-w9kQnR4sDCRAfrQp9wrd10CjjFb8D0cN_aZhgEMtJ6yY4QiEVnzk3iEMrC54JZFv67y_EgsuAjOq1UuwijATQmFl8TGMG5TLGA-6z27SG1JZoDwLK2ZBeU8o1zRelco6p1vpXkvlD0u2RPkKHAlP-LjxjkAxMJhPam1_of_m887rekiUeL_c4YD9elInrFrhduw4Mw0dazh05vN2l3pAKsPVG_QtPJ7hzAI_AnoQrrRfyE1WKxpr_OxymGNOktZZpSJeMrwbQmuiAV_IFnTxfNELpUbzYweFdbhK4Ab-ZWnx44YkXoiOVZH3YKuCbNMy9zrQ8Irez988-zUicziYnqKsQiy4E59s3D71tj55BN0KkAj5PVzbuKkne8ypW-cg8w_2MnoEB2PFeO92rW2O0OFILGPVUXJ32b5W0vQ==",
+        "status": null
+      },
+      {
+        "id": "ws_0f42ce148d2b1db4006a652f1372c4819a9945c0cf832a5e78",
+        "action": {
+          "type": "open_page",
+          "url": "https://indiankanoon.org/doc/8679687/"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0f42ce148d2b1db4006a652f18f2b8819aa3508e3bf68d99b5",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS83LNXFL3gVqgm3dZlOPTh6QzvTAWY-gJQl3IsqEtSMr48vLLIaisLwcOeSFdB0OEV_rR3OVKl1EtbMgEYyipFj1VG4vhH64pf75JUmkVVRj8x_jVHBat6JpsMU2jHd9_NVLbXr5VOe1iUI9ZMY-SOskarR1mD3reACH-J9S1LRb6bdodC_Kb3VcqWAUT1mIX5AqCyrolZMKMve0TpQ6dDHZPQHIbI3yj1DiZHax3c6mcpB2lXOksOanhBDTw-M_rQXOEvB7AzChKgIYVkmJ-iEEWT7DJP3Uz73pKW8RpWsHjrnKRQqEZpoNv5FuMARD7cRdLKuRxDMMO3NXH1BI_kQ4C47_JBMbaQ31p-Nu3rRuWbpyh9eSNIaIrZfZXhYrX5EPBE94URZzorh-JH_XVdcx-neSpG_7dCfBU1BDUZI9KevJgIOK5HUDga9E8t4SMcaQDz1G0MkRc2JfsruJA23JsHYMqB7qWIT-X66IsNt8Eef3Dmt3_vFd_Vc_VAsOvrLMk0vaAtCjz6jB3AhEUhUFons5oM3UUYCVPPtGMxb1yQDoBIy5HsHV04wS9fiKz-Zg5o0bjvDIWcK384cWvV9OnfqZFM0GRb6qGGVN8h_CJ4psDRmpyb-xYZj0gF-0Ib8LlcQ8mG19jjeYQ9LT9scQEH2elaLsiigoKxx5Qa29Tcf_mAS3FRm0iwBMluldCnAnHfefC52Hr0wH9drQHhaj3s93tUqdPCnnxouTBub9kf0VSbdJSNoWk9tR3l6trEYT3Mr596zI3xg2q9mAcshaQm3s8FoBfa6fY2tT9nEZT__m51zoFVgJxsyzHsJ_Qjr2vUtxgo6bwGfq4466rNCuAsw5SPLs-4iEGAtHv6p0a7ajP7zCmOFa5UjNYssRJnwceNZediQRHG2WXA06Zz_CKERlLIwfX01C2eKn_t9lElpuls46YbxcAIiSe0RO-xsbGtMJ9xQLmLuRWWbU-OpX42C03-ukATLecrFB5IJCjt1d3RI6eQCfE-WaCN1FrOMdGctqPyBTEtS6RdikrFE-fn2WXS3yjBDXOo_XG6l1AYGFvin60o35gyFc5PIkE2zMidqzgsZdx6wOj7yrmLWCCUtjSTxZoMZMT-n8ANmELUcYmBf8DXd7egGKKuRw-uhpaGDYXVl6Vyk21dKXZdBGg==",
+        "status": null
+      },
+      {
+        "id": "ws_0f42ce148d2b1db4006a652f1934ac819ab35ac7eb2f445a82",
+        "action": {
+          "type": "search",
+          "queries": [
+            "\"Joseph vs Gopal Dass Bansal\" 20 blank cheques possession slip loan",
+            "\"R.Subbu\" \"B.S.Kolandaisamy\" loan security sale agreement",
+            "India court moneylender \"blank cheques\" \"possession slip\" property loan"
+          ],
+          "query": "\"Joseph vs Gopal Dass Bansal\" 20 blank cheques possession slip loan",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/186781144/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/921510/?formInput=cites%3A+183847953"
+            },
+            {
+              "type": "url",
+              "url": "https://www.the-laws.com/Encyclopedia/Browse/Case?caseId=217002775100&title=r-subbu-vs-b-s-kolandaisamy"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/183875127/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/docfragment/171434670/?formInput=loan+payable+on+demand"
+            },
+            {
+              "type": "url",
+              "url": "https://gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/greater_bombay/banking.html"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/80853070/"
+            },
+            {
+              "type": "url",
+              "url": "https://indiankanoon.org/doc/61737751/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.supremecourtcases.com/state-of-karnataka-v-selvi-j-jayalalitha-ors/"
+            },
+            {
+              "type": "url",
+              "url": "https://groups.google.com/g/dda-2010/c/3qWJCiC09vc"
+            },
+            {
+              "type": "url",
+              "url": "https://lawrato.com/indian-kanoon/cheque-bounce-law/the-negotiable-instruments-act-1881-50"
+            },
+            {
+              "type": "url",
+              "url": "https://www.kotak.bank.in/en/get-help/listing-1.html"
+            }
+          ]
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0f42ce148d2b1db4006a652f1dedf8819a81062a7098c6aaa4",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS831jrGJ2w7-A3cwO8Bjf4-KN1VyKApRWrWDEdMLDAbpgO8JXZ886gTEu-2VsVkk2YJ0JZ4y6H78rCYfb_Ql-XzGW-Px1gtl60L3KfQx_0JyAFtxgwFQMJkC7rdeMBDhfrE1R1Ga_0jMqAG8qqw_2rwUb_-nGqrGE_QVdo4N7T-xd9_McYJ4g7qUEBKDV9jyDi6AtU9zDh8oeLrE46jBJ2yw_nVvMRZA85JqW2muIhqCDlV1xn7XjctDRLxuTwsYrE0XRClYa7zSUrc3xIuU9Im_tPojxsTPSoOXNGAV3hyIuDWIHm03JWj0pVJwcb7_V7UjpIpEX6Iw1bqQpxfzUslThVUaokqMSHBvXb73MFKjk9J_-BpuBpkTTca7SzZ5h4hWzuqTF6K0ulmwXbCMq76iv7hEbmBh6Xbk6kbHrNomY9kZfD55KS4ThzWyovj0spaj4PNcq3U8-hYpwZIFic_8tyQNKGxZBWklTp3GNnMfS-MzcwP75qjWtO8Rx9mDyY-kObz_1YAV4vXHG7y9l8YR80pEzXqGvhsfl--OV1OpLo3E63Bg6uBEKdTgGtbojRIGEQw-FazHKaZvtxx6l5zkyi5Puyx208SXefs5F79AJVvLk1rJs9K7PF5U-PoiYKT3YMxTsIngeJ_Zxo8kstHJFyCQgI8wtHubHwfty3OZWxRx3jhrdB2ZSRWjn2M1k1BIFn4IGHKMOT6nyZn5JLUA9IcExGlglwwMmGBA8iBL0jyPLB1mWF6c9xV9Xh7j6NHGMPhD6gHXjI2NNDiZ3Etpdhpt-2bh6WkSoOitpaAQ4hdesiYxOb8Dnm1zuUIpPPQ8iMDuQz0O4DaLLDYB7OWLjAarLlD7DhA6pWkcsl4TSUfaFtvWyLQXHXDraslQFp8tr0g3CyQ4d692JEKj0eLY8jwpud4kxU5O7nmZrdwXlRDMnnKt6viGBK_trTh5eDPoWYWS0RXsTFRJH0ZiFx03GiNxs1bLJUPIRAQmtpPDYzqCGck2MKJyqMLs-h-3FcLTMNCWRbR7Vq61iu6NA66bxll9p3pspmh5sSTphy_Szaa6-q-GgChuz-iKe-QqI6R1IMvuN4qiKci4jBL2Xq9fwV0gCKJJm74PFuMNLxfGZNQv5QLI6AYxj7UyX1cmBsUMusC6azHNsVXRI9IR2xICGsil_tUrgxolQiFU_FbSo8NlXFfrpAe9kEKwYw5KH-xPI1W5Trol4u9xQZIO1Cscx8LvmKG0EXrKTbX2vEa_ObNRDGdGA8kcQn03TICZZaTQc1F7qzckM1FFlL1cb85bNXE39sWNvV7DbIiKgKdZAm003lzJHFkjz5a0P7SsndpRjIgJh9HU6JOL3Cy2m8sWMyTRM2yexvs9QEJVrpvNEsKy9i3FciUplyO-ylAAC7OvzbDW2pdX9pCQGD8LOMGKdgLYuePlFLjIZwke1A56-hROGvzXMHtCgPO0fRWRmHIdOnudyP6X_X6cc77XZpU2_xO5GXajxYHmFxdmdjF6ng7xkdOVHSB15M79Z0mQ8oKEWsyUt8St6TlSt7x3Ed-Pv_tCCsfpySGZW4_Sv4V6VzOPBU3nnGARLD6yPdKdc28ne2TXLNDiKZzHLchweJ-pJeq-pUpQVYoiOMC6AfQblIbnvHnOtgbAFWdZwYAPnXDr6c6khLzac4tZyvHgcIj5pgDu2AjoRlBTZZ2h9cHXbfp8YDT-4YolxmuwqefprAHkT-On3g9VRwe3jPs3_CEeKUub9ZKnrLW7eKtRE3W_tXx3iu2ujHNQtcCqUVuic4R7lrru6GUNYXt6hhGQrboM6gLHUGo4FyBJ4jN1Wkm2-UnAiPKAHrR3hrVsv2nuvVWBFDzFSbhInnJxzB-va1hfKjGge5ahPLTFWFJoIHY5ACqvrW1qY2DTjuvh2nDfgbJf5UzalSEPe5QHvln4K04FADcmGQkZugNMWS5COeQUzR05r_8KEdOCdSMwFj7UPCEA9Wo9IZtcq5QlzZsTn85B036g-1jiuV4Q-pie6t4C-f3BRl9Km5lmE0pTU5rckBawMdOOnR8P5kg-maTulAhF6a8f_-MuOr38ZCNn5P5uZQmW_JHIyK__MXNL2QjjFRnqFFWhn29J8q2ga7t2dBzx28p9wfeWojWmtDfS9OpWkkkjpjO7NxhG45UKTOUPSiAr9E-qpXgiF9Dflwt0WeS3hdNxehsHTx1Acu7stXN4rLj84KaiQt_CsMGU1A5T62494NGUDV61r_IwiP7HiRWSoidRMbnOv0h_YXByS5MIcvaxqFF95vs2FPZf4ZEBOF-E33KDdkQ1HiOCb28edaWl8gfIgdrheOqyXkYiTGCw6ySFf8o_xtfA6mQdMVDf6Cc4ZLwHzc0wMmYUz8QpzVbdi0GLcufDzgZRcTa0d9Md7XPXpUXNLGs5raYePUapJepKwtgXhgE7x7x1BlMsqC-YPTZoQwPkuNHDGZd7BepBX0oLgGl3NJv_1plVkFWPMca9WsPZYgIyRi1ppknSVWNMk3HaewkXsLl0EGZceQ2T5hS9cmaSEx3_ACPWZ4_baTAmnQGeNUa2WkA8i8LOoLPoHmsmOBlVUT0k2vrr6B8pthQvYQ4YNP8ItfOWrvoLHf_oyrZgyChsNNgmtXvY2jfgO6FuJcNxiY_LBreKFAGuXpZRmb8m3XJ0IbvRmIB0hqZx_IJA9gDCs04X_Az9wiUXmFYHG1SX7-_nqY4_ejAd4oClc6iTlUTusDIEzpnAWWO8YL9pyWq_yw_V4aS0WaXnuwOgiqrxJ0XqLt0CzunHY2WGwUNyF7i7p4qTBJcc_reaULqpzRwS9U--q6nAlQ6zRO0vt_lvssW72oQNrD8mcUMWms6ChMvieMpLKjwlavw_VD26OpFnHfyYOL1O8U7bu6a-NpWqtLEjguhPzvudjtg4OyHh-utoOxtk4u8xw6LmdTK6MuvXLLH2MR72lU0n7gRxOBV9cOkXEeoYHzaTOAAqJua1b4tL41tpZqt5uiqE9tswqrqzm8jN2VRS3azFUQJtlBQ0LLI8T0EVhSV4ieREpRJqCaJ7YKM39MSMhLgY-2Fi9dy0zpT2mfgyxMeq93MXGnPMXjLgGrlguYBdCzaCKZ7HuPEplInDPeCY18cFLy5AdSMYfvdCWbMchZAAjYfrIXfnzxoqGeBrFYJ12yAHRAP_-iz1gFdvq0zFLwYxJFYPlwE4GL74PDqJp4VVSxpvn6_agm7ZEaelhrG-glf47Z00tDvKyNnagOV5Ec9TlAJksx-d_Uhzk3npC7K5VRJMMfb_Q4WkUmHymmQJgZpift4_mNO7YnlX4ppu5XBTDt-qZOhLYme7CSLnGRc-rMyOG8GQM5q76ewJq58yCEFgNW5EjfLV1JsWW9RQsZmCdcASQ11Old3H5ZyoVxJznf9TfpM4RIbMHtVJ6B8E_dS1SSV4CNkv_l49UGOeqkGIUR7Hsl65dFkNUnBZIO6Hyp2gFROTGZwewm9yE6P-zqR6kTY37dUy1CK3yWN6sa8oGvB6UPHSr7ZoOUVF5-ZYk3mkXu0FSQwQo_7ccAkEs8HJfRTnZ4TA-gFucyn2lTyBRF9G6HQx30hJUNX_rWgIoXyVpWlYmIiqqrXP4QBTyYdzKZhAuV7VcmIiLKdCRX_fS2P2G_1c8kt9NVW6H6ESc1xapxUgKfqkg92cEY01hJtpLFO65aSEiB9wS-XG-ocAqdfbZMbUT-x5dqfjkgreW11iVjm_ESnekrxwOllPD7eXGC3ltY1kcX0T57O4gP8esKUT3eDCNk90MyGGf5QdQY0NCyrr5VE2tcKNCw-6SnTHS6SKiWXjIIApYwtcLHXsLvPfYiQL3woqzC8DHgja90AN-2PMX8qokmC5YRsG0xMe8LlnVFtVZA75blMezv-8k2nE75WZbFrd-P1WBfBhw==",
+        "status": null
+      },
+      {
+        "id": "ws_0f42ce148d2b1db4006a652f219540819aa56aa3170f37e912",
+        "action": {
+          "type": "open_page",
+          "url": "https://indiankanoon.org/doc/186781144/"
+        },
+        "status": "completed",
+        "type": "web_search_call"
+      },
+      {
+        "id": "rs_0f42ce148d2b1db4006a652f23f834819a91b8f48c6b0b450c",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZS83gTXGxuIKbeSnbShe10j04i8WVYu7PNZoQ5Fgq4zSFPFItJYzZ7TMRA2JaZWnKgXZtQ8J1Lkq2BnnByA21aGFofgTm7fgPRrDofHnnI4BZpBXQJTlQVQ1_53qcKzZ5b6hT0HUUf_imLBvS5NgOt2i3DkvdYGHNi285ADQ75dzvqca86GKcSNxl4G_6RHXg7ENhD_5lUQoXd7dfh4l5_YcU73qimgC0GYZzcTe_V_zECswVn-gFKQGZJXSseAtpQdxkrfMK6RL_JJgzMyvU_3yOVGFQWKm2dmwdZrm_4t42YggeeeK_RmF6BuOQ_3ZBry8PJ9Ekirnm_DrPJ2sgrpo3rgB8pSQflOW8OW-uU3fJzfK3AopHS8JkUQRkCgA0IOTMC421szYUJocSsOtHEnVB9B1vTKSiGLpBURfl4wVV_t9OcO-VcMQY-AMHH9wWVSu4kc5I6sLXTlguT5Yeqg3RnbLg6iYDowcAnFEbT0Jiy4-c1-O9WuP2qDRDCkAdfhPMPfY3tVoiDBvQRtdYRcOY8Ra19Y671bXm300xBfK7amdwgfrhtFlt37GO12KLUh1XPzrK19Bp8kGollAXRor6iH6WXc5LEV4vhcPDNMV11QmPX3T0rPvCxccWfeAFt_2VKuhLXYXB6Hay1E5W1SWiMxjCQXfAf6GG5fCw4JlEU-2oaICTbNEno9KA62ugVRWFNqSsuJYXtNcXDTMqk748Ht1uoXymyxk4DPuntb8Nz5H-Y_6qSGoTLEUAPlgvxxBVIKa9FpihSV61PXJhuD0CVuHYsUieRcDgarC6jWWTcZZE1ikSYvm89nZzBY4ybLYFXls-ygxzHbpu7fz6pMTwYyFA0c921M4vRPletZPC5x0YGiqhc_R4wE5s3au9udY9Z9eOWgoMArQXOKOBfEqKSp19GWNqmY_1MvSan9N1D5gTTb4-bxp13DeRDrKzHNMv3oX_TGsdS8tj5eVYYLxu_j9fAbGW5kT25n1bHeYwcmrGj2gY0ALfbBpbQJdzOnPtq4wjcUSaCXf1gPVtjanWknvjfiAeA5MLKzuZQQHCK7PsS9xY8hN7pU3MpCaHg84x_1jOVSyXr2XlH4OP_Xu8mg6eEJWHKDljlygCjawTT2wvJAiqJ2pbNlTpf_b0yobUFYVhTfeDPVo-a3pWFxujvhz6pwO2adCpYOXXWqJVRMEUFs_NxLWe-5zS9zjvd3EV10bdxuxDdJxXPrFLab3mwQkT_EGKYKi8N4IgyzytFwJp9ZYAXGuRGpfF-StuMjRKRqYnQcPc2oOmHN3sX1Tp7EgU7HtjbyTCulvywUqdjtKXlUkV1-R1pfJwGTJkv2HmsFh3rJ5oFTkqkMwOLGP8wlG2QcRrlTqEkXv2CLhti0VcXxNhrMgmemn7WUT_89uuQiOi7MEh_u33l1S3d47CKbTyfuQZLzOF373LxweQMFCwzycvPCVWctSS4NocOMcyDfBN6SZ_ACgLpgHJe4OIgTCRiXHt6dOHkkIT1l4iIS4ggxkCUtT7uT9PH-o3zvYdUF2I9F01bIIBMA7BMgH8otBzeJhuXux6kawaagRPCPmB9Awz2tifoxvLuxNAWqlXBbULtxaTCKuybO1XFL3mjH3w89HVllYFVhIgP8Ryybgz8ufh7ue1dwwNfzY9kEpy8bgDqBYdnLY-vefRKdAIlGkYF-XlsOz_Dh6Mi9cq0jGp5KCj0Z_t6Nl0cd6b_JtPEUlGaY9qvq6B1n98wDdBuj1UQstSuv7yuLkN7GMy481IHJIqLscml5R4KcrqILOtjH_PX5AtPkGTsRdAiHwDnaYJpvt9bTNSY6BKkaxQ-nZWvcrjQdV3c3TNYWOzBo5kNNieKHyLLXgJrVoPdyZH6BLQMYJi2mxVa1GW5xvh__6yFZte5wLe4t5Kw-c6YLxNvuS2e8Kvw0Aqbr-8lUokeua90-8oUoq4pgIJWNDX3w-ZDgSXEAlK6i-S-2oU9a643QkNTzvkuRBl2xfA4_vkBwDGrEmTPNJB0RULb2Ro1krX8M3k8sOou8i1GrzZTSi2PSmVRgtD1ML7agp9hkyVrJKe6Li-LBTQaihUBibdifA4MmrYjZCRH0EvUqrLYpWo0jJHGE5l7EEk0W9ZCIChMv1S0gz4QRp1ntYwWNCwLeUTzBex2ZcxapAj-beKKgz",
+        "status": null
+      },
+      {
+        "id": "msg_0f42ce148d2b1db4006a652f2593c4819a952639444367ed72",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"winner\":{\"title\":\"The Twenty Cheques for One House\",\"category\":\"THE BARGAIN COMES DUE\",\"one_line\":\"A desperate Delhi borrower gives a neighbourhood lender twenty blank cheques and his house papers for a loan, then discovers the bargain may have turned him from owner into tenant.\",\"year\":\"2003-2025\",\"where\":\"Dakshin Puri, New Delhi, India\",\"mechanism\":\"A ₹1.5 lakh loan was allegedly secured with twenty blank cheques and the original possession slip of the borrower’s home; after repayment disputes, the lender asserted that the house had actually been sold and leased back to the borrower.\",\"engine\":\"The debt never ends when the security itself becomes the battlefield: each cheque, instalment, notice, family witness and possession threat can reopen whether the borrower is a debtor, tenant or owner.\",\"episode_estimate\":180,\"cast\":[{\"name_or_role\":\"Retired Air Force borrower\",\"motive\":\"Needs urgent money but must keep his family inside the only home they have.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Neighbourhood moneylender\",\"motive\":\"Wants either repayment, control of the property or both, while preserving a respectable local-business identity.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Borrower’s brother\",\"motive\":\"Tries to renegotiate instalments and becomes the family’s financial fixer and witness.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Borrower’s wife\",\"motive\":\"Protects the household from eviction while questioning what her husband signed.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Adult legal-heir sons\",\"motive\":\"Recover the possession papers and preserve the family home after the borrower’s death.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Sub-registrar and document witnesses\",\"motive\":\"Their signatures and recollections decide whether the paperwork was a loan, sale or lease.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Police and court officials\",\"motive\":\"Must decide whether the dispute is fraud, debt recovery, property possession or a private civil fight.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":9,\"hook_density\":9,\"emotional_immediacy\":9,\"conflict\":10,\"cast_depth\":9,\"total\":46},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The underlying case is recent and the named parties may be living or represented by living heirs.\",\"Change names, locality, property number and exact loan figures.\",\"Tell the story through fictional borrowers, adult heirs and composite officials rather than reproducing allegations about identifiable private citizens.\"]},\"prior_adaptations\":[],\"sources\":[\"https://indiankanoon.org/doc/186781144/\"],\"facts\":[{\"what_happened\":\"The judgment records the borrower’s account that he sought a ₹1,50,000 loan in May 2003 and was asked to provide twenty blank cheques and the original possession slip of his property as security.\",\"source\":\"https://indiankanoon.org/doc/186781144/\",\"confidence\":\"reported\"},{\"what_happened\":\"The borrower’s account says repayment was arranged through monthly instalments of ₹6,000, later reduced to ₹4,500, with additional payments made by his brother.\",\"source\":\"https://indiankanoon.org/doc/186781144/\",\"confidence\":\"reported\"},{\"what_happened\":\"The borrower alleged that, after repayment disputes, the lender sent a notice claiming ownership of the house, declared the borrower a tenant and demanded rent and possession.\",\"source\":\"https://indiankanoon.org/doc/186781144/\",\"confidence\":\"reported\"},{\"what_happened\":\"The lender’s defence was that the property had been voluntarily sold for ₹3 lakh, followed by a lease allowing the borrower to remain in the premises as a tenant.\",\"source\":\"https://indiankanoon.org/doc/186781144/\",\"confidence\":\"reported\"},{\"what_happened\":\"The case involved competing claims over registered sale documents, a general power of attorney, a will, a lease deed, possession papers and multiple cheques.\",\"source\":\"https://indiankanoon.org/doc/186781144/\",\"confidence\":\"verified\"},{\"what_happened\":\"The court found the lender’s claim of rent was doubtful, noting that the evidence did not make the alleged tenancy commercially convincing.\",\"source\":\"https://indiankanoon.org/doc/186781144/\",\"confidence\":\"verified\"},{\"what_happened\":\"The judgment ultimately treated the transaction as securing a loan rather than a genuine sale, while requiring restoration of the money received before cancellation of the instruments.\",\"source\":\"https://indiankanoon.org/doc/186781144/\",\"confidence\":\"verified\"}],\"why_this_sells\":\"The instant fear is recognisable: one signature made during a money emergency can turn the family home, every cheque and every knock at the door into a new payment deadline.\",\"why_not\":\"The court record contains sharply conflicting versions, so the adaptation must fictionalize aggressively and preserve uncertainty rather than present every allegation as fact.\"},\"also_considered\":[{\"title\":\"The Twenty-Thousand-Rupee Field\",\"category\":\"THE BARGAIN COMES DUE\",\"one_line\":\"A family signs away several parcels of land for a tiny emergency loan, then spends years trying to pay the money back before the lender’s mutation entry becomes permanent.\",\"year\":\"1993-2020\",\"where\":\"Raigarh, Chhattisgarh, India\",\"mechanism\":\"A registered sale deed was allegedly used as security for a ₹20,000 loan, alongside a separate promise to return most of the land if the money was repaid by a deadline; the lender later pursued mutation as owner.\",\"engine\":\"The bargain remains alive through repayment deadlines, revenue records, possession, legal heirs and the question of whether a stamped sale deed can conceal a loan.\",\"episode_estimate\":150,\"cast\":[{\"name_or_role\":\"Borrowing landowning family\",\"motive\":\"Recover agricultural plots that were meant to be temporary security.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Lender and his heirs\",\"motive\":\"Hold onto land legally transferred in their name despite the repayment promise.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Naib tahsildar\",\"motive\":\"Process the mutation that can convert a private bargain into official ownership.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Sub-divisional officer\",\"motive\":\"Undo or uphold the revenue entry after competing documents surface.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Trial and appellate judges\",\"motive\":\"Decide whether the transaction was an outright sale or debt security.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Village witnesses\",\"motive\":\"Protect local relationships while choosing which version of the bargain to support.\",\"spinoff_potential\":\"high\"}],\"scores\":{\"engine_longevity\":9,\"hook_density\":9,\"emotional_immediacy\":8,\"conflict\":10,\"cast_depth\":8,\"total\":44},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The court record identifies private parties and their successors.\",\"Change names, village, survey numbers and loan amount.\",\"Use the legal dispute as the skeleton but create composite family members and revenue officials.\"]},\"prior_adaptations\":[],\"sources\":[\"https://indiankanoon.org/doc/8679687/\"],\"facts\":[],\"why_this_sells\":\"A listener understands the terror immediately: a small debt can swallow fields, records and the family’s future.\",\"why_not\":\"The strongest reversal arrives through legal doctrine and may need a more emotionally active family wrapper to sustain daily cliffhangers.\"},{\"title\":\"The Land Deal That Became a Thirty-Lakh Promise\",\"category\":\"THE BARGAIN COMES DUE\",\"one_line\":\"A Bangalore land intermediary takes ₹5 lakh to settle a disputed family property, disappears from the chain of promises and leaves behind cheques that inflate the debt fivefold.\",\"year\":\"2013-2025\",\"where\":\"Kodigehalli and K.R. Puram, Bengaluru, Karnataka, India\",\"mechanism\":\"Money was advanced toward a disputed 1-acre-33-gunta property; after the promised settlement failed, the accused acknowledged repayment in police correspondence, eventually promising ₹10 lakh against the original ₹5 lakh while the complainant allegedly demanded ₹30 lakh.\",\"engine\":\"The bargain mutates every time it is renegotiated: land settlement, advance, police complaint, written admission, replacement promise and dishonoured cheque create a new countdown.\",\"episode_estimate\":125,\"cast\":[{\"name_or_role\":\"Cash-paying purchaser\",\"motive\":\"Recover money committed to land that never became transferable.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Property-holder representative\",\"motive\":\"Use access to a disputed family parcel to attract advances and delay repayment.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Jayanth Enterprises intermediary\",\"motive\":\"Control the money trail while claiming the transaction belongs to another party.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Family co-owners of the land\",\"motive\":\"Protect inherited property caught inside someone else’s promise.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Police station officer\",\"motive\":\"Record a settlement without deciding whether the underlying land bargain was legitimate.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Cheque-bounce court\",\"motive\":\"Turn a failed private promise into a criminally enforceable payment dispute.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":10,\"emotional_immediacy\":8,\"conflict\":10,\"cast_depth\":9,\"total\":45},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The judgment concerns recent private individuals and a liveable property dispute.\",\"Change names, company name, land details and sums.\",\"Make the protagonist a fictional buyer and use composite co-owners and intermediaries.\"]},\"prior_adaptations\":[],\"sources\":[\"https://indiankanoon.org/doc/29345377/\"],\"facts\":[],\"why_this_sells\":\"The recognisable fear is paying to unlock a dream property and then watching every promise to refund become larger, later and less believable.\",\"why_not\":\"The story is driven more by financial escalation and documents than by a single intimate household, so the adaptation needs a strong family or romance wrapper.\"},{\"title\":\"The House-and-Shop Security Agreement\",\"category\":\"THE BARGAIN COMES DUE\",\"one_line\":\"A small-town businessman borrows ₹1.5 lakh, agrees to repay it in thirty-six instalments and signs a sale agreement that the lender later treats as a ticket to the entire house and shop.\",\"year\":\"1986-2007\",\"where\":\"Bhavani, Erode district, Tamil Nadu, India\",\"mechanism\":\"A borrower says a sale agreement for ₹2 lakh was actually security for a ₹1.5 lakh loan carrying roughly 36% annual interest, with property papers taken as additional security and repayment spread over thirty-six instalments.\",\"engine\":\"Every instalment becomes a test of the original bargain: loan or sale, interest or purchase price, security or ownership, with appeals and newly produced documents reopening the deal years later.\",\"episode_estimate\":140,\"cast\":[{\"name_or_role\":\"House-and-shop owner\",\"motive\":\"Raise emergency capital without surrendering the premises that support the family.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Financier\",\"motive\":\"Convert a high-interest loan and signed agreement into permanent control of valuable property.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Borrower’s family business partners\",\"motive\":\"Keep the shop operating while the title dispute threatens the income source.\",\"spinoff_potential\":\"high\"},{\"name_or_role\":\"Trial-court witnesses\",\"motive\":\"Prove whether the document was understood as a sale or merely security.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Appellate judges\",\"motive\":\"Reopen the case when additional documents appear years later.\",\"spinoff_potential\":\"med\"},{\"name_or_role\":\"Document-producing financier witnesses\",\"motive\":\"Establish a pattern of lending and the real purpose of the agreement.\",\"spinoff_potential\":\"med\"}],\"scores\":{\"engine_longevity\":8,\"hook_density\":9,\"emotional_immediacy\":8,\"conflict\":10,\"cast_depth\":8,\"total\":43},\"clearance\":{\"status\":\"fictionalize_first\",\"reasons\":[\"The case is old but the identities and successors are not confirmed deceased for clearance purposes.\",\"Change names, town, premises and financial terms.\",\"Retain the loan-versus-sale mechanism and the multi-stage appellate reversal.\"]},\"prior_adaptations\":[],\"sources\":[\"https://indiankanoon.org/doc/921510/\",\"https://www.the-laws.com/Encyclopedia/Browse/Case?caseId=217002775100&title=r-subbu-vs-b-s-kolandaisamy\"],\"facts\":[],\"why_this_sells\":\"The fear lands instantly for any shopkeeper: the paper signed to save the business may be the same paper that takes it away.\",\"why_not\":\"Its long legal timeline is excellent for a serial engine but needs invented domestic scenes because the accessible record is heavier on procedural history than personal life.\"}]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [
+      {
+        "type": "web_search",
+        "filters": null,
+        "search_context_size": "high",
+        "user_location": {
+          "city": null,
+          "country": "IN",
+          "region": null,
+          "timezone": null,
+          "type": "approximate"
+        },
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ]
+      }
+    ],
+    "top_p": 0.98,
+    "background": false,
+    "completed_at": 1785016118.0,
+    "conversation": null,
+    "max_output_tokens": 32000,
+    "max_tool_calls": 12,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "hunt",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "winner",
+            "also_considered"
+          ],
+          "properties": {
+            "winner": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "title",
+                "category",
+                "one_line",
+                "year",
+                "where",
+                "mechanism",
+                "engine",
+                "episode_estimate",
+                "cast",
+                "scores",
+                "clearance",
+                "prior_adaptations",
+                "sources",
+                "facts",
+                "why_this_sells",
+                "why_not"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "THE BARGAIN COMES DUE"
+                  ]
+                },
+                "one_line": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "string"
+                },
+                "where": {
+                  "type": "string"
+                },
+                "mechanism": {
+                  "type": "string"
+                },
+                "engine": {
+                  "type": "string"
+                },
+                "episode_estimate": {
+                  "type": "integer"
+                },
+                "cast": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name_or_role",
+                      "motive",
+                      "spinoff_potential"
+                    ],
+                    "properties": {
+                      "name_or_role": {
+                        "type": "string"
+                      },
+                      "motive": {
+                        "type": "string"
+                      },
+                      "spinoff_potential": {
+                        "type": "string",
+                        "enum": [
+                          "high",
+                          "med",
+                          "low"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "scores": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "engine_longevity",
+                    "hook_density",
+                    "emotional_immediacy",
+                    "conflict",
+                    "cast_depth",
+                    "total"
+                  ],
+                  "properties": {
+                    "engine_longevity": {
+                      "type": "integer"
+                    },
+                    "hook_density": {
+                      "type": "integer"
+                    },
+                    "emotional_immediacy": {
+                      "type": "integer"
+                    },
+                    "conflict": {
+                      "type": "integer"
+                    },
+                    "cast_depth": {
+                      "type": "integer"
+                    },
+                    "total": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "clearance": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "status",
+                    "reasons"
+                  ],
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "greenlight",
+                        "fictionalize_first",
+                        "blocked"
+                      ]
+                    },
+                    "reasons": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "prior_adaptations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "facts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "what_happened",
+                      "source",
+                      "confidence"
+                    ],
+                    "properties": {
+                      "what_happened": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "verified",
+                          "reported",
+                          "alleged",
+                          "disputed"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "why_this_sells": {
+                  "type": "string"
+                },
+                "why_not": {
+                  "type": "string"
+                }
+              }
+            },
+            "also_considered": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "title",
+                  "category",
+                  "one_line",
+                  "year",
+                  "where",
+                  "mechanism",
+                  "engine",
+                  "episode_estimate",
+                  "cast",
+                  "scores",
+                  "clearance",
+                  "prior_adaptations",
+                  "sources",
+                  "facts",
+                  "why_this_sells",
+                  "why_not"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "THE BARGAIN COMES DUE"
+                    ]
+                  },
+                  "one_line": {
+                    "type": "string"
+                  },
+                  "year": {
+                    "type": "string"
+                  },
+                  "where": {
+                    "type": "string"
+                  },
+                  "mechanism": {
+                    "type": "string"
+                  },
+                  "engine": {
+                    "type": "string"
+                  },
+                  "episode_estimate": {
+                    "type": "integer"
+                  },
+                  "cast": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "name_or_role",
+                        "motive",
+                        "spinoff_potential"
+                      ],
+                      "properties": {
+                        "name_or_role": {
+                          "type": "string"
+                        },
+                        "motive": {
+                          "type": "string"
+                        },
+                        "spinoff_potential": {
+                          "type": "string",
+                          "enum": [
+                            "high",
+                            "med",
+                            "low"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "scores": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "engine_longevity",
+                      "hook_density",
+                      "emotional_immediacy",
+                      "conflict",
+                      "cast_depth",
+                      "total"
+                    ],
+                    "properties": {
+                      "engine_longevity": {
+                        "type": "integer"
+                      },
+                      "hook_density": {
+                        "type": "integer"
+                      },
+                      "emotional_immediacy": {
+                        "type": "integer"
+                      },
+                      "conflict": {
+                        "type": "integer"
+                      },
+                      "cast_depth": {
+                        "type": "integer"
+                      },
+                      "total": {
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "clearance": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "status",
+                      "reasons"
+                    ],
+                    "properties": {
+                      "status": {
+                        "type": "string",
+                        "enum": [
+                          "greenlight",
+                          "fictionalize_first",
+                          "blocked"
+                        ]
+                      },
+                      "reasons": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "prior_adaptations": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "sources": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "what_happened",
+                        "source",
+                        "confidence"
+                      ],
+                      "properties": {
+                        "what_happened": {
+                          "type": "string"
+                        },
+                        "source": {
+                          "type": "string"
+                        },
+                        "confidence": {
+                          "type": "string",
+                          "enum": [
+                            "verified",
+                            "reported",
+                            "alleged",
+                            "disputed"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "why_this_sells": {
+                    "type": "string"
+                  },
+                  "why_not": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 59907,
+      "input_tokens_details": {
+        "cache_write_tokens": 8787,
+        "cached_tokens": 0
+      },
+      "output_tokens": 4466,
+      "output_tokens_details": {
+        "reasoning_tokens": 1722
+      },
+      "total_tokens": 64373
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 4
+      }
+    }
+  }
+}
