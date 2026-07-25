@@ -1,62 +1,108 @@
 # Discovery
 
-Produces a pool of candidate events for the scorer. Not "search the web" —
-pick source families, normalize to one shape, dedupe, cheap-filter, done.
+Produces a pool of scored candidate events for the scorer. Not "search the web
+for news" — a scout prompt hunts eight story shapes, scores what it finds against
+five serial-specific criteria, and returns only what clears the bar.
 
 Run **once**, commit `data/corpus.json`, never run live. See `src/discovery/`.
 
-## Four sources
+> Supersedes the four-source-API design. See `DELIVERY_PLAN.md` §0 decision 9.
 
-| Source | Tier | Auth | Notes |
-|---|---|---|---|
-| Indian Kanoon | `documented` | token | Best source nobody uses. A judgment is a completed narrative with facts established by a judge, public domain. POST, token in Authorization header, `pagenum` starts at 0. Operators are `ANDD` / `ORR` / `NOTT` — doubled letters, case sensitive, spaces both sides. |
-| GDELT DOC 2.0 | `documented` | none | Free, no key. An *event* database over global news, not a news API. Default window 3 months; use `startdatetime`/`enddatetime` in `YYYYMMDDHHMMSS` to go further back. Returns HTML error pages with a 200 — guard the JSON parse. |
-| Reddit | `anecdotal` | OAuth | The bare `.json` endpoint died for unauthenticated clients in late May 2026 (403 via TLS fingerprinting, not headers). Use PRAW with a "script" app. Free tier 100 QPM. |
-| Wikipedia | `historical` | none | MediaWiki API, category members then batched extracts. Pre-vetted for notability, old enough that clearance auto-greenlights. |
+## How it runs
 
-## Cost
+```
+hunter.md (scout prompt)
+        │
+        ▼
+eight passes, one per category ──► OpenAI Responses API + web_search tool
+        │
+        ▼
+strict JSON schema ──► citation grounding ──► tier by domain ──► dedupe ──► corpus.json
+```
 
-Indian Kanoon is prepaid but effectively free here: ₹500 credit on signup,
-₹10,000/month for non-commercial use subject to admin verification (request that
-early — there's a human in the loop). A 100-result search without full text is
-about ₹5. The whole corpus costs under ₹50.
+`python tasks.py corpus`. Refuses to run when `OFFLINE=1`; discovery opens
+sockets and must never sit on the demo path.
 
-## Tier is load-bearing
+## The eight categories
 
-Not bookkeeping. It decides what downstream is allowed to do:
+Every candidate must fit one, and each gets its own pass so a barren category is
+visible rather than averaged away: denied identity, secret status, revenge, the
+long deception, family betrayal, the bargain comes due, supernatural intrusion,
+the double life.
 
-- `documented` → real event, real people, needs a clearance verdict
-- `anecdotal` → an anonymous stranger's account. Inspiration, never a real
-  event. No clearance risk, but you cannot claim it is true.
-- `historical` → auto-greenlight, principals long dead
+The full prompt is `src/discovery/prompts/hunter.md` and it is the real work in
+this stage. Tune it there, never in a `.py`.
 
-Without the tier the clearance layer has nothing to reason about.
+## Scoring
 
-## Query design is the actual work
+Five criteria, 0–10 each, **38+ total to survive**: engine longevity (weighted
+highest), hook density, emotional immediacy, conflict, cast depth.
 
-Generic crime terms return thousands of procedurally boring appeals. What you
-want is offences whose facts *require a story to have happened* — deception,
-substitution, betrayal of trust. See `IK_QUERIES` and `GDELT_QUERIES` in
-`src/discovery/fetchers.py`.
+These are deliberately *not* the dossier's `adaptability` sub-scores. The scout
+is triaging hundreds of candidates on serial mechanics; the scorer commits to one
+event in depth. Two judgements at two depths, stored separately — the scout's
+scores stay on the corpus item, and stage 2 produces `adaptability` itself.
 
-## Pre-filter before scoring
+`MIN_TOTAL` is re-checked in code as well as stated in the prompt. A prompt
+cannot be relied on to enforce its own threshold, and a scored-but-rejected
+candidate is diagnostic information worth logging.
 
-Scoring costs an LLM call per candidate. Gate with pure code first: no named
-entities, too short, no conflict vocabulary, outside the date window → discard.
-Kills roughly 90% for free.
+## Mechanism, not magnitude
 
-Two findings worth keeping:
+The instruction that matters most: never search "biggest scam" or "most famous
+fraud" — that returns the same six cases everyone has already adapted. Hunt for
+strange *mechanisms*: staged events, substitutions, fabricated institutions,
+identities that held for years. Small local events with bizarre mechanisms are
+the gold, because they are exactly what human editors miss.
 
-- **Headline paraphrases score low on fuzzy matching.** Two real headlines about
-  the same event scored 63 on `token_set_ratio`. Dedupe uses content-token
-  overlap as the primary signal; fuzz is a fallback for near-identical wire copy.
-- **The conflict lexicon must include deception verbs** — `dupe`, `fake`,
-  `staged`, `rigged`. An early version omitted them and discarded the entire
-  fake-IPL story at the gate. Con stories are the richest vein in this corpus.
+## Tier is gone. Clearance is the verdict.
 
-## Known limitation
+Under the old design, tier came from the fetcher that produced an item, so it was
+provenance by construction. Search returns arbitrary domains, and a dry run of
+the scout showed the obvious replacement — an allowlist of "trusted" domains —
+tagging perfectly good national outlets as untrusted because they were not on a
+list somebody guessed at. It graded nothing and added noise, so it was cut.
 
-Lexical dedupe misses "Gujarat police bust counterfeit cricket league" as the
-same event as "Villagers staged fake IPL" — almost no shared surface tokens.
-That is where embeddings would earn their place. For a 200-item corpus, eyeball
-the clusters once and hand-merge.
+Items now carry a plain `domain` field. Where a claim came from stays visible;
+the pipeline just stops pretending to rank it.
+
+Clearance is the verdict that matters, and the scout issues it directly:
+`greenlight` / `fictionalize_first` / `blocked`. Expect most good candidates in
+`fictionalize_first` — recent cases involving living private individuals are
+exactly where the strange mechanisms are, so the prompt asks what has to change
+(names, place, whose point of view) rather than rejecting the event. India
+retains criminal defamation alongside civil, which is why the fictionalization
+map is mandatory rather than advisory.
+
+## Citation grounding
+
+Every URL a candidate cites is checked against the search call's actual consulted
+sources (`include: ["web_search_call.action.sources"]`, plus inline annotations).
+A candidate left with no grounded URL is dropped.
+
+This is the failure mode of search-sourced corpora: a model citing a plausible
+address it never opened. Everything downstream treats a corpus item as sourced
+fact, so a fabricated citation is worse than a missing candidate.
+
+## Dedupe survives, prefilter does not
+
+**Dedupe stays.** The same event surfaces under several categories and the scout
+has no memory across passes. Two findings still hold and should not be "fixed":
+
+- **Headline paraphrases score low on fuzzy matching** — two real headlines about
+  one event scored 63 on `token_set_ratio`. Content-token overlap is the primary
+  signal; fuzz is the fallback for near-identical wire copy.
+- **Lexical dedupe misses genuine paraphrases** with no shared surface tokens.
+  For a corpus this size, eyeball the clusters once at freeze time and hand-merge.
+
+**Prefilter is gone.** It existed to kill raw junk before paying for a model
+call. By this point the model call has already happened and the junk is already
+rejected; running it now would delete finished work. The function is still in
+`fetchers.py` and still tested — it is simply not on this path.
+
+## What is left in `fetchers.py`
+
+`make_item`, `dedupe`, `prefilter` and the conflict lexicon. The four `fetch_*`
+functions are unused but kept: they are documented, they cost nothing, and if an
+Indian Kanoon token ever appears they are the fastest route to full judgment
+text, which is the one thing web search will not hand you.

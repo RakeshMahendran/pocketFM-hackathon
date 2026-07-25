@@ -20,6 +20,14 @@ since it was written.
 | 6 | **Cache layer is built before the first LLM call**, not in integration. | Every dev iteration replays free, and the demo kill switch gets exercised daily instead of first being trusted on the night. |
 | 7 | **The beat fixture is hand-expanded to a full season** before the serial writer exists. | Gate 1 is meaningless on 7 beats. Hand-authoring is free, forces the story design, and becomes the fallback canon if the writer disappoints. |
 | 8 | **`tasks.py` replaces `make`.** | `make` is not installed on the Windows dev box. One implementation; the Makefile delegates. |
+| 9 | **Discovery is OpenAI web search, not the four source APIs.** One hunt per story category, scored by the scout prompt in `src/discovery/prompts/hunter.md`. Decided 2026-07-25 by P3. | No API tokens to chase, and the scout can hunt *mechanism* rather than keyword — the fetchers could only match vocabulary they were told in advance. Costs: discovery becomes a fourth LLM stage, and provenance now has to be derived rather than assumed. See the two consequences below. |
+
+### Consequences of decision 9 — **P1 action needed**
+
+- **Tier is gone.** `CLAUDE.md`'s vocabulary table defines `documented` / `anecdotal` / `historical` as fetcher-derived provenance. With search sourcing there is no fetcher to derive it from, and a domain allowlist graded good outlets as untrusted. Corpus items carry a plain `domain` instead, and clearance — which is what tier fed — now comes straight from the scout. `CLAUDE.md` is P1's file, so this is a request, not an edit.
+- **`CLAUDE.md` says only three stages call an LLM**, and `ARCHITECTURE.md`'s stage table marks Discovery `LLM? no`. Both are now wrong. Same request.
+- **`praw` and `requests` are dead weight** in `requirements.txt` once the fetchers go unused. `rapidfuzz` is still live — `dedupe()` survives. Left alone pending P1.
+- **P2:** the Responses API takes structured output as `text.format`, not `response_format`, and `client.responses.create()` is not `client.chat.completions.parse()`. One wrapper will not cover both call shapes.
 
 ### Resolved — Jignesh's blind count is 18, not 11
 
