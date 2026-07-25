@@ -21,9 +21,30 @@ since it was written.
 | 7 | **The beat fixture is hand-expanded to a full season** before the serial writer exists. | Gate 1 is meaningless on 7 beats. Hand-authoring is free, forces the story design, and becomes the fallback canon if the writer disappoints. |
 | 8 | **`tasks.py` replaces `make`.** | `make` is not installed on the Windows dev box. One implementation; the Makefile delegates. |
 
-### Open decision — carried forward
+### Resolved — Jignesh's blind count is 18, not 11
 
-**Jignesh's blind count.** `SPINOFF.md` and the demo script both say *"appears in 4 beats, locked out of 11."* Filling `hidden_from` honestly across a 22-beat season puts him blind on roughly **18**, not 11. `CLAUDE.md` says half-filling that field kills the product, so the honest fill wins and **the pitch line changes to the real number**. Whoever owns Track A confirms the count once the fixture is written, and Track D updates the script and deck to match. The claim gets stronger, not weaker — more prohibited knowledge, not less.
+`SPINOFF.md` and the demo script both said *"appears in 4 beats, locked out of 11."*
+The 22-beat season is now written with `hidden_from` filled honestly on every
+beat, and the verified counts are:
+
+| | Count | Beats |
+|---|---|---|
+| **knows** | 4 | `b004`, `b009`, `b014`, `b022` |
+| **blind** | **18** | everything else |
+| neutral | **0** | — every beat states his epistemic status |
+| gaps | 4 windows | ep1 s1–s3 · ep2 s1–s4 · ep2 s6–ep3 s3 · **ep4 s4–ep5 s4** |
+
+Zero neutral beats is the number that matters. `CLAUDE.md` calls half-filling
+`hidden_from` the thing that kills the product; there is now no beat where his
+ignorance is left unstated, so the prohibition list the validator enforces is
+complete rather than sampled.
+
+**P3: the pitch line and the deck change to "appears in 4, locked out of 18."**
+The claim gets stronger, not weaker — more prohibited knowledge, not less.
+
+The fourth gap window (ep4 s4 → ep5 s4, seven beats spanning 29 June to 7 July)
+is the rain days and the night before the raid. That is the largest writable
+space in the canon and where the back half of his spinoff lives.
 
 ---
 
