@@ -13,6 +13,12 @@
 # testing
 /coverage
 
+# playwright — run by hand (`npx playwright test`), never by the build
+/test-results/
+/playwright-report/
+/blob-report/
+/.playwright/
+
 # next.js
 /.next/
 /out/

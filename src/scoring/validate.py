@@ -159,8 +159,31 @@ def real_name_tokens(dossier: Dict[str, Any]) -> Dict[str, Tuple[str, str]]:
     the same rule, which is the only written record of that decision.
     """
     fmap = dossier.get("fictionalization_map") or {}
-    allowed = {w.lower() for value in fmap.values()
-               for w in WORD.findall(str(value))}
+
+    # An entry that maps a name to itself is not a fictionalisation, and must
+    # not be read as one.
+    #
+    # `allowed` is the right-hand side of the map — the declared fictional
+    # vocabulary — so an identity entry put a real name into the set of names
+    # the check is told are safe, and then exempted it from every test. Both
+    # people in `evt_gandhinagar_tribunal` are recorded that way:
+    #
+    #     "Morris Samuel Christian": "Morris Samuel Christian"
+    #
+    # `people[]` records him as living and private, his full legal name is in
+    # five episodes as the protagonist of a serial about alleged crimes, and
+    # the season graded 0 fatal. Hard rule 4 defeated by a tautology.
+    #
+    # Dropped rather than flagged here because this function only builds the
+    # vocabulary; removing the entry from `allowed` puts the name back in front
+    # of the ordinary person check, which is already fatal and already says
+    # what to do about it.
+    allowed = {
+        w.lower()
+        for key, value in fmap.items()
+        if str(value).strip().casefold() != str(key).strip().casefold()
+        for w in WORD.findall(str(value))
+    }
 
     out: Dict[str, Tuple[str, str]] = {}
     people = [p.get("name") or "" for p in dossier.get("people") or []]

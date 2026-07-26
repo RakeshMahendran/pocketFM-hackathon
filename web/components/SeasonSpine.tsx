@@ -284,8 +284,22 @@ export function SeasonSpine({
         <div
           className="grid h-44 border border-rule bg-surface"
           style={{
-            gridTemplateColumns: `repeat(${spine.length}, minmax(3.25rem, 1fr))`,
-            minWidth: `${spine.length * 3.25}rem`,
+            /*
+             * 2.5rem, not 3.25.
+             *
+             * A fourteen-episode season floored at 3.25rem needs 728px, and the
+             * column it sits in is 670px — so episodes 13 and 14, the climax and
+             * the finale and the tallest bars on a rising curve, sat outside the
+             * box at every width. Reachable only by scrolling inside it, with no
+             * window scrollbar to suggest anything was missing: someone reading
+             * the chart for the shape of a season read one that ends at twelve.
+             *
+             * 40px still holds a two-digit number over a three-letter ending
+             * abbreviation. The scroll parent stays for seasons long enough to
+             * genuinely need it; the floor is what makes an ordinary one fit.
+             */
+            gridTemplateColumns: `repeat(${spine.length}, minmax(2.5rem, 1fr))`,
+            minWidth: `${spine.length * 2.5}rem`,
           }}
         >
           {spine.map((e) => (

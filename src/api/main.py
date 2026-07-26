@@ -116,6 +116,29 @@ def character_view(char_id: str, beats: list[dict] = Depends(beat_source)) -> di
 # ---------------------------------------------------------------------------
 
 def _story(story_id: str) -> Dict[str, Any]:
+    """
+    One delivered season, or 404.
+
+    Checked against the list rather than against the filesystem. `load_story`
+    only asks whether a directory exists, and the id arrives from a URL: on
+    Windows a backslash is a path separator that Starlette leaves in the
+    parameter, so `..%5c..%5c.git` resolved to a real directory, sailed past the
+    existence check and died reading a dossier that was not there — a 500,
+    through the public port, for any path that happens to name a real folder.
+    Nothing leaked, but only because no directory outside `data/stories/`
+    happens to hold a `dossier.json`. That is luck, not containment.
+
+    The same check closes a quieter one: Windows folds case and strips trailing
+    dots, so `STORY1_DENIED_IDENTITY` and `story1_denied_identity.` both loaded
+    a real season under an id the store does not list — and the spinoff route
+    builds a *filename* from that id, so an aliased request missed the "already
+    generated" check and would have paid for an episode already on disk.
+
+    An allow-list is the right shape here because the set is small, known, and
+    already computed for `/api/stories`.
+    """
+    if story_id not in store.story_ids():
+        raise HTTPException(status_code=404, detail=f"no story '{story_id}'")
     try:
         return store.load_story(story_id)
     except RuntimeError as exc:
