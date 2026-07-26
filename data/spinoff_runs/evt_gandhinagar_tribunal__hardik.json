@@ -1,12 +1,14 @@
 {
   "story_id": "evt_gandhinagar_tribunal",
   "char_id": "hardik",
-  "state": "running",
-  "step": "promoting",
-  "label": "Working the character up",
-  "anchor": null,
-  "started_at": "2026-07-26T05:03:45.692023+00:00",
+  "state": "done",
+  "step": "done",
+  "label": "Done",
+  "anchor": "b041",
+  "started_at": "2026-07-26T05:33:12.296440+00:00",
   "error": null,
-  "promotion_skipped": false,
-  "updated_at": "2026-07-26T05:03:45.693022+00:00"
+  "promotion_skipped": true,
+  "updated_at": "2026-07-26T05:33:14.415565+00:00",
+  "finished_at": "2026-07-26T05:33:14.414567+00:00",
+  "replayed": true
 }

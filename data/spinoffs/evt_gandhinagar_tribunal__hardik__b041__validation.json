@@ -1,0 +1,42 @@
+{
+  "story_id": "evt_gandhinagar_tribunal",
+  "char_id": "hardik",
+  "anchor_beat_id": "b041",
+  "constrained": true,
+  "status": "violations",
+  "violations": [
+    {
+      "check": "leakage, refuter",
+      "severity": "error",
+      "quote": "RAO: Registrar Kotak, one bundle has occupied two clerks for four days.",
+      "beat_id": "b027",
+      "why": "This reveals that the filing bundle remained routed for further scrutiny instead of being returned at the public counter. This necessarily reveals that the filing bundle remained in internal scrutiny instead of being returned at the public counter, which is the sealed event in b027.",
+      "source": "leakage, refuter_inference"
+    }
+  ],
+  "n_errors": 1,
+  "deterministic_errors": [],
+  "inconclusive": [],
+  "attempts_that_failed": {
+    "refuter_inference": [
+      "Checked the precise case number “one seven six of twenty-four”; Harshad could read it from the award and had already stored that number under b028.",
+      "Checked the counts of four search heads, five requested years, three spelling variations and sixty-three filings; each arises from Harshad’s present work or directly witnessed office activity rather than an absent event.",
+      "Checked the final use of Mervyn Aloysius Fonseca’s full name; the filing and verification process can supply the claimed officer’s identity, and b041 expressly permits the completed comparison.",
+      "Checked the narrator’s statements about Harshad’s shame and the custodians answering; both remain within her internal state or witnessed experience and assert no remote motive or event."
+    ],
+    "refuter_specificity": [
+      "Checked exact figures—four days, case number 176/24, 175 inferred predecessors, sixty-three filings, four search heads, five years, three spelling variations, and four replies. Each comes from Harshad’s own timeline, the award in her possession, observable office events, her requested searches, or statements made directly to her.",
+      "Checked names and institutional particulars, including Mervyn Aloysius Fonseca, Superintendent Rao, Nila, Dev, and the forum categories. Mervyn and the forum are established by the known filing and verification beats; village names are expressly permitted.",
+      "Checked Harshad’s decision to retain the bundle, secure retired and section-record access, restrict records-room entry, and compare source references. These choices follow from her authorized investigation and do not require knowledge of Mervyn’s unseen conduct.",
+      "Checked narrator assertions for omniscience. The queue, public confrontation, laughter, Harshad’s shame, custodians’ responses, and records-room comparison are all events she directly experiences or internal states available to the locked narrator."
+    ],
+    "refuter_omniscience": [
+      "Checked every precise number and interval—four days, case number 176/24, at least 175 earlier numbers, four search heads, sixty-three filings, three custodians, five years and three spelling variations—and found each was available from Harshad’s own work, the filing bundle, or dialogue in her presence.",
+      "Tested Harshad’s decision to retain the bundle and restrict records-room access for behaviour requiring forbidden knowledge; both follow from her stated concern about preserving the trace and independently verifying the four replies.",
+      "Checked the narrator’s claims about the records search, Harshad’s shame, the public counter and the final verification; all remain within Harshad’s direct experience or internal state and do not assert events in another room or hidden motives.",
+      "Checked the final identification of Mervyn Aloysius Fonseca and his forum; Harshad may know the name from the award and b041 explicitly supports her completed verification against that forum."
+    ]
+  },
+  "members_run": 6,
+  "members_expected": 6
+}

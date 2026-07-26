@@ -305,6 +305,22 @@ export default async function CharacterPage(
     ),
   });
 
+  /*
+   * Which of the two comes first under "Their own episode".
+   *
+   * The control was always above the list, because what it produces renders
+   * directly beneath it and the three stages are the thing worth watching. That
+   * holds while a run is under way, and before anything exists at all.
+   *
+   * It reverses once an episode is on disk and nothing is running. Then the
+   * reader came for the episode, and the first thing between them and it is a
+   * paid button under three paragraphs explaining what it costs — which is how
+   * "where are the character's episodes" gets asked while the link to them is
+   * on screen. Ordered in the markup rather than with `order-*`, so what the
+   * keyboard reaches next is what the eye is looking at.
+   */
+  const listFirst = mine.length > 0 && run?.state !== "running";
+
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
       {/* Only while there is something to watch. A page that reloads itself
@@ -448,47 +464,55 @@ export default async function CharacterPage(
           </p>
         )}
 
-        {/*
-          The click the whole product is sold on. It is placed inside this
-          section rather than at the top of the page because what it produces
-          appears directly under it — start the run, watch the three stages,
-          and the episode and its verdict render in the same place when it
-          lands.
+        {(() => {
+          /*
+            The click the whole product is sold on, and the episodes it has
+            already produced. Both live inside this section rather than at the
+            top of the page: a run started here renders its three stages, and
+            then its episode and verdict, in this same place.
 
-          Only shown when the roster query answered: `promotable` is Python's
-          judgement and this screen does not have a second one. When the query
-          is down the notice above already says so.
-        */}
-        {character && (
-          <SpinoffRunPanel
-            storyId={storyId}
-            charId={charId}
-            run={run}
-            hasBible={character.hasBible}
-            written={written}
-            promotable={character.promotable}
-            whyNot={standing && !character.promotable ? standing.why : null}
-            offline={offline}
-          />
-        )}
+            The control is only shown when the roster query answered —
+            `promotable` is Python's judgement and this screen does not have a
+            second one. When the query is down the notice above already says so.
+          */
+          const control = character && (
+            <SpinoffRunPanel
+              key="control"
+              storyId={storyId}
+              charId={charId}
+              run={run}
+              hasBible={character.hasBible}
+              written={written}
+              promotable={character.promotable}
+              whyNot={standing && !character.promotable ? standing.why : null}
+              offline={offline}
+            />
+          );
 
-        {mine.length > 0 && (
-          <>
-            <ul className="mt-10 border-t border-rule divide-y divide-rule">
-              {mine.map((listing) => (
-                <SpinoffRow
-                  key={listing.file}
-                  listing={listing}
-                  href={listing.constrained ? episodeHref(listing.anchorBeatId) : null}
-                />
-              ))}
-            </ul>
+          const episodes = mine.length > 0 && (
+            <div key="episodes">
+              <ul
+                className={`${listFirst ? "mt-8" : "mt-10"} border-t border-rule divide-y divide-rule`}
+              >
+                {mine.map((listing) => (
+                  <SpinoffRow
+                    key={listing.file}
+                    listing={listing}
+                    href={
+                      listing.constrained ? episodeHref(listing.anchorBeatId) : null
+                    }
+                  />
+                ))}
+              </ul>
 
-            <p className="mt-5 text-xs text-faint leading-relaxed prose-col">
-              {EPISODE_ELSEWHERE}
-            </p>
-          </>
-        )}
+              <p className="mt-5 text-xs text-faint leading-relaxed prose-col">
+                {EPISODE_ELSEWHERE}
+              </p>
+            </div>
+          );
+
+          return listFirst ? [episodes, control] : [control, episodes];
+        })()}
       </section>
 
       {/* BLOCK FOUR — everything looked up rather than read. */}

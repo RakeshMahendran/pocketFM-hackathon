@@ -1,6 +1,15 @@
 import { expect, test } from "@playwright/test";
 
-import { FORBIDDEN, MAINLINE, SPINOFF, shot, signIn, watch } from "./_harness";
+import {
+  DEMO,
+  DEMO_RELEASED,
+  FORBIDDEN,
+  MAINLINE,
+  SPINOFF,
+  shot,
+  signIn,
+  watch,
+} from "./_harness";
 
 /**
  * The demo, clicked rather than fetched.
@@ -22,7 +31,10 @@ test("sign-in gate redirects an anonymous visitor", async ({ browser }) => {
   const log = watch(page, "/sourcing (no cookie)");
   await page.goto("/sourcing");
   await expect(page).toHaveURL("http://localhost:3000/");
-  await expect(page.getByRole("button", { name: /Priya/i })).toBeVisible();
+  // One way in, not a row per editor. The picker offered four names nobody has
+  // an opinion about; the byline it set is unchanged, so this asserts the door
+  // is there rather than which name is behind it.
+  await expect(page.getByRole("button", { name: /get started/i })).toBeVisible();
   expect(log.bad(), JSON.stringify(log.bad(), null, 2)).toEqual([]);
   await fresh.close();
 });
@@ -59,16 +71,19 @@ test("serials → season → episode", async ({ page }) => {
   const log = watch(page, "/serials");
   await page.goto("/serials");
 
-  const season = page.locator(`a[href="/serials/${MAINLINE}"]`).first();
+  // The season the list offers, which is the demo one — see `DEMO` in the
+  // harness. Clicking in from the list is the point of this test, so it has to
+  // ask for the row that is really there.
+  const season = page.locator(`a[href="/serials/${DEMO}"]`).first();
   await expect(season).toBeVisible();
 
-  log.label(`/serials/${MAINLINE}`);
+  log.label(`/serials/${DEMO}`);
   await season.click();
-  await page.waitForURL(`**/serials/${MAINLINE}`);
+  await page.waitForURL(`**/serials/${DEMO}`);
 
   // The release state is the thing a producer reads first, and the thing this
   // run must not change.
-  await expect(page.getByText(/5 of 14/i).first()).toBeVisible();
+  await expect(page.getByText(DEMO_RELEASED).first()).toBeVisible();
 
   const present: string[] = [];
   for (const label of FORBIDDEN) {
@@ -83,14 +98,14 @@ test("serials → season → episode", async ({ page }) => {
 
   // The episode-list link, not the ladder column of the same href — the ladder
   // sits inside a closed fold and is unreachable until it is opened.
-  log.label(`/serials/${MAINLINE}/1`);
+  log.label(`/serials/${DEMO}/1`);
   const epLink = page
-    .locator(`a[href="/serials/${MAINLINE}/1"]`)
+    .locator(`a[href="/serials/${DEMO}/1"]`)
     .filter({ hasText: /\S/ })
     .last();
   await epLink.scrollIntoViewIfNeeded();
   await epLink.click();
-  await page.waitForURL(`**/serials/${MAINLINE}/1`);
+  await page.waitForURL(`**/serials/${DEMO}/1`);
   await expect(page.locator("audio")).toHaveCount(1);
   await shot(page, "1280-episode.png");
 

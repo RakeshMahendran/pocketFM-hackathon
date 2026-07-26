@@ -24,13 +24,17 @@ const DEMO = process.env.CF_DEMO === "1";
 
 export default defineConfig({
   testDir: "./tests/e2e",
-  /* A recording is one continuous take; a timeout mid-walk truncates it. */
-  ...(DEMO ? { timeout: 300_000 } : {}),
   fullyParallel: false,
   workers: 1,
   retries: 0,
   reporter: [["list"]],
-  timeout: 90_000,
+  /*
+   * A recording is one continuous take, and the walkthrough deliberately holds
+   * on each screen long enough to speak over — which is most of three minutes
+   * of "doing nothing" as far as a timeout is concerned. Ninety seconds killed
+   * it on the last beat.
+   */
+  timeout: DEMO ? 300_000 : 90_000,
   expect: { timeout: 15_000 },
   use: {
     baseURL: `http://localhost:${PORT}`,

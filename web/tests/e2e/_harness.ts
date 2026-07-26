@@ -22,8 +22,25 @@ const LOG = path.join(OUT_DIR, "console.log.jsonl");
 
 mkdirSync(SHOTS, { recursive: true });
 
+/**
+ * A season that is on disk and reachable by URL, used by the tests that go
+ * straight to a route. It is deliberately NOT the one the console lists.
+ */
 export const MAINLINE = "1a8a1dc47393";
 export const SPINOFF = "story1_denied_identity";
+
+/**
+ * The season a visitor is actually offered.
+ *
+ * `/serials` is filtered to the demo story, so a test that clicks its way in
+ * from the list has to look for this one — asserting on `MAINLINE` there was
+ * checking for a row that the filter is supposed to remove, and failed for the
+ * right reason. Every season stays reachable by URL, which is why the tests
+ * that navigate directly still use `MAINLINE`.
+ */
+export const DEMO = "evt_gandhinagar_tribunal";
+/** What the demo season's release line reads, whole and released. */
+export const DEMO_RELEASED = /12 of 12/i;
 
 /** Controls that spend money or change release state. Never clicked. */
 export const FORBIDDEN = [
