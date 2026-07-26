@@ -1,0 +1,347 @@
+{
+  "event_id": "evt_gandhinagar_tribunal",
+  "title": "The Court That Never Was",
+  "one_line_summary": "Struck off and jailed for practising law he was never licensed to practise, a court typist rents a room, calls it a tribunal, and spends five years handing down judgments that everyone obeys and no court has ever heard of.",
+  "language": "en",
+  "fantasy": "nobody checks the powerful",
+  "protagonist": {
+    "char_id": "morris",
+    "who": "A district-court typist in his forties who was struck off and jailed at twenty-nine for appearing as an advocate without a degree, and who has spent the fifteen years since typing other men's orders.",
+    "wants": "to be addressed as sir by the people who made him wait in corridors",
+    "ashamed_of": "that his wife still tells her family he is a lawyer",
+    "does_not_know_at_start": "that the first man he rules for will tell forty others"
+  },
+  "antagonist": {
+    "char_id": "hardik",
+    "who": "The district court registrar, twenty-two years in the same chair, whose entire job is to verify that a document is what it says it is.",
+    "wants_incompatibly": "for the record to be true, which requires his to be false"
+  },
+  "sources": [
+    "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498",
+    "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362",
+    "https://m.thewire.in/article/law/after-fake-teacher-now-a-fake-judge-exposed-in-gujarat",
+    "https://www.business-standard.com/india-news/fake-tribunal-busted-this-conman-passed-orders-as-a-judge-since-2019-124102200887_1.html",
+    "https://www.theweek.in/wire-updates/national/2024/10/22/bom16-gj-conman-ld-bogus-court.html"
+  ],
+  "timeline": [
+    {
+      "id": "t01",
+      "date": "2007",
+      "what_happened": "The state bar council said the man held no valid law degree and was practising as a lawyer. He was jailed for three months.",
+      "confidence": "reported",
+      "source": "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362"
+    },
+    {
+      "id": "t02",
+      "date": "2019",
+      "what_happened": "He began passing orders as the presiding officer of an arbitration tribunal he had set up himself.",
+      "confidence": "reported",
+      "source": "https://www.business-standard.com/india-news/fake-tribunal-busted-this-conman-passed-orders-as-a-judge-since-2019-124102200887_1.html"
+    },
+    {
+      "id": "t03",
+      "date": "2019-2024",
+      "what_happened": "He presented himself as an arbitrator appointed by a competent court to hear and settle disputes.",
+      "confidence": "alleged",
+      "source": "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362"
+    },
+    {
+      "id": "t04",
+      "date": "2019-2024",
+      "what_happened": "He approached people whose land disputes were already pending before the city civil court, took a fee, and passed a favourable order in their case.",
+      "confidence": "reported",
+      "source": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498"
+    },
+    {
+      "id": "t05",
+      "date": "2019-2024",
+      "what_happened": "His office was furnished to resemble a courtroom, with staff acting as court personnel.",
+      "confidence": "reported",
+      "source": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498"
+    },
+    {
+      "id": "t06",
+      "date": "2019-2024",
+      "what_happened": "The orders touched more than 100 acres across at least 11 properties; 10 of those matters were still unresolved when the tribunal was exposed.",
+      "confidence": "reported",
+      "source": "https://m.thewire.in/article/law/after-fake-teacher-now-a-fake-judge-exposed-in-gujarat"
+    },
+    {
+      "id": "t07",
+      "date": "2024-10",
+      "what_happened": "A court registrar examined one of the orders and established that the man was not an arbitrator and the order was not genuine.",
+      "confidence": "reported",
+      "source": "https://www.business-standard.com/india-news/fake-tribunal-busted-this-conman-passed-orders-as-a-judge-since-2019-124102200887_1.html"
+    },
+    {
+      "id": "t08",
+      "date": "2024-10-22",
+      "what_happened": "On the registrar's complaint the police registered an FIR under IPC 170, pretending to hold office as a public servant, and IPC 419, cheating by personation, and arrested him.",
+      "confidence": "reported",
+      "source": "https://www.theweek.in/wire-updates/national/2024/10/22/bom16-gj-conman-ld-bogus-court.html"
+    }
+  ],
+  "people": [
+    {
+      "name": "Morris Samuel Christian",
+      "role": "the accused, who ran the tribunal",
+      "motive": "money, and the authority he was refused",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Hardik Desai",
+      "role": "the court registrar whose complaint began the case",
+      "motive": "the integrity of the record he keeps",
+      "public_or_private": "public",
+      "living": true
+    }
+  ],
+  "cast": [
+    {
+      "char_id": "morris",
+      "name": "Morris Samuel Christian",
+      "role": "the man who calls himself a judge",
+      "want": "to be called sir by the men who made him wait",
+      "gender": "male",
+      "age_range": "40s",
+      "maps_to": "Morris Samuel Christian",
+      "composite": false
+    },
+    {
+      "char_id": "hardik",
+      "name": "Hardik Desai",
+      "role": "district court registrar",
+      "want": "a record that says only what is true",
+      "gender": "male",
+      "age_range": "40s",
+      "maps_to": "Hardik Desai",
+      "composite": false
+    },
+    {
+      "char_id": "sarika",
+      "name": "Sarika Kamble",
+      "role": "his clerk, hired to play court staff",
+      "want": "the first respectable job anyone in her family has held",
+      "gender": "female",
+      "age_range": "20s",
+      "maps_to": "the staff described as court personnel",
+      "composite": true
+    },
+    {
+      "char_id": "manjula",
+      "name": "Manjula Gaikwad",
+      "role": "a widow who wins her father's land in his court",
+      "want": "to keep what a judge awarded her",
+      "gender": "female",
+      "age_range": "50s",
+      "maps_to": "the litigants in the land matters",
+      "composite": true
+    },
+    {
+      "char_id": "bhaskar",
+      "name": "Bhaskar Gaikwad",
+      "role": "her brother, who obeyed the ruling",
+      "want": "to be the kind of man who obeys a court",
+      "gender": "male",
+      "age_range": "50s",
+      "maps_to": "the opposing parties in those matters",
+      "composite": true
+    },
+    {
+      "char_id": "advocate",
+      "name": "P. R. Sathe",
+      "role": "an old advocate who notices the seal is wrong",
+      "want": "to be listened to once more before he retires",
+      "gender": "male",
+      "age_range": "60s+",
+      "maps_to": "the bar that raised the alarm",
+      "composite": true
+    },
+    {
+      "char_id": "vaishali",
+      "name": "Vaishali Christian",
+      "role": "his wife",
+      "want": "to stop lying to her sisters about what he does",
+      "gender": "female",
+      "age_range": "40s",
+      "maps_to": "no real individual",
+      "composite": true
+    },
+    {
+      "char_id": "irfan",
+      "name": "Irfan Shaikh",
+      "role": "his first client, a man out of time",
+      "want": "a hearing before his mother dies",
+      "gender": "male",
+      "age_range": "30s",
+      "maps_to": "the litigants in the land matters",
+      "composite": true
+    },
+    {
+      "char_id": "pandit",
+      "name": "Ashok Pandit",
+      "role": "the clerk who leaks the pending list",
+      "want": "one envelope a month and no questions",
+      "gender": "male",
+      "age_range": "40s",
+      "maps_to": "no real individual",
+      "composite": true
+    },
+    {
+      "char_id": "tejas",
+      "name": "Tejas Christian",
+      "role": "his son, in his first year of law college",
+      "want": "to be proud of his father in front of people who matter",
+      "gender": "male",
+      "age_range": "20s",
+      "maps_to": "no real individual",
+      "composite": true
+    },
+    {
+      "char_id": "khot",
+      "name": "Inspector Khot",
+      "role": "the officer who takes the registrar's complaint",
+      "want": "a clean file and no politics in it",
+      "gender": "male",
+      "age_range": "40s",
+      "maps_to": "the police who registered the FIR",
+      "composite": true
+    },
+    {
+      "char_id": "dhawale",
+      "name": "Sitaram Dhawale",
+      "role": "a builder who wants a ruling he can use",
+      "want": "the land cheap and the paper legal",
+      "gender": "male",
+      "age_range": "50s",
+      "maps_to": "no real individual",
+      "composite": true
+    }
+  ],
+  "adaptability": {
+    "conflict": 9,
+    "characters": 9,
+    "stakes": 8,
+    "serializability": 10,
+    "resonance": 9,
+    "total": 45
+  },
+  "clearance": {
+    "status": "fictionalize_first",
+    "reasons": [
+      "The accused is a living private individual who has been arrested and charged but not convicted. Nothing may be dramatised as established fact.",
+      "The litigants were defrauded private people and cannot be identifiable; every one of them is a composite.",
+      "The state, the town, the names, the year and the profession he came from are all changed. The mechanism is what is being adapted, not the man.",
+      "His claim to be a court-appointed arbitrator is an allegation and is rendered as a claim he makes, never as narration."
+    ]
+  },
+  "novelty": {
+    "prior_adaptations": [],
+    "score": 9
+  },
+  "engine": "Every judgment he hands down has to be protected by the next one. The moment a losing party carries his order into a real court and finds no case, no number and no judge, five years of rulings unwind together — so he cannot turn a client away, cannot rule against anyone powerful enough to check, and cannot stop. The con is not a scheme with an ending; it is a standing debt that grows every week he keeps it, and the people it will destroy are the ones who trusted him most.",
+  "why_this_works": "The humiliation is documented and it is exact: an institution told this man he was not real, and jailed him for acting as though he were. Everything after that is a listener's fantasy — the nobody who stops asking permission and is simply believed — running on a fuse the listener can see and the character cannot afford to look at. The dread is not that he will be caught. It is that every person who walked out of that room happy is going to find out, and the ones who loved him will find out last. And because his authority is only ever borrowed, the antagonist is not a rival but a man doing his job properly: the season's climax is a document being checked.",
+  "fictionalization_map": {
+    "Morris Samuel Christian": "Morris Samuel Christian",
+    "Hardik Desai": "Hardik Desai"
+  },
+  "season": [
+    {
+      "ep": 1,
+      "turn": "Fifteen years after the bar council struck him off, Morris types another man's order and is sent out of chambers to wait. In the corridor a desperate litigant mistakes him for the judge and calls him sir.",
+      "hook_type": "RECOGNITION",
+      "ends_on": "Irfan touches his feet and asks him to hear the case",
+      "pays_off": null,
+      "status": 1
+    },
+    {
+      "ep": 2,
+      "turn": "He tells himself it is only advice. He writes Irfan a page in the form he has typed ten thousand times, signs it, and the other side pays up without ever going to court.",
+      "hook_type": "REVEAL",
+      "ends_on": "Irfan returns with two more men and their fees",
+      "pays_off": null,
+      "status": 2
+    },
+    {
+      "ep": 3,
+      "turn": "He rents a room above a tyre shop, buys a dais and a nameplate, and hires Sarika, who has never had a job, to call out case numbers she does not understand.",
+      "hook_type": "ARRIVAL",
+      "ends_on": "the first stranger walks in unannounced with a file",
+      "pays_off": null,
+      "status": 3
+    },
+    {
+      "ep": 4,
+      "turn": "A builder brings a matter worth more than everything Morris has ruled on together, and the losing party is a man with a lawyer.",
+      "hook_type": "THREAT",
+      "ends_on": "the lawyer asks to see his appointment order",
+      "pays_off": "whether a ruling from that room actually holds",
+      "status": 4
+    },
+    {
+      "ep": 5,
+      "turn": "To choose only cases nobody will check, he needs to know who is already waiting. A clerk in the real registry starts leaving the pending list where he can photograph it.",
+      "hook_type": "BETRAYAL",
+      "ends_on": "Pandit names his price and it is not money",
+      "pays_off": null,
+      "status": 5
+    },
+    {
+      "ep": 6,
+      "turn": "Manjula, a widow whose brother has held her father's land for eleven years, gets a hearing in eight days and a judgment in her favour. Bhaskar reads it, folds it, and hands over the keys.",
+      "hook_type": "REVERSAL",
+      "ends_on": "Manjula tells the whole lane a court finally listened",
+      "pays_off": "whether anyone would truly obey a paper from that room",
+      "status": 6
+    },
+    {
+      "ep": 7,
+      "turn": "One of his orders reaches the district court registrar as an attachment to something else. Hardik reads the case number and cannot place the tribunal.",
+      "hook_type": "DISCOVERY",
+      "ends_on": "he writes the number on a slip and puts it in his drawer",
+      "pays_off": null,
+      "status": 7
+    },
+    {
+      "ep": 8,
+      "turn": "Sarika finally understands what she has been calling out, and what her signature is on. She has been paid for fourteen months.",
+      "hook_type": "ACCUSATION",
+      "ends_on": "she asks him whether she can be jailed for this",
+      "pays_off": null,
+      "status": 7
+    },
+    {
+      "ep": 9,
+      "turn": "Hardik writes to him asking for a copy of the order appointing him. He has eleven days to produce a document that has never existed.",
+      "hook_type": "DEADLINE",
+      "ends_on": "Pandit refuses to touch it and asks for the list back",
+      "pays_off": "what the leaked pending list was really costing",
+      "status": 8
+    },
+    {
+      "ep": 10,
+      "turn": "At his largest hearing yet, with the room full and his son watching from the back, Morris is at the height of what he built — and the builder tells him what his next ruling will say.",
+      "hook_type": "ULTIMATUM",
+      "ends_on": "Tejas asks his father which court he was appointed by",
+      "pays_off": null,
+      "status": 9
+    },
+    {
+      "ep": 11,
+      "turn": "Hardik verifies the appointment against the record and finds no arbitrator, no order and no tribunal. He signs a complaint.",
+      "hook_type": "REVEAL",
+      "ends_on": "Inspector Khot reads the charge aloud in the tyre-shop stairwell",
+      "pays_off": null,
+      "status": 3
+    },
+    {
+      "ep": 12,
+      "turn": "Facing charges that will be lighter if he names the rulings as worthless, Morris is asked to list them — and stops at Manjula's, the one judgment he will not unmake, knowing what it costs him.",
+      "hook_type": "REVERSAL",
+      "ends_on": "Manjula, still holding the keys, is told nothing",
+      "pays_off": "who he actually was, once he had nothing left to gain by it",
+      "status": 7
+    }
+  ]
+}

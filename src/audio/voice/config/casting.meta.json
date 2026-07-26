@@ -103,5 +103,68 @@
       "voice_name": "Kavya",
       "score": 0.0
     }
+  },
+  "evt_gandhinagar_tribunal:narrator": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Sumit",
+      "score": 0.0
+    }
+  },
+  "evt_gandhinagar_tribunal:SENIOR COUNSEL": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Simran",
+      "score": 0.0
+    }
+  },
+  "evt_gandhinagar_tribunal:morris": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shubh",
+      "score": 3.0
+    }
+  },
+  "evt_gandhinagar_tribunal:COURT CLERK": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shruti",
+      "score": 0.0
+    }
+  },
+  "evt_gandhinagar_tribunal:VOICE IN CORRIDOR": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shreya",
+      "score": 0.0
+    }
+  },
+  "evt_gandhinagar_tribunal:irfan": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Ratan",
+      "score": 3.0
+    }
+  },
+  "evt_gandhinagar_tribunal:LANDLORD": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Simran",
+      "score": 0.0
+    }
+  },
+  "evt_gandhinagar_tribunal:FIRST MAN": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shreya",
+      "score": 0.0
+    }
+  },
+  "evt_gandhinagar_tribunal:SECOND MAN": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Ritu",
+      "score": 0.0
+    }
   }
 }

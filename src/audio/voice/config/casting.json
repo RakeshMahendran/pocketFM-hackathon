@@ -43,5 +43,32 @@
   },
   "evt_dharampur_2025:CONSTABLE": {
     "sarvam": "kavya"
+  },
+  "evt_gandhinagar_tribunal:narrator": {
+    "sarvam": "sumit"
+  },
+  "evt_gandhinagar_tribunal:SENIOR COUNSEL": {
+    "sarvam": "simran"
+  },
+  "evt_gandhinagar_tribunal:morris": {
+    "sarvam": "shubh"
+  },
+  "evt_gandhinagar_tribunal:COURT CLERK": {
+    "sarvam": "shruti"
+  },
+  "evt_gandhinagar_tribunal:VOICE IN CORRIDOR": {
+    "sarvam": "shreya"
+  },
+  "evt_gandhinagar_tribunal:irfan": {
+    "sarvam": "ratan"
+  },
+  "evt_gandhinagar_tribunal:LANDLORD": {
+    "sarvam": "simran"
+  },
+  "evt_gandhinagar_tribunal:FIRST MAN": {
+    "sarvam": "shreya"
+  },
+  "evt_gandhinagar_tribunal:SECOND MAN": {
+    "sarvam": "ritu"
   }
 }

@@ -1,0 +1,2805 @@
+{
+  "episodes": [
+    {
+      "ep": 10,
+      "title": "The Largest Hearing",
+      "lines": [
+        {
+          "speaker": "dhawale",
+          "text": "Before you sit down, sir, the western parcel goes to me.",
+          "sfx_cue": "ceiling fans, packed room murmuring"
+        },
+        {
+          "speaker": "morris",
+          "text": "Move away from my chair.",
+          "sfx_cue": "wooden chair dragged"
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Of course. A presiding officer should never look instructed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Sarika, call the matter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Sir, I need... I need one minute first.",
+          "sfx_cue": "files shifting"
+        },
+        {
+          "speaker": "morris",
+          "text": "Call it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "There are forty-six people inside. More on the stairs.",
+          "sfx_cue": "stairwell voices rising"
+        },
+        {
+          "speaker": "morris",
+          "text": "Then forty-six people are waiting for you to begin.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "And your son is standing at the back.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "What?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "Papa.",
+          "sfx_cue": "crowd briefly quieting"
+        },
+        {
+          "speaker": "morris",
+          "text": "You should be at college.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "Our lecture was cancelled. Mummy said you had a major hearing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "She sent you?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "She said I should finally see what you do.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "A proud day. First-year law, isn't it? Stand where you can hear.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Do not address my son.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "As you please, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN ROOM",
+          "text": "How long will it take? We have been here since morning.",
+          "sfx_cue": "bench creaking"
+        },
+        {
+          "speaker": "SECOND VOICE IN ROOM",
+          "text": "Let the court start. Some of us came from two districts away.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "They call this a court?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "They call it a forum. Sit quietly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "There is no seat.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Someone give the young law student a chair.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN ROOM",
+          "text": "Take mine, beta. His father settled my shop dispute in six days.",
+          "sfx_cue": "chair legs scraping"
+        },
+        {
+          "speaker": "SECOND VOICE IN ROOM",
+          "text": "Mine too. The other party paid every rupee.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "Papa... all these people came for you?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Sarika. Call the matter.",
+          "sfx_cue": "wooden gavel, three strikes"
+        },
+        {
+          "speaker": "sarika",
+          "text": "Matter number two zero eight. Consolidated redevelopment dispute. Thirty-one claimants against the acquiring partnership.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Property stated at three crore sixty lakh rupees.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN ROOM",
+          "text": "Speak louder. We cannot hear at the back.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Three crore sixty lakh rupees.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Appearances.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "I appear for the acquiring partnership, with written authority.",
+          "sfx_cue": "paper placed on desk"
+        },
+        {
+          "speaker": "CLAIMANT",
+          "text": "We appear for our families. We have signed the consent sheet.",
+          "sfx_cue": "many papers rustling"
+        },
+        {
+          "speaker": "morris",
+          "text": "Consent to this forum, or consent to the sale?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "CLAIMANT",
+          "text": "To a hearing here. Not to his price.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Good. Those are different things.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "The contracted price is fair and already accepted in principle.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "CLAIMANT",
+          "text": "Accepted before he removed twelve families from the compensation schedule.",
+          "sfx_cue": "room erupting"
+        },
+        {
+          "speaker": "morris",
+          "text": "Silence. One voice at a time.",
+          "sfx_cue": "wooden gavel, single strike"
+        },
+        {
+          "speaker": "CLAIMANT",
+          "text": "Sir, my mother is seventy-three. Her room is on the survey map.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Her occupation is not supported by an individual title.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "CLAIMANT",
+          "text": "The building stood before his company existed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Show me the survey map.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "The relevant map is tab seven.",
+          "sfx_cue": "file opened"
+        },
+        {
+          "speaker": "morris",
+          "text": "This copy has twelve names marked in blue ink.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "CLAIMANT",
+          "text": "Those are the families he removed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Those are disputed occupants.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Who made the blue marks?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "An internal survey team.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Name the surveyor.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "That level of detail will delay everyone in this room.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Name the surveyor.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "I will obtain it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "CLAIMANT",
+          "text": "He does not have one, sir. He made those marks himself.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "That is a reckless allegation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "And it remains an allegation until evidence proves it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "That was good, Papa.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No comments from the gallery.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Sir, should I record the surveyor's name as pending?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Record it. The acquiring partnership will produce the original survey register.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "There is no need for an adjournment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I did not say there would be one.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Then perhaps we can finish exactly as discussed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Nothing was discussed.",
+          "sfx_cue": "crowd murmuring"
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Quite right. Nothing suitable for the record.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Place your valuation on record.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Two crore ten lakh for the complete parcel.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "CLAIMANT",
+          "text": "The municipal valuation is three crore sixty lakh.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Why is your offer one crore fifty lakh lower?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Vacating costs. Litigation risk. Defective occupation papers.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "CLAIMANT",
+          "text": "He created the defects. Then he priced them.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Enough. I will examine each listed occupant.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Forty-six people are waiting, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "They came for a hearing, not a stamp.",
+          "sfx_cue": "room applauding"
+        },
+        {
+          "speaker": "sarika",
+          "text": "Please, no clapping. This is... please maintain order.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN ROOM",
+          "text": "Let him speak. At least somebody is asking the builder questions.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SECOND VOICE IN ROOM",
+          "text": "We spent four years outside the real court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "Papa, they respect you.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Sit down.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Yes. They respect you very much.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Call the first disputed occupant.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Occupant one, unit three. Please come forward.",
+          "sfx_cue": "crowd parting"
+        },
+        {
+          "speaker": "OLDER CLAIMANT",
+          "text": "Sir, I have lived there for thirty-eight years.",
+          "sfx_cue": "walking stick tapping"
+        },
+        {
+          "speaker": "morris",
+          "text": "Do you have electricity bills?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "OLDER CLAIMANT",
+          "text": "Every bill since nineteen ninety-eight. Earlier ones were in my husband's name.",
+          "sfx_cue": "plastic folder opening"
+        },
+        {
+          "speaker": "morris",
+          "text": "Sarika, mark the bills collectively.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Sir, my signature will go on the exhibit sheet.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "That is your work.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Is it? After what you told me?",
+          "sfx_cue": "room murmuring"
+        },
+        {
+          "speaker": "morris",
+          "text": "We will not discuss staff matters during a hearing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Then you mark it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Excuse me?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "I will write the number. I will not certify anything today.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN ROOM",
+          "text": "What is happening? Is the clerk refusing the judge?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "An unfortunate display, in front of his own son.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Mark the document without certification. Continue.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "Why is she afraid to sign?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Not now.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "The answer may take longer than this hearing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You will remain silent unless addressed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Certainly, sir. Shall I place my settlement draft before you?",
+          "sfx_cue": "thick envelope dropped"
+        },
+        {
+          "speaker": "morris",
+          "text": "There will be no settlement until all twelve claims are examined.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "That envelope is not a settlement.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Take it back.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "You should read page four.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I said, take it back.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Page four contains the operative portion of today's award.",
+          "sfx_cue": "crowd falling quiet"
+        },
+        {
+          "speaker": "CLAIMANT",
+          "text": "Today's award? He brought it already written?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SECOND VOICE IN ROOM",
+          "text": "Sir, what does he mean?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "He means nothing. The hearing will continue.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "The western parcel transfers to me at two crore ten lakh.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No ruling has been made.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "The twelve blue names receive nothing. Paragraph seven records their withdrawal.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "OLDER CLAIMANT",
+          "text": "I never withdrew. Sir, tell him I never withdrew.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Nobody has withdrawn.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Then you may prefer the other envelope.",
+          "sfx_cue": "second envelope sliding"
+        },
+        {
+          "speaker": "morris",
+          "text": "What is in it?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Copies of twelve earlier awards. Each one says exactly what your clerk was told to type.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Sir... is that what those sealed envelopes were?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Do not touch either envelope.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "Your room is full today. Your son is watching. Choose the paper that preserves both.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "Papa, why does he have your old orders?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The hearing is adjourned.",
+          "sfx_cue": "wooden gavel striking repeatedly"
+        },
+        {
+          "speaker": "VOICE IN ROOM",
+          "text": "Adjourned to when? We paid the filing fee.",
+          "sfx_cue": "crowd shouting"
+        },
+        {
+          "speaker": "OLDER CLAIMANT",
+          "text": "Sir, do not send us away with him.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Clear the room. Sarika, clear the room now.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Everyone outside, please. Take your documents. Do not leave signatures behind.",
+          "sfx_cue": "benches scraping, crowd moving"
+        },
+        {
+          "speaker": "dhawale",
+          "text": "I will wait downstairs. A man thinks more clearly after applause ends.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Get out.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "dhawale",
+          "text": "With pleasure, sir.",
+          "sfx_cue": "door closing"
+        },
+        {
+          "speaker": "tejas",
+          "text": "Papa, look at me.",
+          "sfx_cue": "room emptying into stairwell"
+        },
+        {
+          "speaker": "morris",
+          "text": "Go home. I will explain there.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "No. I heard what he said.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "He is trying to control a ruling.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "And the clerk would not sign. Those people called you judge.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I never asked you to come here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "I came because I wanted to tell my class what my father does.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "This is private dispute resolution. Parties consent. Awards are enforced by agreement.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "We studied arbitration last month. I know the words.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Then you know an arbitrator can conduct proceedings outside a courthouse.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "Yes. After someone lawfully appoints him.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Tejas—",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "Which court appointed you?",
+          "sfx_cue": ""
+        }
+      ]
+    },
+    {
+      "ep": 11,
+      "title": "No Such Tribunal",
+      "lines": [
+        {
+          "speaker": "hardik",
+          "text": "Open every register. If his tribunal existed for one day, I want that day.",
+          "sfx_cue": "records trolley rattling, files thudding"
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "We checked the current index twice, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Then check the retired index once, properly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "The name on his letter is only presiding officer. No appointment number.",
+          "sfx_cue": "paper unfolding"
+        },
+        {
+          "speaker": "hardik",
+          "text": "That omission is why we are here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "He enclosed consent memoranda from private parties.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Consent is not an order of this court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "He says the forum exercises consensual jurisdiction.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "He was asked for one document. He sent twenty-seven different documents instead.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Perhaps the appointment came from another district.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "His letter says competent court. It does not name one.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "I will bring the old arbitration register.",
+          "sfx_cue": "metal ladder rolling"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "The requested eleven days ended. The register did not change its answer.",
+          "sfx_cue": "large ledger dropped onto desk"
+        },
+        {
+          "speaker": "hardik",
+          "text": "Read from November two thousand twenty-two.",
+          "sfx_cue": "ledger pages turning"
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Court-appointed arbitrator, one entry. Retired engineer. Commercial drainage dispute.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Next.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "No further appointment that month.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "December.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Two appointments. Neither matches the forum, officer or address.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Continue through this month.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Sir, that is fourteen months of entries.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Exactly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Should I call the civil filing section?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Call every section that can issue or preserve an appointment.",
+          "sfx_cue": "desk telephone receiver lifted"
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Civil filing, records. Registrar's verification. Search all orders appointing a private arbitrator at the tyre-shop address.",
+          "sfx_cue": "telephone dial tones"
+        },
+        {
+          "speaker": "VOICE ON PHONE",
+          "text": "Repeat the address.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Second floor, above the tyre shop. Nameplate says arbitration and dispute resolution forum.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE ON PHONE",
+          "text": "We have no court facility at that address.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Ask for appointments, not facilities.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Any appointment naming that address or that forum?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE ON PHONE",
+          "text": "Nothing in civil filing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Execution section next.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Execution section, please.",
+          "sfx_cue": "telephone transfer clicks"
+        },
+        {
+          "speaker": "VOICE ON PHONE",
+          "text": "Execution.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Do you hold any recognised award from that forum?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE ON PHONE",
+          "text": "One came attached to another filing. It was sent to the registrar.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "That is case one seven six. Any other case number?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE ON PHONE",
+          "text": "No recognised sequence. Their numbers do not correspond with ours.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Thank you. Close the call.",
+          "sfx_cue": "telephone receiver replaced"
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Sir, should we send a second notice?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "No. He answered the first notice.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Without the order you requested.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "That is also an answer.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Then what do I write in the verification note?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Write only what the record proves.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "No appointment located?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "More precise.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "No order appointing the named presiding officer was found.",
+          "sfx_cue": "typewriter keys beginning"
+        },
+        {
+          "speaker": "hardik",
+          "text": "Good. Next line.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "No tribunal under the stated name was constituted by this district court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Next.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "No official case-number sequence corresponds with the numbers used on the submitted awards.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Add that the seal does not match any approved court seal.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "The seal says dispute resolution forum. It does not actually say district court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "The page heading says presiding officer. The language says judgment. The recipients were expected to obey.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Are we saying he impersonated a judge?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "We are saying what the documents say. The police will identify the offence.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "There are thirty-four awards in the bundle.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "And how much property changed hands?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "I can calculate from the stated values.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Do not estimate. List each award and each stated consequence.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Possession, payment, conveyance, access, surrender of keys...",
+          "sfx_cue": "pages turning faster"
+        },
+        {
+          "speaker": "hardik",
+          "text": "People surrendered things because that paper looked official.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Some may say they consented.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Then their statements will say so. The record will not guess for them.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "And the registry clerk? Her signature appears on every certified copy.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Identify her. Do not call her an accused without evidence of knowledge.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "She certified proceedings that never belonged to a court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "She may have believed her employer. That is a fact to investigate, not decorate.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RECORDS CLERK",
+          "text": "Understood.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Print the verification note. I will sign the complaint.",
+          "sfx_cue": "printer starting"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "By afternoon, the question in the registrar's drawer had become a police file.",
+          "sfx_cue": "police station stamp, hard strike"
+        },
+        {
+          "speaker": "khot",
+          "text": "Who discovered the first award?",
+          "sfx_cue": "office fan, file clip snapping"
+        },
+        {
+          "speaker": "hardik",
+          "text": "It arrived as an attachment to an unrelated filing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "You personally checked the appointment registers?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Current, retired and section indexes. No appointment exists in our records.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "No arbitrator?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "No appointed arbitrator under that name or designation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "No tribunal?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "No tribunal constituted by the district court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "No case numbers?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "His sequence is his own. It has no registry source.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "And yet people transferred land, money and possession.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "The attached documents indicate that. Their statements must confirm it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "You speak like every word has to survive cross-examination.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Every word in a public record should.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Good. I dislike repairing enthusiastic complaints.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "This one requires no enthusiasm.",
+          "sfx_cue": "pen uncapped"
+        },
+        {
+          "speaker": "khot",
+          "text": "Read paragraph six before you sign.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "The respondent was struck from professional practice fifteen years earlier.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Can you prove that?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "The bar record is attached.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Then sign.",
+          "sfx_cue": "pen scratching"
+        },
+        {
+          "speaker": "hardik",
+          "text": "There.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "I will take two constables. No media, no procession.",
+          "sfx_cue": "file closing"
+        },
+        {
+          "speaker": "hardik",
+          "text": "The room may be full.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Then we will wait until it is not. Courtesy costs nothing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "They reached the tyre-shop stairwell after the evening shutters began to fall.",
+          "sfx_cue": "metal shop shutter rolling down"
+        },
+        {
+          "speaker": "sarika",
+          "text": "Sir, police are coming up.",
+          "sfx_cue": "boots climbing concrete stairs"
+        },
+        {
+          "speaker": "morris",
+          "text": "Close the files. Put the seal in the drawer.",
+          "sfx_cue": "desk drawer slamming"
+        },
+        {
+          "speaker": "sarika",
+          "text": "No. I am not hiding anything else.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "Papa, who are they?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You were told to go home.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "You never answered me.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Nobody move down the stairs, please. There is sufficient room for dignity.",
+          "sfx_cue": "boots stopping"
+        },
+        {
+          "speaker": "morris",
+          "text": "Do you have a warrant?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "I have a registered complaint and authority to secure the records.",
+          "sfx_cue": "paper unfolded"
+        },
+        {
+          "speaker": "morris",
+          "text": "This is an arbitration office. Client files are confidential.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "It is not an office constituted by the court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "You received my letter. You chose not to produce an appointment order.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Parties appointed me by consent.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Your heading represented a presiding authority that did not exist.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "That is your interpretation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "You may provide yours at the station.",
+          "sfx_cue": "handcuffs lightly clinking"
+        },
+        {
+          "speaker": "tejas",
+          "text": "Station? Are you arresting my father?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "He will accompany us. Do not block the stairway.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Inspector, my signatures are on the copies. Am I... am I going too?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "You are not under arrest.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "But can they charge me later?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "The complaint names you as an employee and witness. Give us the files truthfully, and you remain a witness.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "All of them?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Every register, seal, signed blank sheet and certified copy.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "There are three cartons behind the dais.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Sarika, say nothing until you have counsel.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "You told me I was registry staff. You told me my signature made the copy proper.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "Papa... were you ever appointed?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Not here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tejas",
+          "text": "There is nowhere else left.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Sir, turn toward me. I will read the allegation before we move.",
+          "sfx_cue": "paper straightened"
+        },
+        {
+          "speaker": "morris",
+          "text": "Do it quietly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "The charge is cheating by falsely representing judicial authority, and dishonestly inducing the delivery of money, property and possession through documents presented as lawful awards.",
+          "sfx_cue": ""
+        }
+      ]
+    },
+    {
+      "ep": 12,
+      "title": "The One Judgment",
+      "lines": [
+        {
+          "speaker": "khot",
+          "text": "Name every award, call it worthless, and the prosecution will record your cooperation.",
+          "sfx_cue": "interview room recorder clicking on"
+        },
+        {
+          "speaker": "morris",
+          "text": "You want me to condemn all of them before trial.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "I want a complete list and a truthful description of your authority.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "There was no court appointment. That part is already established by the record.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Then why do you need me?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Because thirty-four papers changed thirty-four lives, and your handwriting joins them.",
+          "sfx_cue": "files placed one by one"
+        },
+        {
+          "speaker": "morris",
+          "text": "Some disputes were genuine.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "A genuine dispute does not create a genuine tribunal.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Parties came voluntarily.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Some did. Some were told a presiding officer had summoned them.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I never used the district court's name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "You used its language, procedure and appearance.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Language belongs to no court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Authority does.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "This can be a short interview or a long case. Your choice remains respectable either way.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "What exactly are you offering?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Full disclosure. Identification of every affected person. Admission that the awards have no judicial force.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "And then?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Your cooperation goes into the remand report and the prosecution brief.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Lighter charges?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "A narrower allegation, if the evidence permits. Better bail grounds. No promise beyond that.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "And if I refuse?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "The file becomes larger. Large files are inconvenient companions.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "The people who obeyed you must be told what those papers were.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You mean what they were not.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Both.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Start with matter one. Speak clearly for the recorder.",
+          "sfx_cue": "recorder button pressed"
+        },
+        {
+          "speaker": "morris",
+          "text": "Matter one concerned a housing lockout and six thousand rupees withheld.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Name of the applicant?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "It is on the file.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "You are being offered cooperation credit. Cooperate.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Irfan.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "What authority did you have to issue that direction?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "None granted by a court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Did the landlord pay because of it?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "He restored the key and paid six thousand rupees.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Then state whether the direction had judicial force.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "It did not have judicial force.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Matter two.",
+          "sfx_cue": "page turned"
+        },
+        {
+          "speaker": "morris",
+          "text": "A supplier recovered forty-two thousand rupees from a contractor.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Authority?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No court appointment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Force of award?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No judicial force.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Matter three.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Possession of a rented storeroom.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Matter four.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Payment of seventeen thousand five hundred rupees.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Matter five.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Release of tools held against an unpaid loan.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Were any of those outcomes dictated through sealed envelopes?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Not the first five.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Which was the first?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Matter nine.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Who gave you the envelope?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "A registry clerk.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "The complaint will require his identity.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "It is in my statement.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "And what did you receive?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Access to the pending list.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "So you could select disputes that had not reached a real court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "So I could avoid conflicting proceedings.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "A careful description of the same concealment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You asked for truth, not humiliation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "The truth is not responsible for your humiliation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Gentlemen. Matter nine.",
+          "sfx_cue": "pen tapping once"
+        },
+        {
+          "speaker": "morris",
+          "text": "A commercial tenancy. The envelope required possession for the claimant.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Did you rule accordingly?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Yes.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Matter ten.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "A machinery payment. The envelope fixed the amount at eighty-six thousand rupees.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "And you copied it?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I wrote reasons around it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Did the reasons change the required outcome?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Matter eleven.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "A boundary dispute. Three feet of access land.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Matter twelve.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Withdrawal of a complaint after payment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Continue.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "He named payments, shops, rooms and parcels. Each answer shortened the mercy he was asking from those papers.",
+          "sfx_cue": "recorder reels turning"
+        },
+        {
+          "speaker": "morris",
+          "text": "Matter twenty-two. Delivery of a vehicle after payment of one lakh twelve thousand.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "No judicial force?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No judicial force.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Matter twenty-three.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "A family loan. Monthly repayment fixed at eight thousand.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "No judicial force?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No judicial force.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Matter twenty-four.",
+          "sfx_cue": "page turned"
+        },
+        {
+          "speaker": "morris",
+          "text": "Land access between a sister and brother.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Full description.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The sister held an equal recorded share. Her brother controlled both keys.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "For how long?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Eleven years.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "What did your award direct?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Access and possession according to her recorded share. No lease of the western half.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Did the brother comply?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "He gave her both keys.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Then complete the statement. The award had no judicial force.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Next matter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "No. Finish matter twenty-four.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The recorded share was hers.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "That may be true. Your authority was not.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Her brother obeyed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Because he believed a court had spoken.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "For eleven years, nobody else spoke for her.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "This interview is not deciding the land dispute.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "That room did.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "That room was not a court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "It listened when the court had not.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "She never filed in the district court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "She could not wait another eleven years to be heard.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Say the required sentence, and we continue.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "If I say it, what happens to her keys?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "The parties will be notified that the award has no legal authority.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Her brother will take them back.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "He may seek lawful determination.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "He held everything for eleven years without one.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "You are not protecting her title by refusing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I am protecting the one day she was believed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "That sentence will not help your bail application.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Then leave it out.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "The list must be complete.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "It is complete through matter twenty-three.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "And matter twenty-four?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I will not call that judgment worthless.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "It was not a judgment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "She stood before me with eleven years of crop accounts. He had both keys.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "None of that appointed you.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Then state it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Understand the cost. I record partial cooperation, refusal to identify all awards as unauthorised, and continuing assertion of judicial power.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Record it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "The narrower allegation may no longer be available.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Record that too.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Why preserve one lie after admitting thirty-three?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Because that one made a man return keys he had no right to keep.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "You do not get to decide which false authority becomes noble.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No. I decided when it cost me nothing. I am deciding this one when it costs me everything.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "Interview suspended. Time, six forty-two.",
+          "sfx_cue": "recorder clicking off"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "The incomplete list entered the police file. Matter twenty-four did not.",
+          "sfx_cue": "file cover closing"
+        },
+        {
+          "speaker": "khot",
+          "text": "Should the sister be contacted tonight?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Not without a formal notice and a complete verified copy.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "The brother may hear of the arrest first.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "hardik",
+          "text": "Then we move carefully.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Do not call her.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "khot",
+          "text": "That decision is no longer yours.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Please... let her keep one night.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "Across town, Manjula locked the western gate with one key and the house with the other.",
+          "sfx_cue": "two keys jingling, gate lock closing"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "She still held both keys. No one told her.",
+          "sfx_cue": ""
+        }
+      ]
+    }
+  ],
+  "beat_sheet": [
+    {
+      "beat_id": "b037",
+      "ep": 10,
+      "seq": 1,
+      "world_time": "2024-01",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "tejas",
+        "dhawale"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "tejas",
+        "dhawale"
+      ],
+      "hidden_from": [
+        "hardik",
+        "khot",
+        "vaishali"
+      ],
+      "what_happened": "Morris began his largest hearing before a packed room while Tejas watched from the back.",
+      "state_changes": [
+        {
+          "entity": "tejas",
+          "fact": "saw Morris publicly treated as a judicial authority",
+          "valence": 3
+        },
+        {
+          "entity": "morris",
+          "fact": "reached the largest public display of his false authority",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b038",
+      "ep": 10,
+      "seq": 2,
+      "world_time": "2024-01",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "tejas",
+        "dhawale"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "tejas",
+        "dhawale"
+      ],
+      "hidden_from": [
+        "hardik",
+        "khot",
+        "vaishali"
+      ],
+      "what_happened": "Sarika publicly refused to certify an exhibit while Morris continued the hearing.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "ceased certifying documents for Morris",
+          "valence": 2
+        },
+        {
+          "entity": "morris",
+          "fact": "lost his clerk's public compliance",
+          "valence": -3
+        },
+        {
+          "entity": "tejas",
+          "fact": "saw Sarika express fear about the legitimacy of her work",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b039",
+      "ep": 10,
+      "seq": 3,
+      "world_time": "2024-01",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "tejas",
+        "dhawale"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "tejas",
+        "dhawale"
+      ],
+      "hidden_from": [
+        "hardik",
+        "khot",
+        "vaishali"
+      ],
+      "what_happened": "Dhawale produced a prewritten outcome and copies of twelve earlier awards, then demanded that Morris award him the western parcel at two crore ten lakh rupees.",
+      "state_changes": [
+        {
+          "entity": "dhawale",
+          "fact": "openly asserted control over Morris's next ruling",
+          "valence": 4
+        },
+        {
+          "entity": "morris",
+          "fact": "was publicly exposed as vulnerable to dictated outcomes",
+          "valence": -5
+        },
+        {
+          "entity": "tejas",
+          "fact": "heard evidence that Morris's rulings were controlled",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b040",
+      "ep": 10,
+      "seq": 4,
+      "world_time": "2024-01",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "tejas"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "tejas"
+      ],
+      "hidden_from": [
+        "hardik",
+        "khot",
+        "vaishali"
+      ],
+      "what_happened": "After the room cleared, Tejas asked Morris which court had appointed him.",
+      "state_changes": [
+        {
+          "entity": "tejas",
+          "fact": "directly questioned the source of Morris's authority",
+          "valence": -3
+        },
+        {
+          "entity": "morris",
+          "fact": "could no longer conceal the appointment question from his son",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b041",
+      "ep": 11,
+      "seq": 1,
+      "world_time": "2024-01",
+      "location": "district court records room",
+      "present": [
+        "hardik"
+      ],
+      "witnessed_by": [
+        "hardik"
+      ],
+      "hidden_from": [
+        "morris",
+        "sarika",
+        "tejas",
+        "pandit"
+      ],
+      "what_happened": "Hardik verified across current, retired and section records that no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matched Morris's forum.",
+      "state_changes": [
+        {
+          "entity": "hardik",
+          "fact": "established from court records that Morris had no recorded appointment or tribunal",
+          "valence": 4
+        },
+        {
+          "entity": "morris",
+          "fact": "his claimed authority failed formal verification",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b042",
+      "ep": 11,
+      "seq": 2,
+      "world_time": "2024-01",
+      "location": "district court registrar office",
+      "present": [
+        "hardik"
+      ],
+      "witnessed_by": [
+        "hardik"
+      ],
+      "hidden_from": [
+        "morris",
+        "sarika",
+        "tejas",
+        "pandit"
+      ],
+      "what_happened": "Hardik signed a police complaint supported by the verification note, the bar record and copies of thirty-four awards.",
+      "state_changes": [
+        {
+          "entity": "hardik",
+          "fact": "converted the records inquiry into a criminal complaint",
+          "valence": 3
+        },
+        {
+          "entity": "morris",
+          "fact": "became the named subject of a police complaint",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b043",
+      "ep": 11,
+      "seq": 3,
+      "world_time": "2024-01",
+      "location": "police evidence storage",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "morris",
+        "sarika",
+        "tejas",
+        "pandit",
+        "dhawale"
+      ],
+      "what_happened": "A sealed police copy of the verification note and award index remained preserved for investigation.",
+      "state_changes": [
+        {
+          "entity": "police file",
+          "fact": "contained a preserved verification note and index of awards",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "No cast character witnessed the secured evidence copy being stored, preserving its custody as deliberate open canon."
+    },
+    {
+      "beat_id": "b044",
+      "ep": 11,
+      "seq": 4,
+      "world_time": "2024-01",
+      "location": "tyre-shop stairwell",
+      "present": [
+        "morris",
+        "sarika",
+        "tejas",
+        "hardik",
+        "khot"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "tejas",
+        "hardik",
+        "khot"
+      ],
+      "hidden_from": [
+        "vaishali",
+        "manjula",
+        "bhaskar",
+        "irfan",
+        "pandit",
+        "dhawale"
+      ],
+      "what_happened": "Khot told Sarika she was named as an employee and witness rather than an accused, and Sarika disclosed the location of the forum's records.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "was treated as a cooperating witness rather than arrested",
+          "valence": 4
+        },
+        {
+          "entity": "police file",
+          "fact": "gained access to three cartons of forum records",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b045",
+      "ep": 11,
+      "seq": 5,
+      "world_time": "2024-01",
+      "location": "tyre-shop stairwell",
+      "present": [
+        "morris",
+        "sarika",
+        "tejas",
+        "hardik",
+        "khot"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "tejas",
+        "hardik",
+        "khot"
+      ],
+      "hidden_from": [
+        "vaishali",
+        "manjula",
+        "bhaskar",
+        "irfan",
+        "pandit",
+        "dhawale"
+      ],
+      "what_happened": "Khot read aloud the charge that Morris cheated people by falsely representing judicial authority and inducing transfers through purported awards.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "was taken into police custody on a cheating allegation based on false judicial authority",
+          "valence": -5
+        },
+        {
+          "entity": "tejas",
+          "fact": "learned publicly that no court appointment supported his father's forum",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b046",
+      "ep": 12,
+      "seq": 1,
+      "world_time": "2024-01",
+      "location": "police interview room",
+      "present": [
+        "morris",
+        "hardik",
+        "khot"
+      ],
+      "witnessed_by": [
+        "morris",
+        "hardik",
+        "khot"
+      ],
+      "hidden_from": [
+        "sarika",
+        "tejas",
+        "vaishali",
+        "manjula",
+        "bhaskar"
+      ],
+      "what_happened": "Khot offered to record Morris's cooperation for a narrower prosecution position if he listed every award and admitted that each lacked judicial force.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "was offered possible leniency in exchange for disavowing all awards",
+          "valence": 2
+        },
+        {
+          "entity": "police file",
+          "fact": "began receiving Morris's statement identifying affected matters",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b047",
+      "ep": 12,
+      "seq": 2,
+      "world_time": "2024-01",
+      "location": "police interview room",
+      "present": [
+        "morris",
+        "hardik",
+        "khot"
+      ],
+      "witnessed_by": [
+        "morris",
+        "hardik",
+        "khot"
+      ],
+      "hidden_from": [
+        "sarika",
+        "tejas",
+        "vaishali",
+        "manjula",
+        "bhaskar"
+      ],
+      "what_happened": "Morris identified the earlier matters, admitted he lacked court appointment and stated that the first twenty-three awards had no judicial force.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "formally disavowed his authority for the first twenty-three matters",
+          "valence": -4
+        },
+        {
+          "entity": "police file",
+          "fact": "gained Morris's partial admission and award list",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b048",
+      "ep": 12,
+      "seq": 3,
+      "world_time": "2024-01",
+      "location": "police interview room",
+      "present": [
+        "morris",
+        "hardik",
+        "khot"
+      ],
+      "witnessed_by": [
+        "morris",
+        "hardik",
+        "khot"
+      ],
+      "hidden_from": [
+        "sarika",
+        "tejas",
+        "vaishali",
+        "manjula",
+        "bhaskar"
+      ],
+      "what_happened": "Morris refused to call Manjula's award worthless despite being told that the refusal could cost him leniency.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "sacrificed possible leniency rather than disavow Manjula's judgment",
+          "valence": 3
+        },
+        {
+          "entity": "police file",
+          "fact": "recorded only partial cooperation through matter twenty-three",
+          "valence": -1
+        },
+        {
+          "entity": "manjula",
+          "fact": "her award was omitted from Morris's disavowal list",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b049",
+      "ep": 12,
+      "seq": 4,
+      "world_time": "2024-01",
+      "location": "family land",
+      "present": [
+        "manjula"
+      ],
+      "witnessed_by": [
+        "manjula"
+      ],
+      "hidden_from": [
+        "bhaskar"
+      ],
+      "what_happened": "Manjula remained in possession of both keys and was not told about Morris's arrest or the challenge to his authority.",
+      "state_changes": [
+        {
+          "entity": "manjula",
+          "fact": "still held both keys without knowing that Morris's authority had been exposed",
+          "valence": 0
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    }
+  ],
+  "promise_ledger": [
+    {
+      "id": "p010",
+      "raised_ep": 8,
+      "listener_is_waiting_for": "whether Sarika can be jailed for certifying Morris's proceedings",
+      "must_pay_by_ep": 11,
+      "paid_ep": 11,
+      "how_paid": "Khot stated in the stairwell that the complaint named Sarika as an employee and witness, not an accused, and that truthful cooperation would keep her a witness.",
+      "status": "paid"
+    },
+    {
+      "id": "p011",
+      "raised_ep": 9,
+      "listener_is_waiting_for": "what Hardik will find when he verifies Morris's claimed appointment against the court record",
+      "must_pay_by_ep": 11,
+      "paid_ep": 11,
+      "how_paid": "Hardik checked the current, retired and section records and found no appointment order, appointed arbitrator, constituted tribunal or matching official case-number sequence.",
+      "status": "paid"
+    },
+    {
+      "id": "p012",
+      "raised_ep": 10,
+      "listener_is_waiting_for": "what Tejas will learn after asking which court appointed his father",
+      "must_pay_by_ep": 11,
+      "paid_ep": 11,
+      "how_paid": "Tejas heard Hardik state that no court constituted the forum and heard Khot read the false-authority charge aloud.",
+      "status": "paid"
+    },
+    {
+      "id": "p013",
+      "raised_ep": 11,
+      "listener_is_waiting_for": "whether Morris will disavow the judgments to reduce the case against him",
+      "must_pay_by_ep": 12,
+      "paid_ep": 12,
+      "how_paid": "Morris disavowed the first twenty-three matters but refused to call Manjula's judgment worthless, sacrificing possible leniency.",
+      "status": "paid"
+    }
+  ],
+  "calendar": {
+    "season_start": "2022-11",
+    "dates_fixed": [
+      {
+        "ep": 4,
+        "when": "Friday",
+        "what": "Morris heard Dhawale's land dispute."
+      },
+      {
+        "ep": 4,
+        "when": "the following Tuesday",
+        "what": "Dhawale's conveyance was due to proceed under the award."
+      },
+      {
+        "ep": 6,
+        "when": "2022-11",
+        "what": "Manjula sought and received an expedited hearing over her recorded share of the family land."
+      },
+      {
+        "ep": 7,
+        "when": "2024-01",
+        "what": "Hardik received and began tracing case one seven six."
+      },
+      {
+        "ep": 8,
+        "when": "2024-01",
+        "what": "Sarika confronted Morris after fourteen months of paid registry work."
+      },
+      {
+        "ep": 9,
+        "when": "2024-01",
+        "what": "Morris received the district registrar's formal demand for appointment records."
+      },
+      {
+        "ep": 10,
+        "when": "2024-01",
+        "what": "Tejas attended Morris's largest hearing and questioned the source of his appointment."
+      },
+      {
+        "ep": 11,
+        "when": "2024-01",
+        "what": "After the eleven-day response period ended, Hardik completed verification and Khot took Morris into custody."
+      },
+      {
+        "ep": 12,
+        "when": "2024-01",
+        "what": "Morris gave a partial statement and refused to disavow Manjula's judgment."
+      }
+    ],
+    "periods_fixed": [
+      {
+        "between": [
+          1,
+          3
+        ],
+        "elapsed": "five days"
+      },
+      {
+        "between": [
+          5,
+          5
+        ],
+        "elapsed": "six evenings from Morris's first request to his first photographs of the pending list"
+      },
+      {
+        "between": [
+          6,
+          6
+        ],
+        "elapsed": "eight days from Manjula's request to the hearing and judgment"
+      },
+      {
+        "between": [
+          3,
+          8
+        ],
+        "elapsed": "fourteen months from Sarika's hiring to her confrontation about her certification signatures"
+      },
+      {
+        "between": [
+          9,
+          9
+        ],
+        "elapsed": "eleven days allowed from receipt of the registrar's letter to Morris's required response"
+      },
+      {
+        "between": [
+          9,
+          11
+        ],
+        "elapsed": "the eleven-day response period expired before Hardik signed the complaint"
+      }
+    ],
+    "unresolved": []
+  },
+  "flags": []
+}

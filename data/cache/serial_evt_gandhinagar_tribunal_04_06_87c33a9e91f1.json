@@ -1,0 +1,429 @@
+{
+  "stage": "serial_evt_gandhinagar_tribunal_04_06",
+  "saved_at": "2026-07-26T00:27:42.418548+00:00",
+  "response": {
+    "id": "resp_03db77fc4663d252006a6553bfceec819b9da3c05545f70939",
+    "created_at": 1785025471.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_03db77fc4663d252006a6553c0f2b4819b833ac9a387a93248",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZVSAAPbpO82z6MzWHjV7eWMLAt0wyOYh1ASdTc2dhudzSlq5TGM2jzhV9hTB1PqAnj3Pr9jPlHS7Xn6UPfOcT9TqriHwQ30GI8aFfKTGGZOgcwpl50XbXZC41s2BC8jZuWzXju9bMRhTusGIg2j4MFMmkaKZkQd8U5Ty_hcBCMEnvrVKpoWMNWWsFHB6FKNdtcZa1fYbja15CWiFP1qcC6LgXPoqGyQIjDELu5crurQ5DDjIcnS-_UkJ-AgXgXqOuuDLwPrU-Fp3unCXWnzpueJOq22_JyopZqpv5Jnz8hc1rp_dhShYO5vcXM0jpiiEyN3bMf8iozKizWB5k0GzbuOEblvprbupX65TwZKMcKM_uPuZvk0Bm5qs_vSUwQmn2SVNtqGyh8Op3Z1j4UWP60EAP7b1IgL-RS3cjOD-t62VA0w2srrZcKJ1CdRi0rrikVnK2q2SEyd3p0nOYoA2hrm-2I3Y8OzRzbT9JeB0jOtg4WTROaw-ZbdSxWpj7rwqelDnKLT9rPCFt16cikKALNlTk_LL7aUtn4ZlQak3BJ9J5rhZrUc3Z60DzLKLLA0NyFUFzKdemPmzYHVIZ9rLQwZiRDQhIMwsUDaeb_85S2qo5y3CtSPzRKREfZ5HYdSexeUOcaQrfFVgo8SboOlLdELKSBjs5LNmVc2wYdlfF8qJ2wkTMobLUIScdb_jhur3pGAM9i52ZNVfHJ_xzp-LMIlvpjvT_o3zI1BKpUGGMXDuN_kWomrvT7oi2sXBWwGh7izP-ADCkducLpN1lyp7104fnZwdAd-am8RfKxMR5vuS0ubxpCBh8M3DYszcLZU63VHsN9MJ0Dq30HM0BXgcvrRL1NTA1I0pnZ_Lp6HoYs0mO0641uoPpLqvN-AUjYzEcFXXzVcwwFllLTU4LMHl2oQolQOumjP-FmRvEDdtWf2iyTJCzqkuIkqw1SL07c7nfVbRXVHFYr9OjWWD2u7CBS2ClqDdnobmAL1yAt5XRWQ8s5CjfEYSji80JBzzFefJowb9Vv7Ds5TVQ6FJs5Gh44R3Sr53-xn28fCLL2eohjZK41Yj-JOn7hMQ6dEupeFfUkc9o1FO0_F2mpeLNyYlbitys7hA5GOyBvH46uX_BAT52Z46ZQPMGfvcNuCm012vPkrCM5982nDT9bCkvziKGKXly-kaAdOeV-VQp7ty3YeD5DnKhV0yCf2aSFZSONpkhOGIGncPTLrx4T-OrYaT6Ap-bRKYf3C_uGe9Dm9xBTNh3ZLMwqcIoCziqaomJqsV96I46eFKHlJOz_Tjvcpn_ln0BJja0xupAyMo6AmIMoociWwwHJWsNNsrvTlx1me-ZZSjSzFlq61EtUeTb7OkC58do4fnVO-13NlgWZOhJD-khz8JovHdt3BvqXwUROerjRTupoO7n3UzXQLK5bBFHDXJd77llGN7WNtseu_gC90F8sCzm4gnuQl_hlmMHG6r_o8fu7bHiuv096OY__aO4RzlRgISosu63Ds87hgGPPbeeDqT-a5ppRiPPFidFP3Pnnpub22iA5cRcWS_iHSSixmpwU9_YXnGowuZaV6xO4b3ZC4n2743x4_cZTbZIqLY7GeUXu65D6BUVc5p2Ai9bKh19qlQVq1yBy_tVHfsBGezufxrbFdzdYNu8LyyyO_XLbLBCV1Uy6CIeblxnukIP5CsjVW3RNt-Ul1Kj_wPEWlLzk3_ZTR5kTxdLPnt9676x05ZOs-7MKqUwlEUX7L6EvOZvRrv4mkhO1y2G7FlywqCQqocPFWUkWoxHSJZaJ9VjJSxfy3aq5OE92P-MgvD8v6QqxMTNz6YR_zvQw6tZor66eLzUDR20zfHLUrfoNXQcq9OjqNTTCKxAlRSYioTiwanq8eCwoLTP1JhD70GTRhrOxjqcWGExlL2CRMyqbY_y4IAvG__kwel_LNQbWWbAeG44V9DviQhDepSA0mHCQ8lPddXDizwcx_x0rogIhsVzdkjuD9lvQVty37sCkPaBKCCpGdSmLohXA4Ak6_9WC_dOgGH89L4i8lsVEmoF76Ez73Y-edS7PSeanhJRO6eOw3q9l01sObsEd6MjNbNuseR9tjwbQ2mQzjzaZuxisz0B2ltBTU3NVUWvgKaIoOlW2RqLcuhEKjb6RkD8sVKMh1qoUmTCbxv_sBxacSmYsgcnKgFqYYWLYP1NAXEonKJ5m5CeBRIjdwCzMZ7DFJejv0Nktqv40HQKz96aOJsbcETfDQNe6IHLRzrvlAy_Xej3-kssDYjgxM1v2pjRdH3EuS9s2ZECLZZXrLc7zEL-xmcHEvYNrzMmSO8lYtOKjXJnXN2TGCv3q5F7ROqoovlvZaGyDwZHn4_uPA3gGuu390SE6817pYIT6AqZSB5Yg3BJTdK4lMwCgkJ8MLn87GJc3EJWrHElOfo7M6QXc8qu4rjWI9YUJrRJnRM8_7TrUZByp6CsvyTjFMLUIkf2XLlb0yewq0dT3tM6u6CXNNZeTjy_9V1bJZ6NH1R8TL1nXSSnoytoE_YkMwwhXvMbbTE9BLmeemGvxd2LYlSDiiS6VgLzs6o9YZzSZqohZg2xLxVUxuCnNZSlJIK1Pw6zJ4v6txxFitPZplbkJ_zWS-_Ds45PluJcuKEb2tZx5qEkRnIyMcThu2dbuuHW9CWVYAWYZJdG14FBR9_eF3vRW-qRa-a2EkV4ry8BDClhLJyabG-zUw_JlZ2p9l_nA91Ko3jhCKOeCdUhtW9soEaQYd4nfNUE466kO5bLYSy_cW7kaGBrx0XURbvR8voL4E8WoU9Rquk5sqlqB6NRrEQSFt5miGD0_Sr-VGdjHCWlyNJ3CTTT1pfOV_AeqJljU1UwlAB6tmhX1s1kfDFKfkPoHmcUvivg3PvClo-rGC66XjX12Y8Qx2PFG25d9_HoCRe-HOc8NM_go2YV13tm-iEpFAZFAknueTK-i1un5M1Z-dH5jAjXsn2QSPwkjXuin6EYzx8T8YXgJKf81FPfyThvji-lrtU9xzHcSTcCSXXFEdbrpfscLiOzAqv0Mn5wbO4B1Je-dzecdCjoc5D--nSpzxn5SiPa_mdU7M4L_uWQuRD2fkmmwd1dDUKvpL_xqiyVOpjzkX8UeJPZ6UYVdj2TmbTP-lvPHEMuQlLiopNp6NvyQggB9JhAlOHjdZJBEqZe4fbijPfy7easqoCz4zQS282ySSjnRvtkwOsJB_LbZ7Q-5PgNfhhfaani0Sl_SwjKRJDqYwYHbZjPCAx2Y8B45_gs0fzxDtxCvPzxI3mvPLgIa7_ylK8FpeLjthX8ICL7oh6JWDfqzC6ytNhYFgH0BAGhqC09XdbCA8T6A1CvlMKLhFZj0mXPP3lIEvO9axHfK4AxMnxRGwCj4uB-lSumJps3JIDM8p45gRN3GNQSk3JWWR8F_XigdHD9ECEhVmvYoBx3WrLW0RVumtbJJwgncwRez-KtwyCU21fb-d_pQPVob8MraxDY52kXlnUiAOqDU4Z9Zjh_trIoWFI_VKuVBV3CwDVqNC5JcKyL6Ly5jyva3RoHKj6UBjZsEFs_amTuEiBZHyoSo5oIIloewt9zNdL0WKmiCgF5eQMWmjrqeA-TxKGofqumdk6_WlDbi7V-R8SI3H7IdzPNbcKZQ1k5LswlE1nKV2l_WR7GZkeCNBPJUJYRpAn_TO6aPbDz4-CowoVLhsmHefN0NvsxXqu4Kz6hMgtBqLaAkPZZoJAS4fXZns8wvDtJtNDNR-ugSWrfEOvZUETz9YDmfKR2KJERmDdqlsZZGKKGOB44SJn_XBkzZvmVnl0USulepBsyiHc2h--0gKYDlu_8_XhDMVjTP09Fbw4oG7bZ7yXAEGiXwUSfoFvfoLCpAV9LrQTutkESUIleccRtD1s0JxmFeZO1DkmHt6wCMmxUOHHvZ2M0k9RjWNXby2BedXGZy0aXO75I1NRU6a_vDHwWqvxtH_iuauYJqne77qtz6WgixlPRpRrxQe6RGeGIC-Az8boOWYNJlp0raloj6wh1GKg83nNVwbuVwRKJ0bi8Tfs0bDMTgtax-o3CQmg44kAPHLs4tfWjTy2k36S_mvcCzKOd7LTBX_BIx1cTPlP32CGQEwfDy8xZ_qo2v0Lr4ivTZkU_kkm0UiEoipBzbVDYNFKGCskGHXWVnOrdpMAC0bZuvdH6kfrCvjYFx2614FPOUYHH0QbATstFSl8TDPiQ-KB47HEajrRTNCA60_9EWK-NOJ26cKr3YmmvQhTj8trLnRSKMKC0uSTQv2B60aZZOp8Fv7Ln9SQQu49uUv6-5LhTacbcic9WETVCMhjlQWMMsnZI0XS35rcG01-b4DVopiL_-SVc3ikzKpomm9W6_uwfSpq7jzOwG1B9t2sqw==",
+        "status": null
+      },
+      {
+        "id": "rs_03db77fc4663d252006a6553c9f488819b93f929386407a1fe",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZVSASDKSIr7qAa-XjBnzdhSROfDdJ88ulT921IStfr31f5o4LHHHb6oyKGDWGWkbddReo8g0p8KHd1Ym3293CDxSGfyCLi5FvHFwfl6B1NAZMc8kaRbw16N3DKM8xHZvTI09qGmKNGJ7wIHKX4WVTCMgknNmXOtVkGNNu3X3bXu07Z5voOoNYVZelg8TXaxO1usTPxIAlcDoYKambPgYZDGlSH-8NKlmeT74SoYYNtu-bElS6xBDAvT8zjvAdN5Gv95kcog9VHM8RoJQb9GvppDIc47ts8G94txWldczyv3M2L_lUnDYEVivKfqdMKjqGgzM3cend0lp0NzJNiL5a09zRUY5SacRCG3nWw8UNV4cHv9s7Kt1fB0qVLcEezbmjdxbnA3cGtTWwCKT39CUM93PFhonjv0DGMjO_toGXxGxzA8NJ6YeFB1GeLrjINUBUxZbOL-qZbuAuqIAOcsNsVNK0aFoIbxtIXkGGug6hJSWVjz8rob7T2OTumdpadgy93WFQWD_Q_lBKGxD1xF1aBdyDHkR7T5MUZTr9UYJLgOJr_afj6s65E9bTcS1oB0_Y6yyfjqF19eOFY2zmIsLAhdH3MytTATvmmJzp7gDacwhTPyG_EBQlbhPDmC7eSbz7LotEIDaLWAtyqNqhwMhBYSCBW61XLIvqfsxbzKS6ALe2DLtwq0SqXNFi3TwDN1eMi8hnVEcawVEXpag0tr0m8JkXslKm5FoxGsYelIi7-1xJc3rfW_-UTvA8Wz7bX7ef9gVGtWx8hYE3ADv4sjS85VE26Tzu2pP7Ecs1e7ZPWwyucVU2UZzC3UcoqJeTCQG3FpcUP4AfJjYDlIKwcIE_Rc0NoS6LSxoWEJi6iLf7ELD7p8LI94nMxc42TQL7saNlFhlBHzuoIMReDstptfrm09_bqDUbeHlYgVe7rLWx-cJw0xA_x5WEYRmtvlbJcYT6sHjS4F3cE_-k2KLB4TtlaHiKRDKXciepqBpe1rjn5htMppc5cthxLO78cru4iVwWtf1M3VQLmxHrkMc1Xco5MVGBA4Xb--ni9LJFUZ7ZuHxnQNNeX9RszgrpRAaqk61oKSB8qPvormoq9eNXRKxDQmvWqzYxF5OuWZ0ISzti3dx_vjj-W2YhR-RhMM3S_39ZCAWFFw8d_hvwMoFttSVzl3Sh1LqSivwui_0IfixAd7ro-wfgd54iUhMPAVRxklpXh9wUa_yWXp5E2TRHiEw23EQPyzN9NOaB1aCKc6p0v0xLERl8SNfjyXLi6AqWurWU7_lCvGbzHGF7b4wo5FWmMgbfR57TX_UfCgboV4pmdlziXAXIW_Pq-BSbLZZEEusmUDlf8eBaelFtDX65bAmJ_8rt0yc0oeh7sNKvI2X74FGOeADdhqtOe7PNDwUJVczZ58n_SE5sNdfG2TLC-DcPOa0dimhNZOn08WmaKCTzIwkt26bgkIDf0FUo0U0n-BQIrTRyVa8iYFxkVGNxmbDLxw34ozF8imI-_naLThuSvU9wFryT5aFYkozV0zxVohviYETEsYCOJyf0mNnoKvjtmiVd4NrwXVtv2xBq7QqpJGilhb5lIV0JPWfTm4gGGFbK_JYN1M768UrfE8RsWCxfJFtyMbkuSeyws4WNhEX5Q_BdNiSwFFkX8L8CEvFDu3r5vHu9GFt4nbfRGcKK-KnHPAztjd7L2Rc9L7X_2oh2Xro9v1N0UsT89mQ9UF_BPcoQvNbpqi76w-l5jH6_ozhLI3h6KmG1wKSPR2IUZDFaeOLS24zj0uGYKat4qxjRKwcqoUTJwiXXHoPLpx3WcS0sKYcRFcEa9KX4Yc3THhz1kcpnabvmo4REkcekDc3wcE6FSRbFph5VX6_CyPoC8MgjfynCH60a8ZXOEWN27CXFKLyBNmKYMLfbBfn4zVgg9Xa51G5aiGFn5VHyfmChcMAFGqobqfmiz1wY1jboQMOcBnvM9p0-Jl5cAqAFHiPuBfc0b5puizGG0M1S-u63JcGSRMS1as-EDMO6DlJuZIrnqs7yH_knUqRTIRSHh42OXh7GPbDfJjC9dIvPYwa4SnRt4qdN2PgANfX9eaajJqt7Ff1GUGR0_YCssGu27_RcM98NQk58nW2GF0oOlgaGHaKK8NyyEu3XDx9nG5uztUwOYALk9AsW_ucwnFjh9hFx4U1RC1o40QnusnR-51yncNeeYNcONisBQvdwG_6KRenJfVMH-V5oXCJqdAeKIb2AkvU-kFGld1azL3hQ55QZvfeKrzzPFLx0vK7sXup7XHaE-RKjUZrnuu8z-jByOOl6yrWVfVBXzt18y3jKmu_STF5g3j9Wmiwt3f1oItC8bFDoKipWPGwPNj-k6zNVav8lagUHiPsbUVvLHdYWn-rAoLUDbyIUOphAzlkY4Cz0s4Q9cWbnXQ8SR-bAEvY7OSaKFu4rOJP7DNosb6m-8gMXd0ILuC228-DfRoL6N3JU4_XIcr7-jO_G8r_OT6a3BhXt__emm8_n2FEwXdXIofOzhENeQefYFuFELBvJ1ZD5DS8SbIt7NETZ_mbHZcwNiHiu0oNtEMPmCCSXvZ_phoPUaORmOgB-kClY9QTFXs85Zdaft5yNpcnHMHI6QmAtygB1HJYoikyLytpWjvir30DlHV5HFaUz-f1MQHMcMFDEzCNS40-UCcCMT20Y5UbabGn3uzGTLSuPpEc31PQIhBwtJk3a64pTJ2Qpk0PATwxwp4ec0rrwE2vvybXIeemWpLbdETVFmWH5TvNM_9HvIUsKy74nD36mlxuZ_s1SoWA4R3ZLXPocdIHtxmAs_2ncQNvt8BscwfEHI9Gp3dTHli4d0of6nr4wdg8FtZkKJmAAio0AtA9mBmnpD0wuhdNJEgOqzN2hrwnnVnutLEMsuXNmU7gS1NmvZpT9n9nXqySl_BugY7OUM4XFGswQkoJWN4-6Jg6ln-Exzfju67T_PNcXbK1YMAaxTMrj_R55gN8TMGUk2tIm0Az1fgsIzto9VMLkThQ6EX0jS4pMlGlrJaKZHDCgzkLRZpk0h3GZoVFHVaMmDGZjqj9CiH-N6KhqrhzSaTaTuh8yFLnYZ22Qvk1TXa628AOjzYCGWc8m2vuvfVZZg1bE5fMu268IEFKS0n3mm99SPbuo2QWZgkSz32j9li25EvSw574vwvw1FWaZySdK-zRXkRPRBNejXwN0fDp6OoUityzRNxx2Zqm9puqaoUH_t-a6-9MMiTxkPKlOP8gNcott5r4sujKoTnIqtV0Csf6gWuhqTQu3AWxhQ3gnp_f2C7BOuwd2XHQ2K7tKqjow2Q_QManPwe19_TTwh4DUlKsR0HPYbzGSIJQXv941cHeYdNzZZ7XfI0XHo3mXzKgw24qzRFwZk5bXd0QUurnY6vtFOr78kfrq-ZoyD7ggTz6ZaGau93UbjKpckfimNv6rRSAt5_hpynBUVsKz-t9gv2DHHR4emGpWu3eNSc797hzH2DFEvQmjr_1R8B8e9ojm6zf4I919a8_pMl3FzsggFs9Iqk9NQSKgcTCeiHPcby0LlJCpbLLMwhT7cHGR-BIST7FhLZteXzFpX57RTuZa0X7QLFUlDO-FMIQpRwD6vUC7iuvl0wV9zGUdpfs--scadm3rSm0B8yGKm8uWJKuShgmoOKlfu3EtqHNZ5s0pP6GYEAX0Ybis1z_s_89pY_sU4i7b1V4mYIJ5XNDm9pMjhVt-AY5hooK18xwuNfeZJpvYK1EZK_KI4TI95ZoHr_0eZ6I_3UFY51AYxNnPVFcvBAsy7t9HU5IrGssMkwRuG4my2ec2Kt3gGobiqz8V-X39yVbbVitCOiRBbc3z4xugmRExXkORcNcoNE8fV7GHwFjHOEXS_5SVjsyBsornIMsz1MedPH1ZsyLaDeDQYoUBNh0oJYmHQg26Xa7VugR7euBbvUUy4SfQnKAHYM_oRWKphNwk3_qBfe7OFUYnQ1VMioz0fe3FbQrgGFp9TrMH68SN67yv4wpbDVE5qtKcLUUIzvZPRYQjLBXnWRHSIZ6VIQqGBt4BW009fInbL2fLr0qnEi2ubyZdKBJui-X6PHKUuHJ9_-tn0B-pKNXIrwzQ6eWsqBfhONPBkSqenHYP__kINzQA0gsLXhpc1ohkqu8oOhl81F3BtxI3t_Rj7Omo3w-cLAXlGhRNoBNbIx_oKkj2kKkSQ==",
+        "status": null
+      },
+      {
+        "id": "rs_03db77fc4663d252006a6553d51250819b965ec3d726d6bbcf",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZVSAJAp5gtX_WRxLIjSNdS4hrQDGViXZ8vwCwYNOqSmKm498t33h3cZjmUEOOfGG9-i5brTj0qzVwpN5U0oqQpxuplwWYo6WokjK0xpCe3jurrFvDRSdQwhCQLWJKODOjJ5CyReiRBLks_2kAtYZG1MVIQKPqxRtErSFBsvvCVDNrzNuErg_pTVkrQj8IiIXbZeK958qcGjRpU4skpxkOdythq8zM40OIxwpLT5p58uCFUqQxYj3JuxqP4DFjexSkOqkqvA4evpWP4qGCExM3KHNGhUtSyFVaRtzaUAeHJs2BuwOB9lwjm1JQKva13i0wfDo2hyewkoc9fc5vX6-8tPIqGIss0nQihDZ3xfUDs48N733DmuKgXt7yIusg6v7DSiQpqk4SAV6QEOakkzDddQA7h_8r9vClSc1H_mOLkPJC3JyWBnGj-dNjSQ8g-jUngimuwUcQFF-Obxdl6yKYFNh4OLPTG5jGATbBxMZQMLspTwzE_pQWpyHLJEJ3dYlkoHWQpC2Qx10oYYeL7BM9oMvVS4WwD_DGe6RjjpwikEjrwIKe2OJUjREGR5iQ17LVrnG34OVKUinKQ24RtIlZwGoOrdNfiBaqnVGOYJINtLHgdkRjqrkqQVfEGfiiRWiGLxPx1AuH9nsMlSyW6IbkKdec8P0JuxLXrSvsDL0DJ8oTwjkyRsraBvJkHJqSkYzBPzMUbsnr0ilQnJRnqXPi2N--bMNtjjMsxnAI1L9hybLGj-QBb9Ycpg5YLHqazNIVOnhN5OeKVcsbX-xHGl_CZDqN_XptIn8CtDMPbDO_Uo0obSaBmD3ThP_EwlSmG6R732hHpi4BW7ZVIN2bKvXmJ8EiUCboxUA45W5Tj_ziL7tXgaDcX4Q43zkn2_83MaAkRR_KOPs8ahACHihg4cELvz914lAmKPPg2SP-JjQobPXyk46kXZz1LgjF7QShDnS434dYHoUPUWgU5hgdkINrV11F9ECQSivCqeFlERWoq5kUbid6_PHcbdBHTPaHrSXR3xtz64qnHTv2QUOrycfFdVjQr98tFuWwzarHftCaSuNjtydwnzW9Axcy_3GECdnm5zkxE1pHs_U9xJn21Z61yJk-FfTvKxf7HmbYOdGBvGnu0Fn-CPwS3ghsUc06VdodWPV_1Bglq1_ZJH5ae8R2TOrUQk9gjWh6-CAyFsIJHjfs3XF6di_QQsFdBbM1nI2rhYPosg3ELyM6UeqGnuW8NSug0AkWQ2ynxNMjuqR9TRy9P5QDFgWxE4AxJ_LWClFHeyvyNYVibzLfRu9h7mMG_UKD61vFf_jr9FzemBsXOGOeE9FmI6A80naMpINQBPeGgJztMIaLwRvmm8xX1O8FAdX1hAS83v92uKh66qpdtjYUNpWgfj3mvy-F3ulehD29EPYsp27c1P152PxHk6wY3jLyO9AFyivaGYRRjyb-H_DPvksop4boDHb1z94KwtX26EjI_AY4QVRLeKXwZReq1V4vpO_H623nwgUCSYv-FzKWmVqB2ktCUXs3QLN_7W_XSWkV2S_xBJ75p4P8M6BuOgeTPPDc00qEpUAxQHkT_4HJ8rdWphn5VuL5y9G5TIhcWqhOaobivb76RG19P-j1NiSivfhN9KfKagS0D5QX0q0WVXqFdVU9m4G5HvGl2W8uASXUj7gr0bM6moprN5N9q32MqNkehbZUJJJKEV52bWeNg8P82nqjHSPmTgXWcGQ2YlN7jQBBaVn4rC5kfRPiniaScUn4jTIXS-B0niNuQ-yxSIaYWUkreWpG9NVVhCmgKuPkFdi1N3perPUWAumu84b3T3MGscp5gpV1J54thg1n3GpJ8VTpSbqw06oWjJjSURyN8FWw969hIoaEEwgMpZ51ny5PPZhIAXgRQdG7h6u0tmcWCsGKRatGyKsOnlAl9WdsDdcPA1eN4CBJyulBHppZvsjQ1gWb3aTjLZWLW99Im-L92nrjpxzG-6hKvOzo6bfssowgkjiEbIgIxqTZxGBpOaJxrJXpaqzuI3p1uunZ1jZlwapvuEBnBt8ktPTOoP6e8x0O9CWithJLMhG0tqL_4fvpUf3bShM79XuXliCwzr6UYC5gPcgln12wcDCd4QI5zU0EKlstXWII7XXpYyb3_wjwpTE4cJ90YPedEc-ys60-1jms3wJNzNTMHMHooY4Gn9cHBu5uGuCEKJ9W8GL5_Rp4F5E9gFbH3O77Vm5vPd4Kg0FV3XwJsUHfYQCfKxO2xECZKVET5F0exWy8KBo_ebi7GNqz_Gwl4C66WuJWNB-dKqSE7NWfUBsXoNAkbzpIJHkZuVjqnbuuqBWW2_Slyc3HcgpreVGI28BH9dJn2MaemiRxd9zS3-jn6iO7DUvDpbI-_KrJyS6PX0v9SdIK5qBYtoAByM-txxOS-Eo_u4-S77ETJ4FuIbooxlGL6o4AFkqPUteRqtU-UvbiGYpX2oqwPtc9LCKIIqoyUHqqYNHvIul0fndWPbFbfPzzYGAiHcTIIRP_XMYWdoqBHEHz_WK1IkJH2wdcf8mgUegxZOPppQ63RW6EYGP0DjVKTiQSxNy9ZYyJPAx_Kdw7pskzT1-6kDhkzuFwUn0R3me9UphWoM_bActcBWImCzXJYVprbBvSi7JG-8GIgSZYPSmbVQmX_8ChHHhONY6dHQ3qlIOcw-UZgAaeCA5zKSrTfhoQXELPCYTLanPtg5fnhNNirinvBkCY5Yuo5CIDLC-toZ_NqQji-r1dXwJ4FLB5ImNUfsHTOhtUSYoJnIQ0o5okQmOTf2-LglWRxwUo8nOS7HJNcZw41ap4DTP_61YdFKhUCs9_AF5QB3KK2Dfuy_3B-0y6jjmD5DEQExukyJ7hFPM-rwUpuJwyx4-zekK6tyfIjSHfpEgQKiwjlWxPK9RAsipbO5CxD5hHFL-aFP27Dzz-iXpR1agTQj-PTehEOCqARlczHOc3VkCUU9P_d82dWmgiyqujQFfite-bu8Zpv7s90PvgE1yosNttrJsPgbUpA29Oq-rqI-mxJ7aRhxbR-e3ObfwPqBaEOPUJWb4WhtyPfZb8Jgf3cnRbSxG45Yw0mmRASDmaweeyHSq_Hf8P6PBLi9ruhk7CVpcQb7rTkOK5GSonzHT2mp_GVSulnNbk3-XdRZ-_xrjErZhY2WtgVObMvSbwng1YwosWAp2BjNas2ubZt7naePQjkKQNVsOeyTZ5FsI8vXvoCmwjLjRMQx88kdeI9QQYR_rHNPchyowKKu1ni4w4rifWDPPET8yi81qJUL3Bwl4Dq5LUON_Y6uhMQu0CctreByy70BYLBngTrdoEVEraypiHLAOixJXoQyEU_4D8G3GqsX3aaZaDsmVMVnhg4-NgHseU4f8y2M9F2YZPFqbDHPknGEY7s1cxxL9S3ABW9f3lLgwbz7MSDHHOEHiaLMTizJJ31-ae9b4wcgjm7SlshCLFPpkjcbub_UB6057o_OwLAO8c3bVg2xTwDXtJYyzF_xU6F1-FsRkIdC_kFaHmSMTsOOLjaMaJTfThG8Ca6bsMLc2inWdwpcZXUDxug80HpN5CfI0q9GWu24wrJeC-sRlM-OhzYwtTipFTLwjUHGYC57i24bUa46_rhMcoJPv0tpwo61wnOPvb3zg3lhci1IOUeEIlaHMPm_HygebNN3uhpmawCcdFYOsjYdBAqq6uHWrv-Q5EixOgQhBy0R5C_K435e1NvGl9O6tf6iJiG1NbP1pmD0Nm3bqkCyav9hoAK048pu3y-ZTmKWIJp-Wf4wqbOS17_15nSmHQfs3xt7or6ng-Fl72xnrdv6ZqwZv4At2tLb4lazIRmUbPMeidLlmwYEmYD-iO1Bny3HvOuktxsRdfyCuD5Aszu9L12DGUciHS1wOOmuLNxeKb1XsWkHvHIn1xV9THXnUYfeFyrTm_H6Q4cyzQHk8s8FvU-Hj78NmXMAQ6LqiMmuBjAaksrlVz4QNhL5TYu-dRGmWYU9b5i8rxQcupIo3Wl-gsGKn2EyLtZ-ctdNy_rSbeJJEPMfDEUTLG2JBI6cHywGorGlIsqivpKxT27jtotRgVFvG0HH5oPruc_uF9y9G62Pux3dPc_Z9L6iE",
+        "status": null
+      },
+      {
+        "id": "rs_03db77fc4663d252006a6553dfe180819b96d53f79c1550bf4",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZVSAJQV7iAHnOcx-jNa7tFYMRg_76A8iozv27b1ZkrOSjb3rN_QxtigfgqpzvRqr8vZYkYjVDgW-5CgJNJLHwbluwFhGJBay0anK4AblEksCZDMgBuo_D-isKZLaFkyMax6UsINMQzha1LYBrF_VLZhaDxTzgRZQs0Rwz4jtGG1YaarX7V7r97bbcagfUD6jQbs1h2H__UvxLDLsVq9xbNKazjIQHd5W4zXtrS4lSregJUR_sa6ZAxRoV3xkajZP3n9xPnRQxg5NMXSDrjNxXp7-R1ahhZouE8j-KWkJhERhpXS4ktLCJ79BvMDIkJNGryzgx2KEoMpIYiyh3nRDuo3Rl9HsedLxH8bFt1Eie2ENzy9IjhEj8uSlPWQMAOliXX8gZ1AvCPIL7tFajuzFbY8k1Tz2BGFJ4ptIajA_bxzSVypVWd-YLPs4EqeAqTAsf-UteTTPqX-tWTxDIaaldTIjO1tRKSSFcCpEbWA3L2to8cNcn23knu5_nKaNpOq4f40nOpNr9cyil-QPd8SyGdY_kblA72NjGIlvwYzQ59-Vus7ul0q_-LrwHbN6Ua-LUB4w5UVoGXcrcOVDKv9CmI5VaudTOCl3voCMAZMoeNZ58pCq9G7zqLs5frK5hrF5H3sq09KcE3-hDuBpBoLLUL5G0pGl2Io9CNEExpdnMzY5sR36dons1Qq5vpTG3jDUNNjr5pzmETDNW5j7GAkxZmARZCetcM5El_3cu57xYUJlbj7TcMQDSsRxSHHNtm5D7MWObg6onLvjTm3q91-9jR7ayvi0Kmg9xT0zczZXDkfmPNiiSTzwjEi-peQSS-1W_83MKrvBFFe3N8JleECaK0lA4KkANGI8CLVobyp9Ade9sMMrnA7Yiy07ND1vbkmLMDxXfsea5xFqVJYlTf063IWHvwxfAp8u0s38FDq9CRjzMsyzJUhMJEu9ap0mSFBU6p-BVLlutT_UpCpSeLsdpdwcKBcKXO3Tj5xtsRUXeuOIwkEnmh2HvNbfe2q55Avj8AqPO73XkIMcFy2XE6pF1QcGFJl_wDmFwgXBMgW_tSmsfEdlbPulnTOFncixpBbeJ968AbCI0LU8fEjCzuiH-gE9UC3_rEa3GGopYyS_f6vSB5UYfZAaexGDJOpnus_ovuU11SX6Orv2ADm_0lnyeo_KkZQw6U0WLT0i2HDiEHJV-KN-YxuxQ9CCBUabJ_AqY_6ScvV0LK6HWuMPvHDpzDbVQnzGFByDcARL6eqgwlNGROyBfFKiViRZ5sDVaQlwszM16L6HF-1pt9RfK-2hVvJpl3RpW2C9BVlxacDoD3pvMXIdgcHbnG3MVibfgWxzFTiwBMtFEAi5LfW5KGOOcnb82V3OhKEPRWZ-xNt35SjRuEi8Ju5inBHjbjdZACcWbxp3f7nDOFd8FH6G2ie5ZMEBIFlEpWtyZ70r54h7bTli3_-xXCzQAaq46a1xJ5jPwqwrmCqZvL2Y9dHWnlwHXxTEqmAbosdjs3xe2VFhhNN6aDaNLZ41540t4I-NUfEMneg5aIhgtPJQ6U8p-KeJLegIynzkPRkzcYBMcN9Ybc2PQhmQA93FNfh7VAdZOkczMAMsuG5ljSsg7okbX8cO8omY_WJIyHji8FX-N0cM0L2yzWGhzSrSLbiCC6OMUAj6K1LaFRHedp5xh1J2FNZ1sBlWerGa8Bj77t2Cg-Yj6WlTj34uoCR5pP__m78t810bEo2V414J2LWbTd8Mk01x5jka-lEbFy4L2bZRv8O5OKwSQK5F60Rnrn6lL96rKPVu0uyBJGGXmiRXzeddRICCNKaGwTpgEZ77gASGuDaQw2vDpr53WfaglAUsQhjj-Dm7n6Jtr0l4-YEcf-mWpP-gbhQraL1LOwtBIz93ohG3lVxuuI7NcFMBjdTGat9adWzcEDiAG3L4qVz8QEt0YOqhvPqrtFPHSlw8BFNetnbcpWCtabqSYaqMoGCK971_1nHSNXhDVnl9_qV63sBoGiKFpo4zMfECrlTEdFNWb7_9ZJi2SeNu-Zq1yhY1uVYrq_4kQE4NHg37cm2r5vlMKJ7yrI9g1nHT7PJ_Bwl4Rg5sDfZSxugYhdBWQwyO6Ko0NvUCssAnV6btey0xX2wGr67NOgbYb13EX6FYXxJtN6OKanTzRLrzssj_j3KlISPrMxW-lPGh5cA4iCM2ejCuiG6yqFGAX95i9Q-lbI-sWimeGnBR0C6_A8oCrnlXt_PyBJwi97cixmgsjo6eGfUBQy7n3LD_kG9EDMzuh43dqNYabzOByvBW7AceDQG7QEQom7Iyqz-9mY2iEr74_D1GWWSXkpzn-cHNjnqmYpXSQtqqEKp6k4QypU4QleReLt4hBFa_-40CTC5GnTapysxJ0TEz671d_ZKzwvSKNvCLX9oVxuvqv8i8FbMQmR04p1ycK78RslSfsQR52eTE9G2B-u7ALFGSbl-Itb7yqeRM6Pq2svfABtfJekdFH2sMrhLCx8BEf7cdgaqLJnA3kLu1Y6kVraAeHOWJsPqdbAzNU0JxKrmbVKMMRnSKwLwwA7E8oq89ol1fTNOQ6ozUeiGaJjsEje8JldcwUnBLXjTpsGjjonSh1hlpNbQmKF8c4i7LxHvgVPcswecku-pY9rKj8Fd_KYvPjszAgnSIXuw2pgYbCsEwh_CUC_jcF0DXkFGl8-WNpTwNADsY0njiQeqgTs2pEhnaR1J8Raqt1VvnswZ8Q1yJbFU_NV3aiTSEBFcunmFTCn7pkBBfBxHLijRl5P_bYOodCXuKvMfLMtUBLacCvvripf-GpycSoFBXAjHpCpcm-ffYc3Yd2mqd_hoQigXR53c8JbjlvJYriEzH-9fsIKY078CLfwgBpiGe5Vcp3guTJHERjtpG895xK47tP4EmJe1O9VInmN6V3OCFCINM-5Y6GKqsrlykhpAvsQ5bdHUMuav-_sEYJr9y1FiFspjvL9JNjK8bWr3UOjk7h1WxGIH7gq5enEV9FKk-uu--IUTAmlzh7U7NXnVC_Y2-A09u5Zlgkx3NrNSBBkbE66UYtEGn9aeWRTSCjEua8NnAWTNAkmYzjERCfSsgiJKACEPyr4ci6vowwnDlXhhKJ5irnFz4_eOK61wrjtnGzOJaoozNuABmnHMs20GI46t-42Sp1I16t99yBu0htiR2GQrdF-YSrBrINgafm913JXSDhAURNvppDTx7MMQmAZHUOM0ETRVZ9sBM5C8g9O5bJcVsSGTtEmxglj_RINUrCrJWDUtWT795N5yr5gnxH6vHJPOSFcZKegPryaVTA4C5h_-JnDiIBQjFuxkGZA0F7ffpTbLBTM3goQncSlfl5gmzN26177h9WbmX1DzPv-TdSf9OWE-bvo-MikHm1EevZr6LCrWNw82EseR18MKo4EVFdHehZ-nFPVEKL4PDQYbMlXut6-3ezxNvT6ZkBlIxpB-KEkKJ7Yta_BrGGQut946XtM2SxGjNG3vDUmk8nPyo_cGVo5f_KS6kfVH0AcBT3wxWOqe1hVw2X_tmzCzYrcDNpBXE78ZRKFaZmOVKD8QqR09xic9yrDPi_IW6knA9aAsTp6wEHIEiNCBUKVGxkL0Jd0ZcxWGrbgWhsM9uPqEa9YMYxpPnP7pfm6PVQpc3DCg9yLyBIhZ_aysf3scgSOIgsalbKBL0HDdsWQokarjDhxYhCPFEj71QUdHx_-H5TD1DzDVtks2Gr6zvCBEpnkGqa55n0S0uAg4Bx5SDL0x6MC_Jbm0A_mef8oSp5cGHCd10-N3nBoJvuCrksgtCAYu2qa94y3FOw_KqkYH95OBu7wDy_UYEqxgCTOcPIFjB7WBYOCTcQSJf3zkEAWT9Fwm6jyFzWJ7kS7BkhhgZskF33ozFawi82In0iPiJ4Jerh-ODubfM-Id77AyCoKxnpFvDS5Rz0X2oBcd7wzsXhNM1wEIBAccwSMu4pGK6UspxS0_rthlA1fGeoXHb46mCvXk7t_PiwuKMAudT4_3ZjUJy5OoCQdVAaLb2HlfMyT__roeOgqDj3qewoLofwuDQ4ozIw6X4kWMYTToMl8WSp0w4qFGqQI9eOFk=",
+        "status": null
+      },
+      {
+        "id": "rs_03db77fc4663d252006a6553eb87cc819b8432dd47101d36a1",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZVSATv7DN9sF6JpNowgON1z1_b0mYAn3zLJnOdrKS7oDjjNYDEtbIUD8YAxe4wJxNJpctst0onuNTKoFVrmQP2RBgJ952EQZNbb342oASbc9fTElW2a77qIG42Riv5BGJcqSLhEAYlecopkJfPQ4vV00E2AZV1Nl1_XV5ThVtQicxfdKQv4-l_vWERPTXMlZDuEbGjraOb9aQ5Ihy3bLNX-ersMvKu3Zc4YqBE005QDLmM627nqLN7qAkpYbKhSPUg2tQh2JR29jYvVWIEDwIPx554eRdE6MnKM6uiOE2RkrTCMpSLSjc4-NDcmbImPvSVPL8KmDJPgNkWGvSZmJp2Hup1F4_ndoK5JpFSRtvGWWqNJPhxfJdbxmv_f1PvSO8j6iZvFEuJPR9sH1izPUxY-Cu2_6UHBpjvygqK_Py0prhy83WTnDid_RHxTKB3Eh1TA5_2U2rqYuW0wAeMsj9jE7kYVKNhsNp34bhnqSe3YeheFYwBtG435-ZORJI6rGk2VUFP1pR_vl0TUJ-Y2Po5eyHK_oByqQPJu1RWwvtDlCC95t4bDDD06Z7i5jF12oUO0XF0oYHrSBy2dF-0mwz9WxezsBbXAUBKkQ6MJuBpFaJTfVfboHAQl4eR9bOxtvRMt_yPk7RguxSB8GIiRy0qP0vy9921Z8LIZy7S6iOi-3aGivwjHX8M9NQqf5JeLKby1U8EqpiJBrD1m7xpoA0QEeSCCRyLrqKKzRZQH-33vpW16f1Im4aeNTg6RGD6a99mwU4HBlVjPgpqE2z6jzANIQug0qGtj_uJfhdKRp5mKRDqyXoKCsyoPAHVriFnvDWUyfnIAnqAQ8KCrv17B3k75i9uLS8OAP7eaVv97TLT_Gj7AYYLycw7Xx7fEmbb9ZIVKrgp7pLshPFUUCpEg8KWbIHlmaTz8bnMUj7LnoIQ9ic8yNtAuwatCh-stVv2J_nlhBGsHxkFStfZDjvy0ZG8yb1O727sfsLQJP8UZcTXaBlQ__EUVWFEBMm-byaFelh3qcAde6D6IRXdm3cWNOaAq0WH1NVE0Y8wF3R93gQ8Nrp6x_Ezv2oAGqTd3QDlnyeNrCWhI9GUUNdQkNdobjHVD-zVqSYww52R5K_q4pbFdDkny0PfZUtHGcseeKlCFxPK_dpPncC_g9eZOigGmlVuyeq8mIcdYp0vQq0zXM7Nxn4ss2knv9JeCPUDiIoU0mQodMcjqZxNct2I7zq2fIbEjm687IaoSGd7nDTctgx4K0wVUJl0RKmJ_3Toh-1KAyMrxoIvNf2GUnxievnHT9rlL6WPZG3wpfiLxu-kIyrpG10VwujPFnj2DnbctKbwVl-fgbo-iDvkSQ7lwEJhSysRn7RkzIDv330Hdq0UzSYv_v1Fy82P5LUnYPioaC07XI9prtW8H_ijmLldvQEzmAIcJrGILH9JFi2_o8BuY-AHTbruMHpHtpHOUiX397kdWpPF7p7SbTeKXSsLR3mUiMM3l0NkKr3B9Ny7vI4XNeS-2shiQBqlIFPuH4vXfxYkoHk40Pr2XPcEl1ILK_Umm0H-5B_w2gUgN3hOk4t2wGyfteBX1dAdvhKnBTNCoNR4F73oDRkG01IRkowRq12-hoNNj9pMXpFZKRmknKIvP-Lkk_X2-ChjmHm0jnRjD1UlQ2Lb50v0fZUUX-keKNraVh95u4YIcvfKx_tQby3L1RCLs0cMMoYx8wLU2kMFSpIInZsMITpRclLFHZPkpc5rGIGdmYC1Q-Wl3dzXgl-lPdfMlj31Gi779sO_rmKPXyNQ-hOA9gOk2wlpE9tF6bntliqBNPJqXVSfwbZ4O0_LKTfaFK67_H0lypLCJLh1NV0wcbDuFABiRb-pyZadOWDoHwh-THwgoB3pge_tMNRGVuqgTGuC7-CdB3tG8HG4DHaQoozt7wwAwkmxkAY-232AB3K33upzHrdq2SoCo7ej4kbI6dHZWhFt2GXpNkmNoXEyGuPfwViib0h4zODY8bfiB9ZneJ39CsWm3vMqa57Taqh3F_wgeskKxUbphy2B_UcHro1D8DQTYEPMXWODLoy7mKlBoSen9mSCkIFXIKzCIP9zOVLb_ASR-cia44hIlhhkP_4G6fKixqZFXYRe8kN1l2_5At-AZDK6ZpI_iMRL5bHim7TNdHKeSh5Nyn62SqILCdVcobRanq6iMSDnz4w0pSU9sl1d_RKgn7g6TT73u72EVsPr8kfRD1zXe__BJcnoot7reDq80v9VxZQ8YsXC5a4KZLHfP_VZ9_CWQMs6z3FMKQT2ZV3iGZUpHU4stu6fWyayFIjh409uECsi2AyU4HesoMsKWxwmjYPygCnMwBL6t4PTInvjn_tLhHOtRsDpgXFSdn6srw31kio-Oy06Z_FhkMbCaMYXE9hICmWeHgIksXH7wdqt6xjJ3Wp3NPMVAligoS-cNTjdwiRZNiT-opzeGGi1skSUJIbN_z8HbhjvDF5__6qQndNpwcFPytl0FvmG0lgZJVYP1TjkllJQNPP3w36SR3oWAr77_hFF50meVHqK4aVS4vLbBh16fb-T-zDA-uRjifTf6-3kz3Rnpq0U7Qcrd9fZZCL5pflgEcAJ8BI_WZV2-0FWJoAE48og-ntkPEhPx13eln3dny7J7ieFjems-mUK301brRJF-M4BOsOinwA-Oe5sZXkGYF9V7M0-erqylh0F_8VmRIIROJQHWPCn0XZw-ZVTORslq_h18ynw8zYpgeekZ98Z1798eO9G_0PIVkdS03v2RZLg18A-K21EIhQ3H9y0agYDOA4MyUQWqSAvUzuYzg8BZva6zTN5LdS0EhhSTLvBNqw4-B4paVsxC34-rqB0knzRksmsgVyQTrvGDjCllDMV4fEYaevwPcGV7zsSAajEzy2WMi6xHyE52E4IeZZq3Mz8wrSOlCk1gu1YfAug8D8wnu6DAdxelTU4EppTNVsVGSLNApKiR9Ar_UHwyqcCEd2bhcljsUHnX6Ka7sSbw6FF7ICKHWm5SCHXCZZIJ8u-W3NwPI57msmgquQ7fMr7PxH_vgS5PiskJqhqIfoIqgqGnPl7PzmQgI4wrzRJC9jLJuSrcQOgqvkECZtjKli_vwd_OWjhLqfQOVMF1LeoRFEsxSU-fp3et7U5H5i5I58Re5XW_6odRzrY6rzOEpdHC__nukZSTuQDoYPggkcgkcSzj3jVykJYwllI97QgR71OGgRJDWByBIKJ893FBk2lMkdxaM2trWZmVbvvDgCBRjcrDNx0npELWbq03pmL2CxxeSQ81LIZB4I68BPTW7k_Sxy2o48KzVFCeqaZFsBGKur-rCZu-i-5e3LyiR7mxCRonsl7vRcXPyIF8q51tQUXAqkxe6X889SPGxLGHGODVReT0AFwP4GZG6rJLsDl0OPa6bHdGvjx4OwJZKPPpxb6FZ023gj22mOfJCmWlDwFqCiTM1IrOUjLbjAoZis5SrrONAHOCESOSQ7w5_aM0Cr-7pbmuP2SuDWbsvVhbYzQNc3T7eg59CpKv-3mKY-I1XhTjWpd2CiYkeLhAz3G3uAmDJY8mKa9bDE7bbsPIAmdn9RGd4Z1MFfw-Jpx-Q4dyc8_k4HwXIto2OOveDQSNQvH-Xg_tw_ibEEeWKwkBittAFZW7eiJYw8-Q_m58rWREv1b3VhrzufTAr2ak5LNZr38R1EA2s09oKe7fwIoaXA_iRQMcBx8iOwBx-519_wBEuRjEpfnQVJQn1kJFq1E4yuETFuOyEyoRjjD1wMI5VX8kfFgLhHylaDcm7dcxpx9LrV_RAXQvj_SxWvdOiUwNEFoXFlxHFaoHeEnLVp2ENLSvLcaUM0Z-2WW2cm-VxH0mmcZ-jWL-neHtS51fmH3wEtpX6bP3RxxectuI=",
+        "status": null
+      },
+      {
+        "id": "rs_03db77fc4663d252006a6553f40160819ba592229b51e6c547",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZVSAWGmACIiAjsFx8bLjX1juENKLZgMDAIFoYRPjuFDXTkLUIZf7DEOfHo8KFpQ4oBEXQniXGmrcaAj16tdDcHYDDWcHgufUzf4JF4t0JECnhnLb4RETTZYaO-1SrzPo9petHRTP7N-eb-FnJ2FGVbJrMLYMI2UMStiECAV4TJg6op7sIZNsH97vINVlZ9PipHF-F9izE5ftv2Vp6wrLthsPmS4e4T4e2J1brgbwa-n9wl43-vnT4qo6J8qTd8girHZPW-H1RJ3p0KEUXXvvgdSRWeHbKudgOvMzZWMSwrq4Tq5MRVhFVkwLO3C7hfFi34k0Q6HLzUVdZsumR-d-o_tzqOMBYwnDqqmXp02NUexu4a-1UPaixINhzgTEXaO4pEayMuXKHLSVt5N-NQp5tNyZXJaKNhtrfyn-EjstISqRqINa7dNZhKwhJbOhouha9JM1czk-Bsg-JEA5VXuWi8XQUDiOSkwUqYaIg2lDbTJZ5iz1iPNHJoQWAIqRsKIlE_zDcazvfUyUqhWi1tgRSB5sl7hvr-r51M1bWdfEu9V3pEl3ciQZxhAEO-NNR0USMrwxZsF5F-6PCG4hpa81CJwZ4swB4ZTmch4HGCTxNpCRCF9QMao3LgKzah8mPFWCcspzDW6ExMeVBBj2BIQ0btmstJPBCMSG0GhG8AQHzbjsTEhHnwz3oAtfFqLqZHKGqYmthaiEUfYnUJzWLveXQva-3B8J3E1DYtk-nBgqZq7TmlgrCKsEG5TdWlqVa_YTamDEIQ9ADP7atRx5VV4jTTNy92j-YoomQxKYtP_nnsp79exFfHssSUbXo42aAUM4KiaUlJa1SjHJOXz4Oz9IePbAAWlsjsoOCFizzZ8xDiqeDvjjQB1NdpWFHWu5-Gk19RYcPoT9WbJeDEq-yd_QDJAFzE5k0Rk7YJAnzYoJdUY5VDUA6NMjdEgGfr6RsAcNvzEyylVIB4bbXES10QiqsEfAzHt9K0mRPVibEmRvYOfjI73Y0XDeIH3dxw2JjRjCmGeDQU1rzV-btk_frUclv3m5l1mWW34ccvv1-zui56GGp3xM5b8yyqXBp5ZFJ40ePVslVNa_lTbO37UoYWXsXViqMwQ4KPwjNBJASD45Hh8za-OK-ZtscFnkLPnQNVi3LDFFWdw-k2b2uUNCEHubpnKP0aa-5mR1IEWanhiQWuVSV7SVMSZf3ny196gHwxz6XIbdsRKqZEtlBJJdkOYINzl7HXjuBlup1RxD6RqPqXSbcC5Cymao3VSc0IX7eT2fMv-aKSgxjljSG8cPhVaA_yz6fPC1xFTuzN6qVVmAS7ZSl7EQZ2Z93V0PRmZvJ_rGdkFrx1GcqOBY3-DDqnxUGY8cfri2BUv0RG7zBwIGAr-035bN2OrH8G546EFsJwnSwjBlbJWKJ_USHo9l4FfQryWaf5LaqPObVct_iYgbSuvVeuc3VmfDP9hPKuzpb0kURvcpcXJm6dZRm2Y7-7n_u7VJMbPcs8sQioboPu4Ah77slhBMv34WW_a8WMZps-kVhVE_ECHlSg0aFMOWhNv5_vkCHDSE0nyf4BmOEpTJXk61_d5QNwt7qHC818m2KfEeWX4YwyCP_5JlMG2xcHxgsWwoOBV5sjD1vY-pPBAfdHbV6nTpHDm7Qk7kTruDowSHcp1s",
+        "status": null
+      },
+      {
+        "id": "msg_03db77fc4663d252006a6553f671c8819b97983dbf9895dc35",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"episodes\":[{\"ep\":4,\"title\":\"The Appointment Order\",\"lines\":[{\"speaker\":\"dhawale\",\"text\":\"Do not put that file in a queue. The land is worth one crore forty lakh, and I need an order by Friday.\",\"sfx_cue\":\"heavy file dragged across wooden desk\"},{\"speaker\":\"sarika\",\"text\":\"Sir, he walked straight inside. I told him there is a registry process.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"There is. Sit down, both of you.\",\"sfx_cue\":\"wooden chair scraped back\"},{\"speaker\":\"dhawale\",\"text\":\"I prefer standing. The seller took two lakh from me, signed an agreement, and now wants to sell elsewhere.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"What do you want from this forum?\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"Specific performance. Possession. Registration at the agreed price of thirty-one lakh.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You said the land is worth one crore forty lakh.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"That is why Friday is important.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"No. Notice must be served. The other party must consent to arbitration.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"The agreement contains an arbitration clause.\",\"sfx_cue\":\"file pages flipped rapidly\"},{\"speaker\":\"morris\",\"text\":\"An arbitration clause is not consent to whichever room you choose.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"Then persuade him this is the correct room.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I do not persuade parties. I hear them.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"Of course. Your shop is above rented premises, isn't it? A long dispute with the landlord would be inconvenient.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Sir... should I go outside?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"No. You are the registry clerk. Record that the applicant requested an urgent hearing.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"What case number?\",\"sfx_cue\":\"pen clicked\"},{\"speaker\":\"morris\",\"text\":\"Case number zero zero three of two thousand twenty-two.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"Friday, eleven in the morning.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You will not fix my hearing.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"Certainly not, sir. I will merely bring everybody at the useful time.\",\"sfx_cue\":\"heavy file closed\"},{\"speaker\":\"narrator\",\"text\":\"Friday arrived with two witnesses, one reluctant seller, and an advocate old enough to distrust clean paper.\",\"sfx_cue\":\"tyre shop air compressor roaring below\"},{\"speaker\":\"sarika\",\"text\":\"Case number zero zero three of two thousand twenty-two. Applicant versus respondent. All parties come inside.\",\"sfx_cue\":\"hand bell shaken twice\"},{\"speaker\":\"landowner\",\"text\":\"This is the court? Above a tyre shop?\",\"sfx_cue\":\"crowd murmuring in narrow room\"},{\"speaker\":\"advocate\",\"text\":\"Do not answer anything yet. Let me see the board.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"You received notice. You came with counsel. Please do not waste the presiding officer's time.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"Presiding over what?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Counsel, take your seat.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"I have practised for thirty-eight years. I stand until I know before whom I am appearing.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then remain standing and read clause fourteen of your client's agreement.\",\"sfx_cue\":\"single page pulled from file\"},{\"speaker\":\"advocate\",\"text\":\"I have read it.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Read it aloud.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"Any dispute arising from this agreement shall be referred to arbitration by a sole arbitrator mutually accepted by both parties.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Good. Is your client disputing the agreement?\",\"sfx_cue\":\"\"},{\"speaker\":\"landowner\",\"text\":\"I dispute the price. Thirty-one lakh is robbery now.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"It was not robbery when he took my two lakh.\",\"sfx_cue\":\"\"},{\"speaker\":\"landowner\",\"text\":\"That was a token. I... I said I would return it.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Did you return it?\",\"sfx_cue\":\"\"},{\"speaker\":\"landowner\",\"text\":\"Not yet.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Did you send written cancellation?\",\"sfx_cue\":\"\"},{\"speaker\":\"landowner\",\"text\":\"No.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Did you accept another offer?\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"Sir, that question concerns a separate negotiation.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then the answer is yes.\",\"sfx_cue\":\"\"},{\"speaker\":\"landowner\",\"text\":\"They offered ninety-eight lakh.\",\"sfx_cue\":\"crowd murmuring louder\"},{\"speaker\":\"dhawale\",\"text\":\"There. He admits it.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"He admits receiving an offer. He does not admit this forum has jurisdiction.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Your client came after notice. He filed a reply through you. He is arguing the merits.\",\"sfx_cue\":\"papers tapped into alignment\"},{\"speaker\":\"advocate\",\"text\":\"Appearance is not appointment.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Correct. Sarika, give both parties the consent memorandum.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Sir, the blue copy or the white copy?\",\"sfx_cue\":\"papers shuffled nervously\"},{\"speaker\":\"morris\",\"text\":\"The white copy. Blue remains in registry.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"You prepared consent forms before we entered?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"A competent registry prepares for foreseeable objections.\",\"sfx_cue\":\"\"},{\"speaker\":\"landowner\",\"text\":\"What happens if I do not sign?\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"Then the advance dispute continues, the other purchaser waits, and your title remains questioned.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"Do not instruct my client.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Counsel, advise him. I will give you ten minutes.\",\"sfx_cue\":\"desk bell struck once\"},{\"speaker\":\"advocate\",\"text\":\"And if we sign, you will hear us fully?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Every document. Every objection. On record.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"I want that sentence written into the memorandum.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Sarika, add it.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Every document and... every objection will be heard on record.\",\"sfx_cue\":\"pen scratching on paper\"},{\"speaker\":\"morris\",\"text\":\"Now leave them space to decide.\",\"sfx_cue\":\"\"},{\"speaker\":\"narrator\",\"text\":\"Ten minutes became twenty-three. Then the old advocate returned with both signatures.\",\"sfx_cue\":\"wall clock ticking, door opening\"},{\"speaker\":\"advocate\",\"text\":\"My client consents to this arbitration. That is not an admission on the merits.\",\"sfx_cue\":\"paper laid on desk\"},{\"speaker\":\"morris\",\"text\":\"Recorded. Now show me why an agreement taken for thirty-one lakh should disappear when the value rises.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"Because the applicant was required to pay the balance within sixty days.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Did he offer payment?\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"He sent three letters.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"And a banker's cheque for twenty-nine lakh.\",\"sfx_cue\":\"plastic folder unzipped\"},{\"speaker\":\"landowner\",\"text\":\"I did not deposit it.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"That was your choice. His obligation was to tender payment.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"The agreement also required title clearance.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Which your client delayed by withholding the original property card.\",\"sfx_cue\":\"\"},{\"speaker\":\"landowner\",\"text\":\"Who told you that?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Your own reply. Paragraph nine.\",\"sfx_cue\":\"page turned once\"},{\"speaker\":\"advocate\",\"text\":\"I... let me see that.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You drafted it.\",\"sfx_cue\":\"\"},{\"speaker\":\"voice in room\",\"text\":\"The advocate wrote against his own client.\",\"sfx_cue\":\"brief scattered laughter\"},{\"speaker\":\"advocate\",\"text\":\"Silence. This is not a tea stall.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"No. It is a hearing. Continue with your objection.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"There is no further factual objection.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then the hearing is closed.\",\"sfx_cue\":\"desk bell struck once\"},{\"speaker\":\"narrator\",\"text\":\"For forty minutes, Morris typed the largest order he had ever put beneath his seal.\",\"sfx_cue\":\"typewriter keys striking steadily\"},{\"speaker\":\"morris\",\"text\":\"The respondent shall accept the balance of twenty-nine lakh and execute the conveyance within seven days.\",\"sfx_cue\":\"room silent under tyre shop rumble\"},{\"speaker\":\"morris\",\"text\":\"Until registration, the respondent shall create no third-party interest in the land.\",\"sfx_cue\":\"\"},{\"speaker\":\"landowner\",\"text\":\"And if I refuse?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Your signed consent and this award will accompany the applicant's enforcement petition.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"I have the banker's cheque here.\",\"sfx_cue\":\"cheque torn from booklet\"},{\"speaker\":\"advocate\",\"text\":\"Give it to me. My client will acknowledge receipt.\",\"sfx_cue\":\"\"},{\"speaker\":\"landowner\",\"text\":\"You are telling me to obey him? In front of everyone?\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"I am telling you that you signed the agreement, accepted arbitration, and lost on the documents.\",\"sfx_cue\":\"\"},{\"speaker\":\"landowner\",\"text\":\"Then write that I am taking the cheque under the award.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"I will record it, sir.\",\"sfx_cue\":\"registry stamp pressed firmly\"},{\"speaker\":\"advocate\",\"text\":\"Record this also. My client will execute the conveyance within seven days.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"Thank you, sir. A useful order, exactly when required.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The order follows the record, not your requirement.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"One matter remains.\",\"sfx_cue\":\"papers lifted from desk\"},{\"speaker\":\"morris\",\"text\":\"What matter?\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"May I see the order appointing you as arbitrator?\",\"sfx_cue\":\"\"}]},{\"ep\":5,\"title\":\"The Pending List\",\"lines\":[{\"speaker\":\"morris\",\"text\":\"The parties appointed me by signing the consent memorandum. You watched them sign it.\",\"sfx_cue\":\"ceiling fan clicking over a silent room\"},{\"speaker\":\"advocate\",\"text\":\"I watched them consent today. I asked for the order that placed you here before today.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"Counsel, your client accepted the award. Do not manufacture dignity after losing.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"I am not speaking to you.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"There is no prior appointment order. This was an ad hoc reference by consent.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"Then remove the court emblem from your seal.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"It is not a court emblem. Sir said it is a forum seal.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"Young woman, do you know the difference?\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"I... I maintain the registry. I do not design seals.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Address me, counsel. Not my staff.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"Very well. Your award holds because my client signed, accepted the cheque, and will obey it.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"The next lawyer may ask questions before his client signs anything.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The next lawyer may read his file before entering my room.\",\"sfx_cue\":\"\"},{\"speaker\":\"advocate\",\"text\":\"Perhaps. Keep your appointment papers ready anyway.\",\"sfx_cue\":\"walking stick tapped, door shutting\"},{\"speaker\":\"dhawale\",\"text\":\"Do you have a problem?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Your matter is concluded.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"That was not my question.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Take your certified copy tomorrow.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"A room like this should know which disputes are safe before the parties arrive.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Safe for whom?\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"For the dignity of the chair, naturally.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Go downstairs.\",\"sfx_cue\":\"\"},{\"speaker\":\"dhawale\",\"text\":\"Certainly, sir. My conveyance is on Tuesday. I trust the certified copy will look official.\",\"sfx_cue\":\"heavy footsteps descending metal stairs\"},{\"speaker\":\"sarika\",\"text\":\"Sir, should I change the seal?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"No.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Should I make an appointment file?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"No.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Then what should I do?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Prepare the certified copy. Two sets. Bind the consent memorandum before the award.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"And case number zero zero four? Two people are waiting outside.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Send them away.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"They paid the filing fee.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Refund it.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Sir, did they do something wrong?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Their dispute is already in district court. If we touch it, someone will compare the files.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"How will we know that before reading every file?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"We will know.\",\"sfx_cue\":\"drawer locked with a key\"},{\"speaker\":\"narrator\",\"text\":\"That evening, Morris returned to the real court where he still earned money typing other men's orders.\",\"sfx_cue\":\"court copying room printers and stamp pads\"},{\"speaker\":\"pandit\",\"text\":\"The copying section closes at six.\",\"sfx_cue\":\"metal grille sliding halfway shut\"},{\"speaker\":\"morris\",\"text\":\"I need five minutes with the civil pending register.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Then you need the civil registry, not me.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The civil registry sent the list for photocopying this afternoon.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Many things come here. Many things leave.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"This one is thirty-two pages, stapled in three sections, with tomorrow's cause-list changes attached.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"You notice a great deal for a typist.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I was not always a typist.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Yes. Everyone remembers what you were.\",\"sfx_cue\":\"rubber stamp thudding nearby\"},{\"speaker\":\"morris\",\"text\":\"I need to check four names. Nothing more.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"File an inspection application.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"That creates an entry.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Entries are the purpose of a registry.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Not every glance needs a record.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"In this building, every useful glance does.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Five hundred rupees.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Put your money away.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"One thousand.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"If I wanted notes, I would not negotiate beside a government photocopier.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then tell me what you want.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Today, I want to close the grille.\",\"sfx_cue\":\"metal grille slammed shut\"},{\"speaker\":\"narrator\",\"text\":\"The next evening, Morris returned. The evening after that, he returned again.\",\"sfx_cue\":\"corridor footsteps under closing announcements\"},{\"speaker\":\"pandit\",\"text\":\"You are making my tea cold.\",\"sfx_cue\":\"spoon rattling in glass tumbler\"},{\"speaker\":\"morris\",\"text\":\"And you are still taking the pending list into the copying room at five forty.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Official work has a schedule.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Leave it on the rear machine for two minutes.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Why?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"So I can avoid matters already before the court.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Avoid them where?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"In private dispute work.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Private work with case numbers?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Case numbers organise paper.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Private work with a registry clerk?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Staff organise people.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Private work with certified copies?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You have been asking about me.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"No. People carry interesting paper into photocopy shops without being asked.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Have you seen one of my orders?\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"I saw enough to understand why you need my list.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"And why is that?\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"You cannot afford a real judge to see two proceedings for the same dispute.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The parties consent to private arbitration.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Then file the awards properly.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I asked for names, not advice.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"And I refused money, not conversation.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"What conversation do you want?\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Not here.\",\"sfx_cue\":\"keys jingling in lock\"},{\"speaker\":\"narrator\",\"text\":\"On the sixth evening, the rear photocopier held thirty-two pages with no clerk beside them.\",\"sfx_cue\":\"photocopier warming up in empty room\"},{\"speaker\":\"morris\",\"text\":\"Civil suits. Land references. Maintenance applications. Execution matters.\",\"sfx_cue\":\"phone camera shutter clicking repeatedly\"},{\"speaker\":\"pandit\",\"text\":\"No flash.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You said two minutes.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"One minute remains.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"How often is this list issued?\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Every working day. Changes come in red pencil.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I need it twice a week.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"You need it every day. A petition can be filed between your notice and your hearing.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Every day, then.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"The rear machine will be unattended at five forty-five.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"For how much?\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"I already refused your cash.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Nothing is free in this building.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"Correct.\",\"sfx_cue\":\"photocopier stopping abruptly\"},{\"speaker\":\"morris\",\"text\":\"Name your price.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"My price is not money.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"One sealed envelope every month. You will open it first.\",\"sfx_cue\":\"\"},{\"speaker\":\"pandit\",\"text\":\"No questions.\",\"sfx_cue\":\"\"}]},{\"ep\":6,\"title\":\"The Keys\",\"lines\":[{\"speaker\":\"bhaskar\",\"text\":\"No court has made me answer her in eleven years. This room above a tyre shop will not be the first.\",\"sfx_cue\":\"legal notice slapped onto wooden desk\"},{\"speaker\":\"manjula\",\"text\":\"You came because the notice frightened you.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"I came to see which fool stamped it.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Do not speak like that before the presiding officer.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"Presiding officer of what?\",\"sfx_cue\":\"plastic chairs scraping, lane voices outside\"},{\"speaker\":\"morris\",\"text\":\"Sit down.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"I will stand.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then you will stand quietly while your sister speaks.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"Sir, he has the keys to my father's western field and the storage room. He has kept them since the funeral.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"I kept the land alive. She married and left.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"I became a widow and returned. You still would not let me enter.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"Because you returned with debts.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"My debts do not erase my name from the property card.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Show me the property card.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"Here. Certified copy. My name and his name, equal shares.\",\"sfx_cue\":\"folded document opened carefully\"},{\"speaker\":\"morris\",\"text\":\"When did you obtain this copy?\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"Yesterday. I waited four hours at the land records counter.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"A name on paper does not harvest groundnuts.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Do you dispute that she owns half?\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"I paid the tax. I repaired the well. I paid for our father's funeral.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"That was not my question.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"I... I do not dispute the name. I dispute what she deserves.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"Eleven years of crop income. I deserve accounts also.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"This hearing is not today.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"Sir, please. He is bringing a tenant in eight days.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"A lawful tenant. He will cultivate the western side.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"My side.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"Nothing is divided.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"Hear us before he gives possession. I have waited eleven years. I cannot wait another month.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Eight days is not enough for notice, reply, documents and evidence.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"Then tell me how many more years are proper.\",\"sfx_cue\":\"\"},{\"speaker\":\"voice in room\",\"text\":\"She has a point, sir.\",\"sfx_cue\":\"quiet agreement from waiting litigants\"},{\"speaker\":\"bhaskar\",\"text\":\"This is family business. These people should leave.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You called this room foolish in front of them. You may answer in front of them.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"I want a lawyer.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Bring one. The hearing is in eight days at ten thirty.\",\"sfx_cue\":\"desk bell struck once\"},{\"speaker\":\"sarika\",\"text\":\"Case number zero one one of two thousand twenty-two.\",\"sfx_cue\":\"registry stamp pressed\"},{\"speaker\":\"bhaskar\",\"text\":\"Zero one one? How many people have come here?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Enough to know when a man is delaying his sister.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"I will return with every receipt.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"Bring the keys also.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"You will not touch them.\",\"sfx_cue\":\"notice folded sharply\"},{\"speaker\":\"narrator\",\"text\":\"For eight days, Sarika numbered receipts while Morris compared them against the property record.\",\"sfx_cue\":\"calculator buttons and pages turning\"},{\"speaker\":\"sarika\",\"text\":\"Land tax, seven years. Well repair, eighteen thousand. Funeral expenses, forty-six thousand.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Separate expenses that preserve the property from expenses Bhaskar owed as a son.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"How do I know the difference?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You do not decide. You make two lists.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Sir, Manjula has no crop receipts.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Because Bhaskar sold the crops.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Then how can she prove the amount?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"He must disclose it.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"What if he does not?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then his silence will cost him.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Sir... is that written in a rule?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"It is written in the way evidence works.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"I will prepare both lists.\",\"sfx_cue\":\"pencil marking columns\"},{\"speaker\":\"narrator\",\"text\":\"On the eighth morning, Bhaskar returned without a lawyer and with a cloth bag full of receipts.\",\"sfx_cue\":\"cloth bag emptied across desk\"},{\"speaker\":\"sarika\",\"text\":\"Case number zero one one of two thousand twenty-two. Both parties are present.\",\"sfx_cue\":\"hand bell shaken twice\"},{\"speaker\":\"morris\",\"text\":\"Bhaskar, did you bring the tenancy agreement?\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"I did not sign it.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"Because the notice stopped you.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"Because I chose to wait.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Good. The land remains unencumbered. Now, your accounts.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"Every expense is in that bag.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Expenses are not accounts. How much crop did you sell last year?\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"There was little rain.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"How much?\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"Maybe sixty thousand.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"The trader told me one lakh twelve thousand.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"The trader lies.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Did he pay by bank transfer?\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"Some transfer. Some cash.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Your statement shows eighty-four thousand from him in three payments.\",\"sfx_cue\":\"bank statement tapped\"},{\"speaker\":\"bhaskar\",\"text\":\"That included the previous balance.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Which previous balance?\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"I do not... I do not remember.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"For eleven years, you remembered every rupee you spent. You forgot only what you received.\",\"sfx_cue\":\"\"},{\"speaker\":\"voice in room\",\"text\":\"He remembers the keys well enough.\",\"sfx_cue\":\"brief laughter from waiting litigants\"},{\"speaker\":\"bhaskar\",\"text\":\"They are laughing because you are humiliating me.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You humiliated your sister at the gate of her own land. I am asking for figures.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"Ask him about the storage room. My father's tools are still inside.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Bhaskar, who owns those tools?\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"We both do.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Who has access?\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"I have the keys.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"So your sister owns half the tools, half the land, and none of the access.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"She could have asked properly.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"I asked at the funeral. I asked at the first harvest. I asked after my husband died.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"You told me a married daughter enters only as a guest.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"I was angry.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"For eleven years?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Enough. The documents are complete.\",\"sfx_cue\":\"desk bell struck once\"},{\"speaker\":\"bhaskar\",\"text\":\"You cannot divide agricultural land from this table.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I am not changing the revenue boundary. I am ordering access and possession according to recorded ownership.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"What about my expenses?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Proven preservation expenses will be adjusted against crop income. You will submit complete accounts within thirty days.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"And until then?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Until then, you will not lease, sell or obstruct the western half.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"And the keys?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The keys will be delivered within twenty-four hours.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"You have already written the judgment.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I wrote it after reading what you brought.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"If I refuse, will police come?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"If you refuse, your sister will carry this signed judgment wherever enforcement is required.\",\"sfx_cue\":\"pages slid across desk\"},{\"speaker\":\"bhaskar\",\"text\":\"Let me read it.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Take your time. The operative directions are on the last page.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"No tenancy. Equal access. Accounts in thirty days. Keys in twenty-four hours.\",\"sfx_cue\":\"paper folded slowly\"},{\"speaker\":\"manjula\",\"text\":\"Say whether you will obey it.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"Do not command me.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"She is not commanding you. The judgment is.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"Everyone outside will say I lost to my younger sister.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Everyone outside already knows you kept her land for eleven years.\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"You wanted the keys. Take them.\",\"sfx_cue\":\"key ring dropped into an open palm\"},{\"speaker\":\"manjula\",\"text\":\"The small brass key is for the storage room?\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"Yes.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"And the black key?\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"The western gate.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"You are giving both under the judgment?\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"I read it. I folded it. I am obeying it.\",\"sfx_cue\":\"\"},{\"speaker\":\"voice in room\",\"text\":\"Say that louder. We could not hear you at the back.\",\"sfx_cue\":\"people laughing and clapping once\"},{\"speaker\":\"bhaskar\",\"text\":\"I said I am obeying the court's judgment.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Sir, should I record delivery of the keys?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Record the time and obtain both signatures.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"My hand is shaking. Show me where to sign.\",\"sfx_cue\":\"pen uncapped\"},{\"speaker\":\"sarika\",\"text\":\"Here. Below the words, possession acknowledged.\",\"sfx_cue\":\"\"},{\"speaker\":\"narrator\",\"text\":\"Before noon, the western gate opened for the first time in eleven years.\",\"sfx_cue\":\"rusted padlock opening, metal gate creaking\"},{\"speaker\":\"lane woman\",\"text\":\"Manjula, where did you get those keys?\",\"sfx_cue\":\"neighbours gathering in lane\"},{\"speaker\":\"lane man\",\"text\":\"Did your brother finally give them?\",\"sfx_cue\":\"\"},{\"speaker\":\"bhaskar\",\"text\":\"Do not make a procession of this.\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"You made me beg at this gate for eleven years. Today, they will all hear.\",\"sfx_cue\":\"key ring raised, keys jingling\"},{\"speaker\":\"lane woman\",\"text\":\"Who gave the order?\",\"sfx_cue\":\"\"},{\"speaker\":\"manjula\",\"text\":\"Listen, all of you. A court finally listened to me.\",\"sfx_cue\":\"\"}]}],\"beat_sheet\":[{\"beat_id\":\"b013\",\"ep\":4,\"seq\":1,\"world_time\":\"2022-11\",\"location\":\"room above tyre shop\",\"present\":[\"morris\",\"sarika\",\"dhawale\"],\"witnessed_by\":[\"morris\",\"sarika\",\"dhawale\"],\"hidden_from\":[\"hardik\",\"vaishali\",\"tejas\"],\"what_happened\":\"Dhawale brought a land dispute concerning property valued at one crore forty lakh and pressed Morris for an urgent ruling.\",\"state_changes\":[{\"entity\":\"dhawale\",\"fact\":\"placed a high-value land dispute before Morris\",\"valence\":2},{\"entity\":\"morris\",\"fact\":\"accepted his largest matter to date for hearing\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b014\",\"ep\":4,\"seq\":2,\"world_time\":\"2022-11\",\"location\":\"room above tyre shop\",\"present\":[\"morris\",\"sarika\",\"dhawale\",\"advocate\"],\"witnessed_by\":[\"morris\",\"sarika\",\"dhawale\",\"advocate\"],\"hidden_from\":[\"hardik\",\"vaishali\",\"tejas\"],\"what_happened\":\"The landowner appeared with the advocate, signed a consent memorandum and argued the land dispute before Morris.\",\"state_changes\":[{\"entity\":\"advocate\",\"fact\":\"observed Morris conduct a high-value hearing under a signed consent memorandum\",\"valence\":-1},{\"entity\":\"sarika\",\"fact\":\"recorded the parties' consent and proceedings\",\"valence\":1}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b015\",\"ep\":4,\"seq\":3,\"world_time\":\"2022-11\",\"location\":\"room above tyre shop\",\"present\":[\"morris\",\"sarika\",\"dhawale\",\"advocate\"],\"witnessed_by\":[\"morris\",\"sarika\",\"dhawale\",\"advocate\"],\"hidden_from\":[\"hardik\",\"vaishali\",\"tejas\"],\"what_happened\":\"Morris ordered conveyance at the contracted price, and the landowner accepted the balance payment while the advocate stated that his client would comply.\",\"state_changes\":[{\"entity\":\"morris\",\"fact\":\"issued an award that the losing party publicly agreed to obey\",\"valence\":4},{\"entity\":\"dhawale\",\"fact\":\"secured an enforceable signed resolution for the land purchase\",\"valence\":4},{\"entity\":\"advocate\",\"fact\":\"acknowledged that the ruling held because his client had consented and accepted payment\",\"valence\":-2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b016\",\"ep\":4,\"seq\":4,\"world_time\":\"2022-11\",\"location\":\"land transaction file storage\",\"present\":[],\"witnessed_by\":[],\"hidden_from\":[\"morris\",\"hardik\",\"sarika\",\"vaishali\",\"tejas\"],\"what_happened\":\"A copy of the signed consent memorandum and award was preserved with the land transaction papers.\",\"state_changes\":[{\"entity\":\"land transaction file\",\"fact\":\"now contains documentary evidence of Morris's award\",\"valence\":-2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"No cast character perceived the records handling, leaving the location and future path of the preserved copy open.\"},{\"beat_id\":\"b017\",\"ep\":5,\"seq\":1,\"world_time\":\"2022-11\",\"location\":\"room above tyre shop\",\"present\":[\"morris\",\"sarika\",\"dhawale\",\"advocate\"],\"witnessed_by\":[\"morris\",\"sarika\",\"dhawale\",\"advocate\"],\"hidden_from\":[\"hardik\",\"vaishali\",\"tejas\"],\"what_happened\":\"Morris admitted there was no prior appointment order, and the advocate warned that another lawyer could challenge the room before consenting.\",\"state_changes\":[{\"entity\":\"morris\",\"fact\":\"recognized that comparison with formal court records could expose his forum\",\"valence\":-3},{\"entity\":\"advocate\",\"fact\":\"learned that Morris had no prior appointment order for the matter\",\"valence\":-2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b018\",\"ep\":5,\"seq\":2,\"world_time\":\"2022-11\",\"location\":\"court copying room\",\"present\":[\"morris\",\"pandit\"],\"witnessed_by\":[\"morris\",\"pandit\"],\"hidden_from\":[\"hardik\",\"sarika\",\"vaishali\",\"tejas\"],\"what_happened\":\"Morris asked Pandit for access to the civil pending list so he could avoid disputes already filed in the real court, and Pandit refused cash.\",\"state_changes\":[{\"entity\":\"pandit\",\"fact\":\"learned why Morris needed the pending list\",\"valence\":2},{\"entity\":\"morris\",\"fact\":\"sought confidential registry information to screen future cases\",\"valence\":-3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b019\",\"ep\":5,\"seq\":3,\"world_time\":\"2022-11\",\"location\":\"court copying room\",\"present\":[\"morris\",\"pandit\"],\"witnessed_by\":[\"morris\",\"pandit\"],\"hidden_from\":[\"hardik\",\"sarika\",\"vaishali\",\"tejas\"],\"what_happened\":\"Pandit left the pending list on a rear photocopier long enough for Morris to photograph all thirty-two pages.\",\"state_changes\":[{\"entity\":\"morris\",\"fact\":\"obtained the real court's current pending list\",\"valence\":4},{\"entity\":\"pandit\",\"fact\":\"began leaking confidential registry information to Morris\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b020\",\"ep\":5,\"seq\":4,\"world_time\":\"2022-11\",\"location\":\"court copying room\",\"present\":[\"morris\",\"pandit\"],\"witnessed_by\":[\"morris\",\"pandit\"],\"hidden_from\":[\"hardik\",\"sarika\",\"vaishali\",\"tejas\"],\"what_happened\":\"Pandit demanded one sealed envelope each month, to be opened by Morris without questions, as the price of continued access.\",\"state_changes\":[{\"entity\":\"pandit\",\"fact\":\"made continued leaks conditional on a monthly sealed envelope\",\"valence\":3},{\"entity\":\"morris\",\"fact\":\"became indebted to Pandit on undisclosed terms\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b021\",\"ep\":6,\"seq\":1,\"world_time\":\"2022-11\",\"location\":\"room above tyre shop\",\"present\":[\"morris\",\"sarika\",\"manjula\",\"bhaskar\"],\"witnessed_by\":[\"morris\",\"sarika\",\"manjula\",\"bhaskar\"],\"hidden_from\":[\"hardik\",\"vaishali\",\"tejas\"],\"what_happened\":\"Manjula sought an urgent hearing over land and keys withheld by Bhaskar for eleven years, and Morris fixed the hearing for eight days later.\",\"state_changes\":[{\"entity\":\"manjula\",\"fact\":\"obtained a hearing before Bhaskar could place a tenant on the land\",\"valence\":3},{\"entity\":\"bhaskar\",\"fact\":\"was required to answer his sister's claim publicly\",\"valence\":-2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b022\",\"ep\":6,\"seq\":2,\"world_time\":\"2022-11\",\"location\":\"room above tyre shop\",\"present\":[\"morris\",\"sarika\",\"manjula\",\"bhaskar\"],\"witnessed_by\":[\"morris\",\"sarika\",\"manjula\",\"bhaskar\"],\"hidden_from\":[\"hardik\",\"vaishali\",\"tejas\"],\"what_happened\":\"At the hearing, Morris established that Manjula held an equal recorded share while Bhaskar controlled all access and had not fully accounted for crop income.\",\"state_changes\":[{\"entity\":\"bhaskar\",\"fact\":\"failed to justify excluding Manjula from jointly recorded property\",\"valence\":-3},{\"entity\":\"manjula\",\"fact\":\"proved her recorded ownership and lack of access\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b023\",\"ep\":6,\"seq\":3,\"world_time\":\"2022-11\",\"location\":\"room above tyre shop\",\"present\":[\"morris\",\"sarika\",\"manjula\",\"bhaskar\"],\"witnessed_by\":[\"morris\",\"sarika\",\"manjula\",\"bhaskar\"],\"hidden_from\":[\"hardik\",\"vaishali\",\"tejas\"],\"what_happened\":\"Morris awarded Manjula access and possession according to her recorded share, barred Bhaskar from leasing the western half and ordered delivery of the keys.\",\"state_changes\":[{\"entity\":\"manjula\",\"fact\":\"received judgment granting access and possession of her share\",\"valence\":5},{\"entity\":\"bhaskar\",\"fact\":\"was ordered to surrender the keys and provide accounts\",\"valence\":-4},{\"entity\":\"morris\",\"fact\":\"issued a judgment that protected Manjula's recorded ownership\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b024\",\"ep\":6,\"seq\":4,\"world_time\":\"2022-11\",\"location\":\"lane outside family land\",\"present\":[\"manjula\",\"bhaskar\"],\"witnessed_by\":[\"manjula\",\"bhaskar\"],\"hidden_from\":[\"hardik\",\"vaishali\",\"tejas\"],\"what_happened\":\"Bhaskar delivered both keys under the judgment, and Manjula publicly told the lane that a court had finally listened to her.\",\"state_changes\":[{\"entity\":\"manjula\",\"fact\":\"gained physical access to the land and storage room after eleven years\",\"valence\":5},{\"entity\":\"bhaskar\",\"fact\":\"publicly acknowledged that he was obeying the court's judgment\",\"valence\":-3},{\"entity\":\"morris\",\"fact\":\"had a second ruling obeyed outside his hearing room\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null}],\"promise_ledger\":[{\"id\":\"p004\",\"raised_ep\":3,\"listener_is_waiting_for\":\"what Sarika's certification signature makes her responsible for\",\"must_pay_by_ep\":8,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p005\",\"raised_ep\":3,\"listener_is_waiting_for\":\"who the unannounced stranger is and what matter is inside the heavy file\",\"must_pay_by_ep\":4,\"paid_ep\":4,\"how_paid\":\"The stranger was revealed as Dhawale, who brought a land dispute involving property worth one crore forty lakh.\",\"status\":\"paid\"},{\"id\":\"p006\",\"raised_ep\":3,\"listener_is_waiting_for\":\"whether a ruling issued from the room above the tyre shop will actually hold\",\"must_pay_by_ep\":4,\"paid_ep\":4,\"how_paid\":\"The losing landowner accepted the balance payment, and his advocate publicly stated that he would comply with Morris's award.\",\"status\":\"paid\"},{\"id\":\"p007\",\"raised_ep\":4,\"listener_is_waiting_for\":\"whether Morris has an appointment order he can show the advocate\",\"must_pay_by_ep\":5,\"paid_ep\":5,\"how_paid\":\"Morris admitted that no prior appointment order existed and relied on the parties' signed consent memorandum.\",\"status\":\"paid\"},{\"id\":\"p008\",\"raised_ep\":5,\"listener_is_waiting_for\":\"what Pandit puts in the monthly sealed envelopes and what the leaked pending list is really costing Morris\",\"must_pay_by_ep\":9,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p009\",\"raised_ep\":6,\"listener_is_waiting_for\":\"whether Bhaskar will truly surrender the keys and obey Morris's judgment\",\"must_pay_by_ep\":6,\"paid_ep\":6,\"how_paid\":\"Bhaskar folded the judgment, handed over both keys and publicly said that he was obeying it.\",\"status\":\"paid\"}],\"calendar\":{\"season_start\":\"2022-11\",\"dates_fixed\":[{\"ep\":4,\"when\":\"Friday\",\"what\":\"Morris heard Dhawale's land dispute.\"},{\"ep\":4,\"when\":\"the following Tuesday\",\"what\":\"Dhawale's conveyance was due to proceed under the award.\"},{\"ep\":6,\"when\":\"2022-11\",\"what\":\"Manjula sought and received an expedited hearing over her recorded share of the family land.\"}],\"periods_fixed\":[{\"between\":[1,3],\"elapsed\":\"five days\"},{\"between\":[5,5],\"elapsed\":\"six evenings from Morris's first request to his first photographs of the pending list\"},{\"between\":[6,6],\"elapsed\":\"eight days from Manjula's request to the hearing and judgment\"}],\"unresolved\":[]},\"flags\":[]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 0.98,
+    "background": false,
+    "completed_at": 1785025664.0,
+    "conversation": null,
+    "max_output_tokens": 32000,
+    "max_tool_calls": null,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "episode_batch",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "episodes",
+            "beat_sheet",
+            "promise_ledger",
+            "calendar",
+            "flags"
+          ],
+          "properties": {
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "ep",
+                  "title",
+                  "lines"
+                ],
+                "properties": {
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "lines": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "speaker",
+                        "text",
+                        "sfx_cue"
+                      ],
+                      "properties": {
+                        "speaker": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "sfx_cue": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "beat_sheet": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "beat_id",
+                  "ep",
+                  "seq",
+                  "world_time",
+                  "location",
+                  "present",
+                  "witnessed_by",
+                  "hidden_from",
+                  "what_happened",
+                  "state_changes",
+                  "source_ref",
+                  "tier",
+                  "note"
+                ],
+                "properties": {
+                  "beat_id": {
+                    "type": "string"
+                  },
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "seq": {
+                    "type": "integer"
+                  },
+                  "world_time": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "present": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "witnessed_by": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "hidden_from": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "what_happened": {
+                    "type": "string"
+                  },
+                  "state_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "entity",
+                        "fact",
+                        "valence"
+                      ],
+                      "properties": {
+                        "entity": {
+                          "type": "string"
+                        },
+                        "fact": {
+                          "type": "string"
+                        },
+                        "valence": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "source_ref": {
+                    "type": "string"
+                  },
+                  "tier": {
+                    "type": "string",
+                    "enum": [
+                      "core_canon"
+                    ]
+                  },
+                  "note": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "promise_ledger": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "raised_ep",
+                  "listener_is_waiting_for",
+                  "must_pay_by_ep",
+                  "paid_ep",
+                  "how_paid",
+                  "status"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "raised_ep": {
+                    "type": "integer"
+                  },
+                  "listener_is_waiting_for": {
+                    "type": "string"
+                  },
+                  "must_pay_by_ep": {
+                    "type": "integer"
+                  },
+                  "paid_ep": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "how_paid": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "open",
+                      "paid",
+                      "paid_late"
+                    ]
+                  }
+                }
+              }
+            },
+            "calendar": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "season_start",
+                "dates_fixed",
+                "periods_fixed",
+                "unresolved"
+              ],
+              "properties": {
+                "season_start": {
+                  "type": "string"
+                },
+                "dates_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "ep",
+                      "when",
+                      "what"
+                    ],
+                    "properties": {
+                      "ep": {
+                        "type": "integer"
+                      },
+                      "when": {
+                        "type": "string"
+                      },
+                      "what": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "periods_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "between",
+                      "elapsed"
+                    ],
+                    "properties": {
+                      "between": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        }
+                      },
+                      "elapsed": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "unresolved": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 8955,
+      "input_tokens_details": {
+        "cache_write_tokens": 3373,
+        "cached_tokens": 5579
+      },
+      "output_tokens": 13864,
+      "output_tokens_details": {
+        "reasoning_tokens": 2735
+      },
+      "total_tokens": 22819
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    }
+  }
+}

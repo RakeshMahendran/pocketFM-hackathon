@@ -175,6 +175,43 @@ written dialogue is punctuated for the eye, and this is for the ear.
 </worked>
 </spoken>
 
+<music_cue>
+The bed is one steady mood under the whole episode. It cannot hit anything. On
+the two or three lines an episode actually turns on, that is not enough, and
+`music_cue` is where you score them.
+
+    sting    a hard hit ON the line. The insult that lands. The reveal.
+    drop     the bed cuts to silence for this line
+    swell    the bed rises under this line instead of ducking
+    button   the hit that ends the episode, ringing out under the cut
+
+<rule>
+Empty on almost every line. **Four to six per episode, and exactly one `button`,
+on the last line.** A sting on every strong line is not scoring, it is a car
+alarm — and the listener stops hearing any of them.
+</rule>
+
+<how_they_work_together>
+The strongest moment in an audio episode is not the loudest one. It is the one
+with nothing under it.
+
+`drop` the bed on the line the whole episode was built to deliver, so it lands in
+a hole. Then `button` the line after it. Silence, and then the hit — that is the
+shape the listener came for.
+
+`swell` belongs under a promise, not a payoff: the narrator saying what is about
+to happen, rising into the hook. Use it early or use it before the last cut.
+Never in the same breath as a `drop`, which is what it is the opposite of.
+</how_they_work_together>
+
+<worked>
+    "Arre, maybe he is the stapler!"                    sting
+    "Even the man selling tea stopped pouring, to laugh."   drop
+    "Sir. Hear the case."                               drop
+    "...and in that silence, a court was born."         button
+</worked>
+</music_cue>
+
 <vocabulary>
 `emotion` and `bgm_cue`, exactly one of thirteen:
 

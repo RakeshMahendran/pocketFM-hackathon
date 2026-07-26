@@ -3,15 +3,16 @@ A written episode to a finished mp3, in one command.
 
     python -m src.audio.build --story story1_denied_identity --ep 1
 
-Six stages, all in this repo:
+Seven stages, all in this repo:
 
     ep01.md          the writer's script
       -> convert     speaker labels to char_ids, SFX lines to cues     script_to_episode
-      -> direct      emotion, intensity, pace, bed and pause per line  director
+      -> direct      emotion, intensity, pace, bed, pause, stings      director
       -> cast        one voice per character, locked for the series    voice/scripts
       -> synthesise  dialogue over a mood bed                          voice/pipeline
       -> sfx         spot effects generated and laid at their marks    sfx
       -> master      dynamics restored, levelled, peak capped          sfx + dynamics
+      -> music       stings and the button, over the finished mix      music
 
 The voice pipeline under `voice/` was written by Sandhiya Giri
 (github.com/SandhiyaGiri/PocketFmTtsPipeline) and handed over; it is vendored
@@ -122,11 +123,21 @@ def build(story: str, ep: int, provider: Optional[str] = None,
     log(f"dialogue mixed: {duration_ms / 1000:.0f}s")
 
     # 4 + 5. spot effects, dynamics, master
+    out = pathlib.Path(mp3)
     if sfx:
         from src.audio.sfx import apply as apply_sfx
-        return apply_sfx(story, ep, stem=stem)
+        out = apply_sfx(story, ep, stem=stem)
 
-    return pathlib.Path(mp3)
+    # 6. the stings the bed cannot make. Last, because they are laid over the
+    #    finished mix and must not be flattened by the limiter that levelled it.
+    try:
+        from src.audio.music import apply as apply_music
+        out = apply_music(story, ep, stem=stem)
+    except Exception as exc:
+        log(f"music cues skipped ({type(exc).__name__}): "
+            f"{str(exc).splitlines()[0][:90]}", "warn")
+
+    return out
 
 
 def main() -> int:

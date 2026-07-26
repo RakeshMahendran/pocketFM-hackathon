@@ -1,0 +1,598 @@
+{
+  "episode_id": "evt_gandhinagar_tribunal_ep01",
+  "series_id": "evt_gandhinagar_tribunal",
+  "title": "The Court That Never Was — Episode 1",
+  "characters": [
+    {
+      "id": "narrator",
+      "gender": "neutral",
+      "age_range": "40s",
+      "persona": "storyteller, withholding"
+    },
+    {
+      "id": "SENIOR COUNSEL",
+      "persona": "minor role, one scene"
+    },
+    {
+      "id": "morris",
+      "persona": "the man who calls himself a judge",
+      "gender": "male",
+      "age_range": "40s"
+    },
+    {
+      "id": "COURT CLERK",
+      "persona": "minor role, one scene"
+    },
+    {
+      "id": "VOICE IN CORRIDOR",
+      "persona": "minor role, one scene"
+    },
+    {
+      "id": "irfan",
+      "persona": "his first client, a man out of time",
+      "gender": "male",
+      "age_range": "30s"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "narrator",
+      "text": "In that corridor, Morris Samuel Christian knew more law than any man standing there. He had typed ten thousand orders with his own hands. Ten thousand. And not one of them carried his name.",
+      "emotion": "reflective",
+      "intensity": 0.55,
+      "pace": "slow",
+      "line_id": "l001",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "court corridor voices and shuffling files",
+      "pause_after_ms": 500
+    },
+    {
+      "speaker": "narrator",
+      "text": "Today, for the first time in fifteen years, somebody was going to call him sir. And that one word would destroy his life.",
+      "emotion": "tension",
+      "intensity": 0.75,
+      "pace": "slow",
+      "line_id": "l002",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 900,
+      "music_cue": "swell"
+    },
+    {
+      "speaker": "SENIOR COUNSEL",
+      "text": "No no no. Delete that whole paragraph. The application was dismissed, not disposed. From the top.",
+      "emotion": "neutral",
+      "intensity": 0.4,
+      "pace": "clipped",
+      "line_id": "l003",
+      "language": "en",
+      "bgm_cue": "neutral",
+      "sfx_cue": "manual typewriter keys, rapid clacking"
+    },
+    {
+      "speaker": "morris",
+      "text": "Sir, yesterday's order is saying disposed. I typed it myself.",
+      "emotion": "hesitation",
+      "intensity": 0.45,
+      "pace": "normal",
+      "line_id": "l004",
+      "language": "en",
+      "bgm_cue": "neutral"
+    },
+    {
+      "speaker": "SENIOR COUNSEL",
+      "text": "Yesterday's order was mine. This one is also mine. Your job is the machine, not the meaning.",
+      "emotion": "neutral",
+      "intensity": 0.35,
+      "pace": "clipped",
+      "line_id": "l005",
+      "language": "en",
+      "bgm_cue": "neutral",
+      "pause_after_ms": 400
+    },
+    {
+      "speaker": "morris",
+      "text": "Let me finish the citations only. I can sit inside till lunch.",
+      "emotion": "hesitation",
+      "intensity": 0.5,
+      "pace": "normal",
+      "line_id": "l006",
+      "language": "en",
+      "bgm_cue": "neutral"
+    },
+    {
+      "speaker": "SENIOR COUNSEL",
+      "text": "You can sit outside till I call. Client is coming.",
+      "emotion": "neutral",
+      "intensity": 0.35,
+      "pace": "clipped",
+      "line_id": "l007",
+      "language": "en",
+      "bgm_cue": "neutral",
+      "sfx_cue": "paper pulled from typewriter"
+    },
+    {
+      "speaker": "morris",
+      "text": "Six pages I have already typed.",
+      "emotion": "hurt_anger",
+      "intensity": 0.55,
+      "pace": "clipped",
+      "line_id": "l008",
+      "language": "en",
+      "bgm_cue": "neutral"
+    },
+    {
+      "speaker": "SENIOR COUNSEL",
+      "text": "And for six pages you have been paid. Kindly close the door from that side.",
+      "emotion": "neutral",
+      "intensity": 0.3,
+      "pace": "slow",
+      "line_id": "l009",
+      "language": "en",
+      "bgm_cue": "neutral",
+      "pause_after_ms": 700
+    },
+    {
+      "speaker": "narrator",
+      "text": "Fifteen years back, the bar council had thrown him out. No degree, they said. Not a real advocate, they said. He still came to that court every single morning. He simply came carrying typing paper instead of a file.",
+      "emotion": "sorrow",
+      "intensity": 0.6,
+      "pace": "slow",
+      "line_id": "l010",
+      "language": "en",
+      "bgm_cue": "sorrow",
+      "sfx_cue": "door opening onto crowded court corridor",
+      "pause_after_ms": 500
+    },
+    {
+      "speaker": "COURT CLERK",
+      "text": "Oye. Move from the chamber door. Advocates that side, litigants near the railing.",
+      "emotion": "neutral",
+      "intensity": 0.45,
+      "pace": "normal",
+      "line_id": "l011",
+      "language": "en",
+      "bgm_cue": "neutral",
+      "sfx_cue": "court corridor voices and shuffling files"
+    },
+    {
+      "speaker": "morris",
+      "text": "I am attached to this chamber.",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "pace": "normal",
+      "line_id": "l012",
+      "language": "en",
+      "bgm_cue": "neutral"
+    },
+    {
+      "speaker": "COURT CLERK",
+      "text": "Attached? Then your chair also must be attached, no? Go and sit on it.",
+      "emotion": "sarcasm",
+      "intensity": 0.65,
+      "pace": "normal",
+      "line_id": "l013",
+      "language": "en",
+      "bgm_cue": "neutral",
+      "pause_after_ms": 200
+    },
+    {
+      "speaker": "VOICE IN CORRIDOR",
+      "text": "Attached, he is saying! Arre, maybe he is the stapler!",
+      "emotion": "joy",
+      "intensity": 0.8,
+      "pace": "fast",
+      "line_id": "l014",
+      "language": "en",
+      "bgm_cue": "neutral",
+      "sfx_cue": "brief public laughter",
+      "pause_after_ms": 600,
+      "music_cue": "sting"
+    },
+    {
+      "speaker": "morris",
+      "text": "One day this record will show who knows the work in this building.",
+      "emotion": "hurt_anger",
+      "intensity": 0.7,
+      "pace": "clipped",
+      "line_id": "l015",
+      "language": "en",
+      "bgm_cue": "hurt_anger"
+    },
+    {
+      "speaker": "COURT CLERK",
+      "text": "The record is showing one typist blocking my corridor. Shall I write that also?",
+      "emotion": "sarcasm",
+      "intensity": 0.7,
+      "pace": "normal",
+      "line_id": "l016",
+      "language": "en",
+      "bgm_cue": "hurt_anger",
+      "pause_after_ms": 500
+    },
+    {
+      "speaker": "narrator",
+      "text": "Forty-three years old. Twenty-two years inside that building. And in front of thirty people, he was standing there with a bundle of paper, being told where to put his chair.",
+      "emotion": "sorrow",
+      "intensity": 0.72,
+      "pace": "slow",
+      "line_id": "l017",
+      "language": "en",
+      "bgm_cue": "sorrow",
+      "pause_after_ms": 900,
+      "music_cue": "drop"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Sir. Sir, please. Urgent matters you are hearing today?",
+      "emotion": "urgency",
+      "intensity": 0.65,
+      "pace": "fast",
+      "line_id": "l018",
+      "language": "en",
+      "bgm_cue": "neutral",
+      "sfx_cue": "file papers slipping to floor"
+    },
+    {
+      "speaker": "morris",
+      "text": "Who sent you here?",
+      "emotion": "neutral",
+      "intensity": 0.45,
+      "pace": "clipped",
+      "line_id": "l019",
+      "language": "en",
+      "bgm_cue": "neutral"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Registry sent me up. Upstairs sent me down. Since ten fifteen I am going up-down, up-down, sir. Nobody is even looking at my face.",
+      "emotion": "urgency",
+      "intensity": 0.75,
+      "pace": "fast",
+      "line_id": "l020",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "What is the matter?",
+      "emotion": "neutral",
+      "intensity": 0.45,
+      "pace": "normal",
+      "line_id": "l021",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "My mother's room, sir. Landlord has put a new lock this morning. Her medicines are inside only. Her BP tablets, sir. She is sitting on the landing since nine o'clock.",
+      "emotion": "fear",
+      "intensity": 0.78,
+      "pace": "fast",
+      "line_id": "l022",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "morris",
+      "text": "You have an advocate?",
+      "emotion": "neutral",
+      "intensity": 0.45,
+      "pace": "normal",
+      "line_id": "l023",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "He is asking twelve hundred before he even opens the file. Twelve hundred, sir. I am having four hundred and sixty. That also is my mother's.",
+      "emotion": "sorrow",
+      "intensity": 0.7,
+      "pace": "normal",
+      "line_id": "l024",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "Then go to legal aid.",
+      "emotion": "neutral",
+      "intensity": 0.4,
+      "pace": "clipped",
+      "line_id": "l025",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "They gave me one token. Sixty-eight. Board is still showing twenty-three. By evening they will close and she will sleep on that landing.",
+      "emotion": "sorrow",
+      "intensity": 0.75,
+      "pace": "normal",
+      "line_id": "l026",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 400
+    },
+    {
+      "speaker": "COURT CLERK",
+      "text": "Arre, don't waste your time with him. Can't you see, he himself has been sent out to wait?",
+      "emotion": "sarcasm",
+      "intensity": 0.72,
+      "pace": "normal",
+      "line_id": "l027",
+      "language": "en",
+      "bgm_cue": "hurt_anger"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Sent out... from inside the chamber?",
+      "emotion": "hesitation",
+      "intensity": 0.5,
+      "pace": "slow",
+      "line_id": "l028",
+      "language": "en",
+      "bgm_cue": "hurt_anger"
+    },
+    {
+      "speaker": "COURT CLERK",
+      "text": "Haan! Along with the other furniture!",
+      "emotion": "joy",
+      "intensity": 0.85,
+      "pace": "fast",
+      "line_id": "l029",
+      "language": "en",
+      "bgm_cue": "hurt_anger",
+      "sfx_cue": "corridor laughter, louder",
+      "pause_after_ms": 500,
+      "music_cue": "sting"
+    },
+    {
+      "speaker": "narrator",
+      "text": "And the whole corridor laughed. Advocates. Clerks. Litigants. Even the man selling tea stopped pouring, to laugh.",
+      "emotion": "sorrow",
+      "intensity": 0.8,
+      "pace": "slow",
+      "line_id": "l030",
+      "language": "en",
+      "bgm_cue": "sorrow",
+      "pause_after_ms": 800,
+      "music_cue": "drop"
+    },
+    {
+      "speaker": "morris",
+      "text": "Bas.",
+      "emotion": "hurt_anger",
+      "intensity": 0.88,
+      "pace": "clipped",
+      "line_id": "l031",
+      "language": "en",
+      "bgm_cue": "hurt_anger",
+      "pause_after_ms": 400
+    },
+    {
+      "speaker": "COURT CLERK",
+      "text": "Ji, sir. Certainly, sir. Whatever you order, sir.",
+      "emotion": "sarcasm",
+      "intensity": 0.75,
+      "pace": "slow",
+      "line_id": "l032",
+      "language": "en",
+      "bgm_cue": "hurt_anger",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "narrator",
+      "text": "That was the joke. That everybody laughed at. That he should ever order anything.",
+      "emotion": "sorrow",
+      "intensity": 0.7,
+      "pace": "slow",
+      "line_id": "l033",
+      "language": "en",
+      "bgm_cue": "sorrow",
+      "pause_after_ms": 800
+    },
+    {
+      "speaker": "morris",
+      "text": "Boy. Give the file here.",
+      "emotion": "neutral",
+      "intensity": 0.42,
+      "pace": "normal",
+      "line_id": "l034",
+      "language": "en",
+      "bgm_cue": "reflective",
+      "sfx_cue": "file cover opening"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Landlord is saying agreement finished on the first. My mother is saying he took three months advance. Receipt is not there.",
+      "emotion": "urgency",
+      "intensity": 0.6,
+      "pace": "fast",
+      "line_id": "l035",
+      "language": "en",
+      "bgm_cue": "reflective"
+    },
+    {
+      "speaker": "morris",
+      "text": "And the lock he changed today itself?",
+      "emotion": "neutral",
+      "intensity": 0.48,
+      "pace": "normal",
+      "line_id": "l036",
+      "language": "en",
+      "bgm_cue": "reflective"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Nine o'clock, sir.",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "pace": "normal",
+      "line_id": "l037",
+      "language": "en",
+      "bgm_cue": "reflective"
+    },
+    {
+      "speaker": "morris",
+      "text": "Show me his notice. This notice is giving seven days. Delivered yesterday. And he broke the lock this morning.",
+      "emotion": "neutral",
+      "intensity": 0.55,
+      "pace": "normal",
+      "line_id": "l038",
+      "language": "en",
+      "bgm_cue": "reflective",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "irfan",
+      "text": "Meaning?",
+      "emotion": "hesitation",
+      "intensity": 0.55,
+      "pace": "normal",
+      "line_id": "l039",
+      "language": "en",
+      "bgm_cue": "reflective"
+    },
+    {
+      "speaker": "morris",
+      "text": "Meaning your landlord has already broken his own paper. This affidavit has no verification. This application is asking final relief as interim relief. Who drafted this rubbish?",
+      "emotion": "neutral",
+      "intensity": 0.62,
+      "pace": "clipped",
+      "line_id": "l040",
+      "language": "en",
+      "bgm_cue": "reflective"
+    },
+    {
+      "speaker": "irfan",
+      "text": "One man near the photocopy shop. Sir... can it be heard or not?",
+      "emotion": "hesitation",
+      "intensity": 0.6,
+      "pace": "normal",
+      "line_id": "l041",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "Not like this.",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "pace": "clipped",
+      "line_id": "l042",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Then you tell me how! Please, sir. Whatever you say, exactly that I will write. Ten seconds you looked at that file. Ten seconds. That advocate is holding it since two months.",
+      "emotion": "urgency",
+      "intensity": 0.85,
+      "pace": "fast",
+      "line_id": "l043",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "COURT CLERK",
+      "text": "Ei ei ei! What are you doing! Get up!",
+      "emotion": "fear",
+      "intensity": 0.72,
+      "pace": "fast",
+      "line_id": "l044",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "knees striking stone floor"
+    },
+    {
+      "speaker": "morris",
+      "text": "Get up. Get up, I am saying.",
+      "emotion": "fear",
+      "intensity": 0.68,
+      "pace": "clipped",
+      "line_id": "l045",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "No sir. Not until you are saying yes.",
+      "emotion": "urgency",
+      "intensity": 0.8,
+      "pace": "normal",
+      "line_id": "l046",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "People are watching.",
+      "emotion": "fear",
+      "intensity": 0.62,
+      "pace": "normal",
+      "line_id": "l047",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Let them watch!",
+      "emotion": "urgency",
+      "intensity": 0.88,
+      "pace": "clipped",
+      "line_id": "l048",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 500
+    },
+    {
+      "speaker": "irfan",
+      "text": "Sir. Hear the case.",
+      "emotion": "longing",
+      "intensity": 0.72,
+      "pace": "slow",
+      "line_id": "l049",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "hands touching shoes",
+      "pause_after_ms": 1100
+    },
+    {
+      "speaker": "narrator",
+      "text": "Thirty people were watching. Ten minutes ago they were laughing at him. And now a man was on the floor, holding his feet, calling him sir.",
+      "emotion": "reflective",
+      "intensity": 0.62,
+      "pace": "slow",
+      "line_id": "l050",
+      "language": "en",
+      "bgm_cue": "reflective",
+      "pause_after_ms": 500
+    },
+    {
+      "speaker": "narrator",
+      "text": "Morris did not correct him. He did not say, I am only a typist. He did not say, they threw me out fifteen years back.",
+      "emotion": "reflective",
+      "intensity": 0.68,
+      "pace": "slow",
+      "line_id": "l051",
+      "language": "en",
+      "bgm_cue": "reflective",
+      "pause_after_ms": 700
+    },
+    {
+      "speaker": "narrator",
+      "text": "He said nothing at all. And in that silence, a court was born that no country in the world had ever created.",
+      "emotion": "tension",
+      "intensity": 0.9,
+      "pace": "slow",
+      "line_id": "l052",
+      "language": "en",
+      "bgm_cue": "tension",
+      "music_cue": "button"
+    }
+  ]
+}

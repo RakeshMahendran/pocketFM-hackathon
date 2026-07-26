@@ -1,0 +1,1819 @@
+{
+  "story_id": "evt_gandhinagar_tribunal",
+  "event_id": "evt_gandhinagar_tribunal",
+  "beats": [
+    {
+      "beat_id": "b001",
+      "ep": 1,
+      "seq": 1,
+      "world_time": "2022-11",
+      "location": "court chamber",
+      "present": [
+        "morris"
+      ],
+      "witnessed_by": [
+        "morris"
+      ],
+      "hidden_from": [
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Fifteen years after being struck off, Morris typed another man's order and was sent out of the chamber to wait.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "He is publicly reduced from legal professional to paid typist.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "evt_gandhinagar_tribunal#t01",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b002",
+      "ep": 1,
+      "seq": 2,
+      "world_time": "2022-11",
+      "location": "court corridor",
+      "present": [
+        "morris",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "morris",
+        "irfan"
+      ],
+      "hidden_from": [
+        "hardik"
+      ],
+      "what_happened": "Irfan mistook Morris for an official who could hear his urgent housing dispute, and Morris examined the file without correcting him.",
+      "state_changes": [
+        {
+          "entity": "irfan",
+          "fact": "He believes Morris has authority to hear urgent matters.",
+          "valence": 2
+        },
+        {
+          "entity": "morris",
+          "fact": "He experiences public deference for the first time in years.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b003",
+      "ep": 1,
+      "seq": 3,
+      "world_time": "2022-11",
+      "location": "court corridor",
+      "present": [
+        "morris",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "morris",
+        "irfan"
+      ],
+      "hidden_from": [
+        "vaishali",
+        "tejas",
+        "hardik"
+      ],
+      "what_happened": "Irfan touched Morris's feet and asked him to hear the case.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "He is directly invited to exercise judicial authority again.",
+          "valence": 4
+        },
+        {
+          "entity": "irfan",
+          "fact": "He places his mother's housing dispute in Morris's hands.",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b004",
+      "ep": 2,
+      "seq": 1,
+      "world_time": "2022-11",
+      "location": "court copying room",
+      "present": [
+        "morris",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "morris",
+        "irfan"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Morris called his intervention advice, typed a direction in judicial form and signed it as presiding officer.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "He creates his first signed direction for a private litigant.",
+          "valence": 3
+        },
+        {
+          "entity": "irfan",
+          "fact": "He receives a paper intended to compel restoration of the room.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "evt_gandhinagar_tribunal#t02",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b005",
+      "ep": 2,
+      "seq": 2,
+      "world_time": "2022-11",
+      "location": "hardware shop",
+      "present": [
+        "irfan"
+      ],
+      "witnessed_by": [
+        "irfan"
+      ],
+      "hidden_from": [
+        "hardik"
+      ],
+      "what_happened": "Irfan presented Morris's signed page, and the landlord restored the key and paid six thousand rupees without court proceedings.",
+      "state_changes": [
+        {
+          "entity": "irfan",
+          "fact": "His mother regains access and the full advance payment.",
+          "valence": 5
+        },
+        {
+          "entity": "Morris's first direction",
+          "fact": "It produces voluntary compliance despite lacking a seal or case number.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b006",
+      "ep": 2,
+      "seq": 3,
+      "world_time": "2022-11",
+      "location": "unknown file storage",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "morris",
+        "hardik"
+      ],
+      "what_happened": "A copy of Morris's first signed direction remained preserved with the housing papers after payment.",
+      "state_changes": [
+        {
+          "entity": "Morris's first direction",
+          "fact": "A discoverable copy survives after the dispute is resolved.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "No cast character observes where the retained copy is stored, leaving its future chain of discovery open."
+    },
+    {
+      "beat_id": "b007",
+      "ep": 2,
+      "seq": 4,
+      "world_time": "2022-11",
+      "location": "court canteen",
+      "present": [
+        "morris",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "morris",
+        "irfan"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Irfan returned to Morris with two more men, their files and their fees.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "His one intervention becomes a potential paid practice.",
+          "valence": 4
+        },
+        {
+          "entity": "irfan",
+          "fact": "He becomes the source of Morris's first referrals.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b008",
+      "ep": 3,
+      "seq": 1,
+      "world_time": "2022-11",
+      "location": "court canteen and room above tyre shop",
+      "present": [
+        "morris",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "morris",
+        "irfan"
+      ],
+      "hidden_from": [
+        "hardik",
+        "tejas"
+      ],
+      "what_happened": "Morris accepted the two referrals and used their fees to rent a room above a tyre shop.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "He acquires a dedicated location for hearing disputes.",
+          "valence": 4
+        },
+        {
+          "entity": "the forum room",
+          "fact": "A private rented room becomes the base of the operation.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b009",
+      "ep": 3,
+      "seq": 2,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris"
+      ],
+      "witnessed_by": [
+        "morris"
+      ],
+      "hidden_from": [
+        "hardik"
+      ],
+      "what_happened": "Morris installed an eight-inch dais and a nameplate identifying an arbitration and dispute resolution forum with a presiding officer.",
+      "state_changes": [
+        {
+          "entity": "the forum room",
+          "fact": "It gains the visible furniture and signage of an adjudicatory office.",
+          "valence": 3
+        },
+        {
+          "entity": "morris",
+          "fact": "He is publicly addressed as sir by the property owner.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "evt_gandhinagar_tribunal#t05",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b010",
+      "ep": 3,
+      "seq": 3,
+      "world_time": "2022-11",
+      "location": "family home",
+      "present": [
+        "morris",
+        "vaishali"
+      ],
+      "witnessed_by": [
+        "morris",
+        "vaishali"
+      ],
+      "hidden_from": [
+        "tejas"
+      ],
+      "what_happened": "Vaishali questioned who appointed Morris, and he said private parties would appoint an arbitrator by consent.",
+      "state_changes": [
+        {
+          "entity": "vaishali",
+          "fact": "She knows Morris has opened a private dispute forum with a dais.",
+          "valence": -2
+        },
+        {
+          "entity": "morris",
+          "fact": "He states that the record he creates will reflect party consent.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "evt_gandhinagar_tribunal#t03",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b011",
+      "ep": 3,
+      "seq": 4,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Morris hired Sarika for three thousand rupees per month, designated her registry clerk and obtained her signature certifying proceedings recorded by her.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "She begins her first office job as registry clerk.",
+          "valence": 5
+        },
+        {
+          "entity": "sarika",
+          "fact": "Her signature is attached to certification language she does not fully understand.",
+          "valence": -3
+        },
+        {
+          "entity": "morris",
+          "fact": "He gains a clerk who can make the room function like a formal forum.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "evt_gandhinagar_tribunal#t05",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b012",
+      "ep": 3,
+      "seq": 5,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "After Morris conducted the first two numbered matters, an unknown stranger entered unannounced and placed a heavy file on Sarika's desk.",
+      "state_changes": [
+        {
+          "entity": "the forum room",
+          "fact": "It begins attracting litigants beyond Irfan's direct referrals.",
+          "valence": 4
+        },
+        {
+          "entity": "morris",
+          "fact": "His operation receives its first unsolicited matter.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b013",
+      "ep": 4,
+      "seq": 1,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "dhawale"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "dhawale"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Dhawale brought a land dispute concerning property valued at one crore forty lakh and pressed Morris for an urgent ruling.",
+      "state_changes": [
+        {
+          "entity": "dhawale",
+          "fact": "placed a high-value land dispute before Morris",
+          "valence": 2
+        },
+        {
+          "entity": "morris",
+          "fact": "accepted his largest matter to date for hearing",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b014",
+      "ep": 4,
+      "seq": 2,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "dhawale",
+        "advocate"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "dhawale",
+        "advocate"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "The landowner appeared with the advocate, signed a consent memorandum and argued the land dispute before Morris.",
+      "state_changes": [
+        {
+          "entity": "advocate",
+          "fact": "observed Morris conduct a high-value hearing under a signed consent memorandum",
+          "valence": -1
+        },
+        {
+          "entity": "sarika",
+          "fact": "recorded the parties' consent and proceedings",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b015",
+      "ep": 4,
+      "seq": 3,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "dhawale",
+        "advocate"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "dhawale",
+        "advocate"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Morris ordered conveyance at the contracted price, and the landowner accepted the balance payment while the advocate stated that his client would comply.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "issued an award that the losing party publicly agreed to obey",
+          "valence": 4
+        },
+        {
+          "entity": "dhawale",
+          "fact": "secured an enforceable signed resolution for the land purchase",
+          "valence": 4
+        },
+        {
+          "entity": "advocate",
+          "fact": "acknowledged that the ruling held because his client had consented and accepted payment",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b016",
+      "ep": 4,
+      "seq": 4,
+      "world_time": "2022-11",
+      "location": "land transaction file storage",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "morris",
+        "hardik",
+        "sarika",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "A copy of the signed consent memorandum and award was preserved with the land transaction papers.",
+      "state_changes": [
+        {
+          "entity": "land transaction file",
+          "fact": "now contains documentary evidence of Morris's award",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "No cast character perceived the records handling, leaving the location and future path of the preserved copy open."
+    },
+    {
+      "beat_id": "b017",
+      "ep": 5,
+      "seq": 1,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "dhawale",
+        "advocate"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "dhawale",
+        "advocate"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Morris admitted there was no prior appointment order, and the advocate warned that another lawyer could challenge the room before consenting.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "recognized that comparison with formal court records could expose his forum",
+          "valence": -3
+        },
+        {
+          "entity": "advocate",
+          "fact": "learned that Morris had no prior appointment order for the matter",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b018",
+      "ep": 5,
+      "seq": 2,
+      "world_time": "2022-11",
+      "location": "court copying room",
+      "present": [
+        "morris",
+        "pandit"
+      ],
+      "witnessed_by": [
+        "morris",
+        "pandit"
+      ],
+      "hidden_from": [
+        "hardik",
+        "sarika",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Morris asked Pandit for access to the civil pending list so he could avoid disputes already filed in the real court, and Pandit refused cash.",
+      "state_changes": [
+        {
+          "entity": "pandit",
+          "fact": "learned why Morris needed the pending list",
+          "valence": 2
+        },
+        {
+          "entity": "morris",
+          "fact": "sought confidential registry information to screen future cases",
+          "valence": -3
+        }
+      ],
+      "source_ref": "evt_gandhinagar_tribunal#t04",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b019",
+      "ep": 5,
+      "seq": 3,
+      "world_time": "2022-11",
+      "location": "court copying room",
+      "present": [
+        "morris",
+        "pandit"
+      ],
+      "witnessed_by": [
+        "morris",
+        "pandit"
+      ],
+      "hidden_from": [
+        "hardik",
+        "sarika",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Pandit left the pending list on a rear photocopier long enough for Morris to photograph all thirty-two pages.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "obtained the real court's current pending list",
+          "valence": 4
+        },
+        {
+          "entity": "pandit",
+          "fact": "began leaking confidential registry information to Morris",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b020",
+      "ep": 5,
+      "seq": 4,
+      "world_time": "2022-11",
+      "location": "court copying room",
+      "present": [
+        "morris",
+        "pandit"
+      ],
+      "witnessed_by": [
+        "morris",
+        "pandit"
+      ],
+      "hidden_from": [
+        "hardik",
+        "sarika",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Pandit demanded one sealed envelope each month, to be opened by Morris without questions, as the price of continued access.",
+      "state_changes": [
+        {
+          "entity": "pandit",
+          "fact": "made continued leaks conditional on a monthly sealed envelope",
+          "valence": 3
+        },
+        {
+          "entity": "morris",
+          "fact": "became indebted to Pandit on undisclosed terms",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b021",
+      "ep": 6,
+      "seq": 1,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "manjula",
+        "bhaskar"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "manjula",
+        "bhaskar"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Manjula sought an urgent hearing over land and keys withheld by Bhaskar for eleven years, and Morris fixed the hearing for eight days later.",
+      "state_changes": [
+        {
+          "entity": "manjula",
+          "fact": "obtained a hearing before Bhaskar could place a tenant on the land",
+          "valence": 3
+        },
+        {
+          "entity": "bhaskar",
+          "fact": "was required to answer his sister's claim publicly",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b022",
+      "ep": 6,
+      "seq": 2,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "manjula",
+        "bhaskar"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "manjula",
+        "bhaskar"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "At the hearing, Morris established that Manjula held an equal recorded share while Bhaskar controlled all access and had not fully accounted for crop income.",
+      "state_changes": [
+        {
+          "entity": "bhaskar",
+          "fact": "failed to justify excluding Manjula from jointly recorded property",
+          "valence": -3
+        },
+        {
+          "entity": "manjula",
+          "fact": "proved her recorded ownership and lack of access",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b023",
+      "ep": 6,
+      "seq": 3,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "manjula",
+        "bhaskar"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "manjula",
+        "bhaskar"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Morris awarded Manjula access and possession according to her recorded share, barred Bhaskar from leasing the western half and ordered delivery of the keys.",
+      "state_changes": [
+        {
+          "entity": "manjula",
+          "fact": "received judgment granting access and possession of her share",
+          "valence": 5
+        },
+        {
+          "entity": "bhaskar",
+          "fact": "was ordered to surrender the keys and provide accounts",
+          "valence": -4
+        },
+        {
+          "entity": "morris",
+          "fact": "issued a judgment that protected Manjula's recorded ownership",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b024",
+      "ep": 6,
+      "seq": 4,
+      "world_time": "2022-11",
+      "location": "lane outside family land",
+      "present": [
+        "manjula",
+        "bhaskar"
+      ],
+      "witnessed_by": [
+        "manjula",
+        "bhaskar"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Bhaskar delivered both keys under the judgment, and Manjula publicly told the lane that a court had finally listened to her.",
+      "state_changes": [
+        {
+          "entity": "manjula",
+          "fact": "gained physical access to the land and storage room after eleven years",
+          "valence": 5
+        },
+        {
+          "entity": "bhaskar",
+          "fact": "publicly acknowledged that he was obeying the court's judgment",
+          "valence": -3
+        },
+        {
+          "entity": "morris",
+          "fact": "had a second ruling obeyed outside his hearing room",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b025",
+      "ep": 7,
+      "seq": 1,
+      "world_time": "2024-01",
+      "location": "district court filing counter",
+      "present": [
+        "hardik"
+      ],
+      "witnessed_by": [
+        "hardik"
+      ],
+      "hidden_from": [
+        "morris",
+        "sarika",
+        "vaishali",
+        "tejas",
+        "pandit"
+      ],
+      "what_happened": "Hardik received a filing bundle containing an award from an unfamiliar forum and directed that its authority be traced.",
+      "state_changes": [
+        {
+          "entity": "hardik",
+          "fact": "became aware of an award issued under an unrecognized forum name",
+          "valence": -2
+        },
+        {
+          "entity": "case one seven six",
+          "fact": "entered district court scrutiny as an attached award",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b026",
+      "ep": 7,
+      "seq": 2,
+      "world_time": "2024-01",
+      "location": "district court records room",
+      "present": [
+        "hardik"
+      ],
+      "witnessed_by": [
+        "hardik"
+      ],
+      "hidden_from": [
+        "morris",
+        "sarika",
+        "pandit"
+      ],
+      "what_happened": "Hardik found no matching forum, appointment, arbitrator name or case-number sequence in the available district records.",
+      "state_changes": [
+        {
+          "entity": "hardik",
+          "fact": "could not trace the forum or case number in district records",
+          "valence": -3
+        },
+        {
+          "entity": "case one seven six",
+          "fact": "lacked a traceable appointing record",
+          "valence": -4
+        }
+      ],
+      "source_ref": "evt_gandhinagar_tribunal#t07",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b027",
+      "ep": 7,
+      "seq": 3,
+      "world_time": "2024-01",
+      "location": "district court internal filing route",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "morris",
+        "sarika",
+        "pandit",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "The complete filing bundle remained routed for further scrutiny rather than being returned at the public counter.",
+      "state_changes": [
+        {
+          "entity": "case one seven six",
+          "fact": "remained preserved in the district court scrutiny process",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "No cast character witnessed the internal routing step; it remains deliberate open canon established by the file's continued presence."
+    },
+    {
+      "beat_id": "b028",
+      "ep": 7,
+      "seq": 4,
+      "world_time": "2024-01",
+      "location": "district court registrar office",
+      "present": [
+        "hardik"
+      ],
+      "witnessed_by": [
+        "hardik"
+      ],
+      "hidden_from": [
+        "morris",
+        "sarika",
+        "pandit"
+      ],
+      "what_happened": "Hardik wrote the unidentified case number on a slip and stored it in his drawer for further inquiry.",
+      "state_changes": [
+        {
+          "entity": "hardik",
+          "fact": "opened a personal inquiry into case one seven six",
+          "valence": 2
+        },
+        {
+          "entity": "morris",
+          "fact": "became the unknowing subject of registry scrutiny",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b029",
+      "ep": 8,
+      "seq": 1,
+      "world_time": "2024-01",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "advocate"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "advocate"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "The advocate publicly challenged Sarika to explain what her certification signature represented and reminded Morris that no prior appointment order had been produced.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "learned publicly that her certification could be treated as proof of proceedings she had not fully recorded",
+          "valence": -4
+        },
+        {
+          "entity": "morris",
+          "fact": "lost control of how Sarika understood her registry role",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b030",
+      "ep": 8,
+      "seq": 2,
+      "world_time": "2024-01",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas",
+        "pandit"
+      ],
+      "what_happened": "Morris admitted that he established the forum himself and could not identify an external order appointing him as presiding officer.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "understood that Morris had no external appointment order",
+          "valence": -5
+        },
+        {
+          "entity": "morris",
+          "fact": "could no longer rely on Sarika's ignorance of the forum's status",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b031",
+      "ep": 8,
+      "seq": 3,
+      "world_time": "2024-01",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Sarika counted fourteen months of salary envelopes and recognized that her signatures had travelled on certified copies outside the room.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "recognized the possible legal exposure attached to fourteen months of certifications",
+          "valence": -5
+        },
+        {
+          "entity": "sarika",
+          "fact": "ceased to regard the clerk position as unquestionably respectable",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b032",
+      "ep": 8,
+      "seq": 4,
+      "world_time": "2024-01",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Sarika asked Morris whether she could be jailed for her role.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "directly confronted Morris about criminal liability",
+          "valence": -4
+        },
+        {
+          "entity": "morris",
+          "fact": "was required to face the personal cost imposed on his clerk",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b033",
+      "ep": 9,
+      "seq": 1,
+      "world_time": "2024-01",
+      "location": "tyre-shop stairwell",
+      "present": [
+        "morris",
+        "sarika"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika"
+      ],
+      "hidden_from": [
+        "pandit",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Morris received Hardik's written demand for his appointment order and learned that he had eleven days to respond.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "faced an eleven-day deadline to produce a nonexistent appointment order",
+          "valence": -5
+        },
+        {
+          "entity": "sarika",
+          "fact": "learned that the district court was formally scrutinizing an award",
+          "valence": -4
+        },
+        {
+          "entity": "hardik",
+          "fact": "formally sought documentary proof of the forum's authority",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b034",
+      "ep": 9,
+      "seq": 2,
+      "world_time": "2024-01",
+      "location": "court copying room",
+      "present": [
+        "morris",
+        "pandit"
+      ],
+      "witnessed_by": [
+        "morris",
+        "pandit"
+      ],
+      "hidden_from": [
+        "hardik",
+        "sarika",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Morris asked Pandit to insert a false appointment into an old court record, and Pandit identified the request as forgery.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "attempted to obtain a fabricated historical appointment record",
+          "valence": -5
+        },
+        {
+          "entity": "pandit",
+          "fact": "refused to share the risk of altering a court register",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b035",
+      "ep": 9,
+      "seq": 3,
+      "world_time": "2024-01",
+      "location": "court copying room",
+      "present": [
+        "morris",
+        "pandit"
+      ],
+      "witnessed_by": [
+        "morris",
+        "pandit"
+      ],
+      "hidden_from": [
+        "hardik",
+        "sarika",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Pandit stated that each sealed envelope contained a dispute and required outcome, and that Morris had signed twelve awards preserving those outcomes.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "recognized that access to the pending list had cost him twelve controlled rulings",
+          "valence": -5
+        },
+        {
+          "entity": "pandit",
+          "fact": "held specific leverage connecting Morris to predetermined outcomes",
+          "valence": 4
+        },
+        {
+          "entity": "monthly sealed envelopes",
+          "fact": "were revealed to contain cases and requested operative results rather than money",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b036",
+      "ep": 9,
+      "seq": 4,
+      "world_time": "2024-01",
+      "location": "court copying room",
+      "present": [
+        "morris",
+        "pandit"
+      ],
+      "witnessed_by": [
+        "morris",
+        "pandit"
+      ],
+      "hidden_from": [
+        "hardik",
+        "sarika",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Pandit refused to assist with the appointment order and demanded the return of the photographed pending list.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "lost Pandit's assistance while the registry deadline remained active",
+          "valence": -5
+        },
+        {
+          "entity": "pandit",
+          "fact": "ended the pending-list arrangement and sought recovery of the leaked material",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b037",
+      "ep": 10,
+      "seq": 1,
+      "world_time": "2024-01",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "tejas",
+        "dhawale"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "tejas",
+        "dhawale"
+      ],
+      "hidden_from": [
+        "hardik",
+        "khot",
+        "vaishali"
+      ],
+      "what_happened": "Morris began his largest hearing before a packed room while Tejas watched from the back.",
+      "state_changes": [
+        {
+          "entity": "tejas",
+          "fact": "saw Morris publicly treated as a judicial authority",
+          "valence": 3
+        },
+        {
+          "entity": "morris",
+          "fact": "reached the largest public display of his false authority",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b038",
+      "ep": 10,
+      "seq": 2,
+      "world_time": "2024-01",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "tejas",
+        "dhawale"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "tejas",
+        "dhawale"
+      ],
+      "hidden_from": [
+        "hardik",
+        "khot",
+        "vaishali"
+      ],
+      "what_happened": "Sarika publicly refused to certify an exhibit while Morris continued the hearing.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "ceased certifying documents for Morris",
+          "valence": 2
+        },
+        {
+          "entity": "morris",
+          "fact": "lost his clerk's public compliance",
+          "valence": -3
+        },
+        {
+          "entity": "tejas",
+          "fact": "saw Sarika express fear about the legitimacy of her work",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b039",
+      "ep": 10,
+      "seq": 3,
+      "world_time": "2024-01",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "tejas",
+        "dhawale"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "tejas",
+        "dhawale"
+      ],
+      "hidden_from": [
+        "hardik",
+        "khot",
+        "vaishali"
+      ],
+      "what_happened": "Dhawale produced a prewritten outcome and copies of twelve earlier awards, then demanded that Morris award him the western parcel at two crore ten lakh rupees.",
+      "state_changes": [
+        {
+          "entity": "dhawale",
+          "fact": "openly asserted control over Morris's next ruling",
+          "valence": 4
+        },
+        {
+          "entity": "morris",
+          "fact": "was publicly exposed as vulnerable to dictated outcomes",
+          "valence": -5
+        },
+        {
+          "entity": "tejas",
+          "fact": "heard evidence that Morris's rulings were controlled",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b040",
+      "ep": 10,
+      "seq": 4,
+      "world_time": "2024-01",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "tejas"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "tejas"
+      ],
+      "hidden_from": [
+        "hardik",
+        "khot",
+        "vaishali"
+      ],
+      "what_happened": "After the room cleared, Tejas asked Morris which court had appointed him.",
+      "state_changes": [
+        {
+          "entity": "tejas",
+          "fact": "directly questioned the source of Morris's authority",
+          "valence": -3
+        },
+        {
+          "entity": "morris",
+          "fact": "could no longer conceal the appointment question from his son",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b041",
+      "ep": 11,
+      "seq": 1,
+      "world_time": "2024-01",
+      "location": "district court records room",
+      "present": [
+        "hardik"
+      ],
+      "witnessed_by": [
+        "hardik"
+      ],
+      "hidden_from": [
+        "morris",
+        "sarika",
+        "tejas",
+        "pandit"
+      ],
+      "what_happened": "Hardik verified across current, retired and section records that no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matched Morris's forum.",
+      "state_changes": [
+        {
+          "entity": "hardik",
+          "fact": "established from court records that Morris had no recorded appointment or tribunal",
+          "valence": 4
+        },
+        {
+          "entity": "morris",
+          "fact": "his claimed authority failed formal verification",
+          "valence": -5
+        }
+      ],
+      "source_ref": "evt_gandhinagar_tribunal#t07",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b042",
+      "ep": 11,
+      "seq": 2,
+      "world_time": "2024-01",
+      "location": "district court registrar office",
+      "present": [
+        "hardik"
+      ],
+      "witnessed_by": [
+        "hardik"
+      ],
+      "hidden_from": [
+        "morris",
+        "sarika",
+        "tejas",
+        "pandit"
+      ],
+      "what_happened": "Hardik signed a police complaint supported by the verification note, the bar record and copies of thirty-four awards.",
+      "state_changes": [
+        {
+          "entity": "hardik",
+          "fact": "converted the records inquiry into a criminal complaint",
+          "valence": 3
+        },
+        {
+          "entity": "morris",
+          "fact": "became the named subject of a police complaint",
+          "valence": -5
+        }
+      ],
+      "source_ref": "evt_gandhinagar_tribunal#t08",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b043",
+      "ep": 11,
+      "seq": 3,
+      "world_time": "2024-01",
+      "location": "police evidence storage",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "morris",
+        "sarika",
+        "tejas",
+        "pandit",
+        "dhawale"
+      ],
+      "what_happened": "A sealed police copy of the verification note and award index remained preserved for investigation.",
+      "state_changes": [
+        {
+          "entity": "police file",
+          "fact": "contained a preserved verification note and index of awards",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "No cast character witnessed the secured evidence copy being stored, preserving its custody as deliberate open canon."
+    },
+    {
+      "beat_id": "b044",
+      "ep": 11,
+      "seq": 4,
+      "world_time": "2024-01",
+      "location": "tyre-shop stairwell",
+      "present": [
+        "morris",
+        "sarika",
+        "tejas",
+        "hardik",
+        "khot"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "tejas",
+        "hardik",
+        "khot"
+      ],
+      "hidden_from": [
+        "vaishali",
+        "manjula",
+        "bhaskar",
+        "irfan",
+        "pandit",
+        "dhawale"
+      ],
+      "what_happened": "Khot told Sarika she was named as an employee and witness rather than an accused, and Sarika disclosed the location of the forum's records.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "was treated as a cooperating witness rather than arrested",
+          "valence": 4
+        },
+        {
+          "entity": "police file",
+          "fact": "gained access to three cartons of forum records",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b045",
+      "ep": 11,
+      "seq": 5,
+      "world_time": "2024-01",
+      "location": "tyre-shop stairwell",
+      "present": [
+        "morris",
+        "sarika",
+        "tejas",
+        "hardik",
+        "khot"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "tejas",
+        "hardik",
+        "khot"
+      ],
+      "hidden_from": [
+        "vaishali",
+        "manjula",
+        "bhaskar",
+        "irfan",
+        "pandit",
+        "dhawale"
+      ],
+      "what_happened": "Khot read aloud the charge that Morris cheated people by falsely representing judicial authority and inducing transfers through purported awards.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "was taken into police custody on a cheating allegation based on false judicial authority",
+          "valence": -5
+        },
+        {
+          "entity": "tejas",
+          "fact": "learned publicly that no court appointment supported his father's forum",
+          "valence": -5
+        }
+      ],
+      "source_ref": "evt_gandhinagar_tribunal#t08",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b046",
+      "ep": 12,
+      "seq": 1,
+      "world_time": "2024-01",
+      "location": "police interview room",
+      "present": [
+        "morris",
+        "hardik",
+        "khot"
+      ],
+      "witnessed_by": [
+        "morris",
+        "hardik",
+        "khot"
+      ],
+      "hidden_from": [
+        "sarika",
+        "tejas",
+        "vaishali",
+        "manjula",
+        "bhaskar"
+      ],
+      "what_happened": "Khot offered to record Morris's cooperation for a narrower prosecution position if he listed every award and admitted that each lacked judicial force.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "was offered possible leniency in exchange for disavowing all awards",
+          "valence": 2
+        },
+        {
+          "entity": "police file",
+          "fact": "began receiving Morris's statement identifying affected matters",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b047",
+      "ep": 12,
+      "seq": 2,
+      "world_time": "2024-01",
+      "location": "police interview room",
+      "present": [
+        "morris",
+        "hardik",
+        "khot"
+      ],
+      "witnessed_by": [
+        "morris",
+        "hardik",
+        "khot"
+      ],
+      "hidden_from": [
+        "sarika",
+        "tejas",
+        "vaishali",
+        "manjula",
+        "bhaskar"
+      ],
+      "what_happened": "Morris identified the earlier matters, admitted he lacked court appointment and stated that the first twenty-three awards had no judicial force.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "formally disavowed his authority for the first twenty-three matters",
+          "valence": -4
+        },
+        {
+          "entity": "police file",
+          "fact": "gained Morris's partial admission and award list",
+          "valence": 4
+        }
+      ],
+      "source_ref": "evt_gandhinagar_tribunal#t06",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b048",
+      "ep": 12,
+      "seq": 3,
+      "world_time": "2024-01",
+      "location": "police interview room",
+      "present": [
+        "morris",
+        "hardik",
+        "khot"
+      ],
+      "witnessed_by": [
+        "morris",
+        "hardik",
+        "khot"
+      ],
+      "hidden_from": [
+        "sarika",
+        "tejas",
+        "vaishali",
+        "manjula",
+        "bhaskar"
+      ],
+      "what_happened": "Morris refused to call Manjula's award worthless despite being told that the refusal could cost him leniency.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "sacrificed possible leniency rather than disavow Manjula's judgment",
+          "valence": 3
+        },
+        {
+          "entity": "police file",
+          "fact": "recorded only partial cooperation through matter twenty-three",
+          "valence": -1
+        },
+        {
+          "entity": "manjula",
+          "fact": "her award was omitted from Morris's disavowal list",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b049",
+      "ep": 12,
+      "seq": 4,
+      "world_time": "2024-01",
+      "location": "family land",
+      "present": [
+        "manjula"
+      ],
+      "witnessed_by": [
+        "manjula"
+      ],
+      "hidden_from": [
+        "bhaskar"
+      ],
+      "what_happened": "Manjula remained in possession of both keys and was not told about Morris's arrest or the challenge to his authority.",
+      "state_changes": [
+        {
+          "entity": "manjula",
+          "fact": "still held both keys without knowing that Morris's authority had been exposed",
+          "valence": 0
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    }
+  ]
+}

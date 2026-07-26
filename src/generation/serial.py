@@ -331,10 +331,10 @@ def persist(season: Dict[str, Any], dossier: Dict[str, Any]) -> pathlib.Path:
 
     written = set()
     for ep, script in sorted(season["scripts"].items()):
-        title = season["titles"].get(ep, "")
-        header = f"# Episode {ep}" + (f" — {title}" if title else "") + "\n\n"
+        # `render_script` already writes the heading. Adding one here printed the
+        # title twice at the top of every episode file.
         path = episodes_dir / f"ep{ep:02d}.md"
-        path.write_text(header + script.rstrip() + "\n", encoding="utf-8")
+        path.write_text(script.rstrip() + "\n", encoding="utf-8")
         written.add(path.name)
 
     for stale in sorted(episodes_dir.iterdir()):

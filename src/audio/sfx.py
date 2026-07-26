@@ -54,6 +54,10 @@ TP_OVERSHOOT_DB = 0.5
 # more than enough; a mix still hot after that has something else wrong with it.
 MASTER_ATTEMPTS = 3
 
+# How far over the ceiling still counts as on it. EBU R128 is a broadcast spec,
+# not a physical limit, and nothing on earth can hear a twentieth of a decibel.
+TP_TOLERANCE_DB = 0.1
+
 # Silence is written as an SFX line in our scripts — "SFX: Nothing. Long." —
 # and generating a sound for it would invert the writer's intent.
 SILENCE = re.compile(r"^\s*(nothing|silence)\b", re.IGNORECASE)
@@ -236,7 +240,10 @@ def _master(src: pathlib.Path, dest: pathlib.Path) -> None:
             raise RuntimeError(f"mastering failed: {result.stderr[:200]}")
 
         peak = _true_peak(dest)
-        if peak is None or peak <= TARGET_TP:
+        # Tolerance, because loudnorm reports to two decimals and a -0.99 against
+        # a -1.0 target is a rounding artefact, not a breach. Without it the loop
+        # re-encodes twice and reports failure over one hundredth of a decibel.
+        if peak is None or peak <= TARGET_TP + TP_TOLERANCE_DB:
             return
         headroom += peak - TARGET_TP
         log(f"master: {peak:+.2f} dBTP is over the {TARGET_TP:+.1f} ceiling — "

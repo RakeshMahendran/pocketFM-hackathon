@@ -1,0 +1,128 @@
+{
+  "char_id": "manjula",
+  "name": "Manjula Gaikwad",
+  "role": "a widow who wins her father's land in his court",
+  "promotable": true,
+  "real_anchor": {
+    "maps_to": "the litigants in the land matters",
+    "composite": true,
+    "clearance": "fictionalize_first"
+  },
+  "stub": {
+    "facts": [
+      "Manjula sought an urgent hearing over land and keys withheld by Bhaskar for eleven years, and Morris fixed the hearing for eight days later.",
+      "At the hearing, Morris established that Manjula held an equal recorded share while Bhaskar controlled all access and had not fully accounted for crop income.",
+      "Morris awarded Manjula access and possession according to her recorded share, barred Bhaskar from leasing the western half and ordered delivery of the keys.",
+      "Bhaskar delivered both keys under the judgment, and Manjula publicly told the lane that a court had finally listened to her.",
+      "Manjula remained in possession of both keys and was not told about Morris's arrest or the challenge to his authority."
+    ],
+    "want": "to keep what a judge awarded her",
+    "voice_samples": [
+      "Land, sir. My father's land. Four acres. My name is there in the record, equal share. My brother is having both keys.",
+      "He is saying there is no income. Sir, I am standing at that gate every harvest. I am counting the trolleys.",
+      "One advocate took nine thousand rupees. Three years he took dates. Then he stopped picking up the phone.",
+      "No, sir. It is only that... my last date was after fourteen months. And then it was cancelled.",
+      "You made me beg at that gate for eleven years. Today, they will all hear.",
+      "Sir, they told me you are giving dates quickly. Is it true?",
+      "Eleven years I am counting. It is written. In my own hand.",
+      "Since my father died. Eleven years.",
+      "A court finally listened to me.",
+      "Listen. All of you. Listen.",
+      "Sir... eight days?"
+    ]
+  },
+  "bible": {
+    "want": "To unlock her father's land each morning, work her recorded share, count what leaves it, and keep both keys in her own hand.",
+    "wound": "Manjula Gaikwad avoids ever becoming a waiting petitioner again. She knowingly chooses the certainty of physical possession over returning her fate to advocates, offices, or another hearing; the cost is that she treats compromise as surrender and gradually becomes the gatekeeper Bhaskar was to her.",
+    "voice": "Clipped, evidentiary bursts: object first, then ownership, acreage, count, date. When emotion threatens, she changes the subject to records, harvest tallies, keys, fees, or elapsed time. She repeats numbers as if repetition makes them enforceable. When frightened, she becomes formally respectful, pauses, and asks one concrete question about exactly how many days remain.",
+    "engine": "The land requires shared decisions, but Manjula Gaikwad holds both keys while she and Bhaskar retain equal recorded interests and eleven years of accounts, routines, and resentment remain unsettled. Every harvest, repair, worker, buyer, water turn, expense, and proposed lease forces Manjula to act before Bhaskar agrees; each unilateral choice creates a new debt, precedent, or accusation. Because she refuses to surrender the keys or become a petitioner again, ordinary farm management automatically escalates into a fresh struggle over who has the right to decide.",
+    "offscreen_ledger": [
+      {
+        "window": "between the season opening and b021",
+        "what": "Manjula Gaikwad stood outside the locked gate during harvests, wrote down trolley counts and times, copied her recorded share into a hand-bound ledger, gathered her father's papers and old fee receipts, pursued unanswered calls to her former advocate, and carried the reorganized bundle from office to office asking for a hearing that would produce access rather than another date."
+      },
+      {
+        "window": "between b024 and b049",
+        "what": "Manjula Gaikwad used the keys daily, inspected the acreage row by row, listed standing crops and broken equipment, arranged overdue clearing and repairs, questioned workers about past yields, contacted buyers, and sent Bhaskar written demands for accounts and contributions while keeping both keys on her person whenever she left the gate."
+      }
+    ],
+    "reframe": "The mainline is about false authority creating a chain of judgments that cannot survive scrutiny; Manjula Gaikwad's serial is about a dispossessed widow learning that taking control of shared property can turn justice into another form of gatekeeping.",
+    "stance": "dupe",
+    "genre": "agrarian family drama",
+    "pitch": "After eleven years outside her own gate, a widow takes both keys to shared land—and must win every harvest without becoming the sibling who locked her out."
+  },
+  "season": [
+    {
+      "ep": 1,
+      "turn": "After Bhaskar bars Manjula from the harvest gate, she begins a handwritten ledger of every crop trolley leaving their father's four acres.",
+      "ends_on": "A trolley driver tells Manjula that three loaded carts left the field before sunrise.",
+      "hook_type": "DISCOVERY",
+      "sets_in": "OPEN SPACE before b021"
+    },
+    {
+      "ep": 2,
+      "turn": "Using her ledger to show why she needs proof, Manjula obtains a certified land record bearing her name.",
+      "ends_on": "The revenue clerk reads aloud that Manjula and Bhaskar hold equal recorded shares.",
+      "hook_type": "RECOGNITION",
+      "sets_in": "OPEN SPACE before b021"
+    },
+    {
+      "ep": 3,
+      "turn": "Manjula takes the certified record to the gate and formally demands one key and an account of the crop income, but Bhaskar refuses both.",
+      "ends_on": "Bhaskar tells her that if she takes the family dispute outside the family, he will never hand her a key voluntarily.",
+      "hook_type": "ULTIMATUM",
+      "sets_in": "OPEN SPACE before b021"
+    },
+    {
+      "ep": 4,
+      "turn": "Because Bhaskar's refusal leaves the coming harvest beyond her reach, Manjula seeks an urgent hearing and Morris fixes it eight days later.",
+      "ends_on": "Morris tells both parties that the land-and-keys hearing will take place in eight days.",
+      "hook_type": "DEADLINE",
+      "sets_in": "b021"
+    },
+    {
+      "ep": 5,
+      "turn": "At the hearing, Manjula's record and ledger establish that she owns an equal share while Bhaskar controls all access and cannot fully account for the crop income.",
+      "ends_on": "Morris states that Bhaskar has failed to account for income taken from land recorded equally in Manjula's name.",
+      "hook_type": "ACCUSATION",
+      "sets_in": "b022"
+    },
+    {
+      "ep": 6,
+      "turn": "The findings allow Manjula to win access and possession of her recorded share, with Bhaskar barred from leasing the western half and ordered to deliver the keys.",
+      "ends_on": "The operative order is read aloud: Bhaskar must deliver both keys to Manjula.",
+      "hook_type": "REVEAL",
+      "sets_in": "b023"
+    },
+    {
+      "ep": 7,
+      "turn": "Bhaskar delivers both keys, and Manjula publicly declares that a court has finally listened to her.",
+      "ends_on": "The cane buyer reads out a pre-award agreement signed by Bhaskar for the entire standing crop, including the western half.",
+      "hook_type": "REVERSAL",
+      "sets_in": "b024, crossing into OPEN SPACE between b024 and b049"
+    },
+    {
+      "ep": 8,
+      "turn": "Manjula makes the buyer recognize her western crop separately, but only if she has it cut, weighed and delivered before the mill closes intake.",
+      "ends_on": "The buyer tells Manjula that the final weighbridge intake closes in forty-eight hours.",
+      "hook_type": "DEADLINE",
+      "sets_in": "OPEN SPACE between b024 and b049"
+    },
+    {
+      "ep": 9,
+      "turn": "When cutters dependent on Bhaskar refuse her field, Manjula pledges her milch buffalo to hire an outside crew and cut the western crop in time.",
+      "ends_on": "Bhaskar tells the lane's tractor owners that anyone hauling Manjula's cane will lose every transport job he controls.",
+      "hook_type": "THREAT",
+      "sets_in": "OPEN SPACE between b024 and b049"
+    },
+    {
+      "ep": 10,
+      "turn": "Manjula spends her next season's seed reserve on outside carts, unlocks the gate with her court-won keys and delivers her western crop before the deadline.",
+      "ends_on": "The mill clerk tells her that Bhaskar's advance is registered against the entire holding, so payment for her delivered crop has been frozen.",
+      "hook_type": "DISCOVERY",
+      "sets_in": "OPEN SPACE between b024 and b049"
+    }
+  ],
+  "title": "The Western Half",
+  "logline": "A widowed farmer turns her recorded share into a court victory, only to learn that every acre she claims remains tied to the brother who controlled its gates, labor and harvest for eleven years."
+}

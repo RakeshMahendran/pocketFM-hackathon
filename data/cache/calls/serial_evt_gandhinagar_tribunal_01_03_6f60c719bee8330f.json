@@ -1,0 +1,1989 @@
+{
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "Call Me Sir",
+      "lines": [
+        {
+          "speaker": "SENIOR COUNSEL",
+          "text": "No, no, no. Delete that paragraph. The application was dismissed, not disposed. Start again.",
+          "sfx_cue": "manual typewriter keys, rapid clacking"
+        },
+        {
+          "speaker": "morris",
+          "text": "The wording in yesterday's order was disposed, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SENIOR COUNSEL",
+          "text": "Yesterday's order was mine. This one is also mine.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Let me finish the citations. I can sit inside until lunch.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SENIOR COUNSEL",
+          "text": "You can wait outside until I call. My client is coming.",
+          "sfx_cue": "paper pulled from typewriter"
+        },
+        {
+          "speaker": "morris",
+          "text": "I have typed six pages already.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SENIOR COUNSEL",
+          "text": "And you have been paid for six pages. Please close the door from the other side.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "Fifteen years earlier, the bar council had struck Morris off. He still entered chambers every morning. He simply entered carrying typing paper.",
+          "sfx_cue": "door opening onto crowded court corridor"
+        },
+        {
+          "speaker": "COURT CLERK",
+          "text": "Move away from the chamber door. Advocates on the left, litigants near the railing.",
+          "sfx_cue": "court corridor voices and shuffling files"
+        },
+        {
+          "speaker": "morris",
+          "text": "I am attached to this chamber.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COURT CLERK",
+          "text": "Then your chair must also be attached. Go and wait on it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN CORRIDOR",
+          "text": "He says attached. Maybe he is the stapler.",
+          "sfx_cue": "brief public laughter"
+        },
+        {
+          "speaker": "morris",
+          "text": "The record will show who knows the work here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COURT CLERK",
+          "text": "The record shows one typist blocking a corridor.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Sir... sir, please. Are you hearing urgent matters today?",
+          "sfx_cue": "file papers slipping to floor"
+        },
+        {
+          "speaker": "morris",
+          "text": "Who told you to come here?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "The registry sent me upstairs. Upstairs sent me down. I have been going up and down since ten fifteen.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "What is the matter?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "My mother's room, sir. The landlord locked it. Her medicines are inside.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You have an advocate?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "He wants twelve hundred rupees before he reads the file. I have... I have four hundred and sixty.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Then find legal aid.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "They gave me a token. Sixty-eight. The board is still showing twenty-three.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I did not ask for your token number.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "No, sir. Sorry, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COURT CLERK",
+          "text": "Do not trouble him. Can't you see he has been sent out to wait?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Sent out... from the chamber?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COURT CLERK",
+          "text": "Yes. With the other furniture.",
+          "sfx_cue": "corridor laughter, louder"
+        },
+        {
+          "speaker": "morris",
+          "text": "Enough.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COURT CLERK",
+          "text": "Certainly, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Let me see the file.",
+          "sfx_cue": "file cover opening"
+        },
+        {
+          "speaker": "irfan",
+          "text": "The landlord says the agreement ended on the first. My mother says he took three months in advance. There is no receipt.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "And the lock was changed today?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "At nine. She is sitting outside on the landing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "This affidavit has no verification. This application asks for final relief as interim relief. Who drafted it?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "A man near the photocopy shop. Sir, can it be heard?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Not like this.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Then tell me how. Please. I will write exactly what you say.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Stand up first.",
+          "sfx_cue": "knees striking stone floor"
+        },
+        {
+          "speaker": "irfan",
+          "text": "No, sir. Not until you agree.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "People are watching.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Let them watch.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Sir, hear the case.",
+          "sfx_cue": "hands touching shoes"
+        }
+      ]
+    },
+    {
+      "ep": 2,
+      "title": "One Page",
+      "lines": [
+        {
+          "speaker": "irfan",
+          "text": "Sir, hear the case. Just once. My mother is still sitting outside that locked room.",
+          "sfx_cue": "crowded court corridor, files thudding on bench"
+        },
+        {
+          "speaker": "morris",
+          "text": "Take your hands away from my feet.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Say you will hear it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I am not hearing anything. Stand up.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COURT CLERK",
+          "text": "Your lordship, shall we clear the corridor for this historic sitting?",
+          "sfx_cue": "scattered laughter"
+        },
+        {
+          "speaker": "morris",
+          "text": "You have shouted enough for one morning.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COURT CLERK",
+          "text": "And you have been promoted quickly for one morning.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Come with me.",
+          "sfx_cue": "file snapped shut"
+        },
+        {
+          "speaker": "irfan",
+          "text": "Inside the chamber?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No. The copying room.",
+          "sfx_cue": "door shutting, corridor noise muffled"
+        },
+        {
+          "speaker": "morris",
+          "text": "Listen carefully. This is only advice. You will not call it an order.",
+          "sfx_cue": "ceiling fan wobble, distant photocopier"
+        },
+        {
+          "speaker": "irfan",
+          "text": "Yes, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You will not tell anyone I heard a case.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "No, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "And stop calling me sir every second.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Yes... sorry.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Give me the landlord's notice.",
+          "sfx_cue": "papers unfolding"
+        },
+        {
+          "speaker": "irfan",
+          "text": "Here. He wrote that we abandoned the room. My mother has slept there for nine years.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The notice gives seven days. When was it delivered?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Yesterday afternoon.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Then he changed the lock before his own period expired.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Can you write that?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I can write many things. Whether a fool obeys the paper is a different question.",
+          "sfx_cue": "typewriter carriage sliding"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "Morris fed one clean sheet into the machine. His fingers found the form they had typed ten thousand times for other men.",
+          "sfx_cue": "manual typewriter keys, measured clacking"
+        },
+        {
+          "speaker": "morris",
+          "text": "Upon perusal of the application... no. Upon perusal of the material placed on record.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "What material?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Your file. Do not interrupt the record.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Sorry.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "It appears that possession was disturbed during the subsistence of the notice period.",
+          "sfx_cue": "typewriter bell, single ring"
+        },
+        {
+          "speaker": "irfan",
+          "text": "Will he understand this?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "He will understand the next sentence.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The respondent is directed to restore access forthwith, failing which further proceedings shall follow.",
+          "sfx_cue": "typewriter keys stop"
+        },
+        {
+          "speaker": "irfan",
+          "text": "Further proceedings where?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Do you want your mother's key, or a lecture on jurisdiction?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "The key.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Then let the sentence do its work.",
+          "sfx_cue": "paper torn from typewriter"
+        },
+        {
+          "speaker": "irfan",
+          "text": "There is no stamp.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "A stamp impresses people who cannot read. Your landlord can read.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "And the signature?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The signature tells him someone is prepared to continue.",
+          "sfx_cue": "fountain pen cap clicking"
+        },
+        {
+          "speaker": "irfan",
+          "text": "Prepared as what?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Give me the pen.",
+          "sfx_cue": "pen scratching on paper"
+        },
+        {
+          "speaker": "morris",
+          "text": "Presiding officer.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Sir... which office?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Do not ask a question when you are afraid of its answer.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "That afternoon, Irfan carried the page to the landlord's hardware shop.",
+          "sfx_cue": "metal shop shutter rattling, traffic nearby"
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "What is this?",
+          "sfx_cue": "paper slapped on counter"
+        },
+        {
+          "speaker": "irfan",
+          "text": "A direction to restore possession forthwith.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "From which court? There is no case number.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Read the last line.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Further proceedings shall follow.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Yes.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Who signed it?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "The officer hearing the matter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Hearing it where?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "You can ask him yourself. I will tell him you refused.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "There is no need to become dramatic. I changed the lock to protect the property.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "My mother is outside.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Take the spare key. I am obeying under protest.",
+          "sfx_cue": "key ring dropped on counter"
+        },
+        {
+          "speaker": "irfan",
+          "text": "And the three months' advance?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "You people learn one legal phrase and become advocates.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "The notice says you received it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "How much?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Six thousand rupees.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "I will deduct electricity.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "There is no electricity bill pending.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Fine. Six thousand. Sign here and leave my shop.",
+          "sfx_cue": "cash notes counted on metal counter"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "The page had no case number, no seal and no court behind it. The landlord paid all six thousand rupees.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "He obeyed every line.",
+          "sfx_cue": "court canteen cups and spoons"
+        },
+        {
+          "speaker": "morris",
+          "text": "Lower your voice.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "He returned the key. He returned the advance. My mother touched this paper to her forehead.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I told you, it was advice.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Advice does not return six thousand rupees.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Then what do you think it was?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "A judgment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Do not use words you do not understand.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "I understand what opened the door.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "And what have you brought in that envelope?",
+          "sfx_cue": "paper envelope placed on table"
+        },
+        {
+          "speaker": "irfan",
+          "text": "Four hundred and sixty rupees. Everything I had yesterday.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Take it back.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Then call it filing fees.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "There was no filing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "There will be now.",
+          "sfx_cue": "two sets of footsteps approaching"
+        },
+        {
+          "speaker": "FIRST MAN",
+          "text": "Sir, Irfan said you hear urgent property matters.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SECOND MAN",
+          "text": "We brought our files.",
+          "sfx_cue": "two files placed on table"
+        },
+        {
+          "speaker": "irfan",
+          "text": "And they brought their fees.",
+          "sfx_cue": "two cash envelopes placed beside the files"
+        }
+      ]
+    },
+    {
+      "ep": 3,
+      "title": "The Room Above the Tyres",
+      "lines": [
+        {
+          "speaker": "FIRST MAN",
+          "text": "Sir, my brother sold our father's sewing machines without asking me. I need an order before he sells the shop.",
+          "sfx_cue": "court canteen clatter, files opening"
+        },
+        {
+          "speaker": "SECOND MAN",
+          "text": "Mine is a salary matter. Three months unpaid. Irfan said you can finish it quickly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I have not accepted either matter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "They came because the first order worked.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "That was not an order.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "FIRST MAN",
+          "text": "Then write me the same kind of not-order.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SECOND MAN",
+          "text": "I can pay five hundred now. Another five hundred after recovery.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "This is a public canteen. Put the money away.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "FIRST MAN",
+          "text": "Where should we put it? Irfan said your office is upstairs.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "I said he works upstairs. I did not say he has an office.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Enough. Both of you, wait until evening. Bring every agreement, receipt and notice you possess.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "FIRST MAN",
+          "text": "Where will you hear us?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You will be informed.",
+          "sfx_cue": "cash envelopes sliding across table"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "Morris did not take the envelopes in the canteen. He took them under the table, where dignity could pretend not to see.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "Five days after Irfan touched his feet, Morris climbed the stairs above a tyre shop.",
+          "sfx_cue": "air wrench bursts, metal staircase creaking"
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "Mind the second step. It bends when heavy people use it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You said the room had a separate entrance.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "It does. Nobody enters through the tyres unless they fall through the floor.",
+          "sfx_cue": "padlock opening"
+        },
+        {
+          "speaker": "morris",
+          "text": "There is grease on the wall.",
+          "sfx_cue": "door scraping concrete"
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "There is grease downstairs also. That is how a tyre shop earns money.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Clients must be able to wait outside.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "What clients? You said typing work.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Documentation. Consultations. Settlement of private disputes.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "Advocate work?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "Good. Advocates argue about rent. Typists pay it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The room needs two tables, six chairs and a raised platform.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "A platform? Are you starting a dance class?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "A dais.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "Same wood, more English.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "How much?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "Four thousand deposit. Two thousand per month. Electricity separate.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You told Irfan fifteen hundred.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "For typing. A dais costs five hundred extra because it sounds important.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Three thousand deposit. Seventeen hundred rent.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "Three thousand deposit. Two thousand rent. I will wash the grease once.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "And repair the second step.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "The step has survived twelve years. It can survive your clients.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Three thousand and five hundred deposit. Eighteen hundred rent. Today.",
+          "sfx_cue": "cash notes counted"
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "You negotiate like an advocate.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Write the receipt.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "Occupation?",
+          "sfx_cue": "pen tapping receipt book"
+        },
+        {
+          "speaker": "morris",
+          "text": "Dispute resolution.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "That is not an occupation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "It is now.",
+          "sfx_cue": "receipt torn from book"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "By noon, one carpenter had placed a second-hand dining table on a platform eight inches high.",
+          "sfx_cue": "hammering wood, hand saw scraping"
+        },
+        {
+          "speaker": "CARPENTER",
+          "text": "If you lean on the left side, the whole thing will salute you.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Brace it underneath.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "CARPENTER",
+          "text": "That costs two hundred more.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "It costs nothing if you had built it straight.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "CARPENTER",
+          "text": "Straight wood costs more than crooked wood, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Do it.",
+          "sfx_cue": "hammer strikes resume"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "At two, a sign painter carried in a black board with gold letters.",
+          "sfx_cue": "wooden signboard knocking against doorframe"
+        },
+        {
+          "speaker": "SIGN PAINTER",
+          "text": "Arbitration and Dispute Resolution Forum. Exactly as written.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The word forum is smaller than the others.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SIGN PAINTER",
+          "text": "You paid for twenty-four letters. This has thirty-seven.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "And the line below?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SIGN PAINTER",
+          "text": "Presiding Officer. That is large enough to read from the tyre shop.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Make sir smaller.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SIGN PAINTER",
+          "text": "There is no sir on the board.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I said officer. Make officer smaller.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SIGN PAINTER",
+          "text": "You said— never mind. Give me fifty rupees for correction.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Hang it straight first.",
+          "sfx_cue": "nail hammered into wall"
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "What is this board?",
+          "sfx_cue": "metal stairs creaking"
+        },
+        {
+          "speaker": "morris",
+          "text": "It states the work conducted here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "You told me typing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Documents will be typed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "Do police come for dispute resolution?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Only if tyres are sold without receipts.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "Your board is very handsome, sir. Please conduct all resolutions upstairs.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "That was the first time the owner called him sir. Morris paid the sign painter without bargaining.",
+          "sfx_cue": "cash note flicked open"
+        },
+        {
+          "speaker": "vaishali",
+          "text": "A dais? You bought a dais before buying groceries?",
+          "sfx_cue": "home door bolt sliding, steel plate set down"
+        },
+        {
+          "speaker": "morris",
+          "text": "There is rice for three days.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "vaishali",
+          "text": "There is rice. There is no oil. There is no dal. But somewhere above a tyre shop, there is a dais.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "It is an office expense.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "vaishali",
+          "text": "Say the office name properly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Arbitration and Dispute Resolution Forum.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "vaishali",
+          "text": "Who appointed you to it?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Private parties appoint an arbitrator by consent.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "vaishali",
+          "text": "Did these parties consent?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "They brought files and fees.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "vaishali",
+          "text": "That is not what I asked.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The record will reflect consent.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "vaishali",
+          "text": "What record?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The one I am creating.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "vaishali",
+          "text": "And who keeps this record?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "A clerk.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "vaishali",
+          "text": "You have a clerk now?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "I will have one tomorrow.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "vaishali",
+          "text": "With whose salary?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The forum's fees.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "vaishali",
+          "text": "Morris... look at me. Is this a court?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No. It is a lawful private forum.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "vaishali",
+          "text": "Then why does it need a dais?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Because people obey a raised table.",
+          "sfx_cue": "steel plate pushed away"
+        },
+        {
+          "speaker": "sarika",
+          "text": "Sir, I was told there is a clerk vacancy.",
+          "sfx_cue": "tyre compressor hiss, metal stairs creaking"
+        },
+        {
+          "speaker": "morris",
+          "text": "Who told you?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "The sign painter. He is my mother's neighbour. He said you paid on time.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Have you worked in an office before?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "No, sir. I finished twelfth standard. I can read English, type slowly and make tea quickly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Tea is not part of the designation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "There is a designation?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Registry clerk.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Registry... like a court registry?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Like a private forum registry.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Will I have to wear a uniform?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No. Plain clothes. Clean file work. You will maintain the register and call matters by number.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "I don't... I have never called a matter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Say, matter number one, parties to enter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Matter number one, parties to enter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Louder. People waiting near an air compressor must hear you.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Matter number one, parties to enter!",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TYRE SHOP OWNER",
+          "text": "Very respectable. Even my customers are frightened.",
+          "sfx_cue": "laughter from downstairs"
+        },
+        {
+          "speaker": "sarika",
+          "text": "What is the salary, sir?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Three thousand rupees per month. Paid on the last working day.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Three thousand... every month?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "If the register is correct.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "My father gets two thousand six hundred for night security.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Your father's salary is not before this forum.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Sorry, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Read this appointment acknowledgment. Sign at the bottom.",
+          "sfx_cue": "single paper placed on desk"
+        },
+        {
+          "speaker": "sarika",
+          "text": "It says I certify the proceedings recorded by me.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "That is standard language.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "What proceedings?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The matters you call. The appearances. The documents filed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "And if I spell something wrong?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You correct it before signing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "My mother will not believe this. Nobody in our family has had a desk job.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Then give her something respectable to believe.",
+          "sfx_cue": "pen scratching signature"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "At four thirty, Sarika opened a new register. Morris wrote one on the first page and two on the second.",
+          "sfx_cue": "thick ledger opening, pages turning"
+        },
+        {
+          "speaker": "sarika",
+          "text": "Matter number one, parties to enter!",
+          "sfx_cue": "door opening, tyre shop noise beneath"
+        },
+        {
+          "speaker": "FIRST MAN",
+          "text": "Do I stand or sit?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Sit. Place the sale receipt on record.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "FIRST MAN",
+          "text": "There was no receipt. My brother took cash.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Then how do you know the machines were sold?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "FIRST MAN",
+          "text": "The shop is empty.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Sarika, record that the machines are absent from the shared premises.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Absent from shared premises.",
+          "sfx_cue": "pen writing in ledger"
+        },
+        {
+          "speaker": "FIRST MAN",
+          "text": "Sir, will you stop him selling the shop also?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "First, the other party receives notice. Then the other party speaks.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "FIRST MAN",
+          "text": "What if he refuses to come?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Then his refusal enters the record before he does.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "FIRST MAN",
+          "text": "Yes, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Matter number two, parties to enter!",
+          "sfx_cue": "chair legs scraping floor"
+        },
+        {
+          "speaker": "SECOND MAN",
+          "text": "Only I have come. My employer sent nobody.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Did your employer receive written demand?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SECOND MAN",
+          "text": "Three letters. He tore one in front of me.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You will file copies of the other two.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SECOND MAN",
+          "text": "Will you order payment today?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "No.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SECOND MAN",
+          "text": "I was told this is fast.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Fast is not the same as foolish. Notice in three days. Reply in seven. Hearing on the eighth day.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SECOND MAN",
+          "text": "And if he pays before then?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "You inform the registry. The matter closes.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "The registry means me?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "The registry means the office. You are its clerk.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "Yes, sir. Sorry, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SECOND MAN",
+          "text": "How much filing fee?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Five hundred rupees. Sarika will issue the receipt.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "I issue receipts also?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "From today.",
+          "sfx_cue": "receipt book placed beside ledger"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "At five ten, both men left carrying numbered notices. Sarika remained behind, tracing the gold letters on the nameplate with one finger.",
+          "sfx_cue": "metal stairs descending, room door settling"
+        },
+        {
+          "speaker": "sarika",
+          "text": "Sir, should I lock the register in a cupboard?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Tomorrow. We will purchase one with the next filing fee.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "sarika",
+          "text": "And if somebody comes without an appointment?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "morris",
+          "text": "Nobody knows this address yet.",
+          "sfx_cue": "three hard knocks on door"
+        },
+        {
+          "speaker": "sarika",
+          "text": "The two matters are finished for today.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "STRANGER",
+          "text": "I am not one of the two.",
+          "sfx_cue": "door opening without permission"
+        },
+        {
+          "speaker": "STRANGER",
+          "text": "I need the presiding officer.",
+          "sfx_cue": "heavy file dropped on registry desk"
+        }
+      ]
+    }
+  ],
+  "beat_sheet": [
+    {
+      "beat_id": "b001",
+      "ep": 1,
+      "seq": 1,
+      "world_time": "2022-11",
+      "location": "court chamber",
+      "present": [
+        "morris"
+      ],
+      "witnessed_by": [
+        "morris"
+      ],
+      "hidden_from": [
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Fifteen years after being struck off, Morris typed another man's order and was sent out of the chamber to wait.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "He is publicly reduced from legal professional to paid typist.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b002",
+      "ep": 1,
+      "seq": 2,
+      "world_time": "2022-11",
+      "location": "court corridor",
+      "present": [
+        "morris",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "morris",
+        "irfan"
+      ],
+      "hidden_from": [
+        "hardik"
+      ],
+      "what_happened": "Irfan mistook Morris for an official who could hear his urgent housing dispute, and Morris examined the file without correcting him.",
+      "state_changes": [
+        {
+          "entity": "irfan",
+          "fact": "He believes Morris has authority to hear urgent matters.",
+          "valence": 2
+        },
+        {
+          "entity": "morris",
+          "fact": "He experiences public deference for the first time in years.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b003",
+      "ep": 1,
+      "seq": 3,
+      "world_time": "2022-11",
+      "location": "court corridor",
+      "present": [
+        "morris",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "morris",
+        "irfan"
+      ],
+      "hidden_from": [
+        "vaishali",
+        "tejas",
+        "hardik"
+      ],
+      "what_happened": "Irfan touched Morris's feet and asked him to hear the case.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "He is directly invited to exercise judicial authority again.",
+          "valence": 4
+        },
+        {
+          "entity": "irfan",
+          "fact": "He places his mother's housing dispute in Morris's hands.",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b004",
+      "ep": 2,
+      "seq": 1,
+      "world_time": "2022-11",
+      "location": "court copying room",
+      "present": [
+        "morris",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "morris",
+        "irfan"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Morris called his intervention advice, typed a direction in judicial form and signed it as presiding officer.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "He creates his first signed direction for a private litigant.",
+          "valence": 3
+        },
+        {
+          "entity": "irfan",
+          "fact": "He receives a paper intended to compel restoration of the room.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b005",
+      "ep": 2,
+      "seq": 2,
+      "world_time": "2022-11",
+      "location": "hardware shop",
+      "present": [
+        "irfan"
+      ],
+      "witnessed_by": [
+        "irfan"
+      ],
+      "hidden_from": [
+        "hardik"
+      ],
+      "what_happened": "Irfan presented Morris's signed page, and the landlord restored the key and paid six thousand rupees without court proceedings.",
+      "state_changes": [
+        {
+          "entity": "irfan",
+          "fact": "His mother regains access and the full advance payment.",
+          "valence": 5
+        },
+        {
+          "entity": "Morris's first direction",
+          "fact": "It produces voluntary compliance despite lacking a seal or case number.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b006",
+      "ep": 2,
+      "seq": 3,
+      "world_time": "2022-11",
+      "location": "unknown file storage",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "morris",
+        "hardik"
+      ],
+      "what_happened": "A copy of Morris's first signed direction remained preserved with the housing papers after payment.",
+      "state_changes": [
+        {
+          "entity": "Morris's first direction",
+          "fact": "A discoverable copy survives after the dispute is resolved.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "No cast character observes where the retained copy is stored, leaving its future chain of discovery open."
+    },
+    {
+      "beat_id": "b007",
+      "ep": 2,
+      "seq": 4,
+      "world_time": "2022-11",
+      "location": "court canteen",
+      "present": [
+        "morris",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "morris",
+        "irfan"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Irfan returned to Morris with two more men, their files and their fees.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "His one intervention becomes a potential paid practice.",
+          "valence": 4
+        },
+        {
+          "entity": "irfan",
+          "fact": "He becomes the source of Morris's first referrals.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b008",
+      "ep": 3,
+      "seq": 1,
+      "world_time": "2022-11",
+      "location": "court canteen and room above tyre shop",
+      "present": [
+        "morris",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "morris",
+        "irfan"
+      ],
+      "hidden_from": [
+        "hardik",
+        "tejas"
+      ],
+      "what_happened": "Morris accepted the two referrals and used their fees to rent a room above a tyre shop.",
+      "state_changes": [
+        {
+          "entity": "morris",
+          "fact": "He acquires a dedicated location for hearing disputes.",
+          "valence": 4
+        },
+        {
+          "entity": "the forum room",
+          "fact": "A private rented room becomes the base of the operation.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b009",
+      "ep": 3,
+      "seq": 2,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris"
+      ],
+      "witnessed_by": [
+        "morris"
+      ],
+      "hidden_from": [
+        "hardik"
+      ],
+      "what_happened": "Morris installed an eight-inch dais and a nameplate identifying an arbitration and dispute resolution forum with a presiding officer.",
+      "state_changes": [
+        {
+          "entity": "the forum room",
+          "fact": "It gains the visible furniture and signage of an adjudicatory office.",
+          "valence": 3
+        },
+        {
+          "entity": "morris",
+          "fact": "He is publicly addressed as sir by the property owner.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b010",
+      "ep": 3,
+      "seq": 3,
+      "world_time": "2022-11",
+      "location": "family home",
+      "present": [
+        "morris",
+        "vaishali"
+      ],
+      "witnessed_by": [
+        "morris",
+        "vaishali"
+      ],
+      "hidden_from": [
+        "tejas"
+      ],
+      "what_happened": "Vaishali questioned who appointed Morris, and he said private parties would appoint an arbitrator by consent.",
+      "state_changes": [
+        {
+          "entity": "vaishali",
+          "fact": "She knows Morris has opened a private dispute forum with a dais.",
+          "valence": -2
+        },
+        {
+          "entity": "morris",
+          "fact": "He states that the record he creates will reflect party consent.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b011",
+      "ep": 3,
+      "seq": 4,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "Morris hired Sarika for three thousand rupees per month, designated her registry clerk and obtained her signature certifying proceedings recorded by her.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "She begins her first office job as registry clerk.",
+          "valence": 5
+        },
+        {
+          "entity": "sarika",
+          "fact": "Her signature is attached to certification language she does not fully understand.",
+          "valence": -3
+        },
+        {
+          "entity": "morris",
+          "fact": "He gains a clerk who can make the room function like a formal forum.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b012",
+      "ep": 3,
+      "seq": 5,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "present": [
+        "morris",
+        "sarika"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika"
+      ],
+      "hidden_from": [
+        "hardik",
+        "vaishali",
+        "tejas"
+      ],
+      "what_happened": "After Morris conducted the first two numbered matters, an unknown stranger entered unannounced and placed a heavy file on Sarika's desk.",
+      "state_changes": [
+        {
+          "entity": "the forum room",
+          "fact": "It begins attracting litigants beyond Irfan's direct referrals.",
+          "valence": 4
+        },
+        {
+          "entity": "morris",
+          "fact": "His operation receives its first unsolicited matter.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    }
+  ],
+  "promise_ledger": [
+    {
+      "id": "p001",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "whether Morris will act on Irfan's plea to hear the housing case",
+      "must_pay_by_ep": 2,
+      "paid_ep": 2,
+      "how_paid": "Morris typed and signed a direction restoring access to the room.",
+      "status": "paid"
+    },
+    {
+      "id": "p002",
+      "raised_ep": 2,
+      "listener_is_waiting_for": "whether anyone will obey Morris's unsigned-looking page without a real court proceeding",
+      "must_pay_by_ep": 4,
+      "paid_ep": 2,
+      "how_paid": "The landlord returned the key and paid all six thousand rupees after reading it.",
+      "status": "paid"
+    },
+    {
+      "id": "p003",
+      "raised_ep": 2,
+      "listener_is_waiting_for": "whether Morris will accept the two new men and turn the intervention into paid work",
+      "must_pay_by_ep": 3,
+      "paid_ep": 3,
+      "how_paid": "He accepted their matters, rented a room and conducted numbered proceedings.",
+      "status": "paid"
+    },
+    {
+      "id": "p004",
+      "raised_ep": 3,
+      "listener_is_waiting_for": "what Sarika's certification signature makes her responsible for",
+      "must_pay_by_ep": 8,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p005",
+      "raised_ep": 3,
+      "listener_is_waiting_for": "who the unannounced stranger is and what matter is inside the heavy file",
+      "must_pay_by_ep": 4,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p006",
+      "raised_ep": 3,
+      "listener_is_waiting_for": "whether a ruling issued from the room above the tyre shop will actually hold",
+      "must_pay_by_ep": 4,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    }
+  ],
+  "calendar": {
+    "season_start": "2022-11",
+    "dates_fixed": [],
+    "periods_fixed": [
+      {
+        "between": [
+          1,
+          3
+        ],
+        "elapsed": "five days"
+      }
+    ],
+    "unresolved": []
+  },
+  "flags": []
+}
