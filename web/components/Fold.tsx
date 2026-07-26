@@ -44,3 +44,36 @@ export function Fold({
     </details>
   );
 }
+
+/**
+ * Several folds under one heading, at the foot of a screen.
+ *
+ * `ReferenceGroup` on the season screen is the same arrangement and the same
+ * argument: everything a producer looks up rather than reads goes behind one
+ * heading and one click each. It is not imported because its standing text is
+ * about a season's sources, and because that file belongs to the season
+ * redesign — the heading it uses is passed in here instead, so the two screens
+ * still call the idea by one name.
+ *
+ * The point is the heading count. Four folds loose in the page read as four
+ * sections; four folds inside this read as one place to look things up.
+ */
+export function FoldGroup({
+  title,
+  explained,
+  children,
+}: {
+  title: string;
+  explained: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <section className="mt-16 border-t border-rule-strong pt-6">
+      <h2 className="label">{title}</h2>
+      <p className="mt-3 text-sm text-muted leading-relaxed prose-col">
+        {explained}
+      </p>
+      <div className="mt-6">{children}</div>
+    </section>
+  );
+}

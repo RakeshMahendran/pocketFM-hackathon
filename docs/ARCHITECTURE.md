@@ -104,6 +104,37 @@ line's own level in the mix. It still masters to spec and sounds dead, so
 `src/audio/tag.py` does the same job as a one-shot call, kept for seasons written
 before the director existed.
 
+## The console does not call the API, and that is the design
+
+`web/` reads `data/` directly from server components, or shells out to
+`python -m src.publish` / `src.canon.cast` / `src.spinoff_run` / `src.audio_run`.
+There is not one `fetch()` in the frontend, and there should not be.
+
+Both processes run in one container (`start.sh`), so an HTTP hop between them
+would buy a second failure mode, a contract to keep in step and a latency cost,
+for nothing a reader would notice. A server component reading a local file is
+not a shortcut around the API; it is the shorter path to the same truth.
+
+`src/api/` exists for what is genuinely outside that container: the Databricks
+surface, and anyone reading the canon who is not this console. Its shape is
+therefore free to follow what an external caller needs rather than what a page
+happens to render.
+
+Two rules keep the split from rotting, both learned by watching it rot:
+
+- **Everything is under `/api/`.** Three endpoints were mounted at `/stories/*`
+  while `next.config.ts` proxies only `/api/:path*`, so through the one public
+  origin they answered 404 — the spin-off generator among them. Nothing noticed,
+  because nothing called them.
+- **The API answers about what it has, or 404s.** `GET /api/characters/{id}/view`
+  used to return a confident `knows: 0, blind: everything` for a name nobody in
+  the canon has, which is indistinguishable from a real character kept out of an
+  entire season. Fail-closed is right for the view; it is wrong for the lookup.
+
+The spec is served, not written by hand: `/api/openapi.json`, with Swagger at
+`/api/docs`. Both are reachable through the console's own origin, so the deployed
+app documents itself.
+
 ## Scale answer (roadmap, not built)
 
 Embeddings over beats with time-bounded retrieval (`world_time <= scene_time`

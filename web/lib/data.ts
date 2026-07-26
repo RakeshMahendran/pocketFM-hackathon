@@ -55,7 +55,34 @@ function asRecord(v: unknown): Record<string, unknown> {
 }
 
 function str(v: unknown): string | null {
-  return typeof v === "string" && v.trim() ? v.trim() : null;
+  return typeof v === "string" && v.trim() ? prose(v).trim() || null : null;
+}
+
+/**
+ * Model-written prose, as a person should read it.
+ *
+ * The scout cites its sources inline in Markdown, so four of the twenty-nine
+ * candidates carry `([timesofindia.indiatimes.com](https://…))` in the middle
+ * of their one-line pitch. It renders literally on the list and on the brief —
+ * the first screen of the demo, in the sentence that is supposed to sell the
+ * story.
+ *
+ * Stripped here rather than in a component because the same field is read by
+ * three screens, and because the citation is not lost: every source is listed
+ * in full under "Where this came from", which is where somebody checking a
+ * claim would look anyway.
+ *
+ * A bare `[label](url)` that is not a trailing citation keeps its label — the
+ * words were written to be read, only the plumbing goes.
+ */
+function prose(text: string): string {
+  return text
+    // A whole parenthesised citation appended to a sentence.
+    .replace(/\s*\(\s*\[[^\]]*\]\([^)]*\)\s*\)/g, "")
+    // Any remaining inline link keeps what it said.
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/\s+([.,;:])/g, "$1")
+    .replace(/\s{2,}/g, " ");
 }
 
 function strList(v: unknown): string[] {

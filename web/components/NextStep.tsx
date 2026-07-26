@@ -9,7 +9,7 @@ import {
   SEASON_NOTHING_WRITTEN,
   goToEpisode,
 } from "@/components/pathWords";
-import { EPISODE_LIST_ANCHOR, refusedRelease } from "@/components/ReleaseControls";
+import { episodeAnchor, refusedRelease } from "@/components/ReleaseControls";
 import type { Checks } from "@/lib/publish";
 import {
   CHECKED_EVERY_TIME,
@@ -47,6 +47,7 @@ export function NextStep({
   action,
   href,
   cost,
+  level = 2,
   children,
 }: {
   /** Defaults by tone. Override only when the screen needs a truer word. */
@@ -57,6 +58,13 @@ export function NextStep({
   href?: string;
   /** What it spends. Every next step carries one, or says it is free. */
   cost?: string | null;
+  /**
+   * Where this sits in the page's outline. A screen whose next step is about
+   * the section it stands in — the season's, which is a fact about the episode
+   * list it opens — nests under that section's heading rather than competing
+   * with it. Drawn identically either way; this is for the outline, not the eye.
+   */
+  level?: 2 | 3;
   /** The consequence, before the click. */
   children?: React.ReactNode;
 }) {
@@ -79,9 +87,11 @@ export function NextStep({
     heading ??
     (tone === "do" ? NEXT_LABEL : tone === "held" ? HELD_LABEL : ONWARD_LABEL);
 
+  const Heading = level === 3 ? "h3" : "h2";
+
   return (
     <section className={`border rounded-sm p-5 ${box}`}>
-      <h2 className={`label ${label}`}>{title}</h2>
+      <Heading className={`label ${label}`}>{title}</Heading>
 
       {children && (
         <p className="mt-3 text-[0.9375rem] text-paper leading-relaxed prose-col">
@@ -150,7 +160,7 @@ export function SeasonNextStep({
     return (
       <NextStep
         action={goToEpisode(next.ep)}
-        href={`#${EPISODE_LIST_ANCHOR}`}
+        href={`#${episodeAnchor(next.ep)}`}
         cost={RELEASE_NOT_A_PUSH}
       >
         {next.plain}
@@ -173,6 +183,24 @@ export function SeasonNextStep({
   }
 
   if (next.kind === "show-not-live") {
+    // Asked here too, and for the same reason it is asked in the `ready` branch
+    // above: a season whose checks refuse it cannot go live either, so pointing
+    // at the release controls would send a producer down the page to a wall
+    // this block had already told them was a door. `story4_family_betrayal` and
+    // `story3_revenge` both land here, and both are shows whose whole job is to
+    // demonstrate that the refusal is real.
+    //
+    // Episode 1 is what a not-live season would release first; `refusedRelease`
+    // uses the number for wording only, so asking about it is the same question
+    // as asking about the season.
+    const refused = refusedRelease(checks, 1);
+    if (refused) {
+      return (
+        <NextStep tone="held" action={refused.label} cost={CHECKED_EVERY_TIME}>
+          {refused.plain}
+        </NextStep>
+      );
+    }
     return (
       <NextStep action={SEASON_GO_LIVE.action}>{SEASON_GO_LIVE.plain}</NextStep>
     );

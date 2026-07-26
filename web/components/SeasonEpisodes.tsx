@@ -1,13 +1,24 @@
 import Link from "next/link";
 
 import { listenMinutes } from "@/components/EpisodeScript";
-import { EpisodeStanding } from "@/components/ReleaseControls";
+import {
+  EPISODE_UNWRITTEN,
+  queuePlace,
+  withoutRepeatedRules,
+} from "@/components/pathWords";
+import {
+  EpisodeStanding,
+  editorName,
+  episodeAnchor,
+  refusedRelease,
+} from "@/components/ReleaseControls";
 import { endingPhrase } from "@/components/SeasonSpine";
 import { SEASON_WORDS } from "@/components/SeasonLayout";
 import type { Checks, EpisodeRelease } from "@/lib/publish";
 import type { EpisodeRef, SpineEntry } from "@/lib/serials";
 import {
   ORDER_EXPLAINED,
+  episodeAudit,
   episodeStanding,
   heldCount,
   releaseProgress,
@@ -23,10 +34,29 @@ import {
  * could be scanned — a producer wanting to know what episode 9 ends on, or
  * whether it is out, read past a thousand words to find out.
  *
- * One row per episode. Visible without opening anything: the number, the title,
- * the kind of cliffhanger it ends on, where it stands with listeners, how long
- * it runs. Behind the fold: what turns in it, what a listener last hears, what
- * it settles — and the release control for that one episode.
+ * One row per episode, and the row has to answer the release question on its
+ * own, because scanning is the whole job here. Visible without opening
+ * anything: the number, the title, where it stands with listeners, and the
+ * thing that standing actually turns on —
+ *
+ *   out          who put it out and on what day. A decision with nobody's name
+ *                against it is not an audit trail, and the name is the only
+ *                part of this pipeline that is a person's rather than the
+ *                machine's.
+ *   ready        the label, or — if the continuity check is failing — the
+ *                refusal in its place, in the colour of a refusal.
+ *   held back    how far down the queue it is, because ten rows all reading
+ *                "Held back" and nothing else is ten rows of no information.
+ *   not written  said as that, rather than as a release state it cannot be in.
+ *
+ * Then the cliffhanger type and the running time. Behind the fold: what turns
+ * in it, what a listener last hears, what it settles — and the release control
+ * for that one episode.
+ *
+ * The season-wide rules — the order episodes go out in, and that the check runs
+ * again every time — are printed once above the list and stripped out of every
+ * row, including the hover text. Repeated down fourteen rows they buried the
+ * one line per row that differs.
  *
  * The episode that can go out next is open on arrival, because that is the one
  * decision this screen exists to support and it must not be hidden behind a
@@ -34,7 +64,7 @@ import {
  *
  * Nothing here decides anything. `EpisodeStanding` is imported whole, so the
  * buttons, the refusals and the pull warning are the same ones the episode's own
- * page shows.
+ * page shows, and `refusedRelease` is the same function it asks.
  */
 
 interface Row {
@@ -102,14 +132,23 @@ export function SeasonEpisodes({
       <ul className="mt-6 border-t border-rule">
         {all.map(({ ep, entry, written }) => {
           const standing = episodeStanding(ep, season);
-          const hook = entry ? endingPhrase(entry.hookType ?? entry.hookRaw) : null;
+          const release = byEp.get(ep) ?? null;
+          // The same question `EpisodeStanding` asks, asked here so the row a
+          // producer scans cannot read "Ready to go out" in ochre while the
+          // control inside it refuses. A refusal replaces the standing rather
+          // than sitting beside it.
+          const refused = standing.canRelease ? refusedRelease(checks, ep) : null;
+          // What the standing turns on, said on the row: the name against a
+          // release, or the wait in front of one.
           const detail = Boolean(entry?.turn || entry?.endsOn || entry?.paysOff);
+          const hook = entry ? endingPhrase(entry.hookType ?? entry.hookRaw) : null;
           const href = `/serials/${encodeURIComponent(storyId)}/${ep}`;
 
           return (
             <li
               key={ep}
-              className="border-b border-rule py-4 grid sm:grid-cols-[3.5rem_1fr] gap-x-5 gap-y-2"
+              id={episodeAnchor(ep)}
+              className="border-b border-rule py-4 grid sm:grid-cols-[3.5rem_1fr] gap-x-5 gap-y-2 scroll-mt-24"
             >
               <div className="pt-1">
                 {written ? (
@@ -141,11 +180,40 @@ export function SeasonEpisodes({
                     )}
                   </h3>
                   <span
-                    className={`label ${standing.className}`}
-                    title={standing.plain}
+                    className={`label ${refused ? "text-halt" : standing.className}`}
+                    title={withoutRepeatedRules(
+                      refused ? refused.plain : standing.plain,
+                    )}
                   >
-                    {standing.label}
+                    {refused ? refused.label : standing.label}
                   </span>
+
+                  {/* Who decided it, and when. The one fact about an episode
+                      that is a person's rather than the machine's. */}
+                  {standing.kind === "out" && release && (
+                    <span className="label">
+                      {episodeAudit({
+                        who: editorName(release.by),
+                        at: release.at,
+                      })}
+                    </span>
+                  )}
+
+                  {/* How long the wait is, for the rows whose only news is
+                      that they are waiting. */}
+                  {standing.kind === "waiting" && (
+                    <span
+                      className="label text-faint"
+                      title="How many releases come before this one."
+                    >
+                      {queuePlace(ep - season.releasedThrough)}
+                    </span>
+                  )}
+
+                  {standing.kind === "unwritten" && (
+                    <span className="label text-faint">{EPISODE_UNWRITTEN}</span>
+                  )}
+
                   {hook && (
                     <span
                       className={`label ${entry?.hookRepeats ? "text-caution" : "text-faint"}`}
@@ -222,9 +290,10 @@ export function SeasonEpisodes({
                         storyId={storyId}
                         ep={ep}
                         season={season}
-                        release={byEp.get(ep) ?? null}
+                        release={release}
                         checks={checks}
                         detailed
+                        saidAbove
                       />
                     </div>
                   </div>

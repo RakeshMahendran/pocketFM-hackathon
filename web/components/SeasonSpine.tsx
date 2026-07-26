@@ -312,7 +312,19 @@ export function SeasonSpine({
         </p>
       )}
 
-      <Ladder spine={spine} episodes={written} id={id} />
+      {/*
+        The chart, and nothing else.
+        `<Ladder>` used to follow it here, printing all fourteen episodes with
+        their turn, ending and payoff — the same three fields, with the same
+        left-rule treatment, that `SeasonEpisodes` renders below on the same
+        page. A fourteen-episode season carried 29 `<h3>`s, every title twice a
+        pixel apart in size, and five separate links to episode 1. Merging the
+        two lists was the point of `SeasonEpisodes`; only the old one was never
+        removed.
+
+        Nothing is lost: each column is a link to its episode and its `title`
+        already carries the ending, the lead's position, the turn and the payoff.
+      */}
     </div>
   );
 }

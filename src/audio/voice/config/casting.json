@@ -43,5 +43,41 @@
   },
   "evt_dharampur_2025:CONSTABLE": {
     "sarvam": "kavya"
+  },
+  "evt_dharmapur_2025:meera": {
+    "sarvam": "simran"
+  },
+  "evt_dharmapur_2025:LANDLORD": {
+    "sarvam": "sumit"
+  },
+  "evt_dharmapur_2025:kavita": {
+    "sarvam": "shruti"
+  },
+  "evt_dharmapur_2025:devraj": {
+    "sarvam": "shubh"
+  },
+  "evt_dharmapur_2025:mohan": {
+    "sarvam": "ratan"
+  },
+  "evt_dharmapur_2025:tara": {
+    "sarvam": "shreya"
+  },
+  "evt_dharmapur_2025:narrator": {
+    "sarvam": "ritu"
+  },
+  "evt_dharmapur_2025:VOICE FROM COURTYARD": {
+    "sarvam": "rahul"
+  },
+  "evt_dharmapur_2025:SECOND VOICE FROM COURTYARD": {
+    "sarvam": "priya"
+  },
+  "evt_dharmapur_2025:VOICE IN CROWD": {
+    "sarvam": "sumit"
+  },
+  "evt_dharmapur_2025:SECOND VOICE IN CROWD": {
+    "sarvam": "shreya"
+  },
+  "evt_dharmapur_2025:babulal": {
+    "sarvam": "rahul"
   }
 }

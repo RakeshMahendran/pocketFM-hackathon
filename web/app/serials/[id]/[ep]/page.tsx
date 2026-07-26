@@ -4,8 +4,10 @@ import { notFound } from "next/navigation";
 import { EpisodeAudio } from "@/components/EpisodeAudio";
 import { EpisodeScript, listenMinutes } from "@/components/EpisodeScript";
 import { NextStep } from "@/components/NextStep";
+import { Fold } from "@/components/Fold";
 import {
   FREE_CLICK,
+  SCRIPT_FOLD,
   episodeEndOfSeason,
   episodeNextOut,
 } from "@/components/pathWords";
@@ -203,9 +205,26 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
       */}
       <EpisodeAudio storyId={id} ep={n} />
 
-      <article className="mt-12 border-t border-rule pt-10">
-        <EpisodeScript body={episode.body} />
-      </article>
+      {/*
+        Folded, because it was three quarters of the page.
+        1,096 of this screen's 1,484 words were the script, so everything an
+        editor came here to check — is it out, can it go out, what does it sound
+        like — sat above a wall of dialogue they had to scroll past to leave.
+        This is an audio drama: the recording is the product and the script is
+        how it was made. One click away, never deleted.
+      */}
+      <div className="mt-12">
+        <Fold
+          title={SCRIPT_FOLD}
+          aside={`${episode.words.toLocaleString()} words · about ${listenMinutes(
+            episode.words,
+          )} min`}
+        >
+          <article className="pt-4">
+            <EpisodeScript body={episode.body} />
+          </article>
+        </Fold>
+      </div>
 
       {plan?.endsOn && (
         // Repeated at the foot on purpose: having just read the last line, the

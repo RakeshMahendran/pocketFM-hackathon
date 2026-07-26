@@ -14,20 +14,40 @@
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-mono: ui-monospace, "Cascadia Mono", "Segoe UI Mono", Consolas, monospace;
 
+  /*
+   * Contrast measured against --color-ink, not chosen by eye.
+   *
+   * This console is walked on a projector, and a projector crushes two or three
+   * stops of shadow detail into flat black. The structure of every screen here
+   * is single-edge rules rather than boxes — 889 of them — so a rule that
+   * disappears takes the entire layout with it, and fourteen episode summaries
+   * run together into one block of text.
+   */
   --color-ink: #0b0b0c;
   --color-surface: #121214;
   --color-raised: #1a1a1d;
-  --color-rule: #26262b;
-  --color-rule-strong: #3a3a42;
+  /* was #26262b — 1.31:1, invisible off a calibrated monitor */
+  --color-rule: #33333a;
+  --color-rule-strong: #4a4a54;
 
   --color-paper: #ece7dd;
   --color-muted: #a29e96;
-  --color-faint: #6b6862;
+  /* was #6b6862 — 3.54:1, failed AA, and this carries `.label`: every running
+     time, release state, audit line and fold summary in the app. */
+  --color-faint: #807c74;
 
   --color-ochre: #c8913f;
   --color-clear: #7fa66a;
-  --color-caution: #c8913f;
-  --color-halt: #b4553f;
+  /*
+   * Was byte-identical to --color-ochre, which made the console's most repeated
+   * warning colour its most repeated positive one — and left `SeasonSpine`'s
+   * legend ("Amber marks an episode ending the same way…") pointing at a colour
+   * that did not exist. Warmer and lighter, so caution reads as caution next to
+   * an ochre that means "do this".
+   */
+  --color-caution: #d9a441;
+  /* was #b4553f — 4.04:1, just under AA for text */
+  --color-halt: #c2634e;
 }
 
 html {
@@ -51,6 +71,25 @@ body {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--color-faint);
+}
+
+/**
+ * A label that does something sits one step brighter than one that does not.
+ *
+ * `.label` was doing two jobs at one weight: naming an inert field ("cast",
+ * "Where you are") and being the entire visible surface of a control — every
+ * `<summary>` on the twenty-six folds of a season page is a `.label`, and its
+ * only other cue was an 11px `▸` in the same recessed grey. At that size, on a
+ * projector, the folds did not read as things you could open.
+ *
+ * Deliberately a step in brightness rather than an underline: this design
+ * carries hierarchy in size, face and colour, and adding a fourth channel for
+ * one case would cost more than it buys.
+ */
+summary .label,
+.label a,
+a .label {
+  color: var(--color-muted);
 }
 
 /* Roughly 66 characters. Past that the eye loses its place returning. */

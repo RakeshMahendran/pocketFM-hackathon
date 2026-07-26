@@ -476,54 +476,18 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
       </div>
 
       {/*
-        Job one and job three, side by side: is this any good, and what happens
-        next with it. Both fit above the fold on a laptop, which is the point.
+        What was written and what is out, first — and the release state beside
+        it rather than above it.
+
+        The pitch used to sit here and the episode list came fourth, so a reader
+        opening a show that already exists scrolled past the argument for making
+        it to reach the thing they came for. On a commissioned season the
+        justification is reference; it now sits below the cast. The engine and
+        the score survive as one-liners in the header, because those two are
+        what an editor uses to decide whether to keep investing.
       */}
       <div className="mt-10 grid lg:grid-cols-[1fr_20rem] gap-x-14 gap-y-8 items-start">
-        <div className="space-y-10 min-w-0">
-          {s.engine && (
-            <Section title={HEADING.engine}>
-              <p className="font-serif text-lg leading-relaxed prose-col">
-                {s.engine}
-              </p>
-            </Section>
-          )}
-
-          <Section title={HEADING.sells}>
-            {s.sells ? (
-              <p className="font-serif text-lg leading-relaxed prose-col">
-                {s.sells}
-              </p>
-            ) : (
-              <p className="text-sm text-caution leading-relaxed prose-col">
-                Nobody wrote a pitch line for this one, so there is no single
-                sentence here saying what a listener is buying.
-              </p>
-            )}
-            {s.whyThisWorks && (
-              <>
-                <h3 className="label mt-6 mb-2">{SEASON_WORDS.whyItWorks}</h3>
-                <p className="text-[0.9375rem] text-muted leading-relaxed prose-col">
-                  {s.whyThisWorks}
-                </p>
-              </>
-            )}
-          </Section>
-        </div>
-
-        <aside>
-          {/* The decision this page exists to support, kept beside the pitch
-              rather than below the reference material it used to sit in. */}
-          <PublishPanel storyId={storyId} state={publishState} checks={checks} />
-        </aside>
-      </div>
-
-      {/*
-        The fourteen episodes, once. What was planned, what is written and what a
-        listener can reach today were three separate readings of the same list;
-        they are one row each now, and the summaries are behind a click.
-      */}
-      <section className="mt-16" id={EPISODE_LIST_ANCHOR}>
+        <section className="min-w-0" id={EPISODE_LIST_ANCHOR}>
         <div className="flex items-baseline justify-between gap-6 mb-4">
           <h2 className="label">{SEASON_WORDS.episodes}</h2>
           <span className="label">
@@ -560,7 +524,15 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
           releases={publishState.episodes}
           checks={checks}
         />
-      </section>
+        </section>
+
+        <aside>
+          {/* The state, beside the list it describes. It carries no release
+              control of its own — the row for each episode owns that, so there
+              is exactly one button per action on this page. */}
+          <PublishPanel storyId={storyId} state={publishState} checks={checks} />
+        </aside>
+      </div>
 
       {/*
         The hinge of the whole console. An editor has just read the season;
@@ -666,6 +638,46 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
           </>
         )}
       </section>
+
+      {/*
+        The case for the show, below the show itself.
+
+        On a season that has not been made yet this is the whole argument, and
+        it leads the candidate screen. Here it is the answer to "why did we
+        commission this", which is a question asked occasionally rather than on
+        every visit — so it keeps its own heading and its full text, and stops
+        standing between a producer and the episode list.
+      */}
+      <div className="mt-16 grid lg:grid-cols-2 gap-x-14 gap-y-10 items-start">
+        {s.engine && (
+          <Section title={HEADING.engine}>
+            <p className="font-serif text-lg leading-relaxed prose-col">
+              {s.engine}
+            </p>
+          </Section>
+        )}
+
+        <Section title={HEADING.sells}>
+          {s.sells ? (
+            <p className="font-serif text-lg leading-relaxed prose-col">
+              {s.sells}
+            </p>
+          ) : (
+            <p className="text-sm text-caution leading-relaxed prose-col">
+              Nobody wrote a pitch line for this one, so there is no single
+              sentence here saying what a listener is buying.
+            </p>
+          )}
+          {s.whyThisWorks && (
+            <>
+              <h3 className="label mt-6 mb-2">{SEASON_WORDS.whyItWorks}</h3>
+              <p className="text-[0.9375rem] text-muted leading-relaxed prose-col">
+                {s.whyThisWorks}
+              </p>
+            </>
+          )}
+        </Section>
+      </div>
 
       {/*
         Everything a producer looks up rather than reads. Same content, same

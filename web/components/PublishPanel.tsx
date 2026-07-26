@@ -1,8 +1,8 @@
 import Link from "next/link";
 
+import { goToEpisode } from "@/components/pathWords";
 import {
   EPISODE_LIST_ANCHOR,
-  ReleaseEpisode,
   editorName,
   refusedRelease,
 } from "@/components/ReleaseControls";
@@ -166,12 +166,15 @@ export function PublishPanel({
         </p>
 
         {/*
-          Python refuses a release itself, on every one, and re-runs the
-          season's fatal checks to do it. The button is withheld here only so
-          the screen does not offer something whose answer is already known —
-          and when it is withheld the refusal replaces the queue position
-          rather than sitting under it, because "Episode 4 is next" above
-          "Can't go out" is two labels arguing.
+          This panel says what the state IS; the episode row owns the act of
+          changing it. Both used to render a live "Put episode 4 out" — two
+          controls for one action on one screen, and a reader cannot tell
+          whether they are the same button. The row wins because it sits beside
+          the episode it releases, so the button is never ambiguous about which
+          one it means.
+          `next.plain` and RELEASE_NOT_A_PUSH are dropped with it: the row
+          prints both already, and a rule stated twice on one page is the thing
+          that made these screens exhausting to read.
         */}
         <div className="mt-5 border-t border-rule pt-4">
           <div className="label">{RELEASE_HEADING.next}</div>
@@ -189,21 +192,19 @@ export function PublishPanel({
               >
                 {next.label}
               </div>
-              <p className="mt-1.5 text-sm text-muted prose-col leading-relaxed">
-                {next.plain}
-              </p>
               {next.kind === "ready" && (
                 <>
-                  <ReleaseEpisode storyId={storyId} ep={next.ep} />
+                  <Link
+                    href={`#${EPISODE_LIST_ANCHOR}`}
+                    className="mt-3 inline-block border border-rule-strong px-4 py-2 text-sm rounded-sm hover:border-ochre hover:text-ochre transition-colors"
+                  >
+                    {goToEpisode(next.ep)} →
+                  </Link>
                   <Advisories checks={checks} />
                 </>
               )}
             </>
           )}
-
-          <p className="mt-4 text-xs text-faint prose-col leading-relaxed">
-            {RELEASE_NOT_A_PUSH}
-          </p>
         </div>
 
         <div className="mt-5 border-t border-rule pt-4 flex items-baseline justify-between gap-4 flex-wrap">

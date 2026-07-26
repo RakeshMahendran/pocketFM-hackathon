@@ -80,8 +80,11 @@ function Finding({ v }: { v: Violation }) {
   // check's own explanation of itself carries the detail.
   const known = named.plain !== "";
 
+  // A hairline between findings rather than one under each: `divide-y` draws
+  // the same rules with one class on the list instead of a border on every row,
+  // which is the difference between a list and a stack of boxes.
   return (
-    <li className="border-b border-rule py-4">
+    <li className="py-4">
       <div className="flex items-baseline gap-3 flex-wrap">
         <span className={`label ${sev.className}`} title={sev.plain}>
           {sev.label}
@@ -117,6 +120,25 @@ function Finding({ v }: { v: Violation }) {
         </p>
       )}
     </li>
+  );
+}
+
+/**
+ * The ruled-out suspicions, as one quoted block rather than fifteen.
+ *
+ * They used to carry a rule down the left of each line, which drew fifteen
+ * boxes for what is one list. The rule now runs down the list itself, which is
+ * what it was always describing.
+ */
+function Attempts({ attempts }: { attempts: { key: string; note: string }[] }) {
+  return (
+    <ul className="space-y-2.5 pb-4 border-l border-rule pl-4">
+      {attempts.map((a) => (
+        <li key={a.key} className="text-sm text-faint leading-relaxed prose-col">
+          {a.note}
+        </li>
+      ))}
+    </ul>
   );
 }
 
@@ -205,7 +227,7 @@ export function ContinuityVerdict({
       </div>
 
       {verdict.violations.length > 0 && (
-        <ul className="mt-6 border-t border-rule">
+        <ul className="mt-6 border-t border-rule divide-y divide-rule">
           {verdict.violations.map((v, i) => (
             <Finding key={i} v={v} />
           ))}
@@ -239,16 +261,7 @@ export function ContinuityVerdict({
             <p className="text-sm text-muted leading-relaxed pb-4 prose-col">
               {ATTEMPTS_EXPLAINED}
             </p>
-            <ul className="space-y-2.5 pb-4">
-              {attempts.map((a) => (
-                <li
-                  key={a.key}
-                  className="text-sm text-faint leading-relaxed prose-col border-l border-rule pl-4"
-                >
-                  {a.note}
-                </li>
-              ))}
-            </ul>
+            <Attempts attempts={attempts} />
           </details>
         ) : (
           <div className="mt-8">
@@ -256,16 +269,9 @@ export function ContinuityVerdict({
             <p className="text-sm text-muted leading-relaxed mt-2 prose-col">
               {ATTEMPTS_EXPLAINED}
             </p>
-            <ul className="mt-4 space-y-2.5">
-              {attempts.map((a) => (
-                <li
-                  key={a.key}
-                  className="text-sm text-faint leading-relaxed prose-col border-l border-rule pl-4"
-                >
-                  {a.note}
-                </li>
-              ))}
-            </ul>
+            <div className="mt-4">
+              <Attempts attempts={attempts} />
+            </div>
           </div>
         ))}
     </div>

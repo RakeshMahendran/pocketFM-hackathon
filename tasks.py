@@ -206,6 +206,8 @@ def cmd_spinoff_run(args) -> int:
     extra = ["--story", args.story, "--char", args.char]
     if args.anchor:
         extra += ["--anchor", args.anchor]
+    if args.replay:
+        extra += ["--replay"]
     return run_module("src.spinoff_run", extra)
 
 
@@ -407,7 +409,16 @@ def build_parser() -> argparse.ArgumentParser:
             p.add_argument("--language", default=None,
                            choices=["en", "hi-en", "hi", "ta", "ta-en"],
                            help="en, or hi-en for Hinglish")
-        elif name in ("gate1", "spinoff_run", "validate", "leak", "demo"):
+        elif name == "spinoff_run":
+            p.add_argument("--char", default=DEFAULT_CHAR, help="character id")
+            # For showing the pipeline on stage. Walks the real stages against
+            # an episode already on disk and generates nothing, so it costs
+            # nothing and returns in seconds. It refuses when there is no
+            # episode to replay rather than miming one.
+            p.add_argument("--replay", action="store_true",
+                           help="walk the stages against an episode already "
+                                "written, generating nothing")
+        elif name in ("gate1", "validate", "leak", "demo"):
             # Defaulted rather than required, like the rest of the demo path:
             # the console always supplies a character from the click, and on the
             # command line the golden path's own character is the useful default.

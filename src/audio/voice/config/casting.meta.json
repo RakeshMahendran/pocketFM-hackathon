@@ -103,5 +103,89 @@
       "voice_name": "Kavya",
       "score": 0.0
     }
+  },
+  "evt_dharmapur_2025:meera": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Simran",
+      "score": 3.0
+    }
+  },
+  "evt_dharmapur_2025:LANDLORD": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Sumit",
+      "score": 0.0
+    }
+  },
+  "evt_dharmapur_2025:kavita": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shruti",
+      "score": 3.0
+    }
+  },
+  "evt_dharmapur_2025:devraj": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shubh",
+      "score": 3.0
+    }
+  },
+  "evt_dharmapur_2025:mohan": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Ratan",
+      "score": 3.0
+    }
+  },
+  "evt_dharmapur_2025:tara": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shreya",
+      "score": 3.0
+    }
+  },
+  "evt_dharmapur_2025:narrator": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Ritu",
+      "score": 0.0
+    }
+  },
+  "evt_dharmapur_2025:VOICE FROM COURTYARD": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Rahul",
+      "score": 0.0
+    }
+  },
+  "evt_dharmapur_2025:SECOND VOICE FROM COURTYARD": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Priya",
+      "score": 0.0
+    }
+  },
+  "evt_dharmapur_2025:VOICE IN CROWD": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Sumit",
+      "score": 0.0
+    }
+  },
+  "evt_dharmapur_2025:SECOND VOICE IN CROWD": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shreya",
+      "score": 0.0
+    }
+  },
+  "evt_dharmapur_2025:babulal": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Rahul",
+      "score": 4.0
+    }
   }
 }

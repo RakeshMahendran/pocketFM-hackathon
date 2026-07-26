@@ -2,42 +2,37 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { ClearanceBadge } from "@/components/ClearanceBadge";
-import { ContinuityVerdict } from "@/components/ContinuityVerdict";
-import { EpisodeScript, listenMinutes } from "@/components/EpisodeScript";
-import { Fold } from "@/components/Fold";
+import { Fold, FoldGroup } from "@/components/Fold";
 import { KnowledgeSplit } from "@/components/KnowledgeSplit";
 import { NextStep } from "@/components/NextStep";
 import {
-  ALIGNMENT_FOLD,
+  CHARACTER_LOOKUP_EXPLAINED,
   CHARACTER_TOO_THIN,
   CHARACTER_WRITE,
-  FOLD_EXPLAINED,
+  EPISODE_ELSEWHERE,
   FREE_CLICK,
+  KNOWLEDGE_HEADING,
+  NOTHING_RECORDED,
+  NOT_WRITTEN_YET,
+  VIEWS_FOLD,
+  VIEWS_FOLD_ASIDE,
   WRITER_FOLD,
   bibleLineCount,
   characterDone,
-  crossingCount,
   momentCount,
-  scriptLength,
   stretchCount,
+  writtenCount,
 } from "@/components/pathWords";
 import { Notice } from "@/components/Notice";
-import {
-  AnchorCard,
-  ControlComparison,
-  Crossings,
-  SpinoffHeader,
-} from "@/components/SpinoffEpisode";
+import { SEASON_WORDS } from "@/components/SeasonLayout";
+import { SpinoffRow } from "@/components/SpinoffEpisode";
 import { SpinoffRunPanel } from "@/components/SpinoffRunPanel";
 import { loadSerial } from "@/lib/serials";
 import { readSpinoffRun, spinoffRunIsOffline } from "@/lib/spinoff-run";
 import {
   listSpinoffs,
   loadCharacter,
-  loadSpinoff,
   type Character,
-  type Spinoff,
-  type SpinoffListing,
 } from "@/lib/spinoffs";
 import { requireEditor } from "@/lib/session";
 import {
@@ -52,28 +47,38 @@ import {
 } from "@/lib/words";
 
 /**
- * WHAT IS OPEN AND WHAT IS FOLDED, AND WHY
+ * FIVE BLOCKS, AND WHY THERE USED TO BE THIRTEEN
  *
- * This screen rendered six thousand words, four and a half thousand of them two
- * complete scripts printed inline, and it is the screen the product is sold on.
- * A producer arriving at it needed to scroll past two full episodes to find the
- * second one's verdict.
+ * An earlier pass cut this screen from six thousand words to seven hundred, and
+ * that part worked. What it did not touch was the shape: thirteen headings, six
+ * folds and seventy-seven bordered containers for what is four ideas. Fewer
+ * words in more containers is not a simpler screen — it is the same screen with
+ * quieter boxes.
  *
- * What decides something stays open, always:
- *   - what they saw and what went on behind their back, as counts
- *   - the verdict on every episode, with both counts beside it
- *   - the constrained version against its control, and the findings the control
- *     picked up — that pair IS the guarantee, and it is not foldable
+ * What it is now, top to bottom:
  *
- * What is looked up rather than read stays, one click away:
- *   - the script
- *   - the moment in the main show the episode is built on, and the crossings
- *   - the ledger of where they were while the season looked elsewhere
- *   - everything the season records them being there for
- *   - what the check tried and ruled out
+ *   1. who they are          — name, what they are in the season, what they want
+ *   2. what they know and don't — the two counts, and one sentence
+ *   3. their episodes        — one row each: verdict, both counts, what was
+ *                              caught, and a link to the episode's own page
+ *   4. look something up     — the writer's brief, the moment list, the ledger,
+ *                              and the definitions of the two counts
+ *   5. where to go from here
  *
- * Nothing is deleted. `FOLD_EXPLAINED` says so on the screen, because a reader
- * who suspects something was cut trusts the rest of it less.
+ * Three headings became one fold. "Was there for", "Never found out about" and
+ * "Nobody wrote down where they were" each carried a paragraph explaining a
+ * number that had already said it; all three sentences are still on the screen,
+ * one click into block four.
+ *
+ * Four more headings left with the episode body. The script, the moment it
+ * starts from, the crossing points and the control comparison now render at
+ * `/serials/[id]/cast/[char]/[anchor]` — per episode, because a character can
+ * have several and Ratnamma has two.
+ *
+ * What is never allowed to move behind a click: the verdict on every episode,
+ * its two counts, both halves of a constrained-against-control pair, and the
+ * beat and the line a failing check named. That is the product claim, and a
+ * claim behind a fold is a claim nobody read.
  */
 
 export const dynamic = "force-dynamic";
@@ -86,276 +91,150 @@ export const dynamic = "force-dynamic";
  */
 const REFRESH_SECONDS = 5;
 
+/** Where the writing controls are, so the next step can walk somebody to them. */
+const EPISODES_ANCHOR = "their-own-episode";
+
 /**
- * One side character, and the show made out of what they were never told.
+ * The three views, said once, one click away from the two numbers they define.
  *
- * The click that gets here is the product claim: a name in a finished season,
- * opened, turns out to have an episode of its own with a continuity verdict
- * attached. So the page answers three questions in order — who is this, what
- * don't they know, and can what was written for them go out.
- *
- * Everything a spin-off writes back is `branch_canon`. Nothing on this screen
- * is allowed to suggest it changes a word of the season it came from.
+ * These were three headings and three paragraphs standing between the counts
+ * and everything else on the screen. The counts are what an editor reads; the
+ * definitions are what somebody meeting the idea for the first time reads, and
+ * that is a different visit.
  */
-
-function Section({
-  title,
-  aside,
-  children,
-}: {
-  title: string;
-  aside?: React.ReactNode;
-  children: React.ReactNode;
-}) {
+function ViewsFold() {
+  const views = [CHARACTER_VIEW.knows, CHARACTER_VIEW.blind, CHARACTER_VIEW.gaps];
   return (
-    <section className="border-t border-rule pt-6">
-      <div className="flex items-baseline justify-between gap-6 mb-4">
-        <h2 className="label">{title}</h2>
-        {aside && <span className="label">{aside}</span>}
-      </div>
-      {children}
-    </section>
+    <Fold title={VIEWS_FOLD} aside={VIEWS_FOLD_ASIDE}>
+      <dl className="divide-y divide-rule">
+        {views.map((v) => (
+          <div key={v.label} className="py-4 first:pt-0">
+            <dt className="label">{v.label}</dt>
+            <dd className="text-sm text-muted leading-relaxed mt-2 prose-col">
+              {v.plain}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </Fold>
   );
 }
 
-/** What promotion produced, minus the fields that are only meaningful in code. */
-function Brief({ character }: { character: Character }) {
+/**
+ * Everything promotion wrote down, behind one heading with one click each.
+ *
+ * The pitch is not here — it is one sentence saying who this person is as a
+ * lead, and it belongs with their name. What is here is the four hundred words
+ * of prose underneath it, which is a writer's input rather than a reader's, and
+ * the two raw lists: what the season records them being there for, and what
+ * they were doing while it looked elsewhere.
+ */
+function LookUp({ character }: { character: Character }) {
   const held = character.bible;
-  if (!held) {
-    return (
-      <Section title={BIBLE.label}>
-        <p className="text-sm text-muted leading-relaxed prose-col">
-          {PROMOTION.plain}
-        </p>
-        <p className="text-sm text-caution leading-relaxed mt-4 prose-col">
-          It has not been run for this character, so there is no brief to read
-          and nothing for a writer to work from yet.
-        </p>
-      </Section>
-    );
-  }
-
-  const b = held.bible;
-  const lines: [string, string | null][] = [
-    [SPINOFF_HEADING.want, b.want],
-    ["What it cost them", b.wound],
-    [SPINOFF_HEADING.voice, b.voice],
-    ["Why their show won’t run out of story", b.engine],
-    ["What their show is about instead", b.reframe],
-  ];
+  const b = held?.bible ?? null;
+  const lines: [string, string | null][] = b
+    ? [
+        [SPINOFF_HEADING.want, b.want],
+        ["What it cost them", b.wound],
+        [SPINOFF_HEADING.voice, b.voice],
+        ["Why their show won’t run out of story", b.engine],
+        ["What their show is about instead", b.reframe],
+      ]
+    : [];
   const filled = lines.filter((l): l is [string, string] => Boolean(l[1]));
+  const ledger = b?.offscreenLedger ?? [];
 
   return (
-    <Section title={BIBLE.label} aside={b.genre ?? undefined}>
-      <p className="text-sm text-muted leading-relaxed prose-col">
-        {BIBLE.plain}
-      </p>
+    <FoldGroup
+      title={SEASON_WORDS.reference}
+      explained={CHARACTER_LOOKUP_EXPLAINED}
+    >
+      <ViewsFold />
 
-      {b.pitch && (
-        <p className="font-serif text-2xl leading-snug mt-6 prose-col text-paper">
-          {b.pitch}
-        </p>
-      )}
-
-      {/* The pitch above is what a commissioner reads; these five are what a
-          writer works from, and they run to four hundred words of prose the
-          screen was printing before anybody had decided to make the thing. */}
-      <div className="mt-8">
-        <Fold title={WRITER_FOLD} aside={bibleLineCount(filled.length)}>
-          <dl className="border-t border-rule">
-            {filled.map(([label, value]) => (
-              <div key={label} className="border-b border-rule py-4">
-                <dt className="label">{label}</dt>
-                <dd className="text-[0.9375rem] text-muted leading-relaxed mt-2 prose-col">
-                  {value}
-                </dd>
-              </div>
-            ))}
-          </dl>
+      {/* No bible at all is a normal state, not a fault — nobody has paid for
+          the one expensive call yet. Said in the same place the brief would
+          have been, so a reader looking for it finds out why it is not there. */}
+      {!held ? (
+        <Fold title={BIBLE.label} aside={NOT_WRITTEN_YET}>
+          <p className="text-sm text-muted leading-relaxed prose-col">
+            {PROMOTION.plain}
+          </p>
+          <p className="text-sm text-caution leading-relaxed mt-4 prose-col">
+            It has not been run for this character, so there is no brief to read
+            and nothing for a writer to work from yet.
+          </p>
         </Fold>
-      </div>
-
-      {/* The constraint set, in full. It is the writer's input rather than the
-          reader's — the counts above already say how much of it there is. */}
-      {held.facts.length > 0 && (
-        <div className="mt-8">
-          <Fold
-            title="Everything the season records them being there for"
-            aside={momentCount(held.facts.length)}
-          >
-            <ul className="border-t border-rule">
-              {held.facts.map((f, i) => (
-                <li
-                  key={i}
-                  className="border-b border-rule py-3 text-sm text-muted leading-relaxed prose-col"
-                >
-                  {f}
-                </li>
+      ) : (
+        <>
+          <Fold title={WRITER_FOLD} aside={bibleLineCount(filled.length)}>
+            <p className="text-sm text-muted leading-relaxed prose-col mb-4">
+              {BIBLE.plain}
+            </p>
+            <dl className="divide-y divide-rule border-t border-rule">
+              {filled.map(([label, value]) => (
+                <div key={label} className="py-4">
+                  <dt className="label">{label}</dt>
+                  <dd className="text-[0.9375rem] text-muted leading-relaxed mt-2 prose-col">
+                    {value}
+                  </dd>
+                </div>
               ))}
-            </ul>
+            </dl>
           </Fold>
-        </div>
-      )}
-    </Section>
-  );
-}
 
-/** knows / blind / gaps, said as three things an editor can act on. */
-function ThreeViews({ character }: { character: Character }) {
-  const ledger = character.bible?.bible.offscreenLedger ?? [];
+          {/* The constraint set, in full. The writer's input rather than the
+              reader's — the count on the closed line already says how much of
+              it there is. */}
+          {held.facts.length > 0 && (
+            <Fold
+              title="Everything the season records them being there for"
+              aside={momentCount(held.facts.length)}
+            >
+              <ul className="divide-y divide-rule border-t border-rule">
+                {held.facts.map((f, i) => (
+                  <li
+                    key={i}
+                    className="py-3 text-sm text-muted leading-relaxed prose-col"
+                  >
+                    {f}
+                  </li>
+                ))}
+              </ul>
+            </Fold>
+          )}
 
-  return (
-    <Section title="What this character knows">
-      <KnowledgeSplit
-        witnessed={character.witnessed}
-        blind={character.blind}
-        size="lg"
-        explain
-      />
-
-      <div className="mt-10 grid md:grid-cols-3 gap-x-10 gap-y-8">
-        <div>
-          <h3 className="label text-ochre">{CHARACTER_VIEW.knows.label}</h3>
-          <p className="text-sm text-muted leading-relaxed mt-2">
-            {CHARACTER_VIEW.knows.plain}
-          </p>
-        </div>
-        <div>
-          <h3 className="label">{CHARACTER_VIEW.blind.label}</h3>
-          <p className="text-sm text-muted leading-relaxed mt-2">
-            {CHARACTER_VIEW.blind.plain}
-          </p>
-        </div>
-        <div>
-          <h3 className="label">{CHARACTER_VIEW.gaps.label}</h3>
-          <p className="text-sm text-muted leading-relaxed mt-2">
-            {CHARACTER_VIEW.gaps.plain}
-          </p>
-        </div>
-      </div>
-
-      {/* The offscreen ledger IS the gaps, filled in — the one part of the
-          brief that is about the runs of the season this person is absent
-          from, which is where a spin-off is free to invent. */}
-      {ledger.length > 0 && (
-        <div className="mt-10">
+          {/* The offscreen ledger IS the gaps, filled in — the runs of the
+              season this person is absent from, which is where a spin-off is
+              free to invent. Shown even when it is empty, because "nobody wrote
+              this down" is itself the answer to the question somebody opened
+              this expecting to find. */}
           <Fold
             title="Where they were while the main show looked elsewhere"
-            aside={stretchCount(ledger.length)}
+            aside={ledger.length ? stretchCount(ledger.length) : NOTHING_RECORDED}
           >
-            <ul className="border-t border-rule">
-              {ledger.map((w, i) => (
-                <li key={i} className="border-b border-rule py-4">
-                  {w.window && <span className="label">{w.window}</span>}
-                  {w.what && (
-                    <p className="text-[0.9375rem] text-muted leading-relaxed mt-2 prose-col">
-                      {w.what}
-                    </p>
-                  )}
-                </li>
-              ))}
-            </ul>
+            {ledger.length === 0 ? (
+              <p className="text-sm text-faint leading-relaxed prose-col">
+                Nothing was written down about where this character was during
+                the stretches they do not appear in.
+              </p>
+            ) : (
+              <ul className="divide-y divide-rule border-t border-rule">
+                {ledger.map((w, i) => (
+                  <li key={i} className="py-4">
+                    {w.window && <span className="label">{w.window}</span>}
+                    {w.what && (
+                      <p className="text-[0.9375rem] text-muted leading-relaxed mt-2 prose-col">
+                        {w.what}
+                      </p>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            )}
           </Fold>
-        </div>
+        </>
       )}
-
-      {ledger.length === 0 && character.bible && (
-        <p className="text-sm text-faint leading-relaxed mt-8 prose-col">
-          Nothing was written down about where this character was during the
-          stretches they do not appear in.
-        </p>
-      )}
-    </Section>
-  );
-}
-
-/**
- * One episode. The verdict and the control pair are open; the rest is one click.
- *
- * The order is the order a producer asks in — what is this, can it go out, does
- * the guarantee hold — and then, only for whoever wants it, how it is pinned to
- * the main show and the script itself. Six section headings became two folds.
- */
-function Episode({ spinoff }: { spinoff: Spinoff }) {
-  return (
-    <article className="mt-16 border-t-2 border-rule-strong pt-10">
-      <SpinoffHeader run={spinoff} />
-
-      <div className="border-t border-rule pt-6 mt-10">
-        <ContinuityVerdict verdict={spinoff.verdict} />
-      </div>
-
-      <div className="mt-10">
-        <ControlComparison spinoff={spinoff} />
-      </div>
-
-      <p className="mt-10 text-xs text-faint leading-relaxed prose-col">
-        {FOLD_EXPLAINED}
-      </p>
-
-      <div className="mt-3">
-        <Fold
-          title={ALIGNMENT_FOLD}
-          aside={crossingCount(spinoff.crossings.length)}
-        >
-          <div className="space-y-10">
-            <AnchorCard anchor={spinoff.anchor} beatId={spinoff.anchorBeatId} />
-            <Crossings crossings={spinoff.crossings} />
-          </div>
-        </Fold>
-
-        {/* `EpisodeScript` directly rather than `SpinoffScript`, which carries a
-            heading of its own — inside a fold that would print "The episode"
-            twice on the same line's worth of screen. */}
-        <Fold
-          title={SPINOFF_HEADING.script}
-          aside={scriptLength(listenMinutes(spinoff.words), spinoff.words)}
-        >
-          {spinoff.script ? (
-            <EpisodeScript body={spinoff.script} />
-          ) : (
-            <p className="text-sm text-caution leading-relaxed prose-col">
-              The script for this episode is missing from the file.
-            </p>
-          )}
-        </Fold>
-      </div>
-    </article>
-  );
-}
-
-/**
- * A run whose file could not be read back in full. It is still on disk and the
- * console still lists it, because a file the screen never mentions is worse
- * than a row that says it is unreadable.
- */
-function Unreadable({ listing }: { listing: SpinoffListing }) {
-  return (
-    <article className="mt-16 border-t-2 border-rule-strong pt-10">
-      <SpinoffHeader run={listing} />
-      <div className="mt-8">
-        <Notice tone="warn">
-          The rest of this episode could not be read back, so there is no script
-          and no verdict to show for it.
-        </Notice>
-      </div>
-    </article>
-  );
-}
-
-/**
- * A control version with no episode beside it — somebody generated the
- * unconstrained twin and not the real one. Listed, and labelled as what it is,
- * so it can never be mistaken for something meant to go out.
- */
-function ControlOnly({ listing }: { listing: SpinoffListing }) {
-  return (
-    <article className="mt-16 border-t-2 border-rule-strong pt-10 space-y-10">
-      <SpinoffHeader run={listing} />
-      <div className="border-t border-rule pt-6">
-        <ContinuityVerdict verdict={listing.verdict} />
-      </div>
-    </article>
+    </FoldGroup>
   );
 }
 
@@ -393,31 +272,37 @@ export default async function CharacterPage(
   const fromSeason = serial?.cast.find((c) => c.id === charId) ?? null;
   if (!character && !fromSeason) notFound();
 
-  // Only a constrained run has a full body worth loading; a listing that is
-  // itself a control twin has no episode file of its own to open.
+  // `listSpinoffs` has already ordered these: within one character, the pair
+  // that proves something — a clean constrained arm against a failing control —
+  // comes before a pair where both came out level. Filtering preserves that,
+  // and re-sorting here would quietly overrule an editorial judgement made in
+  // the loader for a good reason.
   const mine = listings.filter((l) => l.charId === charId);
-  const loaded = await Promise.all(
-    mine.map(async (l) => ({
-      listing: l,
-      spinoff: l.constrained
-        ? await loadSpinoff(storyId, charId, l.anchorBeatId)
-        : null,
-    })),
-  );
 
   const name = character?.name ?? fromSeason?.name ?? charId;
   const role = character?.role ?? fromSeason?.role ?? null;
   const want = character?.want ?? fromSeason?.want ?? null;
+  const pitch = character?.bible?.bible.pitch ?? null;
   const standing = character ? rosterStanding(character) : null;
   const castHref = `/serials/${encodeURIComponent(storyId)}/cast`;
+  const episodeHref = (anchorBeatId: string) =>
+    `${castHref}/${encodeURIComponent(charId)}/${encodeURIComponent(anchorBeatId)}`;
 
   // The end of the path. A spin-off that has been written and cleared is the
   // whole product claim discharged, and until now the screen simply stopped
   // there — the last thing on it was the closing line of a script.
-  const written = mine.filter((l) => l.constrained).length;
+  const constrained = mine.filter((l) => l.constrained);
+  const written = constrained.length;
+  // Read off the verdicts rather than assumed. The closing line used to claim
+  // the episode contradicted nothing whatever the check had found, so a page
+  // could carry "1 contradiction — it cannot go out as written" and
+  // "contradicting none of it" at the same time.
   const doneWords = characterDone({
     name,
     showTitle: serial?.title ?? name,
+    clean: constrained.every(
+      (l) => l.verdict.status === "clean" && l.verdict.errorCount === 0,
+    ),
   });
 
   return (
@@ -442,6 +327,9 @@ export default async function CharacterPage(
         )}
       </div>
 
+      {/* BLOCK ONE — who they are. The pitch joins it: one sentence saying who
+          this person is as a lead is identity, not reference, and it was the
+          only part of the brief worth reading before deciding anything. */}
       <header className="mt-6">
         <div className="flex items-center gap-3 flex-wrap">
           {character?.bible?.clearance && (
@@ -479,6 +367,12 @@ export default async function CharacterPage(
           </p>
         )}
 
+        {pitch && (
+          <p className="mt-6 font-serif text-2xl leading-snug prose-col text-paper">
+            {pitch}
+          </p>
+        )}
+
         {standing && (
           <p className="mt-4 text-sm text-muted leading-relaxed prose-col">
             {standing.why}
@@ -496,41 +390,46 @@ export default async function CharacterPage(
         </div>
       )}
 
-      {/* The one next thing, before the two long sections rather than after
-          them. Where the run panel is the move, this names it and walks the
-          reader down to it — it never carries a second control, because the
-          panel's own button is the one that spends the money and says so. */}
-      {character && written === 0 && (
+      {/* The one next thing, before the long blocks rather than after them.
+          Where the run panel is the move, this names it and walks the reader
+          down to it — it never carries a second control, because the panel's
+          own button is the one that spends the money and says so.
+
+          Only the move. A character the pipeline would refuse has no move, and
+          their way out belongs at the foot of the page with everybody else's
+          rather than at the top pre-empting a screen nobody has read yet. */}
+      {character && written === 0 && character.promotable && (
         <div className="mt-10 max-w-2xl">
-          {character.promotable ? (
-            <NextStep action={CHARACTER_WRITE.action} href="#their-own-episode">
-              {CHARACTER_WRITE.plain}
-            </NextStep>
-          ) : (
-            // Python's judgement, not a second one taken here. No control is
-            // offered, because the run panel below will refuse this anyway.
-            <NextStep
-              tone="onward"
-              action={CHARACTER_TOO_THIN.action}
-              href={castHref}
-              cost={FREE_CLICK}
-            >
-              {CHARACTER_TOO_THIN.plain}
-            </NextStep>
-          )}
+          <NextStep action={CHARACTER_WRITE.action} href={`#${EPISODES_ANCHOR}`}>
+            {CHARACTER_WRITE.plain}
+          </NextStep>
         </div>
       )}
 
-      <div className="mt-12 space-y-12">
-        {character && <ThreeViews character={character} />}
-        {character && <Brief character={character} />}
-      </div>
+      {/* BLOCK TWO — the two counts, and the one sentence that says what they
+          are. It used to be this plus three headings and three paragraphs
+          teaching a reader what the numbers had already told them. */}
+      {character && (
+        <section className="mt-12 border-t border-rule pt-6">
+          <h2 className="label mb-4">{KNOWLEDGE_HEADING}</h2>
+          <KnowledgeSplit
+            witnessed={character.witnessed}
+            blind={character.blind}
+            size="lg"
+            explain
+          />
+        </section>
+      )}
 
-      <div className="mt-16" id="their-own-episode">
+      {/* BLOCK THREE — their episodes, and the control that writes another. */}
+      <section className="mt-16" id={EPISODES_ANCHOR}>
         <div className="flex items-baseline justify-between gap-6 flex-wrap">
           <h2 className="font-serif text-3xl tracking-tight">{SPINOFF_TITLE}</h2>
-          <span className="label" title={CANON_TIER.branch_canon.plain}>
-            {CANON_TIER.branch_canon.label}
+          <span className="flex items-baseline gap-4 flex-wrap justify-end label">
+            {written > 0 && <span>{writtenCount(written)}</span>}
+            <span title={CANON_TIER.branch_canon.plain}>
+              {CANON_TIER.branch_canon.label}
+            </span>
           </span>
         </div>
 
@@ -541,7 +440,7 @@ export default async function CharacterPage(
           {CANON_TIER.branch_canon.plain} {CANON_TIER.core_canon.plain}
         </p>
 
-        {loaded.length === 0 && (
+        {mine.length === 0 && (
           <p className="mt-8 text-sm text-caution leading-relaxed prose-col">
             No episode has been written for {name} yet.
             {character?.promotable === false &&
@@ -568,28 +467,37 @@ export default async function CharacterPage(
             hasBible={character.hasBible}
             written={written}
             promotable={character.promotable}
-            whyNot={
-              standing && !character.promotable ? standing.why : null
-            }
+            whyNot={standing && !character.promotable ? standing.why : null}
             offline={offline}
           />
         )}
 
-        {loaded.length > 0 &&
-          loaded.map(({ listing, spinoff }) =>
-            spinoff ? (
-              <Episode key={listing.file} spinoff={spinoff} />
-            ) : listing.constrained ? (
-              <Unreadable key={listing.file} listing={listing} />
-            ) : (
-              <ControlOnly key={listing.file} listing={listing} />
-            ),
-          )}
-      </div>
+        {mine.length > 0 && (
+          <>
+            <ul className="mt-10 border-t border-rule divide-y divide-rule">
+              {mine.map((listing) => (
+                <SpinoffRow
+                  key={listing.file}
+                  listing={listing}
+                  href={listing.constrained ? episodeHref(listing.anchorBeatId) : null}
+                />
+              ))}
+            </ul>
 
-      {/* The page used to end on the last line of a script. This is the end of
-          the whole path, and the only honest move from it is the next name. */}
-      {written > 0 && (
+            <p className="mt-5 text-xs text-faint leading-relaxed prose-col">
+              {EPISODE_ELSEWHERE}
+            </p>
+          </>
+        )}
+      </section>
+
+      {/* BLOCK FOUR — everything looked up rather than read. */}
+      {character && <LookUp character={character} />}
+
+      {/* BLOCK FIVE. The page used to end on the last line of a script. This is
+          the end of the whole path, and the only honest move from it is the
+          next name — whether the path finished here or was never open. */}
+      {written > 0 ? (
         <div className="mt-16 max-w-2xl">
           <NextStep
             tone="onward"
@@ -600,6 +508,21 @@ export default async function CharacterPage(
             {doneWords.plain}
           </NextStep>
         </div>
+      ) : (
+        // Python's judgement, not a second one taken here. No control is
+        // offered, because the run panel above will refuse this anyway.
+        character?.promotable === false && (
+          <div className="mt-16 max-w-2xl">
+            <NextStep
+              tone="onward"
+              action={CHARACTER_TOO_THIN.action}
+              href={castHref}
+              cost={FREE_CLICK}
+            >
+              {CHARACTER_TOO_THIN.plain}
+            </NextStep>
+          </div>
+        )
       )}
     </div>
   );

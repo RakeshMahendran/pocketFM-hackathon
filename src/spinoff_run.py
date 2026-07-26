@@ -28,6 +28,7 @@ import os
 import re
 import sys
 import json
+import time
 import argparse
 import datetime as dt
 import subprocess
@@ -137,6 +138,75 @@ def _last_error(said: str) -> str:
     return lines[-1] if lines else "the stage failed without saying why"
 
 
+def existing_anchors(story_id: str, char_id: str) -> List[str]:
+    """Anchors this character already has a constrained episode for, earliest first."""
+    made = DATA / "spinoffs"
+    if not made.is_dir():
+        return []
+    prefix = f"{story_id}__{char_id}__"
+    found = []
+    for path in made.iterdir():
+        name = path.name
+        if not name.startswith(prefix) or not name.endswith(".json"):
+            continue
+        rest = name[len(prefix):-len(".json")]
+        # The leak twin, its verdict, the constrained verdict and the bible all
+        # share the prefix. Only the bare anchor is an episode.
+        if rest and "__" not in rest and rest != "bible":
+            found.append(rest)
+    return sorted(found)
+
+
+def replay(story_id: str, char_id: str, anchor: Optional[str] = None,
+           pause: float = 0.7) -> int:
+    """
+    Walk the three stages against work already on disk, without generating.
+
+    For showing the pipeline without paying for it or waiting on it. The stages
+    are the real ones and the episode at the end is the real committed one with
+    its real verdict — nothing is invented and nothing is written.
+
+    It refuses when there is no episode to replay rather than miming one. A
+    progress bar over nothing is the only thing here that would actually be a
+    lie, and this product is sold on not telling that kind.
+
+    The status carries `replayed: true` so the console can say so. Callers must
+    not present this as generation.
+    """
+    have = existing_anchors(story_id, char_id)
+    if not have:
+        write_status(
+            story_id, char_id, state="failed", step="writing",
+            replayed=True,
+            error=("There is no episode on disk for this character, so there is "
+                   "nothing to replay. Writing a new one is the button that "
+                   "costs money."),
+            finished_at=dt.datetime.now(dt.timezone.utc).isoformat(),
+        )
+        log(f"nothing to replay for {story_id}/{char_id}", "error")
+        return 1
+
+    target = anchor if anchor in have else have[0]
+    labels = dict(STEPS)
+    write_status(
+        story_id, char_id,
+        state="running", step="promoting", label=labels["promoting"],
+        anchor=target, replayed=True, error=None,
+        promotion_skipped=has_bible(story_id, char_id),
+        started_at=dt.datetime.now(dt.timezone.utc).isoformat(),
+    )
+    for step in ("writing", "checking"):
+        time.sleep(pause)
+        write_status(story_id, char_id, step=step, label=labels[step])
+    time.sleep(pause)
+    write_status(
+        story_id, char_id, state="done", step="done", label="Done",
+        finished_at=dt.datetime.now(dt.timezone.utc).isoformat(),
+    )
+    log(f"replayed {story_id}/{char_id} at {target} — nothing was generated")
+    return 0
+
+
 def run(story_id: str, char_id: str, anchor: Optional[str] = None,
         episodes: Optional[int] = None) -> int:
     """Work the character up, write their episode, check it. Returns an exit code."""
@@ -219,7 +289,13 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     parser.add_argument("--anchor", default=None,
                         help="beat to start from; default is their top moment")
     parser.add_argument("--episodes", type=int, default=None)
+    parser.add_argument("--replay", action="store_true",
+                        help="walk the stages against an episode already on "
+                             "disk, generating nothing. For showing the "
+                             "pipeline without paying for it.")
     args = parser.parse_args(argv)
+    if args.replay:
+        return replay(args.story, args.char, args.anchor)
     return run(args.story, args.char, args.anchor, args.episodes)
 
 

@@ -240,7 +240,16 @@ export async function startSpinoffRun(formData: FormData): Promise<void> {
     const child = spawn(
       "python",
       ["-m", "src.spinoff_run", "--story", storyId, "--char", charId],
-      { cwd: REPO, detached: true, stdio: "ignore", windowsHide: true },
+      {
+        cwd: REPO,
+        // `detached` on Windows means CREATE_NEW_CONSOLE, which `windowsHide`
+        // does not suppress — a console window appeared on every press.
+        // Detaching is what lets the run outlive the request on POSIX; `unref`
+        // alone does that here.
+        detached: process.platform !== "win32",
+        stdio: "ignore",
+        windowsHide: true,
+      },
     );
     child.unref();
 
