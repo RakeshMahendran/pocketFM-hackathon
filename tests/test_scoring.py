@@ -7,7 +7,9 @@ their fictionalization map by role description rather than by name, so the map
 covered nobody, and one leaked a real surname into a script.
 """
 
-from src.scoring.run import check, unmapped_names, _fold_map
+import json
+
+from src.scoring.run import check, merge_dossier, unmapped_names, _fold_map
 
 
 def _season(n, statuses=None, hooks=None, payoffs=None):
@@ -84,3 +86,47 @@ def test_folding_a_duplicated_mapping_keeps_the_last_and_does_not_crash():
                         {"real": "A", "fictional": "y"}])
 
     assert folded == {"A": "y"}
+
+
+# ---------------------------------------------------------------------------
+# THE COMMISSION LIST
+# ---------------------------------------------------------------------------
+
+def test_a_new_commission_does_not_erase_the_earlier_ones(tmp_path):
+    """
+    `write_json(DOSSIERS_PATH, [dossier])` threw the file away on every run.
+    `serial.load_dossier` reads it, so scoring a second story left the first with
+    no dossier to rewrite from — the state the delivered repo was actually in,
+    one entry against seven stories.
+    """
+    path = tmp_path / "dossiers.json"
+    path.write_text(json.dumps([{"event_id": "evt_one", "title": "One"}]),
+                    encoding="utf-8")
+
+    merged = merge_dossier({"event_id": "evt_two", "title": "Two"}, path)
+
+    assert [d["event_id"] for d in merged] == ["evt_one", "evt_two"]
+
+
+def test_re_planning_the_same_event_replaces_it_and_stays_last(tmp_path):
+    """
+    Newest-last is a contract, not a side effect of appending: `commission.py`
+    reads `written[-1]` to learn the `event_id` the planner minted, which it
+    cannot know in advance. A second entry for the same event would also make
+    `load_dossier` a coin toss between two versions of one story.
+    """
+    path = tmp_path / "dossiers.json"
+    path.write_text(json.dumps([{"event_id": "evt_one", "title": "One"},
+                                {"event_id": "evt_two", "title": "Two"}]),
+                    encoding="utf-8")
+
+    merged = merge_dossier({"event_id": "evt_one", "title": "One, corrected"}, path)
+
+    assert [d["event_id"] for d in merged] == ["evt_two", "evt_one"]
+    assert merged[-1]["title"] == "One, corrected"
+
+
+def test_the_first_commission_starts_the_list(tmp_path):
+    merged = merge_dossier({"event_id": "evt_one"}, tmp_path / "nothing.json")
+
+    assert [d["event_id"] for d in merged] == ["evt_one"]

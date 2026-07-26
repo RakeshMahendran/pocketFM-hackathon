@@ -142,6 +142,18 @@ function formatSavedAt(raw: string | null): string | null {
   }).format(d)} UTC`;
 }
 
+/**
+ * Which recorded search to play back.
+ *
+ * Ordered by the `saved_at` the file records about itself, not by filesystem
+ * mtime. mtime is a fact about this copy of the repo rather than about the
+ * search: a checkout, a copy or a sync rewrites it. Eight of the nine hunt
+ * files on disk share one mtime to the second, so "newest" was an eight-way
+ * tie broken by `readdir` order — which recording a demo plays could change
+ * between a rehearsal and the stage, and did.
+ *
+ * Ties fall back to the filename so the answer is at least stable.
+ */
 async function newestHuntFile(cacheDir: string): Promise<string | null> {
   let names: string[];
   try {
@@ -154,14 +166,21 @@ async function newestHuntFile(cacheDir: string): Promise<string | null> {
 
   const dated = await Promise.all(
     names.map(async (n) => {
+      let at = 0;
       try {
-        return { n, at: (await fs.stat(path.join(cacheDir, n))).mtimeMs };
+        const raw = JSON.parse(await fs.readFile(path.join(cacheDir, n), "utf-8"));
+        const saved = asRecord(raw).saved_at;
+        if (typeof saved === "string") {
+          const parsed = Date.parse(saved);
+          if (!Number.isNaN(parsed)) at = parsed;
+        }
       } catch {
-        return { n, at: 0 };
+        // Unreadable or unparseable sorts last rather than taking the stage.
       }
+      return { n, at };
     }),
   );
-  dated.sort((a, b) => b.at - a.at);
+  dated.sort((a, b) => (b.at - a.at) || a.n.localeCompare(b.n));
   return dated[0].n;
 }
 

@@ -816,8 +816,29 @@ export async function listSpinoffs(storyId: string): Promise<SpinoffListing[]> {
     })),
   ].sort(
     (a, b) =>
-      a.charId.localeCompare(b.charId) || a.anchorBeatId.localeCompare(b.anchorBeatId),
+      a.charId.localeCompare(b.charId) ||
+      demonstrates(b) - demonstrates(a) ||
+      a.anchorBeatId.localeCompare(b.anchorBeatId),
   );
+}
+
+/**
+ * How much a run proves, for ordering only.
+ *
+ * A pair where the constrained arm is clean and the control failed is the whole
+ * claim in one screen. A pair where both came out clean shows nothing — the
+ * control simply did not leak that time — and reading it first invites the
+ * reader to conclude the limits do nothing.
+ *
+ * Ratnamma has both: b014 is 0 against 0, b033 is 0 against 5. Alphabetical
+ * order put the empty comparison first and pushed the real one several screens
+ * down. Derived from the verdicts on disk, so it is still deterministic and
+ * still does not reshuffle unless a verdict actually changes.
+ */
+function demonstrates(r: SpinoffListing): number {
+  if (!r.leak) return 0;
+  const clean = r.verdict.status === "clean" && r.verdict.errorCount === 0;
+  return clean && r.leak.verdict.errorCount > 0 ? 2 : 1;
 }
 
 /**

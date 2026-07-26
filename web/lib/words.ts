@@ -627,3 +627,496 @@ export const SPINOFF_HEADING = {
   want: "What they’re after",
   voice: "How they talk",
 };
+
+// ===========================================================================
+// PUTTING IT IN FRONT OF LISTENERS
+//
+// Two decisions, not one, because the platform earns per unlocked episode. A
+// show going live means it exists for listeners at all; an episode going out is
+// the thing that actually earns. Until now the console had one button doing
+// both, so there are no words in this file for the half that pays.
+//
+// One rule of vocabulary holds the whole section together:
+//
+//     a SHOW is live or not live — an EPISODE is out or held back
+//
+// Never crossed. The panel's old "Not out yet" said the show-level thing in the
+// episode-level words, which is precisely the sentence that stops making sense
+// the first time a show is live with nothing released.
+//
+// Every state named here is one `src/publish.py` can actually be in: live with
+// nothing out, `released_through()` as the last episode a listener can reach,
+// the in-order rule, and the tail that comes off with a pull. Nothing here
+// invents a state the backend cannot produce.
+// ===========================================================================
+
+export type ShowState = "live" | "draft";
+export type EpisodeState = "out" | "held";
+
+/**
+ * How far a season has got, as the backend counts it.
+ *
+ * `releasedThrough` is `released_through()` — the last episode a listener can
+ * reach in an unbroken run from episode 1, not the count of records in the
+ * file. `written` is `episode_count()`, counted off disk. Kept apart because
+ * they answer different questions and a season is usually written far ahead of
+ * what is out.
+ */
+export interface SeasonRelease {
+  live: boolean;
+  releasedThrough: number;
+  written: number;
+}
+
+/** The idea, said once, wherever the two decisions first appear together. */
+export const TWO_DECISIONS_EXPLAINED =
+  "Two separate decisions. Putting the show live means it exists for listeners at all; putting an episode out is the thing they actually unlock.";
+
+/** Why the buttons only ever offer one episode. Sits under the episode list. */
+export const ORDER_EXPLAINED =
+  "Episodes go out in order and come back from the end, so a listener never arrives at a gap in the middle.";
+
+/** The answer to “we published it last week, why is it checking again?”. */
+export const CHECKED_EVERY_TIME =
+  "The continuity check runs again on every episode, not just the first. Episodes go out days apart and a season can be edited in between, so the check is the last thing before listeners every time.";
+
+/**
+ * Same caveat the season panel already prints, kept here so the episode buttons
+ * cannot end up promising more than the season button does. There is no Pocket
+ * FM API on the other side of any of this.
+ */
+export const RELEASE_NOT_A_PUSH =
+  "Putting an episode out records the decision here. It does not push anything to the app yet.";
+
+// ---------------------------------------------------------------------------
+// COUNTS — said once, so no screen writes “1 episodes”
+// ---------------------------------------------------------------------------
+
+export function episodeCount(n: number): string {
+  return plural(n, "episode", "episodes");
+}
+
+export function heldCount(n: number): string {
+  return `${plural(n, "episode", "episodes")} still held back`;
+}
+
+/**
+ * What a refused release is counted in. `src/publish.py` says "continuity
+ * problem" in its own refusal, and the fatal list mixes contradictions with
+ * malformed records — `refusal()` in web/lib/publish.ts is what tells those two
+ * apart in prose. This only counts them, so it must not call them all
+ * contradictions.
+ */
+export function problemCount(n: number): string {
+  return plural(n, "continuity problem", "continuity problems");
+}
+
+/**
+ * "2 of 14 episodes out", and the two ends of that range said as a person would
+ * say them rather than as "0 of 14" and "14 of 14".
+ */
+export function releaseProgress(out: number, written: number): string {
+  if (written === 0) return "nothing written yet";
+  if (out === 0) return "nothing out yet";
+  if (out >= written)
+    return written === 1
+      ? "the only episode is out"
+      : `all ${written} episodes out`;
+  // Both ends are handled above, so this branch always has two or more written
+  // and the plural is safe.
+  return `${out} of ${written} episodes out`;
+}
+
+// ---------------------------------------------------------------------------
+// THE SHOW — live, not live, and the pre-launch state in between
+//
+// "Live · nothing out yet" is the state that has to read as deliberate. It is
+// where every show sits between the moment someone stands behind it and the
+// moment episode 1 goes out, and a console that renders it in the colour of a
+// failure teaches a producer to distrust the one screen they act from.
+// ---------------------------------------------------------------------------
+
+export const SHOW_LIVE: Said = {
+  label: "Live",
+  plain:
+    "The show exists for listeners. Episodes still go out one at a time from here.",
+};
+
+export const SHOW_DRAFT: Said = {
+  label: "Not live yet",
+  plain:
+    "Nobody outside the team can see this show. Nothing goes out until it is live.",
+};
+
+/** The real pre-launch state, and it is not an error. */
+export const PRE_LAUNCH: Said = {
+  label: "Live · nothing out yet",
+  plain:
+    "The show is live and no episode has gone out. That is where every show starts — episode 1 goes whenever you are ready.",
+};
+
+export const SHOW_STATE: Record<ShowState, Said> = {
+  live: SHOW_LIVE,
+  draft: SHOW_DRAFT,
+};
+
+export function showState(live: boolean): Said {
+  return live ? SHOW_LIVE : SHOW_DRAFT;
+}
+
+/**
+ * The one line at the top of a season: where the show stands, and how much of
+ * it a listener can hear. Three states and each says something different about
+ * what to do next.
+ */
+export function seasonStanding(s: SeasonRelease): {
+  label: string;
+  plain: string;
+  className: string;
+} {
+  if (!s.live) {
+    return {
+      label: SHOW_DRAFT.label,
+      plain: `${
+        s.written === 0
+          ? "Nothing written yet"
+          : `${episodeCount(s.written)} written`
+      } and nothing in front of listeners. ${TWO_DECISIONS_EXPLAINED}`,
+      className: "text-muted",
+    };
+  }
+
+  if (s.releasedThrough === 0) {
+    return {
+      label: PRE_LAUNCH.label,
+      plain: `${PRE_LAUNCH.plain}${
+        s.written > 0 ? ` ${episodeCount(s.written)} are written and waiting.` : ""
+      }`,
+      className: "text-ochre",
+    };
+  }
+
+  const heard =
+    s.releasedThrough === 1
+      ? "Listeners can hear episode 1."
+      : `Listeners can hear episodes 1 to ${s.releasedThrough}.`;
+  const rest =
+    s.releasedThrough >= s.written
+      ? " Everything written is out."
+      : ` Episode ${s.releasedThrough + 1} goes out next.`;
+
+  return {
+    label: `Live · ${releaseProgress(s.releasedThrough, s.written)}`,
+    plain: `${heard}${rest}`,
+    className: "text-clear",
+  };
+}
+
+// ---------------------------------------------------------------------------
+// ONE EPISODE — out, or held back
+//
+// "Published" and "unpublished" describe what the file says. "Out" and "held
+// back" describe what a listener can do, which is the thing being decided.
+// ---------------------------------------------------------------------------
+
+export const EPISODE_OUT: Said = {
+  label: "Out",
+  plain: "Listeners can unlock this one. It stays out until somebody pulls it.",
+};
+
+export const EPISODE_HELD: Said = {
+  label: "Held back",
+  plain:
+    "Written, but not in front of listeners. Nothing happens to it until someone puts it out.",
+};
+
+export const EPISODE_RELEASE: Record<EpisodeState, Said> = {
+  out: EPISODE_OUT,
+  held: EPISODE_HELD,
+};
+
+export function episodeRelease(out: boolean): Said {
+  return out ? EPISODE_OUT : EPISODE_HELD;
+}
+
+/**
+ * Why an episode is where it is, and whether the button should be there.
+ *
+ * The four ways an episode can be unreleasable are four different pieces of
+ * news, and `publish_episode()` refuses each of them in its own words. Flattened
+ * into one greyed-out button they all read as "broken".
+ */
+export type EpisodeStandingKind =
+  | "out"
+  | "next"
+  | "waiting"
+  | "show-not-live"
+  | "unwritten";
+
+export function episodeStanding(
+  ep: number,
+  s: SeasonRelease,
+): {
+  kind: EpisodeStandingKind;
+  label: string;
+  plain: string;
+  className: string;
+  canRelease: boolean;
+} {
+  if (ep < 1 || ep > s.written) {
+    return {
+      kind: "unwritten",
+      label: "Not written",
+      plain: `This show has ${episodeCount(s.written)}, so there is no episode ${ep} to put out.`,
+      className: "text-faint",
+      canRelease: false,
+    };
+  }
+
+  if (ep <= s.releasedThrough) {
+    return {
+      kind: "out",
+      label: EPISODE_OUT.label,
+      plain: EPISODE_OUT.plain,
+      className: "text-clear",
+      canRelease: false,
+    };
+  }
+
+  if (!s.live) {
+    return {
+      kind: "show-not-live",
+      label: EPISODE_HELD.label,
+      plain:
+        "The show is not live, so no episode can go out. Put the show live first, then release them one at a time.",
+      className: "text-faint",
+      canRelease: false,
+    };
+  }
+
+  if (ep === s.releasedThrough + 1) {
+    return {
+      kind: "next",
+      label: "Ready to go out",
+      // Episode 1 has nothing before it, so "everything before it is already
+      // out" is a claim about episodes that do not exist — and it made the
+      // episode list and the season panel say different things about the same
+      // episode, which is worse than either sentence on its own.
+      plain:
+        ep === 1
+          ? `The first one. Nothing is out yet, so this is where listeners start. ${CHECKED_EVERY_TIME}`
+          : `Everything before it is already out, so this one can go next. ${CHECKED_EVERY_TIME}`,
+      className: "text-ochre",
+      canRelease: true,
+    };
+  }
+
+  return {
+    kind: "waiting",
+    label: EPISODE_HELD.label,
+    plain: `Episode ${ep - 1} is still held back. ${ORDER_EXPLAINED}`,
+    className: "text-faint",
+    canRelease: false,
+  };
+}
+
+// ---------------------------------------------------------------------------
+// THE NEXT ONE OUT — and the button that does it
+// ---------------------------------------------------------------------------
+
+/** The button. Always names the episode, so nobody releases the wrong one. */
+export function releaseAction(ep: number): string {
+  return `Put episode ${ep} out`;
+}
+
+export const RELEASING = "Putting it out…";
+
+/**
+ * What the season offers next. A union rather than a nullable episode number,
+ * because "nothing to release" has three quite different reasons and a screen
+ * showing no button should say which one it is looking at.
+ */
+export type NextRelease =
+  | { kind: "ready"; ep: number; label: string; action: string; plain: string }
+  | { kind: "all-out"; label: string; plain: string }
+  | { kind: "show-not-live"; label: string; plain: string }
+  | { kind: "none-written"; label: string; plain: string };
+
+export function nextRelease(s: SeasonRelease): NextRelease {
+  if (s.written === 0) {
+    return {
+      kind: "none-written",
+      label: "Nothing written yet",
+      plain:
+        "No episodes have been written for this show, so there is nothing to put in front of anyone.",
+    };
+  }
+  if (!s.live) {
+    return {
+      kind: "show-not-live",
+      label: "Nothing can go out yet",
+      plain: `${SHOW_DRAFT.plain} ${TWO_DECISIONS_EXPLAINED}`,
+    };
+  }
+  if (s.releasedThrough >= s.written) {
+    return {
+      kind: "all-out",
+      label: "The whole season is out",
+      plain: `All ${episodeCount(s.written)} are with listeners. There is nothing left to release until more is written.`,
+    };
+  }
+
+  const ep = s.releasedThrough + 1;
+  return {
+    kind: "ready",
+    ep,
+    label: `Episode ${ep} is next`,
+    action: releaseAction(ep),
+    plain:
+      ep === 1
+        ? `The first one. Nothing is out yet, so this is the episode that opens the show. ${CHECKED_EVERY_TIME}`
+        : `Episode ${ep - 1} is already out, so this one can follow it. ${CHECKED_EVERY_TIME}`,
+  };
+}
+
+// ---------------------------------------------------------------------------
+// PULLING SOMETHING BACK
+//
+// The consequence has to be readable before the click, not discovered after it.
+// `unpublish_episode()` takes the tail with it every time; a producer who thinks
+// they are pulling one episode and takes six off the app will not trust the
+// console again.
+// ---------------------------------------------------------------------------
+
+export const PULL_EPISODE: Said = {
+  label: "Pull it back",
+  plain:
+    "Pulling is never refused the way releasing is — it is always allowed. Everything after it comes off too, so a listener is never left at a gap. Nothing is deleted, and it can go back out in order.",
+};
+
+export function pullAction(ep: number): string {
+  return `Pull episode ${ep} back`;
+}
+
+/** Exactly what comes off, named. Show this beside the button, not after it. */
+export function pullWarning(ep: number, releasedThrough: number): string {
+  const after = Math.max(0, releasedThrough - ep);
+  if (after === 0) {
+    return `Episode ${ep} comes off. It is the last one out, so nothing else changes.`;
+  }
+  if (after === 1) {
+    return `Episode ${ep} comes off, and so does episode ${ep + 1} behind it — a listener is never left at a gap. Both can go back out in order afterwards.`;
+  }
+  return `Episode ${ep} comes off, and so do the ${after} episodes after it (${ep + 1}–${releasedThrough}) — a listener is never left at a gap. They can go back out in order afterwards.`;
+}
+
+/**
+ * Taking the whole show down. Same words the season panel already uses, kept
+ * here so the show-level and episode-level pulls stop being worded separately.
+ */
+export const TAKE_DOWN: Said = {
+  label: "Take it back to draft",
+  plain:
+    "The show stops existing for listeners, and every episode that is out comes off with it. Nothing is deleted — the scripts stay written, and it can go live again.",
+};
+
+// ---------------------------------------------------------------------------
+// WHO STOOD BEHIND IT — the audit line
+//
+// The name is the whole reason this is recorded: writing a season is the
+// machine's, deciding it can go out is a person's. Dates are formatted here
+// rather than left to the browser, so the same string renders on the server and
+// on the client.
+// ---------------------------------------------------------------------------
+
+const MONTHS = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+];
+
+/** "2026-07-25T23:57:03+00:00" → "25 Jul 2026". Null if it is not a date. */
+export function releaseDay(at: string | null): string | null {
+  if (!at) return null;
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(at);
+  if (!m) return null;
+  const month = MONTHS[Number(m[2]) - 1];
+  if (!month) return null;
+  return `${Number(m[3])} ${month} ${m[1]}`;
+}
+
+/** `who` is a person's name, already resolved — never an account id. */
+export interface Stamp {
+  who: string | null;
+  at: string | null;
+}
+
+function stamped(verb: string, s: Stamp, bare: string): string {
+  const day = releaseDay(s.at);
+  if (s.who && day) return `${verb} by ${s.who} on ${day}.`;
+  if (s.who) return `${verb} by ${s.who}.`;
+  if (day) return `${verb} on ${day}.`;
+  // `--by` is optional in the pipeline, so an episode released from a terminal
+  // can genuinely have no name against it. Said plainly rather than dressed up.
+  return bare;
+}
+
+export function episodeAudit(s: Stamp): string {
+  return stamped("Put out", s, "Out, with nobody’s name recorded against it.");
+}
+
+export function showAudit(s: Stamp): string {
+  return stamped("Put live", s, "Live, with nobody’s name recorded against it.");
+}
+
+// ---------------------------------------------------------------------------
+// WHEN A RELEASE IS REFUSED
+//
+// Same event, same words as the season panel: the continuity check is failing
+// and nothing goes out until it isn't. What changed is only that it now stands
+// in front of every episode instead of in front of the season once. Deliberately
+// no second vocabulary — `refusal()` in web/lib/publish.ts is still what says
+// which kind of fault it is, and this only frames it.
+// ---------------------------------------------------------------------------
+
+/** The panel's existing label, exported so the two places cannot drift. */
+export const CANNOT_GO_OUT = "Can’t go out";
+
+export const RELEASE_REFUSED: Said = {
+  label: CANNOT_GO_OUT,
+  plain: `${CHECKER_TITLE} is failing on this season, so nothing more goes out — not this episode, not by anyone. ${CHECKED_EVERY_TIME}`,
+};
+
+/** The refusal against one episode, with the count the check reported. */
+export function releaseRefused(ep: number, problems: number): Said {
+  return {
+    label: CANNOT_GO_OUT,
+    plain: `Episode ${ep} cannot go out: ${problemCount(problems)} in the season ${
+      problems === 1 ? "stands" : "stand"
+    } in front of it. Continuity is what these shows are sold on, and a rule that bends under deadline is not a rule.`,
+  };
+}
+
+/** The other refusal, and it is not the check's. The show simply is not live. */
+export const RELEASE_NEEDS_LIVE: Said = {
+  label: "Put the show live first",
+  plain:
+    "No episode can go out while the show is not live. Putting it live does not release anything on its own — the episodes still go out one at a time.",
+};
+
+// ---------------------------------------------------------------------------
+// RELEASE SCREEN NAMES AND HEADINGS
+// ---------------------------------------------------------------------------
+
+/** In prose: "…every episode THE EPISODE LIST has written". */
+export const EPISODE_LIST = "the episode list";
+/** As a heading or a back link. */
+export const EPISODE_LIST_TITLE = "What’s out";
+
+export const RELEASE_HEADING = {
+  show: "Is it live?",
+  episodes: EPISODE_LIST_TITLE,
+  next: "Next to go out",
+  pull: PULL_EPISODE.label,
+  refusal: CANNOT_GO_OUT,
+  order: "How episodes go out",
+};

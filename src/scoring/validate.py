@@ -30,6 +30,10 @@ them and no human will read the beat that carries them:
   of a real character. Nothing downstream can tell either from a person.
 - **A character both witnessing and hidden from one beat** — their status is
   undecidable, and hard rule 1 is enforced by exactly that decision.
+- **A real person's name on the page** — hard rule 4. Not a query problem: an
+  identifiable human being named in entertainment made about them. Once the
+  episode is out there is no recovery either, and the person harmed is not
+  anybody this team can apologise to by editing a file. It blocks.
 
 Everything else is advisory, because a human reading the line is the only thing
 that can settle it. An empty `hidden_from` on the last episode's public
@@ -40,12 +44,14 @@ Following `check()`, every function returns problems rather than raising. Only
 the caller decides that a fatal list is fatal.
 """
 
+import re
 import sys
 import json
 import pathlib
 import argparse
 import collections
-from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import (Any, Dict, Iterable, List, Mapping, NamedTuple, Optional,
+                    Sequence, Tuple)
 
 from src.util import DATA, log, read_json
 
@@ -62,6 +68,215 @@ STATED_FLOOR = 0.5
 # Below this the report names the character; above it, only counts. Long lists
 # of "and 14 more" are how a warning stops being read.
 WORST_SHOWN = 4
+
+# ----------------------------------------------------------------------------
+# Hard rule 4 — real names.
+# ----------------------------------------------------------------------------
+
+# Unicode letters only: names carry accents and the scripts carry curly
+# apostrophes, and neither should split a token or glue two together.
+WORD = re.compile(r"[^\W\d_]+", re.UNICODE)
+
+def _token_pattern(token: str) -> "re.Pattern[str]":
+    """
+    One token, on its own, case-insensitively.
+
+    Whole-string matching was the bug: the map key is "Mysuru district,
+    Karnataka" and the script said "a lorry driver in Mysuru", so nothing
+    matched and the check stayed green. What reaches the page is a fragment — a
+    surname without its given name, a district without its state.
+    """
+    return re.compile(r"(?<![^\W\d_])" + re.escape(token) + r"(?![^\W\d_])", re.I)
+
+
+# A token has to be distinctive enough that seeing it on the page means the real
+# name reached the page. Three rules, in order of how much they carry:
+#
+#  1. capitalised in the dossier entry. Real names are proper nouns; the role
+#     labels these maps are half made of are written in lower case ("the kiln
+#     site", "bonded household members"), so this alone drops most of them.
+#  2. at least MIN_TOKEN letters. Drops initials and honorifics — "K R Nagar",
+#     "Mst. Acharaj" — which are neither distinctive nor identifying. It also
+#     drops "Ram" from "Ram Rattan": a three-letter token is a word as often as
+#     it is a name, and the entry is still covered by "Rattan".
+#  3. not a generic noun that happens to sit inside a proper-noun phrase.
+#     "British Museum", "Anurag Guest House", "Returned woman's father" — the
+#     name is one word of those and the rest is furniture. Without this the
+#     check fires on "house" and stops being read.
+MIN_TOKEN = 4
+
+GENERIC_TOKENS = frozenset({
+    "alleged", "appointee", "arrested", "associate", "block", "bonded",
+    "brother", "city", "coast", "college", "committee", "complainant",
+    "contractor", "court", "daily", "department", "deputy", "district",
+    "escort", "family", "father", "guest", "hamlet", "hospital", "hotel",
+    "house", "husband", "invented", "journalist", "kiln", "labour", "library",
+    "market", "mother", "museum", "office", "officer", "officers", "operator",
+    "police", "returned", "river", "road", "room", "school", "second", "shop",
+    "shrine", "sister", "site", "staff", "state", "station", "street", "taluk",
+    "team", "teacher", "temple", "town", "unidentified", "university",
+    "village", "widow", "wife", "woman", "women",
+})
+
+PERSON = "person"
+PLACE = "place"
+
+# How much of the line to keep with a finding. Enough to see the sentence the
+# name is standing in; a whole script pasted into a warning is unreadable.
+QUOTE_WIDTH = 44
+
+
+class NameHit(NamedTuple):
+    """One real-name token found in one piece of generated text."""
+    token: str
+    entry: str      # the dossier entry the token came from
+    kind: str       # PERSON or PLACE
+    where: str      # which script or beat carried it
+    quote: str
+
+
+def _name_tokens(entry: str) -> List[str]:
+    """The distinctive tokens of one dossier entry. See MIN_TOKEN above."""
+    return [t for t in WORD.findall(entry or "")
+            if len(t) >= MIN_TOKEN and t[:1].isupper()
+            and t.lower() not in GENERIC_TOKENS]
+
+
+def real_name_tokens(dossier: Dict[str, Any]) -> Dict[str, Tuple[str, str]]:
+    """
+    `token -> (dossier entry, PERSON | PLACE)`, lower-cased.
+
+    Both halves of the dossier can carry a real name and neither is reliable
+    alone. `people[]` is where they usually are; `story1` records people by role
+    ("The arrested teacher") and keeps the real ones in the map keys; `story3`
+    has eight real people in `people[]` and not one person key in its map, which
+    is exactly how a real trafficking victim's surname reached a script.
+
+    Anything on the *right* of the map is subtracted: the fictional counterpart
+    is the declared allowed vocabulary, so "Gregor" never fires (the map keeps
+    it, as "Gregor Macrae") while "MacGregor" does. A map entry that deliberately
+    keeps a real place — "London remains the historical city" — exempts itself by
+    the same rule, which is the only written record of that decision.
+    """
+    fmap = dossier.get("fictionalization_map") or {}
+    allowed = {w.lower() for value in fmap.values()
+               for w in WORD.findall(str(value))}
+
+    out: Dict[str, Tuple[str, str]] = {}
+    people = [p.get("name") or "" for p in dossier.get("people") or []]
+    for name in people:
+        for token in _name_tokens(name):
+            if token.lower() not in allowed:
+                out.setdefault(token.lower(), (name, PERSON))
+
+    named = set(people)
+    for key in fmap:
+        # A key that is also a `people[]` entry is a person, and was already
+        # taken at the stronger severity above.
+        if key in named:
+            continue
+        for token in _name_tokens(key):
+            if token.lower() not in allowed:
+                out.setdefault(token.lower(), (key, PLACE))
+    return out
+
+
+def _quote(text: str, at: int, end: int) -> str:
+    """The matched token with enough of its line around it to be recognised."""
+    line_start = text.rfind("\n", 0, at) + 1
+    line_end = text.find("\n", end)
+    line_end = len(text) if line_end < 0 else line_end
+    left = max(line_start, at - QUOTE_WIDTH)
+    right = min(line_end, end + QUOTE_WIDTH)
+    return (("…" if left > line_start else "")
+            + text[left:right].strip()
+            + ("…" if right < line_end else ""))
+
+
+def _where_list(labels: Sequence[str]) -> str:
+    shown = ", ".join(labels[:3])
+    rest = len(labels) - 3
+    return shown + (f" (+{rest} more)" if rest > 0 else "")
+
+
+def find_real_names(dossier: Dict[str, Any],
+                    texts: Mapping[str, str]) -> List[NameHit]:
+    """
+    Every real-name token that reached generated text. `texts` is label -> prose.
+
+    Shared by the mainline (`validate_output`) and the spinoffs
+    (`validation.checks.check_real_names`) so the two cannot drift: a name the
+    serial writer is blocked for is a name the spinoff writer is blocked for.
+    """
+    tokens = real_name_tokens(dossier)
+    hits: List[NameHit] = []
+    for token, (entry, kind) in sorted(tokens.items()):
+        pattern = _token_pattern(token)
+        where: List[str] = []
+        quote = ""
+        for label, text in texts.items():
+            found = pattern.search(text or "")
+            if not found:
+                continue
+            where.append(label)
+            quote = quote or _quote(text, found.start(), found.end())
+        # One finding per token, not one per occurrence. A surname used in
+        # forty beats is one decision to fix, and forty lines of it is how a
+        # report stops being read.
+        if where:
+            hits.append(NameHit(token, entry, kind, _where_list(where), quote))
+    return hits
+
+
+def _beat_texts(beats: Sequence[Dict[str, Any]]) -> Dict[str, str]:
+    """The prose a beat carries, keyed by beat id. Ids and char ids are ours."""
+    out: Dict[str, str] = {}
+    for beat in beats:
+        changes = beat.get("state_changes") or []
+        parts = [str(beat.get("what_happened") or ""),
+                 str(beat.get("location") or ""),
+                 " ".join(str(c.get("fact", "")) if isinstance(c, dict) else str(c)
+                          for c in changes)]
+        out[f"beat {beat.get('beat_id', '?')}"] = " ".join(parts)
+    return out
+
+
+def real_names_on_the_page(dossier: Dict[str, Any],
+                           beats: Sequence[Dict[str, Any]],
+                           scripts: Optional[Mapping[str, str]] = None,
+                           ) -> Tuple[List[str], List[str]]:
+    """
+    Hard rule 4, over the beats and the scripts. Returns `(fatal, advisory)`.
+
+    A person's name is fatal and a place name is advisory, and the split is
+    deliberate:
+
+    - A person is identifiable and cannot be un-named once an episode is out.
+      `story3_revenge` adapts a bonded-labour case and its script says "Nepal
+      Manjhi's house"; there is a woman with that surname in that case file. No
+      deadline makes that publishable, so it blocks — which is the same argument
+      `src/publish.py` makes for refusing at all.
+    - A place is a judgement. The dossiers deliberately keep some real geography
+      ("Scotland remains the historical region") and the map's right-hand side
+      is where that decision is written down; a mechanical block would overrule
+      an editor who already thought about it. It is also where the remaining
+      false positives live, because place keys are the ones carrying generic
+      nouns. So it is reported, with the map entry it came from, and a person
+      decides whether to fix the script or the map.
+    """
+    texts = dict(_beat_texts(beats))
+    texts.update(scripts or {})
+
+    by_kind: Dict[str, List[str]] = {PERSON: [], PLACE: []}
+    for hit in find_real_names(dossier, texts):
+        what = ("the real person" if hit.kind == PERSON
+                else "the real name")
+        by_kind[hit.kind].append(
+            f"{hit.token!r} — from {what} {hit.entry!r} — appears in "
+            f"{hit.where} and has no fictional counterpart on the page: "
+            f"\"{hit.quote}\""
+        )
+    return by_kind[PERSON], by_kind[PLACE]
 
 
 def _beats_of(payload: Any) -> List[Dict[str, Any]]:
@@ -308,7 +523,9 @@ def alleged_as_fact(dossier: Dict[str, Any],
 
 
 def validate_output(dossier: Dict[str, Any],
-                    beats: Sequence[Dict[str, Any]]) -> Tuple[List[str], List[str]]:
+                    beats: Sequence[Dict[str, Any]],
+                    scripts: Optional[Mapping[str, str]] = None,
+                    ) -> Tuple[List[str], List[str]]:
     """
     Grade one beat sheet against its dossier. Returns `(fatal, advisory)`.
 
@@ -316,14 +533,26 @@ def validate_output(dossier: Dict[str, Any],
     docstring for the argument. Advisory problems need a human to read a line.
     Neither raises; the caller decides what a fatal list means, exactly as
     `main()` does for `unmapped_names()`.
+
+    `scripts` is label -> episode prose, for hard rule 4. The beats are always
+    checked; the scripts are checked when the caller has them. `load_story()`
+    reads them off disk and hangs them on the dossier as `_scripts`, so
+    `publish.check()` — the last gate before listeners, and the one that matters
+    most here — gets them without having to ask.
     """
+    if scripts is None:
+        scripts = dossier.get("_scripts") or {}
+    real_person, real_place = real_names_on_the_page(dossier, beats, scripts)
+
     fatal = (untraceable_beats(dossier, beats)
              + unknown_participants(dossier, beats)
-             + contradictory_beats(beats))
+             + contradictory_beats(beats)
+             + real_person)
     advisory = (unstated_ignorance(dossier, beats)
                 + present_but_unstated(beats)
                 + thin_characters(dossier, beats)
-                + alleged_as_fact(dossier, beats))
+                + alleged_as_fact(dossier, beats)
+                + real_place)
 
     if not beats:
         fatal.append("the beat sheet is empty — there is no canon to query")
@@ -340,11 +569,31 @@ def load_beats(path: pathlib.Path) -> List[Dict[str, Any]]:
     return beats
 
 
+def episode_scripts(story_dir: pathlib.Path) -> Dict[str, str]:
+    """The written episodes, `ep04.md -> prose`. Empty if none exist yet."""
+    episodes = story_dir / "episodes"
+    if not episodes.is_dir():
+        return {}
+    return {p.name: p.read_text(encoding="utf-8", errors="replace")
+            for p in sorted(episodes.iterdir())
+            if p.is_file() and p.suffix == ".md"}
+
+
 def load_story(story_dir: pathlib.Path) -> Tuple[Dict[str, Any], List[Dict[str, Any]]]:
+    """
+    The dossier and the beat sheet, plus the scripts hung on the dossier.
+
+    The scripts ride on the dossier under `_scripts` rather than widening the
+    return, because the callers that matter — `publish.check()` above all —
+    unpack a pair. The dossiers already carry `_`-prefixed working keys, and
+    nothing writes this one back out.
+    """
     dossier_path = story_dir / "dossier.json"
     if not dossier_path.exists():
         raise RuntimeError(f"no dossier at {dossier_path}")
-    return read_json(dossier_path), load_beats(story_dir / "beats.json")
+    dossier = read_json(dossier_path)
+    dossier["_scripts"] = episode_scripts(story_dir)
+    return dossier, load_beats(story_dir / "beats.json")
 
 
 def stories(root: pathlib.Path = STORIES) -> List[pathlib.Path]:

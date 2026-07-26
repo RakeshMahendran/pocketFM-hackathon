@@ -201,10 +201,36 @@ def dedupe(violations: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     merged: Dict[tuple, Dict[str, Any]] = {}
     for v in violations:
         key = (v["quote"].strip().lower()[:120], v["beat_id"])
-        if key in merged:
-            merged[key]["source"] += f", {v['source']}"
-        else:
+        if key not in merged:
             merged[key] = dict(v)
+            continue
+
+        kept = merged[key]
+        kept["source"] += f", {v['source']}"
+
+        # Severity is the worst any member reported, not whichever landed
+        # first. Results arrive by `as_completed`, so first is thread timing —
+        # and the hook member is the only one that reports `warn`. When it
+        # quoted the same line as the leakage member and happened to finish
+        # first, a real leakage error was rewritten as a note, n_errors fell to
+        # zero, and the episode reported clean. A guarantee that depends on
+        # which thread returns first is not a guarantee.
+        if v.get("severity") == "error":
+            kept["severity"] = "error"
+
+        # The check names are unioned for the same reason: whichever arrived
+        # first used to name the finding, so a leak could end up labelled
+        # "hook" — filed under the one check that is explicitly not a
+        # contradiction.
+        names = [n.strip() for n in str(kept.get("check", "")).split(",")]
+        if v.get("check") and v["check"] not in names:
+            kept["check"] = ", ".join([n for n in names if n] + [v["check"]])
+
+        # Two different findings can share a key when both carry an empty
+        # quote — `check_branch_beats` emits a tier violation and a pov
+        # violation for one beat that way, and one of them used to vanish.
+        if v.get("why") and v["why"] not in str(kept.get("why", "")):
+            kept["why"] = f"{kept.get('why', '')} {v['why']}".strip()
     return list(merged.values())
 
 

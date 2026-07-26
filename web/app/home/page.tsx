@@ -1,4 +1,7 @@
 import { AgentCard } from "@/components/AgentCard";
+import { NextStep } from "@/components/NextStep";
+import { PipelinePath } from "@/components/PipelinePath";
+import { DETAIL_HEADING, FREE_CLICK, HOME_NEXT } from "@/components/pathWords";
 import { requireEditor } from "@/lib/session";
 import { NEXT_CLICK, READY, SHOWS_TITLE, STORY_LIST_TITLE } from "@/lib/words";
 
@@ -21,6 +24,12 @@ export const dynamic = "force-dynamic";
  * exists inside a season — there is no route to a cast without picking a show
  * first, and hard-coding one season's id into the front door would be a claim
  * about the slate that stops being true the next time we commission anything.
+ *
+ * Five cards of equal weight is a menu, though, not a path, and a stranger
+ * reading it could not tell which one to press first or what any of them led to
+ * afterwards. So the screen now opens with the one first click, then the four
+ * steps in order, and the cards keep their place underneath as the detail behind
+ * each step rather than as the way in.
  */
 export default async function Home() {
   const editor = await requireEditor();
@@ -36,7 +45,21 @@ export default async function Home() {
         we&rsquo;ve already made.
       </p>
 
-      <div className="mt-10 grid md:grid-cols-2 gap-5">
+      <div className="mt-8 max-w-2xl">
+        <NextStep action={HOME_NEXT.action} href="/sourcing" cost={FREE_CLICK}>
+          {HOME_NEXT.plain}
+        </NextStep>
+      </div>
+
+      <div className="mt-14">
+        <PipelinePath />
+      </div>
+
+      <h2 className="font-serif text-2xl tracking-tight mt-16">
+        {DETAIL_HEADING}
+      </h2>
+
+      <div className="mt-8 grid md:grid-cols-2 gap-5">
         <AgentCard
           name="Find new stories"
           status={READY}

@@ -44,8 +44,9 @@ DEFAULT_CHAR = "ratnamma"
 
 # Commands that operate on one delivered serial, and the subset that targets a
 # single moment inside it.
-STORY_COMMANDS = ("cast", "gate1", "promote", "spinoff", "validate", "leak", "demo")
-ANCHOR_COMMANDS = ("spinoff", "validate", "leak", "demo")
+STORY_COMMANDS = ("cast", "gate1", "promote", "spinoff", "spinoff_run",
+                  "validate", "leak", "demo", "audio", "audio_run")
+ANCHOR_COMMANDS = ("spinoff", "spinoff_run", "validate", "leak", "demo")
 
 
 def venv_python() -> str:
@@ -137,7 +138,7 @@ def cmd_score(args) -> int:
 
 
 def cmd_publish(args) -> int:
-    """Put a written season in front of listeners, if its checks pass."""
+    """Put a written season, or one of its episodes, in front of listeners."""
     extra = ["--story", args.story]
     if args.by:
         extra += ["--by", args.by]
@@ -145,6 +146,10 @@ def cmd_publish(args) -> int:
         extra += ["--check"]
     if args.unpublish:
         extra += ["--unpublish"]
+    if args.episode is not None:
+        extra += ["--episode", str(args.episode)]
+    if args.status:
+        extra += ["--status"]
     return run_module("src.publish", extra)
 
 
@@ -178,6 +183,30 @@ def cmd_cast(args) -> int:
     if args.json:
         argv.append("--json")
     return run_module("src.canon.cast", argv)
+
+
+def cmd_audio(args) -> int:
+    """Record one episode: direct the lines, voice them, lay the bed, master it."""
+    extra = ["--story", args.story, "--ep", str(args.ep)]
+    if args.language:
+        extra += ["--language", args.language]
+    return run_module("src.audio.build", extra)
+
+
+def cmd_audio_run(args) -> int:
+    """Record one episode, writing progress the console can poll. The mic button."""
+    extra = ["--story", args.story, "--ep", str(args.ep)]
+    if args.language:
+        extra += ["--language", args.language]
+    return run_module("src.audio_run", extra)
+
+
+def cmd_spinoff_run(args) -> int:
+    """Work a character up, write their episode, and check it. What the button runs."""
+    extra = ["--story", args.story, "--char", args.char]
+    if args.anchor:
+        extra += ["--anchor", args.anchor]
+    return run_module("src.spinoff_run", extra)
 
 
 def cmd_promote(args) -> int:
@@ -281,6 +310,9 @@ COMMANDS = {
     "publish": cmd_publish,
     "serial": cmd_serial,
     "cast": cmd_cast,
+    "audio": cmd_audio,
+    "audio_run": cmd_audio_run,
+    "spinoff_run": cmd_spinoff_run,
     "promote": cmd_promote,
     "spinoff": cmd_spinoff,
     "validate": cmd_validate,
@@ -333,6 +365,13 @@ def build_parser() -> argparse.ArgumentParser:
                            help="report the checks without publishing")
             p.add_argument("--unpublish", action="store_true",
                            help="return it to draft")
+            # The platform earns per unlocked episode, so releasing one is its
+            # own decision. With --unpublish this pulls the episode and every
+            # one after it, because a serial with a hole in it is unlistenable.
+            p.add_argument("--episode", type=int, default=None, metavar="N",
+                           help="release one episode rather than the whole show")
+            p.add_argument("--status", action="store_true",
+                           help="what is live, and how many episodes are out")
         elif name == "score":
             p.add_argument("--event", default=None, metavar="ID_OR_TITLE",
                            help="corpus item id or title fragment to commission; "
@@ -361,7 +400,17 @@ def build_parser() -> argparse.ArgumentParser:
             if name == "promote":
                 p.add_argument("--episodes", type=int, default=None,
                                help="how many episodes to plan (default 10)")
-        elif name in ("gate1", "validate", "leak", "demo"):
+        elif name in ("audio", "audio_run"):
+            # Recording is per episode, not per season: a season is an hour of
+            # synthesis and the demo only ever needs one episode audible.
+            p.add_argument("--ep", type=int, default=1, help="episode number")
+            p.add_argument("--language", default=None,
+                           choices=["en", "hi-en", "hi", "ta", "ta-en"],
+                           help="en, or hi-en for Hinglish")
+        elif name in ("gate1", "spinoff_run", "validate", "leak", "demo"):
+            # Defaulted rather than required, like the rest of the demo path:
+            # the console always supplies a character from the click, and on the
+            # command line the golden path's own character is the useful default.
             p.add_argument("--char", default=DEFAULT_CHAR, help="character id")
         elif name == "seed":
             # `seed` loads the hand-written IPL fixture into Postgres, and jignesh

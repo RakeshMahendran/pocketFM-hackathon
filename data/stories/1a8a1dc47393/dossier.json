@@ -1,0 +1,421 @@
+{
+  "event_id": "evt_dharmapur_2025",
+  "title": "The Woman Who Was Already Cremated",
+  "one_line_summary": "Eighteen months after her family identifies and cremates a crushed body as hers, a missing mother returns alive—but proving she is herself may be the only way to free four jailed men and discover whose body was burned.",
+  "language": "en",
+  "fantasy": "The underestimated one",
+  "protagonist": {
+    "char_id": "meera",
+    "who": "A 35-year-old mother from the fictional village of Dharmapur who returns after eighteen months away and finds that the law, her family and her children have already buried her.",
+    "wants": "To prove she is alive and is Meera, recover her children, and expose the people who controlled her disappearance without surrendering her story to anyone else.",
+    "ashamed_of": "Leaving home voluntarily before she vanished and fearing that her family will believe she abandoned her children.",
+    "does_not_know_at_start": "Her family identified a mutilated body as hers, cremated it, and four men were jailed for murdering her."
+  },
+  "antagonist": {
+    "char_id": "raghav",
+    "who": "A smiling transport broker who allegedly arranged Meera’s transfer to another man and now needs her account dismissed before the money trail and his network are exposed.",
+    "wants_incompatibly": "To keep Meera officially doubtful, the dead body unidentified and the alleged sale hidden, while Meera wants her identity and the truth placed on the public record."
+  },
+  "sources": [
+    "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
+    "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "date": "2023-09",
+      "what_happened": "A 35-year-old woman was reported missing from the Gandhi Sagar area.",
+      "confidence": "reported",
+      "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+    },
+    {
+      "id": "t2",
+      "date": "2023-09",
+      "what_happened": "After a truck accident, a badly damaged woman’s body was recovered and the missing woman’s father identified it using a tattoo and a black thread around the leg.",
+      "confidence": "reported",
+      "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+    },
+    {
+      "id": "t3",
+      "date": "2023-09",
+      "what_happened": "The family performed the last rites and police registered a murder case; four men were arrested and remained in jail pending trial.",
+      "confidence": "reported",
+      "source": "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
+    },
+    {
+      "id": "t4",
+      "date": "2023-09-2025-03",
+      "what_happened": "The returned woman claimed that she went with a man to Bhanupara, was allegedly sold to another man for Rs 5 lakh and lived in Kota for eighteen months before escaping.",
+      "confidence": "alleged",
+      "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+    },
+    {
+      "id": "t5",
+      "date": "2025-03",
+      "what_happened": "The woman appeared at a police station, reunited with her two children, and supplied Aadhaar and voter ID documents while neighbours and relatives confirmed her identity.",
+      "confidence": "reported",
+      "source": "https://www.indiatoday.in/india/story/madhya-pradesh-mandsaur-woman-returns-alive-18-months-after-men-jailed-for-her-murder-2697243-2025-03-22"
+    },
+    {
+      "id": "t6",
+      "date": "2025-03",
+      "what_happened": "Police announced that medical examination, DNA testing and fresh witness statements would be required before conclusively establishing her identity and determining what happened to the body.",
+      "confidence": "reported",
+      "source": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106"
+    }
+  ],
+  "people": [
+    {
+      "name": "Lalita Bai",
+      "role": "The real woman reported to have returned alive after being presumed dead",
+      "motive": "To establish her identity and explain her disappearance",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Ramesh Nanuram Banchhada",
+      "role": "The real father reported to have identified the mutilated body",
+      "motive": "To defend his identification and protect his family from blame",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Imran",
+      "role": "One of the four real men reported to have been jailed in the murder case",
+      "motive": "To challenge the case after the woman’s reappearance",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Shahrukh",
+      "role": "A real accused named in reports and in the woman’s alleged account of her disappearance",
+      "motive": "To deny involvement and avoid renewed criminal exposure",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Sonu",
+      "role": "One of the four real men reported to have been jailed in the murder case",
+      "motive": "To secure release from a case built on the disputed identification",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Ejaz",
+      "role": "One of the four real men reported to have been jailed in the murder case",
+      "motive": "To challenge the murder allegation",
+      "public_or_private": "private",
+      "living": true
+    },
+    {
+      "name": "Taruna Bhardwaj",
+      "role": "The real police officer reported to have confirmed the woman’s appearance at the station",
+      "motive": "To document the unexpected return",
+      "public_or_private": "public",
+      "living": true
+    },
+    {
+      "name": "Padmavilochan Shukla",
+      "role": "The real senior police official reported to have ordered further verification",
+      "motive": "To establish the woman’s identity through a renewed investigation",
+      "public_or_private": "public",
+      "living": true
+    }
+  ],
+  "cast": [
+    {
+      "char_id": "meera",
+      "name": "Meera",
+      "role": "Returned mother whose identity has been officially buried",
+      "want": "Her children, her name and the right to tell what happened to her",
+      "gender": "female",
+      "age_range": "30s",
+      "maps_to": "the returned woman",
+      "composite": true
+    },
+    {
+      "char_id": "raghav",
+      "name": "Raghav",
+      "role": "Transport broker and alleged intermediary who fears Meera’s testimony",
+      "want": "To keep the sale story and his network invisible",
+      "gender": "male",
+      "age_range": "40s",
+      "maps_to": "the alleged intermediary role",
+      "composite": true
+    },
+    {
+      "char_id": "devraj",
+      "name": "Devraj",
+      "role": "Meera’s father who identified the burned body",
+      "want": "To prove he made an understandable mistake, not a criminal one",
+      "gender": "male",
+      "age_range": "60s+",
+      "maps_to": "the father who identified the body",
+      "composite": true
+    },
+    {
+      "char_id": "kavita",
+      "name": "Kavita",
+      "role": "Police sub-inspector assigned to verify Meera’s identity",
+      "want": "To solve the identity conflict without allowing either family or police to dictate the evidence",
+      "gender": "female",
+      "age_range": "30s",
+      "maps_to": "the reopening police officer",
+      "composite": true
+    },
+    {
+      "char_id": "salim",
+      "name": "Salim",
+      "role": "One of four jailed men accused in Meera’s supposed murder",
+      "want": "To leave prison before the village brands him a murderer forever",
+      "gender": "male",
+      "age_range": "30s",
+      "maps_to": "one of the four jailed accused",
+      "composite": true
+    },
+    {
+      "char_id": "naresh",
+      "name": "Naresh",
+      "role": "A jailed accused whose family depends on his release",
+      "want": "To force the court to acknowledge that there was no proven corpse identity",
+      "gender": "male",
+      "age_range": "30s",
+      "maps_to": "one of the four jailed accused",
+      "composite": true
+    },
+    {
+      "char_id": "pintu",
+      "name": "Pintu",
+      "role": "A jailed accused who knows the accident site better than the police admit",
+      "want": "To trade what he knows for freedom",
+      "gender": "male",
+      "age_range": "20s",
+      "maps_to": "one of the four jailed accused",
+      "composite": true
+    },
+    {
+      "char_id": "irfan",
+      "name": "Irfan",
+      "role": "A jailed accused whose silence protects someone outside prison",
+      "want": "To keep his younger brother safe from Raghav’s retaliation",
+      "gender": "male",
+      "age_range": "30s",
+      "maps_to": "one of the four jailed accused",
+      "composite": true
+    },
+    {
+      "char_id": "shahid",
+      "name": "Shahid",
+      "role": "The second man Meera alleges took control of her in Kota",
+      "want": "To make Meera appear confused and prevent investigators from tracing the payment",
+      "gender": "male",
+      "age_range": "40s",
+      "maps_to": "the alleged buyer role",
+      "composite": true
+    },
+    {
+      "char_id": "tara",
+      "name": "Tara",
+      "role": "Meera’s teenage daughter who remembers a private detail only her mother should know",
+      "want": "To decide whether the returned woman is really her mother",
+      "gender": "female",
+      "age_range": "teens",
+      "maps_to": "one of the children",
+      "composite": true
+    },
+    {
+      "char_id": "mohan",
+      "name": "Mohan",
+      "role": "Meera’s younger son who wants his mother restored immediately",
+      "want": "To stop adults from taking her away again",
+      "gender": "male",
+      "age_range": "child",
+      "maps_to": "one of the children",
+      "composite": true
+    },
+    {
+      "char_id": "janki",
+      "name": "Janki",
+      "role": "The sister of the unidentified woman whose body was burned",
+      "want": "To find out what happened to her missing sister",
+      "gender": "female",
+      "age_range": "30s",
+      "maps_to": "invented",
+      "composite": true
+    },
+    {
+      "char_id": "babulal",
+      "name": "Babulal",
+      "role": "Village records clerk who notices that Meera’s death paperwork was never properly closed",
+      "want": "To protect his job by correcting the record before the fraud reaches him",
+      "gender": "male",
+      "age_range": "50s",
+      "maps_to": "invented",
+      "composite": true
+    }
+  ],
+  "adaptability": {
+    "conflict": 9,
+    "characters": 9,
+    "stakes": 10,
+    "serializability": 9,
+    "resonance": 10,
+    "total": 47
+  },
+  "clearance": {
+    "status": "fictionalize_first",
+    "reasons": [
+      "The source concerns recent living private individuals.",
+      "The alleged sale, confinement and trafficking account must remain allegations inside the fiction, not established fact.",
+      "All names, locations, family details, accused identities and institutional details have been fictionalized or composited.",
+      "The unidentified body is given an invented relative so the dead woman also has a story and cannot become a plot device without a face."
+    ]
+  },
+  "novelty": {
+    "prior_adaptations": [],
+    "score": 9
+  },
+  "engine": "A living woman must prove she is the person whose death has already been legally and socially accepted, while four imprisoned men and the family of an unidentified dead woman pull the truth in opposite directions.",
+  "why_this_works": "The season sells the underestimated one: Meera is treated as a liar, deserter and possible impostor, yet every episode gives her one more piece of evidence and one more public scalp. The local stakes are concrete—her children, four men’s freedom, her father’s name, a Rs 5 lakh alleged payment and the identity of the burned woman.",
+  "fictionalization_map": {
+    "Lalita Bai": "Meera",
+    "Ramesh Nanuram Banchhada": "Devraj",
+    "Imran": "Salim",
+    "Shahrukh": "Raghav",
+    "Sonu": "Naresh",
+    "Ejaz": "Irfan",
+    "Taruna Bhardwaj": "Kavita",
+    "Padmavilochan Shukla": "Babulal"
+  },
+  "season": [
+    {
+      "ep": 1,
+      "turn": "Meera walks into the Dharmapur police station with her two children’s names on her lips, but her father publicly calls her an impostor and refuses to touch her.",
+      "hook_type": "REVEAL",
+      "ends_on": "The station register still lists Meera as dead, and four men are in jail for murdering her.",
+      "pays_off": null,
+      "status": 1
+    },
+    {
+      "ep": 2,
+      "turn": "Kavita removes Meera from the crowd and tests her with private family details, but Devraj produces the tattoo photograph and black-thread record used to identify the burned body.",
+      "hook_type": "THREAT",
+      "ends_on": "The photograph shows the tattoo on the body is on the opposite hand from Meera’s tattoo.",
+      "pays_off": null,
+      "status": 1
+    },
+    {
+      "ep": 3,
+      "turn": "Meera is taken to her old house under police guard, where Tara refuses to call her mother and Mohan hides behind a locked door.",
+      "hook_type": "ARRIVAL",
+      "ends_on": "A man from the Kota bus stand arrives with a photograph of Meera standing beside Raghav.",
+      "pays_off": null,
+      "status": 1
+    },
+    {
+      "ep": 4,
+      "turn": "Raghav appears before the village committee and claims Meera left willingly with him because she wanted to abandon her marriage and children.",
+      "hook_type": "ACCUSATION",
+      "ends_on": "Raghav names the exact Rs 5 lakh payment date before Meera has told police the amount.",
+      "pays_off": null,
+      "status": 2
+    },
+    {
+      "ep": 5,
+      "turn": "Meera identifies the room where she says she was held in Kota, but the landlord says the room was rented under another woman’s name.",
+      "hook_type": "DISCOVERY",
+      "ends_on": "The rental ledger contains Meera’s signature beside a date when her family believed she was already cremated.",
+      "pays_off": "Meera gets Mohan to recognise a childhood lullaby, and he publicly calls her Ma for the first time.",
+      "status": 2
+    },
+    {
+      "ep": 6,
+      "turn": "Kavita compares Meera’s documents, fingerprints and family testimony during an open village verification, and announces that the evidence strongly supports Meera being alive and genuine.",
+      "hook_type": "RECOGNITION",
+      "ends_on": "The police seal Meera’s death certificate as disputed, publicly admitting that the original identification may have been wrong.",
+      "pays_off": null,
+      "status": 4
+    },
+    {
+      "ep": 7,
+      "turn": "The four jailed men’s families bring them to a court hearing, where Salim says Raghav directed the group to the accident site before police arrived.",
+      "hook_type": "BETRAYAL",
+      "ends_on": "Salim’s statement is missing from the original case diary.",
+      "pays_off": null,
+      "status": 4
+    },
+    {
+      "ep": 8,
+      "turn": "Janki arrives from a neighbouring district and says the burned body may be her missing sister Kesar, who wore the same black thread.",
+      "hook_type": "ARRIVAL",
+      "ends_on": "Janki recognises the body’s hospital intake number as the number on Kesar’s missing-person complaint.",
+      "pays_off": "The court orders the four accused brought into the reopened inquiry instead of leaving them buried inside the old murder case.",
+      "status": 5
+    },
+    {
+      "ep": 9,
+      "turn": "Devraj stands before the village and admits he identified the body from fear and grief, not from a face he could actually see.",
+      "hook_type": "RECOGNITION",
+      "ends_on": "Devraj says aloud that Meera is his daughter and that he was wrong to call her a stranger.",
+      "pays_off": null,
+      "status": 6
+    },
+    {
+      "ep": 10,
+      "turn": "Kavita traces the alleged Rs 5 lakh payment to a cooperative account connected to Raghav’s cousin, while Raghav insists the deposit was for a tractor.",
+      "hook_type": "REVERSAL",
+      "ends_on": "The account received the money two days before Meera disappeared, but the tractor was never registered.",
+      "pays_off": null,
+      "status": 6
+    },
+    {
+      "ep": 11,
+      "turn": "Tara gives Kavita a hidden memory test: Meera identifies the clay bird Tara buried under the neem tree, a fact never recorded in any document.",
+      "hook_type": "DISCOVERY",
+      "ends_on": "Tara embraces Meera in front of the village and calls her mother, breaking the last public refusal inside her family.",
+      "pays_off": "Tara accepts Meera as her mother, and Meera is allowed to sleep in her own house with both children.",
+      "status": 7
+    },
+    {
+      "ep": 12,
+      "turn": "Raghav tries to withdraw his earlier statement by claiming Meera was never in Kota, but Babulal produces an unclosed travel-register entry bearing Raghav’s vehicle number.",
+      "hook_type": "DEADLINE",
+      "ends_on": "The register shows Raghav’s vehicle left Kota the same night the second alleged buyer disappeared.",
+      "pays_off": null,
+      "status": 7
+    },
+    {
+      "ep": 13,
+      "turn": "DNA testing confirms Meera is Devraj’s biological daughter and identifies the burned body as Kesar, giving Janki proof that her sister was the woman cremated under Meera’s name.",
+      "hook_type": "REVEAL",
+      "ends_on": "The DNA report places Kesar at the accident site and Meera nowhere near the death scene.",
+      "pays_off": "Meera’s identity is scientifically confirmed, and Janki finally receives her sister’s death certificate under Kesar’s name.",
+      "status": 9
+    },
+    {
+      "ep": 14,
+      "turn": "At a public court hearing in Dharmapur, the murder case against Salim, Naresh, Pintu and Irfan is quashed for lack of a murdered Meera, Raghav is arrested over the money trail and Meera’s death record is formally cancelled.",
+      "hook_type": "REVERSAL",
+      "ends_on": "The official register now records one final fact: Meera is alive, Kesar was the woman cremated, and all four accused are free.",
+      "pays_off": "Meera’s name, her children, the four men’s freedom, Devraj’s public apology, Janki’s answer and Kesar’s identity are all restored before the same villagers who witnessed Meera’s humiliation in Episode 1.",
+      "status": 9
+    }
+  ],
+  "never_narrate_as_fact": [
+    "t4: The returned woman claimed that she went with a man to Bhanupara, was allegedly sold to another man for Rs 5 lakh and lived in Kota for eighteen months before escaping. (alleged)"
+  ],
+  "category": "DENIED IDENTITY",
+  "hunt_scores": {
+    "engine_longevity": 9,
+    "hook_density": 10,
+    "emotional_immediacy": 10,
+    "conflict": 9,
+    "cast_depth": 9,
+    "total": 47
+  },
+  "commissioned": {
+    "by": "unattributed",
+    "at": "2026-07-25T23:34:36+00:00",
+    "over_scout_pick": false
+  }
+}

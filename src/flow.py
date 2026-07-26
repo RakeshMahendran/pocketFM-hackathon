@@ -20,6 +20,7 @@ to a search engine. Everything after it can be generated live.
 
 import sys
 import time
+import pathlib
 import argparse
 import datetime as dt
 from typing import Any, Callable, Dict, List, Optional
@@ -33,6 +34,28 @@ class Stage:
     def __init__(self, name: str, done: Callable[[], bool],
                  run: Callable[[], Any], why: str):
         self.name, self.done, self.run, self.why = name, done, run, why
+
+
+def event_id_for(story_dir: pathlib.Path) -> str:
+    """
+    The id the serial writer looks its dossier up by.
+
+    Not the story id and not derivable from it: the planner mints its own
+    `event_id` for the dossier it writes, and a story directory is named by
+    whoever commissioned it. The copy `serial.persist()` leaves beside the season
+    is the authority when there is one, so re-running a stage reproduces the
+    season that is on disk rather than whatever was commissioned most recently.
+    """
+    local = story_dir / "dossier.json"
+    if local.exists():
+        return read_json(local)["event_id"]
+
+    written = read_json(DOSSIERS_PATH) if DOSSIERS_PATH.exists() else []
+    if not written:
+        raise RuntimeError(
+            f"no dossier for {story_dir.name} and nothing in {DOSSIERS_PATH.name} "
+            "— run the dossier stage first")
+    return written[-1]["event_id"]
 
 
 def _plan(story: str, ep: int, language: Optional[str],
@@ -54,7 +77,12 @@ def _plan(story: str, ep: int, language: Optional[str],
 
     def dossier_run():
         from src.scoring.run import main as expand_main
-        if expand_main() != 0:
+        # Explicit argv, always. Called with none, argparse falls back to
+        # `sys.argv` — which here is flow's own, so `--story` and `--ep` reach a
+        # parser that has never heard of them and it exits the process. An empty
+        # list is the right argv anyway: every option this stage takes is
+        # optional, and the default is the scout's pick.
+        if expand_main([]) != 0:
             raise RuntimeError("expansion failed")
 
     def season_done():
@@ -63,7 +91,16 @@ def _plan(story: str, ep: int, language: Optional[str],
 
     def season_run():
         from src.generation.serial import main as serial_main
-        if serial_main() != 0:
+        # `--event` is required, so with no argv this parsed flow's command line
+        # and exited before writing anything.
+        #
+        # `--language` is deliberately not forwarded: flow's is the *audio variant*
+        # language ("hi", "ta", "ta-en" — a separate dub of the same episode),
+        # while the serial writer's is the register the season is written in and
+        # accepts only "en" or "hi-en". Passing one to the other is how a request
+        # for a Tamil dub would kill the write.
+        argv = ["--event", event_id_for(story_dir), "--story", story]
+        if serial_main(argv) != 0:
             raise RuntimeError("the serial writer failed")
 
     def audio_done():
@@ -108,8 +145,15 @@ def run(story: str, ep: int = 1, language: str = None,
         t = time.perf_counter()
         try:
             stage.run()
-        except Exception as exc:
-            log(f"  {stage.name:9} FAILED after {time.perf_counter() - t:.1f}s: {exc}",
+        # SystemExit is caught by name because it is a BaseException: argparse and
+        # anything else that calls `sys.exit` inside a stage went straight past a
+        # bare `except Exception`, took the whole process down, and the line below
+        # — the one telling an operator that nothing downstream ran and the command
+        # is safe to repeat — never printed. KeyboardInterrupt still propagates.
+        except (Exception, SystemExit) as exc:
+            detail = (f"exited with status {exc.code}"
+                      if isinstance(exc, SystemExit) else str(exc))
+            log(f"  {stage.name:9} FAILED after {time.perf_counter() - t:.1f}s: {detail}",
                 "error")
             log("nothing downstream ran — fix this stage and run the same command "
                 "again; everything before it is already done", "error")

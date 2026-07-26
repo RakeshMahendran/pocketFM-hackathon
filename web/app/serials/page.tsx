@@ -1,10 +1,21 @@
 import Link from "next/link";
 
 import { ClearanceBadge } from "@/components/ClearanceBadge";
+import { NextStep } from "@/components/NextStep";
 import { Notice } from "@/components/Notice";
+import { FREE_CLICK, slateNext, slateNothingLive } from "@/components/pathWords";
+import { readPublishState } from "@/lib/publish";
 import { loadSlate, type SerialSummary } from "@/lib/serials";
 import { requireEditor } from "@/lib/session";
-import { SHOWS_TITLE, STORY_LIST, category, verdict } from "@/lib/words";
+import {
+  SHOWS_TITLE,
+  STORY_LIST,
+  type SeasonRelease,
+  category,
+  releaseProgress,
+  seasonStanding,
+  verdict,
+} from "@/lib/words";
 
 export const dynamic = "force-dynamic";
 
@@ -111,8 +122,12 @@ function Stat({
   );
 }
 
-function Row({ s }: { s: SerialSummary }) {
+function Row({ s, season }: { s: SerialSummary; season: SeasonRelease }) {
   const rated = verdict(s.scores ? s.scores.total : null);
+  // What is actually out, which is the question this list could not answer. A
+  // live show and a draft one read differently at a glance — colour and words
+  // both — because the difference is the whole point of the column.
+  const standing = seasonStanding(season);
   return (
     <li className="border-b border-rule">
       <Link
@@ -122,6 +137,9 @@ function Row({ s }: { s: SerialSummary }) {
         <div className="flex items-start justify-between gap-8 flex-wrap">
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-3 flex-wrap">
+              <span className={`label ${standing.className}`}>
+                {standing.label}
+              </span>
               <ClearanceBadge clearance={s.clearance} />
               {s.category && <span className="label">{category(s.category)}</span>}
               <span
@@ -166,7 +184,15 @@ function Row({ s }: { s: SerialSummary }) {
                 ? s.episodeCount
                 : `${s.episodeCount}/${s.spineLength}`
             }
-            label="episodes written"
+            // Singular only when the value renders as a bare 1. A fraction
+            // reads as plural however small its numerator — "1/14 episode
+            // written" is wrong where "1 episode written" is right.
+            label={
+              s.episodeCount === 1 &&
+              (s.episodeCount === s.spineLength || !s.spineLength)
+                ? "episode written"
+                : "episodes written"
+            }
             hint="Scripts finished, out of the number the plan calls for."
             tone={s.episodeCount === 0 ? "caution" : undefined}
           />
@@ -194,8 +220,18 @@ function Row({ s }: { s: SerialSummary }) {
           />
         </div>
 
+        {/* Only where it says something this row does not already: on a live
+            show it names the episodes a listener can reach. On the five drafts
+            it is the same sentence about the two decisions five times over, and
+            the badge above has already said the whole of it. */}
+        {season.live && (
+          <p className="mt-5 text-sm text-muted leading-relaxed prose-col">
+            {standing.plain}
+          </p>
+        )}
+
         {s.missing.length > 0 && (
-          <p className="label mt-5 text-caution">
+          <p className="label mt-4 text-caution">
             not recorded for this show: {partWords(s.missing)}
           </p>
         )}
@@ -208,8 +244,68 @@ export default async function SlatePage() {
   await requireEditor();
   const { serials, warnings } = await loadSlate();
 
+  // One state file per show, read alongside the season it belongs to. The
+  // written count is already loaded, so passing it saves a directory read each.
+  const states = await Promise.all(
+    serials.map(async (s) => {
+      const p = await readPublishState(s.id, s.episodeCount);
+      return [
+        s.id,
+        {
+          live: p.live,
+          releasedThrough: p.releasedThrough,
+          written: p.episodeCount,
+        } satisfies SeasonRelease,
+      ] as const;
+    }),
+  );
+  const seasons = new Map<string, SeasonRelease>(states);
+
   const episodes = serials.reduce((n, s) => n + s.episodeCount, 0);
   const open = serials.reduce((n, s) => n + s.openPromises, 0);
+  const out = states.reduce((n, [, p]) => n + p.releasedThrough, 0);
+
+  // Seven rows drawn identically, and only one of them has listeners on it and
+  // an episode waiting to go out. That row is the one thing to do on this
+  // screen, and nothing on it said so — the live show sat sixth in the list.
+  //
+  // Nothing here decides whether the episode may actually go out; that is the
+  // check's answer and it is given on the show's own screen, where the button
+  // is. This only names which show is asking a question.
+  //
+  // More than one show can be mid-release, so the tie is broken on the rating —
+  // the same number the row itself shows, so a reader can see why that one. A
+  // stable rule matters more than a clever one: the slate's order is the order
+  // the folder was read in, and picking "the first" would move under a rename.
+  const waiting = serials
+    .filter((s) => {
+      const p = seasons.get(s.id);
+      return p && p.live && p.releasedThrough < p.written;
+    })
+    .sort((a, b) => (b.scores?.total ?? 0) - (a.scores?.total ?? 0))[0];
+  // Nothing live at all is the other real state — five of the seven sit here —
+  // and the move then is to open the one furthest along and put it live.
+  const readiest =
+    !waiting && serials.length > 0
+      ? serials.reduce((best, s) => (s.episodeCount > best.episodeCount ? s : best))
+      : null;
+
+  const lead = waiting ?? readiest;
+  const leadSeason = lead ? seasons.get(lead.id) : undefined;
+  const leadWords =
+    !lead || !leadSeason
+      ? null
+      : waiting
+        ? slateNext({
+            title: lead.title,
+            released: releaseProgress(
+              leadSeason.releasedThrough,
+              leadSeason.written,
+            ),
+            ep: leadSeason.releasedThrough + 1,
+            castCount: lead.castCount,
+          })
+        : slateNothingLive({ title: lead.title, castCount: lead.castCount });
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
@@ -228,13 +324,29 @@ export default async function SlatePage() {
           </p>
         </div>
 
+        {/* The bare episode count here was the written one, standing where a
+            reader would take it for what listeners have. Said as the two
+            numbers it actually is. */}
         {serials.length > 0 && (
           <div className="label text-right">
             {serials.length} show{serials.length === 1 ? "" : "s"} ·{" "}
-            {episodes} episodes · {open} loose end{open === 1 ? "" : "s"} still open
+            {releaseProgress(out, episodes)} · {open} loose end
+            {open === 1 ? "" : "s"} still open
           </div>
         )}
       </div>
+
+      {lead && leadWords && (
+        <div className="mt-8 max-w-2xl">
+          <NextStep
+            action={leadWords.action}
+            href={`/serials/${encodeURIComponent(lead.id)}`}
+            cost={FREE_CLICK}
+          >
+            {leadWords.plain}
+          </NextStep>
+        </div>
+      )}
 
       {warnings.length > 0 && (
         <div className="mt-8 space-y-3">
@@ -277,7 +389,17 @@ export default async function SlatePage() {
       ) : (
         <ul className="mt-10 border-t border-rule">
           {serials.map((s) => (
-            <Row key={s.id} s={s} />
+            <Row
+              key={s.id}
+              s={s}
+              season={
+                seasons.get(s.id) ?? {
+                  live: false,
+                  releasedThrough: 0,
+                  written: s.episodeCount,
+                }
+              }
+            />
           ))}
         </ul>
       )}

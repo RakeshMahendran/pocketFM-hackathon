@@ -1,0 +1,161 @@
+{
+  "char_id": "babulal",
+  "name": "Babulal",
+  "role": "Village records clerk who notices that Meera’s death paperwork was never properly closed",
+  "promotable": true,
+  "real_anchor": {
+    "maps_to": "invented",
+    "composite": true,
+    "clearance": "fictionalize_first"
+  },
+  "stub": {
+    "facts": [
+      "Babulal opened the records cupboard and produced Meera's death entry and connected murder-case file.",
+      "The register showed Meera as dead while four men remained jailed for her murder.",
+      "Devraj produced the hospital photograph and record he had used to identify the burned body by a tattoo and black wrist thread.",
+      "Kavita established that the tattoo in the body photograph was on the opposite hand from Meera's tattoo.",
+      "Kavita publicly established that Meera's fresh fingerprints matched two archived documents created before her disappearance.",
+      "The public verification combined the tattoo-hand discrepancy, family testimony, room knowledge and an examiner's opinion that the Kota signature had been copied.",
+      "Kavita announced that the evidence strongly supported Meera being alive and genuine, and Babulal sealed her death certificate as disputed while police acknowledged the original identification might have been wrong.",
+      "Janki recognised the burned body's hospital intake number as the same number recorded on Kesar's missing-person complaint.",
+      "Raghav filed a changed statement denying that he had taken Meera to Kota or introduced her to Shahid.",
+      "Babulal produced an unclosed Kota travel register bearing Raghav's former vehicle number and an arrival entry dated 2021-05-05 with three occupants.",
+      "The travel register recorded Raghav's vehicle leaving Kota at 02:14 on 2021-05-06 with two occupants rather than the three recorded on arrival.",
+      "Kavita established that Raghav's vehicle left Kota on the same night a second person connected in a complaint to an alleged buyer disappeared.",
+      "The records established that a duty officer wrote Meera's name on the body form after Raghav supplied that identity by telephone, and that Kesar was the third occupant left near the east depot before Raghav's vehicle departed Kota with two people.",
+      "Babulal issued Janki a death certificate under Kesar's name, and Kavita read that the DNA placed Kesar at the accident site and excluded Meera from it.",
+      "The court authorised Raghav's arrest after hearing the five-lakh-rupee money trail, the nonexistent tractor transaction, his changed statement and the false body-identification record.",
+      "Devraj repeated his public recognition of Meera, Janki displayed Kesar's corrected certificate and Babulal cancelled Meera's death entry while the four freed men walked out without restraints.",
+      "The official register recorded that Meera was alive, Kesar was the woman cremated and all four accused were free."
+    ],
+    "want": "To protect his job by correcting the record before the fraud reaches him",
+    "voice_samples": [
+      "This certifies the death under Kesar’s own name. The previous certificate naming Meera remains suspended for cancellation by the court.",
+      "One living person restored. One deceased person correctly identified. Four accused released from a case without a murdered Meera.",
+      "The official register now records one final fact: Meera is alive, Kesar was the woman cremated, and all four accused are free.",
+      "The tenant name is Sarla. The signature appears to say Meera. The date is the twenty-first of June, twenty twenty-one.",
+      "I have a red disputed-record seal. Once stamped, the certificate cannot be used as an uncontested proof of death.",
+      "The complaint identifies the missing woman as Kesar. A depot camera note records Raghav’s former vehicle number.",
+      "School admission register. Student name, Meera. Father's name, Devraj. Original left-thumb impression attached.",
+      "Vehicle numbers were being compared with local permits. The packet arrived seven months ago. Nobody indexed it.",
+      "Ration-card amendment form. Signed by Meera. Right-thumb impression taken two years before her disappearance.",
+      "There is a death certificate, cremation acknowledgement, family identification and a station register entry.",
+      "Kota commercial travel register. Entry gate, east depot. The binding was never closed after the final page.",
+      "The receiving duty officer wrote it. The entry says, identity supplied by telephone before family arrival."
+    ]
+  },
+  "bible": {
+    "want": "To audit, trace and quietly correct every document connected to the disputed death entry before an investigator can make Babulal answer for the office’s failures.",
+    "wound": "Babulal avoids formally admitting how unreliable the records under Babulal’s care have become, choosing narrow corrections over a full disclosure. That protects the job for another day but leaves other people acting on defective documents and makes every later correction look like evidence of a cover-up.",
+    "voice": "Clipped, orderly and evidentiary: document title, recorded name, date, then consequence. Babulal repeats labels and status words rather than opinions. When uncomfortable, Babulal changes the subject to filing procedure, seals, indexing and which authority must act next. When frightened, Babulal inventories what the paper says in short declarative sentences and refuses to say what it means.",
+    "engine": "The records office is full of interconnected documents that were copied, amended or never indexed, and correcting any one of them automatically calls several others into question. Babulal keeps trying to contain each defect privately to protect the job; every quiet correction creates new deadlines, suspicious applicants and contradictory records, forcing another correction without the condition ever switching off.",
+    "offscreen_ledger": [
+      {
+        "window": "between the season opening and b003",
+        "what": "Babulal inventories the death-register cupboard, matches loose file numbers against the shelf list and moves the connected entry and case file to the front for inspection."
+      },
+      {
+        "window": "between b004 and b007",
+        "what": "Babulal requests the identification packet attached to the death entry, logs its missing enclosures and prepares a receipt so no one can later claim the office lost them."
+      },
+      {
+        "window": "between b008 and b022",
+        "what": "Babulal searches older admission and ration files for uncontaminated identity impressions, obtains certified copies and sends them onward in sealed covers without opening any returned comparison packet."
+      },
+      {
+        "window": "between b024 and b032",
+        "what": "Babulal audits cremation acknowledgements and hospital-number sequences linked to disputed certificates, listing unmatched numbers without assigning any of them a new identity."
+      },
+      {
+        "window": "between b032 and b045",
+        "what": "Babulal opens neglected permit bundles, compares former vehicle numbers against commercial travel books and places an unclosed register under preservation before its binding can be altered."
+      },
+      {
+        "window": "between b048 and b051",
+        "what": "Babulal retrieves the receiving-duty log, photocopies the notation describing a telephone-supplied identity and secures written confirmation of who made the entry."
+      },
+      {
+        "window": "between b052 and b054",
+        "what": "Babulal prepares the cancellation docket for the superseded certificate and traces which offices received copies so each can be warned that its status has changed."
+      }
+    ],
+    "reframe": "The mainline is about a living woman overturning an accepted death; Babulal’s serial is a workplace thriller about a clerk repairing a poisoned archive while trying not to become the institution’s chosen scapegoat.",
+    "stance": "dupe",
+    "genre": "Bureaucratic thriller",
+    "pitch": "A records clerk tries to erase one fatal error from the books, only to find that every correction exposes another document someone needs to remain true."
+  },
+  "season": [
+    {
+      "ep": 1,
+      "turn": "During a routine reconciliation, Babulal finds that Meera's death certificate was issued even though the death entry's mandatory closure column was left blank.",
+      "ends_on": "The certificate issue column is complete, but the closure column beside Meera's name is empty.",
+      "hook_type": "DISCOVERY",
+      "sets_in": "OPEN SPACE between the season opening and b003"
+    },
+    {
+      "ep": 2,
+      "turn": "Babulal opens the connected cupboard files and learns that the unclosed death entry supports a murder case in which four men remain jailed.",
+      "ends_on": "The annual-review sheet declaring the packet complete bears Babulal's initials.",
+      "hook_type": "ACCUSATION",
+      "sets_in": "b003 and b004"
+    },
+    {
+      "ep": 3,
+      "turn": "The opposite-hand tattoo in the hospital photograph turns Babulal's clerical omission into a possible false identification that cannot be corrected without older biometric records.",
+      "ends_on": "The correction rules require two original pre-disappearance biometric records before a death entry can be disputed.",
+      "hook_type": "REVERSAL",
+      "sets_in": "b007 and b008"
+    },
+    {
+      "ep": 4,
+      "turn": "Babulal follows the oldest surviving index and retrieves Meera's school admission register as the first admissible biometric record.",
+      "ends_on": "The school register names Meera and Devraj and carries Meera's original left-thumb impression.",
+      "hook_type": "DISCOVERY",
+      "sets_in": "OPEN SPACE between b008 and b022"
+    },
+    {
+      "ep": 5,
+      "turn": "The school record lets Babulal locate a ration-card amendment as the second exemplar, but retrieving the original requires him to accept personal custody of it.",
+      "ends_on": "The district examiner will close the disputed-record intake at noon the next day.",
+      "hook_type": "DEADLINE",
+      "sets_in": "OPEN SPACE between b008 and b022"
+    },
+    {
+      "ep": 6,
+      "turn": "Babulal produces both archived originals for the public fingerprint match and stamps Meera's death certificate as disputed when the impressions match.",
+      "ends_on": "The audit notice states that the clerk applying the disputed-record seal is now personally answerable for every dependent record.",
+      "hook_type": "THREAT",
+      "sets_in": "b022, b023 and b024"
+    },
+    {
+      "ep": 7,
+      "turn": "The dependent-record audit forces Babulal to circulate the burned body's hospital intake number, allowing Janki to connect it to another missing-person record.",
+      "ends_on": "Janki says the hospital intake number is the same number recorded on Kesar's missing-person complaint.",
+      "hook_type": "RECOGNITION",
+      "sets_in": "OPEN SPACE between b024 and b032, ending at b032"
+    },
+    {
+      "ep": 8,
+      "turn": "Janki's recognition gives Babulal grounds to inventory unindexed Kota holdings, where he finds an unclosed commercial travel register.",
+      "ends_on": "The unindexed packet is labeled “Kota commercial travel register—east depot.”",
+      "hook_type": "DISCOVERY",
+      "sets_in": "OPEN SPACE between b032 and b045"
+    },
+    {
+      "ep": 9,
+      "turn": "After Raghav denies making the Kota journey, Babulal produces the register that records his former vehicle arriving with three occupants and leaving with two.",
+      "ends_on": "The register records Raghav's vehicle departing at 02:14 with two occupants on the night another person linked to a complaint disappeared.",
+      "hook_type": "REVEAL",
+      "sets_in": "b045, b046, b047 and b048"
+    },
+    {
+      "ep": 10,
+      "turn": "The travel record completes the official chain that lets Babulal certify Kesar's death, cancel Meera's death entry and place his name behind the correction that frees four accused men.",
+      "ends_on": "The official register records that Meera is alive, Kesar was the woman cremated and all four accused are free.",
+      "hook_type": "REVERSAL",
+      "sets_in": "b051, b052, b055 and b056"
+    }
+  ],
+  "title": "The Open Register",
+  "logline": "A village records clerk trying to quietly repair an unclosed death file becomes personally responsible for following its contradictions through every office and correcting the identities on which a murder case depends."
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { Pipeline } from "@/components/Pipeline";
 import { getEditor, signOut } from "@/lib/session";
 import { SHOWS_TITLE, STORY_LIST_TITLE } from "@/lib/words";
 import "./globals.css";
@@ -19,6 +20,11 @@ export const metadata: Metadata = {
  * Signed out, the nav offers nothing. Not for security — the guard that matters
  * is in each page — but because links into an app you cannot read are noise on
  * the one screen that has a single job.
+ *
+ * Under the nav, and only signed in, sits the pipeline ribbon. The nav answers
+ * "what are the two areas"; the ribbon answers "which of the four steps am I
+ * standing in", which is the question no screen in this console could answer.
+ * It adds no link — see `components/Pipeline.tsx` for why that is deliberate.
  */
 export default async function RootLayout({ children }: LayoutProps<"/">) {
   const editor = await getEditor();
@@ -68,6 +74,8 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
             )}
           </div>
         </header>
+
+        {editor && <Pipeline />}
 
         <main className="flex-1">{children}</main>
 

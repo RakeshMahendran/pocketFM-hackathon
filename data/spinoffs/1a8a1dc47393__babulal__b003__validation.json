@@ -1,0 +1,40 @@
+{
+  "story_id": "1a8a1dc47393",
+  "char_id": "babulal",
+  "anchor_beat_id": "b003",
+  "constrained": true,
+  "status": "violations",
+  "violations": [
+    {
+      "check": "refuter",
+      "severity": "error",
+      "quote": "On the morning of November fourteenth, Babulal began with the death-register cupboard because nobody else wanted to count what was inside it.",
+      "beat_id": "b003",
+      "why": "The locked narrator asserts the motive of everyone else in the office, a collective fact outside Babulal’s understanding rather than framing it as her belief. The locked narrator asserts every other worker’s private unwillingness as fact, although Babulal has not observed or been told that motive.",
+      "source": "refuter_omniscience, refuter_inference"
+    }
+  ],
+  "n_errors": 1,
+  "deterministic_errors": [],
+  "inconclusive": [],
+  "attempts_that_failed": {
+    "refuter_specificity": [
+      "Checked every precise number, date, distance, count, and status: November fourteenth is the current date; shelf and volume counts, twenty centimeters, five/two/twenty minutes, file-stack counts, and the blank recipient column are all directly observed or locally recorded.",
+      "Checked the Meera particulars against b003-b004: her recorded death, connected murder file, four accused, and jailed status all come from the register and file Babulal opens in the scene.",
+      "Tested Babulal's decision to preserve and inspect the records for forbidden-knowledge leakage; it is fully motivated by the mis-shelved register, absent receipt, and blank recipient column, without requiring knowledge of Meera's return or the wider conspiracy.",
+      "Attacked the narrator for omniscience, especially “because nobody else wanted to count what was inside it” and the statements about shame, fear, silence, and signatures; these remain within Babulal's perceptions and judgments rather than asserting an unseen plot fact or another character's specific hidden action."
+    ],
+    "refuter_omniscience": [
+      "Checked whether Babulal’s preemptive handling of Meera’s records required knowledge of Kavita’s impending request; the missing receipt and mis-shelved register provide an innocent reason.",
+      "Checked the precise date, volume counts, shelf counts, twenty-centimeter distance, file status and elapsed twenty minutes; each is available from Babulal’s own work, direct observation, office records or spoken dialogue.",
+      "Checked the narration of Babulal’s humiliation, fear and conflict between job security and record protection; these describe her own internal state and do not leak wider-plot knowledge."
+    ],
+    "refuter_inference": [
+      "Tested whether Babulal moved Meera’s records forward because she somehow knew Kavita would request them; the absent receipt and mis-shelving provide an innocent reason for that choice.",
+      "Checked the exact counts, twenty-centimeter distance, twenty-minute interval, date, and recipient-column detail; all are available through direct observation or ordinary workplace knowledge.",
+      "Checked her knowledge that four accused remained jailed; she reads that status directly from the connected file in the scene."
+    ]
+  },
+  "members_run": 6,
+  "members_expected": 6
+}

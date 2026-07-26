@@ -2,7 +2,22 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { KnowledgeSplit } from "@/components/KnowledgeSplit";
+import { NextStep } from "@/components/NextStep";
 import { Notice } from "@/components/Notice";
+import { FREE_CLICK, ROSTER_NOBODY, rosterNext } from "@/components/pathWords";
+import { StartSpinoffRun } from "@/components/StartSpinoffRun";
+import {
+  ROW_FAILED,
+  ROW_RUNNING,
+  rosterCost,
+  rowAction,
+  rowOpen,
+} from "@/components/spinoffRunWords";
+import {
+  readSpinoffRuns,
+  spinoffRunIsOffline,
+  type SpinoffRunStatus,
+} from "@/lib/spinoff-run";
 import { loadRoster, type CastRow } from "@/lib/spinoffs";
 import { loadSerial } from "@/lib/serials";
 import { requireEditor } from "@/lib/session";
@@ -54,7 +69,81 @@ function Made({ row }: { row: CastRow }) {
   );
 }
 
-function Person({ storyId, row }: { storyId: string; row: CastRow }) {
+/**
+ * The one thing this row offers to do next, and never two of them.
+ *
+ * A character with episodes already written is offered those rather than
+ * another paid run — the roster is where somebody browses, and the cheapest
+ * mistake to make here is starting a run for work that already exists. A run
+ * under way or stopped sends them to the character's own page, which is the
+ * only screen that watches one.
+ *
+ * No button at all when `promotable` is false. That is `views.promotable()`'s
+ * judgement, arriving through `loadRoster`; the row already prints its reason
+ * in `standing.why` two lines above.
+ */
+function RowAction({
+  storyId,
+  row,
+  run,
+  cost,
+}: {
+  storyId: string;
+  row: CastRow;
+  run: SpinoffRunStatus | null;
+  /** What starting one spends, so the control carries it as well as the header. */
+  cost: string;
+}) {
+  const href = `/serials/${encodeURIComponent(storyId)}/cast/${encodeURIComponent(row.charId)}`;
+
+  if (run?.state === "running") {
+    return (
+      <Link href={href} className="label text-ochre hover:text-paper transition-colors">
+        {ROW_RUNNING}
+      </Link>
+    );
+  }
+
+  if (run?.state === "failed") {
+    return (
+      <Link href={href} className="label text-halt hover:text-paper transition-colors">
+        {ROW_FAILED}
+      </Link>
+    );
+  }
+
+  if (row.anchors.length > 0) {
+    return (
+      <Link href={href} className="label text-ochre hover:text-paper transition-colors">
+        {rowOpen(row.anchors.length)}
+      </Link>
+    );
+  }
+
+  if (!row.promotable) return null;
+
+  return (
+    <StartSpinoffRun
+      storyId={storyId}
+      charId={row.charId}
+      label={rowAction(row.hasBible)}
+      variant="row"
+      title={cost}
+    />
+  );
+}
+
+function Person({
+  storyId,
+  row,
+  run,
+  cost,
+}: {
+  storyId: string;
+  row: CastRow;
+  run: SpinoffRunStatus | null;
+  cost: string;
+}) {
   const standing = rosterStanding(row);
   const href = `/serials/${encodeURIComponent(storyId)}/cast/${encodeURIComponent(row.charId)}`;
 
@@ -88,6 +177,10 @@ function Person({ storyId, row }: { storyId: string; row: CastRow }) {
         </p>
 
         <Made row={row} />
+
+        <div className="mt-4">
+          <RowAction storyId={storyId} row={row} run={run} cost={cost} />
+        </div>
       </div>
 
       <div className="lg:pt-1">
@@ -102,15 +195,63 @@ export default async function CastPage(props: PageProps<"/serials/[id]/cast">) {
   const { id } = await props.params;
   const storyId = decodeURIComponent(id);
 
-  const [serial, roster] = await Promise.all([
+  const [serial, roster, offline] = await Promise.all([
     loadSerial(storyId),
     loadRoster(storyId),
+    spinoffRunIsOffline(),
   ]);
   if (!serial) notFound();
+
+  // Read after the roster, because it is the roster that says who is on it. One
+  // small file per character, so this is a handful of reads and it is what
+  // stops a row offering to start a run that is already going.
+  const runs = await readSpinoffRuns(
+    storyId,
+    roster.rows.map((r) => r.charId),
+  );
 
   const promotable = roster.rows.filter((r) => r.promotable).length;
   const worked = roster.rows.filter((r) => r.hasBible).length;
   const written = roster.rows.filter((r) => r.anchors.length > 0).length;
+
+  // Said once, above the list. Twenty rows cannot each carry a sentence, and a
+  // producer should not have to hover a button to find out it spends money.
+  const cost = rosterCost(offline);
+  const canStart = roster.rows.some((r) => r.promotable);
+
+  // Eighteen names and eight identical paid buttons, with nothing saying which
+  // one to touch. The row named here is somebody already written where there is
+  // one — free to read, and the strongest thing on the screen — otherwise the
+  // first name the roster ranks, which is the one shut out of the most.
+  //
+  // The step offered is deliberately the free one. Opening a person costs
+  // nothing; the paid button lives on their own page with the sentence that says
+  // what it spends, and that is the right order to meet the two in.
+  //
+  // A row with a run already going is passed over where there is an alternative:
+  // the point of naming one is to offer a free click, and a run under way is
+  // something to watch rather than something to start. The wording still handles
+  // it, because on a small cast it can be the only row left.
+  const preferences: ((r: CastRow, i: number) => boolean)[] = [
+    (r) => r.anchors.length > 0,
+    (r, i) => r.promotable && runs[i]?.state !== "running",
+    (r) => r.promotable,
+  ];
+  let leadAt = -1;
+  for (const wanted of preferences) {
+    leadAt = roster.rows.findIndex(wanted);
+    if (leadAt >= 0) break;
+  }
+  const lead = leadAt >= 0 ? roster.rows[leadAt] : null;
+  const leadWords = lead
+    ? rosterNext({
+        name: lead.name,
+        witnessed: lead.witnessed,
+        blind: lead.blind,
+        written: lead.anchors.length,
+        running: runs[leadAt]?.state === "running",
+      })
+    : null;
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
@@ -135,7 +276,37 @@ export default async function CastPage(props: PageProps<"/serials/[id]/cast">) {
             episode already written
           </p>
         )}
+
+        {canStart && (
+          <p className="mt-4 text-sm text-muted leading-relaxed prose-col">
+            {cost}
+          </p>
+        )}
       </header>
+
+      {lead && leadWords ? (
+        <div className="mt-8 max-w-2xl">
+          <NextStep
+            action={leadWords.action}
+            href={`/serials/${encodeURIComponent(storyId)}/cast/${encodeURIComponent(lead.charId)}`}
+            cost={FREE_CLICK}
+          >
+            {leadWords.plain}
+          </NextStep>
+        </div>
+      ) : (
+        roster.rows.length > 0 && (
+          <div className="mt-8 max-w-2xl">
+            <NextStep
+              tone="onward"
+              action={ROSTER_NOBODY.action}
+              href={`/serials/${encodeURIComponent(storyId)}`}
+            >
+              {ROSTER_NOBODY.plain}
+            </NextStep>
+          </div>
+        )
+      )}
 
       {roster.warning && (
         <div className="mt-8">
@@ -156,8 +327,14 @@ export default async function CastPage(props: PageProps<"/serials/[id]/cast">) {
 
       {roster.rows.length > 0 && (
         <ul className="mt-10 border-t border-rule">
-          {roster.rows.map((row) => (
-            <Person key={row.charId} storyId={storyId} row={row} />
+          {roster.rows.map((row, i) => (
+            <Person
+              key={row.charId}
+              storyId={storyId}
+              row={row}
+              run={runs[i] ?? null}
+              cost={cost}
+            />
           ))}
         </ul>
       )}

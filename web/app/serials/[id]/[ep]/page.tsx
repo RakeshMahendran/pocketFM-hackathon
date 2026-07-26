@@ -1,10 +1,28 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { EpisodeAudio } from "@/components/EpisodeAudio";
 import { EpisodeScript, listenMinutes } from "@/components/EpisodeScript";
+import { NextStep } from "@/components/NextStep";
+import {
+  FREE_CLICK,
+  episodeEndOfSeason,
+  episodeNextOut,
+} from "@/components/pathWords";
+import {
+  EPISODE_LIST_ANCHOR,
+  EpisodeStanding,
+} from "@/components/ReleaseControls";
 import { endingPhrase } from "@/components/SeasonSpine";
+import { readChecks, readPublishState } from "@/lib/publish";
 import { loadEpisode, loadSerial } from "@/lib/serials";
 import { requireEditor } from "@/lib/session";
+import {
+  EPISODE_LIST_TITLE,
+  RELEASE_NOT_A_PUSH,
+  type SeasonRelease,
+  seasonStanding,
+} from "@/lib/words";
 
 export const dynamic = "force-dynamic";
 
@@ -35,11 +53,55 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
   const [serial, episode] = await Promise.all([loadSerial(id), loadEpisode(id, n)]);
   if (!serial || !episode) notFound();
 
+  // The release state of THIS episode, and the season's checks that stand in
+  // front of it. The checks are re-read here rather than assumed from the season
+  // page, for the same reason `publish_episode()` re-runs them on every release:
+  // episodes go out days apart and the beat sheet can be edited in between.
+  const [publishState, checks] = await Promise.all([
+    readPublishState(id, serial.episodeCount),
+    readChecks(id),
+  ]);
+  const season: SeasonRelease = {
+    live: publishState.live,
+    releasedThrough: publishState.releasedThrough,
+    written: publishState.episodeCount,
+  };
+  const showStanding = seasonStanding(season);
+  const release = publishState.episodes.find((r) => r.ep === n) ?? null;
+
   const plan = serial.spine.find((e) => e.ep === n) ?? null;
   const order = serial.episodes.map((e) => e.ep);
   const at = order.indexOf(n);
   const prev = at > 0 ? order[at - 1] : null;
   const next = at >= 0 && at < order.length - 1 ? order[at + 1] : null;
+
+  /*
+   * Where a reader goes after the last line of a script.
+   *
+   * Two dead ends met here and neither went anywhere. An episode already with
+   * listeners left the one that could actually go out unnamed, sitting somewhere
+   * in a list on another screen; and the last episode of a season ended on the
+   * words "End of season" with no route on at all — which is exactly the point
+   * where the fourth step of the pipeline begins.
+   *
+   * Nothing here releases anything. The release control for this episode is the
+   * gated one at the top of this page, and the one for episode N is on episode
+   * N's own page. This only says which episode is the one, and where the path
+   * carries on when there is no episode left.
+   */
+  const pending =
+    season.live && season.releasedThrough < season.written
+      ? season.releasedThrough + 1
+      : null;
+  const onward =
+    pending !== null && pending !== n
+      ? { words: episodeNextOut(pending), href: `/serials/${serial.id}/${pending}` }
+      : next === null
+        ? {
+            words: episodeEndOfSeason(serial.title),
+            href: `/serials/${serial.id}/cast`,
+          }
+        : null;
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
@@ -98,6 +160,49 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
         )}
       </header>
 
+      {/*
+        This episode's own release decision, above the script rather than under
+        it. Whether listeners can reach this one, who put it out and when, and
+        the button if it is the one that can go next — the season-level state is
+        the line above it, because an episode cannot go out while the show is
+        not live and a producer needs to see both at once.
+      */}
+      <section className="mt-10 border border-rule rounded-sm p-5 max-w-3xl">
+        <div className="flex items-baseline justify-between gap-4 flex-wrap">
+          <span className={`label ${showStanding.className}`}>
+            {showStanding.label}
+          </span>
+          <Link
+            href={`/serials/${serial.id}#${EPISODE_LIST_ANCHOR}`}
+            className="label text-ochre hover:text-paper transition-colors"
+          >
+            {EPISODE_LIST_TITLE} →
+          </Link>
+        </div>
+
+        <div className="mt-4 border-t border-rule pt-4">
+          <EpisodeStanding
+            storyId={serial.id}
+            ep={n}
+            season={season}
+            release={release}
+            checks={checks}
+            detailed
+          />
+        </div>
+
+        <p className="mt-4 text-xs text-faint prose-col leading-relaxed">
+          {RELEASE_NOT_A_PUSH}
+        </p>
+      </section>
+
+      {/*
+        Above the script, not below it. This is an audio drama: the recording is
+        the product and the script is how it was made, so a reader who stops
+        scrolling here has still met the thing itself.
+      */}
+      <EpisodeAudio storyId={id} ep={n} />
+
       <article className="mt-12 border-t border-rule pt-10">
         <EpisodeScript body={episode.body} />
       </article>
@@ -112,6 +217,18 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
           <p className="text-[0.9375rem] text-muted leading-relaxed mt-2 prose-col">
             {plan.endsOn}
           </p>
+        </div>
+      )}
+
+      {onward && (
+        <div className="mt-12 max-w-2xl">
+          <NextStep
+            action={onward.words.action}
+            href={onward.href}
+            cost={FREE_CLICK}
+          >
+            {onward.words.plain}
+          </NextStep>
         </div>
       )}
 

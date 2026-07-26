@@ -401,7 +401,7 @@ export function ScoutReplay({
               of={group(replay.reasoningSteps)}
             />
             <Stat
-              label="Stories found"
+              label="Found in this search"
               value={done && replay.candidates !== null ? group(replay.candidates) : "—"}
             />
           </div>
@@ -487,9 +487,16 @@ export function ScoutReplay({
             </p>
           ) : (
             <>
+              {/*
+                "this search" and not "stories found": the recording is one of
+                eight category hunts, and the page above it reports the whole
+                corpus. Said the old way the two numbers sat on one screen
+                contradicting each other — 29 above, 4 here — and a reader had
+                no way to tell which was lying.
+              */}
               <p className="mt-4 font-serif text-2xl leading-snug prose-col">
-                {group(replay.candidates)} stories found, rated, and checked
-                against what we are allowed to make.
+                This search found {group(replay.candidates)}, rated them, and
+                checked each against what we are allowed to make.
               </p>
               <div className="mt-5 flex flex-wrap gap-x-8 gap-y-2">
                 <span
@@ -539,7 +546,7 @@ export function ScoutReplay({
 
               {replay.winner && (
                 <p className="mt-6 text-sm text-muted prose-col">
-                  Out of everything it found, its own pick was{" "}
+                  The best of what this one search turned up was{" "}
                   <span className="text-paper font-serif text-base">
                     {replay.winner}
                   </span>

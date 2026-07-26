@@ -1,3 +1,4 @@
+import { ruledOutCount } from "@/components/pathWords";
 import type { Verdict, Violation } from "@/lib/spinoffs";
 import {
   ATTEMPTS_EXPLAINED,
@@ -126,11 +127,28 @@ function Finding({ v }: { v: Violation }) {
 export function ContinuityVerdict({
   verdict,
   heading = true,
+  foldAttempts = true,
 }: {
   verdict: Verdict;
   heading?: boolean;
+  /**
+   * Put the attempts list behind a click, keeping its count on the summary line.
+   *
+   * On by default, because of where this block actually lands: a character with
+   * two episodes renders it up to five times on one screen — once per episode,
+   * once more inside each control comparison — and each list runs to a dozen
+   * paragraphs. Together they were most of the screen's length.
+   *
+   * Folding does not soften the claim. The count stays on the closed line, and
+   * "clean, with fifteen suspicions ruled out" is the sentence that matters;
+   * which fifteen is what somebody opens afterwards.
+   */
+  foldAttempts?: boolean;
 }) {
   const said = verdictSaid(verdict);
+  const attempts = verdict.attemptsThatFailed.flatMap((a, m) =>
+    a.notes.map((note, i) => ({ key: `${m}-${a.member}-${i}`, note })),
+  );
   const disagrees =
     verdict.declaredErrorCount !== null &&
     verdict.declaredErrorCount !== verdict.errorCount;
@@ -196,26 +214,60 @@ export function ContinuityVerdict({
 
       {/* What a clean result is made of. Without this a green verdict is an
           assertion; with it, it is a list of things somebody tried. */}
-      {verdict.attemptsThatFailed.length > 0 && (
-        <div className="mt-8">
-          <h3 className="label">{ATTEMPTS_HEADING}</h3>
-          <p className="text-sm text-muted leading-relaxed mt-2 prose-col">
-            {ATTEMPTS_EXPLAINED}
-          </p>
-          <ul className="mt-4 space-y-2.5">
-            {verdict.attemptsThatFailed.flatMap((a) =>
-              a.notes.map((note, i) => (
+      {attempts.length > 0 &&
+        (foldAttempts ? (
+          <details className="group mt-8 border-t border-rule">
+            <summary className="py-3 cursor-pointer list-none flex items-baseline justify-between gap-6 hover:text-ochre transition-colors">
+              <span className="label">
+                {ATTEMPTS_HEADING}
+                <span className="group-open:hidden" aria-hidden="true">
+                  {" "}
+                  ▸
+                </span>
+                <span className="hidden group-open:inline" aria-hidden="true">
+                  {" "}
+                  ▾
+                </span>
+              </span>
+              {/* The count is the part that matters closed: a clean verdict
+                  backed by nine ruled-out suspicions reads differently from one
+                  backed by none, and that has to survive the fold. */}
+              <span className="label shrink-0">
+                {ruledOutCount(attempts.length)}
+              </span>
+            </summary>
+            <p className="text-sm text-muted leading-relaxed pb-4 prose-col">
+              {ATTEMPTS_EXPLAINED}
+            </p>
+            <ul className="space-y-2.5 pb-4">
+              {attempts.map((a) => (
                 <li
-                  key={`${a.member}-${i}`}
+                  key={a.key}
                   className="text-sm text-faint leading-relaxed prose-col border-l border-rule pl-4"
                 >
-                  {note}
+                  {a.note}
                 </li>
-              )),
-            )}
-          </ul>
-        </div>
-      )}
+              ))}
+            </ul>
+          </details>
+        ) : (
+          <div className="mt-8">
+            <h3 className="label">{ATTEMPTS_HEADING}</h3>
+            <p className="text-sm text-muted leading-relaxed mt-2 prose-col">
+              {ATTEMPTS_EXPLAINED}
+            </p>
+            <ul className="mt-4 space-y-2.5">
+              {attempts.map((a) => (
+                <li
+                  key={a.key}
+                  className="text-sm text-faint leading-relaxed prose-col border-l border-rule pl-4"
+                >
+                  {a.note}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
     </div>
   );
 }

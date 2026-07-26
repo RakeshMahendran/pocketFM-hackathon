@@ -381,6 +381,33 @@ def unmapped_names(dossier: Dict[str, Any]) -> List[str]:
     return [p["name"] for p in dossier.get("people", []) if p.get("name") not in fmap]
 
 
+def merge_dossier(dossier: Dict[str, Any],
+                  path: Optional[pathlib.Path] = None) -> List[Dict[str, Any]]:
+    """
+    Every commission so far, the one just written last.
+
+    Replacing the file with a one-element list threw away every earlier dossier,
+    and `serial.load_dossier` reads this file — so a season could be commissioned
+    and then never rewritten, because the record of what it was made from was
+    gone by the time anyone asked.
+
+    Newest-last is a contract, not an accident of appending. `commission.py` reads
+    `written[-1]` to learn the `event_id` the planner minted, which it cannot know
+    in advance — it passes a corpus id in and gets a dossier id back. Re-planning
+    the same event replaces its entry rather than adding a second, so that read
+    stays correct and the file does not grow a duplicate every re-run.
+    """
+    path = path or DOSSIERS_PATH
+    existing = read_json(path) if path.exists() else []
+    if not isinstance(existing, list):
+        # A hand-edited file holding one bare dossier is not worth failing over,
+        # but it is also not something to append into.
+        log(f"{path} is not a list of dossiers — starting a new one", "warn")
+        existing = []
+    kept = [d for d in existing if d.get("event_id") != dossier.get("event_id")]
+    return kept + [dossier]
+
+
 def main(argv: Optional[Sequence[str]] = None) -> int:
     parser = argparse.ArgumentParser(
         prog="tasks.py score",
@@ -475,10 +502,11 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         "over_scout_pick": not candidate.get("winner", False),
     }
 
-    write_json(DOSSIERS_PATH, [dossier])
+    written = merge_dossier(dossier)
+    write_json(DOSSIERS_PATH, written)
     who = dossier["commissioned"]["by"]
     log(f"{dossier.get('title', '?')}: {len(dossier.get('season', []))} episodes, "
-        f"commissioned by {who}")
+        f"commissioned by {who} ({len(written)} in {DOSSIERS_PATH.name})")
     return 0
 
 

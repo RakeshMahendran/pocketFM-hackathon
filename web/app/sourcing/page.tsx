@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 import { ClearanceBadge } from "@/components/ClearanceBadge";
+import { NextStep } from "@/components/NextStep";
 import { Notice } from "@/components/Notice";
+import { FREE_CLICK, sourcingNext } from "@/components/pathWords";
 import { loadCorpus } from "@/lib/data";
 import { requireEditor } from "@/lib/session";
 import {
@@ -94,6 +96,23 @@ export default async function SourcingQueue() {
   const blocked = candidates.filter((c) => c.clearance?.status === "blocked").length;
   const canMake = candidates.length - blocked;
 
+  // Thirty-four links, all drawn alike, and nothing saying which row a producer
+  // is meant to open. The list is already sorted best first and pushes anything
+  // blocked to the bottom, so the one to name is the search's own first place —
+  // or, if it never named one, the best row we are actually allowed to touch.
+  // Never a blocked row: pointing at a story nobody may commission is worse than
+  // pointing at nothing.
+  const makeable = candidates.filter((c) => c.clearance?.status !== "blocked");
+  const winner = makeable.find((c) => c.winner) ?? null;
+  const lead = winner ?? makeable[0] ?? null;
+  const leadWords = lead
+    ? sourcingNext({
+        title: lead.title,
+        top: Boolean(winner),
+        made: Boolean(lead.madeAs),
+      })
+    : null;
+
   return (
     <div className="mx-auto max-w-6xl px-8 py-12">
       <div className="flex items-baseline justify-between gap-6 flex-wrap">
@@ -140,6 +159,18 @@ export default async function SourcingQueue() {
           Sorted best first. {BAR_EXPLAINED} Anything we legally can&rsquo;t make
           sits at the bottom.
         </p>
+      )}
+
+      {lead && leadWords && (
+        <div className="mt-8 max-w-2xl">
+          <NextStep
+            action={leadWords.action}
+            href={`/candidates/${encodeURIComponent(lead.id)}`}
+            cost={FREE_CLICK}
+          >
+            {leadWords.plain}
+          </NextStep>
+        </div>
       )}
 
       {warnings.length > 0 && (

@@ -13,6 +13,7 @@ import pytest
 from src.util import SAMPLES
 from src.scoring.validate import (alleged_as_fact, contradictory_beats, coverage,
                                   load_beats, load_story, present_but_unstated,
+                                  real_name_tokens, real_names_on_the_page,
                                   stories, thin_characters, unknown_participants,
                                   unstated_ignorance, untraceable_beats,
                                   validate_output)
@@ -152,6 +153,128 @@ def test_an_empty_beat_sheet_is_fatal(dossier):
 
 
 # ----------------------------------------------------------------------------
+# Hard rule 4 — real names.
+# ----------------------------------------------------------------------------
+
+def test_a_real_person_is_drawn_from_the_people_list_not_only_the_map():
+    """
+    The hole that shipped. `story3_revenge` has eight real people and a map with
+    no person key in it, so a check that read only the map keys read nothing.
+    """
+    dossier = {"people": [{"name": "Lita Manjhi"}],
+               "fictionalization_map": {"the kiln site": "teghra more"}}
+
+    assert real_name_tokens(dossier)["manjhi"] == ("Lita Manjhi", "person")
+
+
+def test_a_surname_on_its_own_is_the_match():
+    """"Nepal Manjhi" is not "Lita Manjhi" and shares no whole string with it.
+    Matching tokens is the only way that fragment is ever seen."""
+    dossier = {"people": [{"name": "Lita Manjhi"}]}
+
+    fatal, _advisory = real_names_on_the_page(
+        dossier, [], {"ep01.md": "BIRJU: Nepal Manjhi's house. Forty-one thousand."})
+
+    assert len(fatal) == 1
+    assert "'manjhi'" in fatal[0] and "Lita Manjhi" in fatal[0]
+
+
+def test_a_role_label_carries_no_name():
+    """Most map keys and some people entries are descriptions. They are lower
+    case, and that is what separates them from a proper noun."""
+    dossier = {"people": [{"name": "The arrested teacher"}],
+               "fictionalization_map": {"kiln operator and ration shop licensee":
+                                        "dhaniram",
+                                        "the rescued hamlet": "bharwara"}}
+
+    assert real_name_tokens(dossier) == {}
+
+
+def test_a_generic_noun_inside_a_name_is_not_the_name():
+    """"Anurag Guest House" is caught by "Anurag". Firing on "house" as well
+    would put the check in every script ever written."""
+    dossier = {"fictionalization_map": {"Anurag Guest House": "hotel mayur"}}
+
+    assert set(real_name_tokens(dossier)) == {"anurag"}
+
+
+def test_an_initial_is_not_distinctive_enough_to_flag():
+    """"K R Nagar" identifies nobody through "K"; "Mst." is an honorific."""
+    dossier = {"people": [{"name": "Mst. Acharaj"}],
+               "fictionalization_map": {"Hebbalu village, K R Nagar taluk": "x"}}
+
+    assert set(real_name_tokens(dossier)) == {"acharaj", "hebbalu", "nagar"}
+
+
+def test_a_name_the_map_deliberately_keeps_never_fires():
+    """The right-hand side of the map is the declared allowed vocabulary. The
+    real name is "MacGregor"; "Gregor" survives into the fiction on purpose."""
+    dossier = {"people": [{"name": "Gregor MacGregor"}],
+               "fictionalization_map": {"Gregor MacGregor": "Gregor Macrae",
+                                        "Scotland": "Scotland remains historical"}}
+
+    tokens = real_name_tokens(dossier)
+
+    assert "macgregor" in tokens
+    assert "gregor" not in tokens
+    assert "scotland" not in tokens
+
+
+def test_a_person_blocks_and_a_place_is_only_reported():
+    dossier = {"people": [{"name": "Lita Manjhi"}],
+               "fictionalization_map": {"Mysuru district, Karnataka": "unnamed"}}
+
+    fatal, advisory = real_names_on_the_page(
+        dossier, [], {"ep12.md": "a lorry driver in Mysuru, near Manjhi's gate"})
+
+    assert len(fatal) == 1 and "manjhi" in fatal[0]
+    assert len(advisory) == 1 and "mysuru" in advisory[0]
+
+
+def test_a_name_buried_inside_a_longer_word_is_not_a_match():
+    dossier = {"people": [{"name": "Lita Manjhi"}]}
+
+    fatal, _advisory = real_names_on_the_page(
+        dossier, [], {"ep01.md": "the road to Manjhipur"})
+
+    assert fatal == []
+
+
+def test_the_beats_are_checked_even_when_no_script_is_offered():
+    """The serial writer emits prose and beats in one call, and grades before it
+    saves; at that moment the beat sheet is what there is to read."""
+    dossier = {"people": [{"name": "Ramashish Prasad Yadav"}]}
+    beats = [{"beat_id": "b1", "what_happened": "Yadav signs the book"}]
+
+    fatal, _advisory = real_names_on_the_page(dossier, beats)
+
+    assert len(fatal) == 1 and "beat b1" in fatal[0]
+
+
+def test_the_delivered_scripts_are_graded_not_only_the_beats():
+    """`load_story` hangs the episodes on the dossier so `publish.check()` — the
+    last gate before listeners — reads what listeners would hear. story3's beats
+    are clean of real names; its ep01 is not."""
+    dossier, beats = load_story(next(d for d in stories()
+                                     if d.name == "story3_revenge"))
+    fatal, _advisory = validate_output(dossier, beats)
+
+    assert any("Manjhi" in p and "ep01.md" in p for p in fatal)
+
+
+def test_the_real_district_reaching_the_page_is_reported():
+    """The map says "Mysuru district, Karnataka" becomes an unnamed southern
+    district. ep12 says "a lorry driver in Mysuru", and the old whole-string
+    match could not see it."""
+    dossier, beats = load_story(next(d for d in stories()
+                                     if d.name == "story1_denied_identity"))
+    fatal, advisory = validate_output(dossier, beats)
+
+    assert any("mysuru" in p.lower() and "ep12.md" in p for p in advisory)
+    assert not any("mysuru" in p.lower() for p in fatal), "a place does not block"
+
+
+# ----------------------------------------------------------------------------
 # The evidence: the four seasons as committed.
 # ----------------------------------------------------------------------------
 
@@ -165,10 +288,16 @@ def test_an_empty_beat_sheet_is_fatal(dossier):
 # but no beat gains provenance it does not have. story3 therefore has zero
 # sourced beats, which is honest and also why story1 — 39 fictionalized against
 # 7 sourced — remains the stronger season for the traceability claim.
+#
+# story3 moved back out of the clean column when the real-name check started
+# reading `people[]`. Its map renames places and role labels and has no person
+# key at all, so its eight real people — a bonded-labour case — were never
+# checked against the page, and ep01 says "Nepal Manjhi's house". That is not a
+# measurement to keep green: it is content or dossier that has to change.
 COMMITTED = {
     "story1_denied_identity": (),
     "story2_long_deception": ("source_ref", "participant"),
-    "story3_revenge": (),
+    "story3_revenge": ("Manjhi",),
     "story4_family_betrayal": ("source_ref", "participant"),
 }
 

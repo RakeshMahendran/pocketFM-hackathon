@@ -1,0 +1,1944 @@
+{
+  "episodes": [
+    {
+      "ep": 13,
+      "title": "The Woman Under Meera’s Name",
+      "lines": [
+        {
+          "speaker": "LAB TECHNICIAN",
+          "text": "Stop. Nobody touches this envelope until all four seals are read aloud.",
+          "sfx_cue": "sealed envelope slapped onto wooden table"
+        },
+        {
+          "speaker": "janki",
+          "text": "Read Kesar’s result first. I have waited long enough for everyone else’s name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "And read mine in front of my children. They buried my name in public.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Both results will be read. Nobody leaves midway.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LAB TECHNICIAN",
+          "text": "Seal one, district forensic laboratory. Seal two, collection officer. Seal three, magistrate’s court. Seal four, receiving clerk.",
+          "sfx_cue": "wax seals tapped one by one"
+        },
+        {
+          "speaker": "devraj",
+          "text": "The samples were not mixed? I need that stated clearly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LAB TECHNICIAN",
+          "text": "They were collected separately, coded separately and tested twice.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "Then open it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "mohan",
+          "text": "Ma, hold my hand.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "I am holding it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LAB TECHNICIAN",
+          "text": "Reference sample A belongs to Devraj. Reference sample B belongs to the woman identifying herself as Meera.",
+          "sfx_cue": "paper knife slicing envelope"
+        },
+        {
+          "speaker": "devraj",
+          "text": "She is Meera. You may read the report exactly, but she is my daughter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "Let the paper say it too.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LAB TECHNICIAN",
+          "text": "The probability of biological parentage between sample A and sample B exceeds ninety-nine point nine nine percent.",
+          "sfx_cue": "report sheet unfolded"
+        },
+        {
+          "speaker": "mohan",
+          "text": "What does that mean? Say it normally.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "It means the laboratory confirms that Meera is Devraj’s biological daughter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "Say her full status too. She is alive.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Meera is alive, and this report scientifically confirms her identity.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "I called my own daughter an impostor. This paper does not remove that shame.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "No. It does not.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "But it removes the excuse of anyone who still calls you a stranger.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN CORRIDOR",
+          "text": "The dead woman’s sample is next.",
+          "sfx_cue": "crowd murmuring beyond doorway"
+        },
+        {
+          "speaker": "janki",
+          "text": "Do not call her that. Call her Kesar, if the report gives me that right.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LAB TECHNICIAN",
+          "text": "The second comparison uses preserved tissue from the burned body and Janki’s reference sample.",
+          "sfx_cue": "second envelope lifted"
+        },
+        {
+          "speaker": "janki",
+          "text": "Her black thread had three knots. There was a copper bead between the second and third.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Those details supported the inquiry. DNA will decide the identification.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "I know. I am only... I am trying to remember her before you read it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Remember her.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LAB TECHNICIAN",
+          "text": "The preserved tissue is not genetically related to Devraj.",
+          "sfx_cue": "paper sliding across table"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Then the woman I signed for was never my daughter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LAB TECHNICIAN",
+          "text": "Correct.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "And me? Please, do not stop there.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LAB TECHNICIAN",
+          "text": "The sibling analysis supports a full biological sister relationship between Janki and the deceased woman.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "How strongly? Give me the number.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LAB TECHNICIAN",
+          "text": "The likelihood ratio exceeds twenty-eight thousand to one.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "So she was Kesar.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Yes. The woman cremated under Meera’s name was Kesar.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "They searched for Meera’s killers while my sister lay inside Meera’s death certificate.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "And while I was alive inside another woman’s name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "Mother, does this finish it? Can nobody take you away now?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "It finishes who I am. It does not finish what was done.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Correct. Identity is settled. Criminal responsibility is not.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "I want Kesar’s name returned today.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "The civil registrar has been directed to prepare the corrected certificate.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "Directed is not delivered.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Then we will collect it ourselves.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "One hour later, the laboratory report reached the district records counter before anyone could soften its language.",
+          "sfx_cue": "metal service window rattling open"
+        },
+        {
+          "speaker": "babulal",
+          "text": "I need the original death entry, the disputed seal order and both certified DNA pages.",
+          "sfx_cue": "rubber stamps knocking in a drawer"
+        },
+        {
+          "speaker": "janki",
+          "text": "You already have them.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "I have copies. Today, copies are not enough.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "They were enough when the office declared me dead.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Yes. That was wrong.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Say the exact wrong.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "The burned body was registered under Meera’s name without scientific identification.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "And I signed the identification.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "You did.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "After Meera’s name was already written on the form.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Which officer entered that name, Babulal? Promise nothing. Read the movement sheet.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "The receiving duty officer wrote it. The entry says, identity supplied by telephone before family arrival.",
+          "sfx_cue": "file pages turned rapidly"
+        },
+        {
+          "speaker": "meera",
+          "text": "Whose telephone call?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "The caller field contains one name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Read it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Raghav.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "He gave them Meera’s name before I saw the body?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Twenty-three minutes before you signed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Then my father did not begin the lie.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "I still completed it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "The duty officer physically wrote Meera’s name. The record says Raghav supplied it by telephone.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "He named my sister as Meera before anyone had identified her.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "That is what the contemporaneous entry records.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "There is another attachment. The east depot complaint mentioned in the Kota register inquiry.",
+          "sfx_cue": "staple pulled from paper"
+        },
+        {
+          "speaker": "meera",
+          "text": "The second woman.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Read only what the document establishes.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "The complaint identifies the missing woman as Kesar. A depot camera note records Raghav’s former vehicle number.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "Kesar was the second woman linked to that alleged buyer?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Yes. The complaint gives her name, the vehicle number and the east depot location.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "His vehicle arrived with three occupants and left with two.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "The depot timing places Kesar outside that vehicle before it departed Kota.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "He left her there.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "The records show his vehicle departed after Kesar was dropped near the east depot. They do not yet prove what happened after that.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "But they prove why the third occupant was missing when the vehicle left.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Yes. Kesar was the third occupant. Raghav’s vehicle left with two after leaving her behind.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "And later she was found at the accident site under Meera’s name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "The DNA report establishes that the burned body at that site was Kesar.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "I can now cancel the incorrect body-name entry and create Kesar’s lawful death record.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "Do it where I can see your hand.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Cause and criminal responsibility remain subject to investigation. Identity is confirmed by DNA.",
+          "sfx_cue": "fountain pen scratching on certificate"
+        },
+        {
+          "speaker": "janki",
+          "text": "Write her name without Meera’s name beside it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Kesar. Female. Identity confirmed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "Again.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Kesar.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "She waited inside my grave. I waited outside my house.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "Neither of you chose that.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "The corrected certificate is ready.",
+          "sfx_cue": "official seal pressed hard"
+        },
+        {
+          "speaker": "janki",
+          "text": "Give it to me.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "This certifies the death under Kesar’s own name. The previous certificate naming Meera remains suspended for cancellation by the court.",
+          "sfx_cue": "certificate passed through metal window"
+        },
+        {
+          "speaker": "janki",
+          "text": "For the first time since she vanished, an office has written my sister’s name correctly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "And Mother’s name?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Tomorrow, the court will hear the DNA report, the money trail and the false identification entry together.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "mohan",
+          "text": "Will the four men come too?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Yes. The court has ordered all four produced.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Then let everyone who saw four murderers see four living men.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "And everyone who saw a stranger will see my daughter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "What does the final laboratory conclusion say? Not the certificate. The last paragraph.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "It says the remains match Janki’s biological family and do not match Devraj’s family.",
+          "sfx_cue": "DNA report lifted from counter"
+        },
+        {
+          "speaker": "meera",
+          "text": "Read the consequence.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "The DNA report places Kesar at the accident site and Meera nowhere near the death scene.",
+          "sfx_cue": ""
+        }
+      ]
+    },
+    {
+      "ep": 14,
+      "title": "Alive in the Register",
+      "lines": [
+        {
+          "speaker": "COURT OFFICER",
+          "text": "Remove their handcuffs. The murder charge has just lost its dead woman.",
+          "sfx_cue": "courtroom handcuff chain dropping onto rail"
+        },
+        {
+          "speaker": "naresh",
+          "text": "Do not say that unless the judge has signed it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "We want the order. All four names. Read every name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COURT OFFICER",
+          "text": "Stand quietly. The court is sitting.",
+          "sfx_cue": "wooden gavel, two strikes"
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "This is the reopened matter concerning Meera’s identity, Kesar’s remains and the prosecution of four accused men.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "I request permission to stand with my children.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "Granted.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "mohan",
+          "text": "Ma, they really took the chains off.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "Not all of them. Their ankles are still locked.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "Court officer, remove every restraint unless you have a separate lawful warrant.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COURT OFFICER",
+          "text": "There is no separate warrant.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pintu",
+          "text": "Then use the key.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Wait... wait until the order. We have been promised doors before.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "He is right. Read it first.",
+          "sfx_cue": "ankle lock clicking open"
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "The DNA report confirms that Meera is alive and identifies the burned remains as Kesar.",
+          "sfx_cue": "thick case file opened"
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "The factual basis for alleging that these four men murdered Meera no longer exists.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naresh",
+          "text": "Then we leave today?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "You will hear the full order without interruption.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naresh",
+          "text": "Yes, Your Honour.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "The prosecution relied upon a body identification now disproved by DNA, a missing statement and inconsistent case records.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "No lawful purpose is served by preserving a murder case for a person who stands alive before this court.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN GALLERY",
+          "text": "They spent all that time in jail for nothing.",
+          "sfx_cue": "gallery murmurs rising"
+        },
+        {
+          "speaker": "salim",
+          "text": "Say it louder. The village called us murderers louder than that.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "Silence in court.",
+          "sfx_cue": "gavel, single strike"
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "The murder proceedings against Salim, Naresh, Pintu and Irfan are quashed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pintu",
+          "text": "Quashed means finished? Not bail?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Finished. The murder case cannot keep you in custody.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "All four of us?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "All four.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naresh",
+          "text": "No reporting every week? No police permission to leave Dharmapur?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "Not under this quashed case.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "And my missing five-page statement?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "Its disappearance will remain part of the departmental and criminal inquiry.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pintu",
+          "text": "We entered this building as four murderers.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Then let the officer say how we leave.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COURT OFFICER",
+          "text": "You leave as free men. There is no subsisting custody order against any of you.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN GALLERY",
+          "text": "Salim and the others are innocent of Meera’s murder.",
+          "sfx_cue": "gallery benches creaking"
+        },
+        {
+          "speaker": "naresh",
+          "text": "There was no murder of Meera.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "I am sorry my stolen name became your prison.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "You came back alive. You did not put us there.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Will my brother receive protection now? I gave the court what I knew.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "The protection direction remains active. Your release does not cancel it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "Good. Then open the gate.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "Before release processing, the court will address the remaining evidence concerning Raghav.",
+          "sfx_cue": "another file placed before judge"
+        },
+        {
+          "speaker": "raghav",
+          "text": "I came voluntarily. I have answered every proper question.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "You changed your Kota statement after the travel register was requested.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "I corrected an error. Correction is not concealment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Your former vehicle entered Kota with three occupants and left with two.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "A vehicle number does not identify passengers.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "The east depot record identifies Kesar as the third occupant left near the depot.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "That is an interpretation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "The DNA report identifies Kesar as the woman later found burned at the accident site.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "DNA cannot place me at an accident I did not witness.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "The court has not said it can.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "Then there is no ground to detain me.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "There is also the five-lakh-rupee deposit made two days before Meera disappeared.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "A tractor payment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "No tractor was registered. No purchase invoice exists. No delivery occurred.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "Registration can be delayed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "For eighteen months?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "The buyer may have abandoned the transaction.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Then why was the money never returned?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "Ask the account holder.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "We did. Your cousin states that you controlled the passbook and withdrawal slips.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "He is protecting himself.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "The first withdrawal occurred forty minutes after your vehicle entered Kota.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "Coincidence is still legal.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "You knew the five-lakh date before I said the amount.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "You have repeated that performance enough.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "Do not call my mother a performance.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN GALLERY",
+          "text": "He called her an impostor too.",
+          "sfx_cue": "angry gallery murmurs"
+        },
+        {
+          "speaker": "devraj",
+          "text": "No. I called her that. I was wrong, and I said so before this village.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Raghav supplied her name for the burned body before I reached the hospital.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "You signed the form, Devraj. Be careful where you move your shame.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "I am not moving it. I am naming the man who placed the lie in front of me.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "The movement sheet records that a duty officer wrote Meera’s name after receiving it by telephone from Raghav.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "That entry proves only that someone used my name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "The call originated from the number registered to your transport office.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "Many people used that office.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "You may contest the evidence during investigation and trial. Today, the court considers preservation of evidence and risk of interference.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "I have remained in Dharmapur throughout.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "You filed a changed statement, denied Kota and described the travel register as fabricated.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "The register predates this inquiry. Its paper, ink and binding were verified.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "A clerk defending a neglected register is not an expert.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "No. The forensic document examiner is.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "The application for custodial arrest is allowed concerning the money trail, false identification information and connected disappearance inquiry.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "On suspicion?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "On recorded financial evidence, contradictory statements and a documented risk of interference.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "Meera’s allegation remains an allegation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "And it will be investigated as one. Turn around.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "You are arresting the man who brought her to safety.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "You brought me to Kota. You did not bring me home.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "This village will tire of your story.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Your hands, please. The court has been courteous enough to provide an order.",
+          "sfx_cue": "handcuffs ratcheting shut"
+        },
+        {
+          "speaker": "VOICE IN GALLERY",
+          "text": "Raghav is leaving in chains while the four men walk free.",
+          "sfx_cue": "gallery erupting"
+        },
+        {
+          "speaker": "salim",
+          "text": "Look at me, Raghav.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "I do not take instructions from you.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "You sent us to that road. Your name stayed outside the file. Ours went inside a murder charge.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "Then enjoy your release carefully. Dharmapur has a long memory.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "So does a recorded threat made inside a courtroom.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "raghav",
+          "text": "It was advice.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "JUDGE",
+          "text": "Remove him.",
+          "sfx_cue": "side gate unlocking"
+        },
+        {
+          "speaker": "raghav",
+          "text": "Meera, this does not prove your entire story.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "No. It proves enough to stop you walking away today.",
+          "sfx_cue": "courtroom side gate slamming"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "By noon, the hearing moved from the courtroom to the public records desk, where the first wrong had been written.",
+          "sfx_cue": "large register dropped onto public counter"
+        },
+        {
+          "speaker": "babulal",
+          "text": "The court order directs immediate cancellation of Meera’s death entry.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Not another disputed stamp. Cancellation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Cancellation. The red line will cross the full entry, and the order number will be written beside it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "Let us see every word.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "mohan",
+          "text": "Can I stand on the chair? I cannot see.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Come here. I will lift you.",
+          "sfx_cue": "wooden chair scraping"
+        },
+        {
+          "speaker": "janki",
+          "text": "And Kesar’s certificate?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Entered under her own name, with the DNA confirmation attached.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "Show the seal.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Here.",
+          "sfx_cue": "certificate unfolded"
+        },
+        {
+          "speaker": "janki",
+          "text": "Kesar. Not unidentified. Not Meera.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Kesar.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "The same villagers watched me refuse my daughter’s hand.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN CROWD",
+          "text": "We watched.",
+          "sfx_cue": "crowd pressing closer"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Then watch this too.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Meera is my daughter. I identified the wrong body, and I was wrong to call her a stranger.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Father.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "I will not ask you to erase what I did.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Good. Stand beside me while they erase what the register did.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Our release orders are stamped.",
+          "sfx_cue": "four papers stamped in sequence"
+        },
+        {
+          "speaker": "naresh",
+          "text": "Four orders. I counted twice.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pintu",
+          "text": "The outside gate is open.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "My brother is waiting beyond it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "kavita",
+          "text": "Walk through together. The crowd must see all four of you leave without restraints.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Meera, come with us to the gate.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "First, I need to watch my death end.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Red line through the old entry.",
+          "sfx_cue": "pen dragging slowly across register page"
+        },
+        {
+          "speaker": "mohan",
+          "text": "It is gone?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Legally cancelled.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "Write the new entry clearly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "The court has supplied the final wording.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "Read it before you write.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "One living person restored. One deceased person correctly identified. Four accused released from a case without a murdered Meera.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Write it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN CROWD",
+          "text": "Make room. Let all four men reach the gate.",
+          "sfx_cue": "crowd parting, footsteps beginning"
+        },
+        {
+          "speaker": "naresh",
+          "text": "No chains.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pintu",
+          "text": "No guards holding our arms.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "irfan",
+          "text": "No murder case behind us.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "mohan",
+          "text": "Ma, they are free.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Yes.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "tara",
+          "text": "And you are not dead.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Not in this house. Not in this village. Not on that page.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "janki",
+          "text": "My sister has her name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "My daughter has hers.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "babulal",
+          "text": "Final entry complete. I will read it exactly once.",
+          "sfx_cue": "register page pressed flat"
+        },
+        {
+          "speaker": "babulal",
+          "text": "The official register now records one final fact: Meera is alive, Kesar was the woman cremated, and all four accused are free.",
+          "sfx_cue": ""
+        }
+      ]
+    }
+  ],
+  "beat_sheet": [
+    {
+      "beat_id": "b049",
+      "ep": 13,
+      "seq": 1,
+      "world_time": "2022-11-25",
+      "location": "district forensic laboratory dispatch room",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "The sealed DNA report was dispatched before its results were read to any cast character.",
+      "state_changes": [
+        {
+          "entity": "DNA report",
+          "fact": "The sealed identity findings became ready for official delivery.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Deliberate open-canon beat: the dispatch occurred in an empty records room, so no cast character witnessed the contents before the formal reading."
+    },
+    {
+      "beat_id": "b050",
+      "ep": 13,
+      "seq": 2,
+      "world_time": "2022-11-25",
+      "location": "district forensic laboratory public reading room",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "babulal"
+      ],
+      "what_happened": "The DNA report confirmed that Meera is Devraj's biological daughter and that the burned woman was Janki's biological sister Kesar.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Her identity as Devraj's living biological daughter was scientifically confirmed.",
+          "valence": 5
+        },
+        {
+          "entity": "janki",
+          "fact": "She received scientific confirmation that the burned woman was Kesar.",
+          "valence": 4
+        },
+        {
+          "entity": "Kesar's remains",
+          "fact": "The burned remains were identified as Kesar rather than Meera.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b051",
+      "ep": 13,
+      "seq": 3,
+      "world_time": "2022-11-25",
+      "location": "district records counter",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid"
+      ],
+      "what_happened": "The records established that a duty officer wrote Meera's name on the body form after Raghav supplied that identity by telephone, and that Kesar was the third occupant left near the east depot before Raghav's vehicle departed Kota with two people.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "The records connected him to the premature naming of the burned body and to Kesar's departure from his vehicle.",
+          "valence": -5
+        },
+        {
+          "entity": "body identification form",
+          "fact": "The source and writer of Meera's prematurely entered name were identified.",
+          "valence": 4
+        },
+        {
+          "entity": "Kesar's disappearance",
+          "fact": "Kesar was identified as the second woman linked to an alleged buyer and the missing third vehicle occupant.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b052",
+      "ep": 13,
+      "seq": 4,
+      "world_time": "2022-11-25",
+      "location": "district records counter",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid"
+      ],
+      "what_happened": "Babulal issued Janki a death certificate under Kesar's name, and Kavita read that the DNA placed Kesar at the accident site and excluded Meera from it.",
+      "state_changes": [
+        {
+          "entity": "janki",
+          "fact": "She received her sister's death certificate under Kesar's correct name.",
+          "valence": 5
+        },
+        {
+          "entity": "meera",
+          "fact": "The DNA excluded her from the death scene.",
+          "valence": 5
+        },
+        {
+          "entity": "Kesar's death certificate",
+          "fact": "The death was officially recorded under Kesar's name.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b053",
+      "ep": 14,
+      "seq": 1,
+      "world_time": "2022-11-26",
+      "location": "Dharmapur courtroom",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "babulal"
+      ],
+      "what_happened": "The court quashed the murder proceedings against Salim, Naresh, Pintu and Irfan because Meera was alive and the body was Kesar's, and ordered all four released without restraints.",
+      "state_changes": [
+        {
+          "entity": "salim",
+          "fact": "The murder case against him was quashed and he was freed.",
+          "valence": 5
+        },
+        {
+          "entity": "naresh",
+          "fact": "The murder case against him was quashed and he was freed.",
+          "valence": 5
+        },
+        {
+          "entity": "pintu",
+          "fact": "The murder case against him was quashed and he was freed.",
+          "valence": 5
+        },
+        {
+          "entity": "irfan",
+          "fact": "The murder case against him was quashed and he was freed.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b054",
+      "ep": 14,
+      "seq": 2,
+      "world_time": "2022-11-26",
+      "location": "Dharmapur courtroom",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "hidden_from": [
+        "shahid"
+      ],
+      "what_happened": "The court authorised Raghav's arrest after hearing the five-lakh-rupee money trail, the nonexistent tractor transaction, his changed statement and the false body-identification record.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "He was arrested for investigation concerning the money trail, false identification information and connected disappearance evidence.",
+          "valence": -5
+        },
+        {
+          "entity": "meera",
+          "fact": "Raghav could no longer leave the inquiry without answering the documented evidence.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b055",
+      "ep": 14,
+      "seq": 3,
+      "world_time": "2022-11-26",
+      "location": "Dharmapur public records desk",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid"
+      ],
+      "what_happened": "Devraj repeated his public recognition of Meera, Janki displayed Kesar's corrected certificate and Babulal cancelled Meera's death entry while the four freed men walked out without restraints.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Her death record was formally cancelled before her family and the village.",
+          "valence": 5
+        },
+        {
+          "entity": "devraj",
+          "fact": "He publicly reaffirmed that Meera is his daughter and that his identification was wrong.",
+          "valence": 4
+        },
+        {
+          "entity": "janki",
+          "fact": "Kesar's identity was publicly restored under her own certificate.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b056",
+      "ep": 14,
+      "seq": 4,
+      "world_time": "2022-11-26",
+      "location": "Dharmapur public records desk",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid"
+      ],
+      "what_happened": "The official register recorded that Meera was alive, Kesar was the woman cremated and all four accused were free.",
+      "state_changes": [
+        {
+          "entity": "official register",
+          "fact": "It now records Meera alive, Kesar correctly identified and all four accused free.",
+          "valence": 5
+        },
+        {
+          "entity": "meera",
+          "fact": "Her legal status was restored to living.",
+          "valence": 5
+        },
+        {
+          "entity": "Kesar's remains",
+          "fact": "The cremated woman was permanently recorded as Kesar.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    }
+  ],
+  "promise_ledger": [
+    {
+      "id": "p04",
+      "raised_ep": 2,
+      "listener_is_waiting_for": "Whose body was cremated after being wrongly identified as Meera?",
+      "must_pay_by_ep": 13,
+      "paid_ep": 13,
+      "how_paid": "DNA testing identified the burned woman as Janki's missing sister Kesar, and Janki received a death certificate under Kesar's name.",
+      "status": "paid"
+    },
+    {
+      "id": "p08",
+      "raised_ep": 8,
+      "listener_is_waiting_for": "Does the matching hospital number prove that the burned woman was Kesar?",
+      "must_pay_by_ep": 13,
+      "paid_ep": 13,
+      "how_paid": "A sibling DNA comparison scientifically confirmed that the burned remains belonged to Kesar.",
+      "status": "paid"
+    },
+    {
+      "id": "p09",
+      "raised_ep": 9,
+      "listener_is_waiting_for": "Who wrote Meera's name on the unidentified-body form before Devraj signed the identification?",
+      "must_pay_by_ep": 14,
+      "paid_ep": 13,
+      "how_paid": "The movement sheet showed that the receiving duty officer wrote Meera's name after Raghav supplied that identity by telephone twenty-three minutes before Devraj signed.",
+      "status": "paid"
+    },
+    {
+      "id": "p10",
+      "raised_ep": 12,
+      "listener_is_waiting_for": "Who was the second person linked to an alleged buyer, and why did Raghav's vehicle leave Kota on the night that person disappeared?",
+      "must_pay_by_ep": 14,
+      "paid_ep": 13,
+      "how_paid": "The east depot complaint and vehicle records identified Kesar as the second woman and third occupant; Raghav's vehicle departed with two people after leaving her near the depot.",
+      "status": "paid"
+    }
+  ],
+  "calendar": {
+    "season_start": "2022-11-14",
+    "dates_fixed": [
+      {
+        "ep": 1,
+        "when": "2022-11-14",
+        "what": "Meera enters Dharmapur police station and discovers that she remains recorded as dead."
+      },
+      {
+        "ep": 2,
+        "when": "2022-11-14",
+        "what": "Kavita conducts the initial private identity test and finds the tattoo-hand discrepancy."
+      },
+      {
+        "ep": 3,
+        "when": "2022-11-15",
+        "what": "Meera visits her former house under police guard and the bus stand photograph arrives."
+      },
+      {
+        "ep": 4,
+        "when": "2022-11-16",
+        "what": "Raghav gives his account before the village committee and reveals knowledge of a payment dated 2021-05-03."
+      },
+      {
+        "ep": 5,
+        "when": "2022-11-17",
+        "what": "Meera identifies room twelve in Kota, Mohan publicly calls her Ma and the rental ledger reveals a disputed signature dated 2021-06-21."
+      },
+      {
+        "ep": 6,
+        "when": "2022-11-18",
+        "what": "Kavita conducts the open identity verification and Meera's death certificate is marked disputed."
+      },
+      {
+        "ep": 7,
+        "when": "2022-11-19",
+        "what": "The four jailed accused appear in court, Salim implicates Raghav and his indexed statement is found missing from the case diary."
+      },
+      {
+        "ep": 8,
+        "when": "2022-11-20",
+        "what": "The court brings the four accused into the reopened inquiry, and Janki links Kesar's complaint to the burned body's hospital intake number."
+      },
+      {
+        "ep": 9,
+        "when": "2022-11-21",
+        "what": "Devraj admits that fear and grief caused the mistaken identification and publicly recognises Meera as his daughter."
+      },
+      {
+        "ep": 10,
+        "when": "2022-11-22",
+        "what": "Kavita traces the five-lakh-rupee deposit dated 2021-05-03 and finds no registered tractor corresponding to Raghav's explanation."
+      },
+      {
+        "ep": 11,
+        "when": "2022-11-23",
+        "what": "Tara tests Meera with the buried clay bird, publicly accepts her as her mother and allows her to sleep in the family house."
+      },
+      {
+        "ep": 12,
+        "when": "2022-11-24",
+        "what": "Raghav withdraws his Kota account and Babulal produces the unclosed travel-register entry for Raghav's vehicle."
+      },
+      {
+        "ep": 13,
+        "when": "2022-11-25",
+        "what": "DNA confirms Meera's identity and identifies the burned woman as Kesar, whose corrected death certificate is issued."
+      },
+      {
+        "ep": 14,
+        "when": "2022-11-26",
+        "what": "The four accused are freed, Raghav is arrested, Meera's death record is cancelled and the final register entry restores every identity."
+      }
+    ],
+    "periods_fixed": [
+      {
+        "between": [
+          1,
+          2
+        ],
+        "elapsed": "No time elapsed; both episodes occur on 2022-11-14."
+      },
+      {
+        "between": [
+          2,
+          3
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          3,
+          4
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          4,
+          5
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          5,
+          6
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          6,
+          7
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          7,
+          8
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          8,
+          9
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          9,
+          10
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          10,
+          11
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          11,
+          12
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          12,
+          13
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          13,
+          14
+        ],
+        "elapsed": "One day."
+      }
+    ],
+    "unresolved": []
+  },
+  "flags": []
+}
