@@ -78,9 +78,22 @@ export function NextStep({
   const label =
     tone === "do" ? "text-ochre" : tone === "held" ? "text-halt" : "";
 
+  /*
+   * The one forward action on a screen is the only filled control in the app.
+   *
+   * It used to be an outlined link drawn at the same weight as every decorative
+   * "→" on the page — and on the season screen 57 of 70 links render as plain
+   * text, so the thing a reader is meant to do next was indistinguishable from
+   * the sixty-nine things they are not. Filling exactly one control per screen
+   * costs no extra element and gives the eye somewhere to land.
+   *
+   * Only for `do`. An onward step is a way out, not an instruction, and a
+   * `held` step is a wall — filling either would tell somebody to press a thing
+   * the pipeline is going to refuse.
+   */
   const button =
     tone === "do"
-      ? "border-ochre/60 text-ochre hover:bg-ochre/10"
+      ? "bg-ochre border-ochre text-ink font-medium hover:bg-ochre/85"
       : "border-rule-strong hover:border-ochre hover:text-ochre";
 
   const title =

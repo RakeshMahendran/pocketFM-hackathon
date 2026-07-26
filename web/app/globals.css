@@ -92,6 +92,33 @@ a .label {
   color: var(--color-muted);
 }
 
+/**
+ * A link looks like a link before you point at it.
+ *
+ * The console's whole affordance was `hover:text-ochre` on text that rests
+ * identical to prose — 57 of the 70 links on a season page were invisible until
+ * the cursor found them, which turns "what do I click" into a hunt. On stage
+ * that reads as a slow product rather than a dense one.
+ *
+ * An underline offset far enough to clear the descenders, in a rule colour
+ * rather than the text colour, so it reads as an affordance and not as
+ * emphasis — this is a typographic design and a heavy underline would fight it.
+ * Anything already carrying its own frame (a bordered control, a card, a whole
+ * clickable row) opts out: those already say what they are, and underlining a
+ * button is noise.
+ */
+a:not([class*="border"]):not([class*="bg-"]):not(.block):not(.no-underline) {
+  text-decoration: underline;
+  text-decoration-color: var(--color-rule-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+  transition: text-decoration-color 150ms;
+}
+
+a:not([class*="border"]):not([class*="bg-"]):not(.block):not(.no-underline):hover {
+  text-decoration-color: var(--color-ochre);
+}
+
 /* Roughly 66 characters. Past that the eye loses its place returning. */
 .prose-col {
   max-width: 34rem;

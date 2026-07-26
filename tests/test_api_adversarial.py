@@ -281,10 +281,10 @@ def test_a_story_id_that_resolves_to_a_non_story_directory_is_a_404(client, junk
     assert client.get(f"/api/stories/{junk}/cast").status_code in (404, 422)
 
 
-@pytest.mark.xfail(strict=True, reason=(
-    "FINDING: %5c decodes to a backslash Starlette leaves in the path param and "
-    "Windows reads as a separator, so story_id escapes data/stories/ and reaches "
-    "the whole filesystem. src/canon/store.py:50"))
+# FIXED by the allow-list in `_story`. Kept live, and on the widest vectors,
+# because the escape was reachable through the public port and containment was
+# accidental — no directory outside data/stories/ happened to hold a
+# dossier.json. A regression here is a filesystem read, not a cosmetic 500.
 @pytest.mark.skipif(not WINDOWS, reason="backslash is only a separator on Windows")
 @pytest.mark.parametrize("target", ["..%5ccache", "..%5c..%5cweb", "..%5c..%5c.git"])
 def test_story_id_cannot_escape_the_stories_directory(target):
@@ -477,11 +477,11 @@ def test_the_rewrite_changes_nothing(path):
     assert direct_headers["content-type"] == proxy_headers["content-type"]
 
 
-@pytest.mark.xfail(strict=True, reason=(
-    "FINDING: Next collapses dot-segments before forwarding and uvicorn does "
-    "not, so /api/stories/%2e%2e/cast is a 404 on :3000 and a 500 on :8001. The "
-    "backslash, bare-space and reserved-name vectors are NOT absorbed and reach "
-    "500 through the public port. next.config.ts:19"))
+# FIXED. The two ports disagreed only because one of them was crashing: Next
+# collapses dot-segments before forwarding and uvicorn does not, so the same id
+# was a 404 on :3000 and a 500 on :8001. With the id checked against the list
+# before the filesystem is touched, normalisation stops mattering and both ports
+# answer alike.
 @pytest.mark.parametrize("junk", ["%2e", "%2e%2e"])
 def test_the_two_ports_treat_a_malformed_id_alike(junk):
     direct, _, _ = _live(f"{LIVE}/api/stories/{junk}/cast")
@@ -489,24 +489,34 @@ def test_the_two_ports_treat_a_malformed_id_alike(junk):
     assert direct == proxied
 
 
+# FIXED. These are the three vectors Next does not normalise, so they were the
+# ones that reached a 500 from a browser rather than only from loopback.
 @pytest.mark.parametrize("junk", ["..%5ccache", "%20", "nul"])
-@pytest.mark.xfail(strict=True, reason=(
-    "FINDING: the backslash-traversal, bare-space and reserved-name 500s are "
-    "reachable from the browser, not only from loopback."))
 def test_the_public_port_does_not_expose_the_500s(junk):
     """The vectors Next does not normalise."""
     proxied, _, _ = _live(f"{PROXY}/api/stories/{junk}/cast")
     assert proxied < 500, f"{junk} -> {proxied} through the public port"
 
 
-def test_a_server_error_does_not_reach_the_browser_as_a_stack_trace():
-    """500s must be opaque. uvicorn logs the traceback and returns the string
-    `Internal Server Error`; nothing about the filesystem or the code goes out."""
+def test_an_error_body_never_carries_a_trace_or_a_path():
+    """
+    Whatever an error turns out to be, it says nothing about this machine.
+
+    This asserted `status == 500` when there was a reachable 500 to assert on.
+    There no longer is, and rewriting it to expect one would have meant keeping
+    a crash alive to keep a test honest. What it was actually protecting — that
+    an error body carries no traceback and no filesystem path — is the part
+    worth keeping, so it now holds for whatever the server answers.
+    """
     if not WINDOWS:
-        pytest.skip("the reachable 500 is Windows-specific")
-    status, _, body = _live(f"{PROXY}/api/stories/%20/cast")
-    assert status == 500
-    assert b"Traceback" not in body and b"canonforge" not in body.lower()
+        pytest.skip("these vectors only resolve to directories on Windows")
+    for junk in ("%20", "nul", "..%5ccache"):
+        status, _, body = _live(f"{PROXY}/api/stories/{junk}/cast")
+        assert status < 500, f"{junk} -> {status}"
+        low = body.lower()
+        assert b"traceback" not in low
+        assert b"canonforge" not in low
+        assert b":\\" not in low and b"/users/" not in low
 
 
 # ---------------------------------------------------------------------------

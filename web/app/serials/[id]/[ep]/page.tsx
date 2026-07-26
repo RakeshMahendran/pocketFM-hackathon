@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { PRODUCT } from "@/app/layout";
 import { EpisodeAudio } from "@/components/EpisodeAudio";
 import { EpisodeScript, listenMinutes } from "@/components/EpisodeScript";
 import { NextStep } from "@/components/NextStep";
@@ -36,12 +37,12 @@ function parseEp(raw: string): number | null {
 export async function generateMetadata(props: PageProps<"/serials/[id]/[ep]">) {
   const { id, ep } = await props.params;
   const n = parseEp(ep);
-  if (n === null) return { title: "CanonForge" };
+  if (n === null) return { title: PRODUCT };
   const episode = await loadEpisode(decodeURIComponent(id), n);
   return {
     title: episode?.title
       ? `Episode ${n} — ${episode.title}`
-      : `Episode ${n} — CanonForge`,
+      : `Episode ${n} — ${PRODUCT}`,
   };
 }
 

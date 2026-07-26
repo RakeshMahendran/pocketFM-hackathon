@@ -4,6 +4,7 @@ import { ClearanceBadge } from "@/components/ClearanceBadge";
 import { NextStep } from "@/components/NextStep";
 import { Notice } from "@/components/Notice";
 import { FREE_CLICK, slateNext, slateNothingLive } from "@/components/pathWords";
+import { PRODUCT } from "@/app/layout";
 import { readPublishState } from "@/lib/publish";
 import { loadSlate, type SerialSummary } from "@/lib/serials";
 import { requireEditor } from "@/lib/session";
@@ -20,7 +21,7 @@ import {
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: `CanonForge — ${SHOWS_TITLE}`,
+  title: `${PRODUCT} — ${SHOWS_TITLE}`,
   description: "Shows we have commissioned, and how much of each one is written.",
 };
 

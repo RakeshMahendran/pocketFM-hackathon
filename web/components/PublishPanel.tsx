@@ -315,11 +315,11 @@ export function PublishPanel({
       )}
 
       {/*
-        Said plainly rather than implied. There is no Pocket FM to push to, and a
-        button claiming otherwise is the kind of thing a judge asks about. The
-        season's own wording is kept here rather than the episode one: the button
-        above this line puts a SHOW live, and `RELEASE_NOT_A_PUSH` is about
-        putting an episode out.
+        Said plainly rather than implied. There is no listener-facing app to push
+        to, and a button implying otherwise is the kind of claim that unravels
+        the moment somebody asks. The season's own wording is kept here rather
+        than the episode one: the button above this line puts a SHOW live, and
+        `RELEASE_NOT_A_PUSH` is about putting an episode out.
       */}
       <p className="mt-4 text-xs text-faint">
         Publishing records the decision here. It does not push to the app yet.
