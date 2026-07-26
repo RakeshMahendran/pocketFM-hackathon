@@ -10,6 +10,12 @@ data/canon.db
 
 data/voice_work/
 
+# The Apps build step runs `npm install` at the root and leaves a lockfile
+# behind. Committing one would give Turbopack two to choose between, which is
+# what made it pick the repo root as the workspace and warn — web/ owns the
+# only lockfile that should exist.
+/package-lock.json
+
 # Spinoff LLM responses. The slice does not replay from these — `demo_seed` and
 # the API read the finished episodes in data/spinoffs/, which are committed,
 # readable, and survive a refactor that changes a cache key. Keeping these is a

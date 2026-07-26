@@ -18,3 +18,9 @@ env:
     value: databricks_postgres
   - name: CANONFORGE_API_PORT
     value: "8001"
+  # Promotion and the spin-off writer call OpenAI on click, and their cached
+  # responses are gitignored, so the hosted app makes the call for real. Read
+  # from a Secret resource keyed `openai-key`; the model routing vars are left
+  # out because src/generation/client.py already falls back to gpt-5.6-sol.
+  - name: OPENAI_API_KEY
+    valueFrom: openai-key
