@@ -32,10 +32,47 @@ const REPO = path.join(/* turbopackIgnore: true */ process.cwd(), "..");
  * editor, the same way the slate rewrites the loader's notes.
  */
 
+/** One episode that has gone out, as `publish.json` recorded the decision. */
+export interface EpisodeRelease {
+  ep: number;
+  /** Editor id, as `--by` wrote it. Null on a release recorded without one. */
+  by: string | null;
+  at: string | null;
+}
+
+/**
+ * Two decisions, not one, because the platform earns per unlocked episode.
+ *
+ * `live` says the show exists for listeners at all; the episode fields say what
+ * they can actually reach. A show live with nothing out is a real pre-launch
+ * state, so `live: true` with an empty `episodes` is not a broken read.
+ *
+ * `live` / `by` / `at` keep their old meaning — they are the season decision,
+ * not the newest episode one — because components already read them.
+ */
 export interface PublishState {
   live: boolean;
   by: string | null;
   at: string | null;
+  /** Episodes written, counted off disk. Nothing to do with how many are out. */
+  episodeCount: number;
+  /** Every per-episode record on file, ascending. */
+  episodes: EpisodeRelease[];
+  /**
+   * The last episode a listener can reach: the unbroken run from episode 1,
+   * counted exactly as `released_through` counts it. A hole punched into the
+   * file by hand reads as "out up to the hole" rather than offering an episode
+   * nobody can get to.
+   */
+  releasedThrough: number;
+  /**
+   * The one episode `publish_episode` would accept next, or null when there is
+   * none — not live, nothing written, or everything already out.
+   *
+   * This is an affordance, not a rule. Python decides what it will accept; this
+   * only lets the screen avoid offering a button it knows would be refused.
+   */
+  nextRelease: number | null;
 }
 
 /**
@@ -200,7 +237,97 @@ function plainly(raw: string): Finding {
  */
 const SUMMARY = /INFO\s+.*: (\d+) fatal, (\d+) advisory/;
 
-export async function readPublishState(storyId: string): Promise<PublishState> {
+/**
+ * `^ep(\d+)\.md$`, deliberately case-sensitive.
+ *
+ * `episode_count` in src/publish.py matches exactly this, and the count is what
+ * Python compares an episode number against before it will release one. A
+ * looser pattern here would offer an episode 15 that the backend then refuses,
+ * which is the one thing the disabled-control rule is meant to avoid. Note this
+ * is stricter than `serials.ts`, which matches case-insensitively.
+ */
+const EP_FILE = /^ep(\d+)\.md$/;
+
+/**
+ * Counted off disk only when the caller has no count already.
+ *
+ * A page rendering a season has loaded it, and `Serial.episodeCount` is the
+ * same number; passing it in spends one fewer directory read per render. The
+ * fallback exists so this function is still correct when called on its own —
+ * `serials.ts` is not editable from here and exports no cheap counter.
+ */
+async function countEpisodes(storyId: string): Promise<number> {
+  try {
+    const names = await fs.readdir(
+      path.join(DATA_DIR, "stories", storyId, "episodes"),
+    );
+    return names.filter((n) => EP_FILE.test(n)).length;
+  } catch {
+    // No `episodes/` at all: planned, never written. Zero, not an error.
+    return 0;
+  }
+}
+
+/**
+ * The `episodes` map, read the way `released()` reads it.
+ *
+ * Absent entirely on every file written before episodes had their own state, so
+ * a missing key is "none out" rather than a fault. A key that is not an episode
+ * number is somebody's hand edit and is skipped alone — losing every recorded
+ * decision to one bad key is the worse failure.
+ */
+function releases(raw: unknown): EpisodeRelease[] {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return [];
+  const out: EpisodeRelease[] = [];
+  for (const [key, value] of Object.entries(raw as Record<string, unknown>)) {
+    const ep = Number(key);
+    if (!Number.isInteger(ep) || ep < 1) continue;
+    const r =
+      value && typeof value === "object" ? (value as Record<string, unknown>) : {};
+    out.push({
+      ep,
+      by: typeof r.by === "string" ? r.by : null,
+      at: typeof r.at === "string" ? r.at : null,
+    });
+  }
+  return out.sort((a, b) => a.ep - b.ep);
+}
+
+/** The unbroken run from episode 1. Mirrors `released_through`. */
+function unbrokenRun(eps: EpisodeRelease[]): number {
+  const out = new Set(eps.map((e) => e.ep));
+  let n = 0;
+  while (out.has(n + 1)) n += 1;
+  return n;
+}
+
+/**
+ * `episodeCount` is optional: pass `Serial.episodeCount` where the season is
+ * already loaded, and this reads one file instead of a file and a directory.
+ */
+export async function readPublishState(
+  storyId: string,
+  episodeCount?: number,
+): Promise<PublishState> {
+  const total =
+    typeof episodeCount === "number" && Number.isFinite(episodeCount) && episodeCount >= 0
+      ? Math.floor(episodeCount)
+      : await countEpisodes(storyId);
+
+  // A season is a draft until somebody says so, and a draft has nothing out
+  // whatever is written. Also where an unreadable file lands: a state file that
+  // will not parse must not read as a live show.
+  const draft: PublishState = {
+    live: false,
+    by: null,
+    at: null,
+    episodeCount: total,
+    episodes: [],
+    releasedThrough: 0,
+    nextRelease: null,
+  };
+
+  let r: Record<string, unknown>;
   try {
     const raw = JSON.parse(
       await fs.readFile(
@@ -208,16 +335,27 @@ export async function readPublishState(storyId: string): Promise<PublishState> {
         "utf-8",
       ),
     );
-    const r = raw && typeof raw === "object" ? (raw as Record<string, unknown>) : {};
-    return {
-      live: r.state === "live",
-      by: typeof r.by === "string" ? r.by : null,
-      at: typeof r.at === "string" ? r.at : null,
-    };
+    r = raw && typeof raw === "object" ? (raw as Record<string, unknown>) : {};
   } catch {
-    // No file is the normal case: a season is a draft until somebody says so.
-    return { live: false, by: null, at: null };
+    return draft;
   }
+
+  if (r.state !== "live") return draft;
+
+  const episodes = releases(r.episodes);
+  const releasedThrough = unbrokenRun(episodes);
+
+  return {
+    live: true,
+    by: typeof r.by === "string" ? r.by : null,
+    at: typeof r.at === "string" ? r.at : null,
+    episodeCount: total,
+    episodes,
+    releasedThrough,
+    // Episodes go out in order, so there is only ever one candidate. Null once
+    // the season is fully out, and null when nothing is written to release.
+    nextRelease: releasedThrough < total ? releasedThrough + 1 : null,
+  };
 }
 
 /** Reads the checker's log. Exit code 1 means fatal problems, not a crash. */
@@ -275,6 +413,27 @@ export async function readChecks(storyId: string): Promise<Checks> {
   return { unavailable: null, fatal, advisory };
 }
 
+/**
+ * Every screen a release decision moves.
+ *
+ * The episode pages are refreshed by route pattern rather than one literal
+ * path, because no release decision touches a single episode: pulling episode 3
+ * pulls everything after it, and taking the season back to draft pulls all of
+ * them. Refreshing only the episode named on the form would leave the tail
+ * showing itself as out.
+ */
+function revalidateSeason(storyId: string): void {
+  revalidatePath(`/serials/${storyId}`);
+  revalidatePath("/serials");
+  revalidatePath("/serials/[id]/[ep]", "page");
+}
+
+/** The `ep` field off a form, or null if it is not an episode number. */
+function episodeArg(formData: FormData): number | null {
+  const n = Number(String(formData.get("ep") ?? "").trim());
+  return Number.isInteger(n) && n >= 1 ? n : null;
+}
+
 export async function publishSeason(formData: FormData): Promise<void> {
   const storyId = String(formData.get("storyId") ?? "").trim();
   if (!storyId) return;
@@ -291,8 +450,7 @@ export async function publishSeason(formData: FormData): Promise<void> {
     // re-runs them before it writes, so a request that arrives without the
     // button being shown is refused there rather than trusted here.
   }
-  revalidatePath(`/serials/${storyId}`);
-  revalidatePath("/serials");
+  revalidateSeason(storyId);
 }
 
 export async function unpublishSeason(formData: FormData): Promise<void> {
@@ -307,6 +465,67 @@ export async function unpublishSeason(formData: FormData): Promise<void> {
     // Pulling something back is never gated, so a failure here is a broken
     // install rather than a refusal. The state file is the truth either way.
   }
-  revalidatePath(`/serials/${storyId}`);
-  revalidatePath("/serials");
+  revalidateSeason(storyId);
+}
+
+/**
+ * Put one episode in front of listeners.
+ *
+ * Same timeout as the season: `publish_episode` re-runs the season's fatal
+ * checks on every release, not only the first, so this is as slow as the first
+ * publish and for the same reason.
+ *
+ * Three things can refuse it — the show is not live, the episode before it is
+ * not out, the season's checks now fail — and all three are refused in Python.
+ * None of them is decided again here. The screen re-renders against the state
+ * file and the checks afterwards, which is what says why.
+ */
+export async function publishEpisode(formData: FormData): Promise<void> {
+  const storyId = String(formData.get("storyId") ?? "").trim();
+  const ep = episodeArg(formData);
+  if (!storyId || ep === null) return;
+
+  const editor = await getEditor();
+  const args = [
+    "-m",
+    "src.publish",
+    "--story",
+    storyId,
+    "--episode",
+    String(ep),
+  ];
+  if (editor) args.push("--by", editor.id);
+
+  try {
+    await run("python", args, { cwd: REPO, timeout: 60_000 });
+  } catch {
+    // Refusals arrive here as exit 1. Not an error page, for the same reason
+    // publishSeason's are not: the next render reads the state file and the
+    // checks, and says what actually stands in the way.
+  }
+  revalidateSeason(storyId);
+}
+
+/**
+ * Pull one episode, and with it every episode after it.
+ *
+ * The tail comes too — that is `unpublish_episode`'s rule, not this one's, and
+ * it is why the screen must say so before the click rather than reimplement it
+ * after. Pulling is never gated, so a failure here is a broken install.
+ */
+export async function unpublishEpisode(formData: FormData): Promise<void> {
+  const storyId = String(formData.get("storyId") ?? "").trim();
+  const ep = episodeArg(formData);
+  if (!storyId || ep === null) return;
+
+  try {
+    await run(
+      "python",
+      ["-m", "src.publish", "--story", storyId, "--episode", String(ep), "--unpublish"],
+      { cwd: REPO, timeout: 30_000 },
+    );
+  } catch {
+    // Nothing gates a pull, so the state file is the truth either way.
+  }
+  revalidateSeason(storyId);
 }

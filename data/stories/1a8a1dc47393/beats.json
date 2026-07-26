@@ -1,0 +1,2641 @@
+{
+  "story_id": "1a8a1dc47393",
+  "event_id": "evt_dharmapur_2025",
+  "beats": [
+    {
+      "beat_id": "b001",
+      "ep": 1,
+      "seq": 1,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station public desk",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj"
+      ],
+      "hidden_from": [
+        "tara",
+        "mohan",
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "Meera entered the police station asking for Tara and Mohan and identified herself as Devraj's daughter.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Formally claimed her living identity at Dharmapur police station.",
+          "valence": 2
+        },
+        {
+          "entity": "kavita",
+          "fact": "Began an official identity inquiry.",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b002",
+      "ep": 1,
+      "seq": 2,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station public desk",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj"
+      ],
+      "hidden_from": [
+        "tara",
+        "mohan",
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "Devraj publicly called Meera an impostor and refused her request to touch her hand.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Was publicly rejected by her father.",
+          "valence": -5
+        },
+        {
+          "entity": "devraj",
+          "fact": "Committed publicly to denying Meera's identity.",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b003",
+      "ep": 1,
+      "seq": 3,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station records desk",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "babulal"
+      ],
+      "hidden_from": [
+        "tara",
+        "mohan",
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "Babulal opened the records cupboard and produced Meera's death entry and connected murder-case file.",
+      "state_changes": [
+        {
+          "entity": "Meera death record",
+          "fact": "Was placed under active police scrutiny.",
+          "valence": 1
+        },
+        {
+          "entity": "babulal",
+          "fact": "Became involved in reviewing the disputed paperwork.",
+          "valence": -1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b004",
+      "ep": 1,
+      "seq": 4,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station records desk",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "babulal"
+      ],
+      "hidden_from": [
+        "tara",
+        "mohan",
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "The register showed Meera as dead while four men remained jailed for her murder.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Learned that the official register still records her death.",
+          "valence": -4
+        },
+        {
+          "entity": "salim",
+          "fact": "His imprisonment was revealed to depend on Meera's recorded murder.",
+          "valence": -3
+        },
+        {
+          "entity": "naresh",
+          "fact": "His imprisonment was revealed to depend on Meera's recorded murder.",
+          "valence": -3
+        },
+        {
+          "entity": "pintu",
+          "fact": "His imprisonment was revealed to depend on Meera's recorded murder.",
+          "valence": -3
+        },
+        {
+          "entity": "irfan",
+          "fact": "His imprisonment was revealed to depend on Meera's recorded murder.",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b005",
+      "ep": 2,
+      "seq": 1,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station interview room",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj"
+      ],
+      "hidden_from": [
+        "tara",
+        "mohan",
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Kavita separated Meera from the crowd and refused Devraj control over the private identity test.",
+      "state_changes": [
+        {
+          "entity": "kavita",
+          "fact": "Took procedural control of the identity inquiry.",
+          "valence": 3
+        },
+        {
+          "entity": "devraj",
+          "fact": "Lost control over how Meera would be tested.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b006",
+      "ep": 2,
+      "seq": 2,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station interview room",
+      "present": [
+        "meera",
+        "kavita"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita"
+      ],
+      "hidden_from": [
+        "devraj",
+        "tara",
+        "mohan",
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Meera correctly answered private questions about Tara's birth, Mohan's first word and family incidents not fully recorded in the case file.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Provided private family knowledge supporting her identity claim.",
+          "valence": 4
+        },
+        {
+          "entity": "kavita",
+          "fact": "Obtained evidence that could not all be traced to the existing file.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b007",
+      "ep": 2,
+      "seq": 3,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station interview room",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "babulal"
+      ],
+      "hidden_from": [
+        "tara",
+        "mohan",
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "Devraj produced the hospital photograph and record he had used to identify the burned body by a tattoo and black wrist thread.",
+      "state_changes": [
+        {
+          "entity": "devraj",
+          "fact": "Submitted the physical basis of his original identification for review.",
+          "valence": 1
+        },
+        {
+          "entity": "body identification record",
+          "fact": "Became directly comparable with Meera's living body.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b008",
+      "ep": 2,
+      "seq": 4,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station interview room",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "babulal"
+      ],
+      "hidden_from": [
+        "tara",
+        "mohan",
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "Kavita established that the tattoo in the body photograph was on the opposite hand from Meera's tattoo.",
+      "state_changes": [
+        {
+          "entity": "body identification record",
+          "fact": "Its tattoo evidence conflicted with Meera's actual tattoo placement.",
+          "valence": -5
+        },
+        {
+          "entity": "meera",
+          "fact": "Gained physical evidence supporting her claim that the cremated body was not hers.",
+          "valence": 5
+        },
+        {
+          "entity": "devraj",
+          "fact": "His original identification was materially undermined.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b009",
+      "ep": 3,
+      "seq": 1,
+      "world_time": "2022-11-15",
+      "location": "Meera's former house in Dharmapur",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Meera entered her former home under police guard while Tara refused to call her mother and Mohan remained behind a locked storeroom door.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Returned to her former home but was denied recognition by both children.",
+          "valence": -4
+        },
+        {
+          "entity": "tara",
+          "fact": "Reserved judgment on Meera's identity.",
+          "valence": -1
+        },
+        {
+          "entity": "mohan",
+          "fact": "Hid from Meera because he feared losing her again.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b010",
+      "ep": 3,
+      "seq": 2,
+      "world_time": "2022-11-15",
+      "location": "Meera's former bedroom",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Meera directed Kavita to a concealed tin containing Tara's first school ribbon.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Demonstrated private knowledge of a concealed object in the house.",
+          "valence": 4
+        },
+        {
+          "entity": "tara",
+          "fact": "Witnessed evidence that the returned woman knew a secret part of her childhood.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b011",
+      "ep": 3,
+      "seq": 3,
+      "world_time": "2022-11-15",
+      "location": "Kota bus stand tea counter",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "An old photograph linking Meera and Raghav was recovered from behind a bus stand timetable and carried toward Dharmapur.",
+      "state_changes": [
+        {
+          "entity": "bus stand photograph",
+          "fact": "Moved from concealed storage toward the police inquiry.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "No cast character was present when the one-scene bus stand vendor recovered and transported the photograph."
+    },
+    {
+      "beat_id": "b012",
+      "ep": 3,
+      "seq": 4,
+      "world_time": "2022-11-15",
+      "location": "Meera's former house courtyard",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "A bus stand vendor arrived and produced a photograph of Meera standing beside Raghav.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "Was visually linked to Meera at the Kota bus stand.",
+          "valence": -4
+        },
+        {
+          "entity": "meera",
+          "fact": "Was confronted with photographic evidence connecting her to Raghav.",
+          "valence": -2
+        },
+        {
+          "entity": "kavita",
+          "fact": "Obtained a new lead connecting Meera's disappearance to Raghav.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b013",
+      "ep": 4,
+      "seq": 1,
+      "world_time": "2022-11-16",
+      "location": "Dharmapur village committee courtyard",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Raghav publicly asserted that Meera willingly travelled with him to Kota because she wanted to leave her family.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "Publicly gives an explanation for the bus stand photograph.",
+          "valence": -1
+        },
+        {
+          "entity": "meera",
+          "fact": "Is publicly accused of abandoning her children.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Raghav's account is an assertion and is not established as true."
+    },
+    {
+      "beat_id": "b014",
+      "ep": 4,
+      "seq": 2,
+      "world_time": "2022-11-16",
+      "location": "Dharmapur village committee courtyard",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Meera asserted that Raghav took her phone battery, placed her with Shahid and witnessed money being counted.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "Is publicly connected by Meera to Shahid and an alleged payment.",
+          "valence": -3
+        },
+        {
+          "entity": "shahid",
+          "fact": "Is named in Meera's allegation about her movement from the bus stand.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Meera's claims remain alleged."
+    },
+    {
+      "beat_id": "b015",
+      "ep": 4,
+      "seq": 3,
+      "world_time": "2022-11-16",
+      "location": "Dharmapur village committee courtyard",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Tara confirmed that Meera previously owned the taped blue phone described during the confrontation.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Receives limited public corroboration from Tara.",
+          "valence": 2
+        },
+        {
+          "entity": "tara",
+          "fact": "Publicly corroborates one detail without recognising Meera as her mother.",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b016",
+      "ep": 4,
+      "seq": 4,
+      "world_time": "2022-11-16",
+      "location": "Dharmapur village committee courtyard",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Raghav named a five-lakh-rupee payment date before Meera had disclosed the amount or date to police.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "Reveals knowledge of the alleged payment that his prior account did not explain.",
+          "valence": -5
+        },
+        {
+          "entity": "kavita",
+          "fact": "Obtains a material contradiction in Raghav's public statement.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b017",
+      "ep": 5,
+      "seq": 1,
+      "world_time": "2022-11-17",
+      "location": "Kota rental building courtyard and room twelve",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Meera identified room twelve as the place where she said she had been confined, while the landlord stated that it had been rented to a woman named Sarla.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Locates the specific Kota room connected to her allegation.",
+          "valence": 2
+        },
+        {
+          "entity": "Kota rental record",
+          "fact": "Names the tenant as Sarla rather than Meera.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Meera's confinement account remains alleged."
+    },
+    {
+      "beat_id": "b018",
+      "ep": 5,
+      "seq": 2,
+      "world_time": "2022-11-17",
+      "location": "Kota rental building room twelve",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Inside room twelve, Meera correctly predicted wall marks, a hook-shaped water stain and an outside door bolt.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Demonstrates detailed prior knowledge of room twelve.",
+          "valence": 4
+        },
+        {
+          "entity": "kavita",
+          "fact": "Gains physical corroboration for part of Meera's Kota account.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b019",
+      "ep": 5,
+      "seq": 3,
+      "world_time": "2022-11-17",
+      "location": "Kota rental building room twelve",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Meera completed Mohan's private childhood lullaby, and Mohan publicly called her Ma.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Is publicly recognised as mother by Mohan for the first time.",
+          "valence": 5
+        },
+        {
+          "entity": "mohan",
+          "fact": "Commits publicly to recognising Meera as his mother.",
+          "valence": 5
+        },
+        {
+          "entity": "devraj",
+          "fact": "Faces public contradiction from Mohan while continuing to resist Meera's identity.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b020",
+      "ep": 5,
+      "seq": 4,
+      "world_time": "2022-11-17",
+      "location": "Kota rental building ground floor",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "The rental ledger contained Meera's name as a signature beside 2021-06-21, when her family believed she had already been cremated.",
+      "state_changes": [
+        {
+          "entity": "Kota rental ledger",
+          "fact": "Contains a disputed signature in Meera's name after her presumed cremation.",
+          "valence": -4
+        },
+        {
+          "entity": "kavita",
+          "fact": "Takes responsibility for resolving a new documentary contradiction.",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b021",
+      "ep": 6,
+      "seq": 1,
+      "world_time": "2022-11-18",
+      "location": "Dharmapur police station empty records room",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [],
+      "what_happened": "A sealed forensic fingerprint result arrived in the empty records room before the public verification.",
+      "state_changes": [
+        {
+          "entity": "fingerprint report",
+          "fact": "Arrives sealed and available for the identity verification.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "No cast character witnessed the delivery because the records room was empty; Kavita later retrieved and opened the sealed result publicly."
+    },
+    {
+      "beat_id": "b022",
+      "ep": 6,
+      "seq": 2,
+      "world_time": "2022-11-18",
+      "location": "Dharmapur police station public verification area",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "Kavita publicly established that Meera's fresh fingerprints matched two archived documents created before her disappearance.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Receives strong forensic support for her identity.",
+          "valence": 5
+        },
+        {
+          "entity": "devraj",
+          "fact": "Loses a major basis for publicly rejecting Meera.",
+          "valence": -4
+        },
+        {
+          "entity": "fingerprint report",
+          "fact": "Links the returned woman to Meera's archived records.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b023",
+      "ep": 6,
+      "seq": 3,
+      "world_time": "2022-11-18",
+      "location": "Dharmapur police station public verification area",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "The public verification combined the tattoo-hand discrepancy, family testimony, room knowledge and an examiner's opinion that the Kota signature had been copied.",
+      "state_changes": [
+        {
+          "entity": "Kota rental ledger",
+          "fact": "No longer operates as reliable evidence against Meera's identity.",
+          "valence": 2
+        },
+        {
+          "entity": "tara",
+          "fact": "Confirms Meera's private knowledge but withholds full maternal recognition.",
+          "valence": 1
+        },
+        {
+          "entity": "mohan",
+          "fact": "Again recognises Meera as his mother in public.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b024",
+      "ep": 6,
+      "seq": 4,
+      "world_time": "2022-11-18",
+      "location": "Dharmapur police station public verification area",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "Kavita announced that the evidence strongly supported Meera being alive and genuine, and Babulal sealed her death certificate as disputed while police acknowledged the original identification might have been wrong.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Gains formal police support for her claim to be alive and genuine.",
+          "valence": 5
+        },
+        {
+          "entity": "Meera death certificate",
+          "fact": "Is formally marked disputed.",
+          "valence": 5
+        },
+        {
+          "entity": "Dharmapur police",
+          "fact": "Publicly acknowledges that the original body identification may have been wrong.",
+          "valence": 3
+        },
+        {
+          "entity": "devraj",
+          "fact": "His body identification is formally placed in doubt.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b025",
+      "ep": 7,
+      "seq": 1,
+      "world_time": "2022-11-19",
+      "location": "Dharmapur court corridor",
+      "present": [
+        "meera",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "Salim told Meera and Kavita that Raghav had directed the four accused to the accident site before police arrived.",
+      "state_changes": [
+        {
+          "entity": "salim",
+          "fact": "He publicly implicated Raghav in directing the accused to the accident site.",
+          "valence": 2
+        },
+        {
+          "entity": "raghav",
+          "fact": "A jailed accused publicly connected him to the accident site before police arrival.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b026",
+      "ep": 7,
+      "seq": 2,
+      "world_time": "2022-11-19",
+      "location": "Dharmapur courtroom",
+      "present": [
+        "meera",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "The court heard that the four men were charged after police found them beside the burned body and treated their accounts as inconsistent.",
+      "state_changes": [
+        {
+          "entity": "salim",
+          "fact": "The public basis for his murder charge was stated in court.",
+          "valence": 1
+        },
+        {
+          "entity": "naresh",
+          "fact": "The public basis for his murder charge was stated in court.",
+          "valence": 1
+        },
+        {
+          "entity": "pintu",
+          "fact": "The public basis for his murder charge was stated in court.",
+          "valence": 1
+        },
+        {
+          "entity": "irfan",
+          "fact": "The public basis for his murder charge was stated in court.",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b027",
+      "ep": 7,
+      "seq": 3,
+      "world_time": "2022-11-19",
+      "location": "Dharmapur courtroom",
+      "present": [
+        "meera",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "Salim stated under court questioning that Raghav gave him the east quarry road location shortly after six in the morning.",
+      "state_changes": [
+        {
+          "entity": "salim",
+          "fact": "His account of receiving the accident location from Raghav entered the reopened hearing.",
+          "valence": 3
+        },
+        {
+          "entity": "raghav",
+          "fact": "He was accused in court of knowing the accident location before police arrived.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b028",
+      "ep": 7,
+      "seq": 4,
+      "world_time": "2022-11-19",
+      "location": "Dharmapur courtroom",
+      "present": [
+        "meera",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "Kavita and the court clerk established that the indexed pages containing Salim's first-night statement were missing from the original case diary.",
+      "state_changes": [
+        {
+          "entity": "original case diary",
+          "fact": "Pages eighty-seven through ninety-three, including Salim's statement, were missing.",
+          "valence": -5
+        },
+        {
+          "entity": "salim",
+          "fact": "His claim that his statement had been omitted gained documentary support from the page gap.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b029",
+      "ep": 8,
+      "seq": 1,
+      "world_time": "2022-11-20",
+      "location": "Dharmapur court records area",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "A copy of Kesar's missing-person complaint was placed in the court records tray before Janki's interview.",
+      "state_changes": [
+        {
+          "entity": "missing-person complaint",
+          "fact": "The complaint became available in the court records tray without an identified source.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "No named character was present when the complaint was placed in the tray, leaving its delivery as deliberate open canon."
+    },
+    {
+      "beat_id": "b030",
+      "ep": 8,
+      "seq": 2,
+      "world_time": "2022-11-20",
+      "location": "Dharmapur courtroom",
+      "present": [
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "witnessed_by": [
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "The court ordered all four accused produced in the reopened identity inquiry and directed police to record Salim's account again.",
+      "state_changes": [
+        {
+          "entity": "salim",
+          "fact": "He was moved from being contained solely in the old murder case into the reopened inquiry.",
+          "valence": 4
+        },
+        {
+          "entity": "naresh",
+          "fact": "He was moved from being contained solely in the old murder case into the reopened inquiry.",
+          "valence": 4
+        },
+        {
+          "entity": "pintu",
+          "fact": "He was moved from being contained solely in the old murder case into the reopened inquiry.",
+          "valence": 4
+        },
+        {
+          "entity": "irfan",
+          "fact": "He was moved from being contained solely in the old murder case into the reopened inquiry.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b031",
+      "ep": 8,
+      "seq": 3,
+      "world_time": "2022-11-20",
+      "location": "Dharmapur court side room",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "janki"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "janki"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "what_happened": "Janki stated that the burned body might be her missing sister Kesar and described Kesar's black wrist thread, copper bead and left-hand burn mark.",
+      "state_changes": [
+        {
+          "entity": "janki",
+          "fact": "She formally connected Kesar's disappearance to the unidentified burned body.",
+          "valence": 2
+        },
+        {
+          "entity": "burned body identity",
+          "fact": "Kesar became a documented possible identity for the body cremated as Meera.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b032",
+      "ep": 8,
+      "seq": 4,
+      "world_time": "2022-11-20",
+      "location": "Dharmapur court side room",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "janki",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "janki",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "what_happened": "Janki recognised the burned body's hospital intake number as the same number recorded on Kesar's missing-person complaint.",
+      "state_changes": [
+        {
+          "entity": "janki",
+          "fact": "She found a direct record-number link between Kesar's complaint and the burned body.",
+          "valence": 4
+        },
+        {
+          "entity": "burned body identity",
+          "fact": "The hospital intake record became linked to Kesar's missing-person file.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b033",
+      "ep": 9,
+      "seq": 1,
+      "world_time": "2022-11-21",
+      "location": "Dharmapur village courtyard",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "what_happened": "Kavita required Devraj to correct his original identification publicly before the same village that had witnessed his rejection of Meera.",
+      "state_changes": [
+        {
+          "entity": "devraj",
+          "fact": "He was required to answer publicly for the identification he had previously defended.",
+          "valence": -3
+        },
+        {
+          "entity": "meera",
+          "fact": "She gained a public forum to challenge her father's rejection.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b034",
+      "ep": 9,
+      "seq": 2,
+      "world_time": "2022-11-21",
+      "location": "Dharmapur village courtyard",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "what_happened": "Devraj admitted that he could not see the burned body's face and relied on a hand mark, black thread and Meera's name already written on a form.",
+      "state_changes": [
+        {
+          "entity": "devraj",
+          "fact": "He withdrew any claim that he had visually identified the body's face.",
+          "valence": -4
+        },
+        {
+          "entity": "original body identification",
+          "fact": "Its factual basis was publicly reduced to ambiguous physical details and a prewritten name.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b035",
+      "ep": 9,
+      "seq": 3,
+      "world_time": "2022-11-21",
+      "location": "Dharmapur village courtyard",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "what_happened": "Devraj stated that fear and grief, rather than certainty, caused him to sign the body identification.",
+      "state_changes": [
+        {
+          "entity": "devraj",
+          "fact": "He publicly accepted responsibility for converting uncertainty into a positive identification.",
+          "valence": -3
+        },
+        {
+          "entity": "meera",
+          "fact": "Her father's stated basis for declaring her dead was publicly discredited.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b036",
+      "ep": 9,
+      "seq": 4,
+      "world_time": "2022-11-21",
+      "location": "Dharmapur village courtyard",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "what_happened": "Devraj publicly called Meera his daughter and admitted that he had been wrong to call her a stranger.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Her father publicly recognised her as his daughter.",
+          "valence": 5
+        },
+        {
+          "entity": "devraj",
+          "fact": "He publicly reversed his rejection of Meera.",
+          "valence": 3
+        },
+        {
+          "entity": "tara",
+          "fact": "She witnessed Devraj recognise Meera as his daughter.",
+          "valence": 2
+        },
+        {
+          "entity": "mohan",
+          "fact": "He witnessed Devraj recognise Meera as his daughter.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b037",
+      "ep": 10,
+      "seq": 1,
+      "world_time": "2022-11-22",
+      "location": "Dharmapur police station public desk",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita"
+      ],
+      "hidden_from": [
+        "shahid",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "what_happened": "Kavita confronted Raghav with a five-lakh-rupee deposit made to his cousin's cooperative account on 2021-05-03.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "The alleged payment was traced to an account connected to his cousin.",
+          "valence": -4
+        },
+        {
+          "entity": "meera",
+          "fact": "Her allegation gained support from a dated financial record.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b038",
+      "ep": 10,
+      "seq": 2,
+      "world_time": "2022-11-22",
+      "location": "District transport records system",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "The certified registration search returned no tractor corresponding to Raghav's stated transaction.",
+      "state_changes": [
+        {
+          "entity": "tractor record",
+          "fact": "No matching tractor registration existed in the searched period.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "The automated search completed before any character opened or received the certified result."
+    },
+    {
+      "beat_id": "b039",
+      "ep": 10,
+      "seq": 3,
+      "world_time": "2022-11-22",
+      "location": "Dharmapur police station public desk",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita"
+      ],
+      "hidden_from": [
+        "shahid",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "what_happened": "Raghav stated that he knew the payment date because he had arranged a tractor inquiry connecting the alleged buyer to his cousin.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "He publicly acknowledged arranging the transaction whose date he had previously revealed.",
+          "valence": -4
+        },
+        {
+          "entity": "p06",
+          "fact": "Raghav's own explanation established why he knew the exact payment date.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b040",
+      "ep": 10,
+      "seq": 4,
+      "world_time": "2022-11-22",
+      "location": "Dharmapur police station public desk",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita"
+      ],
+      "hidden_from": [
+        "shahid",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "what_happened": "Kavita established that the account received five lakh rupees two days before Meera disappeared and that no tractor was registered for the claimed transaction.",
+      "state_changes": [
+        {
+          "entity": "five-lakh payment",
+          "fact": "The deposit occurred on 2021-05-03, two days before Meera's disappearance on 2021-05-05.",
+          "valence": 4
+        },
+        {
+          "entity": "raghav",
+          "fact": "His tractor explanation lacked a corresponding registered vehicle.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b041",
+      "ep": 11,
+      "seq": 1,
+      "world_time": "2022-11-23",
+      "location": "Meera's former house courtyard",
+      "present": [
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "meera",
+        "devraj",
+        "kavita"
+      ],
+      "what_happened": "Tara secretly reburied her broken clay bird beneath the neem tree and prepared a private-memory test for Meera.",
+      "state_changes": [
+        {
+          "entity": "tara",
+          "fact": "She created an identity test based on a detail never entered in official records.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b042",
+      "ep": 11,
+      "seq": 2,
+      "world_time": "2022-11-23",
+      "location": "Meera's former house courtyard",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "what_happened": "Meera identified the buried object as Tara's one-winged clay bird and located it beside the eastern neem root using a shared memory about Tara's first tooth.",
+      "state_changes": [
+        {
+          "entity": "tara",
+          "fact": "Her private memory test supported Meera's identity independently of official records.",
+          "valence": 5
+        },
+        {
+          "entity": "meera",
+          "fact": "She recovered a family memory known only to her and Tara.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b043",
+      "ep": 11,
+      "seq": 3,
+      "world_time": "2022-11-23",
+      "location": "Meera's former house courtyard",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "what_happened": "Tara allowed Meera to sleep in the family house with both children after Meera promised to tell Tara before leaving for any inquiry.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "She regained permission to sleep in her own house with Tara and Mohan.",
+          "valence": 5
+        },
+        {
+          "entity": "tara",
+          "fact": "She accepted a direct promise from Meera instead of relying on official evidence.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b044",
+      "ep": 11,
+      "seq": 4,
+      "world_time": "2022-11-23",
+      "location": "Meera's former house courtyard",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan"
+      ],
+      "what_happened": "Tara embraced Meera in front of the village and called her Mother.",
+      "state_changes": [
+        {
+          "entity": "tara",
+          "fact": "She publicly accepted Meera as her mother.",
+          "valence": 5
+        },
+        {
+          "entity": "meera",
+          "fact": "The last public refusal within her immediate family ended.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b045",
+      "ep": 12,
+      "seq": 1,
+      "world_time": "2022-11-24",
+      "location": "Dharmapur records office",
+      "present": [
+        "meera",
+        "raghav",
+        "kavita",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "kavita",
+        "babulal"
+      ],
+      "hidden_from": [
+        "devraj",
+        "tara",
+        "mohan",
+        "janki",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid"
+      ],
+      "what_happened": "Raghav filed a changed statement denying that he had taken Meera to Kota or introduced her to Shahid.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "He formally contradicted his earlier public account of Meera's travel to Kota.",
+          "valence": -3
+        },
+        {
+          "entity": "meera",
+          "fact": "Raghav withdrew his allegation that she willingly abandoned her children.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b046",
+      "ep": 12,
+      "seq": 2,
+      "world_time": "2022-11-24",
+      "location": "Dharmapur records office",
+      "present": [
+        "meera",
+        "raghav",
+        "kavita",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "kavita",
+        "babulal"
+      ],
+      "hidden_from": [
+        "devraj",
+        "tara",
+        "mohan",
+        "janki",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid"
+      ],
+      "what_happened": "Babulal produced an unclosed Kota travel register bearing Raghav's former vehicle number and an arrival entry dated 2021-05-05 with three occupants.",
+      "state_changes": [
+        {
+          "entity": "Kota travel register",
+          "fact": "Raghav's vehicle was recorded entering Kota on the day Meera disappeared.",
+          "valence": 4
+        },
+        {
+          "entity": "raghav",
+          "fact": "The register contradicted his new denial of a Kota connection.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b047",
+      "ep": 12,
+      "seq": 3,
+      "world_time": "2022-11-24",
+      "location": "Dharmapur records office",
+      "present": [
+        "meera",
+        "raghav",
+        "kavita",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "kavita",
+        "babulal"
+      ],
+      "hidden_from": [
+        "devraj",
+        "tara",
+        "mohan",
+        "janki",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid"
+      ],
+      "what_happened": "The travel register recorded Raghav's vehicle leaving Kota at 02:14 on 2021-05-06 with two occupants rather than the three recorded on arrival.",
+      "state_changes": [
+        {
+          "entity": "Kota travel register",
+          "fact": "The vehicle's passenger count fell from three to two between arrival and departure.",
+          "valence": -4
+        },
+        {
+          "entity": "raghav",
+          "fact": "His former vehicle was documented leaving Kota after midnight.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b048",
+      "ep": 12,
+      "seq": 4,
+      "world_time": "2022-11-24",
+      "location": "Dharmapur records office",
+      "present": [
+        "meera",
+        "raghav",
+        "kavita",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "kavita",
+        "babulal"
+      ],
+      "hidden_from": [
+        "devraj",
+        "tara",
+        "mohan",
+        "janki",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid"
+      ],
+      "what_happened": "Kavita established that Raghav's vehicle left Kota on the same night a second person connected in a complaint to an alleged buyer disappeared.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "His vehicle was linked by date and location to a second disappearance involving an alleged buyer.",
+          "valence": -5
+        },
+        {
+          "entity": "second disappearance",
+          "fact": "The complaint date matched the vehicle's overnight departure from Kota.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b049",
+      "ep": 13,
+      "seq": 1,
+      "world_time": "2022-11-25",
+      "location": "district forensic laboratory dispatch room",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "The sealed DNA report was dispatched before its results were read to any cast character.",
+      "state_changes": [
+        {
+          "entity": "DNA report",
+          "fact": "The sealed identity findings became ready for official delivery.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Deliberate open-canon beat: the dispatch occurred in an empty records room, so no cast character witnessed the contents before the formal reading."
+    },
+    {
+      "beat_id": "b050",
+      "ep": 13,
+      "seq": 2,
+      "world_time": "2022-11-25",
+      "location": "district forensic laboratory public reading room",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "babulal"
+      ],
+      "what_happened": "The DNA report confirmed that Meera is Devraj's biological daughter and that the burned woman was Janki's biological sister Kesar.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Her identity as Devraj's living biological daughter was scientifically confirmed.",
+          "valence": 5
+        },
+        {
+          "entity": "janki",
+          "fact": "She received scientific confirmation that the burned woman was Kesar.",
+          "valence": 4
+        },
+        {
+          "entity": "Kesar's remains",
+          "fact": "The burned remains were identified as Kesar rather than Meera.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b051",
+      "ep": 13,
+      "seq": 3,
+      "world_time": "2022-11-25",
+      "location": "district records counter",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid"
+      ],
+      "what_happened": "The records established that a duty officer wrote Meera's name on the body form after Raghav supplied that identity by telephone, and that Kesar was the third occupant left near the east depot before Raghav's vehicle departed Kota with two people.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "The records connected him to the premature naming of the burned body and to Kesar's departure from his vehicle.",
+          "valence": -5
+        },
+        {
+          "entity": "body identification form",
+          "fact": "The source and writer of Meera's prematurely entered name were identified.",
+          "valence": 4
+        },
+        {
+          "entity": "Kesar's disappearance",
+          "fact": "Kesar was identified as the second woman linked to an alleged buyer and the missing third vehicle occupant.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b052",
+      "ep": 13,
+      "seq": 4,
+      "world_time": "2022-11-25",
+      "location": "district records counter",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid"
+      ],
+      "what_happened": "Babulal issued Janki a death certificate under Kesar's name, and Kavita read that the DNA placed Kesar at the accident site and excluded Meera from it.",
+      "state_changes": [
+        {
+          "entity": "janki",
+          "fact": "She received her sister's death certificate under Kesar's correct name.",
+          "valence": 5
+        },
+        {
+          "entity": "meera",
+          "fact": "The DNA excluded her from the death scene.",
+          "valence": 5
+        },
+        {
+          "entity": "Kesar's death certificate",
+          "fact": "The death was officially recorded under Kesar's name.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b053",
+      "ep": 14,
+      "seq": 1,
+      "world_time": "2022-11-26",
+      "location": "Dharmapur courtroom",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid",
+        "babulal"
+      ],
+      "what_happened": "The court quashed the murder proceedings against Salim, Naresh, Pintu and Irfan because Meera was alive and the body was Kesar's, and ordered all four released without restraints.",
+      "state_changes": [
+        {
+          "entity": "salim",
+          "fact": "The murder case against him was quashed and he was freed.",
+          "valence": 5
+        },
+        {
+          "entity": "naresh",
+          "fact": "The murder case against him was quashed and he was freed.",
+          "valence": 5
+        },
+        {
+          "entity": "pintu",
+          "fact": "The murder case against him was quashed and he was freed.",
+          "valence": 5
+        },
+        {
+          "entity": "irfan",
+          "fact": "The murder case against him was quashed and he was freed.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b054",
+      "ep": 14,
+      "seq": 2,
+      "world_time": "2022-11-26",
+      "location": "Dharmapur courtroom",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "hidden_from": [
+        "shahid"
+      ],
+      "what_happened": "The court authorised Raghav's arrest after hearing the five-lakh-rupee money trail, the nonexistent tractor transaction, his changed statement and the false body-identification record.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "He was arrested for investigation concerning the money trail, false identification information and connected disappearance evidence.",
+          "valence": -5
+        },
+        {
+          "entity": "meera",
+          "fact": "Raghav could no longer leave the inquiry without answering the documented evidence.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b055",
+      "ep": 14,
+      "seq": 3,
+      "world_time": "2022-11-26",
+      "location": "Dharmapur public records desk",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid"
+      ],
+      "what_happened": "Devraj repeated his public recognition of Meera, Janki displayed Kesar's corrected certificate and Babulal cancelled Meera's death entry while the four freed men walked out without restraints.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Her death record was formally cancelled before her family and the village.",
+          "valence": 5
+        },
+        {
+          "entity": "devraj",
+          "fact": "He publicly reaffirmed that Meera is his daughter and that his identification was wrong.",
+          "valence": 4
+        },
+        {
+          "entity": "janki",
+          "fact": "Kesar's identity was publicly restored under her own certificate.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b056",
+      "ep": 14,
+      "seq": 4,
+      "world_time": "2022-11-26",
+      "location": "Dharmapur public records desk",
+      "present": [
+        "meera",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "devraj",
+        "kavita",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "tara",
+        "mohan",
+        "janki",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "shahid"
+      ],
+      "what_happened": "The official register recorded that Meera was alive, Kesar was the woman cremated and all four accused were free.",
+      "state_changes": [
+        {
+          "entity": "official register",
+          "fact": "It now records Meera alive, Kesar correctly identified and all four accused free.",
+          "valence": 5
+        },
+        {
+          "entity": "meera",
+          "fact": "Her legal status was restored to living.",
+          "valence": 5
+        },
+        {
+          "entity": "Kesar's remains",
+          "fact": "The cremated woman was permanently recorded as Kesar.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "stage": "serial_1a8a1dc47393_07_09",
+  "saved_at": "2026-07-25T23:42:48.860441+00:00",
+  "response": {
+    "id": "resp_080f71939ca63ff9006a65495c3f5881998e9ebb4d7ce6b9a9",
+    "created_at": 1785022812.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_080f71939ca63ff9006a65495d85988199b2b81d75ea49eef4",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZUn4pHSgiPIt_ZAvlk_H-LwNZZ2HKwZbbWyZXpWC7sThcvaxF1UoLp1u6fZ0yBXVNheahAoMJf6jyC3Op8RgsYzISmVSsv8VMpZXpbPJOrO7vseR6qjk1BLJfcShPuR7y4tHY9lXuOGxEZwcd15_OgwuYASz8-J_Gf9ebG33kstNIsK-MU3ZZ6-6A8-gPCDheiJW734eSLhfNSfcJGQX5BdBa3cpRSFTJh5pwaVIwwmZCwT_lMU1B5ncsrLWAU2nhhghQmijll1bVX1FjasQ2-aUAAdhFLXcqp1IKJgYk2KbDajUGPg-4XtaFw_GBshPEX3weemPif7ODEu0d3QfXyr5utOlf32u2EKskqPf9IZHFdQ4yWhoyxBT746jhaZ_4qVy1xRlpmUK9EG2kKeS_HsZXieh1_3BZDCz9guWyjeKwUCkGjpwGmUlQaI3z7-cFrOczeFxfkal0aNGJ5USzovwWvxJ6jG1_eyTbJFSDkGPCNkCuMp1LV-1iLRpqxrOKiN4CgGFpx2hP51PSTpMdQZ8367IDRHVmvcz6fkqQHsNX57sJOgyyK6k8qN8t0iPa2ZSwNvkgUXnJFlqZV86Bwf9jr7Spqt2116q0aNE--g8hy3j6mxu6ZYeCrkJhlXV11iWj1hgYU0ZZKNtFgalzZqnbGDnCf0oLb4M4SuMssfB9WhM4L7tGV_oeots-Mv_GIPiBXB_AONmz-exqcodc7ftigpISMdvFxO1YI7XWEB0phd9EMohNr1Eybtbjs6ni_m6w4ay67w8SnyOtnGmvgpkEUjt8tRtHFpqxZfx-T8uaSoIRRG82s7IBeQq7CQE7z75cnxbP2pP65Zf8cXbXVhN993HkJciIKy_xFhvTqNtRvF-I8lfNCdbiwD3VCH4cF8a6TSS1ncSDNSHGNRa2SaWgWVlx8alUfToNNb4xwxIOPiQD3qRG-t5lrKKEYDBVaA8PCkHQQslSn_v759l36LR5BHpwv2iDbzOAvzHZ1VQnb0QbalaTJsSbibLExfyc37ElLnb0bF2oZRJ3liBrirycq8OWqHEwaq38QYdFwnywKUkqHuG5k8939zJNZ94n7AZbEFpK33QVVo0jaOEgz71KWdimtgPxJbDaGZirI9CSOSvbDjdQg3L9CofANo9-DhmhjW0CW-HoSKxUFvhA8hUcZ69GS4HAyxYIFeNek7O9crlVZli0pBImoqf51f73OeWS6PXitv3vylqs-CyEsH5NrZFWksEk9KJHO2XI3HyisydQljidPr350hkpkIFqcuaAYGFqystyTPiACEnncidgjQrNXgNSiK_PnZX8eeApzG_pno8sXr8kSouunHy9Mdf9A9BJfXrtUUlAvLgqmbjO3mkzFreJ3GzQn-JmldXUb_fokHi-CxPjWQWk-anDBTdthQVwVzPj8iy8fj2Lr9kj_V-0GtpshiI1tySqc1wLafHueiEuBAVV0qSp2uvCwZ1s3ftN0bp9-MiA-gntNiDi5SCLaIIL4ZPZbhyLYIUxCT5CHdPWQud5iSuSThydJFI_5UGxav6K39YZLPrTOUhIULCgWex3qf5a-_73g3SMjWSXDJG40qrytVkyGDqB0SMvs1Rxzbg9cgdjiHOG3zPkdEVnyf2Tm1tiHlqWPL08jA9_zHApqOIMVZbq9Q1RouS0BuquBLz4aJnFlpDSjfXgFF3I7i6U0EKk5M5kN_mw-020kkUP-dlKdXSsOQUDbHfTq-gsL7lI-UV4y69rEt-osg4xVWdqawPehvNzH671KKaiiUVCYRh2356mIlXS_3_VUtbZq30EyOruQj3eTkVjjzbSao2xZYCU5RCtcVXo1y799Z9tkiCQzwaRLj0IoE6zXSqh8o5NLe8py_PZx8Z3152KgfEcTHP7bXXOJJsA2QrACmEUNbMUFPVtRf6cZIxIZcQGDzL2n3qlEi7fk8iqkUKGlRYoZAMNpc66X0u__hruXVS80VukwJ6kRhhcGK7NIGUy41rYvEAzVBzKApntkd5V2g13sydZc0yz9TX_AgjKWdLUCbi_6v7Xk_SamQ0nk6xjAdWEJLe-Z6WrcMBi2WkHRgH9sE1Z4vQ9jA__h4y6Iw1d0YT2lng1LKyoAcl4Tb2LymPb3XB_W2-VhP5PhSp2j1uEcJ6OSInMWoERy6TMos7CThQR49zWpJT1UV3VPr9PgRfM-dlHd4FPE9chD6s2eocWqvaLljPj67_7xe-gJ2zaXUppyTwkAVAEyDT8WGg_NsvTF-FS7I-PJT2HPMkxBocao0F7PvjAFjh-JIol-0v1ZosLKZpVxMb4Muaeogr-4IDul2GNwpLMZJLSEkmvavGYuDeyfcDJHVEgHNS3qG7d_w9Fn79ApLlX5yb3iyJhBfe-N8eDCjKGP0OropMh8X5NOoKjIFwQWPArIafF_KcObf3gA39WUg6SQxNoi_GjCjq3Pexpsb8Xd2MEBHxWqFJvnKRvs6XloVkfz8QA1zx4oKMPj_jVp-spBBj-mLt4twVonqNSuf6Eti80AJkjSMFTvmv3DTnifIO3RaGf0Ca9IkGWVDVUi7iSSb71rr2B7TMg2aWgB-ccjOUy3Z85MBWEeG88L0swoj-5yQy8cyI0_aB7XLcm8rd1RXuV0WfNbaESyNHeOVmF36hhW_iv00JsWnlGXb5zUwTm97lNOvVV31XmPtvqq9ZT3ba-o84U5rt7iexqFrgzUPQMYYU-prfY-H7-RbJWzGdT4A47bZ5m1Vnk26r2SQimymmI_9w3lD9EPb4uSxdoxVlPeOTql9ZA6t0I3IAsX1AzNsx74movl_EGOWEBCIv2K3MynRWTvpArY_-eDbkQPxHpFFkTIP4WYgP75-tnvzI1bQVPcRShM34TtwEuBwhsMlFGs9gnLpsa-BGJy66VbIF0rbDQ2ot0FuQAa5ibm_9VXP4gcyk5hQODtjeGyOOu6X_rFHlSXjdAn7hLbChS6iNaC621-Jm4DHyrI_AOtwJMdocLoMvRs2Y8dXzXsfhnz3LL7sAsuw-JIBBHtTd5fYIrKARJUiiuvP-DB4nxI7KpKl-0QH8KH6l9rgZVThZ_sALVhM0o-iKxHcTsMZlAdj48hby776YSNc9pnxM9GBxjPa96zausoQOE69NN8MSIXcAJMGpspkozCWbP30areaDgiZGLNdgwuy9sPudn92qEuzA6AqaAQtWgOf64NuBUNOXQa-eZu7SYLGXDFr0edC4nIk-jlY1tQ5X1hy0Y2CCWilXB0Sm34bVk0wd0bXFJBVk_OgMv7W3Y1K5thzDYfXHeSMMe1j31i5Bh9bkMqCk9mQBD5MJOvooeljGkfbBAN-qxvwbw5yr0rX9ENbfSXGqgG25TUq-quqJa2fFOAJYUvY8LsedselmipLq1GNjQmC2XlQvbsCD75fZ45fkyWJsYXOisOqNkt-LVaz4cukZs2osYfIiKJFvPwMRWilrUvs8fzGd8stYKoCKZW3rr3Zo39EZDAvbC7FxZ5koGiaqqkcsZqh2rqZLrJ1EIHRvtCSYCSM8wRQTqxZ7mrdg4qJG8T5hwA0CGMwQS5EwU8zcQNYAqPaFST7e5QEdplJ-VTa-7qtOYj1zbfHIvuTbtM_355McoyVO2-cS9s4opajQFD9E58wmP5gBNTEFnnPGuL_5Y1zUqqlPf1pri93j4ov_3MwImm-tz1nRRU_XIrzltQlQ5QwVUD9xXfyARTalyECllUUNG31vFRRA37odV8xb-vpqdxu03XWy8B4AWbVLEwVImaoiyGqOLSWnhu-fRnHymQIfIDYzbxJl0af8kjNs8EsGhjRcARb6_ZRngo6KrRo93H4DmfkV6KfbKjBubbArg1lyWKR-0Xc3sGsoA4e8451eHz-HKYIAMRvK7dFFug0DylMZCfzmyrHYA6ddsA6QH-axSokcepQforQAhN3mKKQ1Iy2_x-8xiDiZFSd70GeeQocx6iekGC0hZgZq_9f3dCCFqSfIrVR1iu5xkqjJlt2e9XZsgfJgUezlhdOpJQPh4FSOJP9NBwNq_3_E4GyRlHqPYu8VnGOUOX0eNg1a3Pl26hhGzWNan7GA0TUJGo1daSe802jFuI8f-4csreMyqWruvwk41CkSWdGoMwU1E3mqAmq31Sv_flCdlcXG-zU=",
+        "status": null
+      },
+      {
+        "id": "rs_080f71939ca63ff9006a65496742408199956b1eae3a3288ed",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZUn4P6Qe1eAeLAbJ_6mtNu_4PRfDHg1Zs9EhVC-DGfQ0oXFZsYTxnsC4mQWMkgJEg1jZS8_PEdqxvTwhrrK9NK9eDNkQ2dPL6HbFkULlMYPYqu7exUWfp4K7D-z4Spl52TcAi9l2yR6-ZEl-2dfx-WI-pt0yq7gN-7bwGYf5V2LkR-igf8XyJv7S4Ve2bk7BOjGppSAn8G4HT3Ud4GXA3wwUwT_JcO1sxZy9T1h7gMy68e7kchuhgFEpQzYXwRJDNofa3xcpBE5q8vGgy7Aorry8oyzu1DfhjJhWRObcPU19kDl4ktgSbT5sqmsY_XkVYSCFvmH9L6x_Hp4gIojryR489LAPkWs6XxcUAs21BO7iN4k51FWygULgmCJXWu8_n4KPWCnzL7cemAL1uCJlCaZuYYhR2m2YJJRuXwOlGj92icy3PNM9EHBtk_ffXamtoajsL8dh9Zp-TuXdPcVjoxjJdVeLlGP3WfBXSlh_SbN9ABo_LVwDlKZ8imoa9gvA39xoHZxAyrBTB5VZhLg5HnZbecGUPYbGkN-tA7aBxDQcd1jvckXcD5bpUqDrT1UlOHyndDLMq1OGKhWGXX6ekUUnWp6vbWeG_1pJUu3flkkFxZZdpKoYj6Z0ITiKYF61WG1uIPp5ilZ3MUb_T00d8LswsbXsq_vBv0bqQeVhx0ylNbQXAjJSMziT47Tq6GOuX5N8TmaR7Xy5YLaM2z7Mc4K3PWhrwJ3T0SirrMIfOTF7SPGGV0u8hwZ-r-h6GpkeRJtld-2ywmdfhP2lcVtvHk-CjELYkfHfZugD6kchxXlNMryzStuq57hEg9vjOnpzsS55mvUXr717-ca-MEpwHe03Nw4_CDxMVvgZdaXTcA2inWrTGb1gXMI-DzJjC_Np5oOpi2PxlxOtxTyJvGRVXZuUqvmkV0rWHRTxGzeHdpQ-kShqgPn_HZnWJda3tjK5qrwi3HgC7eWFMUjMqeWP_TnkNSMPwIMqnTVztnY5Scgxg9MarsJoLeRs6yRyIDBG-J6LWWKtDFe0f1SUZOwo-XLWzeph6UFqXWrXNdr9KJfQYTloqAR256mYEhTgxTNkJvm6YIyubtYfzwqtoxdtffCJNnQ-5IfJYjeibJEJzjd2uAGxHz1ycHvbItG8aAB-OtZadYb0FPHEv9tiURnX6pjYm-G2Ai-J20JIBiUgGSl5J091fFlcl_aycguaJbSHN7YGWtVJ5QUZVboqu-juToiZ-4ndEAyV2G9T9pvG0np3XQBxAjdwE3QpInkRJlg1jmETKWDb-8U7FtwktfBvjoyQ6lBrkuxlxuYuSo7sciXApCuqpXRxCi3dO_skrhEZ8IRGzjQBr4A1dfftQ9FkxH-fUJ-bfzEYIahgLxzgmj3EoD8mjxEp2_Lyam1N2VH_0Vi90wiSz78toYwDgWqekXD0FVmPN5f2cLDNwL23YRzfXL2FGqmRgzK7h3gkYCcfYu4M-Q-ByjMnQgcrSU58kEOfW9GSBZ6JRm5qpdQY19zp3Zfq9YxlSU-v6nu_oB4wVlNmxljvKF94DlXu4oghoXVV2AFvm7UGCxgG6FOtlRaopK_BD9kL0tmh67kDTzyt3-tEGHf8YDBjRq_AHrTWlp8qZrzh2vFpAuQ_KrjF-xX7_LWdz7tH-E_hIXQeHPjBVYjLdoMINJnkV6747nZEzmiWzTmzhRjxTIIQuV6ut7e20uq6s4obYf08lLyL2WkvUpAdWSLit2-rQhdIuPzU78JQfa2Orf9PRu2O3A0nDH-aGvcFULxSYsYSASsdw1PgMvbNt5xSHgsbG7s8aiZY7ajaYS1LtvZGd8gqseSPhumplcgO4lGDODOtLOqL8cU-k6vtmyfEOwH3STMn3Dd1Ua37Mb7CnhyoitJ-ZO3KM2EBZOmsl_-LRIMqZIxilataXxGcElvbumIDKDhhXjd_eS9lw3zLBL1KlBx7cU7lABiBM_7oxW5Irxml0BHCh_VuyI9URc8mvhOwz1nHb0keSGZ_CyK4uO8qp902MTfLX8OZAkByNqJxidAhHJvL_kwD7mpSLZUNiBz-Ab98LNHVFkjRcNxrOACtloxMsHLeuIE7wTeu1eBMj0xO0gPWO6m6WGOQydVuQQVMmLUjo9kUs8bW63J-qEdY26jyk_MKqnL3sfD1E6RO9jvZHMdN6jzUPZNw9t-sx7w1YExu4PhvQNPPVs_szET9hpDpUAKoY_GzuyHgb7ghIi1noCbiGx4_LEAco9d7Jgw68XfYPmnEXNQRHyEhscKqkMiUR5CCya0wBkwQvOEUZaFOm1aD1KuEGF9ef0AK5ps5kb4ugYALRIzg_j5-LTwW_QqjsiojRnZOWUh9KqqsyvvrpPpN2vPrbHRS7cRTG6hBefy39Ochh1ITLloF8b0LIr49jPBicR7L3pdRNbXktJmpXU2YGdU-Qrad5hbFqU-CfIbxAuvECI6NuXyd_kxNAyTh7IeEnAXpp2Z4sZoje8XrS8gi1Vx7vbItsGwGJLb0eQgUhByVUtXXJWZYn_r3pxixYBvV3SfOwM2ZFfQTiP3EtWyq7EmY874OhI7YTirjYwWU8aloqhUKlLBZVmos96gLaSI5qSRo8F1Gy5Dq6kYpvybJzxdflWQRf655_nZmhcoeeWauv0E-eNiiCa6Z5o-ZPYKOFyqSegNZf690fJlO3y-yiTAkBeXGSHh9LA1AOFvcSTQJhbiHmThdjX9nuu2-uv1fksRfsXKEO5RW_2aMPpmL3Eikko5WS4LTwXRl1BAvfLTjAqQwasRChDzOvN71BqsEw3wfRG2Qx1HxEhXLT4S-pzO1S1V5i4EgClNz-Q3zDJ1gh3Ff4VRjeaHS4xKvUpzcS-grA7cNGJ2fj5PpqvsEem0jjVrggoL4G1ZfOzdP2Y2dLv1X_tM3KQRmne-ph7Armq8VdKL7NvEu_ibEkhdL4RajwRN_Rqvo19dGr6B8HBh_uZ2cnp4KggedakIg_oNKXn7Xa-0cVqY464i4papMYZHMfnK9bKO5NtTPb3XOWLIttKhRrCB8IQDsjlDa4onhP7RdZ8g8oTR9GtLRTYzsuzeVZkLR9FXcFE5brSjOzILU_69xEDBJB0gedp9Ur3mssDHdeBQm5LaBsyxjB2jxQ8_oU-30VAy90r34Gmt68UQTZwPWTIY88K81HsErzqw3-W-fSnqhqFqldWcPFmv2NqVws80jM-q5vWIgtA5CXDayUrsZG98clIDvbNOJWNR9KXyNSf1S3MgNtwlQMMXf6mA6Ysf_kXaggEk2NH2jSvsxeIJzxAEPzBLfCtLW6Qv4xQgS_f3n0GE3wONo19Jc2oPc59nLkNdM2fUSbOWhodn6S-sDqgZh_JqOnZhPSEOSAeEtE8D2bmpyLlMJlJZw-DMVTE_KuPHN8DemalIcIwXxeroDpTo9Xgsaz86OJEM42p5pT5UizIrUFw6eLempdP7vYzrELrWwTha25yCXKGiUEuHwqCko98VYOiaiPHCu1uNWlQJEfvGdBHAa9U2PVsvVhlF8OHzo8Kkb3SShG_3gF_W-WuFCb5AYQ4oISgZGt5UL67UcpTmYtz19MYmLIz0xRFIvFEprMmhjXoxLWrCuzA64ODpescnYo0DaSKWs0N9vL0rqVypWFFi_BoyIQLvnFk2amZPaZoEn71DzsEjk0xTQMSd_ILeyh9hz2uthbCdqBRMk7XqryK_5NI7U4Of1gWZgSg_hM_augBhJfaWs4GtBA2ZWs5xCQqdx7B4pPBSVdfAcPBzrkIWbwxYxZ33ZF0lClvfhdL9EnGVGA_PkXJgx9l9c4AF7iQBmdjj1SZd25eeYrb6KK57chBHuL8gYrkVUBpT2YvJcI7bXXzmjNMFjD1g1Fj0cdlbldyTB_4cl_GhNk1Ctuf8m5l7kodvyRydfYBbMLu4JNoQJc_HoxbHfdUnk0wYyoPcTsp-3EFP9Itn5BYa4NKC4_LNHFIQgHMxuPtR5wXfCSBE4KfhsDZ3UNZSu9K7vVYnzXszrKYIegHSSU652xAPgNayOQn0A5SiJ",
+        "status": null
+      },
+      {
+        "id": "rs_080f71939ca63ff9006a654973369881998c13ed7279a17815",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZUn4Or0jLq8nzTYs0IOy4gKmazbtWYKWtoTxjpkbf9b7xcLarTh6LdQlEJUtT1c2bgjATfTjsHPW4MLPFAjrbvcAey8-FmfZlcmDIYzWiFC3fAnBgAbHS2LYkMfFUmYNuBlvT__ybc6EOODEntzkRtoW80YCNP3AmL1D4cLJvOcyo1n9Ke2P1dJ0_bLfrNQzf4hygPhRk-wHzgvfyN-heR_G7i1WfgBlcrksFr3dZ8VbCpRt9CGUZScd2pJjRjEY0hOUidTrSJUFhwGiuxQWkGNgMLX37KInPSyKjvaN8j4Em23u5a3RSzksZs6TIRWeRBvAlLTjEy1sLGXuBwqQQmJH3JDaqf4LzMyTHjMGLXPwXXbIunet5XPmt-v1uNxaAGBjcKF_2BWd2IloeKcHM5A_b2xZK6euWSlYOLckyeZj4B68GRXGypRdJtlf6imH5CkJPYOH82ubv6XLbwdZ8T7wdHIygmOcQVGJ-Yw7JhgDJ4c-qwlUzN3Scjs416qN61qnyotMlZOlNpgjSfp6DTELnheyQEh79dXavJDIt1fUxPv8P2KhRcukWV64WbDpD8zTfiMNAcRnI1cAYto_0yea5s5s0-5Z43YQPLeX6FasuZWO4GIjIoTU4ph-bfpYgUeRGWuj9iC1VVb2UXuLJLIn_jcDGw33MMc9rWhqtgSZFN-DPVXUk5u7mzgbxGdj_sfx9af_Xue3ttGnFN2Kl2U8Mvu2hmou1z0etrsS-OvT4Hu8Q87McY1xfd4qs6Khmbyev0Uz5wcP2F78sFz4a5rslPLO6Lno25ZwnVKv91HBUBbzAKwJmMi4iIG3zYEU2FpN_K48Q-ZZnl-kOnT784-SUOHdKI1oxTIdKOsLIK9JEjJWjCWGL1a_x_dzcD2Z87qfPMFfqwDySjdRm4Fw_4upJnsvJJOMkXsmPYalLTaNAgU0RlzypzmkLlDfCZDgsKMCg9yZi5SOus2YbL8Yj08lwx-Vb8jqfdJXxv9bww6e_ckj0VAA19qeYS5wCwuBo0YT4damUzsi2e3Y0iTy0aYmKGY_mvwKuBEypjAfC8SJgSv7OR5Dme5kR3nKD_gq4edRJQzeQVOUZG3vjM0PBejScDl9qG7MA7PJQmLln2rAc6FssO52MGvQTdnONkFL_yiEgaLxPgTOEmfeR7uST_Xafuuf3YHnZfwJRRoVcYuxiHwT5gjs_qKkitu4FLUEuclajRTsbHBNh5qy4PdX9oqjcbJiZC7hVYnR94HpowJQOWdt70dRLu83punrOFGQDaHXjJVbk0kmfOlheV0p-2k8xzDqOE2osi2HSbYTU1qB7tmcIX7EtD0-KnwOdd3MN9I0asGO3SdwU7Rx4sAErZyDQwFAcjm1C32wAbuId3ry77WlNLakdi54VkM0JVu_g5cx3SWzXvJ6op-ELjOh1DzpPybtddKwazGX3nh65JtzFkwso0BiOJhAcXVWWI9Qoe63mEpWDRrVbf8x56CQIzbP2Fe1tdJr_D18oe_E6qZHyNfzvU0pxNMUJk0b3S_OFuBjIz0IEYqf_10FpDNVs_WcK3AUeU4JRx7HV8OE0maWtsK15RSOPO0nfbg41l9TOwplPP-iQgwjb-5Tgq1ifVrRv7v5Xp0WEJPUSaz_8AQAOKbNQeid1xEScim8Z46cfmniUlpt2CPMG1gbqPXX7wLKpvqQIEcfcqLAj-LKyGJQ9m7v8o-PMQW2KuPIDdZDCkdkm6FjZ3V2CtRpkB-16G4qfF_xzHn5l4d3bMBXJCz2sm9iD_w-3YVV81AW4MWKgEe6MMtUFMO3chMxUvvDewJuwKWWC_rCl40LtaWD5w3ys31RgXFsgLuKu1YeBM4WfK0QVvVVt8blX8gGIHuq6j1WFkZu0nHTKxWOdTJVfL5t9DPdjIhwu9FjLF8AXUvlfJRHQaMFbrlnwu3IeVQvNbcnInBPjo4KJAeDI3sfMkjaicQ33BOuKtqSTd5pDtK582DC5ng7KTJek9gpwWX3wtQQDJUL2UAAK1uRra-OWixT0OHV3j1EZTPAD3SWXSHmZ4dfqlgHTweT5gRx2aEO3LAptbxXDw9onltoyo2cp3Zeke0QLjTtCTFfNpEweqNhm09mOGc4Ip-4XV7kXVRyu31reRj8arzkFokpevzTKBAUscIYJ-XY-kkVObKZ5ALvZcj7RQk4KiJDcGHWkV4DRIQ_oOL6vO3nmDokq-6kEQgyvb3UaTDONXIoKjfzumRIMmjoxHtt2qM9qtQbWy2ppcGmzacBqBQJ2FYeEic1wo8x5EbzxOksyXfT3JfG5MtpT5BwfUieVUEGX1LlImveY4SJ8lTWc1mPozB_cxOUuSgQG4PmuTmzpd1_fENhuaOMQ5CsPuVf5tWbymb7k8XL2ee699oO6kmJHHwC9MXTjA_JEsJSh0zkg6Kr1fBLEpNgQ3AbjrNc8oIJLHvyo5biZ88FoA7HFB73QQXRlBWQ8lMScLCj4bXhPUddbFlxj6dnmCUSJHKjWgYyYyhG8ni63T7nJCr4oTlbxzsJy05ad_80NoNzZqMvsKmII13yxy-_hlWohrPT31JMJveCgU2I26TCOtL3q6r9ygOjgEbpEfUcKNrxgXqxtdXY6xAXj0i34G9pR3D5umagvRTfBBAyJngKEpXbGu7fmS1uwkJmtpVmHVnzxVR7kyovNSoJCYDLwrf-fZvF71S_XFJpVWLnzTbtTKNyTXv7QccE4VucEvqcf3Ub71PhGmO_ncwjXCBEofD8mWlpM5FX5MEat_cZLDBP1tV3xKKRes_ldPJDITf5OuuncNIkostVWSMX2qVVJLSkmCJh0bi8tff9A5IFJuY_cIkd6-lsU5_yTk3RxefyaDQKh5AxAZSjwbWXcGf61ct7kjbtNY4FVqdjc-Qlj03ejzHKdbP9TFBvDsW37oSp7Z_AEzgJD_VxzNXU4draY2u3Mf3Pg5TcRQ25-hburYc2bNpNnKBnh-JVWYccd_F895IQvV2tfGsWxrP1tUT0qa81vLrsI04cWYWfaL_kjEVGRsDpifFvmPsFdpHBDHRXrobQAfd2IKHR-7S-H0ZsmL6zp_qRK5cnxFjfVYjE0YzUeP-o-SSopGsWn1pV_cAFjEZbS0cmdXNAhbBGAdZHhtuWiuu28XLefZLcJjJmd7v0cWIXO8-3zTuCOtdt5mde3_5RW17DOtTdjvyzKlJvlhe4yvhnQ_cY2tX4UxLHQGUr59Foq0QbhdhNxST9xFY8bCk_q8BRvD3xjbcY-A8FEBfbv8eJ4hDJde2F2CUYPAh4a8An2q-LDrr-r4C_Heyon6I9rRLBsiZ4mGn1CvVZ0dziqLvoKiQQ7DN_DHiyHpiiKLjJPEA7aURelFKU-5mZBYvQuD9DTG_GQEPhk8RktAMuqoT-yNM2-aFLUvHWe4nuHrqNc0YXAvNkEj1WLCa_1LaHVc6GEErQglyUl6UWjru9yCfhJk5PfDKigqpessTLfw05H4UKbnfIS7kdQl1iZGK9IKzZUTPtASNpfgXDANagdCNmWQ5mOzGi7U1GV2hUIRvyC_P0TdRIOeoDukJySfQFvNjhcU_Wxw6aERChVt74-CNW-8Ely9VmkDtkej0-U284V-COGOoJZSjPoHinwU1meoMuPgR4_-ITCNC9zjtTjNb8glXu6WK3S35DoapcGYv3qf0x1wmfpa4pMrSAkakNrYr0BmoA2YHm7wTVBjY-kVSmzJzlfsIS8-w43o00KA==",
+        "status": null
+      },
+      {
+        "id": "rs_080f71939ca63ff9006a65497b80848199b14b98a55a9f79cf",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZUn4evmx23umxiWz09Y_GBBZzwB0r6Ru5uP58KdrLAof3rHyyu2MH7EtluO_N1BuZykv6rWgcZOK8FrkinqKy6V7D-PI5o9VcU2BzXmN5h69cAUIsDc5A1qmLdco01RCFjTI8WJOmtJsQ83gPhBSrjBpEJAvUWM2HuOKtxenkR0yl-DZuTZWhpWdKvf2fcX7fkjoAKUFdg17DESs3deEvAST3IGR9xIOk1-HzWZGCc12ixmQjl4gJaq3dqrDZgGShpjQA1HaSPWt2I14rP0hUxpO3B_EGoP-OXmA5Bbru-yoiXMZtHZ4LI1CxggTLkGq4qzpmrU3_dO7dW2ijJbBb4qidAmMTf8MlGoMfCfMVi3_HRv1lKSUmi9TLXPv52xlmqFfyQ0K3-mAI-t62cNWrdo7NGu5on_RwDGZeZV31u_Kl-7tKWmmvRNJylYSknGx8HQGK5BKEOpTognmJYJyxLHAZJpSEaZ2aXqd6YW7doLKGvy5tIWfdG4v0SZAyGJMAg3oqidlrVOPPhcjlzgeXQt5zYk78hde-eraJK-kCIUSi_BfNXDjEJDYhGokvSCMYRF0srEmE61iFGi48XQUEiuXOwIqXA9FN5EsaTIcbVJQv9q0ruj-EtVMi2JkEn3sllvVysrs3k2i-7j8-mEMn8qbvCsj6QgiekbOkmEAvh3PgxDw2yTu9lASVJAzowyfk4lKaA4RtHd7-fOCLhdOw2K92PeGQcpGWNZUVSDrsapGGD6LTTcEUNtgkMjxS3qCCmXdEDKDA_5X3nohpMqpYzrEOuRzu6Q9tFQBD3StVJX5igEafqjbc9VDWMC6FAgzuexA9rc5Uobqbv5-3kzoJPwAC2KqH8_1L9U6A_M0lL9TH0imnyJ5GvB2Xe9JZ0hPzwrfjHm_oSHv7oeKs7UmnbdO5AN75T0lVSGqn1BTL1-ToaNbgz10Vj8SaGkoZrUKebm0toSP9gazWDIcSBB0oeI0D2NTvknNhYMVnl8Br21bSifsxZcmgl43tSOKRbZ5NiY1PTRhz485e4M6P7xOEmwe2-JuyEBQQ8XKT0_SLFUWOIHPfBqQCjq5-42eonIQsKSeTRBg6E3HrHAkeHN-TgFuQCW80S-1iYhGvDvQBmFbr4vc8LP5yt1ulUE4eBIPBrUinrXNw-36ZHQ_8NDlmgZ3V41Wquo-i98f-X-S2hCT81vZ3tKdQ3e038h-VFpZApIF2s3ziOazoa2bPM7LtHr3yDFB0aOWR3PLVgwL7HqXFDv5Jd7FEEJ1UUMDKDYWJ8ucWmvlW-dOyv5deOPwK1mBJgANgGxAgx82boszAKyhNy66rwceq7MBZWYY-1ab5d8iY_fHGDI6B6-bDGoA9vlX8BrD2S2veR8mPaUQpo0S6g7xQVnR8mztLn8TCp8DJGTmyu3ZOtwqDFQ34UsRIXWhTjQmj3u-gOTCzfZTm659QE5GPn6JYccOVGjWgf9i-UK7kpQAvuS_F-6sndVhBSo5X9vE0kfwvi4ieHggeVPm8mpw5V36-JuxP75N9BmOEpdaXZY5H7ih1OtuwUcginb6OXh5cvugukF6yAxTc5uis4bdr3aiBBYJNoql6W7CbPREUS_DnZvazESh1ypDBGH9GI-VpEThHuQ81_v_rDju2xpd1aLOFWOL4bmf8sO_7aP9AaigTND-v2tW5OUj48oI-eLC6qv_KwLGKwMikDqlumChdq13p3xXJNkjjfCdWod-qAk_hO93dRHqAosq9t5GjDYD1MSQaUyqxl9cqGDd5KrmhIkoNkL54kJ8H73-f5P5AMCXf1G7y0wCeZ0r6t-udQ==",
+        "status": null
+      },
+      {
+        "id": "msg_080f71939ca63ff9006a65497e1e7081999491e537ddf0f621",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"episodes\":[{\"ep\":7,\"title\":\"The Missing Statement\",\"lines\":[{\"speaker\":\"COURT GUARD\",\"text\":\"Back. All four of you, back against the wall.\",\"sfx_cue\":\"court corridor, handcuffs and crowd murmurs\"},{\"speaker\":\"salim\",\"text\":\"Let me speak to the judge. Two minutes. That woman is alive.\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT GUARD\",\"text\":\"You will speak when your case number is called.\",\"sfx_cue\":\"\"},{\"speaker\":\"naresh\",\"text\":\"Our case number belongs to a dead woman. Bring her inside.\",\"sfx_cue\":\"\"},{\"speaker\":\"WOMAN IN CROWD\",\"text\":\"Eighteen months in jail, and now the murdered woman walks into court.\",\"sfx_cue\":\"crowd surges against wooden barrier\"},{\"speaker\":\"COURT GUARD\",\"text\":\"Quiet. This is a court corridor, not the village square.\",\"sfx_cue\":\"wooden baton strikes barrier\"},{\"speaker\":\"meera\",\"text\":\"They were jailed in my name. I want to hear why.\",\"sfx_cue\":\"footsteps approach through crowd\"},{\"speaker\":\"salim\",\"text\":\"Meera... you are really standing here.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Yes. Now tell me how my life became your murder charge.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Salim, stop. You don't know who is listening.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Everyone listened when they called us murderers.\",\"sfx_cue\":\"\"},{\"speaker\":\"pintu\",\"text\":\"And everyone watched when police dragged us from our houses.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"You will each get an opportunity. Do not coordinate your accounts here.\",\"sfx_cue\":\"file folder snaps shut\"},{\"speaker\":\"naresh\",\"text\":\"Coordinate? We have shared one cell and one accusation for eighteen months.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Then eighteen months should have taught you to answer separately.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"My answer was separate. I gave it on the first night.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"What answer?\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"That Raghav sent us to the accident site.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Salim!\",\"sfx_cue\":\"handcuff chain jerks sharply\"},{\"speaker\":\"COURT GUARD\",\"text\":\"No shouting between prisoners.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Say it again. Clearly.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Raghav told us where to go, before the police arrived there.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Do not add another word in this corridor.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Madam, I already said every word. Police wrote it down.\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"Case number forty-seven. State versus Salim, Naresh, Pintu and Irfan.\",\"sfx_cue\":\"courtroom bell, single strike\"},{\"speaker\":\"COURT GUARD\",\"text\":\"Move.\",\"sfx_cue\":\"iron gate opens\"},{\"speaker\":\"NARRATOR\",\"text\":\"Four men entered together. For the first time, the woman they were accused of murdering entered behind them.\",\"sfx_cue\":\"chains and footsteps enter high-ceilinged courtroom\"},{\"speaker\":\"JUDGE\",\"text\":\"Who authorised this crowd? Clear the centre aisle.\",\"sfx_cue\":\"gavel, two strikes\"},{\"speaker\":\"COURT CLERK\",\"text\":\"The villagers are witnesses to the identity dispute, Your Honour.\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"They are spectators until summoned. Spectators remain silent.\",\"sfx_cue\":\"\"},{\"speaker\":\"WOMAN IN GALLERY\",\"text\":\"They called Salim a butcher in front of his mother.\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"One more interruption, and the gallery will be emptied.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"The police request permission to place a new development on record.\",\"sfx_cue\":\"papers slide across desk\"},{\"speaker\":\"JUDGE\",\"text\":\"Proceed.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Meera's death certificate was formally marked disputed yesterday.\",\"sfx_cue\":\"\"},{\"speaker\":\"naresh\",\"text\":\"Then open these cuffs.\",\"sfx_cue\":\"handcuffs shake\"},{\"speaker\":\"JUDGE\",\"text\":\"You will not instruct the court.\",\"sfx_cue\":\"\"},{\"speaker\":\"naresh\",\"text\":\"No, sir. I... I only mean, there cannot be her murder if she is here.\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"A disputed certificate is not an acquittal. It is a reason to examine the record.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Examine the part where they used my name without asking whether I was alive.\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"You will be heard after the case history is read.\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"The prosecution alleged that the four accused killed Meera and burned her body near the east quarry road.\",\"sfx_cue\":\"case file pages turn\"},{\"speaker\":\"COURT CLERK\",\"text\":\"They were detained after being located near the accident site.\",\"sfx_cue\":\"\"},{\"speaker\":\"pintu\",\"text\":\"Because somebody called us there.\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"Who called you?\",\"sfx_cue\":\"\"},{\"speaker\":\"pintu\",\"text\":\"Salim said there was a crashed vehicle. He said people might need help.\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"Salim, where did you get that information?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Sir, may I speak privately before he answers?\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"No. The question was not addressed to you.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Raghav came to the repair shed that morning.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"He said a vehicle had gone off the east quarry road.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"He told us to reach it before the traffic police took everything away.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"What time?\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"A little after six. The tea stall had just opened.\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"Was Raghav with you at the site?\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"No. He gave the location, then left in his white pickup.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Why did all four of you go?\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Pintu knew the road. Naresh had a tow chain. Irfan came because I asked.\",\"sfx_cue\":\"\"},{\"speaker\":\"naresh\",\"text\":\"We found a burned vehicle, one body, and no living passenger.\",\"sfx_cue\":\"\"},{\"speaker\":\"pintu\",\"text\":\"Police arrived within twelve minutes. Too quickly for that road.\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"How were the accused connected to the alleged victim?\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"The original case diary says they were found beside the body and gave inconsistent accounts.\",\"sfx_cue\":\"pages flip rapidly\"},{\"speaker\":\"naresh\",\"text\":\"We were questioned separately after being awake all night.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"They kept asking which one of us lit the fire.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"I kept saying Raghav sent us.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Did you sign that statement?\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Every page. My thumbprint is below the last line.\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"Sub-inspector, locate the first-night statement.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Court clerk, give me volume one.\",\"sfx_cue\":\"heavy file lands on desk\"},{\"speaker\":\"COURT CLERK\",\"text\":\"Arrest memos, seizure list, site sketch and medical forms.\",\"sfx_cue\":\"paper rifling\"},{\"speaker\":\"kavita\",\"text\":\"Where are the individual statements?\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"After page eighty-six, according to the index.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Page eighty-six is followed by page ninety-three.\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"Check the supplementary volume.\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"Supplementary volume begins with laboratory correspondence.\",\"sfx_cue\":\"second file opens\"},{\"speaker\":\"meera\",\"text\":\"Ask who removed seven pages.\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"The court will ask the questions.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"My statement was five pages. The others signed one page each.\",\"sfx_cue\":\"\"},{\"speaker\":\"pintu\",\"text\":\"Seven pages.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Don't... don't say anything else, Salim.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"You stayed quiet for your brother. I stayed quiet because I trusted the file.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Clerk, read the index entry aloud.\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"Accused statements, pages eighty-seven through ninety-three, recorded on the night of arrest.\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"And those pages are not in either volume?\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"No, Your Honour.\",\"sfx_cue\":\"paper movement stops\"},{\"speaker\":\"kavita\",\"text\":\"The original case diary contains the index, but Salim's statement is missing.\",\"sfx_cue\":\"\"}]},{\"ep\":8,\"title\":\"The Number on the Complaint\",\"lines\":[{\"speaker\":\"JUDGE\",\"text\":\"These men will not be returned to silence inside the old murder file.\",\"sfx_cue\":\"courtroom bell and handcuff chains\"},{\"speaker\":\"COURT CLERK\",\"text\":\"Your Honour, the prison transfer order is ready.\",\"sfx_cue\":\"official stamp strikes paper\"},{\"speaker\":\"JUDGE\",\"text\":\"Read it aloud. Their families have waited long enough to hear it.\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"All four accused are to be produced in the reopened identity inquiry.\",\"sfx_cue\":\"\"},{\"speaker\":\"naresh\",\"text\":\"Does that mean we leave jail today?\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"It means the old accusation may no longer bury new evidence.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"And my missing statement?\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"The police will reconstruct its custody and record your account again.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"In open court?\",\"sfx_cue\":\"\"},{\"speaker\":\"JUDGE\",\"text\":\"Under protection, if the investigating officer finds a credible risk.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"I need protection for my brother, not for myself.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Give me his details before you return to custody.\",\"sfx_cue\":\"\"},{\"speaker\":\"pintu\",\"text\":\"We came to court as four murderers.\",\"sfx_cue\":\"\"},{\"speaker\":\"naresh\",\"text\":\"We are still in cuffs.\",\"sfx_cue\":\"\"},{\"speaker\":\"pintu\",\"text\":\"Yes. But now the court has to ask who sent us there.\",\"sfx_cue\":\"\"},{\"speaker\":\"WOMAN IN GALLERY\",\"text\":\"Naresh, your daughter can hear you!\",\"sfx_cue\":\"gallery erupts in cries and applause\"},{\"speaker\":\"JUDGE\",\"text\":\"Order. The four accused will be brought into the reopened inquiry, not hidden inside the old case.\",\"sfx_cue\":\"gavel, three firm strikes\"},{\"speaker\":\"NARRATOR\",\"text\":\"Before noon, an old missing-person complaint reached the court records tray. No named witness saw who placed it there.\",\"sfx_cue\":\"single paper slides into metal tray\"},{\"speaker\":\"COURT GUARD\",\"text\":\"Clear the doorway. The next matter cannot enter through your shoulders.\",\"sfx_cue\":\"court veranda crowd and approaching bus horn\"},{\"speaker\":\"janki\",\"text\":\"Please, move. I came from the neighbouring district for the burned woman.\",\"sfx_cue\":\"hurried footsteps, cloth bag buckle rattles\"},{\"speaker\":\"COURT GUARD\",\"text\":\"Which burned woman?\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"The woman cremated as Meera. She may be my sister.\",\"sfx_cue\":\"crowd murmurs rise\"},{\"speaker\":\"meera\",\"text\":\"What is your sister's name?\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"Kesar.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Come inside. Do not tell this story in a doorway.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"You are Meera?\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Yes.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"Then whose ashes did they give your family?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Nobody has established that those ashes belonged to her sister.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"Are you the man who identified the body?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"I am her father.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"That was not my question.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Janki, come to the side room. Bring every document you have.\",\"sfx_cue\":\"side-room door opens\"},{\"speaker\":\"janki\",\"text\":\"I brought her missing-person complaint and three photographs.\",\"sfx_cue\":\"paper envelope opens\"},{\"speaker\":\"kavita\",\"text\":\"When did Kesar disappear?\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"In June, twenty twenty-one. She left for a hospital appointment and never returned.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"What made you connect her to this body?\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"A court notice said the woman wore a black thread around her wrist.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Many women wear black thread.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"Kesar's had three knots and a small copper bead.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"The original hospital note mentions a black thread. It does not mention a bead.\",\"sfx_cue\":\"hospital file opens\"},{\"speaker\":\"janki\",\"text\":\"Then look at the photograph before they cut it away.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"The photograph is disturbing. Confirm that you still want to view it.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"I have imagined worse every night for seventeen months. Show me.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You don't have to prove your love by looking at a burned face.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"No. I have to prove the police searched under the wrong woman's name.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Only the wrist photograph first.\",\"sfx_cue\":\"photograph sleeve slides across table\"},{\"speaker\":\"janki\",\"text\":\"The thread is twisted twice here. Kesar always did that after bathing.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"That cannot identify a person.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"Neither could you, apparently.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You arrived ten minutes ago. Do not judge what that day was.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"My sister vanished. Your daughter returned. I know exactly what these days are.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Enough. We test records, not grief against grief.\",\"sfx_cue\":\"file closes sharply\"},{\"speaker\":\"kavita\",\"text\":\"Did Kesar have a tattoo?\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"No permanent tattoo. A childhood burn mark below her left thumb.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"The body photograph showed a tattoo on the hand opposite mine.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"The skin was damaged. The mark was difficult to read.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"Was her face visible?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"This interview is being conducted by the police.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"You answer very carefully for a grieving father.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Janki, what hospital appointment was Kesar attending?\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"A wrist dressing. The burn had reopened after field work.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Which hospital?\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"The district civil hospital. I wrote it in the complaint.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Babulal, bring the unidentified-body intake sheet from the original file.\",\"sfx_cue\":\"metal cupboard opens\"},{\"speaker\":\"babulal\",\"text\":\"The original is brittle. I will place it in a clear sleeve.\",\"sfx_cue\":\"papers rustle inside plastic sleeve\"},{\"speaker\":\"janki\",\"text\":\"Why is there a red line across the name box?\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"The patient arrived unidentified. Meera's name was added after Devraj's identification.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"After police asked me to identify my daughter.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You identified a thread and a damaged mark. Not me.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"I identified what I could.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"The intake sheet records one female patient, severe burns, no usable facial identification.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"Read the number at the top.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"D H P, twenty-one, zero six one four, thirty-eight.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"No... read it once more.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"D H P, twenty-one, zero six one four, thirty-eight.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"That number was written by the hospital clerk on Kesar's appointment slip.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"Your missing-person complaint is in the records tray. It has the same number in the reference box.\",\"sfx_cue\":\"paper pulled from metal tray\"},{\"speaker\":\"kavita\",\"text\":\"Show her the complaint.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"D H P, twenty-one, zero six one four, thirty-eight. This hospital intake number is the number on Kesar's missing-person complaint.\",\"sfx_cue\":\"\"}]},{\"ep\":9,\"title\":\"My Daughter\",\"lines\":[{\"speaker\":\"MAN IN CROWD\",\"text\":\"Devraj, look at your daughter before you deny her again.\",\"sfx_cue\":\"village courtyard crowd and microphone feedback\"},{\"speaker\":\"devraj\",\"text\":\"I will not answer a mob.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Then answer me. Touch my hand and say who I am.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"This public spectacle proves nothing.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"It proved enough when you called Ma a stranger in front of everyone.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Mohan, stand beside me.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Nobody will touch or surround Devraj. He is here to correct his identification statement.\",\"sfx_cue\":\"microphone stand adjusted\"},{\"speaker\":\"WOMAN IN CROWD\",\"text\":\"He sent four men to jail with that statement.\",\"sfx_cue\":\"\"},{\"speaker\":\"MAN IN CROWD\",\"text\":\"And he would not even touch Meera at the station.\",\"sfx_cue\":\"crowd voices overlap\"},{\"speaker\":\"kavita\",\"text\":\"Silence. Public humiliation will not repair public error.\",\"sfx_cue\":\"police whistle, single blast\"},{\"speaker\":\"meera\",\"text\":\"No. But public truth may begin to repair it.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You asked me to attend a formal verification. Conduct it formally.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"I intend to. Stand at the microphone.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"I can speak from here.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Your original identification was accepted publicly. Your correction will be heard publicly.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You have already marked the certificate disputed.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"A red seal corrected a document. It did not correct your words.\",\"sfx_cue\":\"\"},{\"speaker\":\"NARRATOR\",\"text\":\"Devraj crossed the same courtyard where his refusal had made Meera a stranger.\",\"sfx_cue\":\"slow footsteps toward microphone\"},{\"speaker\":\"devraj\",\"text\":\"The microphone is unnecessary.\",\"sfx_cue\":\"microphone hum\"},{\"speaker\":\"kavita\",\"text\":\"The people at the back disagree.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"So does the family of the woman you identified.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"The body has not been proved to be Kesar.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"No. But the hospital number proved my complaint was ignored.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Today's question is narrower. What did Devraj actually see?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"I saw the body police brought from the accident site.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Could you identify the face?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"The face was... it was severely burned.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"That was not the question.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"No. I could not identify the face.\",\"sfx_cue\":\"crowd gasps\"},{\"speaker\":\"WOMAN IN CROWD\",\"text\":\"He never saw her face, yet he called it Meera!\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"One more interruption, and I will end the verification.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Do not end it. I waited eighteen months for this answer.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Devraj, what feature did you rely upon first?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"A dark mark on the hand.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"You described it as Meera's tattoo.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"That is what I believed it was.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Meera's tattoo is on the opposite hand.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"I know that now.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You knew which hand when I was a child. You paid for the medicine after it became infected.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"The body was covered. The room smelled of smoke and chemicals.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"What other feature did you rely upon?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"The black thread around the wrist.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"Kesar wore one with three knots and a copper bead.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"I did not see a bead.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Did Meera always wear a black thread?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"She wore one during illness and after temple visits.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Not every day. I had removed mine before I disappeared.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"It was tied to the bedpost. I found it after she was gone.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You never told me that.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"You never asked me. You told me Ma was dead.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"Then you burned someone and said she was Ma.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Mohan, you are too young to understand that day.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"I understood the day you would not touch her.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Devraj, did any doctor certify a facial identification before you signed?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"No.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Did police have fingerprints or DNA linking the body to Meera?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Not then.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Did you see clothing you personally recognised?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Only burned cloth. Nothing certain.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Then state why you signed the identification.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Police said the accident matched the time she vanished.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"They said the four men near the site had changed their stories.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"They showed me the hand, the thread, and her name already written on a form.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"My name was already written?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"In pencil, at the top. I thought they knew more than they told me.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"That detail is not in your original statement.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Nobody asked who wrote the name first.\",\"sfx_cue\":\"\"},{\"speaker\":\"janki\",\"text\":\"They gave you a name, and you gave them certainty.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"They asked whether it could be my daughter.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"And you turned could be into yes.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"I was afraid.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Of what?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Of taking an unclaimed body home. Of refusing, then learning I had abandoned you twice.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"So you accepted the first answer that ended the waiting.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Yes.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"State it without explanation. Did you identify the face?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"No.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Was your identification based on certainty?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"No. It was based on fear and grief.\",\"sfx_cue\":\"\"},{\"speaker\":\"WOMAN IN CROWD\",\"text\":\"Then Meera was shamed because her father was frightened.\",\"sfx_cue\":\"crowd murmurs spread\"},{\"speaker\":\"devraj\",\"text\":\"Yes. She was shamed because I was frightened.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"At the station, I asked you to touch my hand.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"I remember.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You called me an impostor where my children could hear later.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"I was trying to protect the decision I had already made.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Not me. The decision.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Yes.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"Touch her hand now.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"No. Let Ma choose whether he may.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You may touch my hand after you answer one question.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Ask it.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Who am I? Say it so the whole village hears you.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Meera is my daughter. I was wrong to call her a stranger.\",\"sfx_cue\":\"\"}]}],\"beat_sheet\":[{\"beat_id\":\"b025\",\"ep\":7,\"seq\":1,\"world_time\":\"2022-11-19\",\"location\":\"Dharmapur court corridor\",\"present\":[\"meera\",\"kavita\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"witnessed_by\":[\"meera\",\"kavita\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"hidden_from\":[\"raghav\",\"shahid\",\"janki\"],\"what_happened\":\"Salim told Meera and Kavita that Raghav had directed the four accused to the accident site before police arrived.\",\"state_changes\":[{\"entity\":\"salim\",\"fact\":\"He publicly implicated Raghav in directing the accused to the accident site.\",\"valence\":2},{\"entity\":\"raghav\",\"fact\":\"A jailed accused publicly connected him to the accident site before police arrival.\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b026\",\"ep\":7,\"seq\":2,\"world_time\":\"2022-11-19\",\"location\":\"Dharmapur courtroom\",\"present\":[\"meera\",\"kavita\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"witnessed_by\":[\"meera\",\"kavita\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"hidden_from\":[\"raghav\",\"shahid\",\"janki\"],\"what_happened\":\"The court heard that the four men were charged after police found them beside the burned body and treated their accounts as inconsistent.\",\"state_changes\":[{\"entity\":\"salim\",\"fact\":\"The public basis for his murder charge was stated in court.\",\"valence\":1},{\"entity\":\"naresh\",\"fact\":\"The public basis for his murder charge was stated in court.\",\"valence\":1},{\"entity\":\"pintu\",\"fact\":\"The public basis for his murder charge was stated in court.\",\"valence\":1},{\"entity\":\"irfan\",\"fact\":\"The public basis for his murder charge was stated in court.\",\"valence\":1}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b027\",\"ep\":7,\"seq\":3,\"world_time\":\"2022-11-19\",\"location\":\"Dharmapur courtroom\",\"present\":[\"meera\",\"kavita\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"witnessed_by\":[\"meera\",\"kavita\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"hidden_from\":[\"raghav\",\"shahid\",\"janki\"],\"what_happened\":\"Salim stated under court questioning that Raghav gave him the east quarry road location shortly after six in the morning.\",\"state_changes\":[{\"entity\":\"salim\",\"fact\":\"His account of receiving the accident location from Raghav entered the reopened hearing.\",\"valence\":3},{\"entity\":\"raghav\",\"fact\":\"He was accused in court of knowing the accident location before police arrived.\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b028\",\"ep\":7,\"seq\":4,\"world_time\":\"2022-11-19\",\"location\":\"Dharmapur courtroom\",\"present\":[\"meera\",\"kavita\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"witnessed_by\":[\"meera\",\"kavita\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"hidden_from\":[\"raghav\",\"shahid\",\"janki\"],\"what_happened\":\"Kavita and the court clerk established that the indexed pages containing Salim's first-night statement were missing from the original case diary.\",\"state_changes\":[{\"entity\":\"original case diary\",\"fact\":\"Pages eighty-seven through ninety-three, including Salim's statement, were missing.\",\"valence\":-5},{\"entity\":\"salim\",\"fact\":\"His claim that his statement had been omitted gained documentary support from the page gap.\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b029\",\"ep\":8,\"seq\":1,\"world_time\":\"2022-11-20\",\"location\":\"Dharmapur court records area\",\"present\":[],\"witnessed_by\":[],\"hidden_from\":[\"meera\",\"raghav\",\"devraj\",\"kavita\",\"salim\",\"naresh\",\"pintu\",\"irfan\",\"shahid\",\"tara\",\"mohan\",\"janki\",\"babulal\"],\"what_happened\":\"A copy of Kesar's missing-person complaint was placed in the court records tray before Janki's interview.\",\"state_changes\":[{\"entity\":\"missing-person complaint\",\"fact\":\"The complaint became available in the court records tray without an identified source.\",\"valence\":2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"No named character was present when the complaint was placed in the tray, leaving its delivery as deliberate open canon.\"},{\"beat_id\":\"b030\",\"ep\":8,\"seq\":2,\"world_time\":\"2022-11-20\",\"location\":\"Dharmapur courtroom\",\"present\":[\"kavita\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"witnessed_by\":[\"kavita\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"hidden_from\":[\"raghav\",\"shahid\",\"janki\"],\"what_happened\":\"The court ordered all four accused produced in the reopened identity inquiry and directed police to record Salim's account again.\",\"state_changes\":[{\"entity\":\"salim\",\"fact\":\"He was moved from being contained solely in the old murder case into the reopened inquiry.\",\"valence\":4},{\"entity\":\"naresh\",\"fact\":\"He was moved from being contained solely in the old murder case into the reopened inquiry.\",\"valence\":4},{\"entity\":\"pintu\",\"fact\":\"He was moved from being contained solely in the old murder case into the reopened inquiry.\",\"valence\":4},{\"entity\":\"irfan\",\"fact\":\"He was moved from being contained solely in the old murder case into the reopened inquiry.\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b031\",\"ep\":8,\"seq\":3,\"world_time\":\"2022-11-20\",\"location\":\"Dharmapur court side room\",\"present\":[\"meera\",\"devraj\",\"kavita\",\"janki\"],\"witnessed_by\":[\"meera\",\"devraj\",\"kavita\",\"janki\"],\"hidden_from\":[\"raghav\",\"shahid\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"what_happened\":\"Janki stated that the burned body might be her missing sister Kesar and described Kesar's black wrist thread, copper bead and left-hand burn mark.\",\"state_changes\":[{\"entity\":\"janki\",\"fact\":\"She formally connected Kesar's disappearance to the unidentified burned body.\",\"valence\":2},{\"entity\":\"burned body identity\",\"fact\":\"Kesar became a documented possible identity for the body cremated as Meera.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b032\",\"ep\":8,\"seq\":4,\"world_time\":\"2022-11-20\",\"location\":\"Dharmapur court side room\",\"present\":[\"meera\",\"devraj\",\"kavita\",\"janki\",\"babulal\"],\"witnessed_by\":[\"meera\",\"devraj\",\"kavita\",\"janki\",\"babulal\"],\"hidden_from\":[\"raghav\",\"shahid\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"what_happened\":\"Janki recognised the burned body's hospital intake number as the same number recorded on Kesar's missing-person complaint.\",\"state_changes\":[{\"entity\":\"janki\",\"fact\":\"She found a direct record-number link between Kesar's complaint and the burned body.\",\"valence\":4},{\"entity\":\"burned body identity\",\"fact\":\"The hospital intake record became linked to Kesar's missing-person file.\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b033\",\"ep\":9,\"seq\":1,\"world_time\":\"2022-11-21\",\"location\":\"Dharmapur village courtyard\",\"present\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\",\"janki\"],\"witnessed_by\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\",\"janki\"],\"hidden_from\":[\"raghav\",\"shahid\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"what_happened\":\"Kavita required Devraj to correct his original identification publicly before the same village that had witnessed his rejection of Meera.\",\"state_changes\":[{\"entity\":\"devraj\",\"fact\":\"He was required to answer publicly for the identification he had previously defended.\",\"valence\":-3},{\"entity\":\"meera\",\"fact\":\"She gained a public forum to challenge her father's rejection.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b034\",\"ep\":9,\"seq\":2,\"world_time\":\"2022-11-21\",\"location\":\"Dharmapur village courtyard\",\"present\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\",\"janki\"],\"witnessed_by\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\",\"janki\"],\"hidden_from\":[\"raghav\",\"shahid\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"what_happened\":\"Devraj admitted that he could not see the burned body's face and relied on a hand mark, black thread and Meera's name already written on a form.\",\"state_changes\":[{\"entity\":\"devraj\",\"fact\":\"He withdrew any claim that he had visually identified the body's face.\",\"valence\":-4},{\"entity\":\"original body identification\",\"fact\":\"Its factual basis was publicly reduced to ambiguous physical details and a prewritten name.\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b035\",\"ep\":9,\"seq\":3,\"world_time\":\"2022-11-21\",\"location\":\"Dharmapur village courtyard\",\"present\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\",\"janki\"],\"witnessed_by\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\",\"janki\"],\"hidden_from\":[\"raghav\",\"shahid\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"what_happened\":\"Devraj stated that fear and grief, rather than certainty, caused him to sign the body identification.\",\"state_changes\":[{\"entity\":\"devraj\",\"fact\":\"He publicly accepted responsibility for converting uncertainty into a positive identification.\",\"valence\":-3},{\"entity\":\"meera\",\"fact\":\"Her father's stated basis for declaring her dead was publicly discredited.\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b036\",\"ep\":9,\"seq\":4,\"world_time\":\"2022-11-21\",\"location\":\"Dharmapur village courtyard\",\"present\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\",\"janki\"],\"witnessed_by\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\",\"janki\"],\"hidden_from\":[\"raghav\",\"shahid\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"what_happened\":\"Devraj publicly called Meera his daughter and admitted that he had been wrong to call her a stranger.\",\"state_changes\":[{\"entity\":\"meera\",\"fact\":\"Her father publicly recognised her as his daughter.\",\"valence\":5},{\"entity\":\"devraj\",\"fact\":\"He publicly reversed his rejection of Meera.\",\"valence\":3},{\"entity\":\"tara\",\"fact\":\"She witnessed Devraj recognise Meera as his daughter.\",\"valence\":2},{\"entity\":\"mohan\",\"fact\":\"He witnessed Devraj recognise Meera as his daughter.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null}],\"promise_ledger\":[{\"id\":\"p03\",\"raised_ep\":1,\"listener_is_waiting_for\":\"Why are four men imprisoned for murdering a woman who is alive?\",\"must_pay_by_ep\":7,\"paid_ep\":7,\"how_paid\":\"The court stated that the four men were charged after being found beside the burned body, and Salim revealed that Raghav had directed them to the accident site before police arrived.\",\"status\":\"paid\"},{\"id\":\"p04\",\"raised_ep\":2,\"listener_is_waiting_for\":\"Whose body was cremated after being wrongly identified as Meera?\",\"must_pay_by_ep\":13,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p06\",\"raised_ep\":4,\"listener_is_waiting_for\":\"How did Raghav know the exact five-lakh-rupee payment date before Meera disclosed the amount?\",\"must_pay_by_ep\":10,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p07\",\"raised_ep\":7,\"listener_is_waiting_for\":\"Will Salim's missing statement be restored to the investigation?\",\"must_pay_by_ep\":8,\"paid_ep\":8,\"how_paid\":\"The court ordered police to record Salim's account again and brought all four accused into the reopened identity inquiry.\",\"status\":\"paid\"},{\"id\":\"p08\",\"raised_ep\":8,\"listener_is_waiting_for\":\"Does the matching hospital number prove that the burned woman was Kesar?\",\"must_pay_by_ep\":13,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p09\",\"raised_ep\":9,\"listener_is_waiting_for\":\"Who wrote Meera's name on the unidentified-body form before Devraj signed the identification?\",\"must_pay_by_ep\":14,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"}],\"calendar\":{\"season_start\":\"2022-11-14\",\"dates_fixed\":[{\"ep\":1,\"when\":\"2022-11-14\",\"what\":\"Meera enters Dharmapur police station and discovers that she remains recorded as dead.\"},{\"ep\":2,\"when\":\"2022-11-14\",\"what\":\"Kavita conducts the initial private identity test and finds the tattoo-hand discrepancy.\"},{\"ep\":3,\"when\":\"2022-11-15\",\"what\":\"Meera visits her former house under police guard and the bus stand photograph arrives.\"},{\"ep\":4,\"when\":\"2022-11-16\",\"what\":\"Raghav gives his account before the village committee and reveals knowledge of a payment dated 2021-05-03.\"},{\"ep\":5,\"when\":\"2022-11-17\",\"what\":\"Meera identifies room twelve in Kota, Mohan publicly calls her Ma and the rental ledger reveals a disputed signature dated 2021-06-21.\"},{\"ep\":6,\"when\":\"2022-11-18\",\"what\":\"Kavita conducts the open identity verification and Meera's death certificate is marked disputed.\"},{\"ep\":7,\"when\":\"2022-11-19\",\"what\":\"The four jailed accused appear in court, Salim implicates Raghav and his indexed statement is found missing from the case diary.\"},{\"ep\":8,\"when\":\"2022-11-20\",\"what\":\"The court brings the four accused into the reopened inquiry, and Janki links Kesar's complaint to the burned body's hospital intake number.\"},{\"ep\":9,\"when\":\"2022-11-21\",\"what\":\"Devraj admits that fear and grief caused the mistaken identification and publicly recognises Meera as his daughter.\"}],\"periods_fixed\":[{\"between\":[1,2],\"elapsed\":\"No time elapsed; both episodes occur on 2022-11-14.\"},{\"between\":[2,3],\"elapsed\":\"One day.\"},{\"between\":[3,4],\"elapsed\":\"One day.\"},{\"between\":[4,5],\"elapsed\":\"One day.\"},{\"between\":[5,6],\"elapsed\":\"One day.\"},{\"between\":[6,7],\"elapsed\":\"One day.\"},{\"between\":[7,8],\"elapsed\":\"One day.\"},{\"between\":[8,9],\"elapsed\":\"One day.\"}],\"unresolved\":[]},\"flags\":[]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 0.98,
+    "background": false,
+    "max_output_tokens": 32000,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": "medium",
+      "generate_summary": null,
+      "summary": null,
+      "context": "all_turns",
+      "mode": "standard"
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "episode_batch",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "episodes",
+            "beat_sheet",
+            "promise_ledger",
+            "calendar",
+            "flags"
+          ],
+          "properties": {
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "ep",
+                  "title",
+                  "lines"
+                ],
+                "properties": {
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "lines": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "speaker",
+                        "text",
+                        "sfx_cue"
+                      ],
+                      "properties": {
+                        "speaker": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "sfx_cue": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "beat_sheet": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "beat_id",
+                  "ep",
+                  "seq",
+                  "world_time",
+                  "location",
+                  "present",
+                  "witnessed_by",
+                  "hidden_from",
+                  "what_happened",
+                  "state_changes",
+                  "source_ref",
+                  "tier",
+                  "note"
+                ],
+                "properties": {
+                  "beat_id": {
+                    "type": "string"
+                  },
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "seq": {
+                    "type": "integer"
+                  },
+                  "world_time": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "present": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "witnessed_by": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "hidden_from": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "what_happened": {
+                    "type": "string"
+                  },
+                  "state_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "entity",
+                        "fact",
+                        "valence"
+                      ],
+                      "properties": {
+                        "entity": {
+                          "type": "string"
+                        },
+                        "fact": {
+                          "type": "string"
+                        },
+                        "valence": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "source_ref": {
+                    "type": "string"
+                  },
+                  "tier": {
+                    "type": "string",
+                    "enum": [
+                      "core_canon"
+                    ]
+                  },
+                  "note": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "promise_ledger": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "raised_ep",
+                  "listener_is_waiting_for",
+                  "must_pay_by_ep",
+                  "paid_ep",
+                  "how_paid",
+                  "status"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "raised_ep": {
+                    "type": "integer"
+                  },
+                  "listener_is_waiting_for": {
+                    "type": "string"
+                  },
+                  "must_pay_by_ep": {
+                    "type": "integer"
+                  },
+                  "paid_ep": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "how_paid": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "open",
+                      "paid",
+                      "paid_late"
+                    ]
+                  }
+                }
+              }
+            },
+            "calendar": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "season_start",
+                "dates_fixed",
+                "periods_fixed",
+                "unresolved"
+              ],
+              "properties": {
+                "season_start": {
+                  "type": "string"
+                },
+                "dates_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "ep",
+                      "when",
+                      "what"
+                    ],
+                    "properties": {
+                      "ep": {
+                        "type": "integer"
+                      },
+                      "when": {
+                        "type": "string"
+                      },
+                      "what": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "periods_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "between",
+                      "elapsed"
+                    ],
+                    "properties": {
+                      "between": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        }
+                      },
+                      "elapsed": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "unresolved": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 13909,
+      "input_tokens_details": {
+        "cached_tokens": 5579,
+        "cache_write_tokens": 8327
+      },
+      "output_tokens": 11868,
+      "output_tokens_details": {
+        "reasoning_tokens": 1716
+      },
+      "total_tokens": 25777
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1785022968,
+    "frequency_penalty": 0.0,
+    "moderation": null,
+    "presence_penalty": 0.0,
+    "prompt_cache_retention": "24h",
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    }
+  }
+}

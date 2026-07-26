@@ -1,0 +1,169 @@
+{
+  "season_start": "2022-11-14",
+  "dates_fixed": [
+    {
+      "ep": 1,
+      "when": "2022-11-14",
+      "what": "Meera enters Dharmapur police station and discovers that she remains recorded as dead."
+    },
+    {
+      "ep": 2,
+      "when": "2022-11-14",
+      "what": "Kavita conducts the initial private identity test and finds the tattoo-hand discrepancy."
+    },
+    {
+      "ep": 3,
+      "when": "2022-11-15",
+      "what": "Meera visits her former house under police guard and the bus stand photograph arrives."
+    },
+    {
+      "ep": 4,
+      "when": "2022-11-16",
+      "what": "Raghav gives his account before the village committee and reveals knowledge of a payment dated 2021-05-03."
+    },
+    {
+      "ep": 5,
+      "when": "2022-11-17",
+      "what": "Meera identifies room twelve in Kota, Mohan publicly calls her Ma and the rental ledger reveals a disputed signature dated 2021-06-21."
+    },
+    {
+      "ep": 6,
+      "when": "2022-11-18",
+      "what": "Kavita conducts the open identity verification and Meera's death certificate is marked disputed."
+    },
+    {
+      "ep": 7,
+      "when": "2022-11-19",
+      "what": "The four jailed accused appear in court, Salim implicates Raghav and his indexed statement is found missing from the case diary."
+    },
+    {
+      "ep": 8,
+      "when": "2022-11-20",
+      "what": "The court brings the four accused into the reopened inquiry, and Janki links Kesar's complaint to the burned body's hospital intake number."
+    },
+    {
+      "ep": 9,
+      "when": "2022-11-21",
+      "what": "Devraj admits that fear and grief caused the mistaken identification and publicly recognises Meera as his daughter."
+    },
+    {
+      "ep": 10,
+      "when": "2022-11-22",
+      "what": "Kavita traces the five-lakh-rupee deposit dated 2021-05-03 and finds no registered tractor corresponding to Raghav's explanation."
+    },
+    {
+      "ep": 11,
+      "when": "2022-11-23",
+      "what": "Tara tests Meera with the buried clay bird, publicly accepts her as her mother and allows her to sleep in the family house."
+    },
+    {
+      "ep": 12,
+      "when": "2022-11-24",
+      "what": "Raghav withdraws his Kota account and Babulal produces the unclosed travel-register entry for Raghav's vehicle."
+    },
+    {
+      "ep": 13,
+      "when": "2022-11-25",
+      "what": "DNA confirms Meera's identity and identifies the burned woman as Kesar, whose corrected death certificate is issued."
+    },
+    {
+      "ep": 14,
+      "when": "2022-11-26",
+      "what": "The four accused are freed, Raghav is arrested, Meera's death record is cancelled and the final register entry restores every identity."
+    }
+  ],
+  "periods_fixed": [
+    {
+      "between": [
+        1,
+        2
+      ],
+      "elapsed": "No time elapsed; both episodes occur on 2022-11-14."
+    },
+    {
+      "between": [
+        2,
+        3
+      ],
+      "elapsed": "One day."
+    },
+    {
+      "between": [
+        3,
+        4
+      ],
+      "elapsed": "One day."
+    },
+    {
+      "between": [
+        4,
+        5
+      ],
+      "elapsed": "One day."
+    },
+    {
+      "between": [
+        5,
+        6
+      ],
+      "elapsed": "One day."
+    },
+    {
+      "between": [
+        6,
+        7
+      ],
+      "elapsed": "One day."
+    },
+    {
+      "between": [
+        7,
+        8
+      ],
+      "elapsed": "One day."
+    },
+    {
+      "between": [
+        8,
+        9
+      ],
+      "elapsed": "One day."
+    },
+    {
+      "between": [
+        9,
+        10
+      ],
+      "elapsed": "One day."
+    },
+    {
+      "between": [
+        10,
+        11
+      ],
+      "elapsed": "One day."
+    },
+    {
+      "between": [
+        11,
+        12
+      ],
+      "elapsed": "One day."
+    },
+    {
+      "between": [
+        12,
+        13
+      ],
+      "elapsed": "One day."
+    },
+    {
+      "between": [
+        13,
+        14
+      ],
+      "elapsed": "One day."
+    }
+  ],
+  "unresolved": []
+}

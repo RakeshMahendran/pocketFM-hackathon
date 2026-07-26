@@ -1,0 +1,42 @@
+{
+  "story_id": "1a8a1dc47393",
+  "open_count": 0,
+  "promises": [
+    {
+      "id": "p04",
+      "raised_ep": 2,
+      "listener_is_waiting_for": "Whose body was cremated after being wrongly identified as Meera?",
+      "must_pay_by_ep": 13,
+      "paid_ep": 13,
+      "how_paid": "DNA testing identified the burned woman as Janki's missing sister Kesar, and Janki received a death certificate under Kesar's name.",
+      "status": "paid"
+    },
+    {
+      "id": "p08",
+      "raised_ep": 8,
+      "listener_is_waiting_for": "Does the matching hospital number prove that the burned woman was Kesar?",
+      "must_pay_by_ep": 13,
+      "paid_ep": 13,
+      "how_paid": "A sibling DNA comparison scientifically confirmed that the burned remains belonged to Kesar.",
+      "status": "paid"
+    },
+    {
+      "id": "p09",
+      "raised_ep": 9,
+      "listener_is_waiting_for": "Who wrote Meera's name on the unidentified-body form before Devraj signed the identification?",
+      "must_pay_by_ep": 14,
+      "paid_ep": 13,
+      "how_paid": "The movement sheet showed that the receiving duty officer wrote Meera's name after Raghav supplied that identity by telephone twenty-three minutes before Devraj signed.",
+      "status": "paid"
+    },
+    {
+      "id": "p10",
+      "raised_ep": 12,
+      "listener_is_waiting_for": "Who was the second person linked to an alleged buyer, and why did Raghav's vehicle leave Kota on the night that person disappeared?",
+      "must_pay_by_ep": 14,
+      "paid_ep": 13,
+      "how_paid": "The east depot complaint and vehicle records identified Kesar as the second woman and third occupant; Raghav's vehicle departed with two people after leaving her near the depot.",
+      "status": "paid"
+    }
+  ]
+}

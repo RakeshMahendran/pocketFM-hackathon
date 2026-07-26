@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { NextStep } from "@/components/NextStep";
 import { Notice } from "@/components/Notice";
+import { FREE_CLICK, scoutNext } from "@/components/pathWords";
 import { ScoutReplay } from "@/components/ScoutReplay";
 import { loadCorpus } from "@/lib/data";
 import { loadReplay } from "@/lib/replay";
@@ -169,13 +171,22 @@ export default async function ScoutPage() {
             </p>
           )}
 
-          <Link
-            href="/sourcing"
-            className="mt-6 inline-block border border-ochre/50 text-ochre px-5 py-2.5 text-sm rounded-sm hover:bg-ochre/10 transition-colors"
-          >
-            See all {found} stories →
-          </Link>
         </section>
+      )}
+
+      {/* The same link this screen always ended its summary with, drawn as the
+          one next step instead of as one more link among the replay's dozens.
+          Nothing about the search matters if nobody walks from it to the list. */}
+      {found > 0 && (
+        <div className="mt-8 max-w-2xl">
+          <NextStep
+            action={scoutNext(found).action}
+            href="/sourcing"
+            cost={FREE_CLICK}
+          >
+            {scoutNext(found).plain}
+          </NextStep>
+        </div>
       )}
 
       {/*

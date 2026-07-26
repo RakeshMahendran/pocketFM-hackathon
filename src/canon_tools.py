@@ -72,21 +72,34 @@ def tools_for(story: str) -> List[Tool]:
                 ("beat_id", "what_happened", "present", "witnessed_by", "hidden_from")}
 
     return [
+        # These descriptions are the only account the model gets of what the
+        # numbers mean, and the constrained arm is built on them. Told that
+        # `character_knows` covers presence, a writer reasons that a beat missing
+        # from it was one the character was absent for — and licenses itself on
+        # the ones it was present for and did not witness, which is precisely the
+        # leak `hidden_from` exists to stop. So each one states the rule its
+        # implementation actually applies, including where that is narrower or
+        # wider than the name suggests.
         Tool("character_knows",
-             "Every beat this character witnessed or was present for. Use before "
-             "letting them refer to something.",
+             "Every beat this character is listed as witnessing (`witnessed_by`). "
+             "Being in the room is NOT included: a beat they were present for and "
+             "did not take in does not appear here, and they may not refer to it. "
+             "Use before letting them refer to something.",
              {"type": "object", "required": ["char_id"],
               "properties": {"char_id": {"type": "string"}}},
              character_knows),
         Tool("character_blind",
-             "Every beat this character is explicitly excluded from. They may "
-             "never demonstrate knowledge of any of these.",
+             "Every beat this character did not witness — the exact complement of "
+             "character_knows, not only the beats an author marked `hidden_from`. "
+             "Beats nobody decided about are in here, because being unrecorded is "
+             "not permission. They may never demonstrate knowledge of any of these.",
              {"type": "object", "required": ["char_id"],
               "properties": {"char_id": {"type": "string"}}},
              character_blind),
         Tool("character_gaps",
-             "Time windows where this character appears in no beat at all. "
-             "Nothing there can be contradicted, so it is writable space.",
+             "Runs of consecutive beats this character does not witness, measured "
+             "in beats rather than clock time. Canon says nothing about where they "
+             "were, so nothing there can be contradicted: it is writable space.",
              {"type": "object", "required": ["char_id"],
               "properties": {"char_id": {"type": "string"}}},
              character_gaps),

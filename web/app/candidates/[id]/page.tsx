@@ -3,7 +3,15 @@ import { notFound } from "next/navigation";
 
 import { ClearanceBadge } from "@/components/ClearanceBadge";
 import { CommissionAction } from "@/components/CommissionAction";
+import { NextStep } from "@/components/NextStep";
 import { Notice } from "@/components/Notice";
+import {
+  CANDIDATE_BLOCKED,
+  CANDIDATE_MADE,
+  CANDIDATE_NEXT,
+  COMMISSION_COST,
+  FREE_CLICK,
+} from "@/components/pathWords";
 import { loadCandidate } from "@/lib/data";
 import { requireEditor } from "@/lib/session";
 import type { Scores } from "@/lib/types";
@@ -81,6 +89,10 @@ export default async function CandidateBrief(
   const blocked = c.clearance?.status === "blocked";
 
   return (
+    // The commissioning control sits in the right-hand column, below the score
+    // bars, three screens down on a long brief. `#order-a-season` is how the one
+    // next thing at the top of the page reaches it without a second button —
+    // there must only ever be one control that spends this money.
     <div className="mx-auto max-w-6xl px-8 py-12">
       <Link href="/sourcing" className="label hover:text-ochre transition-colors">
         ← {STORY_LIST_TITLE}
@@ -127,6 +139,37 @@ export default async function CandidateBrief(
           {c.one_line}
         </p>
       )}
+
+      <div className="mt-8 max-w-2xl">
+        {blocked ? (
+          // The refusal itself belongs to `CommissionAction` and stays there.
+          // This exists so a reader who has just been told no is not left at a
+          // wall with nowhere to turn — it offers the list back, never a way in.
+          <NextStep
+            tone="onward"
+            action={CANDIDATE_BLOCKED.action}
+            href="/sourcing"
+          >
+            {CANDIDATE_BLOCKED.plain}
+          </NextStep>
+        ) : c.madeAs ? (
+          <NextStep
+            action={CANDIDATE_MADE.action}
+            href={`/serials/${encodeURIComponent(c.madeAs)}`}
+            cost={FREE_CLICK}
+          >
+            {CANDIDATE_MADE.plain}
+          </NextStep>
+        ) : (
+          <NextStep
+            action={CANDIDATE_NEXT.action}
+            href="#order-a-season"
+            cost={COMMISSION_COST}
+          >
+            {CANDIDATE_NEXT.plain}
+          </NextStep>
+        )}
+      </div>
 
       {c.missing.length > 0 && (
         <div className="mt-8">
@@ -201,7 +244,7 @@ export default async function CandidateBrief(
         </div>
 
         <aside className="space-y-8">
-          <div>
+          <div id="order-a-season" className="scroll-mt-6">
             <h2 className="label mb-3">
               {c.madeAs ? "This one is made" : HEADING.commission}
             </h2>

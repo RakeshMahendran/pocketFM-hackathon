@@ -1,0 +1,26 @@
+{
+  "story_id": "1a8a1dc47393",
+  "state": "live",
+  "by": "farhan",
+  "at": "2026-07-25T23:48:10.655443+00:00",
+  "advisory_at_publish": [
+    "b021 (ep6) asserts nobody's ignorance: hidden_from is empty and 13 of 13 cast members are not even present"
+  ],
+  "episodes": {
+    "1": {
+      "by": "priya",
+      "at": "2026-07-25T23:57:03.193800+00:00"
+    },
+    "2": {
+      "by": "priya",
+      "at": "2026-07-25T23:57:03.531681+00:00"
+    },
+    "3": {
+      "by": "devika",
+      "at": "2026-07-26T00:02:54.205138+00:00",
+      "advisory_at_release": [
+        "b021 (ep6) asserts nobody's ignorance: hidden_from is empty and 13 of 13 cast members are not even present"
+      ]
+    }
+  }
+}

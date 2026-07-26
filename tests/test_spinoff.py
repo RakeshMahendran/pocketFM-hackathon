@@ -9,6 +9,7 @@ import json
 
 import pytest
 
+from src.canon import views
 from src.generation import client as llm_client
 from src.generation.schemas import obj as schema_obj
 from src.generation import brief as brief_mod
@@ -196,6 +197,63 @@ def test_the_default_anchor_is_one_the_character_actually_witnessed():
     assert spinoff_mod.default_anchor(_demo_story(), "ana") == "b3"
 
 
+def test_a_character_with_no_state_change_still_anchors_on_a_beat_they_witnessed():
+    """
+    `views.anchors()` only ever sees beats whose `state_changes[].entity` names the
+    character, and eight promotable characters across the delivered stories have
+    none — story1's nagaraj and kempanna among them. Refusing them made the roster
+    offer characters the writer then raised on, which on the console is a button
+    that 422s. An anchor is where the episode starts, not the only thing in it.
+    """
+    beats = [_beat("b1", 1, 1, present=["ben"], witnessed=["ben"]),
+             _beat("b2", 1, 2, present=["cy", "ana"], witnessed=["cy", "ana"]),
+             _beat("b3", 2, 1, present=["ana"], witnessed=["ana"])]
+    s = _story(beats)
+
+    assert views.anchors(s, "ana") == []
+    assert spinoff_mod.default_anchor(s, "ana") == "b2"
+
+
+def test_the_default_anchor_prefers_a_scene_a_single_pov_can_hold():
+    """Same preference `views.anchors` applies: the finale in front of thirteen
+    people is legal and is not what an unattended run should pick."""
+    crowd = _beat("b1", 1, 1, witnessed=["ana"] + [f"x{i}" for i in range(9)])
+    crowd["present"] = crowd["witnessed_by"]
+    s = _story([crowd, _beat("b2", 3, 1, present=["ana"], witnessed=["ana"])])
+
+    assert spinoff_mod.default_anchor(s, "ana") == "b2"
+
+
+def test_the_roster_never_offers_a_character_the_writer_cannot_anchor():
+    """
+    The two rules have to agree or the console has a dead button. `promotable`
+    needs three witnessed beats; `default_anchor` must resolve for anything that
+    clears it, on every delivered story.
+    """
+    from src.canon import store as canon_store
+
+    offered = 0
+    for story_id in canon_store.story_ids():
+        story = canon_store.load_story(story_id)
+        for row in views.promotable(story):
+            if not row["promotable"]:
+                continue
+            offered += 1
+            anchor = spinoff_mod.default_anchor(story, row["char_id"])
+            assert anchor in story["beat_index"], (story_id, row["char_id"])
+
+    assert offered, "no promotable characters found — the fixture stories are missing"
+
+
+def test_a_character_who_witnesses_nothing_is_still_refused():
+    """The fallback is a witnessed beat, not any beat. Someone the season never
+    lets take anything in has no episode, and saying so beats inventing one."""
+    s = _story([_beat("b1", 1, 1, present=["ana"], witnessed=["ben"])])
+
+    with pytest.raises(RuntimeError, match="witnesses no beat"):
+        spinoff_mod.default_anchor(s, "ana")
+
+
 # ---------------------------------------------------------------------------
 # the guarantee
 # ---------------------------------------------------------------------------
@@ -235,6 +293,37 @@ def test_a_real_place_name_in_the_script_is_caught():
     spin, s = _spinoff([], script="SFX: a bus leaves Mysuru district.")
 
     assert checks.check_real_names(spin, s)[0]["check"] == "clearance"
+
+
+def test_a_real_place_name_is_caught_as_a_fragment_of_its_map_key():
+    """The delivered key is "Mysuru district, Karnataka" and the delivered line
+    is "a lorry driver in Mysuru". Neither contains the other."""
+    spin, s = _spinoff([], script="SFX: a lorry driver in Mysuru.")
+    s["dossier"]["fictionalization_map"] = {
+        "Mysuru district, Karnataka": "unnamed southern district"}
+
+    found = checks.check_real_names(spin, s)
+
+    assert [v["check"] for v in found] == ["clearance"]
+    assert found[0]["severity"] == checks.WARN, "a place is reported, not blocked"
+
+
+def test_a_real_person_named_only_in_the_people_list_is_an_error():
+    """
+    The `story3_revenge` shape: real people, and a map that renames only places.
+    A spinoff off that canon has to be stopped for the same reason the mainline
+    is — hard rule 4 is about the person, not about which field they sit in.
+    """
+    spin, s = _spinoff([], script="BIRJU: Nepal Manjhi's house. Forty-one thousand.")
+    s["dossier"]["people"] = [{"name": "Lita Manjhi"}, {"name": "Asha Devi"}]
+    s["dossier"]["fictionalization_map"] = {"the kiln site": "teghra more"}
+
+    found = checks.check_real_names(spin, s)
+
+    assert len(found) == 1
+    assert found[0]["severity"] == checks.ERROR
+    assert "Lita Manjhi" in found[0]["why"]
+    assert "Manjhi's house" in found[0]["quote"]
 
 
 # ---------------------------------------------------------------------------

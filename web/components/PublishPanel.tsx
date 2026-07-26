@@ -1,4 +1,11 @@
-import { EDITORS } from "@/lib/session";
+import Link from "next/link";
+
+import {
+  EPISODE_LIST_ANCHOR,
+  ReleaseEpisode,
+  editorName,
+  refusedRelease,
+} from "@/components/ReleaseControls";
 import {
   publishSeason,
   unpublishSeason,
@@ -6,27 +13,44 @@ import {
   type Finding,
   type PublishState,
 } from "@/lib/publish";
+import {
+  CANNOT_GO_OUT,
+  EPISODE_LIST_TITLE,
+  RELEASE_HEADING,
+  RELEASE_NEEDS_LIVE,
+  RELEASE_NOT_A_PUSH,
+  SHOW_DRAFT,
+  TAKE_DOWN,
+  type SeasonRelease,
+  nextRelease,
+  seasonStanding,
+  showAudit,
+} from "@/lib/words";
 
 /**
- * The decision that turns a written season into one listeners can hear.
+ * The two decisions this page exists to support, in one panel.
  *
- * Three states, and the two refusals are the interesting ones. A season whose
- * continuity checks fail cannot be published by anyone — the same rule as a
- * `blocked` story that cannot be commissioned, at the other end of the
- * pipeline. A season whose checks could not be run cannot be published either:
- * an unanswered check is not a passed one, and a screen that reassures on a
- * result it never got is worse than one that refuses. A guarantee that can be
- * waived under deadline, or by a broken install, is not a guarantee.
+ * A show going live means it exists for listeners at all; an episode going out
+ * is the thing that actually earns. This panel used to conflate them — it took
+ * the number of episodes WRITTEN and reported it as the number out, so a season
+ * with three episodes in front of listeners announced fourteen. Every count here
+ * now comes from `seasonStanding()`, which is handed `releasedThrough` and
+ * `written` separately and cannot mix them up.
+ *
+ * Three refusals, and they are not the same news. A season whose continuity
+ * checks fail cannot be published by anyone — the same rule as a `blocked` story
+ * that cannot be commissioned, at the other end of the pipeline. A season whose
+ * checks could not be run cannot be published either: an unanswered check is not
+ * a passed one, and a screen that reassures on a result it never got is worse
+ * than one that refuses. The third is not a refusal at all — a live show with
+ * nothing out yet is where every show starts, and rendering it in the colour of
+ * a failure teaches a producer to distrust the one screen they act from.
  *
  * Advisories are shown above the button rather than hidden behind it: only a
  * person reading the prose can settle them, so they should be read before
- * somebody puts their name to the season, not after.
+ * somebody puts their name to it — and `publish_episode()` re-runs them on every
+ * release, so they belong beside the episode button too, not only the season's.
  */
-
-function editorName(id: string | null): string | null {
-  if (!id) return null;
-  return EDITORS.find((e) => e.id === id)?.name ?? id;
-}
 
 /**
  * What the season is being refused for.
@@ -68,48 +92,145 @@ function listeningTime(episodes: number): string {
   return m ? `about ${h}h ${m}m` : `about ${h}h`;
 }
 
+/**
+ * The advisories, wherever a decision is about to be made on them.
+ *
+ * Shown on both sides of the panel because both decisions carry them: the
+ * season's were recorded when someone stood behind it, and the check runs again
+ * before every single episode.
+ */
+function Advisories({ checks }: { checks: Checks }) {
+  if (checks.advisory.length === 0) return null;
+  return (
+    <div className="mt-4 border-l-2 border-caution/60 pl-4">
+      <div className="label text-caution">
+        Worth reading first — {checks.advisory.length}
+      </div>
+      <ul className="mt-2 space-y-1.5">
+        {checks.advisory.slice(0, 4).map((a, i) => (
+          <li key={i} className="text-sm text-faint">
+            <Said f={a} />
+          </li>
+        ))}
+      </ul>
+      <p className="mt-2 text-xs text-faint">
+        These need someone to read the scripts to settle, so they do not stop
+        you — but they are your call, not the checker’s.
+      </p>
+    </div>
+  );
+}
+
 export function PublishPanel({
   storyId,
-  episodes,
   state,
   checks,
 }: {
   storyId: string;
-  episodes: number;
   state: PublishState;
   checks: Checks;
 }) {
+  // The one place the two numbers meet, and they are kept apart: `written` is
+  // counted off disk, `releasedThrough` is the unbroken run a listener can
+  // reach. Everything the panel says is derived from this pair.
+  const season: SeasonRelease = {
+    live: state.live,
+    releasedThrough: state.releasedThrough,
+    written: state.episodeCount,
+  };
+  const standing = seasonStanding(season);
+  const next = nextRelease(season);
+
   const unavailable = checks.unavailable;
   const blocked = unavailable !== null || checks.fatal.length > 0;
 
   if (state.live) {
-    const who = editorName(state.by);
+    const preLaunch = state.releasedThrough === 0;
+    // Only asked when there is an episode to ask about: a season already fully
+    // out has nothing for the check to stand in front of.
+    const refused = next.kind === "ready" ? refusedRelease(checks, next.ep) : null;
     return (
-      <div className="border border-clear/40 bg-clear/5 rounded-sm p-5">
-        <div className="label text-clear">Live</div>
+      <div
+        className={`border rounded-sm p-5 ${
+          // Pre-launch is deliberate, not broken, so it is marked as a state
+          // waiting on someone rather than one that failed.
+          preLaunch ? "border-ochre/40 bg-ochre/5" : "border-clear/40 bg-clear/5"
+        }`}
+      >
+        <div className={`label ${standing.className}`}>{standing.label}</div>
         <p className="mt-2 text-sm text-muted prose-col leading-relaxed">
-          {episodes} episodes are out, {listeningTime(episodes)} of listening.
-          Each one unlocks separately.
-          {who && ` Published by ${who}`}
-          {state.at && ` on ${state.at.slice(0, 10)}`}.
+          {standing.plain}
+        </p>
+        <p className="mt-2 label">
+          {showAudit({ who: editorName(state.by), at: state.at })}
         </p>
 
-        <form action={unpublishSeason} className="mt-4">
-          <input type="hidden" name="storyId" value={storyId} />
-          <button
-            type="submit"
-            className="label hover:text-halt transition-colors"
+        {/*
+          Python refuses a release itself, on every one, and re-runs the
+          season's fatal checks to do it. The button is withheld here only so
+          the screen does not offer something whose answer is already known —
+          and when it is withheld the refusal replaces the queue position
+          rather than sitting under it, because "Episode 4 is next" above
+          "Can't go out" is two labels arguing.
+        */}
+        <div className="mt-5 border-t border-rule pt-4">
+          <div className="label">{RELEASE_HEADING.next}</div>
+          {refused ? (
+            <>
+              <div className="label mt-2 text-halt">{refused.label}</div>
+              <p className="mt-1.5 text-sm text-muted prose-col leading-relaxed">
+                {refused.plain}
+              </p>
+            </>
+          ) : (
+            <>
+              <div
+                className={`label mt-2 ${next.kind === "ready" ? "text-ochre" : ""}`}
+              >
+                {next.label}
+              </div>
+              <p className="mt-1.5 text-sm text-muted prose-col leading-relaxed">
+                {next.plain}
+              </p>
+              {next.kind === "ready" && (
+                <>
+                  <ReleaseEpisode storyId={storyId} ep={next.ep} />
+                  <Advisories checks={checks} />
+                </>
+              )}
+            </>
+          )}
+
+          <p className="mt-4 text-xs text-faint prose-col leading-relaxed">
+            {RELEASE_NOT_A_PUSH}
+          </p>
+        </div>
+
+        <div className="mt-5 border-t border-rule pt-4 flex items-baseline justify-between gap-4 flex-wrap">
+          <Link
+            href={`#${EPISODE_LIST_ANCHOR}`}
+            className="label text-ochre hover:text-paper transition-colors"
           >
-            Take it back to draft
-          </button>
-        </form>
+            {EPISODE_LIST_TITLE} →
+          </Link>
+          <form action={unpublishSeason}>
+            <input type="hidden" name="storyId" value={storyId} />
+            <button
+              type="submit"
+              className="label hover:text-halt transition-colors"
+              title={TAKE_DOWN.plain}
+            >
+              {TAKE_DOWN.label}
+            </button>
+          </form>
+        </div>
       </div>
     );
   }
 
-  // Both refusals stop the button, and they are not the same news. A season the
-  // check condemned is the season's problem; a check that never ran is the
-  // machine's, and colouring it like a failed season sends a producer to
+  // Not live. Both refusals stop the button, and they are not the same news. A
+  // season the check condemned is the season's problem; a check that never ran
+  // is the machine's, and colouring it like a failed season sends a producer to
   // re-read scripts that may be fine.
   return (
     <div
@@ -123,10 +244,10 @@ export function PublishPanel({
     >
       <div
         className={`label ${
-          unavailable ? "text-caution" : blocked ? "text-halt" : ""
+          unavailable ? "text-caution" : blocked ? "text-halt" : standing.className
         }`}
       >
-        {unavailable ? "Not checked" : blocked ? "Can’t go out" : "Not out yet"}
+        {unavailable ? "Not checked" : blocked ? CANNOT_GO_OUT : SHOW_DRAFT.label}
       </div>
 
       {unavailable ? (
@@ -170,30 +291,15 @@ export function PublishPanel({
       ) : (
         <>
           <p className="mt-2 text-sm text-muted prose-col leading-relaxed">
-            {episodes} episodes, {listeningTime(episodes)} of listening. The
-            check ran: nothing in it contradicts itself, and every scene is
-            accounted for. Publishing puts it in front of listeners, under your
-            name.
+            {standing.plain}
+          </p>
+          <p className="mt-3 text-sm text-muted prose-col leading-relaxed">
+            {listeningTime(state.episodeCount)} of listening once it is all out.
+            The check ran: nothing in it contradicts itself, and every scene is
+            accounted for. {RELEASE_NEEDS_LIVE.plain}
           </p>
 
-          {checks.advisory.length > 0 && (
-            <div className="mt-4 border-l-2 border-caution/60 pl-4">
-              <div className="label text-caution">
-                Worth reading first — {checks.advisory.length}
-              </div>
-              <ul className="mt-2 space-y-1.5">
-                {checks.advisory.slice(0, 4).map((a, i) => (
-                  <li key={i} className="text-sm text-faint">
-                    <Said f={a} />
-                  </li>
-                ))}
-              </ul>
-              <p className="mt-2 text-xs text-faint">
-                These need someone to read the scripts to settle, so they do not
-                stop you — but they are your call, not the checker’s.
-              </p>
-            </div>
-          )}
+          <Advisories checks={checks} />
 
           <form action={publishSeason} className="mt-5">
             <input type="hidden" name="storyId" value={storyId} />
@@ -209,7 +315,10 @@ export function PublishPanel({
 
       {/*
         Said plainly rather than implied. There is no Pocket FM to push to, and a
-        button claiming otherwise is the kind of thing a judge asks about.
+        button claiming otherwise is the kind of thing a judge asks about. The
+        season's own wording is kept here rather than the episode one: the button
+        above this line puts a SHOW live, and `RELEASE_NOT_A_PUSH` is about
+        putting an episode out.
       */}
       <p className="mt-4 text-xs text-faint">
         Publishing records the decision here. It does not push to the app yet.

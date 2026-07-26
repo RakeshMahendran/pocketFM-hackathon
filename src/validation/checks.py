@@ -12,6 +12,7 @@ it is enforced.
 from typing import Any, Dict, List
 
 from src.canon import store
+from src.scoring.validate import PERSON, find_real_names
 
 ERROR = "error"
 WARN = "warn"
@@ -95,25 +96,29 @@ def check_real_names(spinoff: Dict[str, Any],
     """
     Hard rule 4 — no real name reaches generated fiction.
 
-    Checks the keys of `fictionalization_map`, not `people[].name`. The delivered
-    dossiers deliberately record people by role ("The arrested teacher"), so the
-    people list contains no real names to find and checking it proves nothing. The
-    live exposure is the place names: the real district, the real taluks, the real
-    villages.
+    Both halves of the dossier are read, and they are matched a token at a time.
+    The previous version read only the `fictionalization_map` keys and only as
+    whole strings, on the argument that delivered dossiers record people by role.
+    That is true of `story1` and false of `story3_revenge`, whose map has no
+    person key at all and whose eight real people therefore went unchecked; and
+    the whole-string match let "Mysuru district, Karnataka" sit in the map while
+    "a lorry driver in Mysuru" sat on the page.
+
+    `find_real_names` is shared with the mainline so a name that blocks a season
+    blocks a spinoff. A person's name is an ERROR, a place name a WARN — the
+    reasoning is in `real_names_on_the_page`.
     """
     script = spinoff.get("episode", {}).get("script", "")
-    haystack = script.lower()
     out = []
-    for real in story["dossier"].get("fictionalization_map", {}):
-        # Role labels are also keys and are harmless. Real proper nouns are what
-        # matter, and they are the multi-word capitalised ones.
-        if real.lower().startswith("the "):
-            continue
-        if real.lower() in haystack:
-            out.append(violation(
-                "clearance", f"the real name {real!r} appears in the script and "
-                             "must be replaced by its fictional counterpart",
-                quote=real))
+    for hit in find_real_names(story["dossier"], {"the episode": script}):
+        subject = ("the real person" if hit.kind == PERSON else "the real name")
+        out.append(violation(
+            "clearance",
+            f"{hit.token!r} — from {subject} {hit.entry!r} in the dossier — "
+            f"appears in the script and must be replaced by its fictional "
+            f"counterpart",
+            severity=ERROR if hit.kind == PERSON else WARN,
+            quote=hit.quote))
     return out
 
 

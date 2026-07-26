@@ -1,0 +1,22 @@
+{
+  "event_id": "1a8a1dc47393",
+  "history": [],
+  "state": "done",
+  "step": "done",
+  "label": "Ready",
+  "story_id": "1a8a1dc47393",
+  "started_at": "2026-07-25T23:34:01.853112+00:00",
+  "error": null,
+  "updated_at": "2026-07-25T23:47:50.833041+00:00",
+  "dossier_event_id": "evt_dharmapur_2025",
+  "total_episodes": 14,
+  "progress": {
+    "total": 14,
+    "written": 14,
+    "batches": 5,
+    "batch": 5,
+    "from_ep": 13,
+    "to_ep": 14
+  },
+  "finished_at": "2026-07-25T23:47:50.833041+00:00"
+}

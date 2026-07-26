@@ -130,8 +130,46 @@ def test_speaker_lines_returns_only_that_characters_dialogue():
         "VIKRAM: Nobody said you did.\n"
         "ASHA: Then why is my name on it.\n"
     )
-    assert speaker_lines(script, "Asha") == ["I signed nothing.", "Then why is my name on it."]
-    assert speaker_lines(script, "Vikram") == ["Nobody said you did."]
+    asha, vikram = DOSSIER["cast"]
+    assert speaker_lines(script, asha) == ["I signed nothing.",
+                                           "Then why is my name on it."]
+    assert speaker_lines(script, vikram) == ["Nobody said you did."]
+
+
+def test_speaker_lines_finds_a_character_whose_name_is_not_their_speaker_tag():
+    """
+    The real mismatch. `render_script` labels every line `speaker.upper()` and
+    `speaker` is the *char_id*, so a cast carrying display names — "Ewan Kerr"
+    against `ewan`, "Osric Bell" against `bell` — matched nothing at all. On the
+    delivered season that was 12 of 13 characters returning zero lines, which
+    emptied the `previously said:` block in every batch after the first and let
+    voices drift with no error anywhere.
+    """
+    char = {"char_id": "ewan", "name": "Ewan Kerr"}
+    script = "EWAN: The ledger is in my hand.\nBELL: Then put it down.\n"
+
+    assert speaker_lines(script, char) == ["The ledger is in my hand."]
+
+
+def test_speaker_lines_prefers_the_char_id_over_a_shared_first_name():
+    """
+    `store.speaker_tokens` ranks char_id ahead of the name parts, and this is why:
+    two Kerrs in one cast, and matching on a name part would hand one of them the
+    other's voice.
+    """
+    script = "EWAN: Mine.\nELSPETH: Mine.\n"
+
+    assert speaker_lines(script, {"char_id": "elspeth", "name": "Elspeth Kerr"}) == ["Mine."]
+    assert speaker_lines(script, {"char_id": "ewan", "name": "Ewan Kerr"}) == ["Mine."]
+    # KERR is a candidate for both and belongs to neither: no line is labelled it.
+    assert speaker_lines("KERR: Ours.\n", {"char_id": "ewan", "name": "Ewan Kerr"}) == ["Ours."]
+
+
+def test_speaker_lines_is_silent_rather_than_wrong_for_a_character_with_no_lines():
+    """An empty block is honest here — `character_ledger` omits the heading. It is
+    a raise in `views.voice_samples` because a spinoff cannot proceed without a
+    voice, but a mainline walk-on legitimately has none yet."""
+    assert speaker_lines("ASHA: One.\n", {"char_id": "vikram", "name": "Vikram"}) == []
 
 
 def test_ledger_separates_what_a_character_knows_from_what_they_must_not():
@@ -146,6 +184,21 @@ def test_ledger_separates_what_a_character_knows_from_what_they_must_not():
     assert "MUST NOT KNOW" in vikram and "the file is forged" in vikram
     # Her own line goes back so the next batch can match the voice.
     assert "I signed nothing." in asha
+
+
+def test_ledger_carries_the_voice_of_a_character_whose_name_is_not_their_tag():
+    """
+    The batch-boundary bug, end to end: the ledger is the only place a character's
+    earlier lines reach the next call, and it read them out of a script rendered
+    with char_id labels while looking for display names.
+    """
+    dossier = dict(DOSSIER, cast=[
+        {"char_id": "ewan", "name": "Ewan Kerr", "role": "clerk", "want": "out"}])
+    b = beat("b001", 1, 1, witnessed=["ewan"], what="the ledger goes missing")
+
+    text = character_ledger(dossier, [b], {1: "EWAN: I never touched it.\n"})
+
+    assert 'previously said: "I never touched it."' in text
 
 
 def test_ledger_does_not_credit_knowledge_to_someone_merely_present():
@@ -304,6 +357,65 @@ def test_a_stale_calendar_is_removed_rather_than_left_dating_a_dead_season(
 
     persist(season_of(3), DOSSIER)
     assert not (tmp_path / "story_test" / "calendar.json").exists()
+
+
+# ---------------------------------------------------------------------------
+# FINDING THE DOSSIER AGAIN
+# ---------------------------------------------------------------------------
+
+def test_a_story_on_disk_can_be_rewritten_after_a_later_commission(
+    tmp_path, monkeypatch
+):
+    """
+    `score` used to replace `data/dossiers.json` with a one-element list, so
+    commissioning a second story made the first one unregeneratable — six of the
+    seven delivered stories were in that state. `persist()` already writes the
+    dossier beside the season; this is the read that makes that copy count.
+    """
+    monkeypatch.setattr(serial, "STORIES", tmp_path)
+    monkeypatch.setattr(serial, "DOSSIERS_PATH", tmp_path / "dossiers.json")
+    persist(season_of(3), DOSSIER)
+
+    # The list now holds a different commission entirely.
+    (tmp_path / "dossiers.json").write_text(
+        json.dumps([{"event_id": "evt_something_else", "title": "Another"}]),
+        encoding="utf-8")
+
+    assert serial.load_dossier("evt_test_1999")["title"] == "The Test Season"
+    assert serial.load_dossier("evt_something_else")["title"] == "Another"
+
+
+def test_the_commission_list_wins_over_the_copy_beside_the_season(
+    tmp_path, monkeypatch
+):
+    """A dossier corrected and re-planned should be the one the rewrite uses; the
+    story copy is the fallback, not the authority."""
+    monkeypatch.setattr(serial, "STORIES", tmp_path)
+    monkeypatch.setattr(serial, "DOSSIERS_PATH", tmp_path / "dossiers.json")
+    persist(season_of(3), DOSSIER)
+    (tmp_path / "dossiers.json").write_text(
+        json.dumps([dict(DOSSIER, title="Corrected")]), encoding="utf-8")
+
+    assert serial.load_dossier("evt_test_1999")["title"] == "Corrected"
+
+
+def test_an_unknown_event_names_every_dossier_that_does_exist(tmp_path, monkeypatch):
+    """The error is the whole interface here — it is what tells an editor which id
+    to use instead."""
+    monkeypatch.setattr(serial, "STORIES", tmp_path)
+    monkeypatch.setattr(serial, "DOSSIERS_PATH", tmp_path / "dossiers.json")
+    persist(season_of(3), DOSSIER)
+
+    with pytest.raises(RuntimeError, match="evt_test_1999"):
+        serial.load_dossier("evt_nope")
+
+
+def test_no_dossiers_anywhere_says_to_run_score(tmp_path, monkeypatch):
+    monkeypatch.setattr(serial, "STORIES", tmp_path)
+    monkeypatch.setattr(serial, "DOSSIERS_PATH", tmp_path / "dossiers.json")
+
+    with pytest.raises(RuntimeError, match="tasks.py score"):
+        serial.load_dossier("evt_test_1999")
 
 
 def test_word_floor_ramps_over_the_first_three_episodes():

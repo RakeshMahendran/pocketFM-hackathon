@@ -85,16 +85,39 @@ def default_anchor(story: Dict[str, Any], char_id: str) -> str:
     Offscreen anchors are offered and fully supported, but they are not the default:
     the episode-beside-the-beat mode is the more interesting one and the more
     fragile one, and an unattended run should take the safe road.
+
+    Falls back to a plain witnessed beat when `views.anchors()` ranks nothing,
+    because it only ever sees beats whose `state_changes[].entity` names the
+    character and eight promotable characters across the delivered stories have
+    none — nagaraj and kempanna among them, both in the demo story. Refusing them
+    made the roster offer a character the writer then rejected, which on the
+    console is a dead button. An anchor is where the episode *starts*, not the only
+    thing in it: a character with three witnessed beats and no state change is a
+    real candidate, and `brief._anchor_from_beat` already renders a beat with
+    nothing recorded against them. So the roster rule and this one now agree —
+    anything `views.promotable()` offers resolves here.
     """
     found = views.anchors(story, char_id)
     witnessed = [a for a in found if a["kind"] == "witnessed"]
-    if not (witnessed or found):
+    if witnessed or found:
+        return (witnessed or found)[0]["beat_id"]
+
+    seen = views.knows(story, char_id)
+    if not seen:
         raise RuntimeError(
-            f"{char_id} is not the subject of any state change in "
-            f"{story['story_id']} — nothing happens to them, so there is no episode "
-            "to anchor. Pick a character from `tasks.py cast`."
+            f"{char_id} witnesses no beat in {story['story_id']} and is the subject "
+            "of no state change — there is nothing of theirs to build an episode on. "
+            "Pick a character from `tasks.py cast`."
         )
-    return (witnessed or found)[0]["beat_id"]
+
+    # Same preference `views.anchors` applies: a scene a single POV can hold, and
+    # earliest among equals so an unattended run picks the same beat every time.
+    focused = [b for b in seen
+               if len(b.get("present", [])) <= views.MAX_PRESENT_FOR_ANCHOR]
+    chosen = (focused or seen)[0]["beat_id"]
+    log(f"{char_id}: no state change names them — anchoring on {chosen}, "
+        f"the first beat they witnessed", "warn")
+    return chosen
 
 
 def write_spinoff(story: Dict[str, Any], char_id: str,

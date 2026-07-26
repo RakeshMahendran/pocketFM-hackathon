@@ -1,0 +1,403 @@
+{
+  "stage": "serial_1a8a1dc47393_10_12",
+  "saved_at": "2026-07-25T23:45:41.481682+00:00",
+  "response": {
+    "id": "resp_0a5da3bfd03b275d006a6549fa0ab4819a8084aa48855b2f71",
+    "created_at": 1785022970.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_0a5da3bfd03b275d006a6549fb09a0819aa6617c67513c4605",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZUql-1IQrZ_f0SJ_CQaKMgSSNPVR18KpebAGLVdw0aAZhtlzqvtkyIbPoq-bquw68WFpqDF7y0FSeQUndp3OhVYmaL4po4YKZiHwJge52SB_1_gnSZIx-yJE3Ng6f45ILq4T1wZ4tw8VPFljF9XTBaDDug_soG6-qA1sdKQehFAngBPXk3Jb6PCxwQKZcwfs2AVQUhwAGwmTGaezHHjY3emNSM3zRzeX6BiNBw624QwowJtjeU8Fp-91JXSfNeMw3WBVZbl6u4dy2WEUvcGBMkU9xq6eXAx9CFggdfevxLCvSkHSmBMXzvTAIQdHhfP3mPzaPaxKzr5cLomMc5ExR_zIHXx0wId0GN1hfpPtp6IStWlsC2Jutq-GRPM2_y-hFOgezOxMu7wolueBaxgnkKvsjxUZ5dqA78ZzuDnSE8eBQ-VT1P3C5b3R7BnfBFVnBxNGCGHSO1vVFoxHEVmyqtB1T-yPEu5-76MwNybFSzGeJfBn2yDLMXcr3dIag1K_JkaedibnoKbS2Jv1xn94Vn611u5_9bqsE4rYi3MERrshXrVbTkUD-xEBeA8vy9U1KYsfEjbIzhv030aOjSkmzE_xgx9KmVXsdAEzaY4xvNg-HVVdjsbijmCFUVetukZ69tFdhc6ymAeSLZar0txLSZAq-f9tUq_15KLLOgwZvMxihCTVTVhzuabK8KHXinKnSFdh8_cmC5AuHdTiyeDn50L1SMbmwtDQdl589AFZFOScMifZjEpwn1dpGD_pUzrEzwX8J66WGBmBtJehzZdUQJFdaU8SX8Zkb0nbdCpwx5whSonzoEkMQZZRgRZKoaXbdytPpn5Xw8Qg3OPBoIXCVZByeGuj6eTeF-356YLpvKlP5SL47t15GuJrctnTPmnayoYBvdtmvdXprUVpPB7Yiwt0DbA5mzfXbUwa0GJQYnqxlM126T-sLnAuTBLsDmOftTJXSSlz7s-Ke-czuhDarXZx1nwCc56HSYffBPHdae21GFYzmsCTI_0KMmC6IihmRcHfvLdc0GxPI9H32bWamLN6hFEDqGehOvgHVHmZJ5Erph35uZcLFE8G402pjhhX4RdUevpWjDv3p8FQhtRPORdWG4_o8HS1GTGfKK9DZM4p5F99HqLSuJg1x9aQw3nagfDgfOKOXNGeCZ3gsVW3S1vAYYSxu2R-HJ9VYxRmWWHkj91xGrf-0-mrp5LD7VHaREeAVTyJ1Hem_fsQ0P88z76AI4iF45BO4h40tLl8S7Ru6LxgKCbogd1ysWmcKcitDpbO8hcbuUDDEAomo8h3c10UDfyT0GNckwLEIzA0HnSmqFL2u0BKugvhtW30jbRUYwXqef7e_Ko-OAqopIuOMeET75tiFbhDS5QZ1lG9GQO0MTrJKgg06vR2sLei2zLR0v9y1hsplW5XT3_oRC4RYG47UgYdxe_-EnGWAkLvneevFcyoPoaRYfSpOY5RXnK0NWJW9uLicjB4q73AVIw12-hoem79L6Apjh7nWjIhOzWMb0NbZGNx1t0Wcmda2iKlmrfRhkLAMF5VPrYcTCTRwXEX-VZdC8STDH0f3AyQJnfpATCU_2nI0UIk0XHUDZ1lzLvwgA5BHGn26xRxsdKFAocKB6uulQkfODAfS45YCz_r-NIgYk4RkP-mgn3KQJT_Gq1Bk0ksg9qrGVeOWoHsBmDOzMXFaIUCVato-LX1Lg7X4wwhopYoW3YclwnDwwj_HpBkIqkt4k5s3sOPvfXYemSl2Lh5bh-8T0ztyZxpIEhWdGSdRU2ZqcwgApWH1gMny_wbqQLcoKTFfesLPeqp8ui0CyvP-SzI7c9g2zMV27MtxB2N4uF8LOvSkpIGBmHcBxq0ntMvEdbJDe4p2VSvN80FvU2H22qMgcbHHOnlntPAXmIdu0LzFSowTwAm7SD-glkcUefXsXXemXEuoV4h8U7u7xU6YzO88I91lniqPl-UztacyOCnaEACLhUDSaIfij2qTT_5Ab2oNE8nRK41ZhVYDxPu6RuSiONzsPsV9gtd87f5VNg9QZI_FL5ZeGyJmEu0b4KsVAqHRFPQoTSD3ic6csM9JXp2oVGLQaUFvQcrp-lL6doo4DbvVnF6pqI_BJTKmY1nMPFofXQegK3xr8fbAssSVZ1EXmQagJuN3gq25WSWHs70un0TpljFknunMOGhS4-MAzj2iF_FpKt4e3XrF9Y1wqV_rHtlbS7h5_EYYsIhSnj5uK9TeIiFbvPEqbYcuiJMbQVE5g3EKYkOmlL9XvLMj-Jd--PbjeNNFg1gDu0DHsoXW6CJ3hRoIvmhn33dXvcY5kG8aQ6RXQBHNBP-t0irEB9aAg2TuPYEWbJbD8I7GePD1H8dK7RxSLpWeyKZLR6FI2tEkk_IegIT7_29ieHwEBKTH-uxAeXsGef68rrf0B8NHnb3hiU2Bg8cm7Zw8rqbC1JD3Tv1hnmdt9LpOaIUQzUPSZkypG98_vN54fipuFGJBrqYY-7gJqRWsSiCojBshkqy_SRdMPXPFGqRU4zoMNlxK1kTebiU9Us7sRln5wzZnE-RKQEEW9R3k5lqULtpfh71dFErSTJeJoRvnXysYJLRIR5JDpKfb65Mj99ifwOtO8IMdPM1BAm6UcJMO1sNpnR0PCznMzjsZ68dU1LD4LsJGIXml2ihs6Ln_j8Qro4QljDPjFBUNi565C1sYXSksXwOB4jBgB30MlL5oFzt_b1pw3yeZ91fc2724aq0tw66yWy61qOGFj5oosbpAjVXNA7a1YCn-PAv3s0JwcucI-EyojSDDUBIsHBt4B-Ey0rHN6CvgEjCfzv-_IY-voN033qiiiI1zs0kqqMLZX7XcagypHbMHl00Fy6h90vVM9cBReff1lWPhy23iJKS0k_7S8kAwqB7XgxOn-W7f5_Q1XCdFyDxn2ETMUd9Q2xqhY0pP_Erh7dtL7Udj6GWrin1YVv6HhmwyE159hCYoPdVktJITyYKfIyvbF0HTnjERaIHu-gtDxNVSIYeqH1EHGgfxIDio2dNqGQxG6ZEYPxFp-UIAvLGEKM720ljZ8lHxtmhTdJiwCxzC-ndXyNBH3TP-UqDZq6dKZq1JWVDo0sOCyAoTIxDaWdcTOvcaRHCh-c7t1sjDr860vLf0Sfb-5yv8_h_EV_39_chmSIgnkaDK2OvPUMfFKVCAglDdbwfcofUC_lGOfS3NoFlbhi6dGRzePZ-NW3FmbU0Ghzcir8ALgQOVXScxCGqH8H5jqld4HwbQZ4QQqbyd9IZicsNsx4fnS__x_1-8PE0UQq_VEo3QfbDsSq3IWMPaGxGKr3xXAWujlfHFyp8GVCW5nkwVknCZ0gBYZZYjytOArzO14tECau-wGC-fnKhCBQz5A0zVyYhsYlff03xIUl1DUeMgD2iBPkWsYbAIhDV4WTKF8rj4AGghZWYCy-0AUBrdgpQp9_-DW2rAXKV8sGD6kKZrfKUBH0IdkuOeauNW5rrVQzSY7poQRJ-5Ad_jrk8p6VdrkG8bVQBTvlC_85VniTzf7Py4cQ95UT8CeF-8O6itIYn0x_LguqQv_ZMgBCZZqtS1EprEgkKCV-JA-UYKZnTwlHDPegtY4hMjW98Cjr3eRD51fSPiqi66I-gepQ5OHBv96O9Pxz9KUGys5JOvaXNwNVIZfXZGerKJDlc_J3JCam7FV-TYEcjRyni50J5fSaY2zue2dsMMR6qAq0D1uBJ-rWwbOiFXzK5lmbJ_GiSq2D_idNBQr5wlGvME5j7_CVxdh0sco3D4babazKKC-BYjyTDWN7GtJMVJ-6D6pnqtaJfTeMyG7D4x6lUSLfVDZVxRyMMnfnkfucQ0N6o2NowUhHCQ-r3sKRuXU11hQJNvj6TUKfFuqtjTiAG55o2gIlp02OV_SSLjczAx2_aaf1_EzeJxo2leACptTjYlno7RCCFYQUNCKAzF8Deh1ys_RMYylAl_uTlCqTvdncJ1JooVCkdWAogrW65HoQWddBstMB6tvDSdUCUX4XNVHEZxhn40dvVPNi-QvwDQqvN4I8iUbbbK1ocjCTTdYOpQyWz5DKYwGDVHUKg67lNeGzM-wVQ5PKivy43Jmz30S52eaUYXAslVv9kN21CS9c-N9R-CkMPEDRNEa-N7rWhMS46fk3kWGVy3Yh975mTnIPTgia6mwFq5xD1n0gVkjLETikIX26ddgNo42fKXMsoq04JYUKXE6O4gEksGmpyoYrJgnn15uFmHvhL1jD3lMSktiaVeiA86Vx1gLIzT9K_xUheeCY=",
+        "status": null
+      },
+      {
+        "id": "rs_0a5da3bfd03b275d006a654a04a978819aa804e2e1966b463a",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZUqlRlbCEN7hUsK-EZFWKzkgujJB4UKli06PshYIdcdW6mJtx6Xm9F6Wi3UnFAyLqdYLO8TBxx2jac1nSvBCzDzm2sz2DC9Pz9fFBdNLW7iRfWYUxMZ3WroX54TbvkR1OzRSFLd0gpvLqPm83GS0SsY1y_XMIBPMtH98MkzmTq59Cyi29cwnBk-F6eRFS2bADwTShcfg5hgKZmuR0VwiEOjcZxORLqVeDE54IlPrnt6x_L9B9bI24_SHDDD2CHn1SWsyHOiJdNm4T52rK0lfjW90rYL1HOMM1BgWedAGZIIwtBGwW7X6BIjyARKkep7iu_v3nrg-3fYWDh0i8SEUl6uOORcRlL7WbwZBw1fqvbBbd-idgrsHJw42zcJiKjyBAGxETaKDgdw-p-UW4GaD_PWW0Vm3zzJrQTaQx8AK5UL0jSkdFDhvohpA_veJeauPO1bN101iomwd6uqNONXxdvs6COKTt8mpeZhh7U5dQpdhOOl0gpACWtXBxdsIhihHS8K4ZdMuWCqXFX-3hE0vgWPUXFSj56h-LaIshADR_5rDujrZzP5hxQHRyuG40kAt_GYum-aAYRB7huhABQ_Dk-DF_rkB3zX2mqvPwsbiEKIU2a2hsI4w5fPD5m-4sQrSIuZK7aRn58_odOTh4j-Fv5O_AWWCK1DHflz-RilnVIC8cONyzniVUYM4vbHemrFKkencDys5YGrMncRO0JmM0okBNGsLwdD61IpsCaAju3Fcwvk-8Gzj6TfbGxdfFDt2MOxUJtYJGSgpdFSRyoLvPssHt8Pvr9xbf2xeGiR1v-7fzYnFzrhIu9BTLYOaqcKFN0G43-ZzzBLlbj8baSt7tUv1Q1uEHuuNl78c_i5-MTh-8pCZX0bI2NQPID8-3LSrrMLG5E4AOmu2W7x4dFUdb2o9Y_2ZqEwROjGqUiypH7t9voPK5e0c3mgKKEQcZBZcjQ5tevpxqTGdZsY74okVdveajdIUo-kADzo-P5aYixd12XYXJFD8Pqj3xvtfglVdFvvCbnGfw-aX1inu-XJCjECcB-0JIebYjUVCBa8gKb7gOCVnaLT9MOx1BkYYTXi1voks_CS5JKwPWWxbZw7IcLqEDL7C0L8dFQ0KZ4tPONGTIC92GTW-I39hZQVVUFu-3Wq_7Ph90fnVqXe55FScDyFABVYCECXR2zW8LjITYKGDvyyDf2nktpsCrGObAe2dorxGzZS4c_SPmzketyrBBHsD5gWerYsATmhl8r_PHw6JiXxdVSli8r5AfClG1_e5ITDtpEVPbz0_v_ra0F4IelBqYtdc_ctAez-B1wSMhE-x3E2LU4MdsUKbN7DywdRN3nXi6qbv_3U1drvvtj9liXNHpWUrAxWJTbiKiuvmyva7qE427ZfzcoVgPosn8s2u18POQBGQJpeozu3LMEFFWGIxLw5iFixT9gXOeSzIzMpolGPrVcDHEOzek1eKvlt0KZSGlnJ8mYDEAzrS9OtU3xGdCNwRSjhcTug8PoVpIu1tr816DqogEDgZ2YPfqPxp5ktx3bQdZIXh0ja_igKBNHADQBayrjStSGxM59HUyoYOxaFhuVZGTFbjteKnkjAn4dj0Tp16NDLlFtMl_FG2ArrMGpmMeOx39VUgviviIk4AICKqkQqgEWLu0rObqO-FhaavEaWHo-meL_QifJG8txm6blJsYXYnnwsCQmOZX1THrFkj7zYDcIry0SFnWwxwESueVATqJQCHeNxxGh3cEMRLjrNZ-888R3bas3wmSSk183GDNr4pOxxmLI3cc1dlf3ALJ0nfasbbLOz2BIiL7gbs70Zhrg3w-GOoToW_xx_b4Xn3vzgdD0I7iNCvhNAL2oVooH77KBc-ZLZ8SEviRo9PdUf8NKtLYlImxj0NFI6dEry-Qt6fCTVNKfsQDSrvmMc6N6WmPxVuVTIn9v-O04tTWf275wQst2TkxRuw5KtU3VCTcArUHHOnnWUTbTatx0eW5XfLQelnY_3cKD3Lh19wzX71axJG2JmNwjfosxDcCiZR777msalreUc76Worj9FwwSaf9Xpqw6bejzeCyXIRephZfrT4pikA1UQF5wtFop15tWNYjIwaSXJySINBIkVN",
+        "status": null
+      },
+      {
+        "id": "rs_0a5da3bfd03b275d006a654a08259c819aa38bccf31742afeb",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZUqli7-PW7ZdeTh7gON1iCPTeYoyCklNMPUkJwWwGW4bUYhYDvZWUNT2ETckWA6URhRKBAelIMmwUjx3V7FSa2MxKXU0_sUYM5OV2pU5NXoGuUmZbpNf1v9rwoFKFMsMeVJCSqhK023drRukV48WwIwORggv8JTwHbmdn3iPVMtBrzXLJkIznhIwEjHQu1TgIpPwo7kbcniJh3LDeRrQkdCRzyTvB5SBQy2AQibpbVjEuDDlsdIFzwniIad_QRqwBTRU7CgoermgGB8MRlXp2RmMoaw1dspmDGlkW5kRMWGxMirzrdpetp7INKyf6chvYPzNDe5lA9vAxRXk3IN6WmQAkuRti_Rw872Kuur1pXjUWbITwL6XpWihLsTiJV4ikloO6aOEfjMkYkTaHhktCYYRlTSZ7Mjvmi0XMJGH1IyM4q7IuTrzdTG4rcb8VQDeXydGta00_Im-j1YSRqF0Rk-lt5q6oXb7CGEOYm6_LZZWDX7FdzWdesNp1hK9KZdGNvI4JqWFyxArow-sXHUn_0L1enjv1t26McRZrw7T0fyg3nKOA_hIhz37Hz34x3FcGQls_zo0-sAJME2iY5RVquntDS_jdQaAYidf3woVjRgDwY24_RzxBbKAuwWgywNjjRnSNDDWAZDWvh4kG3BrW2oxHNxrFhas-Wo2NpQkCtsQsNk2lbkV9EPPr_QwlOkGdUjZdNOxq2ZO2gvZBWEpGoAtx4wfk8837iGAgfUCkkOOJK5v_0EXoXJDP5Ziu4QOxjKDGf8_Up1Rm74XLphPJRteD7L-fTPjKz_TKbUzdrxw4o5wWOKXU1LYioQI_W4-YTuFUUB5erESgagRuC5mv9EP0dqlXBXeX9D1IVsLk72qz6iaAmnSd4yfOmviXHfj3BV0SoT_s-Qoud1OpIqKzMOsA-qQB4HMIMCmF4StwpLe-zBODVjSUgydWkbHRZatVXgkI74i35OwHPncHyzQ94pD7mmWiq_9upaF102J5MAAtVu59t-b8LCbuZzHLCwor5TmTkF0jMzu4Pb89dAjAhlRrImP_7ETHAEtSY9X3HIRhK6vukDZHZ7Vr_Sb-YRWKrWKzOyw2j6wi27wliheSDdL6jxEmsxhbnclKID7A8s_Q2vjb2k9uFyx3jlGN_tldNEmExk2zVa14SUVskJT6MVdcCBvok7KLTp_spSjvCisDzoNMHLrMsyJ6Iv_L9zUHP481vCmOx0MNq96QMD4t8YOvGlT_rXOZ5y1QADpG9Hz26j270e5n3X626JEAaG3ND3SfEJahe2yIA063DtH3AE3JA==",
+        "status": null
+      },
+      {
+        "id": "msg_0a5da3bfd03b275d006a654a095ffc819aa8dc66b184146546",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"episodes\":[{\"ep\":10,\"title\":\"Two Days Before\",\"lines\":[{\"speaker\":\"NARRATOR\",\"text\":\"By the next morning, Devraj's apology had reached every courtyard. So had another fact. Kavita had found the five lakh rupees.\",\"sfx_cue\":\"police station gate clanging shut, crowded voices\"},{\"speaker\":\"raghav\",\"text\":\"You froze my cousin's cooperative account without one question to me.\",\"sfx_cue\":\"papers slapped onto wooden desk\"},{\"speaker\":\"kavita\",\"text\":\"I am asking now. Explain the deposit dated the third of May, twenty twenty-one.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"It was for a tractor.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You said the money was not paid to you. You did not say it was sitting with your cousin.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Because it was not my account. That distinction is usually understood by adults.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Speak without insulting my daughter.\",\"sfx_cue\":\"crowd murmuring closer\"},{\"speaker\":\"raghav\",\"text\":\"Your family arrangements change very quickly, Devraj.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"My mistake does not make your answer true.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Good. Everyone has finished performing. Sit down, Raghav.\",\"sfx_cue\":\"chair dragged across concrete\"},{\"speaker\":\"raghav\",\"text\":\"I prefer to stand.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Then stand beside the account statement, where everybody can see both of you.\",\"sfx_cue\":\"\"},{\"speaker\":\"NARRATOR\",\"text\":\"The public desk became a hearing without a judge. Villagers filled the doorway. Meera stood where she could see Raghav's face.\",\"sfx_cue\":\"ceiling fan rattling, low crowd murmur\"},{\"speaker\":\"kavita\",\"text\":\"Cooperative account ending four one nine two. Account holder, Raghav's cousin. Deposit, five lakh rupees. Date, third of May, twenty twenty-one.\",\"sfx_cue\":\"paper unfolded\"},{\"speaker\":\"raghav\",\"text\":\"Correct. A commercial deposit is not a crime.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Who deposited it?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"A tractor buyer.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Name.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"The papers are old. I cannot remember every farmer who asks for machinery.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"But you remembered the date in front of the village. Eighteen months later. Before I told police the amount.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I remembered because the accusation was repeated to me.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"By whom?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"People talk.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Name one person.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"This is becoming theatrical.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"No. Theatre gives the audience a lie and tells them it is a lie. You asked us to call yours truth.\",\"sfx_cue\":\"one villager claps, then stops\"},{\"speaker\":\"raghav\",\"text\":\"I arranged a tractor inquiry. That is why the date stayed in my mind. There. Your mystery is finished.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"You arranged it?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I connected the buyer to my cousin. I did not receive the money.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"So when you said you knew nothing about the payment, that was false.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"No. You are flattening a commercial transaction into a confession.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You knew the date because you arranged the deposit.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I knew a tractor booking date. Meera later attached her story to it.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"My story? You watched Shahid count the notes twice. Bundles of five hundred. You took one bundle back because it was short.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"That is an allegation from a woman whose rental signature has already been called false.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Copied. The examiner called it copied, not false. Do not improve the evidence while quoting it.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Then arrest the handwriting.\",\"sfx_cue\":\"crowd muttering angrily\"},{\"speaker\":\"kavita\",\"text\":\"The account statement includes a deposit slip reference. Your cousin signed the slip. The depositor field contains initials.\",\"sfx_cue\":\"pen tapping paper\"},{\"speaker\":\"raghav\",\"text\":\"Initials are not a person.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"They match the initials used by Shahid on two transport receipts.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Many people share initials.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Then bring Shahid here.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"You seem very eager to see the man you claim imprisoned you.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"I am eager for him to see that I came back.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"And that she did not come back alone.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Please. A father's courage, after signing his daughter dead, is not evidence.\",\"sfx_cue\":\"crowd erupts in overlapping protests\"},{\"speaker\":\"kavita\",\"text\":\"Quiet. Raghav, threats disguised as insults remain threats when twenty people hear them.\",\"sfx_cue\":\"wooden ruler striking desk\"},{\"speaker\":\"raghav\",\"text\":\"I threatened nobody. I am concerned Devraj may damage his health by becoming emotional.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"My health is not in your account.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"The tractor. Manufacturer?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"A standard farm model.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Manufacturer?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I don't... I did not handle delivery.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Model number?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Ask my cousin.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"We did. He said you chose the vehicle and brought the buyer.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Then he is mistaken.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Your cousin remembers you. You remember the date. Neither of you remembers the buyer.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Or the tractor.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"A booking can be cancelled.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Then there should be a refund.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Perhaps there was.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"There was not.\",\"sfx_cue\":\"paper turned sharply\"},{\"speaker\":\"raghav\",\"text\":\"Then the amount may have been adjusted against another vehicle.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Which vehicle?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"You have the account. You tell me.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"I have every debit for the next six months. No tractor dealer received money from this account.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Cash settlement.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Five lakh rupees in cash, with no receipt?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Village commerce does not always ask police permission.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Neither did you, when you took me to Kota.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"You went willingly.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Then why did you remove my phone battery?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I did not.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Why did you tell Tara I had chosen another life?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I did not speak to Tara.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You spoke to me. You said searching would shame the children.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I offered practical advice to a distressed family.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You offered us silence. My father accepted it. I will not.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Raghav, was the deposit connected to Meera?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"No.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Was it connected to Shahid?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"No.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Was there a tractor?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Yes.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Then give me its chassis number by five this evening.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"That deadline is unreasonable.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"You have remembered the transaction for eighteen months. Five hours is generous.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"And if an old office cannot find one number?\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Then I ask the district transport office whether your tractor ever existed.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"You are treating clerical delay as criminal intent.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"I am treating five lakh rupees as five lakh rupees.\",\"sfx_cue\":\"\"},{\"speaker\":\"NARRATOR\",\"text\":\"At five, Raghav returned with no chassis number, no invoice and no buyer. Kavita returned with a certified search.\",\"sfx_cue\":\"rubber stamp striking paper, evening crowd murmuring\"},{\"speaker\":\"raghav\",\"text\":\"A registration search proves nothing. Farm vehicles remain unregistered for months.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Not this dealer's vehicles. The dealer says no order was placed by you, your cousin or this account holder.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Dealers lose records.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Banks do not lose the date stamped on a deposit.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Say the dates together.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"The money entered your cousin's account on the third of May, twenty twenty-one.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"And I disappeared?\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"On the fifth of May, twenty twenty-one.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Coincidence is not evidence.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"No. The account is evidence. The dates are evidence. Your changing answers are evidence.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"And the tractor?\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"The account received the five lakh rupees two days before Meera disappeared.\",\"sfx_cue\":\"certified report placed on desk\"},{\"speaker\":\"kavita\",\"text\":\"But the tractor was never registered.\",\"sfx_cue\":\"\"}]},{\"ep\":11,\"title\":\"Under the Neem Tree\",\"lines\":[{\"speaker\":\"tara\",\"text\":\"Do not let her follow us. If she is really my mother, she will know where to go.\",\"sfx_cue\":\"garden hoe biting dry earth, children whispering\"},{\"speaker\":\"mohan\",\"text\":\"She is Ma. You heard the lullaby.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"You wanted her to be Ma before she opened her mouth.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"And you wanted her to be a stranger.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"I wanted nobody to leave twice.\",\"sfx_cue\":\"small clay object scraping against metal\"},{\"speaker\":\"mohan\",\"text\":\"There. The bird still has one wing.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Put it back. Deep. Then cover the soil properly.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"What if she does not remember?\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Then I stop making excuses for her.\",\"sfx_cue\":\"\"},{\"speaker\":\"NARRATOR\",\"text\":\"Tara buried the clay bird again before breakfast. By noon, she had gathered half the village beneath the neem tree.\",\"sfx_cue\":\"village courtyard crowd, neem leaves rustling\"},{\"speaker\":\"meera\",\"text\":\"Why are all these people here?\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Because everybody watched when Grandfather called you a stranger. They can watch this too.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Tara, if this is another public test—\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"It is my test. You had yours. Police had theirs. Now I decide.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"What are the rules?\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Nobody answers for her. Nobody gives hints. Nobody tells me that fingerprints are enough.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"Fingerprints are enough.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Mohan.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"Fine. I will not give hints.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Ask.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Not yet. First, tell everyone what you want from this house.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You and Mohan.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"That is not an answer. We are not objects kept in a cupboard.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"I want to live where my children do. I want to cook badly in my own kitchen. I want to know which schoolbook Mohan has lost this week.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"Geography.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"No hints.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"And I want Tara to stop standing near every doorway, ready to run if I say the wrong thing.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"I do not do that.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You are doing it now.\",\"sfx_cue\":\"crowd murmuring softly\"},{\"speaker\":\"tara\",\"text\":\"Maybe I like the doorway.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You hated doorways. You said they made every room look unfinished.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"That could be in a diary.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You never kept a diary. You wrote one page, then tore it because Mohan drew a buffalo over your secret.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"It looked better.\",\"sfx_cue\":\"brief laughter from crowd\"},{\"speaker\":\"tara\",\"text\":\"This is not the test.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Then begin it.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Before you disappeared, I made something. I hid it. Nobody from police found it. It is not in any statement.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"What did you make?\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"I said nobody answers for her.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"I was only— yes. Ask her.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"What was it?\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You made many things. A clay cup that leaked. A horse with five legs.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"So you do not know.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"I did not finish.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Then finish.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"A bird.\",\"sfx_cue\":\"crowd goes quiet\"},{\"speaker\":\"mohan\",\"text\":\"She knows.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"What colour?\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"None. You refused paint because you said real sparrows did not wear festival colours.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"How many wings?\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Two when you made it. One after you dropped it beside the stove.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Where did I hide it?\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You told me you threw it away.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Then you do not know where it is.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"I know you were lying.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"That is not a place.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You had soil beneath your fingernails. Red soil, not the grey dust near the wall.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"There is red soil in three parts of the courtyard.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You came inside with neem leaves caught in your braid.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"There are neem leaves everywhere.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Not in the kitchen. Not behind the water drum. Under this tree.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Where under the tree?\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Near the root shaped like a bent knee.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"There are four roots.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"The eastern root. Three handspans from the trunk.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Why there?\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Because that was where I buried your first tooth after you asked whether a new one could grow from the ground.\",\"sfx_cue\":\"crowd murmuring in surprise\"},{\"speaker\":\"tara\",\"text\":\"Nobody knew about the tooth.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You and I knew.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"I never told Mohan.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"You told me this morning.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"About the bird. Not the tooth.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Has the location ever appeared in a police statement, school record or family testimony?\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"No.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Did anyone tell Meera before this test?\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"No. I buried it again myself.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Again?\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"I checked that it was still there.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You dug it up without me.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"You were dead.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"I know what the register said.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"No. You don't... you do not know what that did here. Every person brought food. Every person spoke softly. Then they went home.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"And you stayed.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"I stayed with a brother who woke up calling for you. I stayed with Grandfather, who said questions were disrespectful.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Tara, I was ashamed and afraid.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"I am not asking you.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You stayed. I was not here. Both are true.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"If I accept you, what happens when police call tomorrow? What happens when Kota calls? What happens when Raghav walks free?\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"I answer the police. I go to Kota if the inquiry needs me. And every time, I tell you before I leave.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"People promise that when they want entry.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Then do not give me trust today. Give me one night.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"One night?\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Let me sleep in my house. If you wake, I will be there. If Mohan calls, I will answer. Tomorrow, you decide again.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"She can sleep beside us.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"The house is hers too.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"You do not decide that.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"No. I don't. I have decided enough for all of you.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"There is no police restriction preventing Meera from staying with her children. The identity certificate remains disputed, not cancelled.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"So the choice is mine?\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"The personal choice is yours. The evidence has already made its own.\",\"sfx_cue\":\"\"},{\"speaker\":\"VOICE IN CROWD\",\"text\":\"The girl has tested her enough. Let the mother enter.\",\"sfx_cue\":\"\"},{\"speaker\":\"SECOND VOICE IN CROWD\",\"text\":\"We all watched her refuse the woman. We should hear her answer now.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Nobody speaks for me.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"They did that to you after I disappeared, didn't they?\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Every day.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Then take your time.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Dig where you said.\",\"sfx_cue\":\"hoe dropped onto soil\"},{\"speaker\":\"meera\",\"text\":\"You want me to dig it up?\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Three handspans. Eastern root.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"I will help.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"No. She knows the place.\",\"sfx_cue\":\"hands scraping dry soil\"},{\"speaker\":\"meera\",\"text\":\"The earth is loose here.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Because I buried it again this morning.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"I feel something.\",\"sfx_cue\":\"clay clicking against a metal bangle\"},{\"speaker\":\"mohan\",\"text\":\"Take it out, Ma.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Your bird. One wing. And the beak is still too large.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"You said it looked like a crow.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You did not speak to me for two hours.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Three hours.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Then I owe you one hour.\",\"sfx_cue\":\"crowd laughing softly\"},{\"speaker\":\"tara\",\"text\":\"You owe me more than that.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"I know.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Tonight, you sleep in the room with us. Not near the door. Mohan kicks when he dreams.\",\"sfx_cue\":\"\"},{\"speaker\":\"mohan\",\"text\":\"Only sometimes.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"And if police call, you wake me before you go.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"I will.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Say it properly.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"I will not leave this house without telling you.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Everyone heard that?\",\"sfx_cue\":\"\"},{\"speaker\":\"VOICE IN CROWD\",\"text\":\"Everyone heard.\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"Good.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Tara... may I touch you?\",\"sfx_cue\":\"\"},{\"speaker\":\"tara\",\"text\":\"You do not need to ask me that, Mother.\",\"sfx_cue\":\"quick footsteps, tight embrace\"}]},{\"ep\":12,\"title\":\"The Open Entry\",\"lines\":[{\"speaker\":\"raghav\",\"text\":\"Remove Kota from my statement. Today. Before the court receives another copy.\",\"sfx_cue\":\"records office door banging open, ledger pages fluttering\"},{\"speaker\":\"babulal\",\"text\":\"You cannot withdraw a place as if it is a spelling mistake.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I can correct a statement taken under public pressure.\",\"sfx_cue\":\"file dropped onto counter\"},{\"speaker\":\"babulal\",\"text\":\"You signed every page.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Then give me a fresh page.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"This is a records office, not a washing stone.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Your shop is on estate land, isn't it? Paperwork can become tiring when boundaries are reviewed.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"My shop has nothing to do with this file.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Of course not. I was expressing concern for your workload.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Express it from the other side of the counter.\",\"sfx_cue\":\"police boots entering room\"},{\"speaker\":\"raghav\",\"text\":\"Sub-inspector. Excellent. Tell your clerk that citizens may amend inaccurate statements.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"He is not my clerk. And an amendment does not erase the first statement.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Then attach my correction. Meera was never in Kota with me.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You stood before the committee and said I travelled there willingly.\",\"sfx_cue\":\"crowd gathering at doorway\"},{\"speaker\":\"raghav\",\"text\":\"I repeated what I had heard. The crowd was shouting. Questions overlapped.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Nobody asked whether you had been to Kota. You volunteered details about a transport fee and the payment date.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I was confused by the accusation.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You were clear enough to call me a woman who abandoned her children.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I withdraw that too.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You cannot return eighteen months with one sentence.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I am correcting an error. You should be pleased.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"I will be pleased when you say where you left me.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I left you nowhere, because I did not take you anywhere.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Your correction will be recorded as a changed account. State the complete version.\",\"sfx_cue\":\"recorder button clicking\"},{\"speaker\":\"raghav\",\"text\":\"I met Meera near Dharmapur. I did not transport her to Kota. I did not introduce her to Shahid.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"How do you know Shahid's name?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"It has been shouted through the village for days.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Not in front of you.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Villages have ears even when police pretend they do not.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Continue.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I know nothing about a room in Kota. I know nothing about confinement. The five lakh rupees were a tractor deposit unrelated to Meera.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"You did not bring the tractor record.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"The transport search was incomplete.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"It covered every district registration for twelve months after the deposit.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Then perhaps the buyer changed his mind.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Yesterday, the tractor existed. Today, the buyer changed his mind. Tomorrow, will the account disappear?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Your confidence is impressive for somebody asking the state to restore her name.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"The state marked me dead. I learned not to borrow confidence from paper.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"Paper also marked the certificate disputed.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"After you interfered with it.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"After police ordered a correction.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"You are very brave behind that counter.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"I am... I am careful behind it. That is different.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"And today he will remain careful while you sign your changed statement.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Gladly.\",\"sfx_cue\":\"pen scratching across paper\"},{\"speaker\":\"kavita\",\"text\":\"Read the last line aloud.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I state that Meera was never in Kota with me, and any earlier statement suggesting otherwise was made under confusion.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Date and time.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"The twenty-fourth of November, twenty twenty-two. Ten forty in the morning.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Sign.\",\"sfx_cue\":\"pen scratching, rubber stamp striking paper\"},{\"speaker\":\"raghav\",\"text\":\"Finished.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"No. Now I attach it to your first statement.\",\"sfx_cue\":\"metal file clasp snapping shut\"},{\"speaker\":\"raghav\",\"text\":\"Do that. The latest statement controls.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"The court decides what controls.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Then I have nothing further to say.\",\"sfx_cue\":\"chair pushed back\"},{\"speaker\":\"babulal\",\"text\":\"Wait.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"For what?\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"You said you were never in Kota with Meera.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"That is what you just stamped.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"Your vehicle number. Does it remain D H seven, C, eight two six four?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Why?\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"Yes or no.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"That vehicle was sold.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"After the dates under inquiry. Was that its number in May twenty twenty-one?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Yes. Hundreds of people knew it.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"I saw the number this morning.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"In which file?\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"Not a police file. An old travel register sent from Kota after a transport office audit.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Travel registers contain copying errors.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"You have not seen this one.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"I know how roadside clerks write.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Bring the register.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"It is in the lower records room.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Before you produce some mouldy book, remember that a vehicle number does not identify its driver.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"You recognised the number before he opened the book.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"He spoke my old vehicle number aloud.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"And you became frightened.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Do not mistake irritation for fear.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Stay here.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Am I detained?\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"No. You may leave. Your statement and vehicle number will remain.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"A courteous threat is still a threat.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Then you recognised the courtesy.\",\"sfx_cue\":\"\"},{\"speaker\":\"NARRATOR\",\"text\":\"Babulal returned carrying a register so large he held it against his chest with both arms.\",\"sfx_cue\":\"heavy footsteps, thick ledger thudding onto counter\"},{\"speaker\":\"babulal\",\"text\":\"Kota commercial travel register. Entry gate, east depot. The binding was never closed after the final page.\",\"sfx_cue\":\"dry pages turning\"},{\"speaker\":\"kavita\",\"text\":\"Why was it sent to Dharmapur?\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"Vehicle numbers were being compared with local permits. The packet arrived seven months ago. Nobody indexed it.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"So it sat unattended for seven months. Excellent chain of custody.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"It is an administrative register, not seized evidence. We will verify it with the Kota office.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"The page carries their seal and the attendant's initials.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Find the vehicle.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"There are two entries. Arrival on the fifth of May, twenty twenty-one, at nine twenty in the evening.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"The day I disappeared.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"She knows the date. Anyone could have written the number later.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"The ink crosses the page ruling. It was written before the next entry. What name is beside it?\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"No driver's name. Only vehicle number, arrival time and passenger count.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Passenger count?\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"Three.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"A commercial vehicle carries passengers. Astonishing.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Raghav drove. I sat in the back. Another man sat beside him.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"That is Meera's assertion. The register independently records three occupants.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"It records a number somebody copied from a passing vehicle.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"The entry is open.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Meaning?\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"Arrival was recorded, but there is no departure on the same line. That is why I noticed it.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Then it proves the vehicle never left.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"No. The departure was entered four pages later, after the attendant changed shifts.\",\"sfx_cue\":\"pages turning rapidly\"},{\"speaker\":\"kavita\",\"text\":\"Read it.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"Vehicle D H seven, C, eight two six four. Departure, two fourteen in the morning. Passenger count, two.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"It arrived with three and left with two.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Passenger counts are guesses.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Why is the departure line marked in red?\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"The vehicle was linked to an unclosed inquiry. A woman reported missing from the same depot corridor.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Which woman?\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"You said this register was a copying error. Why do you need her name?\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"Because you are building another performance around a red line.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"There is a complaint reference in the margin.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Whom did the complaint concern?\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"A second woman connected in the complaint to an alleged buyer. She was last seen near the east depot.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"The same place Raghav said he never took me.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"This proves no person was inside my vehicle.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"No. It proves your vehicle entered and departed Kota while you now deny being there.\",\"sfx_cue\":\"\"},{\"speaker\":\"raghav\",\"text\":\"On different dates, perhaps.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"The date is written on both pages.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"Read the departure date.\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"The sixth of May, twenty twenty-one.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"And the missing woman?\",\"sfx_cue\":\"\"},{\"speaker\":\"babulal\",\"text\":\"Her complaint gives the same night.\",\"sfx_cue\":\"\"},{\"speaker\":\"kavita\",\"text\":\"The register shows Raghav's vehicle left Kota that night.\",\"sfx_cue\":\"ledger page pressed flat\"},{\"speaker\":\"kavita\",\"text\":\"The same night the second alleged buyer disappeared.\",\"sfx_cue\":\"\"}]}],\"beat_sheet\":[{\"beat_id\":\"b037\",\"ep\":10,\"seq\":1,\"world_time\":\"2022-11-22\",\"location\":\"Dharmapur police station public desk\",\"present\":[\"meera\",\"raghav\",\"devraj\",\"kavita\"],\"witnessed_by\":[\"meera\",\"raghav\",\"devraj\",\"kavita\"],\"hidden_from\":[\"shahid\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"what_happened\":\"Kavita confronted Raghav with a five-lakh-rupee deposit made to his cousin's cooperative account on 2021-05-03.\",\"state_changes\":[{\"entity\":\"raghav\",\"fact\":\"The alleged payment was traced to an account connected to his cousin.\",\"valence\":-4},{\"entity\":\"meera\",\"fact\":\"Her allegation gained support from a dated financial record.\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b038\",\"ep\":10,\"seq\":2,\"world_time\":\"2022-11-22\",\"location\":\"District transport records system\",\"present\":[],\"witnessed_by\":[],\"hidden_from\":[\"meera\",\"raghav\",\"devraj\",\"kavita\",\"salim\",\"naresh\",\"pintu\",\"irfan\",\"shahid\",\"tara\",\"mohan\",\"janki\",\"babulal\"],\"what_happened\":\"The certified registration search returned no tractor corresponding to Raghav's stated transaction.\",\"state_changes\":[{\"entity\":\"tractor record\",\"fact\":\"No matching tractor registration existed in the searched period.\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"The automated search completed before any character opened or received the certified result.\"},{\"beat_id\":\"b039\",\"ep\":10,\"seq\":3,\"world_time\":\"2022-11-22\",\"location\":\"Dharmapur police station public desk\",\"present\":[\"meera\",\"raghav\",\"devraj\",\"kavita\"],\"witnessed_by\":[\"meera\",\"raghav\",\"devraj\",\"kavita\"],\"hidden_from\":[\"shahid\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"what_happened\":\"Raghav stated that he knew the payment date because he had arranged a tractor inquiry connecting the alleged buyer to his cousin.\",\"state_changes\":[{\"entity\":\"raghav\",\"fact\":\"He publicly acknowledged arranging the transaction whose date he had previously revealed.\",\"valence\":-4},{\"entity\":\"p06\",\"fact\":\"Raghav's own explanation established why he knew the exact payment date.\",\"valence\":5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b040\",\"ep\":10,\"seq\":4,\"world_time\":\"2022-11-22\",\"location\":\"Dharmapur police station public desk\",\"present\":[\"meera\",\"raghav\",\"devraj\",\"kavita\"],\"witnessed_by\":[\"meera\",\"raghav\",\"devraj\",\"kavita\"],\"hidden_from\":[\"shahid\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"what_happened\":\"Kavita established that the account received five lakh rupees two days before Meera disappeared and that no tractor was registered for the claimed transaction.\",\"state_changes\":[{\"entity\":\"five-lakh payment\",\"fact\":\"The deposit occurred on 2021-05-03, two days before Meera's disappearance on 2021-05-05.\",\"valence\":4},{\"entity\":\"raghav\",\"fact\":\"His tractor explanation lacked a corresponding registered vehicle.\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b041\",\"ep\":11,\"seq\":1,\"world_time\":\"2022-11-23\",\"location\":\"Meera's former house courtyard\",\"present\":[\"tara\",\"mohan\"],\"witnessed_by\":[\"tara\",\"mohan\"],\"hidden_from\":[\"meera\",\"devraj\",\"kavita\"],\"what_happened\":\"Tara secretly reburied her broken clay bird beneath the neem tree and prepared a private-memory test for Meera.\",\"state_changes\":[{\"entity\":\"tara\",\"fact\":\"She created an identity test based on a detail never entered in official records.\",\"valence\":2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b042\",\"ep\":11,\"seq\":2,\"world_time\":\"2022-11-23\",\"location\":\"Meera's former house courtyard\",\"present\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\"],\"witnessed_by\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\"],\"hidden_from\":[\"raghav\",\"shahid\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"what_happened\":\"Meera identified the buried object as Tara's one-winged clay bird and located it beside the eastern neem root using a shared memory about Tara's first tooth.\",\"state_changes\":[{\"entity\":\"tara\",\"fact\":\"Her private memory test supported Meera's identity independently of official records.\",\"valence\":5},{\"entity\":\"meera\",\"fact\":\"She recovered a family memory known only to her and Tara.\",\"valence\":5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b043\",\"ep\":11,\"seq\":3,\"world_time\":\"2022-11-23\",\"location\":\"Meera's former house courtyard\",\"present\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\"],\"witnessed_by\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\"],\"hidden_from\":[\"raghav\",\"shahid\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"what_happened\":\"Tara allowed Meera to sleep in the family house with both children after Meera promised to tell Tara before leaving for any inquiry.\",\"state_changes\":[{\"entity\":\"meera\",\"fact\":\"She regained permission to sleep in her own house with Tara and Mohan.\",\"valence\":5},{\"entity\":\"tara\",\"fact\":\"She accepted a direct promise from Meera instead of relying on official evidence.\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b044\",\"ep\":11,\"seq\":4,\"world_time\":\"2022-11-23\",\"location\":\"Meera's former house courtyard\",\"present\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\"],\"witnessed_by\":[\"meera\",\"devraj\",\"kavita\",\"tara\",\"mohan\"],\"hidden_from\":[\"raghav\",\"shahid\",\"salim\",\"naresh\",\"pintu\",\"irfan\"],\"what_happened\":\"Tara embraced Meera in front of the village and called her Mother.\",\"state_changes\":[{\"entity\":\"tara\",\"fact\":\"She publicly accepted Meera as her mother.\",\"valence\":5},{\"entity\":\"meera\",\"fact\":\"The last public refusal within her immediate family ended.\",\"valence\":5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b045\",\"ep\":12,\"seq\":1,\"world_time\":\"2022-11-24\",\"location\":\"Dharmapur records office\",\"present\":[\"meera\",\"raghav\",\"kavita\",\"babulal\"],\"witnessed_by\":[\"meera\",\"raghav\",\"kavita\",\"babulal\"],\"hidden_from\":[\"devraj\",\"tara\",\"mohan\",\"janki\",\"salim\",\"naresh\",\"pintu\",\"irfan\",\"shahid\"],\"what_happened\":\"Raghav filed a changed statement denying that he had taken Meera to Kota or introduced her to Shahid.\",\"state_changes\":[{\"entity\":\"raghav\",\"fact\":\"He formally contradicted his earlier public account of Meera's travel to Kota.\",\"valence\":-3},{\"entity\":\"meera\",\"fact\":\"Raghav withdrew his allegation that she willingly abandoned her children.\",\"valence\":2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b046\",\"ep\":12,\"seq\":2,\"world_time\":\"2022-11-24\",\"location\":\"Dharmapur records office\",\"present\":[\"meera\",\"raghav\",\"kavita\",\"babulal\"],\"witnessed_by\":[\"meera\",\"raghav\",\"kavita\",\"babulal\"],\"hidden_from\":[\"devraj\",\"tara\",\"mohan\",\"janki\",\"salim\",\"naresh\",\"pintu\",\"irfan\",\"shahid\"],\"what_happened\":\"Babulal produced an unclosed Kota travel register bearing Raghav's former vehicle number and an arrival entry dated 2021-05-05 with three occupants.\",\"state_changes\":[{\"entity\":\"Kota travel register\",\"fact\":\"Raghav's vehicle was recorded entering Kota on the day Meera disappeared.\",\"valence\":4},{\"entity\":\"raghav\",\"fact\":\"The register contradicted his new denial of a Kota connection.\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b047\",\"ep\":12,\"seq\":3,\"world_time\":\"2022-11-24\",\"location\":\"Dharmapur records office\",\"present\":[\"meera\",\"raghav\",\"kavita\",\"babulal\"],\"witnessed_by\":[\"meera\",\"raghav\",\"kavita\",\"babulal\"],\"hidden_from\":[\"devraj\",\"tara\",\"mohan\",\"janki\",\"salim\",\"naresh\",\"pintu\",\"irfan\",\"shahid\"],\"what_happened\":\"The travel register recorded Raghav's vehicle leaving Kota at 02:14 on 2021-05-06 with two occupants rather than the three recorded on arrival.\",\"state_changes\":[{\"entity\":\"Kota travel register\",\"fact\":\"The vehicle's passenger count fell from three to two between arrival and departure.\",\"valence\":-4},{\"entity\":\"raghav\",\"fact\":\"His former vehicle was documented leaving Kota after midnight.\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b048\",\"ep\":12,\"seq\":4,\"world_time\":\"2022-11-24\",\"location\":\"Dharmapur records office\",\"present\":[\"meera\",\"raghav\",\"kavita\",\"babulal\"],\"witnessed_by\":[\"meera\",\"raghav\",\"kavita\",\"babulal\"],\"hidden_from\":[\"devraj\",\"tara\",\"mohan\",\"janki\",\"salim\",\"naresh\",\"pintu\",\"irfan\",\"shahid\"],\"what_happened\":\"Kavita established that Raghav's vehicle left Kota on the same night a second person connected in a complaint to an alleged buyer disappeared.\",\"state_changes\":[{\"entity\":\"raghav\",\"fact\":\"His vehicle was linked by date and location to a second disappearance involving an alleged buyer.\",\"valence\":-5},{\"entity\":\"second disappearance\",\"fact\":\"The complaint date matched the vehicle's overnight departure from Kota.\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null}],\"promise_ledger\":[{\"id\":\"p04\",\"raised_ep\":2,\"listener_is_waiting_for\":\"Whose body was cremated after being wrongly identified as Meera?\",\"must_pay_by_ep\":13,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p06\",\"raised_ep\":4,\"listener_is_waiting_for\":\"How did Raghav know the exact five-lakh-rupee payment date before Meera disclosed the amount?\",\"must_pay_by_ep\":10,\"paid_ep\":10,\"how_paid\":\"Raghav acknowledged in the public account confrontation that he had arranged the transaction connecting the alleged buyer to his cousin, which explained his knowledge of the exact deposit date.\",\"status\":\"paid\"},{\"id\":\"p08\",\"raised_ep\":8,\"listener_is_waiting_for\":\"Does the matching hospital number prove that the burned woman was Kesar?\",\"must_pay_by_ep\":13,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p09\",\"raised_ep\":9,\"listener_is_waiting_for\":\"Who wrote Meera's name on the unidentified-body form before Devraj signed the identification?\",\"must_pay_by_ep\":14,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p10\",\"raised_ep\":12,\"listener_is_waiting_for\":\"Who was the second person linked to an alleged buyer, and why did Raghav's vehicle leave Kota on the night that person disappeared?\",\"must_pay_by_ep\":14,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"}],\"calendar\":{\"season_start\":\"2022-11-14\",\"dates_fixed\":[{\"ep\":1,\"when\":\"2022-11-14\",\"what\":\"Meera enters Dharmapur police station and discovers that she remains recorded as dead.\"},{\"ep\":2,\"when\":\"2022-11-14\",\"what\":\"Kavita conducts the initial private identity test and finds the tattoo-hand discrepancy.\"},{\"ep\":3,\"when\":\"2022-11-15\",\"what\":\"Meera visits her former house under police guard and the bus stand photograph arrives.\"},{\"ep\":4,\"when\":\"2022-11-16\",\"what\":\"Raghav gives his account before the village committee and reveals knowledge of a payment dated 2021-05-03.\"},{\"ep\":5,\"when\":\"2022-11-17\",\"what\":\"Meera identifies room twelve in Kota, Mohan publicly calls her Ma and the rental ledger reveals a disputed signature dated 2021-06-21.\"},{\"ep\":6,\"when\":\"2022-11-18\",\"what\":\"Kavita conducts the open identity verification and Meera's death certificate is marked disputed.\"},{\"ep\":7,\"when\":\"2022-11-19\",\"what\":\"The four jailed accused appear in court, Salim implicates Raghav and his indexed statement is found missing from the case diary.\"},{\"ep\":8,\"when\":\"2022-11-20\",\"what\":\"The court brings the four accused into the reopened inquiry, and Janki links Kesar's complaint to the burned body's hospital intake number.\"},{\"ep\":9,\"when\":\"2022-11-21\",\"what\":\"Devraj admits that fear and grief caused the mistaken identification and publicly recognises Meera as his daughter.\"},{\"ep\":10,\"when\":\"2022-11-22\",\"what\":\"Kavita traces the five-lakh-rupee deposit dated 2021-05-03 and finds no registered tractor corresponding to Raghav's explanation.\"},{\"ep\":11,\"when\":\"2022-11-23\",\"what\":\"Tara tests Meera with the buried clay bird, publicly accepts her as her mother and allows her to sleep in the family house.\"},{\"ep\":12,\"when\":\"2022-11-24\",\"what\":\"Raghav withdraws his Kota account and Babulal produces the unclosed travel-register entry for Raghav's vehicle.\"}],\"periods_fixed\":[{\"between\":[1,2],\"elapsed\":\"No time elapsed; both episodes occur on 2022-11-14.\"},{\"between\":[2,3],\"elapsed\":\"One day.\"},{\"between\":[3,4],\"elapsed\":\"One day.\"},{\"between\":[4,5],\"elapsed\":\"One day.\"},{\"between\":[5,6],\"elapsed\":\"One day.\"},{\"between\":[6,7],\"elapsed\":\"One day.\"},{\"between\":[7,8],\"elapsed\":\"One day.\"},{\"between\":[8,9],\"elapsed\":\"One day.\"},{\"between\":[9,10],\"elapsed\":\"One day.\"},{\"between\":[10,11],\"elapsed\":\"One day.\"},{\"between\":[11,12],\"elapsed\":\"One day.\"}],\"unresolved\":[]},\"flags\":[]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 0.98,
+    "background": false,
+    "max_output_tokens": 32000,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": "medium",
+      "generate_summary": null,
+      "summary": null,
+      "context": "all_turns",
+      "mode": "standard"
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "episode_batch",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "episodes",
+            "beat_sheet",
+            "promise_ledger",
+            "calendar",
+            "flags"
+          ],
+          "properties": {
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "ep",
+                  "title",
+                  "lines"
+                ],
+                "properties": {
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "lines": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "speaker",
+                        "text",
+                        "sfx_cue"
+                      ],
+                      "properties": {
+                        "speaker": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "sfx_cue": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "beat_sheet": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "beat_id",
+                  "ep",
+                  "seq",
+                  "world_time",
+                  "location",
+                  "present",
+                  "witnessed_by",
+                  "hidden_from",
+                  "what_happened",
+                  "state_changes",
+                  "source_ref",
+                  "tier",
+                  "note"
+                ],
+                "properties": {
+                  "beat_id": {
+                    "type": "string"
+                  },
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "seq": {
+                    "type": "integer"
+                  },
+                  "world_time": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "present": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "witnessed_by": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "hidden_from": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "what_happened": {
+                    "type": "string"
+                  },
+                  "state_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "entity",
+                        "fact",
+                        "valence"
+                      ],
+                      "properties": {
+                        "entity": {
+                          "type": "string"
+                        },
+                        "fact": {
+                          "type": "string"
+                        },
+                        "valence": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "source_ref": {
+                    "type": "string"
+                  },
+                  "tier": {
+                    "type": "string",
+                    "enum": [
+                      "core_canon"
+                    ]
+                  },
+                  "note": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "promise_ledger": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "raised_ep",
+                  "listener_is_waiting_for",
+                  "must_pay_by_ep",
+                  "paid_ep",
+                  "how_paid",
+                  "status"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "raised_ep": {
+                    "type": "integer"
+                  },
+                  "listener_is_waiting_for": {
+                    "type": "string"
+                  },
+                  "must_pay_by_ep": {
+                    "type": "integer"
+                  },
+                  "paid_ep": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "how_paid": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "open",
+                      "paid",
+                      "paid_late"
+                    ]
+                  }
+                }
+              }
+            },
+            "calendar": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "season_start",
+                "dates_fixed",
+                "periods_fixed",
+                "unresolved"
+              ],
+              "properties": {
+                "season_start": {
+                  "type": "string"
+                },
+                "dates_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "ep",
+                      "when",
+                      "what"
+                    ],
+                    "properties": {
+                      "ep": {
+                        "type": "integer"
+                      },
+                      "when": {
+                        "type": "string"
+                      },
+                      "what": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "periods_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "between",
+                      "elapsed"
+                    ],
+                    "properties": {
+                      "between": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        }
+                      },
+                      "elapsed": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "unresolved": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 16396,
+      "input_tokens_details": {
+        "cached_tokens": 5579,
+        "cache_write_tokens": 10814
+      },
+      "output_tokens": 13413,
+      "output_tokens_details": {
+        "reasoning_tokens": 793
+      },
+      "total_tokens": 29809
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1785023141,
+    "frequency_penalty": 0.0,
+    "moderation": null,
+    "presence_penalty": 0.0,
+    "prompt_cache_retention": "24h",
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    }
+  }
+}

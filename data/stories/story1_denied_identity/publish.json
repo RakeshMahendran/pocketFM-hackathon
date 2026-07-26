@@ -1,0 +1,48 @@
+{
+  "story_id": "story1_denied_identity",
+  "state": "live",
+  "by": "priya",
+  "at": "2026-07-26T00:58:15.051061+00:00",
+  "advisory_at_publish": [
+    "4 of 46 beats leave someone standing in the scene with no stated knowledge of it — present, but in neither witnessed_by nor hidden_from (b006: savithri; b009: savithri)",
+    "1 cast members appear in no beat at all (lokanath) — nothing to promote, and the character panel would offer them anyway",
+    "4 of 17 cast members have their status stated on fewer than half of 46 beats — harsha (38 unstated), kempanna (36 unstated), seetharama (35 unstated), puttaraju (30 unstated). A spinoff lead needs this at zero unstated",
+    "b019 is sourced to t8 (alleged) — hard rule 3 allows it only as something a character claims: \"inchara introduces herself and reveals she has held a photocopy of the Nerlige family tree register since 2019 and has done nothing with it while waiting for someone from that house to become angry in a government building.\"",
+    "'mysuru' — from the real name 'Mysuru district, Karnataka' — appears in ep12.md and has no fictional counterpart on the page: \"…boy who was first is now a lorry driver in Mysuru and will say so. He has a training certific…\""
+  ],
+  "episodes": {
+    "1": {
+      "by": "priya",
+      "at": "2026-07-26T00:58:15.440031+00:00",
+      "advisory_at_release": [
+        "4 of 46 beats leave someone standing in the scene with no stated knowledge of it — present, but in neither witnessed_by nor hidden_from (b006: savithri; b009: savithri)",
+        "1 cast members appear in no beat at all (lokanath) — nothing to promote, and the character panel would offer them anyway",
+        "4 of 17 cast members have their status stated on fewer than half of 46 beats — harsha (38 unstated), kempanna (36 unstated), seetharama (35 unstated), puttaraju (30 unstated). A spinoff lead needs this at zero unstated",
+        "b019 is sourced to t8 (alleged) — hard rule 3 allows it only as something a character claims: \"inchara introduces herself and reveals she has held a photocopy of the Nerlige family tree register since 2019 and has done nothing with it while waiting for someone from that house to become angry in a government building.\"",
+        "'mysuru' — from the real name 'Mysuru district, Karnataka' — appears in ep12.md and has no fictional counterpart on the page: \"…boy who was first is now a lorry driver in Mysuru and will say so. He has a training certific…\""
+      ]
+    },
+    "2": {
+      "by": "priya",
+      "at": "2026-07-26T00:58:15.794196+00:00",
+      "advisory_at_release": [
+        "4 of 46 beats leave someone standing in the scene with no stated knowledge of it — present, but in neither witnessed_by nor hidden_from (b006: savithri; b009: savithri)",
+        "1 cast members appear in no beat at all (lokanath) — nothing to promote, and the character panel would offer them anyway",
+        "4 of 17 cast members have their status stated on fewer than half of 46 beats — harsha (38 unstated), kempanna (36 unstated), seetharama (35 unstated), puttaraju (30 unstated). A spinoff lead needs this at zero unstated",
+        "b019 is sourced to t8 (alleged) — hard rule 3 allows it only as something a character claims: \"inchara introduces herself and reveals she has held a photocopy of the Nerlige family tree register since 2019 and has done nothing with it while waiting for someone from that house to become angry in a government building.\"",
+        "'mysuru' — from the real name 'Mysuru district, Karnataka' — appears in ep12.md and has no fictional counterpart on the page: \"…boy who was first is now a lorry driver in Mysuru and will say so. He has a training certific…\""
+      ]
+    },
+    "3": {
+      "by": "priya",
+      "at": "2026-07-26T00:58:16.157858+00:00",
+      "advisory_at_release": [
+        "4 of 46 beats leave someone standing in the scene with no stated knowledge of it — present, but in neither witnessed_by nor hidden_from (b006: savithri; b009: savithri)",
+        "1 cast members appear in no beat at all (lokanath) — nothing to promote, and the character panel would offer them anyway",
+        "4 of 17 cast members have their status stated on fewer than half of 46 beats — harsha (38 unstated), kempanna (36 unstated), seetharama (35 unstated), puttaraju (30 unstated). A spinoff lead needs this at zero unstated",
+        "b019 is sourced to t8 (alleged) — hard rule 3 allows it only as something a character claims: \"inchara introduces herself and reveals she has held a photocopy of the Nerlige family tree register since 2019 and has done nothing with it while waiting for someone from that house to become angry in a government building.\"",
+        "'mysuru' — from the real name 'Mysuru district, Karnataka' — appears in ep12.md and has no fictional counterpart on the page: \"…boy who was first is now a lorry driver in Mysuru and will say so. He has a training certific…\""
+      ]
+    }
+  }
+}

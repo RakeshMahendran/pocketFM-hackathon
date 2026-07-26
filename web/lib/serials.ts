@@ -461,11 +461,27 @@ function normaliseFictionalization(raw: unknown): [string, string][] {
 const EP_FILE = /^ep(\d+)\.md$/i;
 
 /** `# Episode 4 — "The Book Doesn't Have Her"`, cased two ways across stories. */
+/**
+ * The episode's own title, without the number the screen already shows.
+ *
+ * Hand-written seasons quote it (`# Episode 4 — "Present, Sir"`); the writer
+ * emits it bare (`# Episode 4 — The Date He Should Not Know`). Only the quoted
+ * form was being stripped, so every season the pipeline actually produced read
+ * "04  Episode 4 — The Date He Should Not Know" in the list and doubled the
+ * whole thing in the tab title. The generated seasons were the ones that looked
+ * broken, which is the wrong way round.
+ */
 function episodeTitle(body: string): string | null {
   const heading = body.split("\n").find((l) => l.startsWith("# "));
   if (!heading) return null;
   const quoted = heading.match(/[""“”"](.+?)[""“”"]/);
-  return quoted ? quoted[1] : heading.replace(/^#\s*/, "").trim() || null;
+  if (quoted) return quoted[1];
+  return (
+    heading
+      .replace(/^#\s*/, "")
+      .replace(/^episode\s+\d+\s*[—–:-]\s*/i, "")
+      .trim() || null
+  );
 }
 
 function countWords(body: string): number {
@@ -651,11 +667,20 @@ async function loadOne(dir: string): Promise<{ serial: Serial | null; notes: str
  * story. Rendered as whatever labelled lines they turn out to hold rather than
  * pinned to a shape none of the four agree on.
  */
+/**
+ * A person from the dossier, as things worth reading about them.
+ *
+ * Identifier keys are dropped rather than rendered. The screen labels each key
+ * by humanising it, so a `char_id` reaches a producer as the line "char id /
+ * meera" — a field name and an internal handle, in a panel that is otherwise
+ * prose. Anything ending in `_id` is a reference to a record elsewhere, never
+ * something anyone reads, so the whole class goes rather than one key at a time.
+ */
 function personBlock(raw: unknown): Record<string, string> | null {
   const out: Record<string, string> = {};
   for (const [k, v] of Object.entries(asRecord(raw))) {
     const s = str(v) ?? (Array.isArray(v) ? strList(v).join("; ") : null);
-    if (s && k !== "id") out[k] = s;
+    if (s && k !== "id" && !k.endsWith("_id")) out[k] = s;
   }
   return Object.keys(out).length ? out : null;
 }

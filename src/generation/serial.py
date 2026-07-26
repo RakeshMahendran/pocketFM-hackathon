@@ -27,6 +27,7 @@ from typing import Any, Dict, List, Optional, Sequence, Tuple
 
 from src.util import (DATA, DOSSIERS_PATH, ensure_dirs, load_env, log, read_json,
                       write_json)
+from src.canon import store
 from src.generation.client import call_structured
 from src.generation.schemas import (batch_schema, episode_word_count,
                                    length_problems, render_script)
@@ -92,18 +93,31 @@ def canon_block(beats: Sequence[Dict[str, Any]]) -> str:
     return "\n".join(rows)
 
 
-def speaker_lines(script: str, name: str, limit: int = 4) -> List[str]:
+def speaker_lines(script: str, char: Dict[str, Any], limit: int = 4) -> List[str]:
     """
     A character's own dialogue, most recent last.
 
     `episode.md` requires one verbal signature per character held identical
     across episodes, and the only way the model can match a voice it wrote six
-    episodes ago is to be shown it. Speaker tags are the character's name in
-    caps, per the form section.
+    episodes ago is to be shown it.
+
+    Takes the cast member rather than a name because the speaker tag is not the
+    name: `render_script` labels every line with `speaker.upper()` and `speaker`
+    is the *char_id*. Matching on the display name found "Ewan Kerr:" in a script
+    that says "EWAN:" — zero lines for 12 of 13 characters on the delivered
+    season, so every batch after the first carried no voice at all and nothing
+    raised. `store.speaker_tokens` already ranks the candidate labels, char_id
+    ahead of the name parts, so a shared first name cannot claim another
+    character's lines.
     """
-    tag = re.compile(rf"^\s*{re.escape(name.upper())}\s*:\s*(.+)$", re.MULTILINE)
-    found = [m.group(1).strip() for m in tag.finditer(script)]
-    return found[-limit:]
+    for token in store.speaker_tokens(char):
+        tag = re.compile(rf"^\s*{re.escape(token)}\s*:\s*(.+)$", re.MULTILINE)
+        found = [m.group(1).strip() for m in tag.finditer(script)]
+        # First candidate the script actually uses wins, matching
+        # `views.voice_samples`. An absent label is not evidence of silence.
+        if found:
+            return found[-limit:]
+    return []
 
 
 def character_ledger(
@@ -127,7 +141,7 @@ def character_ledger(
                  if cid in (b.get("witnessed_by") or [])]
         blind = [b.get("what_happened") for b in beats
                  if cid in (b.get("hidden_from") or [])]
-        lines = speaker_lines(joined, name) if name else []
+        lines = speaker_lines(joined, c)
 
         row = [f"{cid} ({name})"]
         row.append("  knows: " + ("; ".join(knows[-6:]) if knows else "nothing yet"))
@@ -370,15 +384,39 @@ def persist(season: Dict[str, Any], dossier: Dict[str, Any]) -> pathlib.Path:
 
 
 def load_dossier(event_id: str) -> Dict[str, Any]:
-    if not DOSSIERS_PATH.exists():
+    """
+    The dossier to write from, from the commission list or from a story that
+    already has one.
+
+    `persist()` writes a copy of the dossier beside the season it produced, and
+    that copy is the only record of a commission `data/dossiers.json` has since
+    lost — six of the seven delivered stories were unregeneratable for exactly
+    this reason. Falling back to it means a story on disk can always be rewritten
+    from the dossier it was actually written from, which is also the correct one:
+    a re-run must reproduce that season, not whatever was commissioned last.
+    """
+    known: List[str] = []
+
+    if DOSSIERS_PATH.exists():
+        for d in read_json(DOSSIERS_PATH):
+            if d.get("event_id") == event_id:
+                return d
+            known.append(d.get("event_id", "?"))
+
+    for path in sorted(STORIES.glob("*/dossier.json")):
+        d = read_json(path)
+        if d.get("event_id") == event_id:
+            return d
+        known.append(d.get("event_id", "?"))
+
+    if not known:
         raise RuntimeError(
             f"no dossiers at {DOSSIERS_PATH} — run `python tasks.py score` first"
         )
-    for d in read_json(DOSSIERS_PATH):
-        if d.get("event_id") == event_id:
-            return d
-    known = ", ".join(d.get("event_id", "?") for d in read_json(DOSSIERS_PATH))
-    raise RuntimeError(f"no dossier for {event_id!r}. Available: {known}")
+    # dict.fromkeys, not a set: the order an editor sees should be the order they
+    # were commissioned in.
+    raise RuntimeError(f"no dossier for {event_id!r}. "
+                       f"Available: {', '.join(dict.fromkeys(known))}")
 
 
 def produce(
@@ -409,7 +447,19 @@ def produce(
     # Graded before it is written. A season with fatal problems on disk is worse
     # than no season: `character_view()` cannot tell a corrupt beat sheet from a
     # sound one, and neither can the screen built on top of it.
-    fatal, advisory = validate_output(dossier, season["beats"])
+    #
+    # The scripts go in alongside the beats. A real name reaches a listener
+    # through the prose, not the beat sheet, so grading beats alone left this
+    # gate blind to the one failure it most needs to catch — hard rule 4 — and
+    # deferred it to publish, by which point the season is already written.
+    # Keyed `ep04.md` rather than `4`, because the key is what the message names
+    # as the place to go and look — and that is the filename `persist()` is
+    # about to write.
+    fatal, advisory = validate_output(
+        dossier,
+        season["beats"],
+        {f"ep{ep:02d}.md": text for ep, text in season["scripts"].items()},
+    )
     for note in advisory:
         log(f"advisory {note}", "warn")
     for note in season["flags"]:

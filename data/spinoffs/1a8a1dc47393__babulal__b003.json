@@ -1,0 +1,823 @@
+{
+  "story_id": "1a8a1dc47393",
+  "char_id": "babulal",
+  "anchor_beat_id": "b003",
+  "anchor": {
+    "beat_id": "b003",
+    "ep": 1,
+    "seq": 3,
+    "world_time": "2022-11-14",
+    "location": "Dharmapur police station records desk",
+    "what_happened": "Babulal opened the records cupboard and produced Meera's death entry and connected murder-case file.",
+    "fact": "Became involved in reviewing the disputed paperwork.",
+    "valence": -1,
+    "n_present": 4,
+    "kind": "witnessed"
+  },
+  "constrained": true,
+  "generated_at": "2026-07-26T01:06:29.220841+00:00",
+  "model": "gpt-5.6-sol",
+  "forbidden": {
+    "story_id": "1a8a1dc47393",
+    "char_id": "babulal",
+    "n_beats": 56,
+    "allowed": [
+      {
+        "beat_id": "b003",
+        "ep": 1,
+        "world_time": "2022-11-14",
+        "location": "Dharmapur police station records desk",
+        "fact": "Babulal opened the records cupboard and produced Meera's death entry and connected murder-case file."
+      },
+      {
+        "beat_id": "b004",
+        "ep": 1,
+        "world_time": "2022-11-14",
+        "location": "Dharmapur police station records desk",
+        "fact": "The register showed Meera as dead while four men remained jailed for her murder."
+      },
+      {
+        "beat_id": "b007",
+        "ep": 2,
+        "world_time": "2022-11-14",
+        "location": "Dharmapur police station interview room",
+        "fact": "Devraj produced the hospital photograph and record he had used to identify the burned body by a tattoo and black wrist thread."
+      },
+      {
+        "beat_id": "b008",
+        "ep": 2,
+        "world_time": "2022-11-14",
+        "location": "Dharmapur police station interview room",
+        "fact": "Kavita established that the tattoo in the body photograph was on the opposite hand from Meera's tattoo."
+      },
+      {
+        "beat_id": "b022",
+        "ep": 6,
+        "world_time": "2022-11-18",
+        "location": "Dharmapur police station public verification area",
+        "fact": "Kavita publicly established that Meera's fresh fingerprints matched two archived documents created before her disappearance."
+      },
+      {
+        "beat_id": "b023",
+        "ep": 6,
+        "world_time": "2022-11-18",
+        "location": "Dharmapur police station public verification area",
+        "fact": "The public verification combined the tattoo-hand discrepancy, family testimony, room knowledge and an examiner's opinion that the Kota signature had been copied."
+      },
+      {
+        "beat_id": "b024",
+        "ep": 6,
+        "world_time": "2022-11-18",
+        "location": "Dharmapur police station public verification area",
+        "fact": "Kavita announced that the evidence strongly supported Meera being alive and genuine, and Babulal sealed her death certificate as disputed while police acknowledged the original identification might have been wrong."
+      },
+      {
+        "beat_id": "b032",
+        "ep": 8,
+        "world_time": "2022-11-20",
+        "location": "Dharmapur court side room",
+        "fact": "Janki recognised the burned body's hospital intake number as the same number recorded on Kesar's missing-person complaint."
+      },
+      {
+        "beat_id": "b045",
+        "ep": 12,
+        "world_time": "2022-11-24",
+        "location": "Dharmapur records office",
+        "fact": "Raghav filed a changed statement denying that he had taken Meera to Kota or introduced her to Shahid."
+      },
+      {
+        "beat_id": "b046",
+        "ep": 12,
+        "world_time": "2022-11-24",
+        "location": "Dharmapur records office",
+        "fact": "Babulal produced an unclosed Kota travel register bearing Raghav's former vehicle number and an arrival entry dated 2021-05-05 with three occupants."
+      },
+      {
+        "beat_id": "b047",
+        "ep": 12,
+        "world_time": "2022-11-24",
+        "location": "Dharmapur records office",
+        "fact": "The travel register recorded Raghav's vehicle leaving Kota at 02:14 on 2021-05-06 with two occupants rather than the three recorded on arrival."
+      },
+      {
+        "beat_id": "b048",
+        "ep": 12,
+        "world_time": "2022-11-24",
+        "location": "Dharmapur records office",
+        "fact": "Kavita established that Raghav's vehicle left Kota on the same night a second person connected in a complaint to an alleged buyer disappeared."
+      },
+      {
+        "beat_id": "b051",
+        "ep": 13,
+        "world_time": "2022-11-25",
+        "location": "district records counter",
+        "fact": "The records established that a duty officer wrote Meera's name on the body form after Raghav supplied that identity by telephone, and that Kesar was the third occupant left near the east depot before Raghav's vehicle departed Kota with two people."
+      },
+      {
+        "beat_id": "b052",
+        "ep": 13,
+        "world_time": "2022-11-25",
+        "location": "district records counter",
+        "fact": "Babulal issued Janki a death certificate under Kesar's name, and Kavita read that the DNA placed Kesar at the accident site and excluded Meera from it."
+      },
+      {
+        "beat_id": "b054",
+        "ep": 14,
+        "world_time": "2022-11-26",
+        "location": "Dharmapur courtroom",
+        "fact": "The court authorised Raghav's arrest after hearing the five-lakh-rupee money trail, the nonexistent tractor transaction, his changed statement and the false body-identification record."
+      },
+      {
+        "beat_id": "b055",
+        "ep": 14,
+        "world_time": "2022-11-26",
+        "location": "Dharmapur public records desk",
+        "fact": "Devraj repeated his public recognition of Meera, Janki displayed Kesar's corrected certificate and Babulal cancelled Meera's death entry while the four freed men walked out without restraints."
+      },
+      {
+        "beat_id": "b056",
+        "ep": 14,
+        "world_time": "2022-11-26",
+        "location": "Dharmapur public records desk",
+        "fact": "The official register recorded that Meera was alive, Kesar was the woman cremated and all four accused were free."
+      }
+    ],
+    "forbidden": [
+      {
+        "beat_id": "b001",
+        "ep": 1,
+        "world_time": "2022-11-14",
+        "location": "Dharmapur police station public desk",
+        "fact": "Meera entered the police station asking for Tara and Mohan and identified herself as Devraj's daughter.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b002",
+        "ep": 1,
+        "world_time": "2022-11-14",
+        "location": "Dharmapur police station public desk",
+        "fact": "Devraj publicly called Meera an impostor and refused her request to touch her hand.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b005",
+        "ep": 2,
+        "world_time": "2022-11-14",
+        "location": "Dharmapur police station interview room",
+        "fact": "Kavita separated Meera from the crowd and refused Devraj control over the private identity test.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b006",
+        "ep": 2,
+        "world_time": "2022-11-14",
+        "location": "Dharmapur police station interview room",
+        "fact": "Meera correctly answered private questions about Tara's birth, Mohan's first word and family incidents not fully recorded in the case file.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b009",
+        "ep": 3,
+        "world_time": "2022-11-15",
+        "location": "Meera's former house in Dharmapur",
+        "fact": "Meera entered her former home under police guard while Tara refused to call her mother and Mohan remained behind a locked storeroom door.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b010",
+        "ep": 3,
+        "world_time": "2022-11-15",
+        "location": "Meera's former bedroom",
+        "fact": "Meera directed Kavita to a concealed tin containing Tara's first school ribbon.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b011",
+        "ep": 3,
+        "world_time": "2022-11-15",
+        "location": "Kota bus stand tea counter",
+        "fact": "An old photograph linking Meera and Raghav was recovered from behind a bus stand timetable and carried toward Dharmapur.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b012",
+        "ep": 3,
+        "world_time": "2022-11-15",
+        "location": "Meera's former house courtyard",
+        "fact": "A bus stand vendor arrived and produced a photograph of Meera standing beside Raghav.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b013",
+        "ep": 4,
+        "world_time": "2022-11-16",
+        "location": "Dharmapur village committee courtyard",
+        "fact": "Raghav publicly asserted that Meera willingly travelled with him to Kota because she wanted to leave her family.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b014",
+        "ep": 4,
+        "world_time": "2022-11-16",
+        "location": "Dharmapur village committee courtyard",
+        "fact": "Meera asserted that Raghav took her phone battery, placed her with Shahid and witnessed money being counted.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b015",
+        "ep": 4,
+        "world_time": "2022-11-16",
+        "location": "Dharmapur village committee courtyard",
+        "fact": "Tara confirmed that Meera previously owned the taped blue phone described during the confrontation.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b016",
+        "ep": 4,
+        "world_time": "2022-11-16",
+        "location": "Dharmapur village committee courtyard",
+        "fact": "Raghav named a five-lakh-rupee payment date before Meera had disclosed the amount or date to police.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b017",
+        "ep": 5,
+        "world_time": "2022-11-17",
+        "location": "Kota rental building courtyard and room twelve",
+        "fact": "Meera identified room twelve as the place where she said she had been confined, while the landlord stated that it had been rented to a woman named Sarla.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b018",
+        "ep": 5,
+        "world_time": "2022-11-17",
+        "location": "Kota rental building room twelve",
+        "fact": "Inside room twelve, Meera correctly predicted wall marks, a hook-shaped water stain and an outside door bolt.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b019",
+        "ep": 5,
+        "world_time": "2022-11-17",
+        "location": "Kota rental building room twelve",
+        "fact": "Meera completed Mohan's private childhood lullaby, and Mohan publicly called her Ma.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b020",
+        "ep": 5,
+        "world_time": "2022-11-17",
+        "location": "Kota rental building ground floor",
+        "fact": "The rental ledger contained Meera's name as a signature beside 2021-06-21, when her family believed she had already been cremated.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b021",
+        "ep": 6,
+        "world_time": "2022-11-18",
+        "location": "Dharmapur police station empty records room",
+        "fact": "A sealed forensic fingerprint result arrived in the empty records room before the public verification.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b025",
+        "ep": 7,
+        "world_time": "2022-11-19",
+        "location": "Dharmapur court corridor",
+        "fact": "Salim told Meera and Kavita that Raghav had directed the four accused to the accident site before police arrived.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b026",
+        "ep": 7,
+        "world_time": "2022-11-19",
+        "location": "Dharmapur courtroom",
+        "fact": "The court heard that the four men were charged after police found them beside the burned body and treated their accounts as inconsistent.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b027",
+        "ep": 7,
+        "world_time": "2022-11-19",
+        "location": "Dharmapur courtroom",
+        "fact": "Salim stated under court questioning that Raghav gave him the east quarry road location shortly after six in the morning.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b028",
+        "ep": 7,
+        "world_time": "2022-11-19",
+        "location": "Dharmapur courtroom",
+        "fact": "Kavita and the court clerk established that the indexed pages containing Salim's first-night statement were missing from the original case diary.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b029",
+        "ep": 8,
+        "world_time": "2022-11-20",
+        "location": "Dharmapur court records area",
+        "fact": "A copy of Kesar's missing-person complaint was placed in the court records tray before Janki's interview.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b030",
+        "ep": 8,
+        "world_time": "2022-11-20",
+        "location": "Dharmapur courtroom",
+        "fact": "The court ordered all four accused produced in the reopened identity inquiry and directed police to record Salim's account again.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b031",
+        "ep": 8,
+        "world_time": "2022-11-20",
+        "location": "Dharmapur court side room",
+        "fact": "Janki stated that the burned body might be her missing sister Kesar and described Kesar's black wrist thread, copper bead and left-hand burn mark.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b033",
+        "ep": 9,
+        "world_time": "2022-11-21",
+        "location": "Dharmapur village courtyard",
+        "fact": "Kavita required Devraj to correct his original identification publicly before the same village that had witnessed his rejection of Meera.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b034",
+        "ep": 9,
+        "world_time": "2022-11-21",
+        "location": "Dharmapur village courtyard",
+        "fact": "Devraj admitted that he could not see the burned body's face and relied on a hand mark, black thread and Meera's name already written on a form.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b035",
+        "ep": 9,
+        "world_time": "2022-11-21",
+        "location": "Dharmapur village courtyard",
+        "fact": "Devraj stated that fear and grief, rather than certainty, caused him to sign the body identification.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b036",
+        "ep": 9,
+        "world_time": "2022-11-21",
+        "location": "Dharmapur village courtyard",
+        "fact": "Devraj publicly called Meera his daughter and admitted that he had been wrong to call her a stranger.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b037",
+        "ep": 10,
+        "world_time": "2022-11-22",
+        "location": "Dharmapur police station public desk",
+        "fact": "Kavita confronted Raghav with a five-lakh-rupee deposit made to his cousin's cooperative account on 2021-05-03.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b038",
+        "ep": 10,
+        "world_time": "2022-11-22",
+        "location": "District transport records system",
+        "fact": "The certified registration search returned no tractor corresponding to Raghav's stated transaction.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b039",
+        "ep": 10,
+        "world_time": "2022-11-22",
+        "location": "Dharmapur police station public desk",
+        "fact": "Raghav stated that he knew the payment date because he had arranged a tractor inquiry connecting the alleged buyer to his cousin.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b040",
+        "ep": 10,
+        "world_time": "2022-11-22",
+        "location": "Dharmapur police station public desk",
+        "fact": "Kavita established that the account received five lakh rupees two days before Meera disappeared and that no tractor was registered for the claimed transaction.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b041",
+        "ep": 11,
+        "world_time": "2022-11-23",
+        "location": "Meera's former house courtyard",
+        "fact": "Tara secretly reburied her broken clay bird beneath the neem tree and prepared a private-memory test for Meera.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b042",
+        "ep": 11,
+        "world_time": "2022-11-23",
+        "location": "Meera's former house courtyard",
+        "fact": "Meera identified the buried object as Tara's one-winged clay bird and located it beside the eastern neem root using a shared memory about Tara's first tooth.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b043",
+        "ep": 11,
+        "world_time": "2022-11-23",
+        "location": "Meera's former house courtyard",
+        "fact": "Tara allowed Meera to sleep in the family house with both children after Meera promised to tell Tara before leaving for any inquiry.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b044",
+        "ep": 11,
+        "world_time": "2022-11-23",
+        "location": "Meera's former house courtyard",
+        "fact": "Tara embraced Meera in front of the village and called her Mother.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b049",
+        "ep": 13,
+        "world_time": "2022-11-25",
+        "location": "district forensic laboratory dispatch room",
+        "fact": "The sealed DNA report was dispatched before its results were read to any cast character.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b050",
+        "ep": 13,
+        "world_time": "2022-11-25",
+        "location": "district forensic laboratory public reading room",
+        "fact": "The DNA report confirmed that Meera is Devraj's biological daughter and that the burned woman was Janki's biological sister Kesar.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b053",
+        "ep": 14,
+        "world_time": "2022-11-26",
+        "location": "Dharmapur courtroom",
+        "fact": "The court quashed the murder proceedings against Salim, Naresh, Pintu and Irfan because Meera was alive and the body was Kesar's, and ordered all four released without restraints.",
+        "emphasised": true
+      }
+    ],
+    "allowed_ids": [
+      "b003",
+      "b004",
+      "b007",
+      "b008",
+      "b022",
+      "b023",
+      "b024",
+      "b032",
+      "b045",
+      "b046",
+      "b047",
+      "b048",
+      "b051",
+      "b052",
+      "b054",
+      "b055",
+      "b056"
+    ],
+    "forbidden_ids": [
+      "b001",
+      "b002",
+      "b005",
+      "b006",
+      "b009",
+      "b010",
+      "b011",
+      "b012",
+      "b013",
+      "b014",
+      "b015",
+      "b016",
+      "b017",
+      "b018",
+      "b019",
+      "b020",
+      "b021",
+      "b025",
+      "b026",
+      "b027",
+      "b028",
+      "b029",
+      "b030",
+      "b031",
+      "b033",
+      "b034",
+      "b035",
+      "b036",
+      "b037",
+      "b038",
+      "b039",
+      "b040",
+      "b041",
+      "b042",
+      "b043",
+      "b044",
+      "b049",
+      "b050",
+      "b053"
+    ]
+  },
+  "crossing_candidates": [
+    {
+      "beat_id": "b003",
+      "ep": 1,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station records desk",
+      "what_happened": "Babulal opened the records cupboard and produced Meera's death entry and connected murder-case file."
+    },
+    {
+      "beat_id": "b004",
+      "ep": 1,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station records desk",
+      "what_happened": "The register showed Meera as dead while four men remained jailed for her murder."
+    }
+  ],
+  "bible": {
+    "want": "To audit, trace and quietly correct every document connected to the disputed death entry before an investigator can make Babulal answer for the office’s failures.",
+    "wound": "Babulal avoids formally admitting how unreliable the records under Babulal’s care have become, choosing narrow corrections over a full disclosure. That protects the job for another day but leaves other people acting on defective documents and makes every later correction look like evidence of a cover-up.",
+    "voice": "Clipped, orderly and evidentiary: document title, recorded name, date, then consequence. Babulal repeats labels and status words rather than opinions. When uncomfortable, Babulal changes the subject to filing procedure, seals, indexing and which authority must act next. When frightened, Babulal inventories what the paper says in short declarative sentences and refuses to say what it means.",
+    "engine": "The records office is full of interconnected documents that were copied, amended or never indexed, and correcting any one of them automatically calls several others into question. Babulal keeps trying to contain each defect privately to protect the job; every quiet correction creates new deadlines, suspicious applicants and contradictory records, forcing another correction without the condition ever switching off.",
+    "offscreen_ledger": [
+      {
+        "window": "between the season opening and b003",
+        "what": "Babulal inventories the death-register cupboard, matches loose file numbers against the shelf list and moves the connected entry and case file to the front for inspection."
+      },
+      {
+        "window": "between b004 and b007",
+        "what": "Babulal requests the identification packet attached to the death entry, logs its missing enclosures and prepares a receipt so no one can later claim the office lost them."
+      },
+      {
+        "window": "between b008 and b022",
+        "what": "Babulal searches older admission and ration files for uncontaminated identity impressions, obtains certified copies and sends them onward in sealed covers without opening any returned comparison packet."
+      },
+      {
+        "window": "between b024 and b032",
+        "what": "Babulal audits cremation acknowledgements and hospital-number sequences linked to disputed certificates, listing unmatched numbers without assigning any of them a new identity."
+      },
+      {
+        "window": "between b032 and b045",
+        "what": "Babulal opens neglected permit bundles, compares former vehicle numbers against commercial travel books and places an unclosed register under preservation before its binding can be altered."
+      },
+      {
+        "window": "between b048 and b051",
+        "what": "Babulal retrieves the receiving-duty log, photocopies the notation describing a telephone-supplied identity and secures written confirmation of who made the entry."
+      },
+      {
+        "window": "between b052 and b054",
+        "what": "Babulal prepares the cancellation docket for the superseded certificate and traces which offices received copies so each can be warned that its status has changed."
+      }
+    ],
+    "reframe": "The mainline is about a living woman overturning an accepted death; Babulal’s serial is a workplace thriller about a clerk repairing a poisoned archive while trying not to become the institution’s chosen scapegoat.",
+    "stance": "dupe",
+    "genre": "Bureaucratic thriller",
+    "pitch": "A records clerk tries to erase one fatal error from the books, only to find that every correction exposes another document someone needs to remain true."
+  },
+  "episode": {
+    "title": "The Blank Receipt",
+    "logline": "A frightened records clerk quietly brings one neglected death file to the front—then discovers the cupboard ledger cannot prove who handled it before her.",
+    "script": "SFX: Metal cupboard doors rattling. Paper bundles scraping against wood.\n\nNARRATOR: On the morning of November fourteenth, Babulal began with the death-register cupboard because nobody else wanted to count what was inside it.\n\nBABULAL: Shelf one. Birth registers. Twelve volumes. Shelf two. Death registers. Eight volumes listed. Seven volumes present.\n\nSOHAN: Seven present, eight listed. That means your cupboard has eaten one.\n\nBABULAL: It means one volume is not on its assigned shelf.\n\nSOHAN: Same cupboard. Same clerk. Same embarrassment.\n\nSFX: A thick ledger thumps onto a desk.\n\nBABULAL: Volume eight. Located behind unindexed case bundles. Present, but misplaced.\n\nSOHAN: Should I congratulate you for finding what you lost?\n\nBABULAL: I did not lose it.\n\nSOHAN: You sign the shelf list.\n\nBABULAL: The list records custody. It does not record guilt.\n\nSFX: Footsteps approach. Keys jingle.\n\nOM: Why is this cupboard open before attendance has been signed?\n\nSOHAN: Babulal lost a death register and found it twenty centimeters away.\n\nOM: Wonderful. Citizens can die with confidence. Our clerk may misplace them, but only by twenty centimeters.\n\nSOHAN: Everyone heard that, Babulal.\n\nNARRATOR: The joke humiliated Babulal. The missing volume frightened her more.\n\nBABULAL: Volume number. Recorded name. Connected file. Those are the checks.\n\nOM: The check is whether your cupboard closes before the public arrives.\n\nBABULAL: Five minutes.\n\nOM: Two.\n\nSFX: Pages turning rapidly. A pencil ticking against paper.\n\nBABULAL: Entry sequence complete. Page corners complete. Seal impressions complete.\n\nSOHAN: Then close it.\n\nBABULAL: One entry has a connected criminal file.\n\nSOHAN: Many death entries do.\n\nBABULAL: This one has no return receipt behind the shelf list.\n\nOM: Is the case file missing?\n\nBABULAL: I did not say missing.\n\nOM: Then what did you say?\n\nBABULAL: Receipt absent. File status not yet checked.\n\nSFX: Bundles pulled down. Cloth ties snapping loose.\n\nSOHAN: Two minutes are finished.\n\nBABULAL: Murder files. First stack, eleven. Second stack, nine. Third stack—\n\nSFX: A paper bundle slides free.\n\nBABULAL: Connected file located.\n\nOM: So the file is here, the register is here, and the emergency exists only in your head.\n\nBABULAL: The file is here. The receipt is not.\n\nOM: Put both back.\n\nBABULAL: I will place both at the front until the shelf list is reconciled.\n\nOM: You will create a new problem to solve an old one.\n\nBABULAL: Front position. No removal. No alteration. Easier inspection.\n\nSOHAN: Easier for the inspector to see who neglected it.\n\nSFX: A heavy file and register slide onto the front of a shelf.\n\nBABULAL: Death entry first. Connected case file second. Both present.\n\nOM: Close the cupboard.\n\nSFX: Metal doors slam. A lock clicks.\n\nNARRATOR: Twenty minutes later, Babulal tried to create the receipt that should already have existed.\n\nSFX: Rubber stamp striking paper. Ceiling fan clicking overhead.\n\nBABULAL: Movement form. Two items. From cupboard to inspection desk. No external transfer.\n\nSOHAN: You cannot issue a movement form to yourself.\n\nBABULAL: I can record internal handling.\n\nSOHAN: With whose countersignature?\n\nBABULAL: Head constable.\n\nOM: No.\n\nBABULAL: The form requires an officer.\n\nOM: The form requires a reason. Nobody requested those records.\n\nBABULAL: An absent receipt is a reason.\n\nOM: An absent receipt is an admission. If you write that sentence, you announce that this office cannot account for a murder file.\n\nSOHAN: Put that in red ink. The inspector likes red.\n\nBABULAL: The file is accounted for. Cupboard, front shelf.\n\nOM: Then stop behaving as if it escaped.\n\nBABULAL: A connected death entry was misplaced behind bundles.\n\nOM: Mis-shelved.\n\nBABULAL: Misplaced.\n\nOM: Mis-shelved sounds temporary. Misplaced sounds negligent.\n\nBABULAL: The paper does not change because the word is softer.\n\nSFX: Several clerks stop shuffling paper.\n\nOM: Listen carefully, all of you. Babulal wants to advertise a cupboard error that nobody complained about. If an inquiry begins, Babulal can explain why.\n\nSOHAN: At least the explanation will be properly indexed.\n\nSFX: Clerks laugh.\n\nNARRATOR: Public laughter made Babulal ashamed. Keeping the job required silence. Protecting the record required a signature.\n\nBABULAL: I will leave the movement form unsigned.\n\nOM: You will destroy it.\n\nBABULAL: An unsigned form is not an issued form.\n\nOM: Destroy it.\n\nSFX: Paper folds once, but does not tear.\n\nSFX: A firm knock on the records-desk window. The office falls quiet.\n\nKAVITA: Records clerk. Open the cupboard.\n\nBABULAL: Record category?\n\nKAVITA: Death entry. Recorded name, Meera. Produce the connected murder-case file as well.\n\nSFX: Keys shaking softly against each other.\n\nDEVRAJ: Why is her file being opened?\n\nKAVITA: Let the clerk work.\n\nSFX: The lock turns. Metal doors groan open.\n\nBABULAL: Death register. Front shelf. Connected case file. Front shelf.\n\nSFX: A ledger lands on the desk. A cloth-bound file follows.\n\nKAVITA: You had already moved them forward?\n\nBABULAL: For inspection. No page altered. No item removed.\n\nKAVITA: That was correct.\n\nSFX: Nothing. Brief.\n\nKAVITA: Everyone at this desk should hear me. Preserving these records for inspection was correct.\n\nOM: Yes, ma’am.\n\nSOHAN: Yes.\n\nBABULAL: The movement form has no countersignature.\n\nKAVITA: I will sign it.\n\nSFX: Pen scratching across paper.\n\nKAVITA: Now read the entry. Exactly as recorded.\n\nSFX: One register page turns.\n\nBABULAL: Recorded name, Meera. Status, deceased. Certificate entry completed.\n\nSFX: A woman draws one sharp breath.\n\nKAVITA: Connected case status.\n\nSFX: File cover opens. Metal tag clicks against cardboard.\n\nBABULAL: Murder case connected to the recorded death. Four accused. Custody status, jailed.\n\nDEVRAJ: Four men are still in jail?\n\nBABULAL: That is what the file records.\n\nKAVITA: And the register records Meera as dead.\n\nBABULAL: Yes.\n\nMEERA: Read the name again.\n\nBABULAL: Meera.\n\nSFX: Nothing. Long.\n\nKAVITA: Keep both records on this desk. Nobody removes a page. Nobody adds a note without my signature.\n\nBABULAL: Death register and connected murder-case file. Preserved together.\n\nSFX: Footsteps recede. A door closes.\n\nSFX: Desk drawer opening. Folded paper being flattened.\n\nSOHAN: You kept the unsigned form.\n\nBABULAL: It is now signed.\n\nOM: Then file it and finish this spectacle.\n\nBABULAL: First, the earlier movement ledger.\n\nSFX: A smaller book opens. Pages flick backward.\n\nSOHAN: You found the records. What else do you want?\n\nBABULAL: Date stamp present. File number present. Removal time present.\n\nOM: Return time?\n\nBABULAL: Present.\n\nSOHAN: Then the old receipt exists.\n\nBABULAL: No.\n\nOM: What is missing?\n\nBABULAL: The recipient column is blank."
+  },
+  "beats": [
+    {
+      "beat_id": "x_babulal_b003_001",
+      "ep": 1,
+      "seq": 1,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station records room",
+      "present": [
+        "babulal",
+        "sohan",
+        "om"
+      ],
+      "witnessed_by": [
+        "babulal",
+        "sohan",
+        "om"
+      ],
+      "hidden_from": [
+        "devraj",
+        "irfan",
+        "janki",
+        "kavita",
+        "meera",
+        "mohan",
+        "naresh",
+        "pintu",
+        "raghav",
+        "salim",
+        "shahid",
+        "tara"
+      ],
+      "what_happened": "Babulal found a misplaced death-register volume, located its connected case file and moved both to the front of the cupboard for inspection.",
+      "state_changes": [
+        {
+          "entity": "babulal",
+          "fact": "Babulal identified an undocumented records-handling defect and preserved the connected documents together.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id sp1_inventory",
+      "tier": "branch_canon",
+      "pov": "babulal"
+    },
+    {
+      "beat_id": "x_babulal_b003_002",
+      "ep": 1,
+      "seq": 2,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station records desk",
+      "present": [
+        "babulal",
+        "sohan",
+        "om"
+      ],
+      "witnessed_by": [
+        "babulal",
+        "sohan",
+        "om"
+      ],
+      "hidden_from": [
+        "devraj",
+        "irfan",
+        "janki",
+        "kavita",
+        "meera",
+        "mohan",
+        "naresh",
+        "pintu",
+        "raghav",
+        "salim",
+        "shahid",
+        "tara"
+      ],
+      "what_happened": "Om publicly refused to countersign Babulal's internal movement form and ordered it destroyed, but Babulal retained it unsigned.",
+      "state_changes": [
+        {
+          "entity": "babulal",
+          "fact": "Babulal was publicly humiliated for attempting to document the cupboard defect.",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id sp1_receipt",
+      "tier": "branch_canon",
+      "pov": "babulal"
+    },
+    {
+      "beat_id": "x_babulal_b003_003",
+      "ep": 1,
+      "seq": 3,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station records desk",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "babulal"
+      ],
+      "hidden_from": [
+        "irfan",
+        "janki",
+        "mohan",
+        "naresh",
+        "pintu",
+        "raghav",
+        "salim",
+        "shahid",
+        "tara"
+      ],
+      "what_happened": "Babulal opened the records cupboard and produced Meera's death entry and connected murder-case file.",
+      "state_changes": [
+        {
+          "entity": "babulal",
+          "fact": "Babulal became involved in reviewing the disputed paperwork.",
+          "valence": -1
+        },
+        {
+          "entity": "babulal",
+          "fact": "Kavita publicly acknowledged that Babulal was correct to preserve the records for inspection.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": "b003",
+      "note": "model suggested beat_id sp1_production",
+      "tier": "branch_canon",
+      "pov": "babulal"
+    },
+    {
+      "beat_id": "x_babulal_b003_004",
+      "ep": 1,
+      "seq": 4,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station records desk",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "babulal"
+      ],
+      "hidden_from": [
+        "irfan",
+        "janki",
+        "mohan",
+        "naresh",
+        "pintu",
+        "raghav",
+        "salim",
+        "shahid",
+        "tara"
+      ],
+      "what_happened": "The register showed Meera as dead while four men remained jailed for her murder.",
+      "state_changes": [
+        {
+          "entity": "babulal",
+          "fact": "Babulal read aloud the contradiction between the death entry and the connected custody status.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": "b004",
+      "note": "model suggested beat_id sp1_contradiction",
+      "tier": "branch_canon",
+      "pov": "babulal"
+    },
+    {
+      "beat_id": "x_babulal_b003_005",
+      "ep": 1,
+      "seq": 5,
+      "world_time": "2022-11-14",
+      "location": "Dharmapur police station records desk",
+      "present": [
+        "babulal",
+        "sohan",
+        "om"
+      ],
+      "witnessed_by": [
+        "babulal",
+        "sohan",
+        "om"
+      ],
+      "hidden_from": [
+        "devraj",
+        "irfan",
+        "janki",
+        "kavita",
+        "meera",
+        "mohan",
+        "naresh",
+        "pintu",
+        "raghav",
+        "salim",
+        "shahid",
+        "tara"
+      ],
+      "what_happened": "Babulal found that the earlier movement-ledger entry for the connected file contained times and a file number but no recipient name.",
+      "state_changes": [
+        {
+          "entity": "babulal",
+          "fact": "Babulal discovered that the office could not identify the earlier recipient of the case file from its movement ledger.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id sp1_blank_column",
+      "tier": "branch_canon",
+      "pov": "babulal"
+    }
+  ],
+  "crossings": [
+    {
+      "mainline_beat_id": "b003",
+      "rendered_as": "Kavita requests the records at the desk, and Babulal opens the cupboard and places the death register and connected murder-case file before her.",
+      "objective_facts_kept": "Babulal opened the records cupboard and produced Meera's death entry and connected murder-case file."
+    },
+    {
+      "mainline_beat_id": "b004",
+      "rendered_as": "Kavita orders Babulal to read both records exactly, exposing their conflicting statuses aloud before everyone present.",
+      "objective_facts_kept": "The register showed Meera as dead while four men remained jailed for her murder."
+    }
+  ],
+  "cites": [
+    "b003",
+    "b004"
+  ],
+  "flags": []
+}

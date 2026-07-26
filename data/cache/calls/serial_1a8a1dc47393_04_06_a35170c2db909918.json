@@ -1,0 +1,2318 @@
+{
+  "episodes": [
+    {
+      "ep": 4,
+      "title": "The Date He Should Not Know",
+      "lines": [
+        {
+          "speaker": "RAGHAV",
+          "text": "That photograph proves only one thing. Meera left Dharmapur with me because she wanted to abandon her marriage and her children.",
+          "sfx_cue": "committee gavel strike, villagers murmuring"
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Let me ask him one question.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COMMITTEE HEAD",
+          "text": "You will speak when the committee permits it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "This is a police verification, not a punishment meeting. She may question the man in the photograph.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "Certainly. A truthful man does not fear questions.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Where was this photograph taken?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "Kota bus stand.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Which platform?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "There are no platforms at that counter. Only benches.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "So you recognise the place.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "I have worked in transport for twelve years. I recognise hundreds of counters.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Ask why my daughter was standing beside him.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Your daughter? Yesterday, I was a stranger bringing scandal to your courtyard.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN CROWD",
+          "text": "He called her an impostor inside the police station.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SECOND VOICE IN CROWD",
+          "text": "Now he needs her to be his daughter, because the photograph is public.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "The committee did not summon the street to judge me.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "No. The evidence did.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COMMITTEE HEAD",
+          "text": "Raghav, explain the photograph from the beginning.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "Meera approached me privately. She said she was unhappy at home. She asked for transport to Kota.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "That is a lie.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "You asked me to speak. Please allow me the courtesy of finishing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Courtesy? You watched while I was taken away.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Meera, taken by whom?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "I don't... I did not know his name then. Raghav spoke to him near the tea counter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "She means Shahid. He was arranging labour transport that week.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "You know which man she means without hearing a description.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "Because she has made this accusation before. Confused stories travel quickly in a village.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "I have not spoken Shahid's name in this village.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "Then perhaps your story reached Dharmapur before you did.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COMMITTEE HEAD",
+          "text": "Answer plainly. Did Meera travel with you willingly?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "Yes. She sat beside me for three hours. She drank tea. She could have called for help.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "You kept my phone.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "You said your battery had failed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "You removed the battery.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "Modern phones do not have removable batteries. Listen to how her memory changes.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "It was my old blue phone. The back cover was tied with tape.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "She had a blue phone like that.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Many people did.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "Hers had white tape across the back. I put it there.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "A daughter repeating a detail does not prove force.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "Why would Ma leave without us?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "Mohan, don't call her that here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "You cannot stop me thinking it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COMMITTEE HEAD",
+          "text": "Children should be taken inside.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "They are the children Raghav says she abandoned. Their presence is relevant.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "It is also cruel. Tara's school is close to the transport yard, isn't it? Public gossip can be difficult for a girl her age.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Do not bring my daughter's school into your mouth.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "I was expressing concern.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Powerful men often call a warning concern. Continue with your account.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "Meera wanted work in Kota. She said her family watched every rupee. She said she wanted a life where nobody counted her steps.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "I wanted to buy Tara exam guides and Mohan new sandals. That is what I told you.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "You told me many things.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Then tell them what happened after the bus stand.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "You left with Shahid.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "You put me in his vehicle.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "I introduced two adults. I did not put anyone anywhere.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Was money discussed?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "Transport costs money.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "That was not my question.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "No illegal payment was discussed in my presence.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "He counted notes inside the vehicle.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "She was outside the vehicle. Now she was inside. Another change.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "I was beside the open door. I saw bundles under the front seat.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "Bundles can contain invoices. Transport businesses still use paper.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Meera, if this happened, why did you not return?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Because I was not allowed to return.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "For eighteen months? Not one message? Not one neighbour?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Baba, I tried—",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Do not use that word to make an answer disappear.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "She came back. That is an answer.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN CROWD",
+          "text": "The boy has more sense than this committee.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COMMITTEE HEAD",
+          "text": "Silence, or I will clear the courtyard.",
+          "sfx_cue": "wooden staff striking floor"
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Raghav, did you receive money for arranging Meera's travel?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "A small brokerage fee. Legal and ordinary.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "How much?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "Two thousand rupees, perhaps. It was a long time ago.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "That is not the payment he is afraid of.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "There. An accusation without a number, a receipt or a witness.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Did Shahid pay you?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "No.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Did anyone connected to Shahid transfer money to you, your business or your relatives?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "You may inspect every account for which you have legal authority.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Ask him when it happened.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "When did what happen?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "The payment. He knows the date.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "This is becoming theatrical.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "COMMITTEE HEAD",
+          "text": "Then end the theatre. Give the committee the date of your two-thousand-rupee brokerage.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "I cannot remember an ordinary fee after eighteen months.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "But you remember how long she sat, where she stood and what she said about her family.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "Because those details became important later.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "The larger payment was important immediately.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "RAGHAV",
+          "text": "There was no larger payment. The five lakh rupees were not even paid to me. They were paid on the third of May, twenty twenty-one.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Meera has not told police the amount. She only reported that money changed hands.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Yet you have just named the exact five-lakh payment date before Meera told police either the amount or the date.",
+          "sfx_cue": ""
+        }
+      ]
+    },
+    {
+      "ep": 5,
+      "title": "The Name in the Ledger",
+      "lines": [
+        {
+          "speaker": "MEERA",
+          "text": "This door. Break this door, and I will show you where they kept me.",
+          "sfx_cue": "metal latch rattling, fists striking wooden door"
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Nobody breaks my property. Show me a warrant or leave my courtyard.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Open the room. Refuse again, and I will seal the entire floor until a magistrate decides who enters it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "You police people arrive after eighteen months and speak as though dust committed the crime.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "I slept behind that door. I counted the cracks above the window every night.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "I have never rented a room to any Meera.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Then we have travelled to Kota for another false memory.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "She knew the staircase without anyone showing her.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "That does not mean she lived here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "There are seventeen steps. The sixth one is broken at the edge. The room has a green wall and no fan regulator.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Every room upstairs has a green wall.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "And the broken sixth step?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "People notice stairs while climbing them.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "There is a water stain shaped like a hook beside the window.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Enough. The room was rented to another woman.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Sarla.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "That is what Shahid called me in front of strangers.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "I do not know any Shahid.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "You answered before I asked whether you knew him.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Because she has repeated the name three times in my courtyard.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Madam, open the room. Either her details are correct, or we end this journey here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "You are waiting for me to fail.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "I am waiting for evidence that does not change whenever a new person arrives.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "If she is wrong about one stain, will you take her away?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "No. One room does not decide her identity.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Good. Then decide it somewhere else.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Constable, call the local station and request a property seal.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Wait. There is no need to spoil everyone's day over one empty room.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "It was not empty when you collected rent.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "I collected rent from Sarla's guardian.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Guardian? She was an adult tenant.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "That was the word he used.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Who was he?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "A transport man. I do not remember every customer.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "You remember enough to change the word landlord into guardian.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "I remember rent paid on time. That is all.",
+          "sfx_cue": "keys jangling, padlock opening"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "The lock opened. Meera stepped inside before anyone invited her.",
+          "sfx_cue": "door hinges scraping"
+        },
+        {
+          "speaker": "MEERA",
+          "text": "The cot was against this wall.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "It is against the other wall now.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Move it. Please. There should be writing behind the headboard.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "There is no writing. I repaint between tenants.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "You did not repaint behind the cot.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Constable, move it carefully.",
+          "sfx_cue": "wooden cot dragging across cement"
+        },
+        {
+          "speaker": "TARA",
+          "text": "There are lines on the wall.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Thirty-four vertical marks. Some crossed in groups of seven.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "I marked the nights when he took the outside bolt off.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Anyone could make marks.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "The last group stops halfway because Shahid came early.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "She is inventing meaning for scratches.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Then tell me why this bedroom door has an outside bolt.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "For luggage security.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE FROM COURTYARD",
+          "text": "Luggage does not sleep in the room and cry at night.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Who said that? Come upstairs and give your name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SECOND VOICE FROM COURTYARD",
+          "text": "We all heard someone. None of us wants our name in your ledger.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "They heard me.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "They heard a person. I will take individual statements before deciding more.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Look above the window. The hook-shaped stain.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "It is there.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Stains survive tenants. It could be older than her claim.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "Why do you make every correct answer smaller?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Because you are a child, and somebody must protect you from wanting too much.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "I only want Ma.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "You want this woman to be Ma.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "She knows things Ma knew.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "Things can be told.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Tara is right to be afraid.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "Do not tell me what I feel.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Then I won't.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Meera, what else should be in this room? Something removable, not a wall or stain.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "A brass button under the window ledge. I pushed it into a crack.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Now we will search for buttons in an old building?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Yes. Evidence is often smaller than the person hiding it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "Why a brass button?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "It came off Mohan's brown sweater. I found it in my blouse pocket after they brought me here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "The sweater with the bear?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "No. The one you hated. Brown wool, wooden train stitched near the collar.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "It scratched my neck.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "You cried whenever I pulled it over your ears.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "What did you sing?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "Mohan, not here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "What did you sing when I would not put my head through?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Little train, little train, wait beside the door. Mohan has one stubborn head, but Ma has counted four.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "No. You missed the next part.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "I don't... I thought you had forgotten it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "Sing it properly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "One for anger, one for tears, one that asks for sweets. The fourth comes out when morning starts, and kisses both my cheeks.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "Ma.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "Mohan—",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "She is my Ma. I am saying it where everybody can hear me. She is my Ma.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE FROM COURTYARD",
+          "text": "The boy has recognised his mother.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "A lullaby proves memory, not identity.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "Then my memory is better than yours.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "I found the crack beneath the ledge.",
+          "sfx_cue": "metal scraping against plaster"
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "There is no button. But the plaster has been disturbed recently.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Repairs happen. You cannot arrest a wall.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Where is the rental ledger?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "You have seen the room. Leave my records alone.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "The room was rented under another name. The ledger is now part of the verification.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Old books are downstairs. Some pages may be damaged.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "If one page is missing, the entire ledger goes into evidence.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "Downstairs, the landlord opened a steel trunk and lifted out a red cloth book.",
+          "sfx_cue": "steel trunk lid opening, paper rustling"
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Here. Sarla. Room twelve. Rent paid in cash.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "The tenant column contains a different name, but this signature does not say Sarla.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "That is my name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "No. No, that date cannot be right.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Read it aloud.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "LANDLORD",
+          "text": "Twenty-first of June, twenty twenty-one.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "By then, our family believed Meera had already been cremated.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "And beside that date, the rental ledger contains Meera's signature.",
+          "sfx_cue": ""
+        }
+      ]
+    },
+    {
+      "ep": 6,
+      "title": "Alive Before the Village",
+      "lines": [
+        {
+          "speaker": "KAVITA",
+          "text": "Nobody touches the evidence table. The first person who crosses this rope leaves the verification.",
+          "sfx_cue": "crowd pressing against rope, police whistle"
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Then remove Mohan. He is already beside her chair.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "I will sit with my Ma.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "He may sit there. He may not touch the documents.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "I want my death certificate placed in front of me.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "It is an official record, not an object for public handling.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Place it inside the transparent cover, Babulal.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "If the cover tears, I will record who ordered this.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Record my designation correctly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN CROWD",
+          "text": "Yesterday she was locked outside her house. Today her death certificate gets a police chair.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "SECOND VOICE IN CROWD",
+          "text": "Paper has always received more respect than women here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "This is supposed to be evidence, not entertainment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Correct. That is why you will not interrupt each item.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "One hour earlier, a sealed fingerprint envelope had fallen through the station slot into an empty records room. Nobody saw it arrive.",
+          "sfx_cue": "sealed envelope sliding across floor"
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "Now Kavita placed that envelope beside the certificate recording Meera as dead.",
+          "sfx_cue": "paper envelope placed on wooden table"
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "The open verification has five parts. Documents. Fingerprints. Family testimony. Physical identifiers. Contradictory records.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "And no final declaration until every objection is entered.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Agreed. Read the first document.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "School admission register. Student name, Meera. Father's name, Devraj. Original left-thumb impression attached.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "That register is old. Ink spreads.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Your objection is noted before the result has even been opened.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "He is frightened.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "I am frightened of another mistake being made in public.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "The first mistake was made in public too. You called a burned body your daughter, then called your living daughter a stranger.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN CROWD",
+          "text": "She has spoken the truth plainly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "You saw no face in that hospital either.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "I was not asked to identify the body.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Enough. Babulal, the second document.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "Ration-card amendment form. Signed by Meera. Right-thumb impression taken two years before her disappearance.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "The forensic unit compared both archived impressions with the fresh prints taken at the station.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Was the unit told what result the police expected?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "The samples were coded. The examiner received no names.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "What does the envelope say?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "You may come closer, Tara. Do not cross the rope.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "I can hear from here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "The fresh left-thumb impression matches the school register impression at fourteen corresponding ridge characteristics.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN CROWD",
+          "text": "Fourteen points. Say what that means.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "It means the old and new left-thumb impressions were made by the same person.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "Ma's thumb remembers her, even if Nana does not.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "A child should not humiliate his grandfather before a crowd.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "You humiliated Ma before a bigger crowd.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Mohan, sit down.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "I am sitting.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Then sit quietly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "All right, Ma.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "The right-thumb impression also matches the ration-card form.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "Both archived documents existed before the disappearance. Their dates and storage entries are verified.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "What about the Kota ledger? It carries her signature after the cremation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "That is the contradictory-record section. We will reach it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Conveniently last.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Conveniently in the order I announced before you objected.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Physical identifiers. Meera, show both hands.",
+          "sfx_cue": "camera shutter clicks"
+        },
+        {
+          "speaker": "MEERA",
+          "text": "The tattoo is on my left hand. It has always been on my left hand.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "The hospital photograph shows the burned body's tattoo beside the right wrist.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "The photograph number and hospital intake number are legible. There is no reversal in the image.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "The black thread looked identical.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "A black wrist thread is not unique. A tattoo on the opposite hand is a material discrepancy.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "You did not touch the body, Baba. You would not even touch my hand at the station.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "The body was burned. I was told not to disturb it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Who told you?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "A hospital worker. I don't... there were several people speaking at once.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Name or description?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "No.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Then your statement remains that an unidentified worker discouraged a physical check.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "I was grieving.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "And I was alive.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Family testimony. Tara, what did Meera know inside the house?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "She knew where my first school ribbon was hidden.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Someone could have told her.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "I did not tell anyone the tin was behind the loose brick.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Did she find it without directions?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "Yes.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Do you recognise her as your mother?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "I recognise things she knows. I am not ready to say more.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "She does not have to say more today.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Mohan?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "She sang the sweater song. Only Ma knew the fourth head kisses both her cheeks.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Did she prompt you?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "No. I tested her, and she finished it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN CROWD",
+          "text": "He called her Ma in Kota. We all heard about it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MOHAN",
+          "text": "I will call her Ma here too. Ma. Ma. Ma.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "The repetition is unnecessary, but the answer is recorded.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Let him repeat it. They repeated that I was dead for eighteen months.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Now the Kota rental ledger.",
+          "sfx_cue": "ledger pages turning"
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "The tenant name is Sarla. The signature appears to say Meera. The date is the twenty-first of June, twenty twenty-one.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Meera provided six fresh signatures under observation this morning.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "A person can alter a signature.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Yes. That is why the examiner also compared letter formation, pressure and stroke order with older records.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "TARA",
+          "text": "And?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "The Kota signature appears copied. Its strokes stop and restart where Meera's natural signature remains continuous.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Someone signed my name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "That is the present forensic opinion. The ledger does not disprove your identity.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Opinion is not certainty.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Neither was your identification of the body, yet it was accepted as certainty.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "Madam, the register cannot simply be rewritten during a village meeting.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "I am not ordering a rewrite. I am ordering the death certificate marked disputed pending formal correction and further inquiry.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "That requires recorded grounds.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Record them. Two fingerprint matches. Correct private family knowledge. A physical tattoo discrepancy. A copied rental signature. Consistent identification of the Kota room.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "You are declaring her genuine because the crowd wants a miracle.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "No. I am announcing that the evidence strongly supports Meera being alive and genuine.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE IN CROWD",
+          "text": "Say it again. Let the people at the back hear.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "The woman standing here is strongly supported by documentary, fingerprint and family evidence as Meera.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Babulal, bring me the paper that buried my name.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "It remains government property.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Then let the government correct itself where everyone can see.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "I have a red disputed-record seal. Once stamped, the certificate cannot be used as an uncontested proof of death.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Apply it.",
+          "sfx_cue": "ink pad opening"
+        },
+        {
+          "speaker": "DEVRAJ",
+          "text": "Wait. If you stamp that, the original murder case—",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "Will be reviewed on evidence. Not protected from embarrassment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "The seal is inked.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "MEERA",
+          "text": "Do it.",
+          "sfx_cue": "heavy rubber stamp striking paper"
+        },
+        {
+          "speaker": "KAVITA",
+          "text": "The police officially acknowledge that the original identification of the burned body may have been wrong.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "BABULAL",
+          "text": "Meera's death certificate is now sealed and formally marked disputed.",
+          "sfx_cue": ""
+        }
+      ]
+    }
+  ],
+  "beat_sheet": [
+    {
+      "beat_id": "b013",
+      "ep": 4,
+      "seq": 1,
+      "world_time": "2022-11-16",
+      "location": "Dharmapur village committee courtyard",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Raghav publicly asserted that Meera willingly travelled with him to Kota because she wanted to leave her family.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "Publicly gives an explanation for the bus stand photograph.",
+          "valence": -1
+        },
+        {
+          "entity": "meera",
+          "fact": "Is publicly accused of abandoning her children.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Raghav's account is an assertion and is not established as true."
+    },
+    {
+      "beat_id": "b014",
+      "ep": 4,
+      "seq": 2,
+      "world_time": "2022-11-16",
+      "location": "Dharmapur village committee courtyard",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Meera asserted that Raghav took her phone battery, placed her with Shahid and witnessed money being counted.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "Is publicly connected by Meera to Shahid and an alleged payment.",
+          "valence": -3
+        },
+        {
+          "entity": "shahid",
+          "fact": "Is named in Meera's allegation about her movement from the bus stand.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Meera's claims remain alleged."
+    },
+    {
+      "beat_id": "b015",
+      "ep": 4,
+      "seq": 3,
+      "world_time": "2022-11-16",
+      "location": "Dharmapur village committee courtyard",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Tara confirmed that Meera previously owned the taped blue phone described during the confrontation.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Receives limited public corroboration from Tara.",
+          "valence": 2
+        },
+        {
+          "entity": "tara",
+          "fact": "Publicly corroborates one detail without recognising Meera as her mother.",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b016",
+      "ep": 4,
+      "seq": 4,
+      "world_time": "2022-11-16",
+      "location": "Dharmapur village committee courtyard",
+      "present": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "raghav",
+        "devraj",
+        "kavita",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Raghav named a five-lakh-rupee payment date before Meera had disclosed the amount or date to police.",
+      "state_changes": [
+        {
+          "entity": "raghav",
+          "fact": "Reveals knowledge of the alleged payment that his prior account did not explain.",
+          "valence": -5
+        },
+        {
+          "entity": "kavita",
+          "fact": "Obtains a material contradiction in Raghav's public statement.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b017",
+      "ep": 5,
+      "seq": 1,
+      "world_time": "2022-11-17",
+      "location": "Kota rental building courtyard and room twelve",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Meera identified room twelve as the place where she said she had been confined, while the landlord stated that it had been rented to a woman named Sarla.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Locates the specific Kota room connected to her allegation.",
+          "valence": 2
+        },
+        {
+          "entity": "Kota rental record",
+          "fact": "Names the tenant as Sarla rather than Meera.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Meera's confinement account remains alleged."
+    },
+    {
+      "beat_id": "b018",
+      "ep": 5,
+      "seq": 2,
+      "world_time": "2022-11-17",
+      "location": "Kota rental building room twelve",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Inside room twelve, Meera correctly predicted wall marks, a hook-shaped water stain and an outside door bolt.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Demonstrates detailed prior knowledge of room twelve.",
+          "valence": 4
+        },
+        {
+          "entity": "kavita",
+          "fact": "Gains physical corroboration for part of Meera's Kota account.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b019",
+      "ep": 5,
+      "seq": 3,
+      "world_time": "2022-11-17",
+      "location": "Kota rental building room twelve",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "Meera completed Mohan's private childhood lullaby, and Mohan publicly called her Ma.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Is publicly recognised as mother by Mohan for the first time.",
+          "valence": 5
+        },
+        {
+          "entity": "mohan",
+          "fact": "Commits publicly to recognising Meera as his mother.",
+          "valence": 5
+        },
+        {
+          "entity": "devraj",
+          "fact": "Faces public contradiction from Mohan while continuing to resist Meera's identity.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b020",
+      "ep": 5,
+      "seq": 4,
+      "world_time": "2022-11-17",
+      "location": "Kota rental building ground floor",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki",
+        "babulal"
+      ],
+      "what_happened": "The rental ledger contained Meera's name as a signature beside 2021-06-21, when her family believed she had already been cremated.",
+      "state_changes": [
+        {
+          "entity": "Kota rental ledger",
+          "fact": "Contains a disputed signature in Meera's name after her presumed cremation.",
+          "valence": -4
+        },
+        {
+          "entity": "kavita",
+          "fact": "Takes responsibility for resolving a new documentary contradiction.",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b021",
+      "ep": 6,
+      "seq": 1,
+      "world_time": "2022-11-18",
+      "location": "Dharmapur police station empty records room",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [],
+      "what_happened": "A sealed forensic fingerprint result arrived in the empty records room before the public verification.",
+      "state_changes": [
+        {
+          "entity": "fingerprint report",
+          "fact": "Arrives sealed and available for the identity verification.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "No cast character witnessed the delivery because the records room was empty; Kavita later retrieved and opened the sealed result publicly."
+    },
+    {
+      "beat_id": "b022",
+      "ep": 6,
+      "seq": 2,
+      "world_time": "2022-11-18",
+      "location": "Dharmapur police station public verification area",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "Kavita publicly established that Meera's fresh fingerprints matched two archived documents created before her disappearance.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Receives strong forensic support for her identity.",
+          "valence": 5
+        },
+        {
+          "entity": "devraj",
+          "fact": "Loses a major basis for publicly rejecting Meera.",
+          "valence": -4
+        },
+        {
+          "entity": "fingerprint report",
+          "fact": "Links the returned woman to Meera's archived records.",
+          "valence": 5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b023",
+      "ep": 6,
+      "seq": 3,
+      "world_time": "2022-11-18",
+      "location": "Dharmapur police station public verification area",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "The public verification combined the tattoo-hand discrepancy, family testimony, room knowledge and an examiner's opinion that the Kota signature had been copied.",
+      "state_changes": [
+        {
+          "entity": "Kota rental ledger",
+          "fact": "No longer operates as reliable evidence against Meera's identity.",
+          "valence": 2
+        },
+        {
+          "entity": "tara",
+          "fact": "Confirms Meera's private knowledge but withholds full maternal recognition.",
+          "valence": 1
+        },
+        {
+          "entity": "mohan",
+          "fact": "Again recognises Meera as his mother in public.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b024",
+      "ep": 6,
+      "seq": 4,
+      "world_time": "2022-11-18",
+      "location": "Dharmapur police station public verification area",
+      "present": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan",
+        "babulal"
+      ],
+      "witnessed_by": [
+        "meera",
+        "kavita",
+        "devraj",
+        "tara",
+        "mohan",
+        "babulal"
+      ],
+      "hidden_from": [
+        "raghav",
+        "salim",
+        "naresh",
+        "pintu",
+        "irfan",
+        "shahid",
+        "janki"
+      ],
+      "what_happened": "Kavita announced that the evidence strongly supported Meera being alive and genuine, and Babulal sealed her death certificate as disputed while police acknowledged the original identification might have been wrong.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Gains formal police support for her claim to be alive and genuine.",
+          "valence": 5
+        },
+        {
+          "entity": "Meera death certificate",
+          "fact": "Is formally marked disputed.",
+          "valence": 5
+        },
+        {
+          "entity": "Dharmapur police",
+          "fact": "Publicly acknowledges that the original body identification may have been wrong.",
+          "valence": 3
+        },
+        {
+          "entity": "devraj",
+          "fact": "His body identification is formally placed in doubt.",
+          "valence": -4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    }
+  ],
+  "promise_ledger": [
+    {
+      "id": "p01",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "How can Meera restore her identity when the register records her as dead?",
+      "must_pay_by_ep": 6,
+      "paid_ep": 6,
+      "how_paid": "Fingerprint, document and family evidence publicly supported Meera's identity, and her death certificate was formally sealed as disputed.",
+      "status": "paid"
+    },
+    {
+      "id": "p02",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "Will either of Meera's children publicly recognize her as their mother?",
+      "must_pay_by_ep": 5,
+      "paid_ep": 5,
+      "how_paid": "Meera completed Mohan's private childhood lullaby, and he publicly called her Ma in the Kota rental building.",
+      "status": "paid"
+    },
+    {
+      "id": "p03",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "Why are four men imprisoned for murdering a woman who is alive?",
+      "must_pay_by_ep": 7,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p04",
+      "raised_ep": 2,
+      "listener_is_waiting_for": "Whose body was cremated after being wrongly identified as Meera?",
+      "must_pay_by_ep": 13,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p05",
+      "raised_ep": 3,
+      "listener_is_waiting_for": "What explanation will Raghav give for being photographed beside Meera?",
+      "must_pay_by_ep": 4,
+      "paid_ep": 4,
+      "how_paid": "Raghav publicly claimed Meera willingly travelled with him to Kota because she wanted to abandon her family.",
+      "status": "paid"
+    },
+    {
+      "id": "p06",
+      "raised_ep": 4,
+      "listener_is_waiting_for": "How did Raghav know the exact five-lakh-rupee payment date before Meera disclosed the amount?",
+      "must_pay_by_ep": 10,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p07",
+      "raised_ep": 5,
+      "listener_is_waiting_for": "Will the signature in the Kota rental ledger disprove Meera's identity?",
+      "must_pay_by_ep": 6,
+      "paid_ep": 6,
+      "how_paid": "The examiner found that the ledger signature appeared copied and did not match the continuous stroke pattern in Meera's genuine signatures.",
+      "status": "paid"
+    }
+  ],
+  "calendar": {
+    "season_start": "2022-11-14",
+    "dates_fixed": [
+      {
+        "ep": 1,
+        "when": "2022-11-14",
+        "what": "Meera enters Dharmapur police station and discovers that she remains recorded as dead."
+      },
+      {
+        "ep": 2,
+        "when": "2022-11-14",
+        "what": "Kavita conducts the initial private identity test and finds the tattoo-hand discrepancy."
+      },
+      {
+        "ep": 3,
+        "when": "2022-11-15",
+        "what": "Meera visits her former house under police guard and the bus stand photograph arrives."
+      },
+      {
+        "ep": 4,
+        "when": "2022-11-16",
+        "what": "Raghav gives his account before the village committee and reveals knowledge of a payment dated 2021-05-03."
+      },
+      {
+        "ep": 5,
+        "when": "2022-11-17",
+        "what": "Meera identifies room twelve in Kota, Mohan publicly calls her Ma and the rental ledger reveals a disputed signature dated 2021-06-21."
+      },
+      {
+        "ep": 6,
+        "when": "2022-11-18",
+        "what": "Kavita conducts the open identity verification and Meera's death certificate is marked disputed."
+      }
+    ],
+    "periods_fixed": [
+      {
+        "between": [
+          1,
+          2
+        ],
+        "elapsed": "No time elapsed; both episodes occur on 2022-11-14."
+      },
+      {
+        "between": [
+          2,
+          3
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          3,
+          4
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          4,
+          5
+        ],
+        "elapsed": "One day."
+      },
+      {
+        "between": [
+          5,
+          6
+        ],
+        "elapsed": "One day."
+      }
+    ],
+    "unresolved": []
+  },
+  "flags": []
+}
