@@ -166,5 +166,47 @@
       "voice_name": "Ritu",
       "score": 0.0
     }
+  },
+  "evt_gandhinagar_tribunal:TYRE SHOP OWNER": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Simran",
+      "score": 0.0
+    }
+  },
+  "evt_gandhinagar_tribunal:CARPENTER": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Shruti",
+      "score": 0.0
+    }
+  },
+  "evt_gandhinagar_tribunal:SIGN PAINTER": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Rahul",
+      "score": 0.0
+    }
+  },
+  "evt_gandhinagar_tribunal:vaishali": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Priya",
+      "score": 3.0
+    }
+  },
+  "evt_gandhinagar_tribunal:sarika": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Pooja",
+      "score": 3.0
+    }
+  },
+  "evt_gandhinagar_tribunal:STRANGER": {
+    "sarvam": {
+      "source": "auto",
+      "voice_name": "Manan",
+      "score": 0.0
+    }
   }
 }

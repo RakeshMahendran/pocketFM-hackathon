@@ -1,0 +1,13 @@
+{
+  "story_id": "evt_gandhinagar_tribunal",
+  "char_id": "sarika",
+  "state": "done",
+  "step": "done",
+  "label": "Done",
+  "anchor": null,
+  "started_at": "2026-07-26T05:43:18.989588+00:00",
+  "error": null,
+  "promotion_skipped": false,
+  "updated_at": "2026-07-26T05:47:31.572772+00:00",
+  "finished_at": "2026-07-26T05:47:31.565767+00:00"
+}

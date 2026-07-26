@@ -1,0 +1,35 @@
+{
+  "story_id": "evt_gandhinagar_tribunal",
+  "char_id": "sarika",
+  "anchor_beat_id": "b011",
+  "constrained": true,
+  "status": "clean",
+  "violations": [],
+  "n_errors": 0,
+  "deterministic_errors": [],
+  "inconclusive": [],
+  "attempts_that_failed": {
+    "refuter_omniscience": [
+      "Checked every narrator line for facts about events outside Sarika’s presence or another character’s hidden motive; all narrated actions occur with her present or describe her own perception and experience.",
+      "Traced particulars including twelve words per minute, five questions, three thousand rupees, ten rupees, two photographs, three copies and eight family members; each is introduced through Sarika’s witnessed actions, dialogue or home life rather than a prohibited beat.",
+      "Tested Sarika’s procedural caution and insistence on copies for behavior requiring foreknowledge of Mervyn’s fraud; it is consistently motivated by her employment insecurity, pride in accurate clerical work and stated desire to document the appointment.",
+      "Examined “the notebook page that proved what she had heard” and “the words felt heavier than the desk” for narrator omniscience; both concern Sarika’s own evidence and subjective experience, not wider-plot facts."
+    ],
+    "refuter_specificity": [
+      "Checked every number and sum—twelve/fifteen words per minute, thirty/twenty-eight/two minutes, five questions, three thousand rupees, ten rupees, two/three copies, eight people, and the first two matters—and found each was either Sarika’s own experience, established during scenes she attended, or already granted by b011/b012.",
+      "Tested “the room above the tyre shop” against prohibited b008-b009; Sarika directly visits and observes the location, while the episode does not assert how Mervyn financed, rented, or installed it.",
+      "Checked the narrator’s claims about the afternoon, photocopying, family handling the copies, and Sarika’s first full day; all remain within Sarika’s witnessed experience and reveal no event occurring elsewhere or another character’s hidden motive.",
+      "Looked for behavior only rational if Sarika knew the forum was illegitimate or knew of Mervyn’s prior scheme; her insistence on procedure, exact copying, and certification is established as her ordinary conscientiousness before any prohibited information arises."
+    ],
+    "refuter_inference": [
+      "Checked “the room above the tyre shop” against b008-b009; Sarika physically travels there for her interview, so the location is directly available to her without knowing how Mervyn rented or established it.",
+      "Checked the precise figures—twelve and fifteen words per minute, thirty/twenty-eight minutes, three thousand rupees, ten rupees, two photographs, five questions, and eight family members—and each is established through Sarika’s own actions, dialogue, or immediate experience.",
+      "Checked Sarika’s use of “registry clerk,” certification language, duties, payment date, and Mervyn’s full name; all are explicitly supplied during the hiring exchange in b011.",
+      "Checked the narrator’s claims about the photocopies and the family handling them; these concern events Sarika attends and her own reaction, not unseen events or other characters’ hidden motives.",
+      "Checked the first two numbered matters and the stranger’s heavy file; the episode only narrates what Sarika personally records and witnesses in b012, without identifying the stranger or importing facts about Mervyn’s earlier referrals.",
+      "Looked for behavior that would require Sarika to know the forum was unofficial—such as avoiding certification, questioning Mervyn’s appointment, or treating the room as fraudulent—but her procedural caution is consistently grounded in her stated clerical standards."
+    ]
+  },
+  "members_run": 6,
+  "members_expected": 6
+}

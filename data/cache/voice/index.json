@@ -5469,5 +5469,1529 @@
       "temperature": 0.9600000000000001,
       "pace": 0.95
     }
+  },
+  "f62d9848af38615d205c": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_narrator_cb1beb853c3f6957.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l001",
+    "voice_id": "sumit",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.88,
+      "pace": 0.95
+    }
+  },
+  "9a8432738af9606b8ec0": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_FIRST MAN_7ddcd5d187e9ea17.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l002",
+    "voice_id": "shreya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 1.0,
+      "pace": 1.1
+    }
+  },
+  "576984db9002f5a20b95": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_SECOND MAN_95ea5ea01d57c866.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l003",
+    "voice_id": "ritu",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.998,
+      "pace": 1.0
+    }
+  },
+  "dede775c2efdceb4a9d9": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_8e846c1269d26342.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l004",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.47000000000000003,
+      "pace": 1.05
+    }
+  },
+  "664f7f6f73a5a70b8cce": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_irfan_9361426a6454a299.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l005",
+    "voice_id": "ratan",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.83,
+      "pace": 1.0
+    }
+  },
+  "fd5c944341807075b960": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_83da8ff4f92f156d.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l006",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.91,
+      "pace": 1.05
+    }
+  },
+  "a4990d4116d00695cb6c": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_FIRST MAN_12a345d2766f2dc3.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l007",
+    "voice_id": "shreya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 1.0,
+      "pace": 1.0
+    }
+  },
+  "364d2de047e218653137": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_SECOND MAN_f31cb61eca740bba.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l008",
+    "voice_id": "ritu",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.54,
+      "pace": 1.0
+    }
+  },
+  "2c7cdfb018051115a958": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_570a9d1fa424922b.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l009",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.938,
+      "pace": 1.05
+    }
+  },
+  "811099b180b7f1309f24": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_FIRST MAN_c95b19968893a0ce.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l010",
+    "voice_id": "shreya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.532,
+      "pace": 1.0
+    }
+  },
+  "c7a46dbc326b1e24e66a": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_irfan_89acaf87fea7ef4a.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l011",
+    "voice_id": "ratan",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.52,
+      "pace": 1.1
+    }
+  },
+  "db18c316fc276f193696": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_9907de71bd4dbaa1.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l012",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.498,
+      "pace": 1.05
+    }
+  },
+  "60545dfa7ed95c0cabb0": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_FIRST MAN_1fc9257d08e7c5c5.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l013",
+    "voice_id": "shreya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.532,
+      "pace": 1.0
+    }
+  },
+  "9bed3fb6b5a4708e74bf": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_5f6a8388361fcb70.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l014",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.88,
+      "pace": 0.95
+    }
+  },
+  "c1ac0bb82aa27918fee8": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_narrator_2df9cc2b51493970.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l015",
+    "voice_id": "sumit",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.538,
+      "pace": 0.95
+    }
+  },
+  "6ad7830c412b993fac32": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_narrator_4fa8a4bf981aa954.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l016",
+    "voice_id": "sumit",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.39799999999999996,
+      "pace": 1.0
+    }
+  },
+  "56ad8d98b7cba83fe2bf": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_3ae63ab337d6c3b8.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l017",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.45,
+      "pace": 1.0
+    }
+  },
+  "86d6070208f700cf147d": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_f2f6fa16ed80b896.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l018",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.458,
+      "pace": 1.0
+    }
+  },
+  "0bc40617b197853205e3": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_narrator_c415e79529f77506.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l001",
+    "voice_id": "sumit",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8480000000000001,
+      "pace": 0.95
+    }
+  },
+  "2707dea4d4d48c26670f": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_7c39efe4c78f09e6.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l019",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.77,
+      "pace": 1.0
+    }
+  },
+  "0b42f71eedea85a401de": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_2ad60c21efeb1b43.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l020",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.9,
+      "pace": 1.05
+    }
+  },
+  "cd6128ffe62efe1003c8": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_1fee105263c9590a.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l012",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.498,
+      "pace": 1.05
+    }
+  },
+  "51065aa3146bf029e6a7": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_1c3f1ab48e43ff20.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l021",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.72,
+      "pace": 1.0
+    }
+  },
+  "171cb1f5e576274e8caf": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_narrator_d4aefd27830b9c62.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l015",
+    "voice_id": "sumit",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.538,
+      "pace": 0.95
+    }
+  },
+  "4b195772e40530367305": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_ffe9dcb5d37d9605.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l022",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.47000000000000003,
+      "pace": 1.0
+    }
+  },
+  "a858fc8a6c63de67ddd7": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_9f85f45445945986.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l023",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.52,
+      "pace": 1.0
+    }
+  },
+  "018b34412e3aa387f8ab": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_c651c10b1c55cc34.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l017",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.378,
+      "pace": 1.0
+    }
+  },
+  "0c91f6e261b417a40773": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_178d41248f3f3d5b.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l024",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.498,
+      "pace": 1.05
+    }
+  },
+  "946e2c6a79f8983f7a8c": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_05c5dcb0c9cf3cf7.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l025",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.54,
+      "pace": 1.05
+    }
+  },
+  "147f925a9608b9cb6c87": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_84a5ba7940c3a557.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l026",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.98,
+      "pace": 1.05
+    }
+  },
+  "a629729e29754468d7e9": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_9d176bbb7c578b9f.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l027",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.482,
+      "pace": 1.05
+    }
+  },
+  "0c2f9805b49ef4041e4b": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_eab76b6ecdc75b83.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l028",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.45,
+      "pace": 1.0
+    }
+  },
+  "2d91f89f5e62d71acdec": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_6711a12515aacf1b.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l028",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.386,
+      "pace": 1.0
+    }
+  },
+  "201c5b511248df366105": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_1bfb24daee983ac8.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l029",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8720000000000001,
+      "pace": 1.05
+    }
+  },
+  "e44e9edddbaa2d53cf7b": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_fe7e5941be1f3540.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l030",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.72,
+      "pace": 1.0
+    }
+  },
+  "c369ef1b67b9669c2d38": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_4fffc56c2e1782fe.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l031",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.912,
+      "pace": 0.95
+    }
+  },
+  "bf37e9e72693b447fee9": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_narrator_b3e8ff083f9a4513.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l032",
+    "voice_id": "sumit",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.41,
+      "pace": 1.0
+    }
+  },
+  "a68f8b8c6a91b5ff67b9": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_CARPENTER_6d18a62d0d97d2c8.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l033",
+    "voice_id": "shruti",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.782,
+      "pace": 1.0
+    }
+  },
+  "9453564f3b9f57e08bfd": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_b7ffabf8b3c120c9.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l034",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.47000000000000003,
+      "pace": 1.05
+    }
+  },
+  "606bc29ba6ef64fe3e7b": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_CARPENTER_4bddaa0a0af9f982.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l035",
+    "voice_id": "shruti",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.402,
+      "pace": 1.0
+    }
+  },
+  "74fe235b4b1ad7fb3612": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_b7a4a1c6202c3b27.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l036",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.74,
+      "pace": 1.05
+    }
+  },
+  "92db5c0bf6c1a4a35ad9": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_CARPENTER_061336e1b2aae3a0.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l037",
+    "voice_id": "shruti",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.732,
+      "pace": 1.0
+    }
+  },
+  "2f37fe47646beb55efea": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_78d4f3f85a6611ac.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l038",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.49,
+      "pace": 1.05
+    }
+  },
+  "7a76492087c08b148a5c": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_narrator_354145ce1a2d32b3.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l039",
+    "voice_id": "sumit",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.38999999999999996,
+      "pace": 1.0
+    }
+  },
+  "cf4c7ffd08c289608328": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_SIGN PAINTER_c1999fe5746c063c.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l040",
+    "voice_id": "rahul",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.47000000000000003,
+      "pace": 1.0
+    }
+  },
+  "712128925f7ba5a2e56d": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_eb0a5144b646bc40.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l041",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.932,
+      "pace": 1.05
+    }
+  },
+  "6066af5c6b3264f75c47": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_SIGN PAINTER_21962dc541761b3e.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l042",
+    "voice_id": "rahul",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.72,
+      "pace": 1.0
+    }
+  },
+  "c538a30aa9fc9c3066c5": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_1c23e4c43c447239.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l043",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8600000000000001,
+      "pace": 1.0
+    }
+  },
+  "cf887b0106d5b03528ab": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_SIGN PAINTER_278161f7a336393b.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l044",
+    "voice_id": "rahul",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.47000000000000003,
+      "pace": 1.0
+    }
+  },
+  "24770ef43f6a2e3b4987": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_8b2b036083b509ef.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l045",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8480000000000001,
+      "pace": 1.0
+    }
+  },
+  "1af93c9ca20e592983a6": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_SIGN PAINTER_c5185040d741a74f.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l046",
+    "voice_id": "rahul",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.52,
+      "pace": 1.0
+    }
+  },
+  "f50afd4588fceb3db644": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_52273df1504ed58d.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l047",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.9299999999999999,
+      "pace": 1.1
+    }
+  },
+  "aee021b964eeffbe2ba0": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_narrator_d4ad1d00e74d3f17.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l048",
+    "voice_id": "sumit",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.9,
+      "pace": 0.95
+    }
+  },
+  "9261dc3c9eb7c0fcab7f": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_SIGN PAINTER_a3805131b34d4c8d.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l049",
+    "voice_id": "rahul",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.72,
+      "pace": 1.0
+    }
+  },
+  "c9416d6e0495bdb48236": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_fc3cc95cdf0f0cf0.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l050",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.482,
+      "pace": 1.05
+    }
+  },
+  "921a44fce90909022c6a": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_a96640e2c75991dc.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l051",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.52,
+      "pace": 1.0
+    }
+  },
+  "189ca8691e83831bf0d8": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_4c5e9b125ad1349a.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l052",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.49,
+      "pace": 1.05
+    }
+  },
+  "a7b5a8b3a71a0b11df6d": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_41e78c8343cd1136.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l053",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.932,
+      "pace": 1.0
+    }
+  },
+  "a379a54789af0e135f16": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_f5fac16a10ea8629.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l054",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.482,
+      "pace": 1.05
+    }
+  },
+  "80f650ff7f3b6a651f57": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_ae66eedf6dde9ebc.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l055",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.898,
+      "pace": 1.0
+    }
+  },
+  "cd69fe4fd4ef8b2e4cc0": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_f24461fc032c4859.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l056",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.772,
+      "pace": 1.05
+    }
+  },
+  "ccda72915dcfbdd95efc": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_54f8f6aa6666327a.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l057",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.52,
+      "pace": 1.0
+    }
+  },
+  "7e866a7a67d908ecf2e0": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_narrator_59bfc265215dcca9.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l058",
+    "voice_id": "sumit",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.838,
+      "pace": 0.95
+    }
+  },
+  "9214ae51f436e21c129a": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_vaishali_4ee8e304abfc72df.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l059",
+    "voice_id": "priya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 1.0,
+      "pace": 1.1
+    }
+  },
+  "b68d0ea76df9b776aea5": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_93967368317bb90e.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l060",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.52,
+      "pace": 1.0
+    }
+  },
+  "86b36d3c03417263985a": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_vaishali_23a611f91609f231.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l061",
+    "voice_id": "priya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 1.0,
+      "pace": 1.0
+    }
+  },
+  "a6dec2430ee96a194cbe": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_9044a7a8174870a9.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l062",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.532,
+      "pace": 1.05
+    }
+  },
+  "99fe594445d06697c46f": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_vaishali_d4c2ec071f963eaa.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l063",
+    "voice_id": "priya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.988,
+      "pace": 1.05
+    }
+  },
+  "cbb457a79a32564e8153": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_7c9ee6ad1999d179.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l064",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8720000000000001,
+      "pace": 0.95
+    }
+  },
+  "1dd11d9b17add67d9a25": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_vaishali_7d35789ef076aad4.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l065",
+    "voice_id": "priya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.9,
+      "pace": 0.95
+    }
+  },
+  "4923bc1ad98eb7f3774c": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_6374ccc8e630a05f.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l066",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.88,
+      "pace": 1.0
+    }
+  },
+  "ae6b6500e235802e3404": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_vaishali_24cc81a575f0a832.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l067",
+    "voice_id": "priya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.888,
+      "pace": 1.05
+    }
+  },
+  "a13b05b3e9eb97a32675": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_34d9b14ee283cdb7.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l068",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.56,
+      "pace": 1.0
+    }
+  },
+  "693d572de7e9ad833277": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_vaishali_a9512fa937f4f51a.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l069",
+    "voice_id": "priya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 1.0,
+      "pace": 1.05
+    }
+  },
+  "06ea975fc1d7a1691675": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_bde033e25219ea3d.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l070",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.88,
+      "pace": 1.0
+    }
+  },
+  "83306d9e427de4674b67": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_vaishali_d1cfe9e5462c61a0.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l071",
+    "voice_id": "priya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.938,
+      "pace": 1.05
+    }
+  },
+  "4034cfd64c05b8339af9": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_3ec40849f9193679.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l072",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.912,
+      "pace": 0.95
+    }
+  },
+  "143be8befc27c59ba74a": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_vaishali_3749dd68ecbdec99.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l073",
+    "voice_id": "priya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.9299999999999999,
+      "pace": 1.0
+    }
+  },
+  "c4c8dcf861bd6695f8bd": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_074a306f09a8bfe0.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l074",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.49,
+      "pace": 1.05
+    }
+  },
+  "c9f4c481be531de42c89": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_vaishali_61b66e7cffa1a283.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l075",
+    "voice_id": "priya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.772,
+      "pace": 1.0
+    }
+  },
+  "c4ab307c11d64aced1d8": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_6fa42df81ca6952d.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l076",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.548,
+      "pace": 1.0
+    }
+  },
+  "969a3f5f6db1d602b4b0": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_vaishali_368d210625854a10.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l077",
+    "voice_id": "priya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 1.0,
+      "pace": 1.05
+    }
+  },
+  "6476f4e574ba6d89fa47": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_392d0a33607564a8.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l078",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.498,
+      "pace": 1.05
+    }
+  },
+  "96d8e9785c9166504877": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_vaishali_a438e7ee4f854dd8.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l079",
+    "voice_id": "priya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.99,
+      "pace": 0.95
+    }
+  },
+  "d80a35228717d7a00eb7": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_65ecbf5152290fbe.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l080",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.888,
+      "pace": 0.95
+    }
+  },
+  "bdc8aadff96e127ba804": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_vaishali_1d6744ae6d181e39.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l081",
+    "voice_id": "priya",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.97,
+      "pace": 0.95
+    }
+  },
+  "4c331b5a5636ff41c4e6": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_41e66bf7344ecfec.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l082",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.9520000000000001,
+      "pace": 0.95
+    }
+  },
+  "f881ca213e5502014ae8": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_d5c5f23c2f15f5b6.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l083",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.52,
+      "pace": 1.0
+    }
+  },
+  "73595c74c3725fe55a93": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_64b208e0a6abeb87.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l084",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.458,
+      "pace": 1.05
+    }
+  },
+  "bb668fb93139391b9fce": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_f86ae4dd0a8ae322.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l085",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.52,
+      "pace": 1.1
+    }
+  },
+  "28623f380b4a58a1471c": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_dad0f3d1ec514b11.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l086",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.47000000000000003,
+      "pace": 1.0
+    }
+  },
+  "e0e6b0521aa15504f41f": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_ffd7fa24b22ba46b.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l087",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.532,
+      "pace": 1.1
+    }
+  },
+  "78b7fa54a4de79e07a3b": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_cc01937bb47cd6b5.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l088",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.47000000000000003,
+      "pace": 1.05
+    }
+  },
+  "10de0d53f94141ab3665": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_58c2dd0cee84fda1.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l089",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.798,
+      "pace": 1.0
+    }
+  },
+  "dbc17a796c96f4a03672": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_70a956c7d39a0d02.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l090",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8600000000000001,
+      "pace": 0.95
+    }
+  },
+  "e428f912f13b948d98a9": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_97a2f0c192d29a2c.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l091",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8220000000000001,
+      "pace": 1.0
+    }
+  },
+  "e8cee6250aa6eebe38e7": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_921d9c719bb9dfce.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l092",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8720000000000001,
+      "pace": 1.05
+    }
+  },
+  "26bc54d56a7995bd4802": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_84b8461726654583.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l093",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.79,
+      "pace": 1.0
+    }
+  },
+  "13bf287315f8962cdf06": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_b9e9cbd3371b9b31.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l094",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.49,
+      "pace": 1.0
+    }
+  },
+  "4923b80d57f43a620653": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_817d5acfef0cf02b.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l095",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.532,
+      "pace": 1.0
+    }
+  },
+  "50ca2ea774084253dc90": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_4ffa696bfb575bbb.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l096",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.498,
+      "pace": 1.0
+    }
+  },
+  "dec6b7edff9c0c4dcc99": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_e96fd6ea9ce71877.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l097",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.5,
+      "pace": 0.95
+    }
+  },
+  "e7a46474473d1dc89b41": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_15abf4567ed21306.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l098",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.51,
+      "pace": 1.05
+    }
+  },
+  "d26d4d9d8edcaac181ae": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_39be4249abdf8391.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l099",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 1.0,
+      "pace": 1.0
+    }
+  },
+  "bfd7c20c148d551927db": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_TYRE SHOP OWNER_8c7c55e296130acd.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l100",
+    "voice_id": "simran",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.79,
+      "pace": 1.0
+    }
+  },
+  "b56e073d0d8d432b4059": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_41b8a799d2fdc7fd.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l101",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.52,
+      "pace": 1.0
+    }
+  },
+  "42c2506a1430472f288a": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_3e1a06c45c0b7832.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l102",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.482,
+      "pace": 1.0
+    }
+  },
+  "79afbf4de480851f539b": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_94dad14891bb4c59.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l103",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.862,
+      "pace": 0.95
+    }
+  },
+  "eaebfeab16f5fa831f3e": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_1b8e77f44be5c301.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l104",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.49,
+      "pace": 1.05
+    }
+  },
+  "f65b9411bd95dc7cfb95": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_37ca3e3332e386f1.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l105",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.522,
+      "pace": 1.0
+    }
+  },
+  "e28c9b3a319361427522": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_d1dbf2e5dbf15dd6.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l106",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.482,
+      "pace": 1.05
+    }
+  },
+  "6ce4f2e548811483f8c4": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_2e4911ea216c7c24.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l107",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.48,
+      "pace": 1.0
+    }
+  },
+  "41b0484909c9cc405bb1": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_7c17148db7de444a.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l108",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.8720000000000001,
+      "pace": 1.0
+    }
+  },
+  "1c91f4bd6deb4e297fd5": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_efaf0a1b613e2bd7.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l109",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.54,
+      "pace": 0.95
+    }
+  },
+  "b83ea655a2e1fca0910f": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_449fd9cbedbd9d05.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l110",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.888,
+      "pace": 1.05
+    }
+  },
+  "8fb2ba78108956fc5b1a": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_144cb8b06f2421e4.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l111",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.548,
+      "pace": 1.0
+    }
+  },
+  "ddf0e61d986c00736d96": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_9e7e07a92a7b1915.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l112",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.498,
+      "pace": 1.0
+    }
+  },
+  "8476d58746f163e040e7": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_4852eb247ae4b050.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l113",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.52,
+      "pace": 1.0
+    }
+  },
+  "9d34138477b2c687538b": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_35670f4fa3934503.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l114",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.482,
+      "pace": 1.05
+    }
+  },
+  "a282f93971469605af8f": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_2a3e8c365afbe63e.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l115",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.85,
+      "pace": 1.0
+    }
+  },
+  "3384116e40c4941088d7": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_5a79ddd6fd17314e.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l116",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.53,
+      "pace": 0.95
+    }
+  },
+  "4c05ddc949cab8b8952a": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_narrator_054b5487975ced41.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l117",
+    "voice_id": "sumit",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.39799999999999996,
+      "pace": 0.95
+    }
+  },
+  "cd426553a359b70ea630": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_morris_06ffa6f6c81ff5ae.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l118",
+    "voice_id": "shubh",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.9299999999999999,
+      "pace": 1.05
+    }
+  },
+  "bbf4dfd8939323ac10d8": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_sarika_0f5175eebd4ac729.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l119",
+    "voice_id": "pooja",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.532,
+      "pace": 1.0
+    }
+  },
+  "4a57e62867d7c1956f59": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_STRANGER_476f5512aa7ca1fa.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l120",
+    "voice_id": "manan",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.92,
+      "pace": 0.95
+    }
+  },
+  "08b46cefee12cfe6e0bf": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_STRANGER_fb5096f482148251.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l121",
+    "voice_id": "manan",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.9400000000000001,
+      "pace": 0.95
+    }
+  },
+  "bd8a4a06e41b50979a93": {
+    "audio_path": "E:\\RakeshProfessional\\PocketFM\\canonforge\\data\\cache\\voice\\sarvam_narrator_0400671e242ae58a.mp3",
+    "duration_ms": 0,
+    "provider": "sarvam",
+    "line_id": "l122",
+    "voice_id": "sumit",
+    "raw_meta": {
+      "model": "bulbul:v3",
+      "temperature": 0.9600000000000001,
+      "pace": 0.95
+    }
   }
 }

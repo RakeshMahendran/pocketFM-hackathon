@@ -1,0 +1,13 @@
+{
+  "story_id": "evt_gandhinagar_tribunal",
+  "ep": 3,
+  "state": "failed",
+  "step": "voicing",
+  "label": "Recording the lines",
+  "language": null,
+  "detail": "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 3721 column 28 (char 110551)",
+  "error": "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 3721 column 28 (char 110551)",
+  "started_at": "2026-07-26T05:44:57.105614+00:00",
+  "updated_at": "2026-07-26T05:47:40.317908+00:00",
+  "finished_at": "2026-07-26T05:47:40.311908+00:00"
+}

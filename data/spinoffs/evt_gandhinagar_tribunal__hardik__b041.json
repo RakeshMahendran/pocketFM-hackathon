@@ -15,7 +15,7 @@
     "kind": "witnessed"
   },
   "constrained": true,
-  "generated_at": "2026-07-26T05:07:27.215022+00:00",
+  "generated_at": "2026-07-26T05:44:51.993389+00:00",
   "model": "gpt-5.6-sol",
   "forbidden": {
     "story_id": "evt_gandhinagar_tribunal",
