@@ -5,7 +5,7 @@
     {
       "id": "p010",
       "raised_ep": 8,
-      "listener_is_waiting_for": "whether Sarika can be jailed for certifying Morris's proceedings",
+      "listener_is_waiting_for": "whether Sarika can be jailed for certifying Mervyn's proceedings",
       "must_pay_by_ep": 11,
       "paid_ep": 11,
       "how_paid": "Khot stated in the stairwell that the complaint named Sarika as an employee and witness, not an accused, and that truthful cooperation would keep her a witness.",
@@ -14,10 +14,10 @@
     {
       "id": "p011",
       "raised_ep": 9,
-      "listener_is_waiting_for": "what Hardik will find when he verifies Morris's claimed appointment against the court record",
+      "listener_is_waiting_for": "what Harshad will find when he verifies Mervyn's claimed appointment against the court record",
       "must_pay_by_ep": 11,
       "paid_ep": 11,
-      "how_paid": "Hardik checked the current, retired and section records and found no appointment order, appointed arbitrator, constituted tribunal or matching official case-number sequence.",
+      "how_paid": "Harshad checked the current, retired and section records and found no appointment order, appointed arbitrator, constituted tribunal or matching official case-number sequence.",
       "status": "paid"
     },
     {
@@ -26,16 +26,16 @@
       "listener_is_waiting_for": "what Tejas will learn after asking which court appointed his father",
       "must_pay_by_ep": 11,
       "paid_ep": 11,
-      "how_paid": "Tejas heard Hardik state that no court constituted the forum and heard Khot read the false-authority charge aloud.",
+      "how_paid": "Tejas heard Harshad state that no court constituted the forum and heard Khot read the false-authority charge aloud.",
       "status": "paid"
     },
     {
       "id": "p013",
       "raised_ep": 11,
-      "listener_is_waiting_for": "whether Morris will disavow the judgments to reduce the case against him",
+      "listener_is_waiting_for": "whether Mervyn will disavow the judgments to reduce the case against him",
       "must_pay_by_ep": 12,
       "paid_ep": 12,
-      "how_paid": "Morris disavowed the first twenty-three matters but refused to call Manjula's judgment worthless, sacrificing possible leniency.",
+      "how_paid": "Mervyn disavowed the first twenty-three matters but refused to call Manjula's judgment worthless, sacrificing possible leniency.",
       "status": "paid"
     }
   ]

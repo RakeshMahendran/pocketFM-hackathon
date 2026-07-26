@@ -4,7 +4,7 @@
   "characters": [
     {
       "char_id": "morris",
-      "name": "Morris Samuel Christian",
+      "name": "Mervyn Aloysius Fonseca",
       "role": "the man who calls himself a judge",
       "knows": [
         "b001",
@@ -142,7 +142,7 @@
     },
     {
       "char_id": "hardik",
-      "name": "Hardik Desai",
+      "name": "Harshad Kotak",
       "role": "district court registrar",
       "knows": [
         "b025",
@@ -946,7 +946,7 @@
     },
     {
       "char_id": "vaishali",
-      "name": "Vaishali Christian",
+      "name": "Vaishali Fonseca",
       "role": "his wife",
       "knows": [
         "b010"
@@ -1400,7 +1400,7 @@
     },
     {
       "char_id": "tejas",
-      "name": "Tejas Christian",
+      "name": "Tejas Fonseca",
       "role": "his son, in his first year of law college",
       "knows": [
         "b037",

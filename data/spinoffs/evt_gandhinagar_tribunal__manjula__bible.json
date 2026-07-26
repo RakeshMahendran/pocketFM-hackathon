@@ -10,11 +10,11 @@
   },
   "stub": {
     "facts": [
-      "Manjula sought an urgent hearing over land and keys withheld by Bhaskar for eleven years, and Morris fixed the hearing for eight days later.",
-      "At the hearing, Morris established that Manjula held an equal recorded share while Bhaskar controlled all access and had not fully accounted for crop income.",
-      "Morris awarded Manjula access and possession according to her recorded share, barred Bhaskar from leasing the western half and ordered delivery of the keys.",
+      "Manjula sought an urgent hearing over land and keys withheld by Bhaskar for eleven years, and Mervyn fixed the hearing for eight days later.",
+      "At the hearing, Mervyn established that Manjula held an equal recorded share while Bhaskar controlled all access and had not fully accounted for crop income.",
+      "Mervyn awarded Manjula access and possession according to her recorded share, barred Bhaskar from leasing the western half and ordered delivery of the keys.",
       "Bhaskar delivered both keys under the judgment, and Manjula publicly told the lane that a court had finally listened to her.",
-      "Manjula remained in possession of both keys and was not told about Morris's arrest or the challenge to his authority."
+      "Manjula remained in possession of both keys and was not told about Mervyn's arrest or the challenge to his authority."
     ],
     "want": "to keep what a judge awarded her",
     "voice_samples": [
@@ -75,15 +75,15 @@
     },
     {
       "ep": 4,
-      "turn": "Because Bhaskar's refusal leaves the coming harvest beyond her reach, Manjula seeks an urgent hearing and Morris fixes it eight days later.",
-      "ends_on": "Morris tells both parties that the land-and-keys hearing will take place in eight days.",
+      "turn": "Because Bhaskar's refusal leaves the coming harvest beyond her reach, Manjula seeks an urgent hearing and Mervyn fixes it eight days later.",
+      "ends_on": "Mervyn tells both parties that the land-and-keys hearing will take place in eight days.",
       "hook_type": "DEADLINE",
       "sets_in": "b021"
     },
     {
       "ep": 5,
       "turn": "At the hearing, Manjula's record and ledger establish that she owns an equal share while Bhaskar controls all access and cannot fully account for the crop income.",
-      "ends_on": "Morris states that Bhaskar has failed to account for income taken from land recorded equally in Manjula's name.",
+      "ends_on": "Mervyn states that Bhaskar has failed to account for income taken from land recorded equally in Manjula's name.",
       "hook_type": "ACCUSATION",
       "sets_in": "b022"
     },

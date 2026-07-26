@@ -18,7 +18,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Fifteen years after being struck off, Morris typed another man's order and was sent out of the chamber to wait.",
+      "what_happened": "Fifteen years after being struck off, Mervyn typed another man's order and was sent out of the chamber to wait.",
       "state_changes": [
         {
           "entity": "morris",
@@ -47,11 +47,11 @@
       "hidden_from": [
         "hardik"
       ],
-      "what_happened": "Irfan mistook Morris for an official who could hear his urgent housing dispute, and Morris examined the file without correcting him.",
+      "what_happened": "Irfan mistook Mervyn for an official who could hear his urgent housing dispute, and Mervyn examined the file without correcting him.",
       "state_changes": [
         {
           "entity": "irfan",
-          "fact": "He believes Morris has authority to hear urgent matters.",
+          "fact": "He believes Mervyn has authority to hear urgent matters.",
           "valence": 2
         },
         {
@@ -83,7 +83,7 @@
         "tejas",
         "hardik"
       ],
-      "what_happened": "Irfan touched Morris's feet and asked him to hear the case.",
+      "what_happened": "Irfan touched Mervyn's feet and asked him to hear the case.",
       "state_changes": [
         {
           "entity": "morris",
@@ -92,7 +92,7 @@
         },
         {
           "entity": "irfan",
-          "fact": "He places his mother's housing dispute in Morris's hands.",
+          "fact": "He places his mother's housing dispute in Mervyn's hands.",
           "valence": 1
         }
       ],
@@ -119,7 +119,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Morris called his intervention advice, typed a direction in judicial form and signed it as presiding officer.",
+      "what_happened": "Mervyn called his intervention advice, typed a direction in judicial form and signed it as presiding officer.",
       "state_changes": [
         {
           "entity": "morris",
@@ -151,7 +151,7 @@
       "hidden_from": [
         "hardik"
       ],
-      "what_happened": "Irfan presented Morris's signed page, and the landlord restored the key and paid six thousand rupees without court proceedings.",
+      "what_happened": "Irfan presented Mervyn's signed page, and the landlord restored the key and paid six thousand rupees without court proceedings.",
       "state_changes": [
         {
           "entity": "irfan",
@@ -159,7 +159,7 @@
           "valence": 5
         },
         {
-          "entity": "Morris's first direction",
+          "entity": "Mervyn's first direction",
           "fact": "It produces voluntary compliance despite lacking a seal or case number.",
           "valence": 4
         }
@@ -180,10 +180,10 @@
         "morris",
         "hardik"
       ],
-      "what_happened": "A copy of Morris's first signed direction remained preserved with the housing papers after payment.",
+      "what_happened": "A copy of Mervyn's first signed direction remained preserved with the housing papers after payment.",
       "state_changes": [
         {
-          "entity": "Morris's first direction",
+          "entity": "Mervyn's first direction",
           "fact": "A discoverable copy survives after the dispute is resolved.",
           "valence": -2
         }
@@ -211,7 +211,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Irfan returned to Morris with two more men, their files and their fees.",
+      "what_happened": "Irfan returned to Mervyn with two more men, their files and their fees.",
       "state_changes": [
         {
           "entity": "morris",
@@ -220,7 +220,7 @@
         },
         {
           "entity": "irfan",
-          "fact": "He becomes the source of Morris's first referrals.",
+          "fact": "He becomes the source of Mervyn's first referrals.",
           "valence": 2
         }
       ],
@@ -246,7 +246,7 @@
         "hardik",
         "tejas"
       ],
-      "what_happened": "Morris accepted the two referrals and used their fees to rent a room above a tyre shop.",
+      "what_happened": "Mervyn accepted the two referrals and used their fees to rent a room above a tyre shop.",
       "state_changes": [
         {
           "entity": "morris",
@@ -278,7 +278,7 @@
       "hidden_from": [
         "hardik"
       ],
-      "what_happened": "Morris installed an eight-inch dais and a nameplate identifying an arbitration and dispute resolution forum with a presiding officer.",
+      "what_happened": "Mervyn installed an eight-inch dais and a nameplate identifying an arbitration and dispute resolution forum with a presiding officer.",
       "state_changes": [
         {
           "entity": "the forum room",
@@ -312,11 +312,11 @@
       "hidden_from": [
         "tejas"
       ],
-      "what_happened": "Vaishali questioned who appointed Morris, and he said private parties would appoint an arbitrator by consent.",
+      "what_happened": "Vaishali questioned who appointed Mervyn, and he said private parties would appoint an arbitrator by consent.",
       "state_changes": [
         {
           "entity": "vaishali",
-          "fact": "She knows Morris has opened a private dispute forum with a dais.",
+          "fact": "She knows Mervyn has opened a private dispute forum with a dais.",
           "valence": -2
         },
         {
@@ -348,7 +348,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Morris hired Sarika for three thousand rupees per month, designated her registry clerk and obtained her signature certifying proceedings recorded by her.",
+      "what_happened": "Mervyn hired Sarika for three thousand rupees per month, designated her registry clerk and obtained her signature certifying proceedings recorded by her.",
       "state_changes": [
         {
           "entity": "sarika",
@@ -389,7 +389,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "After Morris conducted the first two numbered matters, an unknown stranger entered unannounced and placed a heavy file on Sarika's desk.",
+      "what_happened": "After Mervyn conducted the first two numbered matters, an unknown stranger entered unannounced and placed a heavy file on Sarika's desk.",
       "state_changes": [
         {
           "entity": "the forum room",
@@ -427,11 +427,11 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Dhawale brought a land dispute concerning property valued at one crore forty lakh and pressed Morris for an urgent ruling.",
+      "what_happened": "Dhawale brought a land dispute concerning property valued at one crore forty lakh and pressed Mervyn for an urgent ruling.",
       "state_changes": [
         {
           "entity": "dhawale",
-          "fact": "placed a high-value land dispute before Morris",
+          "fact": "placed a high-value land dispute before Mervyn",
           "valence": 2
         },
         {
@@ -467,11 +467,11 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "The landowner appeared with the advocate, signed a consent memorandum and argued the land dispute before Morris.",
+      "what_happened": "The landowner appeared with the advocate, signed a consent memorandum and argued the land dispute before Mervyn.",
       "state_changes": [
         {
           "entity": "advocate",
-          "fact": "observed Morris conduct a high-value hearing under a signed consent memorandum",
+          "fact": "observed Mervyn conduct a high-value hearing under a signed consent memorandum",
           "valence": -1
         },
         {
@@ -507,7 +507,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Morris ordered conveyance at the contracted price, and the landowner accepted the balance payment while the advocate stated that his client would comply.",
+      "what_happened": "Mervyn ordered conveyance at the contracted price, and the landowner accepted the balance payment while the advocate stated that his client would comply.",
       "state_changes": [
         {
           "entity": "morris",
@@ -548,7 +548,7 @@
       "state_changes": [
         {
           "entity": "land transaction file",
-          "fact": "now contains documentary evidence of Morris's award",
+          "fact": "now contains documentary evidence of Mervyn's award",
           "valence": -2
         }
       ],
@@ -579,7 +579,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Morris admitted there was no prior appointment order, and the advocate warned that another lawyer could challenge the room before consenting.",
+      "what_happened": "Mervyn admitted there was no prior appointment order, and the advocate warned that another lawyer could challenge the room before consenting.",
       "state_changes": [
         {
           "entity": "morris",
@@ -588,7 +588,7 @@
         },
         {
           "entity": "advocate",
-          "fact": "learned that Morris had no prior appointment order for the matter",
+          "fact": "learned that Mervyn had no prior appointment order for the matter",
           "valence": -2
         }
       ],
@@ -616,11 +616,11 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Morris asked Pandit for access to the civil pending list so he could avoid disputes already filed in the real court, and Pandit refused cash.",
+      "what_happened": "Mervyn asked Pandit for access to the civil pending list so he could avoid disputes already filed in the real court, and Pandit refused cash.",
       "state_changes": [
         {
           "entity": "pandit",
-          "fact": "learned why Morris needed the pending list",
+          "fact": "learned why Mervyn needed the pending list",
           "valence": 2
         },
         {
@@ -653,7 +653,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Pandit left the pending list on a rear photocopier long enough for Morris to photograph all thirty-two pages.",
+      "what_happened": "Pandit left the pending list on a rear photocopier long enough for Mervyn to photograph all thirty-two pages.",
       "state_changes": [
         {
           "entity": "morris",
@@ -662,7 +662,7 @@
         },
         {
           "entity": "pandit",
-          "fact": "began leaking confidential registry information to Morris",
+          "fact": "began leaking confidential registry information to Mervyn",
           "valence": -4
         }
       ],
@@ -690,7 +690,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Pandit demanded one sealed envelope each month, to be opened by Morris without questions, as the price of continued access.",
+      "what_happened": "Pandit demanded one sealed envelope each month, to be opened by Mervyn without questions, as the price of continued access.",
       "state_changes": [
         {
           "entity": "pandit",
@@ -730,7 +730,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Manjula sought an urgent hearing over land and keys withheld by Bhaskar for eleven years, and Morris fixed the hearing for eight days later.",
+      "what_happened": "Manjula sought an urgent hearing over land and keys withheld by Bhaskar for eleven years, and Mervyn fixed the hearing for eight days later.",
       "state_changes": [
         {
           "entity": "manjula",
@@ -770,7 +770,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "At the hearing, Morris established that Manjula held an equal recorded share while Bhaskar controlled all access and had not fully accounted for crop income.",
+      "what_happened": "At the hearing, Mervyn established that Manjula held an equal recorded share while Bhaskar controlled all access and had not fully accounted for crop income.",
       "state_changes": [
         {
           "entity": "bhaskar",
@@ -810,7 +810,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Morris awarded Manjula access and possession according to her recorded share, barred Bhaskar from leasing the western half and ordered delivery of the keys.",
+      "what_happened": "Mervyn awarded Manjula access and possession according to her recorded share, barred Bhaskar from leasing the western half and ordered delivery of the keys.",
       "state_changes": [
         {
           "entity": "manjula",
@@ -892,7 +892,7 @@
         "tejas",
         "pandit"
       ],
-      "what_happened": "Hardik received a filing bundle containing an award from an unfamiliar forum and directed that its authority be traced.",
+      "what_happened": "Harshad received a filing bundle containing an award from an unfamiliar forum and directed that its authority be traced.",
       "state_changes": [
         {
           "entity": "hardik",
@@ -926,7 +926,7 @@
         "sarika",
         "pandit"
       ],
-      "what_happened": "Hardik found no matching forum, appointment, arbitrator name or case-number sequence in the available district records.",
+      "what_happened": "Harshad found no matching forum, appointment, arbitrator name or case-number sequence in the available district records.",
       "state_changes": [
         {
           "entity": "hardik",
@@ -987,7 +987,7 @@
         "sarika",
         "pandit"
       ],
-      "what_happened": "Hardik wrote the unidentified case number on a slip and stored it in his drawer for further inquiry.",
+      "what_happened": "Harshad wrote the unidentified case number on a slip and stored it in his drawer for further inquiry.",
       "state_changes": [
         {
           "entity": "hardik",
@@ -1025,7 +1025,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "The advocate publicly challenged Sarika to explain what her certification signature represented and reminded Morris that no prior appointment order had been produced.",
+      "what_happened": "The advocate publicly challenged Sarika to explain what her certification signature represented and reminded Mervyn that no prior appointment order had been produced.",
       "state_changes": [
         {
           "entity": "sarika",
@@ -1062,11 +1062,11 @@
         "tejas",
         "pandit"
       ],
-      "what_happened": "Morris admitted that he established the forum himself and could not identify an external order appointing him as presiding officer.",
+      "what_happened": "Mervyn admitted that he established the forum himself and could not identify an external order appointing him as presiding officer.",
       "state_changes": [
         {
           "entity": "sarika",
-          "fact": "understood that Morris had no external appointment order",
+          "fact": "understood that Mervyn had no external appointment order",
           "valence": -5
         },
         {
@@ -1134,11 +1134,11 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Sarika asked Morris whether she could be jailed for her role.",
+      "what_happened": "Sarika asked Mervyn whether she could be jailed for her role.",
       "state_changes": [
         {
           "entity": "sarika",
-          "fact": "directly confronted Morris about criminal liability",
+          "fact": "directly confronted Mervyn about criminal liability",
           "valence": -4
         },
         {
@@ -1170,7 +1170,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Morris received Hardik's written demand for his appointment order and learned that he had eleven days to respond.",
+      "what_happened": "Mervyn received Harshad's written demand for his appointment order and learned that he had eleven days to respond.",
       "state_changes": [
         {
           "entity": "morris",
@@ -1212,7 +1212,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Morris asked Pandit to insert a false appointment into an old court record, and Pandit identified the request as forgery.",
+      "what_happened": "Mervyn asked Pandit to insert a false appointment into an old court record, and Pandit identified the request as forgery.",
       "state_changes": [
         {
           "entity": "morris",
@@ -1249,7 +1249,7 @@
         "vaishali",
         "tejas"
       ],
-      "what_happened": "Pandit stated that each sealed envelope contained a dispute and required outcome, and that Morris had signed twelve awards preserving those outcomes.",
+      "what_happened": "Pandit stated that each sealed envelope contained a dispute and required outcome, and that Mervyn had signed twelve awards preserving those outcomes.",
       "state_changes": [
         {
           "entity": "morris",
@@ -1258,7 +1258,7 @@
         },
         {
           "entity": "pandit",
-          "fact": "held specific leverage connecting Morris to predetermined outcomes",
+          "fact": "held specific leverage connecting Mervyn to predetermined outcomes",
           "valence": 4
         },
         {
@@ -1331,11 +1331,11 @@
         "khot",
         "vaishali"
       ],
-      "what_happened": "Morris began his largest hearing before a packed room while Tejas watched from the back.",
+      "what_happened": "Mervyn began his largest hearing before a packed room while Tejas watched from the back.",
       "state_changes": [
         {
           "entity": "tejas",
-          "fact": "saw Morris publicly treated as a judicial authority",
+          "fact": "saw Mervyn publicly treated as a judicial authority",
           "valence": 3
         },
         {
@@ -1371,11 +1371,11 @@
         "khot",
         "vaishali"
       ],
-      "what_happened": "Sarika publicly refused to certify an exhibit while Morris continued the hearing.",
+      "what_happened": "Sarika publicly refused to certify an exhibit while Mervyn continued the hearing.",
       "state_changes": [
         {
           "entity": "sarika",
-          "fact": "ceased certifying documents for Morris",
+          "fact": "ceased certifying documents for Mervyn",
           "valence": 2
         },
         {
@@ -1416,11 +1416,11 @@
         "khot",
         "vaishali"
       ],
-      "what_happened": "Dhawale produced a prewritten outcome and copies of twelve earlier awards, then demanded that Morris award him the western parcel at two crore ten lakh rupees.",
+      "what_happened": "Dhawale produced a prewritten outcome and copies of twelve earlier awards, then demanded that Mervyn award him the western parcel at two crore ten lakh rupees.",
       "state_changes": [
         {
           "entity": "dhawale",
-          "fact": "openly asserted control over Morris's next ruling",
+          "fact": "openly asserted control over Mervyn's next ruling",
           "valence": 4
         },
         {
@@ -1430,7 +1430,7 @@
         },
         {
           "entity": "tejas",
-          "fact": "heard evidence that Morris's rulings were controlled",
+          "fact": "heard evidence that Mervyn's rulings were controlled",
           "valence": -4
         }
       ],
@@ -1459,11 +1459,11 @@
         "khot",
         "vaishali"
       ],
-      "what_happened": "After the room cleared, Tejas asked Morris which court had appointed him.",
+      "what_happened": "After the room cleared, Tejas asked Mervyn which court had appointed him.",
       "state_changes": [
         {
           "entity": "tejas",
-          "fact": "directly questioned the source of Morris's authority",
+          "fact": "directly questioned the source of Mervyn's authority",
           "valence": -3
         },
         {
@@ -1494,11 +1494,11 @@
         "tejas",
         "pandit"
       ],
-      "what_happened": "Hardik verified across current, retired and section records that no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matched Morris's forum.",
+      "what_happened": "Harshad verified across current, retired and section records that no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matched Mervyn's forum.",
       "state_changes": [
         {
           "entity": "hardik",
-          "fact": "established from court records that Morris had no recorded appointment or tribunal",
+          "fact": "established from court records that Mervyn had no recorded appointment or tribunal",
           "valence": 4
         },
         {
@@ -1529,7 +1529,7 @@
         "tejas",
         "pandit"
       ],
-      "what_happened": "Hardik signed a police complaint supported by the verification note, the bar record and copies of thirty-four awards.",
+      "what_happened": "Harshad signed a police complaint supported by the verification note, the bar record and copies of thirty-four awards.",
       "state_changes": [
         {
           "entity": "hardik",
@@ -1646,7 +1646,7 @@
         "pandit",
         "dhawale"
       ],
-      "what_happened": "Khot read aloud the charge that Morris cheated people by falsely representing judicial authority and inducing transfers through purported awards.",
+      "what_happened": "Khot read aloud the charge that Mervyn cheated people by falsely representing judicial authority and inducing transfers through purported awards.",
       "state_changes": [
         {
           "entity": "morris",
@@ -1686,7 +1686,7 @@
         "manjula",
         "bhaskar"
       ],
-      "what_happened": "Khot offered to record Morris's cooperation for a narrower prosecution position if he listed every award and admitted that each lacked judicial force.",
+      "what_happened": "Khot offered to record Mervyn's cooperation for a narrower prosecution position if he listed every award and admitted that each lacked judicial force.",
       "state_changes": [
         {
           "entity": "morris",
@@ -1695,7 +1695,7 @@
         },
         {
           "entity": "police file",
-          "fact": "began receiving Morris's statement identifying affected matters",
+          "fact": "began receiving Mervyn's statement identifying affected matters",
           "valence": 3
         }
       ],
@@ -1726,7 +1726,7 @@
         "manjula",
         "bhaskar"
       ],
-      "what_happened": "Morris identified the earlier matters, admitted he lacked court appointment and stated that the first twenty-three awards had no judicial force.",
+      "what_happened": "Mervyn identified the earlier matters, admitted he lacked court appointment and stated that the first twenty-three awards had no judicial force.",
       "state_changes": [
         {
           "entity": "morris",
@@ -1735,7 +1735,7 @@
         },
         {
           "entity": "police file",
-          "fact": "gained Morris's partial admission and award list",
+          "fact": "gained Mervyn's partial admission and award list",
           "valence": 4
         }
       ],
@@ -1766,7 +1766,7 @@
         "manjula",
         "bhaskar"
       ],
-      "what_happened": "Morris refused to call Manjula's award worthless despite being told that the refusal could cost him leniency.",
+      "what_happened": "Mervyn refused to call Manjula's award worthless despite being told that the refusal could cost him leniency.",
       "state_changes": [
         {
           "entity": "morris",
@@ -1780,7 +1780,7 @@
         },
         {
           "entity": "manjula",
-          "fact": "her award was omitted from Morris's disavowal list",
+          "fact": "her award was omitted from Mervyn's disavowal list",
           "valence": 2
         }
       ],
@@ -1803,11 +1803,11 @@
       "hidden_from": [
         "bhaskar"
       ],
-      "what_happened": "Manjula remained in possession of both keys and was not told about Morris's arrest or the challenge to his authority.",
+      "what_happened": "Manjula remained in possession of both keys and was not told about Mervyn's arrest or the challenge to his authority.",
       "state_changes": [
         {
           "entity": "manjula",
-          "fact": "still held both keys without knowing that Morris's authority had been exposed",
+          "fact": "still held both keys without knowing that Mervyn's authority had been exposed",
           "valence": 0
         }
       ],
