@@ -307,6 +307,18 @@ function rank(candidates: Candidate[]): Candidate[] {
     // occupy the top of a triage list however well it scored.
     const blocked = (c: Candidate) => (c.clearance?.status === "blocked" ? 1 : 0);
     if (blocked(a) !== blocked(b)) return blocked(a) - blocked(b);
+
+    // The scout's own pick leads, even when something out-scores it.
+    //
+    // The five sub-scores measure what can be counted; the pick is the reading
+    // that weighed them against each other. The screen already treats it as
+    // special — it carries the "Top pick" badge and it is what the next step
+    // opens — so leaving it to fall wherever its total put it produced a list
+    // whose seventh row claimed to be the first. One of those two had to give,
+    // and it should not be the badge.
+    const picked = (c: Candidate) => (c.winner ? 0 : 1);
+    if (picked(a) !== picked(b)) return picked(a) - picked(b);
+
     return (b.scores?.total ?? -1) - (a.scores?.total ?? -1);
   });
 }

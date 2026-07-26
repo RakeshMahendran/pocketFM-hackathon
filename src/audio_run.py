@@ -23,6 +23,7 @@ import os
 import re
 import sys
 import json
+import time
 import argparse
 import datetime as dt
 import subprocess
@@ -86,6 +87,64 @@ def write_status(story_id: str, ep: int, **fields: Any) -> Dict[str, Any]:
         json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     return state
+
+
+def recordings(story_id: str, ep: int) -> list:
+    """The mp3s already on disk for this episode, if any."""
+    audio = DATA / "stories" / story_id / "audio"
+    if not audio.is_dir():
+        return []
+    tail = f"_ep{ep:02d}"
+    return sorted(
+        p.name for p in audio.iterdir()
+        if p.is_file() and p.suffix == ".mp3"
+        and (p.stem.endswith(tail) or f"{tail}_" in p.stem)
+    )
+
+
+def replay(story_id: str, ep: int, language: Optional[str] = None,
+           pause: float = 0.7) -> int:
+    """
+    Walk the three stages against a recording already on disk, synthesising
+    nothing.
+
+    Recording an episode is minutes of synthesis and real credits. Doing that to
+    arrive at a file that is already there is waste anywhere and dead air on a
+    stage. Nothing is generated, nothing is written, and the mp3 at the end is
+    the one that was always there.
+
+    It refuses when there is no recording rather than miming one — a progress
+    bar over nothing is the only thing here that would be a lie.
+    """
+    have = recordings(story_id, ep)
+    if not have:
+        write_status(
+            story_id, ep, state="failed", step="voicing", replayed=True,
+            error=("This episode has not been recorded, so there is nothing to "
+                   "replay. Recording it is the button that costs credits."),
+            finished_at=dt.datetime.now(dt.timezone.utc).isoformat(),
+        )
+        log(f"nothing to replay for {story_id} ep{ep}", "error")
+        return 1
+
+    labels = dict(STEPS)
+    write_status(
+        story_id, ep, state="running", step="converting",
+        label=labels["converting"], language=language, replayed=True,
+        detail=None, error=None,
+        started_at=dt.datetime.now(dt.timezone.utc).isoformat(),
+    )
+    for step in ("voicing", "mastering"):
+        time.sleep(pause)
+        write_status(story_id, ep, step=step, label=labels[step])
+    time.sleep(pause)
+    write_status(
+        story_id, ep, state="done", step="done", label="Recorded",
+        detail=f"already recorded: {have[0]}",
+        finished_at=dt.datetime.now(dt.timezone.utc).isoformat(),
+    )
+    log(f"replayed {story_id} ep{ep} — nothing was synthesised")
+    return 0
 
 
 def run(story_id: str, ep: int, language: Optional[str] = None) -> int:
@@ -175,7 +234,12 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     parser.add_argument("--ep", type=int, default=1)
     parser.add_argument("--language", default=None,
                         choices=["en", "hi-en", "hi", "ta", "ta-en"])
+    parser.add_argument("--replay", action="store_true",
+                        help="walk the stages against a recording already on "
+                             "disk, synthesising nothing")
     args = parser.parse_args(argv)
+    if args.replay:
+        return replay(args.story, args.ep, args.language)
     return run(args.story, args.ep, args.language)
 
 

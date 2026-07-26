@@ -30,6 +30,32 @@ import { DATA_DIR } from "./data";
 
 const REPO = path.join(/* turbopackIgnore: true */ process.cwd(), "..");
 
+/**
+ * Is this episode already recorded?
+ *
+ * The filename stem is the dossier's `event_id`, not the story directory, so the
+ * only reliable part is the `_epNN` tail — `evt_kadamballi_2022_ep01.mp3` and
+ * its `_sfx` and `_hi-en` variants all carry it. Matches `recordings()` in
+ * `src/audio_run.py`, which is what actually decides whether a replay can run.
+ *
+ * False is the safe answer: it records, which is what it did before.
+ */
+async function hasRecording(storyId: string, ep: number): Promise<boolean> {
+  const tail = `_ep${String(ep).padStart(2, "0")}`;
+  try {
+    const names = await fs.readdir(
+      path.join(DATA_DIR, "stories", storyId, "audio"),
+    );
+    return names.some((n) => {
+      if (!n.endsWith(".mp3")) return false;
+      const stem = n.slice(0, -".mp3".length);
+      return stem.endsWith(tail) || stem.includes(`${tail}_`);
+    });
+  } catch {
+    return false;
+  }
+}
+
 const RUN_DIR = "audio_runs";
 
 export type AudioRunState = "running" | "done" | "failed";
@@ -301,6 +327,19 @@ export async function startAudioRun(formData: FormData): Promise<void> {
   if (existing?.state !== "running") {
     const argv = ["-m", "src.audio_run", "--story", storyId, "--ep", String(ep)];
     if (language) argv.push("--language", language);
+
+    /*
+     * A recording already on disk is replayed, not synthesised again.
+     *
+     * Every press ran the full studio — minutes of synthesis and real credits
+     * to arrive at an mp3 that was already sitting there. `--replay` walks the
+     * same three stages against it and generates nothing.
+     *
+     * Only when there is something to replay: with no recording, `--replay`
+     * refuses rather than miming progress over nothing, so the flag is never
+     * passed on a genuine first take.
+     */
+    if (await hasRecording(storyId, ep)) argv.push("--replay");
 
     // Claimed before the spawn, not after it.
     //

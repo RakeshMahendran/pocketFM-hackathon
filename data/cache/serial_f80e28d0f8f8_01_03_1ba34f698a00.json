@@ -1,0 +1,413 @@
+{
+  "stage": "serial_f80e28d0f8f8_01_03",
+  "saved_at": "2026-07-26T04:57:05.557782+00:00",
+  "response": {
+    "id": "resp_0d79bd04085de9dc006a65930507f0819a93ce7350c29f3264",
+    "created_at": 1785041669.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_0d79bd04085de9dc006a659305e594819a863e703151981fa2",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZZOgYHKMwW_h1LQpd1V4qI6pHu72hn5UGSLgWYq7S94aSaBnSywi0VqC54tQ7aqvwzcESxkLWENVtN71r-CKfUB4a4PAbo0rTO6Q6U2edLslIRd4G-TrKH7kdH8POYqJvtsWyoeA7gPev_xXZtABOypY9R87F3vMdsz62hL-sLK2s4Bkqq_q1_uhHqwnAl8CC-ixAVpBZDF_QQNwr_DRZTrPsX-poZyMeaqOjWOANYOWtmu76f5c56j-m3Auv48HTmS8xO25vWqxzufsoUCVIWksoHCS60r7UVSS172Rwe-pLYIQXHoymrkwt_gluYsn9frsZEstPzQrQcabC9ozI9i5pkKhbw7QYpy1kIv0_Ak_XSX50och99cqMtY2QGqF1J2-9jIhGmhS8PMs1lwNoxWBTAA8SMFJdAU5dyT-olmxVsn027OsgFGLVyivJ5Xk8oqQ0_beDHgUmOQshrU5fQ8t9kU5clVw5MFqM7gF9SK4TQ-V4WPEDOEetL71vj0yXIRjTteyMInZPRGXU0G98V5IEVin3_3Byxe47A5J-ww7EDBhjrf33XMrv03NVD9l59N3pE7zJGWdJTVhB-wvTmzBCmR33Nz7glc73lkB8ceEuYrhUzWXnyU08yiOXW9zKwNW2-mu7Y-7jYJvEMg9f3b96YC1O7LRb6eR-aBUy6su7Dar97jGOOeydAU3v8xRNTC1BQafvypB1HnQL1mLDI3b87FeuIn_EsfqI4FzckO4Xw7x0Rq6S1Zn-YzSfclK5fqLKoFa7ViVLanMW8rpMOQhwItaVD1-vpDtWiGRBJC7SasP8eP3l8MoI2vE48QP3u7R04wDqBWCZKny4nqupb4WbbDmOhjWFsSgvf5cSbbye8ZZudltm_xTSBxwTZw_nd_YddMXHBri69LzARQC3o8ejos2BY1XS_iydJ7YDZsDKh47qwdJPyIKR3EKDxfbVac7eGIJJiV4f0j8TGXhtcmFue_99MEdvPJbu1CVkqSSVAhcAV5mBvgjj7IiWdiapiSyHfcQkVJX1H_2ZQ8ozriLdMVZ3sMY26uovFwfpE_rU4gUD9dk6ug4ekIeYRfCcPEhMPlsRV_G3B7F0zO6pWW3TIV_TjaW56bIHbtsJj8eJSkmDqF4Ze6PAaF2gYDXAmIkWft75oOU3gre1du2itCUqvCgrjWCzT-QhBso8hTfwJzou-7xnS2Phjabszgl64XyavuCVyCM08Hvg1BXRDRj3oqDzx14dUnlknT18-1zIfxO5C-PDPM2F1Myi-dSRHGnsHFAGgtR1awNjFEzz8ixKxByjc2lE1HX05Ga64-16KRy3hla5x3gcOzjPcQzwktEWDOUtpvL9vJvXmScsfOXth1TmHGV5QVpx__sO4ckv2j8XNpDjuDwe6ec4XCWa-3jEahCACcV58vEA1iYn5K9Tk4fJt4ozZTMK_KjPbNpzUuI8TaQLDU9AmYEI1e37vH-1UzYF2sHMJ8XTSG31rQOQvP_FlpO3B9C8G4p3AG9z1AWiOihLNc18Pjj8SwPm0ZW54RhYdGfl6_suM50y0kWR2ZnjNoBgNyn89XD07tD1S6GPI001doXYz428H56RDLxi4yph1ftmRkn5Q8oCIoLRRcqijc2fRVtPbSHHOKQmQhoeNdiC8BZiqTozZmbnNnJqJSaswPkpFuofpnx8W2tX-nBOESJ3KAUbr0QrzTHH6PuO6Hq4wCjNR3OeLdyYPzxzDD3BsHmKfp_drYcSGNOGi5-iP5tjHpPfTuCBKKAbXScFeHGFTQW9DgV6CLf8nHNkGGPfKnfBOGybauENoUPlD_UE6xwqLqvf2S1Alf818TW3vstCv97d7DVRR7Gh9FxO11uLvdKw8TQuDfYqT3PU8ANIrllUB4bDtCVH5gLmp05ob_ssOWTOeW7jaTXMaRb8u8fRP2LL-jKJBSGNSW1jgbkI4iTqKK4VSxJvryyXa7lN9Ig8WqVKs71O6LZUlinuy08TkkRyyUJpJARjWVIq6b6Z3QnXMgTPj3g496eDpTfKYFlDn5dRv12XWPABKSrOeD6hNadmZCjPvqhPMQRHYHlxY7H5zAM8NlW-xtxSwT96p-eYGs8KE7rNN9dHsXc1GaRaWIXRRbMjEn7g469GvC__kosdti7X2myiG0O52-iYlFWd5Flxr1NA_e2o5Cy5qPOe9oqAeYgDQaeVImE9EfdJ7I3tIrCaWFj0RogkzMcpa9AMnRSe9qItgOuD_C4GWGRqKrs4vNozT8bIhaDwOIz4K-paDDu7wjv8eJXtdqj4cd-xWtraM4F83AKhBe4ybXp4-aAIkXzDTH_1KD_n3pflRpRJu3AZJ06IlPBdxlhvXFYzNKugnySVFJSvnf88LsLysqGH1w22pGlAHZhTeMhmTnjCKTyI1ejfOEWvDQZkXGlBuk6hWDuXgYY_609lC2GaUlzo8I-m4I3QfKZC9BU7I2bB-NV7Ian3lgxMo_G9yJ4s0OivnGrXhiQg8kUxyOBEIxq7CIk9u4fIRBAa7OLkTU4eHdDpHCEDA17shSi6f-rt5_YwVDkQYvqrXNjVEa4xCp-J3D1R8d-zDADfbSBj0Kf56TnWjgb5lPWGW7gP-F6Iv3bCsmd9bDA8IZjIjNH9fQatfpqtZMZuMaQoxIkN9HmyijtApqfk1rx2Ua_wekyYqP4bBEDvOxeQKznXZYnsmMc7PKxhxs5xLJWDCntK1VA5i0Vehc8eBHMEksrJArnNWxjUkINr15v5j4V-Af9CJ06t5Pq-Oo_OEIb5l2UF0tWi2JE_wIdngnmjW1Aoa3DrVpgKTkuIavCFBH1RDOWDAuTmaQq8zeRKmGNbiedQiGJV3moS8HIELjw7tpUaVvjCi5zXlYnFua3FTpPqZXs5AtWJ8JAtR9wjv3nbLjVK63Qe6ukuw-0Z1uuGiG4ro_2poH58w6oqNAe0e-zPPV6dMBjfED94VunEfbuTgwy1pKghY2WQ2rabQTb5_kICgw5Q2dX4Rmv8T7zsolHkVPzV0NuxT23oc3X8HAQV351G7fif6nYRrgOaHAEfZbP_Yt0IZWbeMwhs02iBKSzsfv2sWtIw9AdLcUDSFinmDApBsQJ305Tjl7Cy1n29AM0wi-FifKev6IJNBcat2KVHBPRPlpCxDHfhcZ6ZKxc-O1unbFPH4wtoYPf-HzTcnmgwSGYYGDvNAwt9ibcGDZPVfO0nxLrR4RmYpJIOmQvwBKsX866Mp-DSBL5BmjXiUSG-Zn0bSgf9fXzK59VjKoAQgDhmUHGHreRrHEgWamgV3WKTnSXVFWpryaNS8ILMldqFVIBE492KM2AknTdM5q-wk-KhlWIhvhv4RsOqnHlLiFGQhbERIw252f4IufeKNm12aGOK9U7_DCzkUR0oFacy6NSwLWc1zhnW61ZpMMgAri6wL6FnQXN5A2r-xQhAl76hqnn7XjD1ELJulGzZ_xcSUz8x1xzKZbknEfnJrTGmZCpcaBpECo2mQsSxxOJ3S9k2oULX_hp9lr3h-2LMuuZZUi6viE6_FfGKCFuFCEeXogdvazJit8WDryFXWOXdOCCXv4_gfY2hpeWyoZ6x5WSlMT-K45VMZuT71nZrqxlQNpn94gcfXfdR_g-R1VRXLhWf6CnIM4CvBSGqh4noNgV5YlSysR_xKADg2QKtyrv6lcyHndE3fpys-ITjakLOa5epuRgy6yaFocM4EDVe6FCG_A04Q3cTyRZmPOtOUNUzN0is66_BIEDKaXbJgLLHbMAKMGGbG6UP7gGLMoAH6JWvV16PNr5Rds-iu4NgrwKLwL14RC9xBbkewR1ZCfutOooy-gnzMOZJP06UkC68SaybUV8RTu_-291TT2zyqwb-Vco2evt_z8Ls3XNt7KKb3XTLW4g0_Fj3f-X2ZrNjZrvUjhRgQtznYYZMRxB_AtURfEU84Bdb-5WKvqCVounsNL9I5S7JfeWvLepTaIo_BU1fp23HZfJ_iWUEYtOLXpydqGY6Pnb--FRp8MEz-zNuFsGrGSSrAy8ar0v_mn4Xotz",
+        "status": null
+      },
+      {
+        "id": "rs_0d79bd04085de9dc006a65930e9488819a975678c1746020d8",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZZOgQp5cHAGwz0GepBYrkfYr3XElFo6HDffoJ1PJ1KWlTqwItNW4xCrxgByAASLxPcMODNespygsUbBJEWdmn7smIdjStnqle0nK7oPaOpA2Eh-zQq8Te_sdNwUIRFtaGj4kSpL4W6OShmrCumawjiBfviIEpXZtDUymNNwQcyTyLsGzntbyPu9Zw28KhEKn8yoEXtmEtR9QRDH21pth3ViAPhBZYFY245h2llU1MiTNpUdlgYLnreimXgz_F8HQaEn4CPht0b7_XvPEc85VPeE3jfNIJpg5EKCF6psQNhz2UtAqD2JfphYrVJFo4IB_kZE7xLX_4Yy0atH4UJdMpJ-38lavQ0Y-ROXIC7WTQGV5jAG0tmpYIIOsRxZPsfLtgRWsxhAGcjudAvt2uwx7be6UpRUywEka0jA1vo51QcT_o0zOr4LT7KKL_sZkaA1US7MNeeIzaeqlPVbUow0B0pWmVtbxcdMofceiU3MuhzBuFaAos51vSOREXALGNOhR6G_UStn73_HMhxkEscsqsz2seNHNMQDVaOyDGl91lkhbX6AN51I-UIDo5Q4Wtgg7TmN3BA1kvK59lXZnN71PTP_YzAwC5Bx0fZMU_dGpEs3E8QwKLr10h7next0YGUr_GJ-o1FF67o5c88PmLR04DJiki_B5ntUNYN7qMJUIsx3C3x5kn2M7KUaSnM84WShXsdXF02WzzcdLxwqwrIuHfdVmA-fVOujvNcDiPDqE_enHeK6XP0FOgut0ohLI__pvloK-FND4BNJ64d95UpYLLjmslN7tIrBfJxS1yGO6XvVp5kORfj3vvDYZI9q9aUpjncStcwi1f4rmRFXtn3uypnLuzMJ7DTjcOif1XkIPJLke1EtB7BQrWahduxiw9IQxFMG4tVFnjEo3FCCa4NeCF5tt6OqsxDBKoNZKCQqex069z6plv-A6Y4_6nqH0zii2_T_xkVw3CvUYJMme-RjlvMA8mASzgADSUT4Ue814nkGxjUC1UO7FmPRuoQrgRDNa1iBJsRCKe9rdWq3GFH7ZfGk1p9EakZJBxRPSr7TnUVT7ye3lStYNhuPf676HiXtLjjyCHWtw77A2Gn7eE7y0VtAFZmg5eaA6POHbk_1nIuo6tKFcSa95Cy_jXCP6AWmyN8ZqRMHPaQWTzjXLsCr_RPLQmXnvEqbHXYWsF_HBSNR_159zUs-r9RfEMikFVzki5_SmuI2UEbfgmLdZ-WOqNJLp_r7SkfHpgklWiISPSvh317DqaGQN7o-0RH3TQ_lGpb8tXF8TcJE7E2OJkyvTgtZt0K01fMXnaNRogZR4S_tlo8GM1CYXhku7gc8xExXQHg7Mbq8tQIRPv_Qlr87cdQJ49R7vz79nwrlgtDHSeeiy04JoyjXJV1IaOrMvT0uArTMBXorOGIkhUBKfO8iZZUVKY8ARfepAy-uuqKf_MyzXkmJwmaQtELAkq9qsOVQ9JMrD1LT9S3rRP4X6G2cMW1GzzCjLw0An3PdHg3yLW-VLkF_B3IrkGvfQf2FtCk_EUtcSINdGmvBJCDeRp6tkKi-rEmjVJnrjd60QiOgk4kXf4vjYknA31h0x9ny2-IYzWsAyNi5BaR1mRFYkduUA57ImCGgDSVrUidBxteI8VZPC7xxh4alv_ZQLwMLTfyk1D7FBXw4cSYx--Nn9guzTuDeUQCgov7ox1E6boumB9Bq6i-ryb2yqcByBh-5Af4jOFPXyGnQV_OQBU9856NA11UXTNcqbQ3KtK2Ci_ewnO7e_wFjrW480eBdwgBagEHfwDGjFLDhdgOQzy74Wqp2K4SpGdger-2aLSZF8EBrnFOP09i__9L9Y5r_trsAkuTnUZJvc2DkYgCgG16zt03V6bGCPJs9H4msDDVc8sheS4PI4tPxw9oObKsShRJYZpWNPG3gxTepGr291WszQ2s_MbX7pBiCRG8iivoZAdvCQbHMn3VB1Ac65y9GWfgfeqfxg7PUV87gQNvVk3oXjD7o9nnqmwI1ngxznjGpBuRbEnlgzZueL7kUXkKddoyHBrA0VeY3mfMbdJ6iYBkpbuDN8kUV4SEp7N0_RpyqLDC2zNSAf2SkzyzQ6UtzrtJYOSmUbj4r4WL0voO1PwrfovbP45qH2dFkghUD7EB_yMXr13FLkoi_Sv8Igu2RzBKae0m9NUGlqUHP85VMxuyeDUcChY1E6SiTbvmkMHmt84_7qiJu--EpGD5uwEJxyAKMHL_J2Z4LBqp9w-ZGUyLs-Wa4B-Y9otuSq9k0TKA_aICbiKS7Lpkxfkf9lu1gQ3jgv4IE2tFwE7sfk8DzkC5X_Ujch1k7fbLCbwmZjKbjAjrjo77BjGCtk1WGVPp4xPjbmWqQ8om9WWrAHJiM3A1w4wUAIo1WipJnw7L-FtGOjnRJkBd0Skf0rx-LTeipY0b2Bebt21XJHJBBHtpL-jYr79EnvPPD2oL-N0o0C4T9tlMXldKTLKEy9ouD8Q4HlB5XmvRnv1vPFhxsJOqk0ClxDLMZNQD3chFWrWJiy8Kun0Zip_w93m8oYNNHLI7fK_S7OaxY39RwwpTnVfPe8qcRLzDgN4tdxjEk0FdFb-JjvrmO-Y3jivx8vuZOEdgpXkZSYul6CLXSwXQrVol5qjcRJDG9q1dbHZyjon3wsOTvYSl7usT9hTiIM5755foAd42MtN46kHeFwzhYAyxGnCxu0ivM5ASbHZb8MscLaNe3Bms29Fu3_poB7KeXuxAHSGU7w2rUvlXLHd3iE26yCrWZpMwMXqvvikPYdYEClQT6yQYLwJ6AxtQT9RnmipjvBCH2cyaCZPMBYkam9Ul_xvXuYE5PLbBJpFgMkpY5vGFeebxoO2DhrQ07hFv5oZ-qER8WL1cEk3XQsbSqwqaDurC_UzWb87xYwYjbu3xEq0OQClRNmSY3o_nBjlKE1sruy5JGBLuc_nnZmw2P3I5SRLdWobIFO3Yf2gnoEfU4GkvpvoWnqGGj40DHTXnGDhohmoUV3uBBFU_bMm2bV8JDtA_oTkenMzQqMQSHYWP2jwTVsRsmaxHQugeDi83h9yDG2slfJWN420Co-iyMWU_Q5n6Jul8AbX0l2dANI3Gwiy2iw-_OqyG1i9t2iNxhMTY1T3WGeM9r-rt3jXca1WZMtEyTdSI7CrYseFDO3lY1zck0MTYgS8dbFaYz6-z_RCKRiyQO_qEp9tI3heWeqAF8S7lFK9gS5lmLceL7SCZ50ENQvQ0uhQ5_q-PNON2yFdi0xKuPI15kZNF9KTMTKwtj2Y50CELm9l6fGbMvvvIT9Fe67b8LonkS9It-2Xn28M8Fntl-7MXrYt1QVPcvZA7p4mOYd836Hp1lExc6POa1l69dhplMl097l1GXl8UIX_JkixleWbyGfh5So4h4oT_wAGmW2dlLRYyFsnaWtVKDUHXjZWKB6pAzBNpTS5G1J8meOHUqCkYkIc0FfddUww10Kyvb6wuB5ld4haftYMkyE6ePYdqSK3DVEMlz05FFIb_8tEfOCbIp4VXo_dJsg5pedWj4XO8Ab5H6cr4CyXFxcUy47xDJbNShxb4z9ErRG5xVtEFDmQoxPcqI4rx2IqET1inl_Md0mOoi70bs-ua-pyR7KGZnd9bp4TeBZSer9Tg8klaIjAdJX4eRPn_LbWSv5Fs80MGklp8Fwm7xkGZkJlHu_FM8CMA8oQy2MHcQ3By4mQTQYAcRFPrWAi9kMs6yhpuK79IcBBBpqdDNUkSKe78kSteha1n4bcFlMwTWLs5n7OIaa-kWDbRLDYx9tW3TxElKWdJaHTfkB-g7XsYpH3gh-jIyIWA-v9L6JqQ7v15ylcH4lexbXHQcbrk_5JNx41gc9WajcH0dSO4eImx7WXHqcLpukg5retFDlS58rsIY2hO09Ypm0txD6Hs55o52e-kpla2KtLaUitZdIHTiTRCXfadmh_xYEmDQ=",
+        "status": null
+      },
+      {
+        "id": "rs_0d79bd04085de9dc006a65931904b8819a85f87178fb9db2d5",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZZOga8xIS_B555U6X8mRgMDls4v3wFNO_iq5Xr9aG2eitSlNIodvGHI8PTQIAmZ5iNOyeK1t5GqhxFUw0UWZjpKpPLZ4Ck_7JbbfcB4oCw-6BmRYW9KVTPlEfuOqpGbbuhcHnlMnCBivUuFU8LYlxYAN4OV_XDN4BdnBYj7JROYZ0GXqPOUveZ-JQFX843LiNrgmigHO-Zv0V4OVfw-YBlF1mzf8K2fY7ahdzbO5NNecRt3s5WUpIvbPK7yE6izMhXJpOaNrRbbKW1JboKo4mLJASkwT9WNxLVvnAd1gPhuVDOIaLLLTx-UXl5jkHDnlQ1-UnAB57Szmrn3LbJxKoTRAK0ABCNCBtwEr-y7dNYbmJsM-BcuEg29nfog3jCHSfjf6v4_THy_6sqWmkuJ87cKNlxUhgGGvP02cWjKj1DLYhWm_Spy18CN9BnLpgN9ZqS2aaU6gweoV-UxZs57Z17MhyC9l9K5jaQ2sr8lknUJdvjJfQgeRyMDnmu7elquCG0aAUt58ynO8SKMNoptM4og8KCf9fDMBzC2MhyRezQ7XrtCPfR6hCyNE-5vbXqaXM1AobI9Pf15AG12Sl_BJQuTSc4u9gDTam0EdBBpDKqK6rQjtX8WKeTTwOq8wFo4KuwcHQZXFg9YwvAPg4w9aQDuDS1pQ8XIr3dwmUlQS-LKyhbSorutvWpAOKh-ukRnh5yjxB7L1BPEdmJ-nFy12h31i-0dWyGFEaJd0nS9ek-QU0zjIvnbtEqAr9S94DpAVsxFf8jLEGJxLLNT2kcdJoQN2QrPHUYdIuDoJNazaMh7u1qr6T2JmuFvaA4s8UD0H3je4JqeB9JJuzq3gP1APMB9Kj0vdBYEof9xnL-PTGU5JkDzUlv67HQAhKi9cFyvvbeIklHANzR9tI6Fb8OKmeJFZkipze1pXpa8WFGyXIoY94zi7rCxchp78uaYgBgcqmRXVm_40swiyeO-tQTh14_Ng4slbeKzwLsprXP1brGuxSzhXE_8pUSUyaVFRFQYOlRxjH4xDDmx6XD-rEJA-0gDbh4tNsu-CXYE7m--TOxhptimbo4Ltzbt8QKVd6IxxqBpW5hYEWcx8V2fEYC3xUchzbFrXeZe6vAaDvODYbr1hROFQVtl78C3kfyou20Y4qIRaMyX3oH-0Tt95zf5iZR5N329jy-jgK4S0Wsx0MdcLfjzocWjRx4_Gu_joN22X81_LpZcRVNq7PZAcIyTiOT0DDBLMeqD3pWbsFQhwsElzOpm0p0I4Gr13ahcW0baklLhDqXMQb1a3oRFVZAD1DaxmiaZUXwir_OYhNpTKCk4jsEBkTNALJ-cA-bSG34pknRJyp39cTwj7YHyojxsIwWNk2pvdqa4icNGbbug6Ryn460OBQgQ9ZffStWb6-tHx1U_27PKIIPBr1QZwCg_l4J8z7D7EzkExn5_P-LFBgUPDxGlg_4q_s7fo4172QI9lvuviy20geYiafJ6kAoDIeZILY5tJ7I9kJCqbsBnvgGQEvbTat9tHN-0eljIVthXHmARM7T8K4BPdlo0uOYHKmJRK7_A_Rktw3Yf3flVKhS1YfVXi_2DrNILpSllpi9nl-qVCtCfr7PGmLrTLr1qXl7FZKcsFhiV1vubeXNOON_We8rahRZYgYLhTSBzGTy_4oQKDzf16kZafY8IP1b5rfE70TjjGeBUTuOYz9pH6B0jeOdx90gMFLL5llbNOCWtUGK1ULJopBuijisaTnBOOEj1kzcuQb8nqFwSxGJKkXiLTFqoVSQLKpVviZtqbFIz6hbqq4P2YpFXDLDuJdZrtUygI54QsYsJr2jS1w6hI6noe6GZe4ynEhvl1NFeRQLwgENi-Sf0KIK6rRqId86V7OHywLvNRdd2G9gj3h8G3l4eaWPGuBMB3kLjh7SEWMsTensieVdHQ3bDQke6PwTRmuOaoawe5vTG5FD_iN0CK2GIiMiVepLoD0agYGuB37rW6sglgtPiUKQIqvD5NfP3ZC-Oa7LP5wvbQm2PH_z1CStpQi7gFshIsO6fzTx3zWhGt8yg2CGkUEfAMr9SfR8wMm3kJWV0vqBk0b-9cUYbLwFfxi1OL7slTh2fouJSOOqRQvbPEF9fNNSW5no3fWWaJ3s8yvb7VsXAjfB1cFbdYcQC0ePjp0_aUoJszPLbGKp_09yQPyRzrxaSF_4ghEZc-GihYddulNhrVDJ_WnMPzkvceOK75vX3jssadmhPNbOk9hF7Pa4LDqS0QWYIIrEvydS6ns33vntGAoVUP9hiO-LOj7aJZncA_8h1hBgbjo4pzlRmraMUFqONjx1M5PIwGo6gz4qntP0YmF4xcs58LrcdXseWoG5BfkCFcBPuCtyQQic1Df0YKn98Q2thI3pOkHKnDzLGNvL_cJ3WSYHXctU9ywAsxVxjyCxYjxeMCQe_aCowsXYbqD0HVCQhAov4R3RmLAjDSc_Hq545zB7H4lTdRqoebQndymPtvIOF8zRmHO8q8WhgicPiKiRocmSTF8Xt1I2G7LC02R0FgxSta86D0w4oSoXYWLKf6JvvyZ-zzIaE93qx_M0DZDNHnnMz4nslT7X_6kDgSrJj_GI6KoE_mev-Jyo6__DU5epSxrO5JLaWlCgO2ksrm4pBnrpMtsLTuShZvRxKd43iG9SwtzeGyV7T4vW9s9irIv8XCDbz8Wwwc5bFM_a-hnm2BCdPJCAzvtBUV3e1WnZHLLJhN7BOxNbZ--7-Bi5egmllixeZ85ryzXI8ppuZe8s3NUdRE5IYtBw-Nd7EkMS-AE0mzF3zndYNBYTmhAexl0aRC6AcmXFyEIK_UEv9GQS5qQR_ilxDSX2KSS9CK4CkOvJHWZhKm7rzRrpgPVslckTtBZd6i__DJuhpuvsdZOU75xAT-ruShKUNMc9WxRnEzTZrgjjJfGHPB7oEB0PaMrwl2eoCG1oZYOIaiKPTz1FVAb0cCKkS0Xk7lQExnWMQVyr4EgWiVUU_bqCoRLCkar-lT7TiJGv0Y-YzKmn6pIHGMMyQEjG3w7sZcmlGD-_Pq8As2Dua75PFIgkQMFtPMSh_a7Ei59R4EVKr_rMB4zTIcS4aBkpK0s7wr4DQL6jicGFMMR2GpjvQFYO3RoPI3hyumQ-LDqxPY1R5X5sLs0iTCDaPZHZmW8e5MNE6C6bursPf-fbsJvDPX0ni2gikQ4nM2r0yQ0gxJ_U0x7v1yKKGwkzfhkFPrE-dHKzySsu70kl1-y_LIga86Ee_WOkMf0-DngUxGQjbmlAbwUvmPIrSeqg3Cu40aAXj1MQSHJgMcjjBB5NhqkKAW1ru_hUByCbfAHgZoti66A9Zu-CRiPjnbDHOtJrxtglmJwEw6LCPJUF3cbhYQ6LQkHgn5m6ox06UaPzLrf49jWMEIwb5ApHDno_It8JpXfZAOALkp-MacMAiuMtOxRvYEHSJ_KU-AA0crm7BtqDtn7REqFwnnP4ysI2Lj6BxZ4zpXzcbs2u0rI2crWah7Ve8IDboLbJzJTmHWZRCr26Iv9crAQMTx4szHOleO1IGAD9hbaf96AAG5dkVsZ3J-yT0kgaj3OevrZFZQx0NEVcVD1NXP8FwVBYgNTmtRoosIpg-tJP3bGoDpQFg45WxqgANBzM8_4UWH-evT-qGdGLsjq3eI6sM3n3q1OepuxkbqjzbIP-OR-yb8Q3UmxRKqB7tTgvmxPYUwaKlrsCbj5TDd13Fs9Bcz8q4i5J_uCNlaGnripovCz5fb0SRU6Faon2wy1oVJ4_WfQpqTcpqqFMXCu4iEMyMEp3sHoCahy8c52-TAJ3XjY8REHnDBNjqX9zDdA6C1cuZ-hjj_cesagLpX4H6Qyj7HbZ0NIxYhaQjCe92aSkHRVHg21DcHsm2HcWK1VFYCMdWpGIb-CbmlLZpdS-b_nTDxr5jO-bkrbw2JwT6bK62dREIfN2Py6YEFaCxSrj_XHDmq6ma_PllGK5ijtZaX-rxR5FKE1q92vO6vJg==",
+        "status": null
+      },
+      {
+        "id": "rs_0d79bd04085de9dc006a6593240fdc819abc70fd8813495458",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZZOgx45n4jmge3Uj2EgrkBHtrzM5aY7BygtJOR4gjU0VitImnTyA0DmJ3tzSb-1MiKTkHw9ufiRxixcITLFI04zcLPLvFnnQv-5czBJLy173_UQgpRonBR6OFUnTommYjmgfEs8d4Xs-G3_FjMXec8jjOjtlK2-hOVXpXFInzJiWnp-KKnG8K60aiCTpDZSzqg3ac5gtVBiKRCLuBaxq-K0Wp_55MweJYcxAFRbyJLPIh93eQBRCSl1fy7X8X5FhQatbj6bqRg6lzYtzcuKZimBAY134Bc2V60yfhtvYK4UW3MyfZtyLBsy74moY2Rpfx0TI1LUy_MfzjZ3pAio8k05Q9_U1Pl63OdD_Lrc4S9wuyi4BGDcMdLxYIic9MwPa5vHLqiUtrLSrc6AlkJQeTXlAfsD96cUelKWOQYQ_7TTsNJk3IhjHUbh9rRcwVnxy4ZPcTBwedDotcDtC1fDf-uNBZMdUtgMHsTVhbGAC6Y5hPT8o8pN6y7ZdjD4J4F23zqQJ43j4RIP0CAbtijHi4mhZe_KScSVlbSqtPk-zLtKCPtDQXrmWOJPChszbPBQ4FCAE7V1NKoI--hUxTsZ3sgXSGCsttk89tEV9EzolPUMj4DsCy5Pak2s6Yv3ZOwhnwby1P68XuCo8QM6_jvlJ9Sukv8Dp4qRMLu_ErFdsI9dFRFxAXGcGjeF7vwCMuw1n1n3YypefodjXNIANiKrFIeG5lKO_MO_nDPvL8cFNpyZYnf_TXUehXtRWYl03xyjpX1h_DA7Pdl0EgJU3LlUKWYv0SZWevzu9RfVS4iX5t_9FOj31s7QstYw4HKBE1C1N8lNyiH8ThoiKbnqxSuEPrWbanosseEiZ1HI5XNstroekYbXPAMUPzo4n-AZHu0PEW9-0TidvGLb96XubdywgvNHA0V7XlvZIvQrE4c8s_Rsp_NDG95HlrGAZV41pQCFTlaGQ6j27jLiQO11Px5fqpP3rYPgX6smhcl_Hubaq04QrCbvSeTDr-vrkm_Vk875ZgySTZnzXtrsDWZZErCZff-f89NpaDo24SKq2o-ozafbyvfWZWQhriINHDpYB_zvRRKTFXeEx1RL-o9RJXRFgfAr-Y7_gZjQTHEz-zl7i7uewynCFFAKwZxlUnWnmm63tUKGlXhEx9QhuJOdFWFRhpB3Hy9WYxuw7X09R169Qkml_YWO-cp1_PsgYq2wc6xxZYOtCeu7t1L-BGL3vYABk5Yal2c7WVbbwoqem2N_sxm1uP1-tiFC2VCHt9ltx7XUAhmRFm22qcejMj7Bpsc7yFn4gPjD-nxqS9AuasiPuTd-7BdorEo89DWFgDdSKhtZJh-4gx_Yl3ZzDQ-i_kcLJotzUS6g8_hgJPtnNn_Q-jw2uzBVG1XBfUTMmmJGl-K0Ukj71LTJOaJ9uOhUF-1EhT6zmJWn0Um6h0ymI0Q5sGABSNQX9L9PZAW6cUgZxNmW3cYQVONwCWJYaycIYbNXJ8yRj1NvcANW4nR-9cA0e6z1836XmYktMCMPlx5-I9ks7OTW9Z7_PcOtmOtj7c-7g4qXE1abLGio_njo104c3jrFAN7Peonw9vL1zbStPu14wRiVLmsbqnxySyj6BkAGvoBkG2AvCjuFJe7NwjkDTvNnJGXku26TMFwC0LbtiFvcC5Wea6e2v2sZZNKT-6z4gOVA5OkFWaO6S1oIe1bPgVOKM2FWl_Iqh6UpFohLl0S8xK9O7AejQ3mo-N60__Ur3bpg7RwjClzr9hI9TK82g3QRxNl9WRGCsXJc9tR-bg5OHzlIsLVVWqERFQaU2OA7aSYqGVfJ4xtZtQD8QlPGB9cwX5GTdXVjC_-tGznlw0r70616xgwOdagCtavrx8cbu1sWn2j2ngDbqZMBaEhPWZYJtgmiJas4Pl0aeqLJLtdlik6_nvChnF2L2D5xVEHF_WgFkV-mQb9PUf0-KDM_1IHuoMDf_aDsGbXPBxrknXunriK_RKKhe6jV2iNsxb9YliENAOCUYZlKyMAfMEK8lRemaEtWhls1X6JeS042OUBCxC9G2cEXmK6CZgWLi8prH5d8bz-0yAaStC3n-YU5KzowYtVKtmqcL0vNfE9xvYRzEa1AYMIrzTuHiA5viE_4rJ89gmJySJIW7uCaAhVF6XVUsjUZASJUXp98czc-IQjTvV5tbF_c5xYImY5L_1ZX6q22B2g-KiMEvJbwvW6BwV_RwUTybqRCM4ZXROZ9xlAuQlgxU1xwJqrTIyQ99hZ4Es5nEsKU1Z7ESI-5mq8eCyFRWsmW0oo2lk4O7CfiAbBex11P8XX40Gx0EvQImHDQL4ZJQX_DvT8bF19J8kkV_ImGWrLAWz4OSydjl1oaN5nusk22lAXmi1LCDf1upG2ObMzeD8t_jtszkr_8Q-PohMIEbrq3r3n5hW_iGZpPe4XrnLR1ye_fUerDi8Ao0vlKG23CWss5FkijZRJZpTDm9PTlFPy2CVP9w86DtUL0rOGIs5jMaalkyzIODkAuFIvp-HjWdGHyjbljpPIbXgT99iOOuQkvc6OnOdpuZe1UGU59cbiqAGcPM0pu6XhcobbbZqu8COY6aO4hug_XjDHO4HL5MtYssMNGnAASogsmTRY9Sm0mhY-2tDIYH0gmbakP4XUFdrKoPivRLryB9vSVy5D9RQdsQcisXdOkohfLfGHwLoSoK0EmSH6Os1JZEi7SqBCpI-_gMFhM30TDJqG8sRbUNEcXOAYMCRIhmQjXADWKsxcgNQF3GPr32T0alIQy_dW0_k7DhT4sgTgfdtJ4SD1dKvtE79A-fQ3Gu0lP2feKr1-VHcEahfwUXdZG8VRnjrwyxnQ1dldUAnezuCkDkQY91gMIONX74INiQDE9UTyMPE9RvZthA3dWShH7Q1PxaprhF4Rk4M72sHjDnW7ANMWKGgVLwXMSO7ymoCZbpfZKkM20Wq5B6_PWD1yXJJ4TjcKuIdHx5m8buGeIJiECJzBR2hQYds20_43cQ7oOk_z3gxg21Gv2haKyNRvRQWlg_-ZEPP3zdhtBUB7V5kYm9YhJ6biv1XdToHckND9mC5Cl5g5Zfm9ddv0pc0KsDNvsMxcHMBCxTn4kiwtaSy_-EvVToy9WhJqEEDMsDIZyED-jkf2CHK_B76R3YqVzdu6zFdOGYrIqj4JPE6NScMqkxSGTQMOfKfq7r0BZim3W6YiMDYSxzwst7JVxHskesfY-YmxSsVxPxXGwdwU7BJUx_jBvTmx-p1NWBwRg0yKLS8ScUwPYN9MWppQCESjS2xwmHXxr8n9K_VxtI0ju-dD-qt80BZaoV-PVpXdwfdCSFnTTm5KG1D4B8FIb3Jck9G2BpB6y4sJ5v6KN4QMm76qJ_BVwErvrCTvPZ3WeNblKWSIiRaGwxOLlDCAxvFU-hFmqyrfyn5TMXtbVoxeSTEvJBrZPAgI0=",
+        "status": null
+      },
+      {
+        "id": "msg_0d79bd04085de9dc006a65932b789c819aaa6b2f139df69a8b",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"episodes\":[{\"ep\":1,\"title\":\"The First Number\",\"lines\":[{\"speaker\":\"salim\",\"text\":\"Case one, Meera versus Harish. All persons stand for the presiding arbitrator.\",\"sfx_cue\":\"wooden staff strikes floor, chairs scrape\"},{\"speaker\":\"naina\",\"text\":\"Sir, before you begin, I require the previous case number.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You require it? On your first morning itself? Please sit, Naina. Learn the room before correcting it.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"I am not correcting the room, sir. The register begins with today's entry. I cannot find the earlier numbers.\",\"sfx_cue\":\"register pages flutter\"},{\"speaker\":\"devraj\",\"text\":\"And yet the hearing has begun. Meera, kindly state what you want.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Possession of my father's twelve-acre orchard, sir. Harish has the keys, the crop account and the north gate.\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"I have maintained that orchard for eleven years. She came after our father died and demanded everything.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Because he left it to me, bhai. You know that.\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"I know what is lawful. I will obey a lawful order, even if it goes against me.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Sir, that is precisely why the case number matters. A competent forum must maintain continuity of proceedings.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Staff, did anyone ask for a lecture on competent forums?\",\"sfx_cue\":\"\"},{\"speaker\":\"pooja\",\"text\":\"No, sir.\",\"sfx_cue\":\"typewriter carriage clicks\"},{\"speaker\":\"salim\",\"text\":\"No, presiding sir. The recording is running.\",\"sfx_cue\":\"tape recorder reels turning\"},{\"speaker\":\"devraj\",\"text\":\"Meera? Did you ask my new clerk for a lecture?\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"No, sir. I only want my orchard.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Harish? Perhaps you requested a speech about registers.\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"No, sir. I came for judgment.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"There, Naina. Four people understood the purpose of a hearing. Only the clerk is confused.\",\"sfx_cue\":\"\"},{\"speaker\":\"VOICE FROM STAFF\",\"text\":\"Maybe she requires a register to remember where she is.\",\"sfx_cue\":\"staff laughter\"},{\"speaker\":\"naina\",\"text\":\"Sir, I... I only asked because the first page says the register opened five years ago.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Correct. And a qualified clerk would infer that earlier records have been archived.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Then kindly give me the archive reference. I will enter it beside today's case.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You have been here for twenty-three minutes, and already you are delaying citizens who have waited months.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Madam, please. Let him hear us first. Small small office matters can happen later.\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"A court should not be made to wait for its clerk.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Yes. I understand.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"No, you do not. Salim, remove her chair.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Sir, the chair is fixed under the record desk.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Then use both hands. Kindly do the needful.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Naina madam, thoda side, please.\",\"sfx_cue\":\"chair legs drag across stone\"},{\"speaker\":\"naina\",\"text\":\"Sir, where should I record the evidence?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Standing beside Salim. Perhaps discomfort will improve your concentration.\",\"sfx_cue\":\"\"},{\"speaker\":\"VOICE FROM STAFF\",\"text\":\"Now she is looking like an usher only.\",\"sfx_cue\":\"scattered laughter\"},{\"speaker\":\"salim\",\"text\":\"Enough. The recording is catching everything.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Let it catch. Transparency is the dignity of this tribunal.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Yes, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Write. Case one. The claimant seeks exclusive possession of twelve acres formerly held by her late father.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Case one of which year, sir?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Naina.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"I need the year for the index.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Write the current year. Do not convert ignorance into procedure.\",\"sfx_cue\":\"\"},{\"speaker\":\"pooja\",\"text\":\"I have already typed the heading, sir.\",\"sfx_cue\":\"typewriter keys rattle\"},{\"speaker\":\"devraj\",\"text\":\"Excellent. One employee arrived prepared.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Sir, my father's memorandum names me. Harish took the original after the funeral.\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"For safekeeping. Not theft.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You will both submit your papers tomorrow. Until then, Harish will not disturb Meera's present access.\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"If that is the court's direction, I will obey.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Thank you, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Hearing adjourned. Salim, clear the room. Naina stays.\",\"sfx_cue\":\"wooden staff strikes desk\"},{\"speaker\":\"salim\",\"text\":\"All claimants outside. Take your papers. Slowly, slowly.\",\"sfx_cue\":\"footsteps and murmuring recede\"},{\"speaker\":\"devraj\",\"text\":\"Your application said you had three years of record-room experience.\",\"sfx_cue\":\"door closes\"},{\"speaker\":\"naina\",\"text\":\"Three years and eight months, sir. Civil typing, indexing and certified-copy preparation.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Yet you challenged the bench before claimants, staff and an active recording machine.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"I asked for a number. A missing number can invalidate every reference after it.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"This is not the typing shop that dismissed you. Here, discipline may still compensate for qualification.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"That shop dismissed me without checking the original dictation.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Everyone dismissed from somewhere has an original dictation. Do one thing. Bring the master register from my cupboard.\",\"sfx_cue\":\"keys jingle\"},{\"speaker\":\"naina\",\"text\":\"Which key, sir?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"The brass one. And Naina... if you open a cupboard, close it exactly as you found it.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Yes, sir.\",\"sfx_cue\":\"cupboard lock turns\"},{\"speaker\":\"naina\",\"text\":\"This is the master register?\",\"sfx_cue\":\"heavy ledger lands on desk\"},{\"speaker\":\"devraj\",\"text\":\"It says so on the cover, does it not.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Five years of tribunal matters should fill several volumes.\",\"sfx_cue\":\"thick pages turn rapidly\"},{\"speaker\":\"devraj\",\"text\":\"Find today's case and prepare the daily abstract.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Sir... there are no earlier entries.\",\"sfx_cue\":\"single page turns\"},{\"speaker\":\"naina\",\"text\":\"The tribunal's supposedly five-year-old master register is blank, except for the case I entered this morning.\",\"sfx_cue\":\"\"}]},{\"ep\":2,\"title\":\"Three Hundred and Twenty-Six Cases\",\"lines\":[{\"speaker\":\"devraj\",\"text\":\"Close that register, Naina. Now.\",\"sfx_cue\":\"cupboard door slams, ledger pages snap shut\"},{\"speaker\":\"naina\",\"text\":\"Not until you explain why five years of judicial records are missing.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Judicial records are not missing. Their index has not been migrated.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Migrated from where? There is no archive reference, disposal list or old volume.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You wanted permanent work, no? This is the work.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Permanent work does not mean inventing records.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Careful. Nobody has asked you to invent anything.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Then show me one earlier case file.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Pooja, bring the numbering sheet.\",\"sfx_cue\":\"desk drawer opens\"},{\"speaker\":\"pooja\",\"text\":\"Sir... that sheet is only rough planning.\",\"sfx_cue\":\"paper rustles\"},{\"speaker\":\"devraj\",\"text\":\"Today it becomes an administrative index.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"There are three hundred and twenty-six numbers on this page.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Correct. Enter them before the case you recorded this morning.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"With what names? What filing dates? What orders?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Only case number, year and status. Mark each one transferred to archive.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"An archive that does not exist.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"An archive that is presently unavailable. Use accurate language in a legal office.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Sir, should I stop the recording? The hearing is over.\",\"sfx_cue\":\"tape reels turning\"},{\"speaker\":\"devraj\",\"text\":\"Yes. Private administrative work need not consume tape.\",\"sfx_cue\":\"recorder switch clicks\"},{\"speaker\":\"salim\",\"text\":\"Stopped, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Now, Naina. Kindly begin with case one of the first year.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"I will not certify three hundred and twenty-six nonexistent cases.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Certify? No. You are merely preparing an index from data supplied by your superior.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"There is no data. There are only numbers.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Numbers are the spine of a record. You said that before the full staff, did you not.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"I said continuity requires genuine numbers.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"And I am giving you continuity. Three hundred and twenty-six entries of it.\",\"sfx_cue\":\"\"},{\"speaker\":\"pooja\",\"text\":\"Naina, do it in pencil first. If sir changes the sequence, ink will become a headache.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"You knew the register was blank?\",\"sfx_cue\":\"\"},{\"speaker\":\"pooja\",\"text\":\"I knew sir kept it locked. That is all I knew.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Pooja understands the limits of her designation. That is why she still has a chair.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"My employment declaration says record clerk, not author of past proceedings.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"It also says you accept responsibility for accurate preparation and maintenance of tribunal records.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Accurate preparation. This is false preparation.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"That is an accusation. Accusations require evidence, qualifications and an appropriate forum. You presently have none of the three.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"If any authority inspects this register—\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"They will see your handwriting. So I suggest you make it neat.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Sir, perhaps we can say the old index was water-damaged. Water happens in every office.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Thank you, Salim. Do not improve documents unless instructed.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Yes, sir. I was only... achha, I will lock the front door.\",\"sfx_cue\":\"door bolt slides\"},{\"speaker\":\"naina\",\"text\":\"You are keeping me here after closing?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You delayed the morning hearing. You will restore that time today only.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Three hundred and twenty-six entries will take hours.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Then conversation is expensive. Begin.\",\"sfx_cue\":\"fountain pen uncaps\"},{\"speaker\":\"naina\",\"text\":\"Case one. First year. Transferred to archive.\",\"sfx_cue\":\"pen scratches on paper\"},{\"speaker\":\"devraj\",\"text\":\"Good.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Case two. First year. Transferred to archive.\",\"sfx_cue\":\"\"},{\"speaker\":\"pooja\",\"text\":\"Leave six lines after every fifty cases. It looks more natural if the years do not finish evenly.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"More natural? Pooja, how many times have you done this?\",\"sfx_cue\":\"\"},{\"speaker\":\"pooja\",\"text\":\"I type what comes on my desk. I don't... I don't ask where it lived before that.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"A sensible employee does not interrogate paper.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Paper does not go to prison. People do.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"An excellent reason to follow written instructions from a superior.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Give me that instruction in writing.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Certainly. Pooja, note: clerk directed to update pending migration work as part of routine duties.\",\"sfx_cue\":\"typewriter keys begin\"},{\"speaker\":\"naina\",\"text\":\"No. Write that the files were not produced for verification.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Pooja will type my instruction, not your anxiety.\",\"sfx_cue\":\"\"},{\"speaker\":\"pooja\",\"text\":\"Sir, tomorrow's orchard order is also pending.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Prepare it now. Exclusive possession to Meera, subject to document verification.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Their evidence has not been submitted yet.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"And therefore the order remains subject to verification. Legal language exists to solve these small small difficulties.\",\"sfx_cue\":\"\"},{\"speaker\":\"pooja\",\"text\":\"Meera's name in the heading, Harish as respondent?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Yes. Twelve-acre orchard. Effective immediately.\",\"sfx_cue\":\"typewriter strikes rapidly\"},{\"speaker\":\"naina\",\"text\":\"You are deciding tomorrow's hearing tonight.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"I am reducing administrative delay. Continue your index.\",\"sfx_cue\":\"\"},{\"speaker\":\"NARRATOR\",\"text\":\"Behind Pooja's desk, one carbon copy slid under the skirting board. Nobody saw it remain there.\",\"sfx_cue\":\"thin paper slips across floor\"},{\"speaker\":\"naina\",\"text\":\"Case one hundred and eighty-nine. Fourth year. Transferred to archive.\",\"sfx_cue\":\"wall clock ticks\"},{\"speaker\":\"pooja\",\"text\":\"Your hand is shaking. Drink water.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"My hand is writing lies in permanent ink.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Your hand is completing probation work. The difference is attitude.\",\"sfx_cue\":\"\"},{\"speaker\":\"NARRATOR\",\"text\":\"Two hours later, the invented history reached the final page.\",\"sfx_cue\":\"clock chimes nine times\"},{\"speaker\":\"naina\",\"text\":\"Case three hundred and twenty-six. Fifth year. Transferred to archive.\",\"sfx_cue\":\"pen stops scratching\"},{\"speaker\":\"devraj\",\"text\":\"Then today's orchard dispute becomes case three hundred and twenty-seven. The sequence is continuous.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"The sequence is manufactured.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Your opinion has been noted verbally and nowhere else.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"I want my employment declaration returned.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"The declaration belongs in your service file.\",\"sfx_cue\":\"folder opens\"},{\"speaker\":\"naina\",\"text\":\"That is not my service file.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"No. This is safer.\",\"sfx_cue\":\"paper placed between ledger pages\"},{\"speaker\":\"devraj\",\"text\":\"I am placing your signed employment declaration inside the false register, Naina.\",\"sfx_cue\":\"heavy register closes\"},{\"speaker\":\"devraj\",\"text\":\"If the police open it, they will treat the register's author as the creator of this court.\",\"sfx_cue\":\"\"}]},{\"ep\":3,\"title\":\"The Missing Letter\",\"lines\":[{\"speaker\":\"devraj\",\"text\":\"Stop typing. The word orchard is misspelled in a final order.\",\"sfx_cue\":\"typewriter bell, paper ripped from carriage\"},{\"speaker\":\"pooja\",\"text\":\"Sir, I can correct it in two minutes.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You will not touch it. Naina certified the copy.\",\"sfx_cue\":\"paper slapped on desk\"},{\"speaker\":\"naina\",\"text\":\"I certified that it matched the office copy. I did not type this order.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"The office copy says orchad. Your certified copy says orchad. The error belongs to records.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"The error belongs to whoever typed it before yesterday's evidence was filed.\",\"sfx_cue\":\"\"},{\"speaker\":\"pooja\",\"text\":\"Naina, bas. Correct the spelling and issue a fresh copy.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"No quiet correction. Claimants are waiting. They deserve transparency.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Meera and Harish are outside, sir. Shall I keep them there?\",\"sfx_cue\":\"muffled corridor voices\"},{\"speaker\":\"devraj\",\"text\":\"Call them in. Call the staff also. The tribunal will address this publicly.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Sir, a typographical error can be corrected by memorandum. There is no need to humiliate anyone.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"An employee who fears humiliation usually knows where responsibility lies.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Meera, Harish, come inside. Staff members also. Recording is starting.\",\"sfx_cue\":\"door opens, several footsteps enter\"},{\"speaker\":\"meera\",\"text\":\"Sir, has Harish challenged yesterday's order?\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"I have challenged nothing. I obeyed it. I gave her the north-gate key this morning.\",\"sfx_cue\":\"metal key lands on desk\"},{\"speaker\":\"meera\",\"text\":\"And the crop account?\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"That also. I said I would obey a lawful order.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Your obedience is noted. Unfortunately, my records clerk has issued you a defective judgment.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Defective how? Does it cancel my possession?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"The word orchard is missing one letter.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"One letter? The land is still twelve acres, no? The survey description is there?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"A judgment is not a vegetable list, Meera. Every word carries authority.\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"Then the order I obeyed is invalid?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"I did not say invalid. I said defective because Naina failed to examine it.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Sir, kindly show them the typed office copy. The same spelling appears there.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Of course it does. Your function was to prevent that error from leaving this office.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"The function of certification is comparison. Both copies matched exactly.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Listen to her. She is proud that she reproduced a mistake exactly.\",\"sfx_cue\":\"\"},{\"speaker\":\"VOICE FROM STAFF\",\"text\":\"Yesterday she knew more than the bench. Today she cannot spell orchard.\",\"sfx_cue\":\"staff laughter\"},{\"speaker\":\"meera\",\"text\":\"Madam, this paper controls my father's land. You should have checked properly.\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"I surrendered possession because I believed this was a court order. Such mistakes damage both of us.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"I understand. But I did not decide or type—\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Do not distribute your duty among others. Stand beside the bench.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Sir, may I first inspect the draft history? The order was prepared before the hearing.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"That is irrelevant and untrue.\",\"sfx_cue\":\"\"},{\"speaker\":\"pooja\",\"text\":\"Sir, perhaps I should check the ribbon impression. It may show—\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Pooja, your job is typing. Naina's job is records. Keep those boundaries clear.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"The recording is running, sir.\",\"sfx_cue\":\"tape reels turning\"},{\"speaker\":\"devraj\",\"text\":\"Good. Let the record reflect accountability. Naina, what is your monthly salary?\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Eleven thousand eight hundred rupees, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Your entire salary for this month is docked.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"The entire month? For one missing letter?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"For negligence, public embarrassment to the tribunal and risk caused to two claimants.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"My appointment declaration does not permit a full-month deduction without written inquiry.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Your appointment declaration is presently securing the master register you prepared yesterday.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"You forced me to prepare that index.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Is that your statement before Meera, Harish, the staff and this recording machine?\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"I... I am asking for an inquiry into today's error.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"A wise correction. The salary deduction stands.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Sir, I do not need her whole salary. I only need a proper order.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Your generosity does you credit. Discipline is not yours to waive.\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"If the corrected order is lawful, I will continue obeying it. But I want the original examined.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Certainly. Where is your issued copy?\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"In my document bag outside.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Bring it. We will compare every line.\",\"sfx_cue\":\"\"},{\"speaker\":\"harish\",\"text\":\"I will return in five minutes.\",\"sfx_cue\":\"door opens and closes\"},{\"speaker\":\"devraj\",\"text\":\"While we wait, Naina will apologise to both affected parties from the bench.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"From the bench?\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Yes. The error travelled under the tribunal seal. The apology will carry equal visibility.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"I can apologise from here.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You may also resign from there. The choice is entirely yours.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Naina madam, the step is on your left.\",\"sfx_cue\":\"slow footsteps on wooden steps\"},{\"speaker\":\"VOICE FROM STAFF\",\"text\":\"Careful. Even the bench spelling must be correct today.\",\"sfx_cue\":\"brief laughter\"},{\"speaker\":\"naina\",\"text\":\"Meera, I apologise that the certified order issued to you contained a spelling error.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Contained an error because of what?\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Because... because I did not stop its issue.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Will my possession remain protected?\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"The correction should not change the operative direction.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You are not authorised to advise her. Finish the apology.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Meera, I am sorry.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Now Harish, though he is presently outside. The recording will preserve it for him.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Harish, I apologise that you surrendered the orchard keys on a defective copy.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"And for causing him doubt about this tribunal's competence.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"I will not apologise for asking whether this tribunal is competent.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Then your probation can end today.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Sir... please. I need this appointment.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"Then use it respectfully.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Harish, I apologise for causing you doubt about the tribunal's competence.\",\"sfx_cue\":\"\"},{\"speaker\":\"meera\",\"text\":\"Madam, come down. This is enough.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"It is enough when the bench says so.\",\"sfx_cue\":\"\"},{\"speaker\":\"pooja\",\"text\":\"Sir, I have typed the correction memorandum.\",\"sfx_cue\":\"typewriter carriage returns\"},{\"speaker\":\"devraj\",\"text\":\"Give it to Naina. She will certify it correctly this time.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"The order date is yesterday, but this correction says the error was noticed during pronouncement.\",\"sfx_cue\":\"paper unfolds\"},{\"speaker\":\"devraj\",\"text\":\"Because that is the administratively appropriate description.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"It was noticed this morning, after pronouncement and after possession changed hands.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"You have already sacrificed one salary. Do not become ambitious.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Someone is coming with Harish. Two persons.\",\"sfx_cue\":\"quick footsteps approach in corridor\"},{\"speaker\":\"devraj\",\"text\":\"Then return to your place. No claimant should see a clerk standing on the bench.\",\"sfx_cue\":\"\"},{\"speaker\":\"naina\",\"text\":\"Yesterday you made me stand beside the usher. Today you made me apologise from your chair.\",\"sfx_cue\":\"\"},{\"speaker\":\"devraj\",\"text\":\"And tomorrow may still be available to you, if you learn.\",\"sfx_cue\":\"\"},{\"speaker\":\"salim\",\"text\":\"Harish has returned carrying the orchard order. A real advocate is beside him.\",\"sfx_cue\":\"door opens sharply, legal file clasps rattle\"},{\"speaker\":\"arvind\",\"text\":\"Naina. I recognise you. You are the typist I dismissed from my office.\",\"sfx_cue\":\"\"}]}],\"beat_sheet\":[{\"beat_id\":\"b001\",\"ep\":1,\"seq\":1,\"world_time\":\"2023-08-07\",\"location\":\"Devgarh Land Tribunal hearing room\",\"present\":[\"naina\",\"devraj\",\"meera\",\"harish\",\"pooja\",\"salim\"],\"witnessed_by\":[\"naina\",\"devraj\",\"meera\",\"harish\",\"pooja\",\"salim\"],\"hidden_from\":[\"arvind\",\"shukla\",\"ratan\",\"leena\",\"kavita\"],\"what_happened\":\"Naina asks for the missing earlier case numbers during Meera and Harish's first hearing, and Devraj publicly ridicules the question.\",\"state_changes\":[{\"entity\":\"naina\",\"fact\":\"Her concern about missing case numbers becomes public before staff and claimants.\",\"valence\":-2},{\"entity\":\"devraj\",\"fact\":\"He refuses to produce an archive reference for earlier cases.\",\"valence\":-1}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b002\",\"ep\":1,\"seq\":2,\"world_time\":\"2023-08-07\",\"location\":\"Devgarh Land Tribunal hearing room\",\"present\":[\"naina\",\"devraj\",\"meera\",\"harish\",\"pooja\",\"salim\"],\"witnessed_by\":[\"naina\",\"devraj\",\"meera\",\"harish\",\"pooja\",\"salim\"],\"hidden_from\":[\"arvind\",\"shukla\",\"ratan\",\"leena\",\"kavita\"],\"what_happened\":\"Devraj orders Salim to remove Naina's chair and makes her work standing beside him while staff laugh.\",\"state_changes\":[{\"entity\":\"naina\",\"fact\":\"She is publicly demoted in status during her first hearing.\",\"valence\":-4},{\"entity\":\"salim\",\"fact\":\"He participates in removing Naina's chair under Devraj's instruction.\",\"valence\":-1}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b003\",\"ep\":1,\"seq\":3,\"world_time\":\"2023-08-07\",\"location\":\"Devgarh Land Tribunal hearing room\",\"present\":[\"naina\",\"devraj\",\"meera\",\"harish\",\"pooja\",\"salim\"],\"witnessed_by\":[\"naina\",\"devraj\",\"meera\",\"harish\",\"pooja\",\"salim\"],\"hidden_from\":[\"arvind\",\"shukla\",\"ratan\",\"leena\",\"kavita\"],\"what_happened\":\"Devraj directs that Meera retain access to the twelve-acre orchard until documents are submitted, and Harish agrees to obey.\",\"state_changes\":[{\"entity\":\"meera\",\"fact\":\"Her access to the orchard is temporarily protected by Devraj's direction.\",\"valence\":2},{\"entity\":\"harish\",\"fact\":\"He commits to obeying the tribunal because he believes it is lawful.\",\"valence\":-1}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b004\",\"ep\":1,\"seq\":4,\"world_time\":\"2023-08-07\",\"location\":\"Devraj's record cupboard\",\"present\":[\"naina\",\"devraj\"],\"witnessed_by\":[\"naina\",\"devraj\"],\"hidden_from\":[\"meera\",\"harish\",\"arvind\",\"shukla\",\"pooja\",\"salim\",\"ratan\",\"leena\",\"kavita\"],\"what_happened\":\"Naina opens the supposedly five-year-old master register and finds it blank except for the case she entered that morning.\",\"state_changes\":[{\"entity\":\"naina\",\"fact\":\"She knows the tribunal's master register contains no history before her first entry.\",\"valence\":-5},{\"entity\":\"master register\",\"fact\":\"Its claimed five-year history is contradicted by its blank pages.\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b005\",\"ep\":2,\"seq\":1,\"world_time\":\"2023-08-07\",\"location\":\"Devgarh Land Tribunal record room\",\"present\":[\"naina\",\"devraj\",\"pooja\",\"salim\"],\"witnessed_by\":[\"naina\",\"devraj\",\"pooja\",\"salim\"],\"hidden_from\":[\"meera\",\"harish\",\"arvind\",\"shukla\",\"ratan\",\"leena\",\"kavita\"],\"what_happened\":\"Devraj orders Naina to backfill the master register with an index of 326 cases for which no files or archive references are produced.\",\"state_changes\":[{\"entity\":\"naina\",\"fact\":\"She is compelled to create continuity for 326 unsupported case numbers.\",\"valence\":-5},{\"entity\":\"master register\",\"fact\":\"It gains an invented five-year index of 326 cases.\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b006\",\"ep\":2,\"seq\":2,\"world_time\":\"2023-08-07\",\"location\":\"Devgarh Land Tribunal typing area\",\"present\":[\"naina\",\"devraj\",\"pooja\",\"salim\"],\"witnessed_by\":[\"naina\",\"devraj\",\"pooja\",\"salim\"],\"hidden_from\":[\"meera\",\"harish\",\"arvind\",\"shukla\",\"ratan\",\"leena\",\"kavita\"],\"what_happened\":\"Devraj dictates an order granting Meera exclusive possession before the siblings submit their evidence, and Pooja types it.\",\"state_changes\":[{\"entity\":\"pooja\",\"fact\":\"She prepares Meera's result before the document hearing.\",\"valence\":-3},{\"entity\":\"naina\",\"fact\":\"She learns that Devraj determines outcomes before hearings.\",\"valence\":-4},{\"entity\":\"meera's orchard order\",\"fact\":\"It is prepared before the evidence hearing.\",\"valence\":-5}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b007\",\"ep\":2,\"seq\":3,\"world_time\":\"2023-08-07\",\"location\":\"Behind the typing desk\",\"present\":[],\"witnessed_by\":[],\"hidden_from\":[\"naina\",\"devraj\",\"meera\",\"harish\",\"arvind\",\"shukla\",\"pooja\",\"salim\",\"ratan\",\"leena\",\"kavita\"],\"what_happened\":\"An unnoticed carbon copy of Meera's pretyped judgment slips beneath the skirting board and remains there.\",\"state_changes\":[{\"entity\":\"carbon copy\",\"fact\":\"It survives as independent proof that Meera's judgment was typed before the hearing.\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"No character notices the carbon copy sliding beneath the skirting board; the beat deliberately preserves open canon for its later discovery.\"},{\"beat_id\":\"b008\",\"ep\":2,\"seq\":4,\"world_time\":\"2023-08-07\",\"location\":\"Devgarh Land Tribunal record room\",\"present\":[\"naina\",\"devraj\",\"pooja\",\"salim\"],\"witnessed_by\":[\"naina\",\"devraj\",\"pooja\",\"salim\"],\"hidden_from\":[\"meera\",\"harish\",\"arvind\",\"shukla\",\"ratan\",\"leena\",\"kavita\"],\"what_happened\":\"After Naina completes the false index, Devraj places her signed employment declaration inside the register and says police will treat the author as the court's creator.\",\"state_changes\":[{\"entity\":\"naina\",\"fact\":\"Her signed declaration is physically linked to the fabricated register.\",\"valence\":-5},{\"entity\":\"devraj\",\"fact\":\"He gains documentary leverage to direct suspicion toward Naina.\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b009\",\"ep\":3,\"seq\":1,\"world_time\":\"2023-08-08\",\"location\":\"Devgarh Land Tribunal typing area\",\"present\":[\"naina\",\"devraj\",\"pooja\",\"salim\"],\"witnessed_by\":[\"naina\",\"devraj\",\"pooja\",\"salim\"],\"hidden_from\":[\"meera\",\"harish\",\"arvind\",\"shukla\",\"ratan\",\"leena\",\"kavita\"],\"what_happened\":\"Devraj finds the word orchard misspelled in Meera's order and assigns responsibility to Naina because she certified the copy.\",\"state_changes\":[{\"entity\":\"naina\",\"fact\":\"She is publicly designated responsible for a typing error she did not type.\",\"valence\":-4},{\"entity\":\"meera's orchard order\",\"fact\":\"Its spelling defect becomes an official issue.\",\"valence\":-2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b010\",\"ep\":3,\"seq\":2,\"world_time\":\"2023-08-08\",\"location\":\"Devgarh Land Tribunal hearing room\",\"present\":[\"naina\",\"devraj\",\"meera\",\"harish\",\"pooja\",\"salim\"],\"witnessed_by\":[\"naina\",\"devraj\",\"meera\",\"harish\",\"pooja\",\"salim\"],\"hidden_from\":[\"arvind\",\"shukla\",\"ratan\",\"leena\",\"kavita\"],\"what_happened\":\"Before the siblings and staff, Devraj docks Naina's full monthly salary of eleven thousand eight hundred rupees for the spelling error.\",\"state_changes\":[{\"entity\":\"naina\",\"fact\":\"She loses her entire month's salary.\",\"valence\":-5},{\"entity\":\"devraj\",\"fact\":\"He reasserts control by attaching a specific financial penalty to Naina.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b011\",\"ep\":3,\"seq\":3,\"world_time\":\"2023-08-08\",\"location\":\"Devgarh Land Tribunal bench\",\"present\":[\"naina\",\"devraj\",\"meera\",\"pooja\",\"salim\"],\"witnessed_by\":[\"naina\",\"devraj\",\"meera\",\"pooja\",\"salim\"],\"hidden_from\":[\"harish\",\"arvind\",\"shukla\",\"ratan\",\"leena\",\"kavita\"],\"what_happened\":\"Devraj makes Naina stand on the bench and apologise to Meera and the absent Harish for the defective order and for causing doubt about the tribunal.\",\"state_changes\":[{\"entity\":\"naina\",\"fact\":\"She publicly apologises under threat of losing her probationary appointment.\",\"valence\":-5},{\"entity\":\"meera\",\"fact\":\"She hears Naina accept responsibility for failing to stop the defective order.\",\"valence\":-1}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"Harish has left the room to retrieve his issued copy and does not hear the apology directly.\"},{\"beat_id\":\"b012\",\"ep\":3,\"seq\":4,\"world_time\":\"2023-08-08\",\"location\":\"Devgarh Land Tribunal hearing room\",\"present\":[\"naina\",\"devraj\",\"meera\",\"harish\",\"arvind\",\"pooja\",\"salim\"],\"witnessed_by\":[\"naina\",\"devraj\",\"meera\",\"harish\",\"arvind\",\"pooja\",\"salim\"],\"hidden_from\":[\"shukla\",\"ratan\",\"leena\",\"kavita\"],\"what_happened\":\"Harish returns carrying the orchard order beside Arvind, who publicly identifies Naina as the typist he previously dismissed.\",\"state_changes\":[{\"entity\":\"naina\",\"fact\":\"Her former professional failure is exposed inside the tribunal.\",\"valence\":-4},{\"entity\":\"arvind\",\"fact\":\"He enters the tribunal and recognises Naina.\",\"valence\":1}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null}],\"promise_ledger\":[{\"id\":\"p001\",\"raised_ep\":1,\"listener_is_waiting_for\":\"Why the supposedly five-year-old master register contains only Naina's first case.\",\"must_pay_by_ep\":2,\"paid_ep\":2,\"how_paid\":\"Devraj produces a numbering sheet and forces Naina to manufacture an index of 326 unsupported cases.\",\"status\":\"paid\"},{\"id\":\"p002\",\"raised_ep\":1,\"listener_is_waiting_for\":\"Whether Devraj's tribunal has genuine authority from a competent court.\",\"must_pay_by_ep\":7,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p003\",\"raised_ep\":2,\"listener_is_waiting_for\":\"Who will find and use the surviving carbon copy of Meera's pretyped judgment.\",\"must_pay_by_ep\":4,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p004\",\"raised_ep\":2,\"listener_is_waiting_for\":\"Whether Naina's declaration and fabricated handwriting will cause police to treat her as the tribunal's creator.\",\"must_pay_by_ep\":11,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p005\",\"raised_ep\":3,\"listener_is_waiting_for\":\"What Arvind will do after recognising the former typist he dismissed inside the tribunal.\",\"must_pay_by_ep\":4,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"}],\"calendar\":{\"season_start\":\"2023-08-07\",\"dates_fixed\":[{\"ep\":1,\"when\":\"2023-08-07\",\"what\":\"Naina begins work and records Meera versus Harish as her first tribunal case.\"},{\"ep\":2,\"when\":\"2023-08-07\",\"what\":\"After closing time, Devraj forces Naina to create the 326-case index.\"},{\"ep\":3,\"when\":\"2023-08-08\",\"what\":\"The orchard order's spelling error is addressed publicly and Arvind arrives.\"}],\"periods_fixed\":[{\"between\":[1,2],\"elapsed\":\"the same day\"},{\"between\":[2,3],\"elapsed\":\"overnight\"}],\"unresolved\":[]},\"flags\":[]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 0.98,
+    "background": false,
+    "completed_at": 1785041824.0,
+    "conversation": null,
+    "max_output_tokens": 32000,
+    "max_tool_calls": null,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "episode_batch",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "episodes",
+            "beat_sheet",
+            "promise_ledger",
+            "calendar",
+            "flags"
+          ],
+          "properties": {
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "ep",
+                  "title",
+                  "lines"
+                ],
+                "properties": {
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "lines": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "speaker",
+                        "text",
+                        "sfx_cue"
+                      ],
+                      "properties": {
+                        "speaker": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "sfx_cue": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "beat_sheet": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "beat_id",
+                  "ep",
+                  "seq",
+                  "world_time",
+                  "location",
+                  "present",
+                  "witnessed_by",
+                  "hidden_from",
+                  "what_happened",
+                  "state_changes",
+                  "source_ref",
+                  "tier",
+                  "note"
+                ],
+                "properties": {
+                  "beat_id": {
+                    "type": "string"
+                  },
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "seq": {
+                    "type": "integer"
+                  },
+                  "world_time": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "present": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "witnessed_by": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "hidden_from": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "what_happened": {
+                    "type": "string"
+                  },
+                  "state_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "entity",
+                        "fact",
+                        "valence"
+                      ],
+                      "properties": {
+                        "entity": {
+                          "type": "string"
+                        },
+                        "fact": {
+                          "type": "string"
+                        },
+                        "valence": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "source_ref": {
+                    "type": "string"
+                  },
+                  "tier": {
+                    "type": "string",
+                    "enum": [
+                      "core_canon"
+                    ]
+                  },
+                  "note": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "promise_ledger": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "raised_ep",
+                  "listener_is_waiting_for",
+                  "must_pay_by_ep",
+                  "paid_ep",
+                  "how_paid",
+                  "status"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "raised_ep": {
+                    "type": "integer"
+                  },
+                  "listener_is_waiting_for": {
+                    "type": "string"
+                  },
+                  "must_pay_by_ep": {
+                    "type": "integer"
+                  },
+                  "paid_ep": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "how_paid": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "open",
+                      "paid",
+                      "paid_late"
+                    ]
+                  }
+                }
+              }
+            },
+            "calendar": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "season_start",
+                "dates_fixed",
+                "periods_fixed",
+                "unresolved"
+              ],
+              "properties": {
+                "season_start": {
+                  "type": "string"
+                },
+                "dates_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "ep",
+                      "when",
+                      "what"
+                    ],
+                    "properties": {
+                      "ep": {
+                        "type": "integer"
+                      },
+                      "when": {
+                        "type": "string"
+                      },
+                      "what": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "periods_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "between",
+                      "elapsed"
+                    ],
+                    "properties": {
+                      "between": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        }
+                      },
+                      "elapsed": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "unresolved": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 8303,
+      "input_tokens_details": {
+        "cache_write_tokens": 8300,
+        "cached_tokens": 0
+      },
+      "output_tokens": 11475,
+      "output_tokens_details": {
+        "reasoning_tokens": 1979
+      },
+      "total_tokens": 19778
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    }
+  }
+}

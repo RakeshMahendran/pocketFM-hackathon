@@ -29,6 +29,31 @@ import { DATA_DIR } from "./data";
 
 const REPO = path.join(/* turbopackIgnore: true */ process.cwd(), "..");
 
+/**
+ * Is there already a constrained episode for this character?
+ *
+ * Filenames are `<story>__<char>__<anchor>.json`, with `__leak`, `__validation`
+ * and `__bible` sharing the prefix — so the bare three-part name is the episode
+ * and everything longer is something about it.
+ *
+ * Answering false is safe: the run generates, which is what it did before. It is
+ * answering *true* wrongly that would matter, and that needs a file named
+ * exactly like an episode to exist without being one.
+ */
+async function hasEpisode(storyId: string, charId: string): Promise<boolean> {
+  const prefix = `${storyId}__${charId}__`;
+  try {
+    const names = await fs.readdir(path.join(DATA_DIR, "spinoffs"));
+    return names.some((n) => {
+      if (!n.startsWith(prefix) || !n.endsWith(".json")) return false;
+      const rest = n.slice(prefix.length, -".json".length);
+      return Boolean(rest) && !rest.includes("__") && rest !== "bible";
+    });
+  } catch {
+    return false;
+  }
+}
+
 const RUN_DIR = "spinoff_runs";
 
 export type SpinoffRunState = "running" | "done" | "failed";
@@ -237,9 +262,26 @@ export async function startSpinoffRun(formData: FormData): Promise<void> {
   // Already going: watch it rather than starting a second one over the top of
   // the same files.
   if (existing?.state !== "running") {
+    /*
+     * An episode already on disk is replayed, not written again.
+     *
+     * The button ran a full generation every time — minutes and real money to
+     * arrive at a file that was already there, and on a stage that is dead air
+     * for something the machine could have shown instantly. `--replay` walks
+     * the same three stages against what exists and writes nothing.
+     *
+     * Regenerating is still reachable and still the honest default when there
+     * is nothing to replay: with no episode for this character, `--replay`
+     * refuses rather than miming, so the flag is only ever passed when there is
+     * something real behind it.
+     */
+    const made = await hasEpisode(storyId, charId);
+    const argv = ["-m", "src.spinoff_run", "--story", storyId, "--char", charId];
+    if (made) argv.push("--replay");
+
     const child = spawn(
       "python",
-      ["-m", "src.spinoff_run", "--story", storyId, "--char", charId],
+      argv,
       {
         cwd: REPO,
         // `detached` on Windows means CREATE_NEW_CONSOLE, which `windowsHide`
