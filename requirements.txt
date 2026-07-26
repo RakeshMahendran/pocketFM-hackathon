@@ -12,3 +12,17 @@ python-dotenv>=1.0
 # preinstalls 0.33.0, which is too old.
 psycopg[binary,pool]>=3.2
 databricks-sdk>=0.81.0
+
+# The audio stage. None of these were declared, so `src/audio/` ran only on the
+# machine that vendored it — a fresh clone reached the voice pipeline and died
+# on `No module named 'yaml'`, four imports before it would have died on the
+# next one.
+#
+# pydub shells out to ffmpeg for anything that is not a wav. If mastering fails
+# with "Couldn't find ffmpeg or avconv", that is the missing piece and it is a
+# system package, not a pip one.
+PyYAML>=6.0
+pydub>=0.25
+jsonschema>=4.20
+sarvamai>=0.1
+elevenlabs>=1.0

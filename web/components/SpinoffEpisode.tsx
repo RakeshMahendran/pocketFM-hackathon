@@ -1,6 +1,20 @@
+import Link from "next/link";
+
 import { ContinuityVerdict, VerdictCounts, verdictWord } from "@/components/ContinuityVerdict";
 import { EpisodeScript, listenMinutes } from "@/components/EpisodeScript";
-import type { AnchorBeat, Crossing, Spinoff, SpinoffRun } from "@/lib/spinoffs";
+import {
+  EPISODE_OPEN,
+  moreFindings,
+  pairFound,
+  scriptLength,
+} from "@/components/pathWords";
+import type {
+  AnchorBeat,
+  Crossing,
+  Spinoff,
+  SpinoffListing,
+  SpinoffRun,
+} from "@/lib/spinoffs";
 import {
   ANCHOR,
   CONTROL_EXPLAINED,
@@ -8,6 +22,7 @@ import {
   SPINOFF_HEADING,
   anchorKind,
   contradictionCount,
+  severity,
   writingMode,
 } from "@/lib/words";
 
@@ -18,6 +33,13 @@ import {
  * out, where does it sit against the main show, then the script. The verdict
  * comes second rather than last because it is the only thing that decides
  * anything.
+ *
+ * All of it now renders on the episode's own page. What the character screen
+ * keeps is `SpinoffRow` at the foot of this file: enough of a verdict to decide
+ * whether to open it, and no more. `AnchorCard` and `Crossings` lost the
+ * section frames and headings they used to carry, because both are now read
+ * inside a fold that names them — a heading inside a fold prints the same words
+ * twice a line apart.
  */
 
 function Row({ label, children }: { label: string; children: React.ReactNode }) {
@@ -39,9 +61,9 @@ export function AnchorCard({
   const kind = anchor?.kind ? anchorKind(anchor.kind) : null;
 
   return (
-    <section className="border-t border-rule pt-6">
+    <div>
       <div className="flex items-baseline justify-between gap-6 mb-4 flex-wrap">
-        <h2 className="label">{SPINOFF_HEADING.anchor}</h2>
+        <span className="label">{SPINOFF_HEADING.anchor}</span>
         <span
           className="font-mono text-[0.6875rem] text-faint"
           title="The reference the moment in the main show is filed under."
@@ -87,15 +109,15 @@ export function AnchorCard({
           </div>
         </>
       )}
-    </section>
+    </div>
   );
 }
 
 export function Crossings({ crossings }: { crossings: Crossing[] }) {
   return (
-    <section className="border-t border-rule pt-6">
+    <div>
       <div className="flex items-baseline justify-between gap-6 mb-4">
-        <h2 className="label">{SPINOFF_HEADING.crossings}</h2>
+        <span className="label">{SPINOFF_HEADING.crossings}</span>
         <span className="label">
           {crossings.length === 1 ? "1 moment" : `${crossings.length} moments`}
         </span>
@@ -111,9 +133,9 @@ export function Crossings({ crossings }: { crossings: Crossing[] }) {
           there is nothing here that had to be kept identical.
         </p>
       ) : (
-        <ul className="mt-6 border-t border-rule">
+        <ul className="mt-6 border-t border-rule divide-y divide-rule">
           {crossings.map((c, i) => (
-            <li key={i} className="border-b border-rule py-4">
+            <li key={i} className="py-4">
               {c.mainlineBeatId && (
                 <span
                   className="font-mono text-[0.6875rem] text-faint"
@@ -142,7 +164,7 @@ export function Crossings({ crossings }: { crossings: Crossing[] }) {
           ))}
         </ul>
       )}
-    </section>
+    </div>
   );
 }
 
@@ -237,14 +259,31 @@ export function ControlComparison({ spinoff }: { spinoff: Spinoff }) {
   );
 }
 
-/** Title, logline and length. The header of one generated episode. */
-export function SpinoffHeader({ run }: { run: SpinoffRun }) {
+/**
+ * Title, logline and length. The header of one generated episode.
+ *
+ * `level` exists because the same header is now the top of a page of its own.
+ * An episode page whose title is an `h2` has no `h1` at all, and a screen
+ * reader arriving at it is told nothing about what it landed on.
+ */
+export function SpinoffHeader({
+  run,
+  level = 2,
+}: {
+  run: SpinoffRun;
+  level?: 1 | 2;
+}) {
+  const Title = level === 1 ? "h1" : "h2";
   return (
     <header>
       <div className="flex items-baseline gap-4 flex-wrap">
-        <h2 className="font-serif text-3xl tracking-tight leading-tight">
+        <Title
+          className={`font-serif tracking-tight leading-tight ${
+            level === 1 ? "text-4xl" : "text-3xl"
+          }`}
+        >
           {run.title ?? "Untitled episode"}
-        </h2>
+        </Title>
         <span className="label whitespace-nowrap">
           ~{listenMinutes(run.words)} min to listen ·{" "}
           {run.words.toLocaleString()} words
@@ -263,6 +302,119 @@ export function SpinoffHeader({ run }: { run: SpinoffRun }) {
         </p>
       )}
     </header>
+  );
+}
+
+/**
+ * One episode as a row on the character screen: enough to decide with, and a
+ * link to the rest.
+ *
+ * What has to survive the move, because it is the whole product claim:
+ *
+ *   - the verdict in one word, and the two counts beside it, never merged
+ *   - when the pair exists, both of its numbers — the demo's money shot is a 0
+ *     against a 5, and it has to be legible here without opening anything
+ *   - when something was caught, the beat it names and the line it caught,
+ *     because "1 contradiction" with nothing shown is an assertion
+ *
+ * Everything else — the script, the anchor, the crossings, the control's own
+ * findings, the ruled-out list — is on the page this links to.
+ */
+export function SpinoffRow({
+  listing,
+  href,
+}: {
+  listing: SpinoffListing;
+  /** Null for a control twin with no episode of its own: there is no page. */
+  href: string | null;
+}) {
+  const word = verdictWord(listing.verdict);
+  const title = listing.title ?? "Untitled episode";
+  const first = listing.verdict.errors[0] ?? null;
+  const rest = listing.verdict.errorCount - (first ? 1 : 0);
+
+  return (
+    <li className="py-6">
+      <div className="flex items-baseline justify-between gap-x-6 gap-y-2 flex-wrap">
+        <h3 className="font-serif text-2xl tracking-tight leading-tight min-w-0">
+          {href ? (
+            <Link href={href} className="hover:text-ochre transition-colors">
+              {title}
+            </Link>
+          ) : (
+            title
+          )}
+        </h3>
+        <span className="flex items-baseline gap-3 flex-wrap shrink-0">
+          <span className={`font-serif text-xl leading-none ${word.className}`}>
+            {word.word}
+          </span>
+          <VerdictCounts verdict={listing.verdict} />
+        </span>
+      </div>
+
+      {listing.logline && (
+        <p className="font-serif text-[1.0625rem] text-muted leading-relaxed mt-3 prose-col">
+          {listing.logline}
+        </p>
+      )}
+
+      {/* A row for the unconstrained twin alone. It must never be mistaken for
+          something meant to go out, so it says what it is before anything else
+          about it. */}
+      {!listing.constrained && (
+        <p className="text-sm text-caution leading-relaxed mt-3 prose-col">
+          {writingMode(false).plain}
+        </p>
+      )}
+
+      {listing.leak && (
+        <p className="label mt-3" title={CONTROL_EXPLAINED}>
+          {pairFound(
+            listing.verdict.errorCount,
+            listing.leak.verdict.errorCount,
+          )}
+        </p>
+      )}
+
+      {first && (
+        <p className="mt-3 text-[0.9375rem] leading-relaxed prose-col border-l border-halt/60 pl-4 text-muted">
+          <span className="label block mb-1 text-halt">
+            {severity("error").label}
+            {first.beatId && (
+              <>
+                {" — from "}
+                <span
+                  className="font-mono lowercase tracking-normal"
+                  title="The reference the moment in the main show is filed under."
+                >
+                  {first.beatId}
+                </span>
+                {" in the main show"}
+              </>
+            )}
+          </span>
+          {first.quote ? <>&ldquo;{first.quote}&rdquo;</> : (first.why ?? "")}
+          {rest > 0 && (
+            <span className="label block mt-2">{moreFindings(rest)}</span>
+          )}
+        </p>
+      )}
+
+      {href && (
+        <p className="mt-4 flex items-baseline gap-4 flex-wrap">
+          <Link
+            href={href}
+            className="label text-ochre hover:text-paper transition-colors"
+          >
+            {EPISODE_OPEN} →
+          </Link>
+          <span className="label text-faint">
+            {scriptLength(listenMinutes(listing.words), listing.words)}
+          </span>
+        </p>
+      )}
+    </li>
   );
 }
 

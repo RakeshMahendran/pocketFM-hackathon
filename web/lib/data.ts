@@ -55,7 +55,34 @@ function asRecord(v: unknown): Record<string, unknown> {
 }
 
 function str(v: unknown): string | null {
-  return typeof v === "string" && v.trim() ? v.trim() : null;
+  return typeof v === "string" && v.trim() ? prose(v).trim() || null : null;
+}
+
+/**
+ * Model-written prose, as a person should read it.
+ *
+ * The scout cites its sources inline in Markdown, so four of the twenty-nine
+ * candidates carry `([timesofindia.indiatimes.com](https://…))` in the middle
+ * of their one-line pitch. It renders literally on the list and on the brief —
+ * the first screen of the demo, in the sentence that is supposed to sell the
+ * story.
+ *
+ * Stripped here rather than in a component because the same field is read by
+ * three screens, and because the citation is not lost: every source is listed
+ * in full under "Where this came from", which is where somebody checking a
+ * claim would look anyway.
+ *
+ * A bare `[label](url)` that is not a trailing citation keeps its label — the
+ * words were written to be read, only the plumbing goes.
+ */
+function prose(text: string): string {
+  return text
+    // A whole parenthesised citation appended to a sentence.
+    .replace(/\s*\(\s*\[[^\]]*\]\([^)]*\)\s*\)/g, "")
+    // Any remaining inline link keeps what it said.
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/\s+([.,;:])/g, "$1")
+    .replace(/\s{2,}/g, " ");
 }
 
 function strList(v: unknown): string[] {
@@ -280,6 +307,18 @@ function rank(candidates: Candidate[]): Candidate[] {
     // occupy the top of a triage list however well it scored.
     const blocked = (c: Candidate) => (c.clearance?.status === "blocked" ? 1 : 0);
     if (blocked(a) !== blocked(b)) return blocked(a) - blocked(b);
+
+    // The scout's own pick leads, even when something out-scores it.
+    //
+    // The five sub-scores measure what can be counted; the pick is the reading
+    // that weighed them against each other. The screen already treats it as
+    // special — it carries the "Top pick" badge and it is what the next step
+    // opens — so leaving it to fall wherever its total put it produced a list
+    // whose seventh row claimed to be the first. One of those two had to give,
+    // and it should not be the badge.
+    const picked = (c: Candidate) => (c.winner ? 0 : 1);
+    if (picked(a) !== picked(b)) return picked(a) - picked(b);
+
     return (b.scores?.total ?? -1) - (a.scores?.total ?? -1);
   });
 }

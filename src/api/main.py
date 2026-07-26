@@ -85,7 +85,28 @@ def get_beat(beat_id: str, beats: list[dict] = Depends(beat_source)) -> dict:
 
 @app.get("/api/characters/{char_id}/view")
 def character_view(char_id: str, beats: list[dict] = Depends(beat_source)) -> dict:
-    """knows / blind / gaps - the query the whole product rests on."""
+    """
+    knows / blind / gaps - the query the whole product rests on.
+
+    A name nobody in this canon has is a 404, not an empty view. The fail-closed
+    complement means an unknown id comes back "knows nothing, blind to
+    everything" - which is a well-formed, confident answer about a person who
+    does not exist. In a product whose claim is that it knows exactly what each
+    character was told, that is the worst possible way to be wrong: a caller
+    cannot tell it apart from a real character who was kept out of the entire
+    season.
+    """
+    known = {
+        name
+        for beat in beats
+        for key in ("present", "witnessed_by", "hidden_from")
+        for name in (beat.get(key) or [])
+    }
+    if char_id not in known:
+        raise HTTPException(
+            status_code=404,
+            detail=f"no character '{char_id}' in this canon",
+        )
     return _character_view(beats, char_id)
 
 
@@ -95,19 +116,42 @@ def character_view(char_id: str, beats: list[dict] = Depends(beat_source)) -> di
 # ---------------------------------------------------------------------------
 
 def _story(story_id: str) -> Dict[str, Any]:
+    """
+    One delivered season, or 404.
+
+    Checked against the list rather than against the filesystem. `load_story`
+    only asks whether a directory exists, and the id arrives from a URL: on
+    Windows a backslash is a path separator that Starlette leaves in the
+    parameter, so `..%5c..%5c.git` resolved to a real directory, sailed past the
+    existence check and died reading a dossier that was not there — a 500,
+    through the public port, for any path that happens to name a real folder.
+    Nothing leaked, but only because no directory outside `data/stories/`
+    happens to hold a `dossier.json`. That is luck, not containment.
+
+    The same check closes a quieter one: Windows folds case and strips trailing
+    dots, so `STORY1_DENIED_IDENTITY` and `story1_denied_identity.` both loaded
+    a real season under an id the store does not list — and the spinoff route
+    builds a *filename* from that id, so an aliased request missed the "already
+    generated" check and would have paid for an episode already on disk.
+
+    An allow-list is the right shape here because the set is small, known, and
+    already computed for `/api/stories`.
+    """
+    if story_id not in store.story_ids():
+        raise HTTPException(status_code=404, detail=f"no story '{story_id}'")
     try:
         return store.load_story(story_id)
     except RuntimeError as exc:
         raise HTTPException(status_code=404, detail=str(exc))
 
 
-@app.get("/stories")
+@app.get("/api/stories")
 def list_stories() -> Dict[str, Any]:
     """Every delivered serial. One line, and it saves the UI hardcoding an id."""
     return {"stories": store.story_ids()}
 
 
-@app.get("/stories/{story_id}/cast")
+@app.get("/api/stories/{story_id}/cast")
 def get_cast(story_id: str) -> Dict[str, Any]:
     """
     The roster, with what each character saw and what they were shut out of.
@@ -136,7 +180,7 @@ def get_cast(story_id: str) -> Dict[str, Any]:
     }
 
 
-@app.post("/stories/{story_id}/characters/{char_id}/spinoff")
+@app.post("/api/stories/{story_id}/characters/{char_id}/spinoff")
 def create_spinoff(
     story_id: str,
     char_id: str,

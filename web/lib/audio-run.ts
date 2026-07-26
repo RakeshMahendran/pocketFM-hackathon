@@ -30,6 +30,32 @@ import { DATA_DIR } from "./data";
 
 const REPO = path.join(/* turbopackIgnore: true */ process.cwd(), "..");
 
+/**
+ * Is this episode already recorded?
+ *
+ * The filename stem is the dossier's `event_id`, not the story directory, so the
+ * only reliable part is the `_epNN` tail — `evt_kadamballi_2022_ep01.mp3` and
+ * its `_sfx` and `_hi-en` variants all carry it. Matches `recordings()` in
+ * `src/audio_run.py`, which is what actually decides whether a replay can run.
+ *
+ * False is the safe answer: it records, which is what it did before.
+ */
+async function hasRecording(storyId: string, ep: number): Promise<boolean> {
+  const tail = `_ep${String(ep).padStart(2, "0")}`;
+  try {
+    const names = await fs.readdir(
+      path.join(DATA_DIR, "stories", storyId, "audio"),
+    );
+    return names.some((n) => {
+      if (!n.endsWith(".mp3")) return false;
+      const stem = n.slice(0, -".mp3".length);
+      return stem.endsWith(tail) || stem.includes(`${tail}_`);
+    });
+  } catch {
+    return false;
+  }
+}
+
 const RUN_DIR = "audio_runs";
 
 export type AudioRunState = "running" | "done" | "failed";
@@ -186,6 +212,51 @@ export async function audioRunIsOffline(): Promise<boolean> {
  * already how a run that died halfway is shown. `step` is deliberately not one
  * of the three: nothing ran, so no stage should render as reached.
  */
+/**
+ * Claim the run before the process is asked for.
+ *
+ * Written by this module rather than by Python, because the whole point is to
+ * exist during the seconds before Python can write anything. `run()` merges its
+ * own fields over this file on its first status write, so the handover is a
+ * normal update rather than a special case.
+ */
+async function recordStarting(
+  storyId: string,
+  ep: number,
+  language: string | null,
+): Promise<void> {
+  const now = new Date().toISOString();
+  try {
+    const file = statusFile(storyId, ep);
+    await fs.mkdir(path.dirname(file), { recursive: true });
+    await fs.writeFile(
+      file,
+      JSON.stringify(
+        {
+          story_id: storyId,
+          ep,
+          state: "running",
+          step: "converting",
+          label: "Reading the script and deciding the performance",
+          language,
+          detail: null,
+          error: null,
+          started_at: now,
+          updated_at: now,
+          finished_at: null,
+        },
+        null,
+        2,
+      ),
+      "utf-8",
+    );
+  } catch {
+    // A status we could not write is not a reason to refuse the recording. The
+    // screen falls back to its pre-run state, which is only wrong until Python
+    // writes its own.
+  }
+}
+
 async function recordStartFailure(
   storyId: string,
   ep: number,
@@ -257,9 +328,36 @@ export async function startAudioRun(formData: FormData): Promise<void> {
     const argv = ["-m", "src.audio_run", "--story", storyId, "--ep", String(ep)];
     if (language) argv.push("--language", language);
 
+    /*
+     * A recording already on disk is replayed, not synthesised again.
+     *
+     * Every press ran the full studio — minutes of synthesis and real credits
+     * to arrive at an mp3 that was already sitting there. `--replay` walks the
+     * same three stages against it and generates nothing.
+     *
+     * Only when there is something to replay: with no recording, `--replay`
+     * refuses rather than miming progress over nothing, so the flag is never
+     * passed on a genuine first take.
+     */
+    if (await hasRecording(storyId, ep)) argv.push("--replay");
+
+    // Claimed before the spawn, not after it.
+    //
+    // `'spawn'` fires the moment the process exists, but Python then has to
+    // import its way to the first write — a second or two. The redirect landed
+    // inside that gap, found no status, and rendered "Not recorded yet" with
+    // the button again, so the obvious thing to do was press it a second time.
+    // Python overwrites this record as soon as it has one of its own.
+    await recordStarting(storyId, ep, language);
+
     const child = spawn("python", argv, {
       cwd: REPO,
-      detached: true,
+      // `detached` on Windows means CREATE_NEW_CONSOLE, and `windowsHide` does
+      // not apply to it — so every press threw a console window in the user's
+      // face. Detaching is what lets the run outlive the request on POSIX;
+      // `unref` alone does that here, and the dev server outlives the run
+      // anyway.
+      detached: process.platform !== "win32",
       stdio: "ignore",
       windowsHide: true,
     });

@@ -31,7 +31,15 @@
  * Everything `words.ts` already says is imported rather than restated.
  */
 
-import { NEXT_CLICK, SHOWS, STORY_LIST } from "@/lib/words";
+import {
+  CHECKED_EVERY_TIME,
+  NEXT_CLICK,
+  ORDER_EXPLAINED,
+  SHOWS,
+  STORY_LIST,
+  TWO_DECISIONS_EXPLAINED,
+  contradictionCount,
+} from "@/lib/words";
 
 // ---------------------------------------------------------------------------
 // THE FOUR STAGES
@@ -306,6 +314,91 @@ export const SEASON_NOTHING_WRITTEN = {
 };
 
 // ---------------------------------------------------------------------------
+// SAYING A RULE ONCE
+//
+// Three sentences in `words.ts` are rules about the whole season rather than
+// facts about one episode — the order episodes go out in, that the check runs
+// again every time, and that going live and going out are separate decisions.
+// They are composed into the `plain` of several standings, which is right when
+// a screen shows one of those standings and wrong when it shows fourteen: the
+// order rule rendered once above a list is guidance, and rendered eleven times
+// down it is wallpaper that buries the one line per row that actually differs.
+//
+// So the rule is printed where it is first needed and stripped everywhere the
+// screen has already said it. Stripping rather than re-wording keeps `words.ts`
+// the only place the sentence exists — there is no second copy to drift.
+// ---------------------------------------------------------------------------
+
+const SAID_ONCE = [ORDER_EXPLAINED, CHECKED_EVERY_TIME, TWO_DECISIONS_EXPLAINED];
+
+/**
+ * One of those standings with the season-wide rules taken out, for a screen
+ * that has already printed them above.
+ *
+ * Everything specific to the episode survives — "Episode 3 is still held back."
+ * is what the row is for, and it is the part the rule was burying.
+ */
+export function withoutRepeatedRules(plain: string): string {
+  let out = plain;
+  for (const rule of SAID_ONCE) out = out.split(rule).join(" ");
+  return out.replace(/\s+/g, " ").trim();
+}
+
+/**
+ * How far down the queue an episode sits, for the rows that are only waiting
+ * their turn.
+ *
+ * Ten rows all reading "Held back" tell a producer nothing they could act on.
+ * The number of releases between here and this one is the thing they are
+ * actually scanning for, and it is already known — it is the row's position
+ * behind the one that can go out.
+ */
+export function queuePlace(n: number): string {
+  const tens = n % 100;
+  const suffix =
+    tens >= 11 && tens <= 13
+      ? "th"
+      : n % 10 === 1
+        ? "st"
+        : n % 10 === 2
+          ? "nd"
+          : n % 10 === 3
+            ? "rd"
+            : "th";
+  return `${n}${suffix} in line`;
+}
+
+/** An episode nobody has written yet, said on the row rather than in a tooltip. */
+export const EPISODE_UNWRITTEN = "planned, not written";
+
+// ---------------------------------------------------------------------------
+// WHERE A CHARACTER CAME FROM
+//
+// Provenance, not standing. Which real person somebody stands in for, and
+// whether they are several of them at once, is what a lawyer and a fact-checker
+// come for; it is not what an editor scanning thirteen names is reading for.
+// Same content, moved to the reference half rather than dropped.
+// ---------------------------------------------------------------------------
+
+export const ORIGINS_TITLE = "Who each character stands in for";
+
+export const ORIGINS_EXPLAINED =
+  "Nobody in the scripts is a real person under another name. These are the people each character was drawn from, and the ones invented by combining several so that no single real person is being portrayed.";
+
+/** Kept verbatim from the cast row it used to sit on. */
+export const CHARACTER_COMPOSITE = "several people in one";
+
+export const CHARACTER_COMPOSITE_PLAIN =
+  "Invented by combining several real people, so no single real person is being portrayed.";
+
+export function standsInFor(who: string): string {
+  return `stands in for — ${who}`;
+}
+
+/** A character the map says nothing about. Said rather than left blank. */
+export const CHARACTER_INVENTED = "invented for the show";
+
+// ---------------------------------------------------------------------------
 // THE ROSTER
 // ---------------------------------------------------------------------------
 
@@ -348,14 +441,28 @@ export const CHARACTER_WRITE = {
     "Everything above is what this character knows. Below it is the button that turns that into an episode, and the check that proves the episode does not contradict the show they came from.",
 };
 
-/** The end of the path, and the only screen that has one. */
+/**
+ * The end of the path, and the only screen that has one.
+ *
+ * `clean` is not decoration. This used to end every character screen with
+ * "contradicting none of it" whatever the verdict said, so Babulal's page
+ * carried "1 contradiction — it cannot go out as written" and "contradicting
+ * none of it" at once. A screen that argues with itself about the one thing
+ * this product sells is worse than a screen that says nothing, and a reader who
+ * catches it stops believing the clean cases too.
+ */
 export function characterDone(o: {
   name: string;
   showTitle: string;
+  clean: boolean;
 }): { action: string; plain: string } {
+  const built = `That is the whole path: a real event, a season, and now a second season built out of what ${o.name} was never told`;
+  const rest = `Everyone else in “${o.showTitle}” is another one.`;
   return {
     action: "Pick somebody else",
-    plain: `That is the whole path: a real event, a season, and now a second season built out of what ${o.name} was never told — checked line by line against the first and contradicting none of it. Everyone else in “${o.showTitle}” is another one.`,
+    plain: o.clean
+      ? `${built} — checked line by line against the first and contradicting none of it. ${rest}`
+      : `${built} — and the check caught it borrowing something ${o.name} was never given, which is the point of running it. Fix that and it can go out. ${rest}`,
   };
 }
 
@@ -387,8 +494,135 @@ export const ALIGNMENT_FOLD = "How it lines up with the main show";
 /** The bible's five long fields. The pitch above them stays open. */
 export const WRITER_FOLD = "What a writer would work from";
 
+/**
+ * The mainline episode's own script.
+ *
+ * Same argument as the spin-off scripts above, on the other screen: 1,096 of
+ * the episode page's 1,484 words were the dialogue, so whether the episode is
+ * out, whether it can go out, and what it sounds like all sat above a wall a
+ * reader had to scroll past to leave. The recording is the product here; the
+ * script is how it was made.
+ */
+export const SCRIPT_FOLD = "Read the script";
+
 export function crossingCount(n: number): string {
   return `${n} ${n === 1 ? "moment in both shows" : "moments in both shows"}`;
+}
+
+// ---------------------------------------------------------------------------
+// ONE CHARACTER, IN FIVE BLOCKS
+//
+// The screen had already been cut from six thousand words to seven hundred, and
+// it still read as a stack of boxes: thirteen headings and seventy-seven
+// bordered containers for four ideas. Fewer words in more containers is not
+// simpler.
+//
+// Three of those headings were one idea — "Was there for", "Never found out
+// about", "Nobody wrote down where they were", each with a paragraph explaining
+// a number that had already said it. Four more were context for an episode that
+// now has a page of its own. What is left is who they are, what they know and
+// don't, their episodes, what you can look up, and where to go next.
+//
+// Nothing was dropped. The three definitions are one fold; the writer's brief,
+// the moment list and the offscreen ledger sit under one heading with one click
+// each; and the episode body — script, anchor, crossings, control comparison,
+// every finding — moved to `/serials/[id]/cast/[char]/[anchor]`, which is where
+// a reader who wants it was always going to end up.
+// ---------------------------------------------------------------------------
+
+/** Block two. One heading over both numbers, where there used to be three. */
+export const KNOWLEDGE_HEADING = "What they know, and what they don’t";
+
+/** The three definitions the two counts used to carry a paragraph each for. */
+export const VIEWS_FOLD = "What these two numbers mean";
+
+export const VIEWS_FOLD_ASIDE = "the three ways a season can leave somebody";
+
+/**
+ * Two closed-line asides for folds that hold an answer rather than a list.
+ *
+ * A count of zero on a closed line reads as a fold not worth opening, and both
+ * of these are worth opening: one says nobody has paid for the brief yet, the
+ * other says nobody wrote down where this person was. Absence is the answer,
+ * so it is said in words instead of as a nought.
+ */
+export const NOT_WRITTEN_YET = "not written yet";
+export const NOTHING_RECORDED = "nothing recorded";
+
+/** Block four, on a character. Same name the season screen gives the idea. */
+export const CHARACTER_LOOKUP_EXPLAINED =
+  "What promotion wrote down about this person, and the raw lists a writer works from. None of it changes from visit to visit — open one when a question comes up.";
+
+// ---------------------------------------------------------------------------
+// AN EPISODE OF THEIR OWN, ON ITS OWN PAGE
+//
+// A character can have several. Ratnamma has two, and a single `/episode` route
+// could not address them — so the route carries the moment the episode starts
+// from, exactly as the mainline carries its episode number.
+// ---------------------------------------------------------------------------
+
+/** Says where the body of an episode went, on the row that replaced it. */
+export const EPISODE_ELSEWHERE =
+  "Nothing here has been left out. Each episode opens onto its own page, carrying the script, the moment it starts from, every place the two shows touch, and the check in full.";
+
+export const EPISODE_OPEN = "Open this episode";
+
+/** Above the character on an episode page, so nobody arrives stranded. */
+export const WRITTEN_FOR = "Written for";
+
+/** Under the two counts on an episode page. What they did to this script. */
+export const LIMITS_EXPLAINED =
+  "This episode was written to the first of those two numbers and walled off from the second. The check below is what says the wall held.";
+
+/**
+ * The pair, on one line, for a row that no longer prints the comparison in full.
+ *
+ * Both numbers, always read off the file. The demo's money shot is a 0 against a
+ * 5, but one of the committed pairs is 0 against 0 and a line that only reads
+ * correctly when the second number is larger would be lying on it.
+ */
+export function pairFound(constrained: number, control: number): string {
+  return `${contradictionCount(constrained)} written to what they know · ${contradictionCount(
+    control,
+  )} written without the limits`;
+}
+
+/** The rest of a failing verdict, when the row shows only the first finding. */
+export function moreFindings(n: number): string {
+  return n === 1
+    ? "1 more is on the episode’s own page."
+    : `${n} more are on the episode’s own page.`;
+}
+
+/** How many episodes a character has. Said here so no screen writes "1 episodes". */
+export function writtenCount(n: number): string {
+  return `${n} ${n === 1 ? "episode written" : "episodes written"}`;
+}
+
+/**
+ * The end of one episode page.
+ *
+ * `clean` is read off the verdict, never assumed. The character screen already
+ * had to be fixed for claiming "contradicting none of it" above a verdict
+ * reading "1 contradiction", and a second screen making the same claim would
+ * bring the bug back under a new name.
+ */
+export function spinoffEpisodeOnward(o: {
+  name: string;
+  clean: boolean;
+  others: number;
+}): { action: string; plain: string } {
+  const said = o.clean
+    ? "Nothing in this episode contradicts the season it came from, and the check above is what says so rather than anybody’s word."
+    : `The check caught this one borrowing something ${o.name} was never given, which is exactly what it is for. Fix that and it can go out.`;
+  const rest =
+    o.others > 0
+      ? ` ${o.others === 1 ? "One other episode has" : `${o.others} other episodes have`} been written for them.`
+      : "";
+  return {
+    action: `Back to ${o.name}`,
+    plain: `${said}${rest} Their page has what they saw, what went on behind their back, and the control that writes another.`,
+  };
 }
 
 // Counts on a closed summary line. Said here so no fold writes "1 moments".

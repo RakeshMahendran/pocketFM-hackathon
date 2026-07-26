@@ -1,13 +1,122 @@
 {
   "built_at": "2026-07-25T21:48:47.461723+00:00",
-  "winner": "The Mandsaur Woman Who Was Already Cremated",
-  "count": 29,
+  "winner": "The Court That Never Was",
+  "count": 30,
   "by_clearance": {
     "greenlight": 0,
     "fictionalize_first": 29,
     "blocked": 0
   },
   "items": [
+    {
+      "title": "The Court That Never Was",
+      "category": "THE LONG DECEPTION",
+      "one_line": "A man the bar council once jailed for practising law without a degree rents an office, calls it a tribunal, and spends five years settling other people's land disputes — until the litigants who won discover their victories were never real.",
+      "year": "2024",
+      "where": "Gandhinagar, Gujarat, India",
+      "mechanism": "He did not forge a single document that mattered. He rented an office, furnished it to look like a courtroom, hired staff to play court personnel, and told people he was an arbitrator appointed by a competent court. Nobody asked to see the appointment. Litigants tired of waiting years for a real hearing paid him a fee for a fast one, and he gave them a ruling on paper that looked exactly like a ruling. The illusion held because the thing he was impersonating is one almost nobody has ever seen up close.",
+      "engine": "Every judgment he delivers has to be protected by the next one. The moment any losing party takes his order to a real court and finds no record of the case, five years of rulings unwind at once — so he cannot refuse a new client, cannot rule against anyone powerful enough to check, and cannot stop. The con is not a scheme with an end; it is a standing obligation that grows every week he keeps it.",
+      "episode_estimate": 120,
+      "cast": [
+        {
+          "name_or_role": "the fake judge",
+          "motive": "to be addressed the way he was refused the right to be addressed",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "his clerk, hired to play court staff",
+          "motive": "a salary, and the first respectable job of her life",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "a woman who won her father's land in his court",
+          "motive": "to keep what she believes a judge awarded her",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "the brother she beat, who accepted the ruling",
+          "motive": "to be the kind of man who obeys a court",
+          "spinoff_potential": "high"
+        },
+        {
+          "name_or_role": "the real advocate who noticed the seal was wrong",
+          "motive": "professional disgust, and an old grudge",
+          "spinoff_potential": "med"
+        },
+        {
+          "name_or_role": "the bar council officer who struck him off in 2007",
+          "motive": "to be proved right a second time",
+          "spinoff_potential": "med"
+        }
+      ],
+      "scores": {
+        "engine_longevity": 9,
+        "hook_density": 9,
+        "emotional_immediacy": 8,
+        "conflict": 9,
+        "cast_depth": 9,
+        "total": 44
+      },
+      "clearance": {
+        "status": "fictionalize_first",
+        "reasons": [
+          "A living private individual, arrested and charged, not convicted — every claim about him is an allegation until a court says otherwise.",
+          "The litigants are private people who were defrauded. They are victims and cannot be identifiable.",
+          "Change the state, the names, the profession he came from, and the year. The mechanism is what we are adapting, not the man."
+        ]
+      },
+      "prior_adaptations": [],
+      "sources": [
+        "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498",
+        "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362",
+        "https://m.thewire.in/article/law/after-fake-teacher-now-a-fake-judge-exposed-in-gujarat"
+      ],
+      "facts": [
+        {
+          "what_happened": "A man ran a fake court out of an office in Gandhinagar, Gujarat, passing judgments for about five years from 2019 until his arrest in October 2024.",
+          "source": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "He told clients he was an arbitrator appointed by a competent court to settle their disputes.",
+          "source": "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362",
+          "confidence": "alleged"
+        },
+        {
+          "what_happened": "He furnished the office to resemble a courtroom and used staff acting as court personnel to complete the illusion.",
+          "source": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "He targeted people in land disputes by offering a fast ruling for a heavy fee, against real courts' long delays.",
+          "source": "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "His rulings touched more than 100 acres across at least 11 properties, and 10 of those cases were still unresolved when the court was exposed.",
+          "source": "https://m.thewire.in/article/law/after-fake-teacher-now-a-fake-judge-exposed-in-gujarat",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "He was jailed for three months in 2007 after the state bar council said he held no valid law degree and was practising as a lawyer.",
+          "source": "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362",
+          "confidence": "reported"
+        },
+        {
+          "what_happened": "He was arrested under IPC 170, pretending to hold office as a public servant, and IPC 419, cheating by personation.",
+          "source": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498",
+          "confidence": "reported"
+        }
+      ],
+      "why_this_sells": "It is a dominance fantasy built on a humiliation that actually happened: a man told by an institution that he was not real, who then simply declared himself real and was believed for five years. The listener gets the fantasy of the nobody who stops asking permission, and the dread of watching him need one more lie every episode to hold up the last one. And the side characters are the product — every litigant who won in that room walked out happy and does not know it was nothing, which is a whole serial per person, none of which can contradict the mainline because none of them were ever told.",
+      "why_not": "The protagonist is a fraud with real victims, and a season that enjoys his cleverness too much becomes a story that thinks defrauding poor litigants is charming. He also has no legal jeopardy for most of the run — nobody is chasing him — so the pressure has to come from inside the con rather than from a pursuer, which is harder to write and easy to get wrong.",
+      "domain": "indiatvnews.com",
+      "winner": true,
+      "id": "evt_gandhinagar_tribunal",
+      "url": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498",
+      "source": "websearch",
+      "text": "A man the bar council once jailed for practising law without a degree rents an office, calls it a tribunal, and spends five years settling other people's land disputes — until the litigants who won discover their victories were never real."
+    },
     {
       "title": "The Mandsaur Woman Who Was Already Cremated",
       "category": "DENIED IDENTITY",
@@ -106,7 +215,7 @@
       "why_this_sells": "The instant fear is brutally recognisable: your family performs your funeral, strangers are punished for your death, and returning home does not prove who you are.",
       "why_not": "The central trafficking account is still only an allegation, so the series needs heavy fictionalisation and must preserve uncertainty rather than claim a solved truth.",
       "domain": "ndtv.com",
-      "winner": true,
+      "winner": false,
       "id": "1a8a1dc47393",
       "url": "https://www.ndtv.com/cities/madhya-pradesh-mandsaur-woman-presumed-dead-returns-home-father-had-identified-body-with-crushed-head-and-cremated-7982106",
       "source": "websearch",

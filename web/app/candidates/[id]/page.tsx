@@ -17,6 +17,7 @@ import { requireEditor } from "@/lib/session";
 import type { Scores } from "@/lib/types";
 import {
   BAR_EXPLAINED,
+  CLEARANCE,
   HEADING,
   IN_PRODUCTION,
   MEASURES,
@@ -113,6 +114,25 @@ export default async function CandidateBrief(
           <div className="label mt-3">
             {[category(c.category), c.year, c.where].filter(Boolean).join(" · ")}
           </div>
+
+          {/*
+            The legal verdict said out loud, not just on hover.
+
+            "Change the names" is three words carrying the whole clearance
+            decision, and its explanation lived only in a `title` attribute —
+            invisible on a projector, invisible to anyone who does not think to
+            hover, and invisible in a screenshot. It is the one thing on this
+            page nobody is allowed to override, and BUILD_PLAN calls it the
+            answer nobody else in the room will have. It belongs on the page.
+
+            Only on the brief: the list carries the badge twenty-nine times and
+            the sentence would drown it.
+          */}
+          {c.clearance && (
+            <p className="text-sm text-muted leading-relaxed mt-3 prose-col">
+              {CLEARANCE[c.clearance.status].plain}
+            </p>
+          )}
         </div>
 
         <div className="text-right shrink-0">

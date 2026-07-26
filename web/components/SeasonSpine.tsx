@@ -284,8 +284,22 @@ export function SeasonSpine({
         <div
           className="grid h-44 border border-rule bg-surface"
           style={{
-            gridTemplateColumns: `repeat(${spine.length}, minmax(3.25rem, 1fr))`,
-            minWidth: `${spine.length * 3.25}rem`,
+            /*
+             * 2.5rem, not 3.25.
+             *
+             * A fourteen-episode season floored at 3.25rem needs 728px, and the
+             * column it sits in is 670px — so episodes 13 and 14, the climax and
+             * the finale and the tallest bars on a rising curve, sat outside the
+             * box at every width. Reachable only by scrolling inside it, with no
+             * window scrollbar to suggest anything was missing: someone reading
+             * the chart for the shape of a season read one that ends at twelve.
+             *
+             * 40px still holds a two-digit number over a three-letter ending
+             * abbreviation. The scroll parent stays for seasons long enough to
+             * genuinely need it; the floor is what makes an ordinary one fit.
+             */
+            gridTemplateColumns: `repeat(${spine.length}, minmax(2.5rem, 1fr))`,
+            minWidth: `${spine.length * 2.5}rem`,
           }}
         >
           {spine.map((e) => (
@@ -312,7 +326,19 @@ export function SeasonSpine({
         </p>
       )}
 
-      <Ladder spine={spine} episodes={written} id={id} />
+      {/*
+        The chart, and nothing else.
+        `<Ladder>` used to follow it here, printing all fourteen episodes with
+        their turn, ending and payoff — the same three fields, with the same
+        left-rule treatment, that `SeasonEpisodes` renders below on the same
+        page. A fourteen-episode season carried 29 `<h3>`s, every title twice a
+        pixel apart in size, and five separate links to episode 1. Merging the
+        two lists was the point of `SeasonEpisodes`; only the old one was never
+        removed.
+
+        Nothing is lost: each column is a link to its episode and its `title`
+        already carries the ending, the lead's position, the turn and the payoff.
+      */}
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { withoutRepeatedRules } from "@/components/pathWords";
 import {
   publishEpisode,
   unpublishEpisode,
@@ -131,6 +132,13 @@ export function PullEpisode({
  *
  * Used on the episode's own page and inside the season's list, so the two
  * cannot end up describing the same episode differently.
+ *
+ * `saidAbove` is for the second of those. The season list now prints the label,
+ * the refusal and the audit stamp on the row itself, where they can be scanned
+ * without opening anything — so inside that row's fold this renders the
+ * reasoning and the control only, and the reasoning arrives with the
+ * season-wide rules already stripped out. Nothing about what may be released
+ * changes: `refusedRelease` is still asked, and still withholds the button.
  */
 export function EpisodeStanding({
   storyId,
@@ -139,6 +147,7 @@ export function EpisodeStanding({
   release,
   checks,
   detailed = false,
+  saidAbove = false,
 }: {
   storyId: string;
   ep: number;
@@ -148,6 +157,8 @@ export function EpisodeStanding({
   checks: Checks;
   /** Show the reasoning under the label. On for one episode, off in a list. */
   detailed?: boolean;
+  /** The caller already prints the label, the audit and the season's rules. */
+  saidAbove?: boolean;
 }) {
   const standing = episodeStanding(ep, season);
   const out = standing.kind === "out";
@@ -157,29 +168,32 @@ export function EpisodeStanding({
   // and the second one wins — "Ready to go out" printed above "Can't go out"
   // is two labels arguing on the same row.
   const refused = standing.canRelease ? refusedRelease(checks, ep) : null;
+  const why = refused ? refused.plain : standing.plain;
 
   return (
     <div>
-      <div className="flex items-baseline gap-3 flex-wrap">
-        <span
-          className={`label ${refused ? "text-halt" : standing.className}`}
-          title={standing.plain}
-        >
-          {refused ? refused.label : standing.label}
-        </span>
-        {out && release && (
-          <span className="label">
-            {episodeAudit({ who: editorName(release.by), at: release.at })}
+      {!saidAbove && (
+        <div className="flex items-baseline gap-3 flex-wrap">
+          <span
+            className={`label ${refused ? "text-halt" : standing.className}`}
+            title={standing.plain}
+          >
+            {refused ? refused.label : standing.label}
           </span>
-        )}
-      </div>
+          {out && release && (
+            <span className="label">
+              {episodeAudit({ who: editorName(release.by), at: release.at })}
+            </span>
+          )}
+        </div>
+      )}
 
       {/* The reasoning is worth the space on the one episode being looked at,
           and on the one episode that can go out. Printed against all fourteen
           rows of a list it is noise, so there it lives in the title. */}
       {(refused || detailed || standing.kind === "next") && (
         <p className="mt-1.5 text-sm text-muted prose-col leading-relaxed">
-          {refused ? refused.plain : standing.plain}
+          {saidAbove ? withoutRepeatedRules(why) : why}
         </p>
       )}
 
@@ -292,3 +306,12 @@ export function EpisodeReleaseList({
 
 /** Named once so the panel's link and the section it lands on cannot drift. */
 export const EPISODE_LIST_ANCHOR = "whats-out";
+
+/**
+ * One episode's row in that list. "Go to episode 4 in the list below" used to
+ * land on the top of the list and leave the reader to find episode 4 among
+ * fourteen; it now lands on the row, which is where the button is.
+ */
+export function episodeAnchor(ep: number): string {
+  return `episode-${ep}`;
+}

@@ -1,0 +1,146 @@
+{
+  "char_id": "hardik",
+  "name": "Hardik Desai",
+  "role": "district court registrar",
+  "promotable": true,
+  "real_anchor": {
+    "maps_to": "Hardik Desai",
+    "composite": false,
+    "clearance": "fictionalize_first"
+  },
+  "stub": {
+    "facts": [
+      "Hardik received a filing bundle containing an award from an unfamiliar forum and directed that its authority be traced.",
+      "Hardik found no matching forum, appointment, arbitrator name or case-number sequence in the available district records.",
+      "Hardik wrote the unidentified case number on a slip and stored it in his drawer for further inquiry.",
+      "Hardik verified across current, retired and section records that no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matched Morris's forum.",
+      "Hardik signed a police complaint supported by the verification note, the bar record and copies of thirty-four awards.",
+      "Khot told Sarika she was named as an employee and witness rather than an accused, and Sarika disclosed the location of the forum's records.",
+      "Khot read aloud the charge that Morris cheated people by falsely representing judicial authority and inducing transfers through purported awards.",
+      "Khot offered to record Morris's cooperation for a narrower prosecution position if he listed every award and admitted that each lacked judicial force.",
+      "Morris identified the earlier matters, admitted he lacked court appointment and stated that the first twenty-three awards had no judicial force.",
+      "Morris refused to call Manjula's award worthless despite being told that the refusal could cost him leniency."
+    ],
+    "want": "a record that says only what is true",
+    "voice_samples": [
+      "A genuine dispute does not create a genuine tribunal. If we accept one good order from that room, we accept every bad one. And there is no way for you or me to know which is which.",
+      "Report what? That one annexure has a number I do not recognise? He will ask me how many such awards exist. And I will say — I do not know, sir. One.",
+      "If I return it at the counter, the party will remove that annexure and file again by evening. And then it is gone.",
+      "Type the verification note. Four heads. Empanelment, appointment, constitution, numbering. Negative on all four.",
+      "It is a complete complaint. Verification note, bar record, and thirty-four certified awards.",
+      "The party will not ask. People who file a fake award never ask why it is taking time.",
+      "Bring the current empanelment. Then the retired. Then section eleven, all five years.",
+      "Index all thirty-four. Certified copies. And prepare a sealed set for the police.",
+      "One seven six. Meaning they are claiming one hundred and seventy-six matters.",
+      "There was no court appointment. That part the record has already established.",
+      "Check the retired list. Sometimes they continue as arbitrators privately.",
+      "So that you could select disputes which had not reached a real court."
+    ]
+  },
+  "bible": {
+    "want": "Hardik Desai stops every filing whose authority cannot be traced, preserves its identifying details, and searches until the record can support or reject it.",
+    "wound": "She avoids admitting uncertainty to superiors because she believes an official who says “I do not know” has already failed. She knowingly converts doubt into more procedure—repeat searches, private notes and delayed decisions—costing filers time, exhausting her staff and making her own methods harder to defend.",
+    "voice": "Hardik speaks in clipped declaratives followed by exact consequences: if this, then that. She repeats key negatives, translates figures into their full meaning and organizes uncertainty into numbered heads or document lists. When frightened, she gives an instruction. When pressed about people, motives or consequences, she changes the subject to chain of custody: the next register, copy, date or signature that can be checked.",
+    "engine": "The registry requires Hardik to process papers quickly while holding her personally responsible for what the record appears to authenticate. Because fragmented records can rarely prove a negative conclusively, every anomaly she investigates expands the search, delays more work and creates pressure to take shortcuts; those shortcuts produce fresh discrepancies for her to investigate. The growing backlog, institutional pressure and her demand for documentary certainty keep the conflict permanently active.",
+    "offscreen_ledger": [
+      {
+        "window": "between the season opening and b025",
+        "what": "Hardik audits a week of returned filings, catches three ordinary numbering errors, refuses informal corrections and makes clerks rebuild each paper trail before she clears it, provoking complaints from the counter and a warning about the mounting backlog."
+      },
+      {
+        "window": "between b026 and b028",
+        "what": "Hardik drafts a query admitting that one number remains unexplained, tears it up before sending it, recopies the number by hand and checks the dispatch and inward registers once more."
+      },
+      {
+        "window": "between b028 and b041",
+        "what": "Hardik builds a four-column verification matrix, sends separate requests to current, retired and appointment records, obtains the relevant professional record and logs every negative response against the unidentified matter."
+      },
+      {
+        "window": "between b042 and b044",
+        "what": "Hardik records the complaint’s dispatch details, secures her duplicate index, assigns the public counter to another clerk and returns to the delayed filing queue without receiving any account of what investigators are doing."
+      },
+      {
+        "window": "between b048 and the season end",
+        "what": "Hardik checks the complaint diary for an acknowledgment, finds none entered, copies the dispatch receipt into her discrepancy register and begins tracing the missing acknowledgment through another chain of offices."
+      }
+    ],
+    "reframe": "The mainline is about false authority compounding itself; Hardik’s serial is about the moral cost of demanding perfect records from an institution built out of gaps, delays and human shortcuts.",
+    "stance": "dupe",
+    "genre": "bureaucratic thriller",
+    "pitch": "A registrar who refuses to certify what she cannot trace turns every missing record into a private case—and risks becoming the next gap in the system."
+  },
+  "season": [
+    {
+      "ep": 1,
+      "turn": "Hardik refuses to count a returned case as disposed after finding that its file has no dispatch receipt or acknowledgment from the party.",
+      "ends_on": "The record clerk confirms that no receipt exists for the return.",
+      "hook_type": "DISCOVERY",
+      "sets_in": "the OPEN SPACE between the season opening and b025"
+    },
+    {
+      "ep": 2,
+      "turn": "Hardik orders a physical reconciliation, which proves that seven files marked returned are still inside the registry.",
+      "ends_on": "The reporting officer says the disposal statement must be certified by four o’clock.",
+      "hook_type": "DEADLINE",
+      "sets_in": "the OPEN SPACE between the season opening and b025"
+    },
+    {
+      "ep": 3,
+      "turn": "Hardik enters the seven files as pending instead of signing the inflated disposal total, causing the registry to miss its monthly target.",
+      "ends_on": "The administrative judge’s memo accuses Hardik of altering the court’s disposal figures without authority.",
+      "hook_type": "ACCUSATION",
+      "sets_in": "the OPEN SPACE between the season opening and b025"
+    },
+    {
+      "ep": 4,
+      "turn": "While preparing his answer to the memo, Hardik finds the same unsupported return code in six earlier monthly statements.",
+      "ends_on": "Hardik recognizes his own countersignature on the oldest of those statements.",
+      "hook_type": "RECOGNITION",
+      "sets_in": "the OPEN SPACE between the season opening and b025"
+    },
+    {
+      "ep": 5,
+      "turn": "Hardik secures approval for an exception register that keeps unverifiable filings open, but accepts personal responsibility for every file entered in it.",
+      "ends_on": "The records chief states that no exception can leave the register without Hardik’s signed clearance.",
+      "hook_type": "ULTIMATUM",
+      "sets_in": "the OPEN SPACE between the season opening and b025"
+    },
+    {
+      "ep": 6,
+      "turn": "When Hardik receives a filing bundle containing an award from an unfamiliar forum, his new responsibility forces him to direct a trace of its authority instead of clearing the bundle.",
+      "ends_on": "The annexure describes the unfamiliar forum’s document as a judicial award.",
+      "hook_type": "DISCOVERY",
+      "sets_in": "b025"
+    },
+    {
+      "ep": 7,
+      "turn": "Hardik’s first search finds no matching forum, appointment, arbitrator or case-number sequence anywhere in the available district indexes.",
+      "ends_on": "The numbering clerk confirms that the unidentified number claims the forum had already reached matter 176.",
+      "hook_type": "REVEAL",
+      "sets_in": "b026 and the OPEN SPACE between b026 and b028"
+    },
+    {
+      "ep": 8,
+      "turn": "After preserving the unidentified number on a slip, Hardik uses it to search archived filing descriptions and locates another award bearing the same forum name.",
+      "ends_on": "The archive clerk reads out a second district filing containing an award from that forum.",
+      "hook_type": "DISCOVERY",
+      "sets_in": "b028 and the OPEN SPACE between b028 and b041"
+    },
+    {
+      "ep": 9,
+      "turn": "The second match gives Hardik enough shared terms to order a registry-wide retrieval, producing an indexed set of thirty-four certified awards and the named issuer’s bar record.",
+      "ends_on": "The records chief gives Hardik until the next morning to clear the held filing or refer the entire indexed set to police.",
+      "hook_type": "DEADLINE",
+      "sets_in": "the OPEN SPACE between b028 and b041"
+    },
+    {
+      "ep": 10,
+      "turn": "After current, retired and section records all return negative on appointment, constitution and numbering, Hardik signs a police complaint supported by the verification note, bar record and all thirty-four awards.",
+      "ends_on": "Hardik’s superior states that if any of the four negative verifications is wrong, the disciplinary file will name Hardik alone.",
+      "hook_type": "THREAT",
+      "sets_in": "b041–b042"
+    }
+  ],
+  "title": "The Exception Register",
+  "logline": "A district court registrar’s refusal to certify unsupported entries turns one disputed filing into a widening record trail that puts his name, career and the court’s credibility behind a criminal complaint."
+}

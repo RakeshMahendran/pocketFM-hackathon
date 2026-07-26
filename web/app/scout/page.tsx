@@ -8,12 +8,13 @@ import { ScoutReplay } from "@/components/ScoutReplay";
 import { loadCorpus } from "@/lib/data";
 import { loadReplay } from "@/lib/replay";
 import { requireEditor } from "@/lib/session";
+import { PRODUCT } from "@/app/layout";
 import { STORY_LIST } from "@/lib/words";
 
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "CanonForge — How stories are found",
+  title: `${PRODUCT} — How stories are found`,
   description:
     "What the story search looks for, and a replay of the search that filled the queue.",
 };

@@ -685,6 +685,32 @@ function personBlock(raw: unknown): Record<string, string> | null {
   return Object.keys(out).length ? out : null;
 }
 
+/**
+ * Which seasons the slate shows, when you do not want all of them.
+ *
+ * `CANONFORGE_STORIES=evt_gandhinagar_tribunal` — comma-separated, unset shows
+ * everything. For walking one story in front of an audience without deleting
+ * the other seven or editing a file between rehearsal and stage.
+ *
+ * Deliberately a filter on the *list* and not on the loader: every season stays
+ * reachable by its own URL, so a question about one of them is a link away
+ * rather than a restart. An id here that is not on disk is ignored rather than
+ * rendered as a missing show — a typo in an env var should not invent a season.
+ */
+function onlyShow(): Set<string> | null {
+  const raw = (process.env.CANONFORGE_STORIES ?? "").trim();
+  if (!raw) return null;
+  const wanted = raw.split(",").map((s) => s.trim()).filter(Boolean);
+  return wanted.length ? new Set(wanted) : null;
+}
+
+/**
+ * Every season on disk. What `loadSerial` and `loadEpisode` resolve against.
+ *
+ * Unfiltered on purpose — see `slateDirs` below. Both loaders share this, so
+ * filtering here would 404 the seasons the slate is merely not listing, and a
+ * question about one of them mid-demo would need a restart to answer.
+ */
 async function storyDirs(): Promise<{ dirs: string[]; error: string | null }> {
   try {
     const entries = await fs.readdir(path.join(DATA_DIR, "stories"), {
@@ -704,8 +730,16 @@ async function storyDirs(): Promise<{ dirs: string[]; error: string | null }> {
   }
 }
 
+/** The seasons the slate lists, which is the only place `CANONFORGE_STORIES` applies. */
+async function slateDirs(): Promise<{ dirs: string[]; error: string | null }> {
+  const all = await storyDirs();
+  const only = onlyShow();
+  if (!only) return all;
+  return { ...all, dirs: all.dirs.filter((name) => only.has(name)) };
+}
+
 export async function loadSlate(): Promise<Slate> {
-  const { dirs, error } = await storyDirs();
+  const { dirs, error } = await slateDirs();
   if (error) {
     return {
       serials: [],

@@ -1,0 +1,734 @@
+{
+  "story_id": "evt_gandhinagar_tribunal",
+  "char_id": "hardik",
+  "anchor_beat_id": "b041",
+  "anchor": {
+    "beat_id": "b041",
+    "ep": 11,
+    "seq": 1,
+    "world_time": "2024-01",
+    "location": "district court records room",
+    "what_happened": "Harshad verified across current, retired and section records that no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matched Mervyn's forum.",
+    "fact": "established from court records that Mervyn had no recorded appointment or tribunal",
+    "valence": 4,
+    "n_present": 1,
+    "kind": "witnessed"
+  },
+  "constrained": true,
+  "generated_at": "2026-07-26T05:07:27.215022+00:00",
+  "model": "gpt-5.6-sol",
+  "forbidden": {
+    "story_id": "evt_gandhinagar_tribunal",
+    "char_id": "hardik",
+    "n_beats": 49,
+    "allowed": [
+      {
+        "beat_id": "b025",
+        "ep": 7,
+        "world_time": "2024-01",
+        "location": "district court filing counter",
+        "fact": "Harshad received a filing bundle containing an award from an unfamiliar forum and directed that its authority be traced."
+      },
+      {
+        "beat_id": "b026",
+        "ep": 7,
+        "world_time": "2024-01",
+        "location": "district court records room",
+        "fact": "Harshad found no matching forum, appointment, arbitrator name or case-number sequence in the available district records."
+      },
+      {
+        "beat_id": "b028",
+        "ep": 7,
+        "world_time": "2024-01",
+        "location": "district court registrar office",
+        "fact": "Harshad wrote the unidentified case number on a slip and stored it in his drawer for further inquiry."
+      },
+      {
+        "beat_id": "b041",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "district court records room",
+        "fact": "Harshad verified across current, retired and section records that no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matched Mervyn's forum."
+      },
+      {
+        "beat_id": "b042",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "district court registrar office",
+        "fact": "Harshad signed a police complaint supported by the verification note, the bar record and copies of thirty-four awards."
+      },
+      {
+        "beat_id": "b044",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "tyre-shop stairwell",
+        "fact": "Khot told Sarika she was named as an employee and witness rather than an accused, and Sarika disclosed the location of the forum's records."
+      },
+      {
+        "beat_id": "b045",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "tyre-shop stairwell",
+        "fact": "Khot read aloud the charge that Mervyn cheated people by falsely representing judicial authority and inducing transfers through purported awards."
+      },
+      {
+        "beat_id": "b046",
+        "ep": 12,
+        "world_time": "2024-01",
+        "location": "police interview room",
+        "fact": "Khot offered to record Mervyn's cooperation for a narrower prosecution position if he listed every award and admitted that each lacked judicial force."
+      },
+      {
+        "beat_id": "b047",
+        "ep": 12,
+        "world_time": "2024-01",
+        "location": "police interview room",
+        "fact": "Mervyn identified the earlier matters, admitted he lacked court appointment and stated that the first twenty-three awards had no judicial force."
+      },
+      {
+        "beat_id": "b048",
+        "ep": 12,
+        "world_time": "2024-01",
+        "location": "police interview room",
+        "fact": "Mervyn refused to call Manjula's award worthless despite being told that the refusal could cost him leniency."
+      }
+    ],
+    "forbidden": [
+      {
+        "beat_id": "b001",
+        "ep": 1,
+        "world_time": "2022-11",
+        "location": "court chamber",
+        "fact": "Fifteen years after being struck off, Mervyn typed another man's order and was sent out of the chamber to wait.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b002",
+        "ep": 1,
+        "world_time": "2022-11",
+        "location": "court corridor",
+        "fact": "Irfan mistook Mervyn for an official who could hear his urgent housing dispute, and Mervyn examined the file without correcting him.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b003",
+        "ep": 1,
+        "world_time": "2022-11",
+        "location": "court corridor",
+        "fact": "Irfan touched Mervyn's feet and asked him to hear the case.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b004",
+        "ep": 2,
+        "world_time": "2022-11",
+        "location": "court copying room",
+        "fact": "Mervyn called his intervention advice, typed a direction in judicial form and signed it as presiding officer.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b005",
+        "ep": 2,
+        "world_time": "2022-11",
+        "location": "hardware shop",
+        "fact": "Irfan presented Mervyn's signed page, and the landlord restored the key and paid six thousand rupees without court proceedings.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b006",
+        "ep": 2,
+        "world_time": "2022-11",
+        "location": "unknown file storage",
+        "fact": "A copy of Mervyn's first signed direction remained preserved with the housing papers after payment.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b007",
+        "ep": 2,
+        "world_time": "2022-11",
+        "location": "court canteen",
+        "fact": "Irfan returned to Mervyn with two more men, their files and their fees.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b008",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "court canteen and room above tyre shop",
+        "fact": "Mervyn accepted the two referrals and used their fees to rent a room above a tyre shop.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b009",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Mervyn installed an eight-inch dais and a nameplate identifying an arbitration and dispute resolution forum with a presiding officer.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b010",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "family home",
+        "fact": "Vaishali questioned who appointed Mervyn, and he said private parties would appoint an arbitrator by consent.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b011",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Mervyn hired Sarika for three thousand rupees per month, designated her registry clerk and obtained her signature certifying proceedings recorded by her.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b012",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "After Mervyn conducted the first two numbered matters, an unknown stranger entered unannounced and placed a heavy file on Sarika's desk.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b013",
+        "ep": 4,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Dhawale brought a land dispute concerning property valued at one crore forty lakh and pressed Mervyn for an urgent ruling.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b014",
+        "ep": 4,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "The landowner appeared with the advocate, signed a consent memorandum and argued the land dispute before Mervyn.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b015",
+        "ep": 4,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Mervyn ordered conveyance at the contracted price, and the landowner accepted the balance payment while the advocate stated that his client would comply.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b016",
+        "ep": 4,
+        "world_time": "2022-11",
+        "location": "land transaction file storage",
+        "fact": "A copy of the signed consent memorandum and award was preserved with the land transaction papers.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b017",
+        "ep": 5,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Mervyn admitted there was no prior appointment order, and the advocate warned that another lawyer could challenge the room before consenting.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b018",
+        "ep": 5,
+        "world_time": "2022-11",
+        "location": "court copying room",
+        "fact": "Mervyn asked Pandit for access to the civil pending list so he could avoid disputes already filed in the real court, and Pandit refused cash.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b019",
+        "ep": 5,
+        "world_time": "2022-11",
+        "location": "court copying room",
+        "fact": "Pandit left the pending list on a rear photocopier long enough for Mervyn to photograph all thirty-two pages.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b020",
+        "ep": 5,
+        "world_time": "2022-11",
+        "location": "court copying room",
+        "fact": "Pandit demanded one sealed envelope each month, to be opened by Mervyn without questions, as the price of continued access.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b021",
+        "ep": 6,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Manjula sought an urgent hearing over land and keys withheld by Bhaskar for eleven years, and Mervyn fixed the hearing for eight days later.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b022",
+        "ep": 6,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "At the hearing, Mervyn established that Manjula held an equal recorded share while Bhaskar controlled all access and had not fully accounted for crop income.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b023",
+        "ep": 6,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Mervyn awarded Manjula access and possession according to her recorded share, barred Bhaskar from leasing the western half and ordered delivery of the keys.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b024",
+        "ep": 6,
+        "world_time": "2022-11",
+        "location": "lane outside family land",
+        "fact": "Bhaskar delivered both keys under the judgment, and Manjula publicly told the lane that a court had finally listened to her.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b027",
+        "ep": 7,
+        "world_time": "2024-01",
+        "location": "district court internal filing route",
+        "fact": "The complete filing bundle remained routed for further scrutiny rather than being returned at the public counter.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b029",
+        "ep": 8,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "The advocate publicly challenged Sarika to explain what her certification signature represented and reminded Mervyn that no prior appointment order had been produced.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b030",
+        "ep": 8,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Mervyn admitted that he established the forum himself and could not identify an external order appointing him as presiding officer.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b031",
+        "ep": 8,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Sarika counted fourteen months of salary envelopes and recognized that her signatures had travelled on certified copies outside the room.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b032",
+        "ep": 8,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Sarika asked Mervyn whether she could be jailed for her role.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b033",
+        "ep": 9,
+        "world_time": "2024-01",
+        "location": "tyre-shop stairwell",
+        "fact": "Mervyn received Harshad's written demand for his appointment order and learned that he had eleven days to respond.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b034",
+        "ep": 9,
+        "world_time": "2024-01",
+        "location": "court copying room",
+        "fact": "Mervyn asked Pandit to insert a false appointment into an old court record, and Pandit identified the request as forgery.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b035",
+        "ep": 9,
+        "world_time": "2024-01",
+        "location": "court copying room",
+        "fact": "Pandit stated that each sealed envelope contained a dispute and required outcome, and that Mervyn had signed twelve awards preserving those outcomes.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b036",
+        "ep": 9,
+        "world_time": "2024-01",
+        "location": "court copying room",
+        "fact": "Pandit refused to assist with the appointment order and demanded the return of the photographed pending list.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b037",
+        "ep": 10,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Mervyn began his largest hearing before a packed room while Tejas watched from the back.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b038",
+        "ep": 10,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Sarika publicly refused to certify an exhibit while Mervyn continued the hearing.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b039",
+        "ep": 10,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Dhawale produced a prewritten outcome and copies of twelve earlier awards, then demanded that Mervyn award him the western parcel at two crore ten lakh rupees.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b040",
+        "ep": 10,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "After the room cleared, Tejas asked Mervyn which court had appointed him.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b043",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "police evidence storage",
+        "fact": "A sealed police copy of the verification note and award index remained preserved for investigation.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b049",
+        "ep": 12,
+        "world_time": "2024-01",
+        "location": "family land",
+        "fact": "Manjula remained in possession of both keys and was not told about Mervyn's arrest or the challenge to his authority.",
+        "emphasised": false
+      }
+    ],
+    "allowed_ids": [
+      "b025",
+      "b026",
+      "b028",
+      "b041",
+      "b042",
+      "b044",
+      "b045",
+      "b046",
+      "b047",
+      "b048"
+    ],
+    "forbidden_ids": [
+      "b001",
+      "b002",
+      "b003",
+      "b004",
+      "b005",
+      "b006",
+      "b007",
+      "b008",
+      "b009",
+      "b010",
+      "b011",
+      "b012",
+      "b013",
+      "b014",
+      "b015",
+      "b016",
+      "b017",
+      "b018",
+      "b019",
+      "b020",
+      "b021",
+      "b022",
+      "b023",
+      "b024",
+      "b027",
+      "b029",
+      "b030",
+      "b031",
+      "b032",
+      "b033",
+      "b034",
+      "b035",
+      "b036",
+      "b037",
+      "b038",
+      "b039",
+      "b040",
+      "b043",
+      "b049"
+    ]
+  },
+  "crossing_candidates": [
+    {
+      "beat_id": "b041",
+      "ep": 11,
+      "world_time": "2024-01",
+      "location": "district court records room",
+      "what_happened": "Harshad verified across current, retired and section records that no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matched Mervyn's forum."
+    },
+    {
+      "beat_id": "b042",
+      "ep": 11,
+      "world_time": "2024-01",
+      "location": "district court registrar office",
+      "what_happened": "Harshad signed a police complaint supported by the verification note, the bar record and copies of thirty-four awards."
+    },
+    {
+      "beat_id": "b044",
+      "ep": 11,
+      "world_time": "2024-01",
+      "location": "tyre-shop stairwell",
+      "what_happened": "Khot told Sarika she was named as an employee and witness rather than an accused, and Sarika disclosed the location of the forum's records."
+    },
+    {
+      "beat_id": "b045",
+      "ep": 11,
+      "world_time": "2024-01",
+      "location": "tyre-shop stairwell",
+      "what_happened": "Khot read aloud the charge that Mervyn cheated people by falsely representing judicial authority and inducing transfers through purported awards."
+    }
+  ],
+  "bible": {
+    "want": "Hardik Desai stops every filing whose authority cannot be traced, preserves its identifying details, and searches until the record can support or reject it.",
+    "wound": "She avoids admitting uncertainty to superiors because she believes an official who says “I do not know” has already failed. She knowingly converts doubt into more procedure—repeat searches, private notes and delayed decisions—costing filers time, exhausting her staff and making her own methods harder to defend.",
+    "voice": "Hardik speaks in clipped declaratives followed by exact consequences: if this, then that. She repeats key negatives, translates figures into their full meaning and organizes uncertainty into numbered heads or document lists. When frightened, she gives an instruction. When pressed about people, motives or consequences, she changes the subject to chain of custody: the next register, copy, date or signature that can be checked.",
+    "engine": "The registry requires Hardik to process papers quickly while holding her personally responsible for what the record appears to authenticate. Because fragmented records can rarely prove a negative conclusively, every anomaly she investigates expands the search, delays more work and creates pressure to take shortcuts; those shortcuts produce fresh discrepancies for her to investigate. The growing backlog, institutional pressure and her demand for documentary certainty keep the conflict permanently active.",
+    "offscreen_ledger": [
+      {
+        "window": "between the season opening and b025",
+        "what": "Hardik audits a week of returned filings, catches three ordinary numbering errors, refuses informal corrections and makes clerks rebuild each paper trail before she clears it, provoking complaints from the counter and a warning about the mounting backlog."
+      },
+      {
+        "window": "between b026 and b028",
+        "what": "Hardik drafts a query admitting that one number remains unexplained, tears it up before sending it, recopies the number by hand and checks the dispatch and inward registers once more."
+      },
+      {
+        "window": "between b028 and b041",
+        "what": "Hardik builds a four-column verification matrix, sends separate requests to current, retired and appointment records, obtains the relevant professional record and logs every negative response against the unidentified matter."
+      },
+      {
+        "window": "between b042 and b044",
+        "what": "Hardik records the complaint’s dispatch details, secures her duplicate index, assigns the public counter to another clerk and returns to the delayed filing queue without receiving any account of what investigators are doing."
+      },
+      {
+        "window": "between b048 and the season end",
+        "what": "Hardik checks the complaint diary for an acknowledgment, finds none entered, copies the dispatch receipt into her discrepancy register and begins tracing the missing acknowledgment through another chain of offices."
+      }
+    ],
+    "reframe": "The mainline is about false authority compounding itself; Hardik’s serial is about the moral cost of demanding perfect records from an institution built out of gaps, delays and human shortcuts.",
+    "stance": "dupe",
+    "genre": "bureaucratic thriller",
+    "pitch": "A registrar who refuses to certify what she cannot trace turns every missing record into a private case—and risks becoming the next gap in the system."
+  },
+  "episode": {
+    "title": "Negative on All Four",
+    "logline": "Publicly shamed for delaying an unfamiliar award, Registrar Harshad Kotak forces four incomplete record systems to answer one precise question.",
+    "script": "SFX: A wooden drawer scraping open. Paper slips shifting. A date stamp strikes twice.\n\nNARRATOR: Four days after the unfamiliar award reached her desk, Harshad Kotak had checked every district record immediately available to her. None matched its forum, its arbitrator, its appointment or its case number.\n\nHARSHAD: Read the number back.\n\nNILA: One seven six of twenty-four.\n\nHARSHAD: Not “one-seventy-six.” One seven six. Meaning the paper claims at least one hundred and seventy-five earlier numbers in the same sequence.\n\nNILA: Unless they began at one hundred and seventy-six.\n\nHARSHAD: Then we need the opening register. If there is no opening register, we need the authority for the numbering. If there is no authority, we do not certify the award.\n\nNILA: The counter has called three times.\n\nHARSHAD: The counter is not a record.\n\nNILA: Superintendent Rao wants the bundle returned today.\n\nHARSHAD: The current lists are negative. The appointment index is negative. The name is negative. That proves what we have not found. It does not yet prove where we failed to look.\n\nNILA: What is left?\n\nSFX: A pencil draws four hard lines across paper.\n\nHARSHAD: Four heads. Current empanelment. Retired appointments. Tribunal constitution. Official numbering. Separate source for each. Separate custodian. Separate written answer.\n\nNILA: That will take another week.\n\nHARSHAD: Then write the date beside every request. If this delays the filing, the record will show why.\n\nNILA: And the number on that slip?\n\nSFX: Paper folds once. The drawer slides shut.\n\nHARSHAD: It remains in my drawer until the record can explain it.\n\nSFX: A crowded public counter. Tokens clatter into a metal tray. People murmur and shuffle.\n\nNARRATOR: By noon, the delayed queue had reached sixty-three filings, and Superintendent Rao called Harshad to the counter in front of her staff and the waiting public.\n\nRAO: Registrar Kotak, one bundle has occupied two clerks for four days.\n\nHARSHAD: One bundle contains one authority we cannot trace.\n\nRAO: You found no match. Return it with an objection.\n\nHARSHAD: If it is returned, the disputed paper can be removed. The rest can be filed again. Then our only trace disappears.\n\nFILER KALE: Madam, my certified copy is waiting because she is investigating a number on somebody else’s paper.\n\nRAO: Yes. Your copy and sixty-two other filings.\n\nFILER KALE: Then she should say she does not know what the number means and clear our work.\n\nSFX: Several people laugh.\n\nNARRATOR: The laughter left Harshad ashamed. She had delayed sixty-three people because she could not say three words to her superior: I do not know.\n\nRAO: Well, Registrar? Do you know whether this forum had authority?\n\nSFX: The crowd settles.\n\nHARSHAD: No, sir.\n\nRAO: Louder.\n\nHARSHAD: I do not know.\n\nFILER KALE: Four days for that answer?\n\nHARSHAD: Four days established that the available district records do not match. The remaining search establishes whether another official record does.\n\nRAO: You have until tomorrow evening. After that, I want a decision, not another column.\n\nHARSHAD: Then authorize direct access to retired records and the section files.\n\nRAO: You are giving me instructions now?\n\nHARSHAD: I am stating the consequence. Without access, tomorrow’s decision will be unsupported.\n\nSFX: A pen clicks open.\n\nRAO: Nila, note my authorization.\n\nNILA: Noted, sir.\n\nRAO: Sixty-three pending, Registrar Kotak. Every one of them will carry your name.\n\nHARSHAD: Then every delay will carry its reason.\n\nSFX: Telephone buttons beep. Register pages turn rapidly. A ceiling fan rattles.\n\nNARRATOR: The next afternoon, three custodians answered Harshad’s requests, one after another.\n\nDEV: Retired register checked. No matching appointment under that name and no continuation entry linked to that forum.\n\nHARSHAD: State the years searched.\n\nDEV: All five years requested.\n\nHARSHAD: Sign beside the first and last page numbers.\n\nDEV: Already signed.\n\nSFX: A telephone receiver changes hands.\n\nSECTION CLERK: Section records checked. No order constituting a tribunal under that forum name.\n\nHARSHAD: Variations in spelling?\n\nSECTION CLERK: Three variations checked. All negative.\n\nHARSHAD: Put the three variations in your reply. A negative without the search terms is not a result.\n\nSECTION CLERK: I will send it now.\n\nSFX: Telephone disconnects. A printer begins feeding paper.\n\nNILA: The current empanelment response is here. Negative. The official case-number branch sent its sequence certificate too.\n\nRAO: And?\n\nNILA: Their numbers do not use this forum’s format.\n\nRAO: Say it plainly.\n\nNILA: The sequence does not match any official sequence they maintain.\n\nSFX: Office murmurs fade.\n\nRAO: Registrar Kotak, look at me.\n\nHARSHAD: The documents are incomplete until I compare the source references.\n\nRAO: I called this search pointless in front of your staff and the public.\n\nHARSHAD: Yes, sir.\n\nRAO: I withdraw that. In front of the same staff, I say you were right to stop the filing.\n\nNILA: We all heard him, madam.\n\nRAO: Now finish it.\n\nHARSHAD: Nila, no one enters the records room until I complete the comparison.\n\nNILA: You have all four replies.\n\nHARSHAD: I have four replies. I do not yet have one verified conclusion.\n\nSFX: A heavy records-room door unlocks. Metal shelves creak. Papers are placed in four separate stacks.\n\nNARRATOR: That evening, Harshad compared the current, retired and section records against the unidentified forum, its claimed officer and its case-number sequence.\n\nHARSHAD: Head one. Current records.\n\nSFX: One page turns.\n\nHARSHAD: No matching empanelment.\n\nSFX: A pencil ticks a box.\n\nHARSHAD: Head two. Retired records.\n\nSFX: Two pages turn.\n\nHARSHAD: No matching appointed arbitrator.\n\nSFX: A second box is marked.\n\nHARSHAD: Head three. Appointment and constitution.\n\nSFX: A file tie loosens. Several pages slide across wood.\n\nHARSHAD: No matching appointment order. No matching constituted tribunal.\n\nSFX: A third box is marked.\n\nHARSHAD: Head four. Numbering.\n\nSFX: A thin certificate unfolds.\n\nHARSHAD: No matching official case-number sequence.\n\nSFX: Nothing. Long.\n\nHARSHAD: Verification complete. Across the current, retired and section records, no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matches Mervyn Aloysius Fonseca’s forum."
+  },
+  "beats": [
+    {
+      "beat_id": "x_hardik_b041_001",
+      "ep": 1,
+      "seq": 1,
+      "world_time": "2024-01",
+      "location": "District court registry office",
+      "present": [
+        "hardik",
+        "clerk_nila"
+      ],
+      "witnessed_by": [
+        "hardik",
+        "clerk_nila"
+      ],
+      "hidden_from": [
+        "advocate",
+        "bhaskar",
+        "dhawale",
+        "irfan",
+        "khot",
+        "manjula",
+        "morris",
+        "pandit",
+        "sarika",
+        "tejas",
+        "vaishali"
+      ],
+      "what_happened": "Harshad organized the unresolved authority search under four documentary heads and retained the unidentified case number for further inquiry.",
+      "state_changes": [
+        {
+          "entity": "hardik",
+          "fact": "Converted the unresolved filing into a four-part verification process.",
+          "valence": 1
+        },
+        {
+          "entity": "district_registry",
+          "fact": "The unfamiliar filing remained delayed pending further checks.",
+          "valence": -1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id suggested_hk041a",
+      "tier": "branch_canon",
+      "pov": "hardik"
+    },
+    {
+      "beat_id": "x_hardik_b041_002",
+      "ep": 1,
+      "seq": 2,
+      "world_time": "2024-01",
+      "location": "District court public counter",
+      "present": [
+        "hardik",
+        "clerk_nila",
+        "superintendent_rao",
+        "filer_kale"
+      ],
+      "witnessed_by": [
+        "hardik",
+        "clerk_nila",
+        "superintendent_rao",
+        "filer_kale"
+      ],
+      "hidden_from": [
+        "advocate",
+        "bhaskar",
+        "dhawale",
+        "irfan",
+        "khot",
+        "manjula",
+        "morris",
+        "pandit",
+        "sarika",
+        "tejas",
+        "vaishali"
+      ],
+      "what_happened": "Harshad publicly admitted that she did not yet know whether the unfamiliar forum had authority and obtained authorization to search additional records.",
+      "state_changes": [
+        {
+          "entity": "hardik",
+          "fact": "Admitted uncertainty to her superior in public.",
+          "valence": -2
+        },
+        {
+          "entity": "hardik",
+          "fact": "Received access needed to continue the verification.",
+          "valence": 2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id suggested_hk041b",
+      "tier": "branch_canon",
+      "pov": "hardik"
+    },
+    {
+      "beat_id": "x_hardik_b041_003",
+      "ep": 1,
+      "seq": 3,
+      "world_time": "2024-01",
+      "location": "District court registry office",
+      "present": [
+        "hardik",
+        "clerk_nila",
+        "superintendent_rao",
+        "records_clerk_dev",
+        "section_clerk"
+      ],
+      "witnessed_by": [
+        "hardik",
+        "clerk_nila",
+        "superintendent_rao",
+        "records_clerk_dev",
+        "section_clerk"
+      ],
+      "hidden_from": [
+        "advocate",
+        "bhaskar",
+        "dhawale",
+        "irfan",
+        "khot",
+        "manjula",
+        "morris",
+        "pandit",
+        "sarika",
+        "tejas",
+        "vaishali"
+      ],
+      "what_happened": "Separate custodians delivered negative record responses, and Rao publicly withdrew his criticism of Harshad's decision to stop the filing.",
+      "state_changes": [
+        {
+          "entity": "superintendent_rao",
+          "fact": "Acknowledged publicly that Harshad was right to stop the filing.",
+          "valence": 2
+        },
+        {
+          "entity": "hardik",
+          "fact": "Obtained the separate record responses needed for final comparison.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id suggested_hk041c",
+      "tier": "branch_canon",
+      "pov": "hardik"
+    },
+    {
+      "beat_id": "x_hardik_b041_004",
+      "ep": 1,
+      "seq": 4,
+      "world_time": "2024-01",
+      "location": "District court records room",
+      "present": [
+        "hardik"
+      ],
+      "witnessed_by": [
+        "hardik"
+      ],
+      "hidden_from": [
+        "advocate",
+        "bhaskar",
+        "dhawale",
+        "irfan",
+        "khot",
+        "manjula",
+        "morris",
+        "pandit",
+        "sarika",
+        "tejas",
+        "vaishali"
+      ],
+      "what_happened": "Harshad verified across current, retired and section records that no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matched Mervyn's forum.",
+      "state_changes": [
+        {
+          "entity": "hardik",
+          "fact": "Established from court records that Mervyn had no recorded appointment or tribunal.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": "b041",
+      "note": "model suggested beat_id suggested_hk041d",
+      "tier": "branch_canon",
+      "pov": "hardik"
+    }
+  ],
+  "crossings": [
+    {
+      "mainline_beat_id": "b041",
+      "rendered_as": "Harshad alone compares four source sets in the records room and states each negative finding aloud before recording the complete conclusion.",
+      "objective_facts_kept": "Harshad verified across current, retired and section records that no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matched Mervyn's forum."
+    }
+  ],
+  "cites": [
+    "b025",
+    "b026",
+    "b028",
+    "b041"
+  ],
+  "flags": []
+}

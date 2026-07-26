@@ -1,0 +1,1836 @@
+{
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "The First Number",
+      "lines": [
+        {
+          "speaker": "salim",
+          "text": "Case one, Meera versus Harish. All persons stand for the presiding arbitrator.",
+          "sfx_cue": "wooden staff strikes floor, chairs scrape"
+        },
+        {
+          "speaker": "naina",
+          "text": "Sir, before you begin, I require the previous case number.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "You require it? On your first morning itself? Please sit, Naina. Learn the room before correcting it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "I am not correcting the room, sir. The register begins with today's entry. I cannot find the earlier numbers.",
+          "sfx_cue": "register pages flutter"
+        },
+        {
+          "speaker": "devraj",
+          "text": "And yet the hearing has begun. Meera, kindly state what you want.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Possession of my father's twelve-acre orchard, sir. Harish has the keys, the crop account and the north gate.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "I have maintained that orchard for eleven years. She came after our father died and demanded everything.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Because he left it to me, bhai. You know that.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "I know what is lawful. I will obey a lawful order, even if it goes against me.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Sir, that is precisely why the case number matters. A competent forum must maintain continuity of proceedings.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Staff, did anyone ask for a lecture on competent forums?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pooja",
+          "text": "No, sir.",
+          "sfx_cue": "typewriter carriage clicks"
+        },
+        {
+          "speaker": "salim",
+          "text": "No, presiding sir. The recording is running.",
+          "sfx_cue": "tape recorder reels turning"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Meera? Did you ask my new clerk for a lecture?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "No, sir. I only want my orchard.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Harish? Perhaps you requested a speech about registers.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "No, sir. I came for judgment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "There, Naina. Four people understood the purpose of a hearing. Only the clerk is confused.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE FROM STAFF",
+          "text": "Maybe she requires a register to remember where she is.",
+          "sfx_cue": "staff laughter"
+        },
+        {
+          "speaker": "naina",
+          "text": "Sir, I... I only asked because the first page says the register opened five years ago.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Correct. And a qualified clerk would infer that earlier records have been archived.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Then kindly give me the archive reference. I will enter it beside today's case.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "You have been here for twenty-three minutes, and already you are delaying citizens who have waited months.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Madam, please. Let him hear us first. Small small office matters can happen later.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "A court should not be made to wait for its clerk.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Yes. I understand.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "No, you do not. Salim, remove her chair.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Sir, the chair is fixed under the record desk.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Then use both hands. Kindly do the needful.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Naina madam, thoda side, please.",
+          "sfx_cue": "chair legs drag across stone"
+        },
+        {
+          "speaker": "naina",
+          "text": "Sir, where should I record the evidence?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Standing beside Salim. Perhaps discomfort will improve your concentration.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE FROM STAFF",
+          "text": "Now she is looking like an usher only.",
+          "sfx_cue": "scattered laughter"
+        },
+        {
+          "speaker": "salim",
+          "text": "Enough. The recording is catching everything.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Let it catch. Transparency is the dignity of this tribunal.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Yes, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Write. Case one. The claimant seeks exclusive possession of twelve acres formerly held by her late father.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Case one of which year, sir?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Naina.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "I need the year for the index.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Write the current year. Do not convert ignorance into procedure.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pooja",
+          "text": "I have already typed the heading, sir.",
+          "sfx_cue": "typewriter keys rattle"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Excellent. One employee arrived prepared.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Sir, my father's memorandum names me. Harish took the original after the funeral.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "For safekeeping. Not theft.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "You will both submit your papers tomorrow. Until then, Harish will not disturb Meera's present access.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "If that is the court's direction, I will obey.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Thank you, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Hearing adjourned. Salim, clear the room. Naina stays.",
+          "sfx_cue": "wooden staff strikes desk"
+        },
+        {
+          "speaker": "salim",
+          "text": "All claimants outside. Take your papers. Slowly, slowly.",
+          "sfx_cue": "footsteps and murmuring recede"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Your application said you had three years of record-room experience.",
+          "sfx_cue": "door closes"
+        },
+        {
+          "speaker": "naina",
+          "text": "Three years and eight months, sir. Civil typing, indexing and certified-copy preparation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Yet you challenged the bench before claimants, staff and an active recording machine.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "I asked for a number. A missing number can invalidate every reference after it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "This is not the typing shop that dismissed you. Here, discipline may still compensate for qualification.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "That shop dismissed me without checking the original dictation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Everyone dismissed from somewhere has an original dictation. Do one thing. Bring the master register from my cupboard.",
+          "sfx_cue": "keys jingle"
+        },
+        {
+          "speaker": "naina",
+          "text": "Which key, sir?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "The brass one. And Naina... if you open a cupboard, close it exactly as you found it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Yes, sir.",
+          "sfx_cue": "cupboard lock turns"
+        },
+        {
+          "speaker": "naina",
+          "text": "This is the master register?",
+          "sfx_cue": "heavy ledger lands on desk"
+        },
+        {
+          "speaker": "devraj",
+          "text": "It says so on the cover, does it not.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Five years of tribunal matters should fill several volumes.",
+          "sfx_cue": "thick pages turn rapidly"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Find today's case and prepare the daily abstract.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Sir... there are no earlier entries.",
+          "sfx_cue": "single page turns"
+        },
+        {
+          "speaker": "naina",
+          "text": "The tribunal's supposedly five-year-old master register is blank, except for the case I entered this morning.",
+          "sfx_cue": ""
+        }
+      ]
+    },
+    {
+      "ep": 2,
+      "title": "Three Hundred and Twenty-Six Cases",
+      "lines": [
+        {
+          "speaker": "devraj",
+          "text": "Close that register, Naina. Now.",
+          "sfx_cue": "cupboard door slams, ledger pages snap shut"
+        },
+        {
+          "speaker": "naina",
+          "text": "Not until you explain why five years of judicial records are missing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Judicial records are not missing. Their index has not been migrated.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Migrated from where? There is no archive reference, disposal list or old volume.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "You wanted permanent work, no? This is the work.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Permanent work does not mean inventing records.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Careful. Nobody has asked you to invent anything.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Then show me one earlier case file.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Pooja, bring the numbering sheet.",
+          "sfx_cue": "desk drawer opens"
+        },
+        {
+          "speaker": "pooja",
+          "text": "Sir... that sheet is only rough planning.",
+          "sfx_cue": "paper rustles"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Today it becomes an administrative index.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "There are three hundred and twenty-six numbers on this page.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Correct. Enter them before the case you recorded this morning.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "With what names? What filing dates? What orders?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Only case number, year and status. Mark each one transferred to archive.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "An archive that does not exist.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "An archive that is presently unavailable. Use accurate language in a legal office.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Sir, should I stop the recording? The hearing is over.",
+          "sfx_cue": "tape reels turning"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Yes. Private administrative work need not consume tape.",
+          "sfx_cue": "recorder switch clicks"
+        },
+        {
+          "speaker": "salim",
+          "text": "Stopped, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Now, Naina. Kindly begin with case one of the first year.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "I will not certify three hundred and twenty-six nonexistent cases.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Certify? No. You are merely preparing an index from data supplied by your superior.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "There is no data. There are only numbers.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Numbers are the spine of a record. You said that before the full staff, did you not.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "I said continuity requires genuine numbers.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "And I am giving you continuity. Three hundred and twenty-six entries of it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pooja",
+          "text": "Naina, do it in pencil first. If sir changes the sequence, ink will become a headache.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "You knew the register was blank?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pooja",
+          "text": "I knew sir kept it locked. That is all I knew.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Pooja understands the limits of her designation. That is why she still has a chair.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "My employment declaration says record clerk, not author of past proceedings.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "It also says you accept responsibility for accurate preparation and maintenance of tribunal records.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Accurate preparation. This is false preparation.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "That is an accusation. Accusations require evidence, qualifications and an appropriate forum. You presently have none of the three.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "If any authority inspects this register—",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "They will see your handwriting. So I suggest you make it neat.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Sir, perhaps we can say the old index was water-damaged. Water happens in every office.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Thank you, Salim. Do not improve documents unless instructed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Yes, sir. I was only... achha, I will lock the front door.",
+          "sfx_cue": "door bolt slides"
+        },
+        {
+          "speaker": "naina",
+          "text": "You are keeping me here after closing?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "You delayed the morning hearing. You will restore that time today only.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Three hundred and twenty-six entries will take hours.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Then conversation is expensive. Begin.",
+          "sfx_cue": "fountain pen uncaps"
+        },
+        {
+          "speaker": "naina",
+          "text": "Case one. First year. Transferred to archive.",
+          "sfx_cue": "pen scratches on paper"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Good.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Case two. First year. Transferred to archive.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pooja",
+          "text": "Leave six lines after every fifty cases. It looks more natural if the years do not finish evenly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "More natural? Pooja, how many times have you done this?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pooja",
+          "text": "I type what comes on my desk. I don't... I don't ask where it lived before that.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "A sensible employee does not interrogate paper.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Paper does not go to prison. People do.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "An excellent reason to follow written instructions from a superior.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Give me that instruction in writing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Certainly. Pooja, note: clerk directed to update pending migration work as part of routine duties.",
+          "sfx_cue": "typewriter keys begin"
+        },
+        {
+          "speaker": "naina",
+          "text": "No. Write that the files were not produced for verification.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Pooja will type my instruction, not your anxiety.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pooja",
+          "text": "Sir, tomorrow's orchard order is also pending.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Prepare it now. Exclusive possession to Meera, subject to document verification.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Their evidence has not been submitted yet.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "And therefore the order remains subject to verification. Legal language exists to solve these small small difficulties.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pooja",
+          "text": "Meera's name in the heading, Harish as respondent?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Yes. Twelve-acre orchard. Effective immediately.",
+          "sfx_cue": "typewriter strikes rapidly"
+        },
+        {
+          "speaker": "naina",
+          "text": "You are deciding tomorrow's hearing tonight.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "I am reducing administrative delay. Continue your index.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "Behind Pooja's desk, one carbon copy slid under the skirting board. Nobody saw it remain there.",
+          "sfx_cue": "thin paper slips across floor"
+        },
+        {
+          "speaker": "naina",
+          "text": "Case one hundred and eighty-nine. Fourth year. Transferred to archive.",
+          "sfx_cue": "wall clock ticks"
+        },
+        {
+          "speaker": "pooja",
+          "text": "Your hand is shaking. Drink water.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "My hand is writing lies in permanent ink.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Your hand is completing probation work. The difference is attitude.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "NARRATOR",
+          "text": "Two hours later, the invented history reached the final page.",
+          "sfx_cue": "clock chimes nine times"
+        },
+        {
+          "speaker": "naina",
+          "text": "Case three hundred and twenty-six. Fifth year. Transferred to archive.",
+          "sfx_cue": "pen stops scratching"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Then today's orchard dispute becomes case three hundred and twenty-seven. The sequence is continuous.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "The sequence is manufactured.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Your opinion has been noted verbally and nowhere else.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "I want my employment declaration returned.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "The declaration belongs in your service file.",
+          "sfx_cue": "folder opens"
+        },
+        {
+          "speaker": "naina",
+          "text": "That is not my service file.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "No. This is safer.",
+          "sfx_cue": "paper placed between ledger pages"
+        },
+        {
+          "speaker": "devraj",
+          "text": "I am placing your signed employment declaration inside the false register, Naina.",
+          "sfx_cue": "heavy register closes"
+        },
+        {
+          "speaker": "devraj",
+          "text": "If the police open it, they will treat the register's author as the creator of this court.",
+          "sfx_cue": ""
+        }
+      ]
+    },
+    {
+      "ep": 3,
+      "title": "The Missing Letter",
+      "lines": [
+        {
+          "speaker": "devraj",
+          "text": "Stop typing. The word orchard is misspelled in a final order.",
+          "sfx_cue": "typewriter bell, paper ripped from carriage"
+        },
+        {
+          "speaker": "pooja",
+          "text": "Sir, I can correct it in two minutes.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "You will not touch it. Naina certified the copy.",
+          "sfx_cue": "paper slapped on desk"
+        },
+        {
+          "speaker": "naina",
+          "text": "I certified that it matched the office copy. I did not type this order.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "The office copy says orchad. Your certified copy says orchad. The error belongs to records.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "The error belongs to whoever typed it before yesterday's evidence was filed.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pooja",
+          "text": "Naina, bas. Correct the spelling and issue a fresh copy.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "No quiet correction. Claimants are waiting. They deserve transparency.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Meera and Harish are outside, sir. Shall I keep them there?",
+          "sfx_cue": "muffled corridor voices"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Call them in. Call the staff also. The tribunal will address this publicly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Sir, a typographical error can be corrected by memorandum. There is no need to humiliate anyone.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "An employee who fears humiliation usually knows where responsibility lies.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Meera, Harish, come inside. Staff members also. Recording is starting.",
+          "sfx_cue": "door opens, several footsteps enter"
+        },
+        {
+          "speaker": "meera",
+          "text": "Sir, has Harish challenged yesterday's order?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "I have challenged nothing. I obeyed it. I gave her the north-gate key this morning.",
+          "sfx_cue": "metal key lands on desk"
+        },
+        {
+          "speaker": "meera",
+          "text": "And the crop account?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "That also. I said I would obey a lawful order.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Your obedience is noted. Unfortunately, my records clerk has issued you a defective judgment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Defective how? Does it cancel my possession?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "The word orchard is missing one letter.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "One letter? The land is still twelve acres, no? The survey description is there?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "A judgment is not a vegetable list, Meera. Every word carries authority.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "Then the order I obeyed is invalid?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "I did not say invalid. I said defective because Naina failed to examine it.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Sir, kindly show them the typed office copy. The same spelling appears there.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Of course it does. Your function was to prevent that error from leaving this office.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "The function of certification is comparison. Both copies matched exactly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Listen to her. She is proud that she reproduced a mistake exactly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "VOICE FROM STAFF",
+          "text": "Yesterday she knew more than the bench. Today she cannot spell orchard.",
+          "sfx_cue": "staff laughter"
+        },
+        {
+          "speaker": "meera",
+          "text": "Madam, this paper controls my father's land. You should have checked properly.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "I surrendered possession because I believed this was a court order. Such mistakes damage both of us.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "I understand. But I did not decide or type—",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Do not distribute your duty among others. Stand beside the bench.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Sir, may I first inspect the draft history? The order was prepared before the hearing.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "That is irrelevant and untrue.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pooja",
+          "text": "Sir, perhaps I should check the ribbon impression. It may show—",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Pooja, your job is typing. Naina's job is records. Keep those boundaries clear.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "The recording is running, sir.",
+          "sfx_cue": "tape reels turning"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Good. Let the record reflect accountability. Naina, what is your monthly salary?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Eleven thousand eight hundred rupees, sir.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Your entire salary for this month is docked.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "The entire month? For one missing letter?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "For negligence, public embarrassment to the tribunal and risk caused to two claimants.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "My appointment declaration does not permit a full-month deduction without written inquiry.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Your appointment declaration is presently securing the master register you prepared yesterday.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "You forced me to prepare that index.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Is that your statement before Meera, Harish, the staff and this recording machine?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "I... I am asking for an inquiry into today's error.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "A wise correction. The salary deduction stands.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Sir, I do not need her whole salary. I only need a proper order.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Your generosity does you credit. Discipline is not yours to waive.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "If the corrected order is lawful, I will continue obeying it. But I want the original examined.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Certainly. Where is your issued copy?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "In my document bag outside.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Bring it. We will compare every line.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "harish",
+          "text": "I will return in five minutes.",
+          "sfx_cue": "door opens and closes"
+        },
+        {
+          "speaker": "devraj",
+          "text": "While we wait, Naina will apologise to both affected parties from the bench.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "From the bench?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Yes. The error travelled under the tribunal seal. The apology will carry equal visibility.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "I can apologise from here.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "You may also resign from there. The choice is entirely yours.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Naina madam, the step is on your left.",
+          "sfx_cue": "slow footsteps on wooden steps"
+        },
+        {
+          "speaker": "VOICE FROM STAFF",
+          "text": "Careful. Even the bench spelling must be correct today.",
+          "sfx_cue": "brief laughter"
+        },
+        {
+          "speaker": "naina",
+          "text": "Meera, I apologise that the certified order issued to you contained a spelling error.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Contained an error because of what?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Because... because I did not stop its issue.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Will my possession remain protected?",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "The correction should not change the operative direction.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "You are not authorised to advise her. Finish the apology.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Meera, I am sorry.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Now Harish, though he is presently outside. The recording will preserve it for him.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Harish, I apologise that you surrendered the orchard keys on a defective copy.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "And for causing him doubt about this tribunal's competence.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "I will not apologise for asking whether this tribunal is competent.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Then your probation can end today.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Sir... please. I need this appointment.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "Then use it respectfully.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Harish, I apologise for causing you doubt about the tribunal's competence.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "meera",
+          "text": "Madam, come down. This is enough.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "It is enough when the bench says so.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "pooja",
+          "text": "Sir, I have typed the correction memorandum.",
+          "sfx_cue": "typewriter carriage returns"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Give it to Naina. She will certify it correctly this time.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "The order date is yesterday, but this correction says the error was noticed during pronouncement.",
+          "sfx_cue": "paper unfolds"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Because that is the administratively appropriate description.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "It was noticed this morning, after pronouncement and after possession changed hands.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "You have already sacrificed one salary. Do not become ambitious.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Someone is coming with Harish. Two persons.",
+          "sfx_cue": "quick footsteps approach in corridor"
+        },
+        {
+          "speaker": "devraj",
+          "text": "Then return to your place. No claimant should see a clerk standing on the bench.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "naina",
+          "text": "Yesterday you made me stand beside the usher. Today you made me apologise from your chair.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "devraj",
+          "text": "And tomorrow may still be available to you, if you learn.",
+          "sfx_cue": ""
+        },
+        {
+          "speaker": "salim",
+          "text": "Harish has returned carrying the orchard order. A real advocate is beside him.",
+          "sfx_cue": "door opens sharply, legal file clasps rattle"
+        },
+        {
+          "speaker": "arvind",
+          "text": "Naina. I recognise you. You are the typist I dismissed from my office.",
+          "sfx_cue": ""
+        }
+      ]
+    }
+  ],
+  "beat_sheet": [
+    {
+      "beat_id": "b001",
+      "ep": 1,
+      "seq": 1,
+      "world_time": "2023-08-07",
+      "location": "Devgarh Land Tribunal hearing room",
+      "present": [
+        "naina",
+        "devraj",
+        "meera",
+        "harish",
+        "pooja",
+        "salim"
+      ],
+      "witnessed_by": [
+        "naina",
+        "devraj",
+        "meera",
+        "harish",
+        "pooja",
+        "salim"
+      ],
+      "hidden_from": [
+        "arvind",
+        "shukla",
+        "ratan",
+        "leena",
+        "kavita"
+      ],
+      "what_happened": "Naina asks for the missing earlier case numbers during Meera and Harish's first hearing, and Devraj publicly ridicules the question.",
+      "state_changes": [
+        {
+          "entity": "naina",
+          "fact": "Her concern about missing case numbers becomes public before staff and claimants.",
+          "valence": -2
+        },
+        {
+          "entity": "devraj",
+          "fact": "He refuses to produce an archive reference for earlier cases.",
+          "valence": -1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b002",
+      "ep": 1,
+      "seq": 2,
+      "world_time": "2023-08-07",
+      "location": "Devgarh Land Tribunal hearing room",
+      "present": [
+        "naina",
+        "devraj",
+        "meera",
+        "harish",
+        "pooja",
+        "salim"
+      ],
+      "witnessed_by": [
+        "naina",
+        "devraj",
+        "meera",
+        "harish",
+        "pooja",
+        "salim"
+      ],
+      "hidden_from": [
+        "arvind",
+        "shukla",
+        "ratan",
+        "leena",
+        "kavita"
+      ],
+      "what_happened": "Devraj orders Salim to remove Naina's chair and makes her work standing beside him while staff laugh.",
+      "state_changes": [
+        {
+          "entity": "naina",
+          "fact": "She is publicly demoted in status during her first hearing.",
+          "valence": -4
+        },
+        {
+          "entity": "salim",
+          "fact": "He participates in removing Naina's chair under Devraj's instruction.",
+          "valence": -1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b003",
+      "ep": 1,
+      "seq": 3,
+      "world_time": "2023-08-07",
+      "location": "Devgarh Land Tribunal hearing room",
+      "present": [
+        "naina",
+        "devraj",
+        "meera",
+        "harish",
+        "pooja",
+        "salim"
+      ],
+      "witnessed_by": [
+        "naina",
+        "devraj",
+        "meera",
+        "harish",
+        "pooja",
+        "salim"
+      ],
+      "hidden_from": [
+        "arvind",
+        "shukla",
+        "ratan",
+        "leena",
+        "kavita"
+      ],
+      "what_happened": "Devraj directs that Meera retain access to the twelve-acre orchard until documents are submitted, and Harish agrees to obey.",
+      "state_changes": [
+        {
+          "entity": "meera",
+          "fact": "Her access to the orchard is temporarily protected by Devraj's direction.",
+          "valence": 2
+        },
+        {
+          "entity": "harish",
+          "fact": "He commits to obeying the tribunal because he believes it is lawful.",
+          "valence": -1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b004",
+      "ep": 1,
+      "seq": 4,
+      "world_time": "2023-08-07",
+      "location": "Devraj's record cupboard",
+      "present": [
+        "naina",
+        "devraj"
+      ],
+      "witnessed_by": [
+        "naina",
+        "devraj"
+      ],
+      "hidden_from": [
+        "meera",
+        "harish",
+        "arvind",
+        "shukla",
+        "pooja",
+        "salim",
+        "ratan",
+        "leena",
+        "kavita"
+      ],
+      "what_happened": "Naina opens the supposedly five-year-old master register and finds it blank except for the case she entered that morning.",
+      "state_changes": [
+        {
+          "entity": "naina",
+          "fact": "She knows the tribunal's master register contains no history before her first entry.",
+          "valence": -5
+        },
+        {
+          "entity": "master register",
+          "fact": "Its claimed five-year history is contradicted by its blank pages.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b005",
+      "ep": 2,
+      "seq": 1,
+      "world_time": "2023-08-07",
+      "location": "Devgarh Land Tribunal record room",
+      "present": [
+        "naina",
+        "devraj",
+        "pooja",
+        "salim"
+      ],
+      "witnessed_by": [
+        "naina",
+        "devraj",
+        "pooja",
+        "salim"
+      ],
+      "hidden_from": [
+        "meera",
+        "harish",
+        "arvind",
+        "shukla",
+        "ratan",
+        "leena",
+        "kavita"
+      ],
+      "what_happened": "Devraj orders Naina to backfill the master register with an index of 326 cases for which no files or archive references are produced.",
+      "state_changes": [
+        {
+          "entity": "naina",
+          "fact": "She is compelled to create continuity for 326 unsupported case numbers.",
+          "valence": -5
+        },
+        {
+          "entity": "master register",
+          "fact": "It gains an invented five-year index of 326 cases.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b006",
+      "ep": 2,
+      "seq": 2,
+      "world_time": "2023-08-07",
+      "location": "Devgarh Land Tribunal typing area",
+      "present": [
+        "naina",
+        "devraj",
+        "pooja",
+        "salim"
+      ],
+      "witnessed_by": [
+        "naina",
+        "devraj",
+        "pooja",
+        "salim"
+      ],
+      "hidden_from": [
+        "meera",
+        "harish",
+        "arvind",
+        "shukla",
+        "ratan",
+        "leena",
+        "kavita"
+      ],
+      "what_happened": "Devraj dictates an order granting Meera exclusive possession before the siblings submit their evidence, and Pooja types it.",
+      "state_changes": [
+        {
+          "entity": "pooja",
+          "fact": "She prepares Meera's result before the document hearing.",
+          "valence": -3
+        },
+        {
+          "entity": "naina",
+          "fact": "She learns that Devraj determines outcomes before hearings.",
+          "valence": -4
+        },
+        {
+          "entity": "meera's orchard order",
+          "fact": "It is prepared before the evidence hearing.",
+          "valence": -5
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b007",
+      "ep": 2,
+      "seq": 3,
+      "world_time": "2023-08-07",
+      "location": "Behind the typing desk",
+      "present": [],
+      "witnessed_by": [],
+      "hidden_from": [
+        "naina",
+        "devraj",
+        "meera",
+        "harish",
+        "arvind",
+        "shukla",
+        "pooja",
+        "salim",
+        "ratan",
+        "leena",
+        "kavita"
+      ],
+      "what_happened": "An unnoticed carbon copy of Meera's pretyped judgment slips beneath the skirting board and remains there.",
+      "state_changes": [
+        {
+          "entity": "carbon copy",
+          "fact": "It survives as independent proof that Meera's judgment was typed before the hearing.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "No character notices the carbon copy sliding beneath the skirting board; the beat deliberately preserves open canon for its later discovery."
+    },
+    {
+      "beat_id": "b008",
+      "ep": 2,
+      "seq": 4,
+      "world_time": "2023-08-07",
+      "location": "Devgarh Land Tribunal record room",
+      "present": [
+        "naina",
+        "devraj",
+        "pooja",
+        "salim"
+      ],
+      "witnessed_by": [
+        "naina",
+        "devraj",
+        "pooja",
+        "salim"
+      ],
+      "hidden_from": [
+        "meera",
+        "harish",
+        "arvind",
+        "shukla",
+        "ratan",
+        "leena",
+        "kavita"
+      ],
+      "what_happened": "After Naina completes the false index, Devraj places her signed employment declaration inside the register and says police will treat the author as the court's creator.",
+      "state_changes": [
+        {
+          "entity": "naina",
+          "fact": "Her signed declaration is physically linked to the fabricated register.",
+          "valence": -5
+        },
+        {
+          "entity": "devraj",
+          "fact": "He gains documentary leverage to direct suspicion toward Naina.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b009",
+      "ep": 3,
+      "seq": 1,
+      "world_time": "2023-08-08",
+      "location": "Devgarh Land Tribunal typing area",
+      "present": [
+        "naina",
+        "devraj",
+        "pooja",
+        "salim"
+      ],
+      "witnessed_by": [
+        "naina",
+        "devraj",
+        "pooja",
+        "salim"
+      ],
+      "hidden_from": [
+        "meera",
+        "harish",
+        "arvind",
+        "shukla",
+        "ratan",
+        "leena",
+        "kavita"
+      ],
+      "what_happened": "Devraj finds the word orchard misspelled in Meera's order and assigns responsibility to Naina because she certified the copy.",
+      "state_changes": [
+        {
+          "entity": "naina",
+          "fact": "She is publicly designated responsible for a typing error she did not type.",
+          "valence": -4
+        },
+        {
+          "entity": "meera's orchard order",
+          "fact": "Its spelling defect becomes an official issue.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b010",
+      "ep": 3,
+      "seq": 2,
+      "world_time": "2023-08-08",
+      "location": "Devgarh Land Tribunal hearing room",
+      "present": [
+        "naina",
+        "devraj",
+        "meera",
+        "harish",
+        "pooja",
+        "salim"
+      ],
+      "witnessed_by": [
+        "naina",
+        "devraj",
+        "meera",
+        "harish",
+        "pooja",
+        "salim"
+      ],
+      "hidden_from": [
+        "arvind",
+        "shukla",
+        "ratan",
+        "leena",
+        "kavita"
+      ],
+      "what_happened": "Before the siblings and staff, Devraj docks Naina's full monthly salary of eleven thousand eight hundred rupees for the spelling error.",
+      "state_changes": [
+        {
+          "entity": "naina",
+          "fact": "She loses her entire month's salary.",
+          "valence": -5
+        },
+        {
+          "entity": "devraj",
+          "fact": "He reasserts control by attaching a specific financial penalty to Naina.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    },
+    {
+      "beat_id": "b011",
+      "ep": 3,
+      "seq": 3,
+      "world_time": "2023-08-08",
+      "location": "Devgarh Land Tribunal bench",
+      "present": [
+        "naina",
+        "devraj",
+        "meera",
+        "pooja",
+        "salim"
+      ],
+      "witnessed_by": [
+        "naina",
+        "devraj",
+        "meera",
+        "pooja",
+        "salim"
+      ],
+      "hidden_from": [
+        "harish",
+        "arvind",
+        "shukla",
+        "ratan",
+        "leena",
+        "kavita"
+      ],
+      "what_happened": "Devraj makes Naina stand on the bench and apologise to Meera and the absent Harish for the defective order and for causing doubt about the tribunal.",
+      "state_changes": [
+        {
+          "entity": "naina",
+          "fact": "She publicly apologises under threat of losing her probationary appointment.",
+          "valence": -5
+        },
+        {
+          "entity": "meera",
+          "fact": "She hears Naina accept responsibility for failing to stop the defective order.",
+          "valence": -1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": "Harish has left the room to retrieve his issued copy and does not hear the apology directly."
+    },
+    {
+      "beat_id": "b012",
+      "ep": 3,
+      "seq": 4,
+      "world_time": "2023-08-08",
+      "location": "Devgarh Land Tribunal hearing room",
+      "present": [
+        "naina",
+        "devraj",
+        "meera",
+        "harish",
+        "arvind",
+        "pooja",
+        "salim"
+      ],
+      "witnessed_by": [
+        "naina",
+        "devraj",
+        "meera",
+        "harish",
+        "arvind",
+        "pooja",
+        "salim"
+      ],
+      "hidden_from": [
+        "shukla",
+        "ratan",
+        "leena",
+        "kavita"
+      ],
+      "what_happened": "Harish returns carrying the orchard order beside Arvind, who publicly identifies Naina as the typist he previously dismissed.",
+      "state_changes": [
+        {
+          "entity": "naina",
+          "fact": "Her former professional failure is exposed inside the tribunal.",
+          "valence": -4
+        },
+        {
+          "entity": "arvind",
+          "fact": "He enters the tribunal and recognises Naina.",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "tier": "core_canon",
+      "note": null
+    }
+  ],
+  "promise_ledger": [
+    {
+      "id": "p001",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "Why the supposedly five-year-old master register contains only Naina's first case.",
+      "must_pay_by_ep": 2,
+      "paid_ep": 2,
+      "how_paid": "Devraj produces a numbering sheet and forces Naina to manufacture an index of 326 unsupported cases.",
+      "status": "paid"
+    },
+    {
+      "id": "p002",
+      "raised_ep": 1,
+      "listener_is_waiting_for": "Whether Devraj's tribunal has genuine authority from a competent court.",
+      "must_pay_by_ep": 7,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p003",
+      "raised_ep": 2,
+      "listener_is_waiting_for": "Who will find and use the surviving carbon copy of Meera's pretyped judgment.",
+      "must_pay_by_ep": 4,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p004",
+      "raised_ep": 2,
+      "listener_is_waiting_for": "Whether Naina's declaration and fabricated handwriting will cause police to treat her as the tribunal's creator.",
+      "must_pay_by_ep": 11,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    },
+    {
+      "id": "p005",
+      "raised_ep": 3,
+      "listener_is_waiting_for": "What Arvind will do after recognising the former typist he dismissed inside the tribunal.",
+      "must_pay_by_ep": 4,
+      "paid_ep": null,
+      "how_paid": null,
+      "status": "open"
+    }
+  ],
+  "calendar": {
+    "season_start": "2023-08-07",
+    "dates_fixed": [
+      {
+        "ep": 1,
+        "when": "2023-08-07",
+        "what": "Naina begins work and records Meera versus Harish as her first tribunal case."
+      },
+      {
+        "ep": 2,
+        "when": "2023-08-07",
+        "what": "After closing time, Devraj forces Naina to create the 326-case index."
+      },
+      {
+        "ep": 3,
+        "when": "2023-08-08",
+        "what": "The orchard order's spelling error is addressed publicly and Arvind arrives."
+      }
+    ],
+    "periods_fixed": [
+      {
+        "between": [
+          1,
+          2
+        ],
+        "elapsed": "the same day"
+      },
+      {
+        "between": [
+          2,
+          3
+        ],
+        "elapsed": "overnight"
+      }
+    ],
+    "unresolved": []
+  },
+  "flags": []
+}

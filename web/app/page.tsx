@@ -1,59 +1,56 @@
 import { redirect } from "next/navigation";
 
-import { EDITORS, getEditor, signIn } from "@/lib/session";
-import { SHOWS, STORY_LIST } from "@/lib/words";
+import { PRODUCT } from "@/app/layout";
+import { DEFAULT_EDITOR, getEditor, signIn } from "@/lib/session";
 
 // Reads a cookie, so it can never be prerendered.
 export const dynamic = "force-dynamic";
 
-// Real apostrophes, not HTML entities: these are string values, and `&rsquo;`
-// would render literally — which is why SHOWS is imported rather than retyped.
-const LANDING_LABEL: Record<string, string> = {
-  "/scout": "the story search",
-  "/sourcing": STORY_LIST,
-  "/serials": SHOWS,
-};
-
+/**
+ * One button.
+ *
+ * This used to ask which of four editors you were, and name the screen each of
+ * them lands on. That was honest about the byline — the name is what gets
+ * recorded against a decision — but it put a choice nobody had an opinion about
+ * between a visitor and the product, and the four rows looked enough like
+ * accounts to invite a question about login that this console does not answer.
+ *
+ * The byline did not go anywhere. `DEFAULT_EDITOR` signs the decisions, the
+ * release history still reads "put out by Priya Raghavan", and `EDITORS` is
+ * untouched for when somebody wants the picker back.
+ */
 export default async function SignIn() {
-  // Nobody should have to look at the picker twice; the console is not a place
-  // you log into, it is a place you already are.
+  // Nobody should have to look at this twice; the console is not a place you
+  // log into, it is a place you already are.
   const signedIn = await getEditor();
   if (signedIn) redirect(signedIn.landing);
 
   return (
     <div className="mx-auto max-w-6xl px-8 py-24">
-      <h1 className="font-serif text-3xl tracking-tight">
-        Who&rsquo;s using this?
+      {/*
+        Not the product name. The header carries that on every screen including
+        this one, and the two sat forty pixels apart reading like a rendering
+        fault. What a first-time reader needs here is what the thing does.
+      */}
+      <h1 className="font-serif text-4xl tracking-tight leading-tight prose-col">
+        Real events in, serials out — and every side character can become a
+        protagonist without breaking continuity.
       </h1>
 
-      <p className="mt-4 text-sm text-muted prose-col leading-relaxed">
-        Pick your name. There is no password and there are no accounts — this
-        runs on one laptop, for one demo. Your name is simply what gets recorded
-        against anything you decide to make, and it sets which screen you land
-        on first. Everyone can see everything. Nobody, whichever name you pick,
-        can make a story the legal check has ruled out.
+      <p className="mt-6 text-sm text-muted prose-col leading-relaxed">
+        There is no password and there are no accounts: this runs on one laptop.
+        Anything you decide to make is recorded against{" "}
+        {DEFAULT_EDITOR.name}, so a show that goes live says who put it there.
       </p>
 
-      <form action={signIn} className="mt-10 max-w-2xl border-y border-rule divide-y divide-rule">
-        {EDITORS.map((e) => (
-          <button
-            key={e.id}
-            type="submit"
-            name="editor"
-            value={e.id}
-            className="group w-full text-left px-4 py-5 flex items-baseline gap-4 transition-colors hover:bg-surface"
-          >
-            <span className="font-serif text-lg transition-colors group-hover:text-ochre">
-              {e.name}
-            </span>
-            <span className="label">{e.role}</span>
-            {/* Naming the destination is what stops four names reading as four
-                identical accounts. */}
-            <span className="label ml-auto shrink-0 transition-colors group-hover:text-ochre">
-              starts at {LANDING_LABEL[e.landing] ?? e.landing} →
-            </span>
-          </button>
-        ))}
+      <form action={signIn} className="mt-10">
+        <input type="hidden" name="editor" value={DEFAULT_EDITOR.id} />
+        <button
+          type="submit"
+          className="inline-block bg-ochre border border-ochre text-ink font-medium px-6 py-3 text-sm rounded-sm hover:bg-ochre/85 transition-colors"
+        >
+          Get started →
+        </button>
       </form>
     </div>
   );

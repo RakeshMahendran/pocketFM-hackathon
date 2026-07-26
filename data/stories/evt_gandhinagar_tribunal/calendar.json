@@ -4,7 +4,7 @@
     {
       "ep": 4,
       "when": "Friday",
-      "what": "Morris heard Dhawale's land dispute."
+      "what": "Mervyn heard Dhawale's land dispute."
     },
     {
       "ep": 4,
@@ -19,32 +19,32 @@
     {
       "ep": 7,
       "when": "2024-01",
-      "what": "Hardik received and began tracing case one seven six."
+      "what": "Harshad received and began tracing case one seven six."
     },
     {
       "ep": 8,
       "when": "2024-01",
-      "what": "Sarika confronted Morris after fourteen months of paid registry work."
+      "what": "Sarika confronted Mervyn after fourteen months of paid registry work."
     },
     {
       "ep": 9,
       "when": "2024-01",
-      "what": "Morris received the district registrar's formal demand for appointment records."
+      "what": "Mervyn received the district registrar's formal demand for appointment records."
     },
     {
       "ep": 10,
       "when": "2024-01",
-      "what": "Tejas attended Morris's largest hearing and questioned the source of his appointment."
+      "what": "Tejas attended Mervyn's largest hearing and questioned the source of his appointment."
     },
     {
       "ep": 11,
       "when": "2024-01",
-      "what": "After the eleven-day response period ended, Hardik completed verification and Khot took Morris into custody."
+      "what": "After the eleven-day response period ended, Harshad completed verification and Khot took Mervyn into custody."
     },
     {
       "ep": 12,
       "when": "2024-01",
-      "what": "Morris gave a partial statement and refused to disavow Manjula's judgment."
+      "what": "Mervyn gave a partial statement and refused to disavow Manjula's judgment."
     }
   ],
   "periods_fixed": [
@@ -60,7 +60,7 @@
         5,
         5
       ],
-      "elapsed": "six evenings from Morris's first request to his first photographs of the pending list"
+      "elapsed": "six evenings from Mervyn's first request to his first photographs of the pending list"
     },
     {
       "between": [
@@ -81,14 +81,14 @@
         9,
         9
       ],
-      "elapsed": "eleven days allowed from receipt of the registrar's letter to Morris's required response"
+      "elapsed": "eleven days allowed from receipt of the registrar's letter to Mervyn's required response"
     },
     {
       "between": [
         9,
         11
       ],
-      "elapsed": "the eleven-day response period expired before Hardik signed the complaint"
+      "elapsed": "the eleven-day response period expired before Harshad signed the complaint"
     }
   ],
   "unresolved": []

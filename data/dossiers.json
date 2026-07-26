@@ -766,5 +766,380 @@
         "status": 7
       }
     ]
+  },
+  {
+    "event_id": "evt_devgarh_2023",
+    "title": "The Court That Never Was",
+    "one_line_summary": "A humiliated young clerk finally earns public respect inside a fast-moving land tribunal, then discovers that the judge, the court and every victory she certified are inventions.",
+    "language": "en",
+    "fantasy": "Dismissed clerk becomes indispensable",
+    "protagonist": {
+      "char_id": "naina",
+      "who": "Naina, a 26-year-old clerk hired as the record keeper of a private land tribunal in fictional Devgarh.",
+      "wants": "A respectable appointment that will make landlords, relatives and employers stop treating her as disposable.",
+      "ashamed_of": "Being dismissed from three clerical jobs and having to conceal that her new position is her last chance at respectability.",
+      "does_not_know_at_start": "Devraj was never appointed as an arbitrator, the tribunal has no legal existence, and the case register she maintains is the only record of its judgments."
+    },
+    "antagonist": {
+      "char_id": "devraj",
+      "who": "Devraj, a disgraced former deed writer who has built an office into a convincing courtroom and appointed himself its presiding arbitrator.",
+      "wants_incompatibly": "He needs Naina to keep manufacturing institutional legitimacy, while she needs a respectable career whose legitimacy can survive public scrutiny."
+    },
+    "sources": [
+      "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498",
+      "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362",
+      "https://m.thewire.in/article/law/after-fake-teacher-now-a-fake-judge-exposed-in-gujarat"
+    ],
+    "timeline": [
+      {
+        "id": "t1",
+        "date": "2007",
+        "what_happened": "The future accused was jailed for three months after the state bar council said he had no valid law degree and had been practising as a lawyer.",
+        "confidence": "reported",
+        "source": "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362"
+      },
+      {
+        "id": "t2",
+        "date": "2019-2024",
+        "what_happened": "A fake court reportedly operated from an office in Gandhinagar for approximately five years.",
+        "confidence": "reported",
+        "source": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498"
+      },
+      {
+        "id": "t3",
+        "date": "2019-2024",
+        "what_happened": "The operator allegedly represented himself to clients as an arbitrator appointed by a competent court.",
+        "confidence": "alleged",
+        "source": "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362"
+      },
+      {
+        "id": "t4",
+        "date": "2019-2024",
+        "what_happened": "The office was furnished to resemble a courtroom, with staff reportedly acting as court personnel.",
+        "confidence": "reported",
+        "source": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498"
+      },
+      {
+        "id": "t5",
+        "date": "2019-2024",
+        "what_happened": "People involved in land disputes were offered faster rulings than those available through delayed court proceedings, in exchange for substantial fees.",
+        "confidence": "reported",
+        "source": "https://gulfnews.com/world/offbeat/conman-judge-arrested-in-india-for-running-fake-court-1.1729678314362"
+      },
+      {
+        "id": "t6",
+        "date": "2024-10",
+        "what_happened": "Reporting said the purported rulings affected more than 100 acres across at least 11 properties, with 10 matters unresolved when the operation was exposed.",
+        "confidence": "reported",
+        "source": "https://m.thewire.in/article/law/after-fake-teacher-now-a-fake-judge-exposed-in-gujarat"
+      },
+      {
+        "id": "t7",
+        "date": "2024-10",
+        "what_happened": "The alleged operator was arrested, with reports citing provisions concerning impersonation of a public servant and cheating by personation.",
+        "confidence": "reported",
+        "source": "https://www.indiatvnews.com/gujarat/fake-court-busted-in-gandhinagar-conman-who-posed-as-judge-arrested-passed-several-judgements-since-2019-2024-10-23-958498"
+      }
+    ],
+    "people": [
+      {
+        "name": "Unnamed accused operator",
+        "role": "Living private individual accused of operating the purported court and impersonating judicial authority.",
+        "motive": "Allegedly sought substantial fees and the authority attached to being treated as a judicial officer.",
+        "public_or_private": "private",
+        "living": true
+      },
+      {
+        "name": "Unnamed participating staff",
+        "role": "Private individuals described as acting as court personnel inside the office.",
+        "motive": "The record supplied does not establish whether they knowingly participated or believed they held legitimate employment.",
+        "public_or_private": "private",
+        "living": true
+      },
+      {
+        "name": "Unnamed affected litigants",
+        "role": "Private land-dispute parties whose purported victories or losses depended on orders issued by the alleged operation.",
+        "motive": "Sought faster and apparently authoritative resolutions to valuable property disputes.",
+        "public_or_private": "private",
+        "living": true
+      }
+    ],
+    "cast": [
+      {
+        "char_id": "naina",
+        "name": "Naina",
+        "role": "Protagonist; record clerk whose signatures give the invented tribunal its appearance of continuity.",
+        "want": "A respectable, permanent appointment that nobody can take away by calling her unqualified.",
+        "gender": "female",
+        "age_range": "20s",
+        "maps_to": "the hired office staff used to complete the courtroom illusion",
+        "composite": true
+      },
+      {
+        "char_id": "devraj",
+        "name": "Devraj",
+        "role": "Antagonist; self-appointed presiding arbitrator of the fake Devgarh Land Tribunal.",
+        "want": "To be addressed as an authority after a licensing board publicly declared him unfit to prepare legal deeds.",
+        "gender": "male",
+        "age_range": "40s",
+        "maps_to": "the accused fake-court operator, with profession, region, year and personal history changed",
+        "composite": true
+      },
+      {
+        "char_id": "meera",
+        "name": "Meera",
+        "role": "A claimant who believes the tribunal lawfully awarded her control of her late father's orchard.",
+        "want": "To keep the twelve-acre orchard and prove her father intended her to inherit it.",
+        "gender": "female",
+        "age_range": "30s",
+        "maps_to": "composite of affected land-dispute litigants",
+        "composite": true
+      },
+      {
+        "char_id": "harish",
+        "name": "Harish",
+        "role": "Meera's older brother, who surrendered possession because he believed obedience to a court defined an honourable man.",
+        "want": "To recover his share without becoming known as a man who defied lawful authority.",
+        "gender": "male",
+        "age_range": "40s",
+        "maps_to": "composite of losing parties in affected land disputes",
+        "composite": true
+      },
+      {
+        "char_id": "arvind",
+        "name": "Arvind",
+        "role": "A real advocate who notices defects in the tribunal seal and once dismissed Naina as an incompetent typist.",
+        "want": "To expose Devraj publicly and restore the value of credentials he spent years earning.",
+        "gender": "male",
+        "age_range": "40s",
+        "maps_to": "invented investigative advocate role",
+        "composite": true
+      },
+      {
+        "char_id": "shukla",
+        "name": "Shukla",
+        "role": "Former district document-licensing officer who cancelled Devraj's deed-writer permit in 2006.",
+        "want": "To prove that his old decision protected the public and was not a personal vendetta.",
+        "gender": "male",
+        "age_range": "50s",
+        "maps_to": "the institutional role that previously challenged the accused, with profession and proceeding changed",
+        "composite": true
+      },
+      {
+        "char_id": "pooja",
+        "name": "Pooja",
+        "role": "Junior typist who prepares orders before hearings using outcomes dictated by Devraj.",
+        "want": "To leave with enough money and clean references to open a typing and photocopy shop.",
+        "gender": "female",
+        "age_range": "20s",
+        "maps_to": "composite of participating office staff",
+        "composite": true
+      },
+      {
+        "char_id": "salim",
+        "name": "Salim",
+        "role": "Caretaker and courtroom usher who records hearings on an old audio machine.",
+        "want": "To protect the retirement savings he invested in Devraj's office and avoid being branded an accomplice.",
+        "gender": "male",
+        "age_range": "50s",
+        "maps_to": "composite of participating office staff",
+        "composite": true
+      },
+      {
+        "char_id": "ratan",
+        "name": "Ratan",
+        "role": "Property developer and secret financier who uses the tribunal to consolidate disputed parcels.",
+        "want": "To secure an unbroken eighty-acre corridor before a highway project is announced.",
+        "gender": "male",
+        "age_range": "50s",
+        "maps_to": "invented powerful beneficiary of the mechanism",
+        "composite": true
+      },
+      {
+        "char_id": "leena",
+        "name": "Leena",
+        "role": "Economic-offences inspector who initially suspects Naina created the paperwork behind the operation.",
+        "want": "To identify the person controlling the scheme before evidence disappears or victims turn against one another.",
+        "gender": "female",
+        "age_range": "30s",
+        "maps_to": "invented investigating officer",
+        "composite": true
+      },
+      {
+        "char_id": "kavita",
+        "name": "Kavita",
+        "role": "District mediator assigned to replace fraudulent orders with lawful settlements where the parties still consent.",
+        "want": "To resolve the victims' property disputes without making them wait another decade for relief.",
+        "gender": "female",
+        "age_range": "40s",
+        "maps_to": "invented lawful adjudicative authority",
+        "composite": true
+      }
+    ],
+    "adaptability": {
+      "conflict": 9,
+      "characters": 9,
+      "stakes": 9,
+      "serializability": 9,
+      "resonance": 8,
+      "total": 44
+    },
+    "clearance": {
+      "status": "fictionalize_first",
+      "reasons": [
+        "The accused is a living private individual reported as arrested and charged; allegations must not be dramatized as adjudicated fact about him.",
+        "The staff and litigants are private individuals whose identities and degree of knowledge are not established.",
+        "The adaptation changes the state, city, operating years, prior profession, institutional history, property figures and every personal identity.",
+        "Naina, Meera, Harish and the office staff are composites so no victim or employee can be reverse-identified.",
+        "The season uses the documented mechanism as inspiration but invents its relationships, evidence trail, hearings and resolution."
+      ]
+    },
+    "novelty": {
+      "prior_adaptations": [],
+      "score": 9
+    },
+    "engine": "Every order Naina certifies protects every earlier order. Refusing the next claimant would expose the tribunal as powerless, but accepting one adds another family, payment and property to a record that exists only because Naina keeps writing it. Once she learns the truth, she cannot simply leave: her signature appears on every victory, and Devraj can present her as the architect unless she dismantles the court without destroying the people who trusted it.",
+    "why_this_works": "The season sells the rise of the most underestimated person in the room. Naina begins as a publicly humiliated clerk and becomes the only person who understands the invented court well enough to defeat it. Each property ruling creates an immediate human winner who needs the lie preserved and a loser who may expose it. Devraj remains seductive but culpable, while Naina carries the discovery engine, the moral cost and the public status climb.",
+    "fictionalization_map": {
+      "Unnamed accused operator": "devraj, a composite self-appointed arbitrator in another state and a former deed writer rather than a lawyer",
+      "Unnamed participating staff": "naina, pooja and salim, composite employees with invented histories and differing levels of knowledge",
+      "Unnamed affected litigants": "meera, harish and ratan, composites attached to wholly invented parcels and family relationships",
+      "Gandhinagar": "Devgarh",
+      "Gujarat": "Madhya Pradesh",
+      "2019-2024 operation": "2018-2023 operation",
+      "state bar council proceeding concerning legal practice": "district licensing proceeding concerning deed preparation",
+      "more than 100 acres across at least 11 properties": "an eighty-acre development corridor assembled through fourteen invented disputes"
+    },
+    "season": [
+      {
+        "ep": 1,
+        "turn": "During Naina's first hearing, Devraj ridicules her question about missing case numbers before Meera, Harish and the entire staff, removes her clerk's chair and orders her to work standing beside Salim.",
+        "hook_type": "REVEAL",
+        "ends_on": "The tribunal's supposedly five-year-old master register is blank except for the case Naina entered that morning.",
+        "pays_off": null,
+        "status": 1
+      },
+      {
+        "ep": 2,
+        "turn": "Devraj forces Naina to manufacture a backdated index of 326 nonexistent cases so the new register appears continuous.",
+        "hook_type": "THREAT",
+        "ends_on": "Devraj places Naina's signed employment declaration inside the false register and tells her the police will treat its author as the court's creator.",
+        "pays_off": null,
+        "status": 1
+      },
+      {
+        "ep": 3,
+        "turn": "A spelling error in Meera's orchard order lets Devraj blame Naina publicly, dock her entire month's salary and make her apologize to both siblings from the bench.",
+        "hook_type": "ARRIVAL",
+        "ends_on": "Harish returns carrying the order beside Arvind, a real advocate who recognizes Naina from the typing job that fired her.",
+        "pays_off": null,
+        "status": 0
+      },
+      {
+        "ep": 4,
+        "turn": "Devraj compels Naina to certify before Arvind and the assembled claimants that the tribunal received its authority from a competent court.",
+        "hook_type": "BETRAYAL",
+        "ends_on": "Pooja gives Arvind a carbon copy proving Meera's judgment was typed before either sibling entered the hearing room.",
+        "pays_off": null,
+        "status": 1
+      },
+      {
+        "ep": 5,
+        "turn": "Naina finds a witnessed family memorandum that temporarily protects Meera's possession independently of Devraj's judgment, preventing Arvind from having her removed that day.",
+        "hook_type": "RECOGNITION",
+        "ends_on": "Before Meera, Harish and the staff, Arvind says that Naina understands the files better than the man on the bench.",
+        "pays_off": "Meera keeps possession for the moment, and the advocate who once dismissed Naina publicly acknowledges her competence.",
+        "status": 3
+      },
+      {
+        "ep": 6,
+        "turn": "To reclaim control of the room, Devraj publicly promotes Naina to chief record officer and gives her custody of the seal and master register.",
+        "hook_type": "DEADLINE",
+        "ends_on": "The real land registry gives Meera forty-eight hours to supply Devraj's court-appointment number or lose her pending ownership entry.",
+        "pays_off": null,
+        "status": 4
+      },
+      {
+        "ep": 7,
+        "turn": "Searching for the appointment number, Naina discovers that Devraj has never been attached to any court and that every tribunal order is legally unsupported.",
+        "hook_type": "REVERSAL",
+        "ends_on": "Naina's salary receipts describe her not as an employee but as Devraj's fee-sharing tribunal partner.",
+        "pays_off": null,
+        "status": 3
+      },
+      {
+        "ep": 8,
+        "turn": "Naina intercepts Meera at the registry and stops her from submitting the false order, preventing the document from becoming evidence against her.",
+        "hook_type": "ULTIMATUM",
+        "ends_on": "Harish gives Naina until sunrise to prove his surrender of the orchard was not stolen or he will file a criminal complaint naming her.",
+        "pays_off": "Naina saves Meera from presenting a fraudulent order, and Meera publicly tells Harish that the clerk—not Devraj—protected her.",
+        "status": 5
+      },
+      {
+        "ep": 9,
+        "turn": "Naina takes physical control of the master register and orders Pooja and Salim to stop producing judgments until every property file is reconciled.",
+        "hook_type": "ACCUSATION",
+        "ends_on": "Pooja shows the staff that Naina's certification signature appears on all fourteen property orders.",
+        "pays_off": null,
+        "status": 6
+      },
+      {
+        "ep": 10,
+        "turn": "Naina traces the fourteen supposedly unrelated disputes to an eighty-acre corridor being secretly assembled for Ratan.",
+        "hook_type": "DISCOVERY",
+        "ends_on": "The rent ledger identifies Ratan as the owner of Devraj's courtroom and the financier who paid for its seal, robes and staff salaries.",
+        "pays_off": null,
+        "status": 7
+      },
+      {
+        "ep": 11,
+        "turn": "Devraj turns the claimants against Naina by presenting her signatures, title and fee-sharing receipts as proof that she—not he—administered the false tribunal.",
+        "hook_type": "REVEAL",
+        "ends_on": "Leena's search warrant names Naina as the primary operator and lists Devraj only as a cooperating witness.",
+        "pays_off": null,
+        "status": 6
+      },
+      {
+        "ep": 12,
+        "turn": "Using Ratan's urgent corridor case as bait, Naina makes Devraj conduct one final public hearing and claim judicial authority while Leena listens from the claimant benches.",
+        "hook_type": "ARRIVAL",
+        "ends_on": "Shukla enters carrying the 2006 order that cancelled Devraj's deed-writer permit for impersonating a licensed legal professional.",
+        "pays_off": "Leena orders Devraj to leave the files untouched and publicly places Naina in charge of identifying the genuine claimants.",
+        "status": 8
+      },
+      {
+        "ep": 13,
+        "turn": "Naina matches the fee ledger, register and original title papers, proving that Meera, Harish, Pooja and the other ordinary participants were targets rather than owners of the mechanism.",
+        "hook_type": "BETRAYAL",
+        "ends_on": "Salim gives Leena recordings of Devraj rehearsing verdicts with Ratan before the claimants' hearings began.",
+        "pays_off": "Pooja and the ordinary litigants are removed from the suspect list, and the invented 326-case history is exposed as empty numbering.",
+        "status": 9
+      },
+      {
+        "ep": 14,
+        "turn": "At a public restitution hearing attended by everyone who witnessed Naina's first humiliation, Kavita invalidates the false orders, freezes Ratan's corridor transfers, records Meera and Harish's lawful partition, and has Devraj taken into custody on Naina's complete record.",
+        "hook_type": "RECOGNITION",
+        "ends_on": "After Meera and Harish register their lawful deed, Kavita hands Naina a signed appointment as coordinator of the district's property-mediation records office.",
+        "pays_off": "The fake tribunal is dismantled; Devraj's authority is publicly stripped; Ratan's acquisitions are frozen; Meera and Harish receive lawful shares; Pooja and Salim are cleared; Arvind and Shukla acknowledge Naina; every false file is surrendered; and Naina finally earns a legitimate public appointment.",
+        "status": 9
+      }
+    ],
+    "never_narrate_as_fact": [
+      "t3: The operator allegedly represented himself to clients as an arbitrator appointed by a competent court. (alleged)"
+    ],
+    "category": "THE LONG DECEPTION",
+    "hunt_scores": {
+      "engine_longevity": 9,
+      "hook_density": 9,
+      "emotional_immediacy": 8,
+      "conflict": 9,
+      "cast_depth": 9,
+      "total": 44
+    },
+    "commissioned": {
+      "by": "unattributed",
+      "at": "2026-07-26T04:54:28+00:00",
+      "over_scout_pick": false
+    }
   }
 ]

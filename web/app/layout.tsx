@@ -6,8 +6,11 @@ import { getEditor, signOut } from "@/lib/session";
 import { SHOWS_TITLE, STORY_LIST_TITLE } from "@/lib/words";
 import "./globals.css";
 
+/** The product's name, in one place, because it was in eight. */
+export const PRODUCT = "FlakersFM";
+
 export const metadata: Metadata = {
-  title: "CanonForge",
+  title: PRODUCT,
   description:
     "Real events worth turning into a series, rated and legally checked.",
 };
@@ -38,8 +41,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
               href={editor ? "/home" : "/"}
               className="flex items-baseline gap-2.5 shrink-0"
             >
-              <span className="font-serif text-lg tracking-tight">CanonForge</span>
-              <span className="label">Pocket FM</span>
+              <span className="font-serif text-lg tracking-tight">{PRODUCT}</span>
             </Link>
 
             {editor && (
