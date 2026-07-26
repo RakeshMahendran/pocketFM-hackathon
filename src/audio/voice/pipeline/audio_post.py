@@ -68,6 +68,10 @@ def build_episode(episode: dict, results: list, output_dir: str = "data/output",
             "intensity": line.get("intensity", 0.5),
             "pace": line.get("pace", "normal"),
             "bgm_cue": line.get("bgm_cue"),
+            # `sting` and `button` are laid over the finished mix by
+            # src/audio/music.py; `drop` and `swell` are read here, because
+            # they change the bed itself rather than adding to it.
+            "music_cue": line.get("music_cue"),
             "start_ms": start_ms,
             "end_ms": end_ms,
         })

@@ -41,7 +41,8 @@ DIRECTION_SCHEMA = {
             "type": "object",
             "additionalProperties": False,
             "required": ["line_id", "spoken", "emotion", "intensity", "pace",
-                         "bgm_cue", "pause_after_ms", "changed_because"],
+                         "bgm_cue", "music_cue", "pause_after_ms",
+                         "changed_because"],
             "properties": {
                 "line_id": {"type": "string"},
                 # The line as it should be performed. bulbul:v3 infers emotion
@@ -53,6 +54,10 @@ DIRECTION_SCHEMA = {
                 "intensity": {"type": "number"},
                 "pace": {"type": "string", "enum": PACES},
                 "bgm_cue": {"type": "string", "enum": EMOTIONS},
+                # The hits the bed cannot make. Empty on almost every line —
+                # see src/audio/music.py.
+                "music_cue": {"type": "string",
+                              "enum": ["", "sting", "drop", "swell", "button"]},
                 # Read by audio_post and set by no other stage.
                 "pause_after_ms": {"type": "integer"},
                 # Empty when the writer's mark was left alone. The record of what
@@ -172,7 +177,7 @@ def apply(story: str, ep: int, force: bool = False) -> pathlib.Path:
     if missing:
         raise RuntimeError(f"director skipped {len(missing)} lines: {missing[:5]}")
 
-    changes, decided, reshaped, refused = [], 0, 0, []
+    changes, decided, reshaped, refused, scored = [], 0, 0, [], 0
     for line in episode["lines"]:
         d = directed[line["line_id"]]
 
@@ -192,6 +197,9 @@ def apply(story: str, ep: int, force: bool = False) -> pathlib.Path:
         line["intensity"] = round(min(1.0, max(0.0, float(d["intensity"]))), 2)
         line["pace"] = d["pace"]
         line["bgm_cue"] = d["bgm_cue"]
+        if d.get("music_cue"):
+            line["music_cue"] = d["music_cue"]
+            scored += 1
         if d.get("pause_after_ms"):
             line["pause_after_ms"] = int(d["pause_after_ms"])
         now = (line["emotion"], line["intensity"], line["pace"])
@@ -208,7 +216,8 @@ def apply(story: str, ep: int, force: bool = False) -> pathlib.Path:
     # setting one is authoring, which carries no `changed_because` — counting
     # only explained overrides reported 0 on an episode where 55 lines moved.
     log(f"directed {decided} of {len(episode['lines'])} lines, "
-        f"{len(changes)} with a stated reason, {reshaped} re-punctuated")
+        f"{len(changes)} with a stated reason, {reshaped} re-punctuated, "
+        f"{scored} scored")
     if refused:
         log(f"{len(refused)} rewordings refused — the words are the writer's: "
             f"{', '.join(refused[:6])}", "warn")

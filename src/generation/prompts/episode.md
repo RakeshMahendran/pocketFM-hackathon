@@ -128,6 +128,42 @@ deliver what was paid for.
 <good>"Your shop is on estate land, isn't it." / "Your brother still keeps his tools in my shed."</good>
 <bad>"Pay me or I will take your shop." / "I could make trouble for your brother."</bad>
 </examples>
+
+<how_indians_actually_speak>
+These people are Indian and the listener is Indian. Write the English they speak,
+not the English a novel is translated into. Neutral literary English reads as
+foreign here, and it is the default a model falls into when nobody says otherwise.
+
+<carry>
+- **"Only" and "itself" as emphasis.** "Today only." "He is like that only."
+  "I told you yesterday itself."
+- **Tag questions.** "You signed it, no?" "That is your file, isn't it."
+- **Continuous where English wants perfect.** "Since morning I am waiting."
+  "I am telling you from the beginning."
+- **"Do one thing."** The standard opening to any instruction.
+- **Reduplication.** "Small small matters." "He came running running."
+- **Direct address, always.** sir, madam, bhai, beta, kaka, didi, sahib. Which one
+  a character reaches for says exactly what they think the other person is worth.
+- **Bureaucratic English, unironically.** "Kindly do the needful." "The same is
+  enclosed herewith." "As per rules." In a story about a court, this is the
+  register of power, and people imitate it when they want to be taken seriously.
+- **Untranslated interjections.** arre, achha, haan, bas, chalo, thoda. One or two
+  per scene, not a sprinkle on every line.
+</carry>
+
+<never>
+British or American idiom. Nobody says "bloke", "reckon", "I guess", "sure thing",
+"mate", "buddy", "for crying out loud". Nobody is "gutted" or "chuffed".
+</never>
+
+<rule>
+Register is class, and this story is about a man who has the vocabulary and not
+the standing. The advocate and the registrar speak precise legal English because
+they earned the right to. The clerk, the widow, the tyre shop owner speak plainly
+and mix freely. The protagonist speaks like the first group and is treated like
+the second — that gap IS the character, so do not flatten everyone to one voice.
+</rule>
+</how_indians_actually_speak>
 </register>
 
 <speech>

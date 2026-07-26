@@ -1,0 +1,993 @@
+{
+  "episode_id": "evt_gandhinagar_tribunal_ep02",
+  "series_id": "evt_gandhinagar_tribunal",
+  "title": "The Court That Never Was — Episode 2",
+  "characters": [
+    {
+      "id": "narrator",
+      "gender": "neutral",
+      "age_range": "40s",
+      "persona": "storyteller, withholding"
+    },
+    {
+      "id": "irfan",
+      "persona": "his first client, a man out of time",
+      "gender": "male",
+      "age_range": "30s"
+    },
+    {
+      "id": "morris",
+      "persona": "the man who calls himself a judge",
+      "gender": "male",
+      "age_range": "40s"
+    },
+    {
+      "id": "COURT CLERK",
+      "persona": "minor role, one scene"
+    },
+    {
+      "id": "LANDLORD",
+      "persona": "minor role, one scene"
+    },
+    {
+      "id": "FIRST MAN",
+      "persona": "minor role, one scene"
+    },
+    {
+      "id": "SECOND MAN",
+      "persona": "minor role, one scene"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "narrator",
+      "text": "One page. No case number. No seal. No court behind it. That is all it took — and by evening, a man who had refused for two months would open a lock and count out six thousand rupees.",
+      "emotion": "tension",
+      "intensity": 0.78,
+      "pace": "slow",
+      "line_id": "l001",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "crowded court corridor, files thudding on bench",
+      "pause_after_ms": 800,
+      "music_cue": "swell"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Sir, hear the case. Just once. My mother is still sitting outside that locked room.",
+      "emotion": "urgency",
+      "intensity": 0.8,
+      "pace": "fast",
+      "line_id": "l002",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "Take your hands away from my feet.",
+      "emotion": "fear",
+      "intensity": 0.66,
+      "pace": "clipped",
+      "line_id": "l003",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Say you will hear it.",
+      "emotion": "urgency",
+      "intensity": 0.78,
+      "pace": "normal",
+      "line_id": "l004",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "I am not hearing anything. Get up.",
+      "emotion": "hurt_anger",
+      "intensity": 0.6,
+      "pace": "clipped",
+      "line_id": "l005",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "COURT CLERK",
+      "text": "Your lordship! Shall we clear the corridor for this historic sitting?",
+      "emotion": "sarcasm",
+      "intensity": 0.8,
+      "pace": "normal",
+      "line_id": "l006",
+      "language": "en",
+      "bgm_cue": "neutral",
+      "sfx_cue": "scattered laughter",
+      "pause_after_ms": 400
+    },
+    {
+      "speaker": "morris",
+      "text": "You have shouted enough for one morning.",
+      "emotion": "hurt_anger",
+      "intensity": 0.72,
+      "pace": "clipped",
+      "line_id": "l007",
+      "language": "en",
+      "bgm_cue": "hurt_anger"
+    },
+    {
+      "speaker": "COURT CLERK",
+      "text": "And you have been promoted very quickly for one morning.",
+      "emotion": "sarcasm",
+      "intensity": 0.75,
+      "pace": "normal",
+      "line_id": "l008",
+      "language": "en",
+      "bgm_cue": "hurt_anger",
+      "pause_after_ms": 600
+    },
+    {
+      "speaker": "morris",
+      "text": "Come with me.",
+      "emotion": "neutral",
+      "intensity": 0.55,
+      "pace": "clipped",
+      "line_id": "l009",
+      "language": "en",
+      "bgm_cue": "reflective",
+      "sfx_cue": "file snapped shut"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Inside the chamber, sir?",
+      "emotion": "hesitation",
+      "intensity": 0.55,
+      "pace": "normal",
+      "line_id": "l010",
+      "language": "en",
+      "bgm_cue": "reflective"
+    },
+    {
+      "speaker": "morris",
+      "text": "No. The copying room.",
+      "emotion": "sorrow",
+      "intensity": 0.5,
+      "pace": "slow",
+      "line_id": "l011",
+      "language": "en",
+      "bgm_cue": "reflective",
+      "sfx_cue": "door shutting, corridor noise muffled",
+      "pause_after_ms": 600
+    },
+    {
+      "speaker": "narrator",
+      "text": "The copying room. Not the chamber. Twenty-two years in that building, and there was still only one room he was allowed to enter without permission.",
+      "emotion": "sorrow",
+      "intensity": 0.65,
+      "pace": "slow",
+      "line_id": "l012",
+      "language": "en",
+      "bgm_cue": "sorrow",
+      "sfx_cue": "ceiling fan wobble, distant photocopier",
+      "pause_after_ms": 700
+    },
+    {
+      "speaker": "morris",
+      "text": "Listen carefully. This is only advice. You will not call it an order.",
+      "emotion": "tension",
+      "intensity": 0.62,
+      "pace": "clipped",
+      "line_id": "l013",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Yes, sir.",
+      "emotion": "hesitation",
+      "intensity": 0.45,
+      "pace": "normal",
+      "line_id": "l014",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "You will not tell anybody that I heard a case.",
+      "emotion": "fear",
+      "intensity": 0.68,
+      "pace": "clipped",
+      "line_id": "l015",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "No, sir.",
+      "emotion": "hesitation",
+      "intensity": 0.45,
+      "pace": "normal",
+      "line_id": "l016",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "And stop calling me sir every second sentence.",
+      "emotion": "hurt_anger",
+      "intensity": 0.55,
+      "pace": "normal",
+      "line_id": "l017",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "irfan",
+      "text": "Yes... sorry.",
+      "emotion": "hesitation",
+      "intensity": 0.42,
+      "pace": "slow",
+      "line_id": "l018",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 400
+    },
+    {
+      "speaker": "morris",
+      "text": "Give me the landlord's notice.",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "pace": "normal",
+      "line_id": "l019",
+      "language": "en",
+      "bgm_cue": "reflective",
+      "sfx_cue": "papers unfolding"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Here. He has written that we abandoned the room. My mother has slept there nine years, sir. Nine years.",
+      "emotion": "hurt_anger",
+      "intensity": 0.7,
+      "pace": "fast",
+      "line_id": "l020",
+      "language": "en",
+      "bgm_cue": "reflective"
+    },
+    {
+      "speaker": "morris",
+      "text": "The notice is giving seven days. When was it delivered?",
+      "emotion": "neutral",
+      "intensity": 0.52,
+      "pace": "normal",
+      "line_id": "l021",
+      "language": "en",
+      "bgm_cue": "reflective"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Yesterday afternoon.",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "pace": "normal",
+      "line_id": "l022",
+      "language": "en",
+      "bgm_cue": "reflective",
+      "pause_after_ms": 200
+    },
+    {
+      "speaker": "morris",
+      "text": "Then he broke his own period. His own paper, and he could not wait for it.",
+      "emotion": "neutral",
+      "intensity": 0.6,
+      "pace": "clipped",
+      "line_id": "l023",
+      "language": "en",
+      "bgm_cue": "reflective"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Can you write that? Exactly that?",
+      "emotion": "urgency",
+      "intensity": 0.68,
+      "pace": "fast",
+      "line_id": "l024",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "I can write many things. Whether a fool obeys the paper is a different question.",
+      "emotion": "sarcasm",
+      "intensity": 0.58,
+      "pace": "normal",
+      "line_id": "l025",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "typewriter carriage sliding",
+      "pause_after_ms": 500
+    },
+    {
+      "speaker": "narrator",
+      "text": "Morris put one clean sheet into the machine. And his fingers found the form. The same form he had typed ten thousand times. For other men.",
+      "emotion": "reflective",
+      "intensity": 0.7,
+      "pace": "slow",
+      "line_id": "l026",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "manual typewriter keys, measured clacking",
+      "pause_after_ms": 400
+    },
+    {
+      "speaker": "morris",
+      "text": "Upon perusal of the application... no. Upon perusal of the material placed on record.",
+      "emotion": "reflective",
+      "intensity": 0.6,
+      "pace": "slow",
+      "line_id": "l027",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "What material?",
+      "emotion": "hesitation",
+      "intensity": 0.48,
+      "pace": "normal",
+      "line_id": "l028",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "Your file. Do not interrupt the record.",
+      "emotion": "neutral",
+      "intensity": 0.58,
+      "pace": "clipped",
+      "line_id": "l029",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Sorry.",
+      "emotion": "hesitation",
+      "intensity": 0.4,
+      "pace": "normal",
+      "line_id": "l030",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "It appears that possession was disturbed during the subsistence of the notice period.",
+      "emotion": "neutral",
+      "intensity": 0.62,
+      "pace": "normal",
+      "line_id": "l031",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "typewriter bell, single ring"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Sir, will he even understand this language?",
+      "emotion": "hesitation",
+      "intensity": 0.55,
+      "pace": "normal",
+      "line_id": "l032",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "He will understand the next sentence.",
+      "emotion": "tension",
+      "intensity": 0.72,
+      "pace": "clipped",
+      "line_id": "l033",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "morris",
+      "text": "The respondent is directed to restore access forthwith, failing which further proceedings shall follow.",
+      "emotion": "tension",
+      "intensity": 0.78,
+      "pace": "slow",
+      "line_id": "l034",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "typewriter keys stop",
+      "pause_after_ms": 500
+    },
+    {
+      "speaker": "irfan",
+      "text": "Further proceedings where?",
+      "emotion": "hesitation",
+      "intensity": 0.55,
+      "pace": "normal",
+      "line_id": "l035",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "Do you want your mother's key, or a lecture on jurisdiction?",
+      "emotion": "sarcasm",
+      "intensity": 0.65,
+      "pace": "clipped",
+      "line_id": "l036",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "The key.",
+      "emotion": "urgency",
+      "intensity": 0.7,
+      "pace": "clipped",
+      "line_id": "l037",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "morris",
+      "text": "Then let the sentence do its work.",
+      "emotion": "tension",
+      "intensity": 0.7,
+      "pace": "normal",
+      "line_id": "l038",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "paper torn from typewriter"
+    },
+    {
+      "speaker": "irfan",
+      "text": "But there is no stamp, sir.",
+      "emotion": "hesitation",
+      "intensity": 0.58,
+      "pace": "normal",
+      "line_id": "l039",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "A stamp impresses people who cannot read. Your landlord can read.",
+      "emotion": "neutral",
+      "intensity": 0.66,
+      "pace": "normal",
+      "line_id": "l040",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "irfan",
+      "text": "And the signature?",
+      "emotion": "hesitation",
+      "intensity": 0.55,
+      "pace": "normal",
+      "line_id": "l041",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "The signature tells him somebody is prepared to continue.",
+      "emotion": "tension",
+      "intensity": 0.75,
+      "pace": "slow",
+      "line_id": "l042",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "fountain pen cap clicking",
+      "pause_after_ms": 400
+    },
+    {
+      "speaker": "irfan",
+      "text": "Prepared as what?",
+      "emotion": "hesitation",
+      "intensity": 0.6,
+      "pace": "normal",
+      "line_id": "l043",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "narrator",
+      "text": "And there it was. The whole crime. Not a forged seal. Not a stolen file. Four words, in his own handwriting.",
+      "emotion": "tension",
+      "intensity": 0.82,
+      "pace": "slow",
+      "line_id": "l044",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "pen scratching on paper",
+      "pause_after_ms": 900,
+      "music_cue": "drop"
+    },
+    {
+      "speaker": "morris",
+      "text": "Presiding officer.",
+      "emotion": "tension",
+      "intensity": 0.85,
+      "pace": "slow",
+      "line_id": "l045",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 1000,
+      "music_cue": "sting"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Sir... which office?",
+      "emotion": "fear",
+      "intensity": 0.68,
+      "pace": "slow",
+      "line_id": "l046",
+      "language": "en",
+      "bgm_cue": "fear"
+    },
+    {
+      "speaker": "morris",
+      "text": "Do not ask a question when you are afraid of its answer.",
+      "emotion": "tension",
+      "intensity": 0.8,
+      "pace": "slow",
+      "line_id": "l047",
+      "language": "en",
+      "bgm_cue": "fear",
+      "pause_after_ms": 800
+    },
+    {
+      "speaker": "narrator",
+      "text": "That afternoon, Irfan carried one page to a hardware shop.",
+      "emotion": "reflective",
+      "intensity": 0.58,
+      "pace": "normal",
+      "line_id": "l048",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "metal shop shutter rattling, traffic nearby",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "LANDLORD",
+      "text": "What is this?",
+      "emotion": "neutral",
+      "intensity": 0.5,
+      "pace": "clipped",
+      "line_id": "l049",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "paper slapped on counter"
+    },
+    {
+      "speaker": "irfan",
+      "text": "A direction to restore possession forthwith.",
+      "emotion": "urgency",
+      "intensity": 0.68,
+      "pace": "normal",
+      "line_id": "l050",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "LANDLORD",
+      "text": "From which court? There is no case number on this.",
+      "emotion": "sarcasm",
+      "intensity": 0.62,
+      "pace": "normal",
+      "line_id": "l051",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Read the last line.",
+      "emotion": "tension",
+      "intensity": 0.72,
+      "pace": "clipped",
+      "line_id": "l052",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "LANDLORD",
+      "text": "Further proceedings shall follow.",
+      "emotion": "neutral",
+      "intensity": 0.55,
+      "pace": "slow",
+      "line_id": "l053",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 400
+    },
+    {
+      "speaker": "irfan",
+      "text": "Yes.",
+      "emotion": "tension",
+      "intensity": 0.7,
+      "pace": "clipped",
+      "line_id": "l054",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "LANDLORD",
+      "text": "Who has signed it?",
+      "emotion": "fear",
+      "intensity": 0.6,
+      "pace": "normal",
+      "line_id": "l055",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "The officer hearing the matter.",
+      "emotion": "tension",
+      "intensity": 0.75,
+      "pace": "normal",
+      "line_id": "l056",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "LANDLORD",
+      "text": "Hearing it where?",
+      "emotion": "fear",
+      "intensity": 0.65,
+      "pace": "clipped",
+      "line_id": "l057",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "You can go and ask him yourself. I will tell him you refused.",
+      "emotion": "tension",
+      "intensity": 0.82,
+      "pace": "clipped",
+      "line_id": "l058",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 500,
+      "music_cue": "sting"
+    },
+    {
+      "speaker": "LANDLORD",
+      "text": "Arre, there is no need to become dramatic. I changed the lock only to protect the property.",
+      "emotion": "fear",
+      "intensity": 0.68,
+      "pace": "fast",
+      "line_id": "l059",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "My mother is outside on the landing.",
+      "emotion": "hurt_anger",
+      "intensity": 0.75,
+      "pace": "clipped",
+      "line_id": "l060",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "LANDLORD",
+      "text": "Take the spare key. I am obeying under protest.",
+      "emotion": "hurt_anger",
+      "intensity": 0.62,
+      "pace": "normal",
+      "line_id": "l061",
+      "language": "en",
+      "bgm_cue": "relief",
+      "sfx_cue": "key ring dropped on counter",
+      "pause_after_ms": 400
+    },
+    {
+      "speaker": "irfan",
+      "text": "And the three months advance?",
+      "emotion": "urgency",
+      "intensity": 0.72,
+      "pace": "normal",
+      "line_id": "l062",
+      "language": "en",
+      "bgm_cue": "relief"
+    },
+    {
+      "speaker": "LANDLORD",
+      "text": "You people learn one legal phrase and immediately you become advocates.",
+      "emotion": "sarcasm",
+      "intensity": 0.65,
+      "pace": "normal",
+      "line_id": "l063",
+      "language": "en",
+      "bgm_cue": "relief"
+    },
+    {
+      "speaker": "irfan",
+      "text": "The notice itself is saying he received it.",
+      "emotion": "tension",
+      "intensity": 0.7,
+      "pace": "normal",
+      "line_id": "l064",
+      "language": "en",
+      "bgm_cue": "relief"
+    },
+    {
+      "speaker": "LANDLORD",
+      "text": "How much?",
+      "emotion": "hurt_anger",
+      "intensity": 0.58,
+      "pace": "clipped",
+      "line_id": "l065",
+      "language": "en",
+      "bgm_cue": "relief"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Six thousand rupees.",
+      "emotion": "tension",
+      "intensity": 0.72,
+      "pace": "clipped",
+      "line_id": "l066",
+      "language": "en",
+      "bgm_cue": "relief"
+    },
+    {
+      "speaker": "LANDLORD",
+      "text": "I will deduct electricity.",
+      "emotion": "sarcasm",
+      "intensity": 0.55,
+      "pace": "normal",
+      "line_id": "l067",
+      "language": "en",
+      "bgm_cue": "relief"
+    },
+    {
+      "speaker": "irfan",
+      "text": "There is no electricity bill pending.",
+      "emotion": "tension",
+      "intensity": 0.68,
+      "pace": "clipped",
+      "line_id": "l068",
+      "language": "en",
+      "bgm_cue": "relief"
+    },
+    {
+      "speaker": "LANDLORD",
+      "text": "Fine. Six thousand. Sign here and get out of my shop.",
+      "emotion": "hurt_anger",
+      "intensity": 0.6,
+      "pace": "clipped",
+      "line_id": "l069",
+      "language": "en",
+      "bgm_cue": "relief",
+      "sfx_cue": "cash notes counted on metal counter",
+      "pause_after_ms": 600
+    },
+    {
+      "speaker": "narrator",
+      "text": "No case number. No seal. No court anywhere behind that page. And the landlord paid every single rupee.",
+      "emotion": "tension",
+      "intensity": 0.85,
+      "pace": "slow",
+      "line_id": "l070",
+      "language": "en",
+      "bgm_cue": "relief",
+      "pause_after_ms": 900,
+      "music_cue": "drop"
+    },
+    {
+      "speaker": "irfan",
+      "text": "He obeyed every line, sir. Every line!",
+      "emotion": "joy",
+      "intensity": 0.85,
+      "pace": "fast",
+      "line_id": "l071",
+      "language": "en",
+      "bgm_cue": "joy",
+      "sfx_cue": "court canteen cups and spoons"
+    },
+    {
+      "speaker": "morris",
+      "text": "Lower your voice.",
+      "emotion": "fear",
+      "intensity": 0.7,
+      "pace": "clipped",
+      "line_id": "l072",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "He returned the key. He returned the advance. My mother touched that paper to her forehead.",
+      "emotion": "joy",
+      "intensity": 0.82,
+      "pace": "fast",
+      "line_id": "l073",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "morris",
+      "text": "I told you. It was advice.",
+      "emotion": "hesitation",
+      "intensity": 0.6,
+      "pace": "normal",
+      "line_id": "l074",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Advice is not returning six thousand rupees.",
+      "emotion": "joy",
+      "intensity": 0.75,
+      "pace": "normal",
+      "line_id": "l075",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "Then what do you think it was?",
+      "emotion": "tension",
+      "intensity": 0.68,
+      "pace": "slow",
+      "line_id": "l076",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "irfan",
+      "text": "A judgment.",
+      "emotion": "joy",
+      "intensity": 0.8,
+      "pace": "clipped",
+      "line_id": "l077",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 600
+    },
+    {
+      "speaker": "morris",
+      "text": "Do not use words you do not understand.",
+      "emotion": "fear",
+      "intensity": 0.72,
+      "pace": "clipped",
+      "line_id": "l078",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "I understand what opened that door.",
+      "emotion": "tension",
+      "intensity": 0.78,
+      "pace": "normal",
+      "line_id": "l079",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 400
+    },
+    {
+      "speaker": "morris",
+      "text": "And what have you brought in that envelope?",
+      "emotion": "neutral",
+      "intensity": 0.6,
+      "pace": "normal",
+      "line_id": "l080",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "paper envelope placed on table"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Four hundred and sixty rupees. Everything I was having yesterday.",
+      "emotion": "longing",
+      "intensity": 0.7,
+      "pace": "slow",
+      "line_id": "l081",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "Take it back.",
+      "emotion": "hurt_anger",
+      "intensity": 0.65,
+      "pace": "clipped",
+      "line_id": "l082",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "Then call it filing fees.",
+      "emotion": "joy",
+      "intensity": 0.68,
+      "pace": "normal",
+      "line_id": "l083",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "morris",
+      "text": "There was no filing.",
+      "emotion": "fear",
+      "intensity": 0.7,
+      "pace": "clipped",
+      "line_id": "l084",
+      "language": "en",
+      "bgm_cue": "tension",
+      "pause_after_ms": 300
+    },
+    {
+      "speaker": "irfan",
+      "text": "There will be now.",
+      "emotion": "tension",
+      "intensity": 0.8,
+      "pace": "slow",
+      "line_id": "l085",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "two sets of footsteps approaching",
+      "pause_after_ms": 500
+    },
+    {
+      "speaker": "FIRST MAN",
+      "text": "Sir. Irfan is saying you hear urgent property matters.",
+      "emotion": "hesitation",
+      "intensity": 0.62,
+      "pace": "normal",
+      "line_id": "l086",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "two files placed on table"
+    },
+    {
+      "speaker": "SECOND MAN",
+      "text": "We have brought our files.",
+      "emotion": "hesitation",
+      "intensity": 0.6,
+      "pace": "normal",
+      "line_id": "l087",
+      "language": "en",
+      "bgm_cue": "tension"
+    },
+    {
+      "speaker": "irfan",
+      "text": "And they have brought their fees.",
+      "emotion": "joy",
+      "intensity": 0.78,
+      "pace": "slow",
+      "line_id": "l088",
+      "language": "en",
+      "bgm_cue": "tension",
+      "sfx_cue": "two cash envelopes placed beside the files",
+      "pause_after_ms": 600
+    },
+    {
+      "speaker": "narrator",
+      "text": "Two files. Two envelopes. Yesterday he was furniture in a corridor. Tomorrow, he would need a room.",
+      "emotion": "tension",
+      "intensity": 0.9,
+      "pace": "slow",
+      "line_id": "l089",
+      "language": "en",
+      "bgm_cue": "tension",
+      "music_cue": "button"
+    }
+  ]
+}

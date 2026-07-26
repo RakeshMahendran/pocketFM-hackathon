@@ -1,0 +1,413 @@
+{
+  "stage": "serial_evt_gandhinagar_tribunal_01_03",
+  "saved_at": "2026-07-26T00:24:28.124143+00:00",
+  "response": {
+    "id": "resp_0ed0ff84ca5f512a006a65532325cc819b9df5db8cb24e20d1",
+    "created_at": 1785025315.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-5.6-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_0ed0ff84ca5f512a006a6553241e0c819bb2af2bd305cff76e",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZVO-VIAF6_xYGfBxrM23qYE_oleoBS2AixaA7zPZep9wzR20WYhEA0d2OcQ8aalKPTwnWGwYnpUZCYqhd5rilIetGmXA9V7wF-0krcYLIC1SRcovqcJfSHpkBa0ERZv0Z47XMjcAl5euI2sj5y7e27n6_q03c9HhDbH7sdVdIy1fGmbHqkcYNEWaIqR7WPAsGJmr-wfn6-AyuTrnMz7lbfBnyW0Sru1tWhTsaypqAnkrRA2k6Pk9EGTPBMlDrXn2FbeNKTFdIYjq9Lo6hQsR-ar6D1Hswl3x54XFZ-hqdmJ9R4T9wM9XzDrQHKjzr-OiE26PTVLE1bSWyzfcO4YfMrg2VYf-GmHlleUo5k7L2zXnomgdJbjgiCYhDqd785jay-t1FW-YRf8hgZfNzLoEVXywqi_1t7ezH2rbEMBK2ySyGaw5tLgta3sD0T5NR9qSU8opqsJ3EW5zSJXOSvzYDHdlYxQ8rMaubDouDBDEynxGrvJq4vArdN390lb4rLA2fjzrApV439bynDFF04ClRmwyJom8VFdU9e2Ot7Y99BTxKeO6ZuhDBezut0YS8H4FXZjGTN8f39Ay0MVisTJ8j59bq1v5LBcB_LBhfIFXtBsm4NoU0VSwzT-FHBlFbxICeb8R1XqNWcWL2s0QT8kUnwaXqibbr0xbmJjy1Dxz6YzFaIZIwoCMJERu-R71k4EkTVtmPxhSy7zzaRJ24FcbdlTTBtDUP6stxGKLiBFBlQlwXMhFUp6pBiEmSG73-8W_ho2Zkq-jWzqKgwAWAAJ2SgEmCSI_OAmB9YaqwDae6RXmnXo-0_tZWjSalrOniJWJN70axFqFsUQlvliWwsE-m1M0BFc3RsV72JTyFCPjjSfEe05khNIxoD-wylE5QH347lwEkTbOlaVXildpxKL0u2D67lm5mBxfo6NSBZ9BZxpkSswznQxXTel8HPEci-BfHujf-XRlyB-HNDzK5_9zZCLnjis1QVSQuALc-z1rUmFv8e3DarykYxNNKRPnLeXbWIpOwu8SkwxV0VPSL2vakGyfCF78mtL4x0XwaxSL2PJMPc9xd8toiz5Alr7o_mGA4upeDfyJdLK0VeUJu_iYMyDBIkekzVyqjNi_G-afA9aCTxulW_If4ubSvkF97hy2AiUJRu2JJ3Rlkdo5uGXpvbA7b-tiAItGORDuG1k0M9FbN9VqCOacDPAD4EEKWdpF-RBDW1Vy8sdkkEjMdMmVUnblx1I6TsqLlaNUtCsTA4NiODzfZit9C28u20Amwu_1sR4y6CsLWjmwL3vxdwnj4jtjhYyt5cO2QM9SUeMvVxCY7s3G2Q8W_go3cEg2ldbbTee1VLhDIp_-05lFrIC6GliQh9pE5ZzCwrfC8MOigHiAz7EybE1g-Qvu5h4lu2pttnbKeO3nwy12QTIaVutJk6T2givtri-sCxyn9zOtBRTz-snNZVuYqHx20LMuR76L2gZpRjA5_pqwfqvrBbSpVORQT_NvOQyNaQPa7F3-wbhuPr-BJCkWHIeMl7n6-staRDoNoO-3sBPBs8nblkINcLVavUMX3NaAiw8HDl-1-95qQ4Vcn9kB8x4w58_fo_-9tIbX-tPcO6OKMeqwqXDr0hL5uKX8IZtTejP9nsEjSREfFYaRpQBex9UOUZTEOuU4z65KOoaR2EnWCsxJTiCapV6RHYd6ha61cE-Snlpqo3BjbwSroRIp5O966T89syqaEQ6af3P82SFTzRlOnLocCF70de6MG1-QS8IQyTiYJPHAmG4peeq789kvCk5b27s6mpokxGrH3w3KkdifCDNavfi_fbcJ_qHBOnprkmUhYJa9rOxFd3V-sCMZZDfaC02chTCL_5O_8eGKiOICdXixXIGkgnibwDeGr84wCKDvpSgMaZHoTPVbIOnZj7N_ZMTy8bRiRqWstih8Alj9JY1tw6VHX2k_g6CpB5avXdU0nZ-u8vEsk8_XG6Mi_yn7ohjc0r_eTjXm6SvCELlXFZNjSTLRfqarwoAGNQlwiVRt0smhFXjlrsZescVP-GH4WGf44jr93G6ih5O77K1SM_F9iNvCZENdFyN1sM8tftq45yw8kJjZ5hTZv1DzP0oRoAvffEijXDMwTHgYtr26S_DPPlqD1fYZ0Uyo85fGu5pnPmvaeLnQJFVGg8YxCWa3SB4ilQLRngc8SUE7PwZiVt6DeIiGnHurYIbRXTVbw9ObQuDK18wGmwk4Uydby4YRyG6fLagZL9SxX4FlW04WOVu6JHL1Q4ZcX359uNVFSmVbC04ezmqZsLa5sLfl9vqb45B-bSI2LrHLDJr9ZtRvE9_63OwyopC0gN1tBiP3vMiCAkbZkOs8xAjeKvNaXjpT1jpk-MPuTEdrT-x4JS1seGNZ_mMefiFJxe0Epf7oYVaNAGkUN9-yu0r_225E6PLxrlPmLv_FWIZpgEfcvemd6-UQ5HDme-WnFQti_zmexsj8j9P5QUyG66Q-JAFFwOmSOeYE0EPyFt42-UPlyI_GXl_0KhzrNCqgNIEfT6caBiKobtsA9sfmsD8oXxSZhp-zKX8OZjhubRJMcUvRak_-YUfW9B1douhy7wAtZ7gjTJebu_QhPjRLKU1v8Ll8LceHdSRVAH6XbAagQZVgurVncuTJEMnkECjZBbN5NTrZfmleV7r1N8xyvyyvhIJGDTyeoXRV36pqJ4TpaQoFgt_3drW7uFX1wnsvRcKcXj4oXn-KrBEZNYRS_0_r4zemhbEwZ1SNoCShUStar7z2vNLXuBqhyBwX5LWBQwFpoOTi6b51Y7LusXpGfbtA_c9UJkOCadSB2-qzJ8aSDne7s9dx5c-rlQaixm3Pl6OnXr5Fwby868KOWfboSKU5BmrxLpImXNGrDHEY56Rjej1qNG-ADHR4J0pE7R2Rv_gY287UVfPFS41d8Jg8IE0ouQm4XdZ9GkUAi98w7lb9h8GoTU11mdzXuxkftvIhzZ8N1Ifz7W3vIW3BBFIsJYAqQaSkkgSmofumtqPztmauR_xh9dcieGxbeirfeecYjzyXqveoIbvUcZRfUqLcJbBsfSEn4lC_cAdGqt126KTkg82GRdL8bk-g3KJddUdE4to6T-5hGESwhH972Dm-TPLJNY8o-EcuW9_DamaFotKWGGxSIeYgGgNKDyQf61FN7zk9UDJ7HYK-kO1OIF4I57pH3_dNE_IPU70PlA82HC4RKLPykVDIoGUtO6PN4VviQ7vniHXJ0WZGim5iG4hCpRuRPGyGOsKSK1X9R-8ZpUfa2qXw9JGqeEzBSbLOhuJnZ_67abt6o5_H77JlqmGGzOg40s69y63qpNx6BURfJWodHqOOg0obp_JKmL_nMn7LtGXgfnrMzlsD42DXxRDN1S8oG24yNEOx-nuDQLIeFYyAa2x1tgJG3FFapNZnG-Sic6WTgV8SAsxC-ARetM9xGNwhclJdQXHX5Kj9Er9tUpP_mKi2EypLiQ4JXQOA19LuWSzkia3K5MO1pmpFW20tg_zL_SxXu4nQQeJKWRi_oCCSmm8dc1yY-KQkO9c0If1-HoNKmzkhdfLw3E_pYkYMuQNUb7wpmBPz7RpSUsfhNU7B3wlW_X4iXQGNfmJiDy1JJEeC8_-cDDXO_P1nV1sqcl3ZGP010gKyfUEG9oGcoDef8vi14xrcqRnMQ5vQ5iFwE1ppCHY1ga_VFNMijHZP4wSDVO1otKfgCma08MemrLnwvsKYFqDvX-FNyFf37fltXsIsVIPPs_NBpMbt4ZsqJ-nbZarEwJB8PRo2atGrGqJPp_E-dm5b_gvuqZakBbx44hnjrnRYmiJpwaKxBS2lq8fAo49eREd2mUsuDt-hC54pfGflyGfQ-h0KbqWbY30QzBXq7MTIKJK7lc3vls93IlkeX-J-n3W4uWRFhpxpqOJgXH1AU9oyPm9gA1St8-h1Cv20KxYSFnB9Nxn2rwxXN7cfvLzLW1P68cOhI0EMrnC7PuYDuhhLLS7UwlmN34zu-KGO5Dt_tJhsRoPYObGOrgrjBc6-wmnd80QJpslStYH00NS-trdMDW1U8hgNIQ==",
+        "status": null
+      },
+      {
+        "id": "rs_0ed0ff84ca5f512a006a65532e9928819ba6a597cf9c9cd202",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZVO-7sGcN0Of0mqapNx2MgJW16LJR93GN9HsRWYLkTix7yDsCSpmyCUsO8QfEA_1qVvhjD1pmkbgc8zRib-LclMjPun19PTIrOHsDS4OSnmmYq4B6CfhgYyk5BXiWHd0P5h7nux0W1s-d52snaeVOEqCyoRrKfNGhk3G0ONyQbuYpjYlcPktKFgMpCYH31EL9KCzwvb6fBt2M2krr2OCS0lvkXMSnGpnREeKvEVUPqLOl-m77EpmejTJAHP7cxb7WLso162oUS5XvXEthJNUdaePvxPoIkxKIJ2_DhDjmCLOZi45WhAdbIPUCYypRmlR53flzUZVIjTPUst1eTNHtxhasxjfSi5ch_gXfclHpSUSfabDRPgmoJPzFM7jq2Sc_19oWsjzNWuBwDTQ9TmM9DzkssKK0ZoDOcfQgxZE0N0a38DMUgmnYULO77V1UeZV_yyB5vw8YW1KFxvk2quhiHQI2bowvhfYvVu5-CTGRy2uguOKW5EfPqbd9uI8KO2NRdglKayScP0byhb63EdWKoNhRGzP1u7GVuk9c1irBT97amaBWfeLAgM3kqcZ4g2NvYD4rbDB_MP4jZFwckCmwfoVS7yThJEicmd4qeA6hG8uo9Ik2wXII1NRnfmMm81fECDQo_V961rADfZtSAOnDDi7TNQfmnlCCvS1nFQTo2p3kS2Lt-d6-dk38aUcoNWmm6itquzNmZqq_X8rvBOEbi-KSTPbzPyfGX4SCW8nk_AC-OyW1-bzn6JiG4EQ9A1hHJtvlCjobTt19BDMDQKsowp4fu9sjgYzfFxeqwGzaOib6O2xw-f5G3N6xLK5J4GBVj1gRBivnBcEI1QOfVZUVix_dvcTFYO_TRcblfJSLQDZv93RbRaBVMeUmBXFF9z9ELyDmaGi066OU9PRU6VjoNE7KbU6toFr2yTU9Dptusb4AWxumuP9__ANNnLaKywjf_0RuK3OU5VT0-PsD6M7EvtO6-LsfeW_J7RSGPEpcaGdkKALXVQmbQ_0ONNsqvtAergUytqPYFxQv7og46WMNEOcIAe2F_vVUxk1jBp3ynd8rChG1PYxeSoKmWPuzWYECr9knDBfPVPtPiTEPjHefKmoTfhz5v4k8zX0hadZdRjdNb0DJgL7Z3ZvTTX9MwfuuOg4ybZtqxHlSCUxpFSD16Nzdy39AA5GK6e4Bn8fJiuwuIjt-aPrR-4EqVhUH2SgK210hT0MOGguYZOQVHiVYUZXrK3vFEyN959x8tNmNxCOuUb6MwEuC_PdqCYZg555Qu9LqCVFXNHHHOsiw1-FP9Wx_9_Fd27s34DEcu3_2vvk2ygTWrEditeHeKwpok4L11_BGTtMzEoLHlnvWs0SB0T_MwcV-KQN0q2vrH41YNtqWpZ1uUKDGuWNd5WpsezdNOgTLbq0Qe04BCnP9MPB692sKr_4LYNRpXiSw-TptocbfchkWj-T7Bv-9o2A0P7LaPpujBKZj29dVIqc4kYtrZdZI8HGknFRVjrLohwhQrX1P_uElTnkTHUngxHscj0pNugBgE1ALwrwiFWRiNdDpJsRkUrGdhPBVryIp_WoKwA75DtJSlFg-mjvcRHyEsok_IIlCxo43EJ2_tzmPVt5LlEY1BSPL2UyHjQUCfWsEPI-MZZoM4miOIu9w2LX02FaMXtWmrayW1PXmbryM2obCx5Bf4TOUr7xkj2riHGoNEWxeP4wmwxAD5Ed8laCuUzvo8p1oFuCt_6fyBZem2ORFWzcvMfqnbFwaij6lzftZJX9kWCt43DmXJWHNeMyBvguqtWY060XfDQptrILrGLcpEPfURF_iJseLkPAXuL7k_NFXfq_vdUxHiAF_BkiWMj1J-EsOQKR9Y6Nx9KNrp8DOOjffFWJW1jihBW5fzE7sm_1OXZE5wlDA6ddiM5-uGNeV_luJ7z1ZoU1a3vkN_SI5-VBNtltc0Y8DsjXgyoKvTrJHDufXDQvDiGiVubsqXIqTsyRgA8HlLZ88QqNcxLO1noGN89mMNA-A_LVjEu4r4FOzroeXLZDgq0CDReXwWkr4oeF_1buto_S0M4897qGT5aZANU2LNRsWgKsd1AX8poId7qS2Vc9X4ajxa5P1XL6bsV4DRCjAt0Ql0Ef-JUO4LtpilZndSS4h0Z4_2BWiNiHHrTDamLqhuzP4L4nA4SIqx_z1Zl6uPfd_mfHQlJNwB0vav15HSy082KMn8T0GdxlPh91-as803jqWN8foLTfhw-6m9nPD5VZQg4vqWTyqlF64i3JXXqe_ArrxQxkaRNZWpQfyIo5L2CSsbj2-PCoTl-unAJ5MzPpgK4NswR0JOD9deBX6ZdtSN_ITarkKyhiII6GbjGWsDf2bCi7e6BNlHTk8cUwTntGzzBIZp-XzHasjtZ72b4m8Zvmqelsu2lbKOwrDcUHCN-SKTNKg5OzojnJ2qRNHopK-cMBK-s2OLTmqyaqvF_6NKnOoEXZEfKC9BO0CL0kcrr4TAjPOkDrG5kFLM14EIsAGceDmcbKHRBU_UZT1cpMxL7uTeOt07iI-EbSm55do010JUFo8cExuX1Kr9hhEmP_tbZn3SH59UzOtQmf1JkDXk8867YRjpbsO1sbvlv4yQP9qkOPiISoNZmiXcg6B9DCso_Po_EKOUiRG3wLyvGeUSKkNql9JlLSlrB6e0tBuMPGGuvClMwI3n0B3eVa3g06IWNC1Y-p7zZLb_JhbIAR92wW7lcBW4NDoHO4ce3uo52uUfNQeUR4KLvntJ59-arMypUsR19KgYm2jpGtBxO0uSRBUI7m9f3LQxbTxcbzVDVCzLrgb2RVn4GQaeNOL5hYVczZg30vucMZxR1ixe5Hb84DJQAHNVM-chhiS5AwcC5HkyKueI9S-fOX4FXUpX6ECY3UKJRFzxy3oZCwiuQd5kCvBaSBhQ6g8THyveTH4gc6hoK6PABM_fB1kViNSVXDzUYK2dXWfrw7n27F0eALb5TxPSJzIsG8JqBAotz3xGwAYUWviTaUH-whJmj6yM_i0vjB9zMkyUB6MHhed1iUyhZqnZe3Yi0PphTHjBeFRfLJZa1vyQBPXz9xzoZc0pdlLIZAGZnxgMRTR0K_9bbQ5QqigzI_rVkibyVURT3JJPVlWgLVZIwKIalWsYzIPUYC1K2_hnfMWD1K3N-F9o5M2quO-1Y8sE5jhUw01DmRue6VnAQ18NIPZTWtKZgj2GMYb-gxe3BD9KGe42fnPHBjiJ0Zj_AIWGHUQKeFII9KdL5I5JgAIAMGL073xiLJm5oawL1OTenZnNqB170hMdUsLXb1PNkofFOm4PCGfAZ9M3VnZhECglxEPiWUinEvV_RYzveWmtUGpiQmRQGdivhjhYKkxBvF4ifmW-R-UKFaEUXwcu_3b-9oFyzLd0CP383vXBwNiJ2jkXob3Gsa3xdJmEPwcIGcmN6aLU30Bt011Vjp9FixR-eC7IumJwJ1aReCcD4crgjGHF1xmDTZmwa24NGDO4dKbP-OWmAGg435LZYzZ8Ch3g6UOQ3XNuupmumgRNu8x02XXQAuYFgqM2Lpf_7p3zolW-RHgb4mwkVb7zF7ZInRSin93XW6wV50AVRznRVvtcfcXJr_DMpp_X2Qr93CYza1hWYjV5J1NyMjq88niePgGYXarBA3uvFnJPVY6LjTqRrhNfNp7RTpJLi9S-z0riT49YeyEREbcYHdwc-Uga3NG5em5xaET5rrtqpgTRheY1jQbNDJ3bnatrmGx6DLvJDUOrW00lSUl4bL5a7xadmjeCJ6MlrludvimJeNVLLXBV5tYOYKCHiJmsmQbamJycegHMMxwU9jYilhhzS_KB8bJpIQWZw9Ffz4r9HagizbtLBUbcfP5DLW1M3aoRH8FgVwnqxR33jDg45t3Wh9B6FHW6z-HU-Kt3q0nZHhdvT9bUk_e8OFig==",
+        "status": null
+      },
+      {
+        "id": "rs_0ed0ff84ca5f512a006a6553386c48819b99b927866ddbcc47",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZVO-lybYd1IgjlEzRVWC7p2VI5hmnPVakKBgDzDPn3YGDCxZY4CYf-yAKoVENDMFNURs9AIFCO295mNFdTIqPzU5oRW2gq2DuDiyPMrC4uLU2Gpi3VwWMYChe2sXPq5dftXXYaO7t_ZCVc4dVvqAvzhpMMUJGqJQn42PTardm0tN0c0ixncZU2mP-kXGqZsjOBbs7cHoc-oqICwvzWZYtvSH8txzQas3TFf2mEx6KaqqnULELjKEoHQZC_cZLJ3LoIka1ynxcd6GNqTYacovYQruQJKaUE8HNlH94Ull3ESChKrQxqvjqV1Tdybh1ncxGJSc5NVCK-6tPkhtH0EalLTMej1rujrh9cFi4vLk_oHEaK_t9iyY3R5mk-VpZfeDq69m5AtgUraPDwlzvGKtj7rTFkrmkU2nRt0xeeU__X7rvpdU7NREQN4B6jC7_ScQ5VVeoGYqsXz3O8sjiwJH16ye_dwoSDw2st1nLaYRy3NLJWz5ORVruu7dW7u_hz75paIvJEkawLyVv442YI01qC42V-YpFLbOOTB7Lmeji-LqV26wlC9BQA2DSuXOpdubbKIK3B2YHxCC0VCueShFoCPmzas_2o97W6uy78Xa3v2Nts3NfICN6zj7W6HIzuIqOVlWSJxR5O-UhlRy-pUkLQpgc9c5uzP29are-8Y6eTHlRe4lK5nzDRbg2D3SO6YOSdL5Q-OAJNFrapG-FOd3XTAxYGpij2qL5mcDJxlYwLbP7k87z4Ts9xrmnKcI1TUdoK8ZQC7KNCk4cUuJsI_G2uegx8eoCIJVgM1oq0KhSiqNK8sHmQC1J8tx7YyIb0WsLhint8A8dIvq5V4rtjeCwC90I5Xbzk7QGX8-WLZ33jmtbuTNUO9RkecWuMgs1LGbRcVPkdO-tl0AjzZrzw6ow09x5bNMaOFuGLL7NA5s1Q5nzl1SGjWVAkNaEmh0IngCP1o5aomN48Ai0WKSGJUmBKvLrjNksnVLrVO4C9wniuFV8sa7EVNujozAoaeW6oSwPOUtbRdRh8EFgwa1QIO1DGiDYaKhICgBZczNl6g4YnpzLG6QSQVxX9pOZw_-Q9RxBlTRn0ZkzqWrSllhJhLjwhZHzteBtCr_YwmbMTCuBh3V-c8zSBo5xSbenpIT17Tgp-6x3Ys5d-Pxh88puZkp7GAKRXx3V9AvUzbhGcBdPssWPh3fjrRe7ajxdUDbj8uCGeIoNiDqOYnPaBno47lLCB-gv5pjCEgqIEN1vaMUwZ1Lxbme35-ce31i3p12OpVF0n3sgGGorT-DCouzrNpJvPq_qYsQEmet2W2OAOSdHgAQ4_2ckBlfg2yazaWIR1nwGK48qZVsx71aa-T-cHnVT1LLkCnfVSIutT-bjTJTVcce98UnQ0h-bHQGPaEIo7EYozIBv8oRMJmFmtnkPb1GRHcyDrzEr79O3K2GtS4GHCxgV00qsZst78KIQUNSO_eUPC7TuM0XMukSZP3FPc9e7rZGdgMiojLLxuvFCb4iMS2cDUTzeWB6XidEPHe988VGKczUKE-5VHrVj4QhDkcOAP6rMeVo-UCR8wqcpwRuakuxgHonluKpSyIp7XVjsj9tY8YCGpH5DqkLSiZvIhBi2peJg-qEk4XkX0MXvcn5_VZvSldVP_WKeK6C9s3BLhicHxDyq9B4Rzpaa5CjHfYPi5Ut2EQabbct6BI7YWeFfHhMgN0SIrYrrGdBWQwZLSJLvQHhHiXmCg4gTCmiIlz1HlTirHWwjm7UhT2L05520rCuL9YGIri-rv-tGwFsltGf-PfRuU6JoS2xbGIkGfI2viwf5x48-nrIDSTe0zlzMi922zFRtrA8WLhWoHZayJ-x5Qh9yru4bQJpDo7r6u1Qa_JBBJdnoyAxzoqwzjecO0Kj4jYNtmKW9VbBOHjs5t_xz3yvVgSY1MbqrBbbKBWiAvNUeb_BdORGPgisJ35hiyns8vf4UYvSqX0yI5fwc8Evtn_w9GLEiA1fo7vi5RsDJj3CFyycYSEHHbyh_Cawpo84EjA1cGzCAmksDofB4dAMUvQnj6Hj53EZnnld_jhM2M5hu4jlm1Brcdfzyocitn38Jgs3DaS1s6NVTbW62rxb5K0_WQZ4iOGRKbaVyc06t8SnB9okfrLhvK3ONsmk2NpOPdq24_AqjMXvvxc37mKk9GRGTdmjgBRhSqcZrUtWA8W8sposyZPqHSshIkGpWohM5IhX19pAdJ-jj2_Ys_h27q2cfqIdbomt1fhDDK_Iodb-mjwOVGfpDyYMOreVpuguxys4g-pXxIkLxxhGQsCDziYSjPVJCH00FfJNlYWHxOx486PVCjDw6sTRIMipDdCqVmzk6RYQWqDNwZVhWk92gohU-vdAUBy_DrPoCrnk3K_7EkXWQCjqaT_LeNzpC6AElKQk0_9RNEVcW7BagE4HHeTXf1eKJ_OyySZU3UAsHViTWme3Mz6HxWT0lQsFb8Kf0e5AkyPrsytM8uFw1SEZVFfoDph0qB_Ur259H-yexAU4nXTk7Kafg4kJ9Mn-bNMabqklKMuspHpn1IDjgQxrAsiiokqdGKWT3lUbL3D40H05LjIB9iJBq2nRGjxEdIC2sY_7aS_zE9foybES0Cq8OboEP3meVnIDPf7bueSpSUOlL58Qc6XgiDOFhX3vqGf-VL_eGXshPr_Nsn7klQasd9iR2Nx9EDUq66Cf8cLcxi0ecwGPHDSwoFNiAML7L0XwX7Q39LfSCkrnHMrN7ORUoGSF8Gw9Y6NNnmomp55vbr0TpFVMN_NVynVP8P4dxv-XFLgsxc5rZyyp23-Q-CAFAI7PjsJ8rv00X5JD0mXrGrZFRp0E3V7FwqqZQTB_s3F-fHXdwhIKEyyKdNuVCS8vk4QCw4NW7tJ8XkYSC6rcClVC8YqrEt7wXrg0vqa4q8DBnH0I4FomjB7twkUcvzpnl5NBltNIF7y1aMVXMDXdzHLlaXmyX-z8csDuVWZjNqYBLNveELNIcK6fGrFO68cQH2hY0oZ25b86Al6l2DDw53YvQth8z1JOG8GJOmUOjxmne2fJp73u54VFGEXYRIxp7AffAsdMevyEKiv8YtAGytNnGDcpc3H4uJSEe6pej_n3qrxj4-phAz2SBH-lFSEip2OYjOoIm7jHjvwmCyZ4LkJteYTBfrOYSjj-PBq4BdF3IbzGx7VNTddnQ0IEXLhZh0rdi853ObEK0LxTx7RO6UHY5M9MMwz4LrEKTAAJupOUSqqAP1TE9ulDzdxTgg-3O6HzZ7c-JiZwxyW-tC7WEdBymjFWcd8X6LnMW8lFEkAgjY_f1J0oW0s2a9ifbDVrE9x1jd_Kb7jec9q1U69IhQ88rXoxU93kdihf8iUPpohwvWhdUH5xV4B23iAGaX1GuIVNCfUELGuuvLKVDN9jRgNgJBoi14kJ5qcqxzDiHNjsS8p2fnD68lWjW-tH7ndNoEW5-xPxPUknbyImfYzR0ExE_m_lcnSGQUO9kjjnwe2p_sJDkY2OW3-XeP_H8LoOz_Dzv7kvPnTU6QqY5-yGOquGXNNJLJ0vMg8bWU8tNVmSZXIEqUH7_m9VMI8k_lq21BhMnf2gWYgIksDtCIeRywouZ3bbUh3dc5NqIOdw2L-GS_kKKprCPtdz44Qv--cSRrtsMIEM_WxtMvzBpcY1Dr_LFxvKrWdDmCHoB63CV47CiPloXy80_KqhuokLpJn4N4l2iN95el0hy32rDcIWdAzx0CxWakNcM8LdQqsPgGCTJNh2llo3PJ0sJvXHwvkBUIDjfQTFryY6QjFYPb6P2FKH0w_EqmjUEW7uqbLIdPk7NnmTLcTiakLCPEfgxaZZd2hNYNtD0vM0ninolZf37mdveILMZJsvCgGUGWEKQ2Bth76F8xatFVwcAU8Ujt5p8yn8XqnDsVijMMsFWJP0oC0vkw==",
+        "status": null
+      },
+      {
+        "id": "rs_0ed0ff84ca5f512a006a655340cb74819bb6be23e96ca5a64c",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqZVO-peLLTxVhQLx9z89yryxqeXCWG6eYJseBgGzkbILyrFYty501-SFpXqmdnrzvuf_rlO5Cjih8X_H2x8OULyi3DNBWAi2Zz8-eOQcFUStD3K5A9VVLxJRwGtPXKAaAODHThaZEHtzmlkw9nZC5e-ILzG-6v-Z8xY72ZuzzR394l45pK0mK75w9o2bO2bGcURU5vey5mZc0Lu47No3WyX1VPvT7sHQ2773iBc8gLPrnlIYYoxoWjjsyxBdJl4rHyKuI8eV0McEWWb65wdY_OPer5ADxibgAnVZHPFL0BKi1o1x3zuB9lI6qhPecG7Bj9p30Tu6nRPAimB5iS_nyZZdJjJTvQAjg7QN8LHfwP9_JgQMd8XPPLcy6chjG2W6-7mDwOA5z2B4HUmoUbH0eVgDkDSgaYMcdxYiwxw_uuAhl1m6RQwXs9ACSjH23ZJuc93whvhAaw_rEAadWRhfztluvr95qrJAnAM6EtjV4CRXp6UjvZlxfzEV8UVEZde9iDj4d6NYODf17N3LMyrMo8Bpjq21OBesoCNR4R0HHSMrsnYTLHSttMiGABuOncTqOzfHHfpWCsHUmyRXmndIMTqZbnzsuQvZZqkepewgxGI5Zjx2a8FjVdxWmBdGDnOGyJTYNqtr5Xsp1Ng9c-0fvmVeQvnKDR3M5lDfexZiF4H09P8WMWVgm_7xFJCXHKVyX_0p9HAGMj4ootLjpaTIuB1WWC6TQE6uH6-onoMsWugFWDeEaBLRH6ZiiWSMlan6R6EIHUClOlnpRus1_cXgBpVqi1e8veiYriJx7V4EIdK99kf1kIPVy_J21bDWVCkv3fPkxe981BsnjyA5w8PUV9cu2-w-BVDKM1e8GUe88SyrO2wge7MOX_LdTQF-DAx8d5PtDJ3yGttSHfOAVm7AQ5SGx6FdeM7ftn79IY4nkwi4Md4WxKayY8O0iixQE-aSKtgZ0TLuJ8RENXtLtBAhUeBw6VHEaKz5jZAIxCKC2LGXJEcuo8366BJFRQrIMi-Cs-z5wb2xZZEekQoTHwvYbfODUKYw37IKu9WfRdLH2KgY3bu1_lkV3XP4sddiJ3bszWnCtUySWHzZuDqXQy0iDmkxn0ZLWMyDrhCsbBUWUbG3Etn00N0i4rN2qYptc9dstYwKWW9UKUuvxJnqYBR6FFO1jzh3sdC4Hdgv_99G6gdEt2WO1mGw6A8d8hF54-lqaHdnVvg-Z-xvfNYXl9DcpgS6-kcY_IiBxlhI6gH2gnuYzlKY-2WVEsaQ-8rM2PSP5wnZAtYdFdXFbH0MxBN54r2Q_WeMxKD8im2OsdDh3vXtpASLU5z-6f313QRdSqGmJqHqHvmZuAn7J39Y7Ee6cRKEEA9T29f9gsA0shJ2HEXrKtEtNU6jCR-0RSOFzdjHgUh1bRjtzCZq8l6QjJWrIzbnBEFPGMsVMqdoHBSVh8Y43BQE1vp3hjZoroZMrREM7hwx5rtajJHnsipNLcGo8GLK9hHKB41LPvOx_J-5S6iVgLyMDlSplwx4rAPplJhGr54azvnNp6gtpZcv3bZEsYC1ttJ-R1XPJcnUnKA0h70ElMaeWU0YPIRtS8Jd6VsbDrZssqIae44PaJPdSvc8xeykqtnLnh8uOfBsqhhuzxc5HtMxO1Iglv6nSojeMYA4g_cBpIFcJMQG83oEbD3tvQVhI0dzGAV8q0NCKsnZBUBLA7lJYaJhCbfQq83NJqzhX_DJiMZidarIkKlcmLOGMIz9p_jqLUIzYWfBwTMiPGhqcg72T4Ijwh_QvVj1a8BeEoxxCGM3e4N6yUVrFQnz6eCRfqQeLtfkOCodUKl9gJQ63lcrtpWe-wKUVnK4U3HASUUz8XSIowZacr1lvoX87Ew2pHXe3jrSt7RYr65a8qaaf-R3ObugjBF75ZmOVb5GT17r8CUf05l3sNuFt4dylOtJTOu4lK79QWamm4bo_BFNbGn8GgLwJBosNZ1mZWWfLkrxQVFLG8YQR68KLXUtWo8dZ8-Y11a5Mb0qMGhSmkMoRlFNSASuMljdvvU_VOgo_hNI5_lDVUr8CM5FzuMla7YeNEfclj1p4f4SiZVPFB5rjNZt9u60TBHDOIF_26nFG-1wulHbcqgIchC44FEqLG0tHaJfzuPocrGnFJbI-nGYpHNOd25rvDZx52Y-Qvjh0ldWqmCTXGD13gvCM4DoHe9CQYz_Lw1lHTHv7V-9sldzFt7xN0gxcZ-IRfCrBhUOhydC_vfxmASfHiTUmd1DX0wu9zQ==",
+        "status": null
+      },
+      {
+        "id": "msg_0ed0ff84ca5f512a006a655344e7b0819b8f6fef1062dffd1b",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"episodes\":[{\"ep\":1,\"title\":\"Call Me Sir\",\"lines\":[{\"speaker\":\"SENIOR COUNSEL\",\"text\":\"No, no, no. Delete that paragraph. The application was dismissed, not disposed. Start again.\",\"sfx_cue\":\"manual typewriter keys, rapid clacking\"},{\"speaker\":\"morris\",\"text\":\"The wording in yesterday's order was disposed, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"SENIOR COUNSEL\",\"text\":\"Yesterday's order was mine. This one is also mine.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Let me finish the citations. I can sit inside until lunch.\",\"sfx_cue\":\"\"},{\"speaker\":\"SENIOR COUNSEL\",\"text\":\"You can wait outside until I call. My client is coming.\",\"sfx_cue\":\"paper pulled from typewriter\"},{\"speaker\":\"morris\",\"text\":\"I have typed six pages already.\",\"sfx_cue\":\"\"},{\"speaker\":\"SENIOR COUNSEL\",\"text\":\"And you have been paid for six pages. Please close the door from the other side.\",\"sfx_cue\":\"\"},{\"speaker\":\"NARRATOR\",\"text\":\"Fifteen years earlier, the bar council had struck Morris off. He still entered chambers every morning. He simply entered carrying typing paper.\",\"sfx_cue\":\"door opening onto crowded court corridor\"},{\"speaker\":\"COURT CLERK\",\"text\":\"Move away from the chamber door. Advocates on the left, litigants near the railing.\",\"sfx_cue\":\"court corridor voices and shuffling files\"},{\"speaker\":\"morris\",\"text\":\"I am attached to this chamber.\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"Then your chair must also be attached. Go and wait on it.\",\"sfx_cue\":\"\"},{\"speaker\":\"VOICE IN CORRIDOR\",\"text\":\"He says attached. Maybe he is the stapler.\",\"sfx_cue\":\"brief public laughter\"},{\"speaker\":\"morris\",\"text\":\"The record will show who knows the work here.\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"The record shows one typist blocking a corridor.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Sir... sir, please. Are you hearing urgent matters today?\",\"sfx_cue\":\"file papers slipping to floor\"},{\"speaker\":\"morris\",\"text\":\"Who told you to come here?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"The registry sent me upstairs. Upstairs sent me down. I have been going up and down since ten fifteen.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"What is the matter?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"My mother's room, sir. The landlord locked it. Her medicines are inside.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You have an advocate?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"He wants twelve hundred rupees before he reads the file. I have... I have four hundred and sixty.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then find legal aid.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"They gave me a token. Sixty-eight. The board is still showing twenty-three.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I did not ask for your token number.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"No, sir. Sorry, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"Do not trouble him. Can't you see he has been sent out to wait?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Sent out... from the chamber?\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"Yes. With the other furniture.\",\"sfx_cue\":\"corridor laughter, louder\"},{\"speaker\":\"morris\",\"text\":\"Enough.\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"Certainly, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Let me see the file.\",\"sfx_cue\":\"file cover opening\"},{\"speaker\":\"irfan\",\"text\":\"The landlord says the agreement ended on the first. My mother says he took three months in advance. There is no receipt.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"And the lock was changed today?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"At nine. She is sitting outside on the landing.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"This affidavit has no verification. This application asks for final relief as interim relief. Who drafted it?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"A man near the photocopy shop. Sir, can it be heard?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Not like this.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Then tell me how. Please. I will write exactly what you say.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Stand up first.\",\"sfx_cue\":\"knees striking stone floor\"},{\"speaker\":\"irfan\",\"text\":\"No, sir. Not until you agree.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"People are watching.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Let them watch.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Sir, hear the case.\",\"sfx_cue\":\"hands touching shoes\"}]},{\"ep\":2,\"title\":\"One Page\",\"lines\":[{\"speaker\":\"irfan\",\"text\":\"Sir, hear the case. Just once. My mother is still sitting outside that locked room.\",\"sfx_cue\":\"crowded court corridor, files thudding on bench\"},{\"speaker\":\"morris\",\"text\":\"Take your hands away from my feet.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Say you will hear it.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I am not hearing anything. Stand up.\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"Your lordship, shall we clear the corridor for this historic sitting?\",\"sfx_cue\":\"scattered laughter\"},{\"speaker\":\"morris\",\"text\":\"You have shouted enough for one morning.\",\"sfx_cue\":\"\"},{\"speaker\":\"COURT CLERK\",\"text\":\"And you have been promoted quickly for one morning.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Come with me.\",\"sfx_cue\":\"file snapped shut\"},{\"speaker\":\"irfan\",\"text\":\"Inside the chamber?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"No. The copying room.\",\"sfx_cue\":\"door shutting, corridor noise muffled\"},{\"speaker\":\"morris\",\"text\":\"Listen carefully. This is only advice. You will not call it an order.\",\"sfx_cue\":\"ceiling fan wobble, distant photocopier\"},{\"speaker\":\"irfan\",\"text\":\"Yes, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You will not tell anyone I heard a case.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"No, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"And stop calling me sir every second.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Yes... sorry.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Give me the landlord's notice.\",\"sfx_cue\":\"papers unfolding\"},{\"speaker\":\"irfan\",\"text\":\"Here. He wrote that we abandoned the room. My mother has slept there for nine years.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The notice gives seven days. When was it delivered?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Yesterday afternoon.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then he changed the lock before his own period expired.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Can you write that?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I can write many things. Whether a fool obeys the paper is a different question.\",\"sfx_cue\":\"typewriter carriage sliding\"},{\"speaker\":\"NARRATOR\",\"text\":\"Morris fed one clean sheet into the machine. His fingers found the form they had typed ten thousand times for other men.\",\"sfx_cue\":\"manual typewriter keys, measured clacking\"},{\"speaker\":\"morris\",\"text\":\"Upon perusal of the application... no. Upon perusal of the material placed on record.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"What material?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Your file. Do not interrupt the record.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Sorry.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"It appears that possession was disturbed during the subsistence of the notice period.\",\"sfx_cue\":\"typewriter bell, single ring\"},{\"speaker\":\"irfan\",\"text\":\"Will he understand this?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"He will understand the next sentence.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The respondent is directed to restore access forthwith, failing which further proceedings shall follow.\",\"sfx_cue\":\"typewriter keys stop\"},{\"speaker\":\"irfan\",\"text\":\"Further proceedings where?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Do you want your mother's key, or a lecture on jurisdiction?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"The key.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then let the sentence do its work.\",\"sfx_cue\":\"paper torn from typewriter\"},{\"speaker\":\"irfan\",\"text\":\"There is no stamp.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"A stamp impresses people who cannot read. Your landlord can read.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"And the signature?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The signature tells him someone is prepared to continue.\",\"sfx_cue\":\"fountain pen cap clicking\"},{\"speaker\":\"irfan\",\"text\":\"Prepared as what?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Give me the pen.\",\"sfx_cue\":\"pen scratching on paper\"},{\"speaker\":\"morris\",\"text\":\"Presiding officer.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Sir... which office?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Do not ask a question when you are afraid of its answer.\",\"sfx_cue\":\"\"},{\"speaker\":\"NARRATOR\",\"text\":\"That afternoon, Irfan carried the page to the landlord's hardware shop.\",\"sfx_cue\":\"metal shop shutter rattling, traffic nearby\"},{\"speaker\":\"LANDLORD\",\"text\":\"What is this?\",\"sfx_cue\":\"paper slapped on counter\"},{\"speaker\":\"irfan\",\"text\":\"A direction to restore possession forthwith.\",\"sfx_cue\":\"\"},{\"speaker\":\"LANDLORD\",\"text\":\"From which court? There is no case number.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Read the last line.\",\"sfx_cue\":\"\"},{\"speaker\":\"LANDLORD\",\"text\":\"Further proceedings shall follow.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Yes.\",\"sfx_cue\":\"\"},{\"speaker\":\"LANDLORD\",\"text\":\"Who signed it?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"The officer hearing the matter.\",\"sfx_cue\":\"\"},{\"speaker\":\"LANDLORD\",\"text\":\"Hearing it where?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"You can ask him yourself. I will tell him you refused.\",\"sfx_cue\":\"\"},{\"speaker\":\"LANDLORD\",\"text\":\"There is no need to become dramatic. I changed the lock to protect the property.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"My mother is outside.\",\"sfx_cue\":\"\"},{\"speaker\":\"LANDLORD\",\"text\":\"Take the spare key. I am obeying under protest.\",\"sfx_cue\":\"key ring dropped on counter\"},{\"speaker\":\"irfan\",\"text\":\"And the three months' advance?\",\"sfx_cue\":\"\"},{\"speaker\":\"LANDLORD\",\"text\":\"You people learn one legal phrase and become advocates.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"The notice says you received it.\",\"sfx_cue\":\"\"},{\"speaker\":\"LANDLORD\",\"text\":\"How much?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Six thousand rupees.\",\"sfx_cue\":\"\"},{\"speaker\":\"LANDLORD\",\"text\":\"I will deduct electricity.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"There is no electricity bill pending.\",\"sfx_cue\":\"\"},{\"speaker\":\"LANDLORD\",\"text\":\"Fine. Six thousand. Sign here and leave my shop.\",\"sfx_cue\":\"cash notes counted on metal counter\"},{\"speaker\":\"NARRATOR\",\"text\":\"The page had no case number, no seal and no court behind it. The landlord paid all six thousand rupees.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"He obeyed every line.\",\"sfx_cue\":\"court canteen cups and spoons\"},{\"speaker\":\"morris\",\"text\":\"Lower your voice.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"He returned the key. He returned the advance. My mother touched this paper to her forehead.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I told you, it was advice.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Advice does not return six thousand rupees.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then what do you think it was?\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"A judgment.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Do not use words you do not understand.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"I understand what opened the door.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"And what have you brought in that envelope?\",\"sfx_cue\":\"paper envelope placed on table\"},{\"speaker\":\"irfan\",\"text\":\"Four hundred and sixty rupees. Everything I had yesterday.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Take it back.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"Then call it filing fees.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"There was no filing.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"There will be now.\",\"sfx_cue\":\"two sets of footsteps approaching\"},{\"speaker\":\"FIRST MAN\",\"text\":\"Sir, Irfan said you hear urgent property matters.\",\"sfx_cue\":\"\"},{\"speaker\":\"SECOND MAN\",\"text\":\"We brought our files.\",\"sfx_cue\":\"two files placed on table\"},{\"speaker\":\"irfan\",\"text\":\"And they brought their fees.\",\"sfx_cue\":\"two cash envelopes placed beside the files\"}]},{\"ep\":3,\"title\":\"The Room Above the Tyres\",\"lines\":[{\"speaker\":\"FIRST MAN\",\"text\":\"Sir, my brother sold our father's sewing machines without asking me. I need an order before he sells the shop.\",\"sfx_cue\":\"court canteen clatter, files opening\"},{\"speaker\":\"SECOND MAN\",\"text\":\"Mine is a salary matter. Three months unpaid. Irfan said you can finish it quickly.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I have not accepted either matter.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"They came because the first order worked.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"That was not an order.\",\"sfx_cue\":\"\"},{\"speaker\":\"FIRST MAN\",\"text\":\"Then write me the same kind of not-order.\",\"sfx_cue\":\"\"},{\"speaker\":\"SECOND MAN\",\"text\":\"I can pay five hundred now. Another five hundred after recovery.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"This is a public canteen. Put the money away.\",\"sfx_cue\":\"\"},{\"speaker\":\"FIRST MAN\",\"text\":\"Where should we put it? Irfan said your office is upstairs.\",\"sfx_cue\":\"\"},{\"speaker\":\"irfan\",\"text\":\"I said he works upstairs. I did not say he has an office.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Enough. Both of you, wait until evening. Bring every agreement, receipt and notice you possess.\",\"sfx_cue\":\"\"},{\"speaker\":\"FIRST MAN\",\"text\":\"Where will you hear us?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You will be informed.\",\"sfx_cue\":\"cash envelopes sliding across table\"},{\"speaker\":\"NARRATOR\",\"text\":\"Morris did not take the envelopes in the canteen. He took them under the table, where dignity could pretend not to see.\",\"sfx_cue\":\"\"},{\"speaker\":\"NARRATOR\",\"text\":\"Five days after Irfan touched his feet, Morris climbed the stairs above a tyre shop.\",\"sfx_cue\":\"air wrench bursts, metal staircase creaking\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"Mind the second step. It bends when heavy people use it.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You said the room had a separate entrance.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"It does. Nobody enters through the tyres unless they fall through the floor.\",\"sfx_cue\":\"padlock opening\"},{\"speaker\":\"morris\",\"text\":\"There is grease on the wall.\",\"sfx_cue\":\"door scraping concrete\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"There is grease downstairs also. That is how a tyre shop earns money.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Clients must be able to wait outside.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"What clients? You said typing work.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Documentation. Consultations. Settlement of private disputes.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"Advocate work?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"No.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"Good. Advocates argue about rent. Typists pay it.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The room needs two tables, six chairs and a raised platform.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"A platform? Are you starting a dance class?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"A dais.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"Same wood, more English.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"How much?\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"Four thousand deposit. Two thousand per month. Electricity separate.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You told Irfan fifteen hundred.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"For typing. A dais costs five hundred extra because it sounds important.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Three thousand deposit. Seventeen hundred rent.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"Three thousand deposit. Two thousand rent. I will wash the grease once.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"And repair the second step.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"The step has survived twelve years. It can survive your clients.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Three thousand and five hundred deposit. Eighteen hundred rent. Today.\",\"sfx_cue\":\"cash notes counted\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"You negotiate like an advocate.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Write the receipt.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"Occupation?\",\"sfx_cue\":\"pen tapping receipt book\"},{\"speaker\":\"morris\",\"text\":\"Dispute resolution.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"That is not an occupation.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"It is now.\",\"sfx_cue\":\"receipt torn from book\"},{\"speaker\":\"NARRATOR\",\"text\":\"By noon, one carpenter had placed a second-hand dining table on a platform eight inches high.\",\"sfx_cue\":\"hammering wood, hand saw scraping\"},{\"speaker\":\"CARPENTER\",\"text\":\"If you lean on the left side, the whole thing will salute you.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Brace it underneath.\",\"sfx_cue\":\"\"},{\"speaker\":\"CARPENTER\",\"text\":\"That costs two hundred more.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"It costs nothing if you had built it straight.\",\"sfx_cue\":\"\"},{\"speaker\":\"CARPENTER\",\"text\":\"Straight wood costs more than crooked wood, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Do it.\",\"sfx_cue\":\"hammer strikes resume\"},{\"speaker\":\"NARRATOR\",\"text\":\"At two, a sign painter carried in a black board with gold letters.\",\"sfx_cue\":\"wooden signboard knocking against doorframe\"},{\"speaker\":\"SIGN PAINTER\",\"text\":\"Arbitration and Dispute Resolution Forum. Exactly as written.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The word forum is smaller than the others.\",\"sfx_cue\":\"\"},{\"speaker\":\"SIGN PAINTER\",\"text\":\"You paid for twenty-four letters. This has thirty-seven.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"And the line below?\",\"sfx_cue\":\"\"},{\"speaker\":\"SIGN PAINTER\",\"text\":\"Presiding Officer. That is large enough to read from the tyre shop.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Make sir smaller.\",\"sfx_cue\":\"\"},{\"speaker\":\"SIGN PAINTER\",\"text\":\"There is no sir on the board.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I said officer. Make officer smaller.\",\"sfx_cue\":\"\"},{\"speaker\":\"SIGN PAINTER\",\"text\":\"You said— never mind. Give me fifty rupees for correction.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Hang it straight first.\",\"sfx_cue\":\"nail hammered into wall\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"What is this board?\",\"sfx_cue\":\"metal stairs creaking\"},{\"speaker\":\"morris\",\"text\":\"It states the work conducted here.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"You told me typing.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Documents will be typed.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"Do police come for dispute resolution?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Only if tyres are sold without receipts.\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"Your board is very handsome, sir. Please conduct all resolutions upstairs.\",\"sfx_cue\":\"\"},{\"speaker\":\"NARRATOR\",\"text\":\"That was the first time the owner called him sir. Morris paid the sign painter without bargaining.\",\"sfx_cue\":\"cash note flicked open\"},{\"speaker\":\"vaishali\",\"text\":\"A dais? You bought a dais before buying groceries?\",\"sfx_cue\":\"home door bolt sliding, steel plate set down\"},{\"speaker\":\"morris\",\"text\":\"There is rice for three days.\",\"sfx_cue\":\"\"},{\"speaker\":\"vaishali\",\"text\":\"There is rice. There is no oil. There is no dal. But somewhere above a tyre shop, there is a dais.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"It is an office expense.\",\"sfx_cue\":\"\"},{\"speaker\":\"vaishali\",\"text\":\"Say the office name properly.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Arbitration and Dispute Resolution Forum.\",\"sfx_cue\":\"\"},{\"speaker\":\"vaishali\",\"text\":\"Who appointed you to it?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Private parties appoint an arbitrator by consent.\",\"sfx_cue\":\"\"},{\"speaker\":\"vaishali\",\"text\":\"Did these parties consent?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"They brought files and fees.\",\"sfx_cue\":\"\"},{\"speaker\":\"vaishali\",\"text\":\"That is not what I asked.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The record will reflect consent.\",\"sfx_cue\":\"\"},{\"speaker\":\"vaishali\",\"text\":\"What record?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The one I am creating.\",\"sfx_cue\":\"\"},{\"speaker\":\"vaishali\",\"text\":\"And who keeps this record?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"A clerk.\",\"sfx_cue\":\"\"},{\"speaker\":\"vaishali\",\"text\":\"You have a clerk now?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"I will have one tomorrow.\",\"sfx_cue\":\"\"},{\"speaker\":\"vaishali\",\"text\":\"With whose salary?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The forum's fees.\",\"sfx_cue\":\"\"},{\"speaker\":\"vaishali\",\"text\":\"Morris... look at me. Is this a court?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"No. It is a lawful private forum.\",\"sfx_cue\":\"\"},{\"speaker\":\"vaishali\",\"text\":\"Then why does it need a dais?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Because people obey a raised table.\",\"sfx_cue\":\"steel plate pushed away\"},{\"speaker\":\"sarika\",\"text\":\"Sir, I was told there is a clerk vacancy.\",\"sfx_cue\":\"tyre compressor hiss, metal stairs creaking\"},{\"speaker\":\"morris\",\"text\":\"Who told you?\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"The sign painter. He is my mother's neighbour. He said you paid on time.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Have you worked in an office before?\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"No, sir. I finished twelfth standard. I can read English, type slowly and make tea quickly.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Tea is not part of the designation.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"There is a designation?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Registry clerk.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Registry... like a court registry?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Like a private forum registry.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Will I have to wear a uniform?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"No. Plain clothes. Clean file work. You will maintain the register and call matters by number.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"I don't... I have never called a matter.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Say, matter number one, parties to enter.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Matter number one, parties to enter.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Louder. People waiting near an air compressor must hear you.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Matter number one, parties to enter!\",\"sfx_cue\":\"\"},{\"speaker\":\"TYRE SHOP OWNER\",\"text\":\"Very respectable. Even my customers are frightened.\",\"sfx_cue\":\"laughter from downstairs\"},{\"speaker\":\"sarika\",\"text\":\"What is the salary, sir?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Three thousand rupees per month. Paid on the last working day.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Three thousand... every month?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"If the register is correct.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"My father gets two thousand six hundred for night security.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Your father's salary is not before this forum.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Sorry, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Read this appointment acknowledgment. Sign at the bottom.\",\"sfx_cue\":\"single paper placed on desk\"},{\"speaker\":\"sarika\",\"text\":\"It says I certify the proceedings recorded by me.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"That is standard language.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"What proceedings?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The matters you call. The appearances. The documents filed.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"And if I spell something wrong?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You correct it before signing.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"My mother will not believe this. Nobody in our family has had a desk job.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then give her something respectable to believe.\",\"sfx_cue\":\"pen scratching signature\"},{\"speaker\":\"NARRATOR\",\"text\":\"At four thirty, Sarika opened a new register. Morris wrote one on the first page and two on the second.\",\"sfx_cue\":\"thick ledger opening, pages turning\"},{\"speaker\":\"sarika\",\"text\":\"Matter number one, parties to enter!\",\"sfx_cue\":\"door opening, tyre shop noise beneath\"},{\"speaker\":\"FIRST MAN\",\"text\":\"Do I stand or sit?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Sit. Place the sale receipt on record.\",\"sfx_cue\":\"\"},{\"speaker\":\"FIRST MAN\",\"text\":\"There was no receipt. My brother took cash.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then how do you know the machines were sold?\",\"sfx_cue\":\"\"},{\"speaker\":\"FIRST MAN\",\"text\":\"The shop is empty.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Sarika, record that the machines are absent from the shared premises.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Absent from shared premises.\",\"sfx_cue\":\"pen writing in ledger\"},{\"speaker\":\"FIRST MAN\",\"text\":\"Sir, will you stop him selling the shop also?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"First, the other party receives notice. Then the other party speaks.\",\"sfx_cue\":\"\"},{\"speaker\":\"FIRST MAN\",\"text\":\"What if he refuses to come?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Then his refusal enters the record before he does.\",\"sfx_cue\":\"\"},{\"speaker\":\"FIRST MAN\",\"text\":\"Yes, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Matter number two, parties to enter!\",\"sfx_cue\":\"chair legs scraping floor\"},{\"speaker\":\"SECOND MAN\",\"text\":\"Only I have come. My employer sent nobody.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Did your employer receive written demand?\",\"sfx_cue\":\"\"},{\"speaker\":\"SECOND MAN\",\"text\":\"Three letters. He tore one in front of me.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You will file copies of the other two.\",\"sfx_cue\":\"\"},{\"speaker\":\"SECOND MAN\",\"text\":\"Will you order payment today?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"No.\",\"sfx_cue\":\"\"},{\"speaker\":\"SECOND MAN\",\"text\":\"I was told this is fast.\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Fast is not the same as foolish. Notice in three days. Reply in seven. Hearing on the eighth day.\",\"sfx_cue\":\"\"},{\"speaker\":\"SECOND MAN\",\"text\":\"And if he pays before then?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"You inform the registry. The matter closes.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"The registry means me?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"The registry means the office. You are its clerk.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"Yes, sir. Sorry, sir.\",\"sfx_cue\":\"\"},{\"speaker\":\"SECOND MAN\",\"text\":\"How much filing fee?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Five hundred rupees. Sarika will issue the receipt.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"I issue receipts also?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"From today.\",\"sfx_cue\":\"receipt book placed beside ledger\"},{\"speaker\":\"NARRATOR\",\"text\":\"At five ten, both men left carrying numbered notices. Sarika remained behind, tracing the gold letters on the nameplate with one finger.\",\"sfx_cue\":\"metal stairs descending, room door settling\"},{\"speaker\":\"sarika\",\"text\":\"Sir, should I lock the register in a cupboard?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Tomorrow. We will purchase one with the next filing fee.\",\"sfx_cue\":\"\"},{\"speaker\":\"sarika\",\"text\":\"And if somebody comes without an appointment?\",\"sfx_cue\":\"\"},{\"speaker\":\"morris\",\"text\":\"Nobody knows this address yet.\",\"sfx_cue\":\"three hard knocks on door\"},{\"speaker\":\"sarika\",\"text\":\"The two matters are finished for today.\",\"sfx_cue\":\"\"},{\"speaker\":\"STRANGER\",\"text\":\"I am not one of the two.\",\"sfx_cue\":\"door opening without permission\"},{\"speaker\":\"STRANGER\",\"text\":\"I need the presiding officer.\",\"sfx_cue\":\"heavy file dropped on registry desk\"}]}],\"beat_sheet\":[{\"beat_id\":\"b001\",\"ep\":1,\"seq\":1,\"world_time\":\"2022-11\",\"location\":\"court chamber\",\"present\":[\"morris\"],\"witnessed_by\":[\"morris\"],\"hidden_from\":[\"vaishali\",\"tejas\"],\"what_happened\":\"Fifteen years after being struck off, Morris typed another man's order and was sent out of the chamber to wait.\",\"state_changes\":[{\"entity\":\"morris\",\"fact\":\"He is publicly reduced from legal professional to paid typist.\",\"valence\":-4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b002\",\"ep\":1,\"seq\":2,\"world_time\":\"2022-11\",\"location\":\"court corridor\",\"present\":[\"morris\",\"irfan\"],\"witnessed_by\":[\"morris\",\"irfan\"],\"hidden_from\":[\"hardik\"],\"what_happened\":\"Irfan mistook Morris for an official who could hear his urgent housing dispute, and Morris examined the file without correcting him.\",\"state_changes\":[{\"entity\":\"irfan\",\"fact\":\"He believes Morris has authority to hear urgent matters.\",\"valence\":2},{\"entity\":\"morris\",\"fact\":\"He experiences public deference for the first time in years.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b003\",\"ep\":1,\"seq\":3,\"world_time\":\"2022-11\",\"location\":\"court corridor\",\"present\":[\"morris\",\"irfan\"],\"witnessed_by\":[\"morris\",\"irfan\"],\"hidden_from\":[\"vaishali\",\"tejas\",\"hardik\"],\"what_happened\":\"Irfan touched Morris's feet and asked him to hear the case.\",\"state_changes\":[{\"entity\":\"morris\",\"fact\":\"He is directly invited to exercise judicial authority again.\",\"valence\":4},{\"entity\":\"irfan\",\"fact\":\"He places his mother's housing dispute in Morris's hands.\",\"valence\":1}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b004\",\"ep\":2,\"seq\":1,\"world_time\":\"2022-11\",\"location\":\"court copying room\",\"present\":[\"morris\",\"irfan\"],\"witnessed_by\":[\"morris\",\"irfan\"],\"hidden_from\":[\"hardik\",\"vaishali\",\"tejas\"],\"what_happened\":\"Morris called his intervention advice, typed a direction in judicial form and signed it as presiding officer.\",\"state_changes\":[{\"entity\":\"morris\",\"fact\":\"He creates his first signed direction for a private litigant.\",\"valence\":3},{\"entity\":\"irfan\",\"fact\":\"He receives a paper intended to compel restoration of the room.\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b005\",\"ep\":2,\"seq\":2,\"world_time\":\"2022-11\",\"location\":\"hardware shop\",\"present\":[\"irfan\"],\"witnessed_by\":[\"irfan\"],\"hidden_from\":[\"hardik\"],\"what_happened\":\"Irfan presented Morris's signed page, and the landlord restored the key and paid six thousand rupees without court proceedings.\",\"state_changes\":[{\"entity\":\"irfan\",\"fact\":\"His mother regains access and the full advance payment.\",\"valence\":5},{\"entity\":\"Morris's first direction\",\"fact\":\"It produces voluntary compliance despite lacking a seal or case number.\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b006\",\"ep\":2,\"seq\":3,\"world_time\":\"2022-11\",\"location\":\"unknown file storage\",\"present\":[],\"witnessed_by\":[],\"hidden_from\":[\"morris\",\"hardik\"],\"what_happened\":\"A copy of Morris's first signed direction remained preserved with the housing papers after payment.\",\"state_changes\":[{\"entity\":\"Morris's first direction\",\"fact\":\"A discoverable copy survives after the dispute is resolved.\",\"valence\":-2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":\"No cast character observes where the retained copy is stored, leaving its future chain of discovery open.\"},{\"beat_id\":\"b007\",\"ep\":2,\"seq\":4,\"world_time\":\"2022-11\",\"location\":\"court canteen\",\"present\":[\"morris\",\"irfan\"],\"witnessed_by\":[\"morris\",\"irfan\"],\"hidden_from\":[\"hardik\",\"vaishali\",\"tejas\"],\"what_happened\":\"Irfan returned to Morris with two more men, their files and their fees.\",\"state_changes\":[{\"entity\":\"morris\",\"fact\":\"His one intervention becomes a potential paid practice.\",\"valence\":4},{\"entity\":\"irfan\",\"fact\":\"He becomes the source of Morris's first referrals.\",\"valence\":2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b008\",\"ep\":3,\"seq\":1,\"world_time\":\"2022-11\",\"location\":\"court canteen and room above tyre shop\",\"present\":[\"morris\",\"irfan\"],\"witnessed_by\":[\"morris\",\"irfan\"],\"hidden_from\":[\"hardik\",\"tejas\"],\"what_happened\":\"Morris accepted the two referrals and used their fees to rent a room above a tyre shop.\",\"state_changes\":[{\"entity\":\"morris\",\"fact\":\"He acquires a dedicated location for hearing disputes.\",\"valence\":4},{\"entity\":\"the forum room\",\"fact\":\"A private rented room becomes the base of the operation.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b009\",\"ep\":3,\"seq\":2,\"world_time\":\"2022-11\",\"location\":\"room above tyre shop\",\"present\":[\"morris\"],\"witnessed_by\":[\"morris\"],\"hidden_from\":[\"hardik\"],\"what_happened\":\"Morris installed an eight-inch dais and a nameplate identifying an arbitration and dispute resolution forum with a presiding officer.\",\"state_changes\":[{\"entity\":\"the forum room\",\"fact\":\"It gains the visible furniture and signage of an adjudicatory office.\",\"valence\":3},{\"entity\":\"morris\",\"fact\":\"He is publicly addressed as sir by the property owner.\",\"valence\":3}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b010\",\"ep\":3,\"seq\":3,\"world_time\":\"2022-11\",\"location\":\"family home\",\"present\":[\"morris\",\"vaishali\"],\"witnessed_by\":[\"morris\",\"vaishali\"],\"hidden_from\":[\"tejas\"],\"what_happened\":\"Vaishali questioned who appointed Morris, and he said private parties would appoint an arbitrator by consent.\",\"state_changes\":[{\"entity\":\"vaishali\",\"fact\":\"She knows Morris has opened a private dispute forum with a dais.\",\"valence\":-2},{\"entity\":\"morris\",\"fact\":\"He states that the record he creates will reflect party consent.\",\"valence\":-2}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b011\",\"ep\":3,\"seq\":4,\"world_time\":\"2022-11\",\"location\":\"room above tyre shop\",\"present\":[\"morris\",\"sarika\"],\"witnessed_by\":[\"morris\",\"sarika\"],\"hidden_from\":[\"hardik\",\"vaishali\",\"tejas\"],\"what_happened\":\"Morris hired Sarika for three thousand rupees per month, designated her registry clerk and obtained her signature certifying proceedings recorded by her.\",\"state_changes\":[{\"entity\":\"sarika\",\"fact\":\"She begins her first office job as registry clerk.\",\"valence\":5},{\"entity\":\"sarika\",\"fact\":\"Her signature is attached to certification language she does not fully understand.\",\"valence\":-3},{\"entity\":\"morris\",\"fact\":\"He gains a clerk who can make the room function like a formal forum.\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null},{\"beat_id\":\"b012\",\"ep\":3,\"seq\":5,\"world_time\":\"2022-11\",\"location\":\"room above tyre shop\",\"present\":[\"morris\",\"sarika\"],\"witnessed_by\":[\"morris\",\"sarika\"],\"hidden_from\":[\"hardik\",\"vaishali\",\"tejas\"],\"what_happened\":\"After Morris conducted the first two numbered matters, an unknown stranger entered unannounced and placed a heavy file on Sarika's desk.\",\"state_changes\":[{\"entity\":\"the forum room\",\"fact\":\"It begins attracting litigants beyond Irfan's direct referrals.\",\"valence\":4},{\"entity\":\"morris\",\"fact\":\"His operation receives its first unsolicited matter.\",\"valence\":4}],\"source_ref\":\"fictionalized\",\"tier\":\"core_canon\",\"note\":null}],\"promise_ledger\":[{\"id\":\"p001\",\"raised_ep\":1,\"listener_is_waiting_for\":\"whether Morris will act on Irfan's plea to hear the housing case\",\"must_pay_by_ep\":2,\"paid_ep\":2,\"how_paid\":\"Morris typed and signed a direction restoring access to the room.\",\"status\":\"paid\"},{\"id\":\"p002\",\"raised_ep\":2,\"listener_is_waiting_for\":\"whether anyone will obey Morris's unsigned-looking page without a real court proceeding\",\"must_pay_by_ep\":4,\"paid_ep\":2,\"how_paid\":\"The landlord returned the key and paid all six thousand rupees after reading it.\",\"status\":\"paid\"},{\"id\":\"p003\",\"raised_ep\":2,\"listener_is_waiting_for\":\"whether Morris will accept the two new men and turn the intervention into paid work\",\"must_pay_by_ep\":3,\"paid_ep\":3,\"how_paid\":\"He accepted their matters, rented a room and conducted numbered proceedings.\",\"status\":\"paid\"},{\"id\":\"p004\",\"raised_ep\":3,\"listener_is_waiting_for\":\"what Sarika's certification signature makes her responsible for\",\"must_pay_by_ep\":8,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p005\",\"raised_ep\":3,\"listener_is_waiting_for\":\"who the unannounced stranger is and what matter is inside the heavy file\",\"must_pay_by_ep\":4,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"},{\"id\":\"p006\",\"raised_ep\":3,\"listener_is_waiting_for\":\"whether a ruling issued from the room above the tyre shop will actually hold\",\"must_pay_by_ep\":4,\"paid_ep\":null,\"how_paid\":null,\"status\":\"open\"}],\"calendar\":{\"season_start\":\"2022-11\",\"dates_fixed\":[],\"periods_fixed\":[{\"between\":[1,3],\"elapsed\":\"five days\"}],\"unresolved\":[]},\"flags\":[]}",
+            "type": "output_text",
+            "logprobs": []
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message",
+        "phase": "final_answer"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 0.98,
+    "background": false,
+    "completed_at": 1785025469.0,
+    "conversation": null,
+    "max_output_tokens": 32000,
+    "max_tool_calls": null,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "episode_batch",
+        "schema_": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "episodes",
+            "beat_sheet",
+            "promise_ledger",
+            "calendar",
+            "flags"
+          ],
+          "properties": {
+            "episodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "ep",
+                  "title",
+                  "lines"
+                ],
+                "properties": {
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "lines": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "speaker",
+                        "text",
+                        "sfx_cue"
+                      ],
+                      "properties": {
+                        "speaker": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "sfx_cue": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "beat_sheet": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "beat_id",
+                  "ep",
+                  "seq",
+                  "world_time",
+                  "location",
+                  "present",
+                  "witnessed_by",
+                  "hidden_from",
+                  "what_happened",
+                  "state_changes",
+                  "source_ref",
+                  "tier",
+                  "note"
+                ],
+                "properties": {
+                  "beat_id": {
+                    "type": "string"
+                  },
+                  "ep": {
+                    "type": "integer"
+                  },
+                  "seq": {
+                    "type": "integer"
+                  },
+                  "world_time": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "present": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "witnessed_by": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "hidden_from": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "what_happened": {
+                    "type": "string"
+                  },
+                  "state_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "entity",
+                        "fact",
+                        "valence"
+                      ],
+                      "properties": {
+                        "entity": {
+                          "type": "string"
+                        },
+                        "fact": {
+                          "type": "string"
+                        },
+                        "valence": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "source_ref": {
+                    "type": "string"
+                  },
+                  "tier": {
+                    "type": "string",
+                    "enum": [
+                      "core_canon"
+                    ]
+                  },
+                  "note": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "promise_ledger": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "raised_ep",
+                  "listener_is_waiting_for",
+                  "must_pay_by_ep",
+                  "paid_ep",
+                  "how_paid",
+                  "status"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "raised_ep": {
+                    "type": "integer"
+                  },
+                  "listener_is_waiting_for": {
+                    "type": "string"
+                  },
+                  "must_pay_by_ep": {
+                    "type": "integer"
+                  },
+                  "paid_ep": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "how_paid": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "open",
+                      "paid",
+                      "paid_late"
+                    ]
+                  }
+                }
+              }
+            },
+            "calendar": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "season_start",
+                "dates_fixed",
+                "periods_fixed",
+                "unresolved"
+              ],
+              "properties": {
+                "season_start": {
+                  "type": "string"
+                },
+                "dates_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "ep",
+                      "when",
+                      "what"
+                    ],
+                    "properties": {
+                      "ep": {
+                        "type": "integer"
+                      },
+                      "when": {
+                        "type": "string"
+                      },
+                      "what": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "periods_fixed": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "between",
+                      "elapsed"
+                    ],
+                    "properties": {
+                      "between": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer"
+                        }
+                      },
+                      "elapsed": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "unresolved": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 7182,
+      "input_tokens_details": {
+        "cache_write_tokens": 1600,
+        "cached_tokens": 5579
+      },
+      "output_tokens": 11508,
+      "output_tokens_details": {
+        "reasoning_tokens": 1788
+      },
+      "total_tokens": 18690
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true,
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    }
+  }
+}

@@ -44,40 +44,31 @@
   "evt_dharampur_2025:CONSTABLE": {
     "sarvam": "kavya"
   },
-  "evt_dharmapur_2025:meera": {
+  "evt_gandhinagar_tribunal:narrator": {
+    "sarvam": "sumit"
+  },
+  "evt_gandhinagar_tribunal:SENIOR COUNSEL": {
     "sarvam": "simran"
   },
-  "evt_dharmapur_2025:LANDLORD": {
-    "sarvam": "sumit"
-  },
-  "evt_dharmapur_2025:kavita": {
-    "sarvam": "shruti"
-  },
-  "evt_dharmapur_2025:devraj": {
+  "evt_gandhinagar_tribunal:morris": {
     "sarvam": "shubh"
   },
-  "evt_dharmapur_2025:mohan": {
+  "evt_gandhinagar_tribunal:COURT CLERK": {
+    "sarvam": "shruti"
+  },
+  "evt_gandhinagar_tribunal:VOICE IN CORRIDOR": {
+    "sarvam": "shreya"
+  },
+  "evt_gandhinagar_tribunal:irfan": {
     "sarvam": "ratan"
   },
-  "evt_dharmapur_2025:tara": {
+  "evt_gandhinagar_tribunal:LANDLORD": {
+    "sarvam": "simran"
+  },
+  "evt_gandhinagar_tribunal:FIRST MAN": {
     "sarvam": "shreya"
   },
-  "evt_dharmapur_2025:narrator": {
+  "evt_gandhinagar_tribunal:SECOND MAN": {
     "sarvam": "ritu"
-  },
-  "evt_dharmapur_2025:VOICE FROM COURTYARD": {
-    "sarvam": "rahul"
-  },
-  "evt_dharmapur_2025:SECOND VOICE FROM COURTYARD": {
-    "sarvam": "priya"
-  },
-  "evt_dharmapur_2025:VOICE IN CROWD": {
-    "sarvam": "sumit"
-  },
-  "evt_dharmapur_2025:SECOND VOICE IN CROWD": {
-    "sarvam": "shreya"
-  },
-  "evt_dharmapur_2025:babulal": {
-    "sarvam": "rahul"
   }
 }

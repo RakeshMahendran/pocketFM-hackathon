@@ -154,7 +154,7 @@ def _from_authored(dossier: Dict[str, Any], ep: int,
         line["language"] = l.get("language") or language
         line.setdefault("emotion", "neutral")
         line.setdefault("intensity", 0.5)
-        for optional in ("bgm_cue", "sfx_cue", "pause_after_ms"):
+        for optional in ("bgm_cue", "sfx_cue", "pause_after_ms", "music_cue"):
             if l.get(optional):
                 line[optional] = l[optional]
         lines.append(line)

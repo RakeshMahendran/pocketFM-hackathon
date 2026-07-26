@@ -1,0 +1,36 @@
+{
+  "story_id": "evt_gandhinagar_tribunal",
+  "char_id": "manjula",
+  "anchor_beat_id": "b024",
+  "constrained": true,
+  "status": "clean",
+  "violations": [],
+  "n_errors": 0,
+  "deterministic_errors": [],
+  "inconclusive": [],
+  "attempts_that_failed": {
+    "refuter_specificity": [
+      "Checked every precise number and time reference: seven readings, forty-seven/forty-nine minutes, eleven years, trolley counts, worker count, seven days, inventory counts, three trolleys, thirty thousand, and six tomorrow morning. Each comes from Manjula’s own observation/history, the judgment, or dialogue she hears in-scene.",
+      "Checked place and boundary particulars such as the western half, neem stump, drainage cut, gate, and storage room. These concern Manjula’s own family land or terms of the judgment she received, not off-screen prohibited events.",
+      "Checked whether Manjula’s insistence on testing both keys or policing the western crop implies knowledge of the later challenge to Morris’s authority. It does not; both actions follow directly from her eleven-year exclusion and the judgment’s terms.",
+      "Checked the narrator for omniscient assertions. The narration is limited to visible events, Manjula’s memories, and her internal emotions; it does not disclose Morris’s arrest, fraud, motives, or events in other rooms.",
+      "Checked “Bhaskar told you I would never enter” for unearned knowledge. Ramesh had just said Bhaskar claimed she only had paper and that the keys would remain with him, so Manjula’s wording is a supported paraphrase rather than forbidden precision.",
+      "Checked the buyer’s advance payment, date, amount, crop location, and collection time. All are disclosed directly in Manjula’s presence during the scene."
+    ],
+    "refuter_omniscience": [
+      "Checked all precise numbers and particulars: forty-seven/forty-nine minutes come from Manjula's own timekeeping; eleven years is her history; the trolley counts come from her stated observations and ledger; worker, key, account-day, trolley, and payment figures are learned in the scene or directly observed.",
+      "Checked Manjula's distrustful behavior—counting and testing keys, demanding accounts, and questioning the buyer—but each has an innocent basis in Bhaskar's eleven years of withholding access and incomplete accounting, not forbidden knowledge of Morris's fraud or arrest.",
+      "Checked the narrator for facts beyond Manjula's perspective. Bhaskar's delivery, the public acknowledgment, the lane's attention, and Manjula's pride, shame, anger, and fear are either directly observable or her own internal experience; no offstage event or hidden motive is asserted.",
+      "Checked for leakage from the prohibited beats concerning Morris's false authority, investigation, arrest, and refusal to disown Manjula's award; none is stated or behaviorally implied."
+    ],
+    "refuter_inference": [
+      "Checked every precise number and time reference: the forty-seven/forty-nine minutes come from Manjula’s present observation and recordkeeping; eleven years, equal share, both keys, and the western-half restriction are within b021-b024; trolley counts are explicitly her own past observations; worker, tool, and key counts are made on scene.",
+      "Tested Manjula’s insistence on testing both keys, documenting witnesses, demanding accounts, and questioning the buyer for behavior that would require knowledge of Morris’s fraud or arrest; each action is rational from her long exclusion and the judgment she possesses.",
+      "Checked the buyer exchange for advance knowledge of a prohibited transaction: Manjula only asks after the buyer announces three trolleys, and the buyer then reveals the western crop, thirty-thousand-rupee advance, date, and collection time on scene.",
+      "Attacked narrator assertions for omniscience: the delivery, public acknowledgment, and Manjula’s emotions all occur in her presence or concern her own internal state; no line asserts Morris’s arrest, lack of authority, another room’s events, or another character’s hidden motive.",
+      "Checked place-specific details such as the neem stump, drainage cut, gate, and storage room; these are features of Manjula’s own family land and do not depend on any sealed off-screen beat."
+    ]
+  },
+  "members_run": 6,
+  "members_expected": 6
+}

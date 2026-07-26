@@ -30,6 +30,10 @@ logger = logging.getLogger("bgm")
 
 BGM_MAP_PATH = _os.path.join(_HERE, "config", "bgm_map.yaml")
 
+# How far above its ducked level the bed rises on a `swell`. Enough to be felt
+# under a narrator's promise without competing with the words.
+SWELL_DB = 5.0
+
 
 def load_bgm_config(path: str = BGM_MAP_PATH) -> dict:
     with open(path, "r", encoding="utf-8") as f:
@@ -150,10 +154,22 @@ def _apply_line_envelope(bed: AudioSegment, block: dict, mood_cfg: dict, duck_db
         # into a near-inaudible mix.
         target_dbfs = _target_gain_db(mood_cfg, line.get("pace", "normal"), line.get("intensity", 0.5), cfg)
 
+        # The bed is written to be one steady, mild presence. On the two or three
+        # lines an episode turns on, steady is wrong: a line lands hardest in a
+        # hole, and a promise lands hardest on a rise. `drop` and `swell` are the
+        # only places the bed is allowed to stop being furniture.
+        move = (line.get("music_cue") or "").lower()
+
         if start_rel > cursor:
             out += normalize_to_target(bed[cursor:start_rel], target_dbfs)
         if end_rel > start_rel:
-            out += normalize_to_target(bed[start_rel:end_rel], target_dbfs + duck_db)
+            span = bed[start_rel:end_rel]
+            if move == "drop":
+                out += AudioSegment.silent(duration=len(span))
+            elif move == "swell":
+                out += normalize_to_target(span, target_dbfs + SWELL_DB).fade_in(min(400, len(span)))
+            else:
+                out += normalize_to_target(span, target_dbfs + duck_db)
         cursor = max(cursor, end_rel)
 
     if cursor < block_len:

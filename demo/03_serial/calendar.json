@@ -1,0 +1,95 @@
+{
+  "season_start": "2022-11",
+  "dates_fixed": [
+    {
+      "ep": 4,
+      "when": "Friday",
+      "what": "Morris heard Dhawale's land dispute."
+    },
+    {
+      "ep": 4,
+      "when": "the following Tuesday",
+      "what": "Dhawale's conveyance was due to proceed under the award."
+    },
+    {
+      "ep": 6,
+      "when": "2022-11",
+      "what": "Manjula sought and received an expedited hearing over her recorded share of the family land."
+    },
+    {
+      "ep": 7,
+      "when": "2024-01",
+      "what": "Hardik received and began tracing case one seven six."
+    },
+    {
+      "ep": 8,
+      "when": "2024-01",
+      "what": "Sarika confronted Morris after fourteen months of paid registry work."
+    },
+    {
+      "ep": 9,
+      "when": "2024-01",
+      "what": "Morris received the district registrar's formal demand for appointment records."
+    },
+    {
+      "ep": 10,
+      "when": "2024-01",
+      "what": "Tejas attended Morris's largest hearing and questioned the source of his appointment."
+    },
+    {
+      "ep": 11,
+      "when": "2024-01",
+      "what": "After the eleven-day response period ended, Hardik completed verification and Khot took Morris into custody."
+    },
+    {
+      "ep": 12,
+      "when": "2024-01",
+      "what": "Morris gave a partial statement and refused to disavow Manjula's judgment."
+    }
+  ],
+  "periods_fixed": [
+    {
+      "between": [
+        1,
+        3
+      ],
+      "elapsed": "five days"
+    },
+    {
+      "between": [
+        5,
+        5
+      ],
+      "elapsed": "six evenings from Morris's first request to his first photographs of the pending list"
+    },
+    {
+      "between": [
+        6,
+        6
+      ],
+      "elapsed": "eight days from Manjula's request to the hearing and judgment"
+    },
+    {
+      "between": [
+        3,
+        8
+      ],
+      "elapsed": "fourteen months from Sarika's hiring to her confrontation about her certification signatures"
+    },
+    {
+      "between": [
+        9,
+        9
+      ],
+      "elapsed": "eleven days allowed from receipt of the registrar's letter to Morris's required response"
+    },
+    {
+      "between": [
+        9,
+        11
+      ],
+      "elapsed": "the eleven-day response period expired before Hardik signed the complaint"
+    }
+  ],
+  "unresolved": []
+}

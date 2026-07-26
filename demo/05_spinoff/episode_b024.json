@@ -1,0 +1,724 @@
+{
+  "story_id": "evt_gandhinagar_tribunal",
+  "char_id": "manjula",
+  "anchor_beat_id": "b024",
+  "anchor": {
+    "beat_id": "b024",
+    "ep": 6,
+    "seq": 4,
+    "world_time": "2022-11",
+    "location": "lane outside family land",
+    "what_happened": "Bhaskar delivered both keys under the judgment, and Manjula publicly told the lane that a court had finally listened to her.",
+    "fact": "gained physical access to the land and storage room after eleven years",
+    "valence": 5,
+    "n_present": 2,
+    "kind": "witnessed"
+  },
+  "constrained": true,
+  "generated_at": "2026-07-26T03:06:27.112840+00:00",
+  "model": "gpt-5.6-sol",
+  "forbidden": {
+    "story_id": "evt_gandhinagar_tribunal",
+    "char_id": "manjula",
+    "n_beats": 49,
+    "allowed": [
+      {
+        "beat_id": "b021",
+        "ep": 6,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Manjula sought an urgent hearing over land and keys withheld by Bhaskar for eleven years, and Morris fixed the hearing for eight days later."
+      },
+      {
+        "beat_id": "b022",
+        "ep": 6,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "At the hearing, Morris established that Manjula held an equal recorded share while Bhaskar controlled all access and had not fully accounted for crop income."
+      },
+      {
+        "beat_id": "b023",
+        "ep": 6,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Morris awarded Manjula access and possession according to her recorded share, barred Bhaskar from leasing the western half and ordered delivery of the keys."
+      },
+      {
+        "beat_id": "b024",
+        "ep": 6,
+        "world_time": "2022-11",
+        "location": "lane outside family land",
+        "fact": "Bhaskar delivered both keys under the judgment, and Manjula publicly told the lane that a court had finally listened to her."
+      },
+      {
+        "beat_id": "b049",
+        "ep": 12,
+        "world_time": "2024-01",
+        "location": "family land",
+        "fact": "Manjula remained in possession of both keys and was not told about Morris's arrest or the challenge to his authority."
+      }
+    ],
+    "forbidden": [
+      {
+        "beat_id": "b001",
+        "ep": 1,
+        "world_time": "2022-11",
+        "location": "court chamber",
+        "fact": "Fifteen years after being struck off, Morris typed another man's order and was sent out of the chamber to wait.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b002",
+        "ep": 1,
+        "world_time": "2022-11",
+        "location": "court corridor",
+        "fact": "Irfan mistook Morris for an official who could hear his urgent housing dispute, and Morris examined the file without correcting him.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b003",
+        "ep": 1,
+        "world_time": "2022-11",
+        "location": "court corridor",
+        "fact": "Irfan touched Morris's feet and asked him to hear the case.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b004",
+        "ep": 2,
+        "world_time": "2022-11",
+        "location": "court copying room",
+        "fact": "Morris called his intervention advice, typed a direction in judicial form and signed it as presiding officer.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b005",
+        "ep": 2,
+        "world_time": "2022-11",
+        "location": "hardware shop",
+        "fact": "Irfan presented Morris's signed page, and the landlord restored the key and paid six thousand rupees without court proceedings.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b006",
+        "ep": 2,
+        "world_time": "2022-11",
+        "location": "unknown file storage",
+        "fact": "A copy of Morris's first signed direction remained preserved with the housing papers after payment.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b007",
+        "ep": 2,
+        "world_time": "2022-11",
+        "location": "court canteen",
+        "fact": "Irfan returned to Morris with two more men, their files and their fees.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b008",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "court canteen and room above tyre shop",
+        "fact": "Morris accepted the two referrals and used their fees to rent a room above a tyre shop.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b009",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Morris installed an eight-inch dais and a nameplate identifying an arbitration and dispute resolution forum with a presiding officer.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b010",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "family home",
+        "fact": "Vaishali questioned who appointed Morris, and he said private parties would appoint an arbitrator by consent.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b011",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Morris hired Sarika for three thousand rupees per month, designated her registry clerk and obtained her signature certifying proceedings recorded by her.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b012",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "After Morris conducted the first two numbered matters, an unknown stranger entered unannounced and placed a heavy file on Sarika's desk.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b013",
+        "ep": 4,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Dhawale brought a land dispute concerning property valued at one crore forty lakh and pressed Morris for an urgent ruling.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b014",
+        "ep": 4,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "The landowner appeared with the advocate, signed a consent memorandum and argued the land dispute before Morris.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b015",
+        "ep": 4,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Morris ordered conveyance at the contracted price, and the landowner accepted the balance payment while the advocate stated that his client would comply.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b016",
+        "ep": 4,
+        "world_time": "2022-11",
+        "location": "land transaction file storage",
+        "fact": "A copy of the signed consent memorandum and award was preserved with the land transaction papers.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b017",
+        "ep": 5,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Morris admitted there was no prior appointment order, and the advocate warned that another lawyer could challenge the room before consenting.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b018",
+        "ep": 5,
+        "world_time": "2022-11",
+        "location": "court copying room",
+        "fact": "Morris asked Pandit for access to the civil pending list so he could avoid disputes already filed in the real court, and Pandit refused cash.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b019",
+        "ep": 5,
+        "world_time": "2022-11",
+        "location": "court copying room",
+        "fact": "Pandit left the pending list on a rear photocopier long enough for Morris to photograph all thirty-two pages.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b020",
+        "ep": 5,
+        "world_time": "2022-11",
+        "location": "court copying room",
+        "fact": "Pandit demanded one sealed envelope each month, to be opened by Morris without questions, as the price of continued access.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b025",
+        "ep": 7,
+        "world_time": "2024-01",
+        "location": "district court filing counter",
+        "fact": "Hardik received a filing bundle containing an award from an unfamiliar forum and directed that its authority be traced.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b026",
+        "ep": 7,
+        "world_time": "2024-01",
+        "location": "district court records room",
+        "fact": "Hardik found no matching forum, appointment, arbitrator name or case-number sequence in the available district records.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b027",
+        "ep": 7,
+        "world_time": "2024-01",
+        "location": "district court internal filing route",
+        "fact": "The complete filing bundle remained routed for further scrutiny rather than being returned at the public counter.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b028",
+        "ep": 7,
+        "world_time": "2024-01",
+        "location": "district court registrar office",
+        "fact": "Hardik wrote the unidentified case number on a slip and stored it in his drawer for further inquiry.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b029",
+        "ep": 8,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "The advocate publicly challenged Sarika to explain what her certification signature represented and reminded Morris that no prior appointment order had been produced.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b030",
+        "ep": 8,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Morris admitted that he established the forum himself and could not identify an external order appointing him as presiding officer.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b031",
+        "ep": 8,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Sarika counted fourteen months of salary envelopes and recognized that her signatures had travelled on certified copies outside the room.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b032",
+        "ep": 8,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Sarika asked Morris whether she could be jailed for her role.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b033",
+        "ep": 9,
+        "world_time": "2024-01",
+        "location": "tyre-shop stairwell",
+        "fact": "Morris received Hardik's written demand for his appointment order and learned that he had eleven days to respond.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b034",
+        "ep": 9,
+        "world_time": "2024-01",
+        "location": "court copying room",
+        "fact": "Morris asked Pandit to insert a false appointment into an old court record, and Pandit identified the request as forgery.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b035",
+        "ep": 9,
+        "world_time": "2024-01",
+        "location": "court copying room",
+        "fact": "Pandit stated that each sealed envelope contained a dispute and required outcome, and that Morris had signed twelve awards preserving those outcomes.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b036",
+        "ep": 9,
+        "world_time": "2024-01",
+        "location": "court copying room",
+        "fact": "Pandit refused to assist with the appointment order and demanded the return of the photographed pending list.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b037",
+        "ep": 10,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Morris began his largest hearing before a packed room while Tejas watched from the back.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b038",
+        "ep": 10,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Sarika publicly refused to certify an exhibit while Morris continued the hearing.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b039",
+        "ep": 10,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Dhawale produced a prewritten outcome and copies of twelve earlier awards, then demanded that Morris award him the western parcel at two crore ten lakh rupees.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b040",
+        "ep": 10,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "After the room cleared, Tejas asked Morris which court had appointed him.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b041",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "district court records room",
+        "fact": "Hardik verified across current, retired and section records that no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matched Morris's forum.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b042",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "district court registrar office",
+        "fact": "Hardik signed a police complaint supported by the verification note, the bar record and copies of thirty-four awards.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b043",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "police evidence storage",
+        "fact": "A sealed police copy of the verification note and award index remained preserved for investigation.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b044",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "tyre-shop stairwell",
+        "fact": "Khot told Sarika she was named as an employee and witness rather than an accused, and Sarika disclosed the location of the forum's records.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b045",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "tyre-shop stairwell",
+        "fact": "Khot read aloud the charge that Morris cheated people by falsely representing judicial authority and inducing transfers through purported awards.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b046",
+        "ep": 12,
+        "world_time": "2024-01",
+        "location": "police interview room",
+        "fact": "Khot offered to record Morris's cooperation for a narrower prosecution position if he listed every award and admitted that each lacked judicial force.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b047",
+        "ep": 12,
+        "world_time": "2024-01",
+        "location": "police interview room",
+        "fact": "Morris identified the earlier matters, admitted he lacked court appointment and stated that the first twenty-three awards had no judicial force.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b048",
+        "ep": 12,
+        "world_time": "2024-01",
+        "location": "police interview room",
+        "fact": "Morris refused to call Manjula's award worthless despite being told that the refusal could cost him leniency.",
+        "emphasised": true
+      }
+    ],
+    "allowed_ids": [
+      "b021",
+      "b022",
+      "b023",
+      "b024",
+      "b049"
+    ],
+    "forbidden_ids": [
+      "b001",
+      "b002",
+      "b003",
+      "b004",
+      "b005",
+      "b006",
+      "b007",
+      "b008",
+      "b009",
+      "b010",
+      "b011",
+      "b012",
+      "b013",
+      "b014",
+      "b015",
+      "b016",
+      "b017",
+      "b018",
+      "b019",
+      "b020",
+      "b025",
+      "b026",
+      "b027",
+      "b028",
+      "b029",
+      "b030",
+      "b031",
+      "b032",
+      "b033",
+      "b034",
+      "b035",
+      "b036",
+      "b037",
+      "b038",
+      "b039",
+      "b040",
+      "b041",
+      "b042",
+      "b043",
+      "b044",
+      "b045",
+      "b046",
+      "b047",
+      "b048"
+    ]
+  },
+  "crossing_candidates": [
+    {
+      "beat_id": "b021",
+      "ep": 6,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "what_happened": "Manjula sought an urgent hearing over land and keys withheld by Bhaskar for eleven years, and Morris fixed the hearing for eight days later."
+    },
+    {
+      "beat_id": "b022",
+      "ep": 6,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "what_happened": "At the hearing, Morris established that Manjula held an equal recorded share while Bhaskar controlled all access and had not fully accounted for crop income."
+    },
+    {
+      "beat_id": "b023",
+      "ep": 6,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "what_happened": "Morris awarded Manjula access and possession according to her recorded share, barred Bhaskar from leasing the western half and ordered delivery of the keys."
+    },
+    {
+      "beat_id": "b024",
+      "ep": 6,
+      "world_time": "2022-11",
+      "location": "lane outside family land",
+      "what_happened": "Bhaskar delivered both keys under the judgment, and Manjula publicly told the lane that a court had finally listened to her."
+    }
+  ],
+  "bible": {
+    "want": "To unlock her father's land each morning, work her recorded share, count what leaves it, and keep both keys in her own hand.",
+    "wound": "Manjula Gaikwad avoids ever becoming a waiting petitioner again. She knowingly chooses the certainty of physical possession over returning her fate to advocates, offices, or another hearing; the cost is that she treats compromise as surrender and gradually becomes the gatekeeper Bhaskar was to her.",
+    "voice": "Clipped, evidentiary bursts: object first, then ownership, acreage, count, date. When emotion threatens, she changes the subject to records, harvest tallies, keys, fees, or elapsed time. She repeats numbers as if repetition makes them enforceable. When frightened, she becomes formally respectful, pauses, and asks one concrete question about exactly how many days remain.",
+    "engine": "The land requires shared decisions, but Manjula Gaikwad holds both keys while she and Bhaskar retain equal recorded interests and eleven years of accounts, routines, and resentment remain unsettled. Every harvest, repair, worker, buyer, water turn, expense, and proposed lease forces Manjula to act before Bhaskar agrees; each unilateral choice creates a new debt, precedent, or accusation. Because she refuses to surrender the keys or become a petitioner again, ordinary farm management automatically escalates into a fresh struggle over who has the right to decide.",
+    "offscreen_ledger": [
+      {
+        "window": "between the season opening and b021",
+        "what": "Manjula Gaikwad stood outside the locked gate during harvests, wrote down trolley counts and times, copied her recorded share into a hand-bound ledger, gathered her father's papers and old fee receipts, pursued unanswered calls to her former advocate, and carried the reorganized bundle from office to office asking for a hearing that would produce access rather than another date."
+      },
+      {
+        "window": "between b024 and b049",
+        "what": "Manjula Gaikwad used the keys daily, inspected the acreage row by row, listed standing crops and broken equipment, arranged overdue clearing and repairs, questioned workers about past yields, contacted buyers, and sent Bhaskar written demands for accounts and contributions while keeping both keys on her person whenever she left the gate."
+      }
+    ],
+    "reframe": "The mainline is about false authority creating a chain of judgments that cannot survive scrutiny; Manjula Gaikwad's serial is about a dispossessed widow learning that taking control of shared property can turn justice into another form of gatekeeping.",
+    "stance": "dupe",
+    "genre": "agrarian family drama",
+    "pitch": "After eleven years outside her own gate, a widow takes both keys to shared land—and must win every harvest without becoming the sibling who locked her out."
+  },
+  "episode": {
+    "title": "Both Keys",
+    "logline": "After eleven years outside her father’s gate, Manjula finally receives both keys—but before she can count her first crop, a buyer arrives with proof that Bhaskar has already made another deal.",
+    "script": "SFX: A metal gate rattles in its frame. Paper crackles. A bicycle bell passes.\n\nMANJULA: Gate, locked. Judgment, signed. Delivery, ordered today.\n\nLATA: You have read that page six times.\n\nMANJULA: Seven.\n\nLATA: Reading will not open iron.\n\nMANJULA: He was ordered to bring both keys.\n\nLATA: And where is he?\n\nSFX: A distant clock strikes eleven.\n\nMANJULA: Forty-seven minutes late.\n\nLATA: Eleven years late, forty-seven minutes late. Your brother knows you will stand here.\n\nMANJULA: I am not standing as a petitioner today.\n\nLATA: You are outside the gate, Manjula. What else do you call it?\n\nSFX: Two women laugh nearby.\n\nWOMAN: Show the gate your judgment. Maybe the gate will become frightened.\n\nLATA: Paper in her hand. Lock in his hand. Same as yesterday.\n\nMANJULA: Equal recorded share. Access and possession. Western half protected. Both keys ordered.\n\nLATA: Then open it.\n\nSFX: Nothing. Long.\n\nNARRATOR: The silence made Manjula ashamed. For eleven years, people in the lane had watched her count loaded trolleys through iron bars. Now they watched her hold a judgment that could not turn a lock.\n\nMANJULA: He has until today.\n\nLATA: How many hours are left in today?\n\nMANJULA: Do not speak as if I lost.\n\nLATA: Then stop making us wait for the victory.\n\nSFX: A factory horn sounds in the distance. Footsteps move away. Bicycle wheels roll off.\n\nLATA: I have work. Call me when paper becomes a key.\n\nSFX: Lata’s footsteps recede. A motorcycle approaches and stops.\n\nBHASKAR: Still performing for the lane?\n\nMANJULA: Forty-nine minutes late.\n\nBHASKAR: You wrote it down?\n\nMANJULA: Time, date, witnesses.\n\nBHASKAR: Your witnesses left.\n\nMANJULA: I did not.\n\nSFX: Keys jingle once.\n\nBHASKAR: Hold out your hand.\n\nSFX: Wind against paper.\n\nMANJULA: Put them on the judgment.\n\nBHASKAR: What?\n\nMANJULA: Both keys. On the judgment. I will count them before I touch them.\n\nBHASKAR: Even now, you want a ceremony.\n\nMANJULA: Eleven years you had the ceremony every morning. Key in lock. Gate open. Gate shut. Today is mine.\n\nSFX: Two metal keys drop onto paper.\n\nBHASKAR: Take both.\n\nMANJULA: One gate key. One storage key.\n\nBHASKAR: That is what you demanded.\n\nMANJULA: That is what the judgment ordered.\n\nSFX: Manjula lifts the keys. Metal rings against metal.\n\nNARRATOR: Bhaskar delivered both keys under the judgment. Their weight was smaller than Manjula had imagined, and that made her angry. Eleven years had fit inside her closed fist.\n\nMANJULA: Listen. All of you. Listen.\n\nSFX: Her fist strikes the gate twice.\n\nMANJULA: A court finally listened to me.\n\nSFX: A window opens somewhere along the lane.\n\nBHASKAR: Finished?\n\nMANJULA: No. The keys are delivered. Now they are tested.\n\nBHASKAR: You think I brought false keys?\n\nMANJULA: I think the gate stayed locked for eleven years.\n\nSFX: A key scrapes into the lock. It sticks.\n\nBHASKAR: Turn it left.\n\nMANJULA: Do not touch my hand.\n\nBHASKAR: Then keep fighting the lock.\n\nSFX: Metal strains. The lock clicks open. The gate groans wide.\n\nMANJULA: Gate key works.\n\nBHASKAR: Congratulations.\n\nMANJULA: Say it properly.\n\nBHASKAR: Say what?\n\nMANJULA: In the lane. Where you made me wait. Say that I have access.\n\nBHASKAR: The judgment says enough.\n\nMANJULA: You said paper could not grow crops. You said my name in the record meant nothing without a key. Now say what the key means.\n\nBHASKAR: It means you can enter.\n\nMANJULA: Louder.\n\nBHASKAR: You can enter the land, Manjula.\n\nMANJULA: According to my recorded share.\n\nBHASKAR: According to your recorded share.\n\nSFX: Manjula steps across gravel. The gate swings behind her.\n\nSFX: Dry stalks brush against cloth. Footsteps move between crop rows. A hand pump squeaks uselessly.\n\nMANJULA: Western boundary, from the neem stump to the drainage cut.\n\nBHASKAR: You have been inside for one minute and started dividing dust.\n\nMANJULA: Equal share is not dust.\n\nBHASKAR: The crop does not know your judgment.\n\nMANJULA: The buyer will.\n\nBHASKAR: You know nothing about buyers.\n\nMANJULA: I know every trolley that left this gate during harvest.\n\nBHASKAR: From outside.\n\nMANJULA: Yes. Outside. Nine trolleys one morning. Seven the next. Two after dark.\n\nBHASKAR: Your little book does not make you a farmer.\n\nMANJULA: Your missing accounts do not make you the owner.\n\nSFX: A hoe stops striking soil.\n\nRAMESH: Manjula tai?\n\nMANJULA: Ramesh. How many workers today?\n\nRAMESH: Four.\n\nMANJULA: Names and daily rate?\n\nBHASKAR: You answer to me.\n\nRAMESH: Bhaskar said you only had a paper. He said the keys would remain with him.\n\nMANJULA: Look at my hand.\n\nSFX: Keys shake sharply.\n\nRAMESH: Both keys?\n\nMANJULA: Both.\n\nBHASKAR: Work. Do not stand here gossiping.\n\nMANJULA: He will work after answering. Ramesh, who opens this gate tomorrow?\n\nRAMESH: You have the keys.\n\nMANJULA: Say my name.\n\nRAMESH: Manjula Gaikwad opens it.\n\nMANJULA: Who closes it?\n\nRAMESH: Manjula Gaikwad.\n\nMANJULA: Bhaskar told you I would never enter. In front of the others, tell him what happened.\n\nRAMESH: She entered, Bhaskar. The judgment gave her access, and you gave her both keys.\n\nSFX: Two workers murmur agreement.\n\nNARRATOR: The acknowledgment was public. Manjula felt proud, and then frightened by how quickly pride became a need for obedience.\n\nMANJULA: No crop leaves without a count. No worker is hired without a written rate. No expense is called shared unless I see the receipt.\n\nBHASKAR: Equal share does not make you sole manager.\n\nMANJULA: Correct. So bring eleven years of accounts.\n\nBHASKAR: I will bring what exists.\n\nMANJULA: How many days?\n\nBHASKAR: Do not start.\n\nMANJULA: Respectfully, Bhaskar, how many days?\n\nBHASKAR: Seven.\n\nMANJULA: Ramesh heard seven.\n\nRAMESH: I heard.\n\nMANJULA: Good. Storage room now.\n\nSFX: Boots cross packed earth. A loose sheet of tin bangs overhead.\n\nSFX: A padlock knocks against a wooden storage door. Birds flutter inside the roof.\n\nMANJULA: Second key.\n\nBHASKAR: You do not need to inspect every broken tool today.\n\nMANJULA: Standing crop, equipment, sacks, fuel, receipts. Today.\n\nSFX: The key enters. The lock opens.\n\nMANJULA: Storage key works.\n\nSFX: Door hinges shriek. A metal bucket rolls across the floor.\n\nMANJULA: Two empty seed drums. One cracked sprayer. Pump belt missing.\n\nBHASKAR: There. You have possession of junk. Happy?\n\nMANJULA: I am not happy. I am recording.\n\nSFX: Pencil scratches in a small ledger.\n\nBHASKAR: You cannot run land by counting it to death.\n\nMANJULA: Four workers. Two keys. Seven days for accounts. Those facts are alive.\n\nSFX: A small truck stops outside the open gate. Its horn sounds twice.\n\nBUYER: Bhaskar! Where do you want the three trolleys tomorrow morning?\n\nMANJULA: Stop there. Your name?\n\nBUYER: Who are you?\n\nMANJULA: Recorded co-owner. Western half. What three trolleys?\n\nBHASKAR: This is not your concern.\n\nMANJULA: The western half cannot be leased. The judgment says so. Buyer, what did you pay for?\n\nBUYER: The standing crop west of the drainage cut.\n\nMANJULA: Amount?\n\nBUYER: Thirty thousand in advance.\n\nMANJULA: Date?\n\nBUYER: Yesterday.\n\nMANJULA: Collection time?\n\nBUYER: Six tomorrow morning. I paid Bhaskar thirty thousand yesterday for the western crop."
+  },
+  "beats": [
+    {
+      "beat_id": "x_manjula_b024_001",
+      "ep": 1,
+      "seq": 1,
+      "world_time": "2022-11",
+      "location": "lane outside the family land",
+      "present": [
+        "manjula",
+        "lata",
+        "woman"
+      ],
+      "witnessed_by": [
+        "manjula",
+        "lata",
+        "woman"
+      ],
+      "hidden_from": [
+        "advocate",
+        "bhaskar",
+        "dhawale",
+        "hardik",
+        "irfan",
+        "khot",
+        "morris",
+        "pandit",
+        "sarika",
+        "tejas",
+        "vaishali"
+      ],
+      "what_happened": "While Manjula waited outside the locked gate with the judgment, neighbors publicly mocked her inability to enter without the keys.",
+      "state_changes": [
+        {
+          "entity": "manjula",
+          "fact": "Public mockery sharpened her determination to test the keys before accepting delivery.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id sp1_b024a",
+      "tier": "branch_canon",
+      "pov": "manjula"
+    },
+    {
+      "beat_id": "x_manjula_b024_002",
+      "ep": 1,
+      "seq": 2,
+      "world_time": "2022-11",
+      "location": "lane outside the family land",
+      "present": [
+        "manjula",
+        "bhaskar"
+      ],
+      "witnessed_by": [
+        "manjula",
+        "bhaskar"
+      ],
+      "hidden_from": [
+        "advocate",
+        "dhawale",
+        "hardik",
+        "irfan",
+        "khot",
+        "morris",
+        "pandit",
+        "sarika",
+        "tejas",
+        "vaishali"
+      ],
+      "what_happened": "Bhaskar delivered both keys under the judgment, and Manjula publicly told the lane that a court had finally listened to her.",
+      "state_changes": [
+        {
+          "entity": "manjula",
+          "fact": "Manjula gained physical access to the land and storage room after eleven years.",
+          "valence": 5
+        },
+        {
+          "entity": "manjula",
+          "fact": "Manjula retained both delivered keys.",
+          "valence": 4
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": "b024",
+      "note": "model suggested beat_id sp1_b024b",
+      "tier": "branch_canon",
+      "pov": "manjula"
+    },
+    {
+      "beat_id": "x_manjula_b024_003",
+      "ep": 1,
+      "seq": 3,
+      "world_time": "2022-11",
+      "location": "family land",
+      "present": [
+        "manjula",
+        "bhaskar",
+        "ramesh",
+        "workers"
+      ],
+      "witnessed_by": [
+        "manjula",
+        "bhaskar",
+        "ramesh",
+        "workers"
+      ],
+      "hidden_from": [
+        "advocate",
+        "dhawale",
+        "hardik",
+        "irfan",
+        "khot",
+        "morris",
+        "pandit",
+        "sarika",
+        "tejas",
+        "vaishali"
+      ],
+      "what_happened": "Manjula entered the land, began an inventory, demanded the outstanding accounts within seven days, and made a worker publicly acknowledge her access and possession of both keys.",
+      "state_changes": [
+        {
+          "entity": "manjula",
+          "fact": "Workers recognized Manjula as a person who could open and close the land.",
+          "valence": 3
+        },
+        {
+          "entity": "bhaskar",
+          "fact": "Bhaskar agreed in front of a witness to produce the available accounts within seven days.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id sp1_b024c",
+      "tier": "branch_canon",
+      "pov": "manjula"
+    },
+    {
+      "beat_id": "x_manjula_b024_004",
+      "ep": 1,
+      "seq": 4,
+      "world_time": "2022-11",
+      "location": "storage room on the family land",
+      "present": [
+        "manjula",
+        "bhaskar",
+        "buyer"
+      ],
+      "witnessed_by": [
+        "manjula",
+        "bhaskar",
+        "buyer"
+      ],
+      "hidden_from": [
+        "advocate",
+        "dhawale",
+        "hardik",
+        "irfan",
+        "khot",
+        "morris",
+        "pandit",
+        "sarika",
+        "tejas",
+        "vaishali"
+      ],
+      "what_happened": "After Manjula opened the storage room, a buyer stated that he had paid Bhaskar thirty thousand the previous day for the western crop and planned collection for six the next morning.",
+      "state_changes": [
+        {
+          "entity": "manjula",
+          "fact": "Manjula learned of an imminent disputed crop collection from the western half.",
+          "valence": -4
+        },
+        {
+          "entity": "bhaskar",
+          "fact": "Bhaskar's crop transaction was disclosed to Manjula in front of the buyer.",
+          "valence": -3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id sp1_b024d",
+      "tier": "branch_canon",
+      "pov": "manjula"
+    }
+  ],
+  "crossings": [
+    {
+      "mainline_beat_id": "b024",
+      "rendered_as": "Bhaskar places both keys on Manjula's judgment; after counting and testing them, she calls out to the lane that a court finally listened to her.",
+      "objective_facts_kept": "Bhaskar delivered both keys under the judgment, Manjula publicly told the lane that a court had finally listened to her, and she gained access to the land and storage room."
+    }
+  ],
+  "cites": [
+    "b021",
+    "b022",
+    "b023",
+    "b024"
+  ],
+  "flags": []
+}
