@@ -29,6 +29,16 @@ export default defineConfig({
   retries: 0,
   reporter: [["list"]],
   /*
+   * Keep the artifacts of a passing run.
+   *
+   * The default discards the output directory for tests that pass, which is
+   * right for a check suite and exactly wrong for a recorder: the first three
+   * takes of the walkthrough only produced a file when the run *failed*, and a
+   * green run deleted the video it had just made.
+   */
+  preserveOutput: "always",
+  outputDir: DEMO ? "demo-capture" : "test-results",
+  /*
    * A recording is one continuous take, and the walkthrough deliberately holds
    * on each screen long enough to speak over — which is most of three minutes
    * of "doing nothing" as far as a timeout is concerned. Ninety seconds killed

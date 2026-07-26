@@ -45,3 +45,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Where CF_DEMO=1 writes the walkthrough video. A take, not a source file.
+/demo-capture/
