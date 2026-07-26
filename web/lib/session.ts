@@ -39,6 +39,22 @@ export const EDITORS: Editor[] = [
   { id: "arjun", name: "Arjun Menon", role: "Series editor", landing: "/serials" },
 ];
 
+/**
+ * Who the front door signs you in as.
+ *
+ * The picker became one button, because choosing between four names nobody has
+ * an opinion about is a step between a visitor and the product — and four rows
+ * that look like accounts invite a question about login this console does not
+ * answer. The byline survives it: decisions are still signed, and a released
+ * episode still says who released it.
+ *
+ * Commissioning, because that is where the work starts and where the story list
+ * is. The other three stay defined: the release history on disk already carries
+ * their names, and the picker is a few lines away if it is ever wanted back.
+ */
+export const DEFAULT_EDITOR: Editor =
+  EDITORS.find((e) => e.id === "priya") ?? EDITORS[0];
+
 const COOKIE = "cf_editor";
 
 /**
