@@ -1,0 +1,14 @@
+{
+  "story_id": "evt_gandhinagar_tribunal",
+  "char_id": "manjula",
+  "state": "done",
+  "step": "done",
+  "label": "Done",
+  "anchor": "b024",
+  "replayed": true,
+  "error": null,
+  "promotion_skipped": true,
+  "started_at": "2026-07-26T04:59:52.252426+00:00",
+  "updated_at": "2026-07-26T04:59:54.366035+00:00",
+  "finished_at": "2026-07-26T04:59:54.365034+00:00"
+}
