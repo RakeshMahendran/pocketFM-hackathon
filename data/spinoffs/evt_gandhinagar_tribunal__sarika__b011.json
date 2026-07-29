@@ -1,0 +1,721 @@
+{
+  "story_id": "evt_gandhinagar_tribunal",
+  "char_id": "sarika",
+  "anchor_beat_id": "b011",
+  "anchor": {
+    "beat_id": "b011",
+    "ep": 3,
+    "seq": 4,
+    "world_time": "2022-11",
+    "location": "room above tyre shop",
+    "what_happened": "Mervyn hired Sarika for three thousand rupees per month, designated her registry clerk and obtained her signature certifying proceedings recorded by her.",
+    "fact": "She begins her first office job as registry clerk.",
+    "valence": 5,
+    "n_present": 2,
+    "kind": "witnessed"
+  },
+  "constrained": true,
+  "generated_at": "2026-07-26T05:47:14.988117+00:00",
+  "model": "gpt-5.6-sol",
+  "forbidden": {
+    "story_id": "evt_gandhinagar_tribunal",
+    "char_id": "sarika",
+    "n_beats": 49,
+    "allowed": [
+      {
+        "beat_id": "b011",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Mervyn hired Sarika for three thousand rupees per month, designated her registry clerk and obtained her signature certifying proceedings recorded by her."
+      },
+      {
+        "beat_id": "b012",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "After Mervyn conducted the first two numbered matters, an unknown stranger entered unannounced and placed a heavy file on Sarika's desk."
+      },
+      {
+        "beat_id": "b013",
+        "ep": 4,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Dhawale brought a land dispute concerning property valued at one crore forty lakh and pressed Mervyn for an urgent ruling."
+      },
+      {
+        "beat_id": "b014",
+        "ep": 4,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "The landowner appeared with the advocate, signed a consent memorandum and argued the land dispute before Mervyn."
+      },
+      {
+        "beat_id": "b015",
+        "ep": 4,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Mervyn ordered conveyance at the contracted price, and the landowner accepted the balance payment while the advocate stated that his client would comply."
+      },
+      {
+        "beat_id": "b017",
+        "ep": 5,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Mervyn admitted there was no prior appointment order, and the advocate warned that another lawyer could challenge the room before consenting."
+      },
+      {
+        "beat_id": "b021",
+        "ep": 6,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Manjula sought an urgent hearing over land and keys withheld by Bhaskar for eleven years, and Mervyn fixed the hearing for eight days later."
+      },
+      {
+        "beat_id": "b022",
+        "ep": 6,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "At the hearing, Mervyn established that Manjula held an equal recorded share while Bhaskar controlled all access and had not fully accounted for crop income."
+      },
+      {
+        "beat_id": "b023",
+        "ep": 6,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Mervyn awarded Manjula access and possession according to her recorded share, barred Bhaskar from leasing the western half and ordered delivery of the keys."
+      },
+      {
+        "beat_id": "b029",
+        "ep": 8,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "The advocate publicly challenged Sarika to explain what her certification signature represented and reminded Mervyn that no prior appointment order had been produced."
+      },
+      {
+        "beat_id": "b030",
+        "ep": 8,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Mervyn admitted that he established the forum himself and could not identify an external order appointing him as presiding officer."
+      },
+      {
+        "beat_id": "b031",
+        "ep": 8,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Sarika counted fourteen months of salary envelopes and recognized that her signatures had travelled on certified copies outside the room."
+      },
+      {
+        "beat_id": "b032",
+        "ep": 8,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Sarika asked Mervyn whether she could be jailed for her role."
+      },
+      {
+        "beat_id": "b033",
+        "ep": 9,
+        "world_time": "2024-01",
+        "location": "tyre-shop stairwell",
+        "fact": "Mervyn received Harshad's written demand for his appointment order and learned that he had eleven days to respond."
+      },
+      {
+        "beat_id": "b037",
+        "ep": 10,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Mervyn began his largest hearing before a packed room while Tejas watched from the back."
+      },
+      {
+        "beat_id": "b038",
+        "ep": 10,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Sarika publicly refused to certify an exhibit while Mervyn continued the hearing."
+      },
+      {
+        "beat_id": "b039",
+        "ep": 10,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "Dhawale produced a prewritten outcome and copies of twelve earlier awards, then demanded that Mervyn award him the western parcel at two crore ten lakh rupees."
+      },
+      {
+        "beat_id": "b040",
+        "ep": 10,
+        "world_time": "2024-01",
+        "location": "room above tyre shop",
+        "fact": "After the room cleared, Tejas asked Mervyn which court had appointed him."
+      },
+      {
+        "beat_id": "b044",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "tyre-shop stairwell",
+        "fact": "Khot told Sarika she was named as an employee and witness rather than an accused, and Sarika disclosed the location of the forum's records."
+      },
+      {
+        "beat_id": "b045",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "tyre-shop stairwell",
+        "fact": "Khot read aloud the charge that Mervyn cheated people by falsely representing judicial authority and inducing transfers through purported awards."
+      }
+    ],
+    "forbidden": [
+      {
+        "beat_id": "b001",
+        "ep": 1,
+        "world_time": "2022-11",
+        "location": "court chamber",
+        "fact": "Fifteen years after being struck off, Mervyn typed another man's order and was sent out of the chamber to wait.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b002",
+        "ep": 1,
+        "world_time": "2022-11",
+        "location": "court corridor",
+        "fact": "Irfan mistook Mervyn for an official who could hear his urgent housing dispute, and Mervyn examined the file without correcting him.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b003",
+        "ep": 1,
+        "world_time": "2022-11",
+        "location": "court corridor",
+        "fact": "Irfan touched Mervyn's feet and asked him to hear the case.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b004",
+        "ep": 2,
+        "world_time": "2022-11",
+        "location": "court copying room",
+        "fact": "Mervyn called his intervention advice, typed a direction in judicial form and signed it as presiding officer.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b005",
+        "ep": 2,
+        "world_time": "2022-11",
+        "location": "hardware shop",
+        "fact": "Irfan presented Mervyn's signed page, and the landlord restored the key and paid six thousand rupees without court proceedings.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b006",
+        "ep": 2,
+        "world_time": "2022-11",
+        "location": "unknown file storage",
+        "fact": "A copy of Mervyn's first signed direction remained preserved with the housing papers after payment.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b007",
+        "ep": 2,
+        "world_time": "2022-11",
+        "location": "court canteen",
+        "fact": "Irfan returned to Mervyn with two more men, their files and their fees.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b008",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "court canteen and room above tyre shop",
+        "fact": "Mervyn accepted the two referrals and used their fees to rent a room above a tyre shop.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b009",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "room above tyre shop",
+        "fact": "Mervyn installed an eight-inch dais and a nameplate identifying an arbitration and dispute resolution forum with a presiding officer.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b010",
+        "ep": 3,
+        "world_time": "2022-11",
+        "location": "family home",
+        "fact": "Vaishali questioned who appointed Mervyn, and he said private parties would appoint an arbitrator by consent.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b016",
+        "ep": 4,
+        "world_time": "2022-11",
+        "location": "land transaction file storage",
+        "fact": "A copy of the signed consent memorandum and award was preserved with the land transaction papers.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b018",
+        "ep": 5,
+        "world_time": "2022-11",
+        "location": "court copying room",
+        "fact": "Mervyn asked Pandit for access to the civil pending list so he could avoid disputes already filed in the real court, and Pandit refused cash.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b019",
+        "ep": 5,
+        "world_time": "2022-11",
+        "location": "court copying room",
+        "fact": "Pandit left the pending list on a rear photocopier long enough for Mervyn to photograph all thirty-two pages.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b020",
+        "ep": 5,
+        "world_time": "2022-11",
+        "location": "court copying room",
+        "fact": "Pandit demanded one sealed envelope each month, to be opened by Mervyn without questions, as the price of continued access.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b024",
+        "ep": 6,
+        "world_time": "2022-11",
+        "location": "lane outside family land",
+        "fact": "Bhaskar delivered both keys under the judgment, and Manjula publicly told the lane that a court had finally listened to her.",
+        "emphasised": false
+      },
+      {
+        "beat_id": "b025",
+        "ep": 7,
+        "world_time": "2024-01",
+        "location": "district court filing counter",
+        "fact": "Harshad received a filing bundle containing an award from an unfamiliar forum and directed that its authority be traced.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b026",
+        "ep": 7,
+        "world_time": "2024-01",
+        "location": "district court records room",
+        "fact": "Harshad found no matching forum, appointment, arbitrator name or case-number sequence in the available district records.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b027",
+        "ep": 7,
+        "world_time": "2024-01",
+        "location": "district court internal filing route",
+        "fact": "The complete filing bundle remained routed for further scrutiny rather than being returned at the public counter.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b028",
+        "ep": 7,
+        "world_time": "2024-01",
+        "location": "district court registrar office",
+        "fact": "Harshad wrote the unidentified case number on a slip and stored it in his drawer for further inquiry.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b034",
+        "ep": 9,
+        "world_time": "2024-01",
+        "location": "court copying room",
+        "fact": "Mervyn asked Pandit to insert a false appointment into an old court record, and Pandit identified the request as forgery.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b035",
+        "ep": 9,
+        "world_time": "2024-01",
+        "location": "court copying room",
+        "fact": "Pandit stated that each sealed envelope contained a dispute and required outcome, and that Mervyn had signed twelve awards preserving those outcomes.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b036",
+        "ep": 9,
+        "world_time": "2024-01",
+        "location": "court copying room",
+        "fact": "Pandit refused to assist with the appointment order and demanded the return of the photographed pending list.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b041",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "district court records room",
+        "fact": "Harshad verified across current, retired and section records that no appointed arbitrator, appointment order, constituted tribunal or official case-number sequence matched Mervyn's forum.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b042",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "district court registrar office",
+        "fact": "Harshad signed a police complaint supported by the verification note, the bar record and copies of thirty-four awards.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b043",
+        "ep": 11,
+        "world_time": "2024-01",
+        "location": "police evidence storage",
+        "fact": "A sealed police copy of the verification note and award index remained preserved for investigation.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b046",
+        "ep": 12,
+        "world_time": "2024-01",
+        "location": "police interview room",
+        "fact": "Khot offered to record Mervyn's cooperation for a narrower prosecution position if he listed every award and admitted that each lacked judicial force.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b047",
+        "ep": 12,
+        "world_time": "2024-01",
+        "location": "police interview room",
+        "fact": "Mervyn identified the earlier matters, admitted he lacked court appointment and stated that the first twenty-three awards had no judicial force.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b048",
+        "ep": 12,
+        "world_time": "2024-01",
+        "location": "police interview room",
+        "fact": "Mervyn refused to call Manjula's award worthless despite being told that the refusal could cost him leniency.",
+        "emphasised": true
+      },
+      {
+        "beat_id": "b049",
+        "ep": 12,
+        "world_time": "2024-01",
+        "location": "family land",
+        "fact": "Manjula remained in possession of both keys and was not told about Mervyn's arrest or the challenge to his authority.",
+        "emphasised": false
+      }
+    ],
+    "allowed_ids": [
+      "b011",
+      "b012",
+      "b013",
+      "b014",
+      "b015",
+      "b017",
+      "b021",
+      "b022",
+      "b023",
+      "b029",
+      "b030",
+      "b031",
+      "b032",
+      "b033",
+      "b037",
+      "b038",
+      "b039",
+      "b040",
+      "b044",
+      "b045"
+    ],
+    "forbidden_ids": [
+      "b001",
+      "b002",
+      "b003",
+      "b004",
+      "b005",
+      "b006",
+      "b007",
+      "b008",
+      "b009",
+      "b010",
+      "b016",
+      "b018",
+      "b019",
+      "b020",
+      "b024",
+      "b025",
+      "b026",
+      "b027",
+      "b028",
+      "b034",
+      "b035",
+      "b036",
+      "b041",
+      "b042",
+      "b043",
+      "b046",
+      "b047",
+      "b048",
+      "b049"
+    ]
+  },
+  "crossing_candidates": [
+    {
+      "beat_id": "b011",
+      "ep": 3,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "what_happened": "Mervyn hired Sarika for three thousand rupees per month, designated her registry clerk and obtained her signature certifying proceedings recorded by her."
+    },
+    {
+      "beat_id": "b012",
+      "ep": 3,
+      "world_time": "2022-11",
+      "location": "room above tyre shop",
+      "what_happened": "After Mervyn conducted the first two numbered matters, an unknown stranger entered unannounced and placed a heavy file on Sarika's desk."
+    }
+  ],
+  "bible": {
+    "want": "To earn and keep a provably legitimate clerk’s desk by logging every instruction, demanding its source paper and applying elsewhere whenever an office cannot produce one.",
+    "wound": "She avoids admitting to her family that the job she celebrated may not deserve the respect they gave it. Even after learning that no appointment order was in her registry, she keeps choosing procedure, salary and appearances over a public confession; the delay sends her signature farther, deepens her family’s pride and makes every later refusal look self-protective.",
+    "voice": "Short, plain declarations when speaking for herself, followed by exact lists of people, dates, objects or qualifications. When performing office work, she shifts into long, memorized bureaucratic sentences. She repeats titles and nouns to make them solid: registry, clerk, envelopes, case number. Her deflection habit is to change uncomfortable subjects to family employment or registry procedure. When frightened, she says “sir,” asks one precise procedural question, then inventories what she signed, filed or can locate.",
+    "engine": "Because Sarika publicly made herself the family’s first registry clerk, relatives and neighbors continually bring her forms, notices and disputes that they cannot navigate alone. Every document she successfully fixes produces referrals, tighter deadlines and greater reliance on her name, while every demand for proper authority risks offending an office or exposing the weakness of her own experience. She must repeatedly choose between being useful without certainty and being honest at the cost of the respectable desk she is still trying to earn.",
+    "offscreen_ledger": [
+      {
+        "window": "between the season opening and b011",
+        "what": "Sarika answers desk-job advertisements, practices slow English typing on borrowed equipment, copies official phrases into a notebook and rehearses an interview beside her father’s old uniform before responding to a handwritten clerk vacancy."
+      },
+      {
+        "window": "between b015 and b017",
+        "what": "She spends an evening completing a neighbor’s benefits form, makes the applicant check every spelling and records the favor in her notebook rather than signing as an official."
+      },
+      {
+        "window": "between b017 and b021",
+        "what": "She inventories the inward register and steel cupboard for an appointing document, writes a requisition note when she cannot find one and then returns to numbering the pending files instead of telling her family what is missing."
+      },
+      {
+        "window": "between b023 and b029",
+        "what": "Sarika starts a Sunday paperwork table for neighbors, separates applications by deadline, types two letters slowly and makes each applicant sign beside the information they supplied."
+      },
+      {
+        "window": "between b033 and b037",
+        "what": "She gathers her salary envelopes, lists every certification she can identify, photocopies pages bearing her own signature and submits applications for clerical posts that require written proof of appointment."
+      },
+      {
+        "window": "between b040 and b044",
+        "what": "Sarika writes a chronological index of the registers, cupboards and copy files she handled, keeps it separate from the office records and uses it to answer Khot’s questions without guessing beyond what she personally filed."
+      },
+      {
+        "window": "between b045 and the season end",
+        "what": "She removes the old title from her applications, opens a folding-table document service under her own name, issues receipts for every fee and refuses any paper whose issuing office she cannot identify."
+      }
+    ],
+    "reframe": "The mainline is about unsupported authority creating obligations it must keep defending; Sarika’s serial is about a working-class woman becoming her neighborhood’s indispensable translator of paperwork while trying to build a respectable profession from experience she can no longer present without qualification.",
+    "stance": "accomplice",
+    "genre": "Bureaucratic social thriller",
+    "pitch": "A watchman’s daughter turns a disgraced desk job into a neighborhood paperwork service, where every form she fixes makes another family trust the signature she no longer trusts."
+  },
+  "episode": {
+    "title": "Twelve Words a Minute",
+    "logline": "After being mocked for her slow typing, Sarika wins her family’s first respectable desk job—but her first unexplained file tests whether a title is enough to make a registry real.",
+    "script": "SFX: Slow typewriter keys. Clack. Pause. Clack-clack. Bell.\n\nSARIKA: Registry. Proceedings. Certification. Applicant. Respondent.\n\nRENU: You have typed five words in one minute.\n\nSARIKA: Eight. Registry is one. Proceedings is two. Certification is three. Applicant is four. Respondent is five. I typed the heading also.\n\nTYPING OWNER: Headings do not make you faster. Twelve words per minute, Sarika. The advertisement asks for a clerk.\n\nAPPLICANT: A clerk who types twelve words per minute is a clerk who finishes Monday’s letter on Friday.\n\nSFX: Two applicants laugh.\n\nSARIKA: I finished twelfth standard. I read English. I keep registers. I can copy without changing one number.\n\nAPPLICANT: Then copy this: no office will hire you.\n\nRENU: Stop it.\n\nTYPING OWNER: She is saying what the employer will say. Offices want certificates, English and speed. Not somebody practicing on borrowed time.\n\nSARIKA: I paid for thirty minutes.\n\nTYPING OWNER: Twenty-eight are finished.\n\nSARIKA: Then nobody talks for two minutes.\n\nSFX: Typewriter keys resume. Slow at first, then steady.\n\nSARIKA: Appointment. Salary. Designation. Duties. Reporting officer.\n\nSFX: Typewriter bell.\n\nRENU: Why those words?\n\nSARIKA: Because if he asks whether I have questions, I will ask five.\n\nRENU: And if he laughs?\n\nSARIKA: Then I will ask them while he is laughing.\n\nNARRATOR: That afternoon, Sarika carried her qualification copy, two photographs and five questions to the room above the tyre shop.\n\nSFX: Tyre compressor below. Metal stairs creak. A ceiling fan ticks overhead.\n\nMERVYN: Sarika Kamble?\n\nSARIKA: Yes, sir. Twelfth standard completed. English reading, slow typing, register maintenance, tea if required. These are copies. Originals are at home.\n\nMERVYN: Sit down.\n\nSFX: Wooden chair scrapes.\n\nMERVYN: How slow is slow typing?\n\nSARIKA: Twelve words per minute without a mistake. Fifteen with two mistakes. I prefer twelve.\n\nMERVYN: Can you number files consecutively?\n\nSARIKA: Yes, sir.\n\nMERVYN: Record names exactly as supplied?\n\nSARIKA: Yes, sir.\n\nMERVYN: Maintain proceedings and prepare certified copies?\n\nSARIKA: If I record them myself, yes, sir.\n\nMERVYN: Good. The salary is three thousand rupees per month.\n\nSARIKA: Three thousand fixed?\n\nMERVYN: Fixed.\n\nSARIKA: Payment date?\n\nMERVYN: At the end of each month.\n\nSARIKA: Designation?\n\nMERVYN: Registry clerk.\n\nSFX: Nothing. Long.\n\nSARIKA: Please say it once more, sir.\n\nMERVYN: You are hired as registry clerk for three thousand rupees per month.\n\nSARIKA: Registry clerk.\n\nMERVYN: Registry clerk.\n\nSARIKA: Duties are numbering, recording proceedings, maintaining files and preparing certified copies?\n\nMERVYN: Correct. Write the designation in your notebook.\n\nSFX: Notebook opens. Pen scratches.\n\nSARIKA: Date. Salary. Payment date. Designation. Duties. Reporting officer: Mervyn Aloysius Fonseca.\n\nMERVYN: Now this certification. Read it aloud.\n\nSARIKA: “I certify that the proceedings recorded above were recorded by me and are a true record of the proceedings conducted.”\n\nMERVYN: You will place that certification below proceedings you record. Sign here.\n\nSARIKA: Sir, one procedural question. If I did not hear something, I do not record it?\n\nMERVYN: Correct.\n\nSARIKA: If a party gives a spelling, I make the party check it?\n\nMERVYN: Correct.\n\nSARIKA: If I prepare a copy, I compare every page before certifying?\n\nMERVYN: Correct.\n\nSARIKA: Then I can sign.\n\nSFX: Pen moves across paper.\n\nMERVYN: Welcome to the registry, Ms. Kamble.\n\nSARIKA: Thank you, sir. I will not lose a page.\n\nNARRATOR: Before going home, Sarika spent ten rupees on two copies of the notebook page that proved what she had heard.\n\nSFX: Photocopier hums. Paper feeds. Several customers murmur.\n\nTYPING OWNER: Hold the book flat.\n\nSARIKA: Not the whole book. Only this page.\n\nTYPING OWNER: Appointment, salary, designation, duties. You got the job?\n\nSARIKA: Three thousand rupees per month. Registry clerk. End-of-month payment. I start immediately.\n\nRENU: Registry clerk? Say it louder.\n\nSARIKA: I am a registry clerk.\n\nSFX: Customers stop murmuring.\n\nAPPLICANT: The same office hired you at twelve words per minute?\n\nSARIKA: The same twelve.\n\nTYPING OWNER: I said no office would hire her. I was wrong. Sarika got the clerk’s desk at twelve words per minute.\n\nRENU: And without changing one number.\n\nSARIKA: Please copy the page. My mother is waiting.\n\nTYPING OWNER: Two copies?\n\nSARIKA: Three. Mother, aunt and the family tin.\n\nSFX: Photocopier starts.\n\nTYPING OWNER: No charge.\n\nSARIKA: No. A clerk keeps accounts. Ten rupees.\n\nSFX: Coin lands on the counter.\n\nNARRATOR: At home, eight people handled the copies. Her mother read “registry clerk” aloud three times. By Sarika’s first full day, the words felt heavier than the desk.\n\nSFX: Ceiling fan ticks. Register pages turn. Pen scratches in ruled columns.\n\nSARIKA: First matter numbered. Names checked. Proceedings recorded. Certification signed.\n\nMERVYN: Put it in the completed section.\n\nSFX: File slides across wood.\n\nSARIKA: Second matter numbered. Proceedings recorded. Two pages compared. Certification signed.\n\nMERVYN: Completed section.\n\nSFX: Another file slides. Sarika aligns a stack with three firm taps.\n\nSARIKA: Inward register, completed files, blank certification sheets, copy paper. Everything has one place.\n\nMERVYN: That is why I hired a registry clerk.\n\nSFX: Door bangs open. Fast footsteps. A heavy file slams onto Sarika’s desk. Loose papers shudder.\n\nSARIKA: Sir, you entered without giving your name.\n\nSTRANGER: Take the file.\n\nSARIKA: There is a registry process. Applicant’s name, respondent’s name, contact details, subject and signature.\n\nSTRANGER: Number it first.\n\nSARIKA: I number it after checking the papers.\n\nMERVYN: Sarika, open the file.\n\nSFX: Thick cover opens. Pages riffle rapidly, then stop.\n\nSARIKA: Sir, there is no application in this file."
+  },
+  "beats": [
+    {
+      "beat_id": "x_sarika_b011_001",
+      "ep": 1,
+      "seq": 1,
+      "world_time": "2022-11",
+      "location": "Typing booth",
+      "present": [
+        "sarika",
+        "renu",
+        "typing_owner",
+        "applicant"
+      ],
+      "witnessed_by": [
+        "sarika",
+        "renu",
+        "typing_owner",
+        "applicant"
+      ],
+      "hidden_from": [
+        "advocate",
+        "bhaskar",
+        "dhawale",
+        "hardik",
+        "irfan",
+        "khot",
+        "manjula",
+        "morris",
+        "pandit",
+        "tejas",
+        "vaishali"
+      ],
+      "what_happened": "Sarika practiced clerk vocabulary at twelve words per minute while the typing owner and another applicant publicly dismissed her chances of being hired.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "She prepares five procedural questions for her clerk interview despite public humiliation.",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id sarika_e01_b01",
+      "tier": "branch_canon",
+      "pov": "sarika"
+    },
+    {
+      "beat_id": "x_sarika_b011_002",
+      "ep": 1,
+      "seq": 2,
+      "world_time": "2022-11",
+      "location": "Room above tyre shop",
+      "present": [
+        "morris",
+        "sarika"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika"
+      ],
+      "hidden_from": [
+        "advocate",
+        "bhaskar",
+        "dhawale",
+        "hardik",
+        "irfan",
+        "khot",
+        "manjula",
+        "pandit",
+        "tejas",
+        "vaishali"
+      ],
+      "what_happened": "Mervyn hired Sarika for three thousand rupees per month, designated her registry clerk and obtained her signature certifying proceedings recorded by her.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "She begins her first office job as registry clerk.",
+          "valence": 5
+        },
+        {
+          "entity": "sarika",
+          "fact": "Her certification signature becomes part of the registry procedure.",
+          "valence": 1
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": "b011",
+      "note": "model suggested beat_id sarika_e01_b02",
+      "tier": "branch_canon",
+      "pov": "sarika"
+    },
+    {
+      "beat_id": "x_sarika_b011_003",
+      "ep": 1,
+      "seq": 3,
+      "world_time": "2022-11",
+      "location": "Typing booth",
+      "present": [
+        "sarika",
+        "renu",
+        "typing_owner",
+        "applicant"
+      ],
+      "witnessed_by": [
+        "sarika",
+        "renu",
+        "typing_owner",
+        "applicant"
+      ],
+      "hidden_from": [
+        "advocate",
+        "bhaskar",
+        "dhawale",
+        "hardik",
+        "irfan",
+        "khot",
+        "manjula",
+        "morris",
+        "pandit",
+        "tejas",
+        "vaishali"
+      ],
+      "what_happened": "Sarika publicly announced her registry clerk job, and the typing owner admitted that dismissing her had been wrong.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "Her job receives public acknowledgment from people who had mocked her qualifications.",
+          "valence": 4
+        },
+        {
+          "entity": "sarika_family",
+          "fact": "Sarika takes home three copies of her written employment notes.",
+          "valence": 3
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": null,
+      "note": "model suggested beat_id sarika_e01_b03",
+      "tier": "branch_canon",
+      "pov": "sarika"
+    },
+    {
+      "beat_id": "x_sarika_b011_004",
+      "ep": 1,
+      "seq": 4,
+      "world_time": "2022-11",
+      "location": "Room above tyre shop",
+      "present": [
+        "morris",
+        "sarika",
+        "stranger"
+      ],
+      "witnessed_by": [
+        "morris",
+        "sarika",
+        "stranger"
+      ],
+      "hidden_from": [
+        "advocate",
+        "bhaskar",
+        "dhawale",
+        "hardik",
+        "irfan",
+        "khot",
+        "manjula",
+        "pandit",
+        "tejas",
+        "vaishali"
+      ],
+      "what_happened": "After Mervyn conducted the first two numbered matters, an unknown stranger entered unannounced and placed a heavy file on Sarika's desk, where Sarika found no application inside it.",
+      "state_changes": [
+        {
+          "entity": "sarika",
+          "fact": "She completes records and certifications for the first two numbered matters.",
+          "valence": 2
+        },
+        {
+          "entity": "registry",
+          "fact": "An unexplained heavy file arrives without an application.",
+          "valence": -2
+        }
+      ],
+      "source_ref": "fictionalized",
+      "crossing_of": "b012",
+      "note": "model suggested beat_id sarika_e01_b04",
+      "tier": "branch_canon",
+      "pov": "sarika"
+    }
+  ],
+  "crossings": [
+    {
+      "mainline_beat_id": "b011",
+      "rendered_as": "A private employment interview in which Sarika verifies the salary, designation and certification procedure before signing.",
+      "objective_facts_kept": "Mervyn hires Sarika for three thousand rupees per month, designates her registry clerk and obtains her signature certifying proceedings recorded by her."
+    },
+    {
+      "mainline_beat_id": "b012",
+      "rendered_as": "During Sarika's first full day, the orderly completion of two numbered matters is interrupted when an unidentified man enters without following her registry process and drops a heavy file on her desk.",
+      "objective_facts_kept": "Mervyn conducts the first two numbered matters before an unknown stranger enters unannounced and places a heavy file on Sarika's desk."
+    }
+  ],
+  "cites": [
+    "b011",
+    "b012"
+  ],
+  "flags": []
+}

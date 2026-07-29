@@ -76,6 +76,9 @@ test.skip(!process.env.CF_DEMO, "recording take — set CF_DEMO=1 to run it");
 test("three minute walkthrough", async ({ page, context }) => {
   test.setTimeout(6 * 60_000);
 
+  // Recording starts with the context, so this is frame zero of the video.
+  const startedAt = Date.now();
+
   await context.addCookies([
     { name: "cf_editor", value: "priya", domain: "localhost", path: "/" },
   ]);
@@ -116,6 +119,13 @@ test("three minute walkthrough", async ({ page, context }) => {
   await expect(player).toBeAttached();
   await player.scrollIntoViewIfNeeded();
   await page.waitForTimeout(BEAT.settle);
+
+  // Playwright records video only — there is no audio track in the webm, so
+  // the one beat that is *about* sound arrives as silence. The mp3 is muxed in
+  // afterwards, which needs the offset from the start of the recording, so it
+  // is measured here rather than counted off the beat table by hand.
+  const playAt = (Date.now() - startedAt) / 1000;
+  console.log(`\n  MUX — audio starts ${playAt.toFixed(1)}s into the video\n`);
 
   await player.evaluate((el: HTMLAudioElement) => el.play());
   await page.waitForTimeout(BEAT.listen);

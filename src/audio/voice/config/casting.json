@@ -70,5 +70,23 @@
   },
   "evt_gandhinagar_tribunal:SECOND MAN": {
     "sarvam": "ritu"
+  },
+  "evt_gandhinagar_tribunal:TYRE SHOP OWNER": {
+    "sarvam": "simran"
+  },
+  "evt_gandhinagar_tribunal:CARPENTER": {
+    "sarvam": "shruti"
+  },
+  "evt_gandhinagar_tribunal:SIGN PAINTER": {
+    "sarvam": "rahul"
+  },
+  "evt_gandhinagar_tribunal:vaishali": {
+    "sarvam": "priya"
+  },
+  "evt_gandhinagar_tribunal:sarika": {
+    "sarvam": "pooja"
+  },
+  "evt_gandhinagar_tribunal:STRANGER": {
+    "sarvam": "manan"
   }
 }

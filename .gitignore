@@ -42,3 +42,6 @@ data/cache/calls/serial_*__*
 # never plays one. The real clips beside them ARE committed: `data/cache/voice`
 # is what makes a demo with no network possible.
 data/cache/voice/mock_*
+
+# Recorded demo take. An artifact of the presentation, not a source file.
+demo_walkthrough.mp4

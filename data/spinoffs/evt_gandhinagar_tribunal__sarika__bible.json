@@ -1,0 +1,164 @@
+{
+  "char_id": "sarika",
+  "name": "Sarika Kamble",
+  "role": "his clerk, hired to play court staff",
+  "promotable": true,
+  "real_anchor": {
+    "maps_to": "the staff described as court personnel",
+    "composite": true,
+    "clearance": "fictionalize_first"
+  },
+  "stub": {
+    "facts": [
+      "Mervyn hired Sarika for three thousand rupees per month, designated her registry clerk and obtained her signature certifying proceedings recorded by her.",
+      "After Mervyn conducted the first two numbered matters, an unknown stranger entered unannounced and placed a heavy file on Sarika's desk.",
+      "Dhawale brought a land dispute concerning property valued at one crore forty lakh and pressed Mervyn for an urgent ruling.",
+      "The landowner appeared with the advocate, signed a consent memorandum and argued the land dispute before Mervyn.",
+      "Mervyn ordered conveyance at the contracted price, and the landowner accepted the balance payment while the advocate stated that his client would comply.",
+      "Mervyn admitted there was no prior appointment order, and the advocate warned that another lawyer could challenge the room before consenting.",
+      "Manjula sought an urgent hearing over land and keys withheld by Bhaskar for eleven years, and Mervyn fixed the hearing for eight days later.",
+      "At the hearing, Mervyn established that Manjula held an equal recorded share while Bhaskar controlled all access and had not fully accounted for crop income.",
+      "Mervyn awarded Manjula access and possession according to her recorded share, barred Bhaskar from leasing the western half and ordered delivery of the keys.",
+      "The advocate publicly challenged Sarika to explain what her certification signature represented and reminded Mervyn that no prior appointment order had been produced.",
+      "Mervyn admitted that he established the forum himself and could not identify an external order appointing him as presiding officer.",
+      "Sarika counted fourteen months of salary envelopes and recognized that her signatures had travelled on certified copies outside the room.",
+      "Sarika asked Mervyn whether she could be jailed for her role.",
+      "Mervyn received Harshad's written demand for his appointment order and learned that he had eleven days to respond.",
+      "Mervyn began his largest hearing before a packed room while Tejas watched from the back.",
+      "Sarika publicly refused to certify an exhibit while Mervyn continued the hearing.",
+      "Dhawale produced a prewritten outcome and copies of twelve earlier awards, then demanded that Mervyn award him the western parcel at two crore ten lakh rupees.",
+      "After the room cleared, Tejas asked Mervyn which court had appointed him.",
+      "Khot told Sarika she was named as an employee and witness rather than an accused, and Sarika disclosed the location of the forum's records.",
+      "Khot read aloud the charge that Mervyn cheated people by falsely representing judicial authority and inducing transfers through purported awards."
+    ],
+    "want": "the first respectable job anyone in her family has held",
+    "voice_samples": [
+      "The Registrar requests that a certified copy of the order appointing the presiding officer of the said forum be furnished to this office within eleven days.",
+      "My father is a night watchman, sir. Twenty-eight years, one company. When they gave him a uniform, he wore it to a wedding.",
+      "I told everybody. My mother. My aunt. The whole chawl. Sarika is working in a registry. Sarika is a registry clerk.",
+      "Case number zero zero three of two thousand twenty-two. Applicant versus respondent. All parties come inside.",
+      "No, sir. Twelfth standard I finished. I can read English, type slowly, and make tea quickly.",
+      "The steel cupboard. Behind the dais. And the certified copies in the blue file.",
+      "My mother will not believe this. Nobody in our family has ever had a desk job.",
+      "I said I will not certify it. In front of everybody. Write it in the register.",
+      "The sign painter, sir. He is my mother's neighbour. He said you paid on time.",
+      "Sir, what is this appointing order? I have never filed it in the registry.",
+      "Sir, he walked straight inside. I told him there is a registry process.",
+      "Envelopes, sir. Fourteen months I am taking salary from this office."
+    ]
+  },
+  "bible": {
+    "want": "To earn and keep a provably legitimate clerk’s desk by logging every instruction, demanding its source paper and applying elsewhere whenever an office cannot produce one.",
+    "wound": "She avoids admitting to her family that the job she celebrated may not deserve the respect they gave it. Even after learning that no appointment order was in her registry, she keeps choosing procedure, salary and appearances over a public confession; the delay sends her signature farther, deepens her family’s pride and makes every later refusal look self-protective.",
+    "voice": "Short, plain declarations when speaking for herself, followed by exact lists of people, dates, objects or qualifications. When performing office work, she shifts into long, memorized bureaucratic sentences. She repeats titles and nouns to make them solid: registry, clerk, envelopes, case number. Her deflection habit is to change uncomfortable subjects to family employment or registry procedure. When frightened, she says “sir,” asks one precise procedural question, then inventories what she signed, filed or can locate.",
+    "engine": "Because Sarika publicly made herself the family’s first registry clerk, relatives and neighbors continually bring her forms, notices and disputes that they cannot navigate alone. Every document she successfully fixes produces referrals, tighter deadlines and greater reliance on her name, while every demand for proper authority risks offending an office or exposing the weakness of her own experience. She must repeatedly choose between being useful without certainty and being honest at the cost of the respectable desk she is still trying to earn.",
+    "offscreen_ledger": [
+      {
+        "window": "between the season opening and b011",
+        "what": "Sarika answers desk-job advertisements, practices slow English typing on borrowed equipment, copies official phrases into a notebook and rehearses an interview beside her father’s old uniform before responding to a handwritten clerk vacancy."
+      },
+      {
+        "window": "between b015 and b017",
+        "what": "She spends an evening completing a neighbor’s benefits form, makes the applicant check every spelling and records the favor in her notebook rather than signing as an official."
+      },
+      {
+        "window": "between b017 and b021",
+        "what": "She inventories the inward register and steel cupboard for an appointing document, writes a requisition note when she cannot find one and then returns to numbering the pending files instead of telling her family what is missing."
+      },
+      {
+        "window": "between b023 and b029",
+        "what": "Sarika starts a Sunday paperwork table for neighbors, separates applications by deadline, types two letters slowly and makes each applicant sign beside the information they supplied."
+      },
+      {
+        "window": "between b033 and b037",
+        "what": "She gathers her salary envelopes, lists every certification she can identify, photocopies pages bearing her own signature and submits applications for clerical posts that require written proof of appointment."
+      },
+      {
+        "window": "between b040 and b044",
+        "what": "Sarika writes a chronological index of the registers, cupboards and copy files she handled, keeps it separate from the office records and uses it to answer Khot’s questions without guessing beyond what she personally filed."
+      },
+      {
+        "window": "between b045 and the season end",
+        "what": "She removes the old title from her applications, opens a folding-table document service under her own name, issues receipts for every fee and refuses any paper whose issuing office she cannot identify."
+      }
+    ],
+    "reframe": "The mainline is about unsupported authority creating obligations it must keep defending; Sarika’s serial is about a working-class woman becoming her neighborhood’s indispensable translator of paperwork while trying to build a respectable profession from experience she can no longer present without qualification.",
+    "stance": "accomplice",
+    "genre": "Bureaucratic social thriller",
+    "pitch": "A watchman’s daughter turns a disgraced desk job into a neighborhood paperwork service, where every form she fixes makes another family trust the signature she no longer trusts."
+  },
+  "season": [
+    {
+      "ep": 1,
+      "turn": "Sarika chooses a poorly paid registry-clerk interview over familiar casual work because the desk and title could make her family respectable.",
+      "ends_on": "Mervyn tells her the clerkship will be filled in two days and the applicant must bring a working registry system.",
+      "hook_type": "DEADLINE",
+      "sets_in": "OPEN SPACE between the season opening and b011"
+    },
+    {
+      "ep": 2,
+      "turn": "To remain a candidate, Sarika spends her own money assembling forms, numbering rules and a register that turns Mervyn's bare room into a functioning office.",
+      "ends_on": "Mervyn tells her that only the applicant willing to operate the system she built will receive the post.",
+      "hook_type": "ULTIMATUM",
+      "sets_in": "OPEN SPACE between the season opening and b011"
+    },
+    {
+      "ep": 3,
+      "turn": "Unable to abandon the office she created after announcing the job to her family, Sarika accepts three thousand rupees a month and signs as registry clerk.",
+      "ends_on": "Mervyn reads aloud that Sarika's signature will certify the proceedings recorded by her.",
+      "hook_type": "REVEAL",
+      "sets_in": "OPEN SPACE between the season opening and b011, ending at b011"
+    },
+    {
+      "ep": 4,
+      "turn": "Sarika applies her new registry process to an urgent land matter and certifies paperwork controlling property worth one crore forty lakh rupees.",
+      "ends_on": "Mervyn admits before Sarika and the advocate that he has no prior appointment order to produce.",
+      "hook_type": "DISCOVERY",
+      "sets_in": "b012 through b017"
+    },
+    {
+      "ep": 5,
+      "turn": "Rather than close the registry and lose her first respectable post, Sarika records the missing appointment order as an outstanding document and keeps accepting matters pending its arrival.",
+      "ends_on": "Manjula states at the registry desk that Bhaskar has withheld her land and keys for eleven years.",
+      "hook_type": "ARRIVAL",
+      "sets_in": "OPEN SPACE between b017 and b021, ending at b021"
+    },
+    {
+      "ep": 6,
+      "turn": "Sarika turns Manjula's records of equal ownership and withheld income into a complete file, then certifies the award because it proves her desk can help someone ignored for years.",
+      "ends_on": "Mervyn orders Bhaskar to give Manjula access and possession according to her recorded share and to deliver the keys.",
+      "hook_type": "REVERSAL",
+      "sets_in": "b022 and b023"
+    },
+    {
+      "ep": 7,
+      "turn": "To make completed awards usable outside the room, Sarika standardizes certified-copy issuance and releases records bearing her signature beyond her direct control.",
+      "ends_on": "The advocate publicly demands that Sarika explain what authority her certification signature represents.",
+      "hook_type": "ACCUSATION",
+      "sets_in": "OPEN SPACE between b023 and b029, ending at b029"
+    },
+    {
+      "ep": 8,
+      "turn": "After Mervyn cannot identify an appointing authority, Sarika counts fourteen months of salary envelopes, understands how far her signatures have travelled and asks whether her employment can send her to jail.",
+      "ends_on": "Harshad's written demand states that Mervyn has eleven days to furnish his appointment order.",
+      "hook_type": "DEADLINE",
+      "sets_in": "b030 through b033"
+    },
+    {
+      "ep": 9,
+      "turn": "Sarika stays only to protect the records, marks the appointment order outstanding and enters that she will certify no further exhibits until it is produced.",
+      "ends_on": "Mervyn tells her that his largest listed hearing will proceed the next morning even if she refuses certification.",
+      "hook_type": "ULTIMATUM",
+      "sets_in": "OPEN SPACE between b033 and b037"
+    },
+    {
+      "ep": 10,
+      "turn": "Sarika publicly refuses Dhawale's exhibit, then abandons the status of clerk to preserve the files and identify their location as an employee and witness.",
+      "ends_on": "Khot reads aloud that Mervyn is charged with cheating people by falsely representing judicial authority and inducing transfers through purported awards.",
+      "hook_type": "ACCUSATION",
+      "sets_in": "b037 through b045, including the OPEN SPACE between b040 and b044"
+    }
+  ],
+  "title": "Certified True",
+  "logline": "A proud new registry clerk tries to make her first respectable job legitimate through perfect paperwork, only to find that every signature protecting the office also deepens her own exposure."
+}
