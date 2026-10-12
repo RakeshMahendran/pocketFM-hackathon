@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; font-family: Archivo, system-ui, sans-serif; }
+    a { color: #d9b27c; }
+    .ser { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+    .k { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #8d8377; }
+    .n { font-variant-numeric: tabular-nums; }
+    .card { background: linear-gradient(180deg,#1d1a17,#17140f); border: 1px solid rgba(255,255,255,.08); border-radius: 14px; }
+    .grain { position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px); background-size: 3px 3px; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 860px; background: #100e0c; color: #efe9e0; overflow: hidden">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 44px; height: 58px; border-bottom: 1px solid rgba(255,255,255,.07)">
+    <div style="display: flex; align-items: center; gap: 30px">
+      <span class="ser" style="font-size: 21px">FlakersFM</span>
+      <span class="k">Find stories</span>
+      <span class="k" style="color:#efe9e0">Make the show</span>
+      <span class="k">Release</span>
+      <span class="k">Spin off</span>
+    </div>
+    <span class="k">Writing · started 4 minutes ago</span>
+  </div>
+
+  <!--
+    A wait is the one screen that genuinely earns motion. The old one narrated
+    the wait in prose; this shows the work arriving, which is the same
+    information and reads as progress rather than as an apology.
+  -->
+  <div style="display:grid; grid-template-columns: 440px 1fr; gap:48px; padding:38px 44px">
+
+    <div>
+      <div style="height:300px; border-radius:18px; position:relative; overflow:hidden; box-shadow:0 30px 60px -34px rgba(0,0,0,1);
+                  background: radial-gradient(115% 85% at 22% 14%, #6b5a3a 0%, rgba(107,90,58,0) 58%), linear-gradient(155deg,#262117,#13100f)">
+        <div class="grain"></div>
+        <div style="position:absolute; inset:0; background:linear-gradient(180deg,rgba(16,14,12,0) 42%,rgba(16,14,12,.9) 100%)"></div>
+        <div style="position:absolute; left:24px; right:24px; bottom:20px">
+          <div class="k" style="color:rgba(239,233,224,.8)">The long deception · 120 episodes ordered</div>
+          <div class="ser" style="font-size:30px; line-height:1.08; margin-top:6px">The Court That Never Was</div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:18px; padding:18px 20px">
+        <div class="k">Safe to leave</div>
+        <div style="font-size:13.5px; line-height:1.6; color:#8d8377; margin-top:7px">
+          The writer keeps going if you close this page. Nothing is lost, and nothing is charged twice.
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="ser" style="font-size:34px; line-height:1.08">Writing the season</div>
+      <div class="k" style="margin-top:8px">Episodes arrive a few at a time · 4 of 120 so far</div>
+
+      <!-- progress as the work itself, not a bar with a paragraph under it -->
+      <div style="display:flex; flex-wrap:wrap; gap:5px; margin-top:22px; max-width:46rem">
+        <i style="width:20px;height:28px;border-radius:4px;background:#d9b27c"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:#d9b27c"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:#d9b27c"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:#d9b27c"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:rgba(217,178,124,.35)"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:rgba(255,255,255,.07)"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:rgba(255,255,255,.07)"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:rgba(255,255,255,.07)"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:rgba(255,255,255,.07)"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:rgba(255,255,255,.07)"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:rgba(255,255,255,.07)"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:rgba(255,255,255,.07)"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:rgba(255,255,255,.07)"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:rgba(255,255,255,.07)"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:rgba(255,255,255,.07)"></i>
+        <i style="width:20px;height:28px;border-radius:4px;background:rgba(255,255,255,.07)"></i>
+      </div>
+
+      <!-- the three stages, with the live one carrying detail -->
+      <div style="margin-top:34px; display:flex; flex-direction:column; gap:2px">
+        <div style="display:grid; grid-template-columns:1.6rem 1fr 7rem; gap:14px; align-items:center; padding:13px 0; border-bottom:1px solid rgba(255,255,255,.07)">
+          <span style="width:9px;height:9px;border-radius:50%;background:#7fa66a"></span>
+          <span><span class="ser" style="font-size:18px">The season was planned</span></span>
+          <span class="k" style="text-align:right">done</span>
+        </div>
+        <div style="display:grid; grid-template-columns:1.6rem 1fr 7rem; gap:14px; align-items:center; padding:13px 0; border-bottom:1px solid rgba(255,255,255,.07)">
+          <span style="width:9px;height:9px;border-radius:50%;background:#7fa66a"></span>
+          <span><span class="ser" style="font-size:18px">The cast was drawn up</span> <span class="k">13 people</span></span>
+          <span class="k" style="text-align:right">done</span>
+        </div>
+        <div style="display:grid; grid-template-columns:1.6rem 1fr 7rem; gap:14px; align-items:center; padding:13px 0; border-bottom:1px solid rgba(255,255,255,.07)">
+          <span style="width:9px;height:9px;border-radius:50%;background:#d9b27c"></span>
+          <span>
+            <span class="ser" style="font-size:18px; color:#d9b27c">Writing episodes, and the record of who saw what</span>
+            <span class="k" style="display:block; margin-top:3px">Episode 5 · 41 moments of canon so far</span>
+          </span>
+          <span class="k" style="text-align:right; color:#d9b27c">now</span>
+        </div>
+        <div style="display:grid; grid-template-columns:1.6rem 1fr 7rem; gap:14px; align-items:center; padding:13px 0; opacity:.5">
+          <span style="width:9px;height:9px;border-radius:50%;border:1px solid #8d8377"></span>
+          <span><span class="ser" style="font-size:18px">Checking it against itself</span></span>
+          <span class="k" style="text-align:right">waiting</span>
+        </div>
+      </div>
+
+      <!-- newest episode, so the wait produces something to read -->
+      <div class="card" style="margin-top:26px; padding:16px 18px; border-left:2px solid #d9b27c">
+        <div class="k" style="color:#d9b27c">Just arrived · episode 4</div>
+        <div class="ser" style="font-size:20px; margin-top:6px">The Second Bench</div>
+        <div class="ser" style="font-size:16px; line-height:1.5; color:#8d8377; margin-top:5px; font-style:italic">
+          A losing party asks which high court the tribunal reports to, and nobody in the room knows the answer.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

@@ -1,0 +1,17 @@
+import { createRequire } from 'node:module';
+import { mkdirSync } from 'node:fs';
+import { resolve, join } from 'node:path';
+import { bodyShapes } from './character_body_shapes.mjs';
+import { draw } from './render_body_shape_studies.mjs';
+const require=createRequire(import.meta.url);
+const { chromium }=require('../web/node_modules/playwright');
+const out=resolve('demo/24_bust_fit_study');
+mkdirSync(out,{recursive:true});
+const variations=[{name:'Smaller bust',bust:0},{name:'Medium bust',bust:6},{name:'Fuller bust',bust:12}];
+const card=(v,i)=>`<g transform="translate(${30+i*390} 145)"><rect width="360" height="615" rx="24" fill="#fffaf3"/><text x="180" y="42" text-anchor="middle" font-family="Arial" font-size="22" fill="#383c35">${v.name}</text><svg x="20" y="65" width="320" height="515" viewBox="65 95 230 440">${draw({...bodyShapes[1],bust:v.bust})}</svg></g>`;
+const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820"><rect width="1200" height="820" fill="#f2ece3"/><text x="600" y="59" text-anchor="middle" font-family="Arial" font-size="27" letter-spacing="4" fill="#383c35">BUST SHAPE + CLOTHING FIT</text><text x="600" y="99" text-anchor="middle" font-family="Arial" font-size="17" fill="#73786c">Same adult body, waist, hips and pose · fitted opaque top</text>${variations.map(card).join('')}<text x="600" y="794" text-anchor="middle" font-family="Arial" font-size="15" fill="#73786c">Upper torso contour + subtle fabric shadow + short side folds</text></svg>`;
+const browser=await chromium.launch({headless:true});
+const page=await browser.newPage({viewport:{width:1200,height:820},deviceScaleFactor:1});
+await page.setContent(svg);
+await page.screenshot({path:join(out,'bust-fit-comparison.png')});
+await browser.close();

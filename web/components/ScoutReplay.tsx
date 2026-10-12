@@ -184,7 +184,7 @@ function SearchRow({
 
       <div className="mt-4 pl-20">
         {finished ? (
-          <details className="group">
+          <details name="search-events" className="group">
             <summary className="label cursor-pointer hover:text-ochre transition-colors list-none">
               {group(step.urls.length)} pages opened
               {step.newUrls < step.urls.length &&
@@ -572,7 +572,7 @@ export function ScoutReplay({
             editor reads a search summary for.
           */}
           {replay.usage && (
-            <details className="mt-4">
+            <details name="search-background" className="mt-4">
               <summary className="label cursor-pointer hover:text-ochre transition-colors">
                 For whoever runs it
               </summary>

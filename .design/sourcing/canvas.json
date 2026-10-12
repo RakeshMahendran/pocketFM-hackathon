@@ -1,0 +1,65 @@
+{
+  "pages": [
+    { "id": "page-1", "name": "The whole app" },
+    { "id": "page-2", "name": "Spec & earlier passes" }
+  ],
+  "artboards": [
+    { "file": "Home.dc.html", "title": "1 · Front door", "page": "page-1", "x": 0, "y": 0, "w": 1440, "h": 900 },
+    { "file": "Scout.dc.html", "title": "2 · Watch it search", "page": "page-1", "x": 1560, "y": 0, "w": 1440, "h": 940 },
+    { "file": "Main.dc.html", "title": "3 · Stories worth making", "page": "page-1", "x": 3120, "y": 0, "w": 1440, "h": 1200 },
+    { "file": "Brief.dc.html", "title": "4 · The brief", "page": "page-1", "x": 4680, "y": 0, "w": 1440, "h": 1020 },
+
+    { "file": "Commissioning.dc.html", "title": "5 · Writing the season", "page": "page-1", "x": 0, "y": 1400, "w": 1440, "h": 860 },
+    { "file": "Shows.dc.html", "title": "6 · Shows we're making", "page": "page-1", "x": 1560, "y": 1400, "w": 1440, "h": 980 },
+    { "file": "Season.dc.html", "title": "7 · One season", "page": "page-1", "x": 3120, "y": 1400, "w": 1440, "h": 1180 },
+    { "file": "Episode.dc.html", "title": "8 · One episode", "page": "page-1", "x": 4680, "y": 1400, "w": 1440, "h": 940 },
+
+    { "file": "Cast.dc.html", "title": "9 · Who else has a story", "page": "page-1", "x": 0, "y": 2800, "w": 1440, "h": 1080 },
+    { "file": "Character.dc.html", "title": "10 · One character", "page": "page-1", "x": 1560, "y": 2800, "w": 1440, "h": 1000 },
+    { "file": "Spinoff.dc.html", "title": "11 · The spin-off, and the proof", "page": "page-1", "x": 3120, "y": 2800, "w": 1440, "h": 1080 },
+
+    { "file": "RowSpec.dc.html", "title": "Row anatomy & states", "page": "page-2", "x": 0, "y": 0, "w": 1440, "h": 560 },
+    { "file": "Before.dc.html", "title": "Where it started", "page": "page-2", "x": 0, "y": 700, "w": 1440, "h": 900 },
+    { "file": "Initial.dc.html", "title": "Structure, unskinned", "page": "page-2", "x": 1560, "y": 700, "w": 1440, "h": 900 },
+    { "file": "DirectionA2.dc.html", "title": "A2 — one line per row", "page": "page-2", "x": 3120, "y": 700, "w": 1440, "h": 900 },
+    { "file": "ModernPulp.dc.html", "title": "Pulp — not chosen", "page": "page-2", "x": 4680, "y": 700, "w": 1440, "h": 900 },
+    { "file": "ModernBroadsheet.dc.html", "title": "Broadsheet — not chosen", "page": "page-2", "x": 6240, "y": 700, "w": 1440, "h": 900 },
+    { "file": "ModernCinema.dc.html", "title": "Cinema — first sketch", "page": "page-2", "x": 7800, "y": 700, "w": 1440, "h": 900 },
+    { "file": "DirectionB.dc.html", "title": "Pitch cards", "page": "page-2", "x": 9360, "y": 700, "w": 1440, "h": 900 }
+  ],
+  "annotations": [
+    {
+      "id": "top-row",
+      "page": "page-1",
+      "x": 0,
+      "y": -230,
+      "w": 620,
+      "text": "THE WHOLE APP — CINEMA\nEleven screens, one system: warm ground, Instrument Serif over Archivo, art tiles with real depth, one filled control per screen, numbers always tabular.\n\nThe rule everywhere: ART AND NUMBERS FIRST, TEXT ON DEMAND. Nothing is deleted — every paragraph the old screens showed still exists, one click down, still reachable by find-in-page.\n\nRow 1 is the path in: front door → the recorded search → the slate → the brief."
+    },
+    {
+      "id": "mid-row",
+      "page": "page-1",
+      "x": 0,
+      "y": 1250,
+      "w": 620,
+      "text": "ROW 2 — MAKING AND RELEASING\nCommissioning shows the work arriving rather than narrating the wait. Shows and Season lead with artwork and the release state; the season page also sells the SECOND product — everyone at the edge of it is a show of their own.\n\nThe season page was the worst screen in the old app: ~1,500 words closed, ~3,000 opened, a 12-name cast list duplicated from /cast, and the hidden_from explanation buried in a 62-word tooltip."
+    },
+    {
+      "id": "bottom-row",
+      "page": "page-1",
+      "x": 0,
+      "y": 2650,
+      "w": 620,
+      "text": "ROW 3 — THE PRODUCT CLAIM\nThis is the half the demo turns on, and the half that most needed the change: /cast was 17 rows × ~72 words, with the same two numbers printed as a sentence next to a bar already showing them.\n\nNow: faces, and one bar each. The character page keeps knows/blind unfolded and at size. The spin-off page keeps the validator report unfolded AND shows the control pair — same character, same moment, written twice, only one allowed to pass. A claim behind a fold is a claim nobody read."
+    },
+    {
+      "id": "spec-note",
+      "page": "page-2",
+      "x": 0,
+      "y": -150,
+      "w": 520,
+      "text": "SPEC AND EARLIER PASSES\nRow anatomy and the three legal states, where it started, and the directions set aside.\n\nSources: Stephen Few's bullet-graph spec (track intensities, no borders or ticks), FBref scouting reports (fixed slot order), the Linear teardown (one job for the accent), NN/g data tables (single-open accordion), Pencil & Paper (tabular numerals, right-aligned)."
+    }
+  ],
+  "launch": { "view": "canvas", "page": "page-1" }
+}

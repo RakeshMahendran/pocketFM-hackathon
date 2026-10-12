@@ -1,4 +1,5 @@
-import { appendFileSync, mkdirSync } from "node:fs";
+import { appendFileSync, mkdirSync, readFileSync } from "node:fs";
+import os from "node:os";
 import path from "node:path";
 
 import type { BrowserContext, Page } from "@playwright/test";
@@ -6,16 +7,21 @@ import type { BrowserContext, Page } from "@playwright/test";
 /**
  * Shared rigging for the browser sweep.
  *
- * Two jobs: put the demo cookie in place (there is no login form, only a name
- * picker that sets `cf_editor`), and record every console line and uncaught
+ * Two jobs: set an optional legacy editor byline for existing fixtures,
+ * and record every console line and uncaught
  * error the browser produced on a route. The recording is appended to a file
  * rather than only asserted on, because a React hydration warning that does not
  * fail a test is still something a producer will see in devtools on stage.
  */
 
+/*
+ * One machine's scratchpad was the default here, so the suite died on `EPERM`
+ * for everyone else before a single test was collected. The override stays —
+ * the demo box points it at a kept directory — but the fallback has to be
+ * somewhere that exists on whatever laptop the checks are run from.
+ */
 export const OUT_DIR =
-  process.env.CF_E2E_OUT ??
-  "C:/Users/RAKESH/AppData/Local/Temp/claude/E--RakeshProfessional-PocketFM-canonforge/fdf58884-1637-4cb4-8560-0f7a0623e9b0/scratchpad/e2e";
+  process.env.CF_E2E_OUT ?? path.join(os.tmpdir(), "canonforge-e2e");
 
 export const SHOTS = path.join(OUT_DIR, "shots");
 const LOG = path.join(OUT_DIR, "console.log.jsonl");
@@ -40,7 +46,12 @@ export const SPINOFF = "story1_denied_identity";
  */
 export const DEMO = "evt_gandhinagar_tribunal";
 /** What the demo season's release line reads, whole and released. */
-export const DEMO_RELEASED = /12 of 12/i;
+// Release state is user-owned and may be partway through the season. Assert
+// what is actually on disk; never release episodes just to satisfy a fixture.
+const demoPublish = JSON.parse(readFileSync(path.resolve(process.cwd(), "../data/stories", DEMO, "publish.json"), "utf8"));
+let demoThrough = 0;
+while (demoPublish.episodes?.[String(demoThrough + 1)]) demoThrough++;
+export const DEMO_RELEASED = new RegExp(`\\b${demoThrough} of 12\\b`, "i");
 
 /** Controls that spend money or change release state. Never clicked. */
 export const FORBIDDEN = [

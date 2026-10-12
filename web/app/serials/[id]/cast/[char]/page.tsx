@@ -1,9 +1,10 @@
 import Link from "next/link";
+import { CharacterArt, Panel, Reveal, Split } from "@/components/ui";
+import { hook } from "@/lib/presentation";
 import { notFound } from "next/navigation";
 
 import { ClearanceBadge } from "@/components/ClearanceBadge";
 import { Fold, FoldGroup } from "@/components/Fold";
-import { KnowledgeSplit } from "@/components/KnowledgeSplit";
 import { NextStep } from "@/components/NextStep";
 import {
   CHARACTER_LOOKUP_EXPLAINED,
@@ -11,7 +12,6 @@ import {
   CHARACTER_WRITE,
   EPISODE_ELSEWHERE,
   FREE_CLICK,
-  KNOWLEDGE_HEADING,
   NOTHING_RECORDED,
   NOT_WRITTEN_YET,
   VIEWS_FOLD,
@@ -346,7 +346,17 @@ export default async function CharacterPage(
       {/* BLOCK ONE — who they are. The pitch joins it: one sentence saying who
           this person is as a lead is identity, not reference, and it was the
           only part of the brief worth reading before deciding anything. */}
-      <header className="mt-6">
+      <div className="character-profile mt-6">
+        <CharacterArt name={name} large />
+        <div>
+          <div className="flex gap-3 items-center flex-wrap">{character?.bible?.clearance && <ClearanceBadge clearance={{status: character.bible.clearance, reasons: []}} />}{standing && <span className="label">{standing.label}</span>}</div>
+          <h1 className="mt-3">{name}</h1>
+          <p className="text-lg text-muted leading-relaxed mt-3">{hook(pitch || want || role || null)}</p>
+          {character && <div className="mt-5 max-w-sm"><Split knows={character.witnessed} blind={character.blind} size="lg" /></div>}
+        </div>
+      </div>
+      <div className="mt-6"><Reveal summary="Character brief" group="character-reference">
+              <header className="mt-6">
         <div className="flex items-center gap-3 flex-wrap">
           {character?.bible?.clearance && (
             <ClearanceBadge
@@ -366,9 +376,9 @@ export default async function CharacterPage(
           )}
         </div>
 
-        <h1 className="font-serif text-4xl tracking-tight mt-4 leading-tight">
+        <h2 className="text-xl">
           {name}
-        </h1>
+        </h2>
 
         {role && (
           <p className="mt-3 text-[0.9375rem] text-muted leading-relaxed prose-col">
@@ -395,6 +405,7 @@ export default async function CharacterPage(
           </p>
         )}
       </header>
+      </Reveal></div>
 
       {!character && (
         <div className="mt-8">
@@ -414,31 +425,14 @@ export default async function CharacterPage(
           Only the move. A character the pipeline would refuse has no move, and
           their way out belongs at the foot of the page with everybody else's
           rather than at the top pre-empting a screen nobody has read yet. */}
-      {character && written === 0 && character.promotable && (
-        <div className="mt-10 max-w-2xl">
-          <NextStep action={CHARACTER_WRITE.action} href={`#${EPISODES_ANCHOR}`}>
-            {CHARACTER_WRITE.plain}
-          </NextStep>
-        </div>
-      )}
+      {character && written === 0 && character.promotable && <div className="mt-4"><Reveal summary="Before you start" group="character-reference"><p>{CHARACTER_WRITE.plain}</p><Link href={`#${EPISODES_ANCHOR}`}>{CHARACTER_WRITE.action} →</Link></Reveal></div>}
 
       {/* BLOCK TWO — the two counts, and the one sentence that says what they
           are. It used to be this plus three headings and three paragraphs
           teaching a reader what the numbers had already told them. */}
-      {character && (
-        <section className="mt-12 border-t border-rule pt-6">
-          <h2 className="label mb-4">{KNOWLEDGE_HEADING}</h2>
-          <KnowledgeSplit
-            witnessed={character.witnessed}
-            blind={character.blind}
-            size="lg"
-            explain
-          />
-        </section>
-      )}
 
       {/* BLOCK THREE — their episodes, and the control that writes another. */}
-      <section className="mt-16" id={EPISODES_ANCHOR}>
+      <Panel className="mt-8"><section id={EPISODES_ANCHOR}>
         <div className="flex items-baseline justify-between gap-6 flex-wrap">
           <h2 className="font-serif text-3xl tracking-tight">{SPINOFF_TITLE}</h2>
           <span className="flex items-baseline gap-4 flex-wrap justify-end label">
@@ -511,9 +505,9 @@ export default async function CharacterPage(
             </div>
           );
 
-          return listFirst ? [episodes, control] : [control, episodes];
+          return listFirst ? [episodes, <Reveal key="more-production" summary="Write another episode" group="character-production">{control}</Reveal>] : [control, episodes];
         })()}
-      </section>
+      </section></Panel>
 
       {/* BLOCK FOUR — everything looked up rather than read. */}
       {character && <LookUp character={character} />}

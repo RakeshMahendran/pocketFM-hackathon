@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { Panel } from "@/components/ui";
+import { StoryArt } from "@/components/StoryArt";
 
 import { readCommission } from "@/lib/commission";
 import { loadCandidate } from "@/lib/data";
@@ -140,6 +142,7 @@ export default async function CommissioningPage(
         {title}
       </h1>
 
+      <div className="workspace-columns mt-8"><StoryArt id={eventId} className="studio-hero-art" /><Panel label="Commission progress">
       {!job && (
         <p className="mt-8 text-sm text-muted prose-col leading-relaxed">
           Nothing has been started for this one yet. Go back and press
@@ -212,6 +215,7 @@ export default async function CommissioningPage(
           )}
         </>
       )}
+      </Panel></div>
     </div>
   );
 }

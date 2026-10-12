@@ -238,7 +238,7 @@ export function ContinuityVerdict({
           assertion; with it, it is a list of things somebody tried. */}
       {attempts.length > 0 &&
         (foldAttempts ? (
-          <details className="group mt-8 border-t border-rule">
+          <details name="validation-attempts" className="group mt-8 border-t border-rule">
             <summary className="py-3 cursor-pointer list-none flex items-baseline justify-between gap-6 hover:text-ochre transition-colors">
               <span className="label">
                 {ATTEMPTS_HEADING}

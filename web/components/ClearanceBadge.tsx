@@ -27,10 +27,10 @@ export function ClearanceBadge({
   return (
     <span
       title={words.plain}
-      className={`inline-flex items-center border rounded-sm whitespace-nowrap ${tone} ${
+      className={`inline-flex max-w-full items-center border rounded-sm ${tone} ${
         size === "lg"
-          ? "px-2.5 py-1 text-xs tracking-[0.12em] uppercase"
-          : "px-2 py-0.5 text-[0.625rem] tracking-[0.14em] uppercase"
+          ? "px-2.5 py-1 text-xs"
+          : "px-2 py-0.5 text-[0.6875rem]"
       }`}
     >
       {words.short}

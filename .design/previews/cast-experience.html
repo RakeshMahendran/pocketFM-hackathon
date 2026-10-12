@@ -1,0 +1,455 @@
+<div id="cf-cast-preview">
+  <style>
+    #cf-cast-preview {
+      --cf-ground: light-dark(#f2eee7, #100e0c);
+      --cf-surface: light-dark(#ffffff, #191612);
+      --cf-surface-soft: light-dark(#e9e2d8, #211d18);
+      --cf-ink: light-dark(#201b16, #f1ebe2);
+      --cf-muted: light-dark(#6f665d, #a69b8e);
+      --cf-line: light-dark(rgba(32, 27, 22, 0.13), rgba(255, 255, 255, 0.10));
+      --cf-accent: light-dark(#8d5525, #d9b27c);
+      --cf-accent-ink: light-dark(#ffffff, #17110b);
+      color: var(--cf-ink);
+      font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
+    }
+
+    #cf-cast-preview * { box-sizing: border-box; }
+
+    #cf-cast-preview .cf-window {
+      overflow: hidden;
+      background: var(--cf-ground);
+      min-height: 680px;
+    }
+
+    #cf-cast-preview .cf-topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 18px 30px;
+      border-bottom: 1px solid var(--cf-line);
+    }
+
+    #cf-cast-preview .cf-brand {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
+    }
+
+    #cf-cast-preview .cf-progress {
+      color: var(--cf-muted);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    #cf-cast-preview .cf-main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 34px 30px 42px;
+    }
+
+    #cf-cast-preview .cf-crumb {
+      color: var(--cf-muted);
+      font-size: 13px;
+    }
+
+    #cf-cast-preview .cf-intro {
+      max-width: 650px;
+      margin: 30px 0 28px;
+    }
+
+    #cf-cast-preview h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(34px, 5vw, 58px);
+      font-weight: 400;
+      letter-spacing: -0.035em;
+    }
+
+    #cf-cast-preview .cf-intro p {
+      max-width: 590px;
+      margin: 12px 0 0;
+      color: var(--cf-muted);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    #cf-cast-preview .cf-feature {
+      display: grid;
+      grid-template-columns: minmax(280px, 0.9fr) minmax(340px, 1.1fr);
+      min-height: 330px;
+      overflow: hidden;
+      border-radius: 24px;
+      background: var(--cf-surface);
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.16);
+    }
+
+    #cf-cast-preview .cf-portrait {
+      position: relative;
+      min-height: 330px;
+      background:
+        radial-gradient(circle at 49% 34%, rgba(224, 163, 104, 0.64) 0 9%, transparent 10%),
+        radial-gradient(ellipse at 50% 44%, rgba(83, 44, 28, 0.92) 0 17%, transparent 18%),
+        radial-gradient(ellipse at 50% 103%, rgba(42, 68, 79, 0.95) 0 42%, transparent 43%),
+        radial-gradient(circle at 22% 18%, rgba(125, 55, 62, 0.88), transparent 42%),
+        linear-gradient(145deg, #2c2020, #11191c 72%);
+    }
+
+    #cf-cast-preview .cf-portrait::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(10, 9, 8, 0.72), transparent 55%);
+    }
+
+    #cf-cast-preview .cf-portrait-label {
+      position: absolute;
+      z-index: 1;
+      left: 24px;
+      bottom: 22px;
+      color: #fff8ed;
+    }
+
+    #cf-cast-preview .cf-portrait-label strong {
+      display: block;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      font-weight: 400;
+    }
+
+    #cf-cast-preview .cf-portrait-label span {
+      display: block;
+      margin-top: 5px;
+      color: rgba(255, 248, 237, 0.72);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    #cf-cast-preview .cf-decision {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 34px 38px;
+    }
+
+    #cf-cast-preview .cf-suggestion {
+      margin: 0 0 13px;
+      color: var(--cf-muted);
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    #cf-cast-preview .cf-premise {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(23px, 3vw, 34px);
+      line-height: 1.18;
+      font-weight: 400;
+    }
+
+    #cf-cast-preview .cf-split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+      margin-top: 27px;
+    }
+
+    #cf-cast-preview .cf-split-value {
+      display: block;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 33px;
+    }
+
+    #cf-cast-preview .cf-blind .cf-split-value { color: var(--cf-accent); }
+
+    #cf-cast-preview .cf-split-label {
+      display: block;
+      margin-top: 2px;
+      color: var(--cf-muted);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    #cf-cast-preview .cf-track {
+      height: 6px;
+      margin-top: 13px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: var(--cf-surface-soft);
+    }
+
+    #cf-cast-preview .cf-track span {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: var(--cf-accent);
+      transition: width 180ms ease;
+    }
+
+    #cf-cast-preview .cf-primary {
+      align-self: flex-start;
+      margin-top: 28px;
+      border: 0;
+      border-radius: 999px;
+      padding: 13px 21px;
+      background: var(--cf-accent);
+      color: var(--cf-accent-ink);
+      font: inherit;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    #cf-cast-preview .cf-primary:disabled {
+      cursor: not-allowed;
+      opacity: 0.45;
+    }
+
+    #cf-cast-preview .cf-more {
+      margin-top: 32px;
+    }
+
+    #cf-cast-preview .cf-more-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 14px;
+    }
+
+    #cf-cast-preview .cf-more h2 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+      font-weight: 400;
+    }
+
+    #cf-cast-preview .cf-more small { color: var(--cf-muted); }
+
+    #cf-cast-preview .cf-people {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    #cf-cast-preview .cf-person {
+      display: grid;
+      grid-template-columns: 48px minmax(0, 1fr);
+      align-items: center;
+      gap: 12px;
+      min-height: 68px;
+      border: 1px solid transparent;
+      border-radius: 14px;
+      padding: 9px;
+      color: var(--cf-ink);
+      background: transparent;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    #cf-cast-preview .cf-person:hover,
+    #cf-cast-preview .cf-person[aria-pressed="true"] {
+      border-color: var(--cf-line);
+      background: var(--cf-surface);
+    }
+
+    #cf-cast-preview .cf-avatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: linear-gradient(145deg, #665044, #202733);
+    }
+
+    #cf-cast-preview .cf-person:nth-child(2) .cf-avatar { background: linear-gradient(145deg, #314b56, #1d2226); }
+    #cf-cast-preview .cf-person:nth-child(3) .cf-avatar { background: linear-gradient(145deg, #64572f, #292318); }
+
+    #cf-cast-preview .cf-person strong {
+      display: block;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    #cf-cast-preview .cf-person span {
+      display: block;
+      margin-top: 3px;
+      overflow: hidden;
+      color: var(--cf-muted);
+      font-size: 12px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    #cf-cast-preview details {
+      margin-top: 20px;
+      border-top: 1px solid var(--cf-line);
+      padding-top: 16px;
+      color: var(--cf-muted);
+    }
+
+    #cf-cast-preview summary {
+      color: var(--cf-ink);
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    #cf-cast-preview details p {
+      max-width: 680px;
+      margin: 12px 0 0;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 760px) {
+      #cf-cast-preview .cf-topbar { padding: 16px 18px; }
+      #cf-cast-preview .cf-progress { max-width: 130px; text-align: right; }
+      #cf-cast-preview .cf-main { padding: 26px 18px 34px; }
+      #cf-cast-preview .cf-feature { grid-template-columns: 1fr; }
+      #cf-cast-preview .cf-portrait { min-height: 260px; }
+      #cf-cast-preview .cf-decision { padding: 28px 24px; }
+      #cf-cast-preview .cf-people { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <section class="cf-window" aria-label="CanonForge cast screen concept">
+    <header class="cf-topbar">
+      <div class="cf-brand">CanonForge</div>
+      <div class="cf-progress">3 of 4 · Choose a side character</div>
+    </header>
+
+    <main class="cf-main">
+      <div class="cf-crumb">The Century Hitters / Cast</div>
+
+      <section class="cf-intro">
+        <h1>Whose story should continue?</h1>
+        <p>Every character saw only part of the original story. What they never knew creates room for a new show without breaking canon.</p>
+      </section>
+
+      <section class="cf-feature" aria-live="polite">
+        <div class="cf-portrait" aria-hidden="true">
+          <div class="cf-portrait-label">
+            <strong data-cf-name>Jignesh</strong>
+            <span data-cf-role>Village batsman · 19 years old</span>
+          </div>
+        </div>
+
+        <div class="cf-decision">
+          <p class="cf-suggestion" data-cf-status>Suggested next story</p>
+          <h2 class="cf-premise" data-cf-premise>He believes he was chosen for a real tournament. He does not know the league was staged.</h2>
+
+          <div class="cf-split" aria-label="Character knowledge split">
+            <div>
+              <span class="cf-split-value tabular-nums" data-cf-knows>4</span>
+              <span class="cf-split-label">Canon moments known</span>
+            </div>
+            <div class="cf-blind">
+              <span class="cf-split-value tabular-nums" data-cf-blind>18</span>
+              <span class="cf-split-label">Canon moments blind to</span>
+            </div>
+          </div>
+          <div class="cf-track" role="progressbar" aria-label="Share of canon moments the character is blind to" aria-valuemin="0" aria-valuemax="100" aria-valuenow="82">
+            <span data-cf-bar style="width:81.8%"></span>
+          </div>
+
+          <button class="cf-primary" type="button" data-cf-action>Explore Jignesh’s story</button>
+        </div>
+      </section>
+
+      <section class="cf-more">
+        <div class="cf-more-head">
+          <h2>Other perspectives</h2>
+          <small>Select a person to compare</small>
+        </div>
+
+        <div class="cf-people" role="group" aria-label="Other cast members">
+          <button class="cf-person" type="button" aria-pressed="false" data-character="rafiq">
+            <span class="cf-avatar" aria-hidden="true"></span>
+            <span><strong>Rafiq</strong><span>Organiser</span></span>
+          </button>
+          <button class="cf-person" type="button" aria-pressed="false" data-character="bhavlo">
+            <span class="cf-avatar" aria-hidden="true"></span>
+            <span><strong>Bhavlo</strong><span>Umpire</span></span>
+          </button>
+          <button class="cf-person" type="button" aria-pressed="false" data-character="pankaj">
+            <span class="cf-avatar" aria-hidden="true"></span>
+            <span><strong>Pankaj</strong><span>Landowner</span></span>
+          </button>
+        </div>
+
+        <details name="cast-supporting-information">
+          <summary>How this recommendation works</summary>
+          <p>CanonForge compares the moments each character witnessed with the moments hidden from them. It recommends a character only when those gaps support a distinct, continuing story. The full beat-by-beat evidence remains available on the character page.</p>
+        </details>
+      </section>
+    </main>
+  </section>
+
+  <script>
+    (() => {
+      const root = document.getElementById("cf-cast-preview");
+      const people = {
+        jignesh: {
+          name: "Jignesh",
+          role: "Village batsman · 19 years old",
+          status: "Suggested next story",
+          premise: "He believes he was chosen for a real tournament. He does not know the league was staged.",
+          knows: 4,
+          blind: 18,
+          canExplore: true
+        },
+        rafiq: {
+          name: "Rafiq",
+          role: "Organiser · Runs the stream",
+          status: "Another possible perspective",
+          premise: "He built the fake league to clear a debt before the people behind it came looking.",
+          knows: 18,
+          blind: 4,
+          canExplore: true
+        },
+        bhavlo: {
+          name: "Bhavlo",
+          role: "Umpire · Signals fixed outcomes",
+          status: "Another possible perspective",
+          premise: "He knows more than the players and less than the organiser—and must survive between them.",
+          knows: 8,
+          blind: 14,
+          canExplore: true
+        },
+        pankaj: {
+          name: "Pankaj",
+          role: "Landowner · Positions the cameras",
+          status: "Visible, but not recommended",
+          premise: "Canon records too little independent story to recommend commissioning his show yet.",
+          knows: 5,
+          blind: 16,
+          canExplore: false
+        }
+      };
+
+      const render = (id) => {
+        const person = people[id];
+        root.querySelector("[data-cf-name]").textContent = person.name;
+        root.querySelector("[data-cf-role]").textContent = person.role;
+        root.querySelector("[data-cf-status]").textContent = person.status;
+        root.querySelector("[data-cf-premise]").textContent = person.premise;
+        root.querySelector("[data-cf-knows]").textContent = person.knows;
+        root.querySelector("[data-cf-blind]").textContent = person.blind;
+        const percentage = Math.round((person.blind / (person.knows + person.blind)) * 100);
+        root.querySelector("[data-cf-bar]").style.width = `${percentage}%`;
+        root.querySelector(".cf-track").setAttribute("aria-valuenow", String(percentage));
+        const action = root.querySelector("[data-cf-action]");
+        action.textContent = person.canExplore ? `Explore ${person.name}’s story` : "Not recommended yet";
+        action.disabled = !person.canExplore;
+        root.querySelectorAll("[data-character]").forEach((button) => {
+          button.setAttribute("aria-pressed", String(button.dataset.character === id));
+        });
+      };
+
+      root.querySelectorAll("[data-character]").forEach((button) => {
+        button.addEventListener("click", () => render(button.dataset.character));
+      });
+    })();
+  </script>
+</div>

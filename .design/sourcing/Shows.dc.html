@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; font-family: Archivo, system-ui, sans-serif; }
+    a { color: #d9b27c; }
+    .ser { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+    .k { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #8d8377; }
+    .n { font-variant-numeric: tabular-nums; }
+    .card { background: linear-gradient(180deg,#1d1a17,#17140f); border: 1px solid rgba(255,255,255,.08); border-radius: 14px; overflow:hidden }
+    .grain { position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px); background-size: 3px 3px; }
+    .prog { height:4px; border-radius:2px; background:rgba(255,255,255,.1); overflow:hidden }
+    .prog > i { display:block; height:4px; background:#d9b27c; border-radius:2px }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 980px; background: #100e0c; color: #efe9e0; overflow: hidden">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 44px; height: 58px; border-bottom: 1px solid rgba(255,255,255,.07)">
+    <div style="display: flex; align-items: center; gap: 30px">
+      <span class="ser" style="font-size: 21px">FlakersFM</span>
+      <span class="k">Find stories</span>
+      <span class="k">Make the show</span>
+      <span class="k" style="color:#efe9e0">Release</span>
+      <span class="k">Spin off</span>
+    </div>
+    <span class="k">Priya Raghavan · Commissioning</span>
+  </div>
+
+  <div style="padding: 26px 44px 0">
+    <div style="display:flex; align-items:flex-end; justify-content:space-between">
+      <div class="ser" style="font-size:34px">Shows we're making</div>
+      <div style="display:flex; gap:34px">
+        <div><div class="n ser" style="font-size:26px">8</div><div class="k">shows</div></div>
+        <div><div class="n ser" style="font-size:26px; color:#d9b27c">10</div><div class="k">of 97 episodes out</div></div>
+        <div><div class="n ser" style="font-size:26px">4</div><div class="k">loose ends open</div></div>
+      </div>
+    </div>
+
+    <div style="display:flex; gap:8px; margin-top:18px; align-items:center">
+      <span style="border:1px solid rgba(217,178,124,.6); color:#d9b27c; border-radius:999px; padding:4px 12px; font-size:10.5px; letter-spacing:.12em; text-transform:uppercase">Live</span>
+      <span style="border:1px solid rgba(255,255,255,.15); color:#8d8377; border-radius:999px; padding:4px 12px; font-size:10.5px; letter-spacing:.12em; text-transform:uppercase">Written, not live</span>
+      <span style="border:1px solid rgba(255,255,255,.15); color:#8d8377; border-radius:999px; padding:4px 12px; font-size:10.5px; letter-spacing:.12em; text-transform:uppercase">Everything</span>
+    </div>
+  </div>
+
+  <div style="padding: 22px 44px; display:grid; grid-template-columns: repeat(4,1fr); gap:22px">
+
+    <div class="card">
+      <div style="height:190px; position:relative; background:radial-gradient(115% 90% at 22% 14%, #7a4059 0%, rgba(122,64,89,0) 58%), linear-gradient(155deg,#2a2028,#13100f)">
+        <div class="grain"></div>
+        <div style="position:absolute; inset:0; background:linear-gradient(180deg,rgba(16,14,12,0) 42%,rgba(16,14,12,.88) 100%)"></div>
+        <div style="position:absolute; left:14px; top:13px; border:1px solid rgba(127,166,106,.5); color:#7fa66a; border-radius:999px; padding:3px 10px; font-size:9.5px; letter-spacing:.12em; text-transform:uppercase">Live</div>
+        <div style="position:absolute; left:16px; right:16px; bottom:14px">
+          <div class="ser" style="font-size:21px; line-height:1.14">The Man Who Answers to a Dead Name</div>
+        </div>
+      </div>
+      <div style="padding:14px 16px 16px">
+        <div class="prog"><i style="width:36%"></i></div>
+        <div style="display:flex; justify-content:space-between; margin-top:8px">
+          <span class="k">5 of 14 out</span><span class="k">17 in cast</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="height:190px; position:relative; background:radial-gradient(115% 90% at 74% 18%, #6b5a3a 0%, rgba(107,90,58,0) 58%), linear-gradient(155deg,#262117,#13100f)">
+        <div class="grain"></div>
+        <div style="position:absolute; inset:0; background:linear-gradient(180deg,rgba(16,14,12,0) 42%,rgba(16,14,12,.88) 100%)"></div>
+        <div style="position:absolute; left:14px; top:13px; border:1px solid rgba(127,166,106,.5); color:#7fa66a; border-radius:999px; padding:3px 10px; font-size:9.5px; letter-spacing:.12em; text-transform:uppercase">Live</div>
+        <div style="position:absolute; left:16px; right:16px; bottom:14px">
+          <div class="ser" style="font-size:21px; line-height:1.14">The Court That Never Was</div>
+        </div>
+      </div>
+      <div style="padding:14px 16px 16px">
+        <div class="prog"><i style="width:100%"></i></div>
+        <div style="display:flex; justify-content:space-between; margin-top:8px">
+          <span class="k">12 of 12 out</span><span class="k">13 in cast</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="height:190px; position:relative; background:radial-gradient(115% 90% at 30% 78%, #4c6b4a 0%, rgba(76,107,74,0) 60%), linear-gradient(155deg,#1f2620,#13100f)">
+        <div class="grain"></div>
+        <div style="position:absolute; inset:0; background:linear-gradient(180deg,rgba(16,14,12,0) 42%,rgba(16,14,12,.88) 100%)"></div>
+        <div style="position:absolute; left:14px; top:13px" class="k">Not live yet</div>
+        <div style="position:absolute; left:16px; right:16px; bottom:14px">
+          <div class="ser" style="font-size:21px; line-height:1.14">Nine Days of the Year</div>
+        </div>
+      </div>
+      <div style="padding:14px 16px 16px">
+        <div class="prog"><i style="width:0%"></i></div>
+        <div style="display:flex; justify-content:space-between; margin-top:8px">
+          <span class="k">0 of 14 out</span><span class="k">11 in cast</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="height:190px; position:relative; background:radial-gradient(115% 90% at 62% 26%, #3f587a 0%, rgba(63,88,122,0) 58%), linear-gradient(155deg,#1a1f28,#13100f)">
+        <div class="grain"></div>
+        <div style="position:absolute; inset:0; background:linear-gradient(180deg,rgba(16,14,12,0) 42%,rgba(16,14,12,.88) 100%)"></div>
+        <div style="position:absolute; left:14px; top:13px" class="k">Not live yet</div>
+        <div style="position:absolute; left:16px; right:16px; bottom:14px">
+          <div class="ser" style="font-size:21px; line-height:1.14">The Long Deception</div>
+        </div>
+      </div>
+      <div style="padding:14px 16px 16px">
+        <div class="prog"><i style="width:0%"></i></div>
+        <div style="display:flex; justify-content:space-between; margin-top:8px">
+          <span class="k">0 of 12 out</span><span class="k">9 in cast</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- the second product, on the shelf beside the first -->
+  <div style="padding: 6px 44px 0">
+    <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:14px">
+      <span class="ser" style="font-size:22px">Spin-offs made from them</span>
+      <span class="k">4 written · every one checked against its season</span>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:22px">
+      <div class="card" style="display:flex; align-items:center; gap:13px; padding:12px 14px">
+        <span style="width:46px;height:46px;border-radius:10px;background:linear-gradient(140deg,#4c6b4a,#1f2620); flex-shrink:0"></span>
+        <span style="min-width:0">
+          <span class="ser" style="font-size:17px; display:block">The Exception Register</span>
+          <span class="k">Hardik · saw 9 · sealed 37</span>
+        </span>
+      </div>
+      <div class="card" style="display:flex; align-items:center; gap:13px; padding:12px 14px">
+        <span style="width:46px;height:46px;border-radius:10px;background:linear-gradient(140deg,#6b4356,#241a20); flex-shrink:0"></span>
+        <span style="min-width:0">
+          <span class="ser" style="font-size:17px; display:block">What Manjula Filed</span>
+          <span class="k">Manjula · saw 7 · sealed 39</span>
+        </span>
+      </div>
+      <div class="card" style="display:flex; align-items:center; gap:13px; padding:12px 14px">
+        <span style="width:46px;height:46px;border-radius:10px;background:linear-gradient(140deg,#78633f,#28221a); flex-shrink:0"></span>
+        <span style="min-width:0">
+          <span class="ser" style="font-size:17px; display:block">Counter Four</span>
+          <span class="k">Sarika · saw 11 · sealed 35</span>
+        </span>
+      </div>
+      <div style="border:1px dashed rgba(255,255,255,.12); border-radius:14px; display:flex; align-items:center; justify-content:center; padding:12px">
+        <span class="k">Pick anyone from any cast</span>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

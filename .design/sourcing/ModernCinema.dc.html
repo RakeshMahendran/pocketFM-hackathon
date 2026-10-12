@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; font-family: Archivo, system-ui, sans-serif; }
+    a { color: #d9b27c; } a:hover { color: #f0cd9c; }
+    .ser { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+    .kick { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 500; color: #8d8377; }
+    .num { font-variant-numeric: tabular-nums; font-weight: 500; }
+    .tile {
+      border-radius: 14px; overflow: hidden; position: relative;
+      box-shadow: 0 1px 0 rgba(255,255,255,0.05) inset, 0 18px 40px -24px rgba(0,0,0,0.9);
+    }
+    .card {
+      background: linear-gradient(180deg, #1d1a17 0%, #17140f 100%);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 14px; padding: 0 0 16px; overflow: hidden;
+    }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 900px; background: #100e0c; color: #efe9e0; overflow: hidden; display: flex; flex-direction: column">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 48px; height: 64px; flex-shrink: 0">
+    <div style="display: flex; align-items: center; gap: 32px">
+      <span class="ser" style="font-size: 23px; letter-spacing: -0.01em">FlakersFM</span>
+      <span class="kick" style="color: #efe9e0">Find stories</span>
+      <span class="kick">Make the show</span>
+      <span class="kick">Release</span>
+      <span class="kick">Spin off</span>
+    </div>
+    <span class="kick">Priya Raghavan</span>
+  </div>
+
+  <!-- HERO -->
+  <div style="display: grid; grid-template-columns: 560px 1fr; gap: 40px; padding: 6px 48px 30px; flex-shrink: 0">
+
+    <!-- art tile: gradient field stands in for cover art -->
+    <div class="tile" style="height: 330px; background:
+        radial-gradient(120% 90% at 20% 15%, #6f3b52 0%, rgba(111,59,82,0) 58%),
+        radial-gradient(110% 100% at 88% 82%, #3d5d6b 0%, rgba(61,93,107,0) 62%),
+        linear-gradient(155deg, #241c24 0%, #14100f 100%)">
+      <div style="position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px); background-size: 3px 3px"></div>
+      <div style="position: absolute; left: 26px; bottom: 24px; right: 26px">
+        <div class="kick" style="color: rgba(239,233,224,0.8)">Denied identity · Madhya Pradesh · 2025</div>
+        <div class="ser" style="font-size: 40px; line-height: 1.05; margin-top: 8px">The Mandsaur Woman<br>Who Was Already Cremated</div>
+      </div>
+      <div style="position: absolute; right: 22px; top: 20px; background: rgba(16,14,12,0.55); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.14); border-radius: 999px; padding: 7px 15px">
+        <span class="num" style="font-size: 15px">47</span><span class="kick" style="color: rgba(239,233,224,0.66)">&nbsp;/50</span>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; justify-content: center">
+      <div class="kick" style="color: #d9b27c">The search ranked this first, of thirty</div>
+      <div class="ser" style="font-size: 30px; line-height: 1.28; margin-top: 14px; max-width: 620px">
+        “Your family performs your funeral, strangers are punished for your death,
+        and returning home does not prove you are alive.”
+      </div>
+
+      <div style="display: flex; gap: 42px; margin-top: 26px">
+        <div>
+          <div class="kick">Season</div>
+          <div class="num" style="font-size: 24px; margin-top: 3px">180 <span style="font-size: 13px; color: #8d8377">eps · ~6 months</span></div>
+        </div>
+        <div>
+          <div class="kick">Strengths</div>
+          <div style="display: flex; gap: 5px; align-items: flex-end; height: 24px; margin-top: 6px">
+            <span style="width:7px;height:24px;background:rgba(255,255,255,0.07);display:flex;align-items:flex-end;border-radius:2px"><span style="width:7px;height:21px;background:#d9b27c;border-radius:2px"></span></span>
+            <span style="width:7px;height:24px;background:rgba(255,255,255,0.07);display:flex;align-items:flex-end;border-radius:2px"><span style="width:7px;height:24px;background:#efe9e0;border-radius:2px"></span></span>
+            <span style="width:7px;height:24px;background:rgba(255,255,255,0.07);display:flex;align-items:flex-end;border-radius:2px"><span style="width:7px;height:24px;background:#efe9e0;border-radius:2px"></span></span>
+            <span style="width:7px;height:24px;background:rgba(255,255,255,0.07);display:flex;align-items:flex-end;border-radius:2px"><span style="width:7px;height:21px;background:#efe9e0;border-radius:2px"></span></span>
+            <span style="width:7px;height:24px;background:rgba(255,255,255,0.07);display:flex;align-items:flex-end;border-radius:2px"><span style="width:7px;height:21px;background:#efe9e0;border-radius:2px"></span></span>
+          </div>
+        </div>
+        <div>
+          <div class="kick">Legal</div>
+          <div style="font-size: 14px; margin-top: 5px; color: #efe9e0">Fictionalize first</div>
+        </div>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 16px; margin-top: 28px">
+        <div style="background: #efe9e0; color: #100e0c; font-size: 14px; font-weight: 600; padding: 12px 22px; border-radius: 999px">Open the brief</div>
+        <span class="kick">Opening spends nothing</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHELF -->
+  <div style="padding: 0 48px">
+    <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 14px">
+      <span class="ser" style="font-size: 21px">Also worth making</span>
+      <span class="kick">Sort · total / engine / episodes</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px">
+
+      <div class="card">
+        <div style="height: 104px; background: radial-gradient(100% 120% at 25% 10%, #4c6b4a 0%, rgba(76,107,74,0) 60%), linear-gradient(150deg, #1f2620 0%, #14120f 100%); position: relative">
+          <div style="position:absolute;right:10px;top:10px;background:rgba(16,14,12,0.6);border:1px solid rgba(255,255,255,0.12);border-radius:999px;padding:3px 10px" class="num">47</div>
+        </div>
+        <div style="padding: 13px 16px 0">
+          <div class="kick">Secret status · 180 eps</div>
+          <div class="ser" style="font-size: 19px; line-height: 1.18; margin-top: 5px; height: 46px">The Beggar Who Collected Interest</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="height: 104px; background: radial-gradient(100% 120% at 75% 15%, #6b5a3a 0%, rgba(107,90,58,0) 60%), linear-gradient(150deg, #26211a 0%, #14120f 100%); position: relative">
+          <div style="position:absolute;right:10px;top:10px;background:rgba(16,14,12,0.6);border:1px solid rgba(255,255,255,0.12);border-radius:999px;padding:3px 10px" class="num">47</div>
+        </div>
+        <div style="padding: 13px 16px 0">
+          <div class="kick">Secret status · 150 eps</div>
+          <div class="ser" style="font-size: 19px; line-height: 1.18; margin-top: 5px; height: 46px">The Bank Manager's Fifteen Accounts</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="height: 104px; background: radial-gradient(100% 120% at 30% 80%, #5a3a4a 0%, rgba(90,58,74,0) 62%), linear-gradient(150deg, #231a1f 0%, #14120f 100%); position: relative">
+          <div style="position:absolute;right:10px;top:10px;background:rgba(16,14,12,0.6);border:1px solid rgba(255,255,255,0.12);border-radius:999px;padding:3px 10px" class="num">46</div>
+        </div>
+        <div style="padding: 13px 16px 0">
+          <div class="kick">Family betrayal · 180 eps</div>
+          <div class="ser" style="font-size: 19px; line-height: 1.18; margin-top: 5px; height: 46px">The Son Who Erased the Heirs</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="height: 104px; background: radial-gradient(100% 120% at 60% 20%, #3a4f6b 0%, rgba(58,79,107,0) 60%), linear-gradient(150deg, #1a1f26 0%, #14120f 100%); position: relative">
+          <div style="position:absolute;right:10px;top:10px;background:rgba(16,14,12,0.6);border:1px solid rgba(255,255,255,0.12);border-radius:999px;padding:3px 10px" class="num">46</div>
+        </div>
+        <div style="padding: 13px 16px 0">
+          <div class="kick">Bargain comes due · 180 eps</div>
+          <div class="ser" style="font-size: 19px; line-height: 1.18; margin-top: 5px; height: 46px">The Twenty Cheques for One House</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

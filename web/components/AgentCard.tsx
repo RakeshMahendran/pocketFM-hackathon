@@ -63,7 +63,7 @@ export function AgentCard({
       )}
 
       {command && (
-        <details className="px-6 pb-5">
+        <details name="agent-commands" className="px-6 pb-5">
           <summary className="label cursor-pointer hover:text-ochre list-none">
             {FOR_THE_OPERATOR}
           </summary>

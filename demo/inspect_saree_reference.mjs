@@ -1,0 +1,11 @@
+import { readFileSync } from 'node:fs';
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+const { chromium } = require('../web/node_modules/playwright');
+const browser = await chromium.launch({ headless: true });
+const page = await browser.newPage({ viewport: { width: 900, height: 1200 } });
+const data = readFileSync('E:/D drive/Downloads/113063971.avif').toString('base64');
+await page.setContent(`<style>body{margin:0;background:#eee}img{max-width:900px;max-height:1200px;object-fit:contain}</style><img src="data:image/avif;base64,${data}">`);
+await page.locator('img').evaluate(async img => { await img.decode(); });
+await page.locator('img').screenshot({ path: 'demo/avif-saree-reference.png' });
+await browser.close();

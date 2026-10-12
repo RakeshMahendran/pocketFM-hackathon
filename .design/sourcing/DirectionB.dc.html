@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+    a { color: #c8913f; } a:hover { color: #e0a955; }
+    .lbl {
+      font-size: 11px; line-height: 16px; letter-spacing: 0.12em;
+      text-transform: uppercase; color: #807c74;
+    }
+    .num { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-variant-numeric: tabular-nums; }
+    .card {
+      border: 1px solid rgba(255,255,255,0.06);
+      background: #121214;
+      border-radius: 6px;
+      padding: 22px 24px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .strip { display: flex; gap: 5px; align-items: flex-end; height: 22px; }
+    .slot { width: 6px; height: 22px; background: rgba(255,255,255,0.06); display: flex; align-items: flex-end; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 900px; background: #0b0b0c; color: #ece7dd; overflow: hidden; display: flex; flex-direction: column">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 40px; height: 56px; border-bottom: 1px solid rgba(255,255,255,0.06); flex-shrink: 0">
+    <div style="display: flex; align-items: center; gap: 32px">
+      <span style="font-family: Georgia, serif; font-size: 17px">FlakersFM</span>
+      <span class="lbl" style="color: #ece7dd">Stories worth making</span>
+      <span class="lbl">Shows we're making</span>
+    </div>
+    <span class="lbl">Priya Raghavan · Commissioning</span>
+  </div>
+
+  <div style="display: flex; align-items: flex-end; justify-content: space-between; padding: 22px 40px 18px; border-bottom: 1px solid rgba(255,255,255,0.06); flex-shrink: 0">
+    <div>
+      <div style="font-family: Georgia, serif; font-size: 26px; line-height: 32px">Stories worth making</div>
+      <div class="lbl" style="margin-top: 6px">30 found · searched 2026-07-25 · sorted best first</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 20px">
+      <span class="lbl">Sort: total · engine · episodes</span>
+      <div style="background: #c8913f; color: #0b0b0c; font-size: 13px; font-weight: 500; padding: 9px 16px; border-radius: 6px">Open the top pick →</div>
+    </div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 20px 40px">
+
+    <!-- CARD 1 -->
+    <div class="card">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px">
+        <div>
+          <div class="lbl">Denied identity · 2025 · Madhya Pradesh</div>
+          <div style="font-family: Georgia, serif; font-size: 21px; line-height: 27px; margin-top: 7px">The Mandsaur Woman Who Was Already Cremated</div>
+        </div>
+        <div style="text-align: right; flex-shrink: 0">
+          <div class="num" style="font-size: 28px; line-height: 30px">47</div>
+          <div class="lbl" style="font-size: 9px">of 50</div>
+        </div>
+      </div>
+
+      <div style="border-left: 2px solid #c8913f; padding-left: 14px">
+        <div class="lbl" style="color: #c8913f">Why it sells</div>
+        <div style="font-family: Georgia, serif; font-size: 15px; line-height: 1.6; margin-top: 5px">
+          Your family performs your funeral, strangers are punished for your death, and returning home does not prove you are alive.
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 13px; margin-top: 2px">
+        <div class="strip">
+          <span class="slot"><span style="width: 6px; height: 19px; background: #c8913f"></span></span>
+          <span class="slot"><span style="width: 6px; height: 22px; background: #ece7dd"></span></span>
+          <span class="slot"><span style="width: 6px; height: 22px; background: #ece7dd"></span></span>
+          <span class="slot"><span style="width: 6px; height: 19px; background: #ece7dd"></span></span>
+          <span class="slot"><span style="width: 6px; height: 19px; background: #ece7dd"></span></span>
+        </div>
+        <div style="display: flex; gap: 22px; align-items: baseline">
+          <span><span class="num" style="font-size: 15px">180</span> <span class="lbl" style="font-size: 9px">episodes</span></span>
+          <span class="lbl">Fictionalize first</span>
+          <span class="lbl" style="color: #a29e96">▸ the case against</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px">
+        <div>
+          <div class="lbl">Secret status · 2026 · Indore</div>
+          <div style="font-family: Georgia, serif; font-size: 21px; line-height: 27px; margin-top: 7px">The Beggar Who Collected Interest</div>
+        </div>
+        <div style="text-align: right; flex-shrink: 0">
+          <div class="num" style="font-size: 28px; line-height: 30px">47</div>
+          <div class="lbl" style="font-size: 9px">of 50</div>
+        </div>
+      </div>
+
+      <div style="border-left: 2px solid #c8913f; padding-left: 14px">
+        <div class="lbl" style="color: #c8913f">Why it sells</div>
+        <div style="font-family: Georgia, serif; font-size: 15px; line-height: 1.6; margin-top: 5px">
+          The person everyone pities has been studying them, earning from them, and hiding a second life in plain sight.
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 13px; margin-top: 2px">
+        <div class="strip">
+          <span class="slot"><span style="width: 6px; height: 19px; background: #c8913f"></span></span>
+          <span class="slot"><span style="width: 6px; height: 22px; background: #ece7dd"></span></span>
+          <span class="slot"><span style="width: 6px; height: 22px; background: #ece7dd"></span></span>
+          <span class="slot"><span style="width: 6px; height: 19px; background: #ece7dd"></span></span>
+          <span class="slot"><span style="width: 6px; height: 19px; background: #ece7dd"></span></span>
+        </div>
+        <div style="display: flex; gap: 22px; align-items: baseline">
+          <span><span class="num" style="font-size: 15px">180</span> <span class="lbl" style="font-size: 9px">episodes</span></span>
+          <span class="lbl">Fictionalize first</span>
+          <span class="lbl" style="color: #a29e96">▸ the case against</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px">
+        <div>
+          <div class="lbl">Secret status · 2002 · Amritsar</div>
+          <div style="font-family: Georgia, serif; font-size: 21px; line-height: 27px; margin-top: 7px">The Bank Manager's Fifteen Accounts</div>
+        </div>
+        <div style="text-align: right; flex-shrink: 0">
+          <div class="num" style="font-size: 28px; line-height: 30px">47</div>
+          <div class="lbl" style="font-size: 9px">of 50</div>
+        </div>
+      </div>
+
+      <div style="border-left: 2px solid #c8913f; padding-left: 14px">
+        <div class="lbl" style="color: #c8913f">Why it sells</div>
+        <div style="font-family: Georgia, serif; font-size: 15px; line-height: 1.6; margin-top: 5px">
+          You need a local bank job, and the person controlling access to it is secretly selling hope, influence and escape.
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 13px; margin-top: 2px">
+        <div class="strip">
+          <span class="slot"><span style="width: 6px; height: 17px; background: #c8913f"></span></span>
+          <span class="slot"><span style="width: 6px; height: 22px; background: #ece7dd"></span></span>
+          <span class="slot"><span style="width: 6px; height: 19px; background: #ece7dd"></span></span>
+          <span class="slot"><span style="width: 6px; height: 22px; background: #ece7dd"></span></span>
+          <span class="slot"><span style="width: 6px; height: 22px; background: #ece7dd"></span></span>
+        </div>
+        <div style="display: flex; gap: 22px; align-items: baseline">
+          <span><span class="num" style="font-size: 15px">150</span> <span class="lbl" style="font-size: 9px">episodes</span></span>
+          <span class="lbl">Fictionalize first</span>
+          <span class="lbl" style="color: #a29e96">▸ the case against</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="card">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px">
+        <div>
+          <div class="lbl">Family betrayal · 2026 · Tamil Nadu</div>
+          <div style="font-family: Georgia, serif; font-size: 21px; line-height: 27px; margin-top: 7px">The Son Who Erased the Heirs</div>
+        </div>
+        <div style="text-align: right; flex-shrink: 0">
+          <div class="num" style="font-size: 28px; line-height: 30px">46</div>
+          <div class="lbl" style="font-size: 9px">of 50</div>
+        </div>
+      </div>
+
+      <div style="border-left: 2px solid #c8913f; padding-left: 14px">
+        <div class="lbl" style="color: #c8913f">Why it sells</div>
+        <div style="font-family: Georgia, serif; font-size: 15px; line-height: 1.6; margin-top: 5px">
+          A trusted son can make a family disappear from its own inheritance using one official-looking piece of paper.
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 13px; margin-top: 2px">
+        <div class="strip">
+          <span class="slot"><span style="width: 6px; height: 19px; background: #c8913f"></span></span>
+          <span class="slot"><span style="width: 6px; height: 19px; background: #ece7dd"></span></span>
+          <span class="slot"><span style="width: 6px; height: 19px; background: #ece7dd"></span></span>
+          <span class="slot"><span style="width: 6px; height: 22px; background: #ece7dd"></span></span>
+          <span class="slot"><span style="width: 6px; height: 19px; background: #ece7dd"></span></span>
+        </div>
+        <div style="display: flex; gap: 22px; align-items: baseline">
+          <span><span class="num" style="font-size: 15px">180</span> <span class="lbl" style="font-size: 9px">episodes</span></span>
+          <span class="lbl">Fictionalize first</span>
+          <span class="lbl" style="color: #a29e96">▸ the case against</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

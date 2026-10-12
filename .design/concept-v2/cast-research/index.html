@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CanonForge — Three cast experiences</title>
+<link rel="stylesheet" href="screens.css">
+</head>
+<body>
+<header class="presentation">
+  <div class="eyebrow">CANONFORGE / UX EXPLORATION 04</div>
+  <h1>Three ways to find the next protagonist.</h1>
+  <p>Same palette. Same story. Same renderable 3D assets. Different components and decisions.</p>
+  <div class="presentation-meta"><span><i class="swatch paper"></i>Paper</span><span><i class="swatch ink"></i>Ink</span><span><i class="swatch forest"></i>Forest</span><span>1440 × 900 artboards</span><span>Static screens</span></div>
+</header>
+
+<section class="design" id="option-a">
+<header class="design-label"><div><span class="number">01</span><h2>Cast library</h2></div><p>Choose a person → inspect their story → develop a spin-off</p><a href="option-a.png">Full-size PNG ↗</a></header>
+<div class="artboard a">
+<aside class="sidebar">
+ <div class="brand"><span class="brand-symbol">c</span>CanonForge</div>
+ <div class="studio-switch"><span class="studio-icon">S</span><span>Story studio</span><span class="chevron">⌄</span></div>
+ <div class="nav-item"><span class="nav-icon">◇</span> Discover</div><div class="nav-item active"><span class="nav-icon">▤</span> Shows</div>
+ <div class="nav-section">RECENT SHOWS</div><div class="recent selected"><span class="book">CH</span>The Century Hitters</div><div class="recent"><span class="book second">FC</span>The False Court</div>
+ <div class="side-bottom"><div class="nav-item">? &nbsp; Help & feedback</div><div class="profile"><span>AS</span><div>Aarav Shah<small>Editor</small></div></div></div>
+</aside>
+<main class="app-main">
+ <header class="app-top"><div>Shows <span>/</span> <b>The Century Hitters</b></div><div class="top-right">⌕ &nbsp; Search workspace <kbd>⌘ K</kbd><span class="user-dot">AS</span></div></header>
+ <div class="work-content">
+  <div class="show-heading"><span class="show-cover">THE<br>CENTURY<br>HITTERS</span><div><h2>The Century Hitters</h2><p>Season 1 · Crime drama</p></div><div class="plain-button push">Show settings</div></div>
+  <nav class="show-tabs"><span>Overview</span><span>Episodes</span><span class="current">Cast</span><span>Spin-offs</span></nav>
+  <div class="section-heading"><div><h3>Cast</h3><p>Choose whose story to continue.</p></div><div class="search-input">⌕ &nbsp; Find a character</div></div>
+  <div class="browser-layout">
+   <div class="roster">
+    <div class="grid-options"><span class="segment selected">Everyone</span><span class="segment">Ready for a spin-off</span><span class="quiet push">4 characters</span></div>
+    <div class="person-grid">
+     <article class="person-card selected"><div class="model-frame"><img src="portraits/jignesh.png" alt="Renderable stock avatar standing in for Jignesh"><span class="selection-dot">●</span></div><div class="person-caption"><b>Jignesh</b><span>Village batsman</span><small>Suggested starting point</small></div></article>
+     <article class="person-card"><div class="model-frame"><img src="portraits/rafiq.png" alt="Renderable stock avatar standing in for Rafiq"><span class="selection-dot">○</span></div><div class="person-caption"><b>Rafiq</b><span>League organiser</span></div></article>
+     <article class="person-card"><div class="model-frame"><img src="portraits/bhavlo.png" alt="Renderable stock avatar standing in for Bhavlo"><span class="selection-dot">○</span></div><div class="person-caption"><b>Bhavlo</b><span>Umpire</span></div></article>
+     <article class="person-card dim"><div class="model-frame"><img src="portraits/pankaj.png" alt="Renderable stock avatar standing in for Pankaj"></div><div class="person-caption"><b>Pankaj</b><span>Landowner</span><small>Not enough independent story yet</small></div></article>
+    </div>
+   </div>
+   <aside class="inspector">
+    <div class="inspector-top"><span class="eyebrow">SELECTED CHARACTER</span><span class="quiet">↗</span></div>
+    <h2>Jignesh</h2><p class="quiet">Village batsman · 19</p>
+    <div class="mini-tabs"><span class="current">Story potential</span><span>Canon</span></div>
+    <h3 class="story-hook">Good enough to win.<br>Paid to lose.</h3>
+    <p class="body-copy">The best player in the village must choose between his talent and tomorrow’s wage.</p>
+    <div class="knowledge"><div class="knowledge-numbers"><div><strong>4</strong><span>Knows</span></div><div><strong>18</strong><span>Blind to</span></div></div><div class="knowledge-track"><i></i></div><div class="knowledge-unit">Canon moments · full season</div></div>
+    <div class="evidence-link">Inspect knowledge boundary <span>→</span></div>
+    <div class="evidence-link">Read character brief <span>→</span></div>
+    <div class="inspector-action"><span class="primary-button">Develop Jignesh’s story <span>→</span></span><p>Choose a starting moment next.</p></div>
+   </aside>
+  </div>
+ </div>
+</main>
+</div>
+<div class="rationale"><div><b>Why this layout</b><p>The whole cast stays recognizable while one person’s detail changes. Selecting a card is separate from starting work.</p></div><div><b>Best for</b><p>Editors browsing a large cast and returning to familiar characters.</p></div><div><b>Trade-off</b><p>Less theatrical. In production, only the selected character needs live 3D; the grid can use rendered portraits.</p></div></div>
+</section>
+
+<section class="design" id="option-b">
+<header class="design-label"><div><span class="number">02</span><h2>Casting stage</h2></div><p>Meet one character → explore their perspective → develop their story</p><a href="option-b.png">Full-size PNG ↗</a></header>
+<div class="artboard b">
+ <header class="full-top"><div class="brand"><span class="brand-symbol">c</span>CanonForge</div><span>Discover</span><span class="nav-current">Shows</span><div class="push top-right">⌕ &nbsp; Search workspace <span class="user-dot">AS</span></div></header>
+ <div class="stage-header"><div><span class="back-link">← &nbsp; The Century Hitters</span><h2>Choose a perspective</h2></div><div class="mode-toggle"><span>Cast grid</span><span class="chosen">Character view</span></div></div>
+ <div class="casting-layout">
+  <section class="stage">
+   <div class="stage-top"><span class="eyebrow">JIGNESH / VILLAGE BATSMAN</span><span class="quiet">01 / 04</span></div>
+   <div class="ground-ring"></div><div class="ground-shadow"></div>
+   <img class="stage-character" src="portraits/jignesh.png" alt="Jignesh represented by an actual rigged stock 3D model">
+   <div class="stage-arrow left">‹</div><div class="stage-arrow right">›</div>
+   <div class="stage-caption"><span>Front three-quarter view</span><span>↻ &nbsp; Rotate character</span></div>
+  </section>
+  <section class="character-decision">
+   <span class="eyebrow">THE CENTURY HITTERS / CAST</span>
+   <h2>Jignesh</h2><p class="quiet">Village batsman · 19</p>
+   <div class="hook-label">HIS OWN STORY</div>
+   <h3>Good enough to win.<br>Paid to lose.</h3>
+   <p class="body-copy">The best player in the village must choose between his talent and tomorrow’s wage.</p>
+   <div class="knowledge"><div class="knowledge-numbers"><div><strong>4</strong><span>Knows</span></div><div><strong>18</strong><span>Blind to</span></div></div><div class="knowledge-track"><i></i></div><div class="knowledge-unit">Canon moments · full season</div></div>
+   <div class="evidence-link">Inspect knowledge boundary <span>→</span></div>
+   <div class="evidence-link">Read character brief <span>→</span></div>
+   <span class="primary-button">Develop Jignesh’s story <span>→</span></span><p class="next-label">Choose a starting moment next.</p>
+  </section>
+ </div>
+ <div class="casting-footer">
+  <div class="cast-list-label"><b>The cast</b><span>Choose anyone directly</span></div>
+  <div class="filmstrip">
+   <div class="film-person selected"><div class="bust"><img src="portraits/jignesh.png" alt=""></div><div><b>Jignesh</b><span>Village batsman</span></div><span class="radio">●</span></div>
+   <div class="film-person"><div class="bust"><img src="portraits/rafiq.png" alt=""></div><div><b>Rafiq</b><span>League organiser</span></div><span class="radio">○</span></div>
+   <div class="film-person"><div class="bust"><img src="portraits/bhavlo.png" alt=""></div><div><b>Bhavlo</b><span>Umpire</span></div><span class="radio">○</span></div>
+   <div class="film-person dim"><div class="bust"><img src="portraits/pankaj.png" alt=""></div><div><b>Pankaj</b><span>Not ready yet</span></div></div>
+  </div>
+ </div>
+</div>
+<div class="rationale"><div><b>Why this layout</b><p>A single 3D character gets the stage. Named thumbnails keep every choice visible; navigation does not depend on dragging or swiping.</p></div><div><b>Best for</b><p>First-time exploration and the live character-to-spin-off demo.</p></div><div><b>Trade-off</b><p>Slower to compare a large cast. Keep a grid switch and never auto-rotate the selection.</p></div></div>
+</section>
+
+<section class="design" id="option-c">
+<header class="design-label"><div><span class="number">03</span><h2>Moment workspace</h2></div><p>Choose a canon moment → choose its perspective → develop the spin-off</p><a href="option-c.png">Full-size PNG ↗</a></header>
+<div class="artboard c">
+ <aside class="compact-sidebar"><div class="brand"><span class="brand-symbol">c</span></div><div class="rail-item">◇<span>Discover</span></div><div class="rail-item active">▤<span>Shows</span></div><div class="rail-bottom"><span class="user-dot">AS</span></div></aside>
+ <main class="app-main">
+  <header class="app-top"><div>Shows <span>/</span> <b>The Century Hitters</b> <span>/</span> Spin-offs</div><div class="top-right">⌕ &nbsp; Search workspace <kbd>⌘ K</kbd></div></header>
+  <div class="moment-content">
+   <div class="moment-heading"><div><h2>Start from a moment</h2><p>Same event. Someone else’s story.</p></div><span class="plain-button">Browse the cast instead ↗</span></div>
+   <div class="episode-strip"><span class="label">SEASON 1</span><span>01 &nbsp; The Jersey</span><span>02 &nbsp; Under the Lights</span><span>03 &nbsp; Two Clicks</span><span class="current">04 &nbsp; The Six</span><span>05 &nbsp; The Raid</span></div>
+   <div class="moment-layout">
+    <aside class="moment-list"><div class="list-title"><h3>Canon moments</h3><span class="quiet">Episode 4</span></div>
+     <div class="moment-item selected"><span class="moment-dot"></span><div><small>b014 · Crossing point</small><b>A six becomes a dot ball</b><p>Jignesh hits cleanly.<br>Bhavlo signals otherwise.</p></div></div>
+     <div class="moment-item"><span class="moment-dot"></span><div><small>b015</small><b>The player is now a problem</b><p>Rafiq’s view of Jignesh changes.</p></div></div>
+     <div class="moment-item"><span class="moment-dot"></span><div><small>b016</small><b>A raise with no explanation</b><p>Rafiq instructs Bhavlo to pay more.</p></div></div>
+     <div class="list-bottom">Read episode script <span>↗</span></div>
+    </aside>
+    <div class="moment-work">
+     <div class="canon-statement"><span class="eyebrow">ORIGINAL CANON / b014</span><h3>A clean six.<br>A dot-ball signal.</h3><p>The action and result stay fixed. The meaning can change.</p><span class="lock-note">◇ &nbsp; Core canon · read only</span></div>
+     <div class="perspective-heading"><h3>Whose perspective?</h3><span class="quiet">Witnessed this moment</span></div>
+     <div class="witnesses"><div class="witness selected"><img src="portraits/jignesh.png" alt="Stock 3D proxy for Jignesh"><span><b>Jignesh</b><small>The batsman</small></span><span class="radio">●</span></div><div class="witness"><img src="portraits/bhavlo.png" alt="Stock 3D proxy for Bhavlo"><span><b>Bhavlo</b><small>The umpire</small></span><span class="radio">○</span></div><div class="witness"><img src="portraits/rafiq.png" alt="Stock 3D proxy for Rafiq"><span><b>Rafiq</b><small>The organiser</small></span><span class="radio">○</span></div></div>
+     <div class="perspective-result">
+      <div class="result-person"><img src="portraits/jignesh.png" alt=""></div>
+      <div class="result-copy"><span class="eyebrow">JIGNESH'S STORY STARTS HERE</span><h3>He finally hits it.<br>It still doesn’t count.</h3><p>A cricketing triumph becomes the moment he understands he is paid to lose.</p></div>
+      <div class="moment-boundary"><div class="knowledge"><div class="knowledge-numbers"><div><strong>4</strong><span>Knows</span></div><div><strong>18</strong><span>Blind to</span></div></div><div class="knowledge-track"><i></i></div><div class="knowledge-unit">Full-season boundary</div></div><span class="evidence-link">Inspect canon →</span></div>
+     </div>
+     <div class="moment-action"><span class="quiet">Jignesh · b014 · The Six</span><span class="primary-button">Develop this perspective <span>→</span></span></div>
+    </div>
+   </div>
+  </div>
+ </main>
+</div>
+<div class="rationale"><div><b>Why this layout</b><p>The shared event explains the product visually. Character and canon moment are selected together, before creating a spin-off.</p></div><div><b>Best for</b><p>Editors who know the season and want to build around a strong crossing point.</p></div><div><b>Trade-off</b><p>More editorial context is required. The cast-first route remains available for newcomers.</p></div></div>
+</section>
+
+<section class="research">
+ <span class="eyebrow">RESEARCH & IMPLEMENTATION NOTES</span><h2>What informed these screens</h2>
+ <div class="research-grid"><article><h3>Visible choices, quieter evidence</h3><p>Names, roles and selection remain visible. Full biographies and beat lists are secondary. This applies NN/g’s recognition-over-recall and progressive-disclosure guidance.</p><a href="https://www.nngroup.com/articles/recognition-and-recall/">Recognition and recall ↗</a><br><a href="https://www.nngroup.com/articles/progressive-disclosure/">Progressive disclosure ↗</a></article><article><h3>Selection is not generation</h3><p>Card selection changes the inspected character. A distinct primary action continues the workflow. Option B exposes direct selection and has no automatic carousel movement.</p><a href="https://carbondesignsystem.com/components/tile/usage/">Carbon selectable tiles ↗</a><br><a href="https://www.w3.org/WAI/tutorials/carousels/">W3C carousel guidance ↗</a></article><article><h3>Actual 3D assets</h3><p>These portraits were rendered from Kenney’s CC0 Blocky Characters GLB files using Three.js. Each used model includes a rig and 27 animation clips. Stock identities and clothing are stand-ins, not the final cast art.</p><a href="https://kenney.nl/assets/blocky-characters">Asset source and license ↗</a><br><a href="RESEARCH.md">Design rationale and feasibility notes ↗</a></article></div>
+ <p class="recommendation"><b>Recommended foundation: 01.</b> Use the cast library for everyday work. Option 02 can become an optional character view; option 03 is a focused editorial tool. These are design hypotheses, not usability-tested outcomes.</p>
+</section>
+</body>
+</html>

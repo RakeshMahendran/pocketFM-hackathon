@@ -233,6 +233,28 @@ function parse(name: string, pattern: RegExp): Parsed | null {
 /* ------------------------------------------------------------------ */
 /* the manifest                                                        */
 
+/** Count written episodes with a non-empty finished mix, not languages or versions. */
+export async function countEpisodesWithAudio(storyId: string, writtenEpisodes: number[]): Promise<number> {
+  return (await episodesWithAudio(storyId, writtenEpisodes)).length;
+}
+
+/** The same deduplicated finished mixes, keyed by episode for the show list. */
+export async function episodesWithAudio(storyId: string, writtenEpisodes: number[]): Promise<number[]> {
+  if (!safeSegment(storyId) || !writtenEpisodes.length) return [];
+  const written = new Set(writtenEpisodes);
+  let names: string[];
+  try { names = await fs.readdir(audioDir(storyId)); } catch { return []; }
+  const found = await Promise.all(names.map(async (name) => {
+    const parsed = parse(name, MP3);
+    if (!parsed || !written.has(parsed.ep)) return null;
+    try {
+      const stat = await fs.stat(path.join(audioDir(storyId), name));
+      return stat.isFile() && stat.size > 0 ? parsed.ep : null;
+    } catch { return null; }
+  }));
+  return [...new Set(found.filter((ep): ep is number => ep !== null))];
+}
+
 function asRecord(v: unknown): Record<string, unknown> {
   return v && typeof v === "object" && !Array.isArray(v)
     ? (v as Record<string, unknown>)
@@ -462,4 +484,3 @@ async function directedFlag(dir: string, ep: number): Promise<boolean> {
   const raw = await readJson(path.join(dir, `ep${String(ep).padStart(2, "0")}.json`));
   return asRecord(raw).directed === true;
 }
-

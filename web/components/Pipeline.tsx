@@ -23,6 +23,39 @@ import { PATH_DESCRIBED, PATH_LABEL, STAGES, stageFor } from "@/components/pathW
  * route and a server layout cannot read the route. Nothing else here needs the
  * browser: no state, no effect, no handler.
  */
+/**
+ * The same fact, inside the header instead of under it.
+ *
+ * The full ribbon spent a 41px band naming four steps so it could highlight
+ * one — reasonable when the chrome was the only thing on screen, wasteful now
+ * that the band sits between a story screen and its own artwork. This keeps
+ * what the ribbon is for (which of the four am I standing in) and drops what it
+ * was spending (three names the reader is not in).
+ *
+ * Still not links, for the reason above: steps three and four have no honest
+ * destination until a show is picked. The other three names stay reachable —
+ * `title` lists them, and /home spells all four out with their routes.
+ */
+export function PipelineMark() {
+  const here = stageFor(usePathname());
+  const i = STAGES.findIndex((s) => s.key === here);
+  if (i < 0) return null;
+
+  return (
+    <span
+      className="label hidden shrink-0 md:inline"
+      aria-label={PATH_DESCRIBED}
+      title={STAGES.map((s) => `${s.n}. ${s.name}`).join("  →  ")}
+    >
+      <span className="text-warm-muted">{PATH_LABEL}</span>{" "}
+      <span className="text-gold" aria-current="step">
+        {STAGES[i].n}. {STAGES[i].name}
+      </span>{" "}
+      <span className="text-warm-muted/70">of {STAGES.length}</span>
+    </span>
+  );
+}
+
 export function Pipeline() {
   const here = stageFor(usePathname());
 

@@ -2,6 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 
 import { DATA_DIR } from "./data";
+import { countEpisodesWithAudio } from "./audio";
 import { SCORE_LABELS, type Clearance, type ClearanceStatus, type Scores } from "./types";
 
 /**
@@ -162,6 +163,7 @@ export interface SerialSummary {
   clearance: Clearance | null;
   scores: Scores | null;
   episodeCount: number;
+  audioEpisodeCount: number;
   castCount: number;
   beatCount: number;
   spineLength: number;
@@ -579,6 +581,7 @@ async function loadOne(dir: string): Promise<{ serial: Serial | null; notes: str
   // four seasons that predate it, so its absence is normal, not a fault.
   const calendar = normaliseCalendar(await readJson("stories", dir, "calendar.json"));
   const episodes = await readEpisodes(dir);
+  const audioEpisodeCount = await countEpisodesWithAudio(dir, episodes.map((ep) => ep.ep));
   const spine = normaliseSpine(d.season);
   const cast = normaliseCast(d.cast);
   const scores = normaliseScores(d.hunt_scores ?? d.scores);
@@ -649,6 +652,7 @@ async function loadOne(dir: string): Promise<{ serial: Serial | null; notes: str
     beatsWithHiddenFrom,
     calendar,
     episodeCount: episodes.length,
+    audioEpisodeCount,
     castCount: cast.length,
     spineLength: spine.length,
     openPromises: ledger.openCount,

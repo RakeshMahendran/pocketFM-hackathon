@@ -1,6 +1,7 @@
 import { audioRunIsOffline, readAudioRun } from "@/lib/audio-run";
 import { loadEpisodeAudio, type Comparison, type Direction } from "@/lib/audio";
 import { AudioRunPanel } from "./AudioRunPanel";
+import { Reveal } from "./ui";
 import { EpisodePlayer } from "./EpisodePlayer";
 import {
   AS_WRITTEN,
@@ -230,15 +231,17 @@ export async function EpisodeAudio({
 
       {audio.tracks.length > 0 && <EpisodePlayer tracks={audio.tracks} />}
 
-      {audio.direction && <Performance direction={audio.direction} />}
+      {audio.direction && <div className="mt-5"><Reveal summary={`${directionSaid(audio.direction.directed).label} · Performance details`} group="audio-reference"><Performance direction={audio.direction} /></Reveal></div>}
 
       {audio.comparison && (
+        <Reveal summary="Compare original and directed audio" group="audio-reference">
         <Pair
           comparison={audio.comparison}
           // No direction read at all is not the same as a flat one, but neither
           // is a performed episode, and only a performed one may go unqualified.
           performed={audio.direction?.directed === true}
         />
+        </Reveal>
       )}
 
       {audio.unplaced > 0 && (

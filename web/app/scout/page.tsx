@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { PageHead, Panel, Reveal, Stat } from "@/components/ui";
 
 import { NextStep } from "@/components/NextStep";
 import { Notice } from "@/components/Notice";
@@ -100,8 +101,9 @@ export default async function ScoutPage() {
   const needNames = candidates.filter(
     (c) => c.clearance?.status === "fictionalize_first",
   ).length;
-  const safe = found - cannotMake - needNames;
-  const topPick = candidates.find((c) => c.winner) ?? null;
+  const safe = candidates.filter(c => c.clearance?.status === "greenlight").length;
+  const unchecked = found - cannotMake - needNames - safe;
+  const topPick = candidates.find((c) => c.winner && c.clearance?.status !== "blocked") ?? null;
 
   // The blocked candidate is the point of the whole screen, so it should be
   // one click from the brief that explains the refusal. Matched by title
@@ -119,45 +121,16 @@ export default async function ScoutPage() {
         ← Stories worth making
       </Link>
 
-      <header className="mt-6">
-        <div className="label">How stories are found</div>
-        <h1 className="font-serif text-4xl tracking-tight mt-3 leading-tight">
-          The story search
-        </h1>
-        <p className="mt-6 text-[0.9375rem] leading-relaxed prose-col text-muted">
-          It reads the open web for real events that could carry a series, rates
-          each one, and checks whether we are allowed to make it.
-        </p>
-      </header>
+      <PageHead title="Search replay" eyebrow="Discovery" description="A saved search, not a live one. See what it found and how it checked its sources." />
+      <Reveal summary="About the story search" group="scout-reference"><p>It reads the open web for real events that could carry a series, rates each one, and checks whether we are allowed to make it.</p></Reveal>
 
       {/* The answer, before any of the method. */}
       {found > 0 && (
-        <section className="mt-10 border border-rule-strong bg-surface rounded-sm p-7">
-          <div className="flex flex-wrap items-baseline gap-x-10 gap-y-4">
-            <div>
-              <div className="font-serif text-4xl leading-none">{found}</div>
-              <div className="label mt-2">stories found</div>
-            </div>
-            <div>
-              <div className="font-serif text-4xl leading-none text-clear">
-                {safe}
-              </div>
-              <div className="label mt-2">safe to make</div>
-            </div>
-            <div>
-              <div className="font-serif text-4xl leading-none text-caution">
-                {needNames}
-              </div>
-              <div className="label mt-2">need the names changed</div>
-            </div>
-            <div>
-              <div className="font-serif text-4xl leading-none text-halt">
-                {cannotMake}
-              </div>
-              <div className="label mt-2">we can&rsquo;t make</div>
-            </div>
+        <Panel className="mt-6">
+          <div className="studio-metrics">
+            <Stat value={found} name="stories found" /><Stat value={safe} name="cleared to make" /><Stat value={needNames} name="change names first" /><Stat value={cannotMake} name="blocked" tone={cannotMake ? "halt" : "muted"} />
+            {unchecked > 0 && <Stat value={unchecked} name="not checked" />}
           </div>
-
           {topPick && (
             <p className="mt-6 text-sm text-muted prose-col leading-relaxed">
               Its own pick was{" "}
@@ -172,7 +145,7 @@ export default async function ScoutPage() {
             </p>
           )}
 
-        </section>
+        </Panel>
       )}
 
       {/* The same link this screen always ended its summary with, drawn as the
@@ -196,7 +169,7 @@ export default async function ScoutPage() {
         what pressing play will show you.
       */}
       {replay.ok && (
-        <section className="mt-14 border-t border-rule-strong pt-8">
+        <Panel className="mt-8">
           <h2 className="font-serif text-2xl tracking-tight">
             Watch how it found them
           </h2>
@@ -207,7 +180,7 @@ export default async function ScoutPage() {
             opened to read, and the point where it ruled out its own best story.
             Nothing searches while you watch — it ran once and was saved.
           </p>
-        </section>
+        </Panel>
       )}
 
       {replay.ok ? (
@@ -221,7 +194,7 @@ export default async function ScoutPage() {
             instead. Every story that has already been found and saved is still
             in {STORY_LIST}.
           </p>
-          <details className="mt-5">
+          <details name="scout-operator" className="mt-5">
             <summary className="label cursor-pointer hover:text-ochre transition-colors">
               For whoever runs it
             </summary>
@@ -244,7 +217,7 @@ export default async function ScoutPage() {
         before reaching a single thing they could act on. Nobody needs it to use
         the queue; it is here for the one person who asks how the rules work.
       */}
-      <details className="mt-16 border-t border-rule-strong pt-6 group">
+      <details name="scout-methods" className="mt-16 border-t border-rule-strong pt-6 group">
         <summary className="cursor-pointer font-serif text-xl tracking-tight hover:text-ochre transition-colors">
           How it decides what to keep
         </summary>
@@ -322,7 +295,7 @@ export default async function ScoutPage() {
                   Kept, not hidden: someone maintains this, and the file name is
                   what makes the recording claim checkable.
                 */}
-                <details className="mt-4 border-t border-rule pt-3">
+                <details name="scout-recording-file" className="mt-4 border-t border-rule pt-3">
                   <summary className="label cursor-pointer hover:text-ochre transition-colors">
                     For whoever runs it
                   </summary>

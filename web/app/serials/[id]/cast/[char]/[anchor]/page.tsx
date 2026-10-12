@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Panel, Reveal } from "@/components/ui";
 import { notFound } from "next/navigation";
 
 import { EpisodeScript, listenMinutes } from "@/components/EpisodeScript";
@@ -133,7 +134,7 @@ export default async function SpinoffEpisodePage(
         was actually generated under.
       */}
       {character && (
-        <section className="mt-8 border border-rule rounded-sm p-5 grid md:grid-cols-[1fr_16rem] gap-x-10 gap-y-5 items-start">
+        <Panel className="mt-6"><div className="grid md:grid-cols-[1fr_16rem] gap-6 items-start">
           <div className="min-w-0">
             <span className="label">{WRITTEN_FOR}</span>
             <p className="mt-1.5 font-serif text-xl leading-tight">
@@ -141,20 +142,13 @@ export default async function SpinoffEpisodePage(
                 {name}
               </Link>
             </p>
-            {character.role && (
-              <p className="text-sm text-muted leading-relaxed mt-2 prose-col">
-                {character.role}
-              </p>
-            )}
-            <p className="text-sm text-muted leading-relaxed mt-3 prose-col">
-              {LIMITS_EXPLAINED}
-            </p>
+            <div className="mt-3"><Reveal summary="Character & canon limits" group="episode-context"><p>{character.role}</p><p className="mt-3">{LIMITS_EXPLAINED}</p></Reveal></div>
           </div>
           <KnowledgeSplit
             witnessed={character.witnessed}
             blind={character.blind}
           />
-        </section>
+        </div></Panel>
       )}
 
       <div className="mt-10">
@@ -164,15 +158,15 @@ export default async function SpinoffEpisodePage(
       {/* The verdict, and every finding behind it. Nothing about it is folded:
           the count, the beat it names and the line it caught are the product
           claim, and a claim behind a click is a claim nobody read. */}
-      <div className="mt-10 border-t border-rule pt-6">
+      <Panel label="Validator report" className="mt-8">
         <ContinuityVerdict verdict={spinoff.verdict} />
-      </div>
+      </Panel>
 
       {/* The pair. Same character, same moment, written twice — the comparison
           IS the guarantee, so it is never foldable. */}
-      <div className="mt-12">
+      <Panel label="Constrained and control comparison" className="mt-6">
         <ControlComparison spinoff={spinoff} />
-      </div>
+      </Panel>
 
       {/* Read rather than decided on: the two ways this episode is pinned to
           the main show, and the script itself. Both were most of the character

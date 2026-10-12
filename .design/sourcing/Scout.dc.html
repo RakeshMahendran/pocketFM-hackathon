@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; font-family: Archivo, system-ui, sans-serif; }
+    a { color: #d9b27c; }
+    .ser { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+    .k { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #8d8377; }
+    .n { font-variant-numeric: tabular-nums; }
+    .card { background: linear-gradient(180deg,#1d1a17,#17140f); border: 1px solid rgba(255,255,255,.08); border-radius: 14px; }
+    .step { display:grid; grid-template-columns: 3.2rem 1fr 8rem; gap:16px; align-items:center; padding:10px 0; border-bottom:1px solid rgba(255,255,255,.06) }
+    .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12.5px }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 940px; background: #100e0c; color: #efe9e0; overflow: hidden">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 44px; height: 58px; border-bottom: 1px solid rgba(255,255,255,.07)">
+    <div style="display: flex; align-items: center; gap: 30px">
+      <span class="ser" style="font-size: 21px">FlakersFM</span>
+      <span class="k" style="color:#efe9e0">Find stories</span>
+      <span class="k">Make the show</span>
+      <span class="k">Release</span>
+      <span class="k">Spin off</span>
+    </div>
+    <span class="k">Stories worth making  ›  The search</span>
+  </div>
+
+  <!--
+    The old /scout buried a genuine recorded agent run under ~610 words,
+    including a 57-word paragraph explaining what pressing Play would do,
+    directly above a button labelled Play. The recording is the proof; it does
+    not need an introduction.
+  -->
+  <div style="padding: 28px 44px 0; display:flex; align-items:flex-end; justify-content:space-between">
+    <div>
+      <div class="k">Recorded 2026-07-25 · nothing searches while you watch</div>
+      <div class="ser" style="font-size:38px; line-height:1.06; margin-top:7px">Watch it search</div>
+    </div>
+    <div style="display:flex; align-items:center; gap:30px">
+      <div><div class="n ser" style="font-size:26px">8</div><div class="k">hunts</div></div>
+      <div><div class="n ser" style="font-size:26px">41</div><div class="k">searches typed</div></div>
+      <div><div class="n ser" style="font-size:26px">137</div><div class="k">pages opened</div></div>
+      <div><div class="n ser" style="font-size:26px; color:#d9b27c">30</div><div class="k">kept</div></div>
+      <div style="background:#efe9e0; color:#100e0c; font-size:14px; font-weight:600; padding:12px 26px; border-radius:999px">Play</div>
+    </div>
+  </div>
+
+  <div style="display:grid; grid-template-columns: 1fr 400px; gap:40px; padding:26px 44px">
+
+    <!-- the run, as a transcript of actions -->
+    <div>
+      <div class="step">
+        <span class="n k" style="color:#d9b27c">00:02</span>
+        <span><span class="k">typed</span> <span class="mono" style="color:#efe9e0">"fake court india arrested judge fictitious tribunal"</span></span>
+        <span class="k" style="text-align:right">7 pages opened</span>
+      </div>
+      <div class="step">
+        <span class="n k" style="color:#d9b27c">00:05</span>
+        <span><span class="k">read</span> <span class="mono" style="color:#8d8377">indiatvnews.com/gujarat/fake-court-busted…</span></span>
+        <span class="k" style="text-align:right">new</span>
+      </div>
+      <div class="step">
+        <span class="n k" style="color:#d9b27c">00:09</span>
+        <span><span class="k">typed</span> <span class="mono" style="color:#efe9e0">"woman declared dead returns alive police station india"</span></span>
+        <span class="k" style="text-align:right">5 pages opened</span>
+      </div>
+      <div class="step">
+        <span class="n k" style="color:#d9b27c">00:13</span>
+        <span><span class="k">read</span> <span class="mono" style="color:#8d8377">ndtv.com/india-news/mandsaur-woman…</span></span>
+        <span class="k" style="text-align:right">new</span>
+      </div>
+
+      <!-- the strongest beat in the front half: it rules out its own best find -->
+      <div style="border:1px solid rgba(217,164,65,.4); border-radius:14px; padding:16px 18px; margin:14px 0; background:rgba(217,164,65,.05)">
+        <div style="display:flex; align-items:center; gap:10px">
+          <span style="width:8px;height:8px;border-radius:50%;background:#d9a441;display:inline-block"></span>
+          <span class="k" style="color:#d9a441">00:16 · it ruled out its own best-scoring story</span>
+        </div>
+        <div class="ser" style="font-size:19px; line-height:1.45; margin-top:9px">
+          “Scored 49. Already a feature film and two documentaries — anyone in the room has read it.”
+        </div>
+        <div class="k" style="margin-top:9px">Dropped for novelty, not for quality</div>
+      </div>
+
+      <div class="step">
+        <span class="n k" style="color:#d9b27c">00:19</span>
+        <span><span class="k">typed</span> <span class="mono" style="color:#efe9e0">"teacher taught under dead brother's name appointment"</span></span>
+        <span class="k" style="text-align:right">6 pages opened</span>
+      </div>
+      <div class="step">
+        <span class="n k" style="color:#d9b27c">00:22</span>
+        <span><span class="k">discarded</span> <span style="color:#8d8377">4 candidates whose citations it never opened</span></span>
+        <span class="k" style="text-align:right; color:#c2634e">ungrounded</span>
+      </div>
+      <div class="step" style="border-bottom:none">
+        <span class="n k" style="color:#d9b27c">00:24</span>
+        <span><span class="k">picked</span> <span class="ser" style="font-size:17px">The Court That Never Was</span></span>
+        <span class="k" style="text-align:right">44/50</span>
+      </div>
+    </div>
+
+    <!-- what it was told to look for, and what it refuses -->
+    <div style="display:flex; flex-direction:column; gap:18px">
+      <div class="card" style="padding:18px 20px; border-left:2px solid #d9b27c">
+        <div class="k" style="color:#d9b27c">What it hunts for</div>
+        <div class="ser" style="font-size:19px; line-height:1.45; margin-top:8px">
+          How it was done, not how big it was.
+        </div>
+        <div style="font-size:13px; line-height:1.6; color:#8d8377; margin-top:9px">
+          Ask for the biggest fraud and you get the six cases everyone has already made.
+        </div>
+      </div>
+
+      <div class="card" style="padding:18px 20px">
+        <div class="k">Eight kinds of story</div>
+        <div style="display:flex; flex-wrap:wrap; gap:7px; margin-top:11px">
+          <span class="k" style="border:1px solid rgba(255,255,255,.14); border-radius:999px; padding:3px 10px">Denied identity</span>
+          <span class="k" style="border:1px solid rgba(255,255,255,.14); border-radius:999px; padding:3px 10px">Secret status</span>
+          <span class="k" style="border:1px solid rgba(255,255,255,.14); border-radius:999px; padding:3px 10px">The long deception</span>
+          <span class="k" style="border:1px solid rgba(255,255,255,.14); border-radius:999px; padding:3px 10px">The double life</span>
+          <span class="k" style="border:1px solid rgba(255,255,255,.14); border-radius:999px; padding:3px 10px">Family betrayal</span>
+          <span class="k" style="border:1px solid rgba(255,255,255,.14); border-radius:999px; padding:3px 10px">Revenge</span>
+          <span class="k" style="border:1px solid rgba(255,255,255,.14); border-radius:999px; padding:3px 10px">The bargain comes due</span>
+          <span class="k" style="border:1px solid rgba(255,255,255,.14); border-radius:999px; padding:3px 10px">Supernatural intrusion</span>
+        </div>
+      </div>
+
+      <div class="card" style="padding:18px 20px; border-color:rgba(194,99,78,.35)">
+        <div class="k" style="color:#c2634e">What it throws away</div>
+        <div style="font-size:13px; line-height:1.6; color:#8d8377; margin-top:8px">
+          Anything citing a page it never actually opened. A made-up source is worse than a
+          missing story, because everything after this treats a kept story as sourced.
+        </div>
+      </div>
+
+      <div style="font-size:12.5px; line-height:1.55; color:#8d8377">
+        The order is exactly what the recording holds. The spacing is not — it knows when the run
+        started and finished, not how long each step took.
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

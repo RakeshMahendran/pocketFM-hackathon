@@ -24,7 +24,7 @@ type Variant = "primary" | "row";
 
 const STYLE: Record<Variant, string> = {
   primary:
-    "border border-ochre/50 text-ochre px-4 py-2 text-sm rounded-sm hover:bg-ochre/10 transition-colors disabled:opacity-50 disabled:hover:bg-transparent",
+    "primary-action disabled:opacity-50",
   // On a roster row this sits among links, so it is weighted like one.
   row: "label text-ochre hover:text-paper transition-colors disabled:opacity-50 disabled:hover:text-ochre",
 };

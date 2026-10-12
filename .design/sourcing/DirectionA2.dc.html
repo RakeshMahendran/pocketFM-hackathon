@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+    a { color: #c8913f; } a:hover { color: #e0a955; }
+    .lbl { font-size: 11px; line-height: 16px; letter-spacing: 0.12em; text-transform: uppercase; color: #807c74; }
+    .num { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-variant-numeric: tabular-nums; }
+    .row {
+      display: grid; grid-template-columns: 1fr 160px 74px 48px 64px 112px;
+      gap: 20px; align-items: center; padding: 0 40px; height: 40px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .ttl { font-family: Georgia, serif; font-size: 15px; color: #ece7dd; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .strip { display: flex; gap: 4px; align-items: flex-end; height: 20px; justify-content: flex-end; }
+    .slot { width: 5px; height: 20px; background: rgba(255,255,255,0.06); display: flex; align-items: flex-end; }
+    .f { width: 5px; background: #ece7dd; }
+    .fo { width: 5px; background: #c8913f; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 900px; background: #0b0b0c; color: #ece7dd; overflow: hidden; display: flex; flex-direction: column">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 40px; height: 52px; border-bottom: 1px solid rgba(255,255,255,0.06); flex-shrink: 0">
+    <div style="display: flex; align-items: center; gap: 30px">
+      <span style="font-family: Georgia, serif; font-size: 16px">FlakersFM</span>
+      <span class="lbl" style="color: #ece7dd">Stories worth making</span>
+      <span class="lbl">Shows we're making</span>
+    </div>
+    <span class="lbl">Priya Raghavan · Commissioning</span>
+  </div>
+
+  <div style="display: flex; align-items: flex-end; justify-content: space-between; padding: 18px 40px 14px; border-bottom: 1px solid rgba(255,255,255,0.06); flex-shrink: 0">
+    <div>
+      <div style="font-family: Georgia, serif; font-size: 24px; line-height: 30px">Stories worth making</div>
+      <div class="lbl" style="margin-top: 5px">30 found · under 38/50 dropped before it reaches you</div>
+    </div>
+    <div style="background: #c8913f; color: #0b0b0c; font-size: 13px; font-weight: 500; padding: 8px 15px; border-radius: 6px">Open the top pick →</div>
+  </div>
+
+  <!-- header -->
+  <div class="row" style="height: 34px; border-bottom: 1px solid #33333a">
+    <div class="lbl">Story</div>
+    <div class="lbl">Kind</div>
+    <div class="lbl" style="text-align: right; white-space: nowrap">Scores</div>
+    <div class="lbl" style="text-align: right">Total</div>
+    <div class="lbl" style="text-align: right">Eps</div>
+    <div class="lbl">Legal</div>
+  </div>
+
+  <!-- rows: one line each. The title is the pitch. -->
+  <div class="row"><div class="ttl">The Mandsaur Woman Who Was Already Cremated</div><div class="lbl">Denied identity</div><div class="strip"><span class="slot"><span class="fo" style="height:18px"></span></span><span class="slot"><span class="f" style="height:20px"></span></span><span class="slot"><span class="f" style="height:20px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span></div><div class="num" style="text-align:right;font-size:15px">47</div><div class="num" style="text-align:right;font-size:13px;color:#a29e96">180</div><div class="lbl">Fictionalize</div></div>
+
+  <div class="row"><div class="ttl">The Beggar Who Collected Interest</div><div class="lbl">Secret status</div><div class="strip"><span class="slot"><span class="fo" style="height:18px"></span></span><span class="slot"><span class="f" style="height:20px"></span></span><span class="slot"><span class="f" style="height:20px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span></div><div class="num" style="text-align:right;font-size:15px">47</div><div class="num" style="text-align:right;font-size:13px;color:#a29e96">180</div><div class="lbl">Fictionalize</div></div>
+
+  <div class="row"><div class="ttl">The Bank Manager's Fifteen Accounts</div><div class="lbl">Secret status</div><div class="strip"><span class="slot"><span class="fo" style="height:16px"></span></span><span class="slot"><span class="f" style="height:20px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:20px"></span></span><span class="slot"><span class="f" style="height:20px"></span></span></div><div class="num" style="text-align:right;font-size:15px">47</div><div class="num" style="text-align:right;font-size:13px;color:#a29e96">150</div><div class="lbl">Fictionalize</div></div>
+
+  <div class="row"><div class="ttl">The Son Who Erased the Heirs</div><div class="lbl">Family betrayal</div><div class="strip"><span class="slot"><span class="fo" style="height:18px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:20px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span></div><div class="num" style="text-align:right;font-size:15px">46</div><div class="num" style="text-align:right;font-size:13px;color:#a29e96">180</div><div class="lbl">Fictionalize</div></div>
+
+  <div class="row"><div class="ttl">The Twenty Cheques for One House</div><div class="lbl">Bargain comes due</div><div class="strip"><span class="slot"><span class="fo" style="height:18px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:20px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span></div><div class="num" style="text-align:right;font-size:15px">46</div><div class="num" style="text-align:right;font-size:13px;color:#a29e96">180</div><div class="lbl">Fictionalize</div></div>
+
+  <!-- expanded row: the prose lives here, one click, single-open -->
+  <div style="background: #121214; border-bottom: 1px solid rgba(255,255,255,0.06)">
+    <div class="row" style="border-bottom: none">
+      <div class="ttl" style="color: #c8913f">The Court That Never Was</div>
+      <div class="lbl">Long deception</div>
+      <div class="strip"><span class="slot"><span class="fo" style="height:18px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span></div>
+      <div class="num" style="text-align:right;font-size:15px">44</div>
+      <div class="num" style="text-align:right;font-size:13px;color:#a29e96">120</div>
+      <div class="lbl">Fictionalize</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 36px; padding: 2px 40px 18px">
+      <div style="border-left: 2px solid #c8913f; padding-left: 14px">
+        <div class="lbl" style="color: #c8913f">Why it sells</div>
+        <div style="font-family: Georgia, serif; font-size: 15px; line-height: 1.6; margin-top: 5px">
+          A dominance fantasy built on a humiliation that actually happened — a man told by an institution that he was nobody, holding court over it.
+        </div>
+      </div>
+      <div style="border-left: 1px solid #33333a; padding-left: 14px">
+        <div class="lbl">The case against it</div>
+        <div style="font-family: Georgia, serif; font-size: 15px; line-height: 1.6; color: #a29e96; margin-top: 5px">
+          The protagonist is a fraud with real victims; a season that enjoys his cleverness too much becomes a story that thinks defrauding poor litigants is charming.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row"><div class="ttl">The Clerk Who Signed for the Dead</div><div class="lbl">Secret status</div><div class="strip"><span class="slot"><span class="fo" style="height:16px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:14px"></span></span></div><div class="num" style="text-align:right;font-size:15px">43</div><div class="num" style="text-align:right;font-size:13px;color:#a29e96">90</div><div class="lbl">Fictionalize</div></div>
+
+  <div class="row"><div class="ttl">The Widow Who Kept Paying Rent</div><div class="lbl">Bargain comes due</div><div class="strip"><span class="slot"><span class="fo" style="height:16px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span></div><div class="num" style="text-align:right;font-size:15px">42</div><div class="num" style="text-align:right;font-size:13px;color:#a29e96">120</div><div class="lbl">Fictionalize</div></div>
+
+  <div class="row"><div class="ttl">The Driver With Two Licences</div><div class="lbl">The double life</div><div class="strip"><span class="slot"><span class="fo" style="height:16px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:14px"></span></span></div><div class="num" style="text-align:right;font-size:15px">41</div><div class="num" style="text-align:right;font-size:13px;color:#a29e96">90</div><div class="lbl">Fictionalize</div></div>
+
+  <div class="row"><div class="ttl">The Village That Voted Twice</div><div class="lbl">Long deception</div><div class="strip"><span class="slot"><span class="fo" style="height:14px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span><span class="slot"><span class="f" style="height:14px"></span></span><span class="slot"><span class="f" style="height:18px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span></div><div class="num" style="text-align:right;font-size:15px">41</div><div class="num" style="text-align:right;font-size:13px;color:#a29e96">60</div><div class="lbl">Fictionalize</div></div>
+
+  <div class="row"><div class="ttl">The Teacher Who Never Was Hired</div><div class="lbl">Denied identity</div><div class="strip"><span class="slot"><span class="fo" style="height:14px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span><span class="slot"><span class="f" style="height:14px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span></div><div class="num" style="text-align:right;font-size:15px">40</div><div class="num" style="text-align:right;font-size:13px;color:#a29e96">90</div><div class="lbl">Fictionalize</div></div>
+
+  <div class="row"><div class="ttl">The Brothers Who Shared One Name</div><div class="lbl">The double life</div><div class="strip"><span class="slot"><span class="fo" style="height:14px"></span></span><span class="slot"><span class="f" style="height:14px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span><span class="slot"><span class="f" style="height:14px"></span></span><span class="slot"><span class="f" style="height:16px"></span></span></div><div class="num" style="text-align:right;font-size:15px">40</div><div class="num" style="text-align:right;font-size:13px;color:#a29e96">60</div><div class="lbl">Fictionalize</div></div>
+
+  <div class="row" style="opacity: 0.45"><div class="ttl">The Pensions Office at Nagpur</div><div class="lbl">Secret status</div><div class="strip"><span class="slot"><span class="fo" style="height:12px"></span></span><span class="slot"><span class="f" style="height:14px"></span></span><span class="slot"><span class="f" style="height:12px"></span></span><span class="slot"><span class="f" style="height:14px"></span></span><span class="slot"><span class="f" style="height:11px"></span></span></div><div class="num" style="text-align:right;font-size:15px">39</div><div class="num" style="text-align:right;font-size:13px;color:#a29e96">90</div><div class="lbl" style="color:#c2634e">Blocked</div></div>
+
+  <div style="padding: 14px 40px"><span class="lbl">18 more below · sorted best first</span></div>
+
+</div>
+</x-dc>
+</body>
+</html>

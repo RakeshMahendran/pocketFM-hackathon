@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+    a { color: #c8913f; } a:hover { color: #e0a955; }
+    .lbl { font-size: 11px; line-height: 16px; letter-spacing: 0.12em; text-transform: uppercase; color: #807c74; }
+    .num { font-family: ui-monospace, Consolas, monospace; font-variant-numeric: tabular-nums; }
+    .spec { font-size: 12px; color: #a29e96; line-height: 1.7; }
+    .k { color: #ece7dd; }
+    .col { border-left: 1px solid #33333a; padding-left: 18px; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 560px; background: #0b0b0c; color: #ece7dd; overflow: hidden; padding: 32px 40px; box-sizing: border-box">
+
+  <div style="font-family: Georgia, serif; font-size: 21px">Row anatomy &amp; states</div>
+  <div class="lbl" style="margin-top: 6px">Fixed-width right rail · ragged left · one line of prose maximum</div>
+
+  <!-- measured row -->
+  <div style="margin-top: 26px; border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06)">
+    <div style="display: grid; grid-template-columns: 1fr 74px 56px 72px 128px; gap: 24px; align-items: center; padding: 13px 0">
+      <div>
+        <div style="display: flex; align-items: baseline; gap: 10px">
+          <span style="font-family: Georgia, serif; font-size: 16px">The Mandsaur Woman Who Was Already Cremated</span>
+          <span class="lbl">Denied identity · 2025 · ndtv.com</span>
+        </div>
+        <div style="font-family: Georgia, serif; font-size: 14px; color: #a29e96; margin-top: 4px">
+          A missing mother walks into the police station alive — then has to prove she is herself.
+        </div>
+      </div>
+      <div style="display: flex; gap: 5px; align-items: flex-end; justify-content: flex-end; height: 26px">
+        <span style="width: 6px; height: 26px; background: rgba(255,255,255,0.06); display: flex; align-items: flex-end"><span style="width: 6px; height: 23px; background: #c8913f"></span></span>
+        <span style="width: 6px; height: 26px; background: rgba(255,255,255,0.06); display: flex; align-items: flex-end"><span style="width: 6px; height: 26px; background: #ece7dd"></span></span>
+        <span style="width: 6px; height: 26px; background: rgba(255,255,255,0.06); display: flex; align-items: flex-end"><span style="width: 6px; height: 26px; background: #ece7dd"></span></span>
+        <span style="width: 6px; height: 26px; background: rgba(255,255,255,0.06); display: flex; align-items: flex-end"><span style="width: 6px; height: 23px; background: #ece7dd"></span></span>
+        <span style="width: 6px; height: 26px; background: rgba(255,255,255,0.06); display: flex; align-items: flex-end"><span style="width: 6px; height: 23px; background: #ece7dd"></span></span>
+      </div>
+      <div class="num" style="text-align: right; font-size: 19px">47</div>
+      <div style="text-align: right"><div class="num" style="font-size: 15px">180</div><div class="lbl" style="font-size: 9px">~6 months</div></div>
+      <div class="lbl">Fictionalize first</div>
+    </div>
+  </div>
+
+  <!-- measurement callouts under each zone -->
+  <div style="display: grid; grid-template-columns: 1fr 74px 56px 72px 128px; gap: 24px; margin-top: 8px">
+    <div class="lbl" style="font-size: 9px; color: #c8913f">Identity — flex-grow, ragged</div>
+    <div class="lbl" style="font-size: 9px; color: #c8913f; text-align: right">74px</div>
+    <div class="lbl" style="font-size: 9px; color: #c8913f; text-align: right">56px</div>
+    <div class="lbl" style="font-size: 9px; color: #c8913f; text-align: right">72px</div>
+    <div class="lbl" style="font-size: 9px; color: #c8913f">128px</div>
+  </div>
+
+  <!-- three spec columns -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 36px; margin-top: 34px">
+
+    <div class="col">
+      <div class="lbl" style="color: #ece7dd">The score strip</div>
+      <div class="spec" style="margin-top: 10px">
+        Five slots, <span class="k">always this order</span> — engine, hook, feeling, conflict, cast. Never re-sorted within a row: fixed position is what makes slot 3 a column you can scan down all 30 rows.<br><br>
+        Slot <span class="k">6&times;26px</span>, gap <span class="k">5px</span>. Track <span class="k">rgba(255,255,255,0.06)</span>, fill <span class="k">#ece7dd</span>. No border, no ticks, no axis.<br><br>
+        <span class="k">Ochre marks the sorted dimension only.</span> That is the accent's single job on this screen.
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="lbl" style="color: #ece7dd">Legal states — badge the exceptions</div>
+      <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 12px">
+        <div style="display: flex; align-items: baseline; gap: 12px">
+          <span class="lbl" style="width: 118px; color: #807c74">(nothing)</span>
+          <span class="spec"><span class="k">Greenlight.</span> Absence is the signal.</span>
+        </div>
+        <div style="display: flex; align-items: baseline; gap: 12px">
+          <span class="lbl" style="width: 118px">Fictionalize first</span>
+          <span class="spec">Small caps, no pill. A note, not an alarm.</span>
+        </div>
+        <div style="display: flex; align-items: baseline; gap: 12px; opacity: 0.45">
+          <span class="lbl" style="width: 118px; color: #c2634e">Blocked</span>
+          <span class="spec">Whole row to 45%. Strongest possible &ldquo;don't consider this&rdquo;, costs no pixels.</span>
+        </div>
+      </div>
+      <div class="spec" style="margin-top: 14px">
+        Three states separated by <span class="k">presence, typography and opacity</span> — three non-colour channels, so it survives colour-blindness and a projector.
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="lbl" style="color: #ece7dd">Numbers &amp; disclosure</div>
+      <div class="spec" style="margin-top: 10px">
+        Every numeric column is <span class="k">tabular-nums, right-aligned</span>, with a right-aligned header. One CSS line; it is the difference between a column you scan and one you read.<br><br>
+        Expansion is a <span class="k">single-open accordion</span> — opening one closes the last. Keeps the list unoccluded for comparison without the clutter a free-for-all accordion collects.<br><br>
+        Nothing is deleted: <span class="k">why it sells</span> and <span class="k">the case against</span> live in the expansion, still found by Ctrl-F.
+      </div>
+    </div>
+
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

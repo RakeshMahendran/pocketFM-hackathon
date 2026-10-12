@@ -118,7 +118,7 @@ export async function GET(
     ETag: etag,
     "Last-Modified": new Date(mtimeMs).toUTCString(),
     // Long enough that scrubbing does not refetch the same bytes all afternoon,
-    // and private because this is a console behind a sign-in, not a CDN origin.
+    // and private because this is a local demo workspace, not a CDN origin.
     "Cache-Control": "private, max-age=3600",
   };
 

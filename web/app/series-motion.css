@@ -1,0 +1,14 @@
+/* Only artwork moves. Card geometry and reading text remain stationary. */
+@media (prefers-reduced-motion: no-preference) {
+  .series-cover-object { transition: transform 240ms ease, box-shadow 240ms ease; }
+  @media (hover: hover) and (pointer: fine) {
+    .series-card-open:hover .series-cover-object {
+      transform: rotateY(-9deg) rotateX(1deg) translateY(-2px);
+      box-shadow: 12px 17px 20px #201c182b;
+    }
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .series-cover-object { transform: none; box-shadow: 3px 4px 8px #201c181a; }
+  .series-cover-object::before { display: none; }
+}

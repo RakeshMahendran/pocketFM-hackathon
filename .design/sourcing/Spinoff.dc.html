@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; font-family: Archivo, system-ui, sans-serif; }
+    a { color: #d9b27c; }
+    .ser { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+    .k { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #8d8377; }
+    .n { font-variant-numeric: tabular-nums; }
+    .card { background: linear-gradient(180deg,#1d1a17,#17140f); border: 1px solid rgba(255,255,255,.08); border-radius: 14px; }
+    .grain { position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px); background-size: 3px 3px; }
+    .fold { border-top: 1px solid rgba(255,255,255,.08); padding: 11px 0; display: flex; align-items: center; gap: 8px; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 1080px; background: #100e0c; color: #efe9e0; overflow: hidden; display: flex; flex-direction: column">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 44px; height: 58px; border-bottom: 1px solid rgba(255,255,255,.07); flex-shrink: 0">
+    <div style="display: flex; align-items: center; gap: 30px">
+      <span class="ser" style="font-size: 21px">FlakersFM</span>
+      <span class="k">Find stories</span>
+      <span class="k">Make the show</span>
+      <span class="k">Release</span>
+      <span class="k" style="color: #efe9e0">Spin off</span>
+    </div>
+    <span class="k">Hardik Desai  ›  Episode 1</span>
+  </div>
+
+  <!-- header: the spinoff, and what it was written from -->
+  <div style="display:grid; grid-template-columns: 1fr 300px; gap:44px; padding: 26px 44px 22px">
+    <div>
+      <div class="k">Branch canon · written on top of the main show, can never rewrite it</div>
+      <div class="ser" style="font-size: 42px; line-height:1.05; margin-top:8px">The Exception Register</div>
+      <div class="ser" style="font-size: 20px; line-height:1.45; color:#8d8377; margin-top:10px; max-width:46rem; font-style:italic">
+        Hardik refuses to count a returned case as disposed after finding its file has no dispatch receipt.
+      </div>
+    </div>
+    <div class="card" style="padding:16px 18px">
+      <div style="display:flex; align-items:baseline; justify-content:space-between">
+        <div><div class="n ser" style="font-size:26px; color:#d9b27c">9</div><div class="k">he saw</div></div>
+        <div style="text-align:right"><div class="n ser" style="font-size:26px">37</div><div class="k">sealed</div></div>
+      </div>
+      <div style="height:5px; border-radius:3px; background:rgba(255,255,255,.1); overflow:hidden; margin-top:10px">
+        <div style="height:5px; width:20%; background:#d9b27c; border-radius:3px"></div>
+      </div>
+      <div class="k" style="margin-top:10px">Written to the first number, walled off from the second</div>
+    </div>
+  </div>
+
+  <!-- THE PROOF. Never folded. -->
+  <div style="padding: 0 44px">
+    <div style="border-radius:16px; overflow:hidden; border:1px solid rgba(194,99,78,.35); background:linear-gradient(180deg,#241a18,#17120f)">
+      <div style="display:flex; align-items:center; gap:16px; padding:16px 22px; border-bottom:1px solid rgba(255,255,255,.07)">
+        <span style="width:10px; height:10px; border-radius:50%; background:#c2634e; display:inline-block"></span>
+        <span class="ser" style="font-size:22px">One contradiction found</span>
+        <span class="k" style="margin-left:auto">Six passes · three of them trying to prove the other three missed something</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 150px 1fr; gap:22px; padding:18px 22px">
+        <div>
+          <div class="k">Caught by</div>
+          <div style="font-size:13px; margin-top:5px">Leakage, refuter</div>
+          <div class="k" style="margin-top:12px">Against beat</div>
+          <div class="n" style="font-size:13px; margin-top:5px; color:#d9b27c">b027</div>
+        </div>
+        <div>
+          <div class="k">The line that broke it</div>
+          <div class="ser" style="font-size:19px; line-height:1.45; margin-top:6px; border-left:2px solid #c2634e; padding-left:14px">
+            “RAO: Registrar Kotak, one bundle has occupied two clerks for four days.”
+          </div>
+          <div style="font-size:13px; line-height:1.6; color:#8d8377; margin-top:12px; max-width:52rem">
+            This reveals the filing bundle stayed in internal scrutiny instead of being returned at the public counter — which is the sealed event in b027. Hardik was not in that room.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- the control pair: the actual argument -->
+  <div style="padding: 22px 44px 0">
+    <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:14px">
+      <span class="ser" style="font-size:21px">Same character, same moment, written twice</span>
+      <span class="k">Only one of them is supposed to pass</span>
+    </div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px">
+      <div class="card" style="padding:18px 20px; border-color:rgba(127,166,106,.35)">
+        <div style="display:flex; align-items:center; gap:10px">
+          <span style="width:8px;height:8px;border-radius:50%;background:#7fa66a;display:inline-block"></span>
+          <span class="k" style="color:#7fa66a">Inside his limits</span>
+          <span class="k" style="margin-left:auto">0 contradictions</span>
+        </div>
+        <div class="ser" style="font-size:17px; line-height:1.5; margin-top:12px; color:#efe9e0">
+          He knows a bundle came back without a receipt. He does not know why, and the episode never lets him find out.
+        </div>
+      </div>
+      <div class="card" style="padding:18px 20px; border-color:rgba(194,99,78,.35)">
+        <div style="display:flex; align-items:center; gap:10px">
+          <span style="width:8px;height:8px;border-radius:50%;background:#c2634e;display:inline-block"></span>
+          <span class="k" style="color:#c2634e">Limits switched off</span>
+          <span class="k" style="margin-left:auto">4 contradictions</span>
+        </div>
+        <div class="ser" style="font-size:17px; line-height:1.5; margin-top:12px; color:#8d8377">
+          He names the scrutiny room, the two clerks and the four days — none of which anyone ever told him.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- the rest, one click each -->
+  <div style="padding: 22px 44px 0">
+    <div class="fold"><span style="color:#8d8377">›</span><span class="k">The script</span><span class="k" style="margin-left:auto">950 words · 14 cues</span></div>
+    <div class="fold"><span style="color:#8d8377">›</span><span class="k">The moment it starts from</span><span class="k" style="margin-left:auto">b041</span></div>
+    <div class="fold" style="border-bottom:1px solid rgba(255,255,255,.08)"><span style="color:#8d8377">›</span><span class="k">Where the two shows touch</span><span class="k" style="margin-left:auto">3 crossings · facts identical</span></div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

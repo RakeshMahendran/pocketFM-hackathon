@@ -1,36 +1,18 @@
 import { expect, test } from "@playwright/test";
 
-/**
- * Does the sign-in survive a button press?
- *
- * The report was "the session is only there before any action", and separately
- * "there is no route for seeing the episodes of character". Those are one
- * symptom if they are the same bug: every inner page calls `requireEditor()`,
- * which redirects to `/` when the cookie is missing, so a lost cookie does not
- * look like a lost login — it looks like the page you asked for not existing.
- *
- * So this walks the golden path by clicking, never by typing a URL, and asserts
- * after each step that we are still where we asked to be rather than back at the
- * front door.
- */
+/** Fresh visits can open character work without a session or entry screen. */
 
 const STORY = "evt_gandhinagar_tribunal";
 
-test("the cookie survives sign-in, navigation, and a run", async ({ page }) => {
+test("the studio stays accessible without cookies (paid run is opt-in)", async ({ page }) => {
   await page.goto("/");
-  // A submit button, not a link: sign-in is a server action that sets the
-  // cookie, so the front door is already one press of the same kind as the ones
-  // this test is about.
-  await page.getByRole("button", { name: /get started/i }).click();
-  await expect(page).not.toHaveURL(/localhost:\d+\/$/);
-
-  const cookieName = "cf_editor";
+  await expect(page).toHaveURL(/\/home$/);
   const after = async (where: string) => {
-    const jar = await page.context().cookies();
-    const c = jar.find((k) => k.name === cookieName);
-    expect(c, `cookie gone after ${where}`).toBeTruthy();
+    await expect(page.getByRole("navigation", { name: "Studio", exact: true }), where).toBeVisible();
+    await expect(page.getByText("Priya Raghavan", { exact: true })).toHaveCount(0);
+    expect((await page.context().cookies()).find((cookie) => cookie.name === "cf_editor")).toBeUndefined();
   };
-  await after("sign-in");
+  await after("opening the studio");
 
   // Straight to the character with an episode already on disk, by URL, so this
   // test is about the session rather than about link text that may move.
@@ -40,13 +22,17 @@ test("the cookie survives sign-in, navigation, and a run", async ({ page }) => {
 
   // The press. This is a server action that spawns a process and redirects.
   const write = page.getByRole("button", { name: /writ|episode|generate/i }).first();
-  if (await write.count()) {
+  // An ordinary UI sweep must never start a paid writer or replace demo data.
+  // Opt in explicitly when running against a disposable, offline fixture.
+  if (process.env.CF_ALLOW_PAID_E2E === "1" && await write.count()) {
     await write.click();
     await page.waitForLoadState("networkidle");
     await after("pressing the write button");
     // The bug as reported: after the action, are we still on the character page
     // or back at the front door?
     await expect(page).not.toHaveURL(/localhost:\d+\/$/);
+  } else {
+    test.info().annotations.push({ type: "coverage", description: "Paid generation is not executed in the UI sweep." });
   }
 
   // And the route the report said did not exist.

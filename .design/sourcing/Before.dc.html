@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+    a { color: #c8913f; } a:hover { color: #e0a955; }
+    .lbl {
+      font-size: 11px; line-height: 16px; letter-spacing: 0.14em;
+      text-transform: uppercase; color: #807c74;
+    }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 900px; background: #0b0b0c; color: #ece7dd; overflow: hidden; position: relative">
+
+  <!-- masthead -->
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 40px; height: 66px; border-bottom: 1px solid #33333a">
+    <div style="display: flex; align-items: center; gap: 32px">
+      <span style="font-family: Georgia, serif; font-size: 17px">FlakersFM</span>
+      <span style="font-size: 14px">Home</span>
+      <span style="font-size: 14px">Stories worth making</span>
+      <span style="font-size: 14px">Shows we're making</span>
+    </div>
+    <span class="lbl">Priya Raghavan · Commissioning · Sign out</span>
+  </div>
+
+  <!-- pipeline ribbon -->
+  <div style="display: flex; align-items: center; gap: 10px; padding: 14px 40px; border-bottom: 1px solid #33333a">
+    <span class="lbl">Where you are</span>
+    <span class="lbl" style="color: #ece7dd; border-bottom: 1px solid #c8913f; padding-bottom: 2px">1. Find real stories</span>
+    <span class="lbl">→ 2. Make the show</span>
+    <span class="lbl">→ 3. Put it in front of listeners</span>
+    <span class="lbl">→ 4. Give a side character their own show</span>
+  </div>
+
+  <div style="padding: 40px">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start">
+      <div>
+        <div style="font-family: Georgia, serif; font-size: 34px; line-height: 40px">Stories worth making</div>
+        <div class="lbl" style="margin-top: 8px; text-decoration: underline; text-decoration-color: #4a4a54; text-underline-offset: 4px">
+          From the latest search · searched 2026-07-25 · watch it search →
+        </div>
+        <div style="font-size: 14px; color: #a29e96; line-height: 1.62; margin-top: 14px; max-width: 544px">
+          Sorted best first. Anything under 38 out of 50 is dropped before it reaches you.Anything we legally can't make sits at the bottom.
+        </div>
+      </div>
+      <div style="display: flex; gap: 26px; align-items: baseline">
+        <span><span style="font-family: ui-monospace, Consolas, monospace; font-size: 17px">30</span> <span class="lbl">found</span></span>
+        <span><span style="font-family: ui-monospace, Consolas, monospace; font-size: 17px; color: #7fa66a">30</span> <span class="lbl">we can make</span></span>
+        <span><span style="font-family: ui-monospace, Consolas, monospace; font-size: 17px">0</span> <span class="lbl">we can't</span></span>
+      </div>
+    </div>
+
+    <!-- the NEXT STEP card: the largest object on the screen, and it is chrome -->
+    <div style="border: 1px solid #33333a; border-radius: 2px; padding: 24px; margin-top: 28px; max-width: 686px">
+      <div class="lbl">Next step</div>
+      <div style="font-size: 17px; line-height: 1.55; margin-top: 14px; max-width: 544px">
+        The search ranked this one first. A season has already been written from it, and the brief opens straight onto the show.
+      </div>
+      <div style="font-size: 13px; color: #807c74; line-height: 1.6; margin-top: 16px; max-width: 544px">
+        Opening this writes nothing and spends nothing. Every step that costs money says so before you press it.
+      </div>
+      <div style="display: inline-block; background: #c8913f; color: #0b0b0c; font-size: 15px; font-weight: 500; padding: 11px 18px; border-radius: 2px; margin-top: 20px">
+        Open “The Court That Never Was” →
+      </div>
+    </div>
+
+    <!-- notice -->
+    <div style="border-left: 2px solid #c8913f; padding-left: 18px; margin-top: 28px">
+      <div style="font-size: 14px; color: #a29e96; line-height: 1.6">
+        Every story here needs the same legal treatment, so the legal label on each one is not telling you anything useful yet.
+      </div>
+    </div>
+
+    <!-- first row — only now, 680px down, does any data appear -->
+    <div style="border-top: 1px solid #33333a; margin-top: 26px">
+      <div style="display: grid; grid-template-columns: 80px 1fr; gap: 20px; padding: 20px 16px">
+        <div style="text-align: right">
+          <div style="font-size: 14px; color: #ece7dd">Worth<br>making</div>
+          <div class="lbl" style="margin-top: 4px; font-family: ui-monospace, Consolas, monospace">44/50</div>
+        </div>
+        <div>
+          <div style="display: flex; align-items: baseline; gap: 12px">
+            <span style="font-family: Georgia, serif; font-size: 19px">The Court That Never Was</span>
+            <span style="border: 1px solid #c8913f; color: #c8913f; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; padding: 3px 8px; border-radius: 2px">Change the names</span>
+            <span class="lbl">Made</span>
+          </div>
+          <div class="lbl" style="margin-top: 9px">The long deception · 2024 · Gandhinagar, Gujarat, India · indiatvnews.com</div>
+          <div style="font-size: 14px; color: #a29e96; line-height: 1.62; margin-top: 11px; max-width: 544px">
+            A man the bar council once jailed for practising law without a degree rents an office, calls it a tribunal, and spends five years settling other people's land disputes — until the litigants who won discover their victories were never real.
+          </div>
+          <div style="border-left: 1px solid #33333a; padding-left: 13px; margin-top: 11px; max-width: 544px">
+            <span class="lbl" style="margin-right: 9px">The case against it</span><span style="font-size: 14px; color: #807c74; line-height: 1.62">The protagonist is a fraud with real victims, and a season that enjoys his cleverness too much becomes a story that thinks defrauding poor litigants is charming.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- fold marker -->
+  <div style="position: absolute; left: 0; top: 745px; width: 1440px; border-top: 1px dashed #c2634e"></div>
+  <div style="position: absolute; right: 16px; top: 752px; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #c2634e">
+    Fold — one row visible
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

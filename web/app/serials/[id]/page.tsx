@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { ArtCard, Reveal, Split, Stat, SeriesOverview } from "@/components/ui";
+import { hook } from "@/lib/presentation";
 import { ClearanceBadge } from "@/components/ClearanceBadge";
 import { Notice } from "@/components/Notice";
 import { SeasonNextStep } from "@/components/NextStep";
@@ -9,21 +11,19 @@ import { PublishPanel } from "@/components/PublishPanel";
 import { EPISODE_LIST_ANCHOR } from "@/components/ReleaseControls";
 import { SeasonEpisodes } from "@/components/SeasonEpisodes";
 import {
-  FoldedBlock,
   ReferenceGroup,
   ReferenceItem,
   SEASON_WORDS,
-  SeasonJump,
 } from "@/components/SeasonLayout";
 import { loadCandidate } from "@/lib/data";
 import { readChecks, readPublishState } from "@/lib/publish";
+import { episodesWithAudio } from "@/lib/audio";
 import { loadSerial, type Confidence, type PromiseLedger, type Serial } from "@/lib/serials";
 import { requireEditor } from "@/lib/session";
 import { loadRoster, type CastRow } from "@/lib/spinoffs";
 import { SCORE_LABELS, type Scores } from "@/lib/types";
 import {
   CAST_LIST_TITLE,
-  EPISODE_LIST_TITLE,
   HEADING,
   MEASURES,
   PROMOTION,
@@ -32,7 +32,6 @@ import {
   category,
   releaseProgress,
   rosterStanding,
-  verdict,
 } from "@/lib/words";
 
 export const dynamic = "force-dynamic";
@@ -41,7 +40,7 @@ export const dynamic = "force-dynamic";
  * One season, arranged around the four things a commissioning editor comes here
  * to answer, in the order they ask them:
  *
- *   1. what is this show, and is it any good   — title, logline, verdict, engine
+ *   1. what is this show                     — title, gist, production counts
  *   2. what is written                          — the episodes
  *   3. what is out, and what goes next          — the publish panel, per episode
  *   4. who else could carry a show              — the route into the spin-off half
@@ -336,44 +335,12 @@ function Ledger({ ledger }: { ledger: PromiseLedger }) {
   );
 }
 
-function Header({ s }: { s: Serial }) {
-  const rated = verdict(s.scores ? s.scores.total : null);
-  return (
-    <header className="mt-6 flex items-start justify-between gap-8 flex-wrap">
-      <div className="min-w-0">
-        <div className="flex items-center gap-3 flex-wrap">
-          <ClearanceBadge clearance={s.clearance} size="lg" />
-          {s.category && <span className="label">{category(s.category)}</span>}
-          <span
-            className="font-mono text-[0.6875rem] text-faint"
-            title="The reference this show is filed under."
-          >
-            {s.eventId ?? s.id}
-          </span>
-        </div>
-        <h1 className="font-serif text-4xl tracking-tight mt-4 leading-tight">
-          {s.title}
-        </h1>
-        {s.fantasy && (
-          <p className="font-serif text-2xl text-muted italic mt-2">
-            &ldquo;{s.fantasy}&rdquo;
-          </p>
-        )}
-      </div>
-
-      <div className="text-right shrink-0">
-        <div className={`font-serif text-4xl leading-none ${rated.className}`}>
-          {rated.word}
-        </div>
-        <div className="label mt-2">
-          {s.scores ? `${s.scores.total} out of 50` : "never rated"}
-        </div>
-        <div className="label mt-3">
-          {s.episodeCount} of {s.spineLength || s.episodeCount} episodes written
-        </div>
-      </div>
-    </header>
-  );
+function Header({ s, published }: { s: Serial; published: number }) {
+  return <SeriesOverview id={s.id} title={s.title} gist={hook(s.oneLine ?? s.fantasy)}>
+        <div role="group" aria-label="Episodes written"><Stat value={`${s.episodeCount}/${s.spineLength || s.episodeCount}`} name="episodes written" /></div>
+        <div role="group" aria-label="Audio generated"><Stat value={`${s.audioEpisodeCount} of ${s.episodeCount}`} name="audio generated" /></div>
+        <div role="group" aria-label="Episodes published"><Stat value={published} name="episodes published" /></div>
+  </SeriesOverview>;
 }
 
 export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
@@ -394,10 +361,11 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
   // The season is already loaded, and `Serial.episodeCount` is the same number
   // `readPublishState` would otherwise count off disk — passing it spends one
   // fewer directory read per render.
-  const [publishState, checks, roster] = await Promise.all([
+  const [publishState, checks, roster, audioEpisodes] = await Promise.all([
     readPublishState(storyId, s.episodeCount),
     readChecks(storyId),
     loadRoster(storyId),
+    episodesWithAudio(storyId, s.episodes.map(ep => ep.ep)),
   ]);
   const standings = new Map<string, CastRow>(
     roster.rows.map((r) => [r.charId, r]),
@@ -411,45 +379,15 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
   const released = releaseProgress(season.releasedThrough, season.written);
 
   return (
-    <div className="mx-auto max-w-6xl px-8 py-12">
+    <div className="season-workspace">
       <div className="flex items-baseline gap-6 flex-wrap">
         <Link href="/serials" className="label hover:text-ochre transition-colors">
-          ← Shows we’re making
+          ← All shows
         </Link>
-        {origin && (
-          <Link
-            href={`/candidates/${encodeURIComponent(storyId)}`}
-            className="label text-ochre hover:text-paper transition-colors"
-          >
-            from the story list →
-          </Link>
-        )}
       </div>
 
-      <Header s={s} />
+      <Header s={s} published={season.live ? season.releasedThrough : 0} />
 
-      {s.oneLine && (
-        <p className="mt-8 font-serif text-xl leading-relaxed prose-col text-paper">
-          {s.oneLine}
-        </p>
-      )}
-
-      {(s.notes.length > 0 || s.missing.length > 0) && (
-        <div className="mt-8 space-y-3">
-          {s.notes.map((n, i) => (
-            <Notice key={i} tone="info">
-              {plainNote(n)}
-            </Notice>
-          ))}
-          {s.missing.length > 0 && (
-            <Notice tone="info">
-              Not recorded for this show: {partWords(s.missing)}. It was put
-              together before we settled on what every show should come with, so
-              these were never filled in.
-            </Notice>
-          )}
-        </div>
-      )}
 
       {/*
         The three routes out of the top of the page, and the reason this rewrite
@@ -457,7 +395,7 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
         cast section, a third of the way down, under fourteen episode summaries.
         Nobody found it. It is now in the first screenful and drawn as a button.
       */}
-      <SeasonJump storyId={storyId} castCount={s.cast.length} released={released} />
+      <div className="show-page-actions"><Link href={`/serials/${encodeURIComponent(storyId)}/cast`}>Explore cast →</Link><Link href="#publishing">Publishing settings</Link></div>
 
       {/*
         The one thing to do next, directly under the jump bar. It renders no
@@ -466,14 +404,6 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
         all, asking the same `refusedRelease` the episode row asks so the two
         cannot end up disagreeing on one screen.
       */}
-      <div className="mt-8 max-w-2xl">
-        <SeasonNextStep
-          storyId={storyId}
-          season={season}
-          checks={checks}
-          castCount={s.cast.length}
-        />
-      </div>
 
       {/*
         What was written and what is out, first — and the release state beside
@@ -486,35 +416,19 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
         the score survive as one-liners in the header, because those two are
         what an editor uses to decide whether to keep investing.
       */}
-      <div className="mt-10 grid lg:grid-cols-[1fr_20rem] gap-x-14 gap-y-8 items-start">
-        <section className="min-w-0" id={EPISODE_LIST_ANCHOR}>
+      <div className="show-episodes-workspace">
+        <section className="min-w-0" id={EPISODE_LIST_ANCHOR} aria-label="Episodes">
         <div className="flex items-baseline justify-between gap-6 mb-4">
-          <h2 className="label">{SEASON_WORDS.episodes}</h2>
+          <h2 className="text-xl">Episodes</h2>
           <span className="label">
-            {EPISODE_LIST_TITLE} — {released}
+            {released}
           </span>
         </div>
 
-        <p className="text-sm text-muted leading-relaxed prose-col mb-4">
-          {TWO_DECISIONS_EXPLAINED}
-        </p>
-
-        <p
-          className="label mb-5"
-          title="Everything the season treats as having really happened is recorded one by one, along with who was there — and who never finds out. That second part is what lets a side character carry their own show later without contradicting this one."
-        >
-          {s.beatCount} things happen · {s.beatsWithHiddenFrom} of them are kept
-          from someone
-        </p>
 
         {/* The shape of the season is a picture plus the planner's brief for
             every episode. Worth two seconds when you want it, and a thousand
             words when you do not — so it opens rather than sits open. */}
-        <div className="mb-6">
-          <FoldedBlock title={SEASON_WORDS.shape} aside={SEASON_WORDS.shapeAside}>
-            <SeasonSpine id={s.id} spine={s.spine} episodes={s.episodes} />
-          </FoldedBlock>
-        </div>
 
         <SeasonEpisodes
           storyId={storyId}
@@ -523,15 +437,21 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
           season={season}
           releases={publishState.episodes}
           checks={checks}
+          audioEpisodes={audioEpisodes}
         />
         </section>
 
-        <aside>
+        <section id="publishing" aria-label="Publishing" className="show-publishing">
+          <div className="flex items-center justify-between gap-4"><h2 className="text-xl">Publishing</h2><ClearanceBadge clearance={s.clearance} /></div>
+          <div className="mt-4"><PublishPanel storyId={storyId} state={publishState} checks={checks} /></div>
+          <Reveal summary="Publishing guidance" group="show-publishing-guidance">
+            <p>{TWO_DECISIONS_EXPLAINED}</p>
+          </Reveal>
+          <SeasonNextStep storyId={storyId} season={season} checks={checks} castCount={s.cast.length} />
           {/* The state, beside the list it describes. It carries no release
               control of its own — the row for each episode owns that, so there
               is exactly one button per action on this page. */}
-          <PublishPanel storyId={storyId} state={publishState} checks={checks} />
-        </aside>
+        </section>
       </div>
 
       {/*
@@ -539,7 +459,17 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
         every name below is a show that could be made out of what that person
         was never told, and each one opens.
       */}
-      <section className="mt-16">
+      <section className="mt-10">
+        <div className="flex items-center justify-between mb-5"><h2 className="text-xl">Explore the cast</h2><Link href={`/serials/${encodeURIComponent(storyId)}/cast`} className="text-sm">All characters →</Link></div>
+        <div className="studio-grid">{s.cast.slice(0,4).map(c => {
+          const row = standings.get(c.id);
+          return <ArtCard key={c.id} id={`${s.id}-${c.id}`} title={c.name}
+            href={`/serials/${encodeURIComponent(storyId)}/cast/${encodeURIComponent(c.id)}`}
+            dimmed={row ? !row.promotable : false}
+            meta={row ? rosterStanding(row).label : "Character record"}
+            footer={row ? <Split knows={row.witnessed} blind={row.blind} /> : undefined} />;
+        })}</div>
+        <div className="mt-6"><Reveal summary="Full cast record" group="season-introduction">      <section className="mt-4">
         <div className="flex items-baseline justify-between gap-6 mb-4">
           <h2 className="label">{HEADING.cast}</h2>
           <span className="flex items-baseline gap-4 flex-wrap justify-end label">
@@ -589,9 +519,7 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
                         </span>
                       )}
                       {row && (row.witnessed > 0 || row.blind > 0) && (
-                        <span className="label" title={standing?.why}>
-                          in {row.witnessed} · missed {row.blind}
-                        </span>
+                        <div className="w-56"><Split knows={row.witnessed} blind={row.blind} /></div>
                       )}
                       {c.composite && (
                         <span
@@ -637,6 +565,7 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
             </ul>
           </>
         )}
+      </section></Reveal></div>
       </section>
 
       {/*
@@ -648,7 +577,7 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
         every visit — so it keeps its own heading and its full text, and stops
         standing between a producer and the episode list.
       */}
-      <div className="mt-16 grid lg:grid-cols-2 gap-x-14 gap-y-10 items-start">
+      <div className="mt-10"><Reveal summary="The commissioning case" group="season-introduction"><div className="grid lg:grid-cols-2 gap-x-8 gap-y-8 items-start">
         {s.engine && (
           <Section title={HEADING.engine}>
             <p className="font-serif text-lg leading-relaxed prose-col">
@@ -677,7 +606,7 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
             </>
           )}
         </Section>
-      </div>
+      </div></Reveal></div>
 
       {/*
         Everything a producer looks up rather than reads. Same content, same
@@ -688,6 +617,22 @@ export default async function SeasonPage(props: PageProps<"/serials/[id]">) {
         in colour while still shut.
       */}
       <ReferenceGroup>
+        <ReferenceItem title="Story overview">
+          <div data-testid="show-full-synopsis"><p>{s.oneLine}</p><p className="mt-3">{s.fantasy}</p></div>
+          <p className="label mt-3">Reference: {s.eventId ?? s.id}</p>
+          <p className="label mt-3">{category(s.category)} · {s.castCount} characters</p>
+          {origin && <Link href={`/candidates/${encodeURIComponent(storyId)}`} className="inline-block mt-3 text-sm">Original story →</Link>}
+        </ReferenceItem>
+        {(s.notes.length > 0 || s.missing.length > 0) && <ReferenceItem title="Record notes" aside={String(s.notes.length + (s.missing.length > 0 ? 1 : 0))}>
+          <div className="space-y-3">{s.notes.map((n, i) => <Notice key={i} tone="info">{plainNote(n)}</Notice>)}
+            {s.missing.length > 0 && <Notice tone="info">Not recorded for this show: {partWords(s.missing)}. It was put together before we settled on what every show should come with, so these were never filled in.</Notice>}
+          </div>
+        </ReferenceItem>}
+        <ReferenceItem title={SEASON_WORDS.shape} aside={SEASON_WORDS.shapeAside}>
+          <p className="label mb-5">{s.beatCount} things happen · {s.beatsWithHiddenFrom} of them are kept from someone</p>
+          <p className="text-sm text-muted mb-4">Everything the season treats as having really happened is recorded one by one, along with who was there — and who never finds out. That second part is what lets a side character carry their own show later without contradicting this one.</p>
+          <SeasonSpine id={s.id} spine={s.spine} episodes={s.episodes} />
+        </ReferenceItem>
         {s.scores && (
           <ReferenceItem title={HEADING.score} aside={`${s.scores.total} of 50`}>
             <ScoreBars scores={s.scores} />

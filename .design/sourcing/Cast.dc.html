@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; font-family: Archivo, system-ui, sans-serif; }
+    a { color: #d9b27c; }
+    .ser { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+    .k { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #8d8377; }
+    .n { font-variant-numeric: tabular-nums; }
+    .card { background: linear-gradient(180deg,#1d1a17,#17140f); border: 1px solid rgba(255,255,255,.08); border-radius: 14px; overflow: hidden; }
+    .grain { position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px); background-size: 3px 3px; }
+    .chip { border: 1px solid rgba(255,255,255,.15); border-radius: 999px; padding: 4px 12px; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: #8d8377; }
+    .chip.on { border-color: rgba(217,178,124,.6); color: #d9b27c; }
+    .bar { height: 5px; border-radius: 3px; background: rgba(255,255,255,.1); overflow: hidden; }
+    .bar > i { display: block; height: 5px; background: #d9b27c; border-radius: 3px; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 1080px; background: #100e0c; color: #efe9e0; overflow: hidden; display: flex; flex-direction: column">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 44px; height: 58px; border-bottom: 1px solid rgba(255,255,255,.07); flex-shrink: 0">
+    <div style="display: flex; align-items: center; gap: 30px">
+      <span class="ser" style="font-size: 21px">FlakersFM</span>
+      <span class="k">Find stories</span>
+      <span class="k">Make the show</span>
+      <span class="k">Release</span>
+      <span class="k" style="color: #efe9e0">Spin off</span>
+    </div>
+    <span class="k">Where you are <span style="color:#d9b27c">4. Give a side character their own show</span> of 4</span>
+  </div>
+
+  <div style="padding: 26px 44px 0">
+    <div style="display: flex; align-items: flex-end; justify-content: space-between">
+      <div>
+        <div class="k">The Man Who Answers to a Dead Name · season one</div>
+        <div class="ser" style="font-size: 34px; line-height: 1.08; margin-top: 6px">Who else has a story</div>
+      </div>
+      <div style="display: flex; gap: 34px; align-items: flex-end">
+        <div><div class="n ser" style="font-size: 26px">17</div><div class="k">in the cast</div></div>
+        <div><div class="n ser" style="font-size: 26px; color:#d9b27c">9</div><div class="k">could carry a show</div></div>
+        <div><div class="n ser" style="font-size: 26px">2</div><div class="k">already written</div></div>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 8px; margin-top: 20px; align-items: center">
+      <span class="chip on">Could carry a show</span>
+      <span class="chip">Already written</span>
+      <span class="chip">Everyone</span>
+      <span class="k" style="margin-left: auto">Sorted by what they were never told</span>
+    </div>
+  </div>
+
+  <!-- the roster, as faces -->
+  <div style="padding: 22px 44px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px">
+
+    <!-- 1 -->
+    <div class="card">
+      <div style="height: 150px; position: relative; background: radial-gradient(110% 110% at 30% 15%, #6b4356 0%, rgba(107,67,86,0) 62%), linear-gradient(150deg,#261b21,#14120f)">
+        <div class="grain"></div>
+        <div style="position:absolute; left:14px; bottom:12px">
+          <div class="ser" style="font-size: 23px">Thammanna</div>
+          <div class="k" style="margin-top:2px">First division assistant</div>
+        </div>
+      </div>
+      <div style="padding: 14px 16px 16px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span class="n ser" style="font-size:20px; color:#d9b27c">6</span>
+          <span class="n ser" style="font-size:20px">33</span>
+        </div>
+        <div style="display:flex; justify-content:space-between"><span class="k">saw</span><span class="k">never knew</span></div>
+        <div class="bar" style="margin-top:8px"><i style="width:15%"></i></div>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="card">
+      <div style="height: 150px; position: relative; background: radial-gradient(110% 110% at 70% 20%, #3f587a 0%, rgba(63,88,122,0) 62%), linear-gradient(150deg,#1a1f28,#14120f)">
+        <div class="grain"></div>
+        <div style="position:absolute; left:14px; bottom:12px">
+          <div class="ser" style="font-size: 23px">Savithri</div>
+          <div class="k" style="margin-top:2px">Chaitra's mother</div>
+        </div>
+      </div>
+      <div style="padding: 14px 16px 16px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span class="n ser" style="font-size:20px; color:#d9b27c">15</span>
+          <span class="n ser" style="font-size:20px">28</span>
+        </div>
+        <div style="display:flex; justify-content:space-between"><span class="k">saw</span><span class="k">never knew</span></div>
+        <div class="bar" style="margin-top:8px"><i style="width:35%"></i></div>
+      </div>
+    </div>
+
+    <!-- 3 — already written -->
+    <div class="card" style="border-color: rgba(217,178,124,.35)">
+      <div style="height: 150px; position: relative; background: radial-gradient(110% 110% at 25% 80%, #4c6b4a 0%, rgba(76,107,74,0) 62%), linear-gradient(150deg,#1f2620,#14120f)">
+        <div class="grain"></div>
+        <div style="position:absolute; right:12px; top:12px; border:1px solid rgba(217,178,124,.5); color:#d9b27c; border-radius:999px; padding:3px 10px; font-size:9.5px; letter-spacing:.12em; text-transform:uppercase">Written · checked</div>
+        <div style="position:absolute; left:14px; bottom:12px">
+          <div class="ser" style="font-size: 23px">Mallesha</div>
+          <div class="k" style="margin-top:2px">Her father</div>
+        </div>
+      </div>
+      <div style="padding: 14px 16px 16px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span class="n ser" style="font-size:20px; color:#d9b27c">17</span>
+          <span class="n ser" style="font-size:20px">25</span>
+        </div>
+        <div style="display:flex; justify-content:space-between"><span class="k">saw</span><span class="k">never knew</span></div>
+        <div class="bar" style="margin-top:8px"><i style="width:40%"></i></div>
+      </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="card">
+      <div style="height: 150px; position: relative; background: radial-gradient(110% 110% at 60% 25%, #78633f 0%, rgba(120,99,63,0) 62%), linear-gradient(150deg,#28221a,#14120f)">
+        <div class="grain"></div>
+        <div style="position:absolute; left:14px; bottom:12px">
+          <div class="ser" style="font-size: 23px">Basavaraj</div>
+          <div class="k" style="margin-top:2px">Counter four clerk</div>
+        </div>
+      </div>
+      <div style="padding: 14px 16px 16px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span class="n ser" style="font-size:20px; color:#d9b27c">9</span>
+          <span class="n ser" style="font-size:20px">30</span>
+        </div>
+        <div style="display:flex; justify-content:space-between"><span class="k">saw</span><span class="k">never knew</span></div>
+        <div class="bar" style="margin-top:8px"><i style="width:23%"></i></div>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="card">
+      <div style="height: 150px; position: relative; background: radial-gradient(110% 110% at 35% 30%, #5a3a4a 0%, rgba(90,58,74,0) 62%), linear-gradient(150deg,#231a1f,#14120f)">
+        <div class="grain"></div>
+        <div style="position:absolute; left:14px; bottom:12px">
+          <div class="ser" style="font-size: 23px">Ratnamma</div>
+          <div class="k" style="margin-top:2px">Lokanath's mother</div>
+        </div>
+      </div>
+      <div style="padding: 14px 16px 16px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span class="n ser" style="font-size:20px; color:#d9b27c">4</span>
+          <span class="n ser" style="font-size:20px">35</span>
+        </div>
+        <div style="display:flex; justify-content:space-between"><span class="k">saw</span><span class="k">never knew</span></div>
+        <div class="bar" style="margin-top:8px"><i style="width:10%"></i></div>
+      </div>
+    </div>
+
+    <!-- 6 -->
+    <div class="card">
+      <div style="height: 150px; position: relative; background: radial-gradient(110% 110% at 75% 70%, #3d5d6b 0%, rgba(61,93,107,0) 62%), linear-gradient(150deg,#1a2226,#14120f)">
+        <div class="grain"></div>
+        <div style="position:absolute; left:14px; bottom:12px">
+          <div class="ser" style="font-size: 23px">Girija</div>
+          <div class="k" style="margin-top:2px">Block education office</div>
+        </div>
+      </div>
+      <div style="padding: 14px 16px 16px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span class="n ser" style="font-size:20px; color:#d9b27c">11</span>
+          <span class="n ser" style="font-size:20px">29</span>
+        </div>
+        <div style="display:flex; justify-content:space-between"><span class="k">saw</span><span class="k">never knew</span></div>
+        <div class="bar" style="margin-top:8px"><i style="width:27%"></i></div>
+      </div>
+    </div>
+
+    <!-- 7 -->
+    <div class="card">
+      <div style="height: 150px; position: relative; background: radial-gradient(110% 110% at 20% 60%, #6b5a3a 0%, rgba(107,90,58,0) 62%), linear-gradient(150deg,#262117,#14120f)">
+        <div class="grain"></div>
+        <div style="position:absolute; left:14px; bottom:12px">
+          <div class="ser" style="font-size: 23px">Prakash</div>
+          <div class="k" style="margin-top:2px">Her brother</div>
+        </div>
+      </div>
+      <div style="padding: 14px 16px 16px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span class="n ser" style="font-size:20px; color:#d9b27c">13</span>
+          <span class="n ser" style="font-size:20px">27</span>
+        </div>
+        <div style="display:flex; justify-content:space-between"><span class="k">saw</span><span class="k">never knew</span></div>
+        <div class="bar" style="margin-top:8px"><i style="width:32%"></i></div>
+      </div>
+    </div>
+
+    <!-- 8 — the protagonist, dimmed: she already has the show -->
+    <div class="card" style="opacity:.42">
+      <div style="height: 150px; position: relative; background: radial-gradient(110% 110% at 50% 20%, #7a4059 0%, rgba(122,64,89,0) 62%), linear-gradient(150deg,#2a2028,#14120f)">
+        <div class="grain"></div>
+        <div style="position:absolute; right:12px; top:12px" class="k">Leads the season</div>
+        <div style="position:absolute; left:14px; bottom:12px">
+          <div class="ser" style="font-size: 23px">Chaitra</div>
+          <div class="k" style="margin-top:2px">Protagonist</div>
+        </div>
+      </div>
+      <div style="padding: 14px 16px 16px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span class="n ser" style="font-size:20px; color:#d9b27c">43</span>
+          <span class="n ser" style="font-size:20px">2</span>
+        </div>
+        <div style="display:flex; justify-content:space-between"><span class="k">saw</span><span class="k">never knew</span></div>
+        <div class="bar" style="margin-top:8px"><i style="width:95%"></i></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="padding: 4px 44px; display:flex; align-items:center; gap:16px">
+    <span class="k">9 more below</span>
+    <span class="k" style="margin-left:auto">A show costs money to write · the price is on the character's page</span>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

@@ -45,3 +45,7 @@ data/cache/voice/mock_*
 
 # Recorded demo take. An artifact of the presentation, not a source file.
 demo_walkthrough.mp4
+
+# Regenerable animation frames and local photographic inspection output.
+demo/**/frames/
+demo/avif-saree-reference.png

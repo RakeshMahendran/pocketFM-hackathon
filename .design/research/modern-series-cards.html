@@ -1,0 +1,56 @@
+<div id="series-card-studies" aria-label="Series card layout studies">
+  <style>
+    #series-card-studies { --studio-bg:#f7f8f5; --studio-surface:#fff; --studio-text:#28392f; --studio-muted:#5b695b; --studio-line:#dbe2d6; --studio-radius:16px; color:var(--studio-text); font-family:Inter,Arial,sans-serif; }
+    #series-card-studies * { box-sizing:border-box; }
+    #series-card-studies .studies { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px 22px; padding:24px; background:var(--studio-bg); }
+    #series-card-studies .study { min-width:0; }
+    #series-card-studies .study-label { display:block; margin:0 0 14px; font-size:13px; font-weight:500; }
+    #series-card-studies .series-tile { border:1px solid var(--studio-line); border-radius:var(--studio-radius); background:var(--studio-surface); overflow:hidden; }
+    #series-card-studies .cover { min-height:174px; background:#dce3d5; color:#28392f; padding:22px; display:flex; flex-direction:column; justify-content:space-between; position:relative; }
+    #series-card-studies .cover small { font-size:11px; letter-spacing:.12em; text-transform:uppercase; }
+    #series-card-studies .cover strong { font:500 34px/1.03 Georgia,serif; display:block; position:relative; }
+    #series-card-studies .cover em { font:italic 13px Georgia,serif; margin-top:18px; }
+    #series-card-studies .content { padding:18px; }
+    #series-card-studies .series-title { display:block; font-size:16px; font-weight:500; line-height:1.35; margin:0 0 8px; }
+    #series-card-studies .meta { font-size:12px; color:var(--studio-muted); }
+    #series-card-studies .bottom { display:flex; gap:12px; align-items:center; justify-content:space-between; margin-top:18px; }
+    #series-card-studies .clearance { font-size:11px; color:#684f2f; }
+    #series-card-studies .info { width:28px; height:28px; display:grid; place-items:center; border:1px solid var(--studio-line); border-radius:50%; flex-shrink:0; font:italic 14px Georgia,serif; }
+    #series-card-studies .inset .cover { margin:10px; border-radius:calc(var(--studio-radius) - 5px); min-height:154px; }
+    #series-card-studies .inset .content { padding-top:8px; }
+    #series-card-studies .poster .cover { min-height:286px; padding:24px; }
+    #series-card-studies .poster .cover strong { font-size:46px; }
+    #series-card-studies .poster .content { padding:14px 18px; }
+    #series-card-studies .poster .bottom { margin-top:0; }
+    #series-card-studies .horizontal { display:grid; grid-template-columns:86px minmax(0,1fr); }
+    #series-card-studies .horizontal .cover { padding:12px; min-height:170px; }
+    #series-card-studies .horizontal .cover strong { font-size:23px; }
+    #series-card-studies .horizontal .cover small, #series-card-studies .horizontal .cover em { display:none; }
+    #series-card-studies .horizontal .content { padding:16px 12px; }
+    #series-card-studies .gallery { border:0; background:transparent; }
+    #series-card-studies .gallery .cover { border-radius:var(--studio-radius); }
+    #series-card-studies .gallery .content { padding:16px 0; }
+    #series-card-studies .compact .content { padding:22px; }
+    #series-card-studies .compact .monogram { display:grid; place-items:center; width:48px; height:56px; margin-bottom:28px; border-radius:8px; background:#dce3d5; font:500 28px Georgia,serif; }
+    #series-card-studies .note { margin:10px 0 0; font-size:12px; color:var(--studio-muted); }
+    #series-card-studies .study-footer { margin:0; padding:0 24px 24px; background:var(--studio-bg); font-size:12px; color:var(--studio-muted); }
+    @media(max-width:760px) { #series-card-studies .studies { grid-template-columns:repeat(2,minmax(0,1fr)); padding:16px; gap:24px 16px; } }
+    @media(max-width:480px) { #series-card-studies .studies { grid-template-columns:1fr; } }
+  </style>
+  <div class="studies">
+    <section class="study"><h2 class="study-label">01 · Editorial media — recommended</h2><article class="series-tile"><div class="cover"><small>Family betrayal</small><strong>Nine Days<br>of the Year</strong><em>“they left her out”</em></div><div class="content"><h3 class="series-title">Nine Days of the Year</h3><span class="meta">14 episodes</span><div class="bottom"><span class="clearance">Name changes needed</span><span class="info" aria-label="Production details control placement">i</span></div></div></article><p class="note">Clear title area · Separate detail control</p></section>
+    <section class="study"><h2 class="study-label">02 · Inset media</h2><article class="series-tile inset"><div class="cover"><small>Family betrayal</small><strong>Nine Days<br>of the Year</strong><em>“they left her out”</em></div><div class="content"><h3 class="series-title">Nine Days of the Year</h3><span class="meta">14 episodes</span><div class="bottom"><span class="clearance">Name changes needed</span><span class="info" aria-label="Production details control placement">i</span></div></div></article><p class="note">Softer framing · More space around the art</p></section>
+    <section class="study"><h2 class="study-label">03 · Full-cover poster</h2><article class="series-tile poster"><div class="cover"><small>Family betrayal</small><strong>Nine Days<br>of the<br>Year</strong><em>14 episodes</em></div><div class="content"><div class="bottom"><span class="clearance">Name changes needed</span><span class="info" aria-label="Production details control placement">i</span></div></div></article><p class="note">Art-led browsing · Needs reliable cover art</p></section>
+    <section class="study"><h2 class="study-label">04 · Horizontal media</h2><article class="series-tile horizontal"><div class="cover"><strong>Nine<br>Days</strong></div><div class="content"><h3 class="series-title">Nine Days of the Year</h3><span class="meta">14 episodes</span><div class="bottom"><span class="clearance">Name changes needed</span><span class="info" aria-label="Production details control placement">i</span></div></div></article><p class="note">Best beside the open production panel</p></section>
+    <section class="study"><h2 class="study-label">05 · Borderless gallery</h2><article class="series-tile gallery"><div class="cover"><small>Family betrayal</small><strong>Nine Days<br>of the Year</strong><em>“they left her out”</em></div><div class="content"><h3 class="series-title">Nine Days of the Year</h3><span class="meta">14 episodes</span><div class="bottom"><span class="clearance">Name changes needed</span><span class="info" aria-label="Production details control placement">i</span></div></div></article><p class="note">Quietest surface · Less obvious card boundary</p></section>
+    <section class="study"><h2 class="study-label">06 · Compact project tile</h2><article class="series-tile compact"><div class="content"><span class="monogram" aria-hidden="true">N</span><h3 class="series-title">Nine Days of the Year</h3><span class="meta">14 episodes</span><div class="bottom"><span class="clearance">Name changes needed</span><span class="info" aria-label="Production details control placement">i</span></div></div></article><p class="note">Works without art · Feels more like a work tool</p></section>
+  </div>
+  <p class="study-footer">Layout studies · Same sample series and palette · Typographic cover concepts, not existing artwork</p>
+  <script>
+    const studyRoot = document.getElementById('series-card-studies');
+    const studyState = { radius:16 };
+    function applyStudyStyle() { studyRoot.style.setProperty('--studio-radius', studyState.radius + 'px'); }
+    applyStudyStyle();
+    if (globalThis.Tweak) { const controls = new Tweak({container:studyRoot,onChange:applyStudyStyle}); controls.addSlider(studyState,'radius',{label:'Card corners',min:4,max:24,unit:'px'}); }
+  </script>
+</div>

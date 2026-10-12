@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; font-family: Archivo, system-ui, sans-serif; }
+    a { color: #d9b27c; }
+    .ser { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+    .k { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #8d8377; }
+    .n { font-variant-numeric: tabular-nums; }
+    .card { background: linear-gradient(180deg,#1d1a17,#17140f); border: 1px solid rgba(255,255,255,.08); border-radius: 14px; }
+    .grain { position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px); background-size: 3px 3px; }
+    .ep { display:grid; grid-template-columns: 2.4rem 1fr 7rem 6rem 5rem; gap:18px; align-items:center; padding:9px 14px; border-bottom:1px solid rgba(255,255,255,.06); border-radius:9px }
+    .fold { border-top: 1px solid rgba(255,255,255,.08); padding: 11px 0; display: flex; align-items: center; gap: 8px; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 1180px; background: #100e0c; color: #efe9e0; overflow: hidden; display:flex; flex-direction:column">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 44px; height: 58px; border-bottom: 1px solid rgba(255,255,255,.07); flex-shrink: 0">
+    <div style="display: flex; align-items: center; gap: 30px">
+      <span class="ser" style="font-size: 21px">FlakersFM</span>
+      <span class="k">Find stories</span>
+      <span class="k">Make the show</span>
+      <span class="k" style="color:#efe9e0">Release</span>
+      <span class="k">Spin off</span>
+    </div>
+    <span class="k">Where you are <span style="color:#d9b27c">3. Put it in front of listeners</span> of 4</span>
+  </div>
+
+  <!-- the show, as a show -->
+  <div style="display:grid; grid-template-columns: 560px 1fr; gap:44px; padding:26px 44px 26px">
+    <div style="height:316px; border-radius:18px; position:relative; overflow:hidden; box-shadow:0 30px 60px -34px rgba(0,0,0,1);
+                background: radial-gradient(115% 85% at 20% 12%, #7a4059 0%, rgba(122,64,89,0) 58%), radial-gradient(105% 95% at 88% 84%, #3d5d6b 0%, rgba(61,93,107,0) 62%), linear-gradient(155deg,#2a2028,#13100f)">
+      <div class="grain"></div>
+      <div style="position:absolute; inset:0; background:linear-gradient(180deg,rgba(16,14,12,0) 38%,rgba(16,14,12,.9) 100%)"></div>
+      <div style="position:absolute; left:26px; right:26px; bottom:22px">
+        <div class="k" style="color:rgba(239,233,224,.8)">Denied identity · season one</div>
+        <div class="ser" style="font-size:38px; line-height:1.05; margin-top:7px">The Man Who Answers to a Dead Name</div>
+      </div>
+      <div style="position:absolute; left:22px; top:20px; border:1px solid rgba(127,166,106,.5); color:#7fa66a; border-radius:999px; padding:4px 12px; font-size:9.5px; letter-spacing:.12em; text-transform:uppercase">Live · 5 of 14 out</div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; justify-content:space-between">
+      <div>
+        <div class="ser" style="font-size:29px; line-height:1.3; max-width:40rem">
+          “A daughter cannot be appointed under her own name, because her father has taught for
+          twenty-four years under his dead brother's.”
+        </div>
+        <div style="display:flex; gap:38px; margin-top:24px">
+          <div><div class="n ser" style="font-size:28px">14</div><div class="k">episodes written</div></div>
+          <div><div class="n ser" style="font-size:28px; color:#d9b27c">5</div><div class="k">with listeners</div></div>
+          <div><div class="n ser" style="font-size:28px">46</div><div class="k">moments of canon</div></div>
+          <div><div class="n ser" style="font-size:28px">17</div><div class="k">in the cast</div></div>
+          <div><div class="n ser" style="font-size:28px">4</div><div class="k">loose ends open</div></div>
+        </div>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:16px">
+        <div style="background:#efe9e0; color:#100e0c; font-size:14px; font-weight:600; padding:13px 26px; border-radius:999px">Let episode 6 out</div>
+        <span class="k">Putting the show live and letting an episode out are two decisions</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:grid; grid-template-columns: 1fr 380px; gap:36px; padding:0 44px">
+
+    <!-- episodes, one line each, with the cliffhanger shape as a mark -->
+    <div>
+      <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:10px">
+        <span class="ser" style="font-size:21px">The season</span>
+        <span class="k">Amber = ends the same way as the one before</span>
+      </div>
+
+      <div class="ep" style="background:rgba(255,255,255,.02)">
+        <span class="n k">01</span>
+        <span class="ser" style="font-size:17px">The Verification Counter</span>
+        <span class="k">Out</span>
+        <span class="k">Refusal</span>
+        <span style="display:flex; gap:3px; justify-content:flex-end"><i style="width:4px;height:16px;background:#d9b27c;border-radius:2px"></i></span>
+      </div>
+      <div class="ep">
+        <span class="n k">02</span>
+        <span class="ser" style="font-size:17px">A Name on Two Registers</span>
+        <span class="k">Out</span>
+        <span class="k">Discovery</span>
+        <span style="display:flex; gap:3px; justify-content:flex-end"><i style="width:4px;height:22px;background:#efe9e0;border-radius:2px"></i></span>
+      </div>
+      <div class="ep">
+        <span class="n k">03</span>
+        <span class="ser" style="font-size:17px">What Ratnamma Kept</span>
+        <span class="k">Out</span>
+        <span class="k">Reversal</span>
+        <span style="display:flex; gap:3px; justify-content:flex-end"><i style="width:4px;height:19px;background:#efe9e0;border-radius:2px"></i></span>
+      </div>
+      <div class="ep">
+        <span class="n k">04</span>
+        <span class="ser" style="font-size:17px">The Establishment Section</span>
+        <span class="k">Out</span>
+        <span class="k">Refusal</span>
+        <span style="display:flex; gap:3px; justify-content:flex-end"><i style="width:4px;height:14px;background:#d9a441;border-radius:2px"></i></span>
+      </div>
+      <div class="ep">
+        <span class="n k">05</span>
+        <span class="ser" style="font-size:17px">Four Acres at Nerlige</span>
+        <span class="k">Out</span>
+        <span class="k">Threat</span>
+        <span style="display:flex; gap:3px; justify-content:flex-end"><i style="width:4px;height:24px;background:#efe9e0;border-radius:2px"></i></span>
+      </div>
+      <div class="ep" style="border:1px solid rgba(217,178,124,.35); background:rgba(217,178,124,.05)">
+        <span class="n k" style="color:#d9b27c">06</span>
+        <span class="ser" style="font-size:17px; color:#d9b27c">The Dispatch Receipt</span>
+        <span class="k" style="color:#d9b27c">Next out</span>
+        <span class="k">Discovery</span>
+        <span style="display:flex; gap:3px; justify-content:flex-end"><i style="width:4px;height:20px;background:#d9b27c;border-radius:2px"></i></span>
+      </div>
+      <div class="ep" style="opacity:.55">
+        <span class="n k">07</span>
+        <span class="ser" style="font-size:17px">Master Lokanath Retires</span>
+        <span class="k">Written</span>
+        <span class="k">Reversal</span>
+        <span style="display:flex; gap:3px; justify-content:flex-end"><i style="width:4px;height:17px;background:#efe9e0;border-radius:2px"></i></span>
+      </div>
+      <div class="ep" style="opacity:.55">
+        <span class="n k">08</span>
+        <span class="ser" style="font-size:17px">The Taluk Knows</span>
+        <span class="k">Written</span>
+        <span class="k">Threat</span>
+        <span style="display:flex; gap:3px; justify-content:flex-end"><i style="width:4px;height:23px;background:#efe9e0;border-radius:2px"></i></span>
+      </div>
+      <div style="padding:10px 14px"><span class="k">6 more written</span></div>
+    </div>
+
+    <!-- who else has a story: the second product, sold on this page -->
+    <div>
+      <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:10px">
+        <span class="ser" style="font-size:21px">Who else has a story</span>
+        <span class="k">17</span>
+      </div>
+
+      <div class="card" style="padding:16px 18px">
+        <div style="font-size:13px; line-height:1.6; color:#8d8377">
+          Everyone at the edge of this season is a season of their own, built out of what they were never told.
+        </div>
+
+        <div style="margin-top:16px; display:flex; flex-direction:column; gap:13px">
+          <div style="display:flex; align-items:center; gap:12px">
+            <span style="width:34px;height:34px;border-radius:9px;background:linear-gradient(140deg,#6b4356,#241a20)"></span>
+            <span style="flex:1">
+              <span class="ser" style="font-size:16px; display:block">Thammanna</span>
+              <span class="k">saw 6 · never knew 33</span>
+            </span>
+            <span style="width:62px;height:4px;border-radius:2px;background:rgba(255,255,255,.1);overflow:hidden"><i style="display:block;height:4px;width:15%;background:#d9b27c"></i></span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px">
+            <span style="width:34px;height:34px;border-radius:9px;background:linear-gradient(140deg,#3f587a,#1a1f28)"></span>
+            <span style="flex:1">
+              <span class="ser" style="font-size:16px; display:block">Savithri</span>
+              <span class="k">saw 15 · never knew 28</span>
+            </span>
+            <span style="width:62px;height:4px;border-radius:2px;background:rgba(255,255,255,.1);overflow:hidden"><i style="display:block;height:4px;width:35%;background:#d9b27c"></i></span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px">
+            <span style="width:34px;height:34px;border-radius:9px;background:linear-gradient(140deg,#4c6b4a,#1f2620)"></span>
+            <span style="flex:1">
+              <span class="ser" style="font-size:16px; display:block">Mallesha</span>
+              <span class="k">saw 17 · never knew 25 · written</span>
+            </span>
+            <span style="width:62px;height:4px;border-radius:2px;background:rgba(255,255,255,.1);overflow:hidden"><i style="display:block;height:4px;width:40%;background:#d9b27c"></i></span>
+          </div>
+        </div>
+
+        <div style="margin-top:18px; border:1px solid rgba(217,178,124,.4); color:#d9b27c; border-radius:999px; padding:9px 0; text-align:center; font-size:12.5px; letter-spacing:.1em; text-transform:uppercase">See all seventeen</div>
+      </div>
+
+      <!-- reference, folded -->
+      <div style="margin-top:20px">
+        <div class="fold"><span style="color:#8d8377">›</span><span class="k">The record it was built from</span><span class="k" style="margin-left:auto">44/50</span></div>
+        <div class="fold"><span style="color:#8d8377">›</span><span class="k">What the season leaves unanswered</span><span class="k" style="margin-left:auto">4</span></div>
+        <div class="fold"><span style="color:#8d8377">›</span><span class="k">The calendar the writer works to</span><span class="k" style="margin-left:auto">9 dates</span></div>
+        <div class="fold" style="border-bottom:1px solid rgba(255,255,255,.08)"><span style="color:#8d8377">›</span><span class="k">Checks made on it</span><span class="k" style="margin-left:auto">clean</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

@@ -39,7 +39,7 @@ function Submit() {
     <button
       type="submit"
       disabled={pending}
-      className="border border-ochre/50 text-ochre px-4 py-2 text-sm rounded-sm hover:bg-ochre/10 transition-colors disabled:opacity-60"
+      className="primary-action disabled:opacity-60 w-full"
     >
       {pending ? "Starting…" : "Make this one"}
     </button>
@@ -148,7 +148,7 @@ export function CommissionAction({
         minutes and you can leave the page while it runs.
       </p>
 
-      <details className="mt-5">
+      <details name="commission-operator" className="mt-5">
         <summary className="label cursor-pointer hover:text-ochre transition-colors">
           {FOR_THE_OPERATOR}
         </summary>

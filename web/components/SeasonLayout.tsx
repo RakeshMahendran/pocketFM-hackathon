@@ -141,7 +141,7 @@ export function ReferenceItem({
   children: React.ReactNode;
 }) {
   return (
-    <details className="group border-b border-rule">
+    <details name="season-reference" className="group border-b border-rule">
       <summary className="py-4 cursor-pointer list-none flex items-baseline justify-between gap-6 hover:text-ochre transition-colors">
         <span className="font-serif text-lg">
           {title}
@@ -181,7 +181,7 @@ export function FoldedBlock({
   children: React.ReactNode;
 }) {
   return (
-    <details className="group border border-rule rounded-sm px-5">
+    <details name="season-shape" className="group border border-rule rounded-sm px-5">
       <summary className="py-3 cursor-pointer list-none flex items-baseline justify-between gap-6 hover:text-ochre transition-colors">
         <span className="label">
           {title}

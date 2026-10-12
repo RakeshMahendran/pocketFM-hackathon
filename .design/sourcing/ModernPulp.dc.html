@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; font-family: Archivo, "Helvetica Neue", system-ui, sans-serif; }
+    a { color: #e8a33d; } a:hover { color: #ffc266; }
+    .disp { font-family: Anton, "Arial Narrow", Impact, sans-serif; text-transform: uppercase; letter-spacing: 0.005em; font-weight: 400; }
+    .kick { font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 600; }
+    .num { font-family: Archivo, sans-serif; font-variant-numeric: tabular-nums; font-weight: 600; }
+    .grain {
+      position: absolute; inset: 0; pointer-events: none; opacity: 0.5;
+      background-image: radial-gradient(rgba(255,255,255,0.045) 1px, transparent 1px);
+      background-size: 3px 3px;
+    }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 900px; background: #17100d; color: #f3ece2; overflow: hidden; position: relative; display: flex; flex-direction: column">
+  <div class="grain"></div>
+
+  <!-- nav -->
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 44px; height: 60px; border-bottom: 1px solid rgba(243,236,226,0.10); flex-shrink: 0; position: relative">
+    <div style="display: flex; align-items: center; gap: 34px">
+      <span class="disp" style="font-size: 22px; color: #e8a33d">FLAKERS<span style="color:#f3ece2">FM</span></span>
+      <span class="kick" style="color: #f3ece2">Find stories</span>
+      <span class="kick" style="color: #8c7a6b">Make the show</span>
+      <span class="kick" style="color: #8c7a6b">Release</span>
+      <span class="kick" style="color: #8c7a6b">Spin off</span>
+    </div>
+    <span class="kick" style="color: #8c7a6b">Priya Raghavan</span>
+  </div>
+
+  <!-- HERO: poster block -->
+  <div style="display: grid; grid-template-columns: 1fr 420px; position: relative; flex-shrink: 0; border-bottom: 3px solid #c0392b">
+    <div style="padding: 34px 44px 30px">
+      <div class="kick" style="color: #c0392b">Ranked first of thirty · Denied identity · 2025</div>
+      <div class="disp" style="font-size: 66px; line-height: 0.94; margin-top: 14px; max-width: 860px">
+        The Mandsaur woman<br>who was already cremated
+      </div>
+      <div style="font-size: 17px; line-height: 1.5; color: #d8c9b8; margin-top: 20px; max-width: 700px">
+        Your family performs your funeral, strangers are punished for your death, and
+        returning home <span style="color:#f3ece2; font-weight:600">does not prove you are alive.</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 18px; margin-top: 26px">
+        <div class="kick" style="background: #c0392b; color: #fff; padding: 13px 24px; border-radius: 2px">Open the brief →</div>
+        <span class="kick" style="color: #8c7a6b">Costs nothing to open</span>
+      </div>
+    </div>
+
+    <!-- the number as a poster element -->
+    <div style="background: linear-gradient(150deg, #c0392b 0%, #7d1f16 60%, #4a1009 100%); padding: 30px 34px; display: flex; flex-direction: column; justify-content: space-between; position: relative">
+      <div>
+        <div class="kick" style="color: rgba(255,255,255,0.72)">Score</div>
+        <div class="disp" style="font-size: 92px; line-height: 0.82; margin-top: 4px; color: #fff">47</div>
+        <div class="kick" style="color: rgba(255,255,255,0.72); margin-top: 2px">out of fifty</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 9px">
+        <div style="display: flex; justify-content: space-between; align-items: center"><span class="kick" style="color: rgba(255,255,255,0.72)">Engine</span><span style="width: 150px; height: 5px; background: rgba(0,0,0,0.28)"><span style="display:block; width: 90%; height: 5px; background: #ffd9a0"></span></span></div>
+        <div style="display: flex; justify-content: space-between; align-items: center"><span class="kick" style="color: rgba(255,255,255,0.72)">Hook</span><span style="width: 150px; height: 5px; background: rgba(0,0,0,0.28)"><span style="display:block; width: 100%; height: 5px; background: #ffd9a0"></span></span></div>
+        <div style="display: flex; justify-content: space-between; align-items: center"><span class="kick" style="color: rgba(255,255,255,0.72)">Feeling</span><span style="width: 150px; height: 5px; background: rgba(0,0,0,0.28)"><span style="display:block; width: 100%; height: 5px; background: #ffd9a0"></span></span></div>
+        <div style="display: flex; justify-content: space-between; align-items: center"><span class="kick" style="color: rgba(255,255,255,0.72)">Conflict</span><span style="width: 150px; height: 5px; background: rgba(0,0,0,0.28)"><span style="display:block; width: 90%; height: 5px; background: #ffd9a0"></span></span></div>
+        <div style="display: flex; justify-content: space-between; align-items: center"><span class="kick" style="color: rgba(255,255,255,0.72)">Cast</span><span style="width: 150px; height: 5px; background: rgba(0,0,0,0.28)"><span style="display:block; width: 90%; height: 5px; background: #ffd9a0"></span></span></div>
+        <div style="display: flex; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.22); padding-top: 10px; margin-top: 3px">
+          <span class="kick" style="color: rgba(255,255,255,0.72)">180 episodes</span>
+          <span class="kick" style="color: #fff">Fictionalize</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- THE RACK -->
+  <div style="padding: 22px 44px 0; position: relative">
+    <div style="display: flex; align-items: baseline; justify-content: space-between">
+      <span class="kick" style="color: #8c7a6b">The other twenty-nine</span>
+      <span class="kick" style="color: #8c7a6b">Sort · total &nbsp;/&nbsp; engine &nbsp;/&nbsp; episodes</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 16px">
+
+      <div style="border-top: 3px solid #e8a33d; padding-top: 13px">
+        <div style="display: flex; justify-content: space-between; align-items: baseline">
+          <span class="kick" style="color: #c0392b">Secret status</span>
+          <span class="num" style="font-size: 21px">47</span>
+        </div>
+        <div class="disp" style="font-size: 25px; line-height: 1.0; margin-top: 9px; height: 75px">The beggar who collected interest</div>
+        <div style="font-size: 13px; line-height: 1.45; color: #a89684; margin-top: 6px">The person everyone pities has been earning from them all along.</div>
+        <div class="kick" style="color: #8c7a6b; margin-top: 11px">180 eps · fictionalize</div>
+      </div>
+
+      <div style="border-top: 3px solid #e8a33d; padding-top: 13px">
+        <div style="display: flex; justify-content: space-between; align-items: baseline">
+          <span class="kick" style="color: #c0392b">Secret status</span>
+          <span class="num" style="font-size: 21px">47</span>
+        </div>
+        <div class="disp" style="font-size: 25px; line-height: 1.0; margin-top: 9px; height: 75px">The bank manager's fifteen accounts</div>
+        <div style="font-size: 13px; line-height: 1.45; color: #a89684; margin-top: 6px">The man who controls access to the job is selling hope on the side.</div>
+        <div class="kick" style="color: #8c7a6b; margin-top: 11px">150 eps · fictionalize</div>
+      </div>
+
+      <div style="border-top: 3px solid rgba(243,236,226,0.22); padding-top: 13px">
+        <div style="display: flex; justify-content: space-between; align-items: baseline">
+          <span class="kick" style="color: #8c7a6b">Family betrayal</span>
+          <span class="num" style="font-size: 21px">46</span>
+        </div>
+        <div class="disp" style="font-size: 25px; line-height: 1.0; margin-top: 9px; height: 75px">The son who erased the heirs</div>
+        <div style="font-size: 13px; line-height: 1.45; color: #a89684; margin-top: 6px">One official-looking piece of paper makes a family disappear.</div>
+        <div class="kick" style="color: #8c7a6b; margin-top: 11px">180 eps · fictionalize</div>
+      </div>
+
+      <div style="border-top: 3px solid rgba(243,236,226,0.22); padding-top: 13px">
+        <div style="display: flex; justify-content: space-between; align-items: baseline">
+          <span class="kick" style="color: #8c7a6b">Bargain comes due</span>
+          <span class="num" style="font-size: 21px">46</span>
+        </div>
+        <div class="disp" style="font-size: 25px; line-height: 1.0; margin-top: 9px; height: 75px">The twenty cheques for one house</div>
+        <div style="font-size: 13px; line-height: 1.45; color: #a89684; margin-top: 6px">One signature in a money emergency turns every knock into a threat.</div>
+        <div class="kick" style="color: #8c7a6b; margin-top: 11px">180 eps · fictionalize</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

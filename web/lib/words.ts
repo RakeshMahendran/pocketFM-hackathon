@@ -30,7 +30,7 @@ export const CLEARANCE: Record<
       "Everyone involved is either long dead or an institution. It can be made as it happened.",
   },
   fictionalize_first: {
-    short: "Change the names",
+    short: "Fictionalization required",
     plain:
       "Real, recent, and involves living people who never asked to be in a show. Names and places have to change before it can be made.",
   },

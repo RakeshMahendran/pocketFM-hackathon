@@ -1,0 +1,50 @@
+<style>
+#series-depth-concept{--sd-bg:light-dark(#f6f7f3,#171c19);--sd-panel:light-dark(#fff,#242b26);--sd-text:light-dark(#23372d,#eff4ed);--sd-muted:light-dark(#59675e,#bbc9bd);--sd-line:light-dark(#dce3da,#455148);color:var(--sd-text);font-family:system-ui,sans-serif;padding:24px;background:var(--sd-bg);border-radius:18px}
+#series-depth-concept *{box-sizing:border-box}
+#series-depth-concept h2{font-size:25px;font-weight:500;margin:0 0 24px}
+#series-depth-concept .sd-list{display:grid;gap:22px}
+#series-depth-concept .sd-series{display:grid;grid-template-columns:150px minmax(0,1fr) 20px;align-items:center;gap:28px;background:var(--sd-panel);border:1px solid var(--sd-line);border-radius:16px;padding:24px;min-height:222px}
+#series-depth-concept .sd-stage{perspective:850px;padding:4px 10px;display:flex;align-items:center;justify-content:center}
+#series-depth-concept .sd-cover{width:118px;height:158px;position:relative;transform-style:preserve-3d;transform:rotateY(var(--sd-angle,-15deg)) rotateX(3deg);transition:transform .25s ease;box-shadow:10px 15px 18px #0003;border-radius:3px 7px 7px 3px;background:#254941;color:#f8edcc}
+#series-depth-concept .sd-cover::before{content:'';position:absolute;top:3px;bottom:3px;width:var(--sd-depth,10px);right:0;transform:rotateY(90deg);transform-origin:right center;background:repeating-linear-gradient(90deg,#d7d0ba 0 1px,#f3ebd6 1px 3px)}
+#series-depth-concept .sd-cover::after{content:'';position:absolute;inset:0;border-left:7px solid #0003;border-radius:inherit;pointer-events:none}
+#series-depth-concept .sd-front{position:absolute;inset:0;overflow:hidden;border-radius:inherit;background:radial-gradient(ellipse at 50% 68%,#ddb85c 0 6%,transparent 7%),linear-gradient(140deg,transparent 45%,#122f28 46% 64%,transparent 65%);padding:14px;display:flex;align-items:flex-start;justify-content:center;text-align:center}
+#series-depth-concept .sd-front span{font:500 16px/1.2 Georgia,serif;letter-spacing:.04em}
+#series-depth-concept .sd-cover.sd-b{background:#693b30}
+#series-depth-concept .sd-b .sd-front{background:repeating-linear-gradient(165deg,transparent 0 27px,#edc98018 28px 29px),linear-gradient(25deg,#241f29,transparent)}
+#series-depth-concept .sd-copy h3{font-size:20px;line-height:1.3;font-weight:500;margin:0 0 12px;letter-spacing:-.025em}
+#series-depth-concept .sd-copy p{font-size:14px;line-height:1.65;color:var(--sd-muted);margin:0;max-width:36ch}
+#series-depth-concept .sd-arrow{font-size:22px;color:var(--sd-muted)}
+#series-depth-concept[data-layout='stacked'] .sd-series{grid-template-columns:1fr;text-align:center}
+#series-depth-concept[data-layout='stacked'] .sd-copy p{margin:auto}
+#series-depth-concept[data-layout='stacked'] .sd-arrow{display:none}
+@media(max-width:500px){#series-depth-concept{padding:16px}#series-depth-concept .sd-series{grid-template-columns:86px minmax(0,1fr);padding:18px 12px;gap:17px;min-height:190px}#series-depth-concept .sd-stage{padding:0}#series-depth-concept .sd-cover{width:78px;height:116px}#series-depth-concept .sd-copy h3{font-size:17px}#series-depth-concept .sd-copy p{font-size:13px}#series-depth-concept .sd-arrow{display:none}#series-depth-concept .sd-front{padding:12px 8px}#series-depth-concept .sd-front span{font-size:12px}}
+@media(prefers-reduced-motion:reduce){#series-depth-concept .sd-cover{transform:none!important;transition:none!important}}
+</style>
+<section id="series-depth-concept" aria-label="Series card design concept">
+  <h2>Your series</h2>
+  <div class="sd-list">
+    <article class="sd-series">
+      <div class="sd-stage" aria-hidden="true"><div class="sd-cover"><div class="sd-front"><span>NINE DAYS<br>OF THE YEAR</span></div></div></div>
+      <div class="sd-copy"><h3>Nine Days of the Year</h3><p>A lifelong shrine sweeper is cast out for touching the sanctum on a paying day.</p></div>
+      <span class="sd-arrow" aria-hidden="true">↗</span>
+    </article>
+    <article class="sd-series">
+      <div class="sd-stage" aria-hidden="true"><div class="sd-cover sd-b"><div class="sd-front"><span>POYAIS</span></div></div></div>
+      <div class="sd-copy"><h3>Poyais: The Country That Had to Exist on Paper</h3><p>Settlers stake their futures on a promised paradise—only to discover the country exists on paper.</p></div>
+      <span class="sd-arrow" aria-hidden="true">↗</span>
+    </article>
+  </div>
+</section>
+<script>
+(()=>{
+const root=document.getElementById('series-depth-concept');
+const state={depth:10,tilt:true,layout:'wide'};
+const fine=matchMedia('(hover: hover) and (pointer: fine)');
+const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+function render(){root.style.setProperty('--sd-depth',state.depth+'px');root.style.setProperty('--sd-angle',state.tilt?'-15deg':'0deg');root.dataset.layout=state.layout;root.querySelectorAll('.sd-cover').forEach(c=>c.style.removeProperty('transform'));}
+root.querySelectorAll('.sd-series').forEach(card=>{const cover=card.querySelector('.sd-cover');card.addEventListener('pointermove',e=>{if(!state.tilt||!fine.matches||reduced.matches)return;const b=card.getBoundingClientRect();const x=(e.clientX-b.left)/b.width-.5;const y=(e.clientY-b.top)/b.height-.5;cover.style.transform=`rotateY(${-15+x*8}deg) rotateX(${-y*6}deg)`;});card.addEventListener('pointerleave',()=>cover.style.removeProperty('transform'));});
+render();
+if(globalThis.Tweak){const tweak=new Tweak({container:root,onChange:render});tweak.addSelect(state,'layout',{label:'Card layout',options:[{label:'Wide, shallow cards',value:'wide'},{label:'Cover above gist',value:'stacked'}]});tweak.addSlider(state,'depth',{label:'Cover depth',min:0,max:18,unit:'px'});tweak.addToggle(state,'tilt',{label:'Dimensional cover'});}
+})();
+</script>

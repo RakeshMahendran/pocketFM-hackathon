@@ -25,16 +25,18 @@ test.beforeEach(async ({ context }) => {
   await signIn(context);
 });
 
-test("sign-in gate redirects an anonymous visitor", async ({ browser }) => {
+test("a fresh visitor enters the studio without a login gate", async ({ browser }) => {
   const fresh = await browser.newContext();
   const page = await fresh.newPage();
   const log = watch(page, "/sourcing (no cookie)");
+  await page.goto("/");
+  await expect(page).toHaveURL("http://localhost:3000/home");
+  await expect(page.getByRole("navigation", { name: "Studio", exact: true })).toBeVisible();
+  await expect(page.getByRole("button", { name: /get started|sign out/i })).toHaveCount(0);
+  await expect(page.getByText("Priya Raghavan", { exact: true })).toHaveCount(0);
   await page.goto("/sourcing");
-  await expect(page).toHaveURL("http://localhost:3000/");
-  // One way in, not a row per editor. The picker offered four names nobody has
-  // an opinion about; the byline it set is unchanged, so this asserts the door
-  // is there rather than which name is behind it.
-  await expect(page.getByRole("button", { name: /get started/i })).toBeVisible();
+  await expect(page).toHaveURL("http://localhost:3000/sourcing");
+  await expect(page.locator("main h1").first()).toBeVisible();
   expect(log.bad(), JSON.stringify(log.bad(), null, 2)).toEqual([]);
   await fresh.close();
 });
@@ -100,6 +102,7 @@ test("serials → season → episode", async ({ page }) => {
   // sits inside a closed fold and is unreachable until it is opened.
   log.label(`/serials/${DEMO}/1`);
   const epLink = page
+    .getByRole("region", { name: "Episodes", exact: true })
     .locator(`a[href="/serials/${DEMO}/1"]`)
     .filter({ hasText: /\S/ })
     .last();
@@ -124,13 +127,12 @@ test("the season shape ladder is reachable at all", async ({ page }) => {
   const log = watch(page, `/serials/${MAINLINE}`);
   await page.goto(`/serials/${MAINLINE}`);
 
-  const ladderLink = page.locator(`a[href="/serials/${MAINLINE}/7"]`).first();
-  const hiddenAtRest = !(await ladderLink.isVisible());
-
   const fold = page
     .locator("details")
     .filter({ has: page.locator("summary", { hasText: /shape|ladder|arc/i }) })
     .first();
+  const ladderLink = fold.locator(`a[href="/serials/${MAINLINE}/7"]`).first();
+  const hiddenAtRest = !(await ladderLink.isVisible());
   if (await fold.count()) {
     await fold.locator("summary").first().click();
     await expect(ladderLink).toBeVisible();
@@ -148,18 +150,17 @@ test("cast → character → their episode", async ({ page }) => {
   const log = watch(page, `/serials/${MAINLINE}/cast`);
   await page.goto(`/serials/${MAINLINE}/cast`);
 
-  const cast = page.locator(`a[href^="/serials/${MAINLINE}/cast/"]`);
+  const cast = page.getByRole("link", { name: /^Select character:/ });
   expect(await cast.count()).toBeGreaterThanOrEqual(13);
   await shot(page, "1280-cast.png");
 
   log.label(`/serials/${MAINLINE}/cast/babulal`);
-  await page.locator(`a[href="/serials/${MAINLINE}/cast/babulal"]`).first().click();
+  await page.getByRole("link", { name: "Select character: Babulal", exact: true }).click();
+  await page.getByRole("region", { name: "Selected character" }).locator(`a[href="/serials/${MAINLINE}/cast/babulal"]`).first().click();
   await page.waitForURL("**/cast/babulal");
 
   // knows / blind split, as two numbers that are not the same number.
-  const body = await page.locator("body").innerText();
-  expect(body).toMatch(/Was there for/i);
-  expect(body).toMatch(/Never found out about/i);
+  await expect(page.getByRole("img", { name: /Present for 17 moments, excluded from 39/ })).toBeVisible();
 
   await shot(page, "1280-babulal.png");
 
@@ -208,7 +209,11 @@ test("no route in the flow logs a console error", async ({ page }) => {
   for (const r of routes) {
     log.label(r);
     const res = await page.goto(r, { waitUntil: "networkidle" });
-    expect(res?.status(), `${r} returned ${res?.status()}`).toBeLessThan(400);
+    // A same-document navigation can return null; assert its destination and rendered screen,
+    // while still refusing every actual HTTP error response.
+    if (res) expect(res.status(), `${r} returned ${res.status()}`).toBeLessThan(400);
+    expect(new URL(page.url()).pathname).toBe(r === "/" ? "/home" : r);
+    await expect(page.locator("main h1").first()).toBeVisible();
     // Give hydration a moment — mismatches are logged after first paint.
     await page.waitForTimeout(800);
   }

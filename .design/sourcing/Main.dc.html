@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; font-family: Archivo, system-ui, sans-serif; }
+    a { color: #d9b27c; } a:hover { color: #f0cd9c; }
+    .ser { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+    .kick { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 500; color: #8d8377; }
+    .num { font-variant-numeric: tabular-nums; font-weight: 500; }
+    .grain {
+      position: absolute; inset: 0; pointer-events: none;
+      background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+      background-size: 3px 3px;
+    }
+    .card {
+      background: linear-gradient(180deg, #1d1a17 0%, #17140f 100%);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 14px; overflow: hidden;
+      box-shadow: 0 18px 40px -30px rgba(0,0,0,0.95);
+    }
+    .row {
+      display: grid; grid-template-columns: 1fr 150px 64px 44px 56px 96px;
+      gap: 22px; align-items: center; padding: 0 18px; height: 46px;
+      border-radius: 10px;
+    }
+    .slot { width: 5px; height: 19px; background: rgba(255,255,255,0.08); display: flex; align-items: flex-end; border-radius: 2px; }
+    .f { width: 5px; background: #efe9e0; border-radius: 2px; }
+    .fo { width: 5px; background: #d9b27c; border-radius: 2px; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 1200px; background: #100e0c; color: #efe9e0; overflow: hidden; display: flex; flex-direction: column">
+
+  <!-- NAV -->
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 48px; height: 66px; flex-shrink: 0">
+    <div style="display: flex; align-items: center; gap: 34px">
+      <span class="ser" style="font-size: 24px; letter-spacing: -0.01em">FlakersFM</span>
+      <span class="kick" style="color: #efe9e0">Find stories</span>
+      <span class="kick">Make the show</span>
+      <span class="kick">Release</span>
+      <span class="kick">Spin off</span>
+    </div>
+    <span class="kick">Priya Raghavan · Commissioning</span>
+  </div>
+
+  <!-- HERO -->
+  <div style="display: grid; grid-template-columns: 620px 1fr; gap: 44px; padding: 4px 48px 34px; flex-shrink: 0">
+
+    <!-- cover art -->
+    <div style="height: 372px; border-radius: 16px; overflow: hidden; position: relative;
+                box-shadow: 0 30px 60px -34px rgba(0,0,0,1);
+                background:
+                  radial-gradient(115% 85% at 18% 12%, #7a4059 0%, rgba(122,64,89,0) 58%),
+                  radial-gradient(105% 95% at 88% 86%, #3d5d6b 0%, rgba(61,93,107,0) 62%),
+                  linear-gradient(155deg, #2a2028 0%, #13100f 100%)">
+      <div class="grain"></div>
+      <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(16,14,12,0) 38%, rgba(16,14,12,0.86) 100%)"></div>
+      <div style="position: absolute; left: 30px; right: 30px; bottom: 26px">
+        <div class="kick" style="color: rgba(239,233,224,0.82)">Denied identity · Madhya Pradesh · 2025</div>
+        <div class="ser" style="font-size: 44px; line-height: 1.04; margin-top: 9px">The Mandsaur Woman<br>Who Was Already Cremated</div>
+      </div>
+      <div style="position: absolute; left: 24px; top: 22px; background: rgba(16,14,12,0.5); border: 1px solid rgba(255,255,255,0.16); border-radius: 999px; padding: 6px 14px">
+        <span class="kick" style="color: #d9b27c">Ranked first of thirty</span>
+      </div>
+    </div>
+
+    <!-- right column -->
+    <div style="display: flex; flex-direction: column; justify-content: space-between; padding: 6px 0 2px">
+      <div>
+        <div class="ser" style="font-size: 31px; line-height: 1.3; max-width: 620px">
+          “Your family performs your funeral, strangers are punished for your death,
+          and returning home does not prove you are alive.”
+        </div>
+        <div style="font-size: 14px; line-height: 1.62; color: #8d8377; margin-top: 16px; max-width: 560px">
+          The case against it — the trafficking account is still only an allegation, so the season
+          must fictionalise heavily rather than claim a solved truth.
+        </div>
+      </div>
+
+      <!-- score slab + facts -->
+      <div style="display: flex; gap: 22px; align-items: stretch; margin-top: 24px">
+        <div style="width: 172px; border-radius: 16px; padding: 18px 20px; position: relative; overflow: hidden;
+                    background: linear-gradient(150deg, #8a4a3f 0%, #5e2a3c 62%, #33182a 100%);
+                    box-shadow: 0 20px 44px -28px rgba(0,0,0,1)">
+          <div class="grain" style="opacity: 0.6"></div>
+          <div class="kick" style="color: rgba(255,255,255,0.75); position: relative">Score</div>
+          <div class="ser" style="font-size: 62px; line-height: 0.92; margin-top: 4px; color: #fff; position: relative">
+            47<span style="font-size: 20px; color: rgba(255,255,255,0.6)">/50</span>
+          </div>
+          <div style="display: flex; gap: 5px; align-items: flex-end; height: 19px; margin-top: 14px; position: relative">
+            <span class="slot" style="background: rgba(0,0,0,0.3)"><span class="f" style="height: 17px; background:#ffd9a0"></span></span>
+            <span class="slot" style="background: rgba(0,0,0,0.3)"><span class="f" style="height: 19px; background:#fff"></span></span>
+            <span class="slot" style="background: rgba(0,0,0,0.3)"><span class="f" style="height: 19px; background:#fff"></span></span>
+            <span class="slot" style="background: rgba(0,0,0,0.3)"><span class="f" style="height: 17px; background:#fff"></span></span>
+            <span class="slot" style="background: rgba(0,0,0,0.3)"><span class="f" style="height: 17px; background:#fff"></span></span>
+          </div>
+        </div>
+
+        <div style="flex: 1; display: flex; flex-direction: column; justify-content: space-between; padding: 2px 0">
+          <div style="display: flex; gap: 44px">
+            <div>
+              <div class="kick">Season</div>
+              <div class="num" style="font-size: 25px; margin-top: 4px">180 <span style="font-size: 13px; color: #8d8377">eps · ~6 months</span></div>
+            </div>
+            <div>
+              <div class="kick">Legal</div>
+              <div style="font-size: 15px; margin-top: 7px">Fictionalize first</div>
+            </div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 16px">
+            <div style="background: #efe9e0; color: #100e0c; font-size: 14px; font-weight: 600; padding: 13px 26px; border-radius: 999px">Open the brief</div>
+            <span class="kick">Opening spends nothing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHELF -->
+  <div style="padding: 0 48px 30px">
+    <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 15px">
+      <span class="ser" style="font-size: 22px">Also worth making</span>
+      <span class="kick">Sort · total / engine / episodes</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px">
+
+      <div class="card">
+        <div style="height: 128px; position: relative; background: radial-gradient(100% 120% at 25% 12%, #4c6b4a 0%, rgba(76,107,74,0) 62%), linear-gradient(150deg, #202720 0%, #14120f 100%)">
+          <div class="grain"></div>
+          <div style="position:absolute;right:11px;top:11px;background:rgba(16,14,12,0.62);border:1px solid rgba(255,255,255,0.14);border-radius:999px;padding:3px 11px" class="num">47</div>
+        </div>
+        <div style="padding: 14px 17px 17px">
+          <div class="kick">Secret status · 180 eps</div>
+          <div class="ser" style="font-size: 20px; line-height: 1.18; margin-top: 6px; height: 48px">The Beggar Who Collected Interest</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="height: 128px; position: relative; background: radial-gradient(100% 120% at 74% 16%, #78633f 0%, rgba(120,99,63,0) 62%), linear-gradient(150deg, #28221a 0%, #14120f 100%)">
+          <div class="grain"></div>
+          <div style="position:absolute;right:11px;top:11px;background:rgba(16,14,12,0.62);border:1px solid rgba(255,255,255,0.14);border-radius:999px;padding:3px 11px" class="num">47</div>
+        </div>
+        <div style="padding: 14px 17px 17px">
+          <div class="kick">Secret status · 150 eps</div>
+          <div class="ser" style="font-size: 20px; line-height: 1.18; margin-top: 6px; height: 48px">The Bank Manager's Fifteen Accounts</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="height: 128px; position: relative; background: radial-gradient(100% 120% at 32% 82%, #6b4356 0%, rgba(107,67,86,0) 64%), linear-gradient(150deg, #261b21 0%, #14120f 100%)">
+          <div class="grain"></div>
+          <div style="position:absolute;right:11px;top:11px;background:rgba(16,14,12,0.62);border:1px solid rgba(255,255,255,0.14);border-radius:999px;padding:3px 11px" class="num">46</div>
+        </div>
+        <div style="padding: 14px 17px 17px">
+          <div class="kick">Family betrayal · 180 eps</div>
+          <div class="ser" style="font-size: 20px; line-height: 1.18; margin-top: 6px; height: 48px">The Son Who Erased the Heirs</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="height: 128px; position: relative; background: radial-gradient(100% 120% at 62% 22%, #3f587a 0%, rgba(63,88,122,0) 62%), linear-gradient(150deg, #1a1f28 0%, #14120f 100%)">
+          <div class="grain"></div>
+          <div style="position:absolute;right:11px;top:11px;background:rgba(16,14,12,0.62);border:1px solid rgba(255,255,255,0.14);border-radius:999px;padding:3px 11px" class="num">46</div>
+        </div>
+        <div style="padding: 14px 17px 17px">
+          <div class="kick">Bargain comes due · 180 eps</div>
+          <div class="ser" style="font-size: 20px; line-height: 1.18; margin-top: 6px; height: 48px">The Twenty Cheques for One House</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- THE REST, DENSE -->
+  <div style="padding: 0 48px">
+    <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 8px">
+      <span class="ser" style="font-size: 22px">Everything else</span>
+      <span class="kick">25 more · sorted best first</span>
+    </div>
+
+    <div class="row" style="height: 30px; border-bottom: 1px solid rgba(255,255,255,0.07); border-radius: 0">
+      <div class="kick">Story</div>
+      <div class="kick">Kind</div>
+      <div class="kick" style="text-align: right; white-space: nowrap">Scores</div>
+      <div class="kick" style="text-align: right">Total</div>
+      <div class="kick" style="text-align: right">Eps</div>
+      <div class="kick">Legal</div>
+    </div>
+
+    <div class="row"><div class="ser" style="font-size: 17px">The Court That Never Was</div><div class="kick">Long deception</div><div style="display:flex;gap:5px;align-items:flex-end;justify-content:flex-end;height:19px"><span class="slot"><span class="fo" style="height:17px"></span></span><span class="slot"><span class="f" style="height:17px"></span></span><span class="slot"><span class="f" style="height:15px"></span></span><span class="slot"><span class="f" style="height:17px"></span></span><span class="slot"><span class="f" style="height:17px"></span></span></div><div class="num" style="text-align:right;font-size:16px">44</div><div class="num" style="text-align:right;font-size:13px;color:#8d8377">120</div><div class="kick">Fictionalize</div></div>
+
+    <!-- expanded, single-open -->
+    <div style="background: linear-gradient(180deg, #1d1a17 0%, #17140f 100%); border: 1px solid rgba(255,255,255,0.07); border-radius: 12px; margin: 3px 0">
+      <div class="row" style="height: 44px">
+        <div class="ser" style="font-size: 17px; color: #d9b27c">The Clerk Who Signed for the Dead</div>
+        <div class="kick">Secret status</div>
+        <div style="display:flex;gap:5px;align-items:flex-end;justify-content:flex-end;height:19px"><span class="slot"><span class="fo" style="height:15px"></span></span><span class="slot"><span class="f" style="height:17px"></span></span><span class="slot"><span class="f" style="height:15px"></span></span><span class="slot"><span class="f" style="height:17px"></span></span><span class="slot"><span class="f" style="height:13px"></span></span></div>
+        <div class="num" style="text-align:right;font-size:16px">43</div>
+        <div class="num" style="text-align:right;font-size:13px;color:#8d8377">90</div>
+        <div class="kick">Fictionalize</div>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 36px; padding: 0 18px 18px">
+        <div style="border-left: 2px solid #d9b27c; padding-left: 15px">
+          <div class="kick" style="color: #d9b27c">Why it sells</div>
+          <div class="ser" style="font-size: 17px; line-height: 1.5; margin-top: 5px">
+            Eleven years of a man signing for people who no longer exist, and a pension office that never once checked.
+          </div>
+        </div>
+        <div style="border-left: 1px solid rgba(255,255,255,0.1); padding-left: 15px">
+          <div class="kick">The case against it</div>
+          <div class="ser" style="font-size: 17px; line-height: 1.5; color: #8d8377; margin-top: 5px">
+            The record gives the arrest and the mechanism but almost no aftermath, so the long middle has to be invented.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"><div class="ser" style="font-size: 17px">The Widow Who Kept Paying Rent</div><div class="kick">Bargain comes due</div><div style="display:flex;gap:5px;align-items:flex-end;justify-content:flex-end;height:19px"><span class="slot"><span class="fo" style="height:15px"></span></span><span class="slot"><span class="f" style="height:15px"></span></span><span class="slot"><span class="f" style="height:17px"></span></span><span class="slot"><span class="f" style="height:15px"></span></span><span class="slot"><span class="f" style="height:15px"></span></span></div><div class="num" style="text-align:right;font-size:16px">42</div><div class="num" style="text-align:right;font-size:13px;color:#8d8377">120</div><div class="kick">Fictionalize</div></div>
+
+    <div class="row"><div class="ser" style="font-size: 17px">The Driver With Two Licences</div><div class="kick">The double life</div><div style="display:flex;gap:5px;align-items:flex-end;justify-content:flex-end;height:19px"><span class="slot"><span class="fo" style="height:15px"></span></span><span class="slot"><span class="f" style="height:15px"></span></span><span class="slot"><span class="f" style="height:15px"></span></span><span class="slot"><span class="f" style="height:17px"></span></span><span class="slot"><span class="f" style="height:13px"></span></span></div><div class="num" style="text-align:right;font-size:16px">41</div><div class="num" style="text-align:right;font-size:13px;color:#8d8377">90</div><div class="kick">Fictionalize</div></div>
+
+    <div class="row" style="opacity: 0.42"><div class="ser" style="font-size: 17px">The Pensions Office at Nagpur</div><div class="kick">Secret status</div><div style="display:flex;gap:5px;align-items:flex-end;justify-content:flex-end;height:19px"><span class="slot"><span class="fo" style="height:12px"></span></span><span class="slot"><span class="f" style="height:14px"></span></span><span class="slot"><span class="f" style="height:12px"></span></span><span class="slot"><span class="f" style="height:14px"></span></span><span class="slot"><span class="f" style="height:11px"></span></span></div><div class="num" style="text-align:right;font-size:16px">39</div><div class="num" style="text-align:right;font-size:13px;color:#8d8377">90</div><div class="kick" style="color:#c2634e">Blocked</div></div>
+
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

@@ -286,7 +286,7 @@ export function AudioRunPanel({
   // it is opened.
   if (hasAudio) {
     return (
-      <details className="mt-8 border-t border-rule pt-5">
+      <details name="audio-production" className="mt-8 border-t border-rule pt-5">
         <summary className="label cursor-pointer hover:text-ochre transition-colors">
           {RECORD_AGAIN_SUMMARY}
         </summary>

@@ -25,7 +25,7 @@ export function Fold({
   children: React.ReactNode;
 }) {
   return (
-    <details open={open} className="group border-t border-rule">
+    <details name="page-folds" open={open} className="group border-t border-rule">
       <summary className="py-4 cursor-pointer list-none flex items-baseline justify-between gap-6 hover:text-ochre transition-colors">
         <span className="label">
           {title}

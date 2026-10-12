@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { Panel, Reveal } from "@/components/ui";
+import { StoryArt } from "@/components/StoryArt";
 import { notFound } from "next/navigation";
 
 import { PRODUCT } from "@/app/layout";
@@ -122,7 +124,7 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
         </div>
       </div>
 
-      <header className="mt-8 max-w-3xl">
+      <div className="studio-hero mt-6"><header>
         <div className="flex items-center gap-3 flex-wrap">
           <span className="font-mono text-sm text-faint tabular-nums">
             {String(n).padStart(2, "0")}
@@ -150,9 +152,7 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
         </h1>
 
         {plan?.turn && (
-          <p className="mt-5 font-serif text-lg text-muted leading-relaxed">
-            {plan.turn}
-          </p>
+          <div className="mt-4"><Reveal summary="Episode brief" group="episode-reference"><p>{plan.turn}</p></Reveal></div>
         )}
 
         {!plan && (
@@ -161,7 +161,7 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
             the script against.
           </p>
         )}
-      </header>
+      </header><StoryArt id={serial.id} className="studio-hero-art" /></div>
 
       {/*
         This episode's own release decision, above the script rather than under
@@ -170,7 +170,7 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
         the line above it, because an episode cannot go out while the show is
         not live and a producer needs to see both at once.
       */}
-      <section className="mt-10 border border-rule rounded-sm p-5 max-w-3xl">
+      <div className="workspace-columns mt-8"><Panel label="Recording"><EpisodeAudio storyId={id} ep={n} /></Panel><Panel label="Episode release">
         <div className="flex items-baseline justify-between gap-4 flex-wrap">
           <span className={`label ${showStanding.className}`}>
             {showStanding.label}
@@ -197,14 +197,13 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
         <p className="mt-4 text-xs text-faint prose-col leading-relaxed">
           {RELEASE_NOT_A_PUSH}
         </p>
-      </section>
+      </Panel></div>
 
       {/*
         Above the script, not below it. This is an audio drama: the recording is
         the product and the script is how it was made, so a reader who stops
         scrolling here has still met the thing itself.
       */}
-      <EpisodeAudio storyId={id} ep={n} />
 
       {/*
         Folded, because it was three quarters of the page.
@@ -230,14 +229,14 @@ export default async function EpisodePage(props: PageProps<"/serials/[id]/[ep]">
       {plan?.endsOn && (
         // Repeated at the foot on purpose: having just read the last line, the
         // planned hook is the one thing an editor wants to compare it against.
-        <div className="mt-12 border-t border-rule pt-6 max-w-3xl">
+        <div className="mt-6"><Reveal summary="Planned ending" group="episode-reference">
           <h2 className="label text-ochre">
             The ending it was supposed to land on
           </h2>
           <p className="text-[0.9375rem] text-muted leading-relaxed mt-2 prose-col">
             {plan.endsOn}
           </p>
-        </div>
+        </Reveal></div>
       )}
 
       {onward && (

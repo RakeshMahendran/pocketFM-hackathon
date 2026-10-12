@@ -1,10 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { KnowledgeSplit } from "@/components/KnowledgeSplit";
-import { NextStep } from "@/components/NextStep";
+import { Action, CharacterCard, PageHead, Panel, Reveal, Split } from "@/components/ui";
 import { Notice } from "@/components/Notice";
-import { FREE_CLICK, ROSTER_NOBODY, rosterNext } from "@/components/pathWords";
+import { ROSTER_NOBODY } from "@/components/pathWords";
 import { StartSpinoffRun } from "@/components/StartSpinoffRun";
 import {
   ROW_FAILED,
@@ -133,67 +132,11 @@ function RowAction({
   );
 }
 
-function Person({
-  storyId,
-  row,
-  run,
-  cost,
-}: {
-  storyId: string;
-  row: CastRow;
-  run: SpinoffRunStatus | null;
-  cost: string;
-}) {
-  const standing = rosterStanding(row);
-  const href = `/serials/${encodeURIComponent(storyId)}/cast/${encodeURIComponent(row.charId)}`;
-
-  return (
-    <li className="border-b border-rule py-6 grid lg:grid-cols-[1fr_15rem] gap-x-12 gap-y-5 items-start">
-      <div className="min-w-0">
-        <div className="flex items-baseline gap-3 flex-wrap">
-          <Link
-            href={href}
-            className="font-serif text-2xl tracking-tight hover:text-ochre transition-colors"
-          >
-            {row.name}
-          </Link>
-          <span className={`label ${standing.className}`}>{standing.label}</span>
-        </div>
-
-        {row.role && (
-          <p className="text-sm text-muted leading-relaxed mt-1.5 prose-col">
-            {row.role}
-          </p>
-        )}
-
-        {row.want && (
-          <p className="font-serif text-[1.0625rem] leading-relaxed mt-3 prose-col text-paper">
-            Wants: {row.want}
-          </p>
-        )}
-
-        <p className="text-sm text-muted leading-relaxed mt-3 prose-col">
-          {standing.why}
-        </p>
-
-        <Made row={row} />
-
-        <div className="mt-4">
-          <RowAction storyId={storyId} row={row} run={run} cost={cost} />
-        </div>
-      </div>
-
-      <div className="lg:pt-1">
-        <KnowledgeSplit witnessed={row.witnessed} blind={row.blind} />
-      </div>
-    </li>
-  );
-}
-
 export default async function CastPage(props: PageProps<"/serials/[id]/cast">) {
   await requireEditor();
   const { id } = await props.params;
   const storyId = decodeURIComponent(id);
+  const query = await props.searchParams;
 
   const [serial, roster, offline] = await Promise.all([
     loadSerial(storyId),
@@ -233,7 +176,7 @@ export default async function CastPage(props: PageProps<"/serials/[id]/cast">) {
   // something to watch rather than something to start. The wording still handles
   // it, because on a small cast it can be the only row left.
   const preferences: ((r: CastRow, i: number) => boolean)[] = [
-    (r) => r.anchors.length > 0,
+    (r) => r.promotable && r.anchors.length > 0,
     (r, i) => r.promotable && runs[i]?.state !== "running",
     (r) => r.promotable,
   ];
@@ -243,101 +186,72 @@ export default async function CastPage(props: PageProps<"/serials/[id]/cast">) {
     if (leadAt >= 0) break;
   }
   const lead = leadAt >= 0 ? roster.rows[leadAt] : null;
-  const leadWords = lead
-    ? rosterNext({
-        name: lead.name,
-        witnessed: lead.witnessed,
-        blind: lead.blind,
-        written: lead.anchors.length,
-        running: runs[leadAt]?.state === "running",
-      })
-    : null;
+
+  const selectedId = typeof query.character === "string" ? query.character : null;
+  const selected = roster.rows.find(r => r.charId === selectedId) ?? lead ?? roster.rows[0] ?? null;
+  const selectedAt = selected ? roster.rows.indexOf(selected) : -1;
+  const selectedRun = runs[selectedAt] ?? null;
+  const base = `/serials/${encodeURIComponent(storyId)}/cast`;
+
+  const background = (row: CastRow) => <>
+    {row.role && <p>{row.role}</p>}
+    {row.want && <p className="mt-3">Wants: {row.want}</p>}
+    <p className="mt-3 text-muted">{rosterStanding(row).why}</p>
+    <Made row={row} />
+  </>;
 
   return (
-    <div className="mx-auto max-w-6xl px-8 py-12">
-      <Link
-        href={`/serials/${encodeURIComponent(storyId)}`}
-        className="label hover:text-ochre transition-colors"
-      >
-        ← {serial.title}
-      </Link>
-
-      <header className="mt-6">
-        <h1 className="font-serif text-4xl tracking-tight leading-tight">
-          {CAST_LIST_TITLE}
-        </h1>
-        <p className="mt-5 font-serif text-xl leading-relaxed prose-col text-paper">
-          {ROSTER_EXPLAINED}
-        </p>
-        {roster.rows.length > 0 && (
-          <p className="label mt-5">
-            {roster.rows.length} people in the finished season · {promotable}{" "}
-            could carry their own show · {worked} worked up · {written} with an
-            episode already written
-          </p>
-        )}
-
-        {canStart && (
-          <p className="mt-4 text-sm text-muted leading-relaxed prose-col">
-            {cost}
-          </p>
-        )}
-      </header>
-
-      {lead && leadWords ? (
-        <div className="mt-8 max-w-2xl">
-          <NextStep
-            action={leadWords.action}
-            href={`/serials/${encodeURIComponent(storyId)}/cast/${encodeURIComponent(lead.charId)}`}
-            cost={FREE_CLICK}
-          >
-            {leadWords.plain}
-          </NextStep>
+    <div>
+      <PageHead title="Cast" eyebrow={serial.title}
+        description="Choose a character. Find the story the main show never told."
+        action={<span className="label">{roster.rows.length} characters · {promotable} can lead a spin-off</span>} />
+      {roster.warning && <div className="mb-6"><Notice tone="warn">{roster.warning}</Notice></div>}
+      {selected ? <div className="cast-workspace">
+        <div className="cast-grid">
+          {roster.rows.map((row, i) => <CharacterCard key={row.charId} name={row.name}
+            href={`${base}?character=${encodeURIComponent(row.charId)}`}
+            selected={row.charId === selected.charId}
+            dimmed={!row.promotable} status={rosterStanding(row).label}>
+            <Split knows={row.witnessed} blind={row.blind} />
+            {row.charId !== selected.charId && <div className="mt-3"><Reveal summary={`About ${row.name}`} group="cast-background">
+              {background(row)}
+              <p className="text-xs text-muted mt-4">{cost}</p>
+              <div className="mt-3"><RowAction storyId={storyId} row={row} run={runs[i] ?? null} cost={cost} /></div>
+            </Reveal></div>}
+          </CharacterCard>)}
         </div>
-      ) : (
-        roster.rows.length > 0 && (
-          <div className="mt-8 max-w-2xl">
-            <NextStep
-              tone="onward"
-              action={ROSTER_NOBODY.action}
-              href={`/serials/${encodeURIComponent(storyId)}`}
-            >
-              {ROSTER_NOBODY.plain}
-            </NextStep>
+        <Panel label="Selected character" className="character-inspector">
+          <p className="label mb-2">Selected character</p>
+          <h2>{selected.name}</h2>
+          <p className="text-sm text-muted mt-2">{rosterStanding(selected).label}</p>
+          <div className="my-6"><Split knows={selected.witnessed} blind={selected.blind} size="lg" /></div>
+          <p className="text-sm text-muted">Their story can use what they know. Everything else stays out of reach.</p>
+          <div className="inspector-action">
+            {selected.promotable ? <Action href={`${base}/${encodeURIComponent(selected.charId)}`}>
+              {selectedRun?.state === "running" ? "View progress" : selected.anchors.length ? "Open their episodes" : "Explore their story"} →
+            </Action> : <><p className="text-sm mb-3">Not enough room for a spin-off.</p><Link href={`${base}/${encodeURIComponent(selected.charId)}`}>View character record →</Link></>}
+            <p className="text-xs text-muted mt-2">Opening a character is free.</p>
           </div>
-        )
-      )}
+          <Reveal summary="Character details" group="character-inspector">
+            <div data-testid="character-background">{background(selected)}</div>
+          </Reveal>
+          <Reveal summary="Production options" group="character-inspector">
+            <p className="text-sm text-muted mb-4">{cost}</p>
+            <RowAction storyId={storyId} row={selected} run={selectedRun} cost={cost} />
+            {!selected.promotable && <p>{rosterStanding(selected).why}</p>}
+          </Reveal>
+        </Panel>
+      </div> : <Panel><h2>No cast recorded</h2><p className="text-muted mt-2">This season has no character record to explore.</p><Link href={`/serials/${encodeURIComponent(storyId)}`} className="inline-block mt-4">Back to the season →</Link></Panel>}
 
-      {roster.warning && (
-        <div className="mt-8">
-          <Notice tone="warn">{roster.warning}</Notice>
-        </div>
-      )}
-
-      {/* A season nobody has extended yet is the normal state, not a fault.
-          Saying so stops the screen reading as though something failed. */}
-      {roster.rows.length > 0 && worked === 0 && written === 0 && (
-        <div className="mt-8">
-          <Notice tone="info">
-            Nobody on this season has been worked up yet, so there are no
-            episodes to read. {PROMOTION.plain}
-          </Notice>
-        </div>
-      )}
-
-      {roster.rows.length > 0 && (
-        <ul className="mt-10 border-t border-rule">
-          {roster.rows.map((row, i) => (
-            <Person
-              key={row.charId}
-              storyId={storyId}
-              row={row}
-              run={runs[i] ?? null}
-              cost={cost}
-            />
-          ))}
-        </ul>
-      )}
+      <div className="mt-10">
+        <Reveal summary="About this cast" group="cast-reference">
+          <p>{ROSTER_EXPLAINED}</p>
+          <p className="mt-3">{roster.rows.length} people in the finished season · {promotable} could carry their own show · {worked} worked up · {written} with an episode already written</p>
+          {canStart && <p className="mt-3">{cost}</p>}
+          {roster.rows.length > 0 && worked === 0 && written === 0 && <p className="mt-3">Nobody on this season has been worked up yet, so there are no episodes to read. {PROMOTION.plain}</p>}
+          {!lead && roster.rows.length > 0 && <p>{ROSTER_NOBODY.plain}</p>}
+        </Reveal>
+      </div>
     </div>
   );
 }

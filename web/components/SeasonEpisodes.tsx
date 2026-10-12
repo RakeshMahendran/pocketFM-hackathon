@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { listenMinutes } from "@/components/EpisodeScript";
+import { Reveal } from "@/components/ui";
 import {
   EPISODE_UNWRITTEN,
   queuePlace,
@@ -13,7 +14,6 @@ import {
   refusedRelease,
 } from "@/components/ReleaseControls";
 import { endingPhrase } from "@/components/SeasonSpine";
-import { SEASON_WORDS } from "@/components/SeasonLayout";
 import type { Checks, EpisodeRelease } from "@/lib/publish";
 import type { EpisodeRef, SpineEntry } from "@/lib/serials";
 import {
@@ -58,9 +58,8 @@ import {
  * row, including the hover text. Repeated down fourteen rows they buried the
  * one line per row that differs.
  *
- * The episode that can go out next is open on arrival, because that is the one
- * decision this screen exists to support and it must not be hidden behind a
- * click. Nothing else is.
+ * All episode details start closed. The row exposes publishing and audio
+ * status; plot notes, attribution, queue position and controls are one click away.
  *
  * Nothing here decides anything. `EpisodeStanding` is imported whole, so the
  * buttons, the refusals and the pull warning are the same ones the episode's own
@@ -96,6 +95,7 @@ export function SeasonEpisodes({
   season,
   releases,
   checks,
+  audioEpisodes = [],
 }: {
   storyId: string;
   spine: SpineEntry[];
@@ -103,10 +103,12 @@ export function SeasonEpisodes({
   season: SeasonRelease;
   releases: EpisodeRelease[];
   checks: Checks;
+  audioEpisodes?: number[];
 }) {
   const byEp = new Map(releases.map((r) => [r.ep, r]));
   const all = rows(spine, episodes);
   const held = Math.max(0, season.written - season.releasedThrough);
+  const recorded = new Set(audioEpisodes);
 
   if (all.length === 0) {
     return (
@@ -120,7 +122,7 @@ export function SeasonEpisodes({
     <div>
       {/* Said once above the list rather than fourteen times inside it — the
           same reason `EpisodeReleaseList` says it once. */}
-      {!season.live && season.written > 0 && (
+      <Reveal summary="How publishing works" group="episode-help">{!season.live && season.written > 0 && (
         <p className="text-sm text-muted leading-relaxed prose-col mb-3">
           {episodeStanding(all[0].ep, season).plain}
         </p>
@@ -128,8 +130,9 @@ export function SeasonEpisodes({
       <p className="text-sm text-muted leading-relaxed prose-col">
         {ORDER_EXPLAINED}
       </p>
+      </Reveal>
 
-      <ul className="mt-6 border-t border-rule">
+      <ul className="episode-work-list">
         {all.map(({ ep, entry, written }) => {
           const standing = episodeStanding(ep, season);
           const release = byEp.get(ep) ?? null;
@@ -147,8 +150,9 @@ export function SeasonEpisodes({
           return (
             <li
               key={ep}
+              data-testid="episode-row"
               id={episodeAnchor(ep)}
-              className="border-b border-rule py-4 grid sm:grid-cols-[3.5rem_1fr] gap-x-5 gap-y-2 scroll-mt-24"
+              className="episode-work-row scroll-mt-24"
             >
               <div className="pt-1">
                 {written ? (
@@ -166,8 +170,8 @@ export function SeasonEpisodes({
               </div>
 
               <div className="min-w-0">
-                <div className="flex items-baseline gap-x-4 gap-y-1 flex-wrap">
-                  <h3 className="font-serif text-lg min-w-0">
+                <div className="episode-work-title">
+                  <h3 className="min-w-0">
                     {written ? (
                       <Link
                         href={href}
@@ -185,47 +189,11 @@ export function SeasonEpisodes({
                       refused ? refused.plain : standing.plain,
                     )}
                   >
-                    {refused ? refused.label : standing.label}
+                    {refused ? refused.label : standing.kind === "out" ? "Published" : standing.kind === "next" ? "Ready to publish" : standing.kind === "unwritten" ? "Not written" : "Draft"}
                   </span>
-
-                  {/* Who decided it, and when. The one fact about an episode
-                      that is a person's rather than the machine's. */}
-                  {standing.kind === "out" && release && (
-                    <span className="label">
-                      {episodeAudit({
-                        who: editorName(release.by),
-                        at: release.at,
-                      })}
-                    </span>
-                  )}
-
-                  {/* How long the wait is, for the rows whose only news is
-                      that they are waiting. */}
-                  {standing.kind === "waiting" && (
-                    <span
-                      className="label text-faint"
-                      title="How many releases come before this one."
-                    >
-                      {queuePlace(ep - season.releasedThrough)}
-                    </span>
-                  )}
-
-                  {standing.kind === "unwritten" && (
-                    <span className="label text-faint">{EPISODE_UNWRITTEN}</span>
-                  )}
-
-                  {hook && (
-                    <span
-                      className={`label ${entry?.hookRepeats ? "text-caution" : "text-faint"}`}
-                      title={
-                        entry?.hookRepeats
-                          ? "This kind of ending was already used earlier this season."
-                          : "The kind of cliffhanger this episode ends on."
-                      }
-                    >
-                      {hook}
-                    </span>
-                  )}
+                </div>
+                <div className="episode-work-meta">
+                  <span>{recorded.has(ep) ? "Audio ready" : "Not generated"}</span>
                   {written && (
                     <span className="label text-faint whitespace-nowrap">
                       ~{listenMinutes(written.words)} min
@@ -234,16 +202,15 @@ export function SeasonEpisodes({
                 </div>
 
                 {/*
-                  Open on the one episode that can go out. Everything else stays
-                  shut: fourteen summaries at once is the thing that made this
-                  page unreadable.
+                  Single-open and closed on arrival: each episode keeps its full
+                  story and controls available without overwhelming the list.
                 */}
                 <details
+                  name="episode-summaries"
                   className="group mt-1.5"
-                  open={standing.kind === "next"}
                 >
                   <summary className="label cursor-pointer list-none hover:text-ochre transition-colors">
-                    {SEASON_WORDS.whatHappens}
+                    Episode details
                     <span className="group-open:hidden" aria-hidden="true">
                       {" "}
                       ▸
@@ -254,7 +221,13 @@ export function SeasonEpisodes({
                     </span>
                   </summary>
 
-                  <div className="mt-3">
+                  <div className="mt-3" data-testid="episode-story-details">
+                    <div className="episode-work-meta mb-3">
+                      {standing.kind === "out" && release && <span>{episodeAudit({ who: editorName(release.by), at: release.at })}</span>}
+                      {standing.kind === "waiting" && <span>{queuePlace(ep - season.releasedThrough)}</span>}
+                      {standing.kind === "unwritten" && <span>{EPISODE_UNWRITTEN}</span>}
+                      {hook && <span className={entry?.hookRepeats ? "text-caution" : undefined}>{hook}{entry?.hookRepeats ? " · This kind of ending was already used earlier this season." : " · The kind of cliffhanger this episode ends on."}</span>}
+                    </div>
                     {detail ? (
                       <>
                         {entry?.turn && (

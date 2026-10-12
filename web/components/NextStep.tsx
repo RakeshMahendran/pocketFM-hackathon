@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Reveal } from "@/components/ui";
 
 import {
   HELD_LABEL,
@@ -68,13 +69,6 @@ export function NextStep({
   /** The consequence, before the click. */
   children?: React.ReactNode;
 }) {
-  const box =
-    tone === "do"
-      ? "border-ochre/40 bg-ochre/[0.04]"
-      : tone === "held"
-        ? "border-halt/40 bg-halt/5"
-        : "border-rule-strong";
-
   const label =
     tone === "do" ? "text-ochre" : tone === "held" ? "text-halt" : "";
 
@@ -91,11 +85,6 @@ export function NextStep({
    * `held` step is a wall — filling either would tell somebody to press a thing
    * the pipeline is going to refuse.
    */
-  const button =
-    tone === "do"
-      ? "bg-ochre border-ochre text-ink font-medium hover:bg-ochre/85"
-      : "border-rule-strong hover:border-ochre hover:text-ochre";
-
   const title =
     heading ??
     (tone === "do" ? NEXT_LABEL : tone === "held" ? HELD_LABEL : ONWARD_LABEL);
@@ -103,23 +92,26 @@ export function NextStep({
   const Heading = level === 3 ? "h3" : "h2";
 
   return (
-    <section className={`border rounded-sm p-5 ${box}`}>
+    <section className={`next-step ${tone === "held" ? "text-halt" : ""}`}>
+      <div className="next-copy">
       <Heading className={`label ${label}`}>{title}</Heading>
 
       {children && (
-        <p className="mt-3 text-[0.9375rem] text-paper leading-relaxed prose-col">
+        tone === "held" ? <p className="mt-2 text-sm">{children}</p> :
+        <Reveal summary="What happens next" group="next-step-explanation"><p className="text-sm text-muted leading-relaxed prose-col">
           {children}
-        </p>
+        </p></Reveal>
       )}
 
       {cost && (
-        <p className="mt-3 text-xs text-faint leading-relaxed prose-col">{cost}</p>
+        <p className="mt-1 text-xs text-faint leading-relaxed prose-col">{cost}</p>
       )}
+      </div>
 
       {href ? (
         <Link
           href={href}
-          className={`mt-4 inline-block border px-5 py-2.5 text-sm rounded-sm transition-colors ${button}`}
+          className={tone === "do" ? "primary-action" : "inline-block border border-rule-strong px-5 py-2.5 text-sm rounded-sm"}
         >
           {action} →
         </Link>

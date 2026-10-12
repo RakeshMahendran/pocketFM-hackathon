@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; font-family: Archivo, system-ui, sans-serif; }
+    a { color: #d9b27c; }
+    .ser { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+    .k { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #8d8377; }
+    .n { font-variant-numeric: tabular-nums; }
+    .card { background: linear-gradient(180deg,#1d1a17,#17140f); border: 1px solid rgba(255,255,255,.08); border-radius: 14px; overflow:hidden }
+    .grain { position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px); background-size: 3px 3px; }
+  </style>
+</helmet>
+
+<div style="width: 1440px; height: 900px; background: #100e0c; color: #efe9e0; overflow: hidden">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 44px; height: 58px; border-bottom: 1px solid rgba(255,255,255,.07)">
+    <div style="display: flex; align-items: center; gap: 30px">
+      <span class="ser" style="font-size: 21px">FlakersFM</span>
+      <span class="k" style="color:#efe9e0">Find stories</span>
+      <span class="k">Make the show</span>
+      <span class="k">Release</span>
+      <span class="k">Spin off</span>
+    </div>
+    <span class="k">Priya Raghavan · Commissioning</span>
+  </div>
+
+  <!--
+    The old /home was ~500 words of explanation and zero data. This is the same
+    four steps, said once, with the actual state of the slate underneath — so the
+    front door shows the shop rather than describing it.
+  -->
+  <div style="padding: 34px 44px 0; display:grid; grid-template-columns: 1fr 420px; gap:56px; align-items:center">
+    <div>
+      <div class="ser" style="font-size: 50px; line-height:1.05; max-width:22ch">
+        Real events in, serials out — and every side character can become a lead.
+      </div>
+      <div style="display:flex; gap:40px; margin-top:30px">
+        <div><div class="n ser" style="font-size:32px">30</div><div class="k">stories found</div></div>
+        <div><div class="n ser" style="font-size:32px; color:#d9b27c">8</div><div class="k">shows in progress</div></div>
+        <div><div class="n ser" style="font-size:32px">10</div><div class="k">episodes with listeners</div></div>
+        <div><div class="n ser" style="font-size:32px">4</div><div class="k">spin-offs written</div></div>
+      </div>
+      <div style="display:flex; align-items:center; gap:16px; margin-top:30px">
+        <div style="background:#efe9e0; color:#100e0c; font-size:14px; font-weight:600; padding:13px 26px; border-radius:999px">See what the search found</div>
+        <span class="k">Nothing here spends money until it says so</span>
+      </div>
+    </div>
+
+    <div style="height:330px; border-radius:20px; position:relative; overflow:hidden; box-shadow:0 30px 60px -34px rgba(0,0,0,1);
+                background: radial-gradient(115% 85% at 20% 12%, #7a4059 0%, rgba(122,64,89,0) 58%), radial-gradient(105% 95% at 88% 84%, #3d5d6b 0%, rgba(61,93,107,0) 62%), linear-gradient(155deg,#2a2028,#13100f)">
+      <div class="grain"></div>
+      <div style="position:absolute; inset:0; background:linear-gradient(180deg,rgba(16,14,12,0) 42%,rgba(16,14,12,.9) 100%)"></div>
+      <div style="position:absolute; left:24px; right:24px; bottom:20px">
+        <div class="k" style="color:rgba(239,233,224,.8)">Newest show</div>
+        <div class="ser" style="font-size:27px; line-height:1.1; margin-top:5px">The Man Who Answers to a Dead Name</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- the four steps, once, as destinations -->
+  <div style="padding: 40px 44px 0">
+    <div style="display:grid; grid-template-columns: repeat(4,1fr); gap:20px">
+
+      <div class="card" style="padding:18px 20px; border-left:2px solid #d9b27c">
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span class="k" style="color:#d9b27c">One</span><span class="n k">30 waiting</span>
+        </div>
+        <div class="ser" style="font-size:22px; margin-top:8px">Find real stories</div>
+        <div style="font-size:13px; line-height:1.55; color:#8d8377; margin-top:7px">
+          A search reads court records and news, rates what it finds, and says whether we may make it.
+        </div>
+      </div>
+
+      <div class="card" style="padding:18px 20px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span class="k">Two</span><span class="n k">8 made</span>
+        </div>
+        <div class="ser" style="font-size:22px; margin-top:8px">Make the show</div>
+        <div style="font-size:13px; line-height:1.55; color:#8d8377; margin-top:7px">
+          Order a season. The writer plans it and writes it, along with a record of who was there
+          — and who never finds out.
+        </div>
+      </div>
+
+      <div class="card" style="padding:18px 20px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span class="k">Three</span><span class="n k">10 out</span>
+        </div>
+        <div class="ser" style="font-size:22px; margin-top:8px">Put it in front of listeners</div>
+        <div style="font-size:13px; line-height:1.55; color:#8d8377; margin-top:7px">
+          Put the show live, then let episodes out one at a time.
+        </div>
+      </div>
+
+      <div class="card" style="padding:18px 20px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between">
+          <span class="k">Four</span><span class="n k">4 written</span>
+        </div>
+        <div class="ser" style="font-size:22px; margin-top:8px">Give a side character their own show</div>
+        <div style="font-size:13px; line-height:1.55; color:#8d8377; margin-top:7px">
+          Build a season out of what someone at the edge was never told. It cannot contradict the
+          one it came from, and the check is what proves it.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
